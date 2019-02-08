@@ -1,0 +1,31 @@
+{
+  "compilerOptions": {
+    "target": "esnext",
+    "module": "commonjs",
+    "moduleResolution": "Node",
+    "downlevelIteration": true,
+    "sourceMap": false,
+    "inlineSourceMap": false,
+    "inlineSources": false,
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "forceConsistentCasingInFileNames": true,
+    "allowSyntheticDefaultImports": true,
+    "preserveConstEnums": true,
+    "removeComments": true,
+    "importHelpers": true,
+    "pretty": true,
+    "strict": true,
+    "declaration": false,
+    "declarationMap": false,
+    "outDir": "dist",
+    "baseUrl": "src",
+    "paths": {
+      "@helpers/*": ["helpers/*"],
+      "@scripts/*": ["scripts/*"]
+    }
+  },
+  "exclude": [
+    "dist"
+  ]
+}

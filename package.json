@@ -1,0 +1,34 @@
+{
+  "name": "radiostuff",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc",
+    "watch": "tsc -w"
+  },
+  "author": "",
+  "license": "ISC",
+  "_moduleAliases": {
+    "@helpers": "dist/helpers",
+    "@scripts": "dist/scripts"
+  },
+  "dependencies": {
+    "axios": "0.18.0",
+    "chalk": "2.4.2",
+    "csv": "5.1.1",
+    "jsdom": "13.2.0",
+    "module-alias": "2.1.0",
+    "node-csv": "0.1.2",
+    "tslib": "1.9.3",
+    "tslint": "5.12.1",
+    "tslint-config-standard": "8.0.1",
+    "tslint-eslint-rules": "5.4.0",
+    "typescript": "3.3.1"
+  },
+  "devDependencies": {
+    "@types/jsdom": "12.2.1",
+    "@types/module-alias": "2.0.0",
+    "@types/node": "10.12.21"
+  }
+}
