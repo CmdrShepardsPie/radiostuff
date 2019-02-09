@@ -1,6 +1,6 @@
 import "module-alias/register";
 
-import {readdirAsync, readFileAsync, writeToJsonAndCsv} from "@helpers/fs-helpers";
+import {readFileAsync, writeToJsonAndCsv} from "@helpers/fs-helpers";
 import {numberToString} from "@helpers/helpers";
 import {createLog} from "@helpers/log-helpers";
 import chalk from "chalk";
@@ -25,7 +25,7 @@ function group(groupBy: keyof IRepeater, repeaters: IRepeater[]) {
   const keyedGroups: { [index: string]: IRepeater[] } = {};
   repeaters.forEach((repeater) => {
     const keyVal = repeater[groupBy];
-    if (keyVal !== undefined && keyVal !== null) {
+    if (keyVal !== undefined && keyVal !== null && keyVal !== "") {
       if (!keyedGroups[keyVal]) {
         keyedGroups[keyVal] = [];
       }
@@ -34,20 +34,21 @@ function group(groupBy: keyof IRepeater, repeaters: IRepeater[]) {
   });
   const sorting = Object.entries(keyedGroups);
   sorting.sort((a, b) => {
-    const aMi = numberToString(a[1][0].Mi, 3, 3);
-    const bMi = numberToString(b[1][0].Mi, 3, 3);
-    const aNumRepeaters = numberToString(100 - a[1].length, 3, 3);
-    const bNumRepeaters = numberToString(100 - b[1].length, 3, 3);
+    const aMi = numberToString(a[1][0].Mi * 100, 3, 24);
+    const bMi = numberToString(b[1][0].Mi * 100, 3, 24);
+    const aNumRepeaters = numberToString(100 - a[1].length, 4, 1);
+    const bNumRepeaters = numberToString(100 - b[1].length, 4, 1);
     const aGroupName = a[0];
     const bGroupName = b[0];
-    const aFrequency = numberToString(a[1][0].Frequency, 3, 3);
-    const bFrequency = numberToString(b[1][0].Frequency, 3, 3);
+    const aFrequency = numberToString(a[1][0].Frequency, 4, 5);
+    const bFrequency = numberToString(b[1][0].Frequency, 4, 5);
     // Sort by distance, then number of repeaters in group, then group name
     const aStr = `${aMi} ${aNumRepeaters} ${aGroupName} ${aFrequency}`;
     const bStr = `${bMi} ${bNumRepeaters} ${bGroupName} ${bFrequency}`;
+    // Sort by number of repeaters in group, then distance, then group name
     // const aStr = `${aNumRepeaters} ${aMi} ${aGroupName} ${aFrequency}`;
     // const bStr = `${bNumRepeaters} ${bMi} ${bGroupName} ${bFrequency}`;
-    // log(aStr, bStr);
+
     return aStr > bStr ? 1 : aStr < bStr ? -1 : 0;
   });
   return sorting.reduce((prev, curr) => [...prev, ...curr[1]], [] as IRepeater[]);
@@ -66,9 +67,12 @@ async function start() {
   // await doIt("Colorado Springs");
   // await doIt("Denver");
   // await doIt("Grand Junction");
+  // await doIt("Call",
+  //   `data/repeaters/results/CO/Colorado Springs.json`,
+  //   `data/repeaters/groups/CO/Colorado Springs - Call`);
   await doIt("Call",
-    `data/repeaters/results/CO/Colorado Springs.json`,
-    `data/repeaters/groups/CO/Colorado Springs - Call`);
+    `data/repeaters/combined/CO.json`,
+    `data/repeaters/groups/combined/CO - Call`);
 }
 
 export default start();

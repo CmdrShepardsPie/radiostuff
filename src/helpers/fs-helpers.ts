@@ -73,16 +73,16 @@ export function splitExtension(filename: string) {
   return { name, ext };
 }
 
-export async function getAllFilesFromDirectory<T>(directory: string, extension?: string): Promise<T[]> {
-  log(chalk.green("Get All Files from Directory"), directory, extension);
+export async function getAllFilesFromDirectory<T>(directory: string): Promise<T[]> {
+  log(chalk.green("Get All Files from Directory"), directory);
 
   const files = [];
   const fileNames = await readdirAsync(directory);
-  const extMatch = new RegExp(`${extension}$`);
+  const extMatch = /\.json$/i;
   for (const fileName of fileNames) {
     const file = path.join(directory, fileName);
     const stat = await statAsync(file);
-    if (stat.isFile() && (!extension || file.match(extMatch))) {
+    if (stat.isFile() && file.match(extMatch)) {
       // log("Get All Files From Directory", chalk.green("reading"), file);
       const data = await readFileAsync(file, "utf8");
       files.push(JSON.parse(data));

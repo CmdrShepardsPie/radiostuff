@@ -153,8 +153,10 @@ async function start() {
   //   await doIt(file);
   // }
 
-  await doIt("data/repeaters/groups/CO/Colorado Springs - Call.json", "data/repeaters/chirp/groups/CO/Colorado Springs - Call");
-  await doIt("data/repeaters/results/CO/Colorado Springs.json", "data/repeaters/chirp/CO/Colorado Springs");
+  // await doIt("data/repeaters/groups/CO/Colorado Springs - Call.json", "data/repeaters/chirp/groups/CO/Colorado Springs - Call");
+  // await doIt("data/repeaters/results/CO/Colorado Springs.json", "data/repeaters/chirp/CO/Colorado Springs");
+  await doIt("data/repeaters/combined/CO.json", "data/repeaters/chirp/combined/CO");
+  await doIt("data/repeaters/groups/combined/CO - Call.json", "data/repeaters/chirp/groups/CO - Call");
 }
 
 export default start();

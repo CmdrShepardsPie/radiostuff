@@ -27,6 +27,9 @@ export function numberToString(num: number, major?: number, minor?: number) {
     while (split[0].length < major) {
       split[0] = "0" + split[0];
     }
+    if (split[0].length > major) {
+      log(chalk.red("Major length exceeded"), "Number:", num, "Section:", split[0], "Length:", split[0].length, "Target:", major);
+    }
     str = split.join(".");
   }
   if (minor !== undefined) {
@@ -35,6 +38,9 @@ export function numberToString(num: number, major?: number, minor?: number) {
     }
     while (split[1].length < minor) {
       split[1] = split[1] + "0";
+    }
+    if (split[1].length > minor) {
+      log(chalk.red("Minor length exceeded"), "Number:", num, "Section:", split[1], "Length:", split[1].length, "Target:", minor);
     }
     str = split.join(".");
   }

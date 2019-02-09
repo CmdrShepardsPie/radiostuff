@@ -55,13 +55,15 @@ export default class Scraper {
   }
 
   private async getRepeaterDetails(href: string) {
-    log(chalk.green("Get Repeater Details"), href);
+    // log(chalk.green("Get Repeater Details"), href);
     const urlParams = href.split("?")[1];
     const keyParts = urlParams.match(/state_id=(\d+)&ID=(\d+)/) || [];
     const key = `${keyParts[1]}/${keyParts[2]}.html`;
     const page = await this.getUrl(`https://www.repeaterbook.com/repeaters/${href}`, key);
     const dom = new JSDOM(page);
     const data: { [index: string]: string | number } = {};
+    data.state_id = keyParts[1];
+    data.ID = keyParts[2];
     const menus = dom.window.document.querySelectorAll<HTMLAnchorElement>("#cssmenu a");
     const locationRegex = /(-?\d*\.?\d*)\+(-?\d*\.?\d*)/i;
     for (const menu of menus) {
@@ -71,7 +73,6 @@ export default class Scraper {
         const long = getNumber(locationMatch[2]);
         data.Latitude = isNaN(lat) ? locationMatch[1] : lat;
         data.Longitude = isNaN(long) ? locationMatch[2] : long;
-        log(chalk.green("LatLong"), data.Latitude, data.Longitude);
         break;
       }
     }
@@ -86,6 +87,18 @@ export default class Scraper {
         data[dataKey] = value;
       }
     }
+    log(
+      data.state_id ? data.state_id : "", "\t",
+      data.ID ? data.ID : "", "\t",
+      data.Latitude ? data.Latitude : "", "\t",
+      data.Longitude ? data.Longitude : "", "\t",
+      data.Call ? data.Call : "", "\t",
+      data.Downlink ? data.Downlink : "", "\t",
+      data.Use ? data.Use : "", "\t",
+      data["Op Status"] ? data["Op Status"] : "", "\t",
+      data.Affiliate ? data.Affiliate : "", "\t",
+      data.Sponsor ? data.Sponsor : "",
+    );
     return data;
   }
 
@@ -108,7 +121,7 @@ export default class Scraper {
     const cache = await this.getCache(cacheKey || url);
     if (cache) {
       // log(chalk.yellow("Cached"), url, cacheKey);
-      write(chalk.green(">"));
+      // write(chalk.green(">"));
       return cache;
     } else {
       // Slow down the requests a little bit so we're not hammering the server or triggering any anti-bot or DDoS protections
@@ -118,7 +131,7 @@ export default class Scraper {
       // log(chalk.yellow("Get"), url);
       const request = await Axios.get(url);
       // log(chalk.green("Got"), url);
-      write(chalk.yellow("+"));
+      // write(chalk.yellow("+"));
 
       const data = request.data;
       await this.setCache(cacheKey || url, data);
