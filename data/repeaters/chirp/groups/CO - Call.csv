@@ -1,0 +1,1198 @@
+Location,Name,Frequency,Duplex,Offset,Tone,rToneFreq,cToneFreq,DtcsCode,DtcsRxCode,DtcsPolarity,Mode,TStep,Comment
+0,SRJcoloradosprings,224.06,-,1.6,,88.5,88.5,23,23,NN,FM,5,CO El Paso Colorado Springs KB0SRJ 224.06 CLOSED 
+1,SRJcoloradosprings,145.265,-,0.6,Tone,100,100,23,23,NN,DIG,5,CO El Paso Colorado Springs KB0SRJ 145.265 OPEN On-Air
+2,"SRJcoloradosprings, uccs",448.8,-,5,Tone,100,100,23,23,NN,DIG,5,"CO El Paso Colorado Springs, UCCS KB0SRJ 448.8 OPEN Off-Air"
+3,"SRJcoloradosprings, pikes peak",146.97,-,0.6,Tone,100,123,23,23,NN,FM,5,"CO El Paso Colorado Springs, Pikes Peak KB0SRJ 146.97 OPEN On-Air"
+4,"SRJcoloradosprings, pikes peak",448.45,-,5,Tone,100,100,23,23,NN,FM,5,"CO El Paso Colorado Springs, Pikes Peak KB0SRJ 448.45 OPEN On-Air"
+5,X0Gcoloradosprings,447.475,-,5,Tone,107.2,107.2,23,23,NN,FM,5,CO El Paso Colorado Springs NX0G 447.475 OPEN 
+6,X0Gwoodlandpark,146.82,-,0.6,Tone,107.2,107.2,23,23,NN,FM,5,CO Teller Woodland Park NX0G 146.82 OPEN On-Air
+7,X0Gwoodlandpark,448.65,-,5,Tone,107.2,107.2,23,23,NN,FM,5,CO Teller Woodland Park NX0G 448.65 OPEN On-Air
+8,X0Gcripplecreek,147.015,+,0.6,Tone,107.2,107.2,23,23,NN,FM,5,CO Teller Cripple Creek NX0G 147.015 OPEN On-Air
+9,"X0Glakegeorge, badger mountain",146.685,-,0.6,Tone,107.2,107.2,23,23,NN,FM,5,"CO Park Lake George, Badger Mountain NX0G 146.685 OPEN On-Air"
+10,MOGcoloradosprings,448.6,-,5,Tone,114.8,114.8,23,23,NN,FM,5,CO El Paso Colorado Springs W0MOG 448.6 OPEN 
+11,MOGcoloradosprings,927.8,-,25,DTCS,88.5,88.5,116,116,NN,FM,5,CO Teller Colorado Springs W0MOG 927.8 OPEN On-Air
+12,MOGcoloradosprings,147.39,+,0.6,Tone,103.5,103.5,23,23,NN,FM,5,CO El Paso Colorado Springs W0MOG 147.39 OPEN On-Air
+13,MOGcoloradosprings,224.72,-,1.6,Tone,103.5,103.5,23,23,NN,FM,5,CO El Paso Colorado springs W0MOG 224.72 OPEN On-Air
+14,IFIcoloradosprings,447.55,-,5,Tone,123,123,23,23,NN,FM,5,CO El Paso Colorado Springs WA6IFI 447.55 OPEN On-Air
+15,"IFIcoloradosprings, cheyenne mountain",53.13,-,1.7,Tone,107.2,107.2,23,23,NN,FM,5,"CO El Paso Colorado Springs, Cheyenne Mountain WA6IFI 53.13 OPEN On-Air"
+16,"IFIcoloradosprings, almagre mountain",927.725,-,25.7,DTCS,88.5,88.5,114,114,NN,DIG,5,"CO Teller Colorado Springs, Almagre Mountain WA6IFI 927.725 OPEN On-Air"
+17,"IFItrinidad,raton pass",145.43,-,0.6,Tone,107.2,107.2,23,23,NN,FM,5,"CO Las Animas Trinidad, Raton Pass WA6IFI 145.43 OPEN On-Air"
+18,A0Lcoloradosprings,448.3,-,5,Tone,100,100,23,23,NN,FM,5,CO El Paso Colorado Springs AA0L 448.3 OPEN On-Air
+19,A0Lcoloradosprings,147.135,+,0.6,Tone,100,100,23,23,NN,FM,5,CO El Paso Colorado Springs AA0L 147.135 OPEN On-Air
+20,IRPcoloradosprings,447.35,-,5,Tone,151.4,151.4,23,23,NN,FM,5,CO El Paso Colorado Springs K0IRP 447.35 OPEN On-Air
+21,IRPcoloradosprings,146.91,-,0.6,Tone,151.4,151.4,23,23,NN,FM,5,CO El Paso Colorado Springs K0IRP 146.91 OPEN On-Air
+22,0WFcoloradosprings,447.025,-,5,Tone,123,123,23,23,NN,FM,5,CO El Paso Colorado Springs KF0WF 447.025 OPEN Off-Air
+23,"0KGcoloradosprings, broadmoor area",448.25,-,5,Tone,123,123,23,23,NN,FM,5,"CO El Paso Colorado Springs, Broadmoor Area N0KG 448.25 OPEN Off-Air"
+24,RSHcoloradosprings,146.85,-,0.6,Tone,156.7,156.7,23,23,NN,FM,5,CO El Paso Colorado Springs W0RSH 146.85 OPEN On-Air
+25,"TTFcoloradosprings, fillmore hill",448.725,-,5,Tone,123,123,23,23,NN,FM,5,"CO El Paso Colorado Springs, Fillmore Hill KA0TTF 448.725 OPEN On-Air"
+26,"VJJcoloradosprings, cheyenne mountain",145.13,-,0.6,Tone,88.5,123,23,23,NN,FM,5,"CO El Paso Colorado Springs, Cheyenne Mountain KB0VJJ 145.13 OPEN On-Air"
+27,"VJJboulder,thorodin mountain",145.31,-,0.6,Tone,88.5,123,23,23,NN,FM,5,"CO Gilpin Boulder, Thorodin Mountain KB0VJJ 145.31 OPEN On-Air"
+28,"VJJsalida,methodist mountain",147.285,+,0.6,Tone,88.5,123,23,23,NN,FM,5,"CO Chaffee Salida, Methodist Mountain KB0VJJ 147.285 OPEN On-Air"
+29,"VJJbreckenridge,bald mountain",147.39,+,0.6,Tone,88.5,123,23,23,NN,FM,5,"CO Summit Breckenridge, Bald Mountain KB0VJJ 147.39 OPEN On-Air"
+30,"VJJwinterpark, winter park",147.285,+,0.6,Tone,88.5,123,23,23,NN,FM,5,"CO Grand Winter Park, Winter Park KB0VJJ 147.285 OPEN On-Air"
+31,"VJJleadville,mosquito pass",145.445,-,0.6,Tone,88.5,88.5,23,23,NN,FM,5,"CO Lake Leadville, Mosquito Pass KB0VJJ 145.445 OPEN On-Air"
+32,VJJvail,147.345,+,0.6,Tone,88.5,123,23,23,NN,FM,5,CO Eagle Vail KB0VJJ 147.345 OPEN On-Air
+33,"VJJkremmling,santoy peak",147.075,+,0.6,Tone,88.5,123,23,23,NN,FM,5,"CO Grand Kremmling, Santoy Peak KB0VJJ 147.075 OPEN On-Air"
+34,VJJakron,145.4,-,0.6,Tone,88.5,123,23,23,NN,FM,5,CO Washington Akron KB0VJJ 145.4 OPEN On-Air
+35,"VJJwalden,peterson ridge",145.16,-,0.6,Tone,88.5,123,23,23,NN,FM,5,"CO Jackson Walden, Peterson Ridge KB0VJJ 145.16 OPEN On-Air"
+36,VJJsteamboatsprings,147.165,+,0.6,Tone,88.5,123,23,23,NN,FM,5,CO Routt Steamboat Springs KB0VJJ 147.165 OPEN On-Air
+37,VJJsteamboatsprings,449.625,-,5,Tone,123,123,23,23,NN,FM,5,CO Routt Steamboat Springs KB0VJJ 449.625 OPEN On-Air
+38,"VJJglenwoodsprings, sunlight peak",146.85,-,0.6,Tone,88.5,123,23,23,NN,FM,5,"CO Garfield Glenwood Springs, Sunlight Peak KB0VJJ 146.85 OPEN On-Air"
+39,"VJJgrandjunction, grand mesa",145.355,-,0.6,Tone,88.5,123,23,23,NN,FM,5,"CO Mesa Grand Junction, Grand Mesa KB0VJJ 145.355 OPEN On-Air"
+40,VJJcraig,146.97,-,0.6,Tone,88.5,123,23,23,NN,FM,5,CO Moffat Craig KB0VJJ 146.97 OPEN On-Air
+41,"VJJdurango,missionary ridge",147.345,+,0.6,Tone,88.5,123,23,23,NN,FM,5,"CO La Plata Durango, Missionary Ridge KB0VJJ 147.345 OPEN On-Air"
+42,"VJJgrandjunction, grand mesa",147.355,-,0.6,Tone,88.5,123,23,23,NN,FM,5,"CO Mesa Grand Junction, Grand Mesa KB0VJJ 147.355 OPEN On-Air"
+43,"0SZcoloradosprings, cheyenne mountain",445.0625,-,5,,88.5,88.5,23,23,NN,DIG,5,"CO El Paso Colorado Springs, Cheyenne Mountain N0SZ 445.0625 OPEN Off-Air"
+44,"0SZcoloradosprings, almagre mountain",145.235,-,0.6,,88.5,88.5,23,23,NN,DIG,5,"CO El Paso Colorado Springs, Almagre Mountain N0SZ 145.235 OPEN On-Air"
+45,0SZwestcreek,446.875,-,5,,88.5,88.5,23,23,NN,DIG,5,CO Douglas Westcreek N0SZ 446.875 OPEN On-Air
+46,"0SZevergreen,squaw mountain",145.175,-,0.6,,88.5,88.5,23,23,NN,DIG,5,"CO Clear Creek Evergreen, Squaw Mountain N0SZ 145.175 OPEN On-Air"
+47,"0SZgolden,lookout mountain",145.37,-,0.6,,88.5,88.5,23,23,NN,DIG,5,"CO Jefferson Golden, Lookout Mountain N0SZ 145.37 OPEN On-Air"
+48,"0SZfairplay,badger",446.7625,-,5,,88.5,88.5,23,23,NN,DIG,5,"CO Park Fairplay, Badger N0SZ 446.7625 OPEN On-Air"
+49,"0SZidahosprings, squaw mountain",448.225,-,5,Tone,141.3,141.3,23,23,NN,FM,5,"CO Clear Creek Idaho Springs, Squaw Mountain N0SZ 448.225 OPEN On-Air"
+50,"0SZidahosprings, squaw mountain",446.9375,-,5,,88.5,88.5,23,23,NN,DIG,5,"CO Clear Creek Idaho Springs, Squaw Mountain N0SZ 446.9375 OPEN On-Air"
+51,"0SZdenver,thorodin mountain",449.225,-,5,Tone,141.3,141.3,23,23,NN,FM,5,"CO Gilpin Denver, Thorodin Mountain N0SZ 449.225 OPEN On-Air"
+52,"0SZsalida,methodist mountain",446.8125,-,5,,88.5,88.5,23,23,NN,DIG,5,"CO Chaffee Salida, Methodist Mountain N0SZ 446.8125 OPEN On-Air"
+53,"0SZboulder,mount thorodin",446.8,-,5,,88.5,88.5,23,23,NN,DIG,5,"CO Boulder Boulder, Mount Thorodin N0SZ 446.8 OPEN On-Air"
+54,"0SZbreckenridge,baldy",445.0875,-,5,,88.5,88.5,23,23,NN,DIG,5,"CO Fremont Breckenridge, Baldy N0SZ 445.0875 OPEN On-Air"
+55,"0SZboulder,lee hill",445.05,-,5,,88.5,88.5,23,23,NN,DIG,5,"CO Boulder Boulder, Lee Hill N0SZ 445.05 OPEN On-Air"
+56,"0SZboulder,lee hill",446.9875,-,5,,88.5,88.5,23,23,NN,DIG,5,"CO Boulder Boulder, Lee Hill N0SZ 446.9875 OPEN On-Air"
+57,"0SZboulder,lee hill",447.75,-,5,Tone,141.3,141.3,23,23,NN,FM,5,"CO Boulder Boulder, Lee Hill N0SZ 447.75 OPEN On-Air"
+58,"0SZleadville,mosquito pass",445.05,-,5,,88.5,88.5,23,23,NN,DIG,5,"CO Lake Leadville, Mosquito Pass N0SZ 445.05 OPEN On-Air"
+59,0SZvail,445.075,-,5,,88.5,88.5,23,23,NN,DIG,5,CO Eagle Vail N0SZ 445.075 OPEN On-Air
+60,"0SZdurango,missionary ridge",445.1375,-,5,,88.5,88.5,23,23,NN,DIG,5,"CO La Plata Durango, Missionary Ridge N0SZ 445.1375 OPEN On-Air"
+61,"0SZrangely,cathedral bluffs",445.2625,-,5,,88.5,88.5,23,23,NN,DIG,5,"CO Rio Blanco Rangely, Cathedral Bluffs N0SZ 445.2625 OPEN On-Air"
+62,"CVUcoloradosprings, cheyenne mountain",446.9125,-,5,,88.5,88.5,23,23,NN,DIG,5,"CO El Paso Colorado Springs, Cheyenne Mountain KC0CVU 446.9125 OPEN Off-Air"
+63,"CVUcoloradosprings, cheyenne mountain",927.85,-,25,DTCS,88.5,88.5,114,114,NN,FM,5,"CO Teller Colorado Springs, Cheyenne Mountain KC0CVU 927.85 OPEN On-Air"
+64,"CVUcoloradosprings, cheyenne mountain",145.375,-,0.6,,88.5,88.5,23,23,NN,DIG,5,"CO El Paso Colorado Springs, Cheyenne Mountain KC0CVU 145.375 OPEN Off-Air"
+65,"CVUcoloradosprings, cheyenne mountain",147.345,+,0.6,Tone,107.2,107.2,23,23,NN,FM,5,"CO El Paso Colorado Springs, Cheyenne Mountain KC0CVU 147.345 OPEN On-Air"
+66,"CVUcoloradosprings, cheyenne mountain",146.76,-,0.6,Tone,107.2,107.2,23,23,NN,FM,5,"CO El Paso Colorado Springs, Cheyenne Mountain KC0CVU 146.76 OPEN On-Air"
+67,"CVUcoloradosprings, cheyenne mountain",448,-,5,Tone,107.2,107.2,23,23,NN,FM,5,"CO El Paso Colorado Springs, Cheyenne Mountain KC0CVU 448 OPEN On-Air"
+68,"CVUcoloradosprings, cheyenne mountain",448.1,-,5,Tone,107.2,107.2,23,23,NN,FM,5,"CO El Paso Colorado Springs, Cheyenne Mountain KC0CVU 448.1 OPEN On-Air"
+69,"CVUlakegeorge, badger mountain",147.36,+,0.6,Tone,107.2,107.2,23,23,NN,FM,5,"CO Park Lake George, Badger Mountain KC0CVU 147.36 OPEN On-Air"
+70,"CVUpueblo,deer peak",449.625,-,5,Tone,107.2,107.2,23,23,NN,FM,5,"CO Custer Pueblo, Deer Peak KC0CVU 449.625 OPEN On-Air"
+71,"CVUsalida,methodist mountain",145.295,-,0.6,Tone,107.2,107.2,23,23,NN,FM,5,"CO Chaffee Salida, Methodist Mountain KC0CVU 145.295 OPEN On-Air"
+72,"CVUsalida,methodist mountain",449.65,-,5,Tone,107.2,107.2,23,23,NN,FM,5,"CO Chaffee Salida, Methodist Mountain KC0CVU 449.65 OPEN On-Air"
+73,"CVUtrinidad,raton pass",449.6,-,5,Tone,107.2,107.2,23,23,NN,FM,5,"CO Las Animas Trinidad, Raton Pass KC0CVU 449.6 OPEN Off-Air"
+74,"CRAcoloradosprings, cheyenne mountain",145.16,-,0.6,Tone,107.2,107.2,23,23,NN,FM,5,"CO El Paso Colorado Springs, Cheyenne Mountain W0CRA 145.16 OPEN On-Air"
+75,"CRAlarkspur,westcreek",147.225,+,0.6,Tone,107.2,107.2,23,23,NN,FM,5,"CO Douglas Larkspur, Westcreek W0CRA 147.225 OPEN On-Air"
+76,"CRAlarkspur,westcreek",448.425,-,5,Tone,107.2,107.2,23,23,NN,FM,5,"CO Douglas Larkspur, Westcreek W0CRA 448.425 OPEN On-Air"
+77,"CRAconifer,conifer mountain",224.98,-,1.6,Tone,107.2,107.2,23,23,NN,FM,5,"CO Jefferson Conifer, Conifer Mountain W0CRA 224.98 OPEN Off-Air"
+78,"CRAconifer,conifer mountain",447.15,-,5,Tone,107.2,107.2,23,23,NN,FM,5,"CO Jefferson Conifer, Conifer Mountain W0CRA 447.15 OPEN Off-Air"
+79,"CRAconifer,conifer mountain",1287.9,-,20,,88.5,88.5,23,23,NN,FM,5,"CO Jefferson Conifer, Conifer Mountain W0CRA 1287.9 OPEN Off-Air"
+80,"CRAconifer,conifer mountain",53.05,-,1.7,Tone,107.2,107.2,23,23,NN,FM,5,"CO Jefferson Conifer, Conifer Mountain W0CRA 53.05 OPEN Off-Air"
+81,"CRAidahosprings, squaw mountain",145.145,-,0.6,Tone,107.2,107.2,23,23,NN,FM,5,"CO Clear Creek Idaho Springs, Squaw Mountain W0CRA 145.145 OPEN On-Air"
+82,"CRAidahosprings, squaw mountain",447.575,-,5,Tone,107.2,107.2,23,23,NN,FM,5,"CO Clear Creek Idaho Springs, Squaw Mountain W0CRA 447.575 OPEN On-Air"
+83,"CRAboulder,eldorado mountain",145.46,-,0.6,Tone,107.2,107.2,23,23,NN,FM,5,"CO Boulder Boulder, Eldorado Mountain W0CRA 145.46 OPEN On-Air"
+84,"CRAboulder,eldorado mountain",447.975,-,5,Tone,107.2,107.2,23,23,NN,FM,5,"CO Boulder Boulder, Eldorado Mountain W0CRA 447.975 OPEN On-Air"
+85,"PFJcoloradosprings, almagre mountain",446.95,-,5,,88.5,88.5,23,23,NN,DIG,5,"CO Teller Colorado Springs, Almagre Mountain K7PFJ 446.95 OPEN On-Air"
+86,"PFJgranby,mt chauncey",446.875,-,5,,88.5,88.5,23,23,NN,DIG,5,"CO Clear Creek Granby, Mt Chauncey K7PFJ 446.875 OPEN On-Air"
+87,"PFJfortcollins, horsetooth mountain",446.75,-,5,,88.5,88.5,23,23,NN,DIG,5,"CO Larimer Fort Collins, Horsetooth Mountain K7PFJ 446.75 OPEN On-Air"
+88,"PFJcheyenne,south",449.9375,-,5,,88.5,88.5,23,23,NN,DIG,5,"WY Laramie Cheyenne, South K7PFJ 449.9375 OPEN On-Air"
+89,"0SPcoloradosprings, almagre mountain",147.18,+,0.6,Tone,100,100,23,23,NN,FM,5,"CO El Paso Colorado Springs, Almagre Mountain AA0SP 147.18 PRIVATE On-Air"
+90,"0NRmonument,monument hill",447.725,-,5,Tone,100,100,23,23,NN,FM,5,"CO El Paso Monument, Monument Hill K0NR 447.725 OPEN On-Air"
+91,WUCwoodlandpark,145.415,-,0.6,Tone,179.9,179.9,23,23,NN,FM,5,CO Teller Woodland Park KA0WUC 145.415 OPEN 
+92,WUCwoodlandpark,449.025,-,5,Tone,141.3,141.3,23,23,NN,FM,5,CO Teller Woodland Park KA0WUC 449.025 OPEN 
+93,WUCwoodlandpark,927.9,-,25,DTCS,88.5,88.5,205,205,NN,FM,5,CO Teller Woodland Park KA0WUC 927.9 OPEN On-Air
+94,WUCwoodlandpark,447.675,-,5,Tone,179.9,179.9,23,23,NN,FM,5,CO Teller Woodland Park KA0WUC 447.675 OPEN On-Air
+95,"EPSwoodlandpark, paradise pines",449.325,-,5,Tone,103.5,103.5,23,23,NN,FM,5,"CO Teller Woodland Park, Paradise Pines KA4EPS 449.325 OPEN On-Air"
+96,"MDPfalcon,black forest",447.625,-,5,Tone,100,100,23,23,NN,FM,5,"CO El Paso Falcon, Black Forest KD0MDP 447.625 OPEN On-Air"
+97,"XLFpalmerlake, monument hill",145.19,-,0.6,Tone,131.8,131.8,23,23,NN,FM,5,"CO Douglas Palmer Lake, Monument Hill N0XLF 145.19 OPEN On-Air"
+98,WDFcripplecreek,447.4,-,5,Tone,67,67,23,23,NN,FM,5,CO Teller Cripple Creek WB0WDF 447.4 OPEN On-Air
+99,WDFcripplecreek,145.46,-,0.6,Tone,67,67,23,23,NN,FM,5,CO Teller Cripple Creek WB0WDF 145.46 OPEN On-Air
+100,WDFcripplecreek,224.94,-,1.6,Tone,67,67,23,23,NN,FM,5,CO Teller Cripple Creek WB0WDF 224.94 OPEN Testing
+101,WDFcripplecreek,1287.7,-,20,Tone,67,67,23,23,NN,FM,5,CO Teller Cripple Creek WB0WDF 1287.7 OPEN Testing
+102,"WDFcanoncity, fremont peak",53.03,-,1.7,Tone,88.5,88.5,23,23,NN,FM,5,"CO Fremont Canon City, Fremont Peak WB0WDF 53.03 OPEN On-Air"
+103,"WDFcanoncity, eightmile mountain",449,-,5,Tone,67,67,23,23,NN,FM,5,"CO Fremont Canon City, eightmile Mountain WB0WDF 449 OPEN On-Air"
+104,"JSClarkspur,westcreek",449.975,-,5,Tone,100,100,23,23,NN,FM,5,"CO Douglas Larkspur, Westcreek K0JSC 449.975 OPEN On-Air"
+105,"JSCcanoncity, canon city",449.975,-,5,Tone,100,100,23,23,NN,FM,5,"CO Fremont Canon City, Canon City K0JSC 449.975 OPEN On-Air"
+106,JSCpueblowest,448.975,-,5,Tone,100,100,23,23,NN,FM,5,CO Pueblo Pueblo West K0JSC 448.975 OPEN On-Air
+107,"JSCcanoncity, colorado",447.975,-,5,Tone,100,100,23,23,NN,FM,5,"CO Fremont Canon City, Colorado K0JSC 447.975 OPEN On-Air"
+108,"JSCcanoncity, fremont peak",446.7375,-,5,,88.5,88.5,23,23,NN,DIG,5,"CO Fremont Canon City, Fremont Peak K0JSC 446.7375 OPEN On-Air"
+109,"JSCcanoncity, fremont peak",447.25,-,5,Tone,100,100,23,23,NN,FM,5,"CO Fremont Canon City, Fremont Peak K0JSC 447.25 OPEN On-Air"
+110,JSCpueblo,446.9875,-,5,,88.5,88.5,23,23,NN,DIG,5,CO Pueblo Pueblo K0JSC 446.9875 OPEN Off-Air
+111,"JSCpueblo,metro",447.275,-,5,Tone,100,100,23,23,NN,FM,5,"CO Pueblo Pueblo, Metro K0JSC 447.275 OPEN On-Air"
+112,"JSCpueblo,cedarwood",449.975,-,5,Tone,100,100,23,23,NN,FM,5,"CO Pueblo Pueblo, Cedarwood K0JSC 449.975 OPEN On-Air"
+113,JSCwestcliffe,448.325,-,5,Tone,100,100,23,23,NN,FM,5,CO Custer Westcliffe K0JSC 448.325 OPEN On-Air
+114,"JSCsalida,methodist mountain",449.975,-,5,Tone,100,100,23,23,NN,FM,5,"CO Chaffee Salida, Methodist Mountain K0JSC 449.975 OPEN On-Air"
+115,"D0Qpueblo,baculite mesa",146.79,-,0.6,Tone,88.5,88.5,23,23,NN,FM,5,"CO Pueblo Pueblo, Baculite Mesa ND0Q 146.79 OPEN On-Air"
+116,"D0Qpueblo,baculite mesa",224.26,-,1.6,Tone,88.5,88.5,23,23,NN,FM,5,"CO Pueblo Pueblo, Baculite Mesa ND0Q 224.26 OPEN Off-Air"
+117,D0Qpueblo,447.95,-,5,Tone,88.5,88.5,23,23,NN,FM,5,CO Pueblo Pueblo ND0Q 447.95 OPEN On-Air
+118,D0Qpueblo,145.115,-,0.6,Tone,88.5,88.5,23,23,NN,FM,5,CO Pueblo Pueblo ND0Q 145.115 OPEN Off-Air
+119,"D0Qpueblo,deer peak",146.88,-,0.6,Tone,88.5,88.5,23,23,NN,FM,5,"CO Pueblo Pueblo, Deer Peak ND0Q 146.88 OPEN On-Air"
+120,"D0Qwalsenburg,deer peak",224.32,-,1.6,Tone,88.5,88.5,23,23,NN,FM,5,"CO Custer Walsenburg, Deer Peak ND0Q 224.32 OPEN Off-Air"
+121,"D0Qpueblo,deer peak",447.175,-,5,Tone,88.5,88.5,23,23,NN,FM,5,"CO Pueblo Pueblo, Deer Peak ND0Q 447.175 OPEN Off-Air"
+122,"D0Qwestcliffe,deer peak",919.1,-,25,Tone,88.5,88.5,23,23,NN,FM,5,"CO Pueblo Westcliffe, Deer Peak ND0Q 919.1 OPEN Off-Air"
+123,"D0Qwalsenburg,n rattlesnake butte",146.73,-,0.6,Tone,88.5,88.5,23,23,NN,FM,5,"CO Huerfano Walsenburg, N Rattlesnake Butte ND0Q 146.73 OPEN On-Air"
+124,"ESQcastlerock, devils head",446.925,-,5,,88.5,88.5,23,23,NN,DIG,5,"CO Douglas Castle Rock, Devils Head N0ESQ 446.925 OPEN On-Air"
+125,"ESQcastlerock, devils head (pike national forest)",447.525,-,5,Tone,146.2,146.2,23,23,NN,FM,5,"CO Douglas Castle Rock, Devils Head (Pike National Forest) N0ESQ 447.525 OPEN On-Air"
+126,"ESQparker,hess reservoir",447.525,-,5,Tone,203.5,146.2,23,23,NN,FM,5,"CO Douglas Parker, Hess Reservoir N0ESQ 447.525 OPEN On-Air"
+127,"E0Zpueblo,csu",147,+,0.6,,88.5,88.5,23,23,NN,FM,5,"CO Pueblo Pueblo, CSU NE0Z 147 PRIVATE On-Air"
+128,PRAfranktown,446.85,-,5,,88.5,88.5,23,23,NN,DIG,5,CO Douglas Franktown K0PRA 446.85 OPEN On-Air
+129,PRAparker,445.075,-,5,,88.5,88.5,23,23,NN,DIG,5,CO Douglas Parker K0PRA 445.075 OPEN On-Air
+130,"TUCcanoncity, fremont peak",927.7,-,25,DTCS,88.5,88.5,114,114,NN,FM,5,"CO Fremont Canon City, Fremont Peak KB0TUC 927.7 OPEN On-Air"
+131,TUCwestcliffe,147.06,+,0.6,Tone,77,77,23,23,NN,FM,5,CO Custer Westcliffe KB0TUC 147.06 OPEN On-Air
+132,TUCwestcliffe,448.15,-,5,Tone,103.5,103.5,23,23,NN,FM,5,CO Custer Westcliffe KB0TUC 448.15 OPEN On-Air
+133,TUCwestcliffe,927.775,-,25,DTCS,88.5,88.5,116,116,NN,FM,5,CO Custer Westcliffe KB0TUC 927.775 OPEN On-Air
+134,"EKRcanoncity, fremont peak",145.49,-,0.6,Tone,103.5,103.5,23,23,NN,FM,5,"CO Fremont Canon City, Fremont Peak WD0EKR 145.49 OPEN On-Air"
+135,"EKRcanoncity, fremont peak",223.96,-,1.6,Tone,103.5,103.5,23,23,NN,FM,5,"CO Fremont Canon City, Fremont Peak WD0EKR 223.96 OPEN On-Air"
+136,"EKRcanoncity, fremont peak",447.75,-,5,Tone,103.5,103.5,23,23,NN,FM,5,"CO Fremont Canon City, Fremont Peak WD0EKR 447.75 OPEN On-Air"
+137,"0STpueblo,pueblo",146.655,-,0.6,Tone,123,123,23,23,NN,FM,5,"CO Pueblo Pueblo, Pueblo K0ST 146.655 OPEN On-Air"
+138,"0KRpueblo,pueblo",447.7,-,5,Tone,210.7,210.7,23,23,NN,DIG,5,"CO Pueblo Pueblo, Pueblo KF0KR 447.7 PRIVATE Off-Air"
+139,PWZpalmerdivide,449.725,-,5,Tone,100,100,23,23,NN,FM,5,CO El Paso Palmer Divide N0PWZ 449.725 OPEN On-Air
+140,J0Tpueblo,147.24,+,0.6,Tone,103.5,103.5,23,23,NN,FM,5,CO Pueblo Pueblo KJ0T 147.24 OPEN Off-Air
+141,"9SLcastlepines, daniels park",449.95,-,5,Tone,77,77,23,23,NN,FM,5,"CO Douglas Castle Pines, Daniels Park W9SL 449.95 OPEN On-Air"
+142,Q8Mparker,448.7,-,5,Tone,146.2,146.2,23,23,NN,FM,5,CO Douglas Parker WQ8M 448.7 OPEN On-Air
+143,"TUBcentennial,warren mountain",146.88,-,0.6,Tone,100,100,23,23,NN,FM,5,"CO Jefferson Centennial, Warren Mountain WB0TUB 146.88 OPEN On-Air"
+144,"TUBcentennial,warren mountain",449.6,-,5,Tone,100,100,23,23,NN,FM,5,"CO Jefferson Centennial, Warren Mountain WB0TUB 449.6 OPEN On-Air"
+145,"TUBgolden,centennial cone",146.64,-,0.6,Tone,100,100,23,23,NN,FM,5,"CO Jefferson Golden, Centennial Cone WB0TUB 146.64 OPEN On-Air"
+146,"OWYconifer,critchell mountain",447.5,-,5,Tone,88.5,88.5,23,23,NN,FM,5,"CO Jefferson Conifer, Critchell Mountain N0OWY 447.5 OPEN On-Air"
+147,0HCparker,927.8375,-,25.8,Tone,100,100,23,23,NN,DIG,5,CO Douglas Parker KI0HC 927.8375 OPEN On-Air
+148,"0HCindianhills, chief mtn",927.9375,-,25.9,,88.5,88.5,23,23,NN,DIG,5,"CO Jefferson Indian Hills, Chief Mtn KI0HC 927.9375 OPEN On-Air"
+149,"0HCgolden,centennial cone",927.8375,-,25.8,DTCS,88.5,88.5,205,205,NN,DIG,5,"CO Jefferson Golden, Centennial Cone KI0HC 927.8375 OPEN On-Air"
+150,"UDDaurora,smoky hill",145.4,-,0.8,Tone,100,100,23,23,NN,FM,5,"CO Arapahoe Aurora, Smoky Hill KB0UDD 145.4 OPEN On-Air"
+151,"UDDaurora,smokey hill",448.5,-,5,Tone,100,100,23,23,NN,FM,5,"CO Denver Aurora, Smokey Hill KB0UDD 448.5 OPEN On-Air"
+152,"UDDidahosprings, squaw mountain",146.67,-,0.6,Tone,100,100,23,23,NN,FM,5,"CO Clear Creek Idaho Springs, Squaw Mountain KB0UDD 146.67 OPEN On-Air"
+153,PWOcentennial,449.425,-,5,DTCS,88.5,88.5,23,23,NN,FM,5,CO Arapahoe Centennial K0PWO 449.425 OPEN Off-Air
+154,OBAaurora,145.19,-,0.6,Tone,151.4,131.8,23,23,NN,FM,5,CO Arapahoe Aurora N0OBA 145.19 OPEN On-Air
+155,0DEsimla,147.105,+,0.6,Tone,107.2,107.2,23,23,NN,FM,5,CO Elbert Simla WA0DE 147.105 OPEN On-Air
+156,AENaurora,449.15,-,5,Tone,136.5,136.5,23,23,NN,DIG,5,CO Arapahoe Aurora WR0AEN 449.15 OPEN On-Air
+157,AENdenver,449.65,-,5,Tone,136.5,136.5,23,23,NN,DIG,5,CO Denver Denver WR0AEN 449.65 OPEN On-Air
+158,AENdenver,449.675,-,5,Tone,136.5,136.5,23,23,NN,DIG,5,CO Denver Denver WR0AEN 449.675 OPEN On-Air
+159,"AENidahosprings, squaw mountain",449,-,5,Tone,136.5,136.5,23,23,NN,FM,5,"CO Clear Creek Idaho Springs, Squaw Mountain WR0AEN 449 OPEN On-Air"
+160,AENgreeley,449.325,-,5,Tone,136.5,136.5,23,23,NN,DIG,5,CO Weld Greeley WR0AEN 449.325 OPEN On-Air
+161,"ARAcritchell,critchell mountain",147.12,+,0.6,Tone,88.5,88.5,23,23,NN,FM,5,"CO Jefferson Critchell, Critchell Mountain N0ARA 147.12 OPEN On-Air"
+162,"0PCbailey,dick mountain",146.895,-,0.6,Tone,100,100,23,23,NN,FM,5,"CO Park Bailey, Dick Mountain AB0PC 146.895 OPEN On-Air"
+163,ZUQaurora,448.4,-,5,Tone,94.8,94.8,23,23,NN,FM,5,CO Arapahoe Aurora N0ZUQ 448.4 OPEN On-Air
+164,"ZUQfortcollins, christ mountain",449.425,-,5,Tone,94.8,94.8,23,23,NN,FM,5,"CO Larimer Fort Collins, Christ Mountain N0ZUQ 449.425 OPEN On-Air"
+165,"ZUQfortcollins, christ mountain",927.875,-,25,DTCS,88.5,88.5,114,114,NN,FM,5,"CO Larimer Fort Collins, Christ Mountain N0ZUQ 927.875 OPEN Off-Air"
+166,0BGaurora,448.275,-,5,Tone,156.7,156.7,23,23,NN,FM,5,CO Arapahoe Aurora W0BG 448.275 OPEN On-Air
+167,ANTaurora,448.825,-,5,,88.5,88.5,23,23,NN,DIG,5,CO Arapahoe Aurora WN7ANT 448.825 OPEN On-Air
+168,"0TXlakewood,green mountain",147.33,+,0.6,Tone,100,100,23,23,NN,FM,5,"CO Jefferson Lakewood, Green Mountain W0TX 147.33 OPEN On-Air"
+169,"0TXlakewood,green mountain",224.38,-,1.6,Tone,100,100,23,23,NN,FM,5,"CO Jefferson Lakewood, Green Mountain W0TX 224.38 OPEN On-Air"
+170,"0TXlakewood,green mtn",449.775,-,5,Tone,100,100,23,23,NN,DIG,5,"CO Jefferson Lakewood, Green Mtn W0TX 449.775 OPEN On-Air"
+171,"0TXlakewood,st anthony medical campus",447.825,-,5,DTCS,88.5,88.5,73,73,NN,NFM,5,"CO Jefferson Lakewood, St Anthony Medical Campus W0TX 447.825 OPEN On-Air"
+172,"0TXlakewood,green mountain",53.09,-,1.7,Tone,107.2,107.2,23,23,NN,FM,5,"CO Jefferson Lakewood, Green Mountain W0TX 53.09 OPEN On-Air"
+173,"0TXgolden,centennial cone",448.625,-,5,Tone,100,100,23,23,NN,FM,5,"CO Jefferson Golden, Centennial Cone W0TX 448.625 OPEN On-Air"
+174,"0TXidahosprings, centennial cone",145.49,-,0.6,Tone,100,100,23,23,NN,FM,5,"CO Jefferson Idaho Springs, Centennial Cone W0TX 145.49 OPEN On-Air"
+175,"0TXidahosprings, squaw mountain",449.35,-,5,Tone,100,100,23,23,NN,FM,5,"CO Clear Creek Idaho Springs, Squaw Mountain W0TX 449.35 OPEN On-Air"
+176,"0TXdenver,centennial cone",446.7875,-,5,,88.5,88.5,23,23,NN,DIG,5,"CO Jefferson Denver, Centennial Cone W0TX 446.7875 OPEN On-Air"
+177,FEZdenver,447.925,-,5,Tone,100,100,23,23,NN,FM,5,CO Denver Denver K0FEZ 447.925 OPEN On-Air
+178,"FEZgolden,centennial cone",146.985,-,0.6,Tone,100,100,23,23,NN,FM,5,"CO Denver Golden, Centennial Cone K0FEZ 146.985 OPEN On-Air"
+179,TPTdenver,447.9,-,5,,88.5,88.5,23,23,NN,FM,5,CO Denver Denver WB0TPT 447.9 OPEN Off-Air
+180,"0SJboulder,blue mountain",145.475,-,0.6,Tone,100,100,23,23,NN,FM,5,"CO Jefferson Boulder, Blue Mountain KE0SJ 145.475 OPEN On-Air"
+181,"0SJgolden,centennial cone",145.28,-,0.6,Tone,100,100,23,23,NN,FM,5,"CO Jefferson Golden, Centennial Cone KE0SJ 145.28 OPEN On-Air"
+182,"0SJgolden,centennial cone",449.525,-,5,,88.5,88.5,23,23,NN,FM,5,"CO Jefferson Golden, Centennial Cone KE0SJ 449.525 OPEN On-Air"
+183,0SJlochbuie,447.625,-,5,Tone,100,100,23,23,NN,FM,5,CO Adams Lochbuie KE0SJ 447.625 OPEN On-Air
+184,JXNdenver,146.715,-,0.6,Tone,123,123,23,23,NN,FM,5,CO Denver Denver N0JXN 146.715 OPEN On-Air
+185,EHPdenver,448.075,-,5,Tone,123,123,23,23,NN,FM,5,CO Denver Denver N5EHP 448.075 OPEN On-Air
+186,KIZdenver,448.55,-,5,Tone,82.5,82.5,23,23,NN,FM,5,CO Denver Denver W0KIZ 448.55 OPEN Off-Air
+187,ELYlakewood,448.75,-,5,Tone,100,100,23,23,NN,FM,5,CO Jefferson Lakewood N0ELY 448.75 OPEN On-Air
+188,"LXXmorrison,mt. morrison",53.17,-,1.7,Tone,107.2,107.2,23,23,NN,FM,5,"CO Jefferson Morrison, Mt. Morrison N6LXX 53.17 OPEN On-Air"
+189,"LXXmorrison,mt. morrison",447.875,-,5,Tone,107.2,107.2,23,23,NN,FM,5,"CO Jefferson Morrison, Mt. Morrison N6LXX 447.875 OPEN On-Air"
+190,"JRLdenver,broadway plaza lofts",447.175,-,5,Tone,100,100,23,23,NN,FM,5,"CO Denver Denver, Broadway Plaza Lofts W0JRL 447.175 OPEN On-Air"
+191,GUQevergreen,145.34,-,0.6,Tone,103.5,127.3,23,23,NN,FM,5,CO Jefferson Evergreen KE4GUQ 145.34 OPEN On-Air
+192,"SSPlakewood,moffat treatment plant",147.21,+,0.6,Tone,100,100,23,23,NN,FM,5,"CO Jefferson Lakewood, Moffat Treatment Plant KD0SSP 147.21 OPEN On-Air"
+193,"SSPlakewood,moffat treatment plant",448.35,-,5,Tone,225.7,225.7,23,23,NN,DIG,5,"CO Jefferson Lakewood, Moffat Treatment Plant KD0SSP 448.35 OPEN On-Air"
+194,"GURdenver,green valley ranch",448.15,-,5,Tone,141.3,141.3,23,23,NN,FM,5,"CO Denver Denver, Green Valley Ranch K0GUR 448.15 OPEN On-Air"
+195,"YZTgolden,lookout",446.8375,-,5,,88.5,88.5,23,23,NN,DIG,5,"CO Jefferson Golden, Lookout WA2YZT 446.8375 OPEN On-Air"
+196,"CDSgolden,lookout mountain",145.25,-,0.6,,88.5,88.5,23,23,NN,DIG,5,"CO Jefferson Golden, Lookout Mountain W0CDS 145.25 OPEN On-Air"
+197,"CDSgolden,lookout mountain",446.9625,-,5,,88.5,88.5,23,23,NN,DIG,5,"CO Jefferson Golden, Lookout Mountain W0CDS 446.9625 OPEN On-Air"
+198,"CDSgolden,lookout mountain",1283.9625,-,20,,88.5,88.5,23,23,NN,DIG,5,"CO Jefferson Golden, Lookout Mountain W0CDS 1283.9625 OPEN On-Air"
+199,"CDSgolden,lookout mountain",1299.9,,0,,88.5,88.5,23,23,NN,DIG,5,"CO Jefferson Golden, Lookout Mountain W0CDS 1299.9 OPEN On-Air"
+200,"0KUgolden,lookout mountain",449.625,-,5,Tone,141.3,141.3,23,23,NN,FM,5,"CO Jefferson Golden, Lookout Mountain W0KU 449.625 OPEN On-Air"
+201,PYYgolden,927.7875,-,25,Tone,156.7,156.7,23,23,NN,FM,5,CO Jefferson Golden N0PYY 927.7875 OPEN On-Air
+202,PYYgolden,448.125,-,5,Tone,107.2,107.2,23,23,NN,FM,5,CO Jefferson Golden N0PYY 448.125 OPEN On-Air
+203,"PYYevergreen,squaw mountain",147.3,+,0.6,Tone,103.5,103.5,23,23,NN,FM,5,"CO Clear Creek Evergreen, Squaw Mountain N0PYY 147.3 OPEN On-Air"
+204,0GVgolden,448.975,-,5,Tone,123,123,23,23,NN,FM,5,CO Jefferson Golden W0GV 448.975 OPEN On-Air
+205,UPSwestminster,449.3,-,5,Tone,100,100,23,23,NN,FM,5,CO Adams Westminster N1UPS 449.3 OPEN On-Air
+206,"VGDgolden,table mountain",446.975,-,5,,88.5,88.5,23,23,NN,DIG,5,"CO Jefferson Golden, Table Mountain KB0VGD 446.975 OPEN On-Air"
+207,"VGDfortcollins , horsetooth mountain",145.265,-,0.6,,88.5,88.5,23,23,NN,DIG,5,"CO Larimer Fort Collins , Horsetooth Mountain KB0VGD 145.265 OPEN On-Air"
+208,0MLnorthglenn,147.045,+,0.6,Tone,123,123,23,23,NN,FM,5,CO Adams Northglenn K0ML 147.045 OPEN On-Air
+209,"0GOgolden,guy hill",449.75,-,5,Tone,103.5,103.5,23,23,NN,FM,5,"CO Jefferson Golden, Guy Hill KI0GO 449.75 OPEN On-Air"
+210,"POHgolden,guy hill",224.74,-,1.6,Tone,88.5,88.5,23,23,NN,FM,5,"CO Jefferson Golden, Guy Hill N0POH 224.74 OPEN On-Air"
+211,"T0Cgolden,guy hill",145.22,-,0.6,Tone,103.5,103.5,23,23,NN,DIG,5,"CO Jefferson Golden, Guy Hill WT0C 145.22 OPEN On-Air"
+212,"IBMgolden,guy hill",448.85,-,5,Tone,88.5,88.5,23,23,NN,FM,5,"CO Jefferson Golden, Guy Hill K0IBM 448.85 OPEN On-Air"
+213,"MHUgolden,guy hill",224,-,1.6,Tone,103.5,103.5,23,23,NN,FM,5,"CO Jefferson Golden, Guy Hill N0MHU 224 OPEN On-Air"
+214,"CBIgolden,guy hill",147.15,+,0.6,Tone,100,100,23,23,NN,FM,5,"CO Jefferson Golden, Guy Hill W0CBI 147.15 OPEN On-Air"
+215,"CFIidahosprings, squaw mountain",448.675,-,5,Tone,100,100,23,23,NN,FM,5,"CO Denver Idaho Springs, Squaw Mountain W0CFI 448.675 OPEN On-Air"
+216,"0KQevergreen,saddleback mountain",447.85,-,5,Tone,141.3,141.3,23,23,NN,FM,5,"CO Clear Creek Evergreen, Saddleback Mountain AC0KQ 447.85 OPEN On-Air"
+217,"DUNidahosprings, squaw mountain",449.45,-,5,Tone,103.5,127.3,23,23,NN,FM,5,"CO Clear Creek Idaho Springs, Squaw Mountain K1DUN 449.45 OPEN On-Air"
+218,"WYXidahosprings, squaw mountain",146.94,-,0.6,Tone,103.5,103.5,23,23,NN,FM,5,"CO Clear Creek Idaho Springs, Squaw Mountain W0WYX 146.94 OPEN On-Air"
+219,WYXbroomfield,449.825,-,5,Tone,103.5,103.5,23,23,NN,FM,5,CO Boulder Broomfield W0WYX 449.825 OPEN On-Air
+220,Z0Nhartsel,448.575,-,5,Tone,103.5,103.5,23,23,NN,FM,5,CO Park Hartsel WZ0N 448.575 OPEN Off-Air
+221,"Z0Nsalida,methodist mountain",449.925,-,5,Tone,103.5,103.5,23,23,NN,FM,5,"CO Chaffee Salida, Methodist Mountain WZ0N 449.925 OPEN On-Air"
+222,LMAbroomfield,448.925,-,5,Tone,131.8,131.8,23,23,NN,FM,5,CO Boulder Broomfield W0LMA 448.925 OPEN On-Air
+223,FSXpunkincenter,449.9,-,5,Tone,107.2,107.2,23,23,NN,FM,5,CO Lincoln Punkin Center N1FSX 449.9 OPEN On-Air
+224,"G0Nidahosprings, squaw mountain",449.05,-,5,Tone,107.2,107.2,23,23,NN,FM,5,"CO Denver Idaho Springs, Squaw Mountain WG0N 449.05 OPEN On-Air"
+225,UPScedarpoint,449.25,-,5,Tone,123,123,23,23,NN,FM,5,CO Elbert Cedar Point K0UPS 449.25 OPEN On-Air
+226,0KCfortlupton,447.3,-,5,Tone,107.2,107.2,23,23,NN,FM,5,CO Weld Fort Lupton AC0KC 447.3 OPEN On-Air
+227,0KCfortlupton,224.96,-,1.6,,88.5,88.5,23,23,NN,FM,5,CO Weld Fort Lupton AC0KC 224.96 OPEN On-Air
+228,0EBhudson,449.925,-,5,Tone,114.8,114.8,23,23,NN,FM,5,CO Weld Hudson K0EB 449.925 OPEN On-Air
+229,"QPGsalida,methodist mountain",446.975,-,5,,88.5,88.5,23,23,NN,DIG,5,"CO Chaffee Salida, Methodist Mountain KD0QPG 446.975 OPEN On-Air"
+230,"0DKboulder,table mesa",448.9,-,5,Tone,100,100,23,23,NN,FM,5,"CO Boulder Boulder, Table Mesa W0DK 448.9 OPEN On-Air"
+231,0DKboulder,146.61,-,0.6,Tone,100,100,23,23,NN,FM,5,CO Boulder Boulder W0DK 146.61 OPEN Off-Air
+232,"0DKboulder,table mountain",146.7,-,0.6,Tone,100,100,23,23,NN,FM,5,"CO Boulder Boulder, Table Mountain W0DK 146.7 OPEN On-Air"
+233,0DKboulder,1299.5,-,20,,88.5,88.5,23,23,NN,DIG,5,CO Boulder Boulder W0DK 1299.5 OPEN On-Air
+234,0IAboulder,449.55,-,5,Tone,100,100,23,23,NN,FM,5,CO Boulder Boulder W0IA 449.55 OPEN On-Air
+235,"0IAboulder,gunbarrel hill",146.76,-,0.6,Tone,100,100,23,23,NN,FM,5,"CO Boulder Boulder, Gunbarrel Hill W0IA 146.76 OPEN On-Air"
+236,"0IAboulder,lee hill",224.02,-,1.6,,88.5,88.5,23,23,NN,FM,5,"CO Boulder Boulder, Lee Hill W0IA 224.02 OPEN On-Air"
+237,0DKboulder,449.4,-,5,Tone,91.5,91.5,23,23,NN,FM,5,CO Boulder Boulder K0DK 449.4 OPEN Off-Air
+238,0DKboulder,146.73,-,0.6,Tone,91.5,91.5,23,23,NN,FM,5,CO Boulder Boulder K0DK 146.73 OPEN Off-Air
+239,0DSboulder,446.8625,-,5,,88.5,88.5,23,23,NN,DIG,5,CO Boulder Boulder KC0DS 446.8625 OPEN On-Air
+240,0DSboulder,145.3875,-,0.6,,88.5,88.5,23,23,NN,DIG,5,CO Boulder Boulder KC0DS 145.3875 OPEN On-Air
+241,0DSboulder,1283.8625,-,20,,88.5,88.5,23,23,NN,DIG,5,CO Boulder Boulder KC0DS 1283.8625 OPEN On-Air
+242,0RMrollinsville,224.6,-,1.6,Tone,100,100,23,23,NN,FM,5,CO Gilpin Rollinsville W0RM 224.6 OPEN 
+243,"UFOfairplay,sacramento mountain",447.125,-,5,Tone,103.5,103.5,23,23,NN,FM,5,"CO Park Fairplay, Sacramento Mountain KC0UFO 447.125 OPEN On-Air"
+244,JPXlaveta,145.355,-,0.6,Tone,100,100,23,23,NN,FM,5,CO Huerfano La Veta N0JPX 145.355 OPEN On-Air
+245,VJDhugo,447,-,5,Tone,103.5,103.5,23,23,NN,DIG,5,CO Lincoln Hugo KC0VJD 447 OPEN On-Air
+246,ENOlongmont,147.27,+,0.6,Tone,100,100,23,23,NN,FM,5,CO Boulder Longmont W0ENO 147.27 OPEN On-Air
+247,ENOlongmont,448.8,-,5,Tone,88.5,88.5,23,23,NN,FM,5,CO Boulder Longmont W0ENO 448.8 OPEN On-Air
+248,EPAlongmont,448.525,-,5,Tone,151.4,151.4,23,23,NN,FM,5,CO Boulder Longmont N0EPA 448.525 OPEN On-Air
+249,0JZgoldhill,146.91,+,0.6,Tone,123,127.3,23,23,NN,FM,5,CO Boulder Gold Hill W0JZ 146.91 OPEN On-Air
+250,QMRbreckenridge,146.7,-,0.6,Tone,107.2,107.2,23,23,NN,FM,5,CO Summit Breckenridge WB0QMR 146.7 OPEN On-Air
+251,LSDnathrop,146.745,-,0.6,Tone,100,100,23,23,NN,FM,5,CO Chaffee Nathrop W0LSD 146.745 OPEN Off-Air
+252,"RTSgenoa,limon",446.7375,-,5,,88.5,88.5,23,23,NN,DIG,5,"CO Lincoln Genoa, Limon K0RTS 446.7375 OPEN On-Air"
+253,0AEgenoa,147.06,+,0.6,Tone,103.5,103.5,23,23,NN,DIG,5,CO Lincoln Genoa KE0AE 147.06 OPEN On-Air
+254,0AEstratton,146.895,-,0.6,Tone,103.5,103.5,23,23,NN,FM,5,CO Kit Carson Stratton KE0AE 146.895 OPEN On-Air
+255,CCCwinterpark,447.45,-,5,Tone,103.5,103.5,23,23,NN,FM,5,CO Grand Winter Park WA4CCC 447.45 OPEN On-Air
+256,"0HGallenspark,afpd station #5",147.03,+,0.6,Tone,100,100,23,23,NN,FM,5,"CO Boulder Allenspark, AFPD Station #5 KI0HG 147.03 OPEN On-Air"
+257,"ZSNlaveta, cordova pass",449.75,-,5,Tone,100,100,23,23,NN,FM,5,"CO Las Animas La Veta, Cordova Pass N0ZSN 449.75 OPEN On-Air"
+258,"ZSNleadville,quail mountain",147.24,+,0.6,Tone,156.7,156.7,23,23,NN,FM,5,"CO Lake Leadville, Quail Mountain N0ZSN 147.24 OPEN Off-Air"
+259,"ITFlajunta, north la junta",147.36,+,0.6,,88.5,123,23,23,NN,DIG,5,"CO Otero La Junta, North La Junta KC0ITF 147.36 PRIVATE On-Air"
+260,"ITFlajunta, north la junta",446.75,-,5,,88.5,88.5,23,23,NN,DIG,5,"CO Otero La Junta, North La Junta KC0ITF 446.75 PRIVATE On-Air"
+261,"MRCmaysville,co",145.325,-,0.6,Tone,100,100,23,23,NN,FM,5,"CO Chaffee Maysville, CO KD0MRC 145.325 OPEN On-Air"
+262,"0OJgreeley,unc",449.725,-,5,Tone,127.3,127.3,23,23,NN,FM,5,"CO Weld Greeley, UNC K0OJ 449.725 OPEN On-Air"
+263,"UPSgreeley,unc",146.85,-,0.6,Tone,100,100,23,23,NN,FM,5,"CO Weld Greeley, UNC W0UPS 146.85 OPEN On-Air"
+264,"UPSloveland,budweiser event center",448.025,-,5,Tone,100,100,23,23,NN,DIG,5,"CO Larimer Loveland, Budweiser Event Center W0UPS 448.025 OPEN On-Air"
+265,"UPSfortcollins, horsetooth mountain",145.115,-,0.6,Tone,100,100,23,23,NN,FM,5,"CO Larimer Fort Collins, Horsetooth Mountain W0UPS 145.115 OPEN On-Air"
+266,"UPSfortcollins, horsetooth mountain",224.52,-,1.6,Tone,100,100,23,23,NN,FM,5,"CO Larimer Fort Collins, Horsetooth Mountain W0UPS 224.52 OPEN Off-Air"
+267,"UPSfortcollins, horsetooth mountain",447.275,-,5,Tone,100,100,23,23,NN,FM,5,"CO Larimer Fort Collins, Horsetooth Mountain W0UPS 447.275 OPEN On-Air"
+268,"UPSfortcollins, buckhorn mountain",447.7,-,5,Tone,100,100,23,23,NN,FM,5,"CO Larimer Fort Collins, Buckhorn Mountain W0UPS 447.7 OPEN On-Air"
+269,"UPSfortcollins, buckhorn mountain",146.625,-,0.6,Tone,100,100,23,23,NN,FM,5,"CO Larimer Fort Collins, Buckhorn Mountain W0UPS 146.625 OPEN On-Air"
+270,"UPSfortcollins, buckhorn mountain",224.84,-,1.6,Tone,100,100,23,23,NN,FM,5,"CO Larimer Fort Collins, Buckhorn Mountain W0UPS 224.84 OPEN On-Air"
+271,"LRAloveland,namaqua hill",449.575,-,5,Tone,100,100,23,23,NN,FM,5,"CO Larimer Loveland, Namaqua Hill W0LRA 449.575 OPEN On-Air"
+272,"LRAloveland,namaqua hill",147.195,+,0.6,Tone,100,100,23,23,NN,FM,5,"CO Larimer Loveland, Namaqua Hill W0LRA 147.195 OPEN On-Air"
+273,6VVloveland,224.32,-,1.6,Tone,100,100,23,23,NN,FM,5,CO Larimer Loveland KN6VV 224.32 OPEN Off-Air
+274,KWDgreeley,147,+,0.6,Tone,100,100,23,23,NN,DIG,5,CO Weld Greeley KC0KWD 147 OPEN On-Air
+275,KWDgreeley,448.475,-,5,Tone,100,100,23,23,NN,FM,5,CO Weld Greeley KC0KWD 448.475 OPEN On-Air
+276,0FHestespark,146.685,-,0.6,Tone,123,123,23,23,NN,FM,5,CO Larimer Estes Park N0FH 146.685 OPEN On-Air
+277,0FHestespark,449.8,-,5,Tone,123,123,23,23,NN,FM,5,CO Larimer Estes Park N0FH 449.8 OPEN On-Air
+278,YDWgranby,146.82,-,0.6,Tone,123,123,23,23,NN,FM,5,CO Grand Granby KA0YDW 146.82 OPEN 
+279,0KMcenter,146.64,-,0.6,Tone,77,77,23,23,NN,FM,5,CO Rio Grande Center N0KM 146.64 OPEN On-Air
+280,0KMcenter,447.1,-,5,Tone,77,77,23,23,NN,FM,5,CO Saguache Center N0KM 447.1 OPEN On-Air
+281,7RFfortcollins,447.725,-,5,Tone,131.8,131.8,23,23,NN,FM,5,CO Larimer Fort Collins W7RF 447.725 OPEN On-Air
+282,"0BVtrinidad,raton pass",147.375,+,0.6,Tone,100,100,23,23,NN,FM,5,"CO Las Animas Trinidad, Raton Pass K0BV 147.375 OPEN Off-Air"
+283,"5JLtrinidad,raton pass",447.375,-,5,Tone,100,100,23,23,NN,DIG,5,"CO Las Animas Trinidad, Raton Pass KG5JL 447.375 OPEN On-Air"
+284,"RDItrinidad,raton pass",446.775,-,5,,88.5,88.5,23,23,NN,DIG,5,"CO Las Animas Trinidad, Raton Pass KD0RDI 446.775 OPEN On-Air"
+285,"RDIraton,raton pass",446.775,-,5,,88.5,88.5,23,23,NN,DIG,5,"NM Colfax Raton, Raton Pass KD0RDI 446.775 OPEN On-Air"
+286,1TJfortcollins,1283.55,-,20,Tone,100,100,23,23,NN,FM,5,CO Larimer Fort Collins K1TJ 1283.55 OPEN On-Air
+287,"1TJfortcollins, horsetooth mountain",927.95,-,25,Tone,100,100,23,23,NN,FM,5,"CO Larimer Fort Collins, Horsetooth Mountain K1TJ 927.95 OPEN On-Air"
+288,RBTfortcollins,447.45,-,5,Tone,123,123,23,23,NN,FM,5,CO Larimer Fort Collins KC0RBT 447.45 OPEN On-Air
+289,AOLfortcollins,446.7375,-,5,,88.5,88.5,23,23,NN,DIG,5,CO Larimer Fort Collins N0AOL 446.7375 OPEN On-Air
+290,"DMRfortcollins, timnath",147.39,+,0.6,,88.5,88.5,23,23,NN,DIG,5,"CO Larimer Fort Collins, Timnath W0DMR 147.39 OPEN On-Air"
+291,"DMRfortcollins, timnath",446.775,-,5,,88.5,88.5,23,23,NN,DIG,5,"CO Larimer Fort Collins, Timnath W0DMR 446.775 OPEN On-Air"
+292,"0RVvail,bald mountain",146.61,-,0.6,Tone,107.2,107.2,23,23,NN,FM,5,"CO Eagle Vail, Bald Mountain K0RV 146.61 OPEN On-Air"
+293,"YNAgunnison,w mountain or tenderfoot mountain",447.65,-,5,Tone,151.4,151.4,23,23,NN,FM,5,"CO Gunnison Gunnison, W Mountain or Tenderfoot Mountain KB0YNA 447.65 OPEN On-Air"
+294,"YNAmontrose,waterdog peak",448.65,-,5,,88.5,151.4,23,23,NN,FM,5,"CO Montrose Montrose, Waterdog Peak KB0YNA 448.65 OPEN On-Air"
+295,"YNAgrandjunction, grand mesa",449.65,-,5,Tone,151.4,151.4,23,23,NN,FM,5,"CO Mesa Grand Junction, Grand Mesa KB0YNA 449.65 OPEN On-Air"
+296,"YNAtelluride,gray head",449.7,-,5,Tone,107.2,107.2,23,23,NN,FM,5,"CO San Miguel Telluride, Gray Head KB0YNA 449.7 OPEN On-Air"
+297,"YNAdelta,uncompahgre butte",449.4,-,5,Tone,131.8,131.8,23,23,NN,FM,5,"CO Mesa Delta, Uncompahgre Butte KB0YNA 449.4 OPEN On-Air"
+298,"0FTfortmorgan, fort morgan eoc",448.2,-,5,,88.5,88.5,23,23,NN,DIG,5,"CO Morgan Fort Morgan, Fort Morgan EOC W0FT 448.2 OPEN On-Air"
+299,0FTakron,448.175,-,5,,88.5,88.5,23,23,NN,DIG,5,CO Morgan Akron W0FT 448.175 OPEN On-Air
+300,"0SFfortcollins, horsetooth mountain",927.825,-,25,Tone,100,100,23,23,NN,FM,5,"CO Larimer Fort Collins, Horsetooth Mountain AB0SF 927.825 OPEN On-Air"
+301,"RFIseverance,cactus hill",447.2,-,5,Tone,82.5,82.5,23,23,NN,FM,5,"CO Weld Severance, Cactus Hill N6RFI 447.2 OPEN On-Air"
+302,AFOvail,224.8,-,1.6,,88.5,88.5,23,23,NN,FM,5,CO Eagle Vail N0AFO 224.8 OPEN Off-Air
+303,AFOvail,449.9,-,5,Tone,107.2,107.2,23,23,NN,FM,5,CO Eagle Vail N0AFO 449.9 OPEN Off-Air
+304,"QEYfortcollins, csu durward hall",147.36,+,0.6,Tone,100,100,23,23,NN,FM,5,"CO Larimer Fort Collins, CSU Durward Hall W0QEY 147.36 OPEN On-Air"
+305,"QEYfortcollins, csu durward hall",446.8125,-,5,,88.5,88.5,23,23,NN,DIG,5,"CO Larimer Fort Collins, CSU Durward Hall W0QEY 446.8125 OPEN On-Air"
+306,"QEYfortcollins, csu durward hall",449.85,-,5,Tone,100,100,23,23,NN,FM,5,"CO Larimer Fort Collins, CSU Durward Hall W0QEY 449.85 OPEN On-Air"
+307,UPSwellington,448.325,-,5,Tone,110.9,110.9,23,23,NN,FM,5,CO Larimer Wellington WB7UPS 448.325 OPEN On-Air
+308,"5MLraton,sierra grande",147.28,+,0.6,Tone,100,100,23,23,NN,FM,5,"NM Colfax Raton, Sierra Grande NM5ML 147.28 OPEN On-Air"
+309,"5MLeaglenest, iron mountain",444.35,+,5,Tone,100,100,23,23,NN,FM,5,"NM Colfax Eagle Nest, Iron Mountain NM5ML 444.35 OPEN On-Air"
+310,"5MLtrespiedras, san antonio mountain",147.22,+,0.6,Tone,100,100,23,23,NN,FM,5,"NM Rio Arriba Tres Piedras, San Antonio Mountain NM5ML 147.22 OPEN On-Air"
+311,"5MLtaos,ski valley",147.14,+,0.6,Tone,67,67,23,23,NN,FM,5,"NM Taos Taos, Ski Valley NM5ML 147.14 OPEN On-Air"
+312,"5MLwagonmound, turkey mountain",147.2,+,0.6,Tone,67,67,23,23,NN,FM,5,"NM Mora Wagon Mound, Turkey Mountain NM5ML 147.2 OPEN On-Air"
+313,"5MLpecos,elk mountain",147.26,+,0.6,Tone,67,67,23,23,NN,FM,5,"NM San Miguel Pecos, Elk Mountain NM5ML 147.26 OPEN On-Air"
+314,"5MLcuba,eureka mesa",147.24,+,0.6,Tone,67,67,23,23,NN,FM,5,"NM Sandoval Cuba, Eureka Mesa NM5ML 147.24 OPEN On-Air"
+315,"5MLconchasdam, mesa rica",147.36,+,0.6,Tone,100,100,23,23,NN,FM,5,"NM San Miguel Conchas Dam, Mesa Rica NM5ML 147.36 OPEN On-Air"
+316,"5MLbloomfield,harris mesa",147.28,+,0.6,Tone,67,67,23,23,NN,FM,5,"NM San Juan Bloomfield, Harris Mesa NM5ML 147.28 OPEN On-Air"
+317,"5MLtucumcari,tucumcari mountain",147.22,+,0.6,Tone,100,100,23,23,NN,FM,5,"NM Quay Tucumcari, Tucumcari Mountain NM5ML 147.22 OPEN On-Air"
+318,"5MLalbuquerque,sandia crest",145.29,-,0.6,Tone,100,100,23,23,NN,FM,5,"NM Bernalillo Albuquerque, Sandia Crest NM5ML 145.29 OPEN On-Air"
+319,"5MLalbuquerque,sandia crest",444.325,+,5,Tone,100,100,23,23,NN,FM,5,"NM Bernalillo Albuquerque, Sandia Crest NM5ML 444.325 OPEN On-Air"
+320,"5MLtijeras,cedro peak",147.34,+,0.6,Tone,67,67,23,23,NN,FM,5,"NM Bernalillo Tijeras, Cedro Peak NM5ML 147.34 OPEN On-Air"
+321,5MLmelrose,147.28,+,0.6,Tone,67,67,23,23,NN,FM,5,NM Curry Melrose NM5ML 147.28 OPEN On-Air
+322,"5MLcorona,gallinas peak",147.28,+,0.6,Tone,100,100,23,23,NN,FM,5,"NM Lincoln Corona, Gallinas Peak NM5ML 147.28 OPEN On-Air"
+323,5MLclovis,442.525,+,5,Tone,67,67,23,23,NN,FM,5,NM Curry Clovis NM5ML 442.525 OPEN On-Air
+324,"5MLgrants,la mosca",444.8,+,5,Tone,67,67,23,23,NN,FM,5,"NM Cibola Grants, La Mosca NM5ML 444.8 OPEN On-Air"
+325,"5MLgrants,microwave ridge",146.66,-,0.6,Tone,100,100,23,23,NN,FM,5,"NM Cibola Grants, Microwave Ridge NM5ML 146.66 OPEN On-Air"
+326,"5MLgallup,deza bluffs",147.22,+,0.6,Tone,67,67,23,23,NN,FM,5,"NM McKinley Gallup, Deza Bluffs NM5ML 147.22 OPEN On-Air"
+327,"5MLdatil,davenport lookout",147.04,+,0.6,Tone,100,100,23,23,NN,FM,5,"NM Catron Datil, Davenport Lookout NM5ML 147.04 OPEN On-Air"
+328,"0VQaspen,aspen mountain",447.05,-,5,Tone,136.5,136.5,23,23,NN,FM,5,"CO Pitkin Aspen, Aspen Mountain K0VQ 447.05 OPEN On-Air"
+329,"0VQcarbondale,missouri heights",447.15,-,5,Tone,136.5,136.5,23,23,NN,FM,5,"CO Garfield Carbondale, Missouri Heights K0VQ 447.15 OPEN On-Air"
+330,"0VQglenwoodsprings, three mile ridge",147.3,+,0.6,Tone,107.2,107.2,23,23,NN,FM,5,"CO Garfield Glenwood Springs, Three Mile Ridge K0VQ 147.3 OPEN Off-Air"
+331,5GFgunnison,449.95,-,5,,88.5,88.5,23,23,NN,FM,5,CO Gunnison Gunnison K5GF 449.95 OPEN 
+332,VTLgunnison,147.12,+,0.6,,88.5,88.5,23,23,NN,FM,5,CO Gunnison Gunnison W0VTL 147.12 OPEN On-Air
+333,"PFOredriver, valle vidal",145.25,-,0.6,Tone,123,123,23,23,NN,FM,5,"NM Taos Red River, Valle Vidal KF5PFO 145.25 OPEN On-Air"
+334,"PFOredriver, molycorp",145.39,-,0.6,Tone,100,100,23,23,NN,FM,5,"NM Taos Red River, Molycorp KF5PFO 145.39 OPEN On-Air"
+335,"PFOtrespiedras,  san antonio mountain",146.76,-,0.6,Tone,67,67,23,23,NN,FM,5,"NM Rio Arriba Tres Piedras,  San Antonio Mountain KF5PFO 146.76 OPEN On-Air"
+336,"PFOtrespiedras, san antonio mountain",146.76,-,0.6,Tone,67,67,23,23,NN,FM,5,"NM Taos Tres Piedras, San Antonio Mountain KF5PFO 146.76 OPEN On-Air"
+337,"PFOtaos,picuris peak",147.12,+,0.6,Tone,67,67,23,23,NN,FM,5,"NM Taos Taos, Picuris Peak KF5PFO 147.12 OPEN On-Air"
+338,"PFOtaos,picuris peak",51.5,,0,Tone,100,100,23,23,NN,FM,5,"NM Taos Taos, Picuris Peak KF5PFO 51.5 OPEN On-Air"
+339,"PFOtaos,picuris peak",224.4,-,1.6,Tone,225.7,225.7,23,23,NN,FM,5,"NM Taos Taos, Picuris Peak KF5PFO 224.4 OPEN On-Air"
+340,"PFOtaos,picuris peak",449.875,-,5,Tone,123,123,23,23,NN,FM,5,"NM Taos Taos, Picuris Peak KF5PFO 449.875 OPEN Off-Air"
+341,0CLsnowmassvillage,146.67,-,0.6,Tone,107.2,107.2,23,23,NN,FM,5,CO Pitkin Snowmass Village K0CL 146.67 OPEN On-Air
+342,"7GRcheyenne,chalk bluffs",449.3,-,5,Tone,131.8,131.8,23,23,NN,DIG,5,"WY Laramie Cheyenne, Chalk Bluffs WB7GR 449.3 OPEN On-Air"
+343,"7GRscottsbluff,stage hill",444.125,+,5,Tone,114.8,114.8,23,23,NN,FM,5,"NE Scotts Bluff Scottsbluff, Stage Hill WB7GR 444.125 OPEN On-Air"
+344,"5EMeaglenest, touch me not",147.04,+,0.6,Tone,141.3,141.3,23,23,NN,FM,5,"NM Colfax Eagle Nest, Touch Me Not NM5EM 147.04 OPEN On-Air"
+345,"5EMdesmoines, sierra grande",147.175,+,0.6,Tone,141.3,141.3,23,23,NN,FM,5,"NM Union Des Moines, Sierra Grande NM5EM 147.175 OPEN On-Air"
+346,"5EMtrespiedras, san antonio mtn.",145.175,-,0.6,Tone,141.3,141.3,23,23,NN,FM,5,"NM Taos Tres Piedras, San Antonio Mtn. NM5EM 145.175 OPEN Off-Air"
+347,"5EMwagonmound, turkey mtn",145.37,-,0.6,Tone,141.3,141.3,23,23,NN,FM,5,"NM Mora Wagon Mound, Turkey Mtn NM5EM 145.37 OPEN Off-Air"
+348,"5EMabiquiu,cerro pelon",147.04,+,0.6,Tone,141.3,141.3,23,23,NN,FM,5,"NM Rio Arriba Abiquiu, Cerro Pelon NM5EM 147.04 OPEN Off-Air"
+349,"5EMsantafe, tesuque peak",147.02,+,0.6,Tone,141.3,141.3,23,23,NN,FM,5,"NM Santa Fe Santa Fe, Tesuque Peak NM5EM 147.02 OPEN On-Air"
+350,"5EMcuba,eureka mesa",145.175,-,0.6,Tone,141.3,141.3,23,23,NN,FM,5,"NM Sandoval Cuba, Eureka Mesa NM5EM 145.175 OPEN Off-Air"
+351,"5EMsantarosa, moon ranch",147.04,+,0.6,Tone,141.3,141.3,23,23,NN,FM,5,"NM Guadalupe Santa Rosa, Moon Ranch NM5EM 147.04 OPEN On-Air"
+352,"5EMgrants,mt taylor",146.98,-,0.6,Tone,141.3,141.3,23,23,NN,FM,5,"NM Cibola Grants, Mt Taylor NM5EM 146.98 OPEN On-Air"
+353,"5EMcorona,gallinas peak",145.515,-,0.6,Tone,141.3,141.3,23,23,NN,FM,5,"NM Lincoln Corona, Gallinas Peak NM5EM 145.515 OPEN On-Air"
+354,"5EMclovis,claud",145.37,-,0.6,Tone,141.3,141.3,23,23,NN,FM,5,"NM Curry Clovis, Claud NM5EM 145.37 OPEN On-Air"
+355,"SNOcheyenne,denver hill",146.775,-,0.6,Tone,114.8,114.8,23,23,NN,FM,5,"WY Laramie Cheyenne, Denver Hill KC7SNO 146.775 OPEN On-Air"
+356,"SNOcheyenne,north park",147.105,+,0.6,Tone,114.8,91.5,23,23,NN,FM,5,"WY Laramie Cheyenne, North Park KC7SNO 147.105 OPEN On-Air"
+357,"SNOlaramie,beacon hill",146.82,-,0.6,Tone,114.8,114.8,23,23,NN,FM,5,"WY Albany Laramie, Beacon Hill KC7SNO 146.82 OPEN On-Air"
+358,SNOalbin,147.165,+,0.6,Tone,114.8,114.8,23,23,NN,FM,5,WY Laramie Albin KC7SNO 147.165 OPEN On-Air
+359,BOPdesmoines,146.85,-,0.6,Tone,100,100,23,23,NN,FM,5,NM Union Des Moines N5BOP 146.85 OPEN Off-Air
+360,BOPdesmoines,444.8,+,5,Tone,77,77,23,23,NN,FM,5,NM Union Des Moines N5BOP 444.8 OPEN Off-Air
+361,SWRcheyenne,145.235,-,0.6,Tone,114.8,114.8,23,23,NN,FM,5,WY Laramie Cheyenne KB7SWR 145.235 OPEN On-Air
+362,SWRcheyenne,448.15,-,5,Tone,100,100,23,23,NN,FM,5,WY Laramie Cheyenne KB7SWR 448.15 OPEN Off-Air
+363,JJYcheyenne,449.9,-,5,Tone,100,100,23,23,NN,FM,5,WY Laramie Cheyenne N7JJY 449.9 OPEN On-Air
+364,"DHFcheyenne,old airport control tower",448.95,-,5,Tone,151.4,151.4,23,23,NN,DIG,5,"WY Laramie Cheyenne, Old airport control tower KC7DHF 448.95 OPEN On-Air"
+365,0JScreede,146.925,-,0.6,,88.5,88.5,23,23,NN,FM,5,CO Mineral Creede WA0JS 146.925 OPEN Off-Air
+366,0HHlamar,146.61,-,0.6,Tone,123,123,23,23,NN,FM,5,CO Prowers Lamar KC0HH 146.61 OPEN On-Air
+367,0HHlamar,449.5,-,5,Tone,123,123,23,23,NN,FM,5,CO Prowers Lamar KC0HH 449.5 OPEN On-Air
+368,GDRcimarron,145.21,-,0.6,Tone,110.9,110.9,23,23,NN,FM,5,NM Colfax Cimarron N5GDR 145.21 OPEN On-Air
+369,"TSVtaos,wheeler peak",444.975,+,5,Tone,123,123,23,23,NN,FM,5,"NM Taos Taos, Wheeler Peak N5TSV 444.975 OPEN On-Air"
+370,"JTBsterling,co",145.295,-,0.6,,88.5,88.5,23,23,NN,FM,5,"CO Logan Sterling, CO WA0JTB 145.295 OPEN On-Air"
+371,"DEMpritchett, tator butte",146.64,-,0.6,Tone,100,100,23,23,NN,FM,5,"CO Las Animas Pritchett,  Tator Butte KZ0DEM 146.64 OPEN Off-Air"
+372,DEMspringfield,147.09,+,0.6,Tone,118.8,118.8,23,23,NN,FM,5,CO Baca Springfield KZ0DEM 147.09 OPEN 
+373,DEMspringfield,147.33,+,0.6,Tone,118.8,118.8,23,23,NN,FM,5,CO Baca Springfield KZ0DEM 147.33 OPEN Off-Air
+374,DEMspringfield,449.2,-,5,Tone,118.8,118.8,23,23,NN,FM,5,CO Baca Springfield KZ0DEM 449.2 OPEN On-Air
+375,"PKTcreede,bristol head",449.525,-,5,Tone,100,100,23,23,NN,FM,5,"CO Mineral Creede, Bristol Head N0PKT 449.525 OPEN On-Air"
+376,"LEMangelfire, agua fria peak",147.34,+,0.6,Tone,100,100,23,23,NN,FM,5,"NM Colfax Angel Fire, Agua Fria Peak N5LEM 147.34 OPEN On-Air"
+377,"EOClaramie,pilot hill",447.225,-,5,,88.5,88.5,23,23,NN,DIG,5,"WY Albany Laramie, Pilot Hill WY7EOC 447.225 CLOSED On-Air"
+378,EOCrawlins,445.05,-,5,,88.5,88.5,23,23,NN,DIG,5,WY Carbon Rawlins WY7EOC 445.05 CLOSED On-Air
+379,"EOCcasper,casper mountain",449.9875,-,5,,88.5,88.5,23,23,NN,DIG,5,"WY Natrona Casper, Casper Mountain WY7EOC 449.9875 CLOSED On-Air"
+380,"7UWlaramie,jelm mountain",147.015,+,0.6,Tone,146.2,146.2,23,23,NN,DIG,5,"WY Albany Laramie, Jelm Mountain N7UW 147.015 OPEN On-Air"
+381,"7UWlaramie,university",146.61,-,0.6,,88.5,88.5,23,23,NN,DIG,5,"WY Albany Laramie, University N7UW 146.61 OPEN On-Air"
+382,"UWRlaramie, pilot hill",53.03,-,1,,88.5,88.5,23,23,NN,FM,5,"WY Albany Laramie,  Pilot Hill K7UWR 53.03 OPEN Off-Air"
+383,"ELKcarbondale,four mile ridge",449.725,-,5,Tone,179.9,179.9,23,23,NN,FM,5,"CO Garfield Carbondale, Four Mile Ridge K0ELK 449.725 OPEN On-Air"
+384,"SNOcarbondale,four mile ridge",147.39,+,0.6,Tone,107.2,107.2,23,23,NN,FM,5,"CO Garfield Carbondale, Four Mile Ridge K0SNO 147.39 OPEN On-Air"
+385,D0Hsteamboatsprings,147.21,+,0.6,Tone,107.2,107.2,23,23,NN,FM,5,CO Routt Steamboat Springs KD0H 147.21 OPEN On-Air
+386,"HNDglenwoodsprings, lookout mountain",449.85,-,5,Tone,131.8,131.8,23,23,NN,FM,5,"CO Garfield Glenwood Springs, Lookout Mountain WA4HND 449.85 OPEN On-Air"
+387,"HNDmontrose,waterdog peak",447.2,-,5,Tone,107.2,107.2,23,23,NN,FM,5,"CO Montrose Montrose, Waterdog Peak WA4HND 447.2 OPEN On-Air"
+388,"HNDparachute,mount callahan",449.8,-,5,Tone,107.2,107.2,23,23,NN,FM,5,"CO Garfield Parachute, Mount Callahan WA4HND 449.8 OPEN On-Air"
+389,"HNDgrandjunction, grand mesa",449.3,-,5,Tone,107.2,107.2,23,23,NN,FM,5,"CO Mesa Grand Junction, Grand Mesa WA4HND 449.3 OPEN On-Air"
+390,"HNDgrandjunction, black ridge",449.575,-,5,Tone,131.8,131.8,23,23,NN,FM,5,"CO Mesa Grand Junction, Black Ridge WA4HND 449.575 OPEN On-Air"
+391,I0Gglenwoodsprings,224.02,-,1.6,,88.5,88.5,23,23,NN,FM,5,CO Garfield Glenwood Springs KI0G 224.02 CLOSED 
+392,I0Gglenwoodsprings,447.6,-,5,,88.5,88.5,23,23,NN,FM,5,CO Garfield Glenwood Springs KI0G 447.6 CLOSED 
+393,"I0Gglenwoodsprings, sunlight peak",146.88,-,0.6,Tone,107.2,107.2,23,23,NN,FM,5,"CO Garfield Glenwood Springs, Sunlight Peak KI0G 146.88 OPEN On-Air"
+394,"I0Gglenwoodsprings, sunlight peak",447.1,-,5,Tone,107.2,107.2,23,23,NN,FM,5,"CO Garfield Glenwood Springs, Sunlight Peak KI0G 447.1 OPEN On-Air"
+395,"5SFchama,overlook mtn",147.08,+,0.6,Tone,162.2,162.2,23,23,NN,FM,5,"NM Rio Arriba Chama, Overlook Mtn W5SF 147.08 OPEN On-Air"
+396,"5SFlasvegas,  elk mountain",147.3,+,0.6,Tone,162.2,162.2,23,23,NN,FM,5,"NM San Miguel Las Vegas,  Elk Mountain W5SF 147.3 OPEN On-Air"
+397,"5SFsantafe,  tesuque peak",146.82,-,0.6,Tone,162.2,162.2,23,23,NN,FM,5,"NM Santa Fe Santa Fe,  Tesuque Peak W5SF 146.82 OPEN On-Air"
+398,5SFsantafe,145.21,-,0.6,,88.5,88.5,23,23,NN,DIG,5,NM Santa Fe Santa Fe W5SF 145.21 OPEN On-Air
+399,5SFsantafe,444.575,+,5,,88.5,88.5,23,23,NN,DIG,5,NM Santa Fe Santa Fe W5SF 444.575 OPEN On-Air
+400,"5SFlosalamos, pajarito mountain",145.19,-,0.6,Tone,162.2,162.2,23,23,NN,DIG,5,"NM Los Alamos Los Alamos, Pajarito Mountain W5SF 145.19 OPEN On-Air"
+401,"5SFsantafe, st vincent hospital",147.2,+,0.6,Tone,162.2,162.2,23,23,NN,FM,5,"NM Santa Fe Santa Fe, St Vincent Hospital W5SF 147.2 OPEN On-Air"
+402,"ITSlakecity, hill 71",147.135,-,0.6,Tone,123,123,23,23,NN,FM,5,"CO Hinsdale Lake City, Hill 71 KB5ITS 147.135 OPEN On-Air"
+403,"ITSouray,engineer mountain",147.27,+,0.6,Tone,127.3,127.3,23,23,NN,FM,5,"CO Ouray Ouray, Engineer Mountain KB5ITS 147.27 OPEN On-Air"
+404,"ITSsilverton,kendall mountain",147.375,+,0.6,Tone,156.7,156.7,23,23,NN,FM,5,"CO San Juan Silverton, Kendall Mountain KB5ITS 147.375 OPEN On-Air"
+405,ITSsilverton,447.525,-,5,Tone,127.3,127.3,23,23,NN,FM,5,CO San Juan Silverton KB5ITS 447.525 OPEN On-Air
+406,"ITSsilverton,buffalo boy",145.325,-,0.6,Tone,127.3,127.3,23,23,NN,FM,5,"CO San Juan Silverton, Buffalo Boy KB5ITS 145.325 OPEN On-Air"
+407,"ITSsilverton,hazelton",444,+,5,Tone,67,67,23,23,NN,FM,5,"CO San Juan Silverton, Hazelton KB5ITS 444 OPEN On-Air"
+408,"ITSignacio,spring creek",147.15,+,0.6,Tone,100,100,23,23,NN,FM,5,"CO La Plata Ignacio, Spring Creek KB5ITS 147.15 OPEN On-Air"
+409,"ITSnavajodam, navajo lake",147.36,+,0.6,Tone,100,100,23,23,NN,FM,5,"NM San Juan Navajo Dam, Navajo Lake KB5ITS 147.36 OPEN On-Air"
+410,"ITSdurango,smelter mountain",147.135,+,0.6,Tone,100,100,23,23,NN,FM,5,"CO La Plata Durango, Smelter Mountain KB5ITS 147.135 OPEN On-Air"
+411,"ITSmancos,caviness mountain",442.375,+,5,Tone,100,100,23,23,NN,FM,5,"CO Montezuma Mancos, Caviness Mountain KB5ITS 442.375 OPEN On-Air"
+412,"ITSbloomfield,harris mesa",147.1,+,0.6,Tone,100,100,23,23,NN,FM,5,"NM San Juan Bloomfield, Harris mesa KB5ITS 147.1 OPEN On-Air"
+413,"ITSmancos,menefee mountain",145.325,-,0.6,Tone,100,100,23,23,NN,FM,5,"CO Montezuma Mancos, Menefee Mountain KB5ITS 145.325 OPEN On-Air"
+414,ITSaztec,447.45,-,5,Tone,107.2,107.2,23,23,NN,FM,5,NM San Juan Aztec KB5ITS 447.45 OPEN On-Air
+415,"ITSaztec,tank mtn",146.88,-,0.6,Tone,100,100,23,23,NN,FM,5,"NM San Juan Aztec, Tank Mtn KB5ITS 146.88 OPEN On-Air"
+416,ITSbloomfield,448.65,-,5,Tone,127.3,127.3,23,23,NN,FM,5,NM San Juan Bloomfield KB5ITS 448.65 OPEN On-Air
+417,"ITSdolores,summit ridge",145.19,-,0.6,Tone,100,100,23,23,NN,FM,5,"CO Montezuma Dolores, Summit Ridge KB5ITS 145.19 OPEN On-Air"
+418,"ITSdolores,summit ridge",447.275,-,5,Tone,100,100,23,23,NN,FM,5,"CO Montezuma Dolores, Summit Ridge KB5ITS 447.275 OPEN On-Air"
+419,ITSfarmington,53.01,-,1,Tone,131.8,131.8,23,23,NN,FM,5,NM San Juan Farmington KB5ITS 53.01 OPEN On-Air
+420,ITSfarmington,146.76,-,0.6,Tone,100,100,23,23,NN,FM,5,NM San Juan Farmington KB5ITS 146.76 OPEN On-Air
+421,ITSfarmington,147,+,0.6,Tone,100,100,23,23,NN,FM,5,NM San Juan Farmington KB5ITS 147 OPEN On-Air
+422,"ITSlukachukai,roof butte",145.25,-,0.6,Tone,100,100,23,23,NN,FM,5,"AZ Apache Lukachukai, Roof Butte KB5ITS 145.25 OPEN On-Air"
+423,"XLIglenwoodsprings, sunlight peak",449.6,-,5,Tone,107.2,107.2,23,23,NN,FM,5,"CO Garfield Glenwood Springs, Sunlight Peak N0XLI 449.6 OPEN On-Air"
+424,0MRpaonia,147.33,+,0.6,Tone,107.2,107.2,23,23,NN,FM,5,CO Delta Paonia KI0MR 147.33 OPEN On-Air
+425,"JSPpagosasprings, oakbrush hill",146.61,-,0.6,Tone,123,123,23,23,NN,FM,5,"CO Archuleta Pagosa Springs, Oakbrush Hill N0JSP 146.61 OPEN On-Air"
+426,JNIwagonmound,444.4,+,5,Tone,100,100,23,23,NN,FM,5,NM Mora Wagon Mound N7JNI 444.4 OPEN Off-Air
+427,"5PXdixon,cerro abajo",147.18,+,0.6,Tone,100,100,23,23,NN,FM,5,"NM Rio Arriba Dixon, Cerro Abajo KD5PX 147.18 OPEN On-Air"
+428,NEBharrisburg,147,-,0.6,Tone,103.5,103.5,23,23,NN,FM,5,NE Banner Harrisburg N0NEB 147 OPEN On-Air
+429,NEBscottsbluff,147.075,+,0.6,,88.5,88.5,23,23,NN,FM,5,NE Scotts Bluff Scottsbluff N0NEB 147.075 OPEN On-Air
+430,NEBalliance,146.715,-,0.6,Tone,103.5,103.5,23,23,NN,FM,5,NE Box Butte Alliance N0NEB 146.715 OPEN On-Air
+431,5SJdulce,145.43,-,0.6,Tone,136.5,136.5,23,23,NN,FM,5,NM Rio Arriba Dulce NM5SJ 145.43 OPEN On-Air
+432,"5SJnebo,cedar hill",147.06,+,0.6,Tone,100,100,23,23,NN,FM,5,"NM San Juan Nebo, Cedar Hill NM5SJ 147.06 OPEN On-Air"
+433,5SJaztec,146.74,-,0.6,Tone,100,100,23,23,NN,FM,5,NM San Juan Aztec NM5SJ 146.74 OPEN On-Air
+434,5SJlybrook,145.49,-,0.6,Tone,100,100,23,23,NN,FM,5,NM Rio Arriba Lybrook NM5SJ 145.49 OPEN On-Air
+435,"5SJlukachukai,roof butte",146.82,-,0.6,Tone,100,100,23,23,NN,FM,5,"AZ Apache Lukachukai, Roof Butte NM5SJ 146.82 OPEN On-Air"
+436,SWErifle,146.76,-,0.6,Tone,107.2,107.2,23,23,NN,FM,5,CO Garfield Rifle N0SWE 146.76 OPEN Off-Air
+437,JUNholyoke,146.955,-,0.6,,88.5,88.5,23,23,NN,FM,5,CO Phillips Holyoke N0JUN 146.955 OPEN 
+438,UUXmontrose,146.91,-,0.6,Tone,107.2,107.2,23,23,NN,FM,5,CO Montrose Montrose KC0UUX 146.91 OPEN On-Air
+439,OPDmontrose,146.79,-,0.6,Tone,107.2,107.2,23,23,NN,FM,5,CO Montrose Montrose KD5OPD 146.79 OPEN On-Air
+440,WPMtribune,442.175,+,5,Tone,156.7,156.7,23,23,NN,FM,5,KS Greeley Tribune K0WPM 442.175 OPEN On-Air
+441,ALCcedaredge,147.36,+,0.6,Tone,100,100,23,23,NN,FM,5,CO Delta Cedaredge W0ALC 147.36 OPEN 
+442,ALCcedaredge,449.825,-,5,Tone,100,100,23,23,NN,FM,5,CO Delta Cedaredge W0ALC 449.825 OPEN 
+443,"QXXcedaredge,cedar mesa",147.195,+,0.6,Tone,107.2,107.2,23,23,NN,FM,5,"CO Delta Cedaredge, Cedar Mesa KC0QXX 147.195 OPEN "
+444,ECTsyracuse,444,+,5,Tone,141.3,141.3,23,23,NN,FM,5,KS Hamilton Syracuse K0ECT 444 OPEN On-Air
+445,ECTulysses,147.06,+,0.6,,88.5,88.5,23,23,NN,FM,5,KS Grant Ulysses K0ECT 147.06 OPEN On-Air
+446,"ECTulysses,wagon bed springs",444.525,+,5,Tone,141.3,141.3,23,23,NN,FM,5,"KS Grant Ulysses, Wagon Bed Springs K0ECT 444.525 OPEN On-Air"
+447,ECTelkader,444.3,+,5,Tone,141.3,141.3,23,23,NN,FM,5,KS Logan Elkader K0ECT 444.3 OPEN On-Air
+448,"ECTgardencity, tennis",442.5,+,5,Tone,141.3,141.3,23,23,NN,FM,5,"KS Finney Garden City, Tennis K0ECT 442.5 OPEN On-Air"
+449,ECTliberal,443.1,+,5,Tone,141.3,141.3,23,23,NN,FM,5,KS Seward Liberal K0ECT 443.1 OPEN On-Air
+450,ECTmontezuma,444.25,+,5,Tone,141.3,141.3,23,23,NN,FM,5,KS Gray Montezuma K0ECT 444.25 OPEN On-Air
+451,ECTdodgecity,444.55,+,5,Tone,141.3,141.3,23,23,NN,FM,5,KS Ford Dodge City K0ECT 444.55 OPEN On-Air
+452,ECTjetmore,444.5,+,5,Tone,141.3,141.3,23,23,NN,FM,5,KS Hodgeman Jetmore K0ECT 444.5 OPEN On-Air
+453,0SWcollbran,449.5,-,5,Tone,107.2,107.2,23,23,NN,FM,5,CO Mesa Collbran KB0SW 449.5 OPEN Off-Air
+454,0SWgrandjunction,449,-,5,,88.5,107.2,23,23,NN,FM,5,CO Mesa Grand Junction KB0SW 449 CLOSED On-Air
+455,"0SWloma,baxter pass",447,-,5,Tone,107.2,107.2,23,23,NN,FM,5,"CO Garfield Loma, Baxter Pass KB0SW 447 OPEN On-Air"
+456,TAOsyracuse,146.775,-,0.6,,88.5,88.5,23,23,NN,FM,5,KS Hamilton Syracuse KA0TAO 146.775 OPEN On-Air
+457,"ITTsilverton,engineer mountain",147.27,+,0.6,Tone,127.3,127.3,23,23,NN,FM,5,"CO San Juan Silverton, Engineer Mountain KB5ITT 147.27 OPEN On-Air"
+458,"ZQEsantafe, tesuque peak",442.825,+,5,Tone,131.8,131.8,23,23,NN,FM,5,"NM Santa Fe Santa Fe, Tesuque Peak KB5ZQE 442.825 OPEN On-Air"
+459,HAMcraig,145.265,-,0.6,Tone,107.2,107.2,23,23,NN,FM,5,CO Moffat Craig WD0HAM 145.265 OPEN 
+460,SNUwheatland,146.88,-,0.6,Tone,100,100,23,23,NN,FM,5,WY Platte Wheatland WA7SNU 146.88 OPEN On-Air
+461,SNUwheatland,449.625,-,5,Tone,151.4,151.4,23,23,NN,FM,5,WY Platte Wheatland WA7SNU 449.625 OPEN On-Air
+462,7AFwheatland,224.68,-,1.6,,88.5,88.5,23,23,NN,FM,5,WY Platte Wheatland AE7AF 224.68 OPEN On-Air
+463,VJRwallace,444.6,+,5,Tone,146.2,146.2,23,23,NN,FM,5,KS Wallace Wallace WA0VJR 444.6 OPEN On-Air
+464,WEZlasvegas,145.45,-,0.6,,88.5,88.5,23,23,NN,FM,5,NM San Miguel Las Vegas KB5WEZ 145.45 OPEN Off-Air
+465,BQMscottsbluff,145.475,-,0.6,,88.5,88.5,23,23,NN,FM,5,NE Scotts Bluff Scottsbluff WD0BQM 145.475 OPEN On-Air
+466,BQMmitchell,445.1,,0,Tone,100,100,23,23,NN,FM,5,NE Scotts Bluff Mitchell WD0BQM 445.1 OPEN On-Air
+467,KAVscottsbluff,444.825,+,5,,88.5,88.5,23,23,NN,FM,5,NE Scotts Bluff Scottsbluff W0KAV 444.825 OPEN On-Air
+468,"PDOlosalamos, barranca mesa",146.88,-,0.6,,88.5,88.5,23,23,NN,FM,5,"NM Los Alamos Los Alamos, Barranca Mesa W5PDO 146.88 OPEN On-Air"
+469,"GCRrawlins,elk mountain",147.24,+,0.6,Tone,100,100,23,23,NN,FM,5,"WY Carbon Rawlins, Elk Mountain N7GCR 147.24 OPEN On-Air"
+470,BIWlosalamos,224.04,-,1.6,Tone,100,100,23,23,NN,FM,5,NM Los Alamos Los Alamos KA5BIW 224.04 OPEN On-Air
+471,BIWlosalamos,442,+,5,Tone,100,100,23,23,NN,FM,5,NM Los Alamos Los Alamos KA5BIW 442 OPEN On-Air
+472,JNQtorrington,448.325,-,5,Tone,151.4,151.4,23,23,NN,FM,5,WY Goshen Torrington KD7JNQ 448.325 OPEN 
+473,"0EPdurango,missionary ridge",146.7,-,0.6,Tone,100,100,23,23,NN,FM,5,"CO La Plata Durango, Missionary Ridge K0EP 146.7 OPEN On-Air"
+474,0EPdurango,449.85,-,5,Tone,100,100,23,23,NN,FM,5,CO La Plata Durango K0EP 449.85 OPEN On-Air
+475,"0EPdurango,eagle pass",146.67,-,0.6,Tone,100,100,23,23,NN,FM,5,"CO La Plata Durango, Eagle Pass K0EP 146.67 OPEN On-Air"
+476,CMSlosalamos,444.775,+,5,Tone,131.8,131.8,23,23,NN,DIG,5,NM Los Alamos Los Alamos WD9CMS 444.775 OPEN On-Air
+477,CMSlosalamos,927.9,-,25,Tone,131.8,131.8,23,23,NN,DIG,5,NM Los Alamos Los Alamos WD9CMS 927.9 OPEN On-Air
+478,5WRlosalamos,442.425,+,5,,88.5,88.5,23,23,NN,DIG,5,NM Los Alamos Los Alamos NM5WR 442.425 OPEN On-Air
+479,HSOlosalamos,144.265,,0,Tone,203.5,203.5,23,23,NN,FM,5,NM Los Alamos Los Alamos KC2HSO 144.265 OPEN On-Air
+480,AVNlosalamos,442.925,+,5,,88.5,88.5,23,23,NN,DIG,5,NM Los Alamos Los Alamos KE8AVN 442.925 OPEN On-Air
+481,5BBlosalamos,442.25,+,5,,88.5,88.5,23,23,NN,DIG,5,NM Los Alamos Los Alamos NM5BB 442.25 OPEN Off-Air
+482,G0Nscottsbluff,146.445,,0,Tone,88.5,88.5,23,23,NN,FM,5,NE Scotts Bluff Scottsbluff AG0N 146.445 OPEN On-Air
+483,"5RXlosalamos, pajarito mountain",223.94,-,1.6,,88.5,88.5,23,23,NN,FM,5,"NM Los Alamos Los Alamos, Pajarito Mountain KB5RX 223.94 OPEN On-Air"
+484,PGQlacueva,53.2,-,1,Tone,107.2,107.2,23,23,NN,FM,5,NM Santa Fe La Cueva N9PGQ 53.2 OPEN Off-Air
+485,PGQlacueva,146.84,-,0.6,Tone,107.2,107.2,23,23,NN,FM,5,NM Santa Fe La Cueva N9PGQ 146.84 OPEN 
+486,PGQlacueva,442.125,+,5,Tone,107.2,107.2,23,23,NN,FM,5,NM Santa Fe La Cueva N9PGQ 442.125 OPEN 
+487,GAJsantafe,449.275,-,5,Tone,146.2,146.2,23,23,NN,FM,5,NM Santa Fe Santa Fe K9GAJ 449.275 OPEN On-Air
+488,SGTsantafe,447.775,-,5,Tone,100,100,23,23,NN,FM,5,NM Santa Fe Santa Fe KF5SGT 447.775 OPEN On-Air
+489,"0BXgrandjunction, grand mesa",446.9125,-,5,,88.5,88.5,23,23,NN,DIG,5,"CO Mesa Grand Junction, Grand Mesa W0BX 446.9125 OPEN On-Air"
+490,EVEdurango,448.625,-,5,Tone,131.8,131.8,23,23,NN,FM,5,CO La Plata Durango KC5EVE 448.625 OPEN On-Air
+491,"IHLlasvegas, mesa apache",444.375,+,5,Tone,100,100,23,23,NN,FM,5,"NM San Miguel Las Vegas, Mesa Apache WA5IHL 444.375 CLOSED On-Air"
+492,"IHLalbuquerque,sandia mnts",145.29,-,0.6,Tone,100,100,23,23,NN,FM,5,"NM Bernalillo Albuquerque, Sandia Mnts WA5IHL 145.29 OPEN On-Air"
+493,IHLalbuquerque,442.25,+,5,,88.5,88.5,23,23,NN,DIG,5,NM Bernalillo Albuquerque WA5IHL 442.25 OPEN On-Air
+494,5HOlacueva,145.41,-,0.6,Tone,100,100,23,23,NN,FM,5,NM Santa Fe La Cueva W5HO 145.41 OPEN Off-Air
+495,VIUhesperus,145.37,-,0.6,Tone,100,100,23,23,NN,FM,5,CO La Plata Hesperus KB0VIU 145.37 OPEN On-Air
+496,OMClakin,146.985,-,0.6,Tone,156.7,156.7,23,23,NN,FM,5,KS Kearney Lakin N0OMC 146.985 OPEN On-Air
+497,GJTgrandjunction,448.15,-,5,Tone,100,100,23,23,NN,FM,5,CO Mesa Grand Junction W0GJT 448.15 OPEN On-Air
+498,GJTgrandjunction,146.82,-,0.6,Tone,107.2,107.2,23,23,NN,FM,5,CO Mesa Grand Junction W0GJT 146.82 OPEN On-Air
+499,"VBDbloomfield,harris mesa",1292.3,-,20,,88.5,88.5,23,23,NN,DIG,5,"NM San Juan Bloomfield, Harris Mesa KF5VBD 1292.3 CLOSED On-Air"
+500,"RRZgrandjunction, gjt",145.175,-,0.6,Tone,107.2,107.2,23,23,NN,FM,5,"CO Mesa Grand Junction, GJT W0RRZ 145.175 OPEN On-Air"
+501,"RRZgrandjunction, black ridge (above colorado ntl monument)",146.94,-,0.6,Tone,107.2,107.2,23,23,NN,FM,5,"CO Mesa Grand Junction, Black Ridge (Above Colorado Ntl Monument) W0RRZ 146.94 OPEN On-Air"
+502,0TYgrandjunction,147.39,+,0.6,Tone,107.2,107.2,23,23,NN,FM,5,CO Mesa Grand Junction KE0TY 147.39 OPEN 
+503,0TYgrandjunction,145.22,-,0.6,Tone,107.2,107.2,23,23,NN,FM,5,CO Mesa Grand Junction KE0TY 145.22 OPEN 
+504,ARVgrandjunction,447.5,-,5,Tone,114.8,114.8,23,23,NN,FM,5,CO Mesa Grand Junction KC0ARV 447.5 OPEN 
+505,SSIgrandjunction,147.105,+,0.6,,88.5,88.5,23,23,NN,FM,5,CO Mesa Grand Junction K0SSI 147.105 OPEN On-Air
+506,REDgrandjunction,446.775,-,5,,88.5,88.5,23,23,NN,DIG,5,CO Mesa Grand Junction KD0RED 446.775 OPEN On-Air
+507,SMZgrandjunction,449.775,-,5,Tone,173.8,88.5,23,23,NN,FM,5,CO Mesa Grand Junction KD0SMZ 449.775 OPEN On-Air
+508,"5SCsanysidro, pajarito peak",443.1,+,5,Tone,100,100,23,23,NN,FM,5,"NM Sandoval San Ysidro, Pajarito Peak NM5SC 443.1 OPEN On-Air"
+509,"5SCplacitas,la madera",147.08,+,0.6,Tone,100,100,23,23,NN,FM,5,"NM Sandoval Placitas, La Madera NM5SC 147.08 OPEN On-Air"
+510,"DSTlogan,ute lake",147.34,+,0.6,Tone,131.8,131.8,23,23,NN,FM,5,"NM Quay Logan, Ute Lake K5DST 147.34 OPEN On-Air"
+511,UBJaztec,442.25,+,5,,88.5,88.5,23,23,NN,DIG,5,NM San Juan Aztec N5UBJ 442.25 OPEN On-Air
+512,"UBJmancos,caviness mountain",446.7375,-,5,,88.5,88.5,23,23,NN,DIG,5,"CO Montezuma Mancos, Caviness Mountain N5UBJ 446.7375 OPEN On-Air"
+513,UBJfarmington,442.325,+,5,,88.5,88.5,23,23,NN,DIG,5,NM San Juan Farmington N5UBJ 442.325 OPEN On-Air
+514,"V8Qcolby,k-link",444.75,+,5,Tone,162.2,162.2,23,23,NN,FM,5,"KS Thomas Colby, K-Link NV8Q 444.75 OPEN "
+515,VBEaztec,1291.1,-,20,,88.5,88.5,23,23,NN,DIG,5,NM Bernalillo Aztec KF5VBE 1291.1 CLOSED On-Air
+516,VBEfarmington,145.115,-,0.6,,88.5,88.5,23,23,NN,DIG,5,NM San Juan Farmington KF5VBE 145.115 OPEN On-Air
+517,W0Kcolby,146.82,-,0.6,Tone,156.7,156.7,23,23,NN,FM,5,KS Thomas Colby NW0K 146.82 OPEN On-Air
+518,VHZalliance,147.015,+,0.6,,88.5,88.5,23,23,NN,FM,5,NE Box Butte Alliance N2VHZ 147.015 OPEN On-Air
+519,WXIbloomfield,146.92,-,0.6,Tone,100,100,23,23,NN,FM,5,NM San Juan Bloomfield K5WXI 146.92 OPEN On-Air
+520,WXIfarmington,146.85,-,0.6,Tone,100,100,23,23,NN,FM,5,NM San Juan Farmington K5WXI 146.85 OPEN On-Air
+521,7BNrawlins,147.39,+,0.6,Tone,100,100,23,23,NN,FM,5,WY Carbon Rawlins KD7BN 147.39 OPEN On-Air
+522,7BNdubois,146.82,-,0.6,Tone,100,100,23,23,NN,FM,5,WY Fremont Dubois KD7BN 146.82 OPEN On-Air
+523,OZUrawlins,146.76,-,0.6,Tone,100,100,23,23,NN,FM,5,WY Carbon Rawlins KC7OZU 146.76 OPEN On-Air
+524,RONrawlins,146.7,-,0.6,Tone,162.2,162.2,23,23,NN,FM,5,WY Carbon Rawlins N7RON 146.7 OPEN On-Air
+525,RONrawlins,449.8,-,5,Tone,146.2,146.2,23,23,NN,FM,5,WY Carbon Rawlins N7RON 449.8 OPEN 
+526,7SUrawlins,448.3,-,5,Tone,100,100,23,23,NN,FM,5,WY Carbon Rawlins KD7SU 448.3 OPEN 
+527,EMAtucumcari,146.88,-,0.6,,88.5,88.5,23,23,NN,FM,5,NM Quay Tucumcari WA5EMA 146.88 OPEN On-Air
+528,EMAtucumcari,224.98,-,1.6,,88.5,88.5,23,23,NN,FM,5,NM Quay Tucumcari WA5EMA 224.98 OPEN 
+529,EMAtucumcari,443.75,+,5,,88.5,88.5,23,23,NN,FM,5,NM Quay Tucumcari WA5EMA 443.75 OPEN On-Air
+530,UGOogallala,146.76,-,0.6,Tone,123,123,23,23,NN,FM,5,NE Keith Ogallala N0UGO 146.76 OPEN On-Air
+531,UGOnorthplatte,146.94,-,0.6,Tone,123,123,23,23,NN,FM,5,NE Lincoln North Platte N0UGO 146.94 OPEN On-Air
+532,UGOnorthplatte,442.25,+,5,Tone,123,123,23,23,NN,FM,5,NE Lincoln North Platte N0UGO 442.25 OPEN Off-Air
+533,OQAscottcity,146.7,-,0.6,Tone,141.3,141.3,23,23,NN,DIG,5,KS Scott Scott City WA0OQA 146.7 OPEN On-Air
+534,OQAgardencity,146.91,-,0.6,Tone,141.3,141.3,23,23,NN,FM,5,KS Finney Garden City WA0OQA 146.91 OPEN On-Air
+535,OQAgardencity,52.87,-,1.7,Tone,141.3,141.3,23,23,NN,FM,5,KS Finney Garden City WA0OQA 52.87 OPEN On-Air
+536,"AKWplacitas,sandia peak",443.4,+,5,Tone,100,100,23,23,NN,FM,5,"NM Sandoval Placitas, Sandia Peak K5AKW 443.4 OPEN On-Air"
+537,"FIQclinescorners, tapia mesa",147.06,+,0.6,Tone,67,67,23,23,NN,FM,5,"NM San Miguel Clines Corners, Tapia Mesa K5FIQ 147.06 OPEN On-Air"
+538,"FIQalbuquerque,op ctr",146.9,-,0.6,Tone,67,67,23,23,NN,FM,5,"NM Bernalillo Albuquerque, Op Ctr K5FIQ 146.9 OPEN On-Air"
+539,"FIQalbuquerque, op ctr",449.55,-,5,Tone,71.9,71.9,23,23,NN,FM,5,"NM Bernalillo Albuquerque,  Op Ctr K5FIQ 449.55 OPEN On-Air"
+540,"FIQalbuquerque, op ctr",449.8,-,5,Tone,67,67,23,23,NN,FM,5,"NM Bernalillo Albuquerque,  Op Ctr K5FIQ 449.8 OPEN On-Air"
+541,"FIQalbuquerque,northern sandia mountain top",442.45,+,5,Tone,67,67,23,23,NN,FM,5,"NM Bernalillo Albuquerque, Northern Sandia Mountain Top K5FIQ 442.45 OPEN On-Air"
+542,"0MIscottcity, k-link",444.95,+,5,Tone,100,100,23,23,NN,FM,5,"KS Scott Scott City, K-Link W0MI 444.95 OPEN On-Air"
+543,DFQguymon,444.975,+,5,Tone,88.5,88.5,23,23,NN,FM,5,OK Texas Guymon N5DFQ 444.975 OPEN On-Air
+544,DFQguymon,147.15,+,0.6,Tone,88.5,88.5,23,23,NN,FM,5,OK Texas Guymon N5DFQ 147.15 OPEN On-Air
+545,DFQspearman,147.04,+,0.6,Tone,88.5,88.5,23,23,NN,FM,5,TX Hansford Spearman N5DFQ 147.04 OPEN 
+546,DFQspearman,442,+,5,Tone,88.5,88.5,23,23,NN,FM,5,TX Hansford Spearman N5DFQ 442 OPEN 
+547,DFQwoodward,442.2,+,5,Tone,88.5,88.5,23,23,NN,FM,5,OK Woodward Woodward N5DFQ 442.2 OPEN Off-Air
+548,"YEJsanluis, cabezon",443,+,5,Tone,100,100,23,23,NN,FM,5,"NM Sandoval San Luis, Cabezon K5YEJ 443 OPEN On-Air"
+549,"CCBalbuquerque,sandia peak",443.75,+,5,Tone,100,100,23,23,NN,FM,5,"NM Bernalillo Albuquerque, Sandia Peak WA6CCB 443.75 CLOSED Off-Air"
+550,"KREalbuquerque,sandia crest",443.3,+,5,,88.5,88.5,23,23,NN,DIG,5,"NM Bernalillo Albuquerque, Sandia Crest K5KRE 443.3 OPEN Testing"
+551,"IUZalbuquerque,sandia crest",51.7,-,1,Tone,156.7,156.7,23,23,NN,FM,5,"NM Bernalillo Albuquerque, Sandia Crest WB5IUZ 51.7 OPEN Off-Air"
+552,"JMWalbuquerque,sandia crest",442.9,+,5,,88.5,88.5,23,23,NN,DIG,5,"NM Bernalillo Albuquerque, Sandia Crest KA8JMW 442.9 OPEN On-Air"
+553,"MPZalbuquerque,sandia crest",443.8,+,5,,88.5,88.5,23,23,NN,DIG,5,"NM Bernalillo Albuquerque, Sandia Crest W5MPZ 443.8 OPEN On-Air"
+554,"IPKalbuquerque,sandia crest",442.75,+,5,Tone,162.2,162.2,23,23,NN,FM,5,"NM Bernalillo Albuquerque, Sandia Crest KC5IPK 442.75 OPEN On-Air"
+555,IPKriorancho,442.75,+,5,Tone,162.2,162.2,23,23,NN,FM,5,NM Sandoval Rio Rancho KC5IPK 442.75 OPEN On-Air
+556,"CSYalbuquerque,sandia crest",145.33,-,0.6,Tone,100,100,23,23,NN,FM,5,"NM Bernalillo Albuquerque, Sandia Crest W5CSY 145.33 OPEN On-Air"
+557,"CSYalbuquerque,sandia crest",444,+,5,Tone,100,100,23,23,NN,FM,5,"NM Bernalillo Albuquerque, Sandia Crest W5CSY 444 OPEN On-Air"
+558,"FSBalbuquerque,sandia peak",442.6,+,5,Tone,100,100,23,23,NN,FM,5,"NM Bernalillo Albuquerque, Sandia Peak K5FSB 442.6 OPEN On-Air"
+559,"GASalbuquerque,sandia crest",442.1,+,5,Tone,162.2,162.2,23,23,NN,FM,5,"NM Bernalillo Albuquerque, Sandia Crest KB5GAS 442.1 OPEN On-Air"
+560,AOXsandiapark,224.94,-,1.6,,88.5,88.5,23,23,NN,FM,5,NM Bernalillo Sandia Park W5AOX 224.94 OPEN Off-Air
+561,AOXsandiapark,444.15,+,5,Tone,100,100,23,23,NN,FM,5,NM Bernalillo Sandia park W5AOX 444.15 OPEN On-Air
+562,OLDriorancho,442.35,+,5,Tone,100,100,23,23,NN,FM,5,NM Sandoval Rio Rancho WA5OLD 442.35 OPEN On-Air
+563,5WYfarmington,449,-,5,Tone,100,100,23,23,NN,FM,5,NM San Juan Farmington K5WY 449 OPEN 
+564,VBFfarmington,444.15,+,5,,88.5,88.5,23,23,NN,DIG,5,NM San Juan Farmington KF5VBF 444.15 OPEN On-Air
+565,"VBFfarmington,farmington bluffs",1291.7,-,20,,88.5,88.5,23,23,NN,DIG,5,"NM San Juan Farmington, Farmington Bluffs KF5VBF 1291.7 CLOSED On-Air"
+566,"LIEalbuquerque,northeast heights area",224.48,-,1.6,Tone,100,100,23,23,NN,FM,5,"NM Bernalillo Albuquerque, Northeast Heights area K6LIE 224.48 OPEN On-Air"
+567,5QDcorrales,443.2,+,5,,88.5,88.5,23,23,NN,DIG,5,NM Sandoval Corrales N5QD 443.2 OPEN On-Air
+568,"BIQalbuquerque,bcfd fire station 35",145.13,-,0.6,Tone,100,100,23,23,NN,FM,5,"NM Bernalillo Albuquerque, BCFD Fire Station 35 K5BIQ 145.13 OPEN On-Air"
+569,"BIQtijeras,cedro peak",145.15,-,0.6,Tone,100,100,23,23,NN,FM,5,"NM Bernalillo Tijeras, Cedro Peak K5BIQ 145.15 OPEN On-Air"
+570,"BIQalbuquerque,west mesa",442.05,+,5,Tone,100,100,23,23,NN,FM,5,"NM Bernalillo Albuquerque, West Mesa K5BIQ 442.05 OPEN On-Air"
+571,"5RRriorancho, rainbow",147.1,+,0.6,Tone,100,100,23,23,NN,FM,5,"NM Sandoval Rio Rancho, Rainbow NM5RR 147.1 OPEN On-Air"
+572,"5RRriorancho, rainbow",443,+,5,Tone,100,100,23,23,NN,FM,5,"NM Sandoval Rio Rancho, Rainbow NM5RR 443 OPEN On-Air"
+573,"SLGriorancho, nm 528 and corrales rd",442.4,+,5,,88.5,88.5,23,23,NN,DIG,5,"NM Sandoval Rio Rancho, NM 528 and Corrales Rd KG5SLG 442.4 OPEN On-Air"
+574,"LWUcortez,downtown",146.79,-,0.6,Tone,127.3,127.3,23,23,NN,FM,5,"CO Montezuma Cortez, Downtown KD5LWU 146.79 OPEN On-Air"
+575,LWUcortez,449.175,-,5,Tone,127.3,127.3,23,23,NN,FM,5,CO Montezuma Cortez KD5LWU 449.175 OPEN Off-Air
+576,"CPUriorancho, intel corp",444.7,+,5,Tone,100,100,23,23,NN,FM,5,"NM Sandoval Rio Rancho, Intel Corp K5CPU 444.7 OPEN On-Air"
+577,QIZalbuquerque,443.85,+,5,Tone,103.5,103.5,23,23,NN,FM,5,NM Bernalillo Albuquerque KC0QIZ 443.85 OPEN On-Air
+578,JTMalbuquerque,224.58,-,1.6,Tone,100,100,23,23,NN,FM,5,NM Bernalillo Albuquerque KH6JTM 224.58 OPEN On-Air
+579,LXPalbuquerque,147.32,+,0.6,Tone,100,100,23,23,NN,FM,5,NM Bernalillo Albuquerque K5LXP 147.32 OPEN On-Air
+580,5XEalbuquerque,147.36,+,0.6,Tone,100,100,23,23,NN,FM,5,NM Bernalillo Albuquerque KB5XE 147.36 OPEN Off-Air
+581,5HDriorancho,145.37,-,0.6,Tone,162.2,162.2,23,23,NN,FM,5,NM Sandoval Rio Rancho NM5HD 145.37 OPEN On-Air
+582,MHQalbuquerque,146.74,-,0.6,Tone,146.2,146.2,23,23,NN,FM,5,NM Bernalillo Albuquerque KD5MHQ 146.74 OPEN On-Air
+583,"5GUalbuquerque,southeast",444.6,+,5,,88.5,88.5,23,23,NN,DIG,5,"NM Bernalillo Albuquerque, Southeast N5GU 444.6 OPEN On-Air"
+584,5GUalbuquerque,147.38,+,0.6,,88.5,88.5,23,23,NN,FM,5,NM Bernalillo Albuquerque N5GU 147.38 OPEN On-Air
+585,LTZdumas,444.35,+,5,Tone,88.5,88.5,23,23,NN,FM,5,TX Moore Dumas N5LTZ 444.35 OPEN On-Air
+586,LTZamarillo,444.2,+,5,Tone,88.5,88.5,23,23,NN,FM,5,TX Potter Amarillo N5LTZ 444.2 OPEN On-Air
+587,LTZamarillo,146.92,-,0.6,,88.5,88.5,23,23,NN,FM,5,TX Randall Amarillo N5LTZ 146.92 OPEN 
+588,LTZamarillo,443.5,+,5,,88.5,88.5,23,23,NN,FM,5,TX Potter Amarillo N5LTZ 443.5 CLOSED 
+589,LTZblack,444.425,+,5,,88.5,88.5,23,23,NN,FM,5,TX Parmer Black N5LTZ 444.425 CLOSED 
+590,LTZcanyon,443.65,+,5,Tone,88.5,88.5,23,23,NN,FM,5,TX Randall Canyon N5LTZ 443.65 OPEN On-Air
+591,LTZpampa,444.4,+,5,Tone,88.5,88.5,23,23,NN,FM,5,TX Gray Pampa N5LTZ 444.4 OPEN On-Air
+592,LTZwayside,444.575,+,5,Tone,88.5,88.5,23,23,NN,FM,5,TX Armstrong Wayside N5LTZ 444.575 OPEN On-Air
+593,LTZmiami,444.85,+,5,Tone,88.5,88.5,23,23,NN,FM,5,TX Roberts Miami N5LTZ 444.85 OPEN On-Air
+594,LTZcanadian,443.75,+,5,,88.5,88.5,23,23,NN,FM,5,TX Hemphill Canadian N5LTZ 443.75 CLOSED 
+595,ROKdumas,443.0125,+,5,,88.5,88.5,23,23,NN,DIG,5,TX Moore Dumas KD5ROK 443.0125 OPEN On-Air
+596,"ROKborger,nw well field",146.13125,-,0.6,,88.5,88.5,23,23,NN,DIG,5,"TX Hutchinson Borger, NW Well Field KD5ROK 146.13125 OPEN On-Air"
+597,MHGalbuquerque,147.465,,0,Tone,88.5,88.5,23,23,NN,FM,5,NM Bernalillo Albuquerque W5MHG 147.465 OPEN On-Air
+598,UGUalbuquerque,223.9,-,1.6,,88.5,88.5,23,23,NN,FM,5,NM Bernalillo Albuquerque KB5UGU 223.9 OPEN On-Air
+599,ZXWalbuquerque,927.65,-,25,Tone,151.4,151.4,23,23,NN,FM,5,NM Bernalillo Albuquerque KC5ZXW 927.65 OPEN Off-Air
+600,"ZXWalbuquerque,southeast",444.1,+,5,Tone,100,100,23,23,NN,FM,5,"NM Bernalillo Albuquerque, Southeast KC5ZXW 444.1 OPEN On-Air"
+601,5SHalbuquerque,443.65,+,5,,88.5,88.5,23,23,NN,DIG,5,NM Bernalillo Albuquerque NM5SH 443.65 OPEN On-Air
+602,ERCalbuquerque,146.92,-,0.6,Tone,67,67,23,23,NN,FM,5,NM Bernalillo Albuquerque KF5ERC 146.92 OPEN Off-Air
+603,EZOalbuquerque,927.7,-,25,Tone,210.7,210.7,23,23,NN,FM,5,NM Bernalillo Albuquerque WB5EZO 927.7 OPEN Off-Air
+604,"CQHtijeras,raven road",224,-,1.6,Tone,100,100,23,23,NN,FM,5,"NM Bernalillo Tijeras, Raven Road K5CQH 224 OPEN Off-Air"
+605,"CQHtijeras,raven road",146.72,-,0.6,Tone,100,127.3,23,23,NN,FM,5,"NM Bernalillo Tijeras, Raven Road K5CQH 146.72 OPEN On-Air"
+606,"PRNalbuquerque,unm campus",442.525,+,5,Tone,100,100,23,23,NN,FM,5,"NM Bernalillo Albuquerque, UNM Campus K5PRN 442.525 OPEN On-Air"
+607,"URRalbuquerque,op center",449.45,-,5,,88.5,88.5,23,23,NN,DIG,5,"NM Bernalillo Albuquerque, Op Center W5URR 449.45 OPEN On-Air"
+608,7BAdouglas,147.15,+,0.6,,88.5,88.5,23,23,NN,FM,5,WY Converse Douglas KK7BA 147.15 OPEN On-Air
+609,5XEalbuquerque,443.5,-,5,Tone,123,123,23,23,NN,FM,5,NM Bernalillo Albuquerque KE5XE 443.5 OPEN 
+610,"SCAalbuquerque,sandia crest",145.01,,0,,88.5,88.5,23,23,NN,FM,5,"NM Bernalillo Albuquerque, Sandia Crest W5SCA 145.01 OPEN "
+611,"PLAcasper,casper mountain",145.46,-,0.6,Tone,110.9,110.9,23,23,NN,FM,5,"WY Natrona Casper, Casper Mountain K7PLA 145.46 OPEN On-Air"
+612,"VNJcasper,casper mountain",146.94,-,0.6,Tone,123,123,23,23,NN,FM,5,"WY Natrona Casper, Casper Mountain W7VNJ 146.94 OPEN On-Air"
+613,"VNJcasper,wyoming med center",449.575,-,5,Tone,173.8,173.8,23,23,NN,FM,5,"WY Natrona Casper, Wyoming Med Center W7VNJ 449.575 OPEN On-Air"
+614,VNJcasper,147.28,+,0.6,DTCS,88.5,88.5,32,32,NN,DIG,5,WY Natrona Casper W7VNJ 147.28 OPEN On-Air
+615,VNJcasper,52.98,-,1,Tone,141.3,141.3,23,23,NN,FM,5,WY Natrona Casper W7VNJ 52.98 OPEN Off-Air
+616,"AGAcasper,casper mountain",146.64,-,0.6,Tone,173.8,173.8,23,23,NN,FM,5,"WY Natrona Casper, Casper Mountain KD7AGA 146.64 OPEN Off-Air"
+617,"RRBcasper,casper mountain",449.9,-,5,,88.5,88.5,23,23,NN,DIG,5,"WY Natrona Casper, Casper Mountain N7RRB 449.9 OPEN On-Air"
+618,"VPZmcintosh,mcintosh post office west",447.275,-,5,Tone,71.9,71.9,23,23,NN,FM,5,"NM Torrance McIntosh, McIntosh Post office west KB5VPZ 447.275 OPEN On-Air"
+619,"B7Icasper,casper mtn.",449.5,-,5,Tone,100,100,23,23,NN,FM,5,"WY Natrona Casper, Casper Mtn. NB7I 449.5 OPEN On-Air"
+620,"FLOchadron,nebraska national forest",147.36,+,0.6,Tone,123,123,23,23,NN,FM,5,"NE Dawes Chadron, Nebraska National Forest W0FLO 147.36 OPEN On-Air"
+621,FLOchadron,145.62,,0,Tone,100,100,23,23,NN,FM,5,NE Dawes Chadron W0FLO 145.62 OPEN On-Air
+622,KKSliberal,146.805,-,0.6,Tone,103.5,103.5,23,23,NN,FM,5,KS Seward Liberal W0KKS 146.805 OPEN On-Air
+623,G7Tcasper,449.1,-,5,,88.5,88.5,23,23,NN,FM,5,WY Natrona Casper NG7T 449.1 OPEN 
+624,MJIcasper,147.345,+,0.6,,88.5,88.5,23,23,NN,FM,5,WY Natrona Casper KC7MJI 147.345 OPEN 
+625,7GTcasper,146.91,-,0.6,,88.5,88.5,23,23,NN,FM,5,WY Natrona Casper N7GT 146.91 OPEN 
+626,B1Qisletapueblo,147.04,+,0.6,Tone,100,100,23,23,NN,FM,5,NM Bernalillo Isleta Pueblo AB1Q 147.04 OPEN Off-Air
+627,"B1Qalbuquerque,isleta pueblo",442.15,+,5,Tone,100,100,23,23,NN,FM,5,"NM Bernalillo Albuquerque, Isleta Pueblo AB1Q 442.15 OPEN Off-Air"
+628,VJYalbuquerque,223.82,-,1.6,,88.5,88.5,23,23,NN,FM,5,NM Bernalillo Albuquerque WA5VJY 223.82 OPEN Off-Air
+629,ZFAfortsumner,147.14,+,0.6,Tone,100,100,23,23,NN,FM,5,NM Debaca Fort Sumner KB5ZFA 147.14 OPEN On-Air
+630,DZBoberlin,145.19,-,0.6,,88.5,88.5,23,23,NN,FM,5,KS Decatur Oberlin KB0DZB 145.19 OPEN On-Air
+631,UVWmccook,444.5,+,5,Tone,151.4,151.4,23,23,NN,FM,5,NE Frontier McCook N7UVW 444.5 OPEN On-Air
+632,UVWmccook,444.8,+,5,Tone,162.2,162.2,23,23,NN,FM,5,NE Red Willow McCook N7UVW 444.8 OPEN On-Air
+633,"TAJmccook,180' tower s. of mccook",147.27,+,0.6,,88.5,88.5,23,23,NN,FM,5,"NE Red Willow McCook, 180' tower S. of McCook K0TAJ 147.27 OPEN On-Air"
+634,"URRbelen,capilla peak",146.96,-,0.6,Tone,100,88.5,23,23,NN,FM,5,"NM Torrance Belen, Capilla Peak K5URR 146.96 OPEN Off-Air"
+635,"URRgrants, mt taylor",146.94,-,0.6,Tone,100,100,23,23,NN,FM,5,"NM Cibola Grants,  Mt Taylor K5URR 146.94 OPEN On-Air"
+636,"URRgrants,mw ridge",146.64,-,0.6,Tone,67,67,23,23,NN,FM,5,"NM Bernalillo Grants, MW Ridge K5URR 146.64 OPEN On-Air"
+637,"URDbelen,capilla peak",444.525,+,5,,88.5,88.5,23,23,NN,DIG,5,"NM Torrance Belen, Capilla Peak K5URD 444.525 OPEN Off-Air"
+638,"NESmountainair,  capilla peak",444.075,+,5,Tone,100,100,23,23,NN,FM,5,"NM Torrance Mountainair,   Capilla Peak W5NES 444.075 OPEN On-Air"
+639,0DXplains,147.18,+,0.6,,88.5,88.5,23,23,NN,FM,5,KS Meade Plains WK0DX 147.18 OPEN On-Air
+640,0DXplains,443.5,+,5,Tone,141.3,141.3,23,23,NN,FM,5,KS Meade Plains WK0DX 443.5 OPEN On-Air
+641,CULloslunas,442.225,+,5.1,,88.5,88.5,23,23,NN,FM,5,NM Valencia Los Lunas N5CUL 442.225 OPEN Off-Air
+642,TSVloslunas,444.125,+,5,Tone,100,100,23,23,NN,FM,5,NM Valencia Los Lunas WA5TSV 444.125 OPEN On-Air
+643,WBKspearman,443.2,+,5,Tone,88.5,88.5,23,23,NN,FM,5,TX Hansford Spearman KC5WBK 443.2 OPEN On-Air
+644,"QEQmoab,bald mesa",146.76,-,0.6,Tone,88.5,88.5,23,23,NN,FM,5,"UT Grand Moab, Bald Mesa K7QEQ 146.76 OPEN On-Air"
+645,"QEQmoab,bald mesa",449.1,-,5,Tone,107.2,107.2,23,23,NN,FM,5,"UT Grand Moab, Bald Mesa K7QEQ 449.1 OPEN On-Air"
+646,QEQmoab,146.9,-,0.6,Tone,88.5,88.5,23,23,NN,FM,5,UT Grand Moab K7QEQ 146.9 OPEN On-Air
+647,"QEQmonticello,abajo pk",223.94,-,1.6,,88.5,88.5,23,23,NN,FM,5,"UT San Juan Monticello, Abajo Pk K7QEQ 223.94 CLOSED "
+648,"QEQmonticello,abajo peak",447.1,-,5,Tone,107.2,107.2,23,23,NN,FM,5,"UT San Juan Monticello, Abajo Peak K7QEQ 447.1 OPEN On-Air"
+649,"QEQmonticello,abajo peak",447.4,-,5,,88.5,88.5,23,23,NN,FM,5,"UT San Juan Monticello, Abajo Peak K7QEQ 447.4 CLOSED "
+650,WDRstinnett,444.8,+,5,,88.5,88.5,23,23,NN,DIG,5,TX Hutchinson Stinnett W5WDR 444.8 OPEN On-Air
+651,WDRborger,147,+,0.6,Tone,88.5,88.5,23,23,NN,DIG,5,TX Hutchinson Borger W5WDR 147 OPEN On-Air
+652,5CJstinnett,443.4375,+,5,,88.5,88.5,23,23,NN,DIG,5,TX Hutchinson Stinnett KE5CJ 443.4375 OPEN On-Air
+653,"FYLgrants,la mosca peak",444.95,+,5,Tone,100,88.5,23,23,NN,FM,5,"NM Cibola Grants, La Mosca Peak KE5FYL 444.95 OPEN On-Air"
+654,FYLgrants,147.18,+,0.6,Tone,100,100,23,23,NN,DIG,5,NM Cibola Grants KE5FYL 147.18 OPEN On-Air
+655,"FYLgrants,rogers rock",444.65,+,5,,88.5,88.5,23,23,NN,DIG,5,"NM Cibola Grants, Rogers Rock KE5FYL 444.65 OPEN On-Air"
+656,5WXamarillo,146.94,-,0.6,Tone,88.5,88.5,23,23,NN,DIG,5,TX Anderson Amarillo W5WX 146.94 OPEN On-Air
+657,5WXamarillo,147.34,+,0.6,Tone,88.5,88.5,23,23,NN,DIG,5,TX Randall Amarillo W5WX 147.34 OPEN On-Air
+658,5WXamarillo,444.475,+,5,Tone,88.5,88.5,23,23,NN,DIG,5,TX Randall Amarillo W5WX 444.475 OPEN On-Air
+659,BYUvernal,449.7,-,5,Tone,136.5,136.5,23,23,NN,FM,5,UT Uintah Vernal W7BYU 449.7 OPEN 
+660,BYUroosevelt,146.92,-,0.6,Tone,136.5,136.5,23,23,NN,FM,5,UT Duchesne Roosevelt W7BYU 146.92 OPEN Off-Air
+661,"BYUmyton,flat top",145.49,-,0.6,Tone,136.5,136.5,23,23,NN,FM,5,"UT Duchesne Myton, Flat Top W7BYU 145.49 OPEN On-Air"
+662,"BARvernal,blue mountain",147.1,+,0.6,Tone,136.5,136.5,23,23,NN,FM,5,"UT Uintah Vernal, Blue Mountain W7BAR 147.1 OPEN On-Air"
+663,"BARvernal,uintah county eoc",449.9,-,5,Tone,136.5,136.5,23,23,NN,FM,5,"UT Uintah Vernal, Uintah County EOC W7BAR 449.9 OPEN "
+664,"BARvernal,grizzly ridge",147.04,+,0.6,Tone,136.5,136.5,23,23,NN,FM,5,"UT Uintah Vernal, Grizzly Ridge W7BAR 147.04 OPEN On-Air"
+665,OURbelen,146.7,-,0.6,Tone,100,100,23,23,NN,FM,5,NM Valencia Belen KC5OUR 146.7 OPEN On-Air
+666,KDCnorthplatte,146.835,-,0.6,,88.5,88.5,23,23,NN,FM,5,NE Lincoln North Platte K0KDC 146.835 OPEN On-Air
+667,0NPnorthplatte,146.7,-,0.6,,88.5,123,23,23,NN,FM,5,NE Lincoln North Platte NE0NP 146.7 OPEN Off-Air
+668,CSFborger,147.06,+,0.6,,88.5,88.5,23,23,NN,FM,5,TX Hutchinson Borger WA5CSF 147.06 OPEN Off-Air
+669,0IQnorthplatte,147.33,+,0.6,Tone,123,123,23,23,NN,FM,5,NE Lincoln North Platte N0IQ 147.33 OPEN On-Air
+670,0IQnorthplatte,444.4,+,5,Tone,123,123,23,23,NN,FM,5,NE Lincoln North Platte N0IQ 444.4 OPEN On-Air
+671,IDNamarillo,927.1625,-,25,Tone,151.4,151.4,23,23,NN,FM,5,TX Potter Amarillo KA3IDN 927.1625 OPEN On-Air
+672,IDNamarillo,444.9625,+,5,,88.5,88.5,23,23,NN,DIG,5,TX Potter Amarillo KA3IDN 444.9625 OPEN On-Air
+673,LULamarillo,441.65,+,5,Tone,127.3,127.3,23,23,NN,FM,5,TX Potter Amarillo N5LUL 441.65 OPEN On-Air
+674,JTCamarillo,444.3,+,5,,88.5,88.5,23,23,NN,DIG,5,TX Potter Amarillo W5JTC 444.3 OPEN On-Air
+675,R9Bamarillo,441.375,+,5,Tone,88.5,88.5,23,23,NN,FM,5,TX Randall Amarillo WR9B 441.375 OPEN On-Air
+676,ZLUamarillo,146.74,-,0.6,Tone,88.5,88.5,23,23,NN,FM,5,TX Randall Amarillo N5ZLU 146.74 OPEN On-Air
+677,AKNforgan,147.39,+,0.6,,88.5,88.5,23,23,NN,FM,5,OK Beaver Forgan N5AKN 147.39 OPEN 
+678,5ISperryton,146.64,-,0.6,Tone,88.5,88.5,23,23,NN,FM,5,TX Ochiltree Perryton K5IS 146.64 OPEN 
+679,S5Dclovis,444.45,+,5,Tone,88.5,88.5,23,23,NN,FM,5,NM Curry Clovis WS5D 444.45 OPEN On-Air
+680,S5Dclovis,147.32,+,0.6,Tone,71.9,71.9,23,23,NN,FM,5,NM Curry Clovis WS5D 147.32 OPEN On-Air
+681,EOJclovis,442.225,+,5,,88.5,88.5,23,23,NN,DIG,5,NM Curry Clovis N7EOJ 442.225 OPEN On-Air
+682,A5Bclovis,147.24,+,0.6,Tone,67,67,23,23,NN,FM,5,NM Curry Clovis KA5B 147.24 OPEN On-Air
+683,A5Bclovis,443.45,+,5,Tone,131.8,131.8,23,23,NN,FM,5,NM Curry Clovis KA5B 443.45 OPEN On-Air
+684,BAIensign,444.375,+,5,,88.5,88.5,23,23,NN,FM,5,KS Gray Ensign K0BAI 444.375 OPEN Off-Air
+685,"SDCmonticello,abajo peak",146.61,-,0.6,Tone,88.5,88.5,23,23,NN,FM,5,"UT San Juan Monticello, Abajo Peak K7SDC 146.61 OPEN On-Air"
+686,"SDCsunnyside,bruin point",147.32,+,0.6,Tone,88.5,88.5,23,23,NN,FM,5,"UT Carbon Sunnyside, Bruin Point K7SDC 147.32 OPEN On-Air"
+687,"SDCsunnyside,bruin point",449.05,-,5,Tone,88.5,88.5,23,23,NN,FM,5,"UT Carbon Sunnyside, Bruin Point K7SDC 449.05 OPEN On-Air"
+688,"SDCcastledale, cedar mountain",448.55,-,5,Tone,88.5,88.5,23,23,NN,FM,5,"UT Emery Castle Dale, Cedar Mountain K7SDC 448.55 OPEN On-Air"
+689,"SDCcastledale, cedar mountain",147.14,+,0.6,Tone,88.5,88.5,23,23,NN,FM,5,"UT Emery Castle Dale, Cedar Mountain K7SDC 147.14 OPEN On-Air"
+690,"SDChanksville,ellen peak",147.08,+,0.6,Tone,136.5,136.5,23,23,NN,FM,5,"UT Wayne Hanksville, Ellen Peak K7SDC 147.08 OPEN On-Air"
+691,"SDCscofield,ford ridge",145.31,-,0.6,Tone,88.5,88.5,23,23,NN,FM,5,"UT Carbon Scofield, Ford Ridge K7SDC 145.31 OPEN On-Air"
+692,"SDCcastledale, horn mountain",147.06,+,0.6,Tone,88.5,88.5,23,23,NN,FM,5,"UT Emery Castle Dale, Horn Mountain K7SDC 147.06 OPEN On-Air"
+693,"SDCscofield,boardinghouse ridge",147.08,+,0.6,Tone,88.5,88.5,23,23,NN,FM,5,"UT Carbon Scofield, Boardinghouse Ridge K7SDC 147.08 OPEN On-Air"
+694,UVPgordon,146.67,-,0.6,,88.5,88.5,23,23,NN,FM,5,NE Sheridan Gordon N0UVP 146.67 OPEN Off-Air
+695,"EMOgrants,515 west high street",444.975,+,5,Tone,67,67,23,23,NN,FM,5,"NM Cibola Grants, 515 West High Street K5EMO 444.975 OPEN On-Air"
+696,FUIhotsprings,146.475,,0,Tone,146.2,146.2,23,23,NN,FM,5,SD Fall River Hot Springs W0FUI 146.475 OPEN On-Air
+697,"0HShotsprings, battle mountain",146.7,-,0.6,Tone,146.2,146.2,23,23,NN,FM,5,"SD Fall River Hot Springs, Battle Mountain K0HS 146.7 OPEN On-Air"
+698,"0HScuster,mt coolidge",147.12,+,0.6,Tone,146.2,146.2,23,23,NN,FM,5,"SD Custer Custer, Mt Coolidge K0HS 147.12 OPEN On-Air"
+699,"HAMransom,k-link",443.575,+,5,Tone,162.2,162.2,23,23,NN,FM,5,"KS Ness Ransom, K-Link K0HAM 443.575 OPEN On-Air"
+700,"HAMdodgecity, k-link",443.675,+,5,Tone,162.2,162.2,23,23,NN,FM,5,"KS Ford Dodge City, K-Link K0HAM 443.675 OPEN Off-Air"
+701,"HAMhoisington,k-link",147.135,+,0.6,Tone,88.5,88.5,23,23,NN,FM,5,"KS Barton Hoisington, K-Link K0HAM 147.135 OPEN On-Air"
+702,RUEmidway(portales),147,+,0.6,Tone,67,67,23,23,NN,FM,5,NM Roosevelt Midway (Portales) KE5RUE 147 OPEN 
+703,"KOMlenora,k-link",146.88,-,0.6,Tone,162.2,162.2,23,23,NN,FM,5,"KS Norton Lenora, K-Link N0KOM 146.88 OPEN On-Air"
+704,KOMlogan,442.3,+,5,Tone,162.2,162.2,23,23,NN,FM,5,KS Phillips Logan N0KOM 442.3 OPEN On-Air
+705,"KOMstockton,k-link",146.79,-,0.6,Tone,162.2,162.2,23,23,NN,FM,5,"KS Rooks Stockton, K-Link N0KOM 146.79 OPEN On-Air"
+706,"WDVgallup,deza bluffs",448.2,-,5,Tone,100,100,23,23,NN,FM,5,"NM McKinley Gallup, Deza Bluffs KC5WDV 448.2 OPEN On-Air"
+707,"WDVgallup,gibson peak",147.26,+,0.6,Tone,100,100,23,23,NN,FM,5,"NM McKinley Gallup, Gibson Peak KC5WDV 147.26 OPEN On-Air"
+708,WDVgallup,449.75,-,5,Tone,100,100,23,23,NN,FM,5,NM McKinley Gallup KC5WDV 449.75 OPEN On-Air
+709,U0Ldodgecity,147.03,+,0.6,Tone,123,123,23,23,NN,FM,5,KS Ford Dodge City KU0L 147.03 OPEN On-Air
+710,U0Ldodgecity,442.375,+,5,Tone,123,123,23,23,NN,FM,5,KS Ford Dodge City KU0L 442.375 OPEN On-Air
+711,"7WYwright,little thunder",147.06,+,0.6,Tone,100,100,23,23,NN,FM,5,"WY Campbell Wright, Little Thunder NE7WY 147.06 OPEN Off-Air"
+712,"X7Zwright,pumpkin butte",146.985,-,0.6,Tone,100,100,23,23,NN,FM,5,"WY Campbell Wright, Pumpkin Butte NX7Z 146.985 OPEN On-Air"
+713,"0NMhillcity, k-link",443.7,+,5,Tone,162.2,162.2,23,23,NN,FM,5,"KS Graham Hill City, K-Link N0NM 443.7 OPEN On-Air"
+714,"Y7Urocksprings, aspen mountain",146.94,-,0.6,Tone,100,100,23,23,NN,FM,5,"WY Sweetwater Rock Springs, Aspen Mountain WY7U 146.94 OPEN On-Air"
+715,"RUGrocksprings, aspen mountain",146.61,-,0.6,Tone,100,100,23,23,NN,FM,5,"WY Sweetwater Rock Springs, Aspen Mountain N7RUG 146.61 OPEN On-Air"
+716,"HENvernal,grizzly ridge",145.49,-,0.6,Tone,136.5,136.5,23,23,NN,FM,5,"UT Uintah Vernal, Grizzly Ridge K7HEN 145.49 OPEN On-Air"
+717,"HENhebercity, strawberry peak",147.16,+,0.6,Tone,136.5,136.5,23,23,NN,FM,5,"UT Wasatch Heber City, Strawberry Peak K7HEN 147.16 OPEN Off-Air"
+718,"HENcoalville,lewis peak",147.24,+,0.6,Tone,136.5,136.5,23,23,NN,FM,5,"UT Summit Coalville, Lewis Peak K7HEN 147.24 OPEN On-Air"
+719,TSVpampa,146.9,-,0.6,,88.5,88.5,23,23,NN,FM,5,TX Gray Pampa W5TSV 146.9 OPEN On-Air
+720,"QJNcuster,water tank hill",147.09,+,0.6,Tone,146.2,146.2,23,23,NN,FM,5,"SD Custer Custer, Water Tank Hill WN6QJN 147.09 OPEN On-Air"
+721,"BXHcuster,bear mountain",146.85,-,0.6,Tone,146.2,146.2,23,23,NN,FM,5,"SD Pennington Custer, Bear Mountain KC0BXH 146.85 OPEN On-Air"
+722,PJKrocksprings,147.3,+,0.6,,88.5,88.5,23,23,NN,FM,5,WY Sweetwater Rock Springs KA7PJK 147.3 OPEN Testing
+723,"UUJrocksprings, aspen mountain",146.655,-,0.6,Tone,107.2,107.2,23,23,NN,DIG,5,"WY Sweetwater Rock Springs, Aspen Mountain KE7UUJ 146.655 OPEN On-Air"
+724,OBLrocksprings,448.875,-,5,Tone,123,123,23,23,NN,DIG,5,WY Sweetwater Rock Springs KF7OBL 448.875 OPEN On-Air
+725,ABCrocksprings,444.5,+,5,Tone,123,123,23,23,NN,FM,5,WY Sweetwater Rock Springs N7ABC 444.5 OPEN On-Air
+726,0ANedison,146.745,-,0.6,,88.5,88.5,23,23,NN,FM,5,NE Furnas Edison KD0AN 146.745 OPEN On-Air
+727,SOKcozad,147.135,+,0.6,,88.5,88.5,23,23,NN,FM,5,NE Dawson Cozad W0SOK 147.135 OPEN Off-Air
+728,LENwindowrock,145.29,-,0.6,Tone,123,123,23,23,NN,FM,5,NM McKinley Window Rock K7LEN 145.29 OPEN Off-Air
+729,U5Ytulia,147.36,+,0.6,Tone,88.5,88.5,23,23,NN,FM,5,TX Swisher Tulia WU5Y 147.36 OPEN 
+730,"PPPlander,airport",145.445,-,0.6,Tone,110.9,110.9,23,23,NN,FM,5,"WY Fremont Lander, airport KD7PPP 145.445 OPEN On-Air"
+731,KQHmiami,145.11,-,0.6,Tone,88.5,88.5,23,23,NN,FM,5,TX Roberts Miami KA5KQH 145.11 OPEN 
+732,"0BNgreenriver, green river high school",444.775,+,5,Tone,123,123,23,23,NN,DIG,5,"WY Sweetwater Green River, Green River High School AD0BN 444.775 OPEN Testing"
+733,HLLmexicanhat,449.9,-,5,Tone,123,123,23,23,NN,FM,5,UT San Juan Mexican Hat KD7HLL 449.9 OPEN On-Air
+734,"HYFlander,limestone mountain",449.9,-,5,DTCS,88.5,88.5,261,261,NN,FM,5,"WY Fremont Lander, Limestone Mountain N7HYF 449.9 PRIVATE On-Air"
+735,"HYFriverton,griffy hill",449.975,-,5,Tone,127.3,127.3,23,23,NN,FM,5,"WY Fremont Riverton, Griffy Hill N7HYF 449.975 OPEN On-Air"
+736,HYFlander,53.03,-,1,DTCS,88.5,88.5,261,261,NN,FM,5,WY Fremont Lander N7HYF 53.03 OPEN On-Air
+737,"HYFboysen,boysen peak",147.06,+,0.6,DTCS,88.5,88.5,261,261,NN,DIG,5,"WY Fremont Boysen, Boysen Peak N7HYF 147.06 PRIVATE On-Air"
+738,NCAclarendon,444.275,+,5,Tone,127.3,127.3,23,23,NN,FM,5,TX Donley Clarendon KE5NCA 444.275 OPEN On-Air
+739,KIYhays,147.18,+,0.6,Tone,100,100,23,23,NN,FM,5,KS Ellis Hays KE0KIY 147.18 OPEN On-Air
+740,KIYhays,443.6,+,5,Tone,100,100,23,23,NN,DIG,5,KS Ellis Hays KE0KIY 443.6 OPEN On-Air
+741,0VLlexington,146.85,-,0.6,Tone,123,123,23,23,NN,FM,5,NE Dawson Lexington N0VL 146.85 OPEN On-Air
+742,USYhays,444,+,5,,88.5,88.5,23,23,NN,DIG,5,KS Ellis Hays K0USY 444 OPEN On-Air
+743,USYhays,444.6725,+,5,,88.5,88.5,23,23,NN,DIG,5,KS Ellis Hays K0USY 444.6725 OPEN On-Air
+744,ECQhays,444.825,+,5,Tone,114.8,114.8,23,23,NN,FM,5,KS Ellis Hays N0ECQ 444.825 OPEN On-Air
+745,"FOPriverton,griffey hill",145.115,-,0.6,Tone,100,100,23,23,NN,FM,5,"WY Fremont Riverton, Griffey Hill K0FOP 145.115 OPEN On-Air"
+746,"LRKriverton,griffy site",147.555,+,299.1,,88.5,88.5,23,23,NN,DIG,5,"WY Washakie Riverton, Griffy site KG7LRK 147.555 OPEN Off-Air"
+747,JYShays,224.28,-,1.6,Tone,131.8,131.8,23,23,NN,FM,5,KS Ellis Hays N7JYS 224.28 OPEN On-Air
+748,JYShays,147.045,+,0.6,Tone,131.8,131.8,23,23,NN,DIG,5,KS Ellis Hays N7JYS 147.045 OPEN On-Air
+749,"JYShays,k-link",442.45,+,5,Tone,162.2,162.2,23,23,NN,FM,5,"KS Ellis Hays, K-Link N7JYS 442.45 OPEN On-Air"
+750,JYSrussell,442.475,+,5,Tone,131.8,131.8,23,23,NN,DIG,5,KS Russell Russell N7JYS 442.475 OPEN On-Air
+751,JYShoisington,224,-,1.6,Tone,131.8,131.8,23,23,NN,FM,5,KS Barton Hoisington N7JYS 224 OPEN On-Air
+752,"EZQhays,catherine road",927.0375,-,25,Tone,131.8,131.8,23,23,NN,FM,5,"KS Ellis Hays, Catherine Road KD0EZQ 927.0375 OPEN On-Air"
+753,SARzuni,145.43,-,0.6,Tone,162.2,162.2,23,23,NN,FM,5,NM McKinley Zuni KD5SAR 145.43 OPEN On-Air
+754,0HJphillipsburg,443.275,+,5,Tone,100,100,23,23,NN,FM,5,KS Phillips Phillipsburg AA0HJ 443.275 OPEN On-Air
+755,0HJphillipsburg,147.12,+,0.6,,88.5,88.5,23,23,NN,FM,5,KS Phillips Phillipsburg AA0HJ 147.12 OPEN On-Air
+756,"DMOriverton,griffy hill",441.67,+,5,,88.5,88.5,23,23,NN,DIG,5,"WY Fremont Riverton, Griffy Hill N7DMO 441.67 OPEN On-Air"
+757,HFZbuffalo,52.81,-,1.7,Tone,131.8,131.8,23,23,NN,FM,5,OK Harper Buffalo W5HFZ 52.81 OPEN 
+758,HFZbuffalo,442.075,+,5,Tone,131.8,131.8,23,23,NN,FM,5,OK Harper Buffalo W5HFZ 442.075 OPEN 
+759,HFZbuffalo,145.13,-,0.6,Tone,131.8,131.8,23,23,NN,FM,5,OK Harper Buffalo W5HFZ 145.13 OPEN 
+760,PCAloomis,146.895,-,0.6,Tone,123,123,23,23,NN,FM,5,NE Phelps Loomis K0PCA 146.895 OPEN On-Air
+761,ARWphillipsburg,442.725,+,5,,88.5,88.5,23,23,NN,FM,5,KS Phillips Phillipsburg KD0ARW 442.725 OPEN On-Air
+762,"X7Ysunnyside, bruin peak",145.175,-,0.6,,88.5,88.5,23,23,NN,FM,5,"UT Carbon Sunny Side, Bruin Peak WX7Y 145.175 OPEN On-Air"
+763,"X7Ycastledale, horn mountain",447.7,-,5,Tone,123,123,23,23,NN,FM,5,"UT Emery Castle Dale, Horn Mountain WX7Y 447.7 OPEN "
+764,"X7Yhuntington, skyline dr",223.92,-,1.6,Tone,88.5,88.5,23,23,NN,FM,5,"UT Emery Huntington,  Skyline Dr WX7Y 223.92 OPEN "
+765,"X7Yscofield,boardinghouse rdge",224.98,-,1.6,Tone,88.5,88.5,23,23,NN,FM,5,"UT Carbon Scofield, Boardinghouse Rdge WX7Y 224.98 OPEN "
+766,"X7Ydraper,lake mountain",147.08,+,0.6,Tone,77,77,23,23,NN,FM,5,"UT Salt Lake Draper, Lake Mountain WX7Y 147.08 OPEN On-Air"
+767,GPRbuffalo,147.12,+,0.6,Tone,203.5,203.5,23,23,NN,FM,5,OK Harper Buffalo W5GPR 147.12 OPEN 
+768,"GPRwoodward, airport",146.73,-,0.6,Tone,203.5,203.5,23,23,NN,FM,5,"OK Woodward Woodward,  airport W5GPR 146.73 OPEN "
+769,RCZalma,145.205,-,0.6,,88.5,88.5,23,23,NN,FM,5,NE Harlan Alma KA0RCZ 145.205 OPEN On-Air
+770,"RCZaxtell,ntv studio",444.625,+,5,,88.5,88.5,23,23,NN,FM,5,"NE Kearney Axtell, NTV Studio KA0RCZ 444.625 OPEN On-Air"
+771,RCZkearney,147.315,+,0.6,Tone,123,123,23,23,NN,FM,5,NE Buffalo Kearney KA0RCZ 147.315 OPEN On-Air
+772,RCZkearney,444.85,+,5,Tone,74.4,74.4,23,23,NN,FM,5,NE Buffalo Kearney KA0RCZ 444.85 OPEN On-Air
+773,"BEQshoshoni,copper mtn",146.805,-,0.6,Tone,100,100,23,23,NN,FM,5,"WY Fremont Shoshoni, Copper Mtn W7BEQ 146.805 OPEN On-Air"
+774,7ZWaltamont,147.28,+,0.6,Tone,107.2,107.2,23,23,NN,FM,5,UT Duchesne Altamont AD7ZW 147.28 OPEN On-Air
+775,CBSaltamont,146.74,-,0.6,Tone,100,100,23,23,NN,FM,5,UT Duchesne Altamont WB7CBS 146.74 OPEN Off-Air
+776,PQDduchense,147.26,+,0.6,,88.5,88.5,23,23,NN,FM,5,UT Duchesne Duchense N7PQD 147.26 OPEN On-Air
+777,R0Abrokenbow,146.865,-,0.6,,88.5,88.5,23,23,NN,FM,5,NE Custer Broken Bow KR0A 146.865 OPEN Off-Air
+778,R0Abrokenbow,147.06,+,0.6,,88.5,88.5,23,23,NN,FM,5,NE Custer Broken Bow KR0A 147.06 OPEN On-Air
+779,"7YIprice,cedar mountain",448.075,-,5,,88.5,88.5,23,23,NN,DIG,5,"UT Carbon Price, Cedar Mountain K7YI 448.075 OPEN Off-Air"
+780,"7YIcastledale, cedar mountain",447.125,-,5,Tone,100,100,23,23,NN,FM,5,"UT Emery Castle Dale, Cedar Mountain K7YI 447.125 CLOSED "
+781,"7YIcastledale, horn mountain",447.625,-,5,Tone,100,100,23,23,NN,FM,5,"UT Emery Castle Dale, Horn Mountain K7YI 447.625 OPEN On-Air"
+782,"EGFquemado,fox mtn",448.05,-,5,Tone,103.5,103.5,23,23,NN,FM,5,"NM Catron Quemado, Fox Mtn WB7EGF 448.05 OPEN On-Air"
+783,VPXpawneerock,146.835,-,0.6,Tone,100,100,23,23,NN,DIG,5,KS Barton Pawnee Rock N0VPX 146.835 OPEN On-Air
+784,VPXpawneerock,444.325,+,5,,88.5,88.5,23,23,NN,DIG,5,KS Barton Pawnee Rock N0VPX 444.325 OPEN On-Air
+785,"VPXhoisington,beaver",444.925,+,5,Tone,100,100,23,23,NN,DIG,5,"KS Barton Hoisington, Beaver N0VPX 444.925 OPEN On-Air"
+786,VPXgreatbend,442.075,+,5,,88.5,88.5,23,23,NN,DIG,5,KS Barton Great Bend N0VPX 442.075 OPEN On-Air
+787,VPXgreatbend,444.1,+,5,Tone,100,100,23,23,NN,DIG,5,KS Barton Great Bend N0VPX 444.1 OPEN On-Air
+788,VFVhaviland,444.125,+,5,Tone,156.7,156.7,23,23,NN,FM,5,KS Kiowa Haviland KB0VFV 444.125 OPEN On-Air
+789,"7BVmountainview, hickey mtn",144.635,+,0.6,Tone,100,100,23,23,NN,FM,5,"WY Uinta Mountain View, Hickey Mtn WY7BV 144.635 OPEN Off-Air"
+790,ALZwoodward,442.05,+,5,Tone,103.5,103.5,23,23,NN,FM,5,OK Woodward Woodward W5ALZ 442.05 OPEN On-Air
+791,ALZwaynoka,443.45,+,5,Tone,103.5,103.5,23,23,NN,FM,5,OK Woods Waynoka W5ALZ 443.45 OPEN On-Air
+792,"ALZalva,hardtner",444.9,+,5,Tone,103.5,103.5,23,23,NN,FM,5,"OK Woods Alva, Hardtner W5ALZ 444.9 OPEN On-Air"
+793,ALZnashville,442.4,+,5,Tone,103.5,103.5,23,23,NN,FM,5,KS Harper Nashville W5ALZ 442.4 OPEN On-Air
+794,HFArussell,442.85,+,5,Tone,141.3,141.3,23,23,NN,FM,5,KS Russell Russell KC0HFA 442.85 OPEN On-Air
+795,SJRrussell,442,+,5,,88.5,88.5,23,23,NN,DIG,5,KS Russell Russell KB0SJR 442 OPEN On-Air
+796,"WZLkearney,kearney water tower",147,-,0.6,Tone,123,123,23,23,NN,FM,5,"NE Buffalo Kearney, Kearney Water Tower KC0WZL 147 OPEN On-Air"
+797,DBKkearney,147.39,+,0.6,Tone,123,123,23,23,NN,FM,5,NE Buffalo Kearney KA0DBK 147.39 OPEN On-Air
+798,"PBWkearney,county courthouse",147.03,+,0.6,,88.5,88.5,23,23,NN,DIG,5,"NE Buffalo Kearney, County Courthouse KD0PBW 147.03 OPEN On-Air"
+799,0KYkearney,146.625,-,0.6,Tone,123,123,23,23,NN,FM,5,NE Buffalo Kearney W0KY 146.625 OPEN On-Air
+800,"7GXprice,wood hill",147.2,+,0.6,Tone,88.5,88.5,23,23,NN,FM,5,"UT Carbon Price, Wood Hill K7GX 147.2 OPEN On-Air"
+801,"7GXprice,wood hill",448.3,-,5,,88.5,88.5,23,23,NN,FM,5,"UT Carbon Price, Wood Hill K7GX 448.3 OPEN "
+802,"CEUprice, wood hill",145.43,-,0.6,Tone,88.5,88.5,23,23,NN,FM,5,"UT Carbon Price,  Wood Hill W7CEU 145.43 OPEN "
+803,"CEUprice, wood hill",224.5,-,1.6,Tone,88.5,88.5,23,23,NN,FM,5,"UT Carbon Price,  Wood Hill W7CEU 224.5 OPEN "
+804,"CEUprice, wood hill",448.3,-,5,Tone,88.5,88.5,23,23,NN,FM,5,"UT Carbon Price,  Wood Hill W7CEU 448.3 OPEN "
+805,GUDsharon,147.315,+,0.6,,88.5,88.5,23,23,NN,DIG,5,OK Woodward Sharon K5GUD 147.315 OPEN 
+806,GUDsharon,146.625,-,0.6,Tone,88.5,88.5,23,23,NN,FM,5,OK Woodward Sharon K5GUD 146.625 OPEN Off-Air
+807,GUDmooreland,444.275,+,5,,88.5,88.5,23,23,NN,DIG,5,OK Woodward Mooreland K5GUD 444.275 OPEN 
+808,GUDmooreland,145.39,-,0.6,Tone,88.5,88.5,23,23,NN,FM,5,OK Woodward Mooreland K5GUD 145.39 OPEN 
+809,GUDwoodward,444.875,+,5,Tone,103.5,103.5,23,23,NN,FM,5,OK Woodward Woodward K5GUD 444.875 OPEN 
+810,5WOsharon,147.36,+,0.6,Tone,88.5,88.5,23,23,NN,FM,5,OK Woodward Sharon N5WO 147.36 OPEN 
+811,5WOvici,444.95,+,5,Tone,88.5,88.5,23,23,NN,FM,5,OK Dewey Vici N5WO 444.95 OPEN 
+812,GSMwoodward,147,+,0.6,Tone,103.5,103.5,23,23,NN,FM,5,OK Woodward Woodward K5GSM 147 OPEN On-Air
+813,0UOrussell,147.285,+,0.6,Tone,162.2,162.2,23,23,NN,FM,5,KS Russell Russell AB0UO 147.285 OPEN On-Air
+814,"0UOrussell,k-link",444.95,+,5,Tone,162.2,162.2,23,23,NN,FM,5,"KS Russell Russell, K-Link AB0UO 444.95 OPEN On-Air"
+815,"OLPwellington,dot tower",147.24,+,0.6,,88.5,88.5,23,23,NN,FM,5,"TX Collingsworth Wellington, DOT tower N5OLP 147.24 OPEN On-Air"
+816,0NNgreatbend,146.76,-,0.6,Tone,103.5,103.5,23,23,NN,FM,5,KS Barton Great Bend KI0NN 146.76 OPEN On-Air
+817,MRTst.john,146.7,-,0.6,Tone,103.5,103.5,23,23,NN,FM,5,KS Stafford St. John W0MRT 146.7 OPEN On-Air
+818,M0Lainsworth,147.36,+,0.6,Tone,225.7,225.7,23,23,NN,FM,5,NE Brown Ainsworth WM0L 147.36 OPEN On-Air
+819,"Z0Mosborne,k-link",147.375,+,0.6,Tone,162.2,162.2,23,23,NN,FM,5,"KS Osborne Osborne, K-Link NZ0M 147.375 OPEN On-Air"
+820,"DSOvernal,tabby mountain",147.34,+,0.6,Tone,136.5,136.5,23,23,NN,FM,5,"UT Uintah Vernal, Tabby Mountain KG7DSO 147.34 OPEN On-Air"
+821,0LLsmithcenter,146.61,-,0.6,,88.5,88.5,23,23,NN,FM,5,KS Smith Smith Center N0LL 146.61 OPEN On-Air
+822,"WWVcampbell,mid-rivers e911 dispatch center",444.475,+,5,Tone,136.5,136.5,23,23,NN,FM,5,"NE Franklin Campbell, Mid-Rivers E911 Dispatch Center W0WWV 444.475 OPEN On-Air"
+823,"WWVheartwell,kgin tv tower",146.82,-,0.6,Tone,123,123,23,23,NN,FM,5,"NE Kearney Heartwell, KGIN TV Tower W0WWV 146.82 OPEN On-Air"
+824,"WWVhastings,hastings museum",147.48,,0,Tone,88.5,88.5,23,23,NN,FM,5,"NE Adams Hastings, Hastings Museum W0WWV 147.48 OPEN Off-Air"
+825,"WWVhastings,hastings dog-walk park",443.2,+,5,Tone,82.5,82.5,23,23,NN,FM,5,"NE Adams Hastings, Hastings Dog-Walk Park W0WWV 443.2 OPEN On-Air"
+826,"WWVhastings,kcnt tower",145.13,-,0.6,Tone,123,123,23,23,NN,FM,5,"NE Adams Hastings, KCNT Tower W0WWV 145.13 OPEN On-Air"
+827,"YIXtorquerville,hurricane mesa",1299.25,-,20,,88.5,88.5,23,23,NN,DIG,5,"UT Washington Torquerville, Hurricane Mesa KF7YIX 1299.25 OPEN On-Air"
+828,"7DBpage(az), navajo mountain",448.75,-,5,Tone,100,100,23,23,NN,FM,5,"UT San Juan Page (az), Navajo Mountain NA7DB 448.75 OPEN On-Air"
+829,"CWIpage(az), navajo mountain",449.925,-,5,Tone,100,100,23,23,NN,FM,5,"UT San Juan Page (AZ), Navajo Mountain W7CWI 449.925 OPEN On-Air"
+830,"WACpage(az), navajo mountain",146.96,-,0.6,Tone,100,100,23,23,NN,FM,5,"UT San Juan Page (AZ), Navajo Mountain W7WAC 146.96 OPEN On-Air"
+831,"VHFpage,navajo mountain",448.6,-,5,Tone,100,100,23,23,NN,FM,5,"UT San Juan Page, Navajo Mountain WA7VHF 448.6 OPEN On-Air"
+832,"VHFrichfield,monroe peak",146.84,-,0.6,Tone,100,100,23,23,NN,FM,5,"UT Sevier Richfield, Monroe Peak WA7VHF 146.84 OPEN On-Air"
+833,"VHFsaltlake city, ensign peak",449.275,-,5,Tone,88.5,88.5,23,23,NN,FM,5,"UT Salt Lake Salt Lake City, Ensign Peak WA7VHF 449.275 OPEN On-Air"
+834,"VHFsaltlake city, farnsworth peak",146.94,-,0.6,Tone,88.5,88.5,23,23,NN,DIG,5,"UT Salt Lake Salt Lake City, Farnsworth Peak WA7VHF 146.94 OPEN On-Air"
+835,5GWelkcity,146.76,-,0.6,Tone,88.5,88.5,23,23,NN,FM,5,OK Beckham Elk City AA5GW 146.76 OPEN On-Air
+836,BSAelkcity,444.525,+,5,Tone,88.5,88.5,23,23,NN,FM,5,OK Beckham Elk City WX5BSA 444.525 OPEN On-Air
+837,"GIEroosevelt,mirror lake",147.38,+,0.6,Tone,100,100,23,23,NN,FM,5,"UT Duchesne Roosevelt, Mirror Lake WA7GIE 147.38 OPEN On-Air"
+838,"GIEcoalville,lewis peak",147.36,+,0.6,Tone,100,100,23,23,NN,FM,5,"UT Summit Coalville, Lewis Peak WA7GIE 147.36 OPEN On-Air"
+839,"GIEcoalville, lewis peak",448.65,-,5,,88.5,88.5,23,23,NN,FM,5,"UT Summit Coalville,  Lewis Peak WA7GIE 448.65 CLOSED On-Air"
+840,"GIEcoalville, lewis peak",449.55,-,5,Tone,100,100,23,23,NN,FM,5,"UT Summit Coalville,  Lewis Peak WA7GIE 449.55 OPEN On-Air"
+841,"GIEprovo,lake mountain",449.475,-,5,Tone,100,100,23,23,NN,FM,5,"UT Utah Provo, Lake Mountain WA7GIE 449.475 OPEN On-Air"
+842,"GIEriverton,flat top",448.625,-,5,,88.5,88.5,23,23,NN,FM,5,"UT Salt Lake Riverton, Flat Top WA7GIE 448.625 CLOSED Off-Air"
+843,"GIEsaltlake city, nelson peak",147.38,+,0.6,,88.5,88.5,23,23,NN,DIG,5,"UT Salt Lake Salt Lake City, Nelson Peak WA7GIE 147.38 OPEN Off-Air"
+844,"GIEsaltlake city, nelson peak",448.725,-,5,,88.5,88.5,23,23,NN,DIG,5,"UT Salt Lake Salt Lake City, Nelson Peak WA7GIE 448.725 OPEN "
+845,"GIEsaltlake city, nelson peak",449,-,5,,88.5,88.5,23,23,NN,FM,5,"UT Salt Lake Salt Lake City, Nelson Peak WA7GIE 449 CLOSED On-Air"
+846,"GIEsaltlake city, nelson peak",449.425,-,5,Tone,100,100,23,23,NN,FM,5,"UT Salt Lake Salt Lake City, Nelson Peak WA7GIE 449.425 OPEN On-Air"
+847,"GIEsaltlake city,  nelson peak",433.6,-,5,Tone,100,100,23,23,NN,FM,5,"UT Tooele Salt Lake City,  Nelson Peak WA7GIE 433.6 CLOSED On-Air"
+848,"GIEvernon,black crook peak",448.975,-,5,,88.5,88.5,23,23,NN,FM,5,"UT Tooele Vernon, Black Crook Peak WA7GIE 448.975 CLOSED Off-Air"
+849,"0UOmedicinelodge, gyp hills",146.88,-,0.6,Tone,103.5,103.5,23,23,NN,FM,5,"KS Barber Medicine Lodge, Gyp Hills K0UO 146.88 OPEN On-Air"
+850,BHNwilson,146.97,-,0.6,Tone,118.8,118.8,23,23,NN,FM,5,KS Ellsworth Wilson K0BHN 146.97 OPEN On-Air
+851,HPOisabel,442.025,+,5,Tone,103.5,103.5,23,23,NN,FM,5,KS Barber Isabel K0HPO 442.025 OPEN On-Air
+852,EJLburwell,147.09,+,0.6,,88.5,88.5,23,23,NN,FM,5,NE Garfield Burwell W0EJL 147.09 OPEN On-Air
+853,ELKelkcity,146.685,-,0.6,,88.5,88.5,23,23,NN,DIG,5,OK Beckham Elk City K5ELK 146.685 OPEN On-Air
+854,ELKelkcity,443.025,+,5,,88.5,88.5,23,23,NN,DIG,5,OK Beckham Elk City K5ELK 443.025 OPEN On-Air
+855,"VVQkemmerer,quealy peak",147.09,+,0.6,Tone,100,100,23,23,NN,FM,5,"WY Lincoln Kemmerer, Quealy Peak KG7VVQ 147.09 OPEN On-Air"
+856,"SHXkemmerer,quealy peak",449.825,-,5,,88.5,88.5,23,23,NN,FM,5,"WY Lincoln Kemmerer, Quealy Peak KA7SHX 449.825 OPEN On-Air"
+857,"ERHkemmerer,qualey ridge",449.3,-,5,Tone,127.3,127.3,23,23,NN,FM,5,"WY  Kemmerer, Qualey Ridge N7ERH 449.3 OPEN "
+858,EHEkemmerer,449.075,-,5,,88.5,123,23,23,NN,FM,5,WY Lincoln Kemmerer KF7EHE 449.075 OPEN Off-Air
+859,BJYmarbleton,145.145,-,0.6,Tone,100,100,23,23,NN,FM,5,WY Sublette Marbleton KC7BJY 145.145 OPEN On-Air
+860,"BJYpinedale,mt airy",448.1,-,5,Tone,100,100,23,23,NN,FM,5,"WY Sublette Pinedale, Mt Airy KC7BJY 448.1 OPEN Off-Air"
+861,"BJYbigpiney,  the hogsback",146.88,-,0.6,Tone,100,100,23,23,NN,FM,5,"WY Sublette Big Piney,  The Hogsback KC7BJY 146.88 OPEN On-Air"
+862,"7YPpinedale,mt airy",146.775,-,0.6,,88.5,88.5,23,23,NN,FM,5,"WY Sublette Pinedale, Mt Airy W7YP 146.775 OPEN Off-Air"
+863,"X7Rconcho,volcano hill",449.625,-,5,DTCS,114.8,114.8,23,754,NN,DIG,5,"AZ Apache Concho, Volcano Hill NX7R 449.625 OPEN On-Air"
+864,I0Pwoodriver,444.7,+,5,Tone,167.9,167.9,23,23,NN,DIG,5,NE Hall Wood River NI0P 444.7 OPEN On-Air
+865,"I0Pstlibory, microwave tower",444.925,+,5,Tone,100,100,23,23,NN,FM,5,"NE Howard St Libory, Microwave Tower NI0P 444.925 OPEN On-Air"
+866,I0Pgrandisland,443.95,+,5,Tone,123,123,23,23,NN,FM,5,NE Hall Grand Island NI0P 443.95 OPEN Testing
+867,"7JLevanston,medicine butte",146.86,-,0.6,Tone,100,100,23,23,NN,FM,5,"WY Uinta Evanston, Medicine Butte K7JL 146.86 OPEN On-Air"
+868,"7JLbrighton,scotts peak",145.27,-,0.6,Tone,100,100,23,23,NN,FM,5,"UT Salt Lake Brighton, Scotts Peak K7JL 145.27 OPEN On-Air"
+869,"7JLbrighton,scott's peak",449.525,-,5,Tone,131.8,131.8,23,23,NN,FM,5,"UT Salt Lake Brighton, Scott's Peak K7JL 449.525 OPEN On-Air"
+870,"7JLsnowbird,hidden peak",147.18,+,0.6,Tone,100,100,23,23,NN,FM,5,"UT Utah Snowbird, Hidden Peak K7JL 147.18 OPEN On-Air"
+871,"7JLlevan,levan peak",145.27,-,0.6,Tone,103.5,103.5,23,23,NN,FM,5,"UT Juab Levan, Levan Peak K7JL 145.27 OPEN On-Air"
+872,"7JLsaltlake city, ensign peak",449.4,-,5,Tone,100,100,23,23,NN,FM,5,"UT Salt Lake Salt Lake City, Ensign Peak K7JL 449.4 OPEN On-Air"
+873,"7JLsaltlake city, farnsworth peak",147.12,+,0.6,Tone,100,100,23,23,NN,FM,5,"UT Salt Lake Salt Lake City, Farnsworth Peak K7JL 147.12 OPEN On-Air"
+874,"7JLsaltlake city,  farnsworth peak",449.5,-,5,Tone,100,100,23,23,NN,FM,5,"UT Salt Lake Salt Lake City,  Farnsworth Peak K7JL 449.5 OPEN On-Air"
+875,"7JLsaltlake city, farnsworth peak",449.15,-,5,Tone,100,100,23,23,NN,DIG,5,"UT Salt Lake Salt Lake City, Farnsworth Peak K7JL 449.15 OPEN On-Air"
+876,"7JLogden,promontory pt",145.49,-,0.6,Tone,123,123,23,23,NN,FM,5,"UT Weber Ogden, Promontory Pt K7JL 145.49 OPEN On-Air"
+877,ARZholbrook,146.68,-,0.6,,88.5,88.5,23,23,NN,FM,5,AZ Navajo Holbrook KA7ARZ 146.68 OPEN On-Air
+878,"CRFmangum,navajo mt.",442.1,+,5,Tone,123,123,23,23,NN,FM,5,"OK Greer Mangum, Navajo Mt. KF5CRF 442.1 OPEN On-Air"
+879,ASAgranite,147.345,+,0.6,,88.5,88.5,23,23,NN,DIG,5,OK Greer Granite WX5ASA 147.345 OPEN On-Air
+880,"ASAgranite,walsh mountain",432.175,,0,,88.5,88.5,23,23,NN,DIG,5,"OK Greer Granite, Walsh Mountain WX5ASA 432.175 OPEN On-Air"
+881,ASAgranite,444.65,+,5,Tone,100,100,23,23,NN,FM,5,OK Greer Granite WX5ASA 444.65 OPEN Off-Air
+882,ASAeldorado,146.895,-,0.6,Tone,100,100,23,23,NN,FM,5,OK Jackson Eldorado WX5ASA 146.895 OPEN Off-Air
+883,ASAaltus,147.285,+,0.6,Tone,100,100,23,23,NN,FM,5,OK Jackson Altus WX5ASA 147.285 OPEN On-Air
+884,ASAaltus,442.05,+,5,Tone,100,100,23,23,NN,FM,5,OK Jackson Altus WX5ASA 442.05 OPEN On-Air
+885,"ASAaltus,navajo mountain",146.79,-,0.6,Tone,100,100,23,23,NN,DIG,5,"OK Jackson Altus, Navajo Mountain WX5ASA 146.79 OPEN On-Air"
+886,"RELindianola,indianola peak",146.72,-,0.6,Tone,100,100,23,23,NN,FM,5,"UT Sanpete Indianola, Indianola Peak WB7REL 146.72 OPEN On-Air"
+887,"RELstarling,sterling",145.29,-,0.6,Tone,131.8,131.8,23,23,NN,FM,5,"UT Sanpete Starling, Sterling WB7REL 145.29 OPEN On-Air"
+888,RELsterling,447.85,-,5,Tone,131.8,131.8,23,23,NN,FM,5,UT Sanpete Sterling WB7REL 447.85 OPEN On-Air
+889,"RELsterling,salina canyon",449.25,-,5,Tone,131.8,131.8,23,23,NN,FM,5,"UT Sevier Sterling, Salina Canyon WB7REL 449.25 OPEN "
+890,"RELsalina,beesting peak",449.3,-,5,Tone,88.5,88.5,23,23,NN,FM,5,"UT Sevier Salina, Beesting Peak WB7REL 449.3 OPEN Off-Air"
+891,"RELeastsalina, salina canyon",146.72,-,0.6,Tone,100,100,23,23,NN,FM,5,"UT Sanpete East Salina, Salina Canyon WB7REL 146.72 OPEN On-Air"
+892,"RELmonroe,monroe peak",146.86,-,0.6,Tone,100,100,23,23,NN,FM,5,"UT Sevier Monroe, Monroe Peak WB7REL 146.86 OPEN On-Air"
+893,"RELglendale,spencer bench",146.72,-,0.6,Tone,100,100,23,23,NN,FM,5,"UT Kane Glendale, Spencer Bench WB7REL 146.72 OPEN On-Air"
+894,"IMFephraim, horseshoe",224.64,-,1.6,,88.5,88.5,23,23,NN,FM,5,"UT Sanpete Ephraim,  Horseshoe N7IMF 224.64 OPEN "
+895,IMForem,224.88,-,1.6,Tone,156.7,156.7,23,23,NN,FM,5,UT Utah Orem N7IMF 224.88 CLOSED On-Air
+896,"IMFlehi,lake mountain",448.7,-,5,Tone,114.8,114.8,23,23,NN,FM,5,"UT Salt Lake Lehi, Lake Mountain N7IMF 448.7 OPEN Off-Air"
+897,"IMFdraper,point of the mountain",224.9,-,1.6,Tone,156.7,156.7,23,23,NN,FM,5,"UT Utah Draper, Point of the Mountain N7IMF 224.9 CLOSED On-Air"
+898,"DHHephraim,horseshoe",146.66,-,0.6,Tone,100,100,23,23,NN,FM,5,"UT Sanpete Ephraim, Horseshoe W7DHH 146.66 OPEN On-Air"
+899,"DHHmonroe,monroe peak",447.45,-,5,Tone,114.8,114.8,23,23,NN,FM,5,"UT Sevier Monroe, Monroe Peak W7DHH 447.45 OPEN On-Air"
+900,"DSNspanishfork,  teat mountain",447.4,-,5,Tone,100,100,23,23,NN,FM,5,"UT Utah Spanish Fork,  Teat Mountain K7DSN 447.4 OPEN "
+901,"XTLgranite,walsh mountain",146.985,-,0.6,Tone,156.7,156.7,23,23,NN,DIG,5,"OK Greer Granite, Walsh Mountain K5XTL 146.985 OPEN On-Air"
+902,XTLgranite,442.075,+,5,Tone,141.3,141.3,23,23,NN,DIG,5,OK Greer Granite K5XTL 442.075 OPEN 
+903,HRSgranite,224.92,-,1.6,Tone,151.4,151.4,23,23,NN,FM,5,OK Greer Granite KE5HRS 224.92 OPEN On-Air
+904,LLIgranite,146.715,-,0.6,Tone,123,123,23,23,NN,FM,5,OK Greer Granite KB5LLI 146.715 OPEN On-Air
+905,"CUOgrandisland, nebraska state fair",145.415,-,0.6,Tone,123,123,23,23,NN,DIG,5,"NE Hall Grand Island, Nebraska State Fair W0CUO 145.415 OPEN On-Air"
+906,CUOelba,147.24,+,0.6,Tone,123,123,23,23,NN,FM,5,NE Howard Elba W0CUO 147.24 OPEN On-Air
+907,CUOgrandisland,53.35,-,1.7,,88.5,88.5,23,23,NN,FM,5,NE Hall Grand Island W0CUO 53.35 OPEN On-Air
+908,CUOgrandisland,146.94,-,0.6,Tone,123,123,23,23,NN,FM,5,NE Hall Grand Island W0CUO 146.94 OPEN On-Air
+909,"EQAhastings,ne",147.525,,0,Tone,141.3,141.3,23,23,NN,DIG,5,"NE Adams Hastings, NE KC0EQA 147.525 OPEN On-Air"
+910,"RRKclinton,	at 200 ft on wright radio tower south clinton",145.19,-,0.6,Tone,88.5,88.5,23,23,NN,FM,5,"OK Custer Clinton, 	At 200 ft on Wright Radio Tower South Clinton KE5RRK 145.19 OPEN On-Air"
+911,"PBVgrandisland, st. francis hospital",146.655,-,0.6,,88.5,88.5,23,23,NN,DIG,5,"NE Hall Grand Island, St. Francis Hospital KD0PBV 146.655 OPEN On-Air"
+912,"ENXgrandisland, heartland event center",444.75,+,5,Tone,123,123,23,23,NN,DIG,5,"NE Hall Grand Island, Heartland Event Center KD0ENX 444.75 OPEN On-Air"
+913,ENXgrandisland,147.345,+,0.6,Tone,123,123,23,23,NN,DIG,5,NE Hall Grand Island KD0ENX 147.345 OPEN On-Air
+914,YFZmanti,449.75,-,5,Tone,131.8,131.8,23,23,NN,FM,5,UT Sanpete Manti N7YFZ 449.75 OPEN 
+915,K5Vfairview,145.45,-,0.6,,88.5,88.5,23,23,NN,FM,5,OK Major Fairview WK5V 145.45 OPEN Off-Air
+916,K5Vfairview,147.075,+,0.6,,88.5,88.5,23,23,NN,FM,5,OK Major Fairview WK5V 147.075 OPEN Off-Air
+917,5ZTfairview,145.25,-,0.6,Tone,136.5,136.5,23,23,NN,FM,5,OK Major Fairview AA5ZT 145.25 OPEN On-Air
+918,RHOfairview,444.725,+,5,,88.5,88.5,23,23,NN,FM,5,OK Major Fairview N5RHO 444.725 OPEN Off-Air
+919,ZOImidway,449.95,-,5,,88.5,88.5,23,23,NN,FM,5,UT Wasatch Midway N7ZOI 449.95 OPEN On-Air
+920,"ZOImidway,wilson peak",147.2,+,0.6,Tone,88.5,88.5,23,23,NN,FM,5,"UT Wasatch Midway, Wilson Peak N7ZOI 147.2 OPEN On-Air"
+921,BSKsterling,145.15,-,0.6,,88.5,88.5,23,23,NN,DIG,5,UT Utah Sterling KB7BSK 145.15 OPEN 
+922,BSKsterling,447.95,-,5,,88.5,88.5,23,23,NN,DIG,5,UT Utah Sterling KB7BSK 447.95 OPEN 
+923,EZOmapleton,146.8,-,0.6,Tone,100,100,23,23,NN,FM,5,UT Utah Mapleton N6EZO 146.8 OPEN On-Air
+924,KYYspringville,447.325,-,5,Tone,114.8,114.8,23,23,NN,FM,5,UT Utah Springville N7KYY 447.325 OPEN On-Air
+925,J5Qaltus,442.225,+,5.1,,88.5,88.5,23,23,NN,DIG,5,OK Jackson Altus AJ5Q 442.225 OPEN On-Air
+926,"J5Qaltus,ok, navajo mountain",432.2,,0,,88.5,88.5,23,23,NN,DIG,5,"OK Jackson Altus, OK, Navajo Mountain AJ5Q 432.2 OPEN On-Air"
+927,"J5Qaltus,navajo mountain",432.2,,0,,88.5,88.5,23,23,NN,DIG,5,"OK Greer Altus, Navajo Mountain AJ5Q 432.2 OPEN On-Air"
+928,"D7Wpinetop-lakeside,porter mountain",146.76,-,0.6,Tone,162.2,162.2,23,23,NN,DIG,5,"AZ Navajo Pinetop-Lakeside, Porter Mountain AD7W 146.76 OPEN On-Air"
+929,"D7Wpinetop-lakeside,porter mountain",449.05,-,5,,88.5,88.5,23,23,NN,DIG,5,"AZ Navajo Pinetop-Lakeside, Porter Mountain AD7W 449.05 OPEN On-Air"
+930,D7Nspringville,447.475,-,5,Tone,186.2,186.2,23,23,NN,FM,5,UT Utah Springville WD7N 447.475 OPEN On-Air
+931,D7Neaglemountain,449.25,-,5,Tone,110.9,110.9,23,23,NN,FM,5,UT Utah Eagle Mountain WD7N 449.25 OPEN Off-Air
+932,RPFwoodlandhills,447.3,-,5,Tone,77,77,23,23,NN,FM,5,UT Utah Woodland Hills WB7RPF 447.3 OPEN On-Air
+933,WSTwoodlandhills,449.8,-,1,,88.5,88.5,23,23,NN,DIG,5,UT Utah Woodland Hills KC7WST 449.8 OPEN On-Air
+934,WSTsaratogasprings,447.05,-,5,,88.5,88.5,23,23,NN,DIG,5,UT Utah Saratoga Springs KC7WST 447.05 OPEN On-Air
+935,"UVAprovo,sundance",145.25,-,0.6,Tone,100,100,23,23,NN,FM,5,"UT Utah Provo, Sundance K7UVA 145.25 OPEN On-Air"
+936,"UVAalpine,silver lake flat",448.225,-,5,Tone,100,100,23,23,NN,FM,5,"UT Utah Alpine, Silver Lake Flat K7UVA 448.225 OPEN On-Air"
+937,"UVAorem,lake mountain",146.78,-,0.6,Tone,100,100,23,23,NN,FM,5,"UT Utah Orem, Lake Mountain K7UVA 146.78 OPEN On-Air"
+938,"UVAorem,lake mountain",224.56,-,1.6,Tone,100,100,23,23,NN,FM,5,"UT Utah Orem, Lake Mountain K7UVA 224.56 OPEN On-Air"
+939,"UVAorem,lake mountain",448.2,-,5,Tone,100,100,23,23,NN,FM,5,"UT Utah Orem, Lake Mountain K7UVA 448.2 OPEN On-Air"
+940,YOTprovo,449.825,-,5,Tone,167.9,167.9,23,23,NN,FM,5,UT Utah Provo KB7YOT 449.825 OPEN Off-Air
+941,YOTpleasantgrove,223.88,-,1.6,Tone,156.7,156.7,23,23,NN,FM,5,UT Utah Pleasant Grove KB7YOT 223.88 OPEN 
+942,TOOweatherford,147.075,+,0.6,,88.5,88.5,23,23,NN,FM,5,OK Custer Weatherford KB5TOO 147.075 OPEN 
+943,Z6Zparkcity,145.23,-,0.6,Tone,100,100,23,23,NN,FM,5,UT Summit Park City NZ6Z 145.23 OPEN 
+944,Z6Zparkcity,447.5,-,5,,88.5,88.5,23,23,NN,FM,5,UT Summit Park City NZ6Z 447.5 OPEN On-Air
+945,"TSQcoalville, lewis peak",448.9,-,5,,88.5,88.5,23,23,NN,FM,5,"UT Summit Coalville,  Lewis Peak WB7TSQ 448.9 OPEN "
+946,"TSQogden, foothills",145.41,-,0.6,Tone,123,123,23,23,NN,FM,5,"UT Weber Ogden,  foothills WB7TSQ 145.41 OPEN On-Air"
+947,TSQogden,448.275,-,5,Tone,107.2,107.2,23,23,NN,FM,5,UT Weber Ogden WB7TSQ 448.275 OPEN Off-Air
+948,TSQogden,147.38,+,0.6,,88.5,88.5,23,23,NN,FM,5,UT Weber Ogden WB7TSQ 147.38 OPEN 
+949,7FQsalem,447.075,-,5,Tone,131.8,131.8,23,23,NN,FM,5,UT Utah Salem N7FQ 447.075 OPEN Off-Air
+950,"7YEmanti,barton peak",448.275,-,5,Tone,107.2,107.2,23,23,NN,FM,5,"UT Sanpete Manti, Barton Peak KD7YE 448.275 OPEN On-Air"
+951,"BYUprovo,byu",145.33,-,0.6,Tone,100,100,23,23,NN,FM,5,"UT Utah Provo, BYU N7BYU 145.33 OPEN On-Air"
+952,"BYUprovo,byu",449.075,-,5,Tone,167.9,167.9,23,23,NN,FM,5,"UT Utah Provo, BYU N7BYU 449.075 OPEN On-Air"
+953,EVCprovo,447.425,-,5,,88.5,88.5,23,23,NN,FM,5,UT Utah Provo N7EVC 447.425 OPEN Off-Air
+954,"YZRprovo,edgemont sc",147.22,+,0.6,,88.5,88.5,23,23,NN,FM,5,"UT Utah Provo, Edgemont SC WA7YZR 147.22 OPEN Off-Air"
+955,"FFMprovo,uvrmc",449.85,-,5,Tone,146.2,146.2,23,23,NN,FM,5,"UT Utah Provo, UVRMC WA7FFM 449.85 OPEN On-Air"
+956,"FFMgoshen, west mountain",448.95,-,5,,88.5,88.5,23,23,NN,FM,5,"UT Utah Goshen,  West Mountain WA7FFM 448.95 OPEN "
+957,"UCApayson,mountain view hospital",447.125,-,5,Tone,100,100,23,23,NN,FM,5,"UT Utah Payson, Mountain View Hospital K7UCA 447.125 OPEN Off-Air"
+958,"UCAorem, timpanogos hospital",447.275,-,5,Tone,100,100,23,23,NN,FM,5,"UT Utah Orem,  Timpanogos Hospital K7UCA 447.275 OPEN Off-Air"
+959,RDZwinslow,146.84,-,0.6,,88.5,88.5,23,23,NN,FM,5,AZ Navajo Winslow N7RDZ 146.84 OPEN On-Air
+960,RDZwinslow,147.38,+,0.6,Tone,91.5,91.5,23,23,NN,FM,5,AZ Navajo Winslow N7RDZ 147.38 OPEN On-Air
+961,V7Vpayson,447,-,5,Tone,100,100,23,23,NN,FM,5,UT Utah Payson NV7V 447 OPEN On-Air
+962,"RVSgunnison,n7rvs qth",447.35,-,5,Tone,88.5,88.5,23,23,NN,FM,5,"UT Sanpete Gunnison, N7RVS QTH N7RVS 447.35 OPEN "
+963,"BSAorem,qth ac7dm",145.47,-,0.6,Tone,100,100,23,23,NN,FM,5,"UT Utah Orem, QTH AC7DM N7BSA 145.47 OPEN "
+964,B7Mpayson,448.025,-,5,Tone,100,100,23,23,NN,FM,5,UT Utah Payson KB7M 448.025 OPEN On-Air
+965,LAWheadrick,443.3,+,5,Tone,123,123,23,23,NN,FM,5,OK Jackson Headrick WX5LAW 443.3 OPEN On-Air
+966,"HAFparkcity,  murdock peak",448.475,-,5,,88.5,88.5,23,23,NN,FM,5,"UT Summit Park City,  Murdock Peak KB7HAF 448.475 OPEN On-Air"
+967,"RBRorem,point of the mountain",447.6,-,5,Tone,162.2,162.2,23,23,NN,FM,5,"UT Utah Orem, Point of the Mountain KD7RBR 447.6 OPEN On-Air"
+968,BBNheadrick,444.1,+,5,,88.5,88.5,23,23,NN,FM,5,OK Jackson Headrick WD5BBN 444.1 OPEN Off-Air
+969,BKTpleasantgrove,449.775,-,5,,88.5,88.5,23,23,NN,FM,5,UT Utah Pleasant Grove K8BKT 449.775 OPEN On-Air
+970,"UAHgoshen,west mountain",147.02,+,0.6,Tone,100,100,23,23,NN,FM,5,"UT Utah Goshen, West Mountain WA7UAH 147.02 OPEN On-Air"
+971,"UAHwestjordan, butterfield peak",145.45,-,0.6,Tone,100,100,23,23,NN,FM,5,"UT Salt Lake West Jordan, Butterfield Peak WA7UAH 145.45 OPEN On-Air"
+972,"UAHwestjordan, butterfield pk",449.725,-,5,Tone,151.4,151.4,23,23,NN,FM,5,"UT Salt Lake West Jordan, Butterfield Pk WA7UAH 449.725 OPEN On-Air"
+973,"QWUpayson,west mountain",448.25,-,5,Tone,100,100,23,23,NN,FM,5,"UT Utah Payson, West Mountain N6QWU 448.25 OPEN Off-Air"
+974,"UCSgoshen,west mountain",147.34,+,0.6,Tone,100,100,23,23,NN,FM,5,"UT Utah Goshen, West Mountain K7UCS 147.34 OPEN On-Air"
+975,"UCSprovo,lake mountain",449.675,-,5,Tone,173.8,173.8,23,23,NN,FM,5,"UT Utah Provo, Lake Mountain K7UCS 449.675 CLOSED On-Air"
+976,"UCSprovo,lake mountain",145.23,-,0.6,Tone,131.8,131.8,23,23,NN,FM,5,"UT Utah Provo, Lake Mountain K7UCS 145.23 OPEN On-Air"
+977,"UCSprovo,lake mountain",147.28,+,0.6,Tone,141.3,141.3,23,23,NN,FM,5,"UT Utah Provo, Lake Mountain K7UCS 147.28 OPEN On-Air"
+978,"UCSprovo,lake mountain",448.325,-,5,Tone,103.5,103.5,23,23,NN,FM,5,"UT Utah Provo, Lake Mountain K7UCS 448.325 CLOSED Off-Air"
+979,"UCSprovo,lake mountain",449.975,-,5,Tone,131.8,131.8,23,23,NN,FM,5,"UT Utah Provo, Lake Mountain K7UCS 449.975 OPEN On-Air"
+980,"OGMlaketown,bear lake",147.02,+,0.6,Tone,100,100,23,23,NN,FM,5,"UT Rich Laketown, Bear Lake K7OGM 147.02 OPEN On-Air"
+981,"OGMlaketown,bear lake",448.45,-,5,Tone,131.8,131.8,23,23,NN,FM,5,"UT Rich Laketown, Bear Lake K7OGM 448.45 CLOSED On-Air"
+982,"OGMlaketown,bear lake",448.975,-,5,,88.5,88.5,23,23,NN,FM,5,"UT Rich Laketown, Bear Lake K7OGM 448.975 CLOSED On-Air"
+983,"OGMlaketown,bear lake",449.7,-,5,Tone,100,100,23,23,NN,FM,5,"UT Rich Laketown, Bear Lake K7OGM 449.7 OPEN On-Air"
+984,"OGMfishhaven, laketown radio site",147.02,+,0.6,Tone,100,100,23,23,NN,FM,5,"ID Bear Lake Fish Haven, Laketown Radio Site K7OGM 147.02 OPEN On-Air"
+985,"3STamericanfork, kd7bbc qth",447.975,-,5,,88.5,88.5,23,23,NN,DIG,5,"UT Utah American Fork, KD7BBC QTH NT3ST 447.975 OPEN On-Air"
+986,"7VChighland,kx7vc qth",447.725,-,5,Tone,167.9,167.9,23,23,NN,FM,5,"UT Utah Highland, KX7VC QTH KX7VC 447.725 OPEN On-Air"
+987,"EGCamericanfork, utah lake",449.175,-,5,Tone,131.8,131.8,23,23,NN,FM,5,"UT Utah American Fork, Utah Lake KA7EGC 449.175 OPEN On-Air"
+988,"EGCprovo,lake mountain",447.875,-,5,Tone,100,100,23,23,NN,FM,5,"UT Utah Provo, Lake Mountain KA7EGC 447.875 OPEN Off-Air"
+989,GRPo'neill,444.875,+,5,Tone,146.2,146.2,23,23,NN,FM,5,NE Holt O'Neill KB0GRP 444.875 OPEN On-Air
+990,GRPo'neill,146.61,-,0.6,Tone,131.8,131.8,23,23,NN,FM,5,NE Holt O'Neill KB0GRP 146.61 OPEN On-Air
+991,KMFredspur,145.31,-,0.6,Tone,103.5,103.5,23,23,NN,FM,5,UT Cache Red Spur WA7KMF 145.31 OPEN On-Air
+992,"KMFlogan,mt logan",146.72,-,0.6,Tone,103.5,103.5,23,23,NN,FM,5,"UT Cache Logan, Mt Logan WA7KMF 146.72 OPEN On-Air"
+993,"KMFmantua, murrays hill",449.8,-,5,Tone,103.5,103.5,23,23,NN,FM,5,"UT Cache Mantua,  Murrays Hill WA7KMF 449.8 OPEN On-Air"
+994,KMFriverside,449.575,-,5,,88.5,88.5,23,23,NN,DIG,5,UT Box Elder Riverside WA7KMF 449.575 OPEN On-Air
+995,"JSQhuntsville,herd mountain",146.68,-,0.6,Tone,123,123,23,23,NN,FM,5,"UT Morgan Huntsville, Herd Mountain N7JSQ 146.68 OPEN On-Air"
+996,"ZCLmorgan,tv site.",147.1,+,0.6,Tone,123,123,23,23,NN,DIG,5,"UT Morgan Morgan, TV Site. KB7ZCL 147.1 OPEN On-Air"
+997,WSUlehi,447.05,-,5,,88.5,88.5,23,23,NN,DIG,5,UT Utah Lehi KC7WSU 447.05 OPEN Off-Air
+998,QWUlehi,448.875,-,5,,88.5,88.5,23,23,NN,DIG,5,UT Utah Lehi KG7QWU 448.875 OPEN On-Air
+999,MRSsaltlake city,447.25,-,5,Tone,100,100,23,23,NN,FM,5,UT Salt Lake Salt Lake City K7MRS 447.25 OPEN On-Air
+1000,QVUovergaard,446.6,-,5,Tone,100,100,23,23,NN,DIG,5,AZ Navajo Overgaard N7QVU 446.6 OPEN On-Air
+1001,QGTdraper,447,-,5,Tone,88.5,88.5,23,23,NN,FM,5,UT Salt Lake Draper KE7QGT 447 OPEN Off-Air
+1002,"EGMdraper,fire station",447.1,-,5,Tone,100,100,23,23,NN,FM,5,"UT Salt Lake Draper, Fire Station KG7EGM 447.1 OPEN On-Air"
+1003,ROYsandy,448.375,-,5,Tone,100,100,23,23,NN,FM,5,UT Salt Lake Sandy W7ROY 448.375 OPEN On-Air
+1004,RIMovergaard,146.8,-,0.6,Tone,162.2,162.2,23,23,NN,FM,5,AZ Navajo Overgaard W7RIM 146.8 OPEN On-Air
+1005,"OXIdraper, south mountain",448.35,-,5,,88.5,88.5,23,23,NN,FM,5,"UT Salt Lake Draper,  South Mountain KC7OXI 448.35 OPEN Off-Air"
+1006,"HSWmonroe,monroe peak",146.64,-,0.6,Tone,100,100,23,23,NN,FM,5,"UT Sevier Monroe, Monroe Peak WA7HSW 146.64 OPEN On-Air"
+1007,NPOreliance,146.94,-,0.6,Tone,146.2,146.2,23,23,NN,FM,5,SD Lyman Reliance N0NPO 146.94 OPEN On-Air
+1008,"7SPprovo,lake mountain",146.76,-,0.6,,88.5,88.5,23,23,NN,FM,5,"UT Utah Provo, Lake Mountain W7SP 146.76 OPEN On-Air"
+1009,"7SPsaltlake city, farnsworth peak",146.62,-,0.6,,88.5,88.5,23,23,NN,FM,5,"UT Salt Lake Salt Lake City, Farnsworth Peak W7SP 146.62 OPEN On-Air"
+1010,"WJCprovo,lake mountain",224.42,-,1.6,Tone,156.7,156.7,23,23,NN,FM,5,"UT Utah Provo, Lake Mountain W7WJC 224.42 OPEN On-Air"
+1011,"7AUprovo,lake mountain",224.7,-,1.6,Tone,107.2,107.2,23,23,NN,FM,5,"UT Utah Provo, Lake Mountain KE7AU 224.7 OPEN Off-Air"
+1012,SLCbountiful,448.8,-,5,Tone,88.5,88.5,23,23,NN,FM,5,UT Davis Bountiful KA7SLC 448.8 CLOSED Off-Air
+1013,7DUsaratogasprings,447.675,-,5,Tone,100,100,23,23,NN,FM,5,UT Utah Saratoga Springs AC7DU 447.675 OPEN On-Air
+1014,"7NXsaltlake city,  u of u hospital",146.74,-,0.6,Tone,114.8,114.8,23,23,NN,FM,5,"UT Salt Lake Salt Lake City,  U of U Hospital KD7NX 146.74 OPEN On-Air"
+1015,"7NXsaltlake city,  u of u hospital",448.1,-,5,Tone,114.8,114.8,23,23,NN,FM,5,"UT Salt Lake Salt Lake City,  U of U Hospital KD7NX 448.1 OPEN On-Air"
+1016,"GHKsaltlake, carrigan ridge",145.41,-,0.6,DTCS,88.5,88.5,125,125,NN,FM,5,"UT Salt Lake Salt Lake, Carrigan Ridge KE7GHK 145.41 OPEN "
+1017,M7Pmurray,145.35,-,0.6,Tone,100,100,23,23,NN,FM,5,UT Salt Lake Murray NM7P 145.35 OPEN On-Air
+1018,"SLCmurray,intermountain med ctr",145.15,-,0.6,,88.5,88.5,23,23,NN,DIG,5,"UT Salt Lake Murray, Intermountain Med Ctr KO7SLC 145.15 OPEN On-Air"
+1019,"SLCmurray,intermountain med ctr",447.95,-,5,,88.5,88.5,23,23,NN,DIG,5,"UT Salt Lake Murray, Intermountain Med Ctr KO7SLC 447.95 OPEN On-Air"
+1020,"SLCmurray,intermountain med ctr",1298.75,-,20,,88.5,88.5,23,23,NN,DIG,5,"UT Salt Lake Murray, Intermountain Med Ctr KO7SLC 1298.75 OPEN On-Air"
+1021,"LMGmurray,intermountain medical center",447.25,-,5,Tone,100,100,23,23,NN,FM,5,"UT Salt Lake Murray, Intermountain Medical Center KE7LMG 447.25 OPEN "
+1022,"YXLsouthsalt lake city, fire station 43",447.7,-,5,Tone,100,100,23,23,NN,FM,5,"UT Salt Lake South Salt Lake City, Fire Station 43 KF7YXL 447.7 OPEN On-Air"
+1023,"D0Jsaltlake city, slcc",146.88,-,0.6,Tone,88.5,88.5,23,23,NN,FM,5,"UT Salt Lake Salt Lake City, SLCC KD0J 146.88 OPEN On-Air"
+1024,"D0Jsaltlake city, ensign peak",449.9,-,5,Tone,100,100,23,23,NN,FM,5,"UT Salt Lake Salt Lake City, Ensign Peak KD0J 449.9 OPEN "
+1025,"D0Jsaltlake city, jordan vly hospital",224.78,-,1.6,Tone,100,100,23,23,NN,FM,5,"UT Salt Lake Salt Lake City, Jordan Vly Hospital KD0J 224.78 OPEN On-Air"
+1026,"DAVbountiful,golf course",449.925,-,5,Tone,100,100,23,23,NN,DIG,5,"UT Davis Bountiful, golf course K7DAV 449.925 OPEN On-Air"
+1027,"DAVlayton, shepard peak",449.875,-,5,DTCS,88.5,88.5,51,51,NN,DIG,5,"UT Davis Layton,  Shepard Peak K7DAV 449.875 OPEN On-Air"
+1028,"DAVfarmington, shepard peak",53.01,-,1,Tone,141.3,141.3,23,23,NN,FM,5,"UT Davis Farmington,  Shepard Peak K7DAV 53.01 OPEN On-Air"
+1029,"DAVantelopeisland, frary peak",147.04,+,0.6,Tone,123,123,23,23,NN,DIG,5,"UT Davis Antelope Island, Frary Peak K7DAV 147.04 OPEN On-Air"
+1030,"DAVantelopeisland, frary peak",447.2,-,5,Tone,127.3,127.3,23,23,NN,DIG,5,"UT Davis Antelope Island, Frary Peak K7DAV 447.2 OPEN On-Air"
+1031,"GGNholden,beesting peak",147.1,+,0.6,Tone,100,100,23,23,NN,FM,5,"UT Sevier Holden, Beesting Peak N7GGN 147.1 OPEN On-Air"
+1032,HIWmurray,448.125,-,5,Tone,100,100,23,23,NN,FM,5,UT Salt Lake Murray N7HIW 448.125 OPEN 
+1033,SARsaltlake city,447.175,-,5,,88.5,88.5,23,23,NN,FM,5,UT Salt Lake Salt Lake City W7SAR 447.175 OPEN On-Air
+1034,XDXsaltlake city,927.5875,-,25,DTCS,88.5,88.5,432,432,NN,FM,5,UT Salt Lake Salt Lake City W7XDX 927.5875 OPEN 
+1035,"XDXwestjordan,  butterfield peak",927.1125,-,25,DTCS,88.5,88.5,432,432,NN,FM,5,"UT Salt Lake West Jordan,  Butterfield Peak W7XDX 927.1125 OPEN "
+1036,OEIsaltlake city,449.75,-,5,Tone,151.4,151.4,23,23,NN,FM,5,UT Salt Lake Salt Lake City KA7OEI 449.75 OPEN 
+1037,UEOpleasantgrove,449.325,-,5,Tone,114.8,114.8,23,23,NN,FM,5,UT Utah Pleasant Grove N7UEO 449.325 OPEN On-Air
+1038,"7SLsaltlake city, lds hq",448.425,-,5,Tone,100,100,23,23,NN,FM,5,"UT Salt Lake Salt Lake City, LDS HQ WD7SL 448.425 OPEN On-Air"
+1039,"DESsaltlake city, capitol",147.06,+,0.6,,88.5,88.5,23,23,NN,FM,5,"UT Salt Lake Salt Lake City, Capitol W7DES 147.06 OPEN Off-Air"
+1040,"DESsaltlake city,  capitol",448,-,5,Tone,100,100,23,23,NN,FM,5,"UT Salt Lake Salt Lake City,  Capitol W7DES 448 OPEN On-Air"
+1041,"7JRsaltlake city, capitol",145.21,-,0.6,,88.5,88.5,23,23,NN,FM,5,"UT Salt Lake Salt Lake City, Capitol AA7JR 145.21 OPEN "
+1042,"XRDsaltlake city, ensign peak",448.525,-,5,Tone,100,100,23,23,NN,DIG,5,"UT Salt Lake Salt Lake City, Ensign Peak K7XRD 448.525 OPEN On-Air"
+1043,LNPwestjordan,447.575,-,5,Tone,114.8,114.8,23,23,NN,FM,5,UT Salt Lake West Jordan K7LNP 447.575 OPEN 
+1044,DVZwestjordan,447.9375,-,5,,88.5,88.5,23,23,NN,DIG,5,UT Salt Lake West Jordan N6DVZ 447.9375 OPEN On-Air
+1045,D7Pwestjordan,447.75,-,5,Tone,100,100,23,23,NN,FM,5,UT Salt Lake West Jordan WD7P 447.75 OPEN 
+1046,"IIBsaltlake city, ensign peak",146.7,-,0.6,Tone,100,100,23,23,NN,FM,5,"UT Salt Lake Salt Lake City, Ensign Peak KC7IIB 146.7 OPEN On-Air"
+1047,"IIBsaltlake city, ensign peak",448.45,-,5,Tone,100,100,23,23,NN,FM,5,"UT Salt Lake Salt Lake City, Ensign Peak KC7IIB 448.45 OPEN On-Air"
+1048,"SNSsaltlake city, ensign peak",147.16,+,0.6,Tone,127.3,127.3,23,23,NN,FM,5,"UT Salt Lake Salt Lake City, Ensign Peak WA7SNS 147.16 OPEN On-Air"
+1049,7UYbedford,447,-,5,Tone,100,100,23,23,NN,FM,5,WY Lincoln Bedford W7UY 447 OPEN 
+1050,"CDNsaltlake city, meridian peak",224.82,-,1.6,Tone,167.9,167.9,23,23,NN,FM,5,"UT Salt Lake Salt Lake City, Meridian Peak WB6CDN 224.82 OPEN On-Air"
+1051,"CDNogden, downtown",224.5,-,1.6,Tone,167.9,167.9,23,23,NN,FM,5,"UT Weber Ogden,  downtown WB6CDN 224.5 OPEN "
+1052,"IMSsaltlake city,  ensign peak",448.175,-,5,Tone,203.5,203.5,23,23,NN,FM,5,"UT Salt Lake Salt Lake City,  Ensign Peak KD7IMS 448.175 OPEN "
+1053,"7BLmontpelier,m-hill",147.12,+,0.6,Tone,123,123,23,23,NN,FM,5,"ID Bear Lake Montpelier, M-Hill AG7BL 147.12 OPEN On-Air"
+1054,"MLAlayton, francis peak",146.96,-,0.6,Tone,100,100,23,23,NN,FM,5,"UT Davis Layton,  Francis Peak K7MLA 146.96 OPEN On-Air"
+1055,"MLAwestjordan, butterfield peak",147.14,+,0.6,Tone,127.3,127.3,23,23,NN,FM,5,"UT Salt Lake West Jordan, Butterfield Peak K7MLA 147.14 OPEN On-Air"
+1056,DBAhuntsville,145.21,-,0.6,Tone,123,123,23,23,NN,FM,5,UT Weber Huntsville W7DBA 145.21 OPEN 
+1057,DBAhuntsville,448.025,-,5,Tone,123,123,23,23,NN,FM,5,UT Weber Huntsville W7DBA 448.025 OPEN On-Air
+1058,"LVEafton,the narrows",146.97,-,0.6,Tone,100,100,23,23,NN,NFM,5,"WY Lincoln Afton, The Narrows KD7LVE 146.97 OPEN On-Air"
+1059,7TJmontpelier,147.38,+,0.6,Tone,88.5,88.5,23,23,NN,FM,5,ID Bear Lake Montpelier AC7TJ 147.38 OPEN On-Air
+1060,CWKbountiful,449.35,-,5,Tone,123,123,23,23,NN,FM,5,UT Davis Bountiful W7CWK 449.35 OPEN On-Air
+1061,"I7Jlayton, kaysville peak",449.6,-,5,Tone,136.5,136.5,23,23,NN,FM,5,"UT Weber Layton,  Kaysville Peak AI7J 449.6 OPEN On-Air"
+1062,I7Jlayton,449.25,-,5,Tone,100,100,23,23,NN,FM,5,UT Davis Layton AI7J 449.25 OPEN Off-Air
+1063,"RTObountiful, qth",447.425,+,5,Tone,192.8,192.8,23,23,NN,FM,5,"UT Davis Bountiful,  QTH KD7RTO 447.425 OPEN On-Air"
+1064,"PCEsaltlake city, jordan vly hospital",146.84,-,0.6,,88.5,88.5,23,23,NN,FM,5,"UT Salt Lake Salt Lake City, Jordan Vly Hospital N7PCE 146.84 OPEN On-Air"
+1065,U7Xnorthsalt lake,927.3125,-,25,Tone,127.3,127.3,23,23,NN,FM,5,UT Davis North Salt Lake NU7X 927.3125 OPEN Off-Air
+1066,"KRYeureka, eureka peak",447.875,-,5,,88.5,88.5,23,23,NN,FM,5,"UT Juab Eureka,  Eureka Peak KC7KRY 447.875 OPEN "
+1067,"MVIeureka, eureka peak",448.225,-,5,Tone,146.2,146.2,23,23,NN,FM,5,"UT Juab Eureka,  Eureka Peak KC7MVI 448.225 OPEN Off-Air"
+1068,HMNspencer,147.33,+,0.6,Tone,131.8,131.8,23,23,NN,FM,5,NE Boyd Spencer KC0HMN 147.33 OPEN On-Air
+1069,0HUsaltlake city,447.025,-,5,Tone,100,100,23,23,NN,FM,5,UT Salt Lake Salt Lake City W0HU 447.025 OPEN On-Air
+1070,"CSWsaltlake city, slc",448.05,-,5,Tone,100,100,23,23,NN,FM,5,"UT Salt Lake Salt Lake City, SLC K7CSW 448.05 OPEN On-Air"
+1071,"TOPogden,powder mountain",224,-,1.6,Tone,167.9,167.9,23,23,NN,FM,5,"UT Weber Ogden, Powder Mountain N7TOP 224 OPEN "
+1072,"TOPogden, powder mountain",447.775,-,5,Tone,123,123,23,23,NN,FM,5,"UT Weber Ogden,  Powder Mountain N7TOP 447.775 OPEN On-Air"
+1073,TOPwesthaven,449.775,-,5,Tone,123,123,23,23,NN,FM,5,UT Weber West Haven N7TOP 449.775 OPEN On-Air
+1074,TOPwesthaven,448.775,-,5,Tone,123,123,23,23,NN,FM,5,UT Weber West Haven N7TOP 448.775 OPEN On-Air
+1075,"TOPcorinne,promontory point",146.92,-,0.6,Tone,123,123,23,23,NN,FM,5,"UT Weber Corinne, Promontory Point N7TOP 146.92 OPEN On-Air"
+1076,"SUMogden,powder mountain",145.47,-,0.6,Tone,123,123,23,23,NN,FM,5,"UT Weber Ogden, Powder Mountain KC7SUM 145.47 OPEN On-Air"
+1077,"HRCherriman,high school",449.25,-,5,Tone,118.8,118.8,23,23,NN,FM,5,"UT Salt Lake Herriman, High School N7HRC 449.25 OPEN On-Air"
+1078,6LLthayne,448.2,-,5,Tone,123,123,23,23,NN,DIG,5,WY Lincoln Thayne KN6LL 448.2 OPEN On-Air
+1079,7YEeden,447.6,-,5,,88.5,88.5,23,23,NN,FM,5,UT Weber Eden KJ7YE 447.6 OPEN 
+1080,"IHCsaltlake city,  ihc",448.55,-,5,Tone,100,100,23,23,NN,FM,5,"UT Salt Lake Salt Lake City,  IHC W7IHC 448.55 OPEN On-Air"
+1081,"IHCsaltlake city, intermountain ridge",145.19,-,0.6,Tone,123,123,23,23,NN,FM,5,"UT Salt Lake Salt Lake City, Intermountain Ridge W7IHC 145.19 OPEN On-Air"
+1082,"IHCsaltlake city, intermountain ridge",448.4,-,5,,88.5,88.5,23,23,NN,FM,5,"UT Salt Lake Salt Lake City, Intermountain Ridge W7IHC 448.4 OPEN On-Air"
+1083,"O7Rcedarfort, internet mountain",449.7,-,5,Tone,127.3,127.3,23,23,NN,FM,5,"UT Utah Cedar Fort, Internet Mountain KO7R 449.7 OPEN On-Air"
+1084,"NKKpanguitch,mount dutton",147.16,+,0.6,Tone,100,100,23,23,NN,FM,5,"UT Garfield Panguitch, Mount Dutton N7NKK 147.16 OPEN On-Air"
+1085,"DOUwestkaysville,  sewer plant",449.7,-,5,Tone,100,100,23,23,NN,DIG,5,"UT Davis West Kaysville,  sewer plant K7DOU 449.7 OPEN On-Air"
+1086,"7SUogden,mt ogden",448.6,-,5,Tone,123,123,23,23,NN,DIG,5,"UT Weber Ogden, Mt Ogden W7SU 448.6 OPEN On-Air"
+1087,"7SUogden,mt ogden",146.9,-,0.6,DTCS,88.5,88.5,122,122,NN,DIG,5,"UT Weber Ogden, Mt Ogden W7SU 146.9 OPEN On-Air"
+1088,"7SUogden,little mountain",146.82,-,0.6,Tone,123,123,23,23,NN,DIG,5,"UT Weber Ogden, Little Mountain W7SU 146.82 OPEN On-Air"
+1089,"7SUogden,little mountain",448.575,-,5,Tone,100,100,23,23,NN,DIG,5,"UT Weber Ogden, Little Mountain W7SU 448.575 OPEN On-Air"
+1090,"NWSkearns, bacchus hill",447.525,-,5,Tone,107.2,107.2,23,23,NN,FM,5,"UT Salt Lake Kearns,  Bacchus Hill K2NWS 447.525 OPEN On-Air"
+1091,"C7Ologan,mt logan",449.625,-,5,Tone,103.5,103.5,23,23,NN,FM,5,"UT Cache Logan, Mt Logan AC7O 449.625 OPEN On-Air"
+1092,"C7Ologan,mt logan",1299.75,-,20,,88.5,88.5,23,23,NN,DIG,5,"UT Cache Logan, Mt Logan AC7O 1299.75 OPEN On-Air"
+1093,"C7Ologan,wa7kmf qth",145.15,-,0.6,,88.5,88.5,23,23,NN,DIG,5,"UT Cache Logan, WA7KMF QTH AC7O 145.15 OPEN On-Air"
+1094,"C7Ologan,wa7kmf qth",147.2,+,0.6,Tone,103.5,103.5,23,23,NN,FM,5,"UT Cache Logan, WA7KMF QTH AC7O 147.2 OPEN On-Air"
+1095,"C7Ologan,wa7kmf qth",447.975,-,5,,88.5,88.5,23,23,NN,DIG,5,"UT Cache Logan, WA7KMF QTH AC7O 447.975 OPEN On-Air"
+1096,"C7Oogden,promontory pt",147.26,+,0.6,Tone,103.5,103.5,23,23,NN,FM,5,"UT Salt Lake Ogden, Promontory Pt AC7O 147.26 OPEN On-Air"
+1097,H2Slayton,447.05,-,5,Tone,114.8,114.8,23,23,NN,FM,5,UT Davis Layton AH2S 447.05 OPEN On-Air
+1098,"FDHogden,weber state university",145.25,-,0.6,Tone,123,123,23,23,NN,FM,5,"UT Weber Ogden, Weber State University KD7FDH 145.25 OPEN On-Air"
+1099,NATogden,449.075,-,5,Tone,123,123,23,23,NN,FM,5,UT Weber Ogden KC7NAT 449.075 OPEN On-Air
+1100,"VJOparadise,ac7ii qth",447.95,-,5,,88.5,88.5,23,23,NN,DIG,5,"UT Cache Paradise, AC7II QTH KF7VJO 447.95 OPEN On-Air"
+1101,"EGGogden,sheriff's office",447.95,-,5,,88.5,88.5,23,23,NN,DIG,5,"UT Weber Ogden, Sheriff's Office KE7EGG 447.95 OPEN "
+1102,"EGGogden,sheriff's office",1298.75,-,20,,88.5,88.5,23,23,NN,DIG,5,"UT Weber Ogden, Sheriff's Office KE7EGG 1298.75 OPEN "
+1103,RSSriverdale,449.075,-,5,Tone,123,123,23,23,NN,FM,5,UT Weber Riverdale W7RSS 449.075 OPEN Off-Air
+1104,"J7Jclearfield, civic center",449.95,-,5,Tone,123,123,23,23,NN,FM,5,"UT Davis Clearfield,  civic center NJ7J 449.95 OPEN On-Air"
+1105,J7Jsyracuse,224.96,-,1.6,,88.5,88.5,23,23,NN,FM,5,UT Davis Syracuse NJ7J 224.96 OPEN 
+1106,R7Kclearfield,447.15,-,5,Tone,114.8,114.8,23,23,NN,FM,5,UT Davis Clearfield KR7K 447.15 OPEN On-Air
+1107,"NODclearfield, city office",448.825,-,5,Tone,123,123,23,23,NN,FM,5,"UT Davis Clearfield,  city office K0NOD 448.825 OPEN Off-Air"
+1108,FAPlogan,147.32,+,0.6,Tone,88.5,88.5,23,23,NN,FM,5,UT Cache Logan KA7FAP 147.32 OPEN Off-Air
+1109,RRZlogan,147.24,+,0.6,Tone,79.7,79.7,23,23,NN,FM,5,UT Cache Logan N7RRZ 147.24 OPEN On-Air
+1110,RRZlogan,449.325,-,5,Tone,156.7,156.7,23,23,NN,FM,5,UT Cache Logan N7RRZ 449.325 OPEN On-Air
+1111,"MXZlogan,cache cso",146.64,-,0.6,,88.5,88.5,23,23,NN,FM,5,"UT Cache Logan, Cache CSO WA7MXZ 146.64 OPEN Off-Air"
+1112,7IIlogan,449.25,-,5,Tone,103.5,103.5,23,23,NN,FM,5,UT Cache Logan AC7II 449.25 OPEN Off-Air
+1113,"7IIlogan,mt pisgah",449.65,-,5,Tone,100,100,23,23,NN,FM,5,"UT Cache Logan, Mt Pisgah AC7II 449.65 OPEN On-Air"
+1114,7TSlogan,447,-,5,,88.5,88.5,23,23,NN,DIG,5,UT Cache Logan NU7TS 447 OPEN On-Air
+1115,"7TSpleasantview, rocky point",447.35,-,5,,88.5,88.5,23,23,NN,DIG,5,"UT Weber Pleasant View, Rocky Point NU7TS 447.35 OPEN On-Air"
+1116,7TSwellsville,449.575,-,5,,88.5,88.5,23,23,NN,DIG,5,UT Cache Wellsville NU7TS 449.575 OPEN On-Air
+1117,7TSriverside,447.125,-,5,,88.5,88.5,23,23,NN,DIG,5,UT Box Elder Riverside NU7TS 447.125 OPEN On-Air
+1118,"RALsaltlake city, farnsworth peak",145.125,-,0.6,,88.5,88.5,23,23,NN,DIG,5,"UT Salt Lake Salt Lake City, Farnsworth Peak KF6RAL 145.125 OPEN On-Air"
+1119,"RALsaltlake city,  farnsworth peak",448.075,-,5,,88.5,88.5,23,23,NN,DIG,5,"UT Salt Lake Salt Lake City,  Farnsworth Peak KF6RAL 448.075 OPEN On-Air"
+1120,"RALsaltlake city, farnsworth peak",1287,-,20,,88.5,88.5,23,23,NN,DIG,5,"UT Salt Lake Salt Lake City, Farnsworth Peak KF6RAL 1287 OPEN On-Air"
+1121,"7DXsaltlake city, farnsworth peak",53.15,-,1,Tone,146.2,146.2,23,23,NN,FM,5,"UT Salt Lake Salt Lake City, Farnsworth Peak KI7DX 53.15 OPEN On-Air"
+1122,"7DXsaltlake city, farnsworth peak",448.15,-,5,Tone,127.3,127.3,23,23,NN,FM,5,"UT Salt Lake Salt Lake City, Farnsworth Peak KI7DX 448.15 OPEN On-Air"
+1123,BOZlogan,449.3,-,5,Tone,103.5,103.5,23,23,NN,FM,5,UT Cache Logan W7BOZ 449.3 OPEN On-Air
+1124,"YDOmagna, kessler peak",448.85,-,5,,88.5,88.5,23,23,NN,FM,5,"UT Salt Lake Magna,  Kessler Peak W7YDO 448.85 CLOSED On-Air"
+1125,"WPCwestpoint, west point city building",447.075,-,5,DTCS,88.5,88.5,51,51,NN,DIG,5,"UT Davis West Point, West Point City Building W7WPC 447.075 OPEN On-Air"
+1126,DZLbrycecanyon,145.35,-,0.6,Tone,123,123,23,23,NN,FM,5,UT Garfield Bryce Canyon W6DZL 145.35 OPEN On-Air
+1127,7FHwellsville,927.5125,-,25,Tone,103.5,103.5,23,23,NN,FM,5,UT Cache Wellsville AF7FH 927.5125 OPEN 
+1128,7UBbrighamcity,145.29,-,0.6,Tone,123,123,23,23,NN,FM,5,UT Box Elder Brigham City K7UB 145.29 OPEN On-Air
+1129,7UBriverside,147.22,+,0.6,Tone,123,123,23,23,NN,FM,5,UT Box Elder Riverside K7UB 147.22 OPEN On-Air
+1130,"7UBhowell,blue springs hill",145.43,-,0.6,Tone,123,123,23,23,NN,FM,5,"UT Box Elder Howell, Blue Springs Hill K7UB 145.43 OPEN On-Air"
+1131,"7UBhowell,blue springs hill",448.3,-,5,Tone,123,123,23,23,NN,FM,5,"UT Box Elder Howell, Blue Springs Hill K7UB 448.3 OPEN On-Air"
+1132,"7EOvernon, vernon hills",449.95,-,5,Tone,100,100,23,23,NN,FM,5,"UT Tooele Vernon,  Vernon Hills W7EO 449.95 OPEN "
+1133,"7EOtooele,south mountain",147.3,+,0.6,Tone,100,100,23,23,NN,FM,5,"UT Tooele Tooele, South Mountain W7EO 147.3 OPEN On-Air"
+1134,"7EOtooele, south mountain",449.35,-,5,Tone,100,100,23,23,NN,FM,5,"UT Tooele Tooele,  South Mountain W7EO 449.35 OPEN On-Air"
+1135,"7EOvernon,black crook peak",145.39,-,0.6,Tone,100,100,23,23,NN,FM,5,"UT Tooele Vernon, Black Crook Peak W7EO 145.39 OPEN On-Air"
+1136,"ARAflagstaff,mt. elden",146.98,-,0.6,Tone,162.2,162.2,23,23,NN,FM,5,"AZ Coconino Flagstaff, Mt. Elden W7ARA 146.98 OPEN On-Air"
+1137,"ARAflagstaff,mt. elden",147.14,+,0.6,Tone,162.2,162.2,23,23,NN,FM,5,"AZ Coconino Flagstaff, Mt. Elden W7ARA 147.14 OPEN On-Air"
+1138,"ARAflagstaff,mt. elden",448.475,-,5,Tone,100,100,23,23,NN,FM,5,"AZ Coconino Flagstaff, Mt. Elden W7ARA 448.475 OPEN On-Air"
+1139,"ARAflagstaff,mt. elden",448.875,-,5,Tone,100,100,23,23,NN,FM,5,"AZ Coconino Flagstaff, Mt. Elden W7ARA 448.875 OPEN On-Air"
+1140,"ARAcottonwood,mingus mountain",146.82,-,0.6,Tone,162.2,162.2,23,23,NN,FM,5,"AZ Yavapai Cottonwood, Mingus Mountain W7ARA 146.82 OPEN On-Air"
+1141,"ARAcottonwood,mingus mountain",448.5,-,5,Tone,100,100,23,23,NN,FM,5,"AZ Yavapai Cottonwood, Mingus Mountain W7ARA 448.5 OPEN On-Air"
+1142,"DLPflagstaff,mt. elden",223.84,-,1.6,Tone,107.2,107.2,23,23,NN,FM,5,"AZ Coconino Flagstaff, Mt. Elden K6DLP 223.84 CLOSED On-Air"
+1143,"DLPwilliams, bill williams mountain",448.275,-,5,,88.5,88.5,23,23,NN,FM,5,"AZ Coconino Williams,  Bill Williams Mountain K6DLP 448.275 CLOSED On-Air"
+1144,"DLPcampverde,  squaw peak",447.7,-,5,,88.5,88.5,23,23,NN,FM,5,"AZ Yavapai Camp Verde,  Squaw Peak K6DLP 447.7 CLOSED On-Air"
+1145,"7AZflagstaff,mt. elden",145.45,-,0.6,Tone,103.5,103.5,23,23,NN,FM,5,"AZ Coconino Flagstaff, Mt. Elden NO7AZ 145.45 OPEN On-Air"
+1146,"7AZflagstaff,mt. elden",449.325,-,5,Tone,103.5,103.5,23,23,NN,FM,5,"AZ Coconino Flagstaff, Mt. Elden NO7AZ 449.325 OPEN On-Air"
+1147,"7MKflagstaff,mt. elden",448.625,-,5,,88.5,88.5,23,23,NN,FM,5,"AZ Coconino Flagstaff, Mt. Elden N7MK 448.625 CLOSED On-Air"
+1148,"YSEjacoblake, jacob lake inn",147.3,+,0.6,Tone,100,100,23,23,NN,FM,5,"AZ Coconino Jacob Lake, Jacob Lake Inn N7YSE 147.3 OPEN On-Air"
+1149,"YSEkanab,tv site",449.1,-,5,Tone,100,100,23,23,NN,FM,5,"AZ Coconino Kanab, TV Site N7YSE 449.1 OPEN On-Air"
+1150,PKImendon,448.925,-,5,Tone,100,100,23,23,NN,FM,5,UT Cache Mendon N7PKI 448.925 OPEN 
+1151,"7ICflagstaff,mormon mtn",145.27,-,0.6,Tone,162.2,162.2,23,23,NN,FM,5,"AZ Coconino Flagstaff, Mormon Mtn KD7IC 145.27 OPEN On-Air"
+1152,7ICmormonmtn,449.6,-,5,Tone,162.2,162.2,23,23,NN,FM,5,AZ Coconino Mormon Mtn KD7IC 449.6 OPEN On-Air
+1153,JOYflagstaff,446.55,-,5,Tone,88.5,88.5,23,23,NN,DIG,5,AZ Coconino Flagstaff N6JOY 446.55 OPEN On-Air
+1154,"WQDdelta,notch peak",147.38,+,0.6,Tone,203.5,203.5,23,23,NN,FM,5,"UT Millard Delta, Notch Peak KB7WQD 147.38 OPEN On-Air"
+1155,"EYYpreston,p hill",448.75,-,5,Tone,88.5,88.5,23,23,NN,FM,5,"ID Franklin Preston, P Hill KE7EYY 448.75 OPEN On-Air"
+1156,"LUXflagstaff,kachina village",440.4,+,5,Tone,100,100,23,23,NN,FM,5,"AZ Coconino Flagstaff, Kachina Village W7LUX 440.4 OPEN Testing"
+1157,"JAAgrandcanyon, hopi pt",147.32,+,0.6,,88.5,88.5,23,23,NN,FM,5,"AZ Coconino Grand Canyon, Hopi Pt WB6JAA 147.32 OPEN Off-Air"
+1158,WPFhinckley,147.26,+,0.6,,88.5,88.5,23,23,NN,FM,5,UT Millard Hinckley N7WPF 147.26 OPEN Off-Air
+1159,RDStremonton,147.925,-,0.6,,88.5,88.5,23,23,NN,DIG,5,UT Box Elder Tremonton N7RDS 147.925 OPEN Off-Air
+1160,RDSriverside,447.925,-,5,,88.5,88.5,23,23,NN,DIG,5,UT Box Elder Riverside N7RDS 447.925 OPEN On-Air
+1161,"NRCkanab,tv site",146.88,-,0.6,Tone,123,123,23,23,NN,DIG,5,"UT Kane Kanab, TV Site W7NRC 146.88 OPEN On-Air"
+1162,NRCkanab,449.85,-,5,,88.5,88.5,23,23,NN,FM,5,UT Kane Kanab W7NRC 449.85 OPEN Off-Air
+1163,I7Mkanab,147.36,+,0.6,,88.5,88.5,23,23,NN,FM,5,UT Kane Kanab WI7M 147.36 OPEN Off-Air
+1164,SGVduckcreek village,147.18,+,0.6,,88.5,88.5,23,23,NN,FM,5,UT Kane Duck Creek Village N7SGV 147.18 OPEN Off-Air
+1165,SGVduckcreek village,447.325,-,5,,88.5,88.5,23,23,NN,FM,5,UT Kane Duck Creek Village N7SGV 447.325 OPEN Off-Air
+1166,SGVduckcreek village,927.6625,-,25,,88.5,88.5,23,23,NN,FM,5,UT Kane Duck Creek Village N7SGV 927.6625 OPEN Off-Air
+1167,"BOBcedarcity, blowhard mountain",448.65,-,5,,88.5,88.5,23,23,NN,FM,5,"UT Iron Cedar City, Blowhard Mountain KB6BOB 448.65 CLOSED "
+1168,BOBwilliamsonvalley,447.9,-,5,,88.5,88.5,23,23,NN,DIG,5,AZ Yavapai Williamson Valley KB6BOB 447.9 OPEN On-Air
+1169,"V7Hcedarcity, blowhard mountain",146.8,-,0.6,Tone,100,100,23,23,NN,FM,5,"UT Iron Cedar City, Blowhard Mountain WV7H 146.8 OPEN On-Air"
+1170,"NAZwilliams,bill williams mountain",145.115,-,0.6,,88.5,88.5,23,23,NN,DIG,5,"AZ Coconino Williams, Bill Williams Mountain K7NAZ 145.115 OPEN On-Air"
+1171,"NAZwilliams,bill williams mountain",146.78,-,0.6,Tone,91.5,91.5,23,23,NN,FM,5,"AZ Coconino Williams, Bill Williams Mountain K7NAZ 146.78 OPEN On-Air"
+1172,"NAZwilliams, bill williams mountain",445.7875,-,5,,88.5,88.5,23,23,NN,DIG,5,"AZ Coconino Williams,  Bill Williams Mountain K7NAZ 445.7875 OPEN On-Air"
+1173,"NAZwilliams,bill williams mountain",1284.6,-,20,,88.5,88.5,23,23,NN,DIG,5,"AZ Coconino Williams, Bill Williams Mountain K7NAZ 1284.6 OPEN On-Air"
+1174,"R7Gwilliams,bill williams mountain",448.02,-,5,,88.5,88.5,23,23,NN,FM,5,"AZ Coconino Williams, Bill Williams Mountain NR7G 448.02 CLOSED Off-Air"
+1175,"BYVwilliams,bill williams mountain",927.075,-,25,Tone,218.1,218.1,23,23,NN,FM,5,"AZ Coconino Williams, Bill Williams Mountain WB7BYV 927.075 OPEN On-Air"
+1176,"BYVcottonwood,mingus mountain",927.1125,-,25,DTCS,88.5,88.5,432,432,NN,FM,5,"AZ Yavapai Cottonwood, Mingus Mountain WB7BYV 927.1125 OPEN On-Air"
+1177,"BYVprescott,airport",927.5875,,0,Tone,131.8,131.8,23,23,NN,FM,5,"AZ Yavapai Prescott, Airport WB7BYV 927.5875 OPEN On-Air"
+1178,BYVprescott,449.675,-,5,Tone,88.5,88.5,23,23,NN,FM,5,AZ Yavapai Prescott WB7BYV 449.675 OPEN On-Air
+1179,BYVprescott,927.3875,-,25,Tone,151.4,151.4,23,23,NN,FM,5,AZ Yavapai Prescott WB7BYV 927.3875 OPEN On-Air
+1180,"JSIwilliams,bill williams mountain",449.75,-,5,Tone,123,123,23,23,NN,FM,5,"AZ Coconino Williams, Bill Williams Mountain K6JSI 449.75 OPEN On-Air"
+1181,"7EIcampverde, squaw peak",147.1,+,0.6,Tone,131.8,131.8,23,23,NN,FM,5,"AZ Yavapai Camp Verde, Squaw Peak W7EI 147.1 OPEN On-Air"
+1182,"7EIcottonwood,mingus mountain",147.22,+,0.6,Tone,162.2,162.2,23,23,NN,FM,5,"AZ Yavapai Cottonwood, Mingus Mountain W7EI 147.22 OPEN On-Air"
+1183,FUNclarkdale,441.775,+,5,Tone,156.7,156.7,23,23,NN,FM,5,AZ Yavapai Clarkdale K9FUN 441.775 OPEN On-Air
+1184,NSAclarkdale,443.9,+,5,Tone,100,100,23,23,NN,FM,5,AZ Yavapai Clarkdale W6NSA 443.9 OPEN 
+1185,"MRGprescott,mingus mountain",442.15,+,5,Tone,100,100,23,23,NN,FM,5,"AZ Yavapai Prescott, Mingus Mountain K7MRG 442.15 OPEN On-Air"
+1186,"MRGcottonwood,mingus mountain",147,+,0.6,Tone,162.2,162.2,23,23,NN,FM,5,"AZ Yavapai Cottonwood, Mingus Mountain K7MRG 147 OPEN On-Air"
+1187,"YCAcottonwood,mingus mountain",145.29,-,0.6,Tone,127.3,127.3,23,23,NN,FM,5,"AZ Yavapai Cottonwood, Mingus Mountain K7YCA 145.29 OPEN On-Air"
+1188,"YCAprescott,mt francis",145.37,-,0.6,Tone,127.3,127.3,23,23,NN,FM,5,"AZ Yavapai Prescott, Mt Francis K7YCA 145.37 OPEN On-Air"
+1189,"7CIcottonwood, mingus mountain",449.7,-,5,,88.5,88.5,23,23,NN,FM,5,"AZ Yavapai Cottonwood,  Mingus Mountain N7CI 449.7 CLOSED On-Air"
+1190,"LSEcottonwood, mingus mountain",449.425,-,5,Tone,141.3,141.3,23,23,NN,FM,5,"AZ Yavapai Cottonwood,  Mingus Mountain WA6LSE 449.425 CLOSED On-Air"
+1191,"7JCcottonwood, mingus mountain",449.725,-,5,Tone,110.9,110.9,23,23,NN,FM,5,"AZ Yavapai Cottonwood,  Mingus Mountain WA7JC 449.725 OPEN On-Air"
+1192,"6FHcottonwood,mingus mountain",224.08,-,1.6,Tone,156.7,156.7,23,23,NN,FM,5,"AZ Yavapai Cottonwood, Mingus Mountain KI6FH 224.08 OPEN On-Air"
+1193,"BNWpaulden,paulden",446.55,-,5,Tone,100,100,23,23,NN,FM,5,"AZ Yavapai Paulden, Paulden W7BNW 446.55 OPEN On-Air"
+1194,POFchinovalley,449.25,-,5,Tone,192.8,192.8,23,23,NN,FM,5,AZ Yavapai Chino Valley K7POF 449.25 OPEN On-Air
+1195,YRCprescott,146.88,-,0.6,Tone,100,100,23,23,NN,FM,5,AZ Yavapai Prescott W7YRC 146.88 OPEN On-Air
+1196,GDFseligman,147.12,+,0.6,Tone,192.8,192.8,23,23,NN,FM,5,AZ Yavapai Seligman WA6GDF 147.12 OPEN On-Air

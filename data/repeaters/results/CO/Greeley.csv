@@ -1,0 +1,1317 @@
+Frequency,Offset,Tone,Call,Location,ST/PR,Use,VOIP,Mi,Dir,,state_id,ID,Latitude,Longitude,Downlink,Uplink,Uplink Tone,Downlink Tone,YSF Digital Enabled,DG-ID,County,Op Status,Coverage,Sponsor,Features,Mixed-Mode,IRLP,Coordination,Last update,Web links,D-STAR Enabled,Node,Sources,DMR Enabled,Color Code,Wide Network,Talkgroups,TAC 310,DCI Bridge,N. Colorado,Mountain Reg USA,Local/Cluster,Nets,Talkgroup Network,Worldwide English,North America,Colorado,Affiliate,Commands,Notes,EchoLink,Worldwide,English,Rocky Mountain Wide,Northern Colorado Regional,Links,Grid,RX Location,Gunbarrel,Lousville,Lyons,Louisville #2,Local Network,AllStar,Feed,WIRES-X,On-air,P25 Digital Enabled,NAC,Default Reflector,Southern Colorado,Central Regional,Wyoming,WyLOCAL,Devilshead Local,NXDN Enabled,RAN,NXDN Bandwidth,NXDN Network,Eastern Colorado,Location Photo
+147,0.6,100,KC0KWD,Greeley,CO,OPEN,I,0,ESE,yes,08,157,40.4233,-104.709,147,147.6,100,100,yes,Open ↑ / Open ↓,Weld,On-Air,,Weld ARS,"Yaesu System Fusion, 20 Watts. Will be switching to DSQ on 1 Feb 2016.",Yes; analog capable.,3839,CCARC,yes,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+448.475,-5,100,KC0KWD,Greeley,CO,OPEN,I,0,ESE,yes,08,158,40.4233,-104.709,448.475,443.475,100,,,,Weld,On-Air,,Weld Amateur Radio Society (WARS),,,3839,CCARC,yes,http://www.warsco.org/,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+449.325,-5,136.5,WR0AEN,Greeley,CO,OPEN,,0,ESE,yes,08,8210,40.4233,-104.709,449.325,444.325,,,,,Weld,On-Air,,Colorado Amateur Repeater Network (CARN),,,,CCARC,yes,,yes,WR0AEN (B),"jfindu lookup 
+    /   dstar-users lookup",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+449.725,-5,127.3,K0OJ,"Greeley, UNC",CO,OPEN,,1.4,SSE,yes,08,159,40.4037,-104.703,449.725,444.725,127.3,,,,Weld,On-Air,,K0OJ,"Autopatch, WX.",,,CCARC,yes,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+146.85,-0.6,100,W0UPS,"Greeley, UNC",CO,OPEN,,1.4,SSE,yes,08,156,40.4036,-104.7,146.85,146.25,100,100,,,Weld,On-Air,,Northern Colorado ARC,"E-power, WX.",,,CCARC,yes,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+448.025,-5,100,W0UPS,"Loveland, Budweiser Event Center",CO,OPEN,,14.8,W,yes,08,3621,40.444,-104.989,448.025,443.025,100,100,yes,Open ↑ / Open ↓,Larimer,On-Air,,Northern Colorado ARC,,Yes; analog capable.,,CCARC,yes,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+147.39,0.6,CC2,W0DMR,"Fort Collins, Timnath",CO,OPEN,,14.9,NW,yes,08,12562,40.5446,-104.944,147.39,147.99,,,,,Larimer,On-Air,"Fort Collins east side, into Red Feather Lakes area.",KT0L - NoCo C-Bridge Network,,,,CCARC,yes,Documentation,,,,yes,2,,"Open Talkgroup View 
+
+
+ 
+   
+    
+     Assignment 
+     TS 
+     TG 
+     Access 
+   
+
+  TAC 310  1  310      DCI Bridge  1  3100      N. Colorado  1  3171      Mountain Reg USA  1  3177      Local/Cluster  2  2    
+  
+ 
+ 
+function myFunction(id) {
+    var x = document.getElementById(id);
+    if (x.className.indexOf(""w3-show"") == -1) {
+        x.className += "" w3-show"";
+    } else {
+        x.className = x.className.replace("" w3-show"", """");
+    }
+}",1,1,1,1,2,Tac 310 Net: Sun at 18:00.,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+447.2,-5,82.5,N6RFI,"Severance, Cactus Hill",CO,OPEN,,15,NW,yes,08,8188,40.581,-104.906,447.2,442.2,82.5,,,,Weld,On-Air,,N6RFI,,,,CCARC,yes,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+446.775,-5,CC2,W0DMR,"Fort Collins, Timnath",CO,OPEN,,16.4,NW,yes,08,10995,40.5938,-104.926,446.775,441.775,,,,,Larimer,On-Air,"Fort Collins east side, into Red Feather Lakes area.",W0DMR - NoCo C-bridge Network,,,,CCARC,yes,W0DMR,,,,yes,2,,"Open Talkgroup View 
+
+
+ 
+   
+    
+     Assignment 
+     TS 
+     TG 
+     Access 
+   
+
+  Worldwide English  1  91  Full-Time    North America  1  93  Full-Time    DCI Bridge  1  3100  Full-Time    Local/Cluster  2  2      Colorado  2  3108  Full-Time    N. Colorado  2  3171  Full-Time  
+  
+ 
+ 
+function myFunction(id) {
+    var x = document.getElementById(id);
+    if (x.className.indexOf(""w3-show"") == -1) {
+        x.className += "" w3-show"";
+    } else {
+        x.className = x.className.replace("" w3-show"", """");
+    }
+}",,1,2,,2,,BrandMeister US,1,1,2,Brandmeister Network,"Repeater ID: 310806, TS 1: TG 91 - World Wide, TG 93 - North America, TG 3100 USA. TS 2: TG 2 - Local, TG 3171 - No. Colorado, TG 3108 Colorado Statewide.","Any additional Brandmeister talk group is available on time slot 1, too many to list here, see website. https://dmrx.net/files/US_BM_User_Guide.pdf",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+224.32,-1.6,100,KN6VV,Loveland,CO,OPEN,,19.3,W,yes,08,180,40.3978,-105.074,224.32,222.72,100,100,,,Larimer,Off-Air,,KN6VV,"Closed autopatch, e-power.",,,CCARC,yes,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+449.575,-5,100,W0LRA,"Loveland, Namaqua Hill",CO,OPEN,,19.3,W,yes,08,181,40.3978,-105.074,449.575,444.575,100,,,,Larimer,On-Air,,Loveland Rptr Assoc,"Closed autopatch, e-power.",,,CCARC,yes,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+447.725,-5,131.8,W7RF,Fort Collins,CO,OPEN,,20.1,WNW,yes,08,8194,40.496,-105.079,447.725,442.725,131.8,,,,Larimer,On-Air,,W7RF,,,,CCARC,yes,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+147.36,0.6,100,W0QEY,"Fort Collins, CSU Durward Hall",CO,OPEN,,21.8,WNW,yes,08,125,40.5708,-105.077,147.36,147.96,100,100,,,Larimer,On-Air,Map,CO State Univ ARC,Closed autopatch.,,,CCARC,yes,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+147.195,0.6,100,W0LRA,"Loveland, Namaqua Hill",CO,OPEN,,21.9,W,yes,08,179,40.3985,-105.125,147.195,147.795,100,,,,Larimer,On-Air,,Loveland Repeater Assoc,"Closed autopatch, e-power.",,,CCARC,yes,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+449.85,-5,100,W0QEY,"Fort Collins, CSU Durward Hall",CO,OPEN,,22.7,WNW,yes,08,124,40.5853,-105.084,449.85,444.85,100,100,,,Larimer,On-Air,Map,CO State Univ ARC,Closed autopatch.,,,CCARC,yes,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+446.8125,-5,,W0QEY,"Fort Collins, CSU Durward Hall",CO,OPEN,,22.8,WNW,yes,08,8901,40.5777,-105.093,446.8125,441.8125,,,,,Larimer,On-Air,Fort Collins Local Area,W0QEY CSU,D-Star Gateway,,,CCARC,yes,,yes,W0QEY (B) Repeater,"jfindu lookup 
+    /   dstar-users lookup",,,,,,,,,,,,,,,,,Free Star,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+1283.55,-20,100,K1TJ,Fort Collins,CO,OPEN,,23.9,WNW,yes,08,3620,40.5153,-105.147,1283.55,1263.55,100,,,,Larimer,On-Air,Northern Colorado Front Range,K1TJ Repeater System,,,,CCARC,yes,http://www.k1tj.com/,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+447.45,-5,123,KC0RBT,Fort Collins,CO,OPEN,E,23.9,WNW,yes,08,276,40.5153,-105.147,447.45,442.45,123,,,,Larimer,On-Air,,,,,,CCARC,yes,,,,,,,,,,,,,,,,,,,,,,447450,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+446.7375,-5,CC2,N0AOL,Fort Collins,CO,OPEN,,23.9,WNW,yes,08,8505,40.5153,-105.147,446.7375,441.7375,,,,,Larimer,On-Air,Wide area: North Front Range.,N0AOL - NoCo C-Bridge Network,DMR-MARC World Wide Network,,,CCARC,yes,http://nocodmr.kt0l.net:8080/nocodmr/documentation.htm,,,,yes,2,,"Open Talkgroup View 
+
+
+ 
+   
+    
+     Assignment 
+     TS 
+     TG 
+     Access 
+   
+
+  Worldwide  1  1      North America  1  3      English  1  13      TAC 310  1  310      Local/Cluster  2  2      N. Colorado  2  3171    
+  
+ 
+ 
+function myFunction(id) {
+    var x = document.getElementById(id);
+    if (x.className.indexOf(""w3-show"") == -1) {
+        x.className += "" w3-show"";
+    } else {
+        x.className = x.className.replace("" w3-show"", """");
+    }
+}",1,,2,,2,"DMR World Wide Net: Sat at 10:00. 
+TS 1 Group Call 1 http://www.dmr-marc.net/ 
+Tac 310 Net: Sun at 18:00, TS 1 Group Call 310 .",,,1,,,,Repeater ID: 310803,,1,1,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+224.96,-1.6,CSQ,AC0KC,Fort Lupton,CO,OPEN,,24,SSW,yes,08,8183,40.0847,-104.813,224.96,223.36,CSQ,,,,Weld,On-Air,,AC0KC,,,,CCARC,yes,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+448.325,-5,110.9,WB7UPS,Wellington,CO,OPEN,,25,NW,yes,08,8251,40.7039,-105.009,448.325,443.325,110.9,,,,Larimer,On-Air,,,,,,CCARC,yes,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+446.75,-5,CC7,K7PFJ,"Fort Collins, Horsetooth Mountain",CO,OPEN,,26,WNW,yes,08,8715,40.5388,-105.179,446.75,441.75,,,,,Larimer,On-Air,,Rocky Mountain Ham Radio,,,,CCARC,yes,http://www.rmham.org,,,,yes,7,,"Open Talkgroup View 
+
+
+ 
+   
+    
+     Assignment 
+     TS 
+     TG 
+     Access 
+   
+
+  Rocky Mountain Wide  1  700      Northern Colorado Regional  2  721    
+  
+ 
+ 
+function myFunction(id) {
+    var x = document.getElementById(id);
+    if (x.className.indexOf(""w3-show"") == -1) {
+        x.className += "" w3-show"";
+    } else {
+        x.className = x.className.replace("" w3-show"", """");
+    }
+}",,,,,,,,,,,,,See website for complete info on color codes/time slot assignment.,,,,1,2,Full-time to the  Colorado TRBO System .,,,,,,,,,,,,,,,,,,,,,,,,,
+145.265,-0.6,CC2,KB0VGD,"Fort Collins , Horsetooth Mountain",CO,OPEN,,26,WNW,yes,08,14274,40.5388,-105.179,145.265,144.665,,,,,Larimer,On-Air,Northern Colorado Front Range Wide Area coverage.,W0DMR - NoCo C-bridge Network,,,,CCARC,yes,http://www.w0dmr.org/,,,,yes,2,,"Open Talkgroup View 
+
+
+ 
+   
+    
+     Assignment 
+     TS 
+     TG 
+     Access 
+   
+
+  Worldwide English  1  91  Full-Time    North America  1  93  Full-Time    DCI Bridge  1  3100  Full-Time    Local/Cluster  2  2      Colorado  2  3108  Full-Time    N. Colorado  2  3171  Full-Time  
+  
+ 
+ 
+function myFunction(id) {
+    var x = document.getElementById(id);
+    if (x.className.indexOf(""w3-show"") == -1) {
+        x.className += "" w3-show"";
+    } else {
+        x.className = x.className.replace("" w3-show"", """");
+    }
+}",,1,2,,2,,BrandMeister US,1,1,2,Brandmeister Network,"Repeater ID: 310831, TS 1: TG 91 - World Wide, TG 93 - North America, TG 3100 USA. TS 2: TG 2 - Local, TG 3171 - No. Colorado, TG 3108 Colorado Statewide.","Any additional Brandmeister talk group is available on time slot 1, too many to list here, see website. https://dmrx.net/files/US_BM_User_Guide.pdf",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+927.825,-25,100,AB0SF,"Fort Collins, Horsetooth Mountain",CO,OPEN,,26.8,WNW,yes,08,4203,40.5397,-105.196,927.825,902.825,100,100,,,Larimer,On-Air,"Decent coverage throughout northern Fort Collins, out east to beyond Windsor.",AB0SF,,,,CCARC,yes,,,,,,,,,,,,,,,,,,,,,Converted 800 MHz beam antenna pointed directly down Horsetooth Road in Fort Collins.,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+145.115,-0.6,100,W0UPS,"Fort Collins, Horsetooth Mountain",CO,OPEN,E,26.8,WNW,yes,08,123,40.5397,-105.196,145.115,144.515,100,100,,,Larimer,On-Air,Wide area.,Northern Colorado ARC,7,,,CCARC,yes,,,,,,,,,,,,,,,,,,,,,,4236,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+224.52,-1.6,100,W0UPS,"Fort Collins, Horsetooth Mountain",CO,OPEN,,26.8,WNW,yes,08,275,40.5397,-105.196,224.52,222.92,100,100,,,Larimer,Off-Air,,Northern Colorado ARC,E-power.,,,CCARC,yes,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+447.275,-5,100,W0UPS,"Fort Collins, Horsetooth Mountain",CO,OPEN,,26.8,WNW,yes,08,126,40.5397,-105.196,447.275,442.275,100,100,,,Larimer,On-Air,Wide area.,Northern Colorado ARC,"Closed autopatch, e-power.",,,CCARC,yes,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+927.95,-25,100,K1TJ,"Fort Collins, Horsetooth Mountain",CO,OPEN,,26.9,WNW,yes,08,3592,40.5397,-105.197,927.95,902.95,100,100,,,Larimer,On-Air,Northern Front Range,K1TJ Repeater System,25,,,CCARC,yes,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+448.525,-5,151.4,N0EPA,Longmont,CO,OPEN,E,27.2,SW,yes,08,176,40.1672,-105.101,448.525,443.525,151.4,,,,Boulder,On-Air,,N0EPA,,,,CCARC,yes,,,,,,,,,,,,,,,,,,,,,,223853,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+147.27,0.6,100,W0ENO,Longmont,CO,OPEN,,27.2,SW,yes,08,175,40.1672,-105.101,147.27,147.87,100,100,,,Boulder,On-Air,Wide area: Northern Colorado.,Longmont ARC (LARC),"Closed autopatch, e-power, EchoLink.",,,CCARC,yes,http://w0eno.org/?q=node/11,,,,,,,,,,,,,,,,,,,,,,,,,,"Linkable to  
+        448.80000 (W0ENO) at Longmont, CO .",,,,,,,,,,,,,,,,,,,,,,,,,
+448.8,-5,88.5,W0ENO,Longmont,CO,OPEN,,27.2,SW,yes,08,177,40.1672,-105.101,448.8,443.8,88.5,88.5,,,Boulder,On-Air,,Longmont ARC,30,,,CCARC,yes,,,,,,,,,,,,,,LARC: Sun at 20:00.,,,,,,,,,,,,,"Linkable to  
+        147.27000 (W0ENO) at Longmont, CO .",,,,,,,,,,,,,,,,,,,,,,,,,
+447.3,-5,107.2,AC0KC,Fort Lupton,CO,OPEN,EI,27.7,S,yes,08,8739,40.0276,-104.789,447.3,442.3,107.2,,,,Weld,On-Air,,,,,3887,CCARC,yes,,,,,,,,,,,,,,,,,,,,,,405804,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+449.925,-5,114.8,K0EB,Hudson,CO,OPEN,EI,28.1,S,yes,08,8216,40.0202,-104.642,449.925,444.925,114.8,114.8,,,Weld,On-Air,,K0EB,,,8035,CCARC,yes,,,,,,,,,,,,,,,,,,,K0UPS Club,,,448035,,,,,,DN70,,,,,,,,,,,,,,,,,,,,,,,,
+447.625,-5,100,KE0SJ,Lochbuie,CO,OPEN,,28.8,S,yes,08,9771,40.0072,-104.716,447.625,442.625,100,,,,Adams,On-Air,Local/North Metro,Intermountain Repeater Group,,,,,yes,Intermountain Repeater Group,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+449.425,-5,94.8,N0ZUQ,"Fort Collins, Christ Mountain",CO,OPEN,,32,WNW,yes,08,3630,40.5755,-105.285,449.425,444.425,94.8,,,,Larimer,On-Air,,,,,,,yes,,,,,,,,,,,,,,,,,,,,,,,,,,,"Full-time to  
+        927.87500 (N0ZUQ) at Fort Collins, Christ Mountain, CO .
+ 
+
+
+Full-time to  
+        927.72500 (WA6IFI) at Colorado Springs, Almagre Mountain, CO .",,,,,,,,,,,,,,,,,,,,,,,,,
+927.875,-25,D114,N0ZUQ,"Fort Collins, Christ Mountain",CO,OPEN,,32,WNW,yes,08,3629,40.5755,-105.285,927.875,902.875,D114,,,,Larimer,Off-Air,,WA6IMI,,,,CCARC,yes,,,,,,,,,,,,,,,,,,,,,Down due to lightning strike. Scheduled to return end of June 2012.,,,,,,"Full-time to  
+        449.42500 (N0ZUQ) at Fort Collins, Christ Mountain, CO .
+ 
+
+
+Full-time to  
+        927.72500 (WA6IFI) at Colorado Springs, Almagre Mountain, CO .",,,,,,,,,,,,,,,,,,,,,,,,,
+146.76,-0.6,100,W0IA,"Boulder, Gunbarrel Hill",CO,OPEN,,34.7,SW,yes,08,16,40.0556,-105.157,146.76,146.16,100,,,,Boulder,On-Air,Wide area.,Rocky Mtn VHF Soc,5,,,CCARC,yes,,,,,,,,,,,,,,,,,,,Boulder County ARES,,"ARES primary repeater. 
+ Voting Receivers:  
+ 
+   
+    RX Location    Tone    Pitch    PL  
+   
+   Gunbarrel  single beep  low  100.0 
+   
+   Lousville  single beep  low  100.0 
+   
+   Lyons  double beep  high followed by medium  100.0 
+   
+   Louisville #2  double beep  high followed by low  100.0",,,,,,,,Tone,single beep,single beep,double beep,double beep,,,,,,,,,,,,,,,,,,,
+447.7,-5,100,W0UPS,"Fort Collins, Buckhorn Mountain",CO,OPEN,,34.8,WNW,yes,08,5853,40.6111,-105.324,447.7,442.7,100,100,,,Larimer,On-Air,Wide Area Coverage,Northern Colorado Amateur Radio Club,,,,,yes,http://ncarc.net/,,,,,,,,,,,,,,,,,,,,,,,,,,"Linkable to  
+        146.62500 (W0UPS) at Fort Collins, Buckhorn Mountain, CO .
+ 
+
+
+Linkable to  
+        146.85000 (W0UPS) at Greeley, UNC, CO .
+ 
+
+
+Full-time to  
+        224.84000 (W0UPS) at Fort Collins, Buckhorn Mountain, CO .",,,,,,,,,,,,,,,,,,,,,,,,,
+146.625,-0.6,100,W0UPS,"Fort Collins, Buckhorn Mountain",CO,OPEN,,35.1,WNW,yes,08,246,40.617,-105.327,146.625,146.025,100,100,,,Larimer,On-Air,Wide area: Northern front range.,Northern Colorado ARC,E-power.,,,CCARC,yes,,,,,,,,,,,,,,,,,,,,,,,,,,,"Linkable to  
+        146.85000 (W0UPS) at Greeley, UNC, CO .
+ 
+
+
+Linkable to  
+        224.84000 (W0UPS) at Fort Collins, Buckhorn Mountain, CO .",,,,,,,,,,,,,,,,,,,,,,,,,
+224.84,-1.6,100,W0UPS,"Fort Collins, Buckhorn Mountain",CO,OPEN,,35.1,WNW,yes,08,3660,40.617,-105.327,224.84,223.24,100,100,,,Larimer,On-Air,"Wide Area: Northern CO Front Range and into Cheyenne - Laramie, WY",Northern Colorado ARC,"E-power, 25 watts.",,,,yes,,,,,,,,,,,,,,,,,,,,,,,,,,,"Full-time to  
+        447.70000 (W0UPS) at Fort Collins, Buckhorn Mountain, CO .",,,,,,,,,,,,,,,,,,,,,,,,,
+146.73,-0.6,91.5,K0DK,Boulder,CO,OPEN,E,37.9,SW,yes,08,15,40.0571,-105.243,146.73,146.13,91.5,91.5,,,Boulder,Off-Air,Local,BARC,12,,,CCARC,yes,http://www.ked-wireless.com/products1.htm,,,,,,,,,,,,,,,,,,,,,115482,,,,,,DN70jb,,,,,,,,,,,,,,,,,,,,,,,,
+1283.8625,-20,,KC0DS,Boulder,CO,OPEN,,38.3,SW,yes,08,8220,40.0372,-105.23,1283.8625,1263.8625,,,,,Boulder,On-Air,20,Boulder County ARES,E-power.,,,CCARC,yes,,yes,KC0DS (A) Repeater,"jfindu lookup 
+    /   dstar-users lookup",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+145.3875,-0.6,,KC0DS,Boulder,CO,OPEN,,38.3,SW,yes,08,8171,40.0372,-105.23,145.3875,144.7875,,,,,Boulder,On-Air,20,Boulder County ARES,E-power.,,,CCARC,yes,http://bouldercountyares.org/technical/d-star,yes,KC0DS (C),"jfindu lookup 
+    /   dstar-users lookup",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+146.685,-0.6,123,N0FH,Estes Park,CO,OPEN,EI,39.3,W,yes,08,119,40.3601,-105.451,146.685,146.085,123,,,,Larimer,On-Air,Estes Valley and east RMNP - some coverage E and SE (Loveland and Denver),Estes Valley ARC,E-power.,,7268,CCARC,yes,,,,,,,,,,,,,,ARES D-10: Thu at 19:00.,,,,,,"The EchoLink node connects to both machines. The node is open (no passwords; touch tone only the the ' * ' character followed by a four, five, or six digit node number where you wish to connect). The disconnect is ' # '.","Both Echolink and IRLP are open, IRLP connect is a four digit node number only and '73' to disconnect. Top of Hour time is announced from 0600 to 2200.",625757,,,,,"Full-time to  
+        449.80000 (N0FH) at Estes Park, CO .",,,,,,,,,,,,,,,,,,,,,,,,,
+147.045,0.6,123,K0ML,Northglenn,CO,OPEN,,39.9,SSW,yes,08,185,39.8856,-104.987,147.045,147.645,123,CSQ,,,Adams,On-Air,,Northglenn RA,E-power.,,,CCARC,yes,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+448.925,-5,131.8,W0LMA,Broomfield,CO,OPEN,,40,SSW,yes,08,26,39.9206,-105.086,448.925,443.925,131.8,,,,Boulder,On-Air,,W0LMA,,,,CCARC,yes,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+449.825,-5,103.5,W0WYX,Broomfield,CO,OPEN,,40,SSW,yes,08,266,39.9206,-105.086,449.825,444.825,103.5,,,,Boulder,On-Air,Along the foothills and into Boulder where the 94 repeater is shadowed.,Rocky Mountain Radio League,6,,,CCARC,yes,Repeater,,,,,,,,,,,,,"Colorado WX: Daily at 06:30. 
+RMRL: Mod at 20:30. 
+Astronomy: Tue at 19:00. 
+Amateur Radio Events: Tue at 20:00.",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+449.3,-5,131.8,WB7GR,"Cheyenne, Chalk Bluffs",WY,OPEN,,40.7,N,yes,56,34,41.0022,-104.566,449.3,444.3,,,yes,Open ↑ / Open ↓,Laramie,On-Air,,WU7G,,,,,yes,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+449.4,-5,91.5,K0DK,Boulder,CO,OPEN,,40.9,SW,yes,08,21,40.015,-105.27,449.4,444.4,91.5,,,,Boulder,Off-Air,,BARC,2,,,CCARC,yes,http://www.ked-wireless.com/products1.htm,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+446.8625,-5,,KC0DS,Boulder,CO,OPEN,,40.9,SW,yes,08,8186,40.015,-105.271,446.8625,441.8625,,,,,Boulder,On-Air,,Boulder County ARES,,,,CCARC,yes,,yes,KC0DS (B),"jfindu lookup 
+    /   dstar-users lookup",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+446.8,-5,CC7,N0SZ,"Boulder, Mount Thorodin",CO,OPEN,,40.9,SW,yes,08,8185,40.015,-105.271,446.8,441.8,,,,,Boulder,On-Air,Wide area.,Rocky Mountain Ham Radio,,,,CCARC,yes,Rocky Mountain Ham Radio,,,,yes,7,,,,,,,,,,,,,Rocky Mountain Ham Radio,,See website for complete information regarding timeslot/colorcode/talkgroup programming.,,,,,,Full-time to the  Colorado TRBO System .,,,,,,,,,,,,,,,,,,,,,,,,,
+1299.5,-20,,W0DK,Boulder,CO,OPEN,,40.9,SW,yes,08,8221,40.015,-105.271,1299.5,1279.5,,,,,Boulder,On-Air,,Boulder County ARES,E-power.,,,CCARC,yes,,yes,W0DK (A) DVAP 24/7,"jfindu lookup 
+    /   dstar-users lookup",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+449.55,-5,100,W0IA,Boulder,CO,OPEN,E,40.9,SW,yes,08,11,40.015,-105.27,449.55,444.55,100,,,,Boulder,On-Air,Denver metro area.,Rocky Mtn VHF Soc,8,,,CCARC,yes,,,,,,,,,,,,,,,,,,,,,,217336,,,,,"Full-time to  
+        224.02000 (W0IA) at Boulder, Lee Hill, CO .",,,,,,,,,,,,,,,,,,,,,,,,,
+445.05,-5,CC1,N0SZ,"Boulder, Lee Hill",CO,OPEN,,41.8,SW,yes,08,8992,40.0722,-105.354,445.05,440.05,,,,,Boulder,On-Air,Wide area,Rocky Mountain Ham Radio,BrandMeister Network,,,CCARC,yes,,,,,yes,1,BrandMeister,,,,,,,,,,,,,,,,,,,,,,,,,,,BrandMeister US,,,,,,,,,,,,,,,,,,
+446.9875,-5,CC7,N0SZ,"Boulder, Lee Hill",CO,OPEN,,41.8,SW,yes,08,5219,40.0722,-105.354,446.9875,441.9875,,,,,Boulder,On-Air,,Rocky Mountain Ham Radio,Linked on Time Slot 2 to  Almagre Mtn  (446.950).,,,,yes,,,,,yes,7,,,,,,,,,,,,,,,,,,,,,"Full-time to  
+        446.95000 (K7PFJ) at Colorado Springs, Almagre Mountain, CO .
+ 
+
+
+Full-time to the  Colorado TRBO System .",,,,,,,,,,,,,,,,,,,,,,,,,
+447.75,-5,141.3,N0SZ,"Boulder, Lee Hill",CO,OPEN,I,41.8,SW,yes,08,19,40.0722,-105.354,447.75,442.75,141.3,141.3,,,Boulder,On-Air,,Rocky Mountain Ham Radio,,,3450,CCARC,yes,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+145.46,-0.6,107.2,W0CRA,"Boulder, Eldorado Mountain",CO,OPEN,EI,41.8,SW,yes,08,8,40.0722,-105.354,145.46,144.86,107.2,107.2,,,Boulder,On-Air,Boulder/Denver Metro,Colorado Repeater Association (CRA),"Closed autopatch, e-power.",,3990,CCARC,yes,,,,,,,,,,,,,,,,,,,CRA VHF Link System,Member-only IRLP and Echolink node,,347086,,,,,"Full-time to  
+        145.16000 (W0CRA) at Colorado Springs, Cheyenne Mountain, CO .
+ 
+
+
+Full-time to  
+        147.22500 (W0CRA) at Larkspur, Westcreek, CO .",,,,,,,,,,,,,,,,,,,,,,,,,
+447.975,-5,107.2,W0CRA,"Boulder, Eldorado Mountain",CO,OPEN,,41.8,SW,yes,08,20,40.0722,-105.354,447.975,442.975,107.2,107.2,,,Boulder,On-Air,Wide area: Boulder/Longmont area.,Colorado Repeater Association (CRA),Closed autopatch.,,,CCARC,yes,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+224.02,-1.6,,W0IA,"Boulder, Lee Hill",CO,OPEN,E,41.8,SW,yes,08,18,40.0722,-105.354,224.02,222.42,,,,,Boulder,On-Air,Denver metro area.,Rocky Mtn VHF Soc,8,,,CCARC,yes,RMVHS repeaters,,,,,,,,,,,,,,,,,,,,,217336,,,,,"Full-time to  
+        449.55000 (W0IA) at Boulder, CO .",,,,,,,,,,,,,,,,,,,,,,,,,
+449.8,-5,123,N0FH,Estes Park,CO,OPEN,EI,42.8,W,yes,08,120,40.3772,-105.521,449.8,444.8,123,,,,Larimer,On-Air,,Estes Valley ARC,E-Power,,7268,CCARC,yes,,,,,,,,,,,,,,ARES D-10: Thu at 19:00.,,,,,,"The EchoLink node connects to both machines. The node is open (no passwords; touch tone only the the ' * ' character followed by a four, five, or six digit node number where you wish to connect). The disconnect is ' # '.","Both Echolink and IRLP are open, IRLP connect is a four digit node number only and '73' to disconnect. Top of Hour time is announced from 0600 to 2200.",625757,,,,,"Full-time to  
+        146.68500 (N0FH) at Estes Park, CO .",,,,,,,,,,,,,,,,,,,,,,,,,
+146.61,-0.6,100,W0DK,Boulder,CO,OPEN,I,42.9,SW,yes,08,13,39.9783,-105.275,146.61,146.01,100,,,,Boulder,Off-Air,,Boulder Amateur Radio Club,,,7007,CCARC,yes,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+448.9,-5,100,W0DK,"Boulder, Table Mesa",CO,OPEN,,42.9,SW,yes,08,10,39.978,-105.275,448.9,443.9,100,,,,Boulder,On-Air,"Wyoming border in the north, to Monument Hill in the south, near Colorado Springs. Its coverage is primarily to the east of the Front Range of the Rockies as the repeater signal is blocked to the west by the even higher Rocky Mountain peaks with altitudes of over 14,000 feet.",Boulder ARC,6,,,CCARC,yes,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+146.7,-0.6,100,W0DK,"Boulder, Table Mountain",CO,OPEN,,43,SW,yes,08,14,39.9775,-105.279,146.7,146.1,100,,,,Boulder,On-Air,"Wyoming border in the north, to Monument Hill (near Colorado Springs) in the south. Coverage is primarily to the east of the Rockies Front Range, as the repeater signal is blocked to the west by mountain peaks with altitudes of over 14,000 feet.",Boulder Co ARC,6,,,CCARC,yes,BARC Repeaters,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+448.15,-5,141.3,K0GUR,"Denver, Green Valley Ranch",CO,OPEN,EA,43.3,S,yes,08,9765,39.7967,-104.748,448.15,443.15,141.3,141.3,,,Denver,On-Air,"Small coverage of the East Denver area SW of DIA. 
+   Repeater Coverage Map",K0GUR,E-power (batt).  2 meter and 70cm channel steerable remote bases.,,,CCARC,yes,k0jsc.com,,,,,,,,,,,,,"APRS Net: Sun at 19:00. 
+Region 5 District 2 ARES Net: Sun at 19:30. 
+Statewide ARES Net: Sun at 20:00. 
+Region 5 District 1 ARES Net: Mon at 19:00. 
+RGARC Net: Wed at 19:00.",,,,,,,Can be linked to various local repeater systems via the remote base(s). Echolink connects restricted. Email me to be added to the authorized list.  The system may be occupied in the Southern Colorado area for a formal net or ARES activity.,24340,,,,,Full-time to the  The Fun Machine System .,DM79pt,,,,,,,29436,Listen Live,,,,,,,,,,,,,,,,
+147.03,0.6,100,KI0HG,"Allenspark, AFPD Station #5",CO,OPEN,,43.6,WSW,yes,08,15670,40.1727,-105.468,147.03,147.63,100,,,,Boulder,On-Air,,KI0HG,,,,CCARC,yes,,,,,,,,,,,,,,,,,,,Boulder County Amateur Radio Emergency Service,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+449.3,-5,100,N1UPS,Westminster,CO,OPEN,EI,44.1,SSW,yes,08,8208,39.8367,-105.037,449.3,444.3,100,,,,Adams,On-Air,,N1UPS,,,3699,CCARC,yes,,,,,,,,,,,,,,,,,,,,,,43699,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+146.91,0.6,123,W0JZ,Gold Hill,CO,OPEN,,44.6,WSW,yes,08,13368,40.0633,-105.41,146.91,147.51,123,127.3,,,Boulder,On-Air,"East of Gold Hill, The Indian Peaks, Denver, Boulder",,,,,,yes,http://goldhilltown.com/,,,,,,,,,,,,,"Summer Tue at 19:30P, Winter 19:00.",,,,,"Town of Gold Hill, Colorado",,There is a MOU With BCARES for repeater use.,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+449.9375,-5,CC7,K7PFJ,"Cheyenne, South",WY,OPEN,,44.9,NNW,yes,56,15672,41.06,-104.88,449.9375,444.9375,,,,,Laramie,On-Air,,,,,,WRCG,yes,https://www.rmham.org/wordpress/,,,,yes,7,,"Open Talkgroup View 
+
+
+ 
+   
+    
+     Assignment 
+     TS 
+     TG 
+     Access 
+   
+
+  Rocky Mountain Wide  1  700      Northern Colorado Regional  2  721    
+  
+ 
+ 
+function myFunction(id) {
+    var x = document.getElementById(id);
+    if (x.className.indexOf(""w3-show"") == -1) {
+        x.className += "" w3-show"";
+    } else {
+        x.className = x.className.replace("" w3-show"", """");
+    }
+}",,,,,,,,,,,,,,,,,1,2,Full-time to the  Rocky Mountain Ham System .,,,,,,,,,,,,,,,,,,,,,,,,,
+448.5,-5,100,KB0UDD,"Aurora, Smokey Hill",CO,OPEN,,48.4,S,yes,08,92,39.7294,-104.831,448.5,443.5,100,,,,Denver,On-Air,Greater Denver area.,Castle Rock Repeater Group,E-power.,,,CCARC,yes,,,,,,,,,,,,,,,,,,,,,,,,,,,"Full-time to  
+        145.40000 (KB0UDD) at Aurora, Smoky Hill, CO .",,,,,,,,,,,,,,,,,,,,,,,,,
+448.4,-5,94.8,N0ZUQ,Aurora,CO,OPEN,,48.4,S,yes,08,8202,39.7294,-104.832,448.4,443.4,94.8,,,,Arapahoe,On-Air,,,,,,CCARC,yes,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+448.275,-5,156.7,W0BG,Aurora,CO,OPEN,,48.4,S,yes,08,8199,39.7294,-104.832,448.275,443.275,156.7,,,,Arapahoe,On-Air,,W0BG,,,,CCARC,yes,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+447.175,-5,100,W0JRL,"Denver, Broadway Plaza Lofts",CO,OPEN,EA,48.4,SSW,yes,08,12216,39.7552,-104.987,447.175,442.175,100,100,,,Denver,On-Air,,W0JRL,,,,CCARC,yes,,,,,,,,,,,,,,,,,,,,Standard AllStar Link access commands.,,201712,,,,,,,,,,,,,29997,,,,,,,,,,,,,,,,,
+448.825,-5,,WN7ANT,Aurora,CO,OPEN,W,48.4,S,yes,08,16032,39.7294,-104.832,448.825,443.825,,,yes,Open ↑ / Open ↓,Arapahoe,On-Air,,,,,,,yes,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,30584,,,,,,,,,,,,,,,
+146.775,-0.6,114.8,KC7SNO,"Cheyenne, Denver Hill",WY,OPEN,,48.7,N,yes,56,27,41.1239,-104.819,146.775,146.175,114.8,,,,Laramie,On-Air,,Shy-Wy Amateur Radio Club,"E-power, WX.",,,WRCG,yes,,,,,,,,,,,,,,"Weather Net: Daily at 06:45. 
+Shy-WY ARC: Sun at 07:00.",,,,,,,,,,,,,"Full-time to  
+        147.16500 (KC7SNO) at Albin, WY .",,,,,,,,,,,,,,,,,,,,,,,,,
+448.2,-5,CC7,W0FT,"Fort Morgan, Fort Morgan EOC",CO,OPEN,,49.4,SE,yes,08,10783,40.2503,-103.8,448.2,443.2,,,,,Morgan,On-Air,,,Mixed Mode,,,CCARC,yes,Rocky Mountain Ham Radio,,,,yes,7,,"Open Talkgroup View 
+
+
+ 
+   
+    
+     Assignment 
+     TS 
+     TG 
+     Access 
+   
+
+  Rocky Mountain Wide  1  700      Northern Colorado Regional  2  721    
+  
+ 
+ 
+function myFunction(id) {
+    var x = document.getElementById(id);
+    if (x.className.indexOf(""w3-show"") == -1) {
+        x.className += "" w3-show"";
+    } else {
+        x.className = x.className.replace("" w3-show"", """");
+    }
+}",,,,,,,,,,,NEAHR,,"See the website for more info on Time Slot, Talk Group and Color Code Programming.",,,,1,2,Full-time to the  Colorado TRBO System .,,,,,,,,,,,,,,,,,,,,,,,,,
+145.475,-0.6,100,KE0SJ,"Boulder, Blue Mountain",CO,OPEN,,49.5,SSW,yes,08,75,39.7392,-104.984,145.475,144.875,100,,,,Jefferson,On-Air,"Wide Area: Ft. Collins to the North, Colorado Springs to the South, Parts of Akron to the east.",Intermountain Repeater Group,E-power.,,,CCARC,yes,Intermountain Repeater Group,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+146.715,-0.6,123,N0JXN,Denver,CO,OPEN,,49.5,SSW,yes,08,79,39.7392,-104.984,146.715,146.115,123,123,,,Denver,On-Air,,EARS,E-power.,,,CCARC,yes,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+448.075,-5,123,N5EHP,Denver,CO,OPEN,,49.5,SSW,yes,08,91,39.7392,-104.984,448.075,443.075,123,,,,Denver,On-Air,,W0IG,,,,CCARC,yes,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+448.55,-5,82.5,W0KIZ,Denver,CO,OPEN,,49.5,SSW,yes,08,93,39.7392,-104.984,448.55,443.55,82.5,,,,Denver,Off-Air,,HPRA,E-power.,,,CCARC,yes,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+447.925,-5,100,K0FEZ,Denver,CO,OPEN,,49.6,SSW,yes,08,8196,39.7376,-104.985,447.925,442.925,100,100,,,Denver,On-Air,,RADOPS El Jebel Shriners,,,,CCARC,yes,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+447.9,-5,CSQ,WB0TPT,Denver,CO,OPEN,,49.6,SSW,yes,08,8195,39.7376,-104.985,447.9,442.9,CSQ,,,,Denver,Off-Air,,WB0TPT,,,,CCARC,yes,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+449.65,-5,136.5,WR0AEN,Denver,CO,OPEN,,49.6,SSW,yes,08,8212,39.7376,-104.985,449.65,444.65,,,,,Denver,On-Air,,Colorado Amateur Repeater Network (CARN),,,,CCARC,yes,,yes,WR0AEN (B),"jfindu lookup 
+    /   dstar-users lookup",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+449.675,-5,136.5,WR0AEN,Denver,CO,OPEN,I,49.6,SSW,yes,08,8213,39.7376,-104.985,449.675,444.675,,,,,Denver,On-Air,,Colorado Amateur Repeater Network (CARN),,,7708,CCARC,yes,,yes,WR0AEN (B),"jfindu lookup 
+    /   dstar-users lookup",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+145.235,-0.6,114.8,KB7SWR,Cheyenne,WY,OPEN,,49.9,N,yes,56,19,41.14,-104.82,145.235,144.635,114.8,,,,Laramie,On-Air,Local: Cheyenne.,N7GT,,,,WRCG,yes,,,,,,,,,,,,,,,,,,,,,25,,,,,,"Full-time to  
+        448.15000 (KB7SWR) at Cheyenne, WY .",,,,,,,,,,,,,,,,,,,,,,,,,
+147.105,0.6,114.8,KC7SNO,"Cheyenne, North Park",WY,OPEN,,49.9,N,yes,56,26,41.14,-104.82,147.105,147.705,114.8,91.5,,,Laramie,On-Air,,ShyWyArc,,,,WRCG,yes,,,,,,,,,,,,,,,,,,,,,,,,,,,,DN71,,,,,,,,,,,,,,,,,,,,,,,,
+449.9,-5,100,N7JJY,Cheyenne,WY,OPEN,,49.9,N,yes,56,15518,41.14,-104.82,449.9,444.9,100,100,,,Laramie,On-Air,From 5 miles to 25 miles,N7JJY,,,,,yes,,,,,,,,,,,,,,,,,,,,,To be used as a portable repeater for ARES/RACES or as needed for specific needs of the Amateur Community in Laramie County or other areas as needed. Repeater will be on when needed otherwise offline.,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+449.15,-5,136.5,WR0AEN,Aurora,CO,OPEN,,50.5,S,yes,08,8207,39.6967,-104.81,449.15,444.15,,,,,Arapahoe,On-Air,,Colorado Amateur Repeater Network (CARN),,,,CCARC,yes,,yes,WR0AEN (B),"jfindu lookup 
+    /   dstar-users lookup",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+448.95,-5,CC15 151.4,KC7DHF,"Cheyenne, Old airport control tower",WY,OPEN,,50.7,N,yes,56,8991,41.153,-104.818,448.95,443.95,151.4,151.4,,,Laramie,On-Air,Local,,,,,WRCG,yes,,,,,yes,15,,,,,,,,,,,,,,,Brandmiester and analog.,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+147.21,0.6,100,KD0SSP,"Lakewood, Moffat Treatment Plant",CO,OPEN,I,51.4,SSW,yes,08,9775,39.7505,-105.123,147.21,147.81,100,100,,,Jefferson,On-Air,,Denver Water Amateur Radio Club,,Yes; analog capable.,3241,,yes,http://www.dwarc.com,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+448.35,-5,225.7,KD0SSP,"Lakewood, Moffat Treatment Plant",CO,OPEN,,51.4,SSW,yes,08,17349,39.7506,-105.123,448.35,443.35,,,yes,Open ↑ / Open ↓,Jefferson,On-Air,Denver Metro and surrounding,Denver Water Amateur Radio Club (DWARC),,,,CCARC,yes,http://www.DWARC.com,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+446.975,-5,CC0,KB0VGD,"Golden, Table Mountain",CO,OPEN,,51.6,SSW,yes,08,14273,39.7846,-105.216,446.975,441.975,,,,,Jefferson,On-Air,Denver Metro Area,W0DMR,,,,,yes,http://www.w0dmr.org/,,,,yes,0,,,,,,,,"Tac 310 Net, Sundays 18:00 Mountain Time, TS1, TG 310.",,,,,,"TS 1, CC 2: TG 3171 - Northern Colorado Network, TG 3100 - DCI Bridge, TG 1776 - USA Network, TG 310 - Tac 310.  
+
+TS 2, CC 2: TG 2 - Local",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+145.31,-0.6,88.5,KB0VJJ,"Boulder, Thorodin Mountain",CO,OPEN,,52.9,SW,yes,08,72,39.8875,-105.426,145.31,144.71,88.5,123,,,Gilpin,On-Air,"Wide area: Cheyenne, Wyoming to the north, Monument, Colorado to the south, Limon, Colorado to the east, and the continental divide to the west.",Colorado Connection,10,,,CCARC,yes,,,,,,,,,,,,,,"Colorado Traffic Net: Daily at 19:30. 
+Colorado Connection Net (all welcome): Thu at 20:00. 
+Statewide ARES: Sun at 20:00.",,,,,,,"Split tone.  The repeater still transmits 123.0 for those wishing to use tone squelch, you must run a split tone 88.5 TX and 123.0 RX",,,,,,Full-time to the  Colorado Connection System .,,,,,,,,,,,,,,,,,,,,,,,,,
+449.225,-5,141.3,N0SZ,"Denver, Thorodin Mountain",CO,OPEN,,52.9,SW,yes,08,97,39.8875,-105.426,449.225,444.225,141.3,141.3,,,Gilpin,On-Air,Wide area.,Rocky Mountain Ham Radio (RMHR),Emergency Power,,,CCARC,yes,,,,,,,,,,,,,,,,,,,,,"Emcomm Affiliated, Open repeater",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+448.125,-5,107.2,N0PYY,Golden,CO,OPEN,,53.5,SSW,yes,08,143,39.7556,-105.221,448.125,443.125,107.2,,,,Jefferson,On-Air,,Denver PD EEB,,,,CCARC,yes,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+927.7875,-25,156.7,N0PYY,Golden,CO,OPEN,,53.5,SSW,yes,08,7170,39.7555,-105.221,927.7875,902.7875,156.7,,,,Jefferson,On-Air,Golden and Denver.,N0PYY,,,,,yes,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+448.975,-5,123,W0GV,Golden,CO,OPEN,A,53.5,SSW,yes,08,137,39.7556,-105.221,448.975,443.975,123,,,,Jefferson,On-Air,Wide area.,FRG,Linkable VHF/UHF Remote Base,,,CCARC,yes,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,42845,,,,,,,,,,,,,,,,,
+447.825,-5,D073,W0TX,"Lakewood, St Anthony Medical Campus",CO,OPEN,,53.7,SSW,yes,08,5805,39.7162,-105.13,447.825,442.825,D073,D073,,,Jefferson,On-Air,,Denver Radio Club,,,,CCARC,yes,,,,,,,,,,,,,,,,,,,,,"Now operating in Narrow Band mode with Digital Code Squelch.
+ Please reset your programing to use:
+ 12.5 KHz. bandwidth (+/- 2.5 KHz. deviation).",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+448.75,-5,100,N0ELY,Lakewood,CO,OPEN,,54.3,SSW,yes,08,8204,39.7046,-105.123,448.75,443.75,100,100,,,Jefferson,On-Air,Local.,,E-power.,,,CCARC,yes,,,,,,,,,,,,,,,,,,,N0ELY,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+224.6,-1.6,100,W0RM,Rollinsville,CO,OPEN,,54.5,SW,yes,08,201,39.9172,-105.501,224.6,223,100,,,,Gilpin,,,W0RM,,,,CCARC,yes,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Unknown,,,,,,,,,,,,,,
+145.19,-0.6,151.4,N0OBA,Aurora,CO,OPEN,E,55,S,yes,08,8741,39.628,-104.758,145.19,144.59,151.4,131.8,,,Arapahoe,On-Air,"Aurora, Littleton, Denver, Morrison, North Colorado Springs to as far as Ft. Collins.",N0OBA,Autopatch (please contact trustee).,,,,yes,,,,,,,,,,,,,,"""Tri Lakes Net"" This net is held every Monday at 7:30pm local (except on the third Monday of the month when we have our regular radio club meeting.)",,,,,,,"Please note the PL's! Do not TSQ unless your radio can do split PL's. Otherwise you will not here the system. Regards, Scott",10079,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+449.75,-5,103.5,KI0GO,"Golden, Guy Hill",CO,OPEN,,55.3,SW,yes,08,265,39.7772,-105.328,449.75,444.75,103.5,103.5,,,Jefferson,On-Air,,Rocky Mtn Radio League,8,,,CCARC,yes,Repeater,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+224.74,-1.6,88.5,N0POH,"Golden, Guy Hill",CO,OPEN,,55.3,SW,yes,08,134,39.7772,-105.328,224.74,223.14,88.5,88.5,,,Jefferson,On-Air,,Aurora Repeater Assoc,e-power,,,CCARC,yes,ARA Repeaters,,,,,,,,,,,,,ARA: Wed at 2000.,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+145.37,-0.6,CC7,N0SZ,"Golden, Lookout Mountain",CO,OPEN,,55.3,SSW,yes,08,10939,39.7307,-105.233,145.37,144.77,,,,,Jefferson,On-Air,,Rocky Mountain Ham Radio,700,,,CCARC,yes,Rocky Mountain Ham Radio,,,,yes,7,,,,,,,,,,,,,,,See the website for programming information. Voice ID is required for data/GPS/text on TG 705,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+1283.9625,-20,,W0CDS,"Golden, Lookout Mountain",CO,OPEN,,55.3,SSW,yes,08,3751,39.7305,-105.233,1283.9625,1263.9625,,,,,Jefferson,On-Air,,Colorado D-Star,,,,CCARC,yes,Colorado D-Star,yes,W0CDS (A) Repeater,"jfindu lookup 
+    /   dstar-users lookup",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+1299.9,0,,W0CDS,"Golden, Lookout Mountain",CO,OPEN,,55.3,SSW,yes,08,8222,39.7305,-105.233,1299.9,1299.9,,,,,Jefferson,On-Air,,Colorado D-Star,,,,,yes,Colorado D-Star,yes,W0CDS (A) DVAP 24/7,"jfindu lookup 
+    /   dstar-users lookup",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+145.25,-0.6,,W0CDS,"Golden, Lookout Mountain",CO,OPEN,,55.3,SSW,yes,08,3739,39.7305,-105.233,145.25,144.65,,,,,Jefferson,On-Air,,Colorado D-Star,,,,CCARC,yes,Colorado D-Star,yes,W0CDS (C) Repeater,"jfindu lookup 
+    /   dstar-users lookup",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+446.9625,-5,,W0CDS,"Golden, Lookout Mountain",CO,OPEN,,55.3,SSW,yes,08,2769,39.7305,-105.233,446.9625,441.9625,,,,,Jefferson,On-Air,,Colorado D-Star,,,,CCARC,yes,Colorado D-Star,yes,W0CDS (B) Repeater,"jfindu lookup 
+    /   dstar-users lookup",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+449.625,-5,141.3,W0KU,"Golden, Lookout Mountain",CO,OPEN,I,55.3,SSW,yes,08,139,39.733,-105.239,449.625,444.625,141.3,141.3,,,Jefferson,On-Air,,Rocky Mountain Ham Radio,E-power,,3750,CCARC,yes,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+446.8375,-5,CC7,WA2YZT,"Golden, Lookout",CO,OPEN,,55.3,SSW,yes,08,3753,39.7305,-105.232,446.8375,441.8375,,,,,Jefferson,On-Air,,WA2YZT,200,,,CCARC,yes,,,,,yes,7,,,,,,,,,,,,,,,See website for more info on CC/TS/TG programming.  www.rmham.org,,,,,,Full-time to the  Colorado TRBO System .,,,,,,,,,,,,,,,,,,,,,,,,,
+145.22,-0.6,103.5,WT0C,"Golden, Guy Hill",CO,OPEN,,55.3,SW,yes,08,71,39.7772,-105.328,145.22,144.62,103.5,103.5,,,Jefferson,On-Air,Wide area.,Rocky Mtn Radio League,8,Yes; analog capable.,,CCARC,yes,Repeater,,,,,,,,,,,,,,,,,,,,Talk-Group of $FFFF.,,,,,,,,,,,,,,,,,,yes,293,yes,,,,,,,,,,,
+448.85,-5,88.5,K0IBM,"Golden, Guy Hill",CO,OPEN,,55.4,SW,yes,08,136,39.7772,-105.329,448.85,443.85,88.5,88.5,,,Jefferson,On-Air,"Denver metro, central front range",Aurora Repeater Assoc,e-power.,,,CCARC,yes,ARA Repeaters,,,,,,,,,,,,,ARA: Wed at 20:00.,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+224,-1.6,103.5,N0MHU,"Golden, Guy Hill",CO,OPEN,,55.4,SW,yes,08,86,39.7772,-105.329,224,222.4,103.5,103.5,,,Jefferson,On-Air,,Rocky Mountain Radio League,8,,,CCARC,yes,Repeater,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+147.15,0.6,100,W0CBI,"Golden, Guy Hill",CO,OPEN,,55.4,SW,yes,08,133,39.7772,-105.329,147.15,147.75,100,100,,,Jefferson,On-Air,"Denver metro, central front range",Aurora Repeater Assoc (ARA),e-power,,,CCARC,yes,ARA Repeaters,,,,,,,,,,,,,ARA: Wed at 20:00.,,,,,,,,,,,,,"Linkable to  
+        224.74000 (N0POH) at Golden, Guy Hill, CO .",,,,,,,,,,,,,,,,,,,,,,,,,
+449.425,-5,D023,K0PWO,Centennial,CO,OPEN,A,55.5,S,yes,08,10603,39.6197,-104.731,449.425,444.425,D023,D023,,,Arapahoe,Off-Air,,K0PWO,,,,,yes,,,,,,,,,,,,,,,,,,,,,Colorado SNP (Shared non-protected pair),,,,,,,,,,,,,,29791,,,,,,,,,,,,,,,,,
+53.09,-1.7,107.2,W0TX,"Lakewood, Green Mountain",CO,OPEN,,55.7,SSW,yes,08,105,39.7008,-105.178,53.09,51.39,107.2,,,,Jefferson,On-Air,Metro Denver area.,Denver Radio Club,E-power.,,,CCARC,yes,DRC Repeaters,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+147.33,0.6,100,W0TX,"Lakewood, Green Mountain",CO,OPEN,,56.1,SSW,yes,08,85,39.6822,-105.143,147.33,147.93,100,,,,Jefferson,On-Air,Metro Denver and the foothills.,Denver Radio Club,E-power.,,,CCARC,yes,DRC Repeaters,,,,,,,,,,,,,SATERN: Thu at 19:30.,,,,,,,Not recommeded to use tone squelch on this repeater.,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+224.38,-1.6,100,W0TX,"Lakewood, Green Mountain",CO,OPEN,,56.1,SSW,yes,08,267,39.6822,-105.143,224.38,222.78,100,100,,,Jefferson,On-Air,,Denver Radio Club,,,,CCARC,yes,DRC Repeaters,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+449.775,-5,100,W0TX,"Lakewood, Green Mtn",CO,OPEN,,56.1,SSW,yes,08,8215,39.6822,-105.143,449.775,444.775,100,100,yes,Open ↑ / Open ↓,Jefferson,On-Air,Metro Denver,Denver Radio Club,,Yes; analog capable.,,CCARC,yes,Denver Radio Club,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+145.4,-0.8,100,KB0UDD,"Aurora, Smoky Hill",CO,OPEN,,56.4,S,yes,08,5,39.6073,-104.741,145.4,144.6,100,,,,Arapahoe,On-Air,Greater Denver area.,Castle Rock Repeater Group,"Autopatch, e-power.",,,CCARC,yes,,,,,,,,,,,,,,,,,,,,,,,,,,,"Full-time to  
+        448.50000 (KB0UDD) at Aurora, Smokey Hill, CO .",,,,,,,,,,,,,,,,,,,,,,,,,
+448.15,-5,100,KB7SWR,Cheyenne,WY,OPEN,,57.1,NNW,yes,56,20,41.1525,-105.221,448.15,443.15,100,,,,Laramie,Off-Air,,KB7SWR,,,,WRCG,yes,,,,,,,,,,,,,,,,,,,,,,,,,,,"Full-time to  
+        145.23500 (KB7SWR) at Cheyenne, WY .",,,,,,,,,,,,,,,,,,,,,,,,,
+927.8375,-25.8,D205,KI0HC,"Golden, Centennial Cone",CO,OPEN,A,57.2,SW,yes,08,9702,39.7658,-105.366,927.8375,902.025,,,,,Jefferson,On-Air,Great coverage of the Denver area and I-76 East to Atwood MM112. I-70 East to Agate MM340. West to Idaho Springs MM240. And I-25 from Larkspur MM172 to Longmont MM240 depending on the hills. Now linked with Almagre 927.7250 for great coverage south,,Linked with Chief 927.9375 &amp; Almagre 927.7250 for wide area coverage,,,CCARC,yes,,,,,,,,,,,,,,,,,,,,,The offset is -25.8125,,,,,,,,,,,,,,45770,,,,yes,293,yes,,,,,,,,,,,
+446.7875,-5,CC1,W0TX,"Denver, Centennial Cone",CO,OPEN,,57.2,SW,yes,08,7165,39.7657,-105.366,446.7875,441.7875,,,,,Jefferson,On-Air,,Denver Radio Club,,,,CCARC,yes,http://www.w0tx.org/,,,,yes,1,,,,,,,,,,,,,Brandmeister Network,"Any Brandmeister talk group is available on time slot 1, too many to list here, see website. https://dmrx.net/files/US_BM_User_Guide.pdf.  TG's are PTT enabled and will timeout after 15 minutes of inactivity.  Time Slot 2 Talk Group 310805 is local repeater only.",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+146.985,-0.6,100,K0FEZ,"Golden, Centennial Cone",CO,OPEN,I,57.7,SW,yes,08,82,39.7525,-105.359,146.985,146.385,100,100,,,Denver,On-Air,,El Jebel RADOPS,E-power.,,3346,CCARC,yes,,,,,,,,,,,,,,RADOPS: Sun at 19:00.,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+145.28,-0.6,100,KE0SJ,"Golden, Centennial Cone",CO,OPEN,,57.7,SW,yes,08,140,39.7525,-105.359,145.28,144.68,100,,,,Jefferson,On-Air,Wide area.,,"Closed autopatch, e-power, linked.",,,CCARC,yes,Intermountain Repeater Group,,,,,,,,,,,,,Sun at 19:30. Everyone welcome.,,,,,,,"PL is usually off, allowing use by older transceivers.",,,,,,"Full-time to  
+        449.52500 (KE0SJ) at Golden, Centennial Cone, CO .",,,,,,,,,,,,,,,,,,,,,,,,,
+449.525,-5,CSQ,KE0SJ,"Golden, Centennial Cone",CO,OPEN,,57.7,SW,yes,08,138,39.7525,-105.359,449.525,444.525,CSQ,,,,Jefferson,On-Air,,KE0SJ,E-power.,,,CCARC,yes,Intermountain Repeater Group,,,,,,,,,,,,,,,,,,,,,,,,,,"Full-time to  
+        145.28000 (KE0SJ) at Golden, Centennial Cone, CO .",,,,,,,,,,,,,,,,,,,,,,,,,
+448.625,-5,100,W0TX,"Golden, Centennial Cone",CO,OPEN,,57.7,SW,yes,08,112,39.7525,-105.358,448.625,443.625,100,100,,,Jefferson,On-Air,Denver metro area.,Denver Radio Club,E-power.,,,CCARC,yes,DRC Repeaters,,,,,,,,,,,,,DRC: Sun at 20:30.,,,,,,,,,,,,,"Full-time to  
+        145.49000 (W0TX) at Idaho Springs, Centennial Cone, CO .",,,,,,,,,,,,,,,,,,,,,,,,,
+146.64,-0.6,100,WB0TUB,"Golden, Centennial Cone",CO,OPEN,,57.7,SW,yes,08,77,39.7525,-105.359,146.64,146.04,100,,,,Jefferson,On-Air,"Wide area. 
+   Repeater Coverage Map",Denver Radio League,E-power.,,,CCARC,yes,DRL Repeaters,,,,,,,,,,,,,,,,,,,,8,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+53.17,-1.7,107.2,N6LXX,"Morrison, Mt. Morrison",CO,OPEN,A,58.4,SSW,yes,08,10514,39.6734,-105.218,53.17,51.47,107.2,CSQ,,,Jefferson,On-Air,"I-70,I-76,I-25,I-225",N6LXX,,,,CCARC,yes,,,,,,,,,,,,,,,,,,,N6LXX,,,,,,,,Full-time to the  N6LXX System .,,,,,,,,29883,,,,,,,,,,,,,,,,,
+447.875,-5,107.2,N6LXX,"Morrison, Mt. Morrison",CO,OPEN,A,58.4,SSW,yes,08,10513,39.6734,-105.218,447.875,442.875,107.2,107.2,,,Jefferson,On-Air,"I-70,I-76,I-25,I-225",N6LXX,,,,CCARC,yes,,,,,,,,,,,,,,,,,,,N6LXX,,,,,,,,Full-time to the  N6LXX System .,,,,,,,,29913,,,,,,,,,,,,,,,,,
+448.7,-5,146.2,WQ8M,Parker,CO,OPEN,,60,S,yes,08,274,39.558,-104.794,448.7,443.7,146.2,,,,Douglas,On-Air,Local North Parker only,,,,,,yes,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+927.8375,-25.8,100,KI0HC,Parker,CO,OPEN,,61.5,S,yes,08,14732,39.5391,-104.569,927.8375,902.025,,,,,Douglas,On-Air,This repeater is east of parker so it covers up in the foothills. You can hilltop into Wyoming &amp; on I-80 west to MM323 The Abraham Lincoln Monument. South I-25 to Fountain MM125. The hills are your friends in the 900 world!,,,,,CCARC,yes,,,,,,,,,,,,,,,,,,,,,"Offset is -25.8125 
+In Nac 294 Out Nac 293",,,,,,,,,,,,,,,,,,yes,294,yes,,,,,,,,,,,
+447.85,-5,141.3,AC0KQ,"Evergreen, Saddleback Mountain",CO,OPEN,A,62.1,SW,yes,08,9580,39.7189,-105.44,447.85,442.85,141.3,141.3,,,Clear Creek,On-Air,Wide area at 9500',AC0KQ,AllStar node repeater providing wide area coverage along the Front Range,,,CCARC,yes,,,,,,,,,,,,,,,,,,,Rocky Mountain Ham Radio,,,,,,,,,,,,,,,,29571,,,,,,,,,,,,,,,,,
+927.9375,-25.9,,KI0HC,"Indian Hills, Chief Mtn",CO,OPEN,,62.8,SSW,yes,08,17457,39.6,-105.21,927.9375,902.025,,,,,Jefferson,On-Air,"Wide area,Denver,Colorado Springs, Pueblo, Loveland. I70 East of Denver to Genoa and I25 North to Loveland &amp; South to Aguilar. I76 East to Atwood",,linked to Centennial Cone 927.8375 &amp; Almagre 927.7250,,,CCARC,yes,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,yes,293,yes,,,,,,,,,,,
+145.34,-0.6,103.5,KE4GUQ,Evergreen,CO,OPEN,I,63.4,SSW,yes,08,73,39.6333,-105.317,145.34,144.74,103.5,127.3,,,Jefferson,On-Air,Wide area.,Rocky Mtn Radio League,E-power.,,3350,CCARC,yes,Repeater,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+145.175,-0.6,CC7,N0SZ,"Evergreen, Squaw Mountain",CO,OPEN,,63.4,SSW,yes,08,10932,39.6333,-105.317,145.175,144.575,,,,,Clear Creek,On-Air,,Rocky Mountain Ham Radio,700,,,CCARC,yes,Rocky Mountain Ham Radio,,,,yes,7,,,,,,,,,,,,,,,Voice ID is required for data/GPS/text on TG 705,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+449.05,-5,107.2,WG0N,"Idaho Springs, Squaw Mountain",CO,OPEN,,63.4,SW,yes,08,95,39.7425,-105.514,449.05,444.05,107.2,107.2,,,Denver,On-Air,Wide area.,WG0N,E-power.,,,CCARC,yes,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+447.525,-5,203.5,N0ESQ,"Parker, Hess Reservoir",CO,OPEN,,64.5,S,yes,08,8189,39.4942,-104.836,447.525,442.525,203.5,146.2,,,Douglas,On-Air,"Denver metropolitan area, front range foothills",EmComm Colorado,,,,CCARC,yes,,,,,,,,,,,,,,,,,,,Colorado ARES,,"Not a ragchew machine. Traffic related to ARES, RACES and administrative and exercise traffic related thereto.",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+147.3,0.6,103.5,N0PYY,"Evergreen, Squaw Mountain",CO,OPEN,,65.9,SW,yes,08,84,39.6781,-105.487,147.3,147.9,103.5,103.5,,,Clear Creek,On-Air,Wide area.,Denver PD EEB,,,,CCARC,yes,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+449,-5,136.5,WR0AEN,"Idaho Springs, Squaw Mountain",CO,OPEN,,65.9,SW,yes,08,8250,39.6732,-105.48,449,444,136.5,136.5,,,Clear Creek,On-Air,,CARN,,,,CCARC,yes,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+449.45,-5,103.5,K1DUN,"Idaho Springs, Squaw Mountain",CO,OPEN,,66,SW,yes,08,99,39.6794,-105.493,449.45,444.45,103.5,127.3,,,Clear Creek,On-Air,"Wide area: West to the Continental Divide, south to
+Colorado Springs, east to Limon, and north to Cheyenne.",Rocky Mountain Radio League,11,,,CCARC,yes,Repeater,,,,,,,,,,,,,RMRL: Mon at 20:30.,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+146.67,-0.6,100,KB0UDD,"Idaho Springs, Squaw Mountain",CO,OPEN,,66,SW,yes,08,78,39.6794,-105.492,146.67,146.07,100,100,,,Clear Creek,On-Air,"North to Cheyenne, Wy - East to Limon, Co - South to Colorado Springs, Co and West to the Continental Divide.",Castle Rock Repeater Group,11,,,CCARC,yes,,,,,,,,,,,,,,CRRG/QCWA: Sun at 0930. Southern Metro LDS Ham Group: Sun at 1900. ARES23: Thu at 1930. ARES13: Sun at 2000.,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+446.9375,-5,CC7,N0SZ,"Idaho Springs, Squaw Mountain",CO,OPEN,,66,SW,yes,08,7190,39.6798,-105.493,446.9375,441.9375,,,,,Clear Creek,On-Air,,Rocky Mountain Ham Radio,,,,CCARC,yes,Rocky Mountain Ham Radio,,,,yes,7,,"Open Talkgroup View 
+
+
+ 
+   
+    
+     Assignment 
+     TS 
+     TG 
+     Access 
+   
+
+  Rocky Mountain Wide  1  700  Full-Time    Southern Colorado  2  719  Full-Time    Central Regional  2  720  Full-Time    Northern Colorado Regional  2  721  Full-Time  
+  
+ 
+ 
+function myFunction(id) {
+    var x = document.getElementById(id);
+    if (x.className.indexOf(""w3-show"") == -1) {
+        x.className += "" w3-show"";
+    } else {
+        x.className = x.className.replace("" w3-show"", """");
+    }
+}",,,,,,,RMHAM,,,,,,See the website for programming information.,,,,1,2,Full-time to the  Colorado TRBO System .,,,,,,,,,,,,,,,2,2,,,,,,,,,
+448.225,-5,141.3,N0SZ,"Idaho Springs, Squaw Mountain",CO,OPEN,,66,SW,yes,08,8197,39.6797,-105.493,448.225,443.225,141.3,141.3,,,Clear Creek,On-Air,,Rocky Mountain Ham Radio,E-power(gen).,,,CCARC,yes,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+448.675,-5,100,W0CFI,"Idaho Springs, Squaw Mountain",CO,OPEN,,66,SW,yes,08,94,39.6774,-105.488,448.675,443.675,100,100,,,Denver,On-Air,Wide area.,W0CFI,,,,CCARC,yes,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+145.145,-0.6,107.2,W0CRA,"Idaho Springs, Squaw Mountain",CO,OPEN,,66,SW,yes,08,107,39.6794,-105.492,145.145,144.545,107.2,107.2,,,Clear Creek,On-Air,Wide area. Denver metro.,Colorado Repeater Assoc,E-power.,,,CCARC,yes,http://www.w0cra.org/info/squaw.html#145145,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+447.575,-5,107.2,W0CRA,"Idaho Springs, Squaw Mountain",CO,OPEN,EI,66,SW,yes,08,264,39.6794,-105.492,447.575,442.575,107.2,107.2,,,Clear Creek,On-Air,Wide area: Denver metro.,Colorado Repeater Association (CRA),,,3291,CCARC,yes,http://www.w0cra.org,,,,,,,,,,,,,,,,,,,Member-only IRLP and Echolink node,,347088,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+145.49,-0.6,100,W0TX,"Idaho Springs, Centennial Cone",CO,OPEN,,66,SW,yes,08,76,39.6794,-105.492,145.49,144.89,100,100,,,Jefferson,On-Air,,"KB0VIU,  Denver Radio Club",E-power.,,,CCARC,yes,DRC Repeaters,,,,,,,,,,,,,DRC: Sun at 20:30.,,,,,,,,,,,,,"Full-time to  
+        448.62500 (W0TX) at Golden, Centennial Cone, CO .",,,,,,,,,,,,,,,,,,,,,,,,,
+449.35,-5,100,W0TX,"Idaho Springs, Squaw Mountain",CO,OPEN,E,66,SW,yes,08,98,39.6794,-105.492,449.35,444.35,100,100,,,Clear Creek,On-Air,Wide area.,Denver Radio Club,11,,,CCARC,yes,DRC Repeaters,,,,,,,,,,,,,,,,,,,,,4140,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+146.94,-0.6,103.5,W0WYX,"Idaho Springs, Squaw Mountain",CO,OPEN,,66,SW,yes,08,81,39.6798,-105.493,146.94,146.34,103.5,103.5,,,Clear Creek,On-Air,"Wide area: west to the Continental Divide, south to Colorado Springs, east to Limon, and north to Cheyenne.",Rocky Mtn Radio League,11,,,CCARC,yes,Repeater,,,,,,,,,,,,,"Colorado WX: Daily at 06:30. 
+RMRL: Mod at 20:30. 
+Astronomy: Tue at 19:00. 
+Amateur Radio Events: Tue at 20:00.",,,,,,Autopatch: 911* / Off 0*.,,,,,,,"Linkable to  
+        449.82500 (W0WYX) at Broomfield, CO .
+ 
+
+
+Linkable to  
+        449.45000 (K1DUN) at Idaho Springs, Squaw Mountain, CO .",,,,,,,,,Listen Live,,,,,,,,,,,,,,,,
+447.45,-5,103.5,WA4CCC,Winter Park,CO,OPEN,,66.1,WSW,yes,08,3756,39.9473,-105.795,447.45,442.45,103.5,,,,Grand,On-Air,,W0IG,,,,CCARC,yes,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+449.95,-5,77,W9SL,"Castle Pines, Daniels Park",CO,OPEN,,66.5,S,yes,08,8743,39.4718,-104.895,449.95,444.95,77,77,,,Douglas,On-Air,Primarily to the North along I-25 corridor,W9SL Owner,,,,CCARC,yes,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+147.285,0.6,88.5,KB0VJJ,"Winter Park, Winter Park",CO,OPEN,,66.9,WSW,yes,08,15582,39.8865,-105.763,147.285,147.885,88.5,123,,,Grand,On-Air,,Colorado Connection,,,,CCARC,yes,,,,,,,,,,,,,,,,,,,,,,,,,,,Full-time to the  Colorado Connection System .,,,,,,,,,,,,,,,,,,,,,,,,,
+445.075,-5,CC1,K0PRA,Parker,CO,OPEN,,67.3,S,yes,08,17292,39.4491,-104.703,445.075,440.075,,,,,Douglas,On-Air,,Parker Radio Association,Brandmeister Network https://brandmeister.network/?page=repeater&amp;id=310844,,,CCARC,yes,http://www.parkerradio.org,,,,yes,1,,,,,,,,Mondays 20:30 MST,,,,,,,Mixed Mode,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+146.88,-0.6,100,WB0TUB,"Centennial, Warren Mountain",CO,OPEN,,67.3,SSW,yes,08,80,39.5042,-105.128,146.88,146.28,100,,,,Jefferson,On-Air,Wide Area,Denver Radio League,E-power.,,,CCARC,yes,DRL Repeaters,,,,,,,,,,,,,,,,,,,,6,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+449.6,-5,100,WB0TUB,"Centennial, Warren Mountain",CO,OPEN,EI,67.3,SSW,yes,08,273,39.5042,-105.128,449.6,444.6,100,,,,Jefferson,On-Air,,Denver Radio League,,,3345,CCARC,yes,DRL Repeaters,,,,,,,,,,,,,,,,,,,,,690473,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+446.875,-5,CC,K7PFJ,"Granby, Mt Chauncey",CO,OPEN,,68.9,WSW,yes,08,15899,40.0861,-105.939,446.875,441.875,,,,,Clear Creek,On-Air,,,,,,,yes,http://www.rmham.org,,,,yes,,,,,,,,,,,,,,RMHAM,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+146.82,-0.6,123,KA0YDW,Granby,CO,OPEN,,68.9,WSW,yes,08,145,40.0861,-105.939,146.82,146.22,123,,,,Grand,,,GCARA,E-power.,,,CCARC,yes,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Unknown,,,,,,,,,,,,,,
+447.225,-5,CC11,WY7EOC,"Laramie, Pilot Hill",WY,CLOSED,,69.5,NNW,yes,56,60,41.2666,-105.433,447.225,442.225,,,,,Albany,On-Air,Wide area.,Laramie County EM,,,,WRCG,yes,,,,,yes,11,,"Open Talkgroup View 
+
+
+ 
+   
+    
+     Assignment 
+     TS 
+     TG 
+     Access 
+   
+
+  Wyoming  1  3156  Full-Time    WyLOCAL  2  100  Full-Time  
+  
+ 
+ 
+function myFunction(id) {
+    var x = document.getElementById(id);
+    if (x.className.indexOf(""w3-show"") == -1) {
+        x.className += "" w3-show"";
+    } else {
+        x.className = x.className.replace("" w3-show"", """");
+    }
+}",,,,,,,Wyoming DMR Project,,,,Wyoming DMR Project,,,,,,,,,,,,,,,,,,,,,,,,,1,2,,,,,,,
+1287.9,-20,CSQ,W0CRA,"Conifer, Conifer Mountain",CO,OPEN,,69.9,SSW,yes,08,103,39.5211,-105.305,1287.9,1267.9,CSQ,,,,Jefferson,Off-Air,Fort Collins to Colorado Springs.,Colorado Repeater Association (CRA),,,,CCARC,yes,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+224.98,-1.6,107.2,W0CRA,"Conifer, Conifer Mountain",CO,OPEN,EI,69.9,SSW,yes,08,89,39.5211,-105.305,224.98,223.38,107.2,107.2,,,Jefferson,Off-Air,Wide area. Denver.,Colorado Repeater Association,"Closed autopatch, e-power.",,3990,CCARC,yes,,,,,,,,,,,,,,,,,,,,,,347086,,,,,"Full-time to  
+        145.16000 (W0CRA) at Colorado Springs, Cheyenne Mountain, CO .
+ 
+
+
+Full-time to  
+        147.22500 (W0CRA) at Larkspur, Westcreek, CO .",,,,,,,,,,,,,,,,,,,,,,,,,
+447.15,-5,107.2,W0CRA,"Conifer, Conifer Mountain",CO,OPEN,,69.9,SSW,yes,08,109,39.5211,-105.305,447.15,442.15,107.2,107.2,,,Jefferson,Off-Air,Wide area: Denver.,Colorado Repeater Association (CRA),"Closed autopatch, e-power.",,,CCARC,yes,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+447.5,-5,88.5,N0OWY,"Conifer, Critchell Mountain",CO,OPEN,,70.8,SSW,yes,08,60,39.4703,-105.198,447.5,442.5,88.5,88.5,,,Jefferson,On-Air,Wide area.,Aurora Repeater Association,E-power.,,,CCARC,yes,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+446.85,-5,,K0PRA,Franktown,CO,OPEN,,71.2,S,yes,08,11473,39.3935,-104.675,446.85,441.85,,,,,Douglas,On-Air,,Parker Radio Association,D-Star B module,,,CCARC,yes,http://parkerradio.org,yes,K0PRA (B) Repeater,"jfindu lookup 
+    /   dstar-users lookup",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+147.12,0.6,88.5,N0ARA,"Critchell, Critchell Mountain",CO,OPEN,,71.4,SSW,yes,08,59,39.5148,-105.353,147.12,147.72,88.5,88.5,,,Jefferson,On-Air,Denver metro and east.,Aurora Repeater Association,E-power.,,,CCARC,yes,http://www.n0ara.org,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+53.05,-1.7,107.2,W0CRA,"Conifer, Conifer Mountain",CO,OPEN,,71.4,SSW,yes,08,104,39.5185,-105.359,53.05,51.35,107.2,107.2,,,Jefferson,Off-Air,"Wide area: Cheyenne, Wyoming, to the north, Pueblo to the south, beyond Limon to the east and South Park to the southwest.",Colorado Repeater Association (CRA),10,,,CCARC,yes,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+53.03,-1,,K7UWR,"Laramie,  Pilot Hill",WY,OPEN,,72.6,NNW,yes,56,4,41.3098,-105.455,53.03,52.03,,,,,Albany,Off-Air,I-80 from west of Laramie to east of Cheyenne for 25 watt mobiles with 1/4 wave antenna.,K7UWR,8,,,,yes,http://www.r-vcr.com/k7uwr/repeater.htm,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+147.165,0.6,114.8,KC7SNO,Albin,WY,OPEN,,75.8,NNE,yes,56,28,41.4178,-104.098,147.165,147.765,114.8,,,,Laramie,On-Air,,Shy-Wy Amateur Radio Club,E-power.,,,WRCG,yes,,,,,,,,,,,,,,,,,,,,,,,,,,,"Full-time to  
+        147.10500 (KC7SNO) at Cheyenne, North Park, WY .
+ 
+
+
+Full-time to  
+        146.77500 (KC7SNO) at Cheyenne, Denver Hill, WY .",,,,,,,,,,,,,,,,,,,,,,,,,
+146.61,-0.6,,N7UW,"Laramie, University",WY,OPEN,,76.6,NW,yes,56,76,41.3148,-105.582,146.61,146.01,,,yes,Open ↑ / Open ↓,Albany,On-Air,Laramie Valley  30 mi radius.,University ARC,,Yes; analog capable.,,WRCG,yes,http://www.uwyo.edu/uarc,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+146.82,-0.6,114.8,KC7SNO,"Laramie, Beacon Hill",WY,OPEN,,76.7,NW,yes,56,9,41.3114,-105.591,146.82,146.22,114.8,,,,Albany,On-Air,Wide area.,Shy-Wy Amateur Radio Club,,,,WRCG,yes,,,,,,,,,,,,,,Shy-WY ARC: Thu at 19:00.,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+145.295,-0.6,,WA0JTB,"Sterling, CO",CO,OPEN,,80.1,ESE,yes,08,238,40.6256,-103.207,145.295,144.695,,,,,Logan,On-Air,Wide area,NECARA,"Autopatch, e-power.",,,CCARC,yes,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+145.4,-0.6,88.5,KB0VJJ,Akron,CO,OPEN,,80.9,SE,yes,08,2,40.1606,-103.214,145.4,144.8,88.5,123,,,Washington,On-Air,Northeastern plains of Colorado.,Colorado Connection,,,,CCARC,yes,,,,,,,,,,,,,,"Colorado Traffic Net: Daily at 19:30. 
+Colorado Connection Net (all welcome): Thu at 20:00. 
+Statewide ARES: Sun at 20:00.",,,,,,,Part of the Colorado Connection system of repeaters,,,,,,Full-time to the  Colorado Connection System .,,,,,,,,,,,,,,,,,,,,,,,,,
+448.175,-5,CC7,W0FT,Akron,CO,OPEN,,80.9,SE,yes,08,16784,40.1605,-103.214,448.175,443.175,,,,,Morgan,On-Air,,W0FT,,,,CCARC,yes,http://www.rmham.org/,,,,yes,7,,,,,,,,,,,,,Rocky Mountain Ham Radio,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+146.895,-0.6,100,AB0PC,"Bailey, Dick Mountain",CO,OPEN,A,81.1,SSW,yes,08,7,39.4056,-105.473,146.895,146.295,100,100,,,Park,On-Air,285,AB0RR,25,,,CCARC,yes,Park County Radio Club (PCRC),,,,,,,,,,,,,Wed at 19:30.,,,,,,,,,,,,,"Full-time internet linked to  
+        448.57500 (WZ0N) at Hartsel, CO .",,,,,,,,45835,,,,,,,,,,,,,,,,,
+147.015,0.6,146.2,N7UW,"Laramie, Jelm Mountain",WY,OPEN,E,81.1,NW,yes,56,15436,41.0972,-105.977,147.015,147.615,146.2,,yes,Open ↑ / Open ↓,Albany,On-Air,Albany County,"Albany County ARES/RACES, University Amateur Radio",,Yes; analog capable.,,,yes,http://www.uwyo.edu/uarc/,,,,,,,,,,,,,,,,,,,,,82070,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+446.925,-5,CC8,N0ESQ,"Castle Rock, Devils Head",CO,OPEN,,82.9,SSW,yes,08,7193,39.2648,-105.114,446.925,441.925,,,,,Douglas,On-Air,,,,,,CCARC,yes,Rocky Mountain Ham Radio,,,,yes,8,,"Open Talkgroup View 
+
+
+ 
+   
+    
+     Assignment 
+     TS 
+     TG 
+     Access 
+   
+
+  Southern Colorado  1  719      Devilshead Local  2  711    
+  
+ 
+ 
+function myFunction(id) {
+    var x = document.getElementById(id);
+    if (x.className.indexOf(""w3-show"") == -1) {
+        x.className += "" w3-show"";
+    } else {
+        x.className = x.className.replace("" w3-show"", """");
+    }
+}",,,,,,,,,,,,,See the website for programming info.,,,,,,Full-time to the  Colorado TRBO System .,,,,,,,,,,,,,,,1,,,,2,,,,,,
+447.525,-5,146.2,N0ESQ,"Castle Rock, Devils Head (Pike National Forest)",CO,OPEN,,82.9,SSW,yes,08,8190,39.2648,-105.114,447.525,442.525,146.2,146.2,,,Douglas,On-Air,"Denver metro north to the Wyoming border. Back country including Bailey, Deckers, Woodland Park. Severe null due east due to Devils Head Peak.",EmComm Colorado,,,,CCARC,yes,,,,,,,,,,,,,,,,,,,Colorado ARES,,"This is not a ragchew machine. Traffic is limited to ARES, RACES and EmComm administrative, exercise, public service and disaster response.",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+449.25,-5,123,K0UPS,Cedar Point,CO,OPEN,EI,87.2,SE,yes,08,9583,39.3703,-103.801,449.25,444.25,123,123,,,Elbert,On-Air,"I-70 Limon, Co area.",K0UPS Club c/o N1UPS,Full duplex node.,,3349,CCARC,yes,,,,,,,,,,,,,,,,,,,,** [StarStar] Prefix for Echolink Node.,"K0UPS Buster Brown Radio Club. North West of Limon, Colorado.",3349,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+147.225,0.6,107.2,W0CRA,"Larkspur, Westcreek",CO,OPEN,EI,87.9,SSW,yes,08,83,39.1755,-105.034,147.225,147.825,107.2,107.2,,,Douglas,On-Air,Wide area,Colorado Repeater Association (CRA),Closed autopatch,,3990,CCARC,yes,Colorado Repeater Association,,,,,,,,,,,,,"CRA Net, Sunday 9AM",,,,,CRA VHF Link System,,,347086,,,,,"Full-time to  
+        145.16000 (W0CRA) at Colorado Springs, Cheyenne Mountain, CO .
+ 
+
+
+Full-time to  
+        145.46000 (W0CRA) at Boulder, Eldorado Mountain, CO .
+ 
+
+
+Full-time to  
+        224.98000 (W0CRA) at Conifer, Conifer Mountain, CO .",,,,,,,,,,,,,,,,,,,,,,,,,
+448.425,-5,107.2,W0CRA,"Larkspur, Westcreek",CO,OPEN,,87.9,SSW,yes,08,16547,39.1755,-105.034,448.425,443.425,107.2,107.2,,,Douglas,On-Air,Wide area,Colorado Repeater Association (CRA),,,,,yes,http://www.w0cra.org,,,,,,,,,,,,,,,,,,ARESDEC,,,,,,,,"Full-time to  
+        147.10500 (WA0DE) at Simla, CO .",,,,,,,,,,,,,,,,,,,,,,,,,
+449.975,-5,100,K0JSC,"Larkspur, Westcreek",CO,OPEN,,88,SSW,yes,08,15903,39.1749,-105.034,449.975,444.975,100,100,,,Douglas,On-Air,,K0JSC,Simulcast and Voted with Cedarwood and Methodist.,,,CCARC,yes,The Fun Machine,,,,,,,,,,,,,,,,,,The Fun Machine,,"Can be linked to Allstar, Echolink and others by a Sysop",,,,,,Full-time to the  The Fun Machine System .,,,,,,,,,,,,,,,,,,,,,,,,,
+147,-0.6,103.5,N0NEB,Harrisburg,NE,OPEN,,88.9,NNE,yes,31,58,41.49,-103.755,147,146.4,103.5,,,,Banner,On-Air,,Tri-City Radio Amateur Club,,,,,yes,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+147.105,0.6,107.2,WA0DE,Simla,CO,OPEN,,89,SSE,yes,08,12167,39.2267,-104.09,147.105,147.705,107.2,107.2,,,Elbert,On-Air,"I-70, E. Arapahoe, Elbert, Lincoln Counties",ARES of Douglas and Elbert Counties,Linked to CRA 447.150 - Conifer,,,CCARC,yes,http://www.w0cra.org/,,,,,,,,,,,,,,,,,,Colorado Repeater Association,,,,,,,,"Full-time to  
+        448.42500 (W0CRA) at Larkspur, Westcreek, CO .",,,,,,,,,,,,,,,,,,,,,,,,,
+145.16,-0.6,88.5,KB0VJJ,"Walden, Peterson Ridge",CO,OPEN,,89.2,W,yes,08,244,40.6494,-106.382,145.16,144.56,88.5,123,,,Jackson,On-Air,"North Park, along with portions of I-80 from Laramie, Wyoming, to Rock Springs, Wyoming.",Colorado Connection,8,,,CCARC,yes,,,,,,,,,,,,,,"Central Colorado Traffic Net: Daily at 19:30. 
+Colorado Connection Net (all welcome): Thu at 20:00. 
+Statewide ARES: Sun at 20:00.",,,,,,,Part of the Colorado Connection system of repeaters.,,,,,,Full-time to the  Colorado Connection System .,,,,,,,,,,,,,,,,,,,,,,,,,
+145.19,-0.6,131.8,N0XLF,"Palmer Lake, Monument Hill",CO,OPEN,E,89.7,S,yes,08,8740,39.136,-104.927,145.19,144.59,131.8,131.8,,,Douglas,On-Air,Wide area coverage at 8300,N0OBA Owner,,,,,yes,,,,,,,,,,,,,,Tri Lakes Net: Mon at 19:30 (except third Monday of the month which is the regular radio club meeting).,,,,,,,,10079,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+446.875,-5,CC6,N0SZ,Westcreek,CO,OPEN,,91.1,SSW,yes,08,15900,39.1525,-105.164,446.875,441.875,,,,,Douglas,On-Air,,W0VG,,,,CCARC,yes,http://www.rmham.org,,,,yes,6,,"Open Talkgroup View 
+
+
+ 
+   
+    
+     Assignment 
+     TS 
+     TG 
+     Access 
+   
+
+  Southern Colorado  2  719  Full-Time    Central Regional  2  720  Full-Time    Northern Colorado Regional  2  721  Full-Time  
+  
+ 
+ 
+function myFunction(id) {
+    var x = document.getElementById(id);
+    if (x.className.indexOf(""w3-show"") == -1) {
+        x.className += "" w3-show"";
+    } else {
+        x.className = x.className.replace("" w3-show"", """");
+    }
+}",,,,,,,RMHAM,,,,RMHAM,,,,,,,2,Full-time to the  Colorado TRBO System .,,,,,,,,,,,,,,,2,2,,,,,,,,,
+147.075,0.6,88.5,KB0VJJ,"Kremmling, Santoy Peak",CO,OPEN,,92.1,WSW,yes,08,166,40.0589,-106.388,147.075,147.675,88.5,123,,,Grand,On-Air,Flattops Wilderness Area well and can even be worked from the Front Range in some locations. Coverage at the east end of Glenwood Canyon to Eagle is available in some spots along I-70.  Map,Colorado Connection,,,,CCARC,yes,,,,,,,,,,,,,,"Colorado Traffic Net: Daily at 19:30. 
+Colorado Connection Net (all welcome): Thu at 20:00. 
+Statewide ARES: Sun at 20:00.",,,,,,,Part of the Colorado Connection system of Repeaters,,,,,,Full-time to the  Colorado Connection System .,,,,,,,,,,,,,,,,,,,,,,,,,
+447.725,-5,100,K0NR,"Monument, Monument Hill",CO,OPEN,,92.4,S,yes,08,183,39.0917,-104.872,447.725,442.725,100,100,,,El Paso,On-Air,Local.,K0NR,30,,,CCARC,yes,http://www.k0nr.com/wordpress/k0nr-repeater/,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+445.0875,-5,CC7,N0SZ,"Breckenridge, Baldy",CO,OPEN,,94.7,SW,yes,08,16780,39.459,-105.979,445.0875,440.0875,,,,,Fremont,On-Air,,K2AD,,,,,yes,http://www.rmham.org/,,,,yes,7,,,,,,,,,,,,,Rocky Mountain Ham Radio,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+448.95,-5,,,Black Forest,CO,OPEN,,95,S,yes,08,17551,39.0485,-104.701,448.95,443.95,,,yes,Open ↑ / Open ↓,El Paso,,This repeater covers most of Black Forest and various areas of Monument and Colorado Springs,N0PKT,e-power,,,,yes,http://www.k0jsc.com,yes,(B) Repeater,"jfindu lookup 
+    /   dstar-users lookup",,,,,,,,,,Primarily on NXDN: All Nets carried on the K0JSC.COM Fun Machine system,,,,,K0JSC,,,,,,,,,,,,,,,,,,,Unknown,,,,,,,,,yes,1,6.25,yes,,
+147.39,0.6,88.5,KB0VJJ,"Breckenridge, Bald Mountain",CO,OPEN,,95,SW,yes,08,24,39.4439,-105.969,147.39,147.99,88.5,123,,,Summit,On-Air,Wide area.,Colorado Connection,12,,,CCARC,yes,Breckenridge Repeater,,,,,,,,,,,,,"Central Colorado Traffic Net: Daily at 19:30. 
+Colorado Connection Net (all welcome): Thu at 20:00. 
+Statewide ARES: Sun at 20:00.",,,,,,,"Please Note that 146.790 is the old Breckenridge frequency and this repeater may return to that frequency eventually but is now working on 147.390-.  This machine has a split tone, 88.5 rx and 123.0 tx",,,,,,Full-time to the  Colorado Connection System .,,,,,,,,,,,,,,,,,,,,,,,,,
+447.625,-5,100,KD0MDP,"Falcon, Black Forest",CO,OPEN,EIA,95.5,S,yes,08,13294,39.0437,-104.608,447.625,442.625,100,100,,,El Paso,On-Air,,KD0MDP,Linked.,,7301,,yes,,,,,,,,,,,,,,,,,,,The Fun Machine,,,363976,,,,,Full-time to the  The Fun Machine System .,,,,,,,,28299,,,,,,,,,,,,,,,,,
+146.7,-0.6,107.2,WB0QMR,Breckenridge,CO,OPEN,I,95.8,SW,yes,08,23,39.4817,-106.038,146.7,146.1,107.2,,,,Summit,On-Air,,GRARC,E-power.,,3972,CCARC,yes,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+145.415,-0.6,179.9,KA0WUC,Woodland Park,CO,OPEN,,100.5,S,yes,08,249,38.9939,-105.056,145.415,144.815,179.9,,,,Teller,,,MARC,"Closed autopatch, e-power.",,,CCARC,yes,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Unknown,,,,,,,,,,,,,,
+447.675,-5,179.9,KA0WUC,Woodland Park,CO,OPEN,,100.5,S,yes,08,8193,38.9939,-105.057,447.675,442.675,179.9,179.9,,,Teller,On-Air,,Mountain Amateur Radio Club (MARC),E-power.,,,CCARC,yes,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+449.025,-5,141.3,KA0WUC,Woodland Park,CO,OPEN,,100.5,S,yes,08,252,38.9939,-105.056,449.025,444.025,141.3,,,,Teller,,,Mountain Amateur Radio Club (MARC),Linked.,,,CCARC,yes,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Unknown,,,,,,,,,,,,,,
+927.9,-25,D205,KA0WUC,Woodland Park,CO,OPEN,,100.5,S,yes,08,3750,38.9938,-105.057,927.9,902.9,D205,D205,,,Teller,On-Air,,MARC,,,,CCARC,yes,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+449.325,-5,103.5,KA4EPS,"Woodland Park, Paradise Pines",CO,OPEN,A,100.5,S,yes,08,9503,38.9939,-105.057,449.325,444.325,103.5,103.5,,,Teller,On-Air,"Small coverage repeater node covering Woodland Park, CO when not linked. When linked to the Florida hub, coverage from Key West to Port. St John Florida can be expected.",KA4EPS,E-power. Allstar Node 27976,,,CCARC,yes,,,,,,,,,,,,,,"Sunday 1500 MST
+Tuesday 1730 MST",,,,,Amateur Radio Motorcycle Club,,Node # 27976,,,,,,,,,,,,,,27976,,,,,,,,,,,,,,,,,
+146.82,-0.6,107.2,NX0G,Woodland Park,CO,OPEN,,100.5,S,yes,08,250,38.9939,-105.056,146.82,146.22,107.2,,,,Teller,On-Air,,Mountain ARC,E-power.,,,CCARC,yes,,,,,,,,,,,,,,MARC/PCRC: Tue at 19:30.,,,,,,,,,,,,,"Full-time to  
+        146.68500 (NX0G) at Lake George, Badger Mountain, CO .
+ 
+
+
+Full-time to  
+        448.65000 (NX0G) at Woodland Park, CO .
+ 
+
+
+Full-time to  
+        447.47500 (NX0G) at Colorado Springs, CO .
+ 
+
+
+Full-time to  
+        147.01500 (NX0G) at Cripple Creek, CO .",,,,,,,,,,,,,,,,,,,,,,,,,
+448.65,-5,107.2,NX0G,Woodland Park,CO,OPEN,,100.5,S,yes,08,251,38.9939,-105.056,448.65,443.65,107.2,,,,Teller,On-Air,,Mountain ARC (MARC),E-power.,,,CCARC,yes,,,,,,,,,,,,,,MARC/PCRC: Tue at 19:30.,,,,,MARC,,,,,,,,"Full-time to  
+        146.68500 (NX0G) at Lake George, Badger Mountain, CO .
+ 
+
+
+Full-time to  
+        146.82000 (NX0G) at Woodland Park, CO .
+ 
+
+
+Full-time to  
+        147.01500 (NX0G) at Cripple Creek, CO .
+ 
+
+
+Full-time to  
+        447.47500 (NX0G) at Colorado Springs, CO .",,,,,,,,,,,,,,,,,,,,,,,,,
+446.7375,-5,CC8,K0RTS,"Genoa, Limon",CO,OPEN,,101.8,SE,yes,08,13581,39.2783,-103.5,446.7375,441.7375,,,,,Lincoln,On-Air,"I-70  H-40  H-287  Arriba, Genoa, Hugo, Limon        50 mile radius",K0RTS KC0VJD,,,,CCARC,yes,,,,,yes,8,,"Open Talkgroup View 
+
+
+ 
+   
+    
+     Assignment 
+     TS 
+     TG 
+     Access 
+   
+
+  Rocky Mountain Wide  1  700      Central Regional  2  720    
+  
+ 
+ 
+function myFunction(id) {
+    var x = document.getElementById(id);
+    if (x.className.indexOf(""w3-show"") == -1) {
+        x.className += "" w3-show"";
+    } else {
+        x.className = x.className.replace("" w3-show"", """");
+    }
+}",,,,,,,,,,,RMHam,,"Colorado on TG700 Slot 1
+Denver on TG720 Slot 2",,,,1,,,,,,,,,,,,,,,,,,2,,,,,,,,,
+147.06,0.6,103.5,KE0AE,Genoa,CO,OPEN,EIA,102.8,SE,yes,08,128,39.2688,-103.488,147.06,147.66,103.5,,yes,Open ↑ / Open ↓,Lincoln,On-Air,"I-70, US-71, US-287, US-40, US-24",BSARC,"APRS repeater / weather station, remote base, e-power (solar - completely off the electrical grid).",Yes; analog capable.,3794,CCARC,yes,http://www.bigsandyradio.com/,,,,,,,,,,,,,Big Sandy Net: Wed 19:00,,,,,,,,791116,,,,,,,,,,,,,42740,,,,,,,,,,,,,,,,,
+447.2,-5,151.4,,Falcon,CO,OPEN,,103.1,S,yes,08,13790,38.933,-104.609,447.2,442.2,,,yes,Open ↑ / Open ↓,El Paso,Testing,"Falcon, Black Forest, Peyton Areas",GGARC,,,,,yes,,,,,,,,,,,,,,,,,,,Garden of the Gods Amateur Radio Club,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+444.125,5,114.8,WB7GR,"Scottsbluff, Stage Hill",NE,OPEN,,103.3,NNE,yes,31,110,41.701,-103.681,444.125,449.125,114.8,114.8,,,Scotts Bluff,On-Air,Wide area,SBCEMA,Linked to Albin (147.165) and Cheyenne (146.775),,,,yes,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+224.8,-1.6,,N0AFO,Vail,CO,OPEN,,103.4,WSW,yes,08,242,39.6403,-106.374,224.8,223.2,,,,,Eagle,Off-Air,,ECHO,,,,CCARC,yes,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+449.9,-5,107.2,N0AFO,Vail,CO,OPEN,,103.4,WSW,yes,08,243,39.6403,-106.374,449.9,444.9,107.2,107.2,,,Eagle,Off-Air,,ECHO,,,,CCARC,yes,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+146.61,-0.6,107.2,K0RV,"Vail, Bald Mountain",CO,OPEN,,103.8,WSW,yes,08,256,39.6061,-106.356,146.61,146.01,107.2,,,,Eagle,On-Air,,ECHO,11,,,CCARC,yes,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+147.36,0.6,107.2,KC0CVU,"Lake George, Badger Mountain",CO,OPEN,I,104.1,SSW,yes,08,170,39.0489,-105.512,147.36,147.96,107.2,107.2,,,Park,On-Air,Wide area.,,E-power.,,3854,CCARC,yes,CMRG Repeaters,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+146.685,-0.6,107.2,NX0G,"Lake George, Badger Mountain",CO,OPEN,,104.1,SSW,yes,08,169,39.0494,-105.513,146.685,146.085,107.2,107.2,,,Park,On-Air,,Mountain ARC (MARC),"Closed autopatch, e-power.",,,CCARC,yes,,,,,,,,,,,,,,MARC/PCRC: Tue at 19:30.,,,,,,Autopatch: 911,,,,,,,"Full-time to  
+        146.82000 (NX0G) at Woodland Park, CO .
+ 
+
+
+Full-time to  
+        448.65000 (NX0G) at Woodland Park, CO .
+ 
+
+
+Full-time to  
+        447.47500 (NX0G) at Colorado Springs, CO .
+ 
+
+
+Full-time to  
+        147.01500 (NX0G) at Cripple Creek, CO .",,,,,,,,,,,,,,,,,,,,,,,,,
+224.72,-1.6,103.5,W0MOG,Colorado springs,CO,OPEN,,105.4,S,yes,08,15989,38.9,-104.8,224.72,223.12,103.5,103.5,,,El Paso,On-Air,Local,w0mog,,,,,yes,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+449.7,-5,107.2,,Lake George,CO,OPEN,,105.5,SSW,yes,08,8214,38.9797,-105.357,449.7,444.7,107.2,,,,Park,,,CMRG,,,,CCARC,yes,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Unknown,,,,,,,,,,,,,,
+147.345,0.6,88.5,KB0VJJ,Vail,CO,OPEN,,106.6,WSW,yes,08,241,39.6554,-106.457,147.345,147.945,88.5,123,,,Eagle,On-Air,Wide area: Vail Pass to Glenwood Canyon and the Flattops Wilderness to Tennessee Pass.  Map,Colorado Connection,9,,,CCARC,yes,,,,,,,,,,,,,,"Central Colorado Traffic Net: Daily at 19:3030 
+Colorado Connection Net (All Welcome):  Thu at 20:00. 
+Statewide ARES net: Sun at 20:00.",,,,,,,,,,,,,Full-time to the  Colorado Connection System .,,,,,,,,,,,,,,,,,,,,,,,,,
+445.075,-5,CC7,N0SZ,Vail,CO,OPEN,,106.9,WSW,yes,08,16781,39.6348,-106.447,445.075,440.075,,,,,Eagle,On-Air,,K2AD,,,,CCARC,yes,http://www.rmham.org/,,,,yes,7,,,,,,,,,,,,,Rocky Mountain Ham Radio,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+147.135,0.6,100,AA0L,Colorado Springs,CO,OPEN,,109.5,S,yes,08,8176,38.8397,-104.8,147.135,147.735,100,,,,El Paso,On-Air,,AA0L,6,,,CCARC,yes,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+147.27,0.6,,,Colorado Springs,CO,OPEN,,109.7,S,yes,08,46,38.8381,-104.821,147.27,147.87,,,,,El Paso,On-Air,,TRA,E-power.,,,,yes,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+146.91,-0.6,151.4,K0IRP,Colorado Springs,CO,OPEN,,109.7,S,yes,08,43,38.8381,-104.821,146.91,146.31,151.4,151.4,,,El Paso,On-Air,,GGARC,E-power.,,,CCARC,yes,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+147.39,0.6,103.5,W0MOG,Colorado Springs,CO,OPEN,,109.7,S,yes,08,48,38.8381,-104.821,147.39,147.99,103.5,,,,El Paso,On-Air,,W0MOG,,,,CCARC,yes,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+146.85,-0.6,156.7,W0RSH,Colorado Springs,CO,OPEN,,109.7,S,yes,08,42,38.8381,-104.821,146.85,146.25,156.7,,,,El Paso,On-Air,,W0RSH,,,,CCARC,yes,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+449.575,-5,,,Colorado Springs,CO,CLOSED,,110,S,yes,08,8211,38.8339,-104.821,449.575,444.575,,,,,El Paso,On-Air,,RMHARC,,,,CCARC,yes,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+448.3,-5,100,AA0L,Colorado Springs,CO,OPEN,,110,S,yes,08,8200,38.8339,-104.821,448.3,443.3,100,,,,El Paso,On-Air,,AA0L,,,,CCARC,yes,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+447.35,-5,151.4,K0IRP,Colorado Springs,CO,OPEN,,110,S,yes,08,50,38.8339,-104.821,447.35,442.35,151.4,,,,El Paso,On-Air,,GGARC,E-power.,,,CCARC,yes,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+224.06,-1.6,,KB0SRJ,Colorado Springs,CO,CLOSED,,110,S,yes,08,8182,38.8339,-104.821,224.06,222.46,,,,,El Paso,,Wide area.,Pikes Peak FM Association (PPFMA),"E-power, linked.",,,CCARC,yes,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Unknown,,,,,,,,,,,,,,
+447.025,-5,123,KF0WF,Colorado Springs,CO,OPEN,,110,S,yes,08,49,38.8339,-104.821,447.025,442.025,123,,,,El Paso,Off-Air,,Colorado Springs ARA,"Closed autopatch, e-power, linked, remote base.",,,CCARC,yes,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+448.25,-5,123,N0KG,"Colorado Springs, Broadmoor Area",CO,OPEN,,110,S,yes,08,8198,38.8339,-104.821,448.25,443.25,123,,,,El Paso,Off-Air,Colorado Springs,,,,,CCARC,yes,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+447.475,-5,107.2,NX0G,Colorado Springs,CO,OPEN,,110,S,yes,08,51,38.8339,-104.821,447.475,442.475,107.2,,,,El Paso,,,Mountain ARC (MARC),"Closed autopatch, e-power.",,,CCARC,yes,,,,,,,,,,,,,,MARC/PCRC: Tue at 1930.,,,,,,,,,,,,,"Full-time to  
+        146.68500 (NX0G) at Lake George, Badger Mountain, CO .
+ 
+
+
+Full-time to  
+        146.82000 (NX0G) at Woodland Park, CO .
+ 
+
+
+Full-time to  
+        448.65000 (NX0G) at Woodland Park, CO .
+ 
+
+
+Full-time to  
+        147.01500 (NX0G) at Cripple Creek, CO .",,,,,,,,,,,Unknown,,,,,,,,,,,,,,
+448.6,-5,114.8,W0MOG,Colorado Springs,CO,OPEN,,110,S,yes,08,55,38.8339,-104.821,448.6,443.6,114.8,,,,El Paso,,,W0MOG,,,,CCARC,yes,,,,,,,,,,,,,,,,,,,,,,,,,,,"Full-time to  
+        927.80000 (W0MOG) at Colorado Springs, CO .",,,,,,,,,,,Unknown,,,,,,,,,,,,,,
+927.8,-25,D116,W0MOG,Colorado Springs,CO,OPEN,,110,S,yes,08,3537,38.8339,-104.821,927.8,902.8,D116,,,,Teller,On-Air,,,6,,,CCARC,yes,,,,,,,,,,,,,,,,,,,,,,,,,,,"Full-time to  
+        448.60000 (W0MOG) at Colorado Springs, CO .",,,,,,,,,,,,,,,,,,,,,,,,,
+447.55,-5,123,WA6IFI,Colorado Springs,CO,OPEN,,110,S,yes,08,8191,38.8339,-104.821,447.55,442.55,123,,,,El Paso,On-Air,,WA6IFI,,,,CCARC,yes,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+146.97,-0.6,100,KB0SRJ,"Colorado Springs, Pikes Peak",CO,OPEN,,110.8,S,yes,08,44,38.8405,-105.043,146.97,146.37,100,123,,,El Paso,On-Air,"Wide area. line-of-sight coverage to pretty much the entire prairie of Colorado, from the mountains eastward to Kansas, with signal as far as New Mexico and Wyoming depending on where you are.",Pikes Peak FM Assoc,"Closed autopatch, e-power.",,,CCARC,yes,PPFMA Repeaters,,,,,,,,,,,,,"Southern Colorado Traffic: Daily at 2000. 
+Midday Severe Weather: Daily 1230 - 1240. 
+PPFMA Weekly Info: Sun at 2030. 
+ARES: Tue at 1900. 
+SKYWARN.",,,,,,,,,,,,,"Linkable to  
+        448.45000 (KB0SRJ) at Colorado Springs, Pikes Peak, CO .",,,,,,,,,,,,,,,,,,,,,,,,,
+448.45,-5,100,KB0SRJ,"Colorado Springs, Pikes Peak",CO,OPEN,,110.8,S,yes,08,54,38.8406,-105.043,448.45,443.45,100,,,,El Paso,On-Air,Wide area.,Pikes Pk FM Assoc,E-power.,,,CCARC,yes,PPFMA Repeaters,,,,,,,,,,,,,,,,,,,,,,,,,,"Linkable to  
+        146.97000 (KB0SRJ) at Colorado Springs, Pikes Peak, CO .",,,,,,,,,,,,,,,,,,,,,,,,,
+145.445,-0.6,88.5,KB0VJJ,"Leadville, Mosquito Pass",CO,OPEN,,111.2,SW,yes,08,172,39.2814,-106.186,145.445,144.845,88.5,,,,Lake,On-Air,,Colorado Connection,E-power (solar).,,,CCARC,yes,,,,,,,,,,,,,,"Central Colorado Traffic Net: Daily at 19:30. 
+Colorado Connection Net (all welcome): Thu at 20:00. 
+Statewide ARES: Sun at 20:00.",,,,,,,"At 13,685;, it is one of the highest 2-meter repeaters in North America.",,,,,,Full-time to the  Colorado Connection System .,,,,,,,,,,,,,,,,,,,,,,,,,
+447.125,-5,103.5,KC0UFO,"Fairplay, Sacramento Mountain",CO,OPEN,,111.2,SW,yes,08,5336,39.21,-106.087,447.125,442.125,103.5,103.5,,,Park,On-Air,"Covers Fairplay, Alma, and western South Park.",KC0UFO,Emergency automatic generator.,,,CCARC,yes,,,,,,,,,,,,,,"When connected to AB0PC - Bailey: ARES Mon 19:00, Park County Radio Club Wed 19:30.",,,,,"Park County Radio Club, AB0PC",,"Normally linked via Allstar to 45835 - AB0PC, Bailey, CO.",,,,,,,DM69wf,,,,,,,,,,,,,,,,,,,,,,,,
+147.21,0.6,107.2,KD0H,Steamboat Springs,CO,OPEN,,111.6,W,yes,08,237,40.485,-106.831,147.21,147.81,107.2,107.2,,,Routt,On-Air,,SSARC,"Linked, WX.",,,CCARC,yes,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+147.165,0.6,88.5,KB0VJJ,Steamboat Springs,CO,OPEN,,111.7,W,yes,08,15579,40.485,-106.832,147.165,147.765,88.5,123,,,Routt,On-Air,,Colorado Connection,,,,,yes,,,,,,,,,,,,,,,,,,,,,,,,,,,Full-time to the  Colorado Connection System .,,,,,,,,,,,,,,,,,,,,,,,,,
+449.625,-5,123,KB0VJJ,Steamboat Springs,CO,OPEN,,111.7,W,yes,08,9770,40.485,-106.832,449.625,444.625,123,123,,,Routt,On-Air,Local Steamboat Area,"Colorado Connection Repeaters, Inc.",Statewide Linked System,,,,yes,http://colcon.org,,,,,,,,,,,,,"Central Colorado Traffic Net: Daily at 19:30. 
+Colorado Connection Net: Thu at 20:00 (All welcome).  
+Statewide ARES Net: Sundays at 20:00.",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+445.05,-5,CC7,N0SZ,"Leadville, Mosquito Pass",CO,OPEN,,111.8,SW,yes,08,16783,39.2653,-106.182,445.05,440.05,,,,,Lake,On-Air,,K2AD,,,,CCARC,yes,http://www.rmham.org/,,,,yes,7,,"Open Talkgroup View 
+
+
+ 
+   
+    
+     Assignment 
+     TS 
+     TG 
+     Access 
+   
+
+  Southern Colorado  2  719  Full-Time    Central Regional  2  720  Full-Time    Northern Colorado Regional  2  721  Full-Time  
+  
+ 
+ 
+function myFunction(id) {
+    var x = document.getElementById(id);
+    if (x.className.indexOf(""w3-show"") == -1) {
+        x.className += "" w3-show"";
+    } else {
+        x.className = x.className.replace("" w3-show"", """");
+    }
+}",,,,,,,RMHAM,,,,Rocky Mountain Ham Radio,,,,,,,2,,,,,,,,,,,,,,,,2,2,,,,,,,,,
+446.7625,-5,CC0,N0SZ,"Fairplay, Badger",CO,OPEN,,113.3,SSW,yes,08,12698,39.0469,-105.87,446.7625,441.7625,,,,,Park,On-Air,,K7PFJ,,,,,yes,,,,,yes,0,,"Open Talkgroup View 
+
+
+ 
+   
+    
+     Assignment 
+     TS 
+     TG 
+     Access 
+   
+
+  Rocky Mountain Wide  1  700      Central Regional  2  720    
+  
+ 
+ 
+function myFunction(id) {
+    var x = document.getElementById(id);
+    if (x.className.indexOf(""w3-show"") == -1) {
+        x.className += "" w3-show"";
+    } else {
+        x.className = x.className.replace("" w3-show"", """");
+    }
+}",,,,,,,,,,,RMHAM,,,,,,1,,,,,,,,,,,,,,,,,,2,,,,,,,,,
+224.68,-1.6,,AE7AF,Wheatland,WY,OPEN,,113.4,N,yes,56,15538,42.0544,-104.953,224.68,223.08,,,,,Platte,On-Air,,,,,,,yes,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+146.88,-0.6,100,WA7SNU,Wheatland,WY,OPEN,,113.4,N,yes,56,47,42.0544,-104.952,146.88,146.28,100,100,,,Platte,On-Air,,GPARA,,,,WRCG,yes,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+449.625,-5,151.4,WA7SNU,Wheatland,WY,OPEN,,113.4,N,yes,56,16476,42.0544,-104.953,449.625,444.625,151.4,,,,Platte,On-Air,,,,,,,yes,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+448.725,-5,123,KA0TTF,"Colorado Springs, Fillmore Hill",CO,OPEN,,113.8,S,yes,08,56,38.78,-104.85,448.725,443.725,123,,,,El Paso,On-Air,,KA0TTF,,,,CCARC,yes,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+444.825,5,,W0KAV,Scottsbluff,NE,OPEN,,114.8,NNE,yes,31,111,41.8871,-103.664,444.825,449.825,,,,,Scotts Bluff,On-Air,,W0KAV/KW0R,"Autopatch, e-power.",,,,yes,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+145.475,-0.6,CSQ,WD0BQM,Scottsbluff,NE,OPEN,,114.8,NNE,yes,31,57,41.8871,-103.664,145.475,144.875,CSQ,CSQ,,,Scotts Bluff,On-Air,,RWMC,e-power.,,,,yes,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+447,-5,103.5,KC0VJD,Hugo,CO,OPEN,W,114.9,SE,yes,08,17059,39.0542,-103.48,447,442,103.5,,yes,Open ↑ / Open ↓,Lincoln,On-Air,"I-70, US-71, US-287, US-40, US-24, Hugo, Limon, Genoa, Punkin Center, Arriba.",Delbert Noakes (KC0VJD),APRS repeater &amp; I-Gate / Weather station,Yes; analog capable.,,,yes,,,,,,,,,,,,,,,,,,,,,,,,,,,,DM89gb,,,,,,,,,30534,,,,,,,,,,,,,,,
+446.95,-5,CC7,K7PFJ,"Colorado Springs, Almagre Mountain",CO,OPEN,,115,S,yes,08,5220,38.7726,-104.993,446.95,441.95,,,,,Teller,On-Air,Monument Hill through Pueblo.,Rocky Mountain Ham Radio,,,,,yes,,,,,yes,7,,"Open Talkgroup View 
+
+
+ 
+   
+    
+     Assignment 
+     TS 
+     TG 
+     Access 
+   
+
+  Rocky Mountain Wide  1  700      Southern Colorado  2  719    
+  
+ 
+ 
+function myFunction(id) {
+    var x = document.getElementById(id);
+    if (x.className.indexOf(""w3-show"") == -1) {
+        x.className += "" w3-show"";
+    } else {
+        x.className = x.className.replace("" w3-show"", """");
+    }
+}",,,,,,,,,,,RMHAM,,,,,,1,,"Full-time to  
+        446.98750 (N0SZ) at Boulder, Lee Hill, CO .",,,,,,,,,,,,,,,2,,,,,,,,,,
+927.725,-25.7,D114,WA6IFI,"Colorado Springs, Almagre Mountain",CO,OPEN,,115,S,yes,08,58,38.7726,-104.993,927.725,902.025,,,,,Teller,On-Air,"Wide area: Along I-25 from Raton Pass to Pueblo, really solid from Pueblo through Colorado Springs, to Castle Rock, Now we are linked to Centennial Cone 927.8375 &amp; Chief Mtn 927.9375 in the Denver area.",WA6IFI,12,,,CCARC,yes,Yahoo Group,,,,,,,,,,,,,,,,,,,,,,,,,,"Full-time to  
+        449.42500 (N0ZUQ) at Fort Collins, Christ Mountain, CO .
+ 
+
+
+Full-time to  
+        927.87500 (N0ZUQ) at Fort Collins, Christ Mountain, CO .",,,,,,,,,,,,yes,293,yes,,,,,,,,,,,
+147.18,0.6,100,AA0SP,"Colorado Springs, Almagre Mountain",CO,PRIVATE,,115.1,S,yes,08,8178,38.7725,-104.993,147.18,147.78,100,,,,El Paso,On-Air,"Located on South Almagre Mountain at 12,367 feet, it provides excellent coverage of nearly all of El Paso County and points east, along with coverage extending south past Pueblo. Locations very close in to the Front Range, or in the shadow of Cheyenne Mountain are not covered well. Since this peak is shorter than Pikes Peak its coverage to the north is not as good as Pikes Peak, although there are points northeast of Colorado Springs where there is coverage.",AA0SP,E-power (solar).,,,CCARC,yes,,,,,,,,,,,,,,,,,,,,,This repeater is available for public service oriented communications with prior coordination. Contact Mike Proctor KB0IAP to coordinate its use.,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+145.235,-0.6,CC7,N0SZ,"Colorado Springs, Almagre Mountain",CO,OPEN,,115.1,S,yes,08,17250,38.772,-104.993,145.235,144.635,,,,,El Paso,On-Air,Wide area,RMHAM,,,,CCARC,yes,Rocky Mountain Ham Radio,,,,yes,7,,"Open Talkgroup View 
+
+
+ 
+   
+    
+     Assignment 
+     TS 
+     TG 
+     Access 
+   
+
+  Rocky Mountain Wide  1  700      Eastern Colorado  2  705    
+  
+ 
+ 
+function myFunction(id) {
+    var x = document.getElementById(id);
+    if (x.className.indexOf(""w3-show"") == -1) {
+        x.className += "" w3-show"";
+    } else {
+        x.className = x.className.replace("" w3-show"", """");
+    }
+}",,,,,,,,,,,,,Voice ID is required for data/GPS/text on TG 705,,,,1,,,,,,,,,,,,,,,,,,,,,,,,,,2,
+445.1,0,100,WD0BQM,Mitchell,NE,OPEN,I,115.7,NNE,yes,31,11356,41.951,-103.8,445.1,445.1,100,100,,,Scotts Bluff,On-Air,,,,,3942,,yes,,,,,,,,,,,,,,,,,,,,,This is a simplex IRLP node.,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+145.13,-0.6,88.5,KB0VJJ,"Colorado Springs, Cheyenne Mountain",CO,OPEN,,116.2,S,yes,08,37,38.7452,-104.862,145.13,144.53,88.5,123,,,El Paso,On-Air,Wide area: South toward Pueblo and north to Monument. Decent coverage to the east. Little coverage to the west.,Colorado Connection,9,,,CCARC,yes,,,,,,,,,,,,,,"Colorado Traffic Net: Daily at 19:00. 
+Colorado Connection Net (all welcome): Thu at 20:00. 
+Statewide ARES: Sun at 20:00. 
+Colorado Preparedness Net: Sat at 09:30",,,,,,,Linked into the Colorado Connection System,,,,,,Full-time to the  Colorado Connection System .,,,,,,,,,Listen Live,,,,,,,,,,,,,,,,
+446.9125,-5,,KC0CVU,"Colorado Springs, Cheyenne Mountain",CO,OPEN,,116.2,S,yes,08,8087,38.7451,-104.862,446.9125,441.9125,,,,,El Paso,Off-Air,,Cheyenne Mountain Repeater Group (CMRG),,,,,yes,,yes,KC0CVU (B) Repeater,"jfindu lookup 
+    /   dstar-users lookup",,,,,,,,,,,,,,,,,This DStar repeater is up but not truly functional. It serves as a local repeater presently as it is not connected to the internet for now.,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+927.85,-25,D114,KC0CVU,"Colorado Springs, Cheyenne Mountain",CO,OPEN,,116.2,S,yes,08,7171,38.745,-104.862,927.85,902.85,D114,,,,Teller,On-Air,,CMRG,9,,,CCARC,yes,http://www.cmrg.org,,,,,,,,,,,,,,,,,,,,,,,,,,"Full-time to  
+        147.34500 (KC0CVU) at Colorado Springs, Cheyenne Mountain, CO .
+ 
+
+
+Full-time to  
+        448.10000 (KC0CVU) at Colorado Springs, Cheyenne Mountain, CO .",,,,,,,,,,,,,,,,,,,,,,,,,
+445.0625,-5,CC1,N0SZ,"Colorado Springs, Cheyenne Mountain",CO,OPEN,,116.2,S,yes,08,12355,38.7451,-104.862,445.0625,440.0625,,,,,El Paso,Off-Air,,Rocky Mountain Ham Radio,The DMR-MARC Worldwide Network,,,CCARC,yes,,,,,yes,1,,"Open Talkgroup View 
+
+
+ 
+   
+    
+     Assignment 
+     TS 
+     TG 
+     Access 
+   
+
+  Worldwide  1  1      North America  1  3      Local/Cluster  2  2    
+  
+ 
+ 
+function myFunction(id) {
+    var x = document.getElementById(id);
+    if (x.className.indexOf(""w3-show"") == -1) {
+        x.className += "" w3-show"";
+    } else {
+        x.className = x.className.replace("" w3-show"", """");
+    }
+}",,,,,2,,,,1,,,,,,1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+53.13,-1.7,107.2,WA6IFI,"Colorado Springs, Cheyenne Mountain",CO,OPEN,,116.2,S,yes,08,8158,38.745,-104.862,53.13,51.43,107.2,107.2,,,El Paso,On-Air,,Cheyenne Mountain Repeater Group (CMRG),,,,CCARC,yes,http://www.cmrg.org,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+145.375,-0.6,,KC0CVU,"Colorado Springs, Cheyenne Mountain",CO,OPEN,,116.3,S,yes,08,8088,38.7445,-104.862,145.375,144.77,,,,,El Paso,Off-Air,wide area,Cheyenne Mountain Repeater Group (CMRG),,,,CCARC,yes,http://www.cmrg.org,yes,KC0CVU (C) Repeater,"jfindu lookup 
+    /   dstar-users lookup",,,,,,,,,,,,,,,,,Repeater off air for now.,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+448.325,-5,151.4,KD7JNQ,Torrington,WY,OPEN,,116.5,NNE,yes,56,17395,42.0625,-104.184,448.325,443.325,151.4,CSQ,,,Goshen,,,,,,,,yes,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Unknown,,,,,,,,,,,,,,
+147.24,0.6,156.7,N0ZSN,"Leadville, Quail Mountain",CO,OPEN,,116.7,SW,yes,08,10827,39.2508,-106.293,147.24,147.84,156.7,156.7,,,Lake,Off-Air,,,,,,CCARC,yes,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+146.76,-0.6,107.2,KC0CVU,"Colorado Springs, Cheyenne Mountain",CO,OPEN,,116.9,S,yes,08,41,38.7372,-104.881,146.76,146.16,107.2,107.2,,,El Paso,On-Air,,Cheyenne Mountain Repeater Group,"Closed autopatch, e-power.",,,CCARC,yes,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+147.345,0.6,107.2,KC0CVU,"Colorado Springs, Cheyenne Mountain",CO,OPEN,I,116.9,S,yes,08,47,38.7372,-104.88,147.345,147.945,107.2,107.2,,,El Paso,On-Air,Wide area.,,"Closed autopatch, e-power.",,3854,CCARC,yes,http://www.cmrg.org/,,,,,,,,,,,,,,,,,,,,,,,,,,"Full-time to  
+        927.85000 (KC0CVU) at Colorado Springs, Cheyenne Mountain, CO .
+ 
+
+
+Full-time to the  Cheyenne Mtn Repeater Group System .",,,,,,,,,,,,,,,,,,,,,,,,,
+448,-5,107.2,KC0CVU,"Colorado Springs, Cheyenne Mountain",CO,OPEN,,116.9,S,yes,08,269,38.7372,-104.881,448,443,107.2,,,,El Paso,On-Air,,,,,,CCARC,yes,CMRG Repeaters,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+448.1,-5,107.2,KC0CVU,"Colorado Springs, Cheyenne Mountain",CO,OPEN,,116.9,S,yes,08,53,38.7372,-104.881,448.1,443.1,107.2,107.2,,,El Paso,On-Air,Wide area.,,"Closed autopatch, e-power.",,,CCARC,yes,CMRG Repeaters,,,,,,,,,,,,,,,,,,,,,,,,,,"Full-time to  
+        927.85000 (KC0CVU) at Colorado Springs, Cheyenne Mountain, CO .",,,,,,,,,,,,,,,,,,,,,,,,,
+145.16,-0.6,107.2,W0CRA,"Colorado Springs, Cheyenne Mountain",CO,OPEN,EI,116.9,S,yes,08,38,38.7372,-104.88,145.16,144.56,107.2,107.2,,,El Paso,On-Air,"Wide area: Colorado Springs, Pueblo, and other areas of southeast and south central Colorado.",Colorado Repeater Association,"Closed autopatch, e-power.",,3990,CCARC,yes,http://www.w0cra.org/info/cosprgs.html#145160,,,,,,,,,,,,,,,,,,CRA VHF Link System,,Switch to this repeater at mile marker 170 on I-25.,347086,,,,,"Full-time to  
+        145.46000 (W0CRA) at Boulder, Eldorado Mountain, CO .
+ 
+
+
+Full-time to  
+        147.22500 (W0CRA) at Larkspur, Westcreek, CO .",,,,,,,,,,,,,,,,,,,,,,,,,
+147.075,0.6,,N0NEB,Scottsbluff,NE,OPEN,,118.3,NNE,yes,31,59,41.9406,-103.656,147.075,147.675,,,,,Scotts Bluff,On-Air,,Tri-City Radio Amateur Club,,,,,yes,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+146.445,0,88.5,AG0N,Scottsbluff,NE,OPEN,I,118.5,NNE,yes,31,11355,41.904,-103.558,146.445,146.445,88.5,88.5,,,Scotts Bluff,On-Air,,,,,3055,,yes,http://garymcduffie.com,,,,,,,,,,,,,,,,,,,Access pre-fix = 5,This is a simplex IRLP node. 147.285 rptr is down. 3055 is directly accessed on 146.445 w/88.5 tone. Controlled access. Contact AG0N for access. 147.435/123PL Scottsbluff node 8930 available 24/7 no access code.,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+147.015,0.6,107.2,NX0G,Cripple Creek,CO,OPEN,,118.5,SSW,yes,08,65,38.7466,-105.178,147.015,147.615,107.2,,,,Teller,On-Air,,Mountain ARC,E-power.,,,CCARC,yes,,,,,,,,,,,,,,MARC/PCRC: Tue at 19:30.,,,,,,,,,,,,,"Full-time to  
+        146.68500 (NX0G) at Lake George, Badger Mountain, CO .
+ 
+
+
+Full-time to  
+        146.82000 (NX0G) at Woodland Park, CO .
+ 
+
+
+Full-time to  
+        448.65000 (NX0G) at Woodland Park, CO .
+ 
+
+
+Full-time to  
+        447.47500 (NX0G) at Colorado Springs, CO .",,,,,,,,,,,,,,,,,,,,,,,,,
+1287.7,-20,67,WB0WDF,Cripple Creek,CO,OPEN,,118.5,SSW,yes,08,67,38.7466,-105.178,1287.7,1267.7,67,,,,Teller,Testing,,WB0WDF,,,,CCARC,yes,,,,,,,,,,,,,,,,,,,,,Testing in Canon City,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+145.46,-0.6,67,WB0WDF,Cripple Creek,CO,OPEN,,118.5,SSW,yes,08,64,38.7466,-105.178,145.46,144.86,67,,,,Teller,On-Air,,WB0WDF,"E-power, 100% Solar",,,CCARC,yes,,,,,,,,,,,,,,,,,,,RGARC,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+224.94,-1.6,67,WB0WDF,Cripple Creek,CO,OPEN,,118.5,SSW,yes,08,7203,38.7466,-105.178,224.94,223.34,67,,,,Teller,Testing,,,,,,CCARC,yes,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+447.4,-5,67,WB0WDF,Cripple Creek,CO,OPEN,,118.5,SSW,yes,08,66,38.7467,-105.178,447.4,442.4,67,,,,Teller,On-Air,,WB0WDF,"E-power, Solar, Remote Base",,,CCARC,yes,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+145.265,-0.6,100,KB0SRJ,Colorado Springs,CO,OPEN,,119.5,S,yes,08,39,38.7,-104.9,145.265,144.665,100,100,yes,Open ↑ / Open ↓,El Paso,On-Air,Local. Good coverage of I25 in Colorado Springs.,Pikes Peak FM Association,"Closed autopatch, e-power.",Yes; analog capable.,,CCARC,yes,PPFMA Repeaters,,,,,,,,,,,,,,,,,,,,Repeater has been moved.,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+448.8,-5,100,KB0SRJ,"Colorado Springs, UCCS",CO,OPEN,,119.5,S,yes,08,57,38.7,-104.9,448.8,443.8,100,100,yes,Open ↑ / Open ↓,El Paso,Off-Air,,Pikes Peak FM Assoc,,Yes; analog capable.,,CCARC,yes,PPFMA Repeaters,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+449.9,-5,107.2,N1FSX,Punkin Center,CO,OPEN,,121.1,SSE,yes,08,7395,38.852,-103.7,449.9,444.9,107.2,,,,Lincoln,On-Air,,,,,,CCARC,yes,,,,,,,,,,,,,,,,,,,BSAR,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+448.575,-5,103.5,WZ0N,Hartsel,CO,OPEN,,124.7,SSW,yes,08,9840,38.8833,-105.933,448.575,443.575,103.5,103.5,,,Park,Off-Air,Western Park County,,,,,CCARC,yes,,,,,,,,,,,,,,,,,,,,,,,,,,,"Full-time internet linked to  
+        146.89500 (AB0PC) at Bailey, Dick Mountain, CO .",,,,,,,,,,,,,,,,,,,,,,,,,
+147.24,0.6,100,N7GCR,"Rawlins, Elk Mountain",WY,OPEN,,126.3,NW,yes,56,29,41.6333,-106.526,147.24,147.84,100,,,,Carbon,On-Air,Wide area.,CCARS,,,,WRCG,yes,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+146.955,-0.6,,N0JUN,Holyoke,CO,OPEN,,126.9,ESE,yes,08,163,40.5844,-102.302,146.955,146.355,,,,,Phillips,,,PCARC,E-power.,,,CCARC,yes,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Unknown,,,,,,,,,,,,,,
+449,-5,67,WB0WDF,"Canon City, eightmile Mountain",CO,OPEN,,134.6,SSW,yes,08,33,38.5386,-105.349,449,444,67,67,,,Fremont,On-Air,,WB0WDF,"E-power (Solar, Wind)",,,CCARC,yes,Mega Link,,,,,,,,,,,,,,,,,,,,North of the Royal Gorge Bridge.,,,,,,Full-time to the  Mega-Link System .,,,,,,,,,,,,,,,,,,,,,,,,,
+146.895,-0.6,103.5,KE0AE,Stratton,CO,OPEN,E,135.8,SE,yes,08,122,39.3033,-102.605,146.895,146.295,103.5,,,,Kit Carson,On-Air,,Big Sandy ARC,,,,CCARC,yes,,,,,,,,,,,,,,,,,,,,,,830619,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+449.975,-5,100,K0JSC,"Canon City, Canon City",CO,OPEN,,138.9,S,yes,08,13949,38.4488,-105.195,449.975,444.975,100,100,,,Fremont,On-Air,,K0JSC,Simulcast TX / Voted RX with Cedarwood and Salida,,,CCARC,yes,http://www.k0jsc.com,,,,,,,,,,,,,,,,,,The Fun Machine,,,,,,,,Full-time to the  The Fun Machine System .,,,,,,,,,,,,,,,,,,,,,,,,,
+446.7375,-5,CC7,K0JSC,"Canon City, Fremont Peak",CO,OPEN,,139.5,SSW,yes,08,7184,38.4542,-105.29,446.7375,441.7375,,,,,Fremont,On-Air,"Fremont county and state wide on Talk Slot 2.  40 mi radius. 
+   Repeater Coverage Map",,IPSC Link to the Colorado network on Talk Slot 2.,,,CCARC,yes,http://www.k0jsc.com,,,,yes,7,,"Open Talkgroup View 
+
+
+ 
+   
+    
+     Assignment 
+     TS 
+     TG 
+     Access 
+   
+
+  Rocky Mountain Wide  1  700      Southern Colorado  2  719    
+  
+ 
+ 
+function myFunction(id) {
+    var x = document.getElementById(id);
+    if (x.className.indexOf(""w3-show"") == -1) {
+        x.className += "" w3-show"";
+    } else {
+        x.className = x.className.replace("" w3-show"", """");
+    }
+}",,,,,,,,,,,Rocky Mountain Ham Radio,,Talk Slot 2 linked to the RMHAM trbo system/Talk Slot 1 Local.,,,,1,,Full-time to the  Colorado TRBO System .,DM78ii,,,,,,,,,,,,,,2,,,,,,,,,,yes
+447.25,-5,100,K0JSC,"Canon City, Fremont Peak",CO,OPEN,EIA,139.5,SSW,yes,08,8879,38.4542,-105.29,447.25,442.25,100,100,,,Fremont,On-Air,"Wide from Custer County to Park County and Chaffee County to Pueblo County. 
+   Repeater Coverage Map",,,,7301,CCARC,yes,K0JSC dot Com,,,,,,,,,,,,,"Region 2 District 2 ARES Net: Tue at 19:00. 
+EOSS Net: Tue at 20:00. 
+RGARC Net: Wed at 19:00. 
+Region 5 District 1 ARES Net: Wed at 19:30. 
+APRS Net: Sun at 19:00. 
+Region 5 District 2 ARES Net: Sun at 19:30. 
+Statewide ARES Net: Sun at 20:00.",,,,,,,,363976,,,,,Full-time to the  The Fun Machine System .,DM78ik,,,,,,,28368,Listen Live,,,,,,,,,,,,,,,,yes
+927.7,-25,D114,KB0TUC,"Canon City, Fremont Peak",CO,OPEN,,139.5,SSW,yes,08,278,38.4539,-105.286,927.7,902.7,D114,D114,,,Fremont,On-Air,,Royal Gorge ARC,,,,CCARC,yes,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+53.03,-1.7,88.5,WB0WDF,"Canon City, Fremont Peak",CO,OPEN,,139.5,SSW,yes,08,29,38.4542,-105.29,53.03,51.33,88.5,88.5,,,Fremont,On-Air,,WB0WDF,"E-power (Bat). Split Site; TX Fremont Peak, RX 8 Mile Mountain",,,CCARC,yes,Http://www.qsl.net/rghc,,,,,,,,,,,,,,,,,,RGARC,,Split site Fremont peak transmitter and 8 mile mountain reciever.,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+145.49,-0.6,103.5,WD0EKR,"Canon City, Fremont Peak",CO,OPEN,,139.5,SSW,yes,08,30,38.4542,-105.29,145.49,144.89,103.5,103.5,,,Fremont,On-Air,,Royal Gorge Amateur Radio Club,E-power (Bat),,,CCARC,yes,Royal Gorge Amateur Radio Club,,,,,,,,,,,,,"RGARC Net: Wed at 19:00. 
+ARES Net: Wed at 19:30.",,,,,Colorado ARES Region 5 District 1,,,,,,,,,DM78ik,,,,,,,,,,,,,,,,,,,,,,,,yes
+223.96,-1.6,103.5,WD0EKR,"Canon City, Fremont Peak",CO,OPEN,,139.5,SSW,yes,08,31,38.4542,-105.29,223.96,222.36,103.5,103.5,,,Fremont,On-Air,"Wide area. 
+   Repeater Coverage Map",RGARC,"E-power (Bat), Remote Base",,,CCARC,yes,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,yes
+447.75,-5,103.5,WD0EKR,"Canon City, Fremont Peak",CO,OPEN,I,139.5,SSW,yes,08,32,38.4542,-105.29,447.75,442.75,103.5,103.5,,,Fremont,On-Air,,RGARC,E-power (Bat),,3081,CCARC,yes,Royal Gorge Amateur Radio Club,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,yes
+447.975,-5,100,K0JSC,"Canon City, Colorado",CO,OPEN,EIA,140.5,SSW,yes,08,7185,38.4301,-105.232,447.975,442.975,100,100,,,Fremont,On-Air,"Canon City area. 
+   Repeater Coverage Map",K0JSC,Autopatch.,,7301,CCARC,yes,http://www.k0jsc.com,,,,,,,,,,,,,"Region 2 District 2 ARES Net: Tue at 19:00. 
+EOSS Net: Tue at 20:00. 
+RGARC Net: Wed at 19:00. 
+Region 5 District 1 ARES Net: Wed at 19:30. 
+APRS Net: Sun at 19:00. 
+Region 5 District 2 ARES Net: Sun at 19:30. 
+Statewide ARES Net: Sun at 20:00.",,,,,,,,363976,,,,,Full-time to the  The Fun Machine System .,,,,,,,,28368,Listen Live,,,,,,,,,,,,,,,,
+146.79,-0.6,88.5,ND0Q,"Pueblo, Baculite Mesa",CO,OPEN,,140.6,S,yes,08,193,38.3925,-104.555,146.79,146.19,88.5,CSQ,,,Pueblo,On-Air,Wide area.,Pueblo HC,E-power.,,,CCARC,yes,Pueblo Ham Club,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+224.26,-1.6,88.5,ND0Q,"Pueblo, Baculite Mesa",CO,OPEN,,140.6,S,yes,08,195,38.3925,-104.555,224.26,222.66,88.5,CSQ,,,Pueblo,Off-Air,Wide area.,Pueblo Ham Club,E-power.,,,CCARC,yes,PHC repeaters,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+447.95,-5,88.5,ND0Q,Pueblo,CO,OPEN,,140.6,S,yes,08,198,38.3925,-104.555,447.95,442.95,88.5,,,,Pueblo,On-Air,Wide area.,Pueblo Ham Club,E-power.,,,CCARC,yes,Pueblo Ham Club,,,,,,,,,,,,,,,,,,,,Dual Mode Analog/DMR DMR is unlinked/stand alone for ARES.,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+447.05,-5,136.5,K0VQ,"Aspen, Aspen Mountain",CO,OPEN,,141.7,SW,yes,08,260,39.1761,-106.829,447.05,442.05,136.5,136.5,,,Pitkin,On-Air,Aspen-Snowmass areas.,Roaring Fork Amateur Repeater Cooperative,,,,CCARC,yes,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+146.745,-0.6,100,W0LSD,Nathrop,CO,OPEN,,142.4,SW,yes,08,184,38.7129,-106.2,146.745,146.145,100,,,,Chaffee,Off-Air,,CLARA,E-power.,,,CCARC,yes,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+447.15,-5,136.5,K0VQ,"Carbondale, Missouri Heights",CO,OPEN,E,144.1,WSW,yes,08,6009,39.4247,-107.097,447.15,442.15,136.5,,,,Garfield,On-Air,,,,,,,yes,,,,,,,,,,,,,,,,,,,,,"Please contact Tracy, K0VQ, by email or on-the-air prior to attempting to use this node to obtain codes for specific questions and to make sure that proper protocol is followed. Please DO NOT just key up and start issuing DTMF codes, connecting to reflectors, etc., without guidance.",8150,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+146.67,-0.6,107.2,K0CL,Snowmass Village,CO,OPEN,,144.8,SW,yes,08,211,39.2131,-106.937,146.67,146.07,107.2,,,,Pitkin,On-Air,Wide area.,Ski Country ARC,Linked.,,,CCARC,yes,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+147,0.6,,NE0Z,"Pueblo, CSU",CO,PRIVATE,,146.3,S,yes,08,8173,38.3069,-104.62,147,147.6,,,,,Pueblo,On-Air,,Carl Higbee,,,,CCARC,yes,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+448.975,-5,100,K0JSC,Pueblo West,CO,OPEN,EIA,146.5,S,yes,08,7994,38.303,-104.734,448.975,443.975,100,100,,,Pueblo,On-Air,,,,,7301,CCARC,yes,http://www.k0jsc.com,,,,,,,,,,,,,,,,,,,,Off air.  Will return to service,363976,,,,,Full-time to the  The Fun Machine System .,,,,,,,,28368,Listen Live,,,,,,,,,,,,,,,,
+446.975,-5,,KD0QPG,"Salida, Methodist Mountain",CO,OPEN,,147.5,SSW,yes,08,9844,38.5347,-105.999,446.975,441.975,,,,,Chaffee,On-Air,,Crestone Amateur Radio Emergency Services,,,,CCARC,yes,KD0QPG,yes,KD0QPG (B) Gateway Repeater,"jfindu lookup 
+    /   dstar-users lookup",,,,,,,,,,,,,,,Crestone Amateur Radio Emergency Services,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+446.8125,-5,CC0,N0SZ,"Salida, Methodist Mountain",CO,OPEN,,147.5,SSW,yes,08,12697,38.5347,-105.999,446.8125,441.8125,,,,,Chaffee,On-Air,,RMHAM,,,,,yes,,,,,yes,0,,"Open Talkgroup View 
+
+
+ 
+   
+    
+     Assignment 
+     TS 
+     TG 
+     Access 
+   
+
+  Rocky Mountain Wide  1  700      Southern Colorado  2  719    
+  
+ 
+ 
+function myFunction(id) {
+    var x = document.getElementById(id);
+    if (x.className.indexOf(""w3-show"") == -1) {
+        x.className += "" w3-show"";
+    } else {
+        x.className = x.className.replace("" w3-show"", """");
+    }
+}",,,,,,,,,,,,,,,,,1,,,,,,,,,,,,,,,,,2,,,,,,,,,,
+146.97,-0.6,88.5,KB0VJJ,Craig,CO,OPEN,,149.2,W,yes,08,15577,40.5152,-107.546,146.97,146.37,88.5,123,,,Moffat,On-Air,,Northwest Colorado Amateur Radio Association,,,,CCARC,yes,,,,,,,,,,,,,,,,,,,Colorado Connection,,,,,,,,Full-time to the  Colorado Connection System .,,,,,,,,,,,,,,,,,,,,,,,,,
+145.265,-0.6,107.2,WD0HAM,Craig,CO,OPEN,,149.2,W,yes,08,3740,40.5152,-107.546,145.265,144.665,107.2,,,,Moffat,,,NW Colorado ARC,E-power.,,,CCARC,yes,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Unknown,,,,,,,,,,,,,,
+147.015,0.6,,N2VHZ,Alliance,NE,OPEN,E,149.8,NE,yes,31,10450,42.093,-102.87,147.015,147.615,,,,,Box Butte,On-Air,Local.,N2VHZ,,,,,yes,,,,,,,,,,,,,,,,,,,,,,775183,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+146.655,-0.6,123,K0ST,"Pueblo, Pueblo",CO,OPEN,,150,S,yes,08,192,38.2544,-104.609,146.655,146.055,123,CSQ,,,Pueblo,On-Air,,K0ST,,,,CCARC,yes,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+447.7,-5,CC0 210.7,KF0KR,"Pueblo, Pueblo",CO,PRIVATE,IA,150,S,yes,08,8530,38.2544,-104.609,447.7,442.7,210.7,210.7,,,Pueblo,Off-Air,,,,Yes; analog capable.,7389,CCARC,yes,,,,,yes,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,29228,,,,,,,,,,,,,,,,,
+449.725,-5,100,N0PWZ,Palmer Divide,CO,OPEN,I,150,S,yes,08,189,38.2544,-104.609,449.725,444.725,100,,,,El Paso,On-Air,,N0PWZ,,,3043,CCARC,yes,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+145.115,-0.6,88.5,ND0Q,Pueblo,CO,OPEN,,150,S,yes,08,191,38.2544,-104.609,145.115,144.515,88.5,,,,Pueblo,Off-Air,,Pueblo Ham Club,E-power.,,,CCARC,yes,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+146.88,-0.6,88.5,ND0Q,"Pueblo, Deer Peak",CO,OPEN,,150,S,yes,08,194,38.2544,-104.609,146.88,146.28,88.5,CSQ,,,Pueblo,On-Air,Wide area.,Pueblo HC,E-power.,,,CCARC,yes,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+147.3,0.6,107.2,K0VQ,"Glenwood Springs, Three Mile Ridge",CO,OPEN,E,151,WSW,yes,08,131,39.5506,-107.324,147.3,147.9,107.2,,,,Garfield,Off-Air,"Wide area: Glenwood Springs, Glenwood Canyon, South Canyon, Carbondale and surrounding areas.",Roaring Fork Amateur Repeater Cooperative,8,,,CCARC,yes,,,,,,,,,,,,,,,,,,,,,Single beep courtesy tone when linked and none when unlinked.,266359,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+224.02,-1.6,,KI0G,Glenwood Springs,CO,CLOSED,,151,WSW,yes,08,8181,39.5505,-107.325,224.02,222.42,,,,,Garfield,,,SCARC,,,,CCARC,yes,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Unknown,,,,,,,,,,,,,,
+447.6,-5,,KI0G,Glenwood Springs,CO,CLOSED,,151,WSW,yes,08,8192,39.5505,-107.325,447.6,442.6,,,,,Garfield,,40,Ski Country ARC (SCARC),50,,,CCARC,yes,,,,,,,,,,,,,,,,,,,,,Link Hub for 146.880.,,,,,,"Full-time to  
+        146.88000 (KI0G) at Glenwood Springs, Sunlight Peak, CO .",,,,,,,,,,,Unknown,,,,,,,,,,,,,,
+146.715,-0.6,103.5,N0NEB,Alliance,NE,OPEN,,151,NE,yes,31,10034,42.117,-102.87,146.715,146.115,103.5,103.5,,,Box Butte,On-Air,,TriCity,,,,,yes,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+449.85,-5,131.8,WA4HND,"Glenwood Springs, Lookout Mountain",CO,OPEN,,151,WSW,yes,08,13637,39.5505,-107.325,449.85,444.85,131.8,131.8,,,Garfield,On-Air,Glenwood Springs,,e-power  Linked to GMRA Open System,,,CCARC,yes,http://GMRA.org,,,,,,,,,,,,,Colorado State RACES  Wed 1930 local,,,,,Grand Mesa Repeater Assoc,,RACES net Wed 1930 Hrs Local,,,,,,Full-time to the  GMRA Open System .,,,,,,,,,,,,,,,,,,,,,,,,,
+446.9875,-5,CC6,K0JSC,Pueblo,CO,OPEN,,151.6,S,yes,08,10785,38.2307,-104.611,446.9875,441.9875,,,,,Pueblo,Off-Air,,,,,,CCARC,yes,Rocky Mountain Ham Radio,,,,yes,6,,"Open Talkgroup View 
+
+
+ 
+   
+    
+     Assignment 
+     TS 
+     TG 
+     Access 
+   
+
+  Rocky Mountain Wide  1  700      Southern Colorado  2  719    
+  
+ 
+ 
+function myFunction(id) {
+    var x = document.getElementById(id);
+    if (x.className.indexOf(""w3-show"") == -1) {
+        x.className += "" w3-show"";
+    } else {
+        x.className = x.className.replace("" w3-show"", """");
+    }
+}",,,,,,,,,,,RMHAM,,,,,,1,,Full-time to the  Colorado TRBO System .,,,,,,,,,,,,,,,2,,,,,,,,,,
+447.275,-5,100,K0JSC,"Pueblo, Metro",CO,OPEN,,151.6,S,yes,08,9527,38.2305,-104.611,447.275,442.275,100,100,,,Pueblo,On-Air,,,,,,CCARC,yes,The Fun Machine,,,,,,,,,,,,,"APRS Net: Sun at 19:00. 
+Region 5 District 2 ARES Net: Sun at 19:30. 
+Statewide ARES Net: Sun at 20:00. 
+Region 5 District 1 ARES Net: Mon at 19:00. 
+EOSS Net: Tue at 20:00. 
+RGARC Net: Wed at 19:00.",,,,,The Fun Machine,,"Moved to Pueblo.  Now called ""Pueblo Metro""",,,,,,Full-time to the  The Fun Machine System .,,,,,,,,,Listen Live,,,,,,,,,,,,,,,,
+147.24,0.6,103.5,KJ0T,Pueblo,CO,OPEN,,151.6,S,yes,08,3747,38.2306,-104.611,147.24,147.84,103.5,CSQ,,,Pueblo,Off-Air,Pueblo and Fremont Counties,TARA,,,,CCARC,yes,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+147.285,0.6,88.5,KB0VJJ,"Salida, Methodist Mountain",CO,OPEN,,152.4,SSW,yes,08,204,38.4596,-106.011,147.285,147.885,88.5,123,,,Chaffee,On-Air,"Wide area: South Park, Gunnison, Pueblo, and the San Luis Valley south to New Mexico. At extremes, it has been worked from east of Montrose and Blue Mesa Resevoir, on Fremont Pass near Climax, in and around Bailey on U.S. 285, and south toward Trinidad on Interstate 25.",Colorado Connection,11,,,CCARC,yes,,,,,,,,,,,,,,"Central Colorado Traffic Net: Daily at 19:30. 
+Colorado Connection Net (All Welcome): Thu at 20:00. 
+Statewide ARES Net: Sun at 20:00.",,,,,,,,,,,,,Full-time to the  Colorado Connection System .,,,,,,,,,,,,,,,,,,,,,,,,,
+145.295,-0.6,107.2,KC0CVU,"Salida, Methodist Mountain",CO,OPEN,,152.4,SSW,yes,08,203,38.4596,-106.011,145.295,144.695,107.2,,,,Chaffee,On-Air,Wide area.,Cheyenne Mtn Repeater Group,,,,CCARC,yes,CMRG Repeaters,,,,,,,,,,,,,,,,,,,,,,,,,,,DM78ik,,,,,,,,,,,,,,,,,,,,,,,,
+449.65,-5,107.2,KC0CVU,"Salida, Methodist Mountain",CO,OPEN,,153,SSW,yes,08,205,38.4528,-106.018,449.65,444.65,107.2,,,,Chaffee,On-Air,Wide area.,,E-power.,,,CCARC,yes,CMRG Repeaters,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+449.925,-5,103.5,WZ0N,"Salida, Methodist Mountain",CO,OPEN,,153,SSW,yes,08,3811,38.4528,-106.018,449.925,444.925,103.5,103.5,,,Chaffee,On-Air,"Upper Arkansas and Platte Rivers, and the SLV",,E-power (Bat),,,CCARC,yes,,,,,,,,,,,,,,,,,,,Colorado ARES,,Identifies with an 'M' following WZ0N callsign which identifies the site as Methodist.,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+449.975,-5,100,K0JSC,"Salida, Methodist Mountain",CO,OPEN,EIA,153.2,SSW,yes,08,13510,38.4463,-106.011,449.975,444.975,100,100,,,Chaffee,On-Air,I-25 from Walsenburg to Wyoming and US-50 from La junta to Monarch Pass,,2,,7301,CCARC,yes,K0JSC.COM,,,,,,,,,,,,,"APRS Net: Sun at 19:00. 
+Region 5 District 2 ARES Net: Sun at 19:30. 
+Statewide ARES Net: Sun at 20:00. 
+Region 5 District 1 ARES Net: Mon at 19:00. 
+RGARC Net: Wed at 19:00.",,,,,,,Can be linked to various local repeater systems via the remote base. Echolink/IRLP connects restricted. Email me to be added to the authorized list.,363976,,,,,Full-time to the  The Fun Machine System .,DM68xk,,,,,,,28368,,,,,,,,,,,,,,,,,
+449.725,-5,179.9,K0ELK,"Carbondale, Four Mile Ridge",CO,OPEN,IA,155.1,WSW,yes,08,35,39.4,-107.315,449.725,444.725,179.9,,,,Garfield,On-Air,Wide area.,Roaring Fork Amateur Repeater Cooperative (RFARC),EchoLink.,,3722,CCARC,yes,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,28434,,,,,,,,,,,,,,,,,
+147.39,0.6,107.2,K0SNO,"Carbondale, Four Mile Ridge",CO,OPEN,,155.1,WSW,yes,08,259,39.4,-107.315,147.39,147.99,107.2,,,,Garfield,On-Air,"Rifle, Carbondale, El Jebel, Glenwood Springs, Basalt and Aspen.",Roaring Fork Amateur Repeater Cooperative,,,,,yes,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+146.85,-0.6,88.5,KB0VJJ,"Glenwood Springs, Sunlight Peak",CO,OPEN,,157.4,WSW,yes,08,129,39.4264,-107.38,146.85,146.25,88.5,123,,,Garfield,On-Air,"Wide area: Throughout the Roaring Fork Valley, Glenwood Canyon, East and West on I-70, and the Flattops Wilderness north of Glenwood.",Colorado Connection,70,,,CCARC,yes,,,,,,,,,,,,,,Daily 7:30PM Local Time Central Colorado Traffic Net Thursdays 8:00PM Colorado Connection Net All Welcome Sundays 8:00PM Statewide ARES net,,,,,,,Part of the Colorado Connection System of Repeaters,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+146.88,-0.6,107.2,KI0G,"Glenwood Springs, Sunlight Peak",CO,OPEN,,157.4,WSW,yes,08,130,39.4264,-107.38,146.88,146.28,107.2,,,,Garfield,On-Air,,Ski Country ARC,,,,CCARC,yes,,,,,,,,,,,,,,,,,,,,,,,,,,,"Full-time to  
+        447.60000 (KI0G) at Glenwood Springs, CO .",,,,,,,,,,,,,,,,,,,,,,,,,
+447.1,-5,107.2,KI0G,"Glenwood Springs, Sunlight Peak",CO,OPEN,,157.4,WSW,yes,08,132,39.4264,-107.38,447.1,442.1,107.2,,,,Garfield,On-Air,,Ski Country ARC,,,,CCARC,yes,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+449.6,-5,107.2,N0XLI,"Glenwood Springs, Sunlight Peak",CO,OPEN,,157.4,WSW,yes,08,255,39.4264,-107.38,449.6,444.6,107.2,,,,Garfield,On-Air,Wide area.,,e-power Linked to GMRA open system,,,CCARC,yes,http://www.gmra.org,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+145.325,-0.6,100,KD0MRC,"Maysville, CO",CO,OPEN,,158.6,SW,yes,08,16739,38.5063,-106.345,145.325,144.725,100,,,,Chaffee,On-Air,wide area,Chaffee Lake Amateur Repeater Association,,,,,yes,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+447.65,-5,151.4,KB0YNA,"Gunnison, W Mountain or Tenderfoot Mountain",CO,OPEN,,158.8,SW,yes,08,15212,38.6125,-106.543,447.65,442.65,151.4,151.4,,,Gunnison,On-Air,Gunnison valley and along East and west on Highway 50.,KB0YNA,"Linked to 448.650 in Montrose, Colorado and 449.650 in Grand Junction, Colorado.",,,CCARC,yes,,,,,,,,,,,,,,,,,,,,,,,,,,,"Full-time to  
+        448.65000 (KB0YNA) at Montrose, Waterdog Peak, CO .
+ 
+
+
+Full-time to  
+        449.65000 (KB0YNA) at Grand Junction, Grand Mesa, CO .",,,,,,,,,,,,,,,,,,,,,,,,,
+146.76,-0.6,100,KC7OZU,Rawlins,WY,OPEN,,162,NW,yes,56,43,41.7911,-107.238,146.76,146.16,100,,,,Carbon,On-Air,Wide area.,CCARS,,,,,yes,,,,,,,,,,,,,,Sunday nite net 2030 local time.,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+147.39,0.6,100,KD7BN,Rawlins,WY,OPEN,,162,NW,yes,56,55,41.7911,-107.238,147.39,147.99,100,,,,Carbon,On-Air,Wide area.,HERC,E-power.,,,,yes,,,,,,,,,,,,,,,,,,,N7ZEF (EchoLink).,,,,,,,,"Full-time to  
+        146.80500 (W7BEQ) at Shoshoni, Copper Mtn, WY .
+ 
+
+
+Full-time to  
+        146.94000 (W7VNJ) at Casper, Casper Mountain, WY .",,,,,,,,,,,,,,,,,,,,,,,,,
+448.3,-5,100,KD7SU,Rawlins,WY,OPEN,,162.1,NW,yes,56,15548,41.7911,-107.239,448.3,443.3,100,,,,Carbon,,,,,,,WRCG,yes,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Unknown,,,,,,,,,,,,,,
+146.7,-0.6,162.2,N7RON,Rawlins,WY,OPEN,I,162.1,NW,yes,56,5791,41.7911,-107.239,146.7,146.1,162.2,,,,Carbon,On-Air,,,,,7045,WRCG,yes,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+449.8,-5,146.2,N7RON,Rawlins,WY,OPEN,,162.1,NW,yes,56,15551,41.7911,-107.239,449.8,444.8,146.2,,,,Carbon,,,Wyocomm,,,,WRCG,yes,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Unknown,,,,,,,,,,,,,,
+445.05,-5,CC11,WY7EOC,Rawlins,WY,CLOSED,,162.1,NW,yes,56,13858,41.7911,-107.239,445.05,440.05,,,,,Carbon,On-Air,Wide area.,Laramie County EM,,,,WRCG,yes,,,,,yes,11,,"Open Talkgroup View 
+
+
+ 
+   
+    
+     Assignment 
+     TS 
+     TG 
+     Access 
+   
+
+  Wyoming  1  3156  Full-Time    WyLOCAL  2  100  Full-Time  
+  
+ 
+ 
+function myFunction(id) {
+    var x = document.getElementById(id);
+    if (x.className.indexOf(""w3-show"") == -1) {
+        x.className += "" w3-show"";
+    } else {
+        x.className = x.className.replace("" w3-show"", """");
+    }
+}",,,,,,,Wyoming DMR Project,,,,Wyoming DMR Project,,,,,,,,,,,,,,,,,,,,,,,,,1,2,,,,,,,
+147.33,0.6,CSQ,,"Lusk, 77 Hill",WY,OPEN,,162.2,N,yes,56,16404,42.7625,-104.452,147.33,147.93,CSQ,CSQ,,,Niobrara,On-Air,,,,,,,yes,,,,,,,,,,,,,,,,,,,,,on a butte north of Manville that has a good line of sight for miles,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+448.325,-5,100,K0JSC,Westcliffe,CO,OPEN,,163.2,SSW,yes,08,15584,38.1347,-105.466,448.325,443.325,100,100,,,Custer,On-Air,,,,,,,yes,,,,,,,,,,,,,,,,,,,The Fun Machine,,,,,,,,Full-time to the  The Fun Machine System .,,,,,,,,,,,,,,,,,,,,,,,,,
+147.06,0.6,77,KB0TUC,Westcliffe,CO,OPEN,,163.2,SSW,yes,08,7189,38.1347,-105.465,147.06,147.66,77,77,,,Custer,On-Air,,http://www.qsl.net/rghc,E-power,,,CCARC,yes,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+448.15,-5,103.5,KB0TUC,Westcliffe,CO,OPEN,,163.2,SSW,yes,08,248,38.1347,-105.465,448.15,443.15,103.5,103.5,,,Custer,On-Air,,Royal George ARC,E-power.,,,CCARC,yes,http://www.qsl.net/rghc,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+927.775,-25,D116,KB0TUC,Westcliffe,CO,OPEN,,163.2,SSW,yes,08,7192,38.1347,-105.465,927.775,902.775,D116,D116,,,Custer,On-Air,,Royal Gorge Amateur Radio Club,,,,CCARC,yes,,,,,,,,,,,,,,,,,,,,,System uses digital PL,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+919.1,-25,88.5,ND0Q,"Westcliffe, Deer Peak",CO,OPEN,,163.2,SSW,yes,08,8218,38.1347,-105.466,919.1,894.1,88.5,CSQ,,,Pueblo,Off-Air,Wide area.,Pueblo HC,,,,CCARC,yes,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+146.76,-0.6,123,N0UGO,Ogallala,NE,OPEN,EI,163.8,E,yes,31,11025,41.1282,-101.72,146.76,146.16,123,,,,Keith,On-Air,,Charlie Allen,,,7349,,yes,,,,,,,,,,,,,,"Sun at 19:30. 
+Wed at 20:00.",,,,,,,Linked to 146.940 in North Platte and 442.250 south of North Platte,751985,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+449.975,-5,100,K0JSC,"Pueblo, Cedarwood",CO,OPEN,EIA,165.5,S,yes,08,5369,38.034,-104.489,449.975,444.975,100,100,,,Pueblo,On-Air,"I-25 from Walsenburg to Wyoming and US-50 from La junta to Monarch Pass 
+   Repeater Coverage Map",K0JSC,2,,7301,CCARC,yes,K0JSC dot Com,,,,,,,,,,,,,"APRS Net: Sun at 19:00. 
+Region 5 District 2 ARES Net: Sun at 19:30. 
+Statewide ARES Net: Sun at 20:00. 
+Region 5 District 1 ARES Net: Mon at 19:00.  
+RGARC Net: Wed at 19:00.",,,,,,,Can be linked to various local repeater systems via the remote base. Echolink/IRLP connects restricted. Email me to be added to the authorized list.,363976,,,,,"Linkable to  
+        145.49000 (WD0EKR) at Canon City, Fremont Peak, CO .
+ 
+
+
+Linkable to  
+        145.46000 (WB0WDF) at Cripple Creek, CO .
+ 
+
+
+Linkable to  
+        146.79000 (ND0Q) at Pueblo, Baculite Mesa, CO .
+ 
+
+
+Linkable to  
+        145.13000 (KB0VJJ) at Colorado Springs, Cheyenne Mountain, CO .
+ 
+
+
+Linkable to  
+        146.88000 (ND0Q) at Pueblo, Deer Peak, CO .
+ 
+
+
+Linkable to  
+        145.16000 (W0CRA) at Colorado Springs, Cheyenne Mountain, CO .
+ 
+
+
+Full-time to the  The Fun Machine System . 146.43000 simplex. 146.44500 simplex.",DM78SA18,,,,,,,28368,Listen Live,,,,,,,,,,,,,,,,
+449.625,-5,107.2,KC0CVU,"Pueblo, Deer Peak",CO,OPEN,,166.6,S,yes,08,199,38.0411,-105.185,449.625,444.625,107.2,,,,Custer,On-Air,,,E-power.,,,CCARC,yes,CMRG Repeaters,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+224.32,-1.6,88.5,ND0Q,"Walsenburg, Deer Peak",CO,OPEN,,166.6,S,yes,08,245,38.0411,-105.185,224.32,222.72,88.5,,,,Custer,Off-Air,,Pueblo Ham Club,11,,,CCARC,yes,PHC repeaters,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+447.175,-5,88.5,ND0Q,"Pueblo, Deer Peak",CO,OPEN,,166.6,S,yes,08,197,38.0411,-105.185,447.175,442.175,88.5,,,,Pueblo,Off-Air,Wide area: Southeast Colorado.,Pueblo HC,11,,,CCARC,yes,Pueblo Ham Club,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+146.76,-0.6,107.2,N0SWE,Rifle,CO,OPEN,E,175,WSW,yes,08,200,39.4745,-107.772,146.76,146.16,107.2,,,,Garfield,Off-Air,"New Castle, Silt, Rifle and Rulison and areas around Parachute.","N0SWE,  Roaring Fork Amateur Repeater Cooperative",E-power.,,,CCARC,yes,,,,,,,,,,,,,,,,,,,,,,243117,,,,,,DM69cl,,,,,,,,,,,,,,,,,,,,,,,,
+449.95,-5,,K5GF,Gunnison,CO,OPEN,,175.5,SW,yes,08,161,38.5458,-106.925,449.95,444.95,,,,,Gunnison,,,K5GF,,,,CCARC,yes,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Unknown,,,,,,,,,,,,,,
+147.12,0.6,,W0VTL,Gunnison,CO,OPEN,,175.5,SW,yes,08,160,38.5458,-106.925,147.12,147.72,,,,,Gunnison,On-Air,,W0VTL,E-power.,,,CCARC,yes,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+147.36,0.6,,KC0ITF,"La Junta, North La Junta",CO,PRIVATE,W,179,SSE,yes,08,167,37.9995,-103.529,147.36,147.96,,123,yes,Open ↑ / Open ↓,Otero,On-Air,La Junta: U.S. Route 50 CO State Hwy 10 CO State Hwy 109 CO State Hwy 194 U.S. Route 350,,E-power,Yes; analog capable.,,,yes,,,,,,,,,,,,,,,,,,,KC0ITF,,Digital Wires-X,,,,,,,,,,,,,,,,11360,,,,,,,,,,,,,,,
+446.75,-5,CC0,KC0ITF,"La Junta, North La Junta",CO,PRIVATE,,179,SSE,yes,08,101,37.9995,-103.529,446.75,441.75,,,yes,Open ↑ / Open ↓,Otero,On-Air,La Junta,,E-power.,,,,yes,,yes,KC0ITF (B) Repeater,"jfindu lookup 
+    /   dstar-users lookup",yes,0,,,,,,,,,,,,,KC0ITF,,Please use Busy Channel LockOut,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+147.15,0.6,,KK7BA,Douglas,WY,OPEN,,179.2,NNW,yes,56,50,42.96,-105.43,147.15,147.75,,,,,Converse,On-Air,,,,,,,yes,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+147.36,0.6,123,W0FLO,"Chadron, Nebraska National Forest",NE,OPEN,,179.4,NNE,yes,31,12643,42.7289,-103.111,147.36,147.96,123,123,,,Dawes,On-Air,"Chadron, Gordon, Alliance, Crawford, Pine Ridge.",,,,,WB0CMC,yes,,,,,,,,,,,,,,,,,,,Pine Ridge Amateur Radio Club,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+145.46,-0.6,110.9,K7PLA,"Casper, Casper Mountain",WY,OPEN,,179.9,NNW,yes,56,12433,42.736,-106.309,145.46,144.86,110.9,110.9,,,Natrona,On-Air,"Wide area: East to Douglas, South to Saratoga, Rawlings. West to Moneta, Jeffery city/muddy gap, independence rock.North to Buffalo",W7QQA,,,,WRCG,yes,http://wyoham.com,,,,,,,,,,,,,"Buffalo roll call, Tuesday night",,,,,"Buffalo Radio Club, Casper Radio Club",103,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+146.64,-0.6,173.8,KD7AGA,"Casper, Casper Mountain",WY,OPEN,,181,NNW,yes,56,7,42.7525,-106.314,146.64,146.04,173.8,,,,Natrona,Off-Air,Regional.,CDK Net,E-power.,,,WRCG,yes,,,,,,,,,,,,,,,,,,,,,,,,,,,"Full-time to  
+        449.57500 (W7VNJ) at Casper, Wyoming Med Center, WY .",,,,,,,,,,,,,,,,,,,,,,,,,
+449.9,-5,,N7RRB,"Casper, Casper Mountain",WY,OPEN,W,181,NNW,yes,56,75,42.7525,-106.314,449.9,444.9,,,yes,Open ↑ / Open ↓,Natrona,On-Air,Metro area.,Casper Amateur Radio Club,,,,WRCG,yes,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,11941,,,,,,,,,,,,,,,
+146.94,-0.6,123,W7VNJ,"Casper, Casper Mountain",WY,OPEN,,181,NNW,yes,56,6,42.7525,-106.314,146.94,146.34,123,123,,,Natrona,On-Air,Wide area.,Casper ARC,E-power.,,,WRCG,yes,http://casperarc.net/wiki/index.php/146.940,,,,,,,,,,,,,RACES/ARES: Sun at 20:00.,,,,,,,,,,,,,"Full-time to  
+        147.39000 (KD7BN) at Rawlins, WY .
+ 
+
+
+Full-time to the  Wyocom System .",,,,,,,,,,,,,,,,,,,,,,,,,
+449.5,-5,100,NB7I,"Casper, Casper Mtn.",WY,OPEN,,182.9,NNW,yes,56,67,42.7779,-106.329,449.5,444.5,100,,,,Natrona,On-Air,"Wide area, linked to 147.390 Rawlins",Versatel,Solar Powered,,,,yes,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+146.73,-0.6,88.5,ND0Q,"Walsenburg, N Rattlesnake Butte",CO,OPEN,,183.7,S,yes,08,247,37.7719,-104.456,146.73,146.13,88.5,,,,Huerfano,On-Air,"Wide area: Pueblo, Huerfano, Otero, and Las Animas Counties.",Pueblo Ham Club,6,,,CCARC,yes,Pueblo Ham Club,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+147.28,0.6,D032,W7VNJ,Casper,WY,OPEN,,186.8,NNW,yes,56,3542,42.8486,-106.308,147.28,147.88,D032,D032,yes,Open ↑ / Open ↓,Natrona,On-Air,Local Casper coverage.,Casper Amateur Radio Club,E-power.,Yes; analog capable.,,WRCG,yes,http://casperarc.net/wiki/index.php/Main_Page,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+449.575,-5,173.8,W7VNJ,"Casper, Wyoming Med Center",WY,OPEN,I,186.8,NNW,yes,56,73,42.8482,-106.308,449.575,444.575,173.8,173.8,,,Natrona,On-Air,Wide area: Casper Metro and large parts of Natrona county.,CDK Net,E-power.,,7707,WRCG,yes,Casper ARC,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+147.33,0.6,107.2,KI0MR,Paonia,CO,OPEN,,187.2,SW,yes,08,8179,38.8683,-107.592,147.33,147.93,107.2,,,,Delta,On-Air,Wide area.,North Fork Repeater Assoc.,,,,CCARC,yes,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+147.345,0.6,,KC7MJI,Casper,WY,OPEN,,188,NNW,yes,56,15537,42.8666,-106.313,147.345,147.945,,,,,Natrona,,,,,,,WRCG,yes,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Unknown,,,,,,,,,,,,,,
+146.91,-0.6,,N7GT,Casper,WY,OPEN,,188,NNW,yes,56,15529,42.8666,-106.313,146.91,146.31,,,,,Natrona,,,,,,,WRCG,yes,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Unknown,,,,,,,,,,,,,,
+449.1,-5,,NG7T,Casper,WY,OPEN,,188,NNW,yes,56,63,42.8667,-106.312,449.1,444.1,,,,,Natrona,,Wide area:  50 mi radius.,NG7T,E-power.,,,,yes,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Unknown,,,,,,,,,,,,,,
+52.98,-1,141.3,W7VNJ,Casper,WY,OPEN,,188,NNW,yes,56,8686,42.8666,-106.313,52.98,51.98,141.3,,,,Natrona,Off-Air,,CARC,,,,WRCG,yes,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+449.9875,-5,CC11,WY7EOC,"Casper, Casper Mountain",WY,CLOSED,,188,NNW,yes,56,15489,42.8666,-106.313,449.9875,444.9875,,,,,Natrona,On-Air,Wide Area. 40 mi radius.,Laramie County EM,,,,WRCG,yes,,,,,yes,11,,"Open Talkgroup View 
+
+
+ 
+   
+    
+     Assignment 
+     TS 
+     TG 
+     Access 
+   
+
+  Wyoming  1  3156  Full-Time    WyLOCAL  2  100  Full-Time  
+  
+ 
+ 
+function myFunction(id) {
+    var x = document.getElementById(id);
+    if (x.className.indexOf(""w3-show"") == -1) {
+        x.className += "" w3-show"";
+    } else {
+        x.className = x.className.replace("" w3-show"", """");
+    }
+}",,,,,,,Wyoming DMR Project,,,,Wyoming DMR Project,,,,,,,,,,,,,,,,,,,,,,,,,1,2,,,,,,,
+446.3,0,CSQ,,Chadron,NE,OPEN,,188.2,NNE,yes,31,17082,42.8294,-103,446.3,446.3,CSQ,CSQ,,,Dawes,On-Air,,,,,,,yes,,,,,,,,,,,,,,,,,,,,,Simplex link for the 147.360 in Chadron,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+145.62,0,100,W0FLO,Chadron,NE,OPEN,I,188.3,NNE,yes,31,11357,42.8265,-102.99,145.62,145.62,100,100,,,Dawes,On-Air,"Chadron, Gordon, Alliance, Crawford, Pine Ridge.",Pine Ridge Amateur Radio Club - Ron Cashon -- 308 432-3322,Voice ID,,3936,,yes,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+449.8,-5,107.2,WA4HND,"Parachute, Mount Callahan",CO,OPEN,,189.4,WSW,yes,08,253,39.4519,-108.052,449.8,444.8,107.2,,,,Garfield,On-Air,,,8,,,CCARC,yes,GMRA Repeaters,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+449.5,-5,107.2,KB0SW,Collbran,CO,OPEN,,190.9,WSW,yes,08,36,39.2406,-107.961,449.5,444.5,107.2,,,,Mesa,Off-Air,,Grand Mesa Repeater Association (GMRA),E-power.,,,CCARC,yes,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+145.355,-0.6,88.5,KB0VJJ,"Grand Junction, Grand Mesa",CO,OPEN,,195.4,WSW,yes,08,149,39.0667,-107.936,145.355,144.755,88.5,123,,,Mesa,On-Air,"Rifle to the east, several miles east of Green River, Utah to the west.",Colorado Connection,E-power.,,,CCARC,yes,,,,,,,,,,,,,,"Central Colorado Traffic Net: Daily at 19:30. 
+Colorado Connection Net (all welcome): Thu at 20:00. 
+Statewide ARES: Sun at 20:00.",,,,,,,Colorado Connection system of repeaters,,,,,,Full-time to the  Colorado Connection System .,,,,,,,,,,,,,,,,,,,,,,,,,
+449.65,-5,151.4,KB0YNA,"Grand Junction, Grand Mesa",CO,OPEN,I,195.4,WSW,yes,08,8763,39.0666,-107.937,449.65,444.65,151.4,151.4,,,Mesa,On-Air,Wide area coverage,Keri Washburn,NWS weather alert system.,,8162,CCARC,yes,,,,,,,,,,,,,,,,,,,,11,,,,,,,"Full-time to  
+        447.65000 (KB0YNA) at Gunnison, W Mountain or Tenderfoot Mountain, CO .",,,,,,,,,,,,,,,,,,,,,,,,,
+444.6,5,146.2,WA0VJR,Wallace,KS,OPEN,I,195.7,SE,yes,20,3559,38.9139,-101.594,444.6,449.6,146.2,,,,Wallace,On-Air,"US-40 
+   Repeater Coverage Map",WA0VJR,,,3148,,yes,,,,,,,,,,,,,,,,,,,,,Dial 9335 to access K-Link,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+146.61,-0.6,123,KC0HH,Lamar,CO,OPEN,EI,196.3,SE,yes,08,3794,38.0872,-102.621,146.61,146.01,123,123,,,Prowers,On-Air,Hwy 287 - Springfield to Eads Hwy 50 - Holly to Rocky Ford. 45 mi radius.,Lamar Amateur Radio Club,,,3774,CCARC,yes,,,,,,,,,,,,,,,,,,,,,,37784,,,,,"Full-time to  
+        449.50000 (KC0HH) at Lamar, CO .",,,,,,,,,,,,,,,,,,,,,,,,,
+449.5,-5,123,KC0HH,Lamar,CO,OPEN,EI,196.3,SE,yes,08,171,38.0872,-102.62,449.5,444.5,123,,,,Prowers,On-Air,45,Lamar ARC,,,3774,CCARC,yes,,,,,,,,,,,,,,,,,,,,,,37784,,,,,"Full-time to  
+        146.61000 (KC0HH) at Lamar, CO .",,,,,,,,,,,,,,,,,,,,,,,,,
+146.64,-0.6,77,N0KM,Center,CO,OPEN,A,199.2,SSW,yes,08,14200,37.7531,-106.109,146.64,146.04,77,77,,,Rio Grande,On-Air,Low level local coverage,,,,,,yes,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,28781,,,,,,,,,,,,,,,,,
+447.1,-5,77,N0KM,Center,CO,OPEN,,199.5,SSW,yes,08,16645,37.75,-106.115,447.1,442.1,77,,,,Saguache,On-Air,,,,,,,yes,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+447.35,-5,107.2,,"Cedaredge, Grand Mesa",CO,OPEN,,199.6,WSW,yes,08,3755,38.9944,-107.973,447.35,442.35,107.2,,,,Delta,,,Grand Mesa Repeater Assoc (GMRA),,,,CCARC,yes,GMRA Repeaters,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Unknown,,,,,,,,,,,,,,
+147.195,0.6,107.2,KC0QXX,"Cedaredge, Cedar Mesa",CO,OPEN,,200.8,WSW,yes,08,3745,38.9016,-107.926,147.195,147.795,107.2,,,,Delta,,Local.,,,,,,yes,,,,,,,,,,,,,,,,,,,Colorado District 25 ARES,,,,,,,,,,,,,,,,,,,Unknown,,,,,,,,,,,,,,
+147.36,0.6,100,W0ALC,Cedaredge,CO,OPEN,,200.8,WSW,yes,08,3749,38.9016,-107.926,147.36,147.96,100,,,,Delta,,,W0ALC,,,,CCARC,yes,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Unknown,,,,,,,,,,,,,,
+449.825,-5,100,W0ALC,Cedaredge,CO,OPEN,,200.8,WSW,yes,08,3760,38.9016,-107.926,449.825,444.825,100,,,,Delta,,,W0ALC,,,,CCARC,yes,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Unknown,,,,,,,,,,,,,,
+444.75,5,162.2,NV8Q,"Colby, K-Link",KS,OPEN,,203.8,SE,yes,20,8689,39.4012,-101.101,444.75,449.75,162.2,162.2,,,Thomas,,"Wide area. 
+ Click for coverage map.  50 mi radius.",,"Linked to K-Link Repeater Network 
+E-power (batt) 
+Allstar 46010",,,Kansas Repeater Council,yes,K-Link Repeater Network,,,,,,,,,,,,,,,,,,K-Link Repeater Network,,"Repeater is intermittently off-air, and the Allstar node is down.",,,,,,,,,,,,,,,,,Unknown,,,,,,,,,,,,,,
+146.82,-0.6,156.7,NW0K,Colby,KS,OPEN,I,205.4,SE,yes,20,3889,39.3915,-101.074,146.82,146.22,156.7,156.7,,,Thomas,On-Air,Local,TARC,"Closed autopatch, e-power.",,7552,Kansas Repeater Council,yes,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+442.175,5,156.7,K0WPM,Tribune,KS,OPEN,,207.6,SE,yes,20,15098,38.4697,-101.753,442.175,447.175,156.7,,,,Greeley,On-Air,,WKARC,,,,,yes,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+446.9125,-5,CC1,W0BX,"Grand Junction, Grand Mesa",CO,OPEN,,208.3,WSW,yes,08,16721,39.0889,-108.227,446.9125,441.9125,,,,,Mesa,On-Air,"Grand Junction, I70",Bill Frost,,,,,yes,,,,,yes,1,,,,,,,,,,,,,,,Brandmeister network,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+146.67,-0.6,CSQ,N0UVP,Gordon,NE,OPEN,,209.4,NE,yes,31,19,42.8069,-102.204,146.67,146.07,CSQ,CSQ,,,Sheridan,Off-Air,,SHARC,E-power.,,,,yes,,,,,,,,,,,,,,,,,,,,,"Working on the transmitter, hope to be back on the air soon.",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+449.3,-5,107.2,WA4HND,"Grand Junction, Grand Mesa",CO,OPEN,I,210.7,WSW,yes,08,154,39.0539,-108.254,449.3,444.3,107.2,107.2,,,Mesa,On-Air,Wide Area I-70 West Rifle to Western Utah,,e-power Linked to GMRA Open System,,3710,CCARC,yes,http://www.gmra.org/,,,,,,,,,,,,,RACES Wed 1930 hrs,,,,,,,Closed IRLP out,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+448.65,-5,,KB0YNA,"Montrose, Waterdog Peak",CO,OPEN,,211.7,SW,yes,08,15213,38.3875,-107.674,448.65,443.65,,151.4,,,Montrose,On-Air,Wide area.,KB0YNA,,,,,yes,,,,,,,,,,,,,,,,,,,,,,,,,,,"Full-time to  
+        447.65000 (KB0YNA) at Gunnison, W Mountain or Tenderfoot Mountain, CO .",,,,,,,,,,,,,,,,,,,,,,,,,
+447.2,-5,107.2,WA4HND,"Montrose, Waterdog Peak",CO,OPEN,I,211.7,SW,yes,08,69,38.3875,-107.674,447.2,442.2,107.2,107.2,,,Montrose,On-Air,Delta/Montrose,,9,,3710,CCARC,yes,GMRA Repeaters,,,,,,,,,,,,,RACES Net Wed at 1930 Hrs.,,,,,Grand Mesa Repeater Assoc,,Closed IRLP out - Ask for a control op,,,,,,Full-time to the  GMRA Open System .,,,,,,,,,,,,,,,,,,,,,,,,,
+146.835,-0.6,CSQ,K0KDC,North Platte,NE,OPEN,,212,E,yes,31,44,41.1239,-100.765,146.835,146.235,CSQ,,,,Lincoln,On-Air,,K0KDC,,,,,yes,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+146.7,-0.6,,NE0NP,North Platte,NE,OPEN,,212,E,yes,31,43,41.1239,-100.765,146.7,146.1,,123,,,Lincoln,Off-Air,,North Platte Progressive Amateur Radio Club,E-power.,,,,yes,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+147.33,0.6,123,N0IQ,North Platte,NE,OPEN,EI,212.4,E,yes,31,11023,41.1403,-100.76,147.33,147.93,123,,,,Lincoln,On-Air,,Randy Allen,,,7627,,yes,,,,,,,,,,,,,,,,,,,,,,857936,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+444.4,5,123,N0IQ,North Platte,NE,OPEN,EI,212.4,E,yes,31,11022,41.1403,-100.76,444.4,449.4,123,,,,Lincoln,On-Air,Maxwell to Sutherland across I-80.,Randy Allen,,,7627,,yes,,,,,,,,,,,,,,,,,,,,,,857936,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+146.94,-0.6,123,N0UGO,North Platte,NE,OPEN,EI,212.4,E,yes,31,11026,41.1403,-100.76,146.94,146.34,123,,,,Lincoln,On-Air,,Charlie Allen,Linked to 146.760 in Ogallala and 442.250 south of North Platte,,7349,WB0CMC,yes,,,,,,,,,,,,,,"Sunday Night net: Sun at 20:30 
+Wednesday Night net: Wed at 21:00.",,,,,,,,751985,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+442.25,5,123,N0UGO,North Platte,NE,OPEN,EI,212.4,E,yes,31,11024,41.1403,-100.76,442.25,447.25,123,,,,Lincoln,Off-Air,,Charlie Allen,,,7349,,yes,,,,,,,,,,,,,,"Sunt at 20:30 
+Wed at 21:00",,,,,,,Linked to 146.940 in North Platte and 146.760 in Ogallala.,751985,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+146.925,-0.6,,WA0JS,Creede,CO,OPEN,,213.9,SW,yes,08,63,37.8492,-106.926,146.925,146.325,,,,,Mineral,Off-Air,,Creede ARC,,,,CCARC,yes,,,,,,,,,,,,,,,,,,,,,WA0JS license expired,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+146.91,-0.6,107.2,KC0UUX,Montrose,CO,OPEN,,215.9,SW,yes,08,12442,38.4783,-107.876,146.91,146.31,107.2,107.2,,,Montrose,On-Air,,,E-Power,,,CCARC,yes,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+146.79,-0.6,107.2,KD5OPD,Montrose,CO,OPEN,,215.9,SW,yes,08,7953,38.4783,-107.876,146.79,146.19,107.2,107.2,,,Montrose,On-Air,,KC0UXX,E-power.,,,CCARC,yes,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+147.135,-0.6,123,KB5ITS,"Lake City, Hill 71",CO,OPEN,,216.3,SW,yes,08,16607,38.03,-107.315,147.135,146.535,123,,,,Hinsdale,On-Air,,,E-power (solar),,,CCARC,yes,http://www.sjcham.com,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+449.525,-5,100,N0PKT,"Creede, Bristol Head",CO,OPEN,A,221,SW,yes,08,14923,37.7933,-107.055,449.525,444.525,100,100,,,Mineral,On-Air,,N0PKT,,,,,yes,,,,,,,,,,,,,,,,,,,The Fun Machine,,,,,,,,Full-time to the  The Fun Machine System .,DM67lt,,,,,,,43265,,,,,,,,,,,,,,,,,
+444,5,141.3,K0ECT,Syracuse,KS,OPEN,,221.3,SE,yes,20,4086,38.175,-101.761,444,449,141.3,141.3,,,Hamilton,On-Air,,SKECT,E-power.,,,Kansas Repeater Council,yes,http://skect.org/default.aspx,,,,,,,,,,,,,,,,,,,,,,,,,,Full-time to the  SKECT System .,,,,,,,,,,,,,,,,,,,,,,,,,
+145.175,-0.6,107.2,W0RRZ,"Grand Junction, GJT",CO,OPEN,I,221.7,WSW,yes,08,147,39.1173,-108.522,145.175,144.575,107.2,,,,Mesa,On-Air,Greater grand Junction area.,,"E-power,",,3161,CCARC,yes,,,,,,,,,,,,,,,,,,,,Standard IRLP node commands.,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+147.39,0.6,107.2,KE0TY,Grand Junction,CO,OPEN,,224.6,WSW,yes,08,152,39.0639,-108.55,147.39,147.99,107.2,,,,Mesa,,,KE0TY,Linked.,,,CCARC,yes,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Unknown,,,,,,,,,,,,,,
+146.82,-0.6,107.2,W0GJT,Grand Junction,CO,OPEN,A,224.6,WSW,yes,08,261,39.0639,-108.55,146.82,146.22,107.2,,,,Mesa,On-Air,Wide area: North Western Colorado - South to Montrose and East on I-70.,,,,,CCARC,yes,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,28515,,,,,,,,,,,,,,,,,
+147.105,0.6,,K0SSI,Grand Junction,CO,OPEN,,224.7,WSW,yes,08,8175,39.0639,-108.551,147.105,147.705,,,,,Mesa,On-Air,,K0SSI,,,,CCARC,yes,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+449,-5,,KB0SW,Grand Junction,CO,CLOSED,,224.7,WSW,yes,08,8206,39.0639,-108.551,449,444,,107.2,,,Mesa,On-Air,,KB0SW,,,,CCARC,yes,,,,,,,,,,,,,,,,,,,Grand Mesa Repeater Assoc,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+447.5,-5,114.8,KC0ARV,Grand Junction,CO,OPEN,,224.7,WSW,yes,08,3757,39.0638,-108.551,447.5,442.5,114.8,,,,Mesa,,,KC0ARV,,,,CCARC,yes,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Unknown,,,,,,,,,,,,,,
+446.775,-5,,KD0RED,Grand Junction,CO,OPEN,,224.7,WSW,yes,08,11792,39.0639,-108.551,446.775,441.775,,,,,Mesa,On-Air,,,,,,,yes,,yes,KD0RED (B) Gateway Repeater,"jfindu lookup 
+    /   dstar-users lookup",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+449.775,-5,173.8,KD0SMZ,Grand Junction,CO,OPEN,EI,224.7,WSW,yes,08,11793,39.0639,-108.551,449.775,444.775,173.8,88.5,,,Mesa,On-Air,,,,,7573,CCARC,yes,,,,,,,,,,,,,,,,,,,,,,7572,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+145.22,-0.6,107.2,KE0TY,Grand Junction,CO,OPEN,,224.7,WSW,yes,08,8167,39.0639,-108.551,145.22,144.62,107.2,,,,Mesa,,,KE0TY,,,,CCARC,yes,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Unknown,,,,,,,,,,,,,,
+147.355,-0.6,88.5,KB0VJJ,"Grand Junction, Grand Mesa",CO,OPEN,,225.7,WSW,yes,08,15581,39.052,-108.565,147.355,146.755,88.5,123,,,Mesa,On-Air,,Colorado Connection,,,,CCARC,yes,,,,,,,,,,,,,,,,,,,,,,,,,,,Full-time to the  Colorado Connection System .,,,,,,,,,,,,,,,,,,,,,,,,,
+448.15,-5,100,W0GJT,Grand Junction,CO,OPEN,EI,227.3,WSW,yes,08,153,38.899,-108.496,448.15,443.15,100,,,,Mesa,On-Air,,,,,7963,CCARC,yes,,,,,,,,,,,,,,,,,,,,,,312189,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+147.27,0.6,127.3,KB5ITS,"Ouray, Engineer Mountain",CO,OPEN,,229.4,SW,yes,08,16604,38.0228,-107.671,147.27,147.87,127.3,,,,Ouray,On-Air,,,,,,CCARC,yes,http://www.sjcham.com,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+444.3,5,141.3,K0ECT,Elkader,KS,OPEN,,231.2,SE,yes,20,4100,38.785,-100.921,444.3,449.3,141.3,141.3,,,Logan,On-Air,,SKECT,E-power.,,,Kansas Repeater Council,yes,http://skect.org/default.aspx,,,,,,,,,,,,,,,,,,,,,,,,,,Full-time to the  SKECT System .,,,,,,,,,,,,,,,,,,,,,,,,,
+146.775,-0.6,,KA0TAO,Syracuse,KS,OPEN,,231.4,SE,yes,20,3947,37.9806,-101.753,146.775,146.175,,,,,Hamilton,On-Air,Local. 20 mi radius.,KA0TAO,,,,Kansas Repeater Council,yes,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+147.375,0.6,156.7,KB5ITS,"Silverton, Kendall Mountain",CO,OPEN,,239.8,SW,yes,08,209,37.7933,-107.629,147.375,147.975,156.7,,,,San Juan,On-Air,Wide area.,,13,,,CCARC,yes,http://www.sjcham.com,,,,,,,,,,,,,,,,,,,,,,,,,,"Part-time to  
+        146.67000 (K0EP) at Durango, Eagle Pass, CO .",,,,,,,,,,,,,,,,,,,,,,,,,
+146.7,-0.6,141.3,WA0OQA,Scott City,KS,OPEN,A,239.8,SE,yes,20,3940,38.4846,-100.979,146.7,146.1,141.3,141.3,yes,Open ↑ / Open ↓,Scott,On-Air,"Scott, Finney and Kearny counties",Sand Hills ARC,E-power.,Yes; analog capable.,,Kansas Repeater Council,yes,,,,,,,,,,,,,,Tue at 20:30.,,,,,,,Comet GP-6 @ 125'.,,,,,,"Full-time to  
+        146.91000 (WA0OQA) at Garden City, KS .",DM98,,,,,,,48589,,,,,,,,,,,,,,,,,
+145.325,-0.6,127.3,KB5ITS,"Silverton, Buffalo Boy",CO,OPEN,,240.1,SW,yes,08,16605,37.8119,-107.665,145.325,144.725,127.3,,,,San Juan,On-Air,,,Solar powered,,,CCARC,yes,http://www.sjcham.com,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+444,5,67,KB5ITS,"Silverton, Hazelton",CO,OPEN,,240.1,SW,yes,08,16624,37.8119,-107.665,444,449,67,,,,San Juan,On-Air,,,,,,,yes,http://www.sjcham.com,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+447.525,-5,127.3,KB5ITS,Silverton,CO,OPEN,,240.1,SW,yes,08,210,37.8119,-107.664,447.525,442.525,127.3,,,,San Juan,On-Air,Wide area.,KB5ITS,E-power.,,,CCARC,yes,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+449.7,-5,107.2,KB0YNA,"Telluride, Gray Head",CO,OPEN,I,242.4,SW,yes,08,254,37.991,-107.972,449.7,444.7,107.2,107.2,,,San Miguel,On-Air,Wide Area via links - Western Colorado - Eastern Utah,Grand Mesa Repeater Association ( GMRA ),E-power.,,3710,CCARC,yes,,,,,,,,,,,,,,RACES: Wed at 19:30.,,,,,,,Closed IRLP out - Ask for a control Op,,,,,,Full-time to the  GMRA Open System .,,,,,,,,,,,,,,,,,,,,,,,,,
+444.95,5,100,W0MI,"Scott City, K-Link",KS,OPEN,I,242.4,SE,yes,20,6463,38.4809,-100.924,444.95,449.95,100,100,,,Scott,On-Air,Click for coverage map.  35 mi radius.,SHARC,"Linked to K-Link Repeater Network 
+IRLP node 7356.",,7356,,yes,http://ks0lnk.net,,,,,,,,,,,,,,,,,,,,"IRLP direct dial, 73 to disconnect. 
+Please return to 9335 when finished.",,,,,,Full-time to the  K-Link System .,,,,,,,,,,,,,,,,,,,,,,,,,
+449.4,-5,131.8,KB0YNA,"Delta, Uncompahgre Butte",CO,OPEN,I,245.6,WSW,yes,08,127,38.5767,-108.647,449.4,444.4,131.8,131.8,,,Mesa,On-Air,Wide area via links - Western Colorado - Eastern Utah,"WA4HND,  Grand Mesa Repeater Association",E-power.,,3710,CCARC,yes,http://www.gmra.org,,,,,,,,,,,,,RACES Wed 1930 Hrs,,,,,,,Closed IRLP out - Ask for a control op,,,,,,Full-time to the  GMRA Open System .,,,,,,,,,,,,,,,,,,,,,,,,,
+145.445,-0.6,110.9,KD7PPP,"Lander, airport",WY,OPEN,,249.4,NW,yes,56,40,42.5,-108.65,145.445,144.845,110.9,,,,Fremont,On-Air,Lander and north to Wind River Canyon and south in the Wind River Mountains.,"KC7CJN, WB7CJT",,,,WRCG,yes,,,,,,,,,,,,,,,,,,,FCARS,,5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+147.27,0.6,127.3,KB5ITT,"Silverton, Engineer Mountain",CO,OPEN,,251,SW,yes,08,208,37.6992,-107.806,147.27,147.87,127.3,,,,San Juan,On-Air,Wide area.,KB5ITT,E-power.,,,CCARC,yes,,,,,,,,,,,,,,,,,,,Durango ARC,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+146.985,-0.6,156.7,N0OMC,Lakin,KS,OPEN,,252.1,SE,yes,20,3967,37.9358,-101.264,146.985,146.385,156.7,156.7,,,Kearney,On-Air,"Kearny, Finney and Scott Counties",N0OMC,E-power,,,Kansas Repeater Council,yes,,,,,,,,,,,,,,,,,,,,,Linked full time to the Garden City 146.910 and Scott City 146.700 repeaters,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+442.5,5,141.3,K0ECT,"Garden City, Tennis",KS,OPEN,I,260.8,SE,yes,20,4046,38.164,-100.801,442.5,447.5,141.3,141.3,,,Finney,On-Air,,SKECT,E-power.,,3885,Kansas Repeater Council,yes,http://skect.org/default.aspx,,,,,,,,,,,,,,,,,,,,,,,,,,Full-time to the  SKECT System .,,,,,,,,,,,,,,,,,,,,,,,,,
+145.115,-0.6,100,K0FOP,"Riverton, Griffey Hill",WY,OPEN,E,261,NW,yes,56,35,43.025,-108.379,145.115,144.515,100,,,,Fremont,On-Air,Wide area:,Wyoming Amateur Monitoring Enthusiasts Club (WYAME),,,,WRCG,yes,,,,,,,,,,,,,,Wyoming DX association Net,,,,,,,,161145,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+147.555,299.1,CSQ,KG7LRK,"Riverton, Griffy site",WY,OPEN,E,261,NW,yes,56,17302,43.0247,-108.381,147.555,446.67,,,,,Washakie,Off-Air,Riverton Wyoming-Radius 147.555 to 446.670 Mhz- 160 Miles,WYAME-Wyoming Amatuer Monitoring Euthusiast,Echolink Access-DSTAR/Fusion C4FM/P25/APRS Link,,,,yes,https://www.facebook.com/groups/536584156430778/,yes,KG7LRK (C) Hot Spot 24/7,"jfindu lookup 
+    /   dstar-users lookup",,,,,,,,,,"Every Sunday- 7:00  PM,. Schedule.",,,,,LURK System,8,,161145,,,,,,,,,,,,,,,,,yes,,yes,,,,,,,,,,,
+449.975,-5,127.3,N7HYF,"Riverton, Griffy Hill",WY,OPEN,,261,NW,yes,56,13102,43.025,-108.38,449.975,444.975,127.3,CSQ,,,Fremont,On-Air,35,WYAME Amatuer Radio Club.,E-power (batt),,,WRCG,yes,,,,,,,,,,,,,,,,,,,Fremont County DSTAR Digital Group.,,"Antenna Decibal 4-Bay Dipole,60 watt input to Antenna(9dBd Gain,Omni,,",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+441.67,5,CSQ,N7DMO,"Riverton, Griffy Hill",WY,OPEN,E,263.8,NW,yes,56,13103,43.0387,-108.438,441.67,446.67,,,yes,Open ↑ / Open ↓,Fremont,On-Air,"DSTAR/C4FM/APRS Crossbander repeater 120 miles around Riverton Wy,",,Also Linked Controlled to Pinedale (146.880) Casper K7PLA (145.460).,,,,yes,,yes,N7DMO (B),"jfindu lookup 
+    /   dstar-users lookup",,,,,,,,,,,,,,,"N7DMO Link,to 52.525 Mhz, Simplex,",,,161145,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+146.91,-0.6,141.3,WA0OQA,Garden City,KS,OPEN,A,266.2,SE,yes,20,3959,37.9717,-100.873,146.91,146.31,141.3,141.3,,,Finney,On-Air,"Finney, Scott and Kearney counties.",Sand Hills ARC,E-power.,,,Kansas Repeater Council,yes,,,,,,,,,,,,,,Tue at 20:30.,,,,,,,Linked full time to Scott City 146.700 and Lakin 146.985 repeaters.,,,,,,"Full-time to  
+        146.70000 (WA0OQA) at Scott City, KS .",,,,,,,,48588,,,,,,,,,,,,,,,,,
+147.06,0.6,,K0ECT,Ulysses,KS,OPEN,,266.4,SE,yes,20,3979,37.5814,-101.355,147.06,147.66,,,,,Grant,On-Air,Local,SKECT,,,,Kansas Repeater Council,yes,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,

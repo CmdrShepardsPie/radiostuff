@@ -2,6 +2,5 @@ node_modules/
 .idea/
 .tmp/
 dist/
-data/repeaters/
 npm-debug.log
 .DS_Store
