@@ -1,5 +1,5 @@
-import * as _csv from "csv";
-import { promisify } from "util";
+import * as _csv from "csv/lib/es5";
+import * as promisify from "util.promisify";
 
 export const parseAsync = promisify(_csv.parse);
 export const stringifyAsync = promisify(_csv.stringify);

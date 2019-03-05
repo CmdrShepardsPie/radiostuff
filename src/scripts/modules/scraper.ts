@@ -64,7 +64,7 @@ export default class Scraper {
     const data: { [index: string]: string | number } = {};
     data.state_id = keyParts[1];
     data.ID = keyParts[2];
-    const menus = dom.window.document.querySelectorAll<HTMLAnchorElement>("#cssmenu a");
+    const menus = Array.from(dom.window.document.querySelectorAll<HTMLAnchorElement>("#cssmenu a"));
     const locationRegex = /(-?\d*\.?\d*)\+(-?\d*\.?\d*)/i;
     for (const menu of menus) {
       const locationMatch = menu.href.match(locationRegex);

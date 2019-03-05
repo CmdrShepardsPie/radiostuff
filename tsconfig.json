@@ -1,12 +1,8 @@
 {
   "compilerOptions": {
-    "target": "esnext",
     "module": "commonjs",
     "moduleResolution": "Node",
     "downlevelIteration": true,
-    "sourceMap": false,
-    "inlineSourceMap": false,
-    "inlineSources": false,
     "emitDecoratorMetadata": true,
     "experimentalDecorators": true,
     "forceConsistentCasingInFileNames": true,
@@ -16,10 +12,11 @@
     "importHelpers": true,
     "pretty": true,
     "strict": true,
-    "declaration": false,
-    "declarationMap": false,
     "outDir": "dist",
     "baseUrl": "src",
+    "lib": [
+      "esnext"
+    ],
     "paths": {
       "@helpers/*": ["helpers/*"],
       "@scripts/*": ["scripts/*"]

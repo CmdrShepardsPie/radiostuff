@@ -37,6 +37,15 @@ export default (async () => {
 
     return aStr > bStr ? 1 : aStr < bStr ? -1 : 0;
   });
+  const stats = combined.reduce((result, data) => {
+    const freq = Math.round(data.Frequency).toString();
+    const pow = Math.pow(10, Math.max(freq.length - 2, 0)) * 2;
+    const group = Math.round(data.Frequency / pow) * pow;
+    // console.log(freq, pow, group);
+    const count = result[group] || 0;
+    return {...result, [group]: count + 1 };
+  }, {});
+  console.log("STATS", stats);
   // combined.slice(0, 100).forEach((c) => log(c.Call, "\t", c.Latitude, "\t", c.Longitude, "\t", c.Mi));
   await writeToJsonAndCsv("data/repeaters/combined/CO", combined);
 })();
