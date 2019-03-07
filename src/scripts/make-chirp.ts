@@ -46,7 +46,7 @@ async function doIt(inFileName: string, outFileName: string) {
   const repeaters = JSON.parse(fileData.toString()) as IRepeater[];
 
   const mapped = repeaters
-    // .filter((r) => r.Call && r.Use === "OPEN" && r["Op Status"] !== "Off-Air")
+  // .filter((r) => r.Call && r.Use === "OPEN" && r["Op Status"] !== "Off-Air")
     .map((d, i) => ({ ...makeRow(d), Location: i }));
 
   return await writeToJsonAndCsv(outFileName, mapped);
@@ -55,21 +55,45 @@ async function doIt(inFileName: string, outFileName: string) {
 function makeRow(item: IRepeater) {
   const DTCS = /D(\d+)/;
 
-  const isDigital = Object.entries(item).filter((a) => /Enabled/.test(a[0])).length > 0;
+  // Doesn't account for multiple digital modes, uses the first one it finds
+  let isDigital = Object.keys(item).filter((key) => /Enabled/.test(key)).map((name) => (name.match(/(.*) Enabled/) || [])[1])[0];
+  if (isDigital) {
+    log("IS DIGITAL", isDigital);
+    isDigital = isDigital.replace(" Digital", "");
+    switch (isDigital) {
+      case "D-STAR":
+        isDigital = "DV"; // Documented mapping
+        break;
+      case "P25": // Literal mapping
+      case "DMR": // Literal mapping
+        break;
+      case "YSF":
+        isDigital = "DIG"; // Don't know if YSF = DIG mapping, but don't see any other candidates
+        break;
+      case "NXDN":
+        isDigital = "FSK"; // NXDN uses FSK, so assuming mapping
+        break;
+    }
+    log("IS DIGITAL", isDigital);
+  }
   const isNarrow = Object.entries(item).filter((a) => /Narrow/i.test(a[1] as string)).length > 0;
 
   const Name =
     // item.Frequency
     //   .toString()
-    item.Call
-      .toLocaleUpperCase()
-      .trim()
-      .substr(-3)
+    (
+      (item.Call || "")
+        .toLocaleUpperCase()
+        .trim()
+        .substr(-3)
+    )
     + "" +
-    item.Location
-      .replace(" ", "")
-      .toLocaleLowerCase()
-      .trim();
+    (
+      (item.Location || "")
+        .toLocaleLowerCase()
+        .trim()
+    )
+      .replace(/\s+/g, "");
 
   const Frequency = item.Frequency;
   const Duplex = item.Offset > 0 ? "+" : item.Offset < 0 ? "-" : "";
@@ -81,8 +105,8 @@ function makeRow(item: IRepeater) {
   let DtcsCode: any = "";
   let DtcsRxCode: any = "";
   let Tone = "";
-  const Mode = isDigital ? "DIG" : isNarrow ? "NFM" : "FM";
-  const Comment = `${item["ST/PR"]} ${item.County} ${item.Location} ${item.Call} ${item.Frequency} ${item.Use || ""} ${item["Op Status"] || ""}`;
+  const Mode = isDigital ? isDigital : isNarrow ? "NFM" : "FM";
+  const Comment = `${item["ST/PR"] || ""} ${item.County || ""} ${item.Location || ""} ${item.Call || ""} ${item.Sponsor || ""} ${item.Affiliate || ""} ${item.Frequency} ${item.Use || ""} ${item["Op Status"] || ""}`.replace(/\s+/g, " ");
 
   if (typeof UplinkTone === "number") {
     rToneFreq = UplinkTone;

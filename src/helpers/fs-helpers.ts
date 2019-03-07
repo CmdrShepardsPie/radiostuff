@@ -5,7 +5,7 @@ import {flattenObject} from "@helpers/helpers";
 import chalk from "chalk";
 import * as _fs from "fs";
 import * as path from "path";
-import * as promisify from "util.promisify";
+import { promisify } from "util";
 
 const log = createLog("FS Helpers");
 

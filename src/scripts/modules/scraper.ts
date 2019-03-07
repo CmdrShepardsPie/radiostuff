@@ -31,6 +31,7 @@ export default class Scraper {
   }
 
   private async getRepeaterList(document: Document) {
+    // const promises = [];
     log(chalk.green("Get Repeater List"));
 
     const table = document.querySelector("table.w3-table.w3-striped.w3-responsive");
@@ -46,12 +47,19 @@ export default class Scraper {
           cells.forEach((td, index) => data[headers[index]] = getTextOrNumber(td));
           const link = cells[0].querySelector("a");
           if (link) {
+            write("^");
+            // promises.push(this.getRepeaterDetails(link.href).then((d) => {
+            //   write("_");
+            //   Object.assign(data, d);
+            // }));
             Object.assign(data, await this.getRepeaterDetails(link.href));
+            write("_");
           }
           this.data.push(data);
         }
       }
     }
+    // return Promise.all(promises);
   }
 
   private async getRepeaterDetails(href: string) {
@@ -83,22 +91,30 @@ export default class Scraper {
         const cells = [...row.querySelectorAll("td")];
         const title = getText(cells[0]);
         const value = getTextOrNumber(cells[1]);
-        const dataKey = title.split(":")[0];
-        data[dataKey] = value;
+        const dataKey = title.split(":")[0].trim();
+        const dataVal = title.split(":")[1];
+        let updated: string | undefined;
+        if (dataVal) {
+          const date = dataVal.match(/(\d{4}-\d{2}-\d{2})/);
+          if (date && date[1]) {
+            updated = date[1];
+          }
+        }
+        data[dataKey] = updated || value;
       }
     }
-    log(
-      data.state_id ? data.state_id : "", "\t",
-      data.ID ? data.ID : "", "\t",
-      data.Latitude ? data.Latitude : "", "\t",
-      data.Longitude ? data.Longitude : "", "\t",
-      data.Call ? data.Call : "", "\t",
-      data.Downlink ? data.Downlink : "", "\t",
-      data.Use ? data.Use : "", "\t",
-      data["Op Status"] ? data["Op Status"] : "", "\t",
-      data.Affiliate ? data.Affiliate : "", "\t",
-      data.Sponsor ? data.Sponsor : "",
-    );
+    // log(
+    //   data.state_id ? data.state_id : "", "\t",
+    //   data.ID ? data.ID : "", "\t",
+    //   data.Latitude ? data.Latitude : "", "\t",
+    //   data.Longitude ? data.Longitude : "", "\t",
+    //   data.Call ? data.Call : "", "\t",
+    //   data.Downlink ? data.Downlink : "", "\t",
+    //   data.Use ? data.Use : "", "\t",
+    //   data["Op Status"] ? data["Op Status"] : "", "\t",
+    //   data.Affiliate ? data.Affiliate : "", "\t",
+    //   data.Sponsor ? data.Sponsor : "",
+    // );
     return data;
   }
 
@@ -121,7 +137,7 @@ export default class Scraper {
     const cache = await this.getCache(cacheKey || url);
     if (cache) {
       // log(chalk.yellow("Cached"), url, cacheKey);
-      // write(chalk.green(">"));
+      write("<");
       return cache;
     } else {
       // Slow down the requests a little bit so we're not hammering the server or triggering any anti-bot or DDoS protections
@@ -131,7 +147,7 @@ export default class Scraper {
       // log(chalk.yellow("Get"), url);
       const request = await Axios.get(url);
       // log(chalk.green("Got"), url);
-      // write(chalk.yellow("+"));
+      write(">");
 
       const data = request.data;
       await this.setCache(cacheKey || url, data);

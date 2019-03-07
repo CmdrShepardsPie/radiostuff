@@ -42,12 +42,12 @@ async function save(place: string | number, distance: number) {
   });
 
   result.sort((a, b) => {
-    const aMi = numberToString(a.Mi, 3, 3);
-    const bMi = numberToString(b.Mi, 3, 3);
+    const aMi = numberToString(a.Mi, 4, 5);
+    const bMi = numberToString(b.Mi, 4, 5);
     const aName = a.Call;
     const bName = b.Call;
-    const aFrequency = numberToString(a.Frequency, 3, 3);
-    const bFrequency = numberToString(b.Frequency, 3, 3);
+    const aFrequency = numberToString(a.Frequency, 4, 5);
+    const bFrequency = numberToString(b.Frequency, 4, 5);
     const aStr = `${aMi} ${aName} ${aFrequency}`;
     const bStr = `${bMi} ${bName} ${bFrequency}`;
     return aStr > bStr ? 1 : aStr < bStr ? -1 : 0;
