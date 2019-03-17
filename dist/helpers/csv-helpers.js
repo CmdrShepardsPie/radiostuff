@@ -39,7 +39,7 @@ var __spread = (this && this.__spread) || function () {
     }
 })(function (require, exports) {
     "use strict";
-    Object.defineProperty(exports, "__esModule", { value: true });
+    exports.__esModule = true;
     var _csv = require("csv");
     var util_1 = require("util");
     exports.parseAsync = util_1.promisify(_csv.parse);
