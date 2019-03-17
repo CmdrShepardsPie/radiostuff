@@ -1,7 +1,7 @@
 {
   "compilerOptions": {
-    "target": "esnext",
-    "module": "commonjs",
+    "target": "es5",
+    "module": "umd",
     "moduleResolution": "Node",
     "downlevelIteration": true,
     "emitDecoratorMetadata": true,
@@ -9,21 +9,25 @@
     "forceConsistentCasingInFileNames": true,
     "allowSyntheticDefaultImports": true,
     "preserveConstEnums": true,
-    "removeComments": true,
-    "importHelpers": true,
+    "declaration": true,
     "pretty": true,
     "strict": true,
-    "outDir": "dist",
-    "baseUrl": "src",
+    "inlineSourceMap": true,
+    "inlineSources": true,
     "lib": [
       "esnext"
     ],
+    "declarationMap": true,
+    "baseUrl": "src",
+    "outDir": "dist",
+    "declarationDir": "build",
     "paths": {
       "@helpers/*": ["helpers/*"],
       "@scripts/*": ["scripts/*"]
     }
   },
   "exclude": [
-    "dist"
+    "dist",
+    "build"
   ]
 }

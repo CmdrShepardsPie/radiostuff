@@ -7,15 +7,15 @@
     "build": "tsc",
     "watch": "tsc -w"
   },
-  "author": "",
+  "author": "Christopher Simpson <github@nilk.net>",
   "license": "ISC",
   "_moduleAliases": {
     "@helpers": "dist/helpers",
     "@scripts": "dist/scripts"
   },
   "engines": {
-    "node": "~8.15.1",
-    "npm": "~6.4.1"
+    "node": "~8",
+    "npm": "~6"
   },
   "dependencies": {
     "axios": "~0.18.0",
