@@ -1,25 +1,25 @@
 {
   "compilerOptions": {
     "target": "esnext",
-    "module": "commonjs",
+    "module": "umd",
     "moduleResolution": "Node",
     "emitDecoratorMetadata": true,
     "experimentalDecorators": true,
     "forceConsistentCasingInFileNames": true,
     "allowSyntheticDefaultImports": true,
     "preserveConstEnums": true,
-    "declaration": true,
+    "declaration": false,
     "pretty": true,
     "strict": true,
-    "inlineSourceMap": true,
-    "inlineSources": true,
-    "lib": [
-      "esnext"
-    ],
-    "declarationMap": true,
+    "inlineSourceMap": false,
+    "inlineSources": false,
+    "declarationMap": false,
     "baseUrl": "src",
     "outDir": "dist",
-    "declarationDir": "build",
+    "lib": [
+      "esnext",
+      "dom"
+    ],
     "paths": {
       "@helpers/*": ["helpers/*"],
       "@scripts/*": ["scripts/*"]
