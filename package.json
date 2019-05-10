@@ -5,17 +5,14 @@
   "main": "index.js",
   "scripts": {
     "build": "tsc",
-    "watch": "tsc -w"
+    "watch": "tsc -w",
+    "all": "tsc && node dist/scripts/get-repeaters.js && node dist/scripts/combine.js && node dist/scripts/group-by.js && node dist/scripts/make-chirp.js"
   },
   "author": "Christopher Simpson <github@nilk.net>",
   "license": "ISC",
   "_moduleAliases": {
     "@helpers": "dist/helpers",
     "@scripts": "dist/scripts"
-  },
-  "engines": {
-    "node": "~8",
-    "npm": "~6"
   },
   "dependencies": {
     "axios": "~0.18.0",

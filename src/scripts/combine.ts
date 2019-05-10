@@ -7,7 +7,7 @@ import {createLog} from "@helpers/log-helpers";
 const log = createLog("Combine");
 
 export default (async () => {
-  const myPoint = [38.833881, -104.821365];
+  const myPoint = [39.6268703, -104.8957382];
   const combined: any[] = [];
   const files = await getAllFilesFromDirectory<any[]>("data/repeaters/results/CO");
   log("Got", files.length, "files");

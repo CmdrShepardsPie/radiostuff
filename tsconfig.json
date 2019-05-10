@@ -1,9 +1,8 @@
 {
   "compilerOptions": {
-    "target": "es3",
-    "module": "umd",
+    "target": "esnext",
+    "module": "commonjs",
     "moduleResolution": "Node",
-    "downlevelIteration": true,
     "emitDecoratorMetadata": true,
     "experimentalDecorators": true,
     "forceConsistentCasingInFileNames": true,
