@@ -49,7 +49,7 @@ export async function dirExists(filePath: string) {
   return exists;
 }
 
-export async function writeToJsonAndCsv(filename: string, jsonData: any, csvData: any = jsonData) {
+export async function writeToJsonAndCsv(filename: string, jsonData: any, csvData: any = jsonData, header = true) {
   // log(chalk.green("Write to Json and CSV"), filename);
 
   const jsonString = JSON.stringify(jsonData, null, 2);
@@ -60,7 +60,7 @@ export async function writeToJsonAndCsv(filename: string, jsonData: any, csvData
   const csvPrep = Array.isArray(csvData) ?
     fillArrayObjects(csvData.map((r: any) => flattenObject(r))) :
     [flattenObject(csvData)];
-  const csvString = await stringifyAsync(csvPrep, {header: true});
+  const csvString = await stringifyAsync(csvPrep, {header});
   const csvName = `${filename}.csv`;
   await writeFileAsync(csvName, csvString);
 }
