@@ -6,7 +6,8 @@
   "scripts": {
     "build": "tsc",
     "watch": "tsc -w",
-    "all": "tsc && node dist/scripts/get-repeaters.js && node dist/scripts/combine.js && node dist/scripts/group-by.js && node dist/scripts/make-chirp.js"
+    "all": "tsc && node dist/scripts/get-repeaters.js && node dist/scripts/combine.js && node dist/scripts/group-by.js && node dist/scripts/make-chirp.js",
+    "no-scrape": "tsc && node dist/scripts/combine.js && node dist/scripts/group-by.js && node dist/scripts/make-chirp.js"
   },
   "author": "Christopher Simpson <github@nilk.net>",
   "license": "ISC",

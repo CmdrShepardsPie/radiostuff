@@ -47,7 +47,8 @@ async function doIt(inFileName: string, outFileName: string) {
 
   const mapped = repeaters
   // .filter((r) => r.Call && r.Use === "OPEN" && r["Op Status"] !== "Off-Air")
-    .map((d, i) => ({ ...makeRow(d), Location: i }));
+    .map((d, i) => ({ ...makeRow(d), Location: i }))
+    .slice(0, 200);
 
   return await writeToJsonAndCsv(outFileName, mapped);
 }
@@ -65,6 +66,8 @@ function makeRow(item: IRepeater) {
         isDigital = "DV"; // Documented mapping
         break;
       case "P25": // Literal mapping
+      case "P-25":
+        isDigital = "P25";
       case "DMR": // Literal mapping
         break;
       case "YSF":

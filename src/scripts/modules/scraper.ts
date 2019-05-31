@@ -141,7 +141,7 @@ export default class Scraper {
       return cache;
     } else {
       // Slow down the requests a little bit so we're not hammering the server or triggering any anti-bot or DDoS protections
-      const waitTime = (Math.random() * 5000);
+      const waitTime = (1000 + (Math.random() * 5000));
 
       await wait(waitTime);
       // log(chalk.yellow("Get"), url);
