@@ -85,4 +85,6 @@ export interface IRepeater {
   "WIRES-X"?: number;
   "Worldwide English"?: number;
   "N. Colorado"?: number;
+  Comment?: string;
+  Name?: string;
 }
