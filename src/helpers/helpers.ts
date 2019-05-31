@@ -47,7 +47,7 @@ export function numberToString(num: number, major?: number, minor?: number) {
   return str;
 }
 
-export function flattenObject(data: object) {
+export function flattenObject(data: any) {
   if (!data || typeof data !== "object" || Array.isArray(data)) {
     return data;
   }
@@ -57,8 +57,8 @@ export function flattenObject(data: object) {
     loop = false;
     const entries = Object.entries(subData);
     for (const entry of entries) {
-      const key = entry[0] as keyof typeof subData;
-      const value = entry[1];
+      const key: any = entry[0];
+      const value: any = entry[1];
       if (typeof value === "object" && !Array.isArray(value)) {
         delete subData[key];
         const valueWithKeynames: any = {};

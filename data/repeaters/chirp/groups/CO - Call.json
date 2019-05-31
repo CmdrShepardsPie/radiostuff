@@ -1,6 +1,38 @@
 [
   {
     "Location": 0,
+    "Name": "KEGcentennial",
+    "Frequency": 147.315,
+    "Duplex": "+",
+    "Offset": 0.6,
+    "Tone": "",
+    "rToneFreq": 88.5,
+    "cToneFreq": 88.5,
+    "DtcsCode": 23,
+    "DtcsRxCode": 23,
+    "DtcsPolarity": "NN",
+    "Mode": "DV",
+    "TStep": 5,
+    "Comment": "CO Arapahoe Centennial N0KEG N0KEG Parker Radio Association 147.315 OPEN "
+  },
+  {
+    "Location": 1,
+    "Name": "KEGparker",
+    "Frequency": 448.05,
+    "Duplex": "-",
+    "Offset": 5,
+    "Tone": "",
+    "rToneFreq": 88.5,
+    "cToneFreq": 88.5,
+    "DtcsCode": 23,
+    "DtcsRxCode": 23,
+    "DtcsPolarity": "NN",
+    "Mode": "DMR",
+    "TStep": 5,
+    "Comment": "CO Douglas Parker N0KEG 448.05 OPEN "
+  },
+  {
+    "Location": 2,
     "Name": "AENaurora",
     "Frequency": 449.15,
     "Duplex": "-",
@@ -16,7 +48,7 @@
     "Comment": "CO Arapahoe Aurora WR0AEN Colorado Amateur Repeater Network (CARN) 449.15 OPEN On-Air"
   },
   {
-    "Location": 1,
+    "Location": 3,
     "Name": "AENdenver",
     "Frequency": 449.65,
     "Duplex": "-",
@@ -32,7 +64,7 @@
     "Comment": "CO Denver Denver WR0AEN Colorado Amateur Repeater Network (CARN) 449.65 OPEN On-Air"
   },
   {
-    "Location": 2,
+    "Location": 4,
     "Name": "AENdenver",
     "Frequency": 449.675,
     "Duplex": "-",
@@ -48,7 +80,7 @@
     "Comment": "CO Denver Denver WR0AEN Colorado Amateur Repeater Network (CARN) 449.675 OPEN On-Air"
   },
   {
-    "Location": 3,
+    "Location": 5,
     "Name": "AENidahosprings,squawmountain",
     "Frequency": 449,
     "Duplex": "-",
@@ -64,7 +96,7 @@
     "Comment": "CO Clear Creek Idaho Springs, Squaw Mountain WR0AEN CARN 449 OPEN On-Air"
   },
   {
-    "Location": 4,
+    "Location": 6,
     "Name": "AENgreeley",
     "Frequency": 449.325,
     "Duplex": "-",
@@ -80,7 +112,7 @@
     "Comment": "CO Weld Greeley WR0AEN Colorado Amateur Repeater Network (CARN) 449.325 OPEN On-Air"
   },
   {
-    "Location": 5,
+    "Location": 7,
     "Name": "ZUQaurora",
     "Frequency": 448.4,
     "Duplex": "-",
@@ -96,7 +128,7 @@
     "Comment": "CO Arapahoe Aurora N0ZUQ 448.4 OPEN On-Air"
   },
   {
-    "Location": 6,
+    "Location": 8,
     "Name": "ZUQfortcollins,christmountain",
     "Frequency": 449.425,
     "Duplex": "-",
@@ -112,7 +144,7 @@
     "Comment": "CO Larimer Fort Collins, Christ Mountain N0ZUQ 449.425 OPEN On-Air"
   },
   {
-    "Location": 7,
+    "Location": 9,
     "Name": "ZUQfortcollins,christmountain",
     "Frequency": 927.875,
     "Duplex": "-",
@@ -128,7 +160,7 @@
     "Comment": "CO Larimer Fort Collins, Christ Mountain N0ZUQ WA6IMI 927.875 OPEN Off-Air"
   },
   {
-    "Location": 8,
+    "Location": 10,
     "Name": "0BGaurora",
     "Frequency": 448.275,
     "Duplex": "-",
@@ -144,7 +176,7 @@
     "Comment": "CO Arapahoe Aurora W0BG W0BG 448.275 OPEN On-Air"
   },
   {
-    "Location": 9,
+    "Location": 11,
     "Name": "ANTaurora",
     "Frequency": 448.825,
     "Duplex": "-",
@@ -160,7 +192,7 @@
     "Comment": "CO Arapahoe Aurora WN7ANT 448.825 OPEN On-Air"
   },
   {
-    "Location": 10,
+    "Location": 12,
     "Name": "UDDaurora,smokeyhill",
     "Frequency": 448.5,
     "Duplex": "-",
@@ -176,11 +208,11 @@
     "Comment": "CO Denver Aurora, Smokey Hill KB0UDD Castle Rock Repeater Group 448.5 OPEN On-Air"
   },
   {
-    "Location": 11,
+    "Location": 13,
     "Name": "UDDaurora,smokyhill",
     "Frequency": 145.4,
     "Duplex": "-",
-    "Offset": 0.8,
+    "Offset": 0.6,
     "Tone": "Tone",
     "rToneFreq": 100,
     "cToneFreq": 100,
@@ -192,7 +224,7 @@
     "Comment": "CO Arapahoe Aurora, Smoky Hill KB0UDD Castle Rock Repeater Group 145.4 OPEN On-Air"
   },
   {
-    "Location": 12,
+    "Location": 14,
     "Name": "UDDidahosprings,squawmountain",
     "Frequency": 146.67,
     "Duplex": "-",
@@ -208,7 +240,7 @@
     "Comment": "CO Clear Creek Idaho Springs, Squaw Mountain KB0UDD Castle Rock Repeater Group 146.67 OPEN On-Air"
   },
   {
-    "Location": 13,
+    "Location": 15,
     "Name": "Q8Mparker",
     "Frequency": 448.7,
     "Duplex": "-",
@@ -224,7 +256,7 @@
     "Comment": "CO Douglas Parker WQ8M 448.7 OPEN On-Air"
   },
   {
-    "Location": 14,
+    "Location": 16,
     "Name": "OBAaurora",
     "Frequency": 145.19,
     "Duplex": "-",
@@ -240,7 +272,7 @@
     "Comment": "CO Arapahoe Aurora N0OBA N0OBA 145.19 OPEN On-Air"
   },
   {
-    "Location": 15,
+    "Location": 17,
     "Name": "FEZdenver",
     "Frequency": 447.925,
     "Duplex": "-",
@@ -256,7 +288,7 @@
     "Comment": "CO Denver Denver K0FEZ RADOPS El Jebel Shriners 447.925 OPEN On-Air"
   },
   {
-    "Location": 16,
+    "Location": 18,
     "Name": "FEZgolden,centennialcone",
     "Frequency": 146.985,
     "Duplex": "-",
@@ -272,7 +304,7 @@
     "Comment": "CO Denver Golden, Centennial Cone K0FEZ El Jebel RADOPS 146.985 OPEN On-Air"
   },
   {
-    "Location": 17,
+    "Location": 19,
     "Name": "TPTdenver",
     "Frequency": 447.9,
     "Duplex": "-",
@@ -288,7 +320,7 @@
     "Comment": "CO Denver Denver WB0TPT WB0TPT 447.9 OPEN Off-Air"
   },
   {
-    "Location": 18,
+    "Location": 20,
     "Name": "0SJboulder,bluemountain",
     "Frequency": 145.475,
     "Duplex": "-",
@@ -304,7 +336,7 @@
     "Comment": "CO Jefferson Boulder, Blue Mountain KE0SJ Intermountain Repeater Group 145.475 OPEN On-Air"
   },
   {
-    "Location": 19,
+    "Location": 21,
     "Name": "0SJlochbuie",
     "Frequency": 447.625,
     "Duplex": "-",
@@ -320,7 +352,7 @@
     "Comment": "CO Adams Lochbuie KE0SJ Intermountain Repeater Group 447.625 OPEN On-Air"
   },
   {
-    "Location": 20,
+    "Location": 22,
     "Name": "0SJgolden,centennialcone",
     "Frequency": 145.28,
     "Duplex": "-",
@@ -336,7 +368,7 @@
     "Comment": "CO Jefferson Golden, Centennial Cone KE0SJ 145.28 OPEN On-Air"
   },
   {
-    "Location": 21,
+    "Location": 23,
     "Name": "0SJgolden,centennialcone",
     "Frequency": 449.525,
     "Duplex": "-",
@@ -352,7 +384,7 @@
     "Comment": "CO Jefferson Golden, Centennial Cone KE0SJ KE0SJ 449.525 OPEN On-Air"
   },
   {
-    "Location": 22,
+    "Location": 24,
     "Name": "JXNdenver",
     "Frequency": 146.715,
     "Duplex": "-",
@@ -368,7 +400,7 @@
     "Comment": "CO Denver Denver N0JXN EARS 146.715 OPEN On-Air"
   },
   {
-    "Location": 23,
+    "Location": 25,
     "Name": "EHPdenver",
     "Frequency": 448.075,
     "Duplex": "-",
@@ -384,7 +416,7 @@
     "Comment": "CO Denver Denver N5EHP W0IG 448.075 OPEN On-Air"
   },
   {
-    "Location": 24,
+    "Location": 26,
     "Name": "KIZdenver",
     "Frequency": 448.55,
     "Duplex": "-",
@@ -400,7 +432,7 @@
     "Comment": "CO Denver Denver W0KIZ HPRA 448.55 OPEN Off-Air"
   },
   {
-    "Location": 25,
+    "Location": 27,
     "Name": "ESQparker,hessreservoir",
     "Frequency": 447.525,
     "Duplex": "-",
@@ -416,7 +448,7 @@
     "Comment": "CO Douglas Parker, Hess Reservoir N0ESQ EmComm Colorado Colorado ARES 447.525 OPEN On-Air"
   },
   {
-    "Location": 26,
+    "Location": 28,
     "Name": "ESQcastlerock,devilshead",
     "Frequency": 446.925,
     "Duplex": "-",
@@ -432,7 +464,7 @@
     "Comment": "CO Douglas Castle Rock, Devils Head N0ESQ 446.925 OPEN On-Air"
   },
   {
-    "Location": 27,
+    "Location": 29,
     "Name": "ESQcastlerock,devilshead(pikenationalforest)",
     "Frequency": 447.525,
     "Duplex": "-",
@@ -448,7 +480,7 @@
     "Comment": "CO Douglas Castle Rock, Devils Head (Pike National Forest) N0ESQ EmComm Colorado Colorado ARES 447.525 OPEN On-Air"
   },
   {
-    "Location": 28,
+    "Location": 30,
     "Name": "9SLcastlepines,danielspark",
     "Frequency": 449.95,
     "Duplex": "-",
@@ -464,7 +496,7 @@
     "Comment": "CO Douglas Castle Pines, Daniels Park W9SL W9SL Owner 449.95 OPEN On-Air"
   },
   {
-    "Location": 29,
+    "Location": 31,
     "Name": "JRLdenver,broadwayplazalofts",
     "Frequency": 447.175,
     "Duplex": "-",
@@ -480,7 +512,7 @@
     "Comment": "CO Denver Denver, Broadway Plaza Lofts W0JRL W0JRL 447.175 OPEN On-Air"
   },
   {
-    "Location": 30,
+    "Location": 32,
     "Name": "PWOcentennial",
     "Frequency": 449.425,
     "Duplex": "-",
@@ -496,7 +528,7 @@
     "Comment": "CO Arapahoe Centennial K0PWO K0PWO 449.425 OPEN Off-Air"
   },
   {
-    "Location": 31,
+    "Location": 33,
     "Name": "GURdenver,greenvalleyranch",
     "Frequency": 448.15,
     "Duplex": "-",
@@ -512,7 +544,7 @@
     "Comment": "CO Denver Denver, Green Valley Ranch K0GUR K0GUR 448.15 OPEN On-Air"
   },
   {
-    "Location": 32,
+    "Location": 34,
     "Name": "ELYlakewood",
     "Frequency": 448.75,
     "Duplex": "-",
@@ -528,7 +560,7 @@
     "Comment": "CO Jefferson Lakewood N0ELY N0ELY 448.75 OPEN On-Air"
   },
   {
-    "Location": 33,
+    "Location": 35,
     "Name": "0TXlakewood,stanthonymedicalcampus",
     "Frequency": 447.825,
     "Duplex": "-",
@@ -544,7 +576,7 @@
     "Comment": "CO Jefferson Lakewood, St Anthony Medical Campus W0TX Denver Radio Club 447.825 OPEN On-Air"
   },
   {
-    "Location": 34,
+    "Location": 36,
     "Name": "0TXlakewood,greenmountain",
     "Frequency": 147.33,
     "Duplex": "+",
@@ -560,7 +592,7 @@
     "Comment": "CO Jefferson Lakewood, Green Mountain W0TX Denver Radio Club 147.33 OPEN On-Air"
   },
   {
-    "Location": 35,
+    "Location": 37,
     "Name": "0TXlakewood,greenmountain",
     "Frequency": 224.38,
     "Duplex": "-",
@@ -576,7 +608,7 @@
     "Comment": "CO Jefferson Lakewood, Green Mountain W0TX Denver Radio Club 224.38 OPEN On-Air"
   },
   {
-    "Location": 36,
+    "Location": 38,
     "Name": "0TXlakewood,greenmtn",
     "Frequency": 449.775,
     "Duplex": "-",
@@ -592,7 +624,7 @@
     "Comment": "CO Jefferson Lakewood, Green Mtn W0TX Denver Radio Club 449.775 OPEN On-Air"
   },
   {
-    "Location": 37,
+    "Location": 39,
     "Name": "0TXlakewood,greenmountain",
     "Frequency": 53.09,
     "Duplex": "-",
@@ -608,7 +640,7 @@
     "Comment": "CO Jefferson Lakewood, Green Mountain W0TX Denver Radio Club 53.09 OPEN On-Air"
   },
   {
-    "Location": 38,
+    "Location": 40,
     "Name": "0TXgolden,centennialcone",
     "Frequency": 448.625,
     "Duplex": "-",
@@ -624,7 +656,7 @@
     "Comment": "CO Jefferson Golden, Centennial Cone W0TX Denver Radio Club 448.625 OPEN On-Air"
   },
   {
-    "Location": 39,
+    "Location": 41,
     "Name": "0TXdenver,centennialcone",
     "Frequency": 446.7875,
     "Duplex": "-",
@@ -640,7 +672,7 @@
     "Comment": "CO Jefferson Denver, Centennial Cone W0TX Denver Radio Club Brandmeister Network 446.7875 OPEN On-Air"
   },
   {
-    "Location": 40,
+    "Location": 42,
     "Name": "0TXidahosprings,centennialcone",
     "Frequency": 145.49,
     "Duplex": "-",
@@ -656,7 +688,7 @@
     "Comment": "CO Jefferson Idaho Springs, Centennial Cone W0TX KB0VIU, Denver Radio Club 145.49 OPEN On-Air"
   },
   {
-    "Location": 41,
+    "Location": 43,
     "Name": "0TXidahosprings,squawmountain",
     "Frequency": 449.35,
     "Duplex": "-",
@@ -672,7 +704,7 @@
     "Comment": "CO Clear Creek Idaho Springs, Squaw Mountain W0TX Denver Radio Club 449.35 OPEN On-Air"
   },
   {
-    "Location": 42,
+    "Location": 44,
     "Name": "UPSwestminster",
     "Frequency": 449.3,
     "Duplex": "-",
@@ -688,7 +720,7 @@
     "Comment": "CO Adams Westminster N1UPS N1UPS 449.3 OPEN On-Air"
   },
   {
-    "Location": 43,
+    "Location": 45,
     "Name": "SSPlakewood,moffattreatmentplant",
     "Frequency": 147.21,
     "Duplex": "+",
@@ -704,7 +736,7 @@
     "Comment": "CO Jefferson Lakewood, Moffat Treatment Plant KD0SSP Denver Water Amateur Radio Club 147.21 OPEN On-Air"
   },
   {
-    "Location": 44,
+    "Location": 46,
     "Name": "SSPlakewood,moffattreatmentplant",
     "Frequency": 448.35,
     "Duplex": "-",
@@ -720,7 +752,7 @@
     "Comment": "CO Jefferson Lakewood, Moffat Treatment Plant KD0SSP Denver Water Amateur Radio Club (DWARC) 448.35 OPEN On-Air"
   },
   {
-    "Location": 45,
+    "Location": 47,
     "Name": "TUBcentennial,warrenmountain",
     "Frequency": 146.88,
     "Duplex": "-",
@@ -736,7 +768,7 @@
     "Comment": "CO Jefferson Centennial, Warren Mountain WB0TUB Denver Radio League 146.88 OPEN On-Air"
   },
   {
-    "Location": 46,
+    "Location": 48,
     "Name": "TUBcentennial,warrenmountain",
     "Frequency": 449.6,
     "Duplex": "-",
@@ -752,7 +784,7 @@
     "Comment": "CO Jefferson Centennial, Warren Mountain WB0TUB Denver Radio League 449.6 OPEN On-Air"
   },
   {
-    "Location": 47,
+    "Location": 49,
     "Name": "TUBgolden,centennialcone",
     "Frequency": 146.64,
     "Duplex": "-",
@@ -768,7 +800,7 @@
     "Comment": "CO Jefferson Golden, Centennial Cone WB0TUB Denver Radio League 146.64 OPEN On-Air"
   },
   {
-    "Location": 48,
+    "Location": 50,
     "Name": "PRAparker",
     "Frequency": 445.075,
     "Duplex": "-",
@@ -784,7 +816,7 @@
     "Comment": "CO Douglas Parker K0PRA Parker Radio Association 445.075 OPEN On-Air"
   },
   {
-    "Location": 49,
+    "Location": 51,
     "Name": "PRAfranktown",
     "Frequency": 446.85,
     "Duplex": "-",
@@ -800,7 +832,7 @@
     "Comment": "CO Douglas Franktown K0PRA Parker Radio Association 446.85 OPEN On-Air"
   },
   {
-    "Location": 50,
+    "Location": 52,
     "Name": "0MLnorthglenn",
     "Frequency": 147.045,
     "Duplex": "+",
@@ -816,7 +848,7 @@
     "Comment": "CO Adams Northglenn K0ML Northglenn RA 147.045 OPEN On-Air"
   },
   {
-    "Location": 51,
+    "Location": 53,
     "Name": "0HCindianhills,chiefmtn",
     "Frequency": 927.9375,
     "Duplex": "-",
@@ -832,7 +864,7 @@
     "Comment": "CO Jefferson Indian Hills, Chief Mtn KI0HC 927.9375 OPEN On-Air"
   },
   {
-    "Location": 52,
+    "Location": 54,
     "Name": "0HCparker",
     "Frequency": 927.8375,
     "Duplex": "-",
@@ -848,7 +880,7 @@
     "Comment": "CO Douglas Parker KI0HC 927.8375 OPEN On-Air"
   },
   {
-    "Location": 53,
+    "Location": 55,
     "Name": "0HCgolden,centennialcone",
     "Frequency": 927.8375,
     "Duplex": "-",
@@ -864,11 +896,11 @@
     "Comment": "CO Jefferson Golden, Centennial Cone KI0HC 927.8375 OPEN On-Air"
   },
   {
-    "Location": 54,
+    "Location": 56,
     "Name": "LXXmorrison,mt.morrison",
     "Frequency": 53.17,
     "Duplex": "-",
-    "Offset": 1.7,
+    "Offset": 0.5,
     "Tone": "Tone",
     "rToneFreq": 107.2,
     "cToneFreq": 107.2,
@@ -880,7 +912,7 @@
     "Comment": "CO Jefferson Morrison, Mt. Morrison N6LXX N6LXX N6LXX 53.17 OPEN On-Air"
   },
   {
-    "Location": 55,
+    "Location": 57,
     "Name": "LXXmorrison,mt.morrison",
     "Frequency": 447.875,
     "Duplex": "-",
@@ -896,7 +928,7 @@
     "Comment": "CO Jefferson Morrison, Mt. Morrison N6LXX N6LXX N6LXX 447.875 OPEN On-Air"
   },
   {
-    "Location": 56,
+    "Location": 58,
     "Name": "OWYconifer,critchellmountain",
     "Frequency": 447.5,
     "Duplex": "-",
@@ -912,7 +944,7 @@
     "Comment": "CO Jefferson Conifer, Critchell Mountain N0OWY Aurora Repeater Association 447.5 OPEN On-Air"
   },
   {
-    "Location": 57,
+    "Location": 59,
     "Name": "PYYgolden",
     "Frequency": 927.7875,
     "Duplex": "-",
@@ -928,7 +960,7 @@
     "Comment": "CO Jefferson Golden N0PYY N0PYY 927.7875 OPEN On-Air"
   },
   {
-    "Location": 58,
+    "Location": 60,
     "Name": "PYYgolden",
     "Frequency": 448.125,
     "Duplex": "-",
@@ -944,7 +976,7 @@
     "Comment": "CO Jefferson Golden N0PYY Denver PD EEB 448.125 OPEN On-Air"
   },
   {
-    "Location": 59,
+    "Location": 61,
     "Name": "PYYevergreen,squawmountain",
     "Frequency": 147.3,
     "Duplex": "+",
@@ -960,7 +992,7 @@
     "Comment": "CO Clear Creek Evergreen, Squaw Mountain N0PYY Denver PD EEB 147.3 OPEN On-Air"
   },
   {
-    "Location": 60,
+    "Location": 62,
     "Name": "0GVgolden",
     "Frequency": 448.975,
     "Duplex": "-",
@@ -976,7 +1008,7 @@
     "Comment": "CO Jefferson Golden W0GV FRG 448.975 OPEN On-Air"
   },
   {
-    "Location": 61,
+    "Location": 63,
     "Name": "WYXbroomfield",
     "Frequency": 449.825,
     "Duplex": "-",
@@ -992,7 +1024,7 @@
     "Comment": "CO Boulder Broomfield W0WYX Rocky Mountain Radio League 449.825 OPEN On-Air"
   },
   {
-    "Location": 62,
+    "Location": 64,
     "Name": "WYXidahosprings,squawmountain",
     "Frequency": 146.94,
     "Duplex": "-",
@@ -1008,7 +1040,7 @@
     "Comment": "CO Clear Creek Idaho Springs, Squaw Mountain W0WYX Rocky Mtn Radio League 146.94 OPEN On-Air"
   },
   {
-    "Location": 63,
+    "Location": 65,
     "Name": "LMAbroomfield",
     "Frequency": 448.925,
     "Duplex": "-",
@@ -1024,7 +1056,7 @@
     "Comment": "CO Boulder Broomfield W0LMA W0LMA 448.925 OPEN On-Air"
   },
   {
-    "Location": 64,
+    "Location": 66,
     "Name": "YZTgolden,lookout",
     "Frequency": 446.8375,
     "Duplex": "-",
@@ -1040,7 +1072,7 @@
     "Comment": "CO Jefferson Golden, Lookout WA2YZT WA2YZT 446.8375 OPEN On-Air"
   },
   {
-    "Location": 65,
+    "Location": 67,
     "Name": "CDSgolden,lookoutmountain",
     "Frequency": 145.25,
     "Duplex": "-",
@@ -1056,7 +1088,7 @@
     "Comment": "CO Jefferson Golden, Lookout Mountain W0CDS Colorado D-Star 145.25 OPEN On-Air"
   },
   {
-    "Location": 66,
+    "Location": 68,
     "Name": "CDSgolden,lookoutmountain",
     "Frequency": 446.9625,
     "Duplex": "-",
@@ -1072,7 +1104,7 @@
     "Comment": "CO Jefferson Golden, Lookout Mountain W0CDS Colorado D-Star 446.9625 OPEN On-Air"
   },
   {
-    "Location": 67,
+    "Location": 69,
     "Name": "CDSgolden,lookoutmountain",
     "Frequency": 1283.9625,
     "Duplex": "-",
@@ -1088,7 +1120,7 @@
     "Comment": "CO Jefferson Golden, Lookout Mountain W0CDS Colorado D-Star 1283.9625 OPEN On-Air"
   },
   {
-    "Location": 68,
+    "Location": 70,
     "Name": "CDSgolden,lookoutmountain",
     "Frequency": 1299.9,
     "Duplex": "",
@@ -1104,7 +1136,7 @@
     "Comment": "CO Jefferson Golden, Lookout Mountain W0CDS Colorado D-Star 1299.9 OPEN On-Air"
   },
   {
-    "Location": 69,
+    "Location": 71,
     "Name": "0SZgolden,lookoutmountain",
     "Frequency": 145.37,
     "Duplex": "-",
@@ -1120,7 +1152,7 @@
     "Comment": "CO Jefferson Golden, Lookout Mountain N0SZ Rocky Mountain Ham Radio 145.37 OPEN On-Air"
   },
   {
-    "Location": 70,
+    "Location": 72,
     "Name": "0SZevergreen,squawmountain",
     "Frequency": 145.175,
     "Duplex": "-",
@@ -1136,7 +1168,7 @@
     "Comment": "CO Clear Creek Evergreen, Squaw Mountain N0SZ Rocky Mountain Ham Radio 145.175 OPEN On-Air"
   },
   {
-    "Location": 71,
+    "Location": 73,
     "Name": "0SZboulder,mountthorodin",
     "Frequency": 446.8,
     "Duplex": "-",
@@ -1152,7 +1184,7 @@
     "Comment": "CO Boulder Boulder, Mount Thorodin N0SZ Rocky Mountain Ham Radio Rocky Mountain Ham Radio 446.8 OPEN On-Air"
   },
   {
-    "Location": 72,
+    "Location": 74,
     "Name": "0SZwestcreek",
     "Frequency": 446.875,
     "Duplex": "-",
@@ -1168,7 +1200,7 @@
     "Comment": "CO Douglas Westcreek N0SZ W0VG RMHAM 446.875 OPEN On-Air"
   },
   {
-    "Location": 73,
+    "Location": 75,
     "Name": "0SZdenver,thorodinmountain",
     "Frequency": 449.225,
     "Duplex": "-",
@@ -1184,7 +1216,7 @@
     "Comment": "CO Gilpin Denver, Thorodin Mountain N0SZ Rocky Mountain Ham Radio (RMHR) 449.225 OPEN On-Air"
   },
   {
-    "Location": 74,
+    "Location": 76,
     "Name": "0SZidahosprings,squawmountain",
     "Frequency": 448.225,
     "Duplex": "-",
@@ -1200,7 +1232,7 @@
     "Comment": "CO Clear Creek Idaho Springs, Squaw Mountain N0SZ Rocky Mountain Ham Radio 448.225 OPEN On-Air"
   },
   {
-    "Location": 75,
+    "Location": 77,
     "Name": "0SZidahosprings,squawmountain",
     "Frequency": 446.9375,
     "Duplex": "-",
@@ -1216,7 +1248,7 @@
     "Comment": "CO Clear Creek Idaho Springs, Squaw Mountain N0SZ Rocky Mountain Ham Radio 446.9375 OPEN On-Air"
   },
   {
-    "Location": 76,
+    "Location": 78,
     "Name": "0SZboulder,leehill",
     "Frequency": 445.05,
     "Duplex": "-",
@@ -1232,7 +1264,7 @@
     "Comment": "CO Boulder Boulder, Lee Hill N0SZ Rocky Mountain Ham Radio 445.05 OPEN On-Air"
   },
   {
-    "Location": 77,
+    "Location": 79,
     "Name": "0SZboulder,leehill",
     "Frequency": 446.9875,
     "Duplex": "-",
@@ -1248,7 +1280,7 @@
     "Comment": "CO Boulder Boulder, Lee Hill N0SZ Rocky Mountain Ham Radio 446.9875 OPEN On-Air"
   },
   {
-    "Location": 78,
+    "Location": 80,
     "Name": "0SZboulder,leehill",
     "Frequency": 447.75,
     "Duplex": "-",
@@ -1264,7 +1296,7 @@
     "Comment": "CO Boulder Boulder, Lee Hill N0SZ Rocky Mountain Ham Radio 447.75 OPEN On-Air"
   },
   {
-    "Location": 79,
+    "Location": 81,
     "Name": "0SZcoloradosprings,almagremountain",
     "Frequency": 145.235,
     "Duplex": "-",
@@ -1280,7 +1312,7 @@
     "Comment": "CO El Paso Colorado Springs, Almagre Mountain N0SZ RMHAM 145.235 OPEN On-Air"
   },
   {
-    "Location": 80,
+    "Location": 82,
     "Name": "0SZcoloradosprings,cheyennemountain",
     "Frequency": 445.0625,
     "Duplex": "-",
@@ -1293,10 +1325,10 @@
     "DtcsPolarity": "NN",
     "Mode": "DMR",
     "TStep": 5,
-    "Comment": "CO El Paso Colorado Springs, Cheyenne Mountain N0SZ Rocky Mountain Ham Radio 445.0625 OPEN Off-Air"
+    "Comment": "CO El Paso Colorado Springs, Cheyenne Mountain N0SZ Rocky Mountain Ham Radio N0SZ Colorado Springs Brandmeister 445.0625 OPEN On-Air"
   },
   {
-    "Location": 81,
+    "Location": 83,
     "Name": "0SZbreckenridge,baldy",
     "Frequency": 445.0875,
     "Duplex": "-",
@@ -1312,7 +1344,7 @@
     "Comment": "CO Fremont Breckenridge, Baldy N0SZ K2AD Rocky Mountain Ham Radio 445.0875 OPEN On-Air"
   },
   {
-    "Location": 82,
+    "Location": 84,
     "Name": "0SZfairplay,badger",
     "Frequency": 446.7625,
     "Duplex": "-",
@@ -1328,7 +1360,7 @@
     "Comment": "CO Park Fairplay, Badger N0SZ K7PFJ RMHAM 446.7625 OPEN On-Air"
   },
   {
-    "Location": 83,
+    "Location": 85,
     "Name": "0SZleadville,mosquitopass",
     "Frequency": 445.05,
     "Duplex": "-",
@@ -1344,7 +1376,7 @@
     "Comment": "CO Lake Leadville, Mosquito Pass N0SZ K2AD Rocky Mountain Ham Radio 445.05 OPEN On-Air"
   },
   {
-    "Location": 84,
+    "Location": 86,
     "Name": "0SZvail",
     "Frequency": 445.075,
     "Duplex": "-",
@@ -1360,7 +1392,7 @@
     "Comment": "CO Eagle Vail N0SZ K2AD Rocky Mountain Ham Radio 445.075 OPEN On-Air"
   },
   {
-    "Location": 85,
+    "Location": 87,
     "Name": "0SZsalida,methodistmountain",
     "Frequency": 446.8125,
     "Duplex": "-",
@@ -1376,7 +1408,7 @@
     "Comment": "CO Chaffee Salida, Methodist Mountain N0SZ RMHAM 446.8125 OPEN On-Air"
   },
   {
-    "Location": 86,
+    "Location": 88,
     "Name": "0SZdurango,missionaryridge",
     "Frequency": 445.1375,
     "Duplex": "-",
@@ -1392,7 +1424,7 @@
     "Comment": "CO La Plata Durango, Missionary Ridge N0SZ K2AD Rocky Mountain Ham Radio 445.1375 OPEN On-Air"
   },
   {
-    "Location": 87,
+    "Location": 89,
     "Name": "0SZrangely,cathedralbluffs",
     "Frequency": 445.2625,
     "Duplex": "-",
@@ -1408,7 +1440,7 @@
     "Comment": "CO Rio Blanco Rangely, Cathedral Bluffs N0SZ RMHAM 445.2625 OPEN On-Air"
   },
   {
-    "Location": 88,
+    "Location": 90,
     "Name": "VGDgolden,tablemountain",
     "Frequency": 446.975,
     "Duplex": "-",
@@ -1424,7 +1456,7 @@
     "Comment": "CO Jefferson Golden, Table Mountain KB0VGD W0DMR 446.975 OPEN On-Air"
   },
   {
-    "Location": 89,
+    "Location": 91,
     "Name": "VGDfortcollins,horsetoothmountain",
     "Frequency": 145.265,
     "Duplex": "-",
@@ -1440,7 +1472,7 @@
     "Comment": "CO Larimer Fort Collins , Horsetooth Mountain KB0VGD W0DMR - NoCo C-bridge Network Brandmeister Network 145.265 OPEN On-Air"
   },
   {
-    "Location": 90,
+    "Location": 92,
     "Name": "0KUgolden,lookoutmountain",
     "Frequency": 449.625,
     "Duplex": "-",
@@ -1456,7 +1488,7 @@
     "Comment": "CO Jefferson Golden, Lookout Mountain W0KU Rocky Mountain Ham Radio 449.625 OPEN On-Air"
   },
   {
-    "Location": 91,
+    "Location": 93,
     "Name": "0KCfortlupton",
     "Frequency": 447.3,
     "Duplex": "-",
@@ -1472,7 +1504,7 @@
     "Comment": "CO Weld Fort Lupton AC0KC 447.3 OPEN On-Air"
   },
   {
-    "Location": 92,
+    "Location": 94,
     "Name": "0KCfortlupton",
     "Frequency": 224.96,
     "Duplex": "-",
@@ -1488,7 +1520,7 @@
     "Comment": "CO Weld Fort Lupton AC0KC AC0KC 224.96 OPEN On-Air"
   },
   {
-    "Location": 93,
+    "Location": 95,
     "Name": "GUQevergreen",
     "Frequency": 145.34,
     "Duplex": "-",
@@ -1504,7 +1536,7 @@
     "Comment": "CO Jefferson Evergreen KE4GUQ Rocky Mtn Radio League 145.34 OPEN On-Air"
   },
   {
-    "Location": 94,
+    "Location": 96,
     "Name": "CRAconifer,conifermountain",
     "Frequency": 224.98,
     "Duplex": "-",
@@ -1520,7 +1552,7 @@
     "Comment": "CO Jefferson Conifer, Conifer Mountain W0CRA Colorado Repeater Association 224.98 OPEN Off-Air"
   },
   {
-    "Location": 95,
+    "Location": 97,
     "Name": "CRAconifer,conifermountain",
     "Frequency": 447.15,
     "Duplex": "-",
@@ -1536,7 +1568,7 @@
     "Comment": "CO Jefferson Conifer, Conifer Mountain W0CRA Colorado Repeater Association (CRA) 447.15 OPEN Off-Air"
   },
   {
-    "Location": 96,
+    "Location": 98,
     "Name": "CRAconifer,conifermountain",
     "Frequency": 1287.9,
     "Duplex": "-",
@@ -1552,7 +1584,7 @@
     "Comment": "CO Jefferson Conifer, Conifer Mountain W0CRA Colorado Repeater Association (CRA) 1287.9 OPEN Off-Air"
   },
   {
-    "Location": 97,
+    "Location": 99,
     "Name": "CRAlarkspur,westcreek",
     "Frequency": 147.225,
     "Duplex": "+",
@@ -1568,7 +1600,7 @@
     "Comment": "CO Douglas Larkspur, Westcreek W0CRA Colorado Repeater Association (CRA) CRA VHF Link System 147.225 OPEN On-Air"
   },
   {
-    "Location": 98,
+    "Location": 100,
     "Name": "CRAlarkspur,westcreek",
     "Frequency": 448.425,
     "Duplex": "-",
@@ -1584,7 +1616,7 @@
     "Comment": "CO Douglas Larkspur, Westcreek W0CRA Colorado Repeater Association (CRA) ARESDEC 448.425 OPEN On-Air"
   },
   {
-    "Location": 99,
+    "Location": 101,
     "Name": "CRAconifer,conifermountain",
     "Frequency": 53.05,
     "Duplex": "-",
@@ -1600,7 +1632,7 @@
     "Comment": "CO Jefferson Conifer, Conifer Mountain W0CRA Colorado Repeater Association (CRA) 53.05 OPEN Off-Air"
   },
   {
-    "Location": 100,
+    "Location": 102,
     "Name": "CRAidahosprings,squawmountain",
     "Frequency": 145.145,
     "Duplex": "-",
@@ -1616,7 +1648,7 @@
     "Comment": "CO Clear Creek Idaho Springs, Squaw Mountain W0CRA Colorado Repeater Assoc 145.145 OPEN On-Air"
   },
   {
-    "Location": 101,
+    "Location": 103,
     "Name": "CRAidahosprings,squawmountain",
     "Frequency": 447.575,
     "Duplex": "-",
@@ -1632,7 +1664,7 @@
     "Comment": "CO Clear Creek Idaho Springs, Squaw Mountain W0CRA Colorado Repeater Association (CRA) 447.575 OPEN On-Air"
   },
   {
-    "Location": 102,
+    "Location": 104,
     "Name": "CRAboulder,eldoradomountain",
     "Frequency": 145.46,
     "Duplex": "-",
@@ -1648,7 +1680,7 @@
     "Comment": "CO Boulder Boulder, Eldorado Mountain W0CRA Colorado Repeater Association (CRA) CRA VHF Link System 145.46 OPEN On-Air"
   },
   {
-    "Location": 103,
+    "Location": 105,
     "Name": "CRAboulder,eldoradomountain",
     "Frequency": 447.975,
     "Duplex": "-",
@@ -1664,7 +1696,7 @@
     "Comment": "CO Boulder Boulder, Eldorado Mountain W0CRA Colorado Repeater Association (CRA) 447.975 OPEN On-Air"
   },
   {
-    "Location": 104,
+    "Location": 106,
     "Name": "CRAcoloradosprings,cheyennemountain",
     "Frequency": 145.16,
     "Duplex": "-",
@@ -1680,7 +1712,7 @@
     "Comment": "CO El Paso Colorado Springs, Cheyenne Mountain W0CRA Colorado Repeater Association CRA VHF Link System 145.16 OPEN On-Air"
   },
   {
-    "Location": 105,
+    "Location": 107,
     "Name": "0GOgolden,guyhill",
     "Frequency": 449.75,
     "Duplex": "-",
@@ -1696,7 +1728,7 @@
     "Comment": "CO Jefferson Golden, Guy Hill KI0GO Rocky Mtn Radio League 449.75 OPEN On-Air"
   },
   {
-    "Location": 106,
+    "Location": 108,
     "Name": "POHgolden,guyhill",
     "Frequency": 224.74,
     "Duplex": "-",
@@ -1712,7 +1744,7 @@
     "Comment": "CO Jefferson Golden, Guy Hill N0POH Aurora Repeater Assoc 224.74 OPEN On-Air"
   },
   {
-    "Location": 107,
+    "Location": 109,
     "Name": "T0Cgolden,guyhill",
     "Frequency": 145.22,
     "Duplex": "-",
@@ -1728,7 +1760,7 @@
     "Comment": "CO Jefferson Golden, Guy Hill WT0C Rocky Mtn Radio League 145.22 OPEN On-Air"
   },
   {
-    "Location": 108,
+    "Location": 110,
     "Name": "IBMgolden,guyhill",
     "Frequency": 448.85,
     "Duplex": "-",
@@ -1744,7 +1776,7 @@
     "Comment": "CO Jefferson Golden, Guy Hill K0IBM Aurora Repeater Assoc 448.85 OPEN On-Air"
   },
   {
-    "Location": 109,
+    "Location": 111,
     "Name": "MHUgolden,guyhill",
     "Frequency": 224,
     "Duplex": "-",
@@ -1760,7 +1792,7 @@
     "Comment": "CO Jefferson Golden, Guy Hill N0MHU Rocky Mountain Radio League 224 OPEN On-Air"
   },
   {
-    "Location": 110,
+    "Location": 112,
     "Name": "CBIgolden,guyhill",
     "Frequency": 147.15,
     "Duplex": "+",
@@ -1776,7 +1808,7 @@
     "Comment": "CO Jefferson Golden, Guy Hill W0CBI Aurora Repeater Assoc (ARA) 147.15 OPEN On-Air"
   },
   {
-    "Location": 111,
+    "Location": 113,
     "Name": "ARAcritchell,critchellmountain",
     "Frequency": 147.12,
     "Duplex": "+",
@@ -1792,7 +1824,7 @@
     "Comment": "CO Jefferson Critchell, Critchell Mountain N0ARA Aurora Repeater Association 147.12 OPEN On-Air"
   },
   {
-    "Location": 112,
+    "Location": 114,
     "Name": "0EBhudson",
     "Frequency": 449.925,
     "Duplex": "-",
@@ -1808,7 +1840,7 @@
     "Comment": "CO Weld Hudson K0EB K0EB K0UPS Club 449.925 OPEN On-Air"
   },
   {
-    "Location": 113,
+    "Location": 115,
     "Name": "JSClarkspur,westcreek",
     "Frequency": 449.975,
     "Duplex": "-",
@@ -1824,7 +1856,7 @@
     "Comment": "CO Douglas Larkspur, Westcreek K0JSC K0JSC The Fun Machine 449.975 OPEN On-Air"
   },
   {
-    "Location": 114,
+    "Location": 116,
     "Name": "JSCcanoncity,canoncity",
     "Frequency": 449.975,
     "Duplex": "-",
@@ -1840,7 +1872,7 @@
     "Comment": "CO Fremont Canon City, Canon City K0JSC K0JSC The Fun Machine 449.975 OPEN On-Air"
   },
   {
-    "Location": 115,
+    "Location": 117,
     "Name": "JSCcanoncity,fremontpeak",
     "Frequency": 446.7375,
     "Duplex": "-",
@@ -1856,7 +1888,7 @@
     "Comment": "CO Fremont Canon City, Fremont Peak K0JSC Rocky Mountain Ham Radio 446.7375 OPEN On-Air"
   },
   {
-    "Location": 116,
+    "Location": 118,
     "Name": "JSCcanoncity,fremontpeak",
     "Frequency": 447.25,
     "Duplex": "-",
@@ -1872,7 +1904,7 @@
     "Comment": "CO Fremont Canon City, Fremont Peak K0JSC 447.25 OPEN On-Air"
   },
   {
-    "Location": 117,
+    "Location": 119,
     "Name": "JSCcanoncity,colorado",
     "Frequency": 447.975,
     "Duplex": "-",
@@ -1888,7 +1920,7 @@
     "Comment": "CO Fremont Canon City, Colorado K0JSC K0JSC 447.975 OPEN On-Air"
   },
   {
-    "Location": 118,
+    "Location": 120,
     "Name": "JSCpueblowest",
     "Frequency": 448.975,
     "Duplex": "-",
@@ -1904,7 +1936,7 @@
     "Comment": "CO Pueblo Pueblo West K0JSC 448.975 OPEN On-Air"
   },
   {
-    "Location": 119,
+    "Location": 121,
     "Name": "JSCpueblo",
     "Frequency": 446.9875,
     "Duplex": "-",
@@ -1920,7 +1952,7 @@
     "Comment": "CO Pueblo Pueblo K0JSC RMHAM 446.9875 OPEN Off-Air"
   },
   {
-    "Location": 120,
+    "Location": 122,
     "Name": "JSCpueblo,metro",
     "Frequency": 447.275,
     "Duplex": "-",
@@ -1936,7 +1968,7 @@
     "Comment": "CO Pueblo Pueblo, Metro K0JSC The Fun Machine 447.275 OPEN On-Air"
   },
   {
-    "Location": 121,
+    "Location": 123,
     "Name": "JSCwestcliffe",
     "Frequency": 448.325,
     "Duplex": "-",
@@ -1952,7 +1984,7 @@
     "Comment": "CO Custer Westcliffe K0JSC The Fun Machine 448.325 OPEN On-Air"
   },
   {
-    "Location": 122,
+    "Location": 124,
     "Name": "JSCsalida,methodistmountain",
     "Frequency": 449.975,
     "Duplex": "-",
@@ -1968,7 +2000,7 @@
     "Comment": "CO Chaffee Salida, Methodist Mountain K0JSC 449.975 OPEN On-Air"
   },
   {
-    "Location": 123,
+    "Location": 125,
     "Name": "JSCpueblo,cedarwood",
     "Frequency": 449.975,
     "Duplex": "-",
@@ -1984,7 +2016,7 @@
     "Comment": "CO Pueblo Pueblo, Cedarwood K0JSC K0JSC 449.975 OPEN On-Air"
   },
   {
-    "Location": 124,
+    "Location": 126,
     "Name": "XLFpalmerlake,monumenthill",
     "Frequency": 145.19,
     "Duplex": "-",
@@ -2000,7 +2032,7 @@
     "Comment": "CO Douglas Palmer Lake, Monument Hill N0XLF N0OBA Owner 145.19 OPEN On-Air"
   },
   {
-    "Location": 125,
+    "Location": 127,
     "Name": "0IAboulder,gunbarrelhill",
     "Frequency": 146.76,
     "Duplex": "-",
@@ -2016,7 +2048,7 @@
     "Comment": "CO Boulder Boulder, Gunbarrel Hill W0IA Rocky Mtn VHF Soc Boulder County ARES 146.76 OPEN On-Air"
   },
   {
-    "Location": 126,
+    "Location": 128,
     "Name": "0IAboulder",
     "Frequency": 449.55,
     "Duplex": "-",
@@ -2032,7 +2064,7 @@
     "Comment": "CO Boulder Boulder W0IA Rocky Mtn VHF Soc 449.55 OPEN On-Air"
   },
   {
-    "Location": 127,
+    "Location": 129,
     "Name": "0IAboulder,leehill",
     "Frequency": 224.02,
     "Duplex": "-",
@@ -2048,7 +2080,7 @@
     "Comment": "CO Boulder Boulder, Lee Hill W0IA Rocky Mtn VHF Soc 224.02 OPEN On-Air"
   },
   {
-    "Location": 128,
+    "Location": 130,
     "Name": "0DKboulder,tablemesa",
     "Frequency": 448.9,
     "Duplex": "-",
@@ -2064,7 +2096,7 @@
     "Comment": "CO Boulder Boulder, Table Mesa W0DK Boulder ARC 448.9 OPEN On-Air"
   },
   {
-    "Location": 129,
+    "Location": 131,
     "Name": "0DKboulder",
     "Frequency": 146.61,
     "Duplex": "-",
@@ -2080,7 +2112,7 @@
     "Comment": "CO Boulder Boulder W0DK Boulder Amateur Radio Club 146.61 OPEN Off-Air"
   },
   {
-    "Location": 130,
+    "Location": 132,
     "Name": "0DKboulder,tablemountain",
     "Frequency": 146.7,
     "Duplex": "-",
@@ -2096,7 +2128,7 @@
     "Comment": "CO Boulder Boulder, Table Mountain W0DK Boulder Co ARC 146.7 OPEN On-Air"
   },
   {
-    "Location": 131,
+    "Location": 133,
     "Name": "0DKboulder",
     "Frequency": 1299.5,
     "Duplex": "-",
@@ -2112,7 +2144,7 @@
     "Comment": "CO Boulder Boulder W0DK Boulder County ARES 1299.5 OPEN On-Air"
   },
   {
-    "Location": 132,
+    "Location": 134,
     "Name": "0DSboulder",
     "Frequency": 145.3875,
     "Duplex": "-",
@@ -2128,7 +2160,7 @@
     "Comment": "CO Boulder Boulder KC0DS Boulder County ARES 145.3875 OPEN On-Air"
   },
   {
-    "Location": 133,
+    "Location": 135,
     "Name": "0DSboulder",
     "Frequency": 1283.8625,
     "Duplex": "-",
@@ -2144,7 +2176,7 @@
     "Comment": "CO Boulder Boulder KC0DS Boulder County ARES 1283.8625 OPEN On-Air"
   },
   {
-    "Location": 134,
+    "Location": 136,
     "Name": "0DSboulder",
     "Frequency": 446.8625,
     "Duplex": "-",
@@ -2160,7 +2192,7 @@
     "Comment": "CO Boulder Boulder KC0DS Boulder County ARES 446.8625 OPEN On-Air"
   },
   {
-    "Location": 135,
+    "Location": 137,
     "Name": "0NRmonument,monumenthill",
     "Frequency": 447.725,
     "Duplex": "-",
@@ -2176,7 +2208,7 @@
     "Comment": "CO El Paso Monument, Monument Hill K0NR K0NR 447.725 OPEN On-Air"
   },
   {
-    "Location": 136,
+    "Location": 138,
     "Name": "0DKboulder",
     "Frequency": 449.4,
     "Duplex": "-",
@@ -2192,7 +2224,7 @@
     "Comment": "CO Boulder Boulder K0DK BARC 449.4 OPEN Off-Air"
   },
   {
-    "Location": 137,
+    "Location": 139,
     "Name": "0DKboulder",
     "Frequency": 146.73,
     "Duplex": "-",
@@ -2208,7 +2240,7 @@
     "Comment": "CO Boulder Boulder K0DK BARC 146.73 OPEN Off-Air"
   },
   {
-    "Location": 138,
+    "Location": 140,
     "Name": "0KQevergreen,saddlebackmountain",
     "Frequency": 447.85,
     "Duplex": "-",
@@ -2224,7 +2256,7 @@
     "Comment": "CO Clear Creek Evergreen, Saddleback Mountain AC0KQ AC0KQ Rocky Mountain Ham Radio 447.85 OPEN On-Air"
   },
   {
-    "Location": 139,
+    "Location": 141,
     "Name": "ENOlongmont",
     "Frequency": 147.27,
     "Duplex": "+",
@@ -2240,7 +2272,7 @@
     "Comment": "CO Boulder Longmont W0ENO Longmont ARC (LARC) 147.27 OPEN On-Air"
   },
   {
-    "Location": 140,
+    "Location": 142,
     "Name": "ENOlongmont",
     "Frequency": 448.8,
     "Duplex": "-",
@@ -2256,7 +2288,7 @@
     "Comment": "CO Boulder Longmont W0ENO Longmont ARC 448.8 OPEN On-Air"
   },
   {
-    "Location": 141,
+    "Location": 143,
     "Name": "EPAlongmont",
     "Frequency": 448.525,
     "Duplex": "-",
@@ -2272,7 +2304,7 @@
     "Comment": "CO Boulder Longmont N0EPA N0EPA 448.525 OPEN On-Air"
   },
   {
-    "Location": 142,
+    "Location": 144,
     "Name": "VJJboulder,thorodinmountain",
     "Frequency": 145.31,
     "Duplex": "-",
@@ -2288,7 +2320,7 @@
     "Comment": "CO Gilpin Boulder, Thorodin Mountain KB0VJJ Colorado Connection 145.31 OPEN On-Air"
   },
   {
-    "Location": 143,
+    "Location": 145,
     "Name": "VJJcoloradosprings,cheyennemountain",
     "Frequency": 145.13,
     "Duplex": "-",
@@ -2304,7 +2336,7 @@
     "Comment": "CO El Paso Colorado Springs, Cheyenne Mountain KB0VJJ Colorado Connection 145.13 OPEN On-Air"
   },
   {
-    "Location": 144,
+    "Location": 146,
     "Name": "VJJwinterpark,winterpark",
     "Frequency": 147.285,
     "Duplex": "+",
@@ -2320,7 +2352,7 @@
     "Comment": "CO Grand Winter Park, Winter Park KB0VJJ Colorado Connection 147.285 OPEN On-Air"
   },
   {
-    "Location": 145,
+    "Location": 147,
     "Name": "VJJbreckenridge,baldmountain",
     "Frequency": 147.39,
     "Duplex": "+",
@@ -2336,7 +2368,7 @@
     "Comment": "CO Summit Breckenridge, Bald Mountain KB0VJJ Colorado Connection 147.39 OPEN On-Air"
   },
   {
-    "Location": 146,
+    "Location": 148,
     "Name": "VJJleadville,mosquitopass",
     "Frequency": 145.445,
     "Duplex": "-",
@@ -2352,7 +2384,7 @@
     "Comment": "CO Lake Leadville, Mosquito Pass KB0VJJ Colorado Connection 145.445 OPEN On-Air"
   },
   {
-    "Location": 147,
+    "Location": 149,
     "Name": "VJJkremmling,santoypeak",
     "Frequency": 147.075,
     "Duplex": "+",
@@ -2368,7 +2400,7 @@
     "Comment": "CO Grand Kremmling, Santoy Peak KB0VJJ Colorado Connection 147.075 OPEN On-Air"
   },
   {
-    "Location": 148,
+    "Location": 150,
     "Name": "VJJvail",
     "Frequency": 147.345,
     "Duplex": "+",
@@ -2384,7 +2416,7 @@
     "Comment": "CO Eagle Vail KB0VJJ Colorado Connection 147.345 OPEN On-Air"
   },
   {
-    "Location": 149,
+    "Location": 151,
     "Name": "VJJsalida,methodistmountain",
     "Frequency": 147.285,
     "Duplex": "+",
@@ -2400,7 +2432,7 @@
     "Comment": "CO Chaffee Salida, Methodist Mountain KB0VJJ Colorado Connection 147.285 OPEN On-Air"
   },
   {
-    "Location": 150,
+    "Location": 152,
     "Name": "VJJakron",
     "Frequency": 145.4,
     "Duplex": "-",
@@ -2416,7 +2448,7 @@
     "Comment": "CO Washington Akron KB0VJJ Colorado Connection 145.4 OPEN On-Air"
   },
   {
-    "Location": 151,
+    "Location": 153,
     "Name": "VJJwalden,petersonridge",
     "Frequency": 145.16,
     "Duplex": "-",
@@ -2432,7 +2464,7 @@
     "Comment": "CO Jackson Walden, Peterson Ridge KB0VJJ Colorado Connection 145.16 OPEN On-Air"
   },
   {
-    "Location": 152,
+    "Location": 154,
     "Name": "VJJsteamboatsprings",
     "Frequency": 147.165,
     "Duplex": "+",
@@ -2448,7 +2480,7 @@
     "Comment": "CO Routt Steamboat Springs KB0VJJ Colorado Connection 147.165 OPEN On-Air"
   },
   {
-    "Location": 153,
+    "Location": 155,
     "Name": "VJJsteamboatsprings",
     "Frequency": 449.625,
     "Duplex": "-",
@@ -2464,7 +2496,7 @@
     "Comment": "CO Routt Steamboat Springs KB0VJJ Colorado Connection Repeaters, Inc. 449.625 OPEN On-Air"
   },
   {
-    "Location": 154,
+    "Location": 156,
     "Name": "VJJglenwoodsprings,sunlightpeak",
     "Frequency": 146.85,
     "Duplex": "-",
@@ -2480,7 +2512,7 @@
     "Comment": "CO Garfield Glenwood Springs, Sunlight Peak KB0VJJ Colorado Connection 146.85 OPEN On-Air"
   },
   {
-    "Location": 155,
+    "Location": 157,
     "Name": "VJJcraig",
     "Frequency": 146.97,
     "Duplex": "-",
@@ -2496,7 +2528,7 @@
     "Comment": "CO Moffat Craig KB0VJJ Northwest Colorado Amateur Radio Association Colorado Connection 146.97 OPEN On-Air"
   },
   {
-    "Location": 156,
+    "Location": 158,
     "Name": "VJJgrandjunction,grandmesa",
     "Frequency": 145.355,
     "Duplex": "-",
@@ -2512,7 +2544,7 @@
     "Comment": "CO Mesa Grand Junction, Grand Mesa KB0VJJ Colorado Connection 145.355 OPEN On-Air"
   },
   {
-    "Location": 157,
+    "Location": 159,
     "Name": "VJJdurango,missionaryridge",
     "Frequency": 147.345,
     "Duplex": "+",
@@ -2528,7 +2560,7 @@
     "Comment": "CO La Plata Durango, Missionary Ridge KB0VJJ Colorado Connection 147.345 OPEN On-Air"
   },
   {
-    "Location": 158,
+    "Location": 160,
     "Name": "VJJgrandjunction,grandmesa",
     "Frequency": 147.355,
     "Duplex": "-",
@@ -2544,7 +2576,7 @@
     "Comment": "CO Mesa Grand Junction, Grand Mesa KB0VJJ Colorado Connection 147.355 OPEN On-Air"
   },
   {
-    "Location": 159,
+    "Location": 161,
     "Name": "CFIidahosprings,squawmountain",
     "Frequency": 448.675,
     "Duplex": "-",
@@ -2560,7 +2592,7 @@
     "Comment": "CO Denver Idaho Springs, Squaw Mountain W0CFI W0CFI 448.675 OPEN On-Air"
   },
   {
-    "Location": 160,
+    "Location": 162,
     "Name": "DUNidahosprings,squawmountain",
     "Frequency": 449.45,
     "Duplex": "-",
@@ -2576,7 +2608,7 @@
     "Comment": "CO Clear Creek Idaho Springs, Squaw Mountain K1DUN Rocky Mountain Radio League 449.45 OPEN On-Air"
   },
   {
-    "Location": 161,
+    "Location": 163,
     "Name": "0PCbailey,dickmountain",
     "Frequency": 146.895,
     "Duplex": "-",
@@ -2592,7 +2624,7 @@
     "Comment": "CO Park Bailey, Dick Mountain AB0PC AB0RR 146.895 OPEN On-Air"
   },
   {
-    "Location": 162,
+    "Location": 164,
     "Name": "G0Nidahosprings,squawmountain",
     "Frequency": 449.05,
     "Duplex": "-",
@@ -2608,7 +2640,7 @@
     "Comment": "CO Denver Idaho Springs, Squaw Mountain WG0N WG0N 449.05 OPEN On-Air"
   },
   {
-    "Location": 163,
+    "Location": 165,
     "Name": "MDPfalcon,blackforest",
     "Frequency": 447.625,
     "Duplex": "-",
@@ -2624,7 +2656,7 @@
     "Comment": "CO El Paso Falcon, Black Forest KD0MDP KD0MDP The Fun Machine 447.625 OPEN On-Air"
   },
   {
-    "Location": 164,
+    "Location": 166,
     "Name": "X0Gwoodlandpark",
     "Frequency": 146.82,
     "Duplex": "-",
@@ -2640,7 +2672,7 @@
     "Comment": "CO Teller Woodland Park NX0G Mountain ARC 146.82 OPEN On-Air"
   },
   {
-    "Location": 165,
+    "Location": 167,
     "Name": "X0Gwoodlandpark",
     "Frequency": 448.65,
     "Duplex": "-",
@@ -2656,7 +2688,7 @@
     "Comment": "CO Teller Woodland Park NX0G Mountain ARC (MARC) MARC 448.65 OPEN On-Air"
   },
   {
-    "Location": 166,
+    "Location": 168,
     "Name": "X0Gcoloradosprings",
     "Frequency": 447.475,
     "Duplex": "-",
@@ -2672,7 +2704,7 @@
     "Comment": "CO El Paso Colorado Springs NX0G Mountain ARC (MARC) 447.475 OPEN "
   },
   {
-    "Location": 167,
+    "Location": 169,
     "Name": "X0Glakegeorge,badgermountain",
     "Frequency": 146.685,
     "Duplex": "-",
@@ -2688,7 +2720,7 @@
     "Comment": "CO Park Lake George, Badger Mountain NX0G Mountain ARC (MARC) 146.685 OPEN On-Air"
   },
   {
-    "Location": 168,
+    "Location": 170,
     "Name": "X0Gcripplecreek",
     "Frequency": 147.015,
     "Duplex": "+",
@@ -2704,7 +2736,7 @@
     "Comment": "CO Teller Cripple Creek NX0G Mountain ARC 147.015 OPEN On-Air"
   },
   {
-    "Location": 169,
+    "Location": 171,
     "Name": "WUCwoodlandpark",
     "Frequency": 145.415,
     "Duplex": "-",
@@ -2720,7 +2752,7 @@
     "Comment": "CO Teller Woodland Park KA0WUC MARC 145.415 OPEN "
   },
   {
-    "Location": 170,
+    "Location": 172,
     "Name": "WUCwoodlandpark",
     "Frequency": 449.025,
     "Duplex": "-",
@@ -2736,7 +2768,7 @@
     "Comment": "CO Teller Woodland Park KA0WUC Mountain Amateur Radio Club (MARC) 449.025 OPEN "
   },
   {
-    "Location": 171,
+    "Location": 173,
     "Name": "WUCwoodlandpark",
     "Frequency": 447.675,
     "Duplex": "-",
@@ -2752,7 +2784,7 @@
     "Comment": "CO Teller Woodland Park KA0WUC Mountain Amateur Radio Club (MARC) 447.675 OPEN On-Air"
   },
   {
-    "Location": 172,
+    "Location": 174,
     "Name": "WUCwoodlandpark",
     "Frequency": 927.9,
     "Duplex": "-",
@@ -2768,7 +2800,7 @@
     "Comment": "CO Teller Woodland Park KA0WUC MARC 927.9 OPEN On-Air"
   },
   {
-    "Location": 173,
+    "Location": 175,
     "Name": "EPSwoodlandpark,paradisepines",
     "Frequency": 449.325,
     "Duplex": "-",
@@ -2784,7 +2816,39 @@
     "Comment": "CO Teller Woodland Park, Paradise Pines KA4EPS KA4EPS Amateur Radio Motorcycle Club 449.325 OPEN On-Air"
   },
   {
-    "Location": 174,
+    "Location": 176,
+    "Name": "KWDlasalle",
+    "Frequency": 147,
+    "Duplex": "+",
+    "Offset": 0.6,
+    "Tone": "Tone",
+    "rToneFreq": 100,
+    "cToneFreq": 100,
+    "DtcsCode": 23,
+    "DtcsRxCode": 23,
+    "DtcsPolarity": "NN",
+    "Mode": "DIG",
+    "TStep": 5,
+    "Comment": "CO Weld LaSalle KC0KWD Weld ARS 147 OPEN On-Air"
+  },
+  {
+    "Location": 177,
+    "Name": "KWDgreeley",
+    "Frequency": 448.475,
+    "Duplex": "-",
+    "Offset": 5,
+    "Tone": "Tone",
+    "rToneFreq": 100,
+    "cToneFreq": 100,
+    "DtcsCode": 23,
+    "DtcsRxCode": 23,
+    "DtcsPolarity": "NN",
+    "Mode": "FM",
+    "TStep": 5,
+    "Comment": "CO Weld Greeley KC0KWD Weld Amateur Radio Society (WARS) 448.475 OPEN On-Air"
+  },
+  {
+    "Location": 178,
     "Name": "0RMrollinsville",
     "Frequency": 224.6,
     "Duplex": "-",
@@ -2800,7 +2864,7 @@
     "Comment": "CO Gilpin Rollinsville W0RM W0RM 224.6 OPEN "
   },
   {
-    "Location": 175,
+    "Location": 179,
     "Name": "0JZgoldhill",
     "Frequency": 146.91,
     "Duplex": "+",
@@ -2816,7 +2880,7 @@
     "Comment": "CO Boulder Gold Hill W0JZ Town of Gold Hill, Colorado 146.91 OPEN On-Air"
   },
   {
-    "Location": 176,
+    "Location": 180,
     "Name": "MOGcoloradosprings",
     "Frequency": 224.72,
     "Duplex": "-",
@@ -2832,7 +2896,7 @@
     "Comment": "CO El Paso Colorado springs W0MOG w0mog 224.72 OPEN On-Air"
   },
   {
-    "Location": 177,
+    "Location": 181,
     "Name": "MOGcoloradosprings",
     "Frequency": 147.39,
     "Duplex": "+",
@@ -2848,7 +2912,7 @@
     "Comment": "CO El Paso Colorado Springs W0MOG W0MOG 147.39 OPEN On-Air"
   },
   {
-    "Location": 178,
+    "Location": 182,
     "Name": "MOGcoloradosprings",
     "Frequency": 448.6,
     "Duplex": "-",
@@ -2864,7 +2928,7 @@
     "Comment": "CO El Paso Colorado Springs W0MOG W0MOG 448.6 OPEN "
   },
   {
-    "Location": 179,
+    "Location": 183,
     "Name": "MOGcoloradosprings",
     "Frequency": 927.8,
     "Duplex": "-",
@@ -2880,7 +2944,7 @@
     "Comment": "CO Teller Colorado Springs W0MOG 927.8 OPEN On-Air"
   },
   {
-    "Location": 180,
+    "Location": 184,
     "Name": "0HGallenspark,afpdstation#5",
     "Frequency": 147.03,
     "Duplex": "+",
@@ -2896,7 +2960,7 @@
     "Comment": "CO Boulder Allenspark, AFPD Station #5 KI0HG KI0HG Boulder County Amateur Radio Emergency Service 147.03 OPEN On-Air"
   },
   {
-    "Location": 181,
+    "Location": 185,
     "Name": "LRAloveland,namaquahill",
     "Frequency": 449.575,
     "Duplex": "-",
@@ -2912,7 +2976,7 @@
     "Comment": "CO Larimer Loveland, Namaqua Hill W0LRA Loveland Rptr Assoc 449.575 OPEN On-Air"
   },
   {
-    "Location": 182,
+    "Location": 186,
     "Name": "LRAloveland,namaquahill",
     "Frequency": 147.195,
     "Duplex": "+",
@@ -2928,7 +2992,7 @@
     "Comment": "CO Larimer Loveland, Namaqua Hill W0LRA Loveland Repeater Assoc 147.195 OPEN On-Air"
   },
   {
-    "Location": 183,
+    "Location": 187,
     "Name": "6VVloveland",
     "Frequency": 224.32,
     "Duplex": "-",
@@ -2944,7 +3008,7 @@
     "Comment": "CO Larimer Loveland KN6VV KN6VV 224.32 OPEN Off-Air"
   },
   {
-    "Location": 184,
+    "Location": 188,
     "Name": "IRPcoloradosprings",
     "Frequency": 146.91,
     "Duplex": "-",
@@ -2960,7 +3024,7 @@
     "Comment": "CO El Paso Colorado Springs K0IRP GGARC 146.91 OPEN On-Air"
   },
   {
-    "Location": 185,
+    "Location": 189,
     "Name": "IRPcoloradosprings",
     "Frequency": 447.35,
     "Duplex": "-",
@@ -2976,23 +3040,23 @@
     "Comment": "CO El Paso Colorado Springs K0IRP GGARC 447.35 OPEN On-Air"
   },
   {
-    "Location": 186,
-    "Name": "RSHcoloradosprings",
+    "Location": 190,
+    "Name": "0TPcoloradosprings",
     "Frequency": 146.85,
     "Duplex": "-",
     "Offset": 0.6,
     "Tone": "Tone",
     "rToneFreq": 156.7,
-    "cToneFreq": 156.7,
+    "cToneFreq": 103.5,
     "DtcsCode": 23,
     "DtcsRxCode": 23,
     "DtcsPolarity": "NN",
     "Mode": "FM",
     "TStep": 5,
-    "Comment": "CO El Paso Colorado Springs W0RSH W0RSH 146.85 OPEN On-Air"
+    "Comment": "CO El Paso Colorado Springs AD0TP AD0TP Village 7 Amateur Radio Club 146.85 OPEN On-Air"
   },
   {
-    "Location": 187,
+    "Location": 191,
     "Name": "A0Lcoloradosprings",
     "Frequency": 147.135,
     "Duplex": "+",
@@ -3008,7 +3072,7 @@
     "Comment": "CO El Paso Colorado Springs AA0L AA0L 147.135 OPEN On-Air"
   },
   {
-    "Location": 188,
+    "Location": 192,
     "Name": "A0Lcoloradosprings",
     "Frequency": 448.3,
     "Duplex": "-",
@@ -3024,7 +3088,7 @@
     "Comment": "CO El Paso Colorado Springs AA0L AA0L 448.3 OPEN On-Air"
   },
   {
-    "Location": 189,
+    "Location": 193,
     "Name": "SRJcoloradosprings",
     "Frequency": 224.06,
     "Duplex": "-",
@@ -3040,7 +3104,23 @@
     "Comment": "CO El Paso Colorado Springs KB0SRJ Pikes Peak FM Association (PPFMA) 224.06 CLOSED "
   },
   {
-    "Location": 190,
+    "Location": 194,
+    "Name": "SRJcoloradosprings,pikespeak",
+    "Frequency": 146.97,
+    "Duplex": "-",
+    "Offset": 0.6,
+    "Tone": "Tone",
+    "rToneFreq": 100,
+    "cToneFreq": 100,
+    "DtcsCode": 23,
+    "DtcsRxCode": 23,
+    "DtcsPolarity": "NN",
+    "Mode": "FM",
+    "TStep": 5,
+    "Comment": "CO El Paso Colorado Springs, Pikes Peak KB0SRJ Pikes Peak FM Assoc 146.97 OPEN On-Air"
+  },
+  {
+    "Location": 195,
     "Name": "SRJcoloradosprings,pikespeak",
     "Frequency": 448.45,
     "Duplex": "-",
@@ -3056,24 +3136,8 @@
     "Comment": "CO El Paso Colorado Springs, Pikes Peak KB0SRJ Pikes Pk FM Assoc 448.45 OPEN On-Air"
   },
   {
-    "Location": 191,
-    "Name": "SRJcoloradosprings,pikespeak",
-    "Frequency": 146.97,
-    "Duplex": "-",
-    "Offset": 0.6,
-    "Tone": "Tone",
-    "rToneFreq": 100,
-    "cToneFreq": 123,
-    "DtcsCode": 23,
-    "DtcsRxCode": 23,
-    "DtcsPolarity": "NN",
-    "Mode": "FM",
-    "TStep": 5,
-    "Comment": "CO El Paso Colorado Springs, Pikes Peak KB0SRJ Pikes Peak FM Assoc 146.97 OPEN On-Air"
-  },
-  {
-    "Location": 192,
-    "Name": "SRJcoloradosprings",
+    "Location": 196,
+    "Name": "SRJcoloradosprings,~2mieneusafanorthgate",
     "Frequency": 145.265,
     "Duplex": "-",
     "Offset": 0.6,
@@ -3085,11 +3149,11 @@
     "DtcsPolarity": "NN",
     "Mode": "DIG",
     "TStep": 5,
-    "Comment": "CO El Paso Colorado Springs KB0SRJ Pikes Peak FM Association 145.265 OPEN On-Air"
+    "Comment": "CO El Paso Colorado Springs, ~2 mi ENE USAFA North Gate KB0SRJ Pikes Peak FM Association (http://PPFMA.ORG) 145.265 OPEN On-Air"
   },
   {
-    "Location": 193,
-    "Name": "SRJcoloradosprings,uccs",
+    "Location": 197,
+    "Name": "SRJcoloradosprings,~2mieneusafanorthgate",
     "Frequency": 448.8,
     "Duplex": "-",
     "Offset": 5,
@@ -3099,12 +3163,12 @@
     "DtcsCode": 23,
     "DtcsRxCode": 23,
     "DtcsPolarity": "NN",
-    "Mode": "DIG",
+    "Mode": "FM",
     "TStep": 5,
-    "Comment": "CO El Paso Colorado Springs, UCCS KB0SRJ Pikes Peak FM Assoc 448.8 OPEN Off-Air"
+    "Comment": "CO El Paso Colorado Springs, ~2 mi ENE USAFA North Gate KB0SRJ Pikes Peak FM Association (http://PPFMA.ORG) 448.8 OPEN On-Air"
   },
   {
-    "Location": 194,
+    "Location": 198,
     "Name": "IFIcoloradosprings",
     "Frequency": 447.55,
     "Duplex": "-",
@@ -3120,7 +3184,7 @@
     "Comment": "CO El Paso Colorado Springs WA6IFI WA6IFI 447.55 OPEN On-Air"
   },
   {
-    "Location": 195,
+    "Location": 199,
     "Name": "IFIcoloradosprings,almagremountain",
     "Frequency": 927.725,
     "Duplex": "-",
@@ -3134,69 +3198,5 @@
     "Mode": "P25",
     "TStep": 5,
     "Comment": "CO Teller Colorado Springs, Almagre Mountain WA6IFI WA6IFI 927.725 OPEN On-Air"
-  },
-  {
-    "Location": 196,
-    "Name": "IFIcoloradosprings,cheyennemountain",
-    "Frequency": 53.13,
-    "Duplex": "-",
-    "Offset": 1.7,
-    "Tone": "Tone",
-    "rToneFreq": 107.2,
-    "cToneFreq": 107.2,
-    "DtcsCode": 23,
-    "DtcsRxCode": 23,
-    "DtcsPolarity": "NN",
-    "Mode": "FM",
-    "TStep": 5,
-    "Comment": "CO El Paso Colorado Springs, Cheyenne Mountain WA6IFI Cheyenne Mountain Repeater Group (CMRG) 53.13 OPEN On-Air"
-  },
-  {
-    "Location": 197,
-    "Name": "0WFcoloradosprings",
-    "Frequency": 447.025,
-    "Duplex": "-",
-    "Offset": 5,
-    "Tone": "Tone",
-    "rToneFreq": 123,
-    "cToneFreq": 123,
-    "DtcsCode": 23,
-    "DtcsRxCode": 23,
-    "DtcsPolarity": "NN",
-    "Mode": "FM",
-    "TStep": 5,
-    "Comment": "CO El Paso Colorado Springs KF0WF Colorado Springs ARA 447.025 OPEN Off-Air"
-  },
-  {
-    "Location": 198,
-    "Name": "0KGcoloradosprings,broadmoorarea",
-    "Frequency": 448.25,
-    "Duplex": "-",
-    "Offset": 5,
-    "Tone": "Tone",
-    "rToneFreq": 123,
-    "cToneFreq": 123,
-    "DtcsCode": 23,
-    "DtcsRxCode": 23,
-    "DtcsPolarity": "NN",
-    "Mode": "FM",
-    "TStep": 5,
-    "Comment": "CO El Paso Colorado Springs, Broadmoor Area N0KG 448.25 OPEN Off-Air"
-  },
-  {
-    "Location": 199,
-    "Name": "0OJgreeley,unc",
-    "Frequency": 449.725,
-    "Duplex": "-",
-    "Offset": 5,
-    "Tone": "Tone",
-    "rToneFreq": 127.3,
-    "cToneFreq": 127.3,
-    "DtcsCode": 23,
-    "DtcsRxCode": 23,
-    "DtcsPolarity": "NN",
-    "Mode": "FM",
-    "TStep": 5,
-    "Comment": "CO Weld Greeley, UNC K0OJ K0OJ 449.725 OPEN On-Air"
   }
 ]
