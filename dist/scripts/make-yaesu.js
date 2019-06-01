@@ -16,7 +16,7 @@ const yaesu = {
     CTCSS: "100 Hz",
     DCS: "023",
     UserCTCSS: "1500 Hz",
-    Power: "HIGH",
+    Power: "LOW",
     Skip: "OFF",
     Step: "25.0KHz",
     ClockShift: 0,
@@ -35,7 +35,6 @@ async function doIt(inFileName, outFileName) {
     const fileData = JSON.parse((await fs_helpers_1.readFileAsync(inFileName)).toString());
     const repeaters = [APRS, ...twom, ...sevcm, ...fileData];
     const mapped = repeaters
-        // .filter((r) => r.Call && r.Use === "OPEN" && r["Op Status"] !== "Off-Air")
         .filter((r) => (r.Frequency > 100 && r.Frequency < 200) || (r.Frequency > 400 && r.Frequency < 500))
         .map((d, i) => ({ ...makeRow(d), Number: i + 1 }))
         .slice(0, 500);
@@ -43,30 +42,6 @@ async function doIt(inFileName, outFileName) {
 }
 function makeRow(item) {
     const DTCS = /D(\d+)/;
-    // Doesn't account for multiple digital modes, uses the first one it finds
-    // let isDigital = Object.keys(item).filter((key) => /Enabled/.test(key)).map((name) => (name.match(/(.*) Enabled/) || [])[1])[0];
-    // if (isDigital) {
-    //   log("IS DIGITAL", isDigital);
-    //   isDigital = isDigital.replace(" Digital", "");
-    //   switch (isDigital) {
-    //     case "D-STAR":
-    //       isDigital = "DV"; // Documented mapping
-    //       break;
-    //     case "P25": // Literal mapping
-    //     case "P-25":
-    //       isDigital = "P25";
-    //     case "DMR": // Literal mapping
-    //       break;
-    //     case "YSF":
-    //       isDigital = "DIG"; // Don't know if YSF = DIG mapping, but don't see any other candidates
-    //       break;
-    //     case "NXDN":
-    //       isDigital = "FSK"; // NXDN uses FSK, so assuming mapping
-    //       break;
-    //   }
-    //   log("IS DIGITAL", isDigital);
-    // }
-    // const isNarrow = Object.entries(item).filter((a) => /Narrow/i.test(a[1] as string)).length > 0;
     let Name = "";
     if (item.Call) {
         Name += (item.Call || "")
@@ -75,6 +50,9 @@ function makeRow(item) {
             .substr(-3)
             .trim();
     }
+    // if (item.Mi !== undefined) {
+    //   Name += " " + (item.Mi);
+    // }
     if (item.Location) {
         Name += (item.Location || "")
             .toLocaleLowerCase()
@@ -91,27 +69,20 @@ function makeRow(item) {
             }
         }
     }
-    Name = Name.replace(/[^0-9.a-zA-Z]/g, "").trim();
+    Name = Name.replace(/[^0-9.a-zA-Z ]/g, "").trim();
     Name = Name.substring(0, 7);
-    // .substr(0, 7);
-    // .substring(0, 7);
     const Receive = item.Frequency.toFixed(5);
     const Direction = item.Offset > 0 ? "+RPT" : item.Offset < 0 ? "-RPT" : "OFF";
     const Offset = Math.abs(item.Offset || 0).toFixed(5);
     const Transmit = (item.Frequency + (item.Offset || 0)).toFixed(5);
     const UplinkTone = item["Uplink Tone"] || item.Tone;
-    // const DownlinkTone = item["Downlink Tone"];
-    // let cToneFreq: any = "";
     let CTCSS = "";
     let DCS = "";
-    // let DtcsRxCode: any = "";
     let ToneMode = "OFF";
-    // const Mode = isDigital ? isDigital : isNarrow ? "NFM" : "FM";
     let Comment = `${item["ST/PR"] || ""} ${item.County || ""} ${item.Location || ""} ${item.Call || ""} ${item.Sponsor || ""} ${item.Affiliate || ""} ${item.Frequency} ${item.Use || ""} ${item["Op Status"] || ""}`.replace(/\s+/g, " ");
     Comment = Comment.replace(",", "").substring(0, 31);
     if (typeof UplinkTone === "number") {
         CTCSS = UplinkTone;
-        // cToneFreq = UplinkTone;
         ToneMode = "TONE ENC";
     }
     else if (UplinkTone !== undefined) {
@@ -120,33 +91,13 @@ function makeRow(item) {
             const n = parseInt(d[1], 10);
             if (!isNaN(n)) {
                 DCS = n;
-                // DtcsRxCode = n;
                 ToneMode = "DCS";
             }
         }
     }
-    // if (typeof DownlinkTone === "number") {
-    //   // cToneFreq = DownlinkTone;
-    //   // Tone = "TSQL";
-    // } else if (DownlinkTone !== undefined) {
-    //   const d = DTCS.exec(DownlinkTone);
-    //   if (d && d[1]) {
-    //     const n = parseInt(d[1], 10);
-    //     if (!isNaN(n)) {
-    //       // DtcsRxCode = n;
-    //       TToneMode = "TToneMode";
-    //     }
-    //   }
-    // }
-    // if (CTCSS !== cToneFreq) {
-    // Tone = "Cross";
-    // }
-    // cToneFreq = cToneFreq || 88.5;
     CTCSS = (CTCSS || 100).toFixed(1) + " Hz";
     DCS = (DCS || 23);
     DCS = DCS < 100 ? "0" + DCS : DCS;
-    // DtcsRxCode = DtcsRxCode || 23;
-    // log(chalk.green("Made Row"), row);
     return {
         ...yaesu,
         Receive,

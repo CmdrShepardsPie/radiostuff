@@ -6,196 +6,196 @@ Location,Name,Frequency,Duplex,Offset,Tone,rToneFreq,cToneFreq,DtcsCode,DtcsRxCo
 4,AENdenver,449.675,-,5,Tone,136.5,136.5,23,23,NN,DV,5,CO Denver Denver WR0AEN Colorado Amateur Repeater Network (CARN) 449.675 OPEN On-Air
 5,"AENidahosprings,squawmountain",449,-,5,Tone,136.5,136.5,23,23,NN,FM,5,"CO Clear Creek Idaho Springs, Squaw Mountain WR0AEN CARN 449 OPEN On-Air"
 6,AENgreeley,449.325,-,5,Tone,136.5,136.5,23,23,NN,DV,5,CO Weld Greeley WR0AEN Colorado Amateur Repeater Network (CARN) 449.325 OPEN On-Air
-7,ZUQaurora,448.4,-,5,Tone,94.8,94.8,23,23,NN,FM,5,CO Arapahoe Aurora N0ZUQ 448.4 OPEN On-Air
-8,"ZUQfortcollins,christmountain",449.425,-,5,Tone,94.8,94.8,23,23,NN,FM,5,"CO Larimer Fort Collins, Christ Mountain N0ZUQ 449.425 OPEN On-Air"
-9,"ZUQfortcollins,christmountain",927.875,-,25,DTCS,88.5,88.5,114,114,NN,FM,5,"CO Larimer Fort Collins, Christ Mountain N0ZUQ WA6IMI 927.875 OPEN Off-Air"
-10,0BGaurora,448.275,-,5,Tone,156.7,156.7,23,23,NN,FM,5,CO Arapahoe Aurora W0BG W0BG 448.275 OPEN On-Air
-11,ANTaurora,448.825,-,5,,88.5,88.5,23,23,NN,DIG,5,CO Arapahoe Aurora WN7ANT 448.825 OPEN On-Air
-12,"UDDaurora,smokeyhill",448.5,-,5,Tone,100,100,23,23,NN,FM,5,"CO Denver Aurora, Smokey Hill KB0UDD Castle Rock Repeater Group 448.5 OPEN On-Air"
-13,"UDDaurora,smokyhill",145.4,-,0.6,Tone,100,100,23,23,NN,FM,5,"CO Arapahoe Aurora, Smoky Hill KB0UDD Castle Rock Repeater Group 145.4 OPEN On-Air"
-14,"UDDidahosprings,squawmountain",146.67,-,0.6,Tone,100,100,23,23,NN,FM,5,"CO Clear Creek Idaho Springs, Squaw Mountain KB0UDD Castle Rock Repeater Group 146.67 OPEN On-Air"
-15,Q8Mparker,448.7,-,5,Tone,146.2,146.2,23,23,NN,FM,5,CO Douglas Parker WQ8M 448.7 OPEN On-Air
-16,OBAaurora,145.19,-,0.6,Tone,151.4,131.8,23,23,NN,FM,5,CO Arapahoe Aurora N0OBA N0OBA 145.19 OPEN On-Air
-17,FEZdenver,447.925,-,5,Tone,100,100,23,23,NN,FM,5,CO Denver Denver K0FEZ RADOPS El Jebel Shriners 447.925 OPEN On-Air
-18,"FEZgolden,centennialcone",146.985,-,0.6,Tone,100,100,23,23,NN,FM,5,"CO Denver Golden, Centennial Cone K0FEZ El Jebel RADOPS 146.985 OPEN On-Air"
-19,TPTdenver,447.9,-,5,,88.5,88.5,23,23,NN,FM,5,CO Denver Denver WB0TPT WB0TPT 447.9 OPEN Off-Air
-20,"0SJboulder,bluemountain",145.475,-,0.6,Tone,100,100,23,23,NN,FM,5,"CO Jefferson Boulder, Blue Mountain KE0SJ Intermountain Repeater Group 145.475 OPEN On-Air"
-21,0SJlochbuie,447.625,-,5,Tone,100,100,23,23,NN,FM,5,CO Adams Lochbuie KE0SJ Intermountain Repeater Group 447.625 OPEN On-Air
+7,Q8Mparker,448.7,-,5,Tone,146.2,146.2,23,23,NN,FM,5,CO Douglas Parker WQ8M 448.7 OPEN On-Air
+8,OBAaurora,145.19,-,0.6,Tone,151.4,131.8,23,23,NN,FM,5,CO Arapahoe Aurora N0OBA N0OBA 145.19 OPEN On-Air
+9,ZUQaurora,448.4,-,5,Tone,94.8,94.8,23,23,NN,FM,5,CO Arapahoe Aurora N0ZUQ 448.4 OPEN On-Air
+10,"ZUQfortcollins,christmountain",449.425,-,5,Tone,94.8,94.8,23,23,NN,FM,5,"CO Larimer Fort Collins, Christ Mountain N0ZUQ 449.425 OPEN On-Air"
+11,"ZUQfortcollins,christmountain",927.875,-,25,DTCS,88.5,88.5,114,114,NN,FM,5,"CO Larimer Fort Collins, Christ Mountain N0ZUQ WA6IMI 927.875 OPEN Off-Air"
+12,0BGaurora,448.275,-,5,Tone,156.7,156.7,23,23,NN,FM,5,CO Arapahoe Aurora W0BG W0BG 448.275 OPEN On-Air
+13,ANTaurora,448.825,-,5,,88.5,88.5,23,23,NN,DIG,5,CO Arapahoe Aurora WN7ANT 448.825 OPEN On-Air
+14,"UDDaurora,smokeyhill",448.5,-,5,Tone,100,100,23,23,NN,FM,5,"CO Denver Aurora, Smokey Hill KB0UDD Castle Rock Repeater Group 448.5 OPEN On-Air"
+15,"UDDaurora,smokyhill",145.4,-,0.6,Tone,100,100,23,23,NN,FM,5,"CO Arapahoe Aurora, Smoky Hill KB0UDD Castle Rock Repeater Group 145.4 OPEN On-Air"
+16,"UDDidahosprings,squawmountain",146.67,-,0.6,Tone,100,100,23,23,NN,FM,5,"CO Clear Creek Idaho Springs, Squaw Mountain KB0UDD Castle Rock Repeater Group 146.67 OPEN On-Air"
+17,PWOcentennial,449.425,-,5,DTCS,88.5,88.5,23,23,NN,FM,5,CO Arapahoe Centennial K0PWO K0PWO 449.425 OPEN Off-Air
+18,FEZdenver,447.925,-,5,Tone,100,100,23,23,NN,FM,5,CO Denver Denver K0FEZ RADOPS El Jebel Shriners 447.925 OPEN On-Air
+19,"FEZgolden,centennialcone",146.985,-,0.6,Tone,100,100,23,23,NN,FM,5,"CO Denver Golden, Centennial Cone K0FEZ El Jebel RADOPS 146.985 OPEN On-Air"
+20,TPTdenver,447.9,-,5,,88.5,88.5,23,23,NN,FM,5,CO Denver Denver WB0TPT WB0TPT 447.9 OPEN Off-Air
+21,"0SJboulder,bluemountain",145.475,-,0.6,Tone,100,100,23,23,NN,FM,5,"CO Jefferson Boulder, Blue Mountain KE0SJ Intermountain Repeater Group 145.475 OPEN On-Air"
 22,"0SJgolden,centennialcone",145.28,-,0.6,Tone,100,100,23,23,NN,FM,5,"CO Jefferson Golden, Centennial Cone KE0SJ 145.28 OPEN On-Air"
 23,"0SJgolden,centennialcone",449.525,-,5,,88.5,88.5,23,23,NN,FM,5,"CO Jefferson Golden, Centennial Cone KE0SJ KE0SJ 449.525 OPEN On-Air"
-24,JXNdenver,146.715,-,0.6,Tone,123,123,23,23,NN,FM,5,CO Denver Denver N0JXN EARS 146.715 OPEN On-Air
-25,EHPdenver,448.075,-,5,Tone,123,123,23,23,NN,FM,5,CO Denver Denver N5EHP W0IG 448.075 OPEN On-Air
-26,KIZdenver,448.55,-,5,Tone,82.5,82.5,23,23,NN,FM,5,CO Denver Denver W0KIZ HPRA 448.55 OPEN Off-Air
-27,"ESQparker,hessreservoir",447.525,-,5,Tone,203.5,146.2,23,23,NN,FM,5,"CO Douglas Parker, Hess Reservoir N0ESQ EmComm Colorado Colorado ARES 447.525 OPEN On-Air"
-28,"ESQcastlerock,devilshead",446.925,-,5,,88.5,88.5,23,23,NN,DMR,5,"CO Douglas Castle Rock, Devils Head N0ESQ 446.925 OPEN On-Air"
-29,"ESQcastlerock,devilshead(pikenationalforest)",447.525,-,5,Tone,146.2,146.2,23,23,NN,FM,5,"CO Douglas Castle Rock, Devils Head (Pike National Forest) N0ESQ EmComm Colorado Colorado ARES 447.525 OPEN On-Air"
-30,"9SLcastlepines,danielspark",449.95,-,5,Tone,77,77,23,23,NN,FM,5,"CO Douglas Castle Pines, Daniels Park W9SL W9SL Owner 449.95 OPEN On-Air"
+24,0SJlochbuie,447.625,-,5,Tone,100,100,23,23,NN,FM,5,CO Adams Lochbuie KE0SJ Intermountain Repeater Group 447.625 OPEN On-Air
+25,JXNdenver,146.715,-,0.6,Tone,123,123,23,23,NN,FM,5,CO Denver Denver N0JXN EARS 146.715 OPEN On-Air
+26,EHPdenver,448.075,-,5,Tone,123,123,23,23,NN,FM,5,CO Denver Denver N5EHP W0IG 448.075 OPEN On-Air
+27,KIZdenver,448.55,-,5,Tone,82.5,82.5,23,23,NN,FM,5,CO Denver Denver W0KIZ HPRA 448.55 OPEN Off-Air
+28,"ESQparker,hessreservoir",447.525,-,5,Tone,203.5,146.2,23,23,NN,FM,5,"CO Douglas Parker, Hess Reservoir N0ESQ EmComm Colorado Colorado ARES 447.525 OPEN On-Air"
+29,"ESQcastlerock,devilshead",446.925,-,5,,88.5,88.5,23,23,NN,DMR,5,"CO Douglas Castle Rock, Devils Head N0ESQ 446.925 OPEN On-Air"
+30,"ESQcastlerock,devilshead(pikenationalforest)",447.525,-,5,Tone,146.2,146.2,23,23,NN,FM,5,"CO Douglas Castle Rock, Devils Head (Pike National Forest) N0ESQ EmComm Colorado Colorado ARES 447.525 OPEN On-Air"
 31,"JRLdenver,broadwayplazalofts",447.175,-,5,Tone,100,100,23,23,NN,FM,5,"CO Denver Denver, Broadway Plaza Lofts W0JRL W0JRL 447.175 OPEN On-Air"
-32,PWOcentennial,449.425,-,5,DTCS,88.5,88.5,23,23,NN,FM,5,CO Arapahoe Centennial K0PWO K0PWO 449.425 OPEN Off-Air
-33,"GURdenver,greenvalleyranch",448.15,-,5,Tone,141.3,141.3,23,23,NN,FM,5,"CO Denver Denver, Green Valley Ranch K0GUR K0GUR 448.15 OPEN On-Air"
-34,ELYlakewood,448.75,-,5,Tone,100,100,23,23,NN,FM,5,CO Jefferson Lakewood N0ELY N0ELY 448.75 OPEN On-Air
-35,"0TXlakewood,stanthonymedicalcampus",447.825,-,5,DTCS,88.5,88.5,73,73,NN,NFM,5,"CO Jefferson Lakewood, St Anthony Medical Campus W0TX Denver Radio Club 447.825 OPEN On-Air"
-36,"0TXlakewood,greenmountain",147.33,+,0.6,Tone,100,100,23,23,NN,FM,5,"CO Jefferson Lakewood, Green Mountain W0TX Denver Radio Club 147.33 OPEN On-Air"
-37,"0TXlakewood,greenmountain",224.38,-,1.6,Tone,100,100,23,23,NN,FM,5,"CO Jefferson Lakewood, Green Mountain W0TX Denver Radio Club 224.38 OPEN On-Air"
-38,"0TXlakewood,greenmtn",449.775,-,5,Tone,100,100,23,23,NN,DIG,5,"CO Jefferson Lakewood, Green Mtn W0TX Denver Radio Club 449.775 OPEN On-Air"
-39,"0TXlakewood,greenmountain",53.09,-,1.7,Tone,107.2,107.2,23,23,NN,FM,5,"CO Jefferson Lakewood, Green Mountain W0TX Denver Radio Club 53.09 OPEN On-Air"
-40,"0TXgolden,centennialcone",448.625,-,5,Tone,100,100,23,23,NN,FM,5,"CO Jefferson Golden, Centennial Cone W0TX Denver Radio Club 448.625 OPEN On-Air"
-41,"0TXdenver,centennialcone",446.7875,-,5,,88.5,88.5,23,23,NN,DMR,5,"CO Jefferson Denver, Centennial Cone W0TX Denver Radio Club Brandmeister Network 446.7875 OPEN On-Air"
-42,"0TXidahosprings,centennialcone",145.49,-,0.6,Tone,100,100,23,23,NN,FM,5,"CO Jefferson Idaho Springs, Centennial Cone W0TX KB0VIU, Denver Radio Club 145.49 OPEN On-Air"
-43,"0TXidahosprings,squawmountain",449.35,-,5,Tone,100,100,23,23,NN,FM,5,"CO Clear Creek Idaho Springs, Squaw Mountain W0TX Denver Radio Club 449.35 OPEN On-Air"
-44,UPSwestminster,449.3,-,5,Tone,100,100,23,23,NN,FM,5,CO Adams Westminster N1UPS N1UPS 449.3 OPEN On-Air
-45,"SSPlakewood,moffattreatmentplant",147.21,+,0.6,Tone,100,100,23,23,NN,FM,5,"CO Jefferson Lakewood, Moffat Treatment Plant KD0SSP Denver Water Amateur Radio Club 147.21 OPEN On-Air"
-46,"SSPlakewood,moffattreatmentplant",448.35,-,5,Tone,225.7,225.7,23,23,NN,DIG,5,"CO Jefferson Lakewood, Moffat Treatment Plant KD0SSP Denver Water Amateur Radio Club (DWARC) 448.35 OPEN On-Air"
-47,"TUBcentennial,warrenmountain",146.88,-,0.6,Tone,100,100,23,23,NN,FM,5,"CO Jefferson Centennial, Warren Mountain WB0TUB Denver Radio League 146.88 OPEN On-Air"
-48,"TUBcentennial,warrenmountain",449.6,-,5,Tone,100,100,23,23,NN,FM,5,"CO Jefferson Centennial, Warren Mountain WB0TUB Denver Radio League 449.6 OPEN On-Air"
-49,"TUBgolden,centennialcone",146.64,-,0.6,Tone,100,100,23,23,NN,FM,5,"CO Jefferson Golden, Centennial Cone WB0TUB Denver Radio League 146.64 OPEN On-Air"
-50,PRAparker,445.075,-,5,,88.5,88.5,23,23,NN,DMR,5,CO Douglas Parker K0PRA Parker Radio Association 445.075 OPEN On-Air
-51,PRAfranktown,446.85,-,5,,88.5,88.5,23,23,NN,DV,5,CO Douglas Franktown K0PRA Parker Radio Association 446.85 OPEN On-Air
-52,0MLnorthglenn,147.045,+,0.6,Tone,123,123,23,23,NN,FM,5,CO Adams Northglenn K0ML Northglenn RA 147.045 OPEN On-Air
-53,"0HCindianhills,chiefmtn",927.9375,-,25.9,,88.5,88.5,23,23,NN,P25,5,"CO Jefferson Indian Hills, Chief Mtn KI0HC 927.9375 OPEN On-Air"
-54,0HCparker,927.8375,-,25.8,Tone,100,100,23,23,NN,P25,5,CO Douglas Parker KI0HC 927.8375 OPEN On-Air
-55,"0HCgolden,centennialcone",927.8375,-,25.8,DTCS,88.5,88.5,205,205,NN,P25,5,"CO Jefferson Golden, Centennial Cone KI0HC 927.8375 OPEN On-Air"
-56,"LXXmorrison,mt.morrison",53.17,-,0.5,Tone,107.2,107.2,23,23,NN,FM,5,"CO Jefferson Morrison, Mt. Morrison N6LXX N6LXX N6LXX 53.17 OPEN On-Air"
-57,"LXXmorrison,mt.morrison",447.875,-,5,Tone,107.2,107.2,23,23,NN,FM,5,"CO Jefferson Morrison, Mt. Morrison N6LXX N6LXX N6LXX 447.875 OPEN On-Air"
-58,"OWYconifer,critchellmountain",447.5,-,5,Tone,88.5,88.5,23,23,NN,FM,5,"CO Jefferson Conifer, Critchell Mountain N0OWY Aurora Repeater Association 447.5 OPEN On-Air"
-59,PYYgolden,927.7875,-,25,Tone,156.7,156.7,23,23,NN,FM,5,CO Jefferson Golden N0PYY N0PYY 927.7875 OPEN On-Air
-60,PYYgolden,448.125,-,5,Tone,107.2,107.2,23,23,NN,FM,5,CO Jefferson Golden N0PYY Denver PD EEB 448.125 OPEN On-Air
-61,"PYYevergreen,squawmountain",147.3,+,0.6,Tone,103.5,103.5,23,23,NN,FM,5,"CO Clear Creek Evergreen, Squaw Mountain N0PYY Denver PD EEB 147.3 OPEN On-Air"
-62,0GVgolden,448.975,-,5,Tone,123,123,23,23,NN,FM,5,CO Jefferson Golden W0GV FRG 448.975 OPEN On-Air
-63,WYXbroomfield,449.825,-,5,Tone,103.5,103.5,23,23,NN,FM,5,CO Boulder Broomfield W0WYX Rocky Mountain Radio League 449.825 OPEN On-Air
-64,"WYXidahosprings,squawmountain",146.94,-,0.6,Tone,103.5,103.5,23,23,NN,FM,5,"CO Clear Creek Idaho Springs, Squaw Mountain W0WYX Rocky Mtn Radio League 146.94 OPEN On-Air"
-65,LMAbroomfield,448.925,-,5,Tone,131.8,131.8,23,23,NN,FM,5,CO Boulder Broomfield W0LMA W0LMA 448.925 OPEN On-Air
-66,"YZTgolden,lookout",446.8375,-,5,,88.5,88.5,23,23,NN,DMR,5,"CO Jefferson Golden, Lookout WA2YZT WA2YZT 446.8375 OPEN On-Air"
-67,"CDSgolden,lookoutmountain",145.25,-,0.6,,88.5,88.5,23,23,NN,DV,5,"CO Jefferson Golden, Lookout Mountain W0CDS Colorado D-Star 145.25 OPEN On-Air"
-68,"CDSgolden,lookoutmountain",446.9625,-,5,,88.5,88.5,23,23,NN,DV,5,"CO Jefferson Golden, Lookout Mountain W0CDS Colorado D-Star 446.9625 OPEN On-Air"
-69,"CDSgolden,lookoutmountain",1283.9625,-,20,,88.5,88.5,23,23,NN,DV,5,"CO Jefferson Golden, Lookout Mountain W0CDS Colorado D-Star 1283.9625 OPEN On-Air"
-70,"CDSgolden,lookoutmountain",1299.9,,0,,88.5,88.5,23,23,NN,DV,5,"CO Jefferson Golden, Lookout Mountain W0CDS Colorado D-Star 1299.9 OPEN On-Air"
-71,"0SZgolden,lookoutmountain",145.37,-,0.6,,88.5,88.5,23,23,NN,DMR,5,"CO Jefferson Golden, Lookout Mountain N0SZ Rocky Mountain Ham Radio 145.37 OPEN On-Air"
-72,"0SZevergreen,squawmountain",145.175,-,0.6,,88.5,88.5,23,23,NN,DMR,5,"CO Clear Creek Evergreen, Squaw Mountain N0SZ Rocky Mountain Ham Radio 145.175 OPEN On-Air"
-73,"0SZboulder,mountthorodin",446.8,-,5,,88.5,88.5,23,23,NN,DMR,5,"CO Boulder Boulder, Mount Thorodin N0SZ Rocky Mountain Ham Radio Rocky Mountain Ham Radio 446.8 OPEN On-Air"
-74,0SZwestcreek,446.875,-,5,,88.5,88.5,23,23,NN,DMR,5,CO Douglas Westcreek N0SZ W0VG RMHAM 446.875 OPEN On-Air
-75,"0SZdenver,thorodinmountain",449.225,-,5,Tone,141.3,141.3,23,23,NN,FM,5,"CO Gilpin Denver, Thorodin Mountain N0SZ Rocky Mountain Ham Radio (RMHR) 449.225 OPEN On-Air"
-76,"0SZidahosprings,squawmountain",448.225,-,5,Tone,141.3,141.3,23,23,NN,FM,5,"CO Clear Creek Idaho Springs, Squaw Mountain N0SZ Rocky Mountain Ham Radio 448.225 OPEN On-Air"
-77,"0SZidahosprings,squawmountain",446.9375,-,5,,88.5,88.5,23,23,NN,DMR,5,"CO Clear Creek Idaho Springs, Squaw Mountain N0SZ Rocky Mountain Ham Radio 446.9375 OPEN On-Air"
-78,"0SZboulder,leehill",445.05,-,5,,88.5,88.5,23,23,NN,DMR,5,"CO Boulder Boulder, Lee Hill N0SZ Rocky Mountain Ham Radio 445.05 OPEN On-Air"
-79,"0SZboulder,leehill",446.9875,-,5,,88.5,88.5,23,23,NN,DMR,5,"CO Boulder Boulder, Lee Hill N0SZ Rocky Mountain Ham Radio 446.9875 OPEN On-Air"
-80,"0SZboulder,leehill",447.75,-,5,Tone,141.3,141.3,23,23,NN,FM,5,"CO Boulder Boulder, Lee Hill N0SZ Rocky Mountain Ham Radio 447.75 OPEN On-Air"
-81,"0SZcoloradosprings,almagremountain",145.235,-,0.6,,88.5,88.5,23,23,NN,DMR,5,"CO El Paso Colorado Springs, Almagre Mountain N0SZ RMHAM 145.235 OPEN On-Air"
-82,"0SZcoloradosprings,cheyennemountain",445.0625,-,5,,88.5,88.5,23,23,NN,DMR,5,"CO El Paso Colorado Springs, Cheyenne Mountain N0SZ Rocky Mountain Ham Radio N0SZ Colorado Springs Brandmeister 445.0625 OPEN On-Air"
-83,"0SZbreckenridge,baldy",445.0875,-,5,,88.5,88.5,23,23,NN,DMR,5,"CO Fremont Breckenridge, Baldy N0SZ K2AD Rocky Mountain Ham Radio 445.0875 OPEN On-Air"
-84,"0SZfairplay,badger",446.7625,-,5,,88.5,88.5,23,23,NN,DMR,5,"CO Park Fairplay, Badger N0SZ K7PFJ RMHAM 446.7625 OPEN On-Air"
-85,"0SZleadville,mosquitopass",445.05,-,5,,88.5,88.5,23,23,NN,DMR,5,"CO Lake Leadville, Mosquito Pass N0SZ K2AD Rocky Mountain Ham Radio 445.05 OPEN On-Air"
-86,0SZvail,445.075,-,5,,88.5,88.5,23,23,NN,DMR,5,CO Eagle Vail N0SZ K2AD Rocky Mountain Ham Radio 445.075 OPEN On-Air
-87,"0SZsalida,methodistmountain",446.8125,-,5,,88.5,88.5,23,23,NN,DMR,5,"CO Chaffee Salida, Methodist Mountain N0SZ RMHAM 446.8125 OPEN On-Air"
-88,"0SZdurango,missionaryridge",445.1375,-,5,,88.5,88.5,23,23,NN,DMR,5,"CO La Plata Durango, Missionary Ridge N0SZ K2AD Rocky Mountain Ham Radio 445.1375 OPEN On-Air"
-89,"0SZrangely,cathedralbluffs",445.2625,-,5,,88.5,88.5,23,23,NN,DMR,5,"CO Rio Blanco Rangely, Cathedral Bluffs N0SZ RMHAM 445.2625 OPEN On-Air"
-90,"VGDgolden,tablemountain",446.975,-,5,,88.5,88.5,23,23,NN,DMR,5,"CO Jefferson Golden, Table Mountain KB0VGD W0DMR 446.975 OPEN On-Air"
-91,"VGDfortcollins,horsetoothmountain",145.265,-,0.6,,88.5,88.5,23,23,NN,DMR,5,"CO Larimer Fort Collins , Horsetooth Mountain KB0VGD W0DMR - NoCo C-bridge Network Brandmeister Network 145.265 OPEN On-Air"
-92,"0KUgolden,lookoutmountain",449.625,-,5,Tone,141.3,141.3,23,23,NN,FM,5,"CO Jefferson Golden, Lookout Mountain W0KU Rocky Mountain Ham Radio 449.625 OPEN On-Air"
-93,0KCfortlupton,447.3,-,5,Tone,107.2,107.2,23,23,NN,FM,5,CO Weld Fort Lupton AC0KC 447.3 OPEN On-Air
-94,0KCfortlupton,224.96,-,1.6,,88.5,88.5,23,23,NN,FM,5,CO Weld Fort Lupton AC0KC AC0KC 224.96 OPEN On-Air
-95,GUQevergreen,145.34,-,0.6,Tone,103.5,127.3,23,23,NN,FM,5,CO Jefferson Evergreen KE4GUQ Rocky Mtn Radio League 145.34 OPEN On-Air
-96,"CRAconifer,conifermountain",224.98,-,1.6,Tone,107.2,107.2,23,23,NN,FM,5,"CO Jefferson Conifer, Conifer Mountain W0CRA Colorado Repeater Association 224.98 OPEN Off-Air"
-97,"CRAconifer,conifermountain",447.15,-,5,Tone,107.2,107.2,23,23,NN,FM,5,"CO Jefferson Conifer, Conifer Mountain W0CRA Colorado Repeater Association (CRA) 447.15 OPEN Off-Air"
-98,"CRAconifer,conifermountain",1287.9,-,20,,88.5,88.5,23,23,NN,FM,5,"CO Jefferson Conifer, Conifer Mountain W0CRA Colorado Repeater Association (CRA) 1287.9 OPEN Off-Air"
-99,"CRAlarkspur,westcreek",147.225,+,0.6,Tone,107.2,107.2,23,23,NN,FM,5,"CO Douglas Larkspur, Westcreek W0CRA Colorado Repeater Association (CRA) CRA VHF Link System 147.225 OPEN On-Air"
-100,"CRAlarkspur,westcreek",448.425,-,5,Tone,107.2,107.2,23,23,NN,FM,5,"CO Douglas Larkspur, Westcreek W0CRA Colorado Repeater Association (CRA) ARESDEC 448.425 OPEN On-Air"
-101,"CRAconifer,conifermountain",53.05,-,1.7,Tone,107.2,107.2,23,23,NN,FM,5,"CO Jefferson Conifer, Conifer Mountain W0CRA Colorado Repeater Association (CRA) 53.05 OPEN Off-Air"
-102,"CRAidahosprings,squawmountain",145.145,-,0.6,Tone,107.2,107.2,23,23,NN,FM,5,"CO Clear Creek Idaho Springs, Squaw Mountain W0CRA Colorado Repeater Assoc 145.145 OPEN On-Air"
-103,"CRAidahosprings,squawmountain",447.575,-,5,Tone,107.2,107.2,23,23,NN,FM,5,"CO Clear Creek Idaho Springs, Squaw Mountain W0CRA Colorado Repeater Association (CRA) 447.575 OPEN On-Air"
-104,"CRAboulder,eldoradomountain",145.46,-,0.6,Tone,107.2,107.2,23,23,NN,FM,5,"CO Boulder Boulder, Eldorado Mountain W0CRA Colorado Repeater Association (CRA) CRA VHF Link System 145.46 OPEN On-Air"
-105,"CRAboulder,eldoradomountain",447.975,-,5,Tone,107.2,107.2,23,23,NN,FM,5,"CO Boulder Boulder, Eldorado Mountain W0CRA Colorado Repeater Association (CRA) 447.975 OPEN On-Air"
-106,"CRAcoloradosprings,cheyennemountain",145.16,-,0.6,Tone,107.2,107.2,23,23,NN,FM,5,"CO El Paso Colorado Springs, Cheyenne Mountain W0CRA Colorado Repeater Association CRA VHF Link System 145.16 OPEN On-Air"
-107,"0GOgolden,guyhill",449.75,-,5,Tone,103.5,103.5,23,23,NN,FM,5,"CO Jefferson Golden, Guy Hill KI0GO Rocky Mtn Radio League 449.75 OPEN On-Air"
-108,"POHgolden,guyhill",224.74,-,1.6,Tone,88.5,88.5,23,23,NN,FM,5,"CO Jefferson Golden, Guy Hill N0POH Aurora Repeater Assoc 224.74 OPEN On-Air"
-109,"T0Cgolden,guyhill",145.22,-,0.6,Tone,103.5,103.5,23,23,NN,P25,5,"CO Jefferson Golden, Guy Hill WT0C Rocky Mtn Radio League 145.22 OPEN On-Air"
-110,"IBMgolden,guyhill",448.85,-,5,Tone,88.5,88.5,23,23,NN,FM,5,"CO Jefferson Golden, Guy Hill K0IBM Aurora Repeater Assoc 448.85 OPEN On-Air"
-111,"MHUgolden,guyhill",224,-,1.6,Tone,103.5,103.5,23,23,NN,FM,5,"CO Jefferson Golden, Guy Hill N0MHU Rocky Mountain Radio League 224 OPEN On-Air"
-112,"CBIgolden,guyhill",147.15,+,0.6,Tone,100,100,23,23,NN,FM,5,"CO Jefferson Golden, Guy Hill W0CBI Aurora Repeater Assoc (ARA) 147.15 OPEN On-Air"
-113,"ARAcritchell,critchellmountain",147.12,+,0.6,Tone,88.5,88.5,23,23,NN,FM,5,"CO Jefferson Critchell, Critchell Mountain N0ARA Aurora Repeater Association 147.12 OPEN On-Air"
-114,0EBhudson,449.925,-,5,Tone,114.8,114.8,23,23,NN,FM,5,CO Weld Hudson K0EB K0EB K0UPS Club 449.925 OPEN On-Air
-115,"JSClarkspur,westcreek",449.975,-,5,Tone,100,100,23,23,NN,FM,5,"CO Douglas Larkspur, Westcreek K0JSC K0JSC The Fun Machine 449.975 OPEN On-Air"
-116,"JSCcanoncity,canoncity",449.975,-,5,Tone,100,100,23,23,NN,FM,5,"CO Fremont Canon City, Canon City K0JSC K0JSC The Fun Machine 449.975 OPEN On-Air"
-117,"JSCcanoncity,fremontpeak",446.7375,-,5,,88.5,88.5,23,23,NN,DMR,5,"CO Fremont Canon City, Fremont Peak K0JSC Rocky Mountain Ham Radio 446.7375 OPEN On-Air"
-118,"JSCcanoncity,fremontpeak",447.25,-,5,Tone,100,100,23,23,NN,FM,5,"CO Fremont Canon City, Fremont Peak K0JSC 447.25 OPEN On-Air"
-119,"JSCcanoncity,colorado",447.975,-,5,Tone,100,100,23,23,NN,FM,5,"CO Fremont Canon City, Colorado K0JSC K0JSC 447.975 OPEN On-Air"
-120,JSCpueblowest,448.975,-,5,Tone,100,100,23,23,NN,FM,5,CO Pueblo Pueblo West K0JSC 448.975 OPEN On-Air
-121,JSCpueblo,446.9875,-,5,,88.5,88.5,23,23,NN,DMR,5,CO Pueblo Pueblo K0JSC RMHAM 446.9875 OPEN Off-Air
-122,"JSCpueblo,metro",447.275,-,5,Tone,100,100,23,23,NN,FM,5,"CO Pueblo Pueblo, Metro K0JSC The Fun Machine 447.275 OPEN On-Air"
-123,JSCwestcliffe,448.325,-,5,Tone,100,100,23,23,NN,FM,5,CO Custer Westcliffe K0JSC The Fun Machine 448.325 OPEN On-Air
-124,"JSCsalida,methodistmountain",449.975,-,5,Tone,100,100,23,23,NN,FM,5,"CO Chaffee Salida, Methodist Mountain K0JSC 449.975 OPEN On-Air"
-125,"JSCpueblo,cedarwood",449.975,-,5,Tone,100,100,23,23,NN,FM,5,"CO Pueblo Pueblo, Cedarwood K0JSC K0JSC 449.975 OPEN On-Air"
-126,"XLFpalmerlake,monumenthill",145.19,-,0.6,Tone,131.8,131.8,23,23,NN,FM,5,"CO Douglas Palmer Lake, Monument Hill N0XLF N0OBA Owner 145.19 OPEN On-Air"
-127,"0IAboulder,gunbarrelhill",146.76,-,0.6,Tone,100,100,23,23,NN,FM,5,"CO Boulder Boulder, Gunbarrel Hill W0IA Rocky Mtn VHF Soc Boulder County ARES 146.76 OPEN On-Air"
-128,0IAboulder,449.55,-,5,Tone,100,100,23,23,NN,FM,5,CO Boulder Boulder W0IA Rocky Mtn VHF Soc 449.55 OPEN On-Air
-129,"0IAboulder,leehill",224.02,-,1.6,,88.5,88.5,23,23,NN,FM,5,"CO Boulder Boulder, Lee Hill W0IA Rocky Mtn VHF Soc 224.02 OPEN On-Air"
-130,"0DKboulder,tablemesa",448.9,-,5,Tone,100,100,23,23,NN,FM,5,"CO Boulder Boulder, Table Mesa W0DK Boulder ARC 448.9 OPEN On-Air"
-131,0DKboulder,146.61,-,0.6,Tone,100,100,23,23,NN,FM,5,CO Boulder Boulder W0DK Boulder Amateur Radio Club 146.61 OPEN Off-Air
-132,"0DKboulder,tablemountain",146.7,-,0.6,Tone,100,100,23,23,NN,FM,5,"CO Boulder Boulder, Table Mountain W0DK Boulder Co ARC 146.7 OPEN On-Air"
-133,0DKboulder,1299.5,-,20,,88.5,88.5,23,23,NN,DV,5,CO Boulder Boulder W0DK Boulder County ARES 1299.5 OPEN On-Air
-134,0DSboulder,145.3875,-,0.6,,88.5,88.5,23,23,NN,DV,5,CO Boulder Boulder KC0DS Boulder County ARES 145.3875 OPEN On-Air
-135,0DSboulder,1283.8625,-,20,,88.5,88.5,23,23,NN,DV,5,CO Boulder Boulder KC0DS Boulder County ARES 1283.8625 OPEN On-Air
-136,0DSboulder,446.8625,-,5,,88.5,88.5,23,23,NN,DV,5,CO Boulder Boulder KC0DS Boulder County ARES 446.8625 OPEN On-Air
-137,"0NRmonument,monumenthill",447.725,-,5,Tone,100,100,23,23,NN,FM,5,"CO El Paso Monument, Monument Hill K0NR K0NR 447.725 OPEN On-Air"
-138,0DKboulder,449.4,-,5,Tone,91.5,91.5,23,23,NN,FM,5,CO Boulder Boulder K0DK BARC 449.4 OPEN Off-Air
-139,0DKboulder,146.73,-,0.6,Tone,91.5,91.5,23,23,NN,FM,5,CO Boulder Boulder K0DK BARC 146.73 OPEN Off-Air
-140,"0KQevergreen,saddlebackmountain",447.85,-,5,Tone,141.3,141.3,23,23,NN,FM,5,"CO Clear Creek Evergreen, Saddleback Mountain AC0KQ AC0KQ Rocky Mountain Ham Radio 447.85 OPEN On-Air"
-141,ENOlongmont,147.27,+,0.6,Tone,100,100,23,23,NN,FM,5,CO Boulder Longmont W0ENO Longmont ARC (LARC) 147.27 OPEN On-Air
-142,ENOlongmont,448.8,-,5,Tone,88.5,88.5,23,23,NN,FM,5,CO Boulder Longmont W0ENO Longmont ARC 448.8 OPEN On-Air
-143,EPAlongmont,448.525,-,5,Tone,151.4,151.4,23,23,NN,FM,5,CO Boulder Longmont N0EPA N0EPA 448.525 OPEN On-Air
-144,"VJJboulder,thorodinmountain",145.31,-,0.6,Tone,88.5,123,23,23,NN,FM,5,"CO Gilpin Boulder, Thorodin Mountain KB0VJJ Colorado Connection 145.31 OPEN On-Air"
-145,"VJJcoloradosprings,cheyennemountain",145.13,-,0.6,Tone,88.5,123,23,23,NN,FM,5,"CO El Paso Colorado Springs, Cheyenne Mountain KB0VJJ Colorado Connection 145.13 OPEN On-Air"
-146,"VJJwinterpark,winterpark",147.285,+,0.6,Tone,88.5,123,23,23,NN,FM,5,"CO Grand Winter Park, Winter Park KB0VJJ Colorado Connection 147.285 OPEN On-Air"
-147,"VJJbreckenridge,baldmountain",147.39,+,0.6,Tone,88.5,123,23,23,NN,FM,5,"CO Summit Breckenridge, Bald Mountain KB0VJJ Colorado Connection 147.39 OPEN On-Air"
-148,"VJJleadville,mosquitopass",145.445,-,0.6,Tone,88.5,88.5,23,23,NN,FM,5,"CO Lake Leadville, Mosquito Pass KB0VJJ Colorado Connection 145.445 OPEN On-Air"
-149,"VJJkremmling,santoypeak",147.075,+,0.6,Tone,88.5,123,23,23,NN,FM,5,"CO Grand Kremmling, Santoy Peak KB0VJJ Colorado Connection 147.075 OPEN On-Air"
-150,VJJvail,147.345,+,0.6,Tone,88.5,123,23,23,NN,FM,5,CO Eagle Vail KB0VJJ Colorado Connection 147.345 OPEN On-Air
-151,"VJJsalida,methodistmountain",147.285,+,0.6,Tone,88.5,123,23,23,NN,FM,5,"CO Chaffee Salida, Methodist Mountain KB0VJJ Colorado Connection 147.285 OPEN On-Air"
-152,VJJakron,145.4,-,0.6,Tone,88.5,123,23,23,NN,FM,5,CO Washington Akron KB0VJJ Colorado Connection 145.4 OPEN On-Air
-153,"VJJwalden,petersonridge",145.16,-,0.6,Tone,88.5,123,23,23,NN,FM,5,"CO Jackson Walden, Peterson Ridge KB0VJJ Colorado Connection 145.16 OPEN On-Air"
-154,VJJsteamboatsprings,147.165,+,0.6,Tone,88.5,123,23,23,NN,FM,5,CO Routt Steamboat Springs KB0VJJ Colorado Connection 147.165 OPEN On-Air
-155,VJJsteamboatsprings,449.625,-,5,Tone,123,123,23,23,NN,FM,5,"CO Routt Steamboat Springs KB0VJJ Colorado Connection Repeaters, Inc. 449.625 OPEN On-Air"
-156,"VJJglenwoodsprings,sunlightpeak",146.85,-,0.6,Tone,88.5,123,23,23,NN,FM,5,"CO Garfield Glenwood Springs, Sunlight Peak KB0VJJ Colorado Connection 146.85 OPEN On-Air"
-157,VJJcraig,146.97,-,0.6,Tone,88.5,123,23,23,NN,FM,5,CO Moffat Craig KB0VJJ Northwest Colorado Amateur Radio Association Colorado Connection 146.97 OPEN On-Air
-158,"VJJgrandjunction,grandmesa",145.355,-,0.6,Tone,88.5,123,23,23,NN,FM,5,"CO Mesa Grand Junction, Grand Mesa KB0VJJ Colorado Connection 145.355 OPEN On-Air"
-159,"VJJdurango,missionaryridge",147.345,+,0.6,Tone,88.5,123,23,23,NN,FM,5,"CO La Plata Durango, Missionary Ridge KB0VJJ Colorado Connection 147.345 OPEN On-Air"
-160,"VJJgrandjunction,grandmesa",147.355,-,0.6,Tone,88.5,123,23,23,NN,FM,5,"CO Mesa Grand Junction, Grand Mesa KB0VJJ Colorado Connection 147.355 OPEN On-Air"
-161,"CFIidahosprings,squawmountain",448.675,-,5,Tone,100,100,23,23,NN,FM,5,"CO Denver Idaho Springs, Squaw Mountain W0CFI W0CFI 448.675 OPEN On-Air"
-162,"DUNidahosprings,squawmountain",449.45,-,5,Tone,103.5,127.3,23,23,NN,FM,5,"CO Clear Creek Idaho Springs, Squaw Mountain K1DUN Rocky Mountain Radio League 449.45 OPEN On-Air"
-163,"0PCbailey,dickmountain",146.895,-,0.6,Tone,100,100,23,23,NN,FM,5,"CO Park Bailey, Dick Mountain AB0PC AB0RR 146.895 OPEN On-Air"
-164,"G0Nidahosprings,squawmountain",449.05,-,5,Tone,107.2,107.2,23,23,NN,FM,5,"CO Denver Idaho Springs, Squaw Mountain WG0N WG0N 449.05 OPEN On-Air"
-165,"MDPfalcon,blackforest",447.625,-,5,Tone,100,100,23,23,NN,FM,5,"CO El Paso Falcon, Black Forest KD0MDP KD0MDP The Fun Machine 447.625 OPEN On-Air"
-166,X0Gwoodlandpark,146.82,-,0.6,Tone,107.2,107.2,23,23,NN,FM,5,CO Teller Woodland Park NX0G Mountain ARC 146.82 OPEN On-Air
-167,X0Gwoodlandpark,448.65,-,5,Tone,107.2,107.2,23,23,NN,FM,5,CO Teller Woodland Park NX0G Mountain ARC (MARC) MARC 448.65 OPEN On-Air
-168,X0Gcoloradosprings,447.475,-,5,Tone,107.2,107.2,23,23,NN,FM,5,CO El Paso Colorado Springs NX0G Mountain ARC (MARC) 447.475 OPEN 
-169,"X0Glakegeorge,badgermountain",146.685,-,0.6,Tone,107.2,107.2,23,23,NN,FM,5,"CO Park Lake George, Badger Mountain NX0G Mountain ARC (MARC) 146.685 OPEN On-Air"
-170,X0Gcripplecreek,147.015,+,0.6,Tone,107.2,107.2,23,23,NN,FM,5,CO Teller Cripple Creek NX0G Mountain ARC 147.015 OPEN On-Air
-171,WUCwoodlandpark,145.415,-,0.6,Tone,179.9,179.9,23,23,NN,FM,5,CO Teller Woodland Park KA0WUC MARC 145.415 OPEN 
-172,WUCwoodlandpark,449.025,-,5,Tone,141.3,141.3,23,23,NN,FM,5,CO Teller Woodland Park KA0WUC Mountain Amateur Radio Club (MARC) 449.025 OPEN 
-173,WUCwoodlandpark,447.675,-,5,Tone,179.9,179.9,23,23,NN,FM,5,CO Teller Woodland Park KA0WUC Mountain Amateur Radio Club (MARC) 447.675 OPEN On-Air
-174,WUCwoodlandpark,927.9,-,25,DTCS,88.5,88.5,205,205,NN,FM,5,CO Teller Woodland Park KA0WUC MARC 927.9 OPEN On-Air
-175,"EPSwoodlandpark,paradisepines",449.325,-,5,Tone,103.5,103.5,23,23,NN,FM,5,"CO Teller Woodland Park, Paradise Pines KA4EPS KA4EPS Amateur Radio Motorcycle Club 449.325 OPEN On-Air"
-176,KWDlasalle,147,+,0.6,Tone,100,100,23,23,NN,DIG,5,CO Weld LaSalle KC0KWD Weld ARS 147 OPEN On-Air
-177,KWDgreeley,448.475,-,5,Tone,100,100,23,23,NN,FM,5,CO Weld Greeley KC0KWD Weld Amateur Radio Society (WARS) 448.475 OPEN On-Air
-178,0RMrollinsville,224.6,-,1.6,Tone,100,100,23,23,NN,FM,5,CO Gilpin Rollinsville W0RM W0RM 224.6 OPEN 
-179,0JZgoldhill,146.91,+,0.6,Tone,123,127.3,23,23,NN,FM,5,"CO Boulder Gold Hill W0JZ Town of Gold Hill, Colorado 146.91 OPEN On-Air"
-180,MOGcoloradosprings,224.72,-,1.6,Tone,103.5,103.5,23,23,NN,FM,5,CO El Paso Colorado springs W0MOG w0mog 224.72 OPEN On-Air
-181,MOGcoloradosprings,147.39,+,0.6,Tone,103.5,103.5,23,23,NN,FM,5,CO El Paso Colorado Springs W0MOG W0MOG 147.39 OPEN On-Air
-182,MOGcoloradosprings,448.6,-,5,Tone,114.8,114.8,23,23,NN,FM,5,CO El Paso Colorado Springs W0MOG W0MOG 448.6 OPEN 
-183,MOGcoloradosprings,927.8,-,25,DTCS,88.5,88.5,116,116,NN,FM,5,CO Teller Colorado Springs W0MOG 927.8 OPEN On-Air
-184,"0HGallenspark,afpdstation#5",147.03,+,0.6,Tone,100,100,23,23,NN,FM,5,"CO Boulder Allenspark, AFPD Station #5 KI0HG KI0HG Boulder County Amateur Radio Emergency Service 147.03 OPEN On-Air"
-185,"LRAloveland,namaquahill",449.575,-,5,Tone,100,100,23,23,NN,FM,5,"CO Larimer Loveland, Namaqua Hill W0LRA Loveland Rptr Assoc 449.575 OPEN On-Air"
-186,"LRAloveland,namaquahill",147.195,+,0.6,Tone,100,100,23,23,NN,FM,5,"CO Larimer Loveland, Namaqua Hill W0LRA Loveland Repeater Assoc 147.195 OPEN On-Air"
-187,6VVloveland,224.32,-,1.6,Tone,100,100,23,23,NN,FM,5,CO Larimer Loveland KN6VV KN6VV 224.32 OPEN Off-Air
-188,IRPcoloradosprings,146.91,-,0.6,Tone,151.4,151.4,23,23,NN,FM,5,CO El Paso Colorado Springs K0IRP GGARC 146.91 OPEN On-Air
-189,IRPcoloradosprings,447.35,-,5,Tone,151.4,151.4,23,23,NN,FM,5,CO El Paso Colorado Springs K0IRP GGARC 447.35 OPEN On-Air
-190,0TPcoloradosprings,146.85,-,0.6,Tone,156.7,103.5,23,23,NN,FM,5,CO El Paso Colorado Springs AD0TP AD0TP Village 7 Amateur Radio Club 146.85 OPEN On-Air
-191,A0Lcoloradosprings,147.135,+,0.6,Tone,100,100,23,23,NN,FM,5,CO El Paso Colorado Springs AA0L AA0L 147.135 OPEN On-Air
-192,A0Lcoloradosprings,448.3,-,5,Tone,100,100,23,23,NN,FM,5,CO El Paso Colorado Springs AA0L AA0L 448.3 OPEN On-Air
-193,SRJcoloradosprings,224.06,-,1.6,,88.5,88.5,23,23,NN,FM,5,CO El Paso Colorado Springs KB0SRJ Pikes Peak FM Association (PPFMA) 224.06 CLOSED 
-194,"SRJcoloradosprings,pikespeak",146.97,-,0.6,Tone,100,100,23,23,NN,FM,5,"CO El Paso Colorado Springs, Pikes Peak KB0SRJ Pikes Peak FM Assoc 146.97 OPEN On-Air"
-195,"SRJcoloradosprings,pikespeak",448.45,-,5,Tone,100,100,23,23,NN,FM,5,"CO El Paso Colorado Springs, Pikes Peak KB0SRJ Pikes Pk FM Assoc 448.45 OPEN On-Air"
-196,"SRJcoloradosprings,~2mieneusafanorthgate",145.265,-,0.6,Tone,100,100,23,23,NN,DIG,5,"CO El Paso Colorado Springs, ~2 mi ENE USAFA North Gate KB0SRJ Pikes Peak FM Association (http://PPFMA.ORG) 145.265 OPEN On-Air"
-197,"SRJcoloradosprings,~2mieneusafanorthgate",448.8,-,5,Tone,100,100,23,23,NN,FM,5,"CO El Paso Colorado Springs, ~2 mi ENE USAFA North Gate KB0SRJ Pikes Peak FM Association (http://PPFMA.ORG) 448.8 OPEN On-Air"
-198,IFIcoloradosprings,447.55,-,5,Tone,123,123,23,23,NN,FM,5,CO El Paso Colorado Springs WA6IFI WA6IFI 447.55 OPEN On-Air
-199,"IFIcoloradosprings,almagremountain",927.725,-,25.7,DTCS,88.5,88.5,114,114,NN,P25,5,"CO Teller Colorado Springs, Almagre Mountain WA6IFI WA6IFI 927.725 OPEN On-Air"
+32,"9SLcastlepines,danielspark",449.95,-,5,Tone,77,77,23,23,NN,FM,5,"CO Douglas Castle Pines, Daniels Park W9SL W9SL Owner 449.95 OPEN On-Air"
+33,ELYlakewood,448.75,-,5,Tone,100,100,23,23,NN,FM,5,CO Jefferson Lakewood N0ELY N0ELY 448.75 OPEN On-Air
+34,"0TXlakewood,greenmountain",147.33,+,0.6,Tone,100,100,23,23,NN,FM,5,"CO Jefferson Lakewood, Green Mountain W0TX Denver Radio Club 147.33 OPEN On-Air"
+35,"0TXlakewood,greenmountain",224.38,-,1.6,Tone,100,100,23,23,NN,FM,5,"CO Jefferson Lakewood, Green Mountain W0TX Denver Radio Club 224.38 OPEN On-Air"
+36,"0TXlakewood,greenmtn",449.775,-,5,Tone,100,100,23,23,NN,DIG,5,"CO Jefferson Lakewood, Green Mtn W0TX Denver Radio Club 449.775 OPEN On-Air"
+37,"0TXlakewood,stanthonymedicalcampus",447.825,-,5,DTCS,88.5,88.5,73,73,NN,NFM,5,"CO Jefferson Lakewood, St Anthony Medical Campus W0TX Denver Radio Club 447.825 OPEN On-Air"
+38,"0TXlakewood,greenmountain",53.09,-,1.7,Tone,107.2,107.2,23,23,NN,FM,5,"CO Jefferson Lakewood, Green Mountain W0TX Denver Radio Club 53.09 OPEN On-Air"
+39,"0TXgolden,centennialcone",448.625,-,5,Tone,100,100,23,23,NN,FM,5,"CO Jefferson Golden, Centennial Cone W0TX Denver Radio Club 448.625 OPEN On-Air"
+40,"0TXdenver,centennialcone",446.7875,-,5,,88.5,88.5,23,23,NN,DMR,5,"CO Jefferson Denver, Centennial Cone W0TX Denver Radio Club Brandmeister Network 446.7875 OPEN On-Air"
+41,"0TXidahosprings,centennialcone",145.49,-,0.6,Tone,100,100,23,23,NN,FM,5,"CO Jefferson Idaho Springs, Centennial Cone W0TX KB0VIU, Denver Radio Club 145.49 OPEN On-Air"
+42,"0TXidahosprings,squawmountain",449.35,-,5,Tone,100,100,23,23,NN,FM,5,"CO Clear Creek Idaho Springs, Squaw Mountain W0TX Denver Radio Club 449.35 OPEN On-Air"
+43,"GURdenver,greenvalleyranch",448.15,-,5,Tone,141.3,141.3,23,23,NN,FM,5,"CO Denver Denver, Green Valley Ranch K0GUR K0GUR 448.15 OPEN On-Air"
+44,"SSPlakewood,moffattreatmentplant",147.21,+,0.6,Tone,100,100,23,23,NN,FM,5,"CO Jefferson Lakewood, Moffat Treatment Plant KD0SSP Denver Water Amateur Radio Club 147.21 OPEN On-Air"
+45,"SSPlakewood,moffattreatmentplant",448.35,-,5,Tone,225.7,225.7,23,23,NN,DIG,5,"CO Jefferson Lakewood, Moffat Treatment Plant KD0SSP Denver Water Amateur Radio Club (DWARC) 448.35 OPEN On-Air"
+46,"TUBcentennial,warrenmountain",146.88,-,0.6,Tone,100,100,23,23,NN,FM,5,"CO Jefferson Centennial, Warren Mountain WB0TUB Denver Radio League 146.88 OPEN On-Air"
+47,"TUBcentennial,warrenmountain",449.6,-,5,Tone,100,100,23,23,NN,FM,5,"CO Jefferson Centennial, Warren Mountain WB0TUB Denver Radio League 449.6 OPEN On-Air"
+48,"TUBgolden,centennialcone",146.64,-,0.6,Tone,100,100,23,23,NN,FM,5,"CO Jefferson Golden, Centennial Cone WB0TUB Denver Radio League 146.64 OPEN On-Air"
+49,PRAparker,445.075,-,5,,88.5,88.5,23,23,NN,DMR,5,CO Douglas Parker K0PRA Parker Radio Association 445.075 OPEN On-Air
+50,PRAfranktown,446.85,-,5,,88.5,88.5,23,23,NN,DV,5,CO Douglas Franktown K0PRA Parker Radio Association 446.85 OPEN On-Air
+51,UPSwestminster,449.3,-,5,Tone,100,100,23,23,NN,FM,5,CO Adams Westminster N1UPS N1UPS 449.3 OPEN On-Air
+52,"0HCindianhills,chiefmtn",927.9375,-,25.9,,88.5,88.5,23,23,NN,P25,5,"CO Jefferson Indian Hills, Chief Mtn KI0HC 927.9375 OPEN On-Air"
+53,0HCparker,927.8375,-,25.8,Tone,100,100,23,23,NN,P25,5,CO Douglas Parker KI0HC 927.8375 OPEN On-Air
+54,"0HCgolden,centennialcone",927.8375,-,25.8,DTCS,88.5,88.5,205,205,NN,P25,5,"CO Jefferson Golden, Centennial Cone KI0HC 927.8375 OPEN On-Air"
+55,"LXXmorrison,mt.morrison",53.17,-,0.5,Tone,107.2,107.2,23,23,NN,FM,5,"CO Jefferson Morrison, Mt. Morrison N6LXX N6LXX N6LXX 53.17 OPEN On-Air"
+56,"LXXmorrison,mt.morrison",447.875,-,5,Tone,107.2,107.2,23,23,NN,FM,5,"CO Jefferson Morrison, Mt. Morrison N6LXX N6LXX N6LXX 447.875 OPEN On-Air"
+57,0MLnorthglenn,147.045,+,0.6,Tone,123,123,23,23,NN,FM,5,CO Adams Northglenn K0ML Northglenn RA 147.045 OPEN On-Air
+58,"YZTgolden,lookout",446.8375,-,5,,88.5,88.5,23,23,NN,DMR,5,"CO Jefferson Golden, Lookout WA2YZT WA2YZT 446.8375 OPEN On-Air"
+59,"CDSgolden,lookoutmountain",145.25,-,0.6,,88.5,88.5,23,23,NN,DV,5,"CO Jefferson Golden, Lookout Mountain W0CDS Colorado D-Star 145.25 OPEN On-Air"
+60,"CDSgolden,lookoutmountain",446.9625,-,5,,88.5,88.5,23,23,NN,DV,5,"CO Jefferson Golden, Lookout Mountain W0CDS Colorado D-Star 446.9625 OPEN On-Air"
+61,"CDSgolden,lookoutmountain",1283.9625,-,20,,88.5,88.5,23,23,NN,DV,5,"CO Jefferson Golden, Lookout Mountain W0CDS Colorado D-Star 1283.9625 OPEN On-Air"
+62,"CDSgolden,lookoutmountain",1299.9,,0,,88.5,88.5,23,23,NN,DV,5,"CO Jefferson Golden, Lookout Mountain W0CDS Colorado D-Star 1299.9 OPEN On-Air"
+63,"0SZgolden,lookoutmountain",145.37,-,0.6,,88.5,88.5,23,23,NN,DMR,5,"CO Jefferson Golden, Lookout Mountain N0SZ Rocky Mountain Ham Radio 145.37 OPEN On-Air"
+64,"0SZevergreen,squawmountain",145.175,-,0.6,,88.5,88.5,23,23,NN,DMR,5,"CO Clear Creek Evergreen, Squaw Mountain N0SZ Rocky Mountain Ham Radio 145.175 OPEN On-Air"
+65,"0SZidahosprings,squawmountain",448.225,-,5,Tone,141.3,141.3,23,23,NN,FM,5,"CO Clear Creek Idaho Springs, Squaw Mountain N0SZ Rocky Mountain Ham Radio 448.225 OPEN On-Air"
+66,"0SZidahosprings,squawmountain",446.9375,-,5,,88.5,88.5,23,23,NN,DMR,5,"CO Clear Creek Idaho Springs, Squaw Mountain N0SZ Rocky Mountain Ham Radio 446.9375 OPEN On-Air"
+67,"0SZdenver,thorodinmountain",449.225,-,5,Tone,141.3,141.3,23,23,NN,FM,5,"CO Gilpin Denver, Thorodin Mountain N0SZ Rocky Mountain Ham Radio (RMHR) 449.225 OPEN On-Air"
+68,"0SZboulder,mountthorodin",446.8,-,5,,88.5,88.5,23,23,NN,DMR,5,"CO Boulder Boulder, Mount Thorodin N0SZ Rocky Mountain Ham Radio Rocky Mountain Ham Radio 446.8 OPEN On-Air"
+69,0SZwestcreek,446.875,-,5,,88.5,88.5,23,23,NN,DMR,5,CO Douglas Westcreek N0SZ W0VG RMHAM 446.875 OPEN On-Air
+70,"0SZboulder,leehill",445.05,-,5,,88.5,88.5,23,23,NN,DMR,5,"CO Boulder Boulder, Lee Hill N0SZ Rocky Mountain Ham Radio 445.05 OPEN On-Air"
+71,"0SZboulder,leehill",446.9875,-,5,,88.5,88.5,23,23,NN,DMR,5,"CO Boulder Boulder, Lee Hill N0SZ Rocky Mountain Ham Radio 446.9875 OPEN On-Air"
+72,"0SZboulder,leehill",447.75,-,5,Tone,141.3,141.3,23,23,NN,FM,5,"CO Boulder Boulder, Lee Hill N0SZ Rocky Mountain Ham Radio 447.75 OPEN On-Air"
+73,"0SZbreckenridge,baldy",445.0875,-,5,,88.5,88.5,23,23,NN,DMR,5,"CO Fremont Breckenridge, Baldy N0SZ K2AD Rocky Mountain Ham Radio 445.0875 OPEN On-Air"
+74,"0SZcoloradosprings,almagremountain",145.235,-,0.6,,88.5,88.5,23,23,NN,DMR,5,"CO El Paso Colorado Springs, Almagre Mountain N0SZ RMHAM 145.235 OPEN On-Air"
+75,"0SZcoloradosprings,cheyennemountain",445.0625,-,5,,88.5,88.5,23,23,NN,DMR,5,"CO El Paso Colorado Springs, Cheyenne Mountain N0SZ Rocky Mountain Ham Radio N0SZ Colorado Springs Brandmeister 445.0625 OPEN On-Air"
+76,"0SZfairplay,badger",446.7625,-,5,,88.5,88.5,23,23,NN,DMR,5,"CO Park Fairplay, Badger N0SZ K7PFJ RMHAM 446.7625 OPEN On-Air"
+77,"0SZleadville,mosquitopass",445.05,-,5,,88.5,88.5,23,23,NN,DMR,5,"CO Lake Leadville, Mosquito Pass N0SZ K2AD Rocky Mountain Ham Radio 445.05 OPEN On-Air"
+78,0SZvail,445.075,-,5,,88.5,88.5,23,23,NN,DMR,5,CO Eagle Vail N0SZ K2AD Rocky Mountain Ham Radio 445.075 OPEN On-Air
+79,"0SZsalida,methodistmountain",446.8125,-,5,,88.5,88.5,23,23,NN,DMR,5,"CO Chaffee Salida, Methodist Mountain N0SZ RMHAM 446.8125 OPEN On-Air"
+80,"0SZrangely,cathedralbluffs",445.2625,-,5,,88.5,88.5,23,23,NN,DMR,5,"CO Rio Blanco Rangely, Cathedral Bluffs N0SZ RMHAM 445.2625 OPEN On-Air"
+81,"0SZdurango,missionaryridge",445.1375,-,5,,88.5,88.5,23,23,NN,DMR,5,"CO La Plata Durango, Missionary Ridge N0SZ K2AD Rocky Mountain Ham Radio 445.1375 OPEN On-Air"
+82,"OWYconifer,critchellmountain",447.5,-,5,Tone,88.5,88.5,23,23,NN,FM,5,"CO Jefferson Conifer, Critchell Mountain N0OWY Aurora Repeater Association 447.5 OPEN On-Air"
+83,PYYgolden,927.7875,-,25,Tone,156.7,156.7,23,23,NN,FM,5,CO Jefferson Golden N0PYY N0PYY 927.7875 OPEN On-Air
+84,PYYgolden,448.125,-,5,Tone,107.2,107.2,23,23,NN,FM,5,CO Jefferson Golden N0PYY Denver PD EEB 448.125 OPEN On-Air
+85,"PYYevergreen,squawmountain",147.3,+,0.6,Tone,103.5,103.5,23,23,NN,FM,5,"CO Clear Creek Evergreen, Squaw Mountain N0PYY Denver PD EEB 147.3 OPEN On-Air"
+86,0GVgolden,448.975,-,5,Tone,123,123,23,23,NN,FM,5,CO Jefferson Golden W0GV FRG 448.975 OPEN On-Air
+87,"0KUgolden,lookoutmountain",449.625,-,5,Tone,141.3,141.3,23,23,NN,FM,5,"CO Jefferson Golden, Lookout Mountain W0KU Rocky Mountain Ham Radio 449.625 OPEN On-Air"
+88,"VGDgolden,tablemountain",446.975,-,5,,88.5,88.5,23,23,NN,DMR,5,"CO Jefferson Golden, Table Mountain KB0VGD W0DMR 446.975 OPEN On-Air"
+89,"VGDfortcollins,horsetoothmountain",145.265,-,0.6,,88.5,88.5,23,23,NN,DMR,5,"CO Larimer Fort Collins , Horsetooth Mountain KB0VGD W0DMR - NoCo C-bridge Network Brandmeister Network 145.265 OPEN On-Air"
+90,GUQevergreen,145.34,-,0.6,Tone,103.5,127.3,23,23,NN,FM,5,CO Jefferson Evergreen KE4GUQ Rocky Mtn Radio League 145.34 OPEN On-Air
+91,WYXbroomfield,449.825,-,5,Tone,103.5,103.5,23,23,NN,FM,5,CO Boulder Broomfield W0WYX Rocky Mountain Radio League 449.825 OPEN On-Air
+92,"WYXidahosprings,squawmountain",146.94,-,0.6,Tone,103.5,103.5,23,23,NN,FM,5,"CO Clear Creek Idaho Springs, Squaw Mountain W0WYX Rocky Mtn Radio League 146.94 OPEN On-Air"
+93,LMAbroomfield,448.925,-,5,Tone,131.8,131.8,23,23,NN,FM,5,CO Boulder Broomfield W0LMA W0LMA 448.925 OPEN On-Air
+94,"CRAconifer,conifermountain",224.98,-,1.6,Tone,107.2,107.2,23,23,NN,FM,5,"CO Jefferson Conifer, Conifer Mountain W0CRA Colorado Repeater Association 224.98 OPEN Off-Air"
+95,"CRAconifer,conifermountain",447.15,-,5,Tone,107.2,107.2,23,23,NN,FM,5,"CO Jefferson Conifer, Conifer Mountain W0CRA Colorado Repeater Association (CRA) 447.15 OPEN Off-Air"
+96,"CRAconifer,conifermountain",1287.9,-,20,,88.5,88.5,23,23,NN,FM,5,"CO Jefferson Conifer, Conifer Mountain W0CRA Colorado Repeater Association (CRA) 1287.9 OPEN Off-Air"
+97,"CRAconifer,conifermountain",53.05,-,1.7,Tone,107.2,107.2,23,23,NN,FM,5,"CO Jefferson Conifer, Conifer Mountain W0CRA Colorado Repeater Association (CRA) 53.05 OPEN Off-Air"
+98,"CRAidahosprings,squawmountain",145.145,-,0.6,Tone,107.2,107.2,23,23,NN,FM,5,"CO Clear Creek Idaho Springs, Squaw Mountain W0CRA Colorado Repeater Assoc 145.145 OPEN On-Air"
+99,"CRAidahosprings,squawmountain",447.575,-,5,Tone,107.2,107.2,23,23,NN,FM,5,"CO Clear Creek Idaho Springs, Squaw Mountain W0CRA Colorado Repeater Association (CRA) 447.575 OPEN On-Air"
+100,"CRAlarkspur,westcreek",147.225,+,0.6,Tone,107.2,107.2,23,23,NN,FM,5,"CO Douglas Larkspur, Westcreek W0CRA Colorado Repeater Association (CRA) CRA VHF Link System 147.225 OPEN On-Air"
+101,"CRAlarkspur,westcreek",448.425,-,5,Tone,107.2,107.2,23,23,NN,FM,5,"CO Douglas Larkspur, Westcreek W0CRA Colorado Repeater Association (CRA) ARESDEC 448.425 OPEN On-Air"
+102,"CRAboulder,eldoradomountain",145.46,-,0.6,Tone,107.2,107.2,23,23,NN,FM,5,"CO Boulder Boulder, Eldorado Mountain W0CRA Colorado Repeater Association (CRA) CRA VHF Link System 145.46 OPEN On-Air"
+103,"CRAboulder,eldoradomountain",447.975,-,5,Tone,107.2,107.2,23,23,NN,FM,5,"CO Boulder Boulder, Eldorado Mountain W0CRA Colorado Repeater Association (CRA) 447.975 OPEN On-Air"
+104,"CRAcoloradosprings,cheyennemountain",145.16,-,0.6,Tone,107.2,107.2,23,23,NN,FM,5,"CO El Paso Colorado Springs, Cheyenne Mountain W0CRA Colorado Repeater Association CRA VHF Link System 145.16 OPEN On-Air"
+105,"0GOgolden,guyhill",449.75,-,5,Tone,103.5,103.5,23,23,NN,FM,5,"CO Jefferson Golden, Guy Hill KI0GO Rocky Mtn Radio League 449.75 OPEN On-Air"
+106,"POHgolden,guyhill",224.74,-,1.6,Tone,88.5,88.5,23,23,NN,FM,5,"CO Jefferson Golden, Guy Hill N0POH Aurora Repeater Assoc 224.74 OPEN On-Air"
+107,"T0Cgolden,guyhill",145.22,-,0.6,Tone,103.5,103.5,23,23,NN,P25,5,"CO Jefferson Golden, Guy Hill WT0C Rocky Mtn Radio League 145.22 OPEN On-Air"
+108,"IBMgolden,guyhill",448.85,-,5,Tone,88.5,88.5,23,23,NN,FM,5,"CO Jefferson Golden, Guy Hill K0IBM Aurora Repeater Assoc 448.85 OPEN On-Air"
+109,"MHUgolden,guyhill",224,-,1.6,Tone,103.5,103.5,23,23,NN,FM,5,"CO Jefferson Golden, Guy Hill N0MHU Rocky Mountain Radio League 224 OPEN On-Air"
+110,"CBIgolden,guyhill",147.15,+,0.6,Tone,100,100,23,23,NN,FM,5,"CO Jefferson Golden, Guy Hill W0CBI Aurora Repeater Assoc (ARA) 147.15 OPEN On-Air"
+111,"ARAcritchell,critchellmountain",147.12,+,0.6,Tone,88.5,88.5,23,23,NN,FM,5,"CO Jefferson Critchell, Critchell Mountain N0ARA Aurora Repeater Association 147.12 OPEN On-Air"
+112,0KCfortlupton,447.3,-,5,Tone,107.2,107.2,23,23,NN,FM,5,CO Weld Fort Lupton AC0KC 447.3 OPEN On-Air
+113,0KCfortlupton,224.96,-,1.6,,88.5,88.5,23,23,NN,FM,5,CO Weld Fort Lupton AC0KC AC0KC 224.96 OPEN On-Air
+114,"0KQevergreen,saddlebackmountain",447.85,-,5,Tone,141.3,141.3,23,23,NN,FM,5,"CO Clear Creek Evergreen, Saddleback Mountain AC0KQ AC0KQ Rocky Mountain Ham Radio 447.85 OPEN On-Air"
+115,0EBhudson,449.925,-,5,Tone,114.8,114.8,23,23,NN,FM,5,CO Weld Hudson K0EB K0EB K0UPS Club 449.925 OPEN On-Air
+116,"0DKboulder,tablemesa",448.9,-,5,Tone,100,100,23,23,NN,FM,5,"CO Boulder Boulder, Table Mesa W0DK Boulder ARC 448.9 OPEN On-Air"
+117,0DKboulder,146.61,-,0.6,Tone,100,100,23,23,NN,FM,5,CO Boulder Boulder W0DK Boulder Amateur Radio Club 146.61 OPEN Off-Air
+118,"0DKboulder,tablemountain",146.7,-,0.6,Tone,100,100,23,23,NN,FM,5,"CO Boulder Boulder, Table Mountain W0DK Boulder Co ARC 146.7 OPEN On-Air"
+119,0DKboulder,1299.5,-,20,,88.5,88.5,23,23,NN,DV,5,CO Boulder Boulder W0DK Boulder County ARES 1299.5 OPEN On-Air
+120,"CFIidahosprings,squawmountain",448.675,-,5,Tone,100,100,23,23,NN,FM,5,"CO Denver Idaho Springs, Squaw Mountain W0CFI W0CFI 448.675 OPEN On-Air"
+121,"DUNidahosprings,squawmountain",449.45,-,5,Tone,103.5,127.3,23,23,NN,FM,5,"CO Clear Creek Idaho Springs, Squaw Mountain K1DUN Rocky Mountain Radio League 449.45 OPEN On-Air"
+122,"JSClarkspur,westcreek",449.975,-,5,Tone,100,100,23,23,NN,FM,5,"CO Douglas Larkspur, Westcreek K0JSC K0JSC The Fun Machine 449.975 OPEN On-Air"
+123,"JSCcanoncity,canoncity",449.975,-,5,Tone,100,100,23,23,NN,FM,5,"CO Fremont Canon City, Canon City K0JSC K0JSC The Fun Machine 449.975 OPEN On-Air"
+124,"JSCcanoncity,fremontpeak",446.7375,-,5,,88.5,88.5,23,23,NN,DMR,5,"CO Fremont Canon City, Fremont Peak K0JSC Rocky Mountain Ham Radio 446.7375 OPEN On-Air"
+125,"JSCcanoncity,fremontpeak",447.25,-,5,Tone,100,100,23,23,NN,FM,5,"CO Fremont Canon City, Fremont Peak K0JSC 447.25 OPEN On-Air"
+126,"JSCcanoncity,colorado",447.975,-,5,Tone,100,100,23,23,NN,FM,5,"CO Fremont Canon City, Colorado K0JSC K0JSC 447.975 OPEN On-Air"
+127,JSCpueblowest,448.975,-,5,Tone,100,100,23,23,NN,FM,5,CO Pueblo Pueblo West K0JSC 448.975 OPEN On-Air
+128,JSCpueblo,446.9875,-,5,,88.5,88.5,23,23,NN,DMR,5,CO Pueblo Pueblo K0JSC RMHAM 446.9875 OPEN Off-Air
+129,"JSCpueblo,metro",447.275,-,5,Tone,100,100,23,23,NN,FM,5,"CO Pueblo Pueblo, Metro K0JSC The Fun Machine 447.275 OPEN On-Air"
+130,"JSCsalida,methodistmountain",449.975,-,5,Tone,100,100,23,23,NN,FM,5,"CO Chaffee Salida, Methodist Mountain K0JSC 449.975 OPEN On-Air"
+131,JSCwestcliffe,448.325,-,5,Tone,100,100,23,23,NN,FM,5,CO Custer Westcliffe K0JSC The Fun Machine 448.325 OPEN On-Air
+132,"JSCpueblo,cedarwood",449.975,-,5,Tone,100,100,23,23,NN,FM,5,"CO Pueblo Pueblo, Cedarwood K0JSC K0JSC 449.975 OPEN On-Air"
+133,"0IAboulder,gunbarrelhill",146.76,-,0.6,Tone,100,100,23,23,NN,FM,5,"CO Boulder Boulder, Gunbarrel Hill W0IA Rocky Mtn VHF Soc Boulder County ARES 146.76 OPEN On-Air"
+134,0IAboulder,449.55,-,5,Tone,100,100,23,23,NN,FM,5,CO Boulder Boulder W0IA Rocky Mtn VHF Soc 449.55 OPEN On-Air
+135,"0IAboulder,leehill",224.02,-,1.6,,88.5,88.5,23,23,NN,FM,5,"CO Boulder Boulder, Lee Hill W0IA Rocky Mtn VHF Soc 224.02 OPEN On-Air"
+136,0DKboulder,449.4,-,5,Tone,91.5,91.5,23,23,NN,FM,5,CO Boulder Boulder K0DK BARC 449.4 OPEN Off-Air
+137,0DKboulder,146.73,-,0.6,Tone,91.5,91.5,23,23,NN,FM,5,CO Boulder Boulder K0DK BARC 146.73 OPEN Off-Air
+138,"VJJboulder,thorodinmountain",145.31,-,0.6,Tone,88.5,123,23,23,NN,FM,5,"CO Gilpin Boulder, Thorodin Mountain KB0VJJ Colorado Connection 145.31 OPEN On-Air"
+139,"VJJwinterpark,winterpark",147.285,+,0.6,Tone,88.5,123,23,23,NN,FM,5,"CO Grand Winter Park, Winter Park KB0VJJ Colorado Connection 147.285 OPEN On-Air"
+140,"VJJbreckenridge,baldmountain",147.39,+,0.6,Tone,88.5,123,23,23,NN,FM,5,"CO Summit Breckenridge, Bald Mountain KB0VJJ Colorado Connection 147.39 OPEN On-Air"
+141,"VJJcoloradosprings,cheyennemountain",145.13,-,0.6,Tone,88.5,123,23,23,NN,FM,5,"CO El Paso Colorado Springs, Cheyenne Mountain KB0VJJ Colorado Connection 145.13 OPEN On-Air"
+142,"VJJleadville,mosquitopass",145.445,-,0.6,Tone,88.5,88.5,23,23,NN,FM,5,"CO Lake Leadville, Mosquito Pass KB0VJJ Colorado Connection 145.445 OPEN On-Air"
+143,VJJvail,147.345,+,0.6,Tone,88.5,123,23,23,NN,FM,5,CO Eagle Vail KB0VJJ Colorado Connection 147.345 OPEN On-Air
+144,"VJJkremmling,santoypeak",147.075,+,0.6,Tone,88.5,123,23,23,NN,FM,5,"CO Grand Kremmling, Santoy Peak KB0VJJ Colorado Connection 147.075 OPEN On-Air"
+145,VJJakron,145.4,-,0.6,Tone,88.5,123,23,23,NN,FM,5,CO Washington Akron KB0VJJ Colorado Connection 145.4 OPEN On-Air
+146,"VJJsalida,methodistmountain",147.285,+,0.6,Tone,88.5,123,23,23,NN,FM,5,"CO Chaffee Salida, Methodist Mountain KB0VJJ Colorado Connection 147.285 OPEN On-Air"
+147,"VJJwalden,petersonridge",145.16,-,0.6,Tone,88.5,123,23,23,NN,FM,5,"CO Jackson Walden, Peterson Ridge KB0VJJ Colorado Connection 145.16 OPEN On-Air"
+148,VJJsteamboatsprings,147.165,+,0.6,Tone,88.5,123,23,23,NN,FM,5,CO Routt Steamboat Springs KB0VJJ Colorado Connection 147.165 OPEN On-Air
+149,VJJsteamboatsprings,449.625,-,5,Tone,123,123,23,23,NN,FM,5,"CO Routt Steamboat Springs KB0VJJ Colorado Connection Repeaters, Inc. 449.625 OPEN On-Air"
+150,"VJJglenwoodsprings,sunlightpeak",146.85,-,0.6,Tone,88.5,123,23,23,NN,FM,5,"CO Garfield Glenwood Springs, Sunlight Peak KB0VJJ Colorado Connection 146.85 OPEN On-Air"
+151,VJJcraig,146.97,-,0.6,Tone,88.5,123,23,23,NN,FM,5,CO Moffat Craig KB0VJJ Northwest Colorado Amateur Radio Association Colorado Connection 146.97 OPEN On-Air
+152,"VJJgrandjunction,grandmesa",145.355,-,0.6,Tone,88.5,123,23,23,NN,FM,5,"CO Mesa Grand Junction, Grand Mesa KB0VJJ Colorado Connection 145.355 OPEN On-Air"
+153,"VJJgrandjunction,grandmesa",147.355,-,0.6,Tone,88.5,123,23,23,NN,FM,5,"CO Mesa Grand Junction, Grand Mesa KB0VJJ Colorado Connection 147.355 OPEN On-Air"
+154,"VJJdurango,missionaryridge",147.345,+,0.6,Tone,88.5,123,23,23,NN,FM,5,"CO La Plata Durango, Missionary Ridge KB0VJJ Colorado Connection 147.345 OPEN On-Air"
+155,0DSboulder,446.8625,-,5,,88.5,88.5,23,23,NN,DV,5,CO Boulder Boulder KC0DS Boulder County ARES 446.8625 OPEN On-Air
+156,0DSboulder,145.3875,-,0.6,,88.5,88.5,23,23,NN,DV,5,CO Boulder Boulder KC0DS Boulder County ARES 145.3875 OPEN On-Air
+157,0DSboulder,1283.8625,-,20,,88.5,88.5,23,23,NN,DV,5,CO Boulder Boulder KC0DS Boulder County ARES 1283.8625 OPEN On-Air
+158,"G0Nidahosprings,squawmountain",449.05,-,5,Tone,107.2,107.2,23,23,NN,FM,5,"CO Denver Idaho Springs, Squaw Mountain WG0N WG0N 449.05 OPEN On-Air"
+159,"XLFpalmerlake,monumenthill",145.19,-,0.6,Tone,131.8,131.8,23,23,NN,FM,5,"CO Douglas Palmer Lake, Monument Hill N0XLF N0OBA Owner 145.19 OPEN On-Air"
+160,"0PCbailey,dickmountain",146.895,-,0.6,Tone,100,100,23,23,NN,FM,5,"CO Park Bailey, Dick Mountain AB0PC AB0RR 146.895 OPEN On-Air"
+161,"0NRmonument,monumenthill",447.725,-,5,Tone,100,100,23,23,NN,FM,5,"CO El Paso Monument, Monument Hill K0NR K0NR 447.725 OPEN On-Air"
+162,0RMrollinsville,224.6,-,1.6,Tone,100,100,23,23,NN,FM,5,CO Gilpin Rollinsville W0RM W0RM 224.6 OPEN 
+163,ENOlongmont,147.27,+,0.6,Tone,100,100,23,23,NN,FM,5,CO Boulder Longmont W0ENO Longmont ARC (LARC) 147.27 OPEN On-Air
+164,ENOlongmont,448.8,-,5,Tone,88.5,88.5,23,23,NN,FM,5,CO Boulder Longmont W0ENO Longmont ARC 448.8 OPEN On-Air
+165,EPAlongmont,448.525,-,5,Tone,151.4,151.4,23,23,NN,FM,5,CO Boulder Longmont N0EPA N0EPA 448.525 OPEN On-Air
+166,0JZgoldhill,146.91,+,0.6,Tone,123,127.3,23,23,NN,FM,5,"CO Boulder Gold Hill W0JZ Town of Gold Hill, Colorado 146.91 OPEN On-Air"
+167,"MDPfalcon,blackforest",447.625,-,5,Tone,100,100,23,23,NN,FM,5,"CO El Paso Falcon, Black Forest KD0MDP KD0MDP The Fun Machine 447.625 OPEN On-Air"
+168,X0Gwoodlandpark,146.82,-,0.6,Tone,107.2,107.2,23,23,NN,FM,5,CO Teller Woodland Park NX0G Mountain ARC 146.82 OPEN On-Air
+169,X0Gwoodlandpark,448.65,-,5,Tone,107.2,107.2,23,23,NN,FM,5,CO Teller Woodland Park NX0G Mountain ARC (MARC) MARC 448.65 OPEN On-Air
+170,"X0Glakegeorge,badgermountain",146.685,-,0.6,Tone,107.2,107.2,23,23,NN,FM,5,"CO Park Lake George, Badger Mountain NX0G Mountain ARC (MARC) 146.685 OPEN On-Air"
+171,X0Gcoloradosprings,447.475,-,5,Tone,107.2,107.2,23,23,NN,FM,5,CO El Paso Colorado Springs NX0G Mountain ARC (MARC) 447.475 OPEN 
+172,X0Gcripplecreek,147.015,+,0.6,Tone,107.2,107.2,23,23,NN,FM,5,CO Teller Cripple Creek NX0G Mountain ARC 147.015 OPEN On-Air
+173,WUCwoodlandpark,145.415,-,0.6,Tone,179.9,179.9,23,23,NN,FM,5,CO Teller Woodland Park KA0WUC MARC 145.415 OPEN 
+174,WUCwoodlandpark,449.025,-,5,Tone,141.3,141.3,23,23,NN,FM,5,CO Teller Woodland Park KA0WUC Mountain Amateur Radio Club (MARC) 449.025 OPEN 
+175,WUCwoodlandpark,447.675,-,5,Tone,179.9,179.9,23,23,NN,FM,5,CO Teller Woodland Park KA0WUC Mountain Amateur Radio Club (MARC) 447.675 OPEN On-Air
+176,WUCwoodlandpark,927.9,-,25,DTCS,88.5,88.5,205,205,NN,FM,5,CO Teller Woodland Park KA0WUC MARC 927.9 OPEN On-Air
+177,"EPSwoodlandpark,paradisepines",449.325,-,5,Tone,103.5,103.5,23,23,NN,FM,5,"CO Teller Woodland Park, Paradise Pines KA4EPS KA4EPS Amateur Radio Motorcycle Club 449.325 OPEN On-Air"
+178,KWDlasalle,147,+,0.6,Tone,100,100,23,23,NN,DIG,5,CO Weld LaSalle KC0KWD Weld ARS 147 OPEN On-Air
+179,KWDgreeley,448.475,-,5,Tone,100,100,23,23,NN,FM,5,CO Weld Greeley KC0KWD Weld Amateur Radio Society (WARS) 448.475 OPEN On-Air
+180,"0HGallenspark,afpdstation#5",147.03,+,0.6,Tone,100,100,23,23,NN,FM,5,"CO Boulder Allenspark, AFPD Station #5 KI0HG KI0HG Boulder County Amateur Radio Emergency Service 147.03 OPEN On-Air"
+181,MOGcoloradosprings,224.72,-,1.6,Tone,103.5,103.5,23,23,NN,FM,5,CO El Paso Colorado springs W0MOG w0mog 224.72 OPEN On-Air
+182,MOGcoloradosprings,147.39,+,0.6,Tone,103.5,103.5,23,23,NN,FM,5,CO El Paso Colorado Springs W0MOG W0MOG 147.39 OPEN On-Air
+183,MOGcoloradosprings,448.6,-,5,Tone,114.8,114.8,23,23,NN,FM,5,CO El Paso Colorado Springs W0MOG W0MOG 448.6 OPEN 
+184,MOGcoloradosprings,927.8,-,25,DTCS,88.5,88.5,116,116,NN,FM,5,CO Teller Colorado Springs W0MOG 927.8 OPEN On-Air
+185,0DEsimla,147.105,+,0.6,Tone,107.2,107.2,23,23,NN,FM,5,CO Elbert Simla WA0DE ARES of Douglas and Elbert Counties Colorado Repeater Association 147.105 OPEN On-Air
+186,"CVUlakegeorge,badgermountain",147.36,+,0.6,Tone,107.2,107.2,23,23,NN,FM,5,"CO Park Lake George, Badger Mountain KC0CVU 147.36 OPEN On-Air"
+187,"CVUcoloradosprings,cheyennemountain",446.9125,-,5,,88.5,88.5,23,23,NN,DV,5,"CO El Paso Colorado Springs, Cheyenne Mountain KC0CVU Cheyenne Mountain Repeater Group (CMRG) 446.9125 OPEN Off-Air"
+188,"CVUcoloradosprings,cheyennemountain",927.85,-,25,DTCS,88.5,88.5,114,114,NN,FM,5,"CO Teller Colorado Springs, Cheyenne Mountain KC0CVU CMRG 927.85 OPEN On-Air"
+189,"CVUcoloradosprings,cheyennemountain",145.375,-,0.6,,88.5,88.5,23,23,NN,DV,5,"CO El Paso Colorado Springs, Cheyenne Mountain KC0CVU Cheyenne Mountain Repeater Group (CMRG) 145.375 OPEN Off-Air"
+190,"CVUcoloradosprings,cheyennemountain",146.76,-,0.6,Tone,107.2,107.2,23,23,NN,FM,5,"CO El Paso Colorado Springs, Cheyenne Mountain KC0CVU Cheyenne Mountain Repeater Group 146.76 OPEN On-Air"
+191,"CVUcoloradosprings,cheyennemountain",448,-,5,Tone,107.2,107.2,23,23,NN,FM,5,"CO El Paso Colorado Springs, Cheyenne Mountain KC0CVU 448 OPEN On-Air"
+192,"CVUcoloradosprings,cheyennemountain",448.1,-,5,Tone,107.2,107.2,23,23,NN,FM,5,"CO El Paso Colorado Springs, Cheyenne Mountain KC0CVU 448.1 OPEN On-Air"
+193,"CVUcoloradosprings,cheyennemountain",147.345,+,0.6,Tone,107.2,107.2,23,23,NN,FM,5,"CO El Paso Colorado Springs, Cheyenne Mountain KC0CVU 147.345 OPEN On-Air"
+194,"CVUsalida,methodistmountain",145.295,-,0.6,Tone,107.2,107.2,23,23,NN,FM,5,"CO Chaffee Salida, Methodist Mountain KC0CVU Cheyenne Mtn Repeater Group 145.295 OPEN On-Air"
+195,"CVUsalida,methodistmountain",449.65,-,5,Tone,107.2,107.2,23,23,NN,FM,5,"CO Chaffee Salida, Methodist Mountain KC0CVU 449.65 OPEN On-Air"
+196,"CVUpueblo,deerpeak",449.625,-,5,Tone,107.2,107.2,23,23,NN,FM,5,"CO Custer Pueblo, Deer Peak KC0CVU 449.625 OPEN On-Air"
+197,"CVUtrinidad,ratonpass",449.6,-,5,Tone,107.2,107.2,23,23,NN,FM,5,"CO Las Animas Trinidad, Raton Pass KC0CVU Cheyenne Mtn Rptr Grp 449.6 OPEN Off-Air"
+198,CCCwinterpark,447.45,-,5,Tone,103.5,103.5,23,23,NN,FM,5,CO Grand Winter Park WA4CCC W0IG 447.45 OPEN On-Air
+199,"LRAloveland,namaquahill",449.575,-,5,Tone,100,100,23,23,NN,FM,5,"CO Larimer Loveland, Namaqua Hill W0LRA Loveland Rptr Assoc 449.575 OPEN On-Air"

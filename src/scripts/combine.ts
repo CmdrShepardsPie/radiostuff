@@ -1,5 +1,7 @@
 import "module-alias/register";
 
+import * as gpsDistance from "gps-distance";
+
 import {getAllFilesFromDirectory, writeToJsonAndCsv} from "@helpers/fs-helpers";
 import {numberToString} from "@helpers/helpers";
 import {createLog} from "@helpers/log-helpers";
@@ -19,16 +21,15 @@ export default (async () => {
       if (!found[`${item.state_id}-${item.ID}`]) {
         found[`${item.state_id}-${item.ID}`] = true;
         combined.push(item);
-        const x = Math.pow(item.Latitude - myPoint[0], 2);
-        const y = Math.pow(item.Longitude - myPoint[1], 2);
-        item.Mi = Math.pow(x + y, 1 / 2);
+        const distance = gpsDistance([myPoint, [item.Latitude, item.Longitude]]);
+        item.Mi = distance * 0.62137119;
       }
     });
   });
   log("Got", combined.length, "unique repeaters");
   combined.sort((a, b) => {
-    const aMi = numberToString(a.Mi * 100, 3, 24);
-    const bMi = numberToString(b.Mi * 100, 3, 24);
+    const aMi = numberToString(a.Mi, 4, 24);
+    const bMi = numberToString(b.Mi, 4, 24);
     const aRepeaterName = a.Call;
     const bRepeaterName = b.Call;
     const aFrequency = numberToString(a.Frequency, 4, 5);
