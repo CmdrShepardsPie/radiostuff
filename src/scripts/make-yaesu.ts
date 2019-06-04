@@ -28,7 +28,7 @@ interface IYaesu {
   CTCSS: string;
   DCS: number;
   UserCTCSS: "1500 Hz";
-  Power: "LOW";
+  Power: "HIGH";
   Skip: "OFF";
   Step: "25.0KHz";
   ClockShift: 0;
@@ -48,7 +48,7 @@ const yaesu: IYaesu = {
   CTCSS: "100 Hz",
   DCS: "023",
   UserCTCSS: "1500 Hz",
-  Power: "LOW",
+  Power: "HIGH",
   Skip: "OFF",
   Step: "25.0KHz",
   ClockShift: 0,
@@ -57,16 +57,16 @@ const yaesu: IYaesu = {
 } as any;
 
 async function doIt(inFileName: string, outFileName: string) {
-  const APRS: IRepeater = {
-    Frequency: 144.390,
-    Name: "APRS",
-  } as any;
+  // const APRS: IRepeater = {
+  //   Frequency: 144.390,
+  //   Name: "APRS",
+  // } as any;
   let twom: IRepeater[] = JSON.parse((await readFileAsync("data/2m.json")).toString());
   twom = twom.sort((a, b) => a.Frequency - b.Frequency);
   let sevcm: IRepeater[] = JSON.parse((await readFileAsync("data/70cm.json")).toString());
   sevcm = sevcm.sort((a, b) => a.Frequency - b.Frequency);
   const fileData: IRepeater[] = JSON.parse((await readFileAsync(inFileName)).toString());
-  const repeaters: IRepeater[] = [APRS, ...twom, ...sevcm, ...fileData];
+  const repeaters: IRepeater[] = [...twom, ...sevcm, ...fileData];
 
   const mapped = repeaters
     .filter((r) => (r.Frequency > 100 && r.Frequency < 200) || (r.Frequency > 400 && r.Frequency < 500))
@@ -115,6 +115,7 @@ function makeRow(item: IRepeater) {
   const Offset = Math.abs(item.Offset || 0).toFixed(5);
   const Transmit = (item.Frequency + (item.Offset || 0)).toFixed(5);
   const UplinkTone = item["Uplink Tone"] || item.Tone;
+  const DownlinkTone = item["Downlink Tone"];
 
   let CTCSS: any = "";
   let DCS: any = "";
@@ -124,9 +125,23 @@ function makeRow(item: IRepeater) {
   let Comment = `${item["ST/PR"] || ""} ${item.County || ""} ${item.Location || ""} ${item.Call || ""} ${item.Sponsor || ""} ${item.Affiliate || ""} ${item.Frequency} ${item.Use || ""} ${item["Op Status"] || ""}`.replace(/\s+/g, " ");
   Comment = Comment.replace(",", "").substring(0, 31);
 
+  if (typeof DownlinkTone === "number") {
+    CTCSS = DownlinkTone;
+    ToneMode = "TONE SQL";
+  } else if (DownlinkTone !== undefined) {
+    const d = DTCS.exec(DownlinkTone);
+    if (d && d[1]) {
+      const n = parseInt(d[1], 10);
+      if (!isNaN(n)) {
+        DCS = n;
+        ToneMode = "DCS";
+      }
+    }
+  }
+
   if (typeof UplinkTone === "number") {
     CTCSS = UplinkTone;
-    ToneMode = "TONE ENC";
+    ToneMode = "TONE SQL";
   } else if (UplinkTone !== undefined) {
     const d = DTCS.exec(UplinkTone);
     if (d && d[1]) {
