@@ -69,29 +69,21 @@ function makeRow(item) {
     // const isNarrow = Object.entries(item).filter((a) => /Narrow/i.test(a[1] as string)).length > 0;
     let Name = "";
     if (item.Call) {
-        Name += (item.Call || "")
-            .toLocaleUpperCase()
-            .trim()
-            .substr(-3)
-            .trim();
+        Name += (Name ? " " : "") + item.Call.trim();
     }
     if (item.Location) {
-        Name += (item.Location || "")
-            .toLocaleLowerCase()
-            .trim();
+        Name += (Name ? " " : "") + item.Location.trim();
     }
-    if (!Name) {
-        if (item.Name) {
-            Name = item.Name;
-        }
-        else {
-            Name += item.Frequency.toString().trim();
-            if (item.Comment) {
-                Name += item.Comment.trim();
-            }
-        }
+    if (item.Name) {
+        Name += (Name ? " " : "") + item.Name.trim();
     }
-    Name = Name.replace(/[^0-9.a-zA-Z]/g, "").trim();
+    if (item.Comment) {
+        Name += (Name ? " " : "") + item.Comment.trim();
+    }
+    if (item.Frequency) {
+        Name += (Name ? " " : "") + item.Frequency.toString().trim();
+    }
+    // Name = Name.replace(/[^0-9.a-zA-Z]/g, "").trim();
     Name = Name.substring(0, 7);
     // .substr(0, 7);
     // .substring(0, 7);
