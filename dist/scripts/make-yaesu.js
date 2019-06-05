@@ -23,15 +23,29 @@ const yaesu = {
     Comment: "",
     Bank: 0,
 };
+const simplexFilter = (prev, curr, index) => {
+    const last = prev[prev.length - 1];
+    if (last && last.Frequency === curr.Frequency) {
+        if (last.Comment && curr.Comment) {
+            last.Comment = last.Comment.substr(0, 3) + "/" + curr.Comment.substr(0, 3);
+        }
+        return prev;
+    }
+    return [...prev, curr];
+};
 async function doIt(inFileName, outFileName) {
     // const APRS: IRepeater = {
     //   Frequency: 144.390,
     //   Name: "APRS",
     // } as any;
     let twom = JSON.parse((await fs_helpers_1.readFileAsync("data/2m.json")).toString());
-    twom = twom.sort((a, b) => a.Frequency - b.Frequency);
+    twom = twom
+        .sort((a, b) => a.Frequency - b.Frequency)
+        .reduce(simplexFilter, []);
     let sevcm = JSON.parse((await fs_helpers_1.readFileAsync("data/70cm.json")).toString());
-    sevcm = sevcm.sort((a, b) => a.Frequency - b.Frequency);
+    sevcm = sevcm
+        .sort((a, b) => a.Frequency - b.Frequency)
+        .reduce(simplexFilter, []);
     const fileData = JSON.parse((await fs_helpers_1.readFileAsync(inFileName)).toString());
     const repeaters = [...twom, ...sevcm, ...fileData];
     const mapped = repeaters
@@ -44,13 +58,13 @@ function makeRow(item) {
     const DTCS = /D(\d+)/;
     let Name = "";
     if (item.Call) {
-        Name += (Name ? " " : "") + item.Call.trim();
+        Name += (Name ? " " : "") + item.Call.toUpperCase().trim().substr(-3);
     }
     // if (item.Mi !== undefined) {
     //   Name += " " + (item.Mi);
     // }
     if (item.Location) {
-        Name += (Name ? " " : "") + item.Location.trim();
+        Name += (Name ? " " : "") + item.Location.trim().toLowerCase();
     }
     if (item.Name) {
         Name += (Name ? " " : "") + item.Name.trim();
@@ -61,7 +75,7 @@ function makeRow(item) {
     if (item.Frequency) {
         Name += (Name ? " " : "") + item.Frequency.toString().trim();
     }
-    // Name = Name.replace(/[^0-9.a-zA-Z ]/g, "").trim();
+    Name = Name.replace(/[^0-9.a-zA-Z\/]/g, "").trim();
     Name = Name.substring(0, 7);
     const Receive = item.Frequency.toFixed(5);
     const Direction = item.Offset > 0 ? "+RPT" : item.Offset < 0 ? "-RPT" : "OFF";

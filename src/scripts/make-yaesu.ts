@@ -56,15 +56,32 @@ const yaesu: IYaesu = {
   Bank: 0,
 } as any;
 
+const simplexFilter = (prev: IRepeater[], curr: IRepeater, index: number) => {
+  const last = prev[prev.length - 1];
+  if (last && last.Frequency === curr.Frequency) {
+    if (last.Comment && curr.Comment) {
+      last.Comment = last.Comment.substr(0, 3) + "/" + curr.Comment.substr(0, 3);
+    }
+    return prev;
+  }
+  return [...prev, curr];
+};
+
 async function doIt(inFileName: string, outFileName: string) {
   // const APRS: IRepeater = {
   //   Frequency: 144.390,
   //   Name: "APRS",
   // } as any;
   let twom: IRepeater[] = JSON.parse((await readFileAsync("data/2m.json")).toString());
-  twom = twom.sort((a, b) => a.Frequency - b.Frequency);
+  twom = twom
+    .sort((a, b) => a.Frequency - b.Frequency)
+    .reduce(simplexFilter, [] as IRepeater[]);
+
   let sevcm: IRepeater[] = JSON.parse((await readFileAsync("data/70cm.json")).toString());
-  sevcm = sevcm.sort((a, b) => a.Frequency - b.Frequency);
+  sevcm = sevcm
+    .sort((a, b) => a.Frequency - b.Frequency)
+    .reduce(simplexFilter, [] as IRepeater[]);
+
   const fileData: IRepeater[] = JSON.parse((await readFileAsync(inFileName)).toString());
   const repeaters: IRepeater[] = [...twom, ...sevcm, ...fileData];
 
@@ -82,14 +99,14 @@ function makeRow(item: IRepeater) {
   let Name = "";
 
   if (item.Call) {
-    Name += (Name ? " " : "") + item.Call.trim();
+    Name += (Name ? " " : "") + item.Call.toUpperCase().trim().substr(-3);
   }
 
   // if (item.Mi !== undefined) {
   //   Name += " " + (item.Mi);
   // }
   if (item.Location) {
-    Name += (Name ? " " : "") + item.Location.trim();
+    Name += (Name ? " " : "") + item.Location.trim().toLowerCase();
   }
 
   if (item.Name) {
@@ -104,7 +121,7 @@ function makeRow(item: IRepeater) {
     Name += (Name ? " " : "") + item.Frequency.toString().trim();
   }
 
-  // Name = Name.replace(/[^0-9.a-zA-Z ]/g, "").trim();
+  Name = Name.replace(/[^0-9.a-zA-Z\/]/g, "").trim();
   Name = Name.substring(0, 7);
 
   const Receive = item.Frequency.toFixed(5);
