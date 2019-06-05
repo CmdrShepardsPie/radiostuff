@@ -34,7 +34,7 @@ function makeRow(item) {
     // Doesn't account for multiple digital modes, uses the first one it finds
     let isDigital = Object.keys(item).filter((key) => /Enabled/.test(key)).map((name) => (name.match(/(.*) Enabled/) || [])[1])[0];
     if (isDigital) {
-        log("IS DIGITAL", isDigital);
+        // log("IS DIGITAL", isDigital);
         isDigital = isDigital.replace(" Digital", "");
         switch (isDigital) {
             case "D-STAR":
@@ -52,7 +52,7 @@ function makeRow(item) {
                 isDigital = "FSK"; // NXDN uses FSK, so assuming mapping
                 break;
         }
-        log("IS DIGITAL", isDigital);
+        // log("IS DIGITAL", isDigital);
     }
     const isNarrow = Object.entries(item).filter((a) => /Narrow/i.test(a[1])).length > 0;
     const Name = 

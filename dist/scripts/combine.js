@@ -1,6 +1,7 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
 require("module-alias/register");
+const gpsDistance = require("gps-distance");
 const fs_helpers_1 = require("@helpers/fs-helpers");
 const helpers_1 = require("@helpers/helpers");
 const log_helpers_1 = require("@helpers/log-helpers");
@@ -18,16 +19,15 @@ exports.default = (async () => {
             if (!found[`${item.state_id}-${item.ID}`]) {
                 found[`${item.state_id}-${item.ID}`] = true;
                 combined.push(item);
-                const x = Math.pow(item.Latitude - myPoint[0], 2);
-                const y = Math.pow(item.Longitude - myPoint[1], 2);
-                item.Mi = Math.pow(x + y, 1 / 2);
+                const distance = gpsDistance([myPoint, [item.Latitude, item.Longitude]]);
+                item.Mi = distance * 0.62137119;
             }
         });
     });
     log("Got", combined.length, "unique repeaters");
     combined.sort((a, b) => {
-        const aMi = helpers_1.numberToString(a.Mi * 100, 3, 24);
-        const bMi = helpers_1.numberToString(b.Mi * 100, 3, 24);
+        const aMi = helpers_1.numberToString(a.Mi, 4, 24);
+        const bMi = helpers_1.numberToString(b.Mi, 4, 24);
         const aRepeaterName = a.Call;
         const bRepeaterName = b.Call;
         const aFrequency = helpers_1.numberToString(a.Frequency, 4, 5);

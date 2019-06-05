@@ -34,8 +34,8 @@ function group(groupBy: keyof IRepeater, repeaters: IRepeater[]) {
   });
   const sorting = Object.entries(keyedGroups);
   sorting.sort((a, b) => {
-    const aMi = numberToString(a[1][0].Mi * 100, 3, 24);
-    const bMi = numberToString(b[1][0].Mi * 100, 3, 24);
+    const aMi = numberToString(a[1][0].Mi, 5, 24);
+    const bMi = numberToString(b[1][0].Mi, 5, 24);
     const aNumRepeaters = numberToString(100 - a[1].length, 4, 1);
     const bNumRepeaters = numberToString(100 - b[1].length, 4, 1);
     const aGroupName = a[0];
