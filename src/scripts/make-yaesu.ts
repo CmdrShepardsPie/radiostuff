@@ -139,30 +139,34 @@ function makeRow(item: IRepeater) {
   let Comment = `${item["ST/PR"] || ""} ${item.County || ""} ${item.Location || ""} ${item.Call || ""} ${item.Sponsor || ""} ${item.Affiliate || ""} ${item.Frequency} ${item.Use || ""} ${item["Op Status"] || ""}`.replace(/\s+/g, " ");
   Comment = Comment.replace(",", "").substring(0, 31);
 
-  if (typeof DownlinkTone === "number") {
-    CTCSS = DownlinkTone;
-    ToneMode = "TONE SQL";
-  } else if (DownlinkTone !== undefined) {
-    const d = DTCS.exec(DownlinkTone);
-    if (d && d[1]) {
-      const n = parseInt(d[1], 10);
-      if (!isNaN(n)) {
-        DCS = n;
-        ToneMode = "DCS";
-      }
-    }
-  }
-
   if (typeof UplinkTone === "number") {
     CTCSS = UplinkTone;
-    ToneMode = "TONE SQL";
+    // ToneMode = "TONE SQL";
+    ToneMode = "TONE ENC";
   } else if (UplinkTone !== undefined) {
     const d = DTCS.exec(UplinkTone);
     if (d && d[1]) {
       const n = parseInt(d[1], 10);
       if (!isNaN(n)) {
         DCS = n;
-        ToneMode = "DCS";
+        ToneMode = "DCS ENC";
+      }
+    }
+  }
+
+  if (UplinkTone === DownlinkTone) {
+    if (typeof DownlinkTone === "number") {
+      // CTCSS = DownlinkTone;
+      ToneMode = "TONE SQL";
+      // ToneMode = "TONE ENC";
+    } else if (DownlinkTone !== undefined) {
+      const d = DTCS.exec(DownlinkTone);
+      if (d && d[1]) {
+        const n = parseInt(d[1], 10);
+        if (!isNaN(n)) {
+          // DCS = n;
+          ToneMode = "DCS";
+        }
       }
     }
   }
