@@ -19,17 +19,17 @@
     "axios": "~0.19.0",
     "chalk": "~2.4.2",
     "csv": "~5.1.1",
-    "gps-distance": "0.0.4",
+    "gps-distance": "~0.0.4",
     "jsdom": "~15.1.1",
     "module-alias": "~2.2.0",
     "node-csv": "~0.1.2",
-    "tslib": "~1.9.3",
+    "tslib": "~1.10.0",
     "tslint": "~5.17.0",
-    "typescript": "~3.5.1"
+    "typescript": "~3.5.2"
   },
   "devDependencies": {
     "@types/jsdom": "~12.2.3",
     "@types/module-alias": "~2.0.0",
-    "@types/node": "~12.0.4"
+    "@types/node": "~12.0.8"
   }
 }
