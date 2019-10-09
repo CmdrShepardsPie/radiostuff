@@ -1,129 +1,129 @@
 Location,Name,Frequency,Duplex,Offset,Tone,rToneFreq,cToneFreq,DtcsCode,DtcsRxCode,DtcsPolarity,Mode,TStep,Comment
-0,CRAidah,145.145,-,0.6,Tone,107.2,107.2,23,23,NN,FM,5,CO Clear Creek Idaho Springs Sq
-1,OBAauro,145.19,-,0.6,Tone,151.4,131.8,23,23,NN,FM,5,CO Arapahoe Aurora N0OBA N0OBA 
-2,0SJgold,145.28,-,0.6,Tone,100,100,23,23,NN,FM,5,CO Jefferson Golden Centennial 
-3,GUQever,145.34,-,0.6,Tone,103.5,127.3,23,23,NN,FM,5,CO Jefferson Evergreen KE4GUQ R
-4,UDDauro,145.4,-,0.6,Tone,100,100,23,23,NN,FM,5,CO Arapahoe Aurora Smoky Hill K
-5,0SJboul,145.475,-,0.6,Tone,100,100,23,23,NN,FM,5,CO Jefferson Boulder Blue Mount
-6,0TXidah,145.49,-,0.6,Tone,100,100,23,23,NN,FM,5,CO Jefferson Idaho Springs Cent
-7,VoiceSi,146.4,,0,,88.5,88.5,23,23,NN,FM,5, 146.4 Voice Simplex
-8,VoiceSi,146.415,,0,,88.5,88.5,23,23,NN,FM,5, 146.415 Voice Simplex
-9,VoiceSi,146.43,,0,,88.5,88.5,23,23,NN,FM,5, 146.43 Voice Simplex
-10,VoiceSi,146.445,,0,,88.5,88.5,23,23,NN,FM,5, 146.445 Voice Simplex
-11,VoiceSi,146.46,,0,,88.5,88.5,23,23,NN,FM,5, 146.46 Voice Simplex
-12,VoiceSi,146.475,,0,,88.5,88.5,23,23,NN,FM,5, 146.475 Voice Simplex
-13,VoiceSi,146.49,,0,,88.5,88.5,23,23,NN,FM,5, 146.49 Voice Simplex
-14,VoiceSi,146.505,,0,,88.5,88.5,23,23,NN,FM,5, 146.505 Voice Simplex
-15,VoiceSi,146.52,,0,,88.5,88.5,23,23,NN,FM,5, 146.52 Voice Simplex
-16,VoiceSi,146.535,,0,,88.5,88.5,23,23,NN,FM,5, 146.535 Voice Simplex
-17,VoiceSi,146.55,,0,,88.5,88.5,23,23,NN,FM,5, 146.55 Voice Simplex
-18,VoiceSi,146.565,,0,,88.5,88.5,23,23,NN,FM,5, 146.565 Voice Simplex
-19,VoiceSi,146.58,,0,,88.5,88.5,23,23,NN,FM,5, 146.58 Voice Simplex
-20,0DKboul,146.61,-,0.6,Tone,100,100,23,23,NN,FM,5,CO Boulder Boulder W0DK Boulder
-21,TUBgold,146.64,-,0.6,Tone,100,100,23,23,NN,FM,5,CO Jefferson Golden Centennial 
-22,UDDidah,146.67,-,0.6,Tone,100,100,23,23,NN,FM,5,CO Clear Creek Idaho Springs Sq
-23,0DKboul,146.7,-,0.6,Tone,100,100,23,23,NN,FM,5,CO Boulder Boulder Table Mounta
-24,JXNdenv,146.715,-,0.6,Tone,123,123,23,23,NN,FM,5,CO Denver Denver N0JXN EARS 146
-25,TUBcent,146.88,-,0.6,Tone,100,100,23,23,NN,FM,5,CO Jefferson Centennial Warren 
-26,WYXidah,146.94,-,0.6,Tone,103.5,103.5,23,23,NN,FM,5,CO Clear Creek Idaho Springs Sq
-27,FEZgold,146.985,-,0.6,Tone,100,100,23,23,NN,FM,5,CO Denver Golden Centennial Con
-28,0MLnort,147.045,+,0.6,Tone,123,123,23,23,NN,FM,5,CO Adams Northglenn K0ML Northg
-29,ARAcrit,147.12,+,0.6,Tone,88.5,88.5,23,23,NN,FM,5,CO Jefferson Critchell Critchel
-30,CBIgold,147.15,+,0.6,Tone,100,100,23,23,NN,FM,5,CO Jefferson Golden Guy Hill W0
-31,SSPlake,147.21,+,0.6,Tone,100,100,23,23,NN,FM,5,CO Jefferson Lakewood Moffat Tr
-32,PYYever,147.3,+,0.6,Tone,103.5,103.5,23,23,NN,FM,5,CO Clear Creek Evergreen Squaw 
-33,0TXlake,147.33,+,0.6,Tone,100,100,23,23,NN,FM,5,CO Jefferson Lakewood Green Mou
-34,VoiceSi,147.42,,0,,88.5,88.5,23,23,NN,FM,5, 147.42 Voice Simplex
-35,VoiceSi,147.435,,0,,88.5,88.5,23,23,NN,FM,5, 147.435 Voice Simplex
-36,VoiceSi,147.45,,0,,88.5,88.5,23,23,NN,FM,5, 147.45 Voice Simplex
-37,VoiceSi,147.465,,0,,88.5,88.5,23,23,NN,FM,5, 147.465 Voice Simplex
-38,VoiceSi,147.48,,0,,88.5,88.5,23,23,NN,FM,5, 147.48 Voice Simplex
-39,VoiceSi,147.495,,0,,88.5,88.5,23,23,NN,FM,5, 147.495 Voice Simplex
-40,VoiceSi,147.51,,0,,88.5,88.5,23,23,NN,FM,5, 147.51 Voice Simplex
-41,VoiceSi,147.525,,0,,88.5,88.5,23,23,NN,FM,5, 147.525 Voice Simplex
-42,VoiceSi,147.54,,0,,88.5,88.5,23,23,NN,FM,5, 147.54 Voice Simplex
-43,VoiceSi,147.555,,0,,88.5,88.5,23,23,NN,FM,5, 147.555 Voice Simplex
-44,VoiceSi,147.57,,0,,88.5,88.5,23,23,NN,FM,5, 147.57 Voice Simplex
-45,VoiceSi,223.39,,0,,88.5,88.5,23,23,NN,FM,5, 223.39 Voice Simplex
-46,VoiceSi,223.4,,0,,88.5,88.5,23,23,NN,FM,5, 223.4 Voice Simplex Frequencie
-47,VoiceSi,223.41,,0,,88.5,88.5,23,23,NN,FM,5, 223.41 Voice Simplex
-48,VoiceSi,223.42,,0,,88.5,88.5,23,23,NN,FM,5, 223.42 Voice Simplex Frequenci
-49,VoiceSi,223.43,,0,,88.5,88.5,23,23,NN,FM,5, 223.43 Voice Simplex
-50,VoiceSi,223.44,,0,,88.5,88.5,23,23,NN,FM,5, 223.44 Voice Simplex Frequenci
-51,VoiceSi,223.45,,0,,88.5,88.5,23,23,NN,FM,5, 223.45 Voice Simplex
-52,VoiceSi,223.46,,0,,88.5,88.5,23,23,NN,FM,5, 223.46 Voice Simplex Frequenci
-53,VoiceSi,223.47,,0,,88.5,88.5,23,23,NN,FM,5, 223.47 Voice Simplex
-54,VoiceSi,223.48,,0,,88.5,88.5,23,23,NN,FM,5, 223.48 Voice Simplex Frequenci
-55,VoiceSi,223.49,,0,,88.5,88.5,23,23,NN,FM,5, 223.49 Voice Simplex
-56,VoiceSi,223.5,,0,,88.5,88.5,23,23,NN,FM,5, 223.5 Voice Simplex Frequencie
-57,VoiceSi,223.51,,0,,88.5,88.5,23,23,NN,FM,5, 223.51 Voice Simplex
-58,MHUgold,224,-,1.6,Tone,103.5,103.5,23,23,NN,FM,5,CO Jefferson Golden Guy Hill N0
-59,0TXlake,224.38,-,1.6,Tone,100,100,23,23,NN,FM,5,CO Jefferson Lakewood Green Mou
-60,POHgold,224.74,-,1.6,Tone,88.5,88.5,23,23,NN,FM,5,CO Jefferson Golden Guy Hill N0
-61,0KCfort,224.96,-,1.6,,88.5,88.5,23,23,NN,FM,5,CO Weld Fort Lupton AC0KC AC0KC
-62,CRAconi,224.98,-,1.6,Tone,107.2,107.2,23,23,NN,FM,5,CO Jefferson Conifer Conifer Mo
-63,MixedMo,441.3,,0,,88.5,88.5,23,23,NN,FM,5, 441.3 Mixed Mode Simplex - Voi
-64,VoiceSi,445.7,,0,,88.5,88.5,23,23,NN,FM,5, 445.7 Voice Simplex Frequencie
-65,VoiceSi,445.725,,0,,88.5,88.5,23,23,NN,FM,5, 445.725 Voice Simplex Frequenc
-66,VoiceSi,445.75,,0,,88.5,88.5,23,23,NN,FM,5, 445.75 Voice Simplex Frequenci
-67,VoiceSi,445.775,,0,,88.5,88.5,23,23,NN,FM,5, 445.775 Voice Simplex Frequenc
-68,VoiceSi,445.8,,0,,88.5,88.5,23,23,NN,FM,5, 445.8 Voice Simplex Frequencie
-69,VoiceSi,445.825,,0,,88.5,88.5,23,23,NN,FM,5, 445.825 Voice Simplex Frequenc
-70,VoiceSi,445.85,,0,,88.5,88.5,23,23,NN,FM,5, 445.85 Voice Simplex Frequenci
-71,VoiceSi,445.875,,0,,88.5,88.5,23,23,NN,FM,5, 445.875 Voice Simplex Frequenc
-72,VoiceSi,445.9,,0,,88.5,88.5,23,23,NN,FM,5, 445.9 Voice Simplex Frequencie
-73,VoiceSi,445.925,,0,,88.5,88.5,23,23,NN,FM,5, 445.925 Voice Simplex Frequenc
-74,VoiceSi,445.95,,0,,88.5,88.5,23,23,NN,FM,5, 445.95 Voice Simplex Frequenci
-75,VoiceSi,445.975,,0,,88.5,88.5,23,23,NN,FM,5, 445.975 Voice Simplex Frequenc
-76,VoiceSi,446,,0,,88.5,88.5,23,23,NN,FM,5, 446 Voice Simplex Frequencies
-77,VoiceSi,446.025,,0,,88.5,88.5,23,23,NN,FM,5, 446.025 Voice Simplex Frequenc
-78,VoiceSi,446.05,,0,,88.5,88.5,23,23,NN,FM,5, 446.05 Voice Simplex Frequenci
-79,VoiceSi,446.075,,0,,88.5,88.5,23,23,NN,FM,5, 446.075 Voice Simplex Frequenc
-80,VoiceSi,446.1,,0,,88.5,88.5,23,23,NN,FM,5, 446.1 Voice Simplex Frequencie
-81,VoiceSi,446.125,,0,,88.5,88.5,23,23,NN,FM,5, 446.125 Voice Simplex Frequenc
-82,VoiceSi,446.15,,0,,88.5,88.5,23,23,NN,FM,5, 446.15 Voice Simplex Frequenci
-83,VoiceSi,446.175,,0,,88.5,88.5,23,23,NN,FM,5, 446.175 Voice Simplex Frequenc
-84,VoiceSi,446.2,,0,,88.5,88.5,23,23,NN,FM,5, 446.2 Voice Simplex Frequencie
-85,VoiceSi,446.225,,0,,88.5,88.5,23,23,NN,FM,5, 446.225 Voice Simplex Frequenc
-86,VoiceSi,446.25,,0,,88.5,88.5,23,23,NN,FM,5, 446.25 Voice Simplex Frequenci
-87,VoiceSi,446.275,,0,,88.5,88.5,23,23,NN,FM,5, 446.275 Voice Simplex Frequenc
-88,CRAconi,447.15,-,5,Tone,107.2,107.2,23,23,NN,FM,5,CO Jefferson Conifer Conifer Mo
-89,JRLdenv,447.175,-,5,Tone,100,100,23,23,NN,FM,5,CO Denver Denver Broadway Plaza
-90,0KCfort,447.3,-,5,Tone,107.2,107.2,23,23,NN,FM,5,CO Weld Fort Lupton AC0KC 447.3
-91,OWYconi,447.5,-,5,Tone,88.5,88.5,23,23,NN,FM,5,CO Jefferson Conifer Critchell 
-92,ESQcast,447.525,-,5,Tone,146.2,146.2,23,23,NN,FM,5,CO Douglas Castle Rock Devils H
-93,ESQpark,447.525,-,5,Tone,203.5,146.2,23,23,NN,FM,5,CO Douglas Parker Hess Reservoi
-94,CRAidah,447.575,-,5,Tone,107.2,107.2,23,23,NN,FM,5,CO Clear Creek Idaho Springs Sq
-95,0SJloch,447.625,-,5,Tone,100,100,23,23,NN,FM,5,CO Adams Lochbuie KE0SJ Intermo
-96,0KQever,447.85,-,5,Tone,141.3,141.3,23,23,NN,FM,5,CO Clear Creek Evergreen Saddle
-97,LXXmorr,447.875,-,5,Tone,107.2,107.2,23,23,NN,FM,5,CO Jefferson Morrison Mt. Morri
-98,TPTdenv,447.9,-,5,,88.5,88.5,23,23,NN,FM,5,CO Denver Denver WB0TPT WB0TPT 
-99,FEZdenv,447.925,-,5,Tone,100,100,23,23,NN,FM,5,CO Denver Denver K0FEZ RADOPS E
-100,EHPdenv,448.075,-,5,Tone,123,123,23,23,NN,FM,5,CO Denver Denver N5EHP W0IG 448
-101,PYYgold,448.125,-,5,Tone,107.2,107.2,23,23,NN,FM,5,CO Jefferson Golden N0PYY Denve
-102,GURdenv,448.15,-,5,Tone,141.3,141.3,23,23,NN,FM,5,CO Denver Denver Green Valley R
-103,0SZidah,448.225,-,5,Tone,141.3,141.3,23,23,NN,FM,5,CO Clear Creek Idaho Springs Sq
-104,0BGauro,448.275,-,5,Tone,156.7,156.7,23,23,NN,FM,5,CO Arapahoe Aurora W0BG W0BG 44
-105,ZUQauro,448.4,-,5,Tone,94.8,94.8,23,23,NN,FM,5,CO Arapahoe Aurora N0ZUQ 448.4 
-106,UDDauro,448.5,-,5,Tone,100,100,23,23,NN,FM,5,CO Denver Aurora Smokey Hill KB
-107,KIZdenv,448.55,-,5,Tone,82.5,82.5,23,23,NN,FM,5,CO Denver Denver W0KIZ HPRA 448
-108,0TXgold,448.625,-,5,Tone,100,100,23,23,NN,FM,5,CO Jefferson Golden Centennial 
-109,CFIidah,448.675,-,5,Tone,100,100,23,23,NN,FM,5,CO Denver Idaho Springs Squaw M
-110,Q8Mpark,448.7,-,5,Tone,146.2,146.2,23,23,NN,FM,5,CO Douglas Parker WQ8M 448.7 OP
-111,ELYlake,448.75,-,5,Tone,100,100,23,23,NN,FM,5,CO Jefferson Lakewood N0ELY N0E
-112,IBMgold,448.85,-,5,Tone,88.5,88.5,23,23,NN,FM,5,CO Jefferson Golden Guy Hill K0
-113,0DKboul,448.9,-,5,Tone,100,100,23,23,NN,FM,5,CO Boulder Boulder Table Mesa W
-114,LMAbroo,448.925,-,5,Tone,131.8,131.8,23,23,NN,FM,5,CO Boulder Broomfield W0LMA W0L
-115,0GVgold,448.975,-,5,Tone,123,123,23,23,NN,FM,5,CO Jefferson Golden W0GV FRG 44
-116,AENidah,449,-,5,Tone,136.5,136.5,23,23,NN,FM,5,CO Clear Creek Idaho Springs Sq
-117,UPSwest,449.3,-,5,Tone,100,100,23,23,NN,FM,5,CO Adams Westminster N1UPS N1UP
-118,0TXidah,449.35,-,5,Tone,100,100,23,23,NN,FM,5,CO Clear Creek Idaho Springs Sq
-119,PWOcent,449.425,-,5,DTCS,88.5,88.5,23,23,NN,FM,5,CO Arapahoe Centennial K0PWO K0
-120,DUNidah,449.45,-,5,Tone,103.5,127.3,23,23,NN,FM,5,CO Clear Creek Idaho Springs Sq
-121,0SJgold,449.525,-,5,,88.5,88.5,23,23,NN,FM,5,CO Jefferson Golden Centennial 
-122,TUBcent,449.6,-,5,Tone,100,100,23,23,NN,FM,5,CO Jefferson Centennial Warren 
-123,0KUgold,449.625,-,5,Tone,141.3,141.3,23,23,NN,FM,5,CO Jefferson Golden Lookout Mou
-124,0GOgold,449.75,-,5,Tone,103.5,103.5,23,23,NN,FM,5,CO Jefferson Golden Guy Hill KI
-125,WYXbroo,449.825,-,5,Tone,103.5,103.5,23,23,NN,FM,5,CO Boulder Broomfield W0WYX Roc
-126,0EBhuds,449.925,-,5,Tone,114.8,114.8,23,23,NN,FM,5,CO Weld Hudson K0EB K0EB K0UPS 
-127,9SLcast,449.95,-,5,Tone,77,77,23,23,NN,FM,5,CO Douglas Castle Pines Daniels
+0,CRAidah,145.145,-,0.6,Tone,107.2,107.2,23,23,NN,FM,5,"CO Clear Creek Idaho Springs, Squaw Mountain W0CRA Colorado Repeater Assoc 145.145 OPEN On-Air "
+1,OBAauro,145.19,-,0.6,Tone,151.4,131.8,23,23,NN,FM,5,CO Arapahoe Aurora N0OBA N0OBA 145.19 OPEN On-Air 
+2,0SJgold,145.28,-,0.6,Tone,100,100,23,23,NN,FM,5,"CO Jefferson Golden, Centennial Cone KE0SJ 145.28 OPEN On-Air "
+3,VJJboul,145.31,-,0.6,Tone,88.5,123,23,23,NN,FM,5,"CO Gilpin Boulder, Thorodin Mountain KB0VJJ Colorado Connection 145.31 OPEN On-Air "
+4,GUQever,145.34,-,0.6,Tone,103.5,127.3,23,23,NN,FM,5,CO Jefferson Evergreen KE4GUQ Rocky Mtn Radio League 145.34 OPEN On-Air 
+5,UDDauro,145.4,-,0.6,Tone,100,100,23,23,NN,FM,5,"CO Arapahoe Aurora, Smoky Hill KB0UDD Castle Rock Repeater Group 145.4 OPEN On-Air "
+6,0SJboul,145.475,-,0.6,Tone,100,100,23,23,NN,FM,5,"CO Jefferson Boulder, Blue Mountain KE0SJ Intermountain Repeater Group 145.475 OPEN On-Air "
+7,0TXidah,145.49,-,0.6,Tone,100,100,23,23,NN,FM,5,"CO Jefferson Idaho Springs, Centennial Cone W0TX KB0VIU, Denver Radio Club 145.49 OPEN On-Air "
+8,VoiceSi,146.4,,0,,88.5,88.5,23,23,NN,FM,5, 146.4 Voice Simplex
+9,VoiceSi,146.415,,0,,88.5,88.5,23,23,NN,FM,5, 146.415 Voice Simplex
+10,VoiceSi,146.43,,0,,88.5,88.5,23,23,NN,FM,5, 146.43 Voice Simplex
+11,VoiceSi,146.445,,0,,88.5,88.5,23,23,NN,FM,5, 146.445 Voice Simplex
+12,VoiceSi,146.46,,0,,88.5,88.5,23,23,NN,FM,5, 146.46 Voice Simplex
+13,VoiceSi,146.475,,0,,88.5,88.5,23,23,NN,FM,5, 146.475 Voice Simplex
+14,VoiceSi,146.49,,0,,88.5,88.5,23,23,NN,FM,5, 146.49 Voice Simplex
+15,VoiceSi,146.505,,0,,88.5,88.5,23,23,NN,FM,5, 146.505 Voice Simplex
+16,VoiceSi,146.52,,0,,88.5,88.5,23,23,NN,FM,5, 146.52 Voice Simplex
+17,VoiceSi,146.535,,0,,88.5,88.5,23,23,NN,FM,5, 146.535 Voice Simplex
+18,VoiceSi,146.55,,0,,88.5,88.5,23,23,NN,FM,5, 146.55 Voice Simplex
+19,VoiceSi,146.565,,0,,88.5,88.5,23,23,NN,FM,5, 146.565 Voice Simplex
+20,VoiceSi,146.58,,0,,88.5,88.5,23,23,NN,FM,5, 146.58 Voice Simplex
+21,TUBgold,146.64,-,0.6,Tone,100,100,23,23,NN,FM,5,"CO Jefferson Golden, Centennial Cone WB0TUB Denver Radio League 146.64 OPEN On-Air "
+22,UDDidah,146.67,-,0.6,Tone,100,100,23,23,NN,FM,5,"CO Clear Creek Idaho Springs, Squaw Mountain KB0UDD Castle Rock Repeater Group 146.67 OPEN On-Air "
+23,0DKboul,146.7,-,0.6,Tone,100,100,23,23,NN,FM,5,"CO Boulder Boulder, Table Mountain W0DK Boulder Co ARC 146.7 OPEN On-Air "
+24,JXNdenv,146.715,-,0.6,Tone,123,123,23,23,NN,FM,5,CO Denver Denver N0JXN EARS 146.715 OPEN On-Air 
+25,0IAboul,146.76,-,0.6,Tone,100,100,23,23,NN,FM,5,"CO Boulder Boulder, Gunbarrel Hill W0IA Rocky Mtn VHF Soc Boulder County ARES 146.76 OPEN On-Air "
+26,TUBcent,146.88,-,0.6,Tone,100,100,23,23,NN,FM,5,"CO Jefferson Centennial, Warren Mountain WB0TUB Denver Radio League 146.88 OPEN On-Air "
+27,WYXidah,146.94,-,0.6,Tone,103.5,103.5,23,23,NN,FM,5,"CO Clear Creek Idaho Springs, Squaw Mountain W0WYX Rocky Mtn Radio League 146.94 OPEN On-Air "
+28,FEZgold,146.985,-,0.6,Tone,100,100,23,23,NN,FM,5,"CO Denver Golden, Centennial Cone K0FEZ El Jebel RADOPS 146.985 OPEN On-Air "
+29,0MLnort,147.045,+,0.6,Tone,123,123,23,23,NN,FM,5,CO Adams Northglenn K0ML Northglenn RA 147.045 OPEN On-Air 
+30,ARAcrit,147.12,+,0.6,Tone,88.5,88.5,23,23,NN,FM,5,"CO Jefferson Critchell, Critchell Mountain N0ARA Aurora Repeater Association 147.12 OPEN On-Air "
+31,CBIgold,147.15,+,0.6,Tone,100,100,23,23,NN,FM,5,"CO Jefferson Golden, Guy Hill W0CBI Aurora Repeater Assoc (ARA) 147.15 OPEN On-Air "
+32,SSPlake,147.21,+,0.6,Tone,100,100,23,23,NN,FM,5,"CO Jefferson Lakewood, Moffat Treatment Plant KD0SSP Denver Water Amateur Radio Club 147.21 OPEN On-Air "
+33,CRAlark,147.225,+,0.6,Tone,107.2,107.2,23,23,NN,FM,5,"CO Douglas Larkspur, Westcreek W0CRA Colorado Repeater Association (CRA) CRA VHF Link System 147.225 OPEN On-Air "
+34,PYYever,147.3,+,0.6,Tone,103.5,103.5,23,23,NN,FM,5,"CO Clear Creek Evergreen, Squaw Mountain N0PYY Denver PD EEB 147.3 OPEN On-Air "
+35,0TXlake,147.33,+,0.6,Tone,100,100,23,23,NN,FM,5,"CO Jefferson Lakewood, Green Mountain W0TX Denver Radio Club 147.33 OPEN On-Air "
+36,VoiceSi,147.42,,0,,88.5,88.5,23,23,NN,FM,5, 147.42 Voice Simplex
+37,VoiceSi,147.435,,0,,88.5,88.5,23,23,NN,FM,5, 147.435 Voice Simplex
+38,VoiceSi,147.45,,0,,88.5,88.5,23,23,NN,FM,5, 147.45 Voice Simplex
+39,VoiceSi,147.465,,0,,88.5,88.5,23,23,NN,FM,5, 147.465 Voice Simplex
+40,VoiceSi,147.48,,0,,88.5,88.5,23,23,NN,FM,5, 147.48 Voice Simplex
+41,VoiceSi,147.495,,0,,88.5,88.5,23,23,NN,FM,5, 147.495 Voice Simplex
+42,VoiceSi,147.51,,0,,88.5,88.5,23,23,NN,FM,5, 147.51 Voice Simplex
+43,VoiceSi,147.525,,0,,88.5,88.5,23,23,NN,FM,5, 147.525 Voice Simplex
+44,VoiceSi,147.54,,0,,88.5,88.5,23,23,NN,FM,5, 147.54 Voice Simplex
+45,VoiceSi,147.555,,0,,88.5,88.5,23,23,NN,FM,5, 147.555 Voice Simplex
+46,VoiceSi,147.57,,0,,88.5,88.5,23,23,NN,FM,5, 147.57 Voice Simplex
+47,VoiceSi,223.39,,0,,88.5,88.5,23,23,NN,FM,5, 223.39 Voice Simplex
+48,VoiceSi,223.4,,0,,88.5,88.5,23,23,NN,FM,5, 223.4 Voice Simplex Frequencies
+49,VoiceSi,223.41,,0,,88.5,88.5,23,23,NN,FM,5, 223.41 Voice Simplex
+50,VoiceSi,223.42,,0,,88.5,88.5,23,23,NN,FM,5, 223.42 Voice Simplex Frequencies
+51,VoiceSi,223.43,,0,,88.5,88.5,23,23,NN,FM,5, 223.43 Voice Simplex
+52,VoiceSi,223.44,,0,,88.5,88.5,23,23,NN,FM,5, 223.44 Voice Simplex Frequencies
+53,VoiceSi,223.45,,0,,88.5,88.5,23,23,NN,FM,5, 223.45 Voice Simplex
+54,VoiceSi,223.46,,0,,88.5,88.5,23,23,NN,FM,5, 223.46 Voice Simplex Frequencies
+55,VoiceSi,223.47,,0,,88.5,88.5,23,23,NN,FM,5, 223.47 Voice Simplex
+56,VoiceSi,223.48,,0,,88.5,88.5,23,23,NN,FM,5, 223.48 Voice Simplex Frequencies
+57,VoiceSi,223.49,,0,,88.5,88.5,23,23,NN,FM,5, 223.49 Voice Simplex
+58,VoiceSi,223.5,,0,,88.5,88.5,23,23,NN,FM,5, 223.5 Voice Simplex Frequencies
+59,VoiceSi,223.51,,0,,88.5,88.5,23,23,NN,FM,5, 223.51 Voice Simplex
+60,MHUgold,224,-,1.6,Tone,103.5,103.5,23,23,NN,FM,5,"CO Jefferson Golden, Guy Hill N0MHU Rocky Mountain Radio League 224 OPEN On-Air "
+61,0TXlake,224.38,-,1.6,Tone,100,100,23,23,NN,FM,5,"CO Jefferson Lakewood, Green Mountain W0TX Denver Radio Club 224.38 OPEN On-Air "
+62,POHgold,224.74,-,1.6,Tone,88.5,88.5,23,23,NN,FM,5,"CO Jefferson Golden, Guy Hill N0POH Aurora Repeater Assoc 224.74 OPEN On-Air "
+63,0KCfort,224.96,-,1.6,,88.5,88.5,23,23,NN,FM,5,CO Weld Fort Lupton AC0KC AC0KC 224.96 OPEN On-Air 
+64,MixedMo,441.3,,0,,88.5,88.5,23,23,NN,FM,5, 441.3 Mixed Mode Simplex - Voice
+65,VoiceSi,445.7,,0,,88.5,88.5,23,23,NN,FM,5, 445.7 Voice Simplex Frequencies
+66,VoiceSi,445.725,,0,,88.5,88.5,23,23,NN,FM,5, 445.725 Voice Simplex Frequencies
+67,VoiceSi,445.75,,0,,88.5,88.5,23,23,NN,FM,5, 445.75 Voice Simplex Frequencies
+68,VoiceSi,445.775,,0,,88.5,88.5,23,23,NN,FM,5, 445.775 Voice Simplex Frequencies
+69,VoiceSi,445.8,,0,,88.5,88.5,23,23,NN,FM,5, 445.8 Voice Simplex Frequencies
+70,VoiceSi,445.825,,0,,88.5,88.5,23,23,NN,FM,5, 445.825 Voice Simplex Frequencies
+71,VoiceSi,445.85,,0,,88.5,88.5,23,23,NN,FM,5, 445.85 Voice Simplex Frequencies
+72,VoiceSi,445.875,,0,,88.5,88.5,23,23,NN,FM,5, 445.875 Voice Simplex Frequencies
+73,VoiceSi,445.9,,0,,88.5,88.5,23,23,NN,FM,5, 445.9 Voice Simplex Frequencies
+74,VoiceSi,445.925,,0,,88.5,88.5,23,23,NN,FM,5, 445.925 Voice Simplex Frequencies
+75,VoiceSi,445.95,,0,,88.5,88.5,23,23,NN,FM,5, 445.95 Voice Simplex Frequencies
+76,VoiceSi,445.975,,0,,88.5,88.5,23,23,NN,FM,5, 445.975 Voice Simplex Frequencies
+77,VoiceSi,446,,0,,88.5,88.5,23,23,NN,FM,5, 446 Voice Simplex Frequencies
+78,VoiceSi,446.025,,0,,88.5,88.5,23,23,NN,FM,5, 446.025 Voice Simplex Frequencies
+79,VoiceSi,446.05,,0,,88.5,88.5,23,23,NN,FM,5, 446.05 Voice Simplex Frequencies
+80,VoiceSi,446.075,,0,,88.5,88.5,23,23,NN,FM,5, 446.075 Voice Simplex Frequencies
+81,VoiceSi,446.1,,0,,88.5,88.5,23,23,NN,FM,5, 446.1 Voice Simplex Frequencies
+82,VoiceSi,446.125,,0,,88.5,88.5,23,23,NN,FM,5, 446.125 Voice Simplex Frequencies
+83,VoiceSi,446.15,,0,,88.5,88.5,23,23,NN,FM,5, 446.15 Voice Simplex Frequencies
+84,VoiceSi,446.175,,0,,88.5,88.5,23,23,NN,FM,5, 446.175 Voice Simplex Frequencies
+85,VoiceSi,446.2,,0,,88.5,88.5,23,23,NN,FM,5, 446.2 Voice Simplex Frequencies
+86,VoiceSi,446.225,,0,,88.5,88.5,23,23,NN,FM,5, 446.225 Voice Simplex Frequencies
+87,VoiceSi,446.25,,0,,88.5,88.5,23,23,NN,FM,5, 446.25 Voice Simplex Frequencies
+88,VoiceSi,446.275,,0,,88.5,88.5,23,23,NN,FM,5, 446.275 Voice Simplex Frequencies
+89,JRLdenv,447.175,-,5,Tone,100,100,23,23,NN,FM,5,"CO Denver Denver, Broadway Plaza Lofts W0JRL W0JRL 447.175 OPEN On-Air "
+90,0KCfort,447.3,-,5,Tone,107.2,107.2,23,23,NN,FM,5,CO Weld Fort Lupton AC0KC 447.3 OPEN On-Air 
+91,OWYconi,447.5,-,5,Tone,88.5,88.5,23,23,NN,FM,5,"CO Jefferson Conifer, Critchell Mountain N0OWY Aurora Repeater Association 447.5 OPEN On-Air "
+92,ESQcast,447.525,-,5,Tone,146.2,146.2,23,23,NN,FM,5,"CO Douglas Castle Rock, Devils Head (Pike National Forest) N0ESQ EmComm Colorado Colorado ARES 447.525 OPEN On-Air "
+93,ESQpark,447.525,-,5,Tone,203.5,146.2,23,23,NN,FM,5,"CO Douglas Parker, Hess Reservoir N0ESQ EmComm Colorado Colorado ARES 447.525 OPEN On-Air "
+94,CRAidah,447.575,-,5,Tone,107.2,107.2,23,23,NN,FM,5,"CO Clear Creek Idaho Springs, Squaw Mountain W0CRA Colorado Repeater Association (CRA) 447.575 OPEN On-Air "
+95,0SJloch,447.625,-,5,Tone,100,100,23,23,NN,FM,5,CO Adams Lochbuie KE0SJ Intermountain Repeater Group 447.625 OPEN On-Air 
+96,0KQever,447.85,-,5,Tone,141.3,141.3,23,23,NN,FM,5,"CO Clear Creek Evergreen, Saddleback Mountain AC0KQ AC0KQ Rocky Mountain Ham Radio 447.85 OPEN On-Air "
+97,LXXmorr,447.875,-,5,Tone,107.2,107.2,23,23,NN,FM,5,"CO Jefferson Morrison, Mt. Morrison N6LXX N6LXX N6LXX 447.875 OPEN On-Air "
+98,FEZdenv,447.925,-,5,Tone,100,100,23,23,NN,FM,5,CO Denver Denver K0FEZ RADOPS El Jebel Shriners 447.925 OPEN On-Air 
+99,EHPdenv,448.075,-,5,Tone,123,123,23,23,NN,FM,5,CO Denver Denver N5EHP W0IG 448.075 OPEN On-Air 
+100,PYYgold,448.125,-,5,Tone,107.2,107.2,23,23,NN,FM,5,CO Jefferson Golden N0PYY Denver PD EEB 448.125 OPEN On-Air 
+101,GURdenv,448.15,-,5,Tone,141.3,141.3,23,23,NN,FM,5,"CO Denver Denver, Green Valley Ranch K0GUR K0GUR 448.15 OPEN On-Air "
+102,0SZidah,448.225,-,5,Tone,141.3,141.3,23,23,NN,FM,5,"CO Clear Creek Idaho Springs, Squaw Mountain N0SZ Rocky Mountain Ham Radio 448.225 OPEN On-Air "
+103,0BGauro,448.275,-,5,Tone,156.7,156.7,23,23,NN,FM,5,CO Arapahoe Aurora W0BG W0BG 448.275 OPEN On-Air 
+104,ZUQauro,448.4,-,5,Tone,94.8,94.8,23,23,NN,FM,5,CO Arapahoe Aurora N0ZUQ 448.4 OPEN On-Air 
+105,CRAlark,448.425,-,5,Tone,107.2,107.2,23,23,NN,FM,5,"CO Douglas Larkspur, Westcreek W0CRA Colorado Repeater Association (CRA) ARESDEC 448.425 OPEN On-Air "
+106,UDDauro,448.5,-,5,Tone,100,100,23,23,NN,FM,5,"CO Denver Aurora, Smokey Hill KB0UDD Castle Rock Repeater Group 448.5 OPEN On-Air "
+107,0TXgold,448.625,-,5,Tone,100,100,23,23,NN,FM,5,"CO Jefferson Golden, Centennial Cone W0TX Denver Radio Club 448.625 OPEN On-Air "
+108,CFIidah,448.675,-,5,Tone,100,100,23,23,NN,FM,5,"CO Denver Idaho Springs, Squaw Mountain W0CFI W0CFI 448.675 OPEN On-Air "
+109,Q8Mpark,448.7,-,5,Tone,146.2,146.2,23,23,NN,FM,5,CO Douglas Parker WQ8M 448.7 OPEN On-Air 
+110,ELYlake,448.75,-,5,Tone,100,100,23,23,NN,FM,5,CO Jefferson Lakewood N0ELY N0ELY 448.75 OPEN On-Air 
+111,IBMgold,448.85,-,5,Tone,88.5,88.5,23,23,NN,FM,5,"CO Jefferson Golden, Guy Hill K0IBM Aurora Repeater Assoc 448.85 OPEN On-Air "
+112,0DKboul,448.9,-,5,Tone,100,100,23,23,NN,FM,5,"CO Boulder Boulder, Table Mesa W0DK Boulder ARC 448.9 OPEN On-Air "
+113,LMAbroo,448.925,-,5,Tone,131.8,131.8,23,23,NN,FM,5,CO Boulder Broomfield W0LMA W0LMA 448.925 OPEN On-Air 
+114,0GVgold,448.975,-,5,Tone,123,123,23,23,NN,FM,5,CO Jefferson Golden W0GV FRG 448.975 OPEN On-Air 
+115,AENidah,449,-,5,Tone,136.5,136.5,23,23,NN,FM,5,"CO Clear Creek Idaho Springs, Squaw Mountain WR0AEN CARN 449 OPEN On-Air "
+116,UPSwest,449.3,-,5,Tone,100,100,23,23,NN,FM,5,CO Adams Westminster N1UPS N1UPS 449.3 OPEN On-Air 
+117,0TXidah,449.35,-,5,Tone,100,100,23,23,NN,FM,5,"CO Clear Creek Idaho Springs, Squaw Mountain W0TX Denver Radio Club 449.35 OPEN On-Air "
+118,DUNidah,449.45,-,5,Tone,103.5,127.3,23,23,NN,FM,5,"CO Clear Creek Idaho Springs, Squaw Mountain K1DUN Rocky Mountain Radio League 449.45 OPEN On-Air "
+119,0SJgold,449.525,-,5,,88.5,88.5,23,23,NN,FM,5,"CO Jefferson Golden, Centennial Cone KE0SJ KE0SJ 449.525 OPEN On-Air "
+120,0IAboul,449.55,-,5,Tone,100,100,23,23,NN,FM,5,CO Boulder Boulder W0IA Rocky Mtn VHF Soc 449.55 OPEN On-Air 
+121,TUBcent,449.6,-,5,Tone,100,100,23,23,NN,FM,5,"CO Jefferson Centennial, Warren Mountain WB0TUB Denver Radio League 449.6 OPEN On-Air "
+122,0KUgold,449.625,-,5,Tone,141.3,141.3,23,23,NN,FM,5,"CO Jefferson Golden, Lookout Mountain W0KU Rocky Mountain Ham Radio 449.625 OPEN On-Air "
+123,0GOgold,449.75,-,5,Tone,103.5,103.5,23,23,NN,FM,5,"CO Jefferson Golden, Guy Hill KI0GO Rocky Mtn Radio League 449.75 OPEN On-Air "
+124,WYXbroo,449.825,-,5,Tone,103.5,103.5,23,23,NN,FM,5,CO Boulder Broomfield W0WYX Rocky Mountain Radio League 449.825 OPEN On-Air 
+125,0EBhuds,449.925,-,5,Tone,114.8,114.8,23,23,NN,FM,5,CO Weld Hudson K0EB K0EB K0UPS Club 449.925 OPEN On-Air 
+126,9SLcast,449.95,-,5,Tone,77,77,23,23,NN,FM,5,"CO Douglas Castle Pines, Daniels Park W9SL W9SL Owner 449.95 OPEN On-Air "
+127,JSClark,449.975,-,5,Tone,100,100,23,23,NN,FM,5,"CO Douglas Larkspur, Westcreek K0JSC K0JSC The Fun Machine 449.975 OPEN On-Air "

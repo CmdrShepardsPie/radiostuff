@@ -25,16 +25,13 @@ async function doIt(inFileName, outFileName) {
     const fileData = await fs_helpers_1.readFileAsync(inFileName);
     const repeaters = JSON.parse(fileData.toString());
     const mapped = [...all.filter((d) => /Voice|Simplex/i.test(d.Comment)), ...repeaters]
-        // const mapped = all
         .filter((r) => (r.Frequency >= 144 && r.Frequency <= 148) || (r.Frequency >= 222 && r.Frequency <= 225) || (r.Frequency >= 420 && r.Frequency <= 450))
-        // .filter((r: IRepeater) => all.find((f: IRepeater) => f.Frequency === r.Frequency) || (r.Call && r.Use === "OPEN" && r["Op Status"] !== "Off-Air"))
+        .filter((r) => all.find((f) => f.Frequency === r.Frequency) || (r.Call && r.Use === "OPEN" && r["Op Status"] !== "Off-Air"))
         .map((d, i) => ({ ...makeRow(d), Location: i }))
         .filter((d) => d.Mode === "FM" || d.Mode === "NFM")
         .slice(0, 128)
         .sort((a, b) => a.Frequency - b.Frequency)
-        .map((d, i) => ({ ...d, Location: i, Mode: 
-        // Math.round((d.Frequency * 100000) % (0.025 * 100000)) === 0 ? "FM" :
-        Math.round(Math.round(d.Frequency * 100000) % Math.round(0.005 * 100000)) === 0 ? "FM" :
+        .map((d, i) => ({ ...d, Location: i, Mode: Math.round(Math.round(d.Frequency * 100000) % Math.round(0.005 * 100000)) === 0 ? "FM" :
             Math.round(Math.round(d.Frequency * 100000) % Math.round(0.00625 * 100000)) === 0 ? "NFM" :
                 "FM",
     }));
@@ -122,7 +119,7 @@ function makeRow(item) {
     let Tone = "";
     const Mode = isDigital ? isDigital : isNarrow ? "NFM" : "FM";
     let Comment = `${item["ST/PR"] || ""} ${item.County || ""} ${item.Location || ""} ${item.Call || ""} ${item.Sponsor || ""} ${item.Affiliate || ""} ${item.Frequency} ${item.Use || ""} ${item["Op Status"] || ""} ${item.Comment || ""}`.replace(/\s+/g, " ");
-    Comment = Comment.replace(",", "").substring(0, 31);
+    // Comment = Comment.trim().replace(",", "").substring(0, 31).trim();
     if (typeof UplinkTone === "number") {
         rToneFreq = UplinkTone;
         cToneFreq = UplinkTone;

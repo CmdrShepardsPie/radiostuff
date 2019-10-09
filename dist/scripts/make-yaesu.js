@@ -49,19 +49,14 @@ async function doIt(inFileName, outFileName) {
     const all = JSON.parse((await fs_helpers_1.readFileAsync("data/frequencies.json")).toString());
     const fileData = await fs_helpers_1.readFileAsync(inFileName);
     const repeaters = JSON.parse(fileData.toString());
-    // const repeaters: IRepeater[] = [...twom, ...sevcm, ...fileData];
-    // const repeaters: IRepeater[] = [...all, ...fileData];
     const mapped = [...all, ...repeaters]
-        // const mapped = all
         .filter((r) => (r.Frequency >= 144 && r.Frequency <= 148) || (r.Frequency >= 420 && r.Frequency <= 450))
-        // .filter((r: IRepeater) => all.find((f: IRepeater) => f.Frequency === r.Frequency) || (r.Call && r.Use === "OPEN" && r["Op Status"] !== "Off-Air"))
+        .filter((r) => all.find((f) => f.Frequency === r.Frequency) || (r.Call && r.Use === "OPEN" && r["Op Status"] !== "Off-Air"))
         .map((d, i) => ({ ...makeRow(d), Number: i + 1 }))
         .filter((d) => d.Mode === "FM" || d.Mode === "NFM" || d.Mode === "MAYBE" || d.Mode === "DIG")
         .slice(0, 500)
         .sort((a, b) => parseFloat(a.Receive) - parseFloat(b.Receive))
-        .map((d, i) => ({ ...d, Number: i + 1, Mode: 
-        // Math.round((parseFloat(d.Receive) * 100000) % (0.025 * 100000)) === 0 ? "FM" :
-        Math.round(Math.round(parseFloat(d.Receive) * 100000) % Math.round(0.005 * 100000)) === 0 ? "FM" :
+        .map((d, i) => ({ ...d, Number: i + 1, Mode: Math.round(Math.round(parseFloat(d.Receive) * 100000) % Math.round(0.005 * 100000)) === 0 ? "FM" :
             Math.round(Math.round(parseFloat(d.Receive) * 100000) % Math.round(0.00625 * 100000)) === 0 ? "NFM" :
                 "FM",
     }));
@@ -131,7 +126,7 @@ function makeRow(item) {
     let ToneMode = "OFF";
     const Mode = isDigital ? isDigital : isNarrow ? "NFM" : "FM";
     let Comment = `${item["ST/PR"] || ""} ${item.County || ""} ${item.Location || ""} ${item.Call || ""} ${item.Sponsor || ""} ${item.Affiliate || ""} ${item.Frequency} ${item.Use || ""} ${item["Op Status"] || ""} ${item.Comment || ""}`.replace(/\s+/g, " ");
-    Comment = Comment.replace(",", "").substring(0, 31);
+    // Comment = Comment.trim().replace(",", "").substring(0, 31).trim();
     if (typeof UplinkTone === "number") {
         CTCSS = UplinkTone;
         // ToneMode = "TONE SQL";
