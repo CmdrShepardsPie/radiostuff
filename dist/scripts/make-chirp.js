@@ -21,64 +21,108 @@ const chirp = {
     Comment: "",
 };
 async function doIt(inFileName, outFileName) {
+    const all = JSON.parse((await fs_helpers_1.readFileAsync("data/frequencies.json")).toString());
     const fileData = await fs_helpers_1.readFileAsync(inFileName);
     const repeaters = JSON.parse(fileData.toString());
-    const mapped = repeaters
-        // .filter((r) => r.Call && r.Use === "OPEN" && r["Op Status"] !== "Off-Air")
+    const mapped = [...all.filter((d) => /Voice|Simplex/i.test(d.Comment)), ...repeaters]
+        // const mapped = all
+        .filter((r) => (r.Frequency >= 144 && r.Frequency <= 148) || (r.Frequency >= 222 && r.Frequency <= 225) || (r.Frequency >= 420 && r.Frequency <= 450))
+        // .filter((r: IRepeater) => all.find((f: IRepeater) => f.Frequency === r.Frequency) || (r.Call && r.Use === "OPEN" && r["Op Status"] !== "Off-Air"))
         .map((d, i) => ({ ...makeRow(d), Location: i }))
-        .slice(0, 200);
+        .filter((d) => d.Mode === "FM" || d.Mode === "NFM")
+        .slice(0, 128)
+        .sort((a, b) => a.Frequency - b.Frequency)
+        .map((d, i) => ({ ...d, Location: i, Mode: 
+        // Math.round((d.Frequency * 100000) % (0.025 * 100000)) === 0 ? "FM" :
+        Math.round(Math.round(d.Frequency * 100000) % Math.round(0.005 * 100000)) === 0 ? "FM" :
+            Math.round(Math.round(d.Frequency * 100000) % Math.round(0.00625 * 100000)) === 0 ? "NFM" :
+                "FM",
+    }));
     return await fs_helpers_1.writeToJsonAndCsv(outFileName, mapped);
 }
 function makeRow(item) {
     const DTCS = /D(\d+)/;
     // Doesn't account for multiple digital modes, uses the first one it finds
-    let isDigital = Object.keys(item).filter((key) => /Enabled/.test(key)).map((name) => (name.match(/(.*) Enabled/) || [])[1])[0];
+    let isDigital = Object.entries(item)
+        .filter(([key, value]) => /\s*(Enabled|Digital|Data)\s*/i.test(key) || /\s*(Enabled|Digital|Data)\s*/i.test(value))
+        .map(([key, value]) => (key.match(/(.*)\s*(Enabled|Digital|Data)\s*/i) || value.match(/(.*)\s*(Enabled|Digital|Data)/i) || [])[1])
+        .join("");
     if (isDigital) {
         // log("IS DIGITAL", isDigital);
-        isDigital = isDigital.replace(" Digital", "");
-        switch (isDigital) {
-            case "D-STAR":
-                isDigital = "DV"; // Documented mapping
-                break;
-            case "P25": // Literal mapping
-            case "P-25":
-                isDigital = "P25";
-            case "DMR": // Literal mapping
-                break;
-            case "YSF":
-                isDigital = "DIG"; // Don't know if YSF = DIG mapping, but don't see any other candidates
-                break;
-            case "NXDN":
-                isDigital = "FSK"; // NXDN uses FSK, so assuming mapping
-                break;
+        // isDigital = isDigital.replace(/\s*(Enabled|Digital|Data)\s*/i, "").trim();
+        if (/YSF/i.test(isDigital)) {
+            isDigital = "DIG";
+        }
+        else if (/D-?STAR/i.test(isDigital)) {
+            isDigital = "DV";
+        }
+        else if (/DMR/i.test(isDigital)) {
+            isDigital = "DMR";
+        }
+        else if (/P-?25/i.test(isDigital)) {
+            isDigital = "P25";
+        }
+        else if (/NXDN/i.test(isDigital)) {
+            isDigital = "FSK";
+        }
+        else {
+            isDigital = "MAYBE";
         }
         // log("IS DIGITAL", isDigital);
     }
-    const isNarrow = Object.entries(item).filter((a) => /Narrow/i.test(a[1])).length > 0;
-    const Name = 
-    // item.Frequency
-    //   .toString()
-    ((item.Call || "")
-        .toLocaleUpperCase()
-        .trim()
-        .substr(-3))
-        + "" +
-        ((item.Location || "")
-            .toLocaleLowerCase()
-            .trim())
-            .replace(/\s+/g, "");
+    const isNarrow = Object.entries(item)
+        .filter(([key, value]) => /Narrow/i.test(key) || /Narrow/i.test(value)).length > 0;
+    let Name = "";
+    if (item.Call) {
+        Name += (Name ? " " : "") + item.Call.toUpperCase().trim().substr(-3);
+    }
+    // if (item.Mi !== undefined) {
+    //   Name += " " + (item.Mi);
+    // }
+    if (item.Location) {
+        Name += (Name ? " " : "") + item.Location.trim().toLowerCase();
+    }
+    if (item.Name) {
+        Name += (Name ? " " : "") + item.Name.trim();
+    }
+    if (item.Comment) {
+        Name += (Name ? " " : "") + item.Comment.trim();
+    }
+    if (item.Frequency) {
+        Name += (Name ? " " : "") + item.Frequency.toString().trim();
+    }
+    Name = Name.replace(/[^0-9.a-zA-Z\/]/g, "").trim();
+    Name = Name.substring(0, 7);
+    // const Name: string =
+    //
+    //   ((
+    //       (item.Call || "")
+    //         .toLocaleUpperCase()
+    //         .trim()
+    //         .substr(-3)
+    //     )
+    //     + "" +
+    //     (
+    //       (item.Location || "")
+    //         .toLocaleLowerCase()
+    //         .trim()
+    //     ))
+    //   ||  item.Frequency
+    //     .toString()
+    //     .replace(/\s+/g, "");
     const Frequency = item.Frequency;
     const Duplex = item.Offset > 0 ? "+" : item.Offset < 0 ? "-" : "";
-    const Offset = Math.abs(item.Offset);
+    const Offset = Math.abs(item.Offset) || 0;
     const UplinkTone = item["Uplink Tone"] || item.Tone;
     const DownlinkTone = item["Downlink Tone"];
-    let cToneFreq = "";
-    let rToneFreq = "";
-    let DtcsCode = "";
-    let DtcsRxCode = "";
+    let cToneFreq = 0;
+    let rToneFreq = 0;
+    let DtcsCode = 0;
+    let DtcsRxCode = 0;
     let Tone = "";
     const Mode = isDigital ? isDigital : isNarrow ? "NFM" : "FM";
-    const Comment = `${item["ST/PR"] || ""} ${item.County || ""} ${item.Location || ""} ${item.Call || ""} ${item.Sponsor || ""} ${item.Affiliate || ""} ${item.Frequency} ${item.Use || ""} ${item["Op Status"] || ""}`.replace(/\s+/g, " ");
+    let Comment = `${item["ST/PR"] || ""} ${item.County || ""} ${item.Location || ""} ${item.Call || ""} ${item.Sponsor || ""} ${item.Affiliate || ""} ${item.Frequency} ${item.Use || ""} ${item["Op Status"] || ""} ${item.Comment || ""}`.replace(/\s+/g, " ");
+    Comment = Comment.replace(",", "").substring(0, 31);
     if (typeof UplinkTone === "number") {
         rToneFreq = UplinkTone;
         cToneFreq = UplinkTone;

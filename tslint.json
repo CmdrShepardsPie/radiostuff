@@ -7,6 +7,18 @@
     "member-ordering": false,
     "no-empty": false,
     "max-classes-per-file": false,
-    "object-literal-key-quotes": false
+    "object-literal-key-quotes": false,
+    "typedef": [
+      true,
+      "call-signature",
+      "arrow-call-signature",
+      "parameter",
+      "arrow-parameter",
+      "property-declaration",
+      "variable-declaration",
+      "member-variable-declaration",
+      "object-destructuring",
+      "array-destructuring"
+    ]
   }
 }
