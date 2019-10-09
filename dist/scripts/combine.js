@@ -7,8 +7,7 @@ const helpers_1 = require("@helpers/helpers");
 const log_helpers_1 = require("@helpers/log-helpers");
 const log = log_helpers_1.createLog("Combine");
 exports.default = (async () => {
-    // const myPoint = [39.7908281, -105.5199737]; // Black Hawk Towing
-    const myPoint = [39.6268611, -104.8979387]; // 4982 S Ulster St
+    const myPoint = [39.627071500, -104.893322500]; // 4982 S Ulster St
     const combined = [];
     const files = await fs_helpers_1.getAllFilesFromDirectory("data/repeaters/results/CO");
     log("Got", files.length, "files");

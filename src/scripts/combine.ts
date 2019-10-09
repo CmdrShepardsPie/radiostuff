@@ -9,8 +9,7 @@ import {createLog} from "@helpers/log-helpers";
 const log = createLog("Combine");
 
 export default (async () => {
-  // const myPoint = [39.7908281, -105.5199737]; // Black Hawk Towing
-  const myPoint = [39.6268611, -104.8979387]; // 4982 S Ulster St
+  const myPoint = [39.627071500, -104.893322500]; // 4982 S Ulster St
   const combined: any[] = [];
   const files = await getAllFilesFromDirectory<any[]>("data/repeaters/results/CO");
   log("Got", files.length, "files");
