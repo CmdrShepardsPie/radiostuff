@@ -1,10 +1,9 @@
-import "module-alias/register";
-
 import {parseAsync} from "@helpers/csv-helpers";
 import {readFileAsync, writeToJsonAndCsv} from "@helpers/fs-helpers";
 import {numberToString} from "@helpers/helpers";
 import {createLog} from "@helpers/log-helpers";
 import chalk from "chalk";
+import "module-alias/register";
 import Scraper from "./modules/scraper";
 
 const log = createLog("Get Repeaters");
@@ -68,7 +67,7 @@ async function save(place: string | number, distance: number) {
 
 export default (async () => {
   const countyFileData = await readFileAsync("data/Colorado_County_Seats.csv");
-  const countyData = await parseAsync(countyFileData, { columns: true });
+  const countyData = await parseAsync(countyFileData, {columns: true});
   const cities: string[] = countyData.map((c: any) => `${c["County Seat"]}, CO`);
   while (cities.length) {
     const name = cities.shift();

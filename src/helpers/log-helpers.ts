@@ -31,7 +31,7 @@ export function createOut(context: string, color?: string) {
       lastColor = 0;
     }
   }
-  return { log: createLog(context, color), write: createWrite(context, color) };
+  return {log: createLog(context, color), write: createWrite(context, color)};
 }
 
 export function createLog(context: string, color?: string) {
@@ -55,7 +55,7 @@ export function createLog(context: string, color?: string) {
       createEmptyLine();
     }
 
-    const args = [ chalkColorFn(`${context}:`), ...msg ];
+    const args = [chalkColorFn(`${context}:`), ...msg];
 
     console.log(...args);
     lastMessageInline = false;

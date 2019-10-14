@@ -1,10 +1,9 @@
-import "module-alias/register";
-
-import * as gpsDistance from "gps-distance";
-
 import {getAllFilesFromDirectory, writeToJsonAndCsv} from "@helpers/fs-helpers";
 import {numberToString} from "@helpers/helpers";
 import {createLog} from "@helpers/log-helpers";
+
+import * as gpsDistance from "gps-distance";
+import "module-alias/register";
 
 const log = createLog("Combine");
 
@@ -44,7 +43,7 @@ export default (async () => {
     const group = Math.round(data.Frequency / pow) * pow;
     // console.log(freq, pow, group);
     const count = result[group] || 0;
-    return {...result, [group]: count + 1 };
+    return {...result, [group]: count + 1};
   }, {});
   console.log("STATS", stats);
   // combined.slice(0, 100).forEach((c) => log(c.Call, "\t", c.Latitude, "\t", c.Longitude, "\t", c.Mi));

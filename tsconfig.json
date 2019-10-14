@@ -1,24 +1,24 @@
 {
   "compilerOptions": {
     "target": "esnext",
-    "module": "commonjs",
+    "module": "umd",
     "moduleResolution": "Node",
     "emitDecoratorMetadata": true,
     "experimentalDecorators": true,
     "forceConsistentCasingInFileNames": true,
     "allowSyntheticDefaultImports": true,
     "preserveConstEnums": true,
-    "declaration": false,
     "pretty": true,
     "strict": true,
-    "inlineSourceMap": false,
-    "inlineSources": false,
-    "declarationMap": false,
+    "sourceMap": true,
+    "declaration": true,
+    "declarationMap": true,
     "baseUrl": "src",
     "outDir": "dist",
     "lib": [
       "esnext",
-      "dom"
+      "dom",
+      "dom.iterable"
     ],
     "paths": {
       "@helpers/*": ["helpers/*"],
@@ -26,7 +26,6 @@
     }
   },
   "exclude": [
-    "dist",
-    "build"
+    "dist"
   ]
 }

@@ -1,7 +1,6 @@
-import "module-alias/register";
-
-import {readdirAsync, readFileAsync, writeToJsonAndCsv} from "@helpers/fs-helpers";
+import {readFileAsync, writeToJsonAndCsv} from "@helpers/fs-helpers";
 import {createLog} from "@helpers/log-helpers";
+import "module-alias/register";
 import {IRepeater} from "./modules/i.repeater";
 
 const log: (...msg: any[]) => void = createLog("Make Chirp");
@@ -50,11 +49,12 @@ async function doIt(inFileName: string, outFileName: string): Promise<void> {
   const mapped: IChirp[] = [...all.filter((d: IRepeater) => /Voice|Simplex/i.test(d.Comment!)), ...repeaters]
     .filter((r: IRepeater) => (r.Frequency >= 144 && r.Frequency <= 148) || (r.Frequency >= 222 && r.Frequency <= 225) || (r.Frequency >= 420 && r.Frequency <= 450))
     .filter((r: IRepeater) => all.find((f: IRepeater) => f.Frequency === r.Frequency) || (r.Call && r.Use === "OPEN" && r["Op Status"] !== "Off-Air"))
-    .map((d: IRepeater, i: number): IChirp => ({ ...makeRow(d), Location: i }))
+    .map((d: IRepeater, i: number): IChirp => ({...makeRow(d), Location: i}))
     .filter((d: IChirp) => d.Mode === "FM" || d.Mode === "NFM")
     .slice(0, 128)
-    .sort((a: IChirp, b: IChirp) => a.Frequency - b.Frequency)
-    .map((d: IChirp, i: number): IChirp => ({ ...d, Location: i, Mode:
+    // .sort((a: IChirp, b: IChirp) => a.Frequency - b.Frequency)
+    .map((d: IChirp, i: number): IChirp => ({
+      ...d, Location: i, Mode:
         Math.round(Math.round(d.Frequency * 100000) % Math.round(0.005 * 100000)) === 0 ? "FM" :
           Math.round(Math.round(d.Frequency * 100000) % Math.round(0.00625 * 100000)) === 0 ? "NFM" :
             "FM",
@@ -74,12 +74,19 @@ function makeRow(item: IRepeater): IChirp {
   if (isDigital) {
 // log("IS DIGITAL", isDigital);
 // isDigital = isDigital.replace(/\s*(Enabled|Digital|Data)\s*/i, "").trim();
-    if (/YSF/i.test(isDigital)) { isDigital = "DIG"; }
-    else if (/D-?STAR/i.test(isDigital)) { isDigital = "DV"; }
-    else if (/DMR/i.test(isDigital)) { isDigital = "DMR"; }
-    else if (/P-?25/i.test(isDigital)) { isDigital = "P25"; }
-    else if (/NXDN/i.test(isDigital)) { isDigital = "FSK"; }
-    else { isDigital = "MAYBE"; }
+    if (/YSF/i.test(isDigital)) {
+      isDigital = "DIG";
+    } else if (/D-?STAR/i.test(isDigital)) {
+      isDigital = "DV";
+    } else if (/DMR/i.test(isDigital)) {
+      isDigital = "DMR";
+    } else if (/P-?25/i.test(isDigital)) {
+      isDigital = "P25";
+    } else if (/NXDN/i.test(isDigital)) {
+      isDigital = "FSK";
+    } else {
+      isDigital = "MAYBE";
+    }
 // log("IS DIGITAL", isDigital);
   }
 
@@ -143,7 +150,7 @@ function makeRow(item: IRepeater): IChirp {
   let DtcsRxCode: number = 0;
   let Tone: "" | "Tone" | "DTCS" = "";
   const Mode: string = isDigital ? isDigital : isNarrow ? "NFM" : "FM";
-  let Comment: string = `${item["ST/PR"] || ""} ${item.County || ""} ${item.Location || ""} ${item.Call || ""} ${item.Sponsor || ""} ${item.Affiliate || ""} ${item.Frequency} ${item.Use || ""} ${item["Op Status"] || ""} ${item.Comment || ""}`.replace(/\s+/g, " ");
+  const Comment: string = `${item["ST/PR"] || ""} ${item.County || ""} ${item.Location || ""} ${item.Call || ""} ${item.Sponsor || ""} ${item.Affiliate || ""} ${item.Frequency} ${item.Use || ""} ${item["Op Status"] || ""} ${item.Comment || ""}`.replace(/\s+/g, " ");
   // Comment = Comment.trim().replace(",", "").substring(0, 31).trim();
 
   if (typeof UplinkTone === "number") {

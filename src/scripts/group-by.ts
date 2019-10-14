@@ -1,9 +1,8 @@
-import "module-alias/register";
-
 import {readFileAsync, writeToJsonAndCsv} from "@helpers/fs-helpers";
 import {numberToString} from "@helpers/helpers";
 import {createLog} from "@helpers/log-helpers";
 import chalk from "chalk";
+import "module-alias/register";
 import {IRepeater} from "./modules/i.repeater";
 
 const log = createLog("Group By");

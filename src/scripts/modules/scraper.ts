@@ -3,11 +3,11 @@ import {wait} from "@helpers/helpers";
 import {createOut} from "@helpers/log-helpers";
 import Axios from "axios";
 import chalk from "chalk";
-import { JSDOM } from "jsdom";
+import {JSDOM} from "jsdom";
 import {getNumber, getText, getTextOrNumber} from "./helper";
 import {IRepeater} from "./i.repeater";
 
-const { log, write } = createOut("Scraper");
+const {log, write} = createOut("Scraper");
 // const write = createWrite("Scraper");
 
 export default class Scraper {
@@ -141,7 +141,7 @@ export default class Scraper {
       return cache;
     } else {
       // Slow down the requests a little bit so we're not hammering the server or triggering any anti-bot or DDoS protections
-      const waitTime = (1000 + (Math.random() * 5000));
+      const waitTime = (5000 + (Math.random() * 10000));
 
       await wait(waitTime);
       // log(chalk.yellow("Get"), url);

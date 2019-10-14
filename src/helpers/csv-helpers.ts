@@ -1,12 +1,12 @@
 import * as _csv from "csv";
-import { promisify } from "util";
+import {promisify} from "util";
 
 export const parseAsync = promisify(_csv.parse);
 export const stringifyAsync = promisify(_csv.stringify);
 
 export function fillArrayObjects(inArray: object[]) {
   const outArray = [...inArray];
-  const keys: {[index: string]: boolean} = {};
+  const keys: { [index: string]: boolean } = {};
   outArray.forEach((item) => {
     const entries = Object.entries(item);
     entries.forEach((entry) => {

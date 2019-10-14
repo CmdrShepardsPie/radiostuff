@@ -1,63 +1,232 @@
 [
-  { "Frequency": 445.7000, "Comment": "FM voice" },
-  { "Frequency": 445.7250, "Comment": "FM voice" },
-  { "Frequency": 445.8500, "Comment": "FM voice" },
-  { "Frequency": 445.8750, "Comment": "FM voice" },
-  { "Frequency": 446.0000, "Comment": "FM call" },
-  { "Frequency": 446.0250, "Comment": "FM voice" },
-  { "Frequency": 446.1500, "Comment": "FM voice" },
-  { "Frequency": 446.1750, "Comment": "FM voice" },
-  { "Frequency": 445.7500, "Comment": "FM voice" },
-  { "Frequency": 445.9000, "Comment": "FM voice" },
-  { "Frequency": 446.0500, "Comment": "FM voice" },
-  { "Frequency": 446.2000, "Comment": "FM voice" },
-  { "Frequency": 445.7750, "Comment": "FM voice" },
-  { "Frequency": 445.9250, "Comment": "FM voice" },
-  { "Frequency": 446.0750, "Comment": "FM voice" },
-  { "Frequency": 446.2250, "Comment": "FM voice" },
-  { "Frequency": 445.8000, "Comment": "FM voice" },
-  { "Frequency": 445.9500, "Comment": "FM voice" },
-  { "Frequency": 446.1000, "Comment": "FM voice" },
-  { "Frequency": 446.2500, "Comment": "FM voice" },
-  { "Frequency": 446.1250, "Comment": "FM voice" },
-  { "Frequency": 446.2750, "Comment": "FM voice" },
-  { "Frequency": 445.9750, "Comment": "FM voice" },
-  { "Frequency": 445.8250, "Comment": "FM voice" },
-
-  { "Frequency": 446.2000, "Comment": "DIG voice" },
-  { "Frequency": 446.2125, "Comment": "DIG voice" },
-  { "Frequency": 446.2250, "Comment": "DIG voice" },
-  { "Frequency": 446.2375, "Comment": "DIG voice" },
-  { "Frequency": 446.2500, "Comment": "DIG voice" },
-  { "Frequency": 446.2625, "Comment": "DIG voice" },
-  { "Frequency": 446.2750, "Comment": "DIG voice" },
-  { "Frequency": 446.2875, "Comment": "DIG voice" },
-  { "Frequency": 446.3000, "Comment": "DIG voice" },
-
-  { "Frequency": 440.7000, "Comment": "MIX data" },
-  { "Frequency": 440.7250, "Comment": "MIX data" },
-  { "Frequency": 440.8500, "Comment": "MIX data" },
-  { "Frequency": 440.8750, "Comment": "MIX data" },
-  { "Frequency": 441.0000, "Comment": "MIX data" },
-  { "Frequency": 441.0250, "Comment": "MIX data" },
-  { "Frequency": 441.1500, "Comment": "MIX data" },
-  { "Frequency": 441.1750, "Comment": "MIX data" },
-  { "Frequency": 440.7500, "Comment": "MIX data" },
-  { "Frequency": 440.9000, "Comment": "MIX data" },
-  { "Frequency": 441.0500, "Comment": "MIX data" },
-  { "Frequency": 441.2000, "Comment": "MIX data" },
-  { "Frequency": 440.7750, "Comment": "MIX data" },
-  { "Frequency": 440.9250, "Comment": "MIX data" },
-  { "Frequency": 441.0750, "Comment": "MIX data" },
-  { "Frequency": 441.2250, "Comment": "MIX data" },
-  { "Frequency": 440.8000, "Comment": "MIX data" },
-  { "Frequency": 440.9500, "Comment": "MIX data" },
-  { "Frequency": 441.1000, "Comment": "MIX data" },
-  { "Frequency": 441.2500, "Comment": "MIX data" },
-  { "Frequency": 440.8250, "Comment": "MIX data" },
-  { "Frequency": 440.9750, "Comment": "MIX data" },
-  { "Frequency": 441.1250, "Comment": "MIX data" },
-  { "Frequency": 441.2750, "Comment": "MIX data" }
+  {
+    "Frequency": 445.7000,
+    "Comment": "FM voice"
+  },
+  {
+    "Frequency": 445.7250,
+    "Comment": "FM voice"
+  },
+  {
+    "Frequency": 445.8500,
+    "Comment": "FM voice"
+  },
+  {
+    "Frequency": 445.8750,
+    "Comment": "FM voice"
+  },
+  {
+    "Frequency": 446.0000,
+    "Comment": "FM call"
+  },
+  {
+    "Frequency": 446.0250,
+    "Comment": "FM voice"
+  },
+  {
+    "Frequency": 446.1500,
+    "Comment": "FM voice"
+  },
+  {
+    "Frequency": 446.1750,
+    "Comment": "FM voice"
+  },
+  {
+    "Frequency": 445.7500,
+    "Comment": "FM voice"
+  },
+  {
+    "Frequency": 445.9000,
+    "Comment": "FM voice"
+  },
+  {
+    "Frequency": 446.0500,
+    "Comment": "FM voice"
+  },
+  {
+    "Frequency": 446.2000,
+    "Comment": "FM voice"
+  },
+  {
+    "Frequency": 445.7750,
+    "Comment": "FM voice"
+  },
+  {
+    "Frequency": 445.9250,
+    "Comment": "FM voice"
+  },
+  {
+    "Frequency": 446.0750,
+    "Comment": "FM voice"
+  },
+  {
+    "Frequency": 446.2250,
+    "Comment": "FM voice"
+  },
+  {
+    "Frequency": 445.8000,
+    "Comment": "FM voice"
+  },
+  {
+    "Frequency": 445.9500,
+    "Comment": "FM voice"
+  },
+  {
+    "Frequency": 446.1000,
+    "Comment": "FM voice"
+  },
+  {
+    "Frequency": 446.2500,
+    "Comment": "FM voice"
+  },
+  {
+    "Frequency": 446.1250,
+    "Comment": "FM voice"
+  },
+  {
+    "Frequency": 446.2750,
+    "Comment": "FM voice"
+  },
+  {
+    "Frequency": 445.9750,
+    "Comment": "FM voice"
+  },
+  {
+    "Frequency": 445.8250,
+    "Comment": "FM voice"
+  },
+  {
+    "Frequency": 446.2000,
+    "Comment": "DIG voice"
+  },
+  {
+    "Frequency": 446.2125,
+    "Comment": "DIG voice"
+  },
+  {
+    "Frequency": 446.2250,
+    "Comment": "DIG voice"
+  },
+  {
+    "Frequency": 446.2375,
+    "Comment": "DIG voice"
+  },
+  {
+    "Frequency": 446.2500,
+    "Comment": "DIG voice"
+  },
+  {
+    "Frequency": 446.2625,
+    "Comment": "DIG voice"
+  },
+  {
+    "Frequency": 446.2750,
+    "Comment": "DIG voice"
+  },
+  {
+    "Frequency": 446.2875,
+    "Comment": "DIG voice"
+  },
+  {
+    "Frequency": 446.3000,
+    "Comment": "DIG voice"
+  },
+  {
+    "Frequency": 440.7000,
+    "Comment": "MIX data"
+  },
+  {
+    "Frequency": 440.7250,
+    "Comment": "MIX data"
+  },
+  {
+    "Frequency": 440.8500,
+    "Comment": "MIX data"
+  },
+  {
+    "Frequency": 440.8750,
+    "Comment": "MIX data"
+  },
+  {
+    "Frequency": 441.0000,
+    "Comment": "MIX data"
+  },
+  {
+    "Frequency": 441.0250,
+    "Comment": "MIX data"
+  },
+  {
+    "Frequency": 441.1500,
+    "Comment": "MIX data"
+  },
+  {
+    "Frequency": 441.1750,
+    "Comment": "MIX data"
+  },
+  {
+    "Frequency": 440.7500,
+    "Comment": "MIX data"
+  },
+  {
+    "Frequency": 440.9000,
+    "Comment": "MIX data"
+  },
+  {
+    "Frequency": 441.0500,
+    "Comment": "MIX data"
+  },
+  {
+    "Frequency": 441.2000,
+    "Comment": "MIX data"
+  },
+  {
+    "Frequency": 440.7750,
+    "Comment": "MIX data"
+  },
+  {
+    "Frequency": 440.9250,
+    "Comment": "MIX data"
+  },
+  {
+    "Frequency": 441.0750,
+    "Comment": "MIX data"
+  },
+  {
+    "Frequency": 441.2250,
+    "Comment": "MIX data"
+  },
+  {
+    "Frequency": 440.8000,
+    "Comment": "MIX data"
+  },
+  {
+    "Frequency": 440.9500,
+    "Comment": "MIX data"
+  },
+  {
+    "Frequency": 441.1000,
+    "Comment": "MIX data"
+  },
+  {
+    "Frequency": 441.2500,
+    "Comment": "MIX data"
+  },
+  {
+    "Frequency": 440.8250,
+    "Comment": "MIX data"
+  },
+  {
+    "Frequency": 440.9750,
+    "Comment": "MIX data"
+  },
+  {
+    "Frequency": 441.1250,
+    "Comment": "MIX data"
+  },
+  {
+    "Frequency": 441.2750,
+    "Comment": "MIX data"
+  }
 ]
 
 

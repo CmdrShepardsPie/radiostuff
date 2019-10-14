@@ -1,28 +1,106 @@
 [
-  { "Frequency": 146.400, "Comment": "FM voice" },
-  { "Frequency": 146.415, "Comment": "FM voice" },
-  { "Frequency": 146.475, "Comment": "FM voice" },
-  { "Frequency": 146.490, "Comment": "FM voice" },
-  { "Frequency": 146.550, "Comment": "FM voice" },
-  { "Frequency": 146.565, "Comment": "FM voice" },
-  { "Frequency": 147.435, "Comment": "FM voice" },
-  { "Frequency": 147.450, "Comment": "FM voice" },
-  { "Frequency": 147.510, "Comment": "FM voice" },
-  { "Frequency": 147.525, "Comment": "FM voice" },
-  { "Frequency": 147.585, "Comment": "FM voice" },
-  { "Frequency": 146.430, "Comment": "FM voice" },
-  { "Frequency": 146.445, "Comment": "FM voice" },
-  { "Frequency": 146.505, "Comment": "FM voice" },
-  { "Frequency": 146.520, "Comment": "FM call" },
-  { "Frequency": 146.580, "Comment": "FM voice" },
-  { "Frequency": 146.595, "Comment": "FM voice" },
-  { "Frequency": 147.465, "Comment": "FM voice" },
-  { "Frequency": 147.480, "Comment": "FM voice" },
-  { "Frequency": 147.540, "Comment": "FM voice" },
-  { "Frequency": 147.555, "Comment": "FM voice" },
-  { "Frequency": 146.460, "Comment": "FM voice" },
-  { "Frequency": 146.535, "Comment": "FM voice" },
-  { "Frequency": 147.420, "Comment": "FM voice" },
-  { "Frequency": 147.495, "Comment": "FM voice" },
-  { "Frequency": 147.570, "Comment": "FM voice" }
+  {
+    "Frequency": 146.400,
+    "Comment": "FM voice"
+  },
+  {
+    "Frequency": 146.415,
+    "Comment": "FM voice"
+  },
+  {
+    "Frequency": 146.475,
+    "Comment": "FM voice"
+  },
+  {
+    "Frequency": 146.490,
+    "Comment": "FM voice"
+  },
+  {
+    "Frequency": 146.550,
+    "Comment": "FM voice"
+  },
+  {
+    "Frequency": 146.565,
+    "Comment": "FM voice"
+  },
+  {
+    "Frequency": 147.435,
+    "Comment": "FM voice"
+  },
+  {
+    "Frequency": 147.450,
+    "Comment": "FM voice"
+  },
+  {
+    "Frequency": 147.510,
+    "Comment": "FM voice"
+  },
+  {
+    "Frequency": 147.525,
+    "Comment": "FM voice"
+  },
+  {
+    "Frequency": 147.585,
+    "Comment": "FM voice"
+  },
+  {
+    "Frequency": 146.430,
+    "Comment": "FM voice"
+  },
+  {
+    "Frequency": 146.445,
+    "Comment": "FM voice"
+  },
+  {
+    "Frequency": 146.505,
+    "Comment": "FM voice"
+  },
+  {
+    "Frequency": 146.520,
+    "Comment": "FM call"
+  },
+  {
+    "Frequency": 146.580,
+    "Comment": "FM voice"
+  },
+  {
+    "Frequency": 146.595,
+    "Comment": "FM voice"
+  },
+  {
+    "Frequency": 147.465,
+    "Comment": "FM voice"
+  },
+  {
+    "Frequency": 147.480,
+    "Comment": "FM voice"
+  },
+  {
+    "Frequency": 147.540,
+    "Comment": "FM voice"
+  },
+  {
+    "Frequency": 147.555,
+    "Comment": "FM voice"
+  },
+  {
+    "Frequency": 146.460,
+    "Comment": "FM voice"
+  },
+  {
+    "Frequency": 146.535,
+    "Comment": "FM voice"
+  },
+  {
+    "Frequency": 147.420,
+    "Comment": "FM voice"
+  },
+  {
+    "Frequency": 147.495,
+    "Comment": "FM voice"
+  },
+  {
+    "Frequency": 147.570,
+    "Comment": "FM voice"
+  }
 ]
