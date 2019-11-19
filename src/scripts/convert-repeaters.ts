@@ -42,7 +42,7 @@ function convertRepeater(raw: IRepeaterRaw): IRepeaterStructured {
     Location: { Latitude: raw.Latitude, Longitude: raw.Longitude, County: raw.County, State: raw['ST/PR'] },
     Use: convertRepeaterUse(raw.Use),
     Status: convertRepeaterStatus(raw['Op Status']),
-    Frequency: { Input: raw.Uplink, Output: raw.Downlink },
+    Frequency: { Input: convertNumber(raw.Uplink) || (raw.Downlink + raw.Offset), Output: raw.Downlink },
     SquelchTone: convertRepeaterSquelchTone(raw['Uplink Tone'], raw['Downlink Tone']),
     DigitalTone: convertRepeaterDigitalTone(raw['Uplink Tone'], raw['Downlink Tone']),
     Digital: convertRepeaterDigitalData(raw),
@@ -110,7 +110,7 @@ function convertRepeaterDigitalTone(rawInput: string | number | undefined, rawOu
   return undefined;
 }
 
-function convertNumber(input: string | number | undefined, numberFilter: RegExp = /^(\d+)$/): number | undefined {
+function convertNumber(input: string | number | undefined, numberFilter: RegExp = /^([+-]?\d+\.?\d*)$/): number | undefined {
   if (typeof input === 'number' && !isNaN(input)) {
     return input;
   } else if (typeof input === 'number' && isNaN(input)) {

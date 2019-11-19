@@ -18962,7 +18962,7 @@
     "Use": "Open",
     "Status": "On-Air",
     "Frequency": {
-      "Input": "a \n  The downlink frequency has been calculated based on the band plan. If the frequency is incorrect, please update the downlink record.",
+      "Input": 145.53125,
       "Output": 146.13125
     },
     "Digital": {

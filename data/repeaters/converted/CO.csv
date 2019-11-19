@@ -861,8 +861,7 @@ ID,StateID,Callsign,Use,Status,DigitalTone,Digital,VOIP,Location.Latitude,Locati
 3644,46,KC0BXH,Open,On-Air,,,,43.87,-103.744,Pennington,SD,146.25,146.85,146.2,,,,,,,,,,,,,,,,,,,,,,
 15533,56,NE7WY,Open,Off-Air,,,,43.7561,-105.497,Campbell,WY,147.66,147.06,100,,,,,,,,,,,,,,,,,,,,,,
 1454,48,N5LTZ,Open,On-Air,,,,35.2391,-101.847,Potter,TX,449.2,444.2,88.5,88.5,,,,,,,,,,,,,,,,,,,,,
-11215,48,KD5ROK,Open,On-Air,,,,35.4678,-101.348,Hutchinson,TX,"a 
-  The downlink frequency has been calculated based on the band plan. If the frequency is incorrect, please update the downlink record.",146.13125,,,,,,,14,314848,,,,,,,,,,,,,,,
+11215,48,KD5ROK,Open,On-Air,,,,35.4678,-101.348,Hutchinson,TX,145.53125,146.13125,,,,,,,14,314848,,,,,,,,,,,,,,,
 3052,48,KA3IDN,Open,On-Air,,,,35.2418,-101.813,Potter,TX,902.1625,927.1625,151.4,,,,,,,,,,361016,,,,,,,,,,,,
 11383,48,KA3IDN,Open,On-Air,,,,35.222,-101.831,Potter,TX,449.9625,444.9625,,,,,,,14,314812,,,,,,,,,,,,,,,
 14702,48,N5LUL,Open,On-Air,,,,35.222,-101.831,Potter,TX,446.65,441.65,127.3,,,,,,,,,,,,,,,,,,,,,,
