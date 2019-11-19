@@ -453,6 +453,11 @@
     "Frequency": {
       "Input": 902.025,
       "Output": 927.8375
+    },
+    "Digital": {
+      "P25": {
+        "NAC": 294
+      }
     }
   },
   {
@@ -2896,6 +2901,11 @@
     "Frequency": {
       "Input": 902.025,
       "Output": 927.9375
+    },
+    "Digital": {
+      "P25": {
+        "NAC": 293
+      }
     }
   },
   {
@@ -3130,6 +3140,11 @@
     "SquelchTone": {
       "Input": 103.5,
       "Output": 103.5
+    },
+    "Digital": {
+      "P25": {
+        "NAC": 293
+      }
     }
   },
   {
@@ -3482,6 +3497,11 @@
     "Frequency": {
       "Input": 902.025,
       "Output": 927.8375
+    },
+    "Digital": {
+      "P25": {
+        "NAC": 293
+      }
     },
     "VOIP": {
       "AllStar": {
@@ -8488,6 +8508,9 @@
         "ColorCode": 7,
         "ID": 312024
       },
+      "P25": {
+        "NAC": 293
+      },
       "YSF": {
         "GroupID": {
           "Input": "Open ↑",
@@ -9916,6 +9939,11 @@
     "Frequency": {
       "Input": 902.9,
       "Output": 927.9
+    },
+    "Digital": {
+      "P25": {
+        "NAC": 293
+      }
     }
   },
   {
@@ -14090,6 +14118,9 @@
         "ColorCode": 7,
         "ID": 312023
       },
+      "P25": {
+        "NAC": 293
+      },
       "YSF": {
         "GroupID": {
           "Input": "Open ↑",
@@ -17119,6 +17150,7 @@
       "Output": 147.555
     },
     "Digital": {
+      "P25": {},
       "DStar": {
         "Node": "KG7LRK (C) Hot Spot 24/7"
       }
@@ -20464,6 +20496,11 @@
     "SquelchTone": {
       "Input": 156.7,
       "Output": 156.7
+    },
+    "Digital": {
+      "P25": {
+        "NAC": 293
+      }
     }
   },
   {
