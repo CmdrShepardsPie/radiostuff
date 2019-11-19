@@ -1,2 +1,2 @@
-import "module-alias/register";
+export {};
 //# sourceMappingURL=generate-frequencies.d.ts.map

@@ -1,10 +1,13 @@
+var __importDefault = (this && this.__importDefault) || function (mod) {
+    return (mod && mod.__esModule) ? mod : { "default": mod };
+};
 (function (factory) {
     if (typeof module === "object" && typeof module.exports === "object") {
         var v = factory(require, exports);
         if (v !== undefined) module.exports = v;
     }
     else if (typeof define === "function" && define.amd) {
-        define(["require", "exports", "@helpers/fs-helpers", "@helpers/helpers", "@helpers/log-helpers", "chalk", "module-alias/register"], factory);
+        define(["require", "exports", "@helpers/fs-helpers", "@helpers/helpers", "@helpers/log-helpers", "chalk"], factory);
     }
 })(function (require, exports) {
     "use strict";
@@ -12,16 +15,15 @@
     const fs_helpers_1 = require("@helpers/fs-helpers");
     const helpers_1 = require("@helpers/helpers");
     const log_helpers_1 = require("@helpers/log-helpers");
-    const chalk_1 = require("chalk");
-    require("module-alias/register");
-    const log = log_helpers_1.createLog("Group By");
+    const chalk_1 = __importDefault(require("chalk"));
+    const log = log_helpers_1.createLog('Group By');
     async function doIt(groupBy, inFileName, outFileName) {
         const fileData = await fs_helpers_1.readFileAsync(inFileName); // await getAllFilesFromDirectory("./repeaters/data/CO/", ".json") as IRepeater[];
         const repeaters = JSON.parse(fileData.toString());
         // Only grouping by the keys in the first row. It's not comprehensive but contains the essentials.
         // const keys = Object.keys(repeaters[0]) as Array<keyof IRepeater>;
         // for (const key of keys) {
-        log(chalk_1.default.green("Process"), chalk_1.default.blue("Group"), groupBy, chalk_1.default.yellow("In"), inFileName, chalk_1.default.cyan("Out"), outFileName);
+        log(chalk_1.default.green('Process'), chalk_1.default.blue('Group'), groupBy, chalk_1.default.yellow('In'), inFileName, chalk_1.default.cyan('Out'), outFileName);
         const grouped = group(groupBy, repeaters);
         await fs_helpers_1.writeToJsonAndCsv(outFileName, grouped);
         // }
@@ -30,7 +32,7 @@
         const keyedGroups = {};
         repeaters.forEach((repeater) => {
             const keyVal = repeater[groupBy];
-            if (keyVal !== undefined && keyVal !== null && keyVal !== "") {
+            if (keyVal !== undefined && keyVal !== null && keyVal !== '') {
                 if (!keyedGroups[keyVal]) {
                     keyedGroups[keyVal] = [];
                 }
@@ -39,14 +41,14 @@
         });
         const sorting = Object.entries(keyedGroups);
         sorting.sort((a, b) => {
-            const aMi = helpers_1.numberToString(a[1][0].Mi, 5, 24);
-            const bMi = helpers_1.numberToString(b[1][0].Mi, 5, 24);
+            const aMi = helpers_1.numberToString(a[1][0].Mi || 0, 5, 24);
+            const bMi = helpers_1.numberToString(b[1][0].Mi || 0, 5, 24);
             const aNumRepeaters = helpers_1.numberToString(100 - a[1].length, 4, 1);
             const bNumRepeaters = helpers_1.numberToString(100 - b[1].length, 4, 1);
             const aGroupName = a[0];
             const bGroupName = b[0];
-            const aFrequency = helpers_1.numberToString(a[1][0].Frequency, 4, 5);
-            const bFrequency = helpers_1.numberToString(b[1][0].Frequency, 4, 5);
+            const aFrequency = helpers_1.numberToString(a[1][0].Frequency || 0, 4, 5);
+            const bFrequency = helpers_1.numberToString(b[1][0].Frequency || 0, 4, 5);
             // Sort by distance, then number of repeaters in group, then group name
             const aStr = `${aMi} ${aNumRepeaters} ${aGroupName} ${aFrequency}`;
             const bStr = `${bMi} ${bNumRepeaters} ${bGroupName} ${bFrequency}`;
@@ -73,7 +75,7 @@
         // await doIt("Call",
         //   `data/repeaters/results/CO/Colorado Springs.json`,
         //   `data/repeaters/groups/CO/Colorado Springs - Call`);
-        await doIt("Call", `data/repeaters/combined/CO.json`, `data/repeaters/groups/combined/CO - Call`);
+        await doIt('Call', `data/repeaters/combined/CO.json`, `data/repeaters/groups/combined/CO - Call`);
     }
     exports.default = start();
 });

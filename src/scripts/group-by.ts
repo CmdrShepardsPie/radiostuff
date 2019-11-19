@@ -1,59 +1,60 @@
-import {readFileAsync, writeToJsonAndCsv} from "@helpers/fs-helpers";
-import {numberToString} from "@helpers/helpers";
-import {createLog} from "@helpers/log-helpers";
-import chalk from "chalk";
-import "module-alias/register";
-import {IRepeater} from "./modules/i.repeater";
 
-const log = createLog("Group By");
 
-async function doIt(groupBy: keyof IRepeater, inFileName: string, outFileName: string) {
-  const fileData = await readFileAsync(inFileName); // await getAllFilesFromDirectory("./repeaters/data/CO/", ".json") as IRepeater[];
-  const repeaters = JSON.parse(fileData.toString()) as IRepeater[];
+import { readFileAsync, writeToJsonAndCsv } from '@helpers/fs-helpers';
+import { numberToString } from '@helpers/helpers';
+import { createLog } from '@helpers/log-helpers';
+import { IRepeaterRaw } from '@interfaces/i-repeater-raw';
+import chalk from 'chalk';
+
+const log: (...msg: any[]) => void = createLog('Group By');
+
+async function doIt(groupBy: keyof IRepeaterRaw, inFileName: string, outFileName: string): Promise<void> {
+  const fileData: Buffer = await readFileAsync(inFileName); // await getAllFilesFromDirectory("./repeaters/data/CO/", ".json") as IRepeater[];
+  const repeaters: IRepeaterRaw[] = JSON.parse(fileData.toString());
 
   // Only grouping by the keys in the first row. It's not comprehensive but contains the essentials.
   // const keys = Object.keys(repeaters[0]) as Array<keyof IRepeater>;
   // for (const key of keys) {
-  log(chalk.green("Process"), chalk.blue("Group"), groupBy, chalk.yellow("In"), inFileName, chalk.cyan("Out"), outFileName);
-  const grouped = group(groupBy, repeaters);
+  log(chalk.green('Process'), chalk.blue('Group'), groupBy, chalk.yellow('In'), inFileName, chalk.cyan('Out'), outFileName);
+  const grouped: IRepeaterRaw[] = group(groupBy, repeaters);
   await writeToJsonAndCsv(outFileName, grouped);
   // }
 }
 
-function group(groupBy: keyof IRepeater, repeaters: IRepeater[]) {
-  const keyedGroups: { [index: string]: IRepeater[] } = {};
-  repeaters.forEach((repeater) => {
-    const keyVal = repeater[groupBy];
-    if (keyVal !== undefined && keyVal !== null && keyVal !== "") {
+function group(groupBy: keyof IRepeaterRaw, repeaters: IRepeaterRaw[]): IRepeaterRaw[] {
+  const keyedGroups: { [ key: string ]: IRepeaterRaw[] } = {};
+  repeaters.forEach((repeater: IRepeaterRaw) => {
+    const keyVal: number | undefined | string = repeater[groupBy];
+    if (keyVal !== undefined && keyVal !== null && keyVal !== '') {
       if (!keyedGroups[keyVal]) {
         keyedGroups[keyVal] = [];
       }
       keyedGroups[keyVal].push(repeater);
     }
   });
-  const sorting = Object.entries(keyedGroups);
-  sorting.sort((a, b) => {
-    const aMi = numberToString(a[1][0].Mi, 5, 24);
-    const bMi = numberToString(b[1][0].Mi, 5, 24);
-    const aNumRepeaters = numberToString(100 - a[1].length, 4, 1);
-    const bNumRepeaters = numberToString(100 - b[1].length, 4, 1);
-    const aGroupName = a[0];
-    const bGroupName = b[0];
-    const aFrequency = numberToString(a[1][0].Frequency, 4, 5);
-    const bFrequency = numberToString(b[1][0].Frequency, 4, 5);
+  const sorting: Array<[string, IRepeaterRaw[]]> = Object.entries(keyedGroups);
+  sorting.sort((a: [string, IRepeaterRaw[]], b: [string, IRepeaterRaw[]]) => {
+    const aMi: string = numberToString(a[1][0].Mi || 0, 5, 24);
+    const bMi: string = numberToString(b[1][0].Mi || 0, 5, 24);
+    const aNumRepeaters: string = numberToString(100 - a[1].length, 4, 1);
+    const bNumRepeaters: string = numberToString(100 - b[1].length, 4, 1);
+    const aGroupName: string = a[0];
+    const bGroupName: string = b[0];
+    const aFrequency: string = numberToString(a[1][0].Frequency || 0, 4, 5);
+    const bFrequency: string = numberToString(b[1][0].Frequency || 0, 4, 5);
     // Sort by distance, then number of repeaters in group, then group name
-    const aStr = `${aMi} ${aNumRepeaters} ${aGroupName} ${aFrequency}`;
-    const bStr = `${bMi} ${bNumRepeaters} ${bGroupName} ${bFrequency}`;
+    const aStr: string = `${aMi} ${aNumRepeaters} ${aGroupName} ${aFrequency}`;
+    const bStr: string = `${bMi} ${bNumRepeaters} ${bGroupName} ${bFrequency}`;
     // Sort by number of repeaters in group, then distance, then group name
     // const aStr = `${aNumRepeaters} ${aMi} ${aGroupName} ${aFrequency}`;
     // const bStr = `${bNumRepeaters} ${bMi} ${bGroupName} ${bFrequency}`;
 
     return aStr > bStr ? 1 : aStr < bStr ? -1 : 0;
   });
-  return sorting.reduce((prev, curr) => [...prev, ...curr[1]], [] as IRepeater[]);
+  return sorting.reduce((prev: IRepeaterRaw[], curr: [string, IRepeaterRaw[]]) => [...prev, ...curr[1]], [] as IRepeaterRaw[]);
 }
 
-async function start() {
+async function start(): Promise<void> {
   // await doIt("Call", "repeaters/data/CO/Colorado Springs.json", "repeaters/groups/CO/Colorado Springs - Call");
   // await doIt("Call", "repeaters/data/CO/Colorado Springs.json", "repeaters/groups/CO/Colorado Springs - Call");
   // const coFiles = (await readdirAsync("data/repeaters/results/CO/")).map((f) => `CO/${f}`);
@@ -69,7 +70,7 @@ async function start() {
   // await doIt("Call",
   //   `data/repeaters/results/CO/Colorado Springs.json`,
   //   `data/repeaters/groups/CO/Colorado Springs - Call`);
-  await doIt("Call",
+  await doIt('Call',
     `data/repeaters/combined/CO.json`,
     `data/repeaters/groups/combined/CO - Call`);
 }

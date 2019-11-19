@@ -1,0 +1,12 @@
+sh ./npmitype.sh axios
+sh ./npmitype.sh chalk
+sh ./npmitype.sh csv
+sh ./npmitype.sh gps-distance
+sh ./npmitype.sh jsdom
+sh ./npmitype.sh module-alias
+sh ./npmitype.sh node-csv
+sh ./npmitype.sh tslib
+sh ./npmitype.sh tslint
+sh ./npmitype.sh tslint-eslint-rules
+sh ./npmitype.sh tslint-config-standard
+sh ./npmitype.sh typescript

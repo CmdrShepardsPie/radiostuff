@@ -1,17 +1,17 @@
 /// <reference types="node" />
-import * as _fs from "fs";
-export declare const existsAsync: typeof _fs.exists.__promisify__;
-export declare const mkdirAsync: typeof _fs.mkdir.__promisify__;
-export declare const readFileAsync: typeof _fs.readFile.__promisify__;
-export declare const readdirAsync: typeof _fs.readdir.__promisify__;
-export declare const writeFileAsync: typeof _fs.writeFile.__promisify__;
-export declare const statAsync: typeof _fs.stat.__promisify__;
+import { Stats } from 'fs';
+export declare const existsAsync: (path: string) => Promise<boolean>;
+export declare const mkdirAsync: (path: string) => Promise<void>;
+export declare const readFileAsync: (path: string | number) => Promise<Buffer>;
+export declare const readdirAsync: (path: string) => Promise<string[]>;
+export declare const writeFileAsync: (path: string | number, data: any) => Promise<void>;
+export declare const statAsync: (arg1: string) => Promise<Stats>;
 export declare function makeDirs(filePath: string): Promise<void>;
 export declare function dirExists(filePath: string): Promise<boolean>;
-export declare function writeToJsonAndCsv(filename: string, jsonData: any, csvData?: any, header?: boolean): Promise<void>;
+export declare function writeToJsonAndCsv(filename: string, jsonData: any[], csvData?: any[], header?: boolean): Promise<void>;
 export declare function splitExtension(filename: string): {
-    name: string;
     ext: string;
+    name: string;
 };
 export declare function getAllFilesFromDirectory<T>(directory: string): Promise<T[]>;
 //# sourceMappingURL=fs-helpers.d.ts.map

@@ -1,3 +1,6 @@
+var __importDefault = (this && this.__importDefault) || function (mod) {
+    return (mod && mod.__esModule) ? mod : { "default": mod };
+};
 (function (factory) {
     if (typeof module === "object" && typeof module.exports === "object") {
         var v = factory(require, exports);
@@ -9,17 +12,17 @@
 })(function (require, exports) {
     "use strict";
     Object.defineProperty(exports, "__esModule", { value: true });
-    const chalk_1 = require("chalk");
+    const chalk_1 = __importDefault(require("chalk"));
     let lastMessageInline = false;
     let lastContext;
     const bgColors = [
         // "bgBlack",
-        "bgRed",
-        "bgGreen",
-        "bgYellow",
-        "bgBlue",
-        "bgMagenta",
-        "bgCyan",
+        'bgRed',
+        'bgGreen',
+        'bgYellow',
+        'bgBlue',
+        'bgMagenta',
+        'bgCyan',
     ];
     let lastColor = 0;
     function createOut(context, color) {
@@ -70,13 +73,13 @@
         const chalkColorFn = chalk_1.default[color];
         return (...msg) => {
             if (!lastMessageInline) {
-                process.stdout.write(chalkColorFn(`${context}:`) + " ");
+                process.stdout.write(chalkColorFn(`${context}:`) + ' ');
             }
             if (lastMessageInline && lastContext !== context) {
                 createEmptyLine();
-                process.stdout.write(chalkColorFn(`${context}:`) + " ");
+                process.stdout.write(chalkColorFn(`${context}:`) + ' ');
             }
-            process.stdout.write(msg.join(" "));
+            process.stdout.write(msg.join(' '));
             lastMessageInline = true;
             lastContext = context;
         };
@@ -100,7 +103,7 @@
         if (t instanceof Error) {
             return t;
         }
-        if (typeof t === "string") {
+        if (typeof t === 'string') {
             try {
                 t = JSON.parse(t);
             }
@@ -108,7 +111,7 @@
                 /* no empty */
             }
         }
-        if (typeof t === "object") {
+        if (typeof t === 'object') {
             try {
                 t = JSON.stringify(t, null, 4);
                 t = colorizeJsonString(t);
@@ -121,11 +124,11 @@
     }
     function colorizeJsonString(json) {
         // Strings
-        json = json.replace(/(\s+)("[^"]*")(,?[\r\n])/gi, `$1${chalk_1.default.yellow("$2")}$3`);
+        json = json.replace(/(\s+)("[^"]*")(,?[\r\n])/gi, `$1${chalk_1.default.yellow('$2')}$3`);
         // booleans, numbers, etc.
-        json = json.replace(/(\s+)([^"[{\]}][^[\]{}"\n\r,]*)(,?[\r\n])/gi, `$1${chalk_1.default.cyan("$2")}$3`);
+        json = json.replace(/(\s+)([^"[{\]}][^[\]{}"\n\r,]*)(,?[\r\n])/gi, `$1${chalk_1.default.cyan('$2')}$3`);
         // Keys
-        json = json.replace(/("[^"]*"):/gi, `${chalk_1.default.magenta("$1")}:`);
+        json = json.replace(/("[^"]*"):/gi, `${chalk_1.default.magenta('$1')}:`);
         return json;
     }
     function createEmptyLine() {

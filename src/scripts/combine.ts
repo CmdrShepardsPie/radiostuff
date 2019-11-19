@@ -1,51 +1,53 @@
-import {getAllFilesFromDirectory, writeToJsonAndCsv} from "@helpers/fs-helpers";
-import {numberToString} from "@helpers/helpers";
-import {createLog} from "@helpers/log-helpers";
+import { getAllFilesFromDirectory, writeToJsonAndCsv } from '@helpers/fs-helpers';
+import { numberToString } from '@helpers/helpers';
+import { createLog } from '@helpers/log-helpers';
+import { IRepeaterRaw } from '@interfaces/i-repeater-raw';
+import gpsDistance, { Point } from 'gps-distance';
 
-import * as gpsDistance from "gps-distance";
-import "module-alias/register";
+const log: (...msg: any[]) => void = createLog('Combine');
 
-const log = createLog("Combine");
-
-export default (async () => {
-  const myPoint = [39.627071500, -104.893322500]; // 4982 S Ulster St
-  const combined: any[] = [];
-  const files = await getAllFilesFromDirectory<any[]>("data/repeaters/results/CO");
-  log("Got", files.length, "files");
-  const found: { [key: string]: boolean } = {};
-  files.forEach((file) => {
-    log("Got", file.length, "repeaters");
-    file.forEach((item) => {
+export default (async (): Promise<void> => {
+  const myPoint: Point = [39.627071500, -104.893322500]; // 4982 S Ulster St
+  const combined: IRepeaterRaw[] = [];
+  const files: IRepeaterRaw[][] = await getAllFilesFromDirectory<IRepeaterRaw[]>('data/repeaters/results/CO');
+  log('Got', files.length, 'files');
+  const found: { [key: string]: boolean | undefined } = {};
+  files.forEach((file: IRepeaterRaw[]) => {
+    log('Got', file.length, 'repeaters');
+    file.forEach((item: IRepeaterRaw) => {
       if (!found[`${item.state_id}-${item.ID}`]) {
         found[`${item.state_id}-${item.ID}`] = true;
         combined.push(item);
-        const distance = gpsDistance([myPoint, [item.Latitude, item.Longitude]]);
-        item.Mi = distance * 0.62137119;
+        if (typeof item.Latitude === 'number' && typeof item.Longitude === 'number') {
+          const distance: number = gpsDistance([myPoint, [item.Latitude, item.Longitude]]);
+          item.Mi = distance * 0.62137119;
+        }
       }
     });
   });
-  log("Got", combined.length, "unique repeaters");
-  combined.sort((a, b) => {
-    const aMi = numberToString(a.Mi, 4, 24);
-    const bMi = numberToString(b.Mi, 4, 24);
-    const aRepeaterName = a.Call;
-    const bRepeaterName = b.Call;
-    const aFrequency = numberToString(a.Frequency, 4, 5);
-    const bFrequency = numberToString(b.Frequency, 4, 5);
-    const aStr = `${aMi} ${aRepeaterName} ${aFrequency}`;
-    const bStr = `${bMi} ${bRepeaterName} ${bFrequency}`;
+  log('Got', combined.length, 'unique repeaters');
+  combined.sort((a: IRepeaterRaw, b: IRepeaterRaw) => {
+    const aMi: string = numberToString(a.Mi || 0, 4, 24);
+    const bMi: string = numberToString(b.Mi || 0, 4, 24);
+    const aRepeaterName: string | undefined = a.Call;
+    const bRepeaterName: string | undefined = b.Call;
+    const aFrequency: string = numberToString(a.Frequency || 0, 4, 5);
+    const bFrequency: string = numberToString(b.Frequency || 0, 4, 5);
+    const aStr: string = `${aMi} ${aRepeaterName} ${aFrequency}`;
+    const bStr: string = `${bMi} ${bRepeaterName} ${bFrequency}`;
 
     return aStr > bStr ? 1 : aStr < bStr ? -1 : 0;
   });
-  const stats = combined.reduce((result, data) => {
-    const freq = Math.round(data.Frequency).toString();
-    const pow = Math.pow(10, Math.max(freq.length - 2, 0)) * 2;
-    const group = Math.round(data.Frequency / pow) * pow;
+  const stats: { [ key: string]: number } = combined.reduce((result: { [ key: string ]: number }, data: IRepeaterRaw) => {
+    const freq: string = Math.round(data.Frequency || 0).toString();
+    const pow: number = Math.pow(10, Math.max(freq.length - 2, 0)) * 2;
+    const group: number = Math.round((data.Frequency || 0) / pow) * pow;
     // console.log(freq, pow, group);
-    const count = result[group] || 0;
-    return {...result, [group]: count + 1};
+    const count: number = result[group] || 0;
+    return { ...result, [group]: count + 1 };
   }, {});
-  console.log("STATS", stats);
+  // tslint:disable-next-line:no-console
+  console.log('STATS', stats);
   // combined.slice(0, 100).forEach((c) => log(c.Call, "\t", c.Latitude, "\t", c.Longitude, "\t", c.Mi));
-  await writeToJsonAndCsv("data/repeaters/combined/CO", combined);
+  await writeToJsonAndCsv('data/repeaters/combined/CO', combined);
 })();

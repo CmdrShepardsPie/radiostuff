@@ -1,24 +1,24 @@
-import {fillArrayObjects, stringifyAsync} from "@helpers/csv-helpers";
-import {flattenObject} from "@helpers/helpers";
-import {createLog} from "@helpers/log-helpers";
-import chalk from "chalk";
-import * as _fs from "fs";
-import * as path from "path";
-import {promisify} from "util";
+import { fillArrayObjects, stringifyAsync } from '@helpers/csv-helpers';
+import { flattenObject } from '@helpers/helpers';
+import { createLog } from '@helpers/log-helpers';
+import chalk from 'chalk';
+import fs, { Stats } from 'fs';
+import path from 'path';
+import { promisify } from 'util';
 
-const log = createLog("FS Helpers");
+const log: (...msg: any[]) => void = createLog('FS Helpers');
 
-export const existsAsync = promisify(_fs.exists);
-export const mkdirAsync = promisify(_fs.mkdir);
-export const readFileAsync = promisify(_fs.readFile);
-export const readdirAsync = promisify(_fs.readdir);
-export const writeFileAsync = promisify(_fs.writeFile);
-export const statAsync = promisify(_fs.stat);
+export const existsAsync: (path: string) => Promise<boolean> = promisify(fs.exists);
+export const mkdirAsync: (path: string) => Promise<void> = promisify(fs.mkdir);
+export const readFileAsync: (path: string | number) => Promise<Buffer> = promisify(fs.readFile);
+export const readdirAsync: (path: string) => Promise<string[]> = promisify(fs.readdir);
+export const writeFileAsync: (path: string | number, data: any) => Promise<void> = promisify(fs.writeFile);
+export const statAsync: (arg1: string) => Promise<Stats> = promisify(fs.stat);
 
-export async function makeDirs(filePath: string) {
-  log(chalk.green("Make Dirs"), filePath);
+export async function makeDirs(filePath: string): Promise<void> {
+  log(chalk.green('Make Dirs'), filePath);
 
-  let tempPath = `.`;
+  let tempPath: string = `.`;
   for (const dir of filePath.split(/[/\\]/)) {
     if (/\./.test(dir)) {
       break;
@@ -35,11 +35,11 @@ export async function makeDirs(filePath: string) {
   }
 }
 
-export async function dirExists(filePath: string) {
+export async function dirExists(filePath: string): Promise<boolean> {
   // log(chalk.green("Dir Exists"), filePath);
 
-  let tempPath = `.`;
-  let exists = true;
+  let tempPath: string = `.`;
+  let exists: boolean = true;
   for (const dir of filePath.split(/[/\\]/)) {
     tempPath = path.join(tempPath, dir);
     exists = await existsAsync(tempPath);
@@ -50,43 +50,43 @@ export async function dirExists(filePath: string) {
   return exists;
 }
 
-export async function writeToJsonAndCsv(filename: string, jsonData: any, csvData: any = jsonData, header = true) {
+export async function writeToJsonAndCsv(filename: string, jsonData: any[], csvData: any[] = jsonData, header: boolean = true): Promise<void> {
   // log(chalk.green("Write to Json and CSV"), filename);
 
-  const jsonString = JSON.stringify(jsonData, null, 2);
-  const jsonName = `${filename}.json`;
+  const jsonString: string = JSON.stringify(jsonData, null, 2);
+  const jsonName: string = `${filename}.json`;
   await makeDirs(jsonName);
   await writeFileAsync(jsonName, jsonString);
 
-  const csvPrep = Array.isArray(csvData) ?
+  const csvPrep: object[] = Array.isArray(csvData) ?
     fillArrayObjects(csvData.map((r: any) => flattenObject(r))) :
     [flattenObject(csvData)];
-  const csvString = await stringifyAsync(csvPrep, {header});
-  const csvName = `${filename}.csv`;
+  const csvString: string = await stringifyAsync(csvPrep, { header });
+  const csvName: string = `${filename}.csv`;
   await writeFileAsync(csvName, csvString);
 }
 
-export function splitExtension(filename: string) {
-  log(chalk.green("Split Extension"), filename);
+export function splitExtension(filename: string): { ext: string; name: string } {
+  log(chalk.green('Split Extension'), filename);
 
-  const name = filename.substring(0, filename.lastIndexOf("."));
-  const ext = filename.substring(filename.lastIndexOf(".") + 1);
-  return {name, ext};
+  const name: string = filename.substring(0, filename.lastIndexOf('.'));
+  const ext: string = filename.substring(filename.lastIndexOf('.') + 1);
+  return { name, ext };
 }
 
 export async function getAllFilesFromDirectory<T>(directory: string): Promise<T[]> {
-  log(chalk.green("Get All Files from Directory"), directory);
+  log(chalk.green('Get All Files from Directory'), directory);
 
-  const files = [];
-  const fileNames = await readdirAsync(directory);
-  const extMatch = /\.json$/i;
+  const files: any[] = [];
+  const fileNames: string[] = await readdirAsync(directory);
+  const extMatch: RegExp = /\.json$/i;
   for (const fileName of fileNames) {
-    const file = path.join(directory, fileName);
-    const stat = await statAsync(file);
+    const file: string = path.join(directory, fileName);
+    const stat: Stats = await statAsync(file);
     if (stat.isFile() && file.match(extMatch)) {
       // log("Get All Files From Directory", chalk.green("reading"), file);
-      const data = await readFileAsync(file, "utf8");
-      files.push(JSON.parse(data));
+      const data: Buffer = await readFileAsync(file);
+      files.push(JSON.parse(data.toString()));
     } else {
       // log("Get All Files From Directory", chalk.red("skipped"), file);
     }

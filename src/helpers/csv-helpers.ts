@@ -1,24 +1,27 @@
-import * as _csv from "csv";
-import {promisify} from "util";
+import parse from 'csv-parse';
+import stringify from 'csv-stringify';
+import { promisify } from 'util';
 
-export const parseAsync = promisify(_csv.parse);
-export const stringifyAsync = promisify(_csv.stringify);
+export type ParsePromise = (input: Buffer | string, options?: parse.Options) => Promise<any>;
+export type StringifyPromise = (input: any, options?: stringify.Options) => Promise<string>;
 
-export function fillArrayObjects(inArray: object[]) {
-  const outArray = [...inArray];
-  const keys: { [index: string]: boolean } = {};
-  outArray.forEach((item) => {
-    const entries = Object.entries(item);
-    entries.forEach((entry) => {
+export const parseAsync: ParsePromise = promisify<Buffer | string, parse.Options | undefined, any>(parse);
+export const stringifyAsync: StringifyPromise = promisify<any, stringify.Options | undefined, string>(stringify as any);
+
+export function fillArrayObjects(inArray: object[]): object[] {
+  const outArray: object[] = [...inArray];
+  const keys: { [key: string]: boolean } = {};
+  outArray.forEach((item: object) => {
+    const entries: Array<[string, any]> = Object.entries(item);
+    entries.forEach((entry: [string, any]) => {
       keys[entry[0]] = true;
     });
   });
-  outArray.forEach((item, index) => {
-    item = {...item};
+  outArray.forEach((item: object, index: number) => {
+    item = { ...item };
     outArray[index] = item;
-    Object.keys(keys).forEach((key) => {
-      // @ts-ignore
-      item[key] = item[key];
+    Object.keys(keys).forEach((key: string) => {
+      item[key as keyof typeof item] = item[key as keyof typeof item];
     });
   });
   return outArray;

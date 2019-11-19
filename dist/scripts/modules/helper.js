@@ -15,10 +15,10 @@
         return !isNaN(num) ? num : value;
     }
     exports.getTextOrNumber = getTextOrNumber;
-    function getNumber(text, reg = /([-+]?\d*\.?\d*)/g) {
+    function getNumber(text, reg = /^([-+]?\d+\.?\d*)$/) {
         let result = NaN;
         if (text && text.match) {
-            const match = reg.exec(text);
+            const match = text.match(text);
             // console.log('match', match);
             if (match) {
                 result = parseFloat(match[1]);
@@ -31,31 +31,31 @@
         if (el) {
             let text = el.innerHTML;
             if (text) {
-                text = text.replace(/<script>.*<\/script>/g, " ");
-                text = text.replace(/<[^>]*>/g, " ");
+                text = text.replace(/<script>.*<\/script>/g, ' ');
+                text = text.replace(/<[^>]*>/g, ' ');
                 return text.trim();
             }
         }
-        return "";
+        return '';
     }
     exports.getText = getText;
     function mapDir(dir) {
         switch (dir) {
-            case "N":
+            case 'N':
                 return 1;
-            case "NE":
+            case 'NE':
                 return 2;
-            case "E":
+            case 'E':
                 return 3;
-            case "SE":
+            case 'SE':
                 return 4;
-            case "S":
+            case 'S':
                 return 5;
-            case "SW":
+            case 'SW':
                 return 6;
-            case "W":
+            case 'W':
                 return 7;
-            case "NW":
+            case 'NW':
                 return 8;
         }
         return 0;

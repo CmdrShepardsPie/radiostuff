@@ -1,11 +1,11 @@
-import { IRepeater } from "./i.repeater";
+import { IRepeaterRaw } from '@interfaces/i-repeater-raw';
 export default class Scraper {
     private location;
     private distance;
     private data;
     private readonly url;
     constructor(location: string | number, distance: number);
-    process(): Promise<IRepeater[]>;
+    process(): Promise<IRepeaterRaw[]>;
     private getRepeaterList;
     private getRepeaterDetails;
     private getCache;

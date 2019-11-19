@@ -4,15 +4,14 @@
         if (v !== undefined) module.exports = v;
     }
     else if (typeof define === "function" && define.amd) {
-        define(["require", "exports", "@helpers/fs-helpers", "@helpers/log-helpers", "module-alias/register"], factory);
+        define(["require", "exports", "@helpers/fs-helpers", "@helpers/log-helpers"], factory);
     }
 })(function (require, exports) {
     "use strict";
     Object.defineProperty(exports, "__esModule", { value: true });
     const fs_helpers_1 = require("@helpers/fs-helpers");
     const log_helpers_1 = require("@helpers/log-helpers");
-    require("module-alias/register");
-    const log = log_helpers_1.createLog("Generate Frequencies");
+    const log = log_helpers_1.createLog('Generate Frequencies');
     let frequencies = [];
     const range2m = [
         // { start: 146.835, end: 146.865, steps: [0.015], name: `Emergency and Special Event (E&SE) Repeater Pairs` },
@@ -24,7 +23,7 @@
         { start: 145.500, end: 145.800, steps: [0.015], name: `Miscellaneous and Experimental Modes` },
         { start: 146.400, end: 146.580, steps: [0.015], name: `Voice Simplex` },
         // { start: 146.610, end: 147.390, steps: [0.015], name: `Repeater Outputs` },
-        { start: 147.420, end: 147.570, steps: [0.015], name: `Voice Simplex` },
+        { start: 147.420, end: 147.570, steps: [0.015], name: `Voice Simplex` }
     ];
     // .sort((a, b) => b.end - a.end)
     // .sort((a, b) => b.start - a.start)
@@ -37,7 +36,7 @@
         { start: 222.150, end: 222.250, steps: [0.020], name: `Coordinators Option - Mixed Mode.` },
         { start: 223.390, end: 223.530, steps: [0.020], name: `Voice Simplex` },
         { start: 223.530, end: 223.630, steps: [0.020], name: `Digital/Packet` },
-        { start: 223.710, end: 223.850, steps: [0.020], name: `Coordinators Option` },
+        { start: 223.710, end: 223.850, steps: [0.020], name: `Coordinators Option` }
     ];
     const range70cm = [
         { start: 440.7000, end: 441.2750, steps: [0.025], name: `Mixed mode (Voice and Data) Simplex Frequencies` },
@@ -56,7 +55,11 @@
         { start: 440.7000, end: 441.3000, steps: [0.025], name: `Mixed Mode Simplex - Voice` },
         // { start: 445.0000, end: 445.3000, steps: [0.0125], name: `Aux and Rptr Narrowband (Full Duplex) - Outputs` },
         // { start: 445.3000, end: 445.7000, steps: [0.025], name: `Auxiliary Operation (Full Duplex) - Outputs` },
-        { start: 445.7000, end: 446.3000, steps: [0.025], name: `Mixed Mode Simplex - Digital and Voice` },
+        { start: 445.7000, end: 446.3000, steps: [0.025], name: `Mixed Mode Simplex - Digital and Voice` }
+        // { start: 446.3000, end: 446.5000, steps: [0.025], name: `Auxiliary Operation (Full Duplex) Wide Area - Out` },
+        // { start: 446.5000, end: 446.7000, steps: [0.025], name: `Auxiliary Operation (Full Duplex) - Outputs` },
+        // { start: 446.7000, end: 447.0000, steps: [0.0125], name: `Narrowband Digital Voice Repeaters - Outputs` },
+        // { start: 447.0000, end: 450.0000, steps: [0.025], name: `Repeaters - Outputs` },
     ];
     // .sort((a, b) => b.end - a.end)
     // .sort((a, b) => b.start - a.start)
@@ -72,7 +75,7 @@
             }
         });
     });
-    frequencies = frequencies.sort((a, b) => a.Frequency - b.Frequency);
+    frequencies = frequencies.sort((a, b) => (a.Frequency || 0) - (b.Frequency || 0));
     log(frequencies, frequencies.length);
     fs_helpers_1.writeFileAsync(`./data/frequencies.json`, JSON.stringify(frequencies, null, 2))
         .then((r) => log(`Done`, r));
