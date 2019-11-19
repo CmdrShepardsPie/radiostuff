@@ -57,7 +57,7 @@ var __importDefault = (this && this.__importDefault) || function (mod) {
                 filter.Use === i_repeater_structured_1.RepeaterUse.Open),
         ]
             .map((d, i) => ({ ...convertToRadio(d), Location: i }))
-            .slice(0, 128)
+            .slice(0, 200)
             .sort((a, b) => a.Frequency - b.Frequency)
             .map((d, index) => ({ ...d, Location: index }));
         return fs_helpers_1.writeToJsonAndCsv(outFileName, mapped);

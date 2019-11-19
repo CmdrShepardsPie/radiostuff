@@ -41,9 +41,9 @@ const range70cm: IFrequencyDefinition[] = [
 [...range2m, ...range125m, ...range70cm].forEach((range: IFrequencyDefinition) => {
   range.steps.forEach((step: number) => {
     for (let i: number = range.start; i <= range.end; i += step) {
-      const p: number = Math.round(i * 100000) / 100000;
-      if (!frequencies.find((f: IRepeaterRaw) => f.Frequency === p)) {
-        frequencies.push({ Frequency: p, Name: range.name } as any);
+      i = Math.round(i * 100000) / 100000;
+      if (!frequencies.find((f: IRepeaterRaw) => f.Frequency === i)) {
+        frequencies.push({ Frequency: i, Name: range.name } as any);
       }
     }
   });

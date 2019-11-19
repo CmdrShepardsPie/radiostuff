@@ -59,7 +59,7 @@ async function doIt(inFileName: string, outFileName: string): Promise<void> {
         filter.Use === RepeaterUse.Open),
   ]
     .map((d: IRepeaterStructured, i: number): IChirp => ({ ...convertToRadio(d), Location: i }))
-    .slice(0, 128)
+    .slice(0, 200)
     .sort((a: IChirp, b: IChirp) => a.Frequency - b.Frequency)
     .map((d: IChirp, index: number): IChirp => ({ ...d, Location: index }));
 

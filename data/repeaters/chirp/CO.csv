@@ -1,129 +1,201 @@
 Location,Name,Frequency,Duplex,Offset,Tone,rToneFreq,cToneFreq,DtcsCode,DtcsRxCode,DtcsPolarity,Mode,TStep,Comment
-0,CRAidah,145.145,-,0.6,TSQL,107.2,107.2,23,23,NN,FM,5,"8 107 51.58 CO Clear Creek Idaho Springs, Squaw Mountain W0CRA"
-1,OBAauro,145.19,-,0.6,Cross,151.4,131.8,23,23,NN,FM,5,8 8741 11.59 CO Arapahoe Aurora N0OBA
-2,XLFpalm,145.19,-,0.6,TSQL,131.8,131.8,23,23,NN,FM,5,"8 8740 54.68 CO Douglas Palmer Lake, Monument Hill N0XLF"
-3,0SJgold,145.28,-,0.6,Tone,100,88.5,23,23,NN,FM,5,"8 140 42.22 CO Jefferson Golden, Centennial Cone KE0SJ"
-4,VJJboul,145.31,-,0.6,Cross,88.5,123,23,23,NN,FM,5,"8 72 53.96 CO Gilpin Boulder, Thorodin Mountain KB0VJJ"
-5,GUQever,145.34,-,0.6,Cross,103.5,127.3,23,23,NN,FM,5,8 73 36.29 CO Jefferson Evergreen KE4GUQ
-6,UDDauro,145.4,-,0.6,Tone,100,88.5,23,23,NN,FM,5,"8 5 13.23 CO Arapahoe Aurora, Smoky Hill KB0UDD"
-7,0SJboul,145.475,-,0.6,Tone,100,88.5,23,23,NN,FM,5,"8 75 14.69 CO Jefferson Boulder, Blue Mountain KE0SJ"
-8,0TXidah,145.49,-,0.6,TSQL,100,100,23,23,NN,FM,5,"8 76 51.58 CO Jefferson Idaho Springs, Centennial Cone W0TX"
-9,FMVoice,146.4,,0,,88.5,88.5,23,23,NN,FM,5,FM Voice
-10,FMVoice,146.415,,0,,88.5,88.5,23,23,NN,FM,5,FM Voice
-11,FMVoice,146.43,,0,,88.5,88.5,23,23,NN,FM,5,FM Voice
-12,FMVoice,146.445,,0,,88.5,88.5,23,23,NN,FM,5,FM Voice
-13,FMVoice,146.46,,0,,88.5,88.5,23,23,NN,FM,5,FM Voice
-14,FMVoice,146.475,,0,,88.5,88.5,23,23,NN,FM,5,FM Voice
-15,FMVoice,146.49,,0,,88.5,88.5,23,23,NN,FM,5,FM Voice
-16,FMVoice,146.505,,0,,88.5,88.5,23,23,NN,FM,5,FM Voice
-17,FMVoice,146.52,,0,,88.5,88.5,23,23,NN,FM,5,FM Voice
-18,FMVoice,146.535,,0,,88.5,88.5,23,23,NN,FM,5,FM Voice
-19,FMVoice,146.55,,0,,88.5,88.5,23,23,NN,FM,5,FM Voice
-20,FMVoice,146.565,,0,,88.5,88.5,23,23,NN,FM,5,FM Voice
-21,FMVoice,146.58,,0,,88.5,88.5,23,23,NN,FM,5,FM Voice
-22,FMVoice,146.595,,0,,88.5,88.5,23,23,NN,FM,5,FM Voice
-23,0DKboul,146.61,-,0.6,Tone,100,88.5,23,23,NN,FM,5,8 13 50.88 CO Boulder Boulder W0DK
-24,TUBgold,146.64,-,0.6,Tone,100,88.5,23,23,NN,FM,5,"8 77 42.22 CO Jefferson Golden, Centennial Cone WB0TUB"
-25,UDDidah,146.67,-,0.6,TSQL,100,100,23,23,NN,FM,5,"8 78 51.58 CO Clear Creek Idaho Springs, Squaw Mountain KB0UDD"
-26,0DKboul,146.7,-,0.6,Tone,100,88.5,23,23,NN,FM,5,"8 14 51.03 CO Boulder Boulder, Table Mountain W0DK"
-27,JXNdenv,146.715,-,0.6,TSQL,123,123,23,23,NN,FM,5,8 79 14.69 CO Denver Denver N0JXN
-28,0IAboul,146.76,-,0.6,Tone,100,88.5,23,23,NN,FM,5,"8 16 52.70 CO Boulder Boulder, Gunbarrel Hill W0IA"
-29,TUBcent,146.88,-,0.6,Tone,100,88.5,23,23,NN,FM,5,"8 80 24.32 CO Jefferson Centennial, Warren Mountain WB0TUB"
-30,0PCbail,146.895,-,0.6,TSQL,100,100,23,23,NN,FM,5,"8 7 55.49 CO Park Bailey, Dick Mountain AB0PC"
-31,WYXidah,146.94,-,0.6,TSQL,103.5,103.5,23,23,NN,FM,5,"8 81 51.67 CO Clear Creek Idaho Springs, Squaw Mountain W0WYX"
-32,FEZgold,146.985,-,0.6,TSQL,100,100,23,23,NN,FM,5,"8 82 42.22 CO Denver Golden, Centennial Cone K0FEZ"
-33,0MLnort,147.045,+,0.6,Tone,123,88.5,23,23,NN,FM,5,8 185 29.84 CO Adams Northglenn K0ML
-34,ARAcrit,147.12,+,0.6,TSQL,88.5,88.5,23,23,NN,FM,5,"8 59 41.33 CO Jefferson Critchell, Critchell Mountain N0ARA"
-35,CBIgold,147.15,+,0.6,TSQL,100,100,23,23,NN,FM,5,"8 133 40.84 CO Jefferson Golden, Guy Hill W0CBI"
-36,SSPlake,147.21,+,0.6,TSQL,100,100,23,23,NN,FM,5,"8 9775 23.97 CO Jefferson Lakewood, Moffat Treatment Plant KD0SSP"
-37,CRAlark,147.225,+,0.6,TSQL,107.2,107.2,23,23,NN,FM,5,"8 83 51.65 CO Douglas Larkspur, Westcreek W0CRA"
-38,ENOlong,147.27,+,0.6,TSQL,100,100,23,23,NN,FM,5,8 175 62.62 CO Boulder Longmont W0ENO
-39,PYYever,147.3,+,0.6,TSQL,103.5,103.5,23,23,NN,FM,5,"8 84 51.14 CO Clear Creek Evergreen, Squaw Mountain N0PYY"
-40,0TXlake,147.33,+,0.6,Tone,100,88.5,23,23,NN,FM,5,"8 85 22.24 CO Jefferson Lakewood, Green Mountain W0TX"
-41,FMVoice,147.42,,0,,88.5,88.5,23,23,NN,FM,5,FM Voice
-42,FMVoice,147.435,,0,,88.5,88.5,23,23,NN,FM,5,FM Voice
-43,FMVoice,147.45,,0,,88.5,88.5,23,23,NN,FM,5,FM Voice
-44,FMVoice,147.465,,0,,88.5,88.5,23,23,NN,FM,5,FM Voice
-45,FMVoice,147.48,,0,,88.5,88.5,23,23,NN,FM,5,FM Voice
-46,FMVoice,147.495,,0,,88.5,88.5,23,23,NN,FM,5,FM Voice
-47,FMVoice,147.51,,0,,88.5,88.5,23,23,NN,FM,5,FM Voice
-48,FMVoice,147.525,,0,,88.5,88.5,23,23,NN,FM,5,FM Voice
-49,FMVoice,147.54,,0,,88.5,88.5,23,23,NN,FM,5,FM Voice
-50,FMVoice,147.555,,0,,88.5,88.5,23,23,NN,FM,5,FM Voice
-51,FMVoice,147.57,,0,,88.5,88.5,23,23,NN,FM,5,FM Voice
-52,FMVoice,147.585,,0,,88.5,88.5,23,23,NN,FM,5,FM Voice
-53,FMVoice,223.4,,0,,88.5,88.5,23,23,NN,FM,5,FM Voice
-54,FMVoice,223.42,,0,,88.5,88.5,23,23,NN,FM,5,FM Voice
-55,FMVoice,223.44,,0,,88.5,88.5,23,23,NN,FM,5,FM Voice
-56,FMVoice,223.46,,0,,88.5,88.5,23,23,NN,FM,5,FM Voice
-57,FMVoice,223.48,,0,,88.5,88.5,23,23,NN,FM,5,FM Voice
-58,FMVoice,223.5,,0,,88.5,88.5,23,23,NN,FM,5,FM Voice
-59,MHUgold,224,-,1.6,TSQL,103.5,103.5,23,23,NN,FM,5,"8 86 40.84 CO Jefferson Golden, Guy Hill N0MHU"
-60,0TXlake,224.38,-,1.6,TSQL,100,100,23,23,NN,FM,5,"8 267 22.24 CO Jefferson Lakewood, Green Mountain W0TX"
-61,0RMroll,224.6,-,1.6,Tone,100,88.5,23,23,NN,FM,5,8 201 61.14 CO Gilpin Rollinsville W0RM
-62,POHgold,224.74,-,1.6,TSQL,88.5,88.5,23,23,NN,FM,5,"8 134 40.76 CO Jefferson Golden, Guy Hill N0POH"
-63,0KCfort,224.96,-,1.6,,88.5,88.5,23,23,NN,FM,5,8 8183 51.35 CO Weld Fort Lupton AC0KC
-64,FMVoice,445.7,,0,,88.5,88.5,23,23,NN,FM,5,FM Voice
-65,FMVoice,445.725,,0,,88.5,88.5,23,23,NN,FM,5,FM Voice
-66,FMVoice,445.75,,0,,88.5,88.5,23,23,NN,FM,5,FM Voice
-67,FMVoice,445.775,,0,,88.5,88.5,23,23,NN,FM,5,FM Voice
-68,FMVoice,445.8,,0,,88.5,88.5,23,23,NN,FM,5,FM Voice
-69,FMVoice,445.825,,0,,88.5,88.5,23,23,NN,FM,5,FM Voice
-70,FMVoice,445.85,,0,,88.5,88.5,23,23,NN,FM,5,FM Voice
-71,FMVoice,445.875,,0,,88.5,88.5,23,23,NN,FM,5,FM Voice
-72,FMVoice,445.9,,0,,88.5,88.5,23,23,NN,FM,5,FM Voice
-73,FMVoice,445.925,,0,,88.5,88.5,23,23,NN,FM,5,FM Voice
-74,FMVoice,445.95,,0,,88.5,88.5,23,23,NN,FM,5,FM Voice
-75,FMVoice,445.975,,0,,88.5,88.5,23,23,NN,FM,5,FM Voice
-76,FMVoice,446,,0,,88.5,88.5,23,23,NN,FM,5,FM Voice
-77,FMVoice,446.025,,0,,88.5,88.5,23,23,NN,FM,5,FM Voice
-78,FMVoice,446.05,,0,,88.5,88.5,23,23,NN,FM,5,FM Voice
-79,FMVoice,446.075,,0,,88.5,88.5,23,23,NN,FM,5,FM Voice
-80,FMVoice,446.1,,0,,88.5,88.5,23,23,NN,FM,5,FM Voice
-81,FMVoice,446.125,,0,,88.5,88.5,23,23,NN,FM,5,FM Voice
-82,FMVoice,446.15,,0,,88.5,88.5,23,23,NN,FM,5,FM Voice
-83,FMVoice,446.175,,0,,88.5,88.5,23,23,NN,FM,5,FM Voice
-84,FMVoice,446.2,,0,,88.5,88.5,23,23,NN,FM,5,FM Voice
-85,FMVoice,446.225,,0,,88.5,88.5,23,23,NN,FM,5,FM Voice
-86,FMVoice,446.25,,0,,88.5,88.5,23,23,NN,FM,5,FM Voice
-87,FMVoice,446.275,,0,,88.5,88.5,23,23,NN,FM,5,FM Voice
-88,JRLdenv,447.175,-,5,TSQL,100,100,23,23,NN,FM,5,"8 12216 16.35 CO Denver Denver, Broadway Plaza Lofts W0JRL"
-89,0KCfort,447.3,-,5,Tone,107.2,88.5,23,23,NN,FM,5,8 8739 45.42 CO Weld Fort Lupton AC0KC
-90,OWYconi,447.5,-,5,TSQL,88.5,88.5,23,23,NN,FM,5,"8 60 31.41 CO Jefferson Conifer, Critchell Mountain N0OWY"
-91,ESQpark,447.525,-,5,Cross,203.5,146.2,23,23,NN,FM,5,"8 8189 15.57 CO Douglas Parker, Hess Reservoir N0ESQ"
-92,ESQcast,447.525,-,5,TSQL,146.2,146.2,23,23,NN,FM,5,"8 8190 44.52 CO Douglas Castle Rock, Devils Head (Pike National Forest) N0ESQ"
-93,CRAidah,447.575,-,5,TSQL,107.2,107.2,23,23,NN,FM,5,"8 264 51.58 CO Clear Creek Idaho Springs, Squaw Mountain W0CRA"
-94,0SJloch,447.625,-,5,Tone,100,88.5,23,23,NN,FM,5,8 9771 44.90 CO Adams Lochbuie KE0SJ
-95,0NRmonu,447.725,-,5,TSQL,100,100,23,23,NN,FM,5,"8 183 59.56 CO El Paso Monument, Monument Hill K0NR"
-96,0TXlake,447.825,-,5,DTCS,88.5,88.5,73,73,NN,FM,5,"8 5805 22.55 CO Jefferson Lakewood, St Anthony Medical Campus W0TX"
-97,LXXmorr,447.875,-,5,TSQL,107.2,107.2,23,23,NN,FM,5,"8 10513 28.27 CO Jefferson Morrison, Mt. Morrison N6LXX"
-98,FEZdenv,447.925,-,5,TSQL,100,100,23,23,NN,FM,5,8 8196 14.58 CO Denver Denver K0FEZ
-99,EHPdenv,448.075,-,5,Tone,123,88.5,23,23,NN,FM,5,8 91 14.69 CO Denver Denver N5EHP
-100,PYYgold,448.125,-,5,Tone,107.2,88.5,23,23,NN,FM,5,8 143 31.47 CO Jefferson Golden N0PYY
-101,FUNdenv,448.15,-,5,TSQL,141.3,141.3,23,23,NN,FM,5,"8 9765 22.59 CO Denver Denver, Green Valley Ranch WE0FUN"
-102,0SZidah,448.225,-,5,TSQL,141.3,141.3,23,23,NN,FM,5,"8 8197 51.67 CO Clear Creek Idaho Springs, Squaw Mountain N0SZ"
-103,0BGauro,448.275,-,5,Tone,156.7,88.5,23,23,NN,FM,5,8 8199 12.53 CO Arapahoe Aurora W0BG
-104,ZUQauro,448.4,-,5,Tone,94.8,88.5,23,23,NN,FM,5,8 8202 12.53 CO Arapahoe Aurora N0ZUQ
-105,CRAlark,448.425,-,5,TSQL,107.2,107.2,23,23,NN,FM,5,"8 16547 51.65 CO Douglas Larkspur, Westcreek W0CRA"
-106,UDDauro,448.5,-,5,Tone,100,88.5,23,23,NN,FM,5,"8 92 12.57 CO Denver Aurora, Smokey Hill KB0UDD"
-107,EPAlong,448.525,-,5,Tone,151.4,88.5,23,23,NN,FM,5,8 176 62.62 CO Boulder Longmont N0EPA
-108,0TXgold,448.625,-,5,TSQL,100,100,23,23,NN,FM,5,"8 112 42.14 CO Jefferson Golden, Centennial Cone W0TX"
-109,CFIidah,448.675,-,5,TSQL,100,100,23,23,NN,FM,5,"8 94 51.22 CO Denver Idaho Springs, Squaw Mountain W0CFI"
-110,Q8Mpark,448.7,-,5,Tone,146.2,88.5,23,23,NN,FM,5,8 274 11.46 CO Douglas Parker WQ8M
-111,ENOlong,448.8,-,5,TSQL,88.5,88.5,23,23,NN,FM,5,8 177 62.62 CO Boulder Longmont W0ENO
-112,IBMgold,448.85,-,5,TSQL,88.5,88.5,23,23,NN,FM,5,"8 136 40.84 CO Jefferson Golden, Guy Hill K0IBM"
-113,0DKboul,448.9,-,5,Tone,100,88.5,23,23,NN,FM,5,"8 10 50.85 CO Boulder Boulder, Table Mesa W0DK"
-114,0GVgold,448.975,-,5,Tone,123,88.5,23,23,NN,FM,5,8 137 31.47 CO Jefferson Golden W0GV
-115,AENidah,449,-,5,TSQL,136.5,136.5,23,23,NN,FM,5,"8 8250 50.49 CO Clear Creek Idaho Springs, Squaw Mountain WR0AEN"
-116,G0Nidah,449.05,-,5,TSQL,107.2,107.2,23,23,NN,FM,5,"8 95 54.64 CO Denver Idaho Springs, Squaw Mountain WG0N"
-117,0SZdenv,449.225,-,5,TSQL,141.3,141.3,23,23,NN,FM,5,"8 97 53.96 CO Gilpin Denver, Thorodin Mountain N0SZ"
-118,UPSwest,449.3,-,5,Tone,100,88.5,23,23,NN,FM,5,8 8208 26.35 CO Adams Westminster N1UPS
-119,0TXidah,449.35,-,5,TSQL,100,100,23,23,NN,FM,5,"8 98 51.58 CO Clear Creek Idaho Springs, Squaw Mountain W0TX"
-120,DUNidah,449.45,-,5,Cross,103.5,127.3,23,23,NN,FM,5,"8 99 51.67 CO Clear Creek Idaho Springs, Squaw Mountain K1DUN"
-121,0SJgold,449.525,-,5,,88.5,88.5,23,23,NN,FM,5,"8 138 42.22 CO Jefferson Golden, Centennial Cone KE0SJ"
-122,0IAboul,449.55,-,5,Tone,100,88.5,23,23,NN,FM,5,8 11 53.81 CO Boulder Boulder W0IA
-123,TUBcent,449.6,-,5,Tone,100,88.5,23,23,NN,FM,5,"8 273 24.32 CO Jefferson Centennial, Warren Mountain WB0TUB"
-124,0GOgold,449.75,-,5,TSQL,103.5,103.5,23,23,NN,FM,5,"8 265 40.76 CO Jefferson Golden, Guy Hill KI0GO"
-125,0EBhuds,449.925,-,5,TSQL,114.8,114.8,23,23,NN,FM,5,8 8216 48.70 CO Weld Hudson K0EB
-126,9SLauro,449.95,-,5,TSQL,77,77,23,23,NN,FM,5,8 8743 12.53 CO Arapahoe Aurora W9SL
-127,JSClark,449.975,-,5,TSQL,100,100,23,23,NN,FM,5,"8 15903 51.71 CO Douglas Larkspur, Westcreek K0JSC"
+0,UPSfort,145.115,-,0.6,TSQL,100,100,23,23,NN,FM,5,"8 123 104.70 CO Larimer Fort Collins, Horsetooth Mountain W0UPS"
+1,VJJcolo,145.13,-,0.6,Cross,88.5,123,23,23,NN,FM,5,"8 37 98.10 CO El Paso Colorado Springs, Cheyenne Mountain KB0VJJ"
+2,CRAidah,145.145,-,0.6,TSQL,107.2,107.2,23,23,NN,FM,5,"8 107 51.58 CO Clear Creek Idaho Springs, Squaw Mountain W0CRA"
+3,CRAcolo,145.16,-,0.6,TSQL,107.2,107.2,23,23,NN,FM,5,"8 38 98.96 CO El Paso Colorado Springs, Cheyenne Mountain W0CRA"
+4,OBAauro,145.19,-,0.6,Cross,151.4,131.8,23,23,NN,FM,5,8 8741 11.59 CO Arapahoe Aurora N0OBA
+5,XLFpalm,145.19,-,0.6,TSQL,131.8,131.8,23,23,NN,FM,5,"8 8740 54.68 CO Douglas Palmer Lake, Monument Hill N0XLF"
+6,0SJgold,145.28,-,0.6,Tone,100,88.5,23,23,NN,FM,5,"8 140 42.22 CO Jefferson Golden, Centennial Cone KE0SJ"
+7,VJJboul,145.31,-,0.6,Cross,88.5,123,23,23,NN,FM,5,"8 72 53.96 CO Gilpin Boulder, Thorodin Mountain KB0VJJ"
+8,GUQever,145.34,-,0.6,Cross,103.5,127.3,23,23,NN,FM,5,8 73 36.29 CO Jefferson Evergreen KE4GUQ
+9,UDDauro,145.4,-,0.6,Tone,100,88.5,23,23,NN,FM,5,"8 5 13.23 CO Arapahoe Aurora, Smoky Hill KB0UDD"
+10,WUCwood,145.415,-,0.6,Tone,179.9,88.5,23,23,NN,FM,5,8 249 71.78 CO Teller Woodland Park KA0WUC
+11,VJJlead,145.445,-,0.6,Tone,88.5,88.5,23,23,NN,FM,5,"8 172 117.45 CO Lake Leadville, Mosquito Pass KB0VJJ"
+12,CRAboul,145.46,-,0.6,TSQL,107.2,107.2,23,23,NN,FM,5,"8 8 63.22 CO Boulder Boulder, Eldorado Mountain W0CRA"
+13,WDFcrip,145.46,-,0.6,Tone,67,88.5,23,23,NN,FM,5,8 64 100.93 CO Teller Cripple Creek WB0WDF
+14,0SJboul,145.475,-,0.6,Tone,100,88.5,23,23,NN,FM,5,"8 75 14.69 CO Jefferson Boulder, Blue Mountain KE0SJ"
+15,0TXidah,145.49,-,0.6,TSQL,100,100,23,23,NN,FM,5,"8 76 51.58 CO Jefferson Idaho Springs, Centennial Cone W0TX"
+16,FMVoice,146.4,,0,,88.5,88.5,23,23,NN,FM,5,FM Voice
+17,FMVoice,146.415,,0,,88.5,88.5,23,23,NN,FM,5,FM Voice
+18,FMVoice,146.43,,0,,88.5,88.5,23,23,NN,FM,5,FM Voice
+19,FMVoice,146.445,,0,,88.5,88.5,23,23,NN,FM,5,FM Voice
+20,FMVoice,146.46,,0,,88.5,88.5,23,23,NN,FM,5,FM Voice
+21,FMVoice,146.475,,0,,88.5,88.5,23,23,NN,FM,5,FM Voice
+22,FMVoice,146.49,,0,,88.5,88.5,23,23,NN,FM,5,FM Voice
+23,FMVoice,146.505,,0,,88.5,88.5,23,23,NN,FM,5,FM Voice
+24,FMVoice,146.52,,0,,88.5,88.5,23,23,NN,FM,5,FM Voice
+25,FMVoice,146.535,,0,,88.5,88.5,23,23,NN,FM,5,FM Voice
+26,FMVoice,146.55,,0,,88.5,88.5,23,23,NN,FM,5,FM Voice
+27,FMVoice,146.565,,0,,88.5,88.5,23,23,NN,FM,5,FM Voice
+28,FMVoice,146.58,,0,,88.5,88.5,23,23,NN,FM,5,FM Voice
+29,FMVoice,146.595,,0,,88.5,88.5,23,23,NN,FM,5,FM Voice
+30,0DKboul,146.61,-,0.6,Tone,100,88.5,23,23,NN,FM,5,8 13 50.88 CO Boulder Boulder W0DK
+31,0RVvail,146.61,-,0.6,Tone,107.2,88.5,23,23,NN,FM,5,"8 256 125.31 CO Eagle Vail, Bald Mountain K0RV"
+32,UPSfort,146.625,-,0.6,TSQL,100,100,23,23,NN,FM,5,"8 246 116.09 CO Larimer Fort Collins, Buckhorn Mountain W0UPS"
+33,TUBgold,146.64,-,0.6,Tone,100,88.5,23,23,NN,FM,5,"8 77 42.22 CO Jefferson Golden, Centennial Cone WB0TUB"
+34,UDDidah,146.67,-,0.6,TSQL,100,100,23,23,NN,FM,5,"8 78 51.58 CO Clear Creek Idaho Springs, Squaw Mountain KB0UDD"
+35,X0Glake,146.685,-,0.6,TSQL,107.2,107.2,23,23,NN,FM,5,"8 169 83.46 CO Park Lake George, Badger Mountain NX0G"
+36,0FHeste,146.685,-,0.6,Tone,123,88.5,23,23,NN,FM,5,8 119 94.34 CO Larimer Estes Park N0FH
+37,0DKboul,146.7,-,0.6,Tone,100,88.5,23,23,NN,FM,5,"8 14 51.03 CO Boulder Boulder, Table Mountain W0DK"
+38,QMRbrec,146.7,-,0.6,Tone,107.2,88.5,23,23,NN,FM,5,8 23 99.46 CO Summit Breckenridge WB0QMR
+39,JXNdenv,146.715,-,0.6,TSQL,123,123,23,23,NN,FM,5,8 79 14.69 CO Denver Denver N0JXN
+40,0IAboul,146.76,-,0.6,Tone,100,88.5,23,23,NN,FM,5,"8 16 52.70 CO Boulder Boulder, Gunbarrel Hill W0IA"
+41,CVUcolo,146.76,-,0.6,TSQL,107.2,107.2,23,23,NN,FM,5,"8 41 98.95 CO El Paso Colorado Springs, Cheyenne Mountain KC0CVU"
+42,X0Gwood,146.82,-,0.6,Tone,107.2,88.5,23,23,NN,FM,5,8 250 71.78 CO Teller Woodland Park NX0G
+43,YDWgran,146.82,-,0.6,Tone,123,88.5,23,23,NN,FM,5,8 145 102.82 CO Grand Granby KA0YDW
+44,UPSgree,146.85,-,0.6,TSQL,100,100,23,23,NN,FM,5,"8 156 87.90 CO Weld Greeley, UNC W0UPS"
+45,0TPcolo,146.85,-,0.6,Cross,156.7,103.5,23,23,NN,FM,5,8 42 87.95 CO El Paso Colorado Springs AD0TP
+46,TUBcent,146.88,-,0.6,Tone,100,88.5,23,23,NN,FM,5,"8 80 24.32 CO Jefferson Centennial, Warren Mountain WB0TUB"
+47,0PCbail,146.895,-,0.6,TSQL,100,100,23,23,NN,FM,5,"8 7 55.49 CO Park Bailey, Dick Mountain AB0PC"
+48,0JZgold,146.91,+,0.6,Cross,123,127.3,23,23,NN,FM,5,8 13368 65.56 CO Boulder Gold Hill W0JZ
+49,IRPcolo,146.91,-,0.6,TSQL,151.4,151.4,23,23,NN,FM,5,8 43 87.95 CO El Paso Colorado Springs K0IRP
+50,WYXidah,146.94,-,0.6,TSQL,103.5,103.5,23,23,NN,FM,5,"8 81 51.67 CO Clear Creek Idaho Springs, Squaw Mountain W0WYX"
+51,SRJcolo,146.97,-,0.6,Tone,100,88.5,23,23,NN,FM,5,"8 44 88.43 CO El Paso Colorado Springs, Pikes Peak KB0SRJ"
+52,FEZgold,146.985,-,0.6,TSQL,100,100,23,23,NN,FM,5,"8 82 42.22 CO Denver Golden, Centennial Cone K0FEZ"
+53,X0Gcrip,147.015,+,0.6,Tone,107.2,88.5,23,23,NN,FM,5,8 65 100.93 CO Teller Cripple Creek NX0G
+54,0HGalle,147.03,+,0.6,Tone,100,88.5,23,23,NN,FM,5,"8 15670 78.00 CO Boulder Allenspark, AFPD Station #5 KI0HG"
+55,0MLnort,147.045,+,0.6,Tone,123,88.5,23,23,NN,FM,5,8 185 29.84 CO Adams Northglenn K0ML
+56,0AEgeno,147.06,+,0.6,Tone,103.5,88.5,23,23,NN,FM,5,8 128 127.07 CO Lincoln Genoa KE0AE
+57,0DEsiml,147.105,+,0.6,TSQL,107.2,107.2,23,23,NN,FM,5,8 12167 82.11 CO Elbert Simla WA0DE
+58,ARAcrit,147.12,+,0.6,TSQL,88.5,88.5,23,23,NN,FM,5,"8 59 41.33 CO Jefferson Critchell, Critchell Mountain N0ARA"
+59,A0Lcolo,147.135,+,0.6,Tone,100,88.5,23,23,NN,FM,5,8 8176 87.92 CO El Paso Colorado Springs AA0L
+60,CBIgold,147.15,+,0.6,TSQL,100,100,23,23,NN,FM,5,"8 133 40.84 CO Jefferson Golden, Guy Hill W0CBI"
+61,LRAlove,147.195,+,0.6,Tone,100,88.5,23,23,NN,FM,5,"8 179 88.02 CO Larimer Loveland, Namaqua Hill W0LRA"
+62,SSPlake,147.21,+,0.6,TSQL,100,100,23,23,NN,FM,5,"8 9775 23.97 CO Jefferson Lakewood, Moffat Treatment Plant KD0SSP"
+63,CRAlark,147.225,+,0.6,TSQL,107.2,107.2,23,23,NN,FM,5,"8 83 51.65 CO Douglas Larkspur, Westcreek W0CRA"
+64,ZSNlead,147.24,+,0.6,TSQL,156.7,156.7,23,23,NN,FM,5,"8 10827 127.27 CO Lake Leadville, Quail Mountain N0ZSN"
+65,ENOlong,147.27,+,0.6,TSQL,100,100,23,23,NN,FM,5,8 175 62.62 CO Boulder Longmont W0ENO
+66,colorad,147.27,+,0.6,,88.5,88.5,23,23,NN,FM,5,8 46 87.95 CO El Paso Colorado Springs
+67,VJJwint,147.285,+,0.6,Cross,88.5,123,23,23,NN,FM,5,"8 15582 79.74 CO Grand Winter Park, Winter Park KB0VJJ"
+68,PYYever,147.3,+,0.6,TSQL,103.5,103.5,23,23,NN,FM,5,"8 84 51.14 CO Clear Creek Evergreen, Squaw Mountain N0PYY"
+69,0TXlake,147.33,+,0.6,Tone,100,88.5,23,23,NN,FM,5,"8 85 22.24 CO Jefferson Lakewood, Green Mountain W0TX"
+70,CVUcolo,147.345,+,0.6,TSQL,107.2,107.2,23,23,NN,FM,5,"8 47 98.96 CO El Paso Colorado Springs, Cheyenne Mountain KC0CVU"
+71,CVUlake,147.36,+,0.6,TSQL,107.2,107.2,23,23,NN,FM,5,"8 170 83.45 CO Park Lake George, Badger Mountain KC0CVU"
+72,QEYfort,147.36,+,0.6,TSQL,100,100,23,23,NN,FM,5,"8 125 106.09 CO Larimer Fort Collins, CSU Durward Hall W0QEY"
+73,MOGcolo,147.39,+,0.6,Tone,103.5,88.5,23,23,NN,FM,5,8 48 87.95 CO El Paso Colorado Springs W0MOG
+74,VJJbrec,147.39,+,0.6,Cross,88.5,123,23,23,NN,FM,5,"8 24 94.47 CO Summit Breckenridge, Bald Mountain KB0VJJ"
+75,FMVoice,147.42,,0,,88.5,88.5,23,23,NN,FM,5,FM Voice
+76,FMVoice,147.435,,0,,88.5,88.5,23,23,NN,FM,5,FM Voice
+77,FMVoice,147.45,,0,,88.5,88.5,23,23,NN,FM,5,FM Voice
+78,FMVoice,147.465,,0,,88.5,88.5,23,23,NN,FM,5,FM Voice
+79,FMVoice,147.48,,0,,88.5,88.5,23,23,NN,FM,5,FM Voice
+80,FMVoice,147.495,,0,,88.5,88.5,23,23,NN,FM,5,FM Voice
+81,FMVoice,147.51,,0,,88.5,88.5,23,23,NN,FM,5,FM Voice
+82,FMVoice,147.525,,0,,88.5,88.5,23,23,NN,FM,5,FM Voice
+83,FMVoice,147.54,,0,,88.5,88.5,23,23,NN,FM,5,FM Voice
+84,FMVoice,147.555,,0,,88.5,88.5,23,23,NN,FM,5,FM Voice
+85,FMVoice,147.57,,0,,88.5,88.5,23,23,NN,FM,5,FM Voice
+86,FMVoice,147.585,,0,,88.5,88.5,23,23,NN,FM,5,FM Voice
+87,FMVoice,223.4,,0,,88.5,88.5,23,23,NN,FM,5,FM Voice
+88,FMVoice,223.42,,0,,88.5,88.5,23,23,NN,FM,5,FM Voice
+89,FMVoice,223.44,,0,,88.5,88.5,23,23,NN,FM,5,FM Voice
+90,FMVoice,223.46,,0,,88.5,88.5,23,23,NN,FM,5,FM Voice
+91,FMVoice,223.48,,0,,88.5,88.5,23,23,NN,FM,5,FM Voice
+92,FMVoice,223.5,,0,,88.5,88.5,23,23,NN,FM,5,FM Voice
+93,FMVoice,223.52,,0,,88.5,88.5,23,23,NN,FM,5,FM Voice
+94,MHUgold,224,-,1.6,TSQL,103.5,103.5,23,23,NN,FM,5,"8 86 40.84 CO Jefferson Golden, Guy Hill N0MHU"
+95,0IAboul,224.02,-,1.6,,88.5,88.5,23,23,NN,FM,5,"8 18 63.22 CO Boulder Boulder, Lee Hill W0IA"
+96,0TXlake,224.38,-,1.6,TSQL,100,100,23,23,NN,FM,5,"8 267 22.24 CO Jefferson Lakewood, Green Mountain W0TX"
+97,0RMroll,224.6,-,1.6,Tone,100,88.5,23,23,NN,FM,5,8 201 61.14 CO Gilpin Rollinsville W0RM
+98,MOGcolo,224.72,-,1.6,TSQL,103.5,103.5,23,23,NN,FM,5,8 15989 81.24 CO El Paso Colorado springs W0MOG
+99,POHgold,224.74,-,1.6,TSQL,88.5,88.5,23,23,NN,FM,5,"8 134 40.76 CO Jefferson Golden, Guy Hill N0POH"
+100,WDFcrip,224.94,-,1.6,Tone,67,88.5,23,23,NN,FM,5,8 7203 100.93 CO Teller Cripple Creek WB0WDF
+101,0KCfort,224.96,-,1.6,,88.5,88.5,23,23,NN,FM,5,8 8183 51.35 CO Weld Fort Lupton AC0KC
+102,FMVoice,445.7,,0,,88.5,88.5,23,23,NN,FM,5,FM Voice
+103,FMVoice,445.725,,0,,88.5,88.5,23,23,NN,FM,5,FM Voice
+104,FMVoice,445.75,,0,,88.5,88.5,23,23,NN,FM,5,FM Voice
+105,FMVoice,445.775,,0,,88.5,88.5,23,23,NN,FM,5,FM Voice
+106,FMVoice,445.8,,0,,88.5,88.5,23,23,NN,FM,5,FM Voice
+107,FMVoice,445.825,,0,,88.5,88.5,23,23,NN,FM,5,FM Voice
+108,FMVoice,445.85,,0,,88.5,88.5,23,23,NN,FM,5,FM Voice
+109,FMVoice,445.875,,0,,88.5,88.5,23,23,NN,FM,5,FM Voice
+110,FMVoice,445.9,,0,,88.5,88.5,23,23,NN,FM,5,FM Voice
+111,FMVoice,445.925,,0,,88.5,88.5,23,23,NN,FM,5,FM Voice
+112,FMVoice,445.95,,0,,88.5,88.5,23,23,NN,FM,5,FM Voice
+113,FMVoice,445.975,,0,,88.5,88.5,23,23,NN,FM,5,FM Voice
+114,FMVoice,446,,0,,88.5,88.5,23,23,NN,FM,5,FM Voice
+115,FMVoice,446.025,,0,,88.5,88.5,23,23,NN,FM,5,FM Voice
+116,FMVoice,446.05,,0,,88.5,88.5,23,23,NN,FM,5,FM Voice
+117,FMVoice,446.075,,0,,88.5,88.5,23,23,NN,FM,5,FM Voice
+118,FMVoice,446.1,,0,,88.5,88.5,23,23,NN,FM,5,FM Voice
+119,FMVoice,446.125,,0,,88.5,88.5,23,23,NN,FM,5,FM Voice
+120,FMVoice,446.15,,0,,88.5,88.5,23,23,NN,FM,5,FM Voice
+121,FMVoice,446.175,,0,,88.5,88.5,23,23,NN,FM,5,FM Voice
+122,FMVoice,446.2,,0,,88.5,88.5,23,23,NN,FM,5,FM Voice
+123,FMVoice,446.225,,0,,88.5,88.5,23,23,NN,FM,5,FM Voice
+124,FMVoice,446.25,,0,,88.5,88.5,23,23,NN,FM,5,FM Voice
+125,FMVoice,446.275,,0,,88.5,88.5,23,23,NN,FM,5,FM Voice
+126,0BFfair,447.125,-,5,TSQL,103.5,103.5,23,23,NN,FM,5,"8 5336 112.54 CO Park Fairplay, Sacramento Mountain AA0BF"
+127,JRLdenv,447.175,-,5,TSQL,100,100,23,23,NN,FM,5,"8 12216 16.35 CO Denver Denver, Broadway Plaza Lofts W0JRL"
+128,RFIseve,447.2,-,5,Tone,82.5,88.5,23,23,NN,FM,5,"8 8188 106.08 CO Weld Severance, Cactus Hill N6RFI"
+129,UPSfort,447.275,-,5,TSQL,100,100,23,23,NN,FM,5,"8 126 104.70 CO Larimer Fort Collins, Horsetooth Mountain W0UPS"
+130,0KCfort,447.3,-,5,Tone,107.2,88.5,23,23,NN,FM,5,8 8739 45.42 CO Weld Fort Lupton AC0KC
+131,IRPcolo,447.35,-,5,Tone,151.4,88.5,23,23,NN,FM,5,8 50 88.42 CO El Paso Colorado Springs K0IRP
+132,WDFcrip,447.4,-,5,Tone,67,88.5,23,23,NN,FM,5,8 66 100.92 CO Teller Cripple Creek WB0WDF
+133,CCCwint,447.45,-,5,Tone,103.5,88.5,23,23,NN,FM,5,8 3756 84.87 CO Grand Winter Park WA4CCC
+134,RBTfort,447.45,-,5,Tone,123,88.5,23,23,NN,FM,5,8 276 101.10 CO Larimer Fort Collins KC0RBT
+135,X0Gcolo,447.475,-,5,Tone,107.2,88.5,23,23,NN,FM,5,8 51 88.42 CO El Paso Colorado Springs NX0G
+136,OWYconi,447.5,-,5,TSQL,88.5,88.5,23,23,NN,FM,5,"8 60 31.41 CO Jefferson Conifer, Critchell Mountain N0OWY"
+137,ESQpark,447.525,-,5,Cross,203.5,146.2,23,23,NN,FM,5,"8 8189 15.57 CO Douglas Parker, Hess Reservoir N0ESQ"
+138,ESQcast,447.525,-,5,TSQL,146.2,146.2,23,23,NN,FM,5,"8 8190 44.52 CO Douglas Castle Rock, Devils Head (Pike National Forest) N0ESQ"
+139,IFIcolo,447.55,-,5,Tone,123,88.5,23,23,NN,FM,5,8 8191 88.42 CO El Paso Colorado Springs WA6IFI
+140,CRAidah,447.575,-,5,TSQL,107.2,107.2,23,23,NN,FM,5,"8 264 51.58 CO Clear Creek Idaho Springs, Squaw Mountain W0CRA"
+141,0SJloch,447.625,-,5,Tone,100,88.5,23,23,NN,FM,5,8 9771 44.90 CO Adams Lochbuie KE0SJ
+142,MDPfalc,447.625,-,5,TSQL,100,100,23,23,NN,FM,5,"8 13294 69.35 CO El Paso Falcon, Black Forest KD0MDP"
+143,WUCwood,447.675,-,5,TSQL,179.9,179.9,23,23,NN,FM,5,8 8193 71.80 CO Teller Woodland Park KA0WUC
+144,UPSfort,447.7,-,5,TSQL,100,100,23,23,NN,FM,5,"8 5853 115.38 CO Larimer Fort Collins, Buckhorn Mountain W0UPS"
+145,0NRmonu,447.725,-,5,TSQL,100,100,23,23,NN,FM,5,"8 183 59.56 CO El Paso Monument, Monument Hill K0NR"
+146,7RFfort,447.725,-,5,Tone,131.8,88.5,23,23,NN,FM,5,8 8194 97.90 CO Larimer Fort Collins W7RF
+147,0TXlake,447.825,-,5,DTCS,88.5,88.5,73,73,NN,FM,5,"8 5805 22.55 CO Jefferson Lakewood, St Anthony Medical Campus W0TX"
+148,LXXmorr,447.875,-,5,TSQL,107.2,107.2,23,23,NN,FM,5,"8 10513 28.27 CO Jefferson Morrison, Mt. Morrison N6LXX"
+149,FEZdenv,447.925,-,5,TSQL,100,100,23,23,NN,FM,5,8 8196 14.58 CO Denver Denver K0FEZ
+150,CRAboul,447.975,-,5,TSQL,107.2,107.2,23,23,NN,FM,5,"8 20 63.22 CO Boulder Boulder, Eldorado Mountain W0CRA"
+151,CVUcolo,448,-,5,Tone,107.2,88.5,23,23,NN,FM,5,"8 269 98.95 CO El Paso Colorado Springs, Cheyenne Mountain KC0CVU"
+152,EHPdenv,448.075,-,5,Tone,123,88.5,23,23,NN,FM,5,8 91 14.69 CO Denver Denver N5EHP
+153,CVUcolo,448.1,-,5,TSQL,107.2,107.2,23,23,NN,FM,5,"8 53 98.95 CO El Paso Colorado Springs, Cheyenne Mountain KC0CVU"
+154,PYYgold,448.125,-,5,Tone,107.2,88.5,23,23,NN,FM,5,8 143 31.47 CO Jefferson Golden N0PYY
+155,FUNdenv,448.15,-,5,TSQL,141.3,141.3,23,23,NN,FM,5,"8 9765 22.59 CO Denver Denver, Green Valley Ranch WE0FUN"
+156,0SZidah,448.225,-,5,TSQL,141.3,141.3,23,23,NN,FM,5,"8 8197 51.67 CO Clear Creek Idaho Springs, Squaw Mountain N0SZ"
+157,0BGauro,448.275,-,5,Tone,156.7,88.5,23,23,NN,FM,5,8 8199 12.53 CO Arapahoe Aurora W0BG
+158,A0Lcolo,448.3,-,5,Tone,100,88.5,23,23,NN,FM,5,8 8200 88.42 CO El Paso Colorado Springs AA0L
+159,UPSwell,448.325,-,5,Tone,110.9,88.5,23,23,NN,FM,5,8 8251 120.14 CO Larimer Wellington WB7UPS
+160,ZUQauro,448.4,-,5,Tone,94.8,88.5,23,23,NN,FM,5,8 8202 12.53 CO Arapahoe Aurora N0ZUQ
+161,CRAlark,448.425,-,5,TSQL,107.2,107.2,23,23,NN,FM,5,"8 16547 51.65 CO Douglas Larkspur, Westcreek W0CRA"
+162,SRJcolo,448.45,-,5,Tone,100,88.5,23,23,NN,FM,5,"8 54 88.43 CO El Paso Colorado Springs, Pikes Peak KB0SRJ"
+163,KWDgree,448.475,-,5,Tone,100,88.5,23,23,NN,FM,5,8 158 72.30 CO Weld Greeley KC0KWD
+164,UDDauro,448.5,-,5,Tone,100,88.5,23,23,NN,FM,5,"8 92 12.57 CO Denver Aurora, Smokey Hill KB0UDD"
+165,EPAlong,448.525,-,5,Tone,151.4,88.5,23,23,NN,FM,5,8 176 62.62 CO Boulder Longmont N0EPA
+166,MOGcolo,448.6,-,5,Tone,114.8,88.5,23,23,NN,FM,5,8 55 88.42 CO El Paso Colorado Springs W0MOG
+167,0TXgold,448.625,-,5,TSQL,100,100,23,23,NN,FM,5,"8 112 42.14 CO Jefferson Golden, Centennial Cone W0TX"
+168,X0Gwood,448.65,-,5,Tone,107.2,88.5,23,23,NN,FM,5,8 251 71.78 CO Teller Woodland Park NX0G
+169,CFIidah,448.675,-,5,TSQL,100,100,23,23,NN,FM,5,"8 94 51.22 CO Denver Idaho Springs, Squaw Mountain W0CFI"
+170,Q8Mpark,448.7,-,5,Tone,146.2,88.5,23,23,NN,FM,5,8 274 11.46 CO Douglas Parker WQ8M
+171,TTFcolo,448.725,-,5,Tone,123,88.5,23,23,NN,FM,5,"8 56 94.26 CO El Paso Colorado Springs, Fillmore Hill KA0TTF"
+172,ENOlong,448.8,-,5,TSQL,88.5,88.5,23,23,NN,FM,5,8 177 62.62 CO Boulder Longmont W0ENO
+173,SRJcolo,448.8,-,5,Tone,100,88.5,23,23,NN,FM,5,"8 57 66.86 CO El Paso Colorado Springs, ~2 mi ENE USAFA North Gate KB0SRJ"
+174,IBMgold,448.85,-,5,TSQL,88.5,88.5,23,23,NN,FM,5,"8 136 40.84 CO Jefferson Golden, Guy Hill K0IBM"
+175,0DKboul,448.9,-,5,Tone,100,88.5,23,23,NN,FM,5,"8 10 50.85 CO Boulder Boulder, Table Mesa W0DK"
+176,0GVgold,448.975,-,5,Tone,123,88.5,23,23,NN,FM,5,8 137 31.47 CO Jefferson Golden W0GV
+177,AENidah,449,-,5,TSQL,136.5,136.5,23,23,NN,FM,5,"8 8250 50.49 CO Clear Creek Idaho Springs, Squaw Mountain WR0AEN"
+178,WDFcano,449,-,5,TSQL,67,67,23,23,NN,FM,5,"8 33 127.26 CO Fremont Canon City, eightmile Mountain WB0WDF"
+179,WUCwood,449.025,-,5,Tone,141.3,88.5,23,23,NN,FM,5,8 252 71.78 CO Teller Woodland Park KA0WUC
+180,G0Nidah,449.05,-,5,TSQL,107.2,107.2,23,23,NN,FM,5,"8 95 54.64 CO Denver Idaho Springs, Squaw Mountain WG0N"
+181,0SZdenv,449.225,-,5,TSQL,141.3,141.3,23,23,NN,FM,5,"8 97 53.96 CO Gilpin Denver, Thorodin Mountain N0SZ"
+182,UPSceda,449.25,-,5,TSQL,123,123,23,23,NN,FM,5,8 9583 97.98 CO Elbert Cedar Point K0UPS
+183,UPSwest,449.3,-,5,Tone,100,88.5,23,23,NN,FM,5,8 8208 26.35 CO Adams Westminster N1UPS
+184,EPSwood,449.325,-,5,TSQL,103.5,103.5,23,23,NN,FM,5,"8 9503 72.26 CO Teller Woodland Park, Paradise Pines KA4EPS"
+185,0TXidah,449.35,-,5,TSQL,100,100,23,23,NN,FM,5,"8 98 51.58 CO Clear Creek Idaho Springs, Squaw Mountain W0TX"
+186,C3Wgran,449.425,-,5,TSQL,103.5,103.5,23,23,NN,FM,5,8 18131 106.04 CO Clear Creek Grand Lake WC3W
+187,DUNidah,449.45,-,5,Cross,103.5,127.3,23,23,NN,FM,5,"8 99 51.67 CO Clear Creek Idaho Springs, Squaw Mountain K1DUN"
+188,0SJgold,449.525,-,5,,88.5,88.5,23,23,NN,FM,5,"8 138 42.22 CO Jefferson Golden, Centennial Cone KE0SJ"
+189,0IAboul,449.55,-,5,Tone,100,88.5,23,23,NN,FM,5,8 11 53.81 CO Boulder Boulder W0IA
+190,LRAlove,449.575,-,5,Tone,100,88.5,23,23,NN,FM,5,"8 181 87.07 CO Larimer Loveland, Namaqua Hill W0LRA"
+191,TUBcent,449.6,-,5,Tone,100,88.5,23,23,NN,FM,5,"8 273 24.32 CO Jefferson Centennial, Warren Mountain WB0TUB"
+192,lakegeo,449.7,-,5,Tone,107.2,88.5,23,23,NN,FM,5,8 8214 82.30 CO Park Lake George
+193,0OJgree,449.725,-,5,Tone,127.3,88.5,23,23,NN,FM,5,"8 159 87.86 CO Weld Greeley, UNC K0OJ"
+194,0GOgold,449.75,-,5,TSQL,103.5,103.5,23,23,NN,FM,5,"8 265 40.76 CO Jefferson Golden, Guy Hill KI0GO"
+195,0FHeste,449.8,-,5,Tone,123,88.5,23,23,NN,FM,5,8 120 99.07 CO Larimer Estes Park N0FH
+196,QEYfort,449.85,-,5,TSQL,100,100,23,23,NN,FM,5,"8 124 107.78 CO Larimer Fort Collins, CSU Durward Hall W0QEY"
+197,0EBhuds,449.925,-,5,TSQL,114.8,114.8,23,23,NN,FM,5,8 8216 48.70 CO Weld Hudson K0EB
+198,9SLauro,449.95,-,5,TSQL,77,77,23,23,NN,FM,5,8 8743 12.53 CO Arapahoe Aurora W9SL
+199,JSClark,449.975,-,5,TSQL,100,100,23,23,NN,FM,5,"8 15903 51.71 CO Douglas Larkspur, Westcreek K0JSC"

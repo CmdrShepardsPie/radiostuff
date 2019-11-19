@@ -42,9 +42,9 @@
     [...range2m, ...range125m, ...range70cm].forEach((range) => {
         range.steps.forEach((step) => {
             for (let i = range.start; i <= range.end; i += step) {
-                const p = Math.round(i * 100000) / 100000;
-                if (!frequencies.find((f) => f.Frequency === p)) {
-                    frequencies.push({ Frequency: p, Name: range.name });
+                i = Math.round(i * 100000) / 100000;
+                if (!frequencies.find((f) => f.Frequency === i)) {
+                    frequencies.push({ Frequency: i, Name: range.name });
                 }
             }
         });
