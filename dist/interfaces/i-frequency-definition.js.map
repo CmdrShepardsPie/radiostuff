@@ -1,1 +1,0 @@
-{"version":3,"file":"i-frequency-definition.js","sourceRoot":"","sources":["../../src/interfaces/i-frequency-definition.ts"],"names":[],"mappings":"","sourcesContent":["export interface IFrequencyDefinition {\n  start: number;\n  end: number;\n  name: string;\n  steps: number[];\n}\n"]}

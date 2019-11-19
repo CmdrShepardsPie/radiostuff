@@ -1,1 +1,0 @@
-{"version":3,"file":"i-county-seat.js","sourceRoot":"","sources":["../../src/interfaces/i-county-seat.ts"],"names":[],"mappings":"","sourcesContent":["export interface ICountySeat {\n  County: string;\n  'FIPS Code': string;\n  'FIPS State and County Code': string;\n  'County Seat': string;\n  Established: string;\n  Location: string;\n}\n"]}

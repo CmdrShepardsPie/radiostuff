@@ -1,1 +1,0 @@
-{"version":3,"file":"i-simplex-frequency.js","sourceRoot":"","sources":["../../src/interfaces/i-simplex-frequency.ts"],"names":[],"mappings":"","sourcesContent":["export interface ISimplexFrequency {\n  Frequency: number;\n  Name: string;\n}\n"]}
