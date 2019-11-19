@@ -56,10 +56,10 @@ var __importDefault = (this && this.__importDefault) || function (mod) {
                 filter.Status !== i_repeater_structured_1.RepeaterStatus.OffAir &&
                 filter.Use === i_repeater_structured_1.RepeaterUse.Open),
         ]
-            .map((d, i) => ({ ...convertToRadio(d), Location: i }))
+            .map((map, index) => ({ ...convertToRadio(map), Location: index }))
             .slice(0, 200)
             .sort((a, b) => a.Frequency - b.Frequency)
-            .map((d, index) => ({ ...d, Location: index }));
+            .map((map, index) => ({ ...map, Location: index }));
         return fs_helpers_1.writeToJsonAndCsv(outFileName, mapped);
     }
     function convertToRadio(repeater) {

@@ -2,7 +2,7 @@ import 'module-alias/register';
 
 import { readFileAsync, writeToJsonAndCsv } from '@helpers/fs-helpers';
 import { createLog } from '@helpers/log-helpers';
-import { IChirp } from '@interfaces/i-chirp';
+import { ChirpDuplex, ChirpMode, ChirpTone, IChirp } from '@interfaces/i-chirp';
 import { IRepeaterStructured, RepeaterStatus, RepeaterUse } from '@interfaces/i-repeater-structured';
 import { ISimplexFrequency } from '@interfaces/i-simplex-frequency';
 import gpsDistance, { Point } from 'gps-distance';
@@ -58,10 +58,10 @@ async function doIt(inFileName: string, outFileName: string): Promise<void> {
         filter.Status !== RepeaterStatus.OffAir &&
         filter.Use === RepeaterUse.Open),
   ]
-    .map((d: IRepeaterStructured, i: number): IChirp => ({ ...convertToRadio(d), Location: i }))
+    .map((map: IRepeaterStructured, index: number): IChirp => ({ ...convertToRadio(map), Location: index }))
     .slice(0, 200)
     .sort((a: IChirp, b: IChirp) => a.Frequency - b.Frequency)
-    .map((d: IChirp, index: number): IChirp => ({ ...d, Location: index }));
+    .map((map: IChirp, index: number): IChirp => ({ ...map, Location: index }));
 
   return writeToJsonAndCsv(outFileName, mapped);
 }
@@ -89,14 +89,14 @@ function convertToRadio(repeater: IRepeaterStructured): IChirp {
 
   const Frequency: number = repeater.Frequency.Output;
   let Offset: number = repeater.Frequency.Input - repeater.Frequency.Output;
-  const Duplex: '' | '+' | '-' = Offset > 0 ? '+' : Offset < 0 ? '-' : '';
+  const Duplex: ChirpDuplex = Offset > 0 ? '+' : Offset < 0 ? '-' : '';
   Offset = Math.abs(Math.round(Offset * 100) / 100);
   let rToneFreq: number | undefined = (repeater.SquelchTone && repeater.SquelchTone.Input);
   let cToneFreq: number | undefined = (repeater.SquelchTone && repeater.SquelchTone.Output);
   let DtcsCode: number | undefined = (repeater.DigitalTone && repeater.DigitalTone.Input);
   let DtcsRxCode: number | undefined = (repeater.DigitalTone && repeater.DigitalTone.Output);
-  let Tone: '' | 'Tone' | 'DTCS' | 'TSQL' | 'Cross' = '';
-  const Mode: 'FM' = 'FM';
+  let Tone: ChirpTone = '';
+  const Mode: ChirpMode = 'FM';
   let Comment: string = `${repeater.StateID} ${repeater.ID} ${repeater.Location && repeater.Location.Distance && repeater.Location.Distance.toFixed(2)} ${repeater.Location && repeater.Location.State} ${repeater.Location && repeater.Location.County} ${repeater.Location && repeater.Location.Local} ${repeater.Callsign}`;
   Comment = Comment.replace(/undefined/g, ' ').replace(/\s+/g, ' ').trim();
   // `${item['ST/PR'] || ''} ${item.County || ''} ${item.Location || ''} ${item.Call || ''} ${item.Sponsor || ''} ${item.Affiliate || ''} ${item.Frequency} ${item.Use || ''} ${item['Op Status'] || ''} ${item.Comment || ''}`.replace(/\s+/g, ' ');
