@@ -8,6 +8,7 @@ export interface IRepeaterStructured {
         County: string;
         State: string;
         Local: string;
+        Distance?: number;
     };
     Use: RepeaterUse;
     Status: RepeaterStatus;

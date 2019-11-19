@@ -1,782 +1,714 @@
 [
   {
     "Frequency": 144.9,
-    "Comment": "Weak Signal, Simplex, Digital/Packet"
+    "Name": "Weak Signal, FM, Digital/Packet"
   },
   {
     "Frequency": 144.915,
-    "Comment": "Weak Signal, Simplex, Digital/Packet"
+    "Name": "Weak Signal, FM, Digital/Packet"
   },
   {
     "Frequency": 144.93,
-    "Comment": "Weak Signal, Simplex, Digital/Packet"
+    "Name": "Weak Signal, FM, Digital/Packet"
   },
   {
     "Frequency": 144.945,
-    "Comment": "Weak Signal, Simplex, Digital/Packet"
+    "Name": "Weak Signal, FM, Digital/Packet"
   },
   {
     "Frequency": 144.96,
-    "Comment": "Weak Signal, Simplex, Digital/Packet"
+    "Name": "Weak Signal, FM, Digital/Packet"
   },
   {
     "Frequency": 144.975,
-    "Comment": "Weak Signal, Simplex, Digital/Packet"
+    "Name": "Weak Signal, FM, Digital/Packet"
   },
   {
     "Frequency": 144.99,
-    "Comment": "Weak Signal, Simplex, Digital/Packet"
+    "Name": "Weak Signal, FM, Digital/Packet"
   },
   {
     "Frequency": 145.005,
-    "Comment": "Weak Signal, Simplex, Digital/Packet"
+    "Name": "Weak Signal, FM, Digital/Packet"
   },
   {
     "Frequency": 145.02,
-    "Comment": "Weak Signal, Simplex, Digital/Packet"
+    "Name": "Weak Signal, FM, Digital/Packet"
   },
   {
     "Frequency": 145.035,
-    "Comment": "Weak Signal, Simplex, Digital/Packet"
+    "Name": "Weak Signal, FM, Digital/Packet"
   },
   {
     "Frequency": 145.05,
-    "Comment": "Weak Signal, Simplex, Digital/Packet"
+    "Name": "Weak Signal, FM, Digital/Packet"
   },
   {
     "Frequency": 145.065,
-    "Comment": "Weak Signal, Simplex, Digital/Packet"
+    "Name": "Weak Signal, FM, Digital/Packet"
   },
   {
     "Frequency": 145.08,
-    "Comment": "Weak Signal, Simplex, Digital/Packet"
+    "Name": "Weak Signal, FM, Digital/Packet"
   },
   {
     "Frequency": 145.095,
-    "Comment": "Weak Signal, Simplex, Digital/Packet"
+    "Name": "Weak Signal, FM, Digital/Packet"
   },
   {
     "Frequency": 145.5,
-    "Comment": "Miscellaneous and Experimental Modes"
+    "Name": "Miscellaneous and Experimental Modes"
   },
   {
     "Frequency": 145.515,
-    "Comment": "Miscellaneous and Experimental Modes"
+    "Name": "Miscellaneous and Experimental Modes"
   },
   {
     "Frequency": 145.53,
-    "Comment": "Miscellaneous and Experimental Modes"
+    "Name": "Miscellaneous and Experimental Modes"
   },
   {
     "Frequency": 145.545,
-    "Comment": "Miscellaneous and Experimental Modes"
+    "Name": "Miscellaneous and Experimental Modes"
   },
   {
     "Frequency": 145.56,
-    "Comment": "Miscellaneous and Experimental Modes"
+    "Name": "Miscellaneous and Experimental Modes"
   },
   {
     "Frequency": 145.575,
-    "Comment": "Miscellaneous and Experimental Modes"
+    "Name": "Miscellaneous and Experimental Modes"
   },
   {
     "Frequency": 145.59,
-    "Comment": "Miscellaneous and Experimental Modes"
+    "Name": "Miscellaneous and Experimental Modes"
   },
   {
     "Frequency": 145.605,
-    "Comment": "Miscellaneous and Experimental Modes"
+    "Name": "Miscellaneous and Experimental Modes"
   },
   {
     "Frequency": 145.62,
-    "Comment": "Miscellaneous and Experimental Modes"
+    "Name": "Miscellaneous and Experimental Modes"
   },
   {
     "Frequency": 145.635,
-    "Comment": "Miscellaneous and Experimental Modes"
+    "Name": "Miscellaneous and Experimental Modes"
   },
   {
     "Frequency": 145.65,
-    "Comment": "Miscellaneous and Experimental Modes"
+    "Name": "Miscellaneous and Experimental Modes"
   },
   {
     "Frequency": 145.665,
-    "Comment": "Miscellaneous and Experimental Modes"
+    "Name": "Miscellaneous and Experimental Modes"
   },
   {
     "Frequency": 145.68,
-    "Comment": "Miscellaneous and Experimental Modes"
+    "Name": "Miscellaneous and Experimental Modes"
   },
   {
     "Frequency": 145.695,
-    "Comment": "Miscellaneous and Experimental Modes"
+    "Name": "Miscellaneous and Experimental Modes"
   },
   {
     "Frequency": 145.71,
-    "Comment": "Miscellaneous and Experimental Modes"
+    "Name": "Miscellaneous and Experimental Modes"
   },
   {
     "Frequency": 145.725,
-    "Comment": "Miscellaneous and Experimental Modes"
+    "Name": "Miscellaneous and Experimental Modes"
   },
   {
     "Frequency": 145.74,
-    "Comment": "Miscellaneous and Experimental Modes"
+    "Name": "Miscellaneous and Experimental Modes"
   },
   {
     "Frequency": 145.755,
-    "Comment": "Miscellaneous and Experimental Modes"
+    "Name": "Miscellaneous and Experimental Modes"
   },
   {
     "Frequency": 145.77,
-    "Comment": "Miscellaneous and Experimental Modes"
+    "Name": "Miscellaneous and Experimental Modes"
   },
   {
     "Frequency": 145.785,
-    "Comment": "Miscellaneous and Experimental Modes"
+    "Name": "Miscellaneous and Experimental Modes"
   },
   {
     "Frequency": 145.8,
-    "Comment": "Miscellaneous and Experimental Modes"
+    "Name": "Miscellaneous and Experimental Modes"
   },
   {
     "Frequency": 146.4,
-    "Comment": "Voice Simplex"
+    "Name": "FM Voice"
   },
   {
     "Frequency": 146.415,
-    "Comment": "Voice Simplex"
+    "Name": "FM Voice"
   },
   {
     "Frequency": 146.43,
-    "Comment": "Voice Simplex"
+    "Name": "FM Voice"
   },
   {
     "Frequency": 146.445,
-    "Comment": "Voice Simplex"
+    "Name": "FM Voice"
   },
   {
     "Frequency": 146.46,
-    "Comment": "Voice Simplex"
+    "Name": "FM Voice"
   },
   {
     "Frequency": 146.475,
-    "Comment": "Voice Simplex"
+    "Name": "FM Voice"
   },
   {
     "Frequency": 146.49,
-    "Comment": "Voice Simplex"
+    "Name": "FM Voice"
   },
   {
     "Frequency": 146.505,
-    "Comment": "Voice Simplex"
+    "Name": "FM Voice"
   },
   {
     "Frequency": 146.52,
-    "Comment": "Voice Simplex"
+    "Name": "FM Voice"
   },
   {
     "Frequency": 146.535,
-    "Comment": "Voice Simplex"
+    "Name": "FM Voice"
   },
   {
     "Frequency": 146.55,
-    "Comment": "Voice Simplex"
+    "Name": "FM Voice"
   },
   {
     "Frequency": 146.565,
-    "Comment": "Voice Simplex"
+    "Name": "FM Voice"
   },
   {
     "Frequency": 146.58,
-    "Comment": "Voice Simplex"
+    "Name": "FM Voice"
+  },
+  {
+    "Frequency": 146.595,
+    "Name": "FM Voice"
   },
   {
     "Frequency": 147.42,
-    "Comment": "Voice Simplex"
+    "Name": "FM Voice"
   },
   {
     "Frequency": 147.435,
-    "Comment": "Voice Simplex"
+    "Name": "FM Voice"
   },
   {
     "Frequency": 147.45,
-    "Comment": "Voice Simplex"
+    "Name": "FM Voice"
   },
   {
     "Frequency": 147.465,
-    "Comment": "Voice Simplex"
+    "Name": "FM Voice"
   },
   {
     "Frequency": 147.48,
-    "Comment": "Voice Simplex"
+    "Name": "FM Voice"
   },
   {
     "Frequency": 147.495,
-    "Comment": "Voice Simplex"
+    "Name": "FM Voice"
   },
   {
     "Frequency": 147.51,
-    "Comment": "Voice Simplex"
+    "Name": "FM Voice"
   },
   {
     "Frequency": 147.525,
-    "Comment": "Voice Simplex"
+    "Name": "FM Voice"
   },
   {
     "Frequency": 147.54,
-    "Comment": "Voice Simplex"
+    "Name": "FM Voice"
   },
   {
     "Frequency": 147.555,
-    "Comment": "Voice Simplex"
+    "Name": "FM Voice"
   },
   {
     "Frequency": 147.57,
-    "Comment": "Voice Simplex"
+    "Name": "FM Voice"
   },
   {
-    "Frequency": 222.15,
-    "Comment": "Coordinators Option - Mixed Mode."
+    "Frequency": 147.585,
+    "Name": "FM Voice"
   },
   {
     "Frequency": 222.16,
-    "Comment": "Mixed mode (Coordinators Option)"
-  },
-  {
-    "Frequency": 222.17,
-    "Comment": "Coordinators Option - Mixed Mode."
+    "Name": "Mixed Mode"
   },
   {
     "Frequency": 222.18,
-    "Comment": "Mixed mode (Coordinators Option)"
-  },
-  {
-    "Frequency": 222.19,
-    "Comment": "Coordinators Option - Mixed Mode."
+    "Name": "Mixed Mode"
   },
   {
     "Frequency": 222.2,
-    "Comment": "Mixed mode (Coordinators Option)"
-  },
-  {
-    "Frequency": 222.21,
-    "Comment": "Coordinators Option - Mixed Mode."
+    "Name": "Mixed Mode"
   },
   {
     "Frequency": 222.22,
-    "Comment": "Mixed mode (Coordinators Option)"
-  },
-  {
-    "Frequency": 222.23,
-    "Comment": "Coordinators Option - Mixed Mode."
-  },
-  {
-    "Frequency": 223.39,
-    "Comment": "Voice Simplex"
+    "Name": "Mixed Mode"
   },
   {
     "Frequency": 223.4,
-    "Comment": "Voice Simplex Frequencies"
-  },
-  {
-    "Frequency": 223.41,
-    "Comment": "Voice Simplex"
+    "Name": "FM Voice"
   },
   {
     "Frequency": 223.42,
-    "Comment": "Voice Simplex Frequencies"
-  },
-  {
-    "Frequency": 223.43,
-    "Comment": "Voice Simplex"
+    "Name": "FM Voice"
   },
   {
     "Frequency": 223.44,
-    "Comment": "Voice Simplex Frequencies"
-  },
-  {
-    "Frequency": 223.45,
-    "Comment": "Voice Simplex"
+    "Name": "FM Voice"
   },
   {
     "Frequency": 223.46,
-    "Comment": "Voice Simplex Frequencies"
-  },
-  {
-    "Frequency": 223.47,
-    "Comment": "Voice Simplex"
+    "Name": "FM Voice"
   },
   {
     "Frequency": 223.48,
-    "Comment": "Voice Simplex Frequencies"
-  },
-  {
-    "Frequency": 223.49,
-    "Comment": "Voice Simplex"
+    "Name": "FM Voice"
   },
   {
     "Frequency": 223.5,
-    "Comment": "Voice Simplex Frequencies"
-  },
-  {
-    "Frequency": 223.51,
-    "Comment": "Voice Simplex"
+    "Name": "FM Voice"
   },
   {
     "Frequency": 223.53,
-    "Comment": "Digital/Packet"
+    "Name": "Digital/Packet"
   },
   {
     "Frequency": 223.55,
-    "Comment": "Digital/Packet"
+    "Name": "Digital/Packet"
   },
   {
     "Frequency": 223.57,
-    "Comment": "Digital/Packet"
+    "Name": "Digital/Packet"
   },
   {
     "Frequency": 223.59,
-    "Comment": "Digital/Packet"
+    "Name": "Digital/Packet"
   },
   {
     "Frequency": 223.61,
-    "Comment": "Digital/Packet"
-  },
-  {
-    "Frequency": 223.71,
-    "Comment": "Coordinators Option"
+    "Name": "Digital/Packet"
   },
   {
     "Frequency": 223.72,
-    "Comment": "Mixed mode (Coordinators Option)"
-  },
-  {
-    "Frequency": 223.73,
-    "Comment": "Coordinators Option"
+    "Name": "Mixed Mode"
   },
   {
     "Frequency": 223.74,
-    "Comment": "Mixed mode (Coordinators Option)"
-  },
-  {
-    "Frequency": 223.75,
-    "Comment": "Coordinators Option"
+    "Name": "Mixed Mode"
   },
   {
     "Frequency": 223.76,
-    "Comment": "Mixed mode (Coordinators Option)"
-  },
-  {
-    "Frequency": 223.77,
-    "Comment": "Coordinators Option"
+    "Name": "Mixed Mode"
   },
   {
     "Frequency": 223.78,
-    "Comment": "Mixed mode (Coordinators Option)"
-  },
-  {
-    "Frequency": 223.79,
-    "Comment": "Coordinators Option"
+    "Name": "Mixed Mode"
   },
   {
     "Frequency": 223.8,
-    "Comment": "Mixed mode (Coordinators Option)"
-  },
-  {
-    "Frequency": 223.81,
-    "Comment": "Coordinators Option"
+    "Name": "Mixed Mode"
   },
   {
     "Frequency": 223.82,
-    "Comment": "Mixed mode (Coordinators Option)"
-  },
-  {
-    "Frequency": 223.83,
-    "Comment": "Coordinators Option"
+    "Name": "Mixed Mode"
   },
   {
     "Frequency": 434.5,
-    "Comment": "Mixed Mode, Digital and Voice"
+    "Name": "Mixed Mode Digital and Voice"
   },
   {
     "Frequency": 434.525,
-    "Comment": "Mixed Mode, Digital and Voice"
+    "Name": "Mixed Mode Digital and Voice"
   },
   {
     "Frequency": 434.55,
-    "Comment": "Mixed Mode, Digital and Voice"
+    "Name": "Mixed Mode Digital and Voice"
   },
   {
     "Frequency": 434.575,
-    "Comment": "Mixed Mode, Digital and Voice"
+    "Name": "Mixed Mode Digital and Voice"
   },
   {
     "Frequency": 434.6,
-    "Comment": "Mixed Mode, Digital and Voice"
+    "Name": "Mixed Mode Digital and Voice"
   },
   {
     "Frequency": 434.625,
-    "Comment": "Mixed Mode, Digital and Voice"
+    "Name": "Mixed Mode Digital and Voice"
   },
   {
     "Frequency": 434.65,
-    "Comment": "Mixed Mode, Digital and Voice"
+    "Name": "Mixed Mode Digital and Voice"
   },
   {
     "Frequency": 434.675,
-    "Comment": "Mixed Mode, Digital and Voice"
+    "Name": "Mixed Mode Digital and Voice"
   },
   {
     "Frequency": 434.7,
-    "Comment": "Mixed Mode, Digital and Voice"
+    "Name": "Mixed Mode Digital and Voice"
   },
   {
     "Frequency": 434.725,
-    "Comment": "Mixed Mode, Digital and Voice"
+    "Name": "Mixed Mode Digital and Voice"
   },
   {
     "Frequency": 434.75,
-    "Comment": "Mixed Mode, Digital and Voice"
+    "Name": "Mixed Mode Digital and Voice"
   },
   {
     "Frequency": 434.775,
-    "Comment": "Mixed Mode, Digital and Voice"
+    "Name": "Mixed Mode Digital and Voice"
   },
   {
     "Frequency": 434.8,
-    "Comment": "Mixed Mode, Digital and Voice"
+    "Name": "Mixed Mode Digital and Voice"
   },
   {
     "Frequency": 434.825,
-    "Comment": "Mixed Mode, Digital and Voice"
+    "Name": "Mixed Mode Digital and Voice"
   },
   {
     "Frequency": 434.85,
-    "Comment": "Mixed Mode, Digital and Voice"
+    "Name": "Mixed Mode Digital and Voice"
   },
   {
     "Frequency": 434.875,
-    "Comment": "Mixed Mode, Digital and Voice"
+    "Name": "Mixed Mode Digital and Voice"
   },
   {
     "Frequency": 434.9,
-    "Comment": "Mixed Mode, Digital and Voice"
+    "Name": "Mixed Mode Digital and Voice"
   },
   {
     "Frequency": 434.925,
-    "Comment": "Mixed Mode, Digital and Voice"
+    "Name": "Mixed Mode Digital and Voice"
   },
   {
     "Frequency": 434.95,
-    "Comment": "Mixed Mode, Digital and Voice"
+    "Name": "Mixed Mode Digital and Voice"
   },
   {
     "Frequency": 434.975,
-    "Comment": "Mixed Mode, Digital and Voice"
+    "Name": "Mixed Mode Digital and Voice"
   },
   {
     "Frequency": 435,
-    "Comment": "Mixed Mode, Digital and Voice"
+    "Name": "Mixed Mode Digital and Voice"
   },
   {
     "Frequency": 439.5,
-    "Comment": "Mixed Mode, Digital and Voice"
+    "Name": "Mixed Mode Digital and Voice"
   },
   {
     "Frequency": 439.525,
-    "Comment": "Mixed Mode, Digital and Voice"
+    "Name": "Mixed Mode Digital and Voice"
   },
   {
     "Frequency": 439.55,
-    "Comment": "Mixed Mode, Digital and Voice"
+    "Name": "Mixed Mode Digital and Voice"
   },
   {
     "Frequency": 439.575,
-    "Comment": "Mixed Mode, Digital and Voice"
+    "Name": "Mixed Mode Digital and Voice"
   },
   {
     "Frequency": 439.6,
-    "Comment": "Mixed Mode, Digital and Voice"
+    "Name": "Mixed Mode Digital and Voice"
   },
   {
     "Frequency": 439.625,
-    "Comment": "Mixed Mode, Digital and Voice"
+    "Name": "Mixed Mode Digital and Voice"
   },
   {
     "Frequency": 439.65,
-    "Comment": "Mixed Mode, Digital and Voice"
+    "Name": "Mixed Mode Digital and Voice"
   },
   {
     "Frequency": 439.675,
-    "Comment": "Mixed Mode, Digital and Voice"
+    "Name": "Mixed Mode Digital and Voice"
   },
   {
     "Frequency": 439.7,
-    "Comment": "Mixed Mode, Digital and Voice"
+    "Name": "Mixed Mode Digital and Voice"
   },
   {
     "Frequency": 439.725,
-    "Comment": "Mixed Mode, Digital and Voice"
+    "Name": "Mixed Mode Digital and Voice"
   },
   {
     "Frequency": 439.75,
-    "Comment": "Mixed Mode, Digital and Voice"
+    "Name": "Mixed Mode Digital and Voice"
   },
   {
     "Frequency": 439.775,
-    "Comment": "Mixed Mode, Digital and Voice"
+    "Name": "Mixed Mode Digital and Voice"
   },
   {
     "Frequency": 439.8,
-    "Comment": "Mixed Mode, Digital and Voice"
+    "Name": "Mixed Mode Digital and Voice"
   },
   {
     "Frequency": 439.825,
-    "Comment": "Mixed Mode, Digital and Voice"
+    "Name": "Mixed Mode Digital and Voice"
   },
   {
     "Frequency": 439.85,
-    "Comment": "Mixed Mode, Digital and Voice"
+    "Name": "Mixed Mode Digital and Voice"
   },
   {
     "Frequency": 439.875,
-    "Comment": "Mixed Mode, Digital and Voice"
+    "Name": "Mixed Mode Digital and Voice"
   },
   {
     "Frequency": 439.9,
-    "Comment": "Mixed Mode, Digital and Voice"
+    "Name": "Mixed Mode Digital and Voice"
   },
   {
     "Frequency": 439.925,
-    "Comment": "Mixed Mode, Digital and Voice"
+    "Name": "Mixed Mode Digital and Voice"
   },
   {
     "Frequency": 439.95,
-    "Comment": "Mixed Mode, Digital and Voice"
+    "Name": "Mixed Mode Digital and Voice"
   },
   {
     "Frequency": 439.975,
-    "Comment": "Mixed Mode, Digital and Voice"
+    "Name": "Mixed Mode Digital and Voice"
   },
   {
     "Frequency": 440,
-    "Comment": "Mixed Mode, Digital and Voice"
+    "Name": "Mixed Mode Digital and Voice"
   },
   {
     "Frequency": 440.7,
-    "Comment": "Mixed mode (Voice and Data) Simplex Frequencies"
+    "Name": "Mixed Mode"
   },
   {
     "Frequency": 440.725,
-    "Comment": "Mixed mode (Voice and Data) Simplex Frequencies"
+    "Name": "Mixed Mode"
   },
   {
     "Frequency": 440.75,
-    "Comment": "Mixed mode (Voice and Data) Simplex Frequencies"
+    "Name": "Mixed Mode"
   },
   {
     "Frequency": 440.775,
-    "Comment": "Mixed mode (Voice and Data) Simplex Frequencies"
+    "Name": "Mixed Mode"
   },
   {
     "Frequency": 440.8,
-    "Comment": "Mixed mode (Voice and Data) Simplex Frequencies"
+    "Name": "Mixed Mode"
   },
   {
     "Frequency": 440.825,
-    "Comment": "Mixed mode (Voice and Data) Simplex Frequencies"
+    "Name": "Mixed Mode"
   },
   {
     "Frequency": 440.85,
-    "Comment": "Mixed mode (Voice and Data) Simplex Frequencies"
+    "Name": "Mixed Mode"
   },
   {
     "Frequency": 440.875,
-    "Comment": "Mixed mode (Voice and Data) Simplex Frequencies"
+    "Name": "Mixed Mode"
   },
   {
     "Frequency": 440.9,
-    "Comment": "Mixed mode (Voice and Data) Simplex Frequencies"
+    "Name": "Mixed Mode"
   },
   {
     "Frequency": 440.925,
-    "Comment": "Mixed mode (Voice and Data) Simplex Frequencies"
+    "Name": "Mixed Mode"
   },
   {
     "Frequency": 440.95,
-    "Comment": "Mixed mode (Voice and Data) Simplex Frequencies"
+    "Name": "Mixed Mode"
   },
   {
     "Frequency": 440.975,
-    "Comment": "Mixed mode (Voice and Data) Simplex Frequencies"
+    "Name": "Mixed Mode"
   },
   {
     "Frequency": 441,
-    "Comment": "Mixed mode (Voice and Data) Simplex Frequencies"
+    "Name": "Mixed Mode"
   },
   {
     "Frequency": 441.025,
-    "Comment": "Mixed mode (Voice and Data) Simplex Frequencies"
+    "Name": "Mixed Mode"
   },
   {
     "Frequency": 441.05,
-    "Comment": "Mixed mode (Voice and Data) Simplex Frequencies"
+    "Name": "Mixed Mode"
   },
   {
     "Frequency": 441.075,
-    "Comment": "Mixed mode (Voice and Data) Simplex Frequencies"
+    "Name": "Mixed Mode"
   },
   {
     "Frequency": 441.1,
-    "Comment": "Mixed mode (Voice and Data) Simplex Frequencies"
+    "Name": "Mixed Mode"
   },
   {
     "Frequency": 441.125,
-    "Comment": "Mixed mode (Voice and Data) Simplex Frequencies"
+    "Name": "Mixed Mode"
   },
   {
     "Frequency": 441.15,
-    "Comment": "Mixed mode (Voice and Data) Simplex Frequencies"
+    "Name": "Mixed Mode"
   },
   {
     "Frequency": 441.175,
-    "Comment": "Mixed mode (Voice and Data) Simplex Frequencies"
+    "Name": "Mixed Mode"
   },
   {
     "Frequency": 441.2,
-    "Comment": "Mixed mode (Voice and Data) Simplex Frequencies"
+    "Name": "Mixed Mode"
   },
   {
     "Frequency": 441.225,
-    "Comment": "Mixed mode (Voice and Data) Simplex Frequencies"
+    "Name": "Mixed Mode"
   },
   {
     "Frequency": 441.25,
-    "Comment": "Mixed mode (Voice and Data) Simplex Frequencies"
+    "Name": "Mixed Mode"
   },
   {
     "Frequency": 441.275,
-    "Comment": "Mixed mode (Voice and Data) Simplex Frequencies"
+    "Name": "Mixed Mode"
   },
   {
     "Frequency": 441.3,
-    "Comment": "Mixed Mode Simplex - Voice"
+    "Name": "Mixed Mode"
   },
   {
     "Frequency": 445.7,
-    "Comment": "Voice Simplex Frequencies"
+    "Name": "FM Voice"
   },
   {
     "Frequency": 445.725,
-    "Comment": "Voice Simplex Frequencies"
+    "Name": "FM Voice"
   },
   {
     "Frequency": 445.75,
-    "Comment": "Voice Simplex Frequencies"
+    "Name": "FM Voice"
   },
   {
     "Frequency": 445.775,
-    "Comment": "Voice Simplex Frequencies"
+    "Name": "FM Voice"
   },
   {
     "Frequency": 445.8,
-    "Comment": "Voice Simplex Frequencies"
+    "Name": "FM Voice"
   },
   {
     "Frequency": 445.825,
-    "Comment": "Voice Simplex Frequencies"
+    "Name": "FM Voice"
   },
   {
     "Frequency": 445.85,
-    "Comment": "Voice Simplex Frequencies"
+    "Name": "FM Voice"
   },
   {
     "Frequency": 445.875,
-    "Comment": "Voice Simplex Frequencies"
+    "Name": "FM Voice"
   },
   {
     "Frequency": 445.9,
-    "Comment": "Voice Simplex Frequencies"
+    "Name": "FM Voice"
   },
   {
     "Frequency": 445.925,
-    "Comment": "Voice Simplex Frequencies"
+    "Name": "FM Voice"
   },
   {
     "Frequency": 445.95,
-    "Comment": "Voice Simplex Frequencies"
+    "Name": "FM Voice"
   },
   {
     "Frequency": 445.975,
-    "Comment": "Voice Simplex Frequencies"
+    "Name": "FM Voice"
   },
   {
     "Frequency": 446,
-    "Comment": "Voice Simplex Frequencies"
+    "Name": "FM Voice"
   },
   {
     "Frequency": 446.025,
-    "Comment": "Voice Simplex Frequencies"
+    "Name": "FM Voice"
   },
   {
     "Frequency": 446.05,
-    "Comment": "Voice Simplex Frequencies"
+    "Name": "FM Voice"
   },
   {
     "Frequency": 446.075,
-    "Comment": "Voice Simplex Frequencies"
+    "Name": "FM Voice"
   },
   {
     "Frequency": 446.1,
-    "Comment": "Voice Simplex Frequencies"
+    "Name": "FM Voice"
   },
   {
     "Frequency": 446.125,
-    "Comment": "Voice Simplex Frequencies"
+    "Name": "FM Voice"
   },
   {
     "Frequency": 446.15,
-    "Comment": "Voice Simplex Frequencies"
+    "Name": "FM Voice"
   },
   {
     "Frequency": 446.175,
-    "Comment": "Voice Simplex Frequencies"
+    "Name": "FM Voice"
   },
   {
     "Frequency": 446.2,
-    "Comment": "Voice Simplex Frequencies"
+    "Name": "FM Voice"
   },
   {
     "Frequency": 446.2125,
-    "Comment": "Narrowband Digital Voice Simplex Frequencies"
+    "Name": "Digital Voice Narrowband"
   },
   {
     "Frequency": 446.225,
-    "Comment": "Voice Simplex Frequencies"
+    "Name": "FM Voice"
   },
   {
     "Frequency": 446.2375,
-    "Comment": "Narrowband Digital Voice Simplex Frequencies"
+    "Name": "Digital Voice Narrowband"
   },
   {
     "Frequency": 446.25,
-    "Comment": "Voice Simplex Frequencies"
+    "Name": "FM Voice"
   },
   {
     "Frequency": 446.2625,
-    "Comment": "Narrowband Digital Voice Simplex Frequencies"
+    "Name": "Digital Voice Narrowband"
   },
   {
     "Frequency": 446.275,
-    "Comment": "Voice Simplex Frequencies"
+    "Name": "FM Voice"
   },
   {
     "Frequency": 446.2875,
-    "Comment": "Narrowband Digital Voice Simplex Frequencies"
+    "Name": "Digital Voice Narrowband"
   },
   {
     "Frequency": 446.3,
-    "Comment": "Narrowband Digital Voice Simplex Frequencies"
+    "Name": "Digital Voice Narrowband"
   }
 ]

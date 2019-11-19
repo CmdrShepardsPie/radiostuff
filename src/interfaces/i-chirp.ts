@@ -4,11 +4,11 @@ export interface IChirp {
   Frequency: number;
   Duplex: '' | '+' | '-';
   Offset: number;
-  Tone: '' | 'Tone' | 'DTCS';
+  Tone: '' | 'Tone' | 'DTCS' | 'TSQL' | 'Cross';
   rToneFreq: number;
   cToneFreq: number;
-  DtcsCode: string;
-  DtcsRxCode: string;
+  DtcsCode: number;
+  DtcsRxCode: number;
   DtcsPolarity: 'NN';
   Mode: 'FM' | 'NFM';
   TStep: number;

@@ -18,10 +18,8 @@ export default (async (): Promise<void> => {
       if (!found[`${item.state_id}-${item.ID}`]) {
         found[`${item.state_id}-${item.ID}`] = true;
         combined.push(item);
-        if (typeof item.Latitude === 'number' && typeof item.Longitude === 'number') {
-          const distance: number = gpsDistance([myPoint, [item.Latitude, item.Longitude]]);
-          item.Mi = distance * 0.62137119;
-        }
+        const distance: number = gpsDistance([myPoint, [item.Latitude, item.Longitude]]);
+        item.Mi = distance * 0.62137119;
       }
     });
   });
