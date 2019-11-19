@@ -146,9 +146,9 @@
                 Call: typeof raw.EchoLink === 'string' ? raw.EchoLink.split(' ')[1] : undefined,
             } : undefined,
             IRLP: (raw.VOIP.includes('I') || raw.IRLP) ? { NodeID: convertNumber(raw.IRLP) } : undefined,
-            WIRES: (raw.VOIP.includes('W') || raw['WIRES-X']) ? { ID: convertNumber(raw['WIRES-X']) } : undefined,
+            Wires: (raw.VOIP.includes('W') || raw['WIRES-X']) ? { ID: convertNumber(raw['WIRES-X']) } : undefined,
         };
-        if (converted.AllStar || converted.EchoLink || converted.IRLP || converted.WIRES) {
+        if (converted.AllStar || converted.EchoLink || converted.IRLP || converted.Wires) {
             return converted;
         }
     }

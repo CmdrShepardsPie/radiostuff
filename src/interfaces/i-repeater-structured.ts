@@ -46,5 +46,5 @@ export interface IRepeaterVOIPModes {
   AllStar?: { NodeID?: number; };
   EchoLink?: { NodeID?: number; Call?: string; Status?: EchoLinkNodeStatus };
   IRLP?: { NodeID?: number; };
-  WIRES?: { ID?: number; };
+  Wires?: { ID?: number; };
 }

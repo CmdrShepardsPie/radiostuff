@@ -74,7 +74,7 @@ export interface IRepeaterVOIPModes {
     IRLP?: {
         NodeID?: number;
     };
-    WIRES?: {
+    Wires?: {
         ID?: number;
     };
 }
