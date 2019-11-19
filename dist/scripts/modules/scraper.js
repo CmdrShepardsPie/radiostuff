@@ -142,6 +142,5 @@ var __importDefault = (this && this.__importDefault) || function (mod) {
         }
     }
     exports.default = Scraper;
-    ;
 });
 //# sourceMappingURL=scraper.js.map

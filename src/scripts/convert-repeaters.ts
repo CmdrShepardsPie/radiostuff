@@ -128,7 +128,7 @@ function convertRepeaterDigitalData(raw: IRepeaterRaw): IRepeaterDigitalModes | 
   const converted: IRepeaterDigitalModes = {
     // TODO: ATV?: boolean;
     DMR: (raw.DGTL.includes('D') || raw['DMR Enabled']) ? { ColorCode: convertNumber(raw['Color Code']), ID: convertNumber(raw['DMR ID']) } : undefined,
-    P25: (raw.DGTL.includes('P') || raw['P25 Digital Enabled']) ? { NAC: convertNumber(raw.NAC) } : undefined,
+    P25: (raw.DGTL.includes('P') || raw['P-25 Digital Enabled']) ? { NAC: convertNumber(raw.NAC) } : undefined,
     DStar: (raw.DGTL.includes('S') || raw['D-STAR Enabled']) ? { Node: raw.Node } : undefined,
     YSF: (raw.DGTL.includes('Y') || raw['YSF Digital Enabled']) ? {
       GroupID: {
@@ -146,8 +146,7 @@ function convertRepeaterVOIP(raw: IRepeaterRaw): IRepeaterVOIPModes | undefined 
   const converted: IRepeaterVOIPModes = {
     AllStar: (raw.VOIP.includes('A') || raw.AllStar) ? { NodeID: convertNumber(raw.AllStar) } : undefined,
     EchoLink: (raw.VOIP.includes('E') || raw.EchoLink) ? {
-      NodeID: convertNumber(raw.EchoLink, /^(\d+).*$/),
-      Call: typeof raw.EchoLink === 'string' ? raw.EchoLink.split(' ')[1] : undefined,
+      NodeID: raw.EchoLink,
     } : undefined, // TODO: Status?: EchoLinkNodeStatus
     IRLP: (raw.VOIP.includes('I') || raw.IRLP) ? { NodeID: convertNumber(raw.IRLP) } : undefined,
     Wires: (raw.VOIP.includes('W') || raw['WIRES-X']) ? { ID: convertNumber(raw['WIRES-X']) } : undefined,
