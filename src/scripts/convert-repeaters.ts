@@ -39,7 +39,7 @@ function convertRepeater(raw: IRepeaterRaw): IRepeaterStructured {
     ID: convertNumber(raw.ID) as number,
     StateID: convertNumber(raw.state_id) as number,
     Callsign: raw.Call,
-    Location: { Latitude: raw.Latitude, Longitude: raw.Longitude, County: raw.County, State: raw['ST/PR'] },
+    Location: { Latitude: raw.Latitude, Longitude: raw.Longitude, County: raw.County, State: raw['ST/PR'], Local: raw.Location },
     Use: convertRepeaterUse(raw.Use),
     Status: convertRepeaterStatus(raw['Op Status']),
     Frequency: { Input: convertNumber(raw.Uplink) || (raw.Downlink + raw.Offset), Output: raw.Downlink },

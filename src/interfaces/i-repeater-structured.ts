@@ -3,7 +3,7 @@ export interface IRepeaterStructured {
   StateID: number;
   Callsign: string;
   // Name: string;
-  Location: { Latitude: number; Longitude: number; County: string; State: string }; // City?: string
+  Location: { Latitude: number; Longitude: number; County: string; State: string; Local: string };
   Use: RepeaterUse;
   Status: RepeaterStatus;
   Frequency: { Input: number; Output: number };
