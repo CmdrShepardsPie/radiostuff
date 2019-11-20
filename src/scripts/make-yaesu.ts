@@ -66,7 +66,7 @@ async function doIt(inFileName: string, outFileName: string): Promise<void> {
     .sort((a: IYaesu, b: IYaesu) => parseFloat(a.Receive) - parseFloat(b.Receive))
     .map((map: IYaesu, index: number): IYaesu => ({ ...map, Number: index + 1 }));
 
-  return writeToJsonAndCsv(outFileName, mapped);
+  return writeToJsonAndCsv(outFileName, mapped, mapped, false);
 }
 
 function convertToRadio(repeater: IRepeaterStructured): IYaesu {

@@ -1,4 +1,3 @@
-Number,Receive,Transmit,Offset,Direction,Mode,Name,ToneMode,CTCSS,DCS,UserCTCSS,Power,Skip,Step,ClockShift,Comment,Bank
 1,144.26500,144.26500,0.00000,OFF,FM,HSOlosa,TONE ENC,203.5 Hz,023,1500 Hz,HIGH,OFF,25.0KHz,0,35 16629 434.68 NM Los Alamos Los Alamos KC2HSO,0
 2,144.90000,144.90000,0.00000,OFF,FM,WeakSig,OFF,100.0 Hz,023,1500 Hz,HIGH,OFF,25.0KHz,0,"Weak Signal, FM, Digital/Packet",0
 3,144.91500,144.91500,0.00000,OFF,FM,WeakSig,OFF,100.0 Hz,023,1500 Hz,HIGH,OFF,25.0KHz,0,"Weak Signal, FM, Digital/Packet",0
