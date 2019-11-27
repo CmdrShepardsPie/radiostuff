@@ -74,21 +74,19 @@ function convertToRadio(repeater: IRepeaterStructured): IYaesu {
 
   if (repeater.Callsign) {
     Name += repeater.Callsign.trim();
-    if (repeater.ID !== undefined) {
-      Name = Name.substr(-3).trim().toUpperCase();
-    }
   }
 
   if (repeater.Location && repeater.Location.Local) {
-    Name += (Name ? ' ' : '') + repeater.Location.Local.trim().toLowerCase();
+    Name += (Name ? ' ' : '') + repeater.Location.Local.trim();
   }
 
   if (repeater.Frequency && repeater.Frequency.Output) {
     Name += (Name ? ' ' : '') + repeater.Frequency.Output.toString().trim();
   }
 
-  Name = Name.replace(/[^0-9.a-zA-Z\/]/g, '').trim();
-  Name = Name.substring(0, 7).trim();
+  Name = Name.replace(/[^0-9.a-zA-Z \/]/g, '').trim();
+  Name = Name.replace(/[ ]+/g, ' ').trim();
+  Name = Name.substr(0, 8).trim();
 
   const Receive: string = repeater.Frequency.Output.toFixed(5);
   const Transmit: string = repeater.Frequency.Input.toFixed(5);

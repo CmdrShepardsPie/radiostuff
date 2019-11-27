@@ -58,12 +58,20 @@ async function doIt(inFileName: string, outFileName: string): Promise<void> {
         filter.Status !== RepeaterStatus.OffAir &&
         filter.Use === RepeaterUse.Open),
   ]
-    .map((map: IRepeaterStructured, index: number): IChirp => ({ ...convertToRadio(map), Location: index }))
+    .map((map: IRepeaterStructured, index: number): IChirp => ({ ...convertToRadio(map), Location: index }));
+
+  const short: IChirp[] = mapped
+    .slice(0, 128)
+    .sort((a: IChirp, b: IChirp) => a.Frequency - b.Frequency)
+    .map((map: IChirp, index: number): IChirp => ({ ...map, Location: index }));
+
+  const long: IChirp[] = mapped
     .slice(0, 200)
     .sort((a: IChirp, b: IChirp) => a.Frequency - b.Frequency)
     .map((map: IChirp, index: number): IChirp => ({ ...map, Location: index }));
 
-  return writeToJsonAndCsv(outFileName, mapped);
+  await writeToJsonAndCsv(outFileName + '-short', short);
+  await writeToJsonAndCsv(outFileName + '-long', long);
 }
 
 function convertToRadio(repeater: IRepeaterStructured): IChirp {
@@ -71,21 +79,19 @@ function convertToRadio(repeater: IRepeaterStructured): IChirp {
 
   if (repeater.Callsign) {
     Name += repeater.Callsign.trim();
-    if (repeater.ID !== undefined) {
-      Name = Name.substr(-3).trim().toUpperCase();
-    }
   }
 
   if (repeater.Location && repeater.Location.Local) {
-    Name += (Name ? ' ' : '') + repeater.Location.Local.trim().toLowerCase();
+    Name += (Name ? ' ' : '') + repeater.Location.Local.trim();
   }
 
   if (repeater.Frequency && repeater.Frequency.Output) {
     Name += (Name ? ' ' : '') + repeater.Frequency.Output.toString().trim();
   }
 
-  Name = Name.replace(/[^0-9.a-zA-Z\/]/g, '').trim();
-  Name = Name.substring(0, 7).trim();
+  Name = Name.replace(/[^0-9.a-zA-Z \/]/g, '').trim();
+  Name = Name.replace(/[ ]+/g, ' ').trim();
+  Name = Name.substr(0, 8).trim();
 
   const Frequency: number = repeater.Frequency.Output;
   let Offset: number = repeater.Frequency.Input - repeater.Frequency.Output;
