@@ -6,8 +6,8 @@
   "scripts": {
     "build": "tsc",
     "watch": "tsc -w",
-    "all": "tsc && node dist/scripts/get-repeaters.js && node dist/scripts/convert-repeaters.js && node dist/scripts/make-chirp.js && node dist/scripts/make-yaesu.js",
-    "no-scrape": "tsc && node dist/scripts/convert-repeaters.js && node dist/scripts/make-chirp.js && node dist/scripts/make-yaesu.js"
+    "all": "tsc &&  dist/scripts/get-repeaters.js && node dist/scripts/convert-repeaters.js && node dist/scripts/make-chirp.js && node dist/scripts/make-yaesu.js",
+    "no-scrape": "tsc &&  dist/scripts/convert-repeaters.js && node dist/scripts/make-chirp.js && node dist/scripts/make-yaesu.js"
   },
   "author": "Christopher Simpson <github@nilk.net>",
   "license": "ISC",
