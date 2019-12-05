@@ -1,12 +1,17 @@
 from helpers import numbers
 
 frequencies = []
+
 range2m = [
+    # Channels
     {'start': 146.4, 'end': 146.595, 'steps': [0.015], 'name': 'FM Voice'},
     {'start': 147.42, 'end': 147.585, 'steps': [0.015], 'name': 'FM Voice'},
+
+    # Range
     {'start': 144.9, 'end': 145.1, 'steps': [0.015], 'name': 'Weak Signal, FM, Digital/Packet'},
     {'start': 145.5, 'end': 145.8, 'steps': [0.015], 'name': 'Miscellaneous and Experimental Modes'},
 ]
+
 range125m = [
     # Channels
     {'start': 223.4, 'end': 223.52, 'steps': [0.020], 'name': 'FM Voice'},
@@ -16,6 +21,7 @@ range125m = [
     # Range
     {'start': 223.53, 'end': 223.63, 'steps': [0.020], 'name': 'Digital / Packet'},
 ]
+
 range70cm = [
     # Channels
     {'start': 440.7, 'end': 441.3, 'steps': [0.025], 'name': 'Mixed Mode'},
@@ -26,7 +32,8 @@ range70cm = [
     {'start': 434.5, 'end': 435, 'steps': [0.025], 'name': 'Mixed Mode Digital and Voice'},
     {'start': 439.5, 'end': 440, 'steps': [0.025], 'name': 'Mixed Mode Digital and Voice'},
 ]
-points = 4
+
+points = 5
 
 for rng in (range2m+range125m+range70cm):
     steps = rng.get('steps')
@@ -36,5 +43,6 @@ for rng in (range2m+range125m+range70cm):
         end = int(numbers.pow_and_fix(rng.get('end'), points) + step)
         # print('step', s, step, rng.get('start'), start, rng.get('end'), end)
         for i in range(start, end, step):
-            frequency = numbers.pow_and_fix(i, -4, 4)
+            frequency = numbers.pow_and_fix(i, -points, points)
             print('result', i, frequency)
+            frequencies.
