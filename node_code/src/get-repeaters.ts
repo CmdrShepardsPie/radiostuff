@@ -63,11 +63,11 @@
 //
 //   log(chalk.yellow('Results'), result.length, subPlace);
 //
-//   await writeToJsonAndCsv(`data/repeaters/results/${subPlace}`, result);
+//   await writeToJsonAndCsv(`../data/repeaters/results/${subPlace}`, result);
 // }
 //
 // export default (async (): Promise<void> => {
-//   const countyFileData: Buffer = await readFileAsync('data/Colorado_County_Seats.csv');
+//   const countyFileData: Buffer = await readFileAsync('../data/Colorado_County_Seats.csv');
 //   const countyData: ICountySeat[] = await parseAsync(countyFileData, { columns: true });
 //   const cities: string[] = countyData.map((c: ICountySeat) => `${c['County Seat']}, CO`);
 //   while (cities.length) {

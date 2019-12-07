@@ -104,14 +104,14 @@ export default class Scraper {
   }
 
   private async getCache(key: string): Promise<string | undefined> {
-    const file: string = `data/repeaters/_cache/${key}`;
+    const file: string = `../data/repeaters/_cache/${key}`;
     if (await dirExists(file)) {
       return (await readFileAsync(file)).toString();
     }
   }
 
   private async setCache(key: string, value: string): Promise<void> {
-    const file: string = `data/repeaters/_cache/${key}`;
+    const file: string = `../data/repeaters/_cache/${key}`;
     await makeDirs(file);
     return writeFileAsync(file, value);
   }

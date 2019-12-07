@@ -68,11 +68,11 @@ async function start(): Promise<void> {
   // await doIt("Denver");
   // await doIt("Grand Junction");
   // await doIt("Call",
-  //   `data/repeaters/results/CO/Colorado Springs.json`,
-  //   `data/repeaters/groups/CO/Colorado Springs - Call`);
+  //   `../data/repeaters/results/CO/Colorado Springs.json`,
+  //   `../data/repeaters/groups/CO/Colorado Springs - Call`);
   await doIt('Call',
-    `data/repeaters/combined/CO.json`,
-    `data/repeaters/groups/combined/CO - Call`);
+    `../data/repeaters/combined/CO.json`,
+    `../data/repeaters/groups/combined/CO - Call`);
 }
 
 export default start();

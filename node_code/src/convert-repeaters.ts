@@ -14,7 +14,7 @@ import {
 const log: (...msg: any[]) => void = createLog('Convert Repeaters');
 
 export default (async (): Promise<void> => {
-  const raw: IRepeaterRaw[][] = await getAllFilesFromDirectory('data/repeaters/results/CO');
+  const raw: IRepeaterRaw[][] = await getAllFilesFromDirectory('../data/repeaters/results/CO');
   log('Got', raw.length, 'files');
   const ids: number[] = [];
   const converted: IRepeaterStructured[] = raw
@@ -31,7 +31,7 @@ export default (async (): Promise<void> => {
       }
     });
   log('Converted', converted.length, 'repeaters');
-  await writeToJsonAndCsv('data/repeaters/converted/CO', converted);
+  await writeToJsonAndCsv('../data/repeaters/converted/CO', converted);
 })();
 
 function convertRepeater(raw: IRepeaterRaw): IRepeaterStructured {

@@ -9,7 +9,7 @@ const log: (...msg: any[]) => void = createLog('Combine');
 export default (async (): Promise<void> => {
   const myPoint: Point = [39.627071500, -104.893322500]; // 4982 S Ulster St
   const combined: IRepeaterRaw[] = [];
-  const files: IRepeaterRaw[][] = await getAllFilesFromDirectory<IRepeaterRaw[]>('data/repeaters/results/CO');
+  const files: IRepeaterRaw[][] = await getAllFilesFromDirectory<IRepeaterRaw[]>('../data/repeaters/results/CO');
   log('Got', files.length, 'files');
   const found: { [key: string]: boolean | undefined } = {};
   files.forEach((file: IRepeaterRaw[]) => {
@@ -47,5 +47,5 @@ export default (async (): Promise<void> => {
   // tslint:disable-next-line:no-console
   console.log('STATS', stats);
   // combined.slice(0, 100).forEach((c) => log(c.Call, "\t", c.Latitude, "\t", c.Longitude, "\t", c.Mi));
-  await writeToJsonAndCsv('data/repeaters/combined/CO', combined);
+  await writeToJsonAndCsv('../data/repeaters/combined/CO', combined);
 })();

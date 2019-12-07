@@ -30,7 +30,7 @@ const myPoint: Point = [39.627071500, -104.893322500]; // 4982 S Ulster St
 
 async function doIt(inFileName: string, outFileName: string): Promise<void> {
   const simplex: IRepeaterStructured[] =
-    JSON.parse((await readFileAsync('data/frequencies.json')).toString())
+    JSON.parse((await readFileAsync('../data/frequencies.json')).toString())
       .map((map: ISimplexFrequency) =>
         ({ Callsign: map.Name, Frequency: { Output: map.Frequency, Input: map.Frequency } }))
       .filter((filter: IRepeaterStructured) => /FM|Voice|Simplex/i.test(filter.Callsign))
@@ -148,9 +148,9 @@ function convertToRadio(repeater: IRepeaterStructured): IChirp {
 }
 
 async function start(): Promise<void> {
-// const coFiles = (await readdirAsync("./repeaters/data/CO/")).map((f) => `data/CO/${f}`);
-// const utFiles = (await readdirAsync("./repeaters/data/UT/")).map((f) => `data/UT/${f}`);
-// const nmFiles = (await readdirAsync("./repeaters/data/NM/")).map((f) => `data/NM/${f}`);
+// const coFiles = (await readdirAsync("./repeaters/data/CO/")).map((f) => `../data/CO/${f}`);
+// const utFiles = (await readdirAsync("./repeaters/data/UT/")).map((f) => `../data/UT/${f}`);
+// const nmFiles = (await readdirAsync("./repeaters/data/NM/")).map((f) => `../data/NM/${f}`);
 // const coGroups = (await readdirAsync("./repeaters/groups/CO/")).map((f) => `groups/CO/${f}`);
 // const utGroups = (await readdirAsync("./repeaters/groups/UT/")).map((f) => `groups/UT/${f}`);
 // const nmGroups = (await readdirAsync("./repeaters/groups/NM/")).map((f) => `groups/NM/${f}`);
@@ -161,8 +161,8 @@ async function start(): Promise<void> {
 
 // await doIt("data/repeaters/groups/CO/Colorado Springs - Call.json", "data/repeaters/chirp/groups/CO/Colorado Springs - Call");
 // await doIt("data/repeaters/results/CO/Colorado Springs.json", "data/repeaters/chirp/CO/Colorado Springs");
-  await doIt('data/repeaters/converted/CO.json', 'data/repeaters/chirp/CO');
-  // await doIt('data/repeaters/groups/combined/CO - Call.json', 'data/repeaters/chirp/groups/CO - Call');
+  await doIt('../data/repeaters/converted/CO.json', '../data/repeaters/chirp/CO');
+  // await doIt('../data/repeaters/groups/combined/CO - Call.json', '../data/repeaters/chirp/groups/CO - Call');
 }
 
 export default start();
