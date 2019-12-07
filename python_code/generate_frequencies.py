@@ -1,4 +1,5 @@
 from helpers import numbers
+import json
 
 frequencies = []
 
@@ -19,7 +20,7 @@ range125m = [
     {'start': 223.72, 'end': 223.84, 'steps': [0.020], 'name': 'Mixed Mode'},
 
     # Range
-    {'start': 223.53, 'end': 223.63, 'steps': [0.020], 'name': 'Digital / Packet'},
+    {'start': 223.53, 'end': 223.63, 'steps': [0.020], 'name': 'Digital/Packet'},
 ]
 
 range70cm = [
@@ -35,14 +36,22 @@ range70cm = [
 
 points = 5
 
-for rng in (range2m+range125m+range70cm):
+for rng in (range2m + range125m + range70cm):
     steps = rng.get('steps')
     for s in steps:
         step = int(numbers.pow_and_fix(s, points))
         start = int(numbers.pow_and_fix(rng.get('start'), points))
         end = int(numbers.pow_and_fix(rng.get('end'), points) + step)
-        # print('step', s, step, rng.get('start'), start, rng.get('end'), end)
         for i in range(start, end, step):
             frequency = numbers.pow_and_fix(i, -points, points)
-            print('result', i, frequency)
-            frequencies.
+            frequencies.append({'Frequency': frequency, 'Name': rng.get('name')})
+
+
+def sort_frequency(elem):
+    return elem.get('Frequency')
+
+
+frequencies.sort(key=sort_frequency)
+with open('../data/frequencies.json', 'w', encoding='utf-8') as f:
+    json.dump(frequencies, f, ensure_ascii=False, indent=2)
+

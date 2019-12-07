@@ -50,5 +50,5 @@ const range70cm: IFrequencyDefinition[] = [
 });
 frequencies = frequencies.sort((a: IRepeaterRaw, b: IRepeaterRaw) => (a.Frequency || 0) - (b.Frequency || 0));
 log(frequencies, frequencies.length);
-writeFileAsync(`./data/frequencies.json`, JSON.stringify(frequencies, null, 2))
+writeFileAsync(`../data/frequencies.json`, JSON.stringify(frequencies, null, 2))
   .then((r: unknown) => log(`Done`, r));
