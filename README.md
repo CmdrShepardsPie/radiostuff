@@ -20,3 +20,7 @@ convert-repeaters: Convert from "raw" HTML-JSON dump to a common JSON format.
 make-chirp: Generate Chirp CSVs from common JSON.
 
 make-yaesu: Generate Yaesu CSVs from common JSON.
+
+combine: Deprecated, mostly replaced with convert-repeaters.
+
+group-by: Needs to be updated, but would group and sort repeaters by name or frequency or another parameter.

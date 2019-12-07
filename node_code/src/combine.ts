@@ -7,7 +7,7 @@ import gpsDistance, { Point } from 'gps-distance';
 const log: (...msg: any[]) => void = createLog('Combine');
 
 export default (async (): Promise<void> => {
-  const myPoint: Point = [39.627071500, -104.893322500]; // 4982 S Ulster St
+  const myPoint: Point = [39.627071500, -104.893322500];
   const combined: IRepeaterRaw[] = [];
   const files: IRepeaterRaw[][] = await getAllFilesFromDirectory<IRepeaterRaw[]>('../data/repeaters/results/CO');
   log('Got', files.length, 'files');
