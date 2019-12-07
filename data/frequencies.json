@@ -428,7 +428,7 @@
     "Name": "Mixed Mode Digital and Voice"
   },
   {
-    "Frequency": 435.0,
+    "Frequency": 435,
     "Name": "Mixed Mode Digital and Voice"
   },
   {
@@ -512,7 +512,7 @@
     "Name": "Mixed Mode Digital and Voice"
   },
   {
-    "Frequency": 440.0,
+    "Frequency": 440,
     "Name": "Mixed Mode Digital and Voice"
   },
   {
@@ -564,7 +564,7 @@
     "Name": "Mixed Mode"
   },
   {
-    "Frequency": 441.0,
+    "Frequency": 441,
     "Name": "Mixed Mode"
   },
   {
@@ -664,7 +664,7 @@
     "Name": "FM Voice"
   },
   {
-    "Frequency": 446.0,
+    "Frequency": 446,
     "Name": "FM Voice"
   },
   {
@@ -700,20 +700,12 @@
     "Name": "FM Voice"
   },
   {
-    "Frequency": 446.2,
-    "Name": "Digital Voice Narrowband"
-  },
-  {
     "Frequency": 446.2125,
     "Name": "Digital Voice Narrowband"
   },
   {
     "Frequency": 446.225,
     "Name": "FM Voice"
-  },
-  {
-    "Frequency": 446.225,
-    "Name": "Digital Voice Narrowband"
   },
   {
     "Frequency": 446.2375,
@@ -724,20 +716,12 @@
     "Name": "FM Voice"
   },
   {
-    "Frequency": 446.25,
-    "Name": "Digital Voice Narrowband"
-  },
-  {
     "Frequency": 446.2625,
     "Name": "Digital Voice Narrowband"
   },
   {
     "Frequency": 446.275,
     "Name": "FM Voice"
-  },
-  {
-    "Frequency": 446.275,
-    "Name": "Digital Voice Narrowband"
   },
   {
     "Frequency": 446.2875,

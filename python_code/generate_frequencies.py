@@ -1,8 +1,6 @@
 from helpers import numbers
 import json
 
-frequencies = []
-
 range2m = [
     # Channels
     {'start': 146.4, 'end': 146.595, 'steps': [0.015], 'name': 'FM Voice'},
@@ -34,24 +32,29 @@ range70cm = [
     {'start': 439.5, 'end': 440, 'steps': [0.025], 'name': 'Mixed Mode Digital and Voice'},
 ]
 
+frequencies = []
+existing_frequencies = {}
+
 points = 5
 
 for rng in (range2m + range125m + range70cm):
-    steps = rng.get('steps')
-    for s in steps:
+    for s in rng['steps']:
         step = int(numbers.pow_and_fix(s, points))
-        start = int(numbers.pow_and_fix(rng.get('start'), points))
-        end = int(numbers.pow_and_fix(rng.get('end'), points) + step)
+        start = int(numbers.pow_and_fix(rng['start'], points))
+        end = int(numbers.pow_and_fix(rng['end'], points) + step)
         for i in range(start, end, step):
             frequency = numbers.pow_and_fix(i, -points, points)
-            frequencies.append({'Frequency': frequency, 'Name': rng.get('name')})
+            definition = {'Frequency': frequency, 'Name': rng['name']}
+            if not existing_frequencies.get(frequency, False):
+                frequencies.append(definition)
+                existing_frequencies[frequency] = True
+                print('step', step, 'start', start, 'end', end, 'i', i, 'frequency', frequency)
 
 
 def sort_frequency(elem):
-    return elem.get('Frequency')
+    return elem['Frequency']
 
 
 frequencies.sort(key=sort_frequency)
 with open('../data/frequencies.json', 'w', encoding='utf-8') as f:
     json.dump(frequencies, f, ensure_ascii=False, indent=2)
-

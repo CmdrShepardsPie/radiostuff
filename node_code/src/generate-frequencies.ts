@@ -1,13 +1,11 @@
 import 'module-alias/register';
 
 import { writeFileAsync } from '@helpers/fs-helpers';
-import { createLog } from '@helpers/log-helpers';
-import { IFrequencyDefinition } from '@interfaces/i-frequency-definition';
+import { powAndFix } from '@helpers/numbers';
+import { IInputFrequency } from '@interfaces/i-input-frequency';
 import { IRepeaterRaw } from '@interfaces/i-repeater-raw';
 
-const log: (...msg: any[]) => void = createLog('Generate Frequencies');
-let frequencies: IRepeaterRaw[] = [];
-const range2m: IFrequencyDefinition[] = [
+const range2m: IInputFrequency[] = [
   // Channels
   { start: 146.4, end: 146.595, steps: [0.015], name: `FM Voice` },
   { start: 147.42, end: 147.585, steps: [0.015], name: `FM Voice` },
@@ -17,7 +15,7 @@ const range2m: IFrequencyDefinition[] = [
   { start: 145.5, end: 145.8, steps: [0.015], name: `Miscellaneous and Experimental Modes` },
 ];
 
-const range125m: IFrequencyDefinition[] = [
+const range125m: IInputFrequency[] = [
   // Channels
   { start: 223.4, end: 223.52, steps: [0.020], name: `FM Voice` },
   { start: 222.16, end: 222.24, steps: [0.020], name: `Mixed Mode` },
@@ -27,7 +25,7 @@ const range125m: IFrequencyDefinition[] = [
   { start: 223.53, end: 223.63, steps: [0.020], name: `Digital/Packet` },
 ];
 
-const range70cm: IFrequencyDefinition[] = [
+const range70cm: IInputFrequency[] = [
   // Channels
   { start: 440.7, end: 441.3, steps: [0.025], name: `Mixed Mode` },
   { start: 445.7, end: 446.275, steps: [0.025], name: `FM Voice` },
@@ -38,17 +36,34 @@ const range70cm: IFrequencyDefinition[] = [
   { start: 439.5, end: 440, steps: [0.025], name: `Mixed Mode Digital and Voice` },
 ];
 
-[...range2m, ...range125m, ...range70cm].forEach((range: IFrequencyDefinition) => {
-  range.steps.forEach((step: number) => {
-    for (let i: number = range.start; i <= range.end; i += step) {
-      i = Math.round(i * 100000) / 100000;
-      if (!frequencies.find((f: IRepeaterRaw) => f.Frequency === i)) {
-        frequencies.push({ Frequency: i, Name: range.name } as any);
+interface IOutputFrequency {
+  Frequency: number;
+  Name: string;
+}
+
+let frequencies: IOutputFrequency[] = [];
+const existingFrequencies: { [key: string]: boolean } = {};
+
+const points: number = 5;
+
+[...range2m, ...range125m, ...range70cm].forEach((range: IInputFrequency) => {
+  range.steps.forEach((s: number) => {
+    const step: number = powAndFix(s, points);
+    const start: number = powAndFix(range.start, points);
+    const end: number = powAndFix(range.end, points) + step;
+    for (let i: number = start; i < end; i += step) {
+      const frequency: number = powAndFix(i, -points, points);
+      const definition: IOutputFrequency = { Frequency: frequency, Name: range.name };
+      if (!existingFrequencies[frequency]) {
+        frequencies.push(definition);
+        existingFrequencies[frequency] = true;
+        console.log('step', step, 'start', start, 'end', end, 'i', i, 'frequency', frequency);
       }
     }
   });
 });
-frequencies = frequencies.sort((a: IRepeaterRaw, b: IRepeaterRaw) => (a.Frequency || 0) - (b.Frequency || 0));
-log(frequencies, frequencies.length);
+frequencies = frequencies.sort(
+  (a: IOutputFrequency, b: IOutputFrequency) => (a.Frequency || 0) - (b.Frequency || 0));
 writeFileAsync(`../data/frequencies.json`, JSON.stringify(frequencies, null, 2))
-  .then((r: unknown) => log(`Done`, r));
+  // tslint:disable-next-line:no-empty
+  .then((r: unknown) => {});

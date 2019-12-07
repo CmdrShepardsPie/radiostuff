@@ -1,4 +1,4 @@
-export interface IFrequencyDefinition {
+export interface IInputFrequency {
   start: number;
   end: number;
   name: string;
