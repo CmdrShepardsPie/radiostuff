@@ -27,6 +27,7 @@ const chirp: IChirp = {
 };
 
 const myPoint: Point = [39.627071500, -104.893322500]; // 4982 S Ulster St
+// const myPoint: Point = [39.742043, -104.991531]; // Denver
 
 async function doIt(inFileName: string, outFileName: string): Promise<void> {
   const simplex: IRepeaterStructured[] =
@@ -62,12 +63,12 @@ async function doIt(inFileName: string, outFileName: string): Promise<void> {
 
   const short: IChirp[] = mapped
     .slice(0, 128)
-    .sort((a: IChirp, b: IChirp) => a.Frequency - b.Frequency)
+    // .sort((a: IChirp, b: IChirp) => a.Frequency - b.Frequency)
     .map((map: IChirp, index: number): IChirp => ({ ...map, Location: index }));
 
   const long: IChirp[] = mapped
     .slice(0, 200)
-    .sort((a: IChirp, b: IChirp) => a.Frequency - b.Frequency)
+    // .sort((a: IChirp, b: IChirp) => a.Frequency - b.Frequency)
     .map((map: IChirp, index: number): IChirp => ({ ...map, Location: index }));
 
   await writeToJsonAndCsv(outFileName + '-short', short);

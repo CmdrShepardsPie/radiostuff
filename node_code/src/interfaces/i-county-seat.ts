@@ -5,4 +5,6 @@ export interface ICountySeat {
   'County Seat': string;
   Established: string;
   Location: string;
+  Lat: number;
+  Long: number;
 }

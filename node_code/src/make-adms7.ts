@@ -4,12 +4,12 @@ import { readFileAsync, writeToJsonAndCsv } from '@helpers/fs-helpers';
 import { createLog } from '@helpers/log-helpers';
 import { IRepeaterStructured, RepeaterStatus, RepeaterUse } from '@interfaces/i-repeater-structured';
 import { ISimplexFrequency } from '@interfaces/i-simplex-frequency';
-import { IYaesu, YaesuDirection, YaesuMode, YaesuToneMode } from '@interfaces/i-yaesu';
+import { IAdms7, Adms7Direction, Adms7Mode, Adms7ToneMode } from '@interfaces/i-Adms7';
 import gpsDistance, { Point } from 'gps-distance';
 
-const log: (...msg: any[]) => void = createLog('Make Yaesu');
+const log: (...msg: any[]) => void = createLog('Make Adms7');
 
-const yaesu: IYaesu = {
+const Adms7: IAdms7 = {
   Number: null as any,
   Receive: '',
   Transmit: '',
@@ -49,7 +49,7 @@ async function doIt(inFileName: string, outFileName: string): Promise<void> {
   repeaters.sort((a: IRepeaterStructured, b: IRepeaterStructured) =>
     a.Location.Distance! > b.Location.Distance! ? 1 :
       a.Location.Distance! < b.Location.Distance! ? -1 : 0);
-  const mapped: IYaesu[] = [
+  const mapped: IAdms7[] = [
     ...simplex,
     ...repeaters
       .filter((filter: IRepeaterStructured) =>
@@ -61,15 +61,15 @@ async function doIt(inFileName: string, outFileName: string): Promise<void> {
         filter.Status !== RepeaterStatus.OffAir &&
         filter.Use === RepeaterUse.Open),
   ]
-    .map((map: IRepeaterStructured, index: number): IYaesu => ({ ...convertToRadio(map), Number: index + 1 }))
+    .map((map: IRepeaterStructured, index: number): IAdms7 => ({ ...convertToRadio(map), Number: index + 1 }))
     .slice(0, 500)
-    .sort((a: IYaesu, b: IYaesu) => parseFloat(a.Receive) - parseFloat(b.Receive))
-    .map((map: IYaesu, index: number): IYaesu => ({ ...map, Number: index + 1 }));
+    .sort((a: IAdms7, b: IAdms7) => parseFloat(a.Receive) - parseFloat(b.Receive))
+    .map((map: IAdms7, index: number): IAdms7 => ({ ...map, Number: index + 1 }));
 
   return writeToJsonAndCsv(outFileName, mapped, mapped, false);
 }
 
-function convertToRadio(repeater: IRepeaterStructured): IYaesu {
+function convertToRadio(repeater: IRepeaterStructured): IAdms7 {
   let Name: string = '';
 
   if (repeater.Callsign) {
@@ -91,14 +91,14 @@ function convertToRadio(repeater: IRepeaterStructured): IYaesu {
   const Receive: string = repeater.Frequency.Output.toFixed(5);
   const Transmit: string = repeater.Frequency.Input.toFixed(5);
   const OffsetNumber: number = repeater.Frequency.Input - repeater.Frequency.Output;
-  const Direction: YaesuDirection = OffsetNumber > 0 ? '+RPT' : OffsetNumber < 0 ? '-RPT' : 'OFF';
+  const Direction: Adms7Direction = OffsetNumber > 0 ? '+RPT' : OffsetNumber < 0 ? '-RPT' : 'OFF';
   const Offset: string = Math.abs(Math.round(OffsetNumber * 100) / 100).toFixed(5);
   const TransmitSquelchTone: number | undefined = (repeater.SquelchTone && repeater.SquelchTone.Input);
   const ReceiveSquelchTone: number | undefined = (repeater.SquelchTone && repeater.SquelchTone.Output);
   const TransmitDigitalTone: number | undefined = (repeater.DigitalTone && repeater.DigitalTone.Input);
   const ReceiveDigitalTone: number | undefined = (repeater.DigitalTone && repeater.DigitalTone.Output);
-  let ToneMode: YaesuToneMode = 'OFF';
-  const Mode: YaesuMode = 'FM';
+  let ToneMode: Adms7ToneMode = 'OFF';
+  const Mode: Adms7Mode = 'FM';
   let Comment: string = `${repeater.StateID} ${repeater.ID} ${repeater.Location && repeater.Location.Distance && repeater.Location.Distance.toFixed(2)} ${repeater.Location && repeater.Location.State} ${repeater.Location && repeater.Location.County} ${repeater.Location && repeater.Location.Local} ${repeater.Callsign}`;
   Comment = Comment.replace(/undefined/g, ' ').replace(/\s+/g, ' ').trim();
 
@@ -119,7 +119,7 @@ function convertToRadio(repeater: IRepeaterStructured): IYaesu {
   const DCS: string = DCSNumber < 100 ? '0' + DCSNumber : '' + DCSNumber;
 
   return {
-    ...yaesu,
+    ...Adms7,
     Receive,
     Transmit,
     Offset,
@@ -145,10 +145,10 @@ async function start(): Promise<void> {
 //   await doIt(file);
 // }
 
-// await doIt("data/repeaters/groups/CO/Colorado Springs - Call.json", "data/repeaters/yaesu/groups/CO/Colorado Springs - Call");
-// await doIt("data/repeaters/results/CO/Colorado Springs.json", "data/repeaters/yaesu/CO/Colorado Springs");
-  await doIt('../data/repeaters/converted/CO.json', '../data/repeaters/yaesu/CO');
-  // await doIt('../data/repeaters/groups/combined/CO - Call.json', '../data/repeaters/yaesu/groups/CO - Call');
+// await doIt("data/repeaters/groups/CO/Colorado Springs - Call.json", "data/repeaters/Adms7/groups/CO/Colorado Springs - Call");
+// await doIt("data/repeaters/results/CO/Colorado Springs.json", "data/repeaters/Adms7/CO/Colorado Springs");
+  await doIt('../data/repeaters/converted/CO.json', '../data/repeaters/adms7/CO');
+  // await doIt('../data/repeaters/groups/combined/CO - Call.json', '../data/repeaters/Adms7/groups/CO - Call');
 }
 
 export default start();

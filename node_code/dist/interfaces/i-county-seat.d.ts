@@ -5,5 +5,7 @@ export interface ICountySeat {
     'County Seat': string;
     Established: string;
     Location: string;
+    Lat: number;
+    Long: number;
 }
 //# sourceMappingURL=i-county-seat.d.ts.map
