@@ -111,7 +111,7 @@ export default class Scraper {
     if (await dirExists(file)) {
       const stat: Stats = await statAsync(file);
       const diff: number = (this.cacheStart - stat.mtimeMs) / 1000 / 60 / 60;
-      if (diff >= 1) {
+      if (diff >= 24) {
         write("X");
         return;
       }
