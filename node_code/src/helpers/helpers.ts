@@ -5,7 +5,7 @@ const { log, write }: { log: (...msg: any[]) => void; write: (...msg: any[]) => 
 
 export function wait<T = void>(ms: number, fn?: () => (T | Promise<T>)): Promise<T> {
   // log(chalk.green("Wait"), ms);
-  write(`(${Math.round(ms / 1000)})`);
+  // write(`(${Math.round(ms / 1000)})`);
   return new Promise((resolve: (value?: (Promise<T> | T)) => void, reject: (reason?: any) => void): void => {
     setTimeout(async () => {
       try {

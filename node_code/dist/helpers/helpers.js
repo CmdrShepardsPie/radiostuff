@@ -8,7 +8,7 @@ const chalk_1 = __importDefault(require("chalk"));
 const { log, write } = log_helpers_1.createOut("Helpers");
 function wait(ms, fn) {
     // log(chalk.green("Wait"), ms);
-    write(`(${Math.round(ms / 1000)})`);
+    // write(`(${Math.round(ms / 1000)})`);
     return new Promise((resolve, reject) => {
         setTimeout(async () => {
             try {
