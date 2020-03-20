@@ -16,7 +16,7 @@ export default class Scraper {
 
   constructor(private location: string | number, private distance: number) {
     log(chalk.green("New Scraper"), location, distance);
-    this.url = `https://www.repeaterbook.com/repeaters/prox_result.php?city=${encodeURIComponent(location.toString())}&distance=${distance}&Dunit=m&band1=%25&band2=&freq=&call=&features=&status_id=%25&use=%25&order=%60state_id%60%2C+%60loc%60%2C+%60call%60+ASC`;
+    this.url = `https://www.repeaterbook.com/repeaters/prox_result.php?city=${encodeURIComponent(location.toString())}&distance=${distance}&Dunit=m&band1=%25&band2=&freq=&call=&features%5B%5D=&status_id=%25&use=%25&order=distance_calc%2C+state_id%2C+%60call%60+ASC`;
   }
 
   public async process(): Promise<IRepeaterRaw[]> {
