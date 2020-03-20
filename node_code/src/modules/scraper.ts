@@ -112,6 +112,7 @@ export default class Scraper {
       const stat: Stats = await statAsync(file);
       const diff: number = (this.cacheStart - stat.mtimeMs) / 1000 / 60 / 60;
       if (diff >= 1) {
+        write("X");
         return;
       }
       return (await readFileAsync(file)).toString();
