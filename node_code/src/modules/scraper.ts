@@ -114,7 +114,7 @@ export default class Scraper {
       const diff: number = (cacheStart - stat.mtimeMs) / 1000 / 60 / 60;
       // write(Math.round(diff));
       if (diff >= cacheAge) {
-        write(chalk.blue(Math.round(diff)));
+        write(`O:${chalk.blue(Math.round(diff))}`);
         return;
       }
       return (await readFileAsync(file)).toString();
@@ -140,7 +140,7 @@ export default class Scraper {
       // Slow down the requests a little bit so we"re not hammering the server or triggering any anti-bot or DDoS protections
       const waitTime: number = (5000 + (Math.random() * 10000));
 
-      write(chalk.yellow(Math.round(waitTime)));
+      write(`W:${chalk.yellow(Math.round(waitTime / 1000))}`);
       await wait(waitTime);
       // log(chalk.yellow("Get"), url);
       const request: AxiosResponse<string> = await Axios.get(url);
