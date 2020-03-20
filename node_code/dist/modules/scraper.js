@@ -25,7 +25,7 @@ class Scraper {
         log(chalk_1.default.green("Process"));
         const parts = this.location.toString().split(`,`);
         const baseKey = `${(parts[1] || ".").trim()}/${parts[0].trim()}.html`;
-        const page = await this.getUrl(this.url, baseKey, 1);
+        const page = await this.getUrl(this.url, baseKey);
         const dom = new jsdom_1.JSDOM(page);
         await this.getRepeaterList(dom.window.document);
         return this.data;
@@ -100,14 +100,15 @@ class Scraper {
         }
         return data;
     }
-    async getCache(key, cacheAge) {
+    async getCache(key) {
         const file = `../data/repeaters/_cache/${key}`;
         if (await fs_helpers_1.dirExists(file)) {
+            // if (Math.floor(Math.random() * 10) === 0) return;
             const stat = await fs_helpers_1.statAsync(file);
             const diff = (cacheStart - stat.mtimeMs) / 1000 / 60 / 60;
-            // write(Math.round(diff));
-            if (diff >= cacheAge) {
-                write(`O:${chalk_1.default.blue(Math.round(diff))}`);
+            // if (diff >= cacheAge) {
+            if (diff >= 24 && Math.floor(Math.random() * 10) === 0) {
+                write(`O=${chalk_1.default.blue(Math.round(diff))}`);
                 return;
             }
             return (await fs_helpers_1.readFileAsync(file)).toString();
@@ -118,10 +119,10 @@ class Scraper {
         await fs_helpers_1.makeDirs(file);
         return fs_helpers_1.writeFileAsync(file, value);
     }
-    async getUrl(url, cacheKey, cacheAge) {
-        write(" ");
+    async getUrl(url, cacheKey) {
+        write(` ${(cacheKey || url).replace(".html", "")}:`);
         // log(chalk.green("Get URL"), url, cacheKey);
-        const cache = await this.getCache(cacheKey || url, cacheAge || 24);
+        const cache = await this.getCache(cacheKey || url);
         if (cache) {
             // log(chalk.yellow("Cached"), url, cacheKey);
             write(chalk_1.default.green("G"));
@@ -129,8 +130,8 @@ class Scraper {
         }
         else {
             // Slow down the requests a little bit so we"re not hammering the server or triggering any anti-bot or DDoS protections
-            const waitTime = (5000 + (Math.random() * 10000));
-            write(`W:${chalk_1.default.yellow(Math.round(waitTime / 1000))}`);
+            const waitTime = (1000 + (Math.random() * 5000));
+            write(`W=${chalk_1.default.yellow(Math.round(waitTime / 1000))}`);
             await helpers_1.wait(waitTime);
             // log(chalk.yellow("Get"), url);
             const request = await axios_1.default.get(url);

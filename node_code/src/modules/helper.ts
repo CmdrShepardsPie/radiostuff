@@ -4,7 +4,7 @@ export function getTextOrNumber(el: Element): number | string {
   return !isNaN(num) ? num : value;
 }
 
-export function getNumber(text: string, reg: RegExp = /^([\-+]?\d+\.?\d*)$/): number {
+export function getNumber(text: string, reg: RegExp = /^([\-+]?\d+\.?\d*)/): number {
   let result: number = NaN;
   if (text && text.match) {
     const match: RegExpMatchArray | null = text.match(reg);
@@ -20,8 +20,10 @@ export function getText(el: Element): string {
   if (el) {
     let text: string = el.innerHTML;
     if (text) {
-      text = text.replace(/<script>.*<\/script>/g, " ");
-      text = text.replace(/<[^>]*>/g, " ");
+      text = text.replace(/<script>.*<\/script>/gi, " ");
+      text = text.replace(/<[^>]*>/gi, " ");
+      text = text.replace(/\n/gi, " ");
+      text = text.replace(/\s+/gi, " ");
       return text.trim();
     }
   }

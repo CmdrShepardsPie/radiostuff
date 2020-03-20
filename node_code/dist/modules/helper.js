@@ -6,7 +6,7 @@ function getTextOrNumber(el) {
     return !isNaN(num) ? num : value;
 }
 exports.getTextOrNumber = getTextOrNumber;
-function getNumber(text, reg = /^([\-+]?\d+\.?\d*)$/) {
+function getNumber(text, reg = /^([\-+]?\d+\.?\d*)/) {
     let result = NaN;
     if (text && text.match) {
         const match = text.match(reg);
@@ -22,8 +22,10 @@ function getText(el) {
     if (el) {
         let text = el.innerHTML;
         if (text) {
-            text = text.replace(/<script>.*<\/script>/g, " ");
-            text = text.replace(/<[^>]*>/g, " ");
+            text = text.replace(/<script>.*<\/script>/gi, " ");
+            text = text.replace(/<[^>]*>/gi, " ");
+            text = text.replace(/\n/gi, " ");
+            text = text.replace(/\s+/gi, " ");
             return text.trim();
         }
     }
