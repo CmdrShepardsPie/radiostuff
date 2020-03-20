@@ -3,6 +3,7 @@ export default class Scraper {
     private location;
     private distance;
     private data;
+    private cacheStart;
     private readonly url;
     constructor(location: string | number, distance: number);
     process(): Promise<IRepeaterRaw[]>;

@@ -1,4 +1,4 @@
-import { dirExists, makeDirs, readFileAsync, writeFileAsync } from "@helpers/fs-helpers";
+import {dirExists, makeDirs, readFileAsync, statAsync, writeFileAsync} from "@helpers/fs-helpers";
 import { wait } from "@helpers/helpers";
 import { createOut } from "@helpers/log-helpers";
 import { IRepeaterRaw } from "@interfaces/i-repeater-raw";
@@ -6,12 +6,15 @@ import Axios, { AxiosResponse } from "axios";
 import chalk from "chalk";
 import { JSDOM } from "jsdom";
 import { getNumber, getText, getTextOrNumber } from "./helper";
+import {Stats} from "fs";
 
 const { log, write }: { log: (...msg: any[]) => void; write: (...msg: any[]) => void } = createOut("Scraper");
 // const write = createWrite("Scraper");
 
 export default class Scraper {
   private data: IRepeaterRaw[] = [];
+  private cacheStart: number = Date.now();
+
   private readonly url: string;
 
   constructor(private location: string | number, private distance: number) {
@@ -106,6 +109,11 @@ export default class Scraper {
   private async getCache(key: string): Promise<string | undefined> {
     const file: string = `../data/repeaters/_cache/${key}`;
     if (await dirExists(file)) {
+      const stat: Stats = await statAsync(file);
+      const diff: number = (this.cacheStart - stat.mtimeMs) / 1000 / 60 / 60;
+      if (diff >= 1) {
+        return;
+      }
       return (await readFileAsync(file)).toString();
     }
   }
