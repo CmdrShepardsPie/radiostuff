@@ -5,9 +5,10 @@ var __importDefault = (this && this.__importDefault) || function (mod) {
 Object.defineProperty(exports, "__esModule", { value: true });
 const log_helpers_1 = require("@helpers/log-helpers");
 const chalk_1 = __importDefault(require("chalk"));
-const log = log_helpers_1.createLog("Helpers");
+const { log, write } = log_helpers_1.createOut("Helpers");
 function wait(ms, fn) {
-    log(chalk_1.default.green("Wait"), ms);
+    // log(chalk.green("Wait"), ms);
+    write(`(${Math.round(ms / 1000)})`);
     return new Promise((resolve, reject) => {
         setTimeout(async () => {
             try {

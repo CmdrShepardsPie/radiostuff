@@ -1,10 +1,11 @@
-import { createLog } from "@helpers/log-helpers";
+import { createLog, createOut } from "@helpers/log-helpers";
 import chalk from "chalk";
 
-const log: (...msg: any[]) => void = createLog("Helpers");
+const { log, write }: { log: (...msg: any[]) => void; write: (...msg: any[]) => void } = createOut("Helpers");
 
 export function wait<T = void>(ms: number, fn?: () => (T | Promise<T>)): Promise<T> {
-  log(chalk.green("Wait"), ms);
+  // log(chalk.green("Wait"), ms);
+  write(`(${Math.round(ms / 1000)})`);
   return new Promise((resolve: (value?: (Promise<T> | T)) => void, reject: (reason?: any) => void): void => {
     setTimeout(async () => {
       try {

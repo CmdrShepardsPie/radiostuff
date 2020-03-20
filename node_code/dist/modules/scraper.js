@@ -105,7 +105,7 @@ class Scraper {
         if (await fs_helpers_1.dirExists(file)) {
             const stat = await fs_helpers_1.statAsync(file);
             const diff = (cacheStart - stat.mtimeMs) / 1000 / 60 / 60;
-            write(` ${diff.toFixed(1)} `);
+            write(`[${Math.floor(diff)}]`);
             if (diff >= cacheAge) {
                 return;
             }
@@ -118,7 +118,6 @@ class Scraper {
         return fs_helpers_1.writeFileAsync(file, value);
     }
     async getUrl(url, cacheKey, cacheAge) {
-        write(" ");
         // log(chalk.green("Get URL"), url, cacheKey);
         const cache = await this.getCache(cacheKey || url, cacheAge || 24);
         if (cache) {
@@ -129,9 +128,9 @@ class Scraper {
         else {
             // Slow down the requests a little bit so we"re not hammering the server or triggering any anti-bot or DDoS protections
             const waitTime = (5000 + (Math.random() * 10000));
+            write("=");
             await helpers_1.wait(waitTime);
             // log(chalk.yellow("Get"), url);
-            write("=");
             const request = await axios_1.default.get(url);
             // log(chalk.green("Got"), url);
             write(">");
