@@ -24,16 +24,14 @@ export class Adms400 implements IAdms400 {
   "Transmit Frequency": number = 144;
   "Offset Frequency": Adms400OffsetFrequency = Adms400OffsetFrequency.None;
   "Offset Direction": Adms400OffsetDirection = Adms400OffsetDirection.Simplex;
-  // "Operating Mode": Adms400OperatingMode = Adms400OperatingMode.FM;
   "Operating Mode": Adms400OperatingMode = Adms400OperatingMode.Auto;
   Name: string = "";
-  "Show Name": Adms400ShowName = Adms400ShowName.Small;
+  "Show Name": Adms400ShowName = Adms400ShowName.Large;
   "Tone Mode": Adms400ToneMode = Adms400ToneMode.None;
   CTCSS: Adms400CtcssTone = Adms400CtcssTone.$100_0_Hz;
   DCS: Adms400DcsTone = Adms400DcsTone.$023;
   "Tx Power": Adms400TxPower = Adms400TxPower.Low;
   Skip: Adms400Skip = Adms400Skip.Off;
-  // Step: Adms400Step = Adms400Step.$5_khz;
   Step: Adms400Step = Adms400Step.Auto;
   "Clock Shift": Adms400ClockShift = Adms400ClockShift.Off;
   Comment: string = "";
