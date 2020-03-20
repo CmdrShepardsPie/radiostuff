@@ -45,9 +45,9 @@ class Scraper {
                     cells.forEach((td, index) => { data[headers[index]] = helper_1.getTextOrNumber(td); });
                     const link = cells[0].querySelector("a");
                     if (link) {
-                        write("^");
+                        // write("^");
                         Object.assign(data, await this.getRepeaterDetails(link.href));
-                        write("_");
+                        // write("_");
                     }
                     this.data.push(data);
                 }
@@ -105,8 +105,8 @@ class Scraper {
         if (await fs_helpers_1.dirExists(file)) {
             const stat = await fs_helpers_1.statAsync(file);
             const diff = (cacheStart - stat.mtimeMs) / 1000 / 60 / 60;
+            write(` ${diff.toFixed(1)} `);
             if (diff >= cacheAge) {
-                write("X");
                 return;
             }
             return (await fs_helpers_1.readFileAsync(file)).toString();
@@ -118,6 +118,7 @@ class Scraper {
         return fs_helpers_1.writeFileAsync(file, value);
     }
     async getUrl(url, cacheKey, cacheAge) {
+        write(" ");
         // log(chalk.green("Get URL"), url, cacheKey);
         const cache = await this.getCache(cacheKey || url, cacheAge || 24);
         if (cache) {
@@ -130,6 +131,7 @@ class Scraper {
             const waitTime = (5000 + (Math.random() * 10000));
             await helpers_1.wait(waitTime);
             // log(chalk.yellow("Get"), url);
+            write("=");
             const request = await axios_1.default.get(url);
             // log(chalk.green("Got"), url);
             write(">");
