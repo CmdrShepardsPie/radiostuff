@@ -1,4 +1,4 @@
-import {dirExists, makeDirs, readFileAsync, statAsync, writeFileAsync} from "@helpers/fs-helpers";
+import { dirExists, makeDirs, readFileAsync, statAsync, writeFileAsync } from "@helpers/fs-helpers";
 import { wait } from "@helpers/helpers";
 import { createOut } from "@helpers/log-helpers";
 import { IRepeaterRaw } from "@interfaces/i-repeater-raw";
@@ -6,14 +6,15 @@ import Axios, { AxiosResponse } from "axios";
 import chalk from "chalk";
 import { JSDOM } from "jsdom";
 import { getNumber, getText, getTextOrNumber } from "./helper";
-import {Stats} from "fs";
+import { Stats } from "fs";
 
 const { log, write }: { log: (...msg: any[]) => void; write: (...msg: any[]) => void } = createOut("Scraper");
 // const write = createWrite("Scraper");
 
+const cacheStart: number = Date.now();
+
 export default class Scraper {
   private data: IRepeaterRaw[] = [];
-  private cacheStart: number = Date.now();
 
   private readonly url: string;
 
@@ -27,7 +28,7 @@ export default class Scraper {
 
     const parts: string[] = this.location.toString().split(`,`);
     const baseKey: string = `${(parts[1] || ".").trim()}/${parts[0].trim()}.html`;
-    const page: string = await this.getUrl(this.url, baseKey);
+    const page: string = await this.getUrl(this.url, baseKey, 1);
     const dom: JSDOM = new JSDOM(page);
     await this.getRepeaterList(dom.window.document);
     return this.data;
@@ -42,11 +43,11 @@ export default class Scraper {
       const headerRow: any | undefined = rows.shift();
       if (headerRow) {
         const headerCells: HTMLTableHeaderCellElement[] = [...headerRow.querySelectorAll("th")];
-        const headers: string[] = headerCells.map((th: HTMLTableHeaderCellElement) => getText(th));
+        const headers: string[] = headerCells.map((th: HTMLTableHeaderCellElement): string => getText(th));
         for (const row of rows) {
           const data: { [key: string]: string | number | undefined } = {};
           const cells: HTMLTableDataCellElement[] = [...row.querySelectorAll("td")];
-          cells.forEach((td: HTMLTableDataCellElement, index: number) => data[headers[index]] = getTextOrNumber(td));
+          cells.forEach((td: HTMLTableDataCellElement, index: number): void => { data[headers[index]] = getTextOrNumber(td); });
           const link: HTMLAnchorElement | null = cells[0].querySelector("a");
           if (link) {
             write("^");
@@ -106,12 +107,12 @@ export default class Scraper {
     return data as any as IRepeaterRaw;
   }
 
-  private async getCache(key: string): Promise<string | undefined> {
+  private async getCache(key: string, cacheAge: number): Promise<string | undefined> {
     const file: string = `../data/repeaters/_cache/${key}`;
     if (await dirExists(file)) {
       const stat: Stats = await statAsync(file);
-      const diff: number = (this.cacheStart - stat.mtimeMs) / 1000 / 60 / 60;
-      if (diff >= 24) {
+      const diff: number = (cacheStart - stat.mtimeMs) / 1000 / 60 / 60;
+      if (diff >= cacheAge) {
         write("X");
         return;
       }
@@ -125,10 +126,10 @@ export default class Scraper {
     return writeFileAsync(file, value);
   }
 
-  private async getUrl(url: string, cacheKey?: string): Promise<string> {
+  private async getUrl(url: string, cacheKey?: string, cacheAge?: number): Promise<string> {
     // log(chalk.green("Get URL"), url, cacheKey);
 
-    const cache: string | undefined = await this.getCache(cacheKey || url);
+    const cache: string | undefined = await this.getCache(cacheKey || url, cacheAge || 24);
     if (cache) {
       // log(chalk.yellow("Cached"), url, cacheKey);
       write("<");
