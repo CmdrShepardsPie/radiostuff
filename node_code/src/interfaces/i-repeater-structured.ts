@@ -1,3 +1,8 @@
+export interface ISimplexRepeaterIntermediate {
+  Callsign: string;
+  Frequency: { Input: number; Output: number };
+}
+
 export interface IRepeaterStructured {
   ID: number;
   StateID: number;
@@ -15,23 +20,23 @@ export interface IRepeaterStructured {
 }
 
 export enum RepeaterUse {
-  Open = 'Open',
-  Closed = 'Closed',
-  Private = 'Private',
-  Other = 'Other',
+  Open = "Open",
+  Closed = "Closed",
+  Private = "Private",
+  Other = "Other",
 }
 
 export enum RepeaterStatus {
-  OnAir = 'On-Air',
-  OffAir = 'Off-Air',
-  Testing = 'Testing',
-  Unknown = 'Unknown',
-  Other = 'Other',
+  OnAir = "On-Air",
+  OffAir = "Off-Air",
+  Testing = "Testing",
+  Unknown = "Unknown",
+  Other = "Other",
 }
 
 export enum EchoLinkNodeStatus {
-  OnIdle = 'ON - IDLE',
-  NodeOffline = 'Node Offline',
+  OnIdle = "ON - IDLE",
+  NodeOffline = "Node Offline",
 }
 
 export interface IRepeaterDigitalModes {

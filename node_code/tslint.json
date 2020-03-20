@@ -5,19 +5,17 @@
     "tslint-config-standard"
   ],
   "rules": {
+    "quotemark": [
+      true,
+      "double"
+    ],
+    "variable-name": false,
     "no-console": false,
     "prefer-const": true,
     "semicolon": true,
     "max-line-length": false,
     "object-literal-sort-keys": false,
-    "trailing-comma": [
-      true,
-      {
-        "multiline": "always",
-        "singleline": "never",
-        "esSpecCompliant": true
-      }
-    ],
+    "trailing-comma": false,
     "space-before-function-paren": [
       true,
       {

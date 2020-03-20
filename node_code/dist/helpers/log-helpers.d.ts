@@ -1,4 +1,4 @@
-import { Chalk } from 'chalk';
+import { Chalk } from "chalk";
 export declare function createOut(context: string, color?: keyof Chalk): {
     log: (...msg: any[]) => void;
     write: (...msg: any[]) => void;

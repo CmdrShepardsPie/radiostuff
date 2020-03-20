@@ -1,3 +1,10 @@
+export interface ISimplexRepeaterIntermediate {
+    Callsign: string;
+    Frequency: {
+        Input: number;
+        Output: number;
+    };
+}
 export interface IRepeaterStructured {
     ID: number;
     StateID: number;

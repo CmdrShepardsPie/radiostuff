@@ -1,5 +1,5 @@
 /// <reference types="node" />
-import { Stats } from 'fs';
+import { Stats } from "fs";
 export declare const existsAsync: (path: string) => Promise<boolean>;
 export declare const mkdirAsync: (path: string) => Promise<void>;
 export declare const readFileAsync: (path: string | number) => Promise<Buffer>;

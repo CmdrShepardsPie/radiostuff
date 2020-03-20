@@ -1,4 +1,4 @@
-declare module 'gps-distance' {
+declare module "gps-distance" {
     namespace gpsDistance {
         type Point = [number, number];
     }

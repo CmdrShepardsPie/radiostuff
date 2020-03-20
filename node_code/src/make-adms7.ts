@@ -1,31 +1,31 @@
-import 'module-alias/register';
+import "module-alias/register";
 
-import { readFileAsync, writeToJsonAndCsv } from '@helpers/fs-helpers';
-import { createLog } from '@helpers/log-helpers';
-import { IRepeaterStructured, RepeaterStatus, RepeaterUse } from '@interfaces/i-repeater-structured';
-import { ISimplexFrequency } from '@interfaces/i-simplex-frequency';
-import { IAdms7, Adms7Direction, Adms7Mode, Adms7ToneMode } from '@interfaces/i-Adms7';
-import gpsDistance, { Point } from 'gps-distance';
+import { readFileAsync, writeToJsonAndCsv } from "@helpers/fs-helpers";
+import { createLog } from "@helpers/log-helpers";
+import { IRepeaterStructured, RepeaterStatus, RepeaterUse } from "@interfaces/i-repeater-structured";
+import { ISimplexFrequency } from "@interfaces/i-simplex-frequency";
+import { Adms7Direction, Adms7Mode, Adms7ToneMode, IAdms7 } from "@interfaces/i-adms7";
+import gpsDistance, { Point } from "gps-distance";
 
-const log: (...msg: any[]) => void = createLog('Make Adms7');
+const log: (...msg: any[]) => void = createLog("Make Adms7");
 
 const Adms7: IAdms7 = {
   Number: null as any,
-  Receive: '',
-  Transmit: '',
+  Receive: "",
+  Transmit: "",
   Offset: (0).toFixed(5),
-  Direction: 'OFF',
-  Mode: 'FM',
-  Name: '',
-  ToneMode: 'OFF',
-  CTCSS: '100 Hz',
-  DCS: '023',
-  UserCTCSS: '1500 Hz',
-  Power: 'HIGH',
-  Skip: 'OFF',
-  Step: '25.0KHz',
+  Direction: "OFF",
+  Mode: "FM",
+  Name: "",
+  ToneMode: "OFF",
+  CTCSS: "100 Hz",
+  DCS: "023",
+  UserCTCSS: "1500 Hz",
+  Power: "HIGH",
+  Skip: "OFF",
+  Step: "25.0KHz",
   ClockShift: 0,
-  Comment: '',
+  Comment: "",
   Bank: 0,
 };
 
@@ -33,7 +33,7 @@ const myPoint: Point = [39.627071500, -104.893322500]; // 4982 S Ulster St
 
 async function doIt(inFileName: string, outFileName: string): Promise<void> {
   const simplex: IRepeaterStructured[] =
-    JSON.parse((await readFileAsync('../data/frequencies.json')).toString())
+    JSON.parse((await readFileAsync("../data/frequencies.json")).toString())
       .map((map: ISimplexFrequency) =>
         ({ Callsign: map.Name, Frequency: { Output: map.Frequency, Input: map.Frequency } }))
       .filter((filter: IRepeaterStructured) => /FM|Voice|Simplex/i.test(filter.Callsign));
@@ -70,53 +70,53 @@ async function doIt(inFileName: string, outFileName: string): Promise<void> {
 }
 
 function convertToRadio(repeater: IRepeaterStructured): IAdms7 {
-  let Name: string = '';
+  let Name: string = "";
 
   if (repeater.Callsign) {
     Name += repeater.Callsign.trim();
   }
 
   if (repeater.Location && repeater.Location.Local) {
-    Name += (Name ? ' ' : '') + repeater.Location.Local.trim();
+    Name += (Name ? " " : "") + repeater.Location.Local.trim();
   }
 
   if (repeater.Frequency && repeater.Frequency.Output) {
-    Name += (Name ? ' ' : '') + repeater.Frequency.Output.toString().trim();
+    Name += (Name ? " " : "") + repeater.Frequency.Output.toString().trim();
   }
 
-  Name = Name.replace(/[^0-9.a-zA-Z \/]/g, '').trim();
-  Name = Name.replace(/[ ]+/g, ' ').trim();
+  Name = Name.replace(/[^0-9.a-zA-Z \/]/g, "").trim();
+  Name = Name.replace(/[ ]+/g, " ").trim();
   Name = Name.substr(0, 8).trim();
 
   const Receive: string = repeater.Frequency.Output.toFixed(5);
   const Transmit: string = repeater.Frequency.Input.toFixed(5);
   const OffsetNumber: number = repeater.Frequency.Input - repeater.Frequency.Output;
-  const Direction: Adms7Direction = OffsetNumber > 0 ? '+RPT' : OffsetNumber < 0 ? '-RPT' : 'OFF';
+  const Direction: Adms7Direction = OffsetNumber > 0 ? "+RPT" : OffsetNumber < 0 ? "-RPT" : "OFF";
   const Offset: string = Math.abs(Math.round(OffsetNumber * 100) / 100).toFixed(5);
   const TransmitSquelchTone: number | undefined = (repeater.SquelchTone && repeater.SquelchTone.Input);
   const ReceiveSquelchTone: number | undefined = (repeater.SquelchTone && repeater.SquelchTone.Output);
   const TransmitDigitalTone: number | undefined = (repeater.DigitalTone && repeater.DigitalTone.Input);
   const ReceiveDigitalTone: number | undefined = (repeater.DigitalTone && repeater.DigitalTone.Output);
-  let ToneMode: Adms7ToneMode = 'OFF';
-  const Mode: Adms7Mode = 'FM';
+  let ToneMode: Adms7ToneMode = "OFF";
+  const Mode: Adms7Mode = "FM";
   let Comment: string = `${repeater.StateID} ${repeater.ID} ${repeater.Location && repeater.Location.Distance && repeater.Location.Distance.toFixed(2)} ${repeater.Location && repeater.Location.State} ${repeater.Location && repeater.Location.County} ${repeater.Location && repeater.Location.Local} ${repeater.Callsign}`;
-  Comment = Comment.replace(/undefined/g, ' ').replace(/\s+/g, ' ').trim();
+  Comment = Comment.replace(/undefined/g, " ").replace(/\s+/g, " ").trim();
 
   if (TransmitSquelchTone) {
-    ToneMode = 'TONE ENC';
+    ToneMode = "TONE ENC";
   } else if (TransmitDigitalTone) {
-    ToneMode = 'DCS';
+    ToneMode = "DCS";
   }
 
   if (TransmitSquelchTone && ReceiveSquelchTone && TransmitSquelchTone === ReceiveSquelchTone) {
-    ToneMode = 'TONE SQL';
+    ToneMode = "TONE SQL";
   } else if (TransmitDigitalTone && ReceiveDigitalTone && TransmitDigitalTone === ReceiveDigitalTone) {
-    ToneMode = 'DCS';
+    ToneMode = "DCS";
   }
 
-  const CTCSS: string = (TransmitSquelchTone || 100).toFixed(1) + ' Hz';
+  const CTCSS: string = (TransmitSquelchTone || 100).toFixed(1) + " Hz";
   const DCSNumber: number = (TransmitDigitalTone || 23);
-  const DCS: string = DCSNumber < 100 ? '0' + DCSNumber : '' + DCSNumber;
+  const DCS: string = DCSNumber < 100 ? "0" + DCSNumber : "" + DCSNumber;
 
   return {
     ...Adms7,
@@ -147,8 +147,8 @@ async function start(): Promise<void> {
 
 // await doIt("data/repeaters/groups/CO/Colorado Springs - Call.json", "data/repeaters/Adms7/groups/CO/Colorado Springs - Call");
 // await doIt("data/repeaters/results/CO/Colorado Springs.json", "data/repeaters/Adms7/CO/Colorado Springs");
-  await doIt('../data/repeaters/converted/CO.json', '../data/repeaters/adms7/CO');
-  // await doIt('../data/repeaters/groups/combined/CO - Call.json', '../data/repeaters/Adms7/groups/CO - Call');
+  await doIt("../data/repeaters/converted/CO.json", "../data/repeaters/adms7/CO");
+  // await doIt("../data/repeaters/groups/combined/CO - Call.json", "../data/repeaters/Adms7/groups/CO - Call");
 }
 
 export default start();

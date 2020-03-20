@@ -1,9 +1,8 @@
-import 'module-alias/register';
+import "module-alias/register";
 
-import { writeFileAsync } from '@helpers/fs-helpers';
-import { powAndFix } from '@helpers/numbers';
-import { IInputFrequency } from '@interfaces/i-input-frequency';
-import { IRepeaterRaw } from '@interfaces/i-repeater-raw';
+import { writeFileAsync } from "@helpers/fs-helpers";
+import { powAndFix } from "@helpers/numbers";
+import { IInputFrequency } from "@interfaces/i-input-frequency";
 
 const range2m: IInputFrequency[] = [
   // Channels
@@ -57,7 +56,7 @@ const points: number = 5;
       if (!existingFrequencies[frequency]) {
         frequencies.push(definition);
         existingFrequencies[frequency] = true;
-        console.log('step', step, 'start', start, 'end', end, 'i', i, 'frequency', frequency);
+        console.log("step", step, "start", start, "end", end, "i", i, "frequency", frequency);
       }
     }
   });
@@ -66,4 +65,5 @@ frequencies = frequencies.sort(
   (a: IOutputFrequency, b: IOutputFrequency) => (a.Frequency || 0) - (b.Frequency || 0));
 writeFileAsync(`../data/frequencies.json`, JSON.stringify(frequencies, null, 2))
   // tslint:disable-next-line:no-empty
-  .then((r: unknown) => {});
+  .then((r: unknown) => {
+  });

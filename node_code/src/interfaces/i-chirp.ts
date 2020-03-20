@@ -9,12 +9,12 @@ export interface IChirp {
   cToneFreq: number;
   DtcsCode: number;
   DtcsRxCode: number;
-  DtcsPolarity: 'NN';
+  DtcsPolarity: "NN";
   Mode: ChirpMode;
   TStep: number;
   Comment: string;
 }
 
-export type ChirpDuplex = '' | '+' | '-';
-export type ChirpTone = '' | 'Tone' | 'DTCS' | 'TSQL' | 'Cross';
-export type ChirpMode = 'FM' | 'NFM';
+export type ChirpDuplex = "" | "+" | "-";
+export type ChirpTone = "" | "Tone" | "DTCS" | "TSQL" | "Cross";
+export type ChirpMode = "FM" | "NFM";

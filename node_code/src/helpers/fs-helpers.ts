@@ -1,12 +1,12 @@
-import { fillArrayObjects, stringifyAsync } from '@helpers/csv-helpers';
-import { flattenObject } from '@helpers/helpers';
-import { createLog } from '@helpers/log-helpers';
-import chalk from 'chalk';
-import fs, { Stats } from 'fs';
-import path from 'path';
-import { promisify } from 'util';
+import { fillArrayObjects, stringifyAsync } from "@helpers/csv-helpers";
+import { flattenObject } from "@helpers/helpers";
+import { createLog } from "@helpers/log-helpers";
+import chalk from "chalk";
+import fs, { Stats } from "fs";
+import path from "path";
+import { promisify } from "util";
 
-const log: (...msg: any[]) => void = createLog('FS Helpers');
+const log: (...msg: any[]) => void = createLog("FS Helpers");
 
 export const existsAsync: (path: string) => Promise<boolean> = promisify(fs.exists);
 export const mkdirAsync: (path: string) => Promise<void> = promisify(fs.mkdir);
@@ -16,11 +16,11 @@ export const writeFileAsync: (path: string | number, data: any) => Promise<void>
 export const statAsync: (arg1: string) => Promise<Stats> = promisify(fs.stat);
 
 export async function makeDirs(filePath: string): Promise<void> {
-  log(chalk.green('Make Dirs'), filePath);
+  log(chalk.green("Make Dirs"), filePath);
 
   let tempPath: string = `.`;
   for (const dir of filePath.split(/[/\\]/)) {
-    if (/\./.test(dir)) {
+    if (/\w+\.\w+$/.test(dir)) {
       break;
     }
     tempPath = path.join(tempPath, dir);
@@ -58,24 +58,22 @@ export async function writeToJsonAndCsv(filename: string, jsonData: any[], csvDa
   await makeDirs(jsonName);
   await writeFileAsync(jsonName, jsonString);
 
-  const csvPrep: object[] = Array.isArray(csvData) ?
-    fillArrayObjects(csvData.map((r: any) => flattenObject(r))) :
-    [flattenObject(csvData)];
+  const csvPrep: object[] = Array.isArray(csvData) ? fillArrayObjects(csvData.map((r: any): any => flattenObject(r))) : [flattenObject(csvData)];
   const csvString: string = await stringifyAsync(csvPrep, { header });
   const csvName: string = `${filename}.csv`;
   await writeFileAsync(csvName, csvString);
 }
 
 export function splitExtension(filename: string): { ext: string; name: string } {
-  log(chalk.green('Split Extension'), filename);
+  log(chalk.green("Split Extension"), filename);
 
-  const name: string = filename.substring(0, filename.lastIndexOf('.'));
-  const ext: string = filename.substring(filename.lastIndexOf('.') + 1);
+  const name: string = filename.substring(0, filename.lastIndexOf("."));
+  const ext: string = filename.substring(filename.lastIndexOf(".") + 1);
   return { name, ext };
 }
 
 export async function getAllFilesFromDirectory<T>(directory: string): Promise<T[]> {
-  log(chalk.green('Get All Files from Directory'), directory);
+  log(chalk.green("Get All Files from Directory"), directory);
 
   const files: any[] = [];
   const fileNames: string[] = await readdirAsync(directory);

@@ -1,18 +1,18 @@
-import 'module-alias/register';
+import "module-alias/register";
 
-import { parseAsync } from '@helpers/csv-helpers';
-import { readFileAsync, writeToJsonAndCsv } from '@helpers/fs-helpers';
-import { numberToString } from '@helpers/helpers';
-import { createLog } from '@helpers/log-helpers';
-import { ICountySeat } from '@interfaces/i-county-seat';
-import { IRepeaterRaw } from '@interfaces/i-repeater-raw';
-import chalk from 'chalk';
-import Scraper from './modules/scraper';
+import { parseAsync } from "@helpers/csv-helpers";
+import { readFileAsync, writeToJsonAndCsv } from "@helpers/fs-helpers";
+import { numberToString } from "@helpers/helpers";
+import { createLog } from "@helpers/log-helpers";
+import { ICountySeat } from "@interfaces/i-county-seat";
+import { IRepeaterRaw } from "@interfaces/i-repeater-raw";
+import chalk from "chalk";
+import Scraper from "./modules/scraper";
 
-const log: (...msg: any[]) => void = createLog('Get Repeaters');
+const log: (...msg: any[]) => void = createLog("Get Repeaters");
 
 async function save(place: string | number, distance: number): Promise<void> {
-  log(chalk.green('Save'), place, distance);
+  log(chalk.green("Save"), place, distance);
 
   const scraper: Scraper = new Scraper(place, distance);
 
@@ -37,9 +37,9 @@ async function save(place: string | number, distance: number): Promise<void> {
     Object.entries(row).forEach((entry: [string, (string | number | undefined)]) => {
       const key: keyof IRepeaterRaw = entry[0] as keyof IRepeaterRaw;
       const value: string | number | undefined = entry[1];
-      if (columns[key]!.length === 1 && columns[key]![0] === '' && value === '') {
+      if (columns[key]!.length === 1 && columns[key]![0] === "" && value === "") {
         // @ts-ignore
-        row[key] = 'yes';
+        row[key] = "yes";
       }
     });
   });
@@ -62,17 +62,17 @@ async function save(place: string | number, distance: number): Promise<void> {
   // console.log(place, distance, result.length);
 
   const parts: string[] = place.toString().split(`,`);
-  const subPlace: string = `${(parts[1] || '.').trim()}/${parts[0].trim()}`;
+  const subPlace: string = `${(parts[1] || ".").trim()}/${parts[0].trim()}`;
 
-  log(chalk.yellow('Results'), result.length, subPlace);
+  log(chalk.yellow("Results"), result.length, subPlace);
 
   await writeToJsonAndCsv(`../data/repeaters/results/${subPlace}`, result);
 }
 
 export default (async (): Promise<void> => {
-  const countyFileData: Buffer = await readFileAsync('../data/Colorado_County_Seats.csv');
+  const countyFileData: Buffer = await readFileAsync("../data/Colorado_County_Seats.csv");
   const countyData: ICountySeat[] = await parseAsync(countyFileData, { columns: true });
-  const cities: string[] = countyData.map((c: ICountySeat) => `${c['County Seat']}, CO`);
+  const cities: string[] = countyData.map((c: ICountySeat) => `${c["County Seat"]}, CO`);
   while (cities.length) {
     const name: string | undefined = cities.shift();
     if (name) {

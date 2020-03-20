@@ -1,4 +1,4 @@
-import { IRepeaterRaw } from '@interfaces/i-repeater-raw';
+import { IRepeaterRaw } from "@interfaces/i-repeater-raw";
 export default class Scraper {
     private location;
     private distance;

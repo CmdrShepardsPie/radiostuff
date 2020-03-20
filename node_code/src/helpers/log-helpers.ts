@@ -1,16 +1,16 @@
-import chalk, { Chalk } from 'chalk';
+import chalk, { Chalk } from "chalk";
 
 let lastMessageInline: boolean = false;
 let lastContext: string;
 
-const bgColors: Array<keyof Chalk> = [
+const bgColors: (keyof Chalk)[] = [
   // "bgBlack",
-  'bgRed',
-  'bgGreen',
-  'bgYellow',
-  'bgBlue',
-  'bgMagenta',
-  'bgCyan',
+  "bgRed",
+  "bgGreen",
+  "bgYellow",
+  "bgBlue",
+  "bgMagenta",
+  "bgCyan",
   // "bgWhite",
   // "bgBlackBright",
   // "bgRedBright",
@@ -76,13 +76,13 @@ export function createWrite(context: string, color?: keyof Chalk): (...msg: any[
 
   return (...msg: any[]): void => {
     if (!lastMessageInline) {
-      process.stdout.write(chalkColorFn(`${context}:`) + ' ');
+      process.stdout.write(chalkColorFn(`${context}:`) + " ");
     }
     if (lastMessageInline && lastContext !== context) {
       createEmptyLine();
-      process.stdout.write(chalkColorFn(`${context}:`) + ' ');
+      process.stdout.write(chalkColorFn(`${context}:`) + " ");
     }
-    process.stdout.write(msg.join(' '));
+    process.stdout.write(msg.join(" "));
     lastMessageInline = true;
     lastContext = context;
   };
@@ -107,14 +107,14 @@ function prepIfJson(t: any): Error | string {
   if (t instanceof Error) {
     return t;
   }
-  if (typeof t === 'string') {
+  if (typeof t === "string") {
     try {
       t = JSON.parse(t);
     } catch (e) {
       /* no empty */
     }
   }
-  if (typeof t === 'object') {
+  if (typeof t === "object") {
     try {
       t = JSON.stringify(t, null, 4);
       t = colorizeJsonString(t);
@@ -129,15 +129,15 @@ function colorizeJsonString(json: string): string {
   // Strings
   json = json.replace(
     /(\s+)("[^"]*")(,?[\r\n])/gi,
-    `$1${chalk.yellow('$2')}$3`,
+    `$1${chalk.yellow("$2")}$3`,
   );
   // booleans, numbers, etc.
   json = json.replace(
     /(\s+)([^"[{\]}][^[\]{}"\n\r,]*)(,?[\r\n])/gi,
-    `$1${chalk.cyan('$2')}$3`,
+    `$1${chalk.cyan("$2")}$3`,
   );
   // Keys
-  json = json.replace(/("[^"]*"):/gi, `${chalk.magenta('$1')}:`);
+  json = json.replace(/("[^"]*"):/gi, `${chalk.magenta("$1")}:`);
   return json;
 }
 
