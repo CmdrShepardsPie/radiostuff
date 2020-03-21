@@ -4723,8 +4723,8 @@
     "StateID": 20,
     "Callsign": "NW0K",
     "Location": {
-      "Latitude": 39.3915,
-      "Longitude": -101.074,
+      "Latitude": 39.39149857,
+      "Longitude": -101.0739975,
       "County": "Thomas",
       "State": "KS",
       "Local": "Colby"
@@ -5506,8 +5506,8 @@
     "StateID": 31,
     "Callsign": "N2VHZ",
     "Location": {
-      "Latitude": 42.093,
-      "Longitude": -102.87,
+      "Latitude": 42.0929985,
+      "Longitude": -102.87000275,
       "County": "Box Butte",
       "State": "NE",
       "Local": "Alliance"
@@ -5689,7 +5689,7 @@
     "StateID": 31,
     "Callsign": "N7UVW",
     "Location": {
-      "Latitude": 40.1967,
+      "Latitude": 40.19670105,
       "Longitude": -100.625,
       "County": "Red Willow",
       "State": "NE",
@@ -6149,8 +6149,8 @@
     "StateID": 31,
     "Callsign": "N0IQ",
     "Location": {
-      "Latitude": 41.1403,
-      "Longitude": -100.76,
+      "Latitude": 41.14030075,
+      "Longitude": -100.76000214,
       "County": "Lincoln",
       "State": "NE",
       "Local": "North Platte"
@@ -6207,8 +6207,8 @@
     "StateID": 31,
     "Callsign": "N0UGO",
     "Location": {
-      "Latitude": 41.1403,
-      "Longitude": -100.76,
+      "Latitude": 41.14030075,
+      "Longitude": -100.76000214,
       "County": "Lincoln",
       "State": "NE",
       "Local": "North Platte"
@@ -6236,8 +6236,8 @@
     "StateID": 31,
     "Callsign": "N0UGO",
     "Location": {
-      "Latitude": 41.1403,
-      "Longitude": -100.76,
+      "Latitude": 41.14030075,
+      "Longitude": -100.76000214,
       "County": "Lincoln",
       "State": "NE",
       "Local": "North Platte"
@@ -7125,8 +7125,8 @@
     "StateID": 20,
     "Callsign": "WA0OQA",
     "Location": {
-      "Latitude": 38.4846,
-      "Longitude": -100.979,
+      "Latitude": 38.48460007,
+      "Longitude": -100.97899628,
       "County": "Scott",
       "State": "KS",
       "Local": "Scott City"
@@ -7440,8 +7440,8 @@
     "StateID": 20,
     "Callsign": "N0KOM",
     "Location": {
-      "Latitude": 39.573,
-      "Longitude": -99.986,
+      "Latitude": 39.57300186,
+      "Longitude": -99.98600006,
       "County": "Norton",
       "State": "KS",
       "Local": "Lenora, K-Link"
@@ -7552,8 +7552,8 @@
     "StateID": 31,
     "Callsign": "KD0AN",
     "Location": {
-      "Latitude": 40.2771,
-      "Longitude": -99.7767,
+      "Latitude": 40.27709961,
+      "Longitude": -99.77670288,
       "County": "Furnas",
       "State": "NE",
       "Local": "Edison"
@@ -7841,8 +7841,8 @@
     "StateID": 20,
     "Callsign": "K0ECT",
     "Location": {
-      "Latitude": 38.164,
-      "Longitude": -100.801,
+      "Latitude": 38.16400146,
+      "Longitude": -100.8010025,
       "County": "Finney",
       "State": "KS",
       "Local": "Garden City, Tennis"
@@ -8125,8 +8125,8 @@
     "StateID": 8,
     "Callsign": "KZ0DEM",
     "Location": {
-      "Latitude": 37.4083,
-      "Longitude": -102.614,
+      "Latitude": 37.40829849,
+      "Longitude": -102.61399841,
       "County": "Baca",
       "State": "CO",
       "Local": "Springfield"
@@ -8177,8 +8177,8 @@
     "StateID": 8,
     "Callsign": "KZ0DEM",
     "Location": {
-      "Latitude": 37.4083,
-      "Longitude": -102.614,
+      "Latitude": 37.40829849,
+      "Longitude": -102.61399841,
       "County": "Baca",
       "State": "CO",
       "Local": "Springfield"
@@ -8253,8 +8253,8 @@
     "StateID": 20,
     "Callsign": "WA0OQA",
     "Location": {
-      "Latitude": 37.9717,
-      "Longitude": -100.873,
+      "Latitude": 37.97169876,
+      "Longitude": -100.8730011,
       "County": "Finney",
       "State": "KS",
       "Local": "Garden City"
@@ -9410,8 +9410,8 @@
     "StateID": 35,
     "Callsign": "KE8AVN",
     "Location": {
-      "Latitude": 35.88,
-      "Longitude": -106.303,
+      "Latitude": 35.88000107,
+      "Longitude": -106.3030014,
       "County": "Los Alamos",
       "State": "NM",
       "Local": "Los Alamos"
@@ -9543,8 +9543,8 @@
     "StateID": 35,
     "Callsign": "W5SF",
     "Location": {
-      "Latitude": 35.8877,
-      "Longitude": -106.4,
+      "Latitude": 35.88669968,
+      "Longitude": -106.39499664,
       "County": "Los Alamos",
       "State": "NM",
       "Local": "Los Alamos, Pajarito Mountain"
@@ -9555,10 +9555,9 @@
       "Input": 144.59,
       "Output": 145.19
     },
-    "Digital": {
-      "DStar": {
-        "Node": "W5SF (C) Repeater"
-      }
+    "SquelchTone": {
+      "Input": 162.2,
+      "Output": 162.2
     }
   },
   {
@@ -9631,8 +9630,8 @@
     "StateID": 35,
     "Callsign": "NM5EM",
     "Location": {
-      "Latitude": 35.984,
-      "Longitude": -104.901,
+      "Latitude": 35.98400116,
+      "Longitude": -104.90100098,
       "County": "Mora",
       "State": "NM",
       "Local": "Wagon Mound, Turkey Mtn"
@@ -9962,8 +9961,8 @@
     "StateID": 35,
     "Callsign": "W5SF",
     "Location": {
-      "Latitude": 35.687,
-      "Longitude": -105.938,
+      "Latitude": 35.68700027,
+      "Longitude": -105.93800354,
       "County": "Santa Fe",
       "State": "NM",
       "Local": "Santa Fe"
@@ -10032,8 +10031,8 @@
     "StateID": 35,
     "Callsign": "W5SF",
     "Location": {
-      "Latitude": 35.6593,
-      "Longitude": -105.945,
+      "Latitude": 35.65930176,
+      "Longitude": -105.94499969,
       "County": "Santa Fe",
       "State": "NM",
       "Local": "Santa Fe, St Vincent Hospital"
@@ -10137,8 +10136,8 @@
     "StateID": 35,
     "Callsign": "K9GAJ",
     "Location": {
-      "Latitude": 35.651,
-      "Longitude": -105.992,
+      "Latitude": 35.65100098,
+      "Longitude": -105.99199677,
       "County": "Santa Fe",
       "State": "NM",
       "Local": "Santa Fe"
@@ -11133,8 +11132,8 @@
     "StateID": 35,
     "Callsign": "WR7HLN",
     "Location": {
-      "Latitude": 35.2167,
-      "Longitude": -106.45,
+      "Latitude": 35.21670151,
+      "Longitude": -106.44999695,
       "County": "Bernalillo",
       "State": "NM",
       "Local": "Albuquerque, Sandia Crest"
@@ -11157,8 +11156,8 @@
     "StateID": 35,
     "Callsign": "KC5IPK",
     "Location": {
-      "Latitude": 35.2744,
-      "Longitude": -106.737,
+      "Latitude": 35.2743988,
+      "Longitude": -106.73699951,
       "County": "Sandoval",
       "State": "NM",
       "Local": "Rio Rancho"
@@ -11335,8 +11334,8 @@
     "StateID": 35,
     "Callsign": "K6LIE",
     "Location": {
-      "Latitude": 35.1967,
-      "Longitude": -106.51,
+      "Latitude": 35.19670105,
+      "Longitude": -106.51000214,
       "County": "Bernalillo",
       "State": "NM",
       "Local": "Albuquerque, Northeast Heights area"
@@ -11361,8 +11360,8 @@
     "StateID": 35,
     "Callsign": "K5CPU",
     "Location": {
-      "Latitude": 35.225,
-      "Longitude": -106.66,
+      "Latitude": 35.22499847,
+      "Longitude": -106.66000366,
       "County": "Sandoval",
       "State": "NM",
       "Local": "Rio Rancho, Intel Corp"
@@ -11405,8 +11404,8 @@
     "StateID": 35,
     "Callsign": "K5BIQ",
     "Location": {
-      "Latitude": 35.1735,
-      "Longitude": -106.51,
+      "Latitude": 35.17350006,
+      "Longitude": -106.51000214,
       "County": "Bernalillo",
       "State": "NM",
       "Local": "Albuquerque, BCFD Fire Station 35"
@@ -11587,8 +11586,8 @@
     "StateID": 35,
     "Callsign": "K5LXP",
     "Location": {
-      "Latitude": 35.1306,
-      "Longitude": -106.498,
+      "Latitude": 35.13059998,
+      "Longitude": -106.4980011,
       "County": "Bernalillo",
       "State": "NM",
       "Local": "Albuquerque"
@@ -11652,8 +11651,8 @@
     "StateID": 35,
     "Callsign": "KD5MHQ",
     "Location": {
-      "Latitude": 35.109,
-      "Longitude": -106.542,
+      "Latitude": 35.10900116,
+      "Longitude": -106.54199982,
       "County": "Bernalillo",
       "State": "NM",
       "Local": "Albuquerque"
@@ -11694,8 +11693,8 @@
     "StateID": 35,
     "Callsign": "W5MHG",
     "Location": {
-      "Latitude": 35.0946,
-      "Longitude": -106.551,
+      "Latitude": 35.09460068,
+      "Longitude": -106.5510025,
       "County": "Bernalillo",
       "State": "NM",
       "Local": "Albuquerque"
@@ -11768,8 +11767,8 @@
     "StateID": 35,
     "Callsign": "K5BIQ",
     "Location": {
-      "Latitude": 35.053,
-      "Longitude": -106.352,
+      "Latitude": 35.0530014,
+      "Longitude": -106.35199738,
       "County": "Bernalillo",
       "State": "NM",
       "Local": "Tijeras, Cedro Peak"
@@ -11904,8 +11903,8 @@
     "StateID": 35,
     "Callsign": "K5FIQ",
     "Location": {
-      "Latitude": 35.0844,
-      "Longitude": -106.65,
+      "Latitude": 35.08440018,
+      "Longitude": -106.65000153,
       "County": "Bernalillo",
       "State": "NM",
       "Local": "Albuquerque, Northern Sandia Mountain Top"
@@ -11986,8 +11985,8 @@
     "StateID": 35,
     "Callsign": "K5FIQ",
     "Location": {
-      "Latitude": 35.0578,
-      "Longitude": -106.587,
+      "Latitude": 35.05780029,
+      "Longitude": -106.58699799,
       "County": "Bernalillo",
       "State": "NM",
       "Local": "Albuquerque, Op Ctr"
@@ -12007,8 +12006,8 @@
     "StateID": 35,
     "Callsign": "W5URR",
     "Location": {
-      "Latitude": 35.0578,
-      "Longitude": -106.587,
+      "Latitude": 35.05780029,
+      "Longitude": -106.58699799,
       "County": "Bernalillo",
       "State": "NM",
       "Local": "Albuquerque, Op Center"
@@ -12030,8 +12029,8 @@
     "StateID": 35,
     "Callsign": "K5BIQ",
     "Location": {
-      "Latitude": 35.067,
-      "Longitude": -106.701,
+      "Latitude": 35.06700134,
+      "Longitude": -106.7009964,
       "County": "Bernalillo",
       "State": "NM",
       "Local": "Albuquerque, West Mesa"
@@ -12249,8 +12248,8 @@
     "StateID": 35,
     "Callsign": "KB5VPZ",
     "Location": {
-      "Latitude": 34.8415,
-      "Longitude": -106.131,
+      "Latitude": 34.84149933,
+      "Longitude": -106.1309967,
       "County": "Torrance",
       "State": "NM",
       "Local": "McIntosh, McIntosh Post office west"
@@ -12458,8 +12457,8 @@
     "StateID": 35,
     "Callsign": "AB1Q",
     "Location": {
-      "Latitude": 34.91,
-      "Longitude": -106.7,
+      "Latitude": 34.90999985,
+      "Longitude": -106.69999695,
       "County": "Bernalillo",
       "State": "NM",
       "Local": "Albuquerque, Isleta Pueblo"
@@ -12548,8 +12547,8 @@
     "StateID": 35,
     "Callsign": "NM5EM",
     "Location": {
-      "Latitude": 34.9387,
-      "Longitude": -104.682,
+      "Latitude": 34.93870163,
+      "Longitude": -104.68199921,
       "County": "Guadalupe",
       "State": "NM",
       "Local": "Santa Rosa, Moon Ranch"
@@ -12590,8 +12589,8 @@
     "StateID": 35,
     "Callsign": "WA5VJY",
     "Location": {
-      "Latitude": 34.8061,
-      "Longitude": -106.535,
+      "Latitude": 34.80609894,
+      "Longitude": -106.53500366,
       "County": "Bernalillo",
       "State": "NM",
       "Local": "Albuquerque"
@@ -12833,8 +12832,8 @@
     "StateID": 56,
     "Callsign": "N7RON",
     "Location": {
-      "Latitude": 41.7911,
-      "Longitude": -107.239,
+      "Latitude": 41.79109955,
+      "Longitude": -107.23899841,
       "County": "Carbon",
       "State": "WY",
       "Local": "Rawlins"
@@ -12943,8 +12942,8 @@
     "StateID": 56,
     "Callsign": "K7PLA",
     "Location": {
-      "Latitude": 42.736,
-      "Longitude": -106.309,
+      "Latitude": 42.73600006,
+      "Longitude": -106.30899811,
       "County": "Natrona",
       "State": "WY",
       "Local": "Casper, Casper Mountain"
@@ -12987,8 +12986,8 @@
     "StateID": 20,
     "Callsign": "WA0OQA",
     "Location": {
-      "Latitude": 38.1028,
-      "Longitude": -100.464,
+      "Latitude": 38.10279846,
+      "Longitude": -100.46399689,
       "County": "Finney",
       "State": "KS",
       "Local": "Garden City"
@@ -13009,8 +13008,8 @@
     "StateID": 20,
     "Callsign": "K0HAM",
     "Location": {
-      "Latitude": 38.631,
-      "Longitude": -99.99,
+      "Latitude": 38.63100052,
+      "Longitude": -99.98999786,
       "County": "Ness",
       "State": "KS",
       "Local": "Ransom, K-Link"
@@ -13031,8 +13030,8 @@
     "StateID": 20,
     "Callsign": "K0ECT",
     "Location": {
-      "Latitude": 37.403,
-      "Longitude": -101.333,
+      "Latitude": 37.40299988,
+      "Longitude": -101.33300018,
       "County": "Grant",
       "State": "KS",
       "Local": "Ulysses, Wagon Bed Springs"
@@ -13075,8 +13074,8 @@
     "StateID": 20,
     "Callsign": "K0ECT",
     "Location": {
-      "Latitude": 37.5814,
-      "Longitude": -101.355,
+      "Latitude": 37.24000168,
+      "Longitude": -101.1989975,
       "County": "Grant",
       "State": "KS",
       "Local": "Ulysses"
@@ -13093,8 +13092,8 @@
     "StateID": 20,
     "Callsign": "K0ECT",
     "Location": {
-      "Latitude": 38.0533,
-      "Longitude": -99.8996,
+      "Latitude": 38.05329895,
+      "Longitude": -99.89959717,
       "County": "Hodgeman",
       "State": "KS",
       "Local": "Jetmore"
@@ -13159,8 +13158,8 @@
     "StateID": 20,
     "Callsign": "KE0KIY",
     "Location": {
-      "Latitude": 38.9425,
-      "Longitude": -99.3557,
+      "Latitude": 38.94250107,
+      "Longitude": -99.35569763,
       "County": "Ellis",
       "State": "KS",
       "Local": "Hays"
@@ -13188,14 +13187,14 @@
     "StateID": 20,
     "Callsign": "AA0HJ",
     "Location": {
-      "Latitude": 39.908,
-      "Longitude": -99.397,
+      "Latitude": 39.90800095,
+      "Longitude": -99.39700317,
       "County": "Phillips",
       "State": "KS",
       "Local": "Phillipsburg"
     },
     "Use": "Open",
-    "Status": "On-Air",
+    "Status": "Off-Air",
     "Frequency": {
       "Input": 448.275,
       "Output": 443.275
@@ -13209,8 +13208,8 @@
     "StateID": 20,
     "Callsign": "K0USY",
     "Location": {
-      "Latitude": 38.9034,
-      "Longitude": -99.3436,
+      "Latitude": 38.90340042,
+      "Longitude": -99.34359741,
       "County": "Ellis",
       "State": "KS",
       "Local": "Hays, KS-DMR"
@@ -13233,8 +13232,8 @@
     "StateID": 20,
     "Callsign": "KY0J",
     "Location": {
-      "Latitude": 37.7524,
-      "Longitude": -100.077,
+      "Latitude": 37.75239944,
+      "Longitude": -100.07700348,
       "County": "Ford",
       "State": "KS",
       "Local": "Dodge City"
@@ -13286,8 +13285,8 @@
     "StateID": 20,
     "Callsign": "N0KOM",
     "Location": {
-      "Latitude": 39.448,
-      "Longitude": -99.2746,
+      "Latitude": 39.44800186,
+      "Longitude": -99.27459717,
       "County": "Rooks",
       "State": "KS",
       "Local": "Stockton, K-Link"
@@ -13330,8 +13329,8 @@
     "StateID": 20,
     "Callsign": "N7JYS",
     "Location": {
-      "Latitude": 38.9344,
-      "Longitude": -99.3155,
+      "Latitude": 38.93439865,
+      "Longitude": -99.31549835,
       "County": "Ellis",
       "State": "KS",
       "Local": "Hays"
@@ -13372,8 +13371,8 @@
     "StateID": 20,
     "Callsign": "N7JYS",
     "Location": {
-      "Latitude": 38.9343,
-      "Longitude": -99.3155,
+      "Latitude": 38.93429947,
+      "Longitude": -99.31549835,
       "County": "Ellis",
       "State": "KS",
       "Local": "Hays"
@@ -13399,8 +13398,8 @@
     "StateID": 20,
     "Callsign": "N7JYS",
     "Location": {
-      "Latitude": 38.934,
-      "Longitude": -99.315,
+      "Latitude": 38.93399811,
+      "Longitude": -99.31500244,
       "County": "Ellis",
       "State": "KS",
       "Local": "Hays, K-Link"
@@ -13426,8 +13425,8 @@
     "StateID": 20,
     "Callsign": "N0ECQ",
     "Location": {
-      "Latitude": 38.8792,
-      "Longitude": -99.3268,
+      "Latitude": 38.87919998,
+      "Longitude": -99.32679749,
       "County": "Ellis",
       "State": "KS",
       "Local": "Hays"
@@ -13448,8 +13447,8 @@
     "StateID": 20,
     "Callsign": "K0HAM",
     "Location": {
-      "Latitude": 37.766,
-      "Longitude": -100.035,
+      "Latitude": 37.76599884,
+      "Longitude": -100.03500366,
       "County": "Ford",
       "State": "KS",
       "Local": "Dodge City, K-Link"
@@ -13475,8 +13474,8 @@
     "StateID": 20,
     "Callsign": "K0ECT",
     "Location": {
-      "Latitude": 37.7528,
-      "Longitude": -100.017,
+      "Latitude": 37.75279999,
+      "Longitude": -100.01699829,
       "County": "Ford",
       "State": "KS",
       "Local": "Dodge City"
@@ -13517,8 +13516,8 @@
     "StateID": 20,
     "Callsign": "K0USY",
     "Location": {
-      "Latitude": 38.8982,
-      "Longitude": -99.272,
+      "Latitude": 38.89820099,
+      "Longitude": -99.27200317,
       "County": "Ellis",
       "State": "KS",
       "Local": "Hays, KS-DMR"
@@ -13559,8 +13558,8 @@
     "StateID": 20,
     "Callsign": "WK0DX",
     "Location": {
-      "Latitude": 37.2603,
-      "Longitude": -100.593,
+      "Latitude": 37.26029968,
+      "Longitude": -100.59300232,
       "County": "Meade",
       "State": "KS",
       "Local": "Plains"
@@ -13580,8 +13579,8 @@
     "StateID": 20,
     "Callsign": "W0KKS",
     "Location": {
-      "Latitude": 37.0597,
-      "Longitude": -100.93,
+      "Latitude": 37.05970001,
+      "Longitude": -100.93000031,
       "County": "Seward",
       "State": "KS",
       "Local": "Liberal"
@@ -13602,8 +13601,8 @@
     "StateID": 20,
     "Callsign": "K0ECT",
     "Location": {
-      "Latitude": 37.059,
-      "Longitude": -100.93,
+      "Latitude": 37.05899811,
+      "Longitude": -100.93000031,
       "County": "Seward",
       "State": "KS",
       "Local": "Liberal"
@@ -13623,8 +13622,8 @@
     "StateID": 20,
     "Callsign": "K0ECT",
     "Location": {
-      "Latitude": 37.5312,
-      "Longitude": -100.017,
+      "Latitude": 37.53120041,
+      "Longitude": -100.01699829,
       "County": "Ford",
       "State": "KS",
       "Local": "Dodge City"
@@ -13644,8 +13643,8 @@
     "StateID": 40,
     "Callsign": "",
     "Location": {
-      "Latitude": 36.7294,
-      "Longitude": -102.513,
+      "Latitude": 36.72940063,
+      "Longitude": -102.51300049,
       "County": "Cimarron",
       "State": "OK",
       "Local": "Boise City"
@@ -13667,7 +13666,7 @@
     "Callsign": "N7JYS",
     "Location": {
       "Latitude": 38.875,
-      "Longitude": -98.867,
+      "Longitude": -98.86699677,
       "County": "Russell",
       "State": "KS",
       "Local": "Russell"
@@ -13703,8 +13702,8 @@
     "StateID": 20,
     "Callsign": "KC0HFA",
     "Location": {
-      "Latitude": 38.8953,
-      "Longitude": -98.8598,
+      "Latitude": 38.89530182,
+      "Longitude": -98.85980225,
       "County": "Russell",
       "State": "KS",
       "Local": "Russell"
@@ -13725,8 +13724,8 @@
     "StateID": 20,
     "Callsign": "KB0SJR",
     "Location": {
-      "Latitude": 38.8827,
-      "Longitude": -98.8595,
+      "Latitude": 38.88270187,
+      "Longitude": -98.85949707,
       "County": "Russell",
       "State": "KS",
       "Local": "Russell"
@@ -13749,8 +13748,8 @@
     "StateID": 40,
     "Callsign": "N5DFQ",
     "Location": {
-      "Latitude": 36.6758,
-      "Longitude": -101.547,
+      "Latitude": 36.67580032,
+      "Longitude": -101.54699707,
       "County": "Texas",
       "State": "OK",
       "Local": "Guymon"
@@ -13791,8 +13790,8 @@
     "StateID": 20,
     "Callsign": "KE0PTS",
     "Location": {
-      "Latitude": 38.3052,
-      "Longitude": -99.0244,
+      "Latitude": 38.30519867,
+      "Longitude": -99.0243988,
       "County": "Barton",
       "State": "KS",
       "Local": "Pawnee Rock"
@@ -13821,8 +13820,8 @@
     "StateID": 20,
     "Callsign": "AB0UO",
     "Location": {
-      "Latitude": 38.951,
-      "Longitude": -98.761,
+      "Latitude": 38.95100021,
+      "Longitude": -98.76100159,
       "County": "Russell",
       "State": "KS",
       "Local": "Russell"
@@ -13865,8 +13864,8 @@
     "StateID": 40,
     "Callsign": "N5AKN",
     "Location": {
-      "Latitude": 36.907,
-      "Longitude": -100.539,
+      "Latitude": 36.9070015,
+      "Longitude": -100.53900146,
       "County": "Beaver",
       "State": "OK",
       "Local": "Forgan"
@@ -13883,8 +13882,8 @@
     "StateID": 20,
     "Callsign": "KE0PTS",
     "Location": {
-      "Latitude": 38.2653,
-      "Longitude": -98.9809,
+      "Latitude": 38.26530075,
+      "Longitude": -98.98090363,
       "County": "Barton",
       "State": "KS",
       "Local": "Pawnee Rock"
@@ -13899,12 +13898,6 @@
       "DMR": {
         "ColorCode": 1,
         "ID": 312032
-      },
-      "YSF": {
-        "GroupID": {
-          "Input": "Open ↑",
-          "Output": "Open ↓"
-        }
       }
     }
   },
@@ -13934,8 +13927,8 @@
     "StateID": 31,
     "Callsign": "KA0RCZ",
     "Location": {
-      "Latitude": 40.6993,
-      "Longitude": -99.0817,
+      "Latitude": 40.69929886,
+      "Longitude": -99.08170319,
       "County": "Buffalo",
       "State": "NE",
       "Local": "Kearney"
@@ -13956,8 +13949,8 @@
     "StateID": 31,
     "Callsign": "KD0PBW",
     "Location": {
-      "Latitude": 40.6993,
-      "Longitude": -99.0817,
+      "Latitude": 40.69929886,
+      "Longitude": -99.08170319,
       "County": "Buffalo",
       "State": "NE",
       "Local": "Kearney, County Courthouse"
@@ -13979,8 +13972,8 @@
     "StateID": 31,
     "Callsign": "KC0WZL",
     "Location": {
-      "Latitude": 40.7216,
-      "Longitude": -99.0932,
+      "Latitude": 40.72159958,
+      "Longitude": -99.09320068,
       "County": "Buffalo",
       "State": "NE",
       "Local": "Kearney, Kearney Water Tower"
@@ -14000,8 +13993,8 @@
     "StateID": 20,
     "Callsign": "N0LL",
     "Location": {
-      "Latitude": 39.799,
-      "Longitude": -98.673,
+      "Latitude": 39.79899979,
+      "Longitude": -98.67299652,
       "County": "Smith",
       "State": "KS",
       "Local": "Smith Center"
@@ -14056,8 +14049,8 @@
     "StateID": 20,
     "Callsign": "N7JYS",
     "Location": {
-      "Latitude": 38.6056,
-      "Longitude": -98.6975,
+      "Latitude": 38.60559845,
+      "Longitude": -98.69750214,
       "County": "Barton",
       "State": "KS",
       "Local": "Hoisington"
@@ -14082,8 +14075,8 @@
     "StateID": 20,
     "Callsign": "K0HAM",
     "Location": {
-      "Latitude": 38.606,
-      "Longitude": -98.697,
+      "Latitude": 38.60599899,
+      "Longitude": -98.6969986,
       "County": "Barton",
       "State": "KS",
       "Local": "Hoisington, K-Link"
@@ -14139,8 +14132,8 @@
     "StateID": 48,
     "Callsign": "K5IS",
     "Location": {
-      "Latitude": 36.4,
-      "Longitude": -100.803,
+      "Latitude": 36.40000153,
+      "Longitude": -100.8030014,
       "County": "Ochiltree",
       "State": "TX",
       "Local": "Perryton"
@@ -14202,8 +14195,8 @@
     "StateID": 48,
     "Callsign": "N5DFQ",
     "Location": {
-      "Latitude": 36.1984,
-      "Longitude": -101.192,
+      "Latitude": 36.19839859,
+      "Longitude": -101.19200134,
       "County": "Hansford",
       "State": "TX",
       "Local": "Spearman"
@@ -14269,8 +14262,8 @@
     "StateID": 20,
     "Callsign": "KI0NN",
     "Location": {
-      "Latitude": 38.406,
-      "Longitude": -98.722,
+      "Latitude": 38.40599823,
+      "Longitude": -98.72200012,
       "County": "Barton",
       "State": "KS",
       "Local": "Great Bend"
@@ -14291,8 +14284,8 @@
     "StateID": 35,
     "Callsign": "K5EMO",
     "Location": {
-      "Latitude": 35.1542,
-      "Longitude": -107.854,
+      "Latitude": 35.15420151,
+      "Longitude": -107.85399628,
       "County": "Cibola",
       "State": "NM",
       "Local": "Grants, 515 West High Street"
@@ -14318,8 +14311,8 @@
     "StateID": 35,
     "Callsign": "KE5FYL",
     "Location": {
-      "Latitude": 35.1473,
-      "Longitude": -107.851,
+      "Latitude": 35.14730072,
+      "Longitude": -107.85099792,
       "County": "Cibola",
       "State": "NM",
       "Local": "Grants"
@@ -14344,8 +14337,8 @@
     "StateID": 35,
     "Callsign": "NM5ML",
     "Location": {
-      "Latitude": 35.1473,
-      "Longitude": -107.851,
+      "Latitude": 35.14730072,
+      "Longitude": -107.85099792,
       "County": "Cibola",
       "State": "NM",
       "Local": "Grants, La Mosca"
@@ -14365,8 +14358,8 @@
     "StateID": 35,
     "Callsign": "KE5FYL",
     "Location": {
-      "Latitude": 35.1325,
-      "Longitude": -107.889,
+      "Latitude": 35.13249969,
+      "Longitude": -107.88899994,
       "County": "Cibola",
       "State": "NM",
       "Local": "Grants, Rogers Rock"
@@ -14392,8 +14385,8 @@
     "StateID": 35,
     "Callsign": "KC5OUR",
     "Location": {
-      "Latitude": 34.6628,
-      "Longitude": -106.776,
+      "Latitude": 34.66279984,
+      "Longitude": -106.77600098,
       "County": "Valencia",
       "State": "NM",
       "Local": "Belen"
@@ -14434,8 +14427,8 @@
     "StateID": 35,
     "Callsign": "NM5ML",
     "Location": {
-      "Latitude": 35.9031,
-      "Longitude": -108.772,
+      "Latitude": 35.90309906,
+      "Longitude": -108.77200317,
       "County": "McKinley",
       "State": "NM",
       "Local": "Gallup, Deza Bluffs"
@@ -14455,8 +14448,8 @@
     "StateID": 35,
     "Callsign": "WA5EMA",
     "Location": {
-      "Latitude": 35.1717,
-      "Longitude": -103.724,
+      "Latitude": 35.17169952,
+      "Longitude": -103.72399902,
       "County": "Quay",
       "State": "NM",
       "Local": "Tucumcari"
@@ -14473,8 +14466,8 @@
     "StateID": 35,
     "Callsign": "K5DST",
     "Location": {
-      "Latitude": 35.3653,
-      "Longitude": -103.411,
+      "Latitude": 35.36529922,
+      "Longitude": -103.41100311,
       "County": "Quay",
       "State": "NM",
       "Local": "Logan, Ute Lake"
@@ -14515,8 +14508,8 @@
     "StateID": 35,
     "Callsign": "KD7LEN",
     "Location": {
-      "Latitude": 35.6806,
-      "Longitude": -109.053,
+      "Latitude": 35.68059921,
+      "Longitude": -109.0530014,
       "County": "McKinley",
       "State": "NM",
       "Local": "Window Rock"
@@ -14536,8 +14529,8 @@
     "StateID": 35,
     "Callsign": "NM5EM",
     "Location": {
-      "Latitude": 34.2444,
-      "Longitude": -105.791,
+      "Latitude": 34.24440002,
+      "Longitude": -105.79100037,
       "County": "Lincoln",
       "State": "NM",
       "Local": "Corona, Gallinas Peak"
@@ -14599,8 +14592,8 @@
     "StateID": 49,
     "Callsign": "WA7VHF",
     "Location": {
-      "Latitude": 37.034,
-      "Longitude": -110.869,
+      "Latitude": 37.0340004,
+      "Longitude": -110.8690033,
       "County": "San Juan",
       "State": "UT",
       "Local": "Page, Navajo Mountain"
@@ -14986,8 +14979,8 @@
     "StateID": 56,
     "Callsign": "N7HYF",
     "Location": {
-      "Latitude": 42.5761,
-      "Longitude": -108.726,
+      "Latitude": 42.5760994,
+      "Longitude": -108.72599792,
       "County": "Fremont",
       "State": "WY",
       "Local": "Lander, Limestone Mountain"
@@ -14999,8 +14992,7 @@
       "Output": 449.9
     },
     "DigitalTone": {
-      "Input": 261,
-      "Output": 261
+      "Input": 261
     }
   },
   {
@@ -15079,8 +15071,8 @@
     "StateID": 56,
     "Callsign": "KC7MJI",
     "Location": {
-      "Latitude": 42.8666,
-      "Longitude": -106.313,
+      "Latitude": 42.86660004,
+      "Longitude": -106.31300354,
       "County": "Natrona",
       "State": "WY",
       "Local": "Casper"
@@ -15115,8 +15107,8 @@
     "StateID": 56,
     "Callsign": "W7VNJ",
     "Location": {
-      "Latitude": 42.8666,
-      "Longitude": -106.313,
+      "Latitude": 42.86660004,
+      "Longitude": -106.31300354,
       "County": "Natrona",
       "State": "WY",
       "Local": "Casper"
@@ -15205,8 +15197,8 @@
     "StateID": 56,
     "Callsign": "KG7LRK",
     "Location": {
-      "Latitude": 43.0247,
-      "Longitude": -108.381,
+      "Latitude": 43.02470016,
+      "Longitude": -108.3809967,
       "County": "Washakie",
       "State": "WY",
       "Local": "Riverton, Griffy site"
@@ -15234,8 +15226,8 @@
     "StateID": 56,
     "Callsign": "N7HYF",
     "Location": {
-      "Latitude": 43.025,
-      "Longitude": -108.38,
+      "Latitude": 43.02500153,
+      "Longitude": -108.37999725,
       "County": "Fremont",
       "State": "WY",
       "Local": "Riverton, Griffy Hill"
@@ -15276,24 +15268,28 @@
     "StateID": 56,
     "Callsign": "KF7EHE",
     "Location": {
-      "Latitude": 41.7924,
-      "Longitude": -110.538,
+      "Latitude": 41.79240036,
+      "Longitude": -110.53800201,
       "County": "Lincoln",
       "State": "WY",
       "Local": "Kemmerer, Dempsey Ridge"
     },
     "Use": "Open",
-    "Status": "Off-Air",
+    "Status": "Testing",
     "Frequency": {
       "Input": 444.075,
       "Output": 449.075
     },
     "SquelchTone": {
+      "Input": 123,
       "Output": 123
     },
     "Digital": {
       "YSF": {
-        "GroupID": {}
+        "GroupID": {
+          "Input": "Open ↑",
+          "Output": "Open ↓"
+        }
       }
     }
   },
@@ -15302,8 +15298,8 @@
     "StateID": 56,
     "Callsign": "N7DMO",
     "Location": {
-      "Latitude": 43.0387,
-      "Longitude": -108.438,
+      "Latitude": 43.0387001,
+      "Longitude": -108.43800354,
       "County": "Fremont",
       "State": "WY",
       "Local": "Riverton, Griffy Hill"
@@ -15542,8 +15538,8 @@
     "StateID": 49,
     "Callsign": "N7NKK",
     "Location": {
-      "Latitude": 38.0202,
-      "Longitude": -112.217,
+      "Latitude": 38.02019882,
+      "Longitude": -112.21700287,
       "County": "Garfield",
       "State": "UT",
       "Local": "Panguitch, Mount Dutton"
@@ -15584,8 +15580,8 @@
     "StateID": 49,
     "Callsign": "WA7VHF",
     "Location": {
-      "Latitude": 38.7725,
-      "Longitude": -112.084,
+      "Latitude": 38.77249908,
+      "Longitude": -112.08399963,
       "County": "Sevier",
       "State": "UT",
       "Local": "Richfield, Monroe Peak"
@@ -15605,8 +15601,8 @@
     "StateID": 49,
     "Callsign": "W6DZL",
     "Location": {
-      "Latitude": 37.4005,
-      "Longitude": -112.3,
+      "Latitude": 37.40050125,
+      "Longitude": -112.30000305,
       "County": "Garfield",
       "State": "UT",
       "Local": "Bryce Canyon"
@@ -15626,8 +15622,8 @@
     "StateID": 48,
     "Callsign": "N5LTZ",
     "Location": {
-      "Latitude": 35.8656,
-      "Longitude": -101.973,
+      "Latitude": 35.86560059,
+      "Longitude": -101.97299957,
       "County": "Moore",
       "State": "TX",
       "Local": "Dumas"
@@ -15647,8 +15643,8 @@
     "StateID": 48,
     "Callsign": "KD5ROK",
     "Location": {
-      "Latitude": 35.8654,
-      "Longitude": -101.973,
+      "Latitude": 35.86539841,
+      "Longitude": -101.97299957,
       "County": "Moore",
       "State": "TX",
       "Local": "Dumas"
@@ -15661,7 +15657,8 @@
     },
     "Digital": {
       "DMR": {
-        "ColorCode": 14
+        "ColorCode": 14,
+        "ID": 314844
       }
     }
   },
@@ -15670,8 +15667,8 @@
     "StateID": 48,
     "Callsign": "KE5CJ",
     "Location": {
-      "Latitude": 35.827,
-      "Longitude": -101.443,
+      "Latitude": 35.82699966,
+      "Longitude": -101.44300079,
       "County": "Hutchinson",
       "State": "TX",
       "Local": "Stinnett"
@@ -15684,7 +15681,8 @@
     },
     "Digital": {
       "DMR": {
-        "ColorCode": 14
+        "ColorCode": 14,
+        "ID": 314840
       }
     }
   },
@@ -15833,8 +15831,8 @@
     "StateID": 49,
     "Callsign": "WA7FFM",
     "Location": {
-      "Latitude": 40.248,
-      "Longitude": -111.666,
+      "Latitude": 40.2480011,
+      "Longitude": -111.66600037,
       "County": "Utah",
       "State": "UT",
       "Local": "Provo, UVRMC"
@@ -15872,8 +15870,8 @@
     "StateID": 49,
     "Callsign": "N7IMF",
     "Location": {
-      "Latitude": 40.3151,
-      "Longitude": -111.696,
+      "Latitude": 40.31510162,
+      "Longitude": -111.69599915,
       "County": "Utah",
       "State": "UT",
       "Local": "Orem"
@@ -15893,8 +15891,8 @@
     "StateID": 49,
     "Callsign": "KD7RBR",
     "Location": {
-      "Latitude": 40.2983,
-      "Longitude": -111.719,
+      "Latitude": 40.2983017,
+      "Longitude": -111.71900177,
       "County": "Utah",
       "State": "UT",
       "Local": "Orem, Point of the Mountain"
@@ -15914,8 +15912,8 @@
     "StateID": 49,
     "Callsign": "K8BKT",
     "Location": {
-      "Latitude": 40.3641,
-      "Longitude": -111.739,
+      "Latitude": 40.36410141,
+      "Longitude": -111.73899841,
       "County": "Utah",
       "State": "UT",
       "Local": "Pleasant Grove"
@@ -15932,8 +15930,8 @@
     "StateID": 49,
     "Callsign": "KB7YOT",
     "Location": {
-      "Latitude": 40.3641,
-      "Longitude": -111.739,
+      "Latitude": 40.36410141,
+      "Longitude": -111.73899841,
       "County": "Utah",
       "State": "UT",
       "Local": "Pleasant Grove"
@@ -15953,8 +15951,8 @@
     "StateID": 49,
     "Callsign": "K7UVA",
     "Location": {
-      "Latitude": 40.5329,
-      "Longitude": -111.641,
+      "Latitude": 40.53290176,
+      "Longitude": -111.64099884,
       "County": "Utah",
       "State": "UT",
       "Local": "Alpine, Silver Lake Flat"
@@ -15997,8 +15995,8 @@
     "StateID": 49,
     "Callsign": "KX7VC",
     "Location": {
-      "Latitude": 40.4335,
-      "Longitude": -111.79,
+      "Latitude": 40.43349838,
+      "Longitude": -111.79000092,
       "County": "Utah",
       "State": "UT",
       "Local": "Highland, KX7VC QTH"
@@ -16047,8 +16045,8 @@
     "StateID": 49,
     "Callsign": "KI7USB",
     "Location": {
-      "Latitude": 40.3894,
-      "Longitude": -111.849,
+      "Latitude": 40.38940048,
+      "Longitude": -111.84899902,
       "County": "Utah",
       "State": "UT",
       "Local": "Lehi, City Offices"
@@ -16089,8 +16087,8 @@
     "StateID": 49,
     "Callsign": "KA7EGC",
     "Location": {
-      "Latitude": 40.2617,
-      "Longitude": -111.928,
+      "Latitude": 40.26169968,
+      "Longitude": -111.9280014,
       "County": "Utah",
       "State": "UT",
       "Local": "Provo, Lake Mountain"
@@ -16110,8 +16108,8 @@
     "StateID": 49,
     "Callsign": "WA7GIE",
     "Location": {
-      "Latitude": 40.2617,
-      "Longitude": -111.928,
+      "Latitude": 40.26169968,
+      "Longitude": -111.9280014,
       "County": "Utah",
       "State": "UT",
       "Local": "Provo, Lake Mountain"
@@ -16136,8 +16134,8 @@
     "StateID": 49,
     "Callsign": "KC7WSU",
     "Location": {
-      "Latitude": 40.3916,
-      "Longitude": -111.851,
+      "Latitude": 40.39160156,
+      "Longitude": -111.85099792,
       "County": "Utah",
       "State": "UT",
       "Local": "Lehi"
@@ -16150,7 +16148,8 @@
     },
     "Digital": {
       "DMR": {
-        "ColorCode": 1
+        "ColorCode": 1,
+        "ID": 314903
       }
     }
   },
@@ -16159,8 +16158,8 @@
     "StateID": 49,
     "Callsign": "KG7QWU",
     "Location": {
-      "Latitude": 40.3916,
-      "Longitude": -111.851,
+      "Latitude": 40.39160156,
+      "Longitude": -111.85099792,
       "County": "Utah",
       "State": "UT",
       "Local": "Lehi"
@@ -16185,8 +16184,8 @@
     "StateID": 49,
     "Callsign": "WA7GIE",
     "Location": {
-      "Latitude": 40.855,
-      "Longitude": -111.48,
+      "Latitude": 40.85499954,
+      "Longitude": -111.48000336,
       "County": "Summit",
       "State": "UT",
       "Local": "Coalville, Lewis Peak"
@@ -16263,8 +16262,8 @@
     "StateID": 49,
     "Callsign": "W7SP",
     "Location": {
-      "Latitude": 40.2822,
-      "Longitude": -111.936,
+      "Latitude": 40.28219986,
+      "Longitude": -111.93599701,
       "County": "Utah",
       "State": "UT",
       "Local": "Provo, Lake Mountain"
@@ -16289,8 +16288,8 @@
     "StateID": 49,
     "Callsign": "W7WJC",
     "Location": {
-      "Latitude": 40.2825,
-      "Longitude": -111.937,
+      "Latitude": 40.28250122,
+      "Longitude": -111.93699646,
       "County": "Utah",
       "State": "UT",
       "Local": "Provo, Lake Mountain"
@@ -16336,8 +16335,8 @@
     "StateID": 49,
     "Callsign": "K7UVA",
     "Location": {
-      "Latitude": 40.2829,
-      "Longitude": -111.937,
+      "Latitude": 40.28290176,
+      "Longitude": -111.93699646,
       "County": "Utah",
       "State": "UT",
       "Local": "Orem, Lake Mountain"
@@ -16362,8 +16361,8 @@
     "StateID": 49,
     "Callsign": "K7UCS",
     "Location": {
-      "Latitude": 40.2831,
-      "Longitude": -111.938,
+      "Latitude": 40.28310013,
+      "Longitude": -111.93800354,
       "County": "Utah",
       "State": "UT",
       "Local": "Provo, Lake Mountain"
@@ -16383,8 +16382,8 @@
     "StateID": 49,
     "Callsign": "WX7Y",
     "Location": {
-      "Latitude": 40.2824,
-      "Longitude": -111.949,
+      "Latitude": 40.28239822,
+      "Longitude": -111.9489975,
       "County": "Salt Lake",
       "State": "UT",
       "Local": "Draper, Lake Mountain"
@@ -16412,8 +16411,8 @@
     "StateID": 31,
     "Callsign": "W0EJL",
     "Location": {
-      "Latitude": 41.7817,
-      "Longitude": -99.1332,
+      "Latitude": 41.78170013,
+      "Longitude": -99.1332016,
       "County": "Garfield",
       "State": "NE",
       "Local": "Burwell"
@@ -16478,8 +16477,8 @@
     "StateID": 46,
     "Callsign": "W0FUI",
     "Location": {
-      "Latitude": 43.4251,
-      "Longitude": -103.484,
+      "Latitude": 43.42509842,
+      "Longitude": -103.48400116,
       "County": "Fall River",
       "State": "SD",
       "Local": "Hot Springs"
@@ -16527,8 +16526,8 @@
     "StateID": 48,
     "Callsign": "WA5CSF",
     "Location": {
-      "Latitude": 35.667,
-      "Longitude": -101.397,
+      "Latitude": 35.66699982,
+      "Longitude": -101.39700317,
       "County": "Hutchinson",
       "State": "TX",
       "Local": "Borger"
@@ -16550,8 +16549,8 @@
     "StateID": 48,
     "Callsign": "W5WDR",
     "Location": {
-      "Latitude": 35.6425,
-      "Longitude": -101.395,
+      "Latitude": 35.64250183,
+      "Longitude": -101.39499664,
       "County": "Hutchinson",
       "State": "TX",
       "Local": "Borger"
@@ -16585,8 +16584,8 @@
     "StateID": 40,
     "Callsign": "W5HFZ",
     "Location": {
-      "Latitude": 36.8356,
-      "Longitude": -99.6304,
+      "Latitude": 36.83560181,
+      "Longitude": -99.63040161,
       "County": "Harper",
       "State": "OK",
       "Local": "Buffalo"
@@ -16606,8 +16605,8 @@
     "StateID": 40,
     "Callsign": "W5HFZ",
     "Location": {
-      "Latitude": 36.8406,
-      "Longitude": -99.6268,
+      "Latitude": 36.84059906,
+      "Longitude": -99.62680054,
       "County": "Harper",
       "State": "OK",
       "Local": "Buffalo"
@@ -16627,8 +16626,8 @@
     "StateID": 40,
     "Callsign": "W5HFZ",
     "Location": {
-      "Latitude": 36.83,
-      "Longitude": -99.63,
+      "Latitude": 36.83000183,
+      "Longitude": -99.62999725,
       "County": "Harper",
       "State": "OK",
       "Local": "Buffalo"
@@ -16648,8 +16647,8 @@
     "StateID": 40,
     "Callsign": "W5GPR",
     "Location": {
-      "Latitude": 36.7774,
-      "Longitude": -99.6263,
+      "Latitude": 36.77740097,
+      "Longitude": -99.626297,
       "County": "Harper",
       "State": "OK",
       "Local": "Buffalo"
@@ -16669,8 +16668,8 @@
     "StateID": 48,
     "Callsign": "W5WX",
     "Location": {
-      "Latitude": 35.3748,
-      "Longitude": -101.883,
+      "Latitude": 35.37480164,
+      "Longitude": -101.88300323,
       "County": "Potter",
       "State": "TX",
       "Local": "Amarillo, KVII Tower (ABC 7)"
@@ -16695,8 +16694,8 @@
     "StateID": 48,
     "Callsign": "KD5ROK",
     "Location": {
-      "Latitude": 35.4678,
-      "Longitude": -101.348,
+      "Latitude": 35.46780014,
+      "Longitude": -101.34799957,
       "County": "Hutchinson",
       "State": "TX",
       "Local": "Borger, NW Well Field"
@@ -16719,8 +16718,8 @@
     "StateID": 48,
     "Callsign": "N5LTZ",
     "Location": {
-      "Latitude": 35.9128,
-      "Longitude": -100.382,
+      "Latitude": 35.91279984,
+      "Longitude": -100.38200378,
       "County": "Hemphill",
       "State": "TX",
       "Local": "Canadian"
@@ -16737,8 +16736,8 @@
     "StateID": 48,
     "Callsign": "N5LTZ",
     "Location": {
-      "Latitude": 35.5362,
-      "Longitude": -100.96,
+      "Latitude": 35.53620148,
+      "Longitude": -100.95999908,
       "County": "Gray",
       "State": "TX",
       "Local": "Pampa"
@@ -16758,8 +16757,8 @@
     "StateID": 48,
     "Callsign": "W5TSV",
     "Location": {
-      "Latitude": 35.5083,
-      "Longitude": -101.027,
+      "Latitude": 35.50830078,
+      "Longitude": -101.02700043,
       "County": "Gray",
       "State": "TX",
       "Local": "Pampa"
@@ -16776,8 +16775,8 @@
     "StateID": 35,
     "Callsign": "KB5ZFA",
     "Location": {
-      "Latitude": 34.4717,
-      "Longitude": -104.245,
+      "Latitude": 34.47169876,
+      "Longitude": -104.24500275,
       "County": "Debaca",
       "State": "NM",
       "Local": "Fort Sumner"
@@ -16819,8 +16818,8 @@
     "StateID": 48,
     "Callsign": "KA3IDN",
     "Location": {
-      "Latitude": 35.2418,
-      "Longitude": -101.813,
+      "Latitude": 35.2417984,
+      "Longitude": -101.81300354,
       "County": "Potter",
       "State": "TX",
       "Local": "Amarillo"
@@ -16845,8 +16844,8 @@
     "StateID": 48,
     "Callsign": "KA3IDN",
     "Location": {
-      "Latitude": 35.222,
-      "Longitude": -101.831,
+      "Latitude": 35.22200012,
+      "Longitude": -101.83100128,
       "County": "Potter",
       "State": "TX",
       "Local": "Amarillo"
@@ -16869,8 +16868,8 @@
     "StateID": 48,
     "Callsign": "N5LUL",
     "Location": {
-      "Latitude": 35.222,
-      "Longitude": -101.831,
+      "Latitude": 35.22200012,
+      "Longitude": -101.83100128,
       "County": "Potter",
       "State": "TX",
       "Local": "Amarillo"
@@ -16890,8 +16889,8 @@
     "StateID": 48,
     "Callsign": "W5JTC",
     "Location": {
-      "Latitude": 35.222,
-      "Longitude": -101.831,
+      "Latitude": 35.22200012,
+      "Longitude": -101.83100128,
       "County": "Potter",
       "State": "TX",
       "Local": "Amarillo"
@@ -16921,8 +16920,8 @@
     "StateID": 48,
     "Callsign": "WR9B",
     "Location": {
-      "Latitude": 35.222,
-      "Longitude": -101.831,
+      "Latitude": 35.22200012,
+      "Longitude": -101.83100128,
       "County": "Randall",
       "State": "TX",
       "Local": "Amarillo"
@@ -16942,8 +16941,8 @@
     "StateID": 48,
     "Callsign": "N5LTZ",
     "Location": {
-      "Latitude": 35.22,
-      "Longitude": -101.83,
+      "Latitude": 35.22000122,
+      "Longitude": -101.83000183,
       "County": "Randall",
       "State": "TX",
       "Local": "Amarillo"
@@ -16978,8 +16977,8 @@
     "StateID": 48,
     "Callsign": "N5ZLU",
     "Location": {
-      "Latitude": 35.22,
-      "Longitude": -101.83,
+      "Latitude": 35.22000122,
+      "Longitude": -101.83000183,
       "County": "Randall",
       "State": "TX",
       "Local": "Amarillo"
@@ -16999,8 +16998,8 @@
     "StateID": 48,
     "Callsign": "W5WX",
     "Location": {
-      "Latitude": 35.1739,
-      "Longitude": -101.954,
+      "Latitude": 35.1739006,
+      "Longitude": -101.95400238,
       "County": "Randall",
       "State": "TX",
       "Local": "Amarillo"
@@ -17025,8 +17024,8 @@
     "StateID": 48,
     "Callsign": "W5WX",
     "Location": {
-      "Latitude": 35.1739,
-      "Longitude": -101.954,
+      "Latitude": 35.1739006,
+      "Longitude": -101.95400238,
       "County": "Randall",
       "State": "TX",
       "Local": "Amarillo"
@@ -17051,8 +17050,8 @@
     "StateID": 48,
     "Callsign": "",
     "Location": {
-      "Latitude": 35.1733,
-      "Longitude": -101.863,
+      "Latitude": 35.1733017,
+      "Longitude": -101.86299896,
       "County": "Randall",
       "State": "TX",
       "Local": "Amarillo"
@@ -17074,8 +17073,8 @@
     "StateID": 48,
     "Callsign": "KA5KQH",
     "Location": {
-      "Latitude": 35.6295,
-      "Longitude": -100.547,
+      "Latitude": 35.62950134,
+      "Longitude": -100.54699707,
       "County": "Roberts",
       "State": "TX",
       "Local": "Miami"
@@ -17095,8 +17094,8 @@
     "StateID": 48,
     "Callsign": "N5LTZ",
     "Location": {
-      "Latitude": 35.0001,
-      "Longitude": -101.951,
+      "Latitude": 35.00009918,
+      "Longitude": -101.9509964,
       "County": "Randall",
       "State": "TX",
       "Local": "Canyon"
@@ -17137,8 +17136,8 @@
     "StateID": 48,
     "Callsign": "KE5NCA",
     "Location": {
-      "Latitude": 35.0764,
-      "Longitude": -100.893,
+      "Latitude": 35.07640076,
+      "Longitude": -100.89299774,
       "County": "Donley",
       "State": "TX",
       "Local": "Clarendon"
@@ -17158,8 +17157,8 @@
     "StateID": 48,
     "Callsign": "N5LTZ",
     "Location": {
-      "Latitude": 34.6826,
-      "Longitude": -102.609,
+      "Latitude": 34.68259811,
+      "Longitude": -102.60900116,
       "County": "Parmer",
       "State": "TX",
       "Local": "Black"
@@ -17176,8 +17175,8 @@
     "StateID": 48,
     "Callsign": "N5LTZ",
     "Location": {
-      "Latitude": 34.7928,
-      "Longitude": -101.547,
+      "Latitude": 34.7928009,
+      "Longitude": -101.54699707,
       "County": "Armstrong",
       "State": "TX",
       "Local": "Wayside"
@@ -17218,8 +17217,8 @@
     "StateID": 40,
     "Callsign": "W5ALZ",
     "Location": {
-      "Latitude": 36.434,
-      "Longitude": -99.39,
+      "Latitude": 36.43399811,
+      "Longitude": -99.38999939,
       "County": "Woodward",
       "State": "OK",
       "Local": "Woodward"
@@ -17239,8 +17238,8 @@
     "StateID": 40,
     "Callsign": "K5GUD",
     "Location": {
-      "Latitude": 36.276,
-      "Longitude": -99.3379,
+      "Latitude": 36.27600098,
+      "Longitude": -99.33789825,
       "County": "Woodward",
       "State": "OK",
       "Local": "Sharon"
@@ -17262,8 +17261,8 @@
     "StateID": 40,
     "Callsign": "K5GSM",
     "Location": {
-      "Latitude": 36.27,
-      "Longitude": -99.33,
+      "Latitude": 36.27000046,
+      "Longitude": -99.33000183,
       "County": "Woodward",
       "State": "OK",
       "Local": "Woodward"
@@ -17283,8 +17282,8 @@
     "StateID": 40,
     "Callsign": "K5GUD",
     "Location": {
-      "Latitude": 36.27,
-      "Longitude": -99.33,
+      "Latitude": 36.27000046,
+      "Longitude": -99.33000183,
       "County": "Woodward",
       "State": "OK",
       "Local": "Sharon"
@@ -17304,8 +17303,8 @@
     "StateID": 40,
     "Callsign": "N5WO",
     "Location": {
-      "Latitude": 36.27,
-      "Longitude": -99.33,
+      "Latitude": 36.27000046,
+      "Longitude": -99.33000183,
       "County": "Woodward",
       "State": "OK",
       "Local": "Sharon"
@@ -17325,8 +17324,8 @@
     "StateID": 48,
     "Callsign": "KW5KW",
     "Location": {
-      "Latitude": 34.5509,
-      "Longitude": -102.312,
+      "Latitude": 34.55089951,
+      "Longitude": -102.31199646,
       "County": "Castro",
       "State": "TX",
       "Local": "Dimmitt, White house on east side of road"
@@ -17342,7 +17341,9 @@
       "Output": 110.9
     },
     "VOIP": {
-      "Wires": {}
+      "Wires": {
+        "ID": 28485
+      }
     }
   },
   {
@@ -17350,8 +17351,8 @@
     "StateID": 40,
     "Callsign": "K5GUD",
     "Location": {
-      "Latitude": 36.4351,
-      "Longitude": -99.2048,
+      "Latitude": 36.43510056,
+      "Longitude": -99.20480347,
       "County": "Woodward",
       "State": "OK",
       "Local": "Mooreland"
