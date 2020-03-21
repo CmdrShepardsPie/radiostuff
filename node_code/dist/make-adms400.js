@@ -27,6 +27,7 @@ async function doIt(inFileName, outFileName) {
         ...simplex
             .filter(radio_helpers_1.filterFrequencies(radio_helpers_1.FrequencyBand.$2_m, radio_helpers_1.FrequencyBand.$70_cm)),
         ...repeaters
+            // .filter(filterMinimumRepeaterCount(3, repeaters))
             .filter(radio_helpers_1.filterFrequencies(radio_helpers_1.FrequencyBand.$2_m, radio_helpers_1.FrequencyBand.$70_cm))
             .filter(radio_helpers_1.filterDistance(100))
             .filter(radio_helpers_1.filterMode(radio_helpers_1.Mode.FM, radio_helpers_1.Mode.YSF)),
@@ -38,7 +39,7 @@ async function doIt(inFileName, outFileName) {
     return fs_helpers_1.writeToJsonAndCsv(outFileName, mapped, mapped);
 }
 function convertToRadio(repeater) {
-    const Name = radio_helpers_1.buildName(repeater);
+    const Name = `${radio_helpers_1.buildName(repeater)} ${radio_helpers_1.getRepeaterSuffix(repeater)}`;
     const Receive = repeater.Frequency.Output;
     const Transmit = repeater.Frequency.Input;
     const OffsetFrequency = repeater.Frequency.Input - repeater.Frequency.Output;

@@ -39,6 +39,10 @@ function filterMode(...modes) {
                     (filter.VOIP != null && filter.VOIP.Wires != null))));
 }
 exports.filterMode = filterMode;
+function filterMinimumRepeaterCount(count, repeaters) {
+    return (filter) => !!filter.Callsign && getRepeaterCount(filter.Callsign, repeaters) >= count;
+}
+exports.filterMinimumRepeaterCount = filterMinimumRepeaterCount;
 function buildName(repeater) {
     let Name = "";
     if (repeater.Callsign) {
@@ -50,8 +54,14 @@ function buildName(repeater) {
     else if (repeater.Frequency && repeater.Frequency.Output) {
         Name += repeater.Frequency.Output.toString().trim();
     }
-    Name = Name.trim().substr(0, 6).trim();
-    Name += " ";
+    Name = Name.replace(/[^0-9.a-zA-Z \/]/g, " ").trim();
+    Name = Name.replace(/,/g, " ").replace(/\s+/g, " ").trim();
+    Name = Name.substr(0, 16).trim();
+    return Name;
+}
+exports.buildName = buildName;
+function getRepeaterSuffix(repeater) {
+    let Name = "";
     if (!repeater.Digital && repeater.Location) {
         Name += "F";
     }
@@ -82,13 +92,13 @@ function buildName(repeater) {
     if (repeater.VOIP && repeater.VOIP.IRLP) {
         Name += "I";
     }
-    Name += " ";
-    Name = Name.replace(/[^0-9.a-zA-Z \/]/g, " ").trim();
-    Name = Name.replace(/,/g, " ").replace(/\s+/g, " ").trim();
-    Name = Name.substr(0, 16).trim();
     return Name;
 }
-exports.buildName = buildName;
+exports.getRepeaterSuffix = getRepeaterSuffix;
+function getRepeaterCount(name, all) {
+    return all.filter((a) => a.Callsign.trim() === name).length;
+}
+exports.getRepeaterCount = getRepeaterCount;
 function buildComment(repeater) {
     let Comment = `${repeater.StateID} ${repeater.ID} ${repeater.Location && (repeater.Location.Distance != null) && repeater.Location.Distance.toFixed(2)} ${repeater.Location && repeater.Location.State} ${repeater.Location && repeater.Location.County} ${repeater.Location && repeater.Location.Local} ${repeater.Callsign}`;
     Comment = Comment.replace(/undefined/g, " ").replace(/,/g, " ").replace(/\s+/g, " ").trim();

@@ -1,4 +1,5 @@
 import { IRepeaterStructured, RepeaterStatus, RepeaterUse } from "@interfaces/i-repeater-structured";
+import {IAdms400} from "@interfaces/i-adms400";
 
 export enum FrequencyBand {
   $2_m,
@@ -46,6 +47,11 @@ export function filterMode(...modes: Mode[]): (filter: IRepeaterStructured) => b
     );
 }
 
+export function filterMinimumRepeaterCount(count: number, repeaters: IRepeaterStructured[]): (filter: IRepeaterStructured) => boolean {
+  return (filter: IRepeaterStructured): boolean =>
+    !!filter.Callsign && getRepeaterCount(filter.Callsign, repeaters) >= count;
+}
+
 export function buildName(repeater: IRepeaterStructured): string {
   let Name: string = "";
 
@@ -57,9 +63,15 @@ export function buildName(repeater: IRepeaterStructured): string {
     Name += repeater.Frequency.Output.toString().trim();
   }
 
-  Name = Name.trim().substr(0, 6).trim();
+  Name = Name.replace(/[^0-9.a-zA-Z \/]/g, " ").trim();
+  Name = Name.replace(/,/g, " ").replace(/\s+/g, " ").trim();
+  Name = Name.substr(0, 16).trim();
 
-  Name += " ";
+  return Name;
+}
+
+export function getRepeaterSuffix(repeater: IRepeaterStructured): string {
+  let Name: string = "";
   if (!repeater.Digital && repeater.Location) {
     Name += "F";
   }
@@ -90,13 +102,11 @@ export function buildName(repeater: IRepeaterStructured): string {
   if (repeater.VOIP && repeater.VOIP.IRLP) {
     Name += "I";
   }
-  Name += " ";
-
-  Name = Name.replace(/[^0-9.a-zA-Z \/]/g, " ").trim();
-  Name = Name.replace(/,/g, " ").replace(/\s+/g, " ").trim();
-  Name = Name.substr(0, 16).trim();
-
   return Name;
+}
+
+export function getRepeaterCount(name: string, all: IRepeaterStructured[]): number {
+  return all.filter((a: IRepeaterStructured): boolean => a.Callsign.trim() === name).length;
 }
 
 export function buildComment(repeater: IRepeaterStructured): string {

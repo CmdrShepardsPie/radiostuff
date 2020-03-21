@@ -22,8 +22,9 @@ import {
   filterDistance,
   filterFrequencies,
   filterMode,
+  filterMinimumRepeaterCount,
   FrequencyBand,
-  Mode
+  Mode, getRepeaterSuffix
 } from "@helpers/radio-helpers";
 
 const log: (...msg: any[]) => void = createLog("Make Adms400");
@@ -57,6 +58,7 @@ async function doIt(inFileName: string, outFileName: string): Promise<void> {
     ...simplex
       .filter(filterFrequencies(FrequencyBand.$2_m, FrequencyBand.$70_cm)),
     ...repeaters
+      // .filter(filterMinimumRepeaterCount(3, repeaters))
       .filter(filterFrequencies(FrequencyBand.$2_m, FrequencyBand.$70_cm))
       .filter(filterDistance(100))
       .filter(filterMode(Mode.FM, Mode.YSF)),
@@ -70,7 +72,7 @@ async function doIt(inFileName: string, outFileName: string): Promise<void> {
 }
 
 function convertToRadio(repeater: IRepeaterStructured): IAdms400 {
-  const Name: string = buildName(repeater);
+  const Name: string = `${buildName(repeater)} ${getRepeaterSuffix(repeater)}`;
 
   const Receive: number = repeater.Frequency.Output;
   const Transmit: number = repeater.Frequency.Input;
