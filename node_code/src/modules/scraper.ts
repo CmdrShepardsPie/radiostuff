@@ -114,7 +114,7 @@ export default class Scraper {
       const stat: Stats = await statAsync(file);
       const diff: number = (cacheStart - stat.mtimeMs) / 1000 / 60 / 60;
       // if (diff >= cacheAge) {
-      if (diff >= 24 && Math.floor(Math.random() * 10) === 0) {
+      if (diff >= 24) {
         write(`O=${chalk.blue(Math.round(diff))}`);
         return;
       }
