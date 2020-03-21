@@ -1161,7 +1161,7 @@
     "rToneFreq": 88.5,
     "cToneFreq": 88.5,
     "DtcsCode": 73,
-    "DtcsRxCode": 73,
+    "DtcsRxCode": 23,
     "DtcsPolarity": "NN",
     "Mode": "FM",
     "TStep": 5,
@@ -1201,7 +1201,7 @@
   },
   {
     "Location": 75,
-    "Name": "WB0TUB C",
+    "Name": "N0PUF Ce",
     "Frequency": 146.88,
     "Duplex": "-",
     "Offset": 0.6,
@@ -1213,26 +1213,10 @@
     "DtcsPolarity": "NN",
     "Mode": "FM",
     "TStep": 5,
-    "Comment": "8 80 24.32 CO Jefferson Centennial, Warren Mountain WB0TUB"
+    "Comment": "8 80 24.32 CO Jefferson Centennial, Warren Mountain N0PUF"
   },
   {
     "Location": 76,
-    "Name": "WB0TUB C",
-    "Frequency": 449.6,
-    "Duplex": "-",
-    "Offset": 5,
-    "Tone": "Tone",
-    "rToneFreq": 100,
-    "cToneFreq": 88.5,
-    "DtcsCode": 23,
-    "DtcsRxCode": 23,
-    "DtcsPolarity": "NN",
-    "Mode": "FM",
-    "TStep": 5,
-    "Comment": "8 273 24.32 CO Jefferson Centennial, Warren Mountain WB0TUB"
-  },
-  {
-    "Location": 77,
     "Name": "N1UPS We",
     "Frequency": 449.3,
     "Duplex": "-",
@@ -1248,7 +1232,7 @@
     "Comment": "8 8208 26.35 CO Adams Westminster N1UPS"
   },
   {
-    "Location": 78,
+    "Location": 77,
     "Name": "N6LXX Mo",
     "Frequency": 447.875,
     "Duplex": "-",
@@ -1264,7 +1248,7 @@
     "Comment": "8 10513 28.27 CO Jefferson Morrison, Mt. Morrison N6LXX"
   },
   {
-    "Location": 79,
+    "Location": 78,
     "Name": "K0ML Nor",
     "Frequency": 147.045,
     "Duplex": "+",
@@ -1280,7 +1264,7 @@
     "Comment": "8 185 29.84 CO Adams Northglenn K0ML"
   },
   {
-    "Location": 80,
+    "Location": 79,
     "Name": "N0OWY Co",
     "Frequency": 447.5,
     "Duplex": "-",
@@ -1296,7 +1280,7 @@
     "Comment": "8 60 31.41 CO Jefferson Conifer, Critchell Mountain N0OWY"
   },
   {
-    "Location": 81,
+    "Location": 80,
     "Name": "N0PYY Go",
     "Frequency": 448.125,
     "Duplex": "-",
@@ -1312,7 +1296,7 @@
     "Comment": "8 143 31.47 CO Jefferson Golden N0PYY"
   },
   {
-    "Location": 82,
+    "Location": 81,
     "Name": "W0GV Gol",
     "Frequency": 448.975,
     "Duplex": "-",
@@ -1328,7 +1312,7 @@
     "Comment": "8 137 31.47 CO Jefferson Golden W0GV"
   },
   {
-    "Location": 83,
+    "Location": 82,
     "Name": "KE4GUQ E",
     "Frequency": 145.34,
     "Duplex": "-",
@@ -1344,7 +1328,7 @@
     "Comment": "8 73 36.29 CO Jefferson Evergreen KE4GUQ"
   },
   {
-    "Location": 84,
+    "Location": 83,
     "Name": "KI0GO Go",
     "Frequency": 449.75,
     "Duplex": "-",
@@ -1360,7 +1344,7 @@
     "Comment": "8 265 40.76 CO Jefferson Golden, Guy Hill KI0GO"
   },
   {
-    "Location": 85,
+    "Location": 84,
     "Name": "N0POH Go",
     "Frequency": 224.74,
     "Duplex": "-",
@@ -1376,7 +1360,7 @@
     "Comment": "8 134 40.76 CO Jefferson Golden, Guy Hill N0POH"
   },
   {
-    "Location": 86,
+    "Location": 85,
     "Name": "K0IBM Go",
     "Frequency": 448.85,
     "Duplex": "-",
@@ -1392,7 +1376,7 @@
     "Comment": "8 136 40.84 CO Jefferson Golden, Guy Hill K0IBM"
   },
   {
-    "Location": 87,
+    "Location": 86,
     "Name": "N0MHU Go",
     "Frequency": 224,
     "Duplex": "-",
@@ -1408,7 +1392,7 @@
     "Comment": "8 86 40.84 CO Jefferson Golden, Guy Hill N0MHU"
   },
   {
-    "Location": 88,
+    "Location": 87,
     "Name": "W0CBI Go",
     "Frequency": 147.15,
     "Duplex": "+",
@@ -1424,7 +1408,7 @@
     "Comment": "8 133 40.84 CO Jefferson Golden, Guy Hill W0CBI"
   },
   {
-    "Location": 89,
+    "Location": 88,
     "Name": "N0ARA Cr",
     "Frequency": 147.12,
     "Duplex": "+",
@@ -1440,7 +1424,7 @@
     "Comment": "8 59 41.33 CO Jefferson Critchell, Critchell Mountain N0ARA"
   },
   {
-    "Location": 90,
+    "Location": 89,
     "Name": "W0TX Gol",
     "Frequency": 448.625,
     "Duplex": "-",
@@ -1456,7 +1440,7 @@
     "Comment": "8 112 42.14 CO Jefferson Golden, Centennial Cone W0TX"
   },
   {
-    "Location": 91,
+    "Location": 90,
     "Name": "K0FEZ Go",
     "Frequency": 146.985,
     "Duplex": "-",
@@ -1472,7 +1456,7 @@
     "Comment": "8 82 42.22 CO Denver Golden, Centennial Cone K0FEZ"
   },
   {
-    "Location": 92,
+    "Location": 91,
     "Name": "KE0SJ Go",
     "Frequency": 145.28,
     "Duplex": "-",
@@ -1486,6 +1470,22 @@
     "Mode": "FM",
     "TStep": 5,
     "Comment": "8 140 42.22 CO Jefferson Golden, Centennial Cone KE0SJ"
+  },
+  {
+    "Location": 92,
+    "Name": "WB0TUB G",
+    "Frequency": 146.64,
+    "Duplex": "-",
+    "Offset": 0.6,
+    "Tone": "Tone",
+    "rToneFreq": 100,
+    "cToneFreq": 88.5,
+    "DtcsCode": 23,
+    "DtcsRxCode": 23,
+    "DtcsPolarity": "NN",
+    "Mode": "FM",
+    "TStep": 5,
+    "Comment": "8 77 42.22 CO Jefferson Golden, Centennial Cone WB0TUB"
   },
   {
     "Location": 93,
@@ -1505,22 +1505,6 @@
   },
   {
     "Location": 94,
-    "Name": "WB0TUB G",
-    "Frequency": 146.64,
-    "Duplex": "-",
-    "Offset": 0.6,
-    "Tone": "Tone",
-    "rToneFreq": 100,
-    "cToneFreq": 88.5,
-    "DtcsCode": 23,
-    "DtcsRxCode": 23,
-    "DtcsPolarity": "NN",
-    "Mode": "FM",
-    "TStep": 5,
-    "Comment": "8 77 42.22 CO Jefferson Golden, Centennial Cone WB0TUB"
-  },
-  {
-    "Location": 95,
     "Name": "N0ESQ Ca",
     "Frequency": 447.525,
     "Duplex": "-",
@@ -1536,7 +1520,7 @@
     "Comment": "8 8190 44.52 CO Douglas Castle Rock, Devils Head (Pike National Forest) N0ESQ"
   },
   {
-    "Location": 96,
+    "Location": 95,
     "Name": "KE0SJ Lo",
     "Frequency": 447.625,
     "Duplex": "-",
@@ -1552,7 +1536,7 @@
     "Comment": "8 9771 44.90 CO Adams Lochbuie KE0SJ"
   },
   {
-    "Location": 97,
+    "Location": 96,
     "Name": "AC0KC Fo",
     "Frequency": 447.3,
     "Duplex": "-",
@@ -1568,7 +1552,7 @@
     "Comment": "8 8739 45.42 CO Weld Fort Lupton AC0KC"
   },
   {
-    "Location": 98,
+    "Location": 97,
     "Name": "K0EB Hud",
     "Frequency": 449.925,
     "Duplex": "-",
@@ -1584,7 +1568,7 @@
     "Comment": "8 8216 48.70 CO Weld Hudson K0EB"
   },
   {
-    "Location": 99,
+    "Location": 98,
     "Name": "WR0AEN I",
     "Frequency": 449,
     "Duplex": "-",
@@ -1600,7 +1584,7 @@
     "Comment": "8 8250 50.49 CO Clear Creek Idaho Springs, Squaw Mountain WR0AEN"
   },
   {
-    "Location": 100,
+    "Location": 99,
     "Name": "W0DK Bou",
     "Frequency": 448.9,
     "Duplex": "-",
@@ -1614,6 +1598,22 @@
     "Mode": "FM",
     "TStep": 5,
     "Comment": "8 10 50.85 CO Boulder Boulder, Table Mesa W0DK"
+  },
+  {
+    "Location": 100,
+    "Name": "W0BTV Bo",
+    "Frequency": 423,
+    "Duplex": "+",
+    "Offset": 820,
+    "Tone": "",
+    "rToneFreq": 88.5,
+    "cToneFreq": 88.5,
+    "DtcsCode": 23,
+    "DtcsRxCode": 23,
+    "DtcsPolarity": "NN",
+    "Mode": "FM",
+    "TStep": 5,
+    "Comment": "8 18534 50.86 CO Boulder Boulder W0BTV"
   },
   {
     "Location": 101,
@@ -2429,7 +2429,7 @@
     "DtcsPolarity": "NN",
     "Mode": "FM",
     "TStep": 5,
-    "Comment": "8 159 87.86 CO Weld Greeley, UNC K0OJ"
+    "Comment": "8 159 87.87 CO Weld Greeley, UNC K0OJ"
   },
   {
     "Location": 152,
@@ -2481,22 +2481,6 @@
   },
   {
     "Location": 155,
-    "Name": "AD0TP Co",
-    "Frequency": 146.85,
-    "Duplex": "-",
-    "Offset": 0.6,
-    "Tone": "Cross",
-    "rToneFreq": 156.7,
-    "cToneFreq": 103.5,
-    "DtcsCode": 23,
-    "DtcsRxCode": 23,
-    "DtcsPolarity": "NN",
-    "Mode": "FM",
-    "TStep": 5,
-    "Comment": "8 42 87.95 CO El Paso Colorado Springs AD0TP"
-  },
-  {
-    "Location": 156,
     "Name": "K0IRP Co",
     "Frequency": 146.91,
     "Duplex": "-",
@@ -2512,7 +2496,7 @@
     "Comment": "8 43 87.95 CO El Paso Colorado Springs K0IRP"
   },
   {
-    "Location": 157,
+    "Location": 156,
     "Name": "W0MOG Co",
     "Frequency": 147.39,
     "Duplex": "+",
@@ -2528,7 +2512,7 @@
     "Comment": "8 48 87.95 CO El Paso Colorado Springs W0MOG"
   },
   {
-    "Location": 158,
+    "Location": 157,
     "Name": "W0LRA Lo",
     "Frequency": 147.195,
     "Duplex": "+",
@@ -2544,7 +2528,7 @@
     "Comment": "8 179 88.02 CO Larimer Loveland, Namaqua Hill W0LRA"
   },
   {
-    "Location": 159,
+    "Location": 158,
     "Name": "AA0L Col",
     "Frequency": 448.3,
     "Duplex": "-",
@@ -2560,7 +2544,7 @@
     "Comment": "8 8200 88.42 CO El Paso Colorado Springs AA0L"
   },
   {
-    "Location": 160,
+    "Location": 159,
     "Name": "K0IRP Co",
     "Frequency": 447.35,
     "Duplex": "-",
@@ -2576,7 +2560,7 @@
     "Comment": "8 50 88.42 CO El Paso Colorado Springs K0IRP"
   },
   {
-    "Location": 161,
+    "Location": 160,
     "Name": "NX0G Col",
     "Frequency": 447.475,
     "Duplex": "-",
@@ -2592,7 +2576,7 @@
     "Comment": "8 51 88.42 CO El Paso Colorado Springs NX0G"
   },
   {
-    "Location": 162,
+    "Location": 161,
     "Name": "W0MOG Co",
     "Frequency": 448.6,
     "Duplex": "-",
@@ -2608,7 +2592,7 @@
     "Comment": "8 55 88.42 CO El Paso Colorado Springs W0MOG"
   },
   {
-    "Location": 163,
+    "Location": 162,
     "Name": "WA6IFI C",
     "Frequency": 447.55,
     "Duplex": "-",
@@ -2624,7 +2608,7 @@
     "Comment": "8 8191 88.42 CO El Paso Colorado Springs WA6IFI"
   },
   {
-    "Location": 164,
+    "Location": 163,
     "Name": "KB0SRJ C",
     "Frequency": 146.97,
     "Duplex": "-",
@@ -2640,7 +2624,7 @@
     "Comment": "8 44 88.43 CO El Paso Colorado Springs, Pikes Peak KB0SRJ"
   },
   {
-    "Location": 165,
+    "Location": 164,
     "Name": "KB0SRJ C",
     "Frequency": 448.45,
     "Duplex": "-",
@@ -2654,6 +2638,22 @@
     "Mode": "FM",
     "TStep": 5,
     "Comment": "8 54 88.43 CO El Paso Colorado Springs, Pikes Peak KB0SRJ"
+  },
+  {
+    "Location": 165,
+    "Name": "AD0TP Co",
+    "Frequency": 146.85,
+    "Duplex": "-",
+    "Offset": 0.6,
+    "Tone": "Cross",
+    "rToneFreq": 156.7,
+    "cToneFreq": 103.5,
+    "DtcsCode": 23,
+    "DtcsRxCode": 23,
+    "DtcsPolarity": "NN",
+    "Mode": "FM",
+    "TStep": 5,
+    "Comment": "8 42 88.49 CO El Paso Colorado Springs AD0TP"
   },
   {
     "Location": 166,
@@ -2881,22 +2881,6 @@
   },
   {
     "Location": 180,
-    "Name": "NX0G Cri",
-    "Frequency": 147.015,
-    "Duplex": "+",
-    "Offset": 0.6,
-    "Tone": "Tone",
-    "rToneFreq": 107.2,
-    "cToneFreq": 88.5,
-    "DtcsCode": 23,
-    "DtcsRxCode": 23,
-    "DtcsPolarity": "NN",
-    "Mode": "FM",
-    "TStep": 5,
-    "Comment": "8 65 100.93 CO Teller Cripple Creek NX0G"
-  },
-  {
-    "Location": 181,
     "Name": "WB0WDF C",
     "Frequency": 145.46,
     "Duplex": "-",
@@ -2910,6 +2894,22 @@
     "Mode": "FM",
     "TStep": 5,
     "Comment": "8 64 100.93 CO Teller Cripple Creek WB0WDF"
+  },
+  {
+    "Location": 181,
+    "Name": "NX0G Cri",
+    "Frequency": 147.015,
+    "Duplex": "+",
+    "Offset": 0.6,
+    "Tone": "Tone",
+    "rToneFreq": 107.2,
+    "cToneFreq": 88.5,
+    "DtcsCode": 23,
+    "DtcsRxCode": 23,
+    "DtcsPolarity": "NN",
+    "Mode": "FM",
+    "TStep": 5,
+    "Comment": "8 65 100.93 CO Teller Cripple Creek NX0G"
   },
   {
     "Location": 182,

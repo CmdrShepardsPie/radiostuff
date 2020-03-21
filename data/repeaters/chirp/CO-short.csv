@@ -71,35 +71,35 @@ Location,Name,Frequency,Duplex,Offset,Tone,rToneFreq,cToneFreq,DtcsCode,DtcsRxCo
 69,W0JRL De,447.175,-,5,TSQL,100,100,23,23,NN,FM,5,"8 12216 16.35 CO Denver Denver, Broadway Plaza Lofts W0JRL"
 70,W0TX Lak,147.33,+,0.6,Tone,100,88.5,23,23,NN,FM,5,"8 85 22.24 CO Jefferson Lakewood, Green Mountain W0TX"
 71,W0TX Lak,224.38,-,1.6,TSQL,100,100,23,23,NN,FM,5,"8 267 22.24 CO Jefferson Lakewood, Green Mountain W0TX"
-72,W0TX Lak,447.825,-,5,DTCS,88.5,88.5,73,73,NN,FM,5,"8 5805 22.55 CO Jefferson Lakewood, St Anthony Medical Campus W0TX"
+72,W0TX Lak,447.825,-,5,DTCS,88.5,88.5,73,23,NN,FM,5,"8 5805 22.55 CO Jefferson Lakewood, St Anthony Medical Campus W0TX"
 73,WE0FUN D,448.15,-,5,TSQL,141.3,141.3,23,23,NN,FM,5,"8 9765 22.59 CO Denver Denver, Green Valley Ranch WE0FUN"
 74,KD0SSP L,147.21,+,0.6,TSQL,100,100,23,23,NN,FM,5,"8 9775 23.97 CO Jefferson Lakewood, Moffat Treatment Plant KD0SSP"
-75,WB0TUB C,146.88,-,0.6,Tone,100,88.5,23,23,NN,FM,5,"8 80 24.32 CO Jefferson Centennial, Warren Mountain WB0TUB"
-76,WB0TUB C,449.6,-,5,Tone,100,88.5,23,23,NN,FM,5,"8 273 24.32 CO Jefferson Centennial, Warren Mountain WB0TUB"
-77,N1UPS We,449.3,-,5,Tone,100,88.5,23,23,NN,FM,5,8 8208 26.35 CO Adams Westminster N1UPS
-78,N6LXX Mo,447.875,-,5,TSQL,107.2,107.2,23,23,NN,FM,5,"8 10513 28.27 CO Jefferson Morrison, Mt. Morrison N6LXX"
-79,K0ML Nor,147.045,+,0.6,Tone,123,88.5,23,23,NN,FM,5,8 185 29.84 CO Adams Northglenn K0ML
-80,N0OWY Co,447.5,-,5,TSQL,88.5,88.5,23,23,NN,FM,5,"8 60 31.41 CO Jefferson Conifer, Critchell Mountain N0OWY"
-81,N0PYY Go,448.125,-,5,Tone,107.2,88.5,23,23,NN,FM,5,8 143 31.47 CO Jefferson Golden N0PYY
-82,W0GV Gol,448.975,-,5,Tone,123,88.5,23,23,NN,FM,5,8 137 31.47 CO Jefferson Golden W0GV
-83,KE4GUQ E,145.34,-,0.6,Cross,103.5,127.3,23,23,NN,FM,5,8 73 36.29 CO Jefferson Evergreen KE4GUQ
-84,KI0GO Go,449.75,-,5,TSQL,103.5,103.5,23,23,NN,FM,5,"8 265 40.76 CO Jefferson Golden, Guy Hill KI0GO"
-85,N0POH Go,224.74,-,1.6,TSQL,88.5,88.5,23,23,NN,FM,5,"8 134 40.76 CO Jefferson Golden, Guy Hill N0POH"
-86,K0IBM Go,448.85,-,5,TSQL,88.5,88.5,23,23,NN,FM,5,"8 136 40.84 CO Jefferson Golden, Guy Hill K0IBM"
-87,N0MHU Go,224,-,1.6,TSQL,103.5,103.5,23,23,NN,FM,5,"8 86 40.84 CO Jefferson Golden, Guy Hill N0MHU"
-88,W0CBI Go,147.15,+,0.6,TSQL,100,100,23,23,NN,FM,5,"8 133 40.84 CO Jefferson Golden, Guy Hill W0CBI"
-89,N0ARA Cr,147.12,+,0.6,TSQL,88.5,88.5,23,23,NN,FM,5,"8 59 41.33 CO Jefferson Critchell, Critchell Mountain N0ARA"
-90,W0TX Gol,448.625,-,5,TSQL,100,100,23,23,NN,FM,5,"8 112 42.14 CO Jefferson Golden, Centennial Cone W0TX"
-91,K0FEZ Go,146.985,-,0.6,TSQL,100,100,23,23,NN,FM,5,"8 82 42.22 CO Denver Golden, Centennial Cone K0FEZ"
-92,KE0SJ Go,145.28,-,0.6,Tone,100,88.5,23,23,NN,FM,5,"8 140 42.22 CO Jefferson Golden, Centennial Cone KE0SJ"
+75,N0PUF Ce,146.88,-,0.6,Tone,100,88.5,23,23,NN,FM,5,"8 80 24.32 CO Jefferson Centennial, Warren Mountain N0PUF"
+76,N1UPS We,449.3,-,5,Tone,100,88.5,23,23,NN,FM,5,8 8208 26.35 CO Adams Westminster N1UPS
+77,N6LXX Mo,447.875,-,5,TSQL,107.2,107.2,23,23,NN,FM,5,"8 10513 28.27 CO Jefferson Morrison, Mt. Morrison N6LXX"
+78,K0ML Nor,147.045,+,0.6,Tone,123,88.5,23,23,NN,FM,5,8 185 29.84 CO Adams Northglenn K0ML
+79,N0OWY Co,447.5,-,5,TSQL,88.5,88.5,23,23,NN,FM,5,"8 60 31.41 CO Jefferson Conifer, Critchell Mountain N0OWY"
+80,N0PYY Go,448.125,-,5,Tone,107.2,88.5,23,23,NN,FM,5,8 143 31.47 CO Jefferson Golden N0PYY
+81,W0GV Gol,448.975,-,5,Tone,123,88.5,23,23,NN,FM,5,8 137 31.47 CO Jefferson Golden W0GV
+82,KE4GUQ E,145.34,-,0.6,Cross,103.5,127.3,23,23,NN,FM,5,8 73 36.29 CO Jefferson Evergreen KE4GUQ
+83,KI0GO Go,449.75,-,5,TSQL,103.5,103.5,23,23,NN,FM,5,"8 265 40.76 CO Jefferson Golden, Guy Hill KI0GO"
+84,N0POH Go,224.74,-,1.6,TSQL,88.5,88.5,23,23,NN,FM,5,"8 134 40.76 CO Jefferson Golden, Guy Hill N0POH"
+85,K0IBM Go,448.85,-,5,TSQL,88.5,88.5,23,23,NN,FM,5,"8 136 40.84 CO Jefferson Golden, Guy Hill K0IBM"
+86,N0MHU Go,224,-,1.6,TSQL,103.5,103.5,23,23,NN,FM,5,"8 86 40.84 CO Jefferson Golden, Guy Hill N0MHU"
+87,W0CBI Go,147.15,+,0.6,TSQL,100,100,23,23,NN,FM,5,"8 133 40.84 CO Jefferson Golden, Guy Hill W0CBI"
+88,N0ARA Cr,147.12,+,0.6,TSQL,88.5,88.5,23,23,NN,FM,5,"8 59 41.33 CO Jefferson Critchell, Critchell Mountain N0ARA"
+89,W0TX Gol,448.625,-,5,TSQL,100,100,23,23,NN,FM,5,"8 112 42.14 CO Jefferson Golden, Centennial Cone W0TX"
+90,K0FEZ Go,146.985,-,0.6,TSQL,100,100,23,23,NN,FM,5,"8 82 42.22 CO Denver Golden, Centennial Cone K0FEZ"
+91,KE0SJ Go,145.28,-,0.6,Tone,100,88.5,23,23,NN,FM,5,"8 140 42.22 CO Jefferson Golden, Centennial Cone KE0SJ"
+92,WB0TUB G,146.64,-,0.6,Tone,100,88.5,23,23,NN,FM,5,"8 77 42.22 CO Jefferson Golden, Centennial Cone WB0TUB"
 93,KE0SJ Go,449.525,-,5,,88.5,88.5,23,23,NN,FM,5,"8 138 42.22 CO Jefferson Golden, Centennial Cone KE0SJ"
-94,WB0TUB G,146.64,-,0.6,Tone,100,88.5,23,23,NN,FM,5,"8 77 42.22 CO Jefferson Golden, Centennial Cone WB0TUB"
-95,N0ESQ Ca,447.525,-,5,TSQL,146.2,146.2,23,23,NN,FM,5,"8 8190 44.52 CO Douglas Castle Rock, Devils Head (Pike National Forest) N0ESQ"
-96,KE0SJ Lo,447.625,-,5,Tone,100,88.5,23,23,NN,FM,5,8 9771 44.90 CO Adams Lochbuie KE0SJ
-97,AC0KC Fo,447.3,-,5,Tone,107.2,88.5,23,23,NN,FM,5,8 8739 45.42 CO Weld Fort Lupton AC0KC
-98,K0EB Hud,449.925,-,5,TSQL,114.8,114.8,23,23,NN,FM,5,8 8216 48.70 CO Weld Hudson K0EB
-99,WR0AEN I,449,-,5,TSQL,136.5,136.5,23,23,NN,FM,5,"8 8250 50.49 CO Clear Creek Idaho Springs, Squaw Mountain WR0AEN"
-100,W0DK Bou,448.9,-,5,Tone,100,88.5,23,23,NN,FM,5,"8 10 50.85 CO Boulder Boulder, Table Mesa W0DK"
+94,N0ESQ Ca,447.525,-,5,TSQL,146.2,146.2,23,23,NN,FM,5,"8 8190 44.52 CO Douglas Castle Rock, Devils Head (Pike National Forest) N0ESQ"
+95,KE0SJ Lo,447.625,-,5,Tone,100,88.5,23,23,NN,FM,5,8 9771 44.90 CO Adams Lochbuie KE0SJ
+96,AC0KC Fo,447.3,-,5,Tone,107.2,88.5,23,23,NN,FM,5,8 8739 45.42 CO Weld Fort Lupton AC0KC
+97,K0EB Hud,449.925,-,5,TSQL,114.8,114.8,23,23,NN,FM,5,8 8216 48.70 CO Weld Hudson K0EB
+98,WR0AEN I,449,-,5,TSQL,136.5,136.5,23,23,NN,FM,5,"8 8250 50.49 CO Clear Creek Idaho Springs, Squaw Mountain WR0AEN"
+99,W0DK Bou,448.9,-,5,Tone,100,88.5,23,23,NN,FM,5,"8 10 50.85 CO Boulder Boulder, Table Mesa W0DK"
+100,W0BTV Bo,423,+,820,,88.5,88.5,23,23,NN,FM,5,8 18534 50.86 CO Boulder Boulder W0BTV
 101,W0DK Bou,146.61,-,0.6,Tone,100,88.5,23,23,NN,FM,5,8 13 50.88 CO Boulder Boulder W0DK
 102,W0DK Bou,146.7,-,0.6,Tone,100,88.5,23,23,NN,FM,5,"8 14 51.03 CO Boulder Boulder, Table Mountain W0DK"
 103,N0PYY Ev,147.3,+,0.6,TSQL,103.5,103.5,23,23,NN,FM,5,"8 84 51.14 CO Clear Creek Evergreen, Squaw Mountain N0PYY"

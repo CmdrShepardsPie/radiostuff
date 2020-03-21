@@ -1041,7 +1041,7 @@
     "Skip": "Off",
     "Step": "Auto",
     "Clock Shift": "Off",
-    "Comment": "8 42 87.95 CO El Paso Colorado Springs AD0TP",
+    "Comment": "8 42 88.49 CO El Paso Colorado Springs AD0TP",
     "User CTCSS": "1500 Hz"
   },
   {
@@ -1051,7 +1051,7 @@
     "Offset Frequency": "600 kHz",
     "Offset Direction": "Minus",
     "Operating Mode": "Auto",
-    "Name": "WB0TUB F",
+    "Name": "N0PUF F",
     "Show Name": "Large",
     "Tone Mode": "Tone",
     "CTCSS": "100.0 Hz",
@@ -1060,7 +1060,7 @@
     "Skip": "Off",
     "Step": "Auto",
     "Clock Shift": "Off",
-    "Comment": "8 80 24.32 CO Jefferson Centennial Warren Mountain WB0TUB",
+    "Comment": "8 80 24.32 CO Jefferson Centennial Warren Mountain N0PUF",
     "User CTCSS": "1500 Hz"
   },
   {
@@ -1768,6 +1768,25 @@
   },
   {
     "Channel Number": 94,
+    "Receive Frequency": "423.00000",
+    "Transmit Frequency": "1243.00000",
+    "Offset Frequency": "",
+    "Offset Direction": "Plus",
+    "Operating Mode": "Auto",
+    "Name": "W0BTV F",
+    "Show Name": "Large",
+    "Tone Mode": "None",
+    "CTCSS": "100.0 Hz",
+    "DCS": "023",
+    "Tx Power": "Low",
+    "Skip": "Off",
+    "Step": "Auto",
+    "Clock Shift": "Off",
+    "Comment": "8 18534 50.86 CO Boulder Boulder W0BTV",
+    "User CTCSS": "1500 Hz"
+  },
+  {
+    "Channel Number": 95,
     "Receive Frequency": "434.50000",
     "Transmit Frequency": "434.50000",
     "Offset Frequency": "",
@@ -1786,7 +1805,7 @@
     "User CTCSS": "1500 Hz"
   },
   {
-    "Channel Number": 95,
+    "Channel Number": 96,
     "Receive Frequency": "434.52500",
     "Transmit Frequency": "434.52500",
     "Offset Frequency": "",
@@ -1805,7 +1824,7 @@
     "User CTCSS": "1500 Hz"
   },
   {
-    "Channel Number": 96,
+    "Channel Number": 97,
     "Receive Frequency": "434.55000",
     "Transmit Frequency": "434.55000",
     "Offset Frequency": "",
@@ -1824,7 +1843,7 @@
     "User CTCSS": "1500 Hz"
   },
   {
-    "Channel Number": 97,
+    "Channel Number": 98,
     "Receive Frequency": "434.57500",
     "Transmit Frequency": "434.57500",
     "Offset Frequency": "",
@@ -1843,7 +1862,7 @@
     "User CTCSS": "1500 Hz"
   },
   {
-    "Channel Number": 98,
+    "Channel Number": 99,
     "Receive Frequency": "434.60000",
     "Transmit Frequency": "434.60000",
     "Offset Frequency": "",
@@ -1862,7 +1881,7 @@
     "User CTCSS": "1500 Hz"
   },
   {
-    "Channel Number": 99,
+    "Channel Number": 100,
     "Receive Frequency": "434.62500",
     "Transmit Frequency": "434.62500",
     "Offset Frequency": "",
@@ -1881,7 +1900,7 @@
     "User CTCSS": "1500 Hz"
   },
   {
-    "Channel Number": 100,
+    "Channel Number": 101,
     "Receive Frequency": "434.65000",
     "Transmit Frequency": "434.65000",
     "Offset Frequency": "",
@@ -1900,7 +1919,7 @@
     "User CTCSS": "1500 Hz"
   },
   {
-    "Channel Number": 101,
+    "Channel Number": 102,
     "Receive Frequency": "434.67500",
     "Transmit Frequency": "434.67500",
     "Offset Frequency": "",
@@ -1919,7 +1938,7 @@
     "User CTCSS": "1500 Hz"
   },
   {
-    "Channel Number": 102,
+    "Channel Number": 103,
     "Receive Frequency": "434.70000",
     "Transmit Frequency": "434.70000",
     "Offset Frequency": "",
@@ -1938,7 +1957,7 @@
     "User CTCSS": "1500 Hz"
   },
   {
-    "Channel Number": 103,
+    "Channel Number": 104,
     "Receive Frequency": "434.72500",
     "Transmit Frequency": "434.72500",
     "Offset Frequency": "",
@@ -1957,7 +1976,7 @@
     "User CTCSS": "1500 Hz"
   },
   {
-    "Channel Number": 104,
+    "Channel Number": 105,
     "Receive Frequency": "434.75000",
     "Transmit Frequency": "434.75000",
     "Offset Frequency": "",
@@ -1976,7 +1995,7 @@
     "User CTCSS": "1500 Hz"
   },
   {
-    "Channel Number": 105,
+    "Channel Number": 106,
     "Receive Frequency": "434.77500",
     "Transmit Frequency": "434.77500",
     "Offset Frequency": "",
@@ -1995,7 +2014,7 @@
     "User CTCSS": "1500 Hz"
   },
   {
-    "Channel Number": 106,
+    "Channel Number": 107,
     "Receive Frequency": "434.80000",
     "Transmit Frequency": "434.80000",
     "Offset Frequency": "",
@@ -2014,7 +2033,7 @@
     "User CTCSS": "1500 Hz"
   },
   {
-    "Channel Number": 107,
+    "Channel Number": 108,
     "Receive Frequency": "434.82500",
     "Transmit Frequency": "434.82500",
     "Offset Frequency": "",
@@ -2033,7 +2052,7 @@
     "User CTCSS": "1500 Hz"
   },
   {
-    "Channel Number": 108,
+    "Channel Number": 109,
     "Receive Frequency": "434.85000",
     "Transmit Frequency": "434.85000",
     "Offset Frequency": "",
@@ -2052,7 +2071,7 @@
     "User CTCSS": "1500 Hz"
   },
   {
-    "Channel Number": 109,
+    "Channel Number": 110,
     "Receive Frequency": "434.87500",
     "Transmit Frequency": "434.87500",
     "Offset Frequency": "",
@@ -2071,7 +2090,7 @@
     "User CTCSS": "1500 Hz"
   },
   {
-    "Channel Number": 110,
+    "Channel Number": 111,
     "Receive Frequency": "434.90000",
     "Transmit Frequency": "434.90000",
     "Offset Frequency": "",
@@ -2090,7 +2109,7 @@
     "User CTCSS": "1500 Hz"
   },
   {
-    "Channel Number": 111,
+    "Channel Number": 112,
     "Receive Frequency": "434.92500",
     "Transmit Frequency": "434.92500",
     "Offset Frequency": "",
@@ -2109,7 +2128,7 @@
     "User CTCSS": "1500 Hz"
   },
   {
-    "Channel Number": 112,
+    "Channel Number": 113,
     "Receive Frequency": "434.95000",
     "Transmit Frequency": "434.95000",
     "Offset Frequency": "",
@@ -2128,7 +2147,7 @@
     "User CTCSS": "1500 Hz"
   },
   {
-    "Channel Number": 113,
+    "Channel Number": 114,
     "Receive Frequency": "434.97500",
     "Transmit Frequency": "434.97500",
     "Offset Frequency": "",
@@ -2147,7 +2166,7 @@
     "User CTCSS": "1500 Hz"
   },
   {
-    "Channel Number": 114,
+    "Channel Number": 115,
     "Receive Frequency": "435.00000",
     "Transmit Frequency": "435.00000",
     "Offset Frequency": "",
@@ -2166,7 +2185,7 @@
     "User CTCSS": "1500 Hz"
   },
   {
-    "Channel Number": 115,
+    "Channel Number": 116,
     "Receive Frequency": "439.50000",
     "Transmit Frequency": "439.50000",
     "Offset Frequency": "",
@@ -2185,7 +2204,7 @@
     "User CTCSS": "1500 Hz"
   },
   {
-    "Channel Number": 116,
+    "Channel Number": 117,
     "Receive Frequency": "439.52500",
     "Transmit Frequency": "439.52500",
     "Offset Frequency": "",
@@ -2204,7 +2223,7 @@
     "User CTCSS": "1500 Hz"
   },
   {
-    "Channel Number": 117,
+    "Channel Number": 118,
     "Receive Frequency": "439.55000",
     "Transmit Frequency": "439.55000",
     "Offset Frequency": "",
@@ -2223,7 +2242,7 @@
     "User CTCSS": "1500 Hz"
   },
   {
-    "Channel Number": 118,
+    "Channel Number": 119,
     "Receive Frequency": "439.57500",
     "Transmit Frequency": "439.57500",
     "Offset Frequency": "",
@@ -2242,7 +2261,7 @@
     "User CTCSS": "1500 Hz"
   },
   {
-    "Channel Number": 119,
+    "Channel Number": 120,
     "Receive Frequency": "439.60000",
     "Transmit Frequency": "439.60000",
     "Offset Frequency": "",
@@ -2261,7 +2280,7 @@
     "User CTCSS": "1500 Hz"
   },
   {
-    "Channel Number": 120,
+    "Channel Number": 121,
     "Receive Frequency": "439.62500",
     "Transmit Frequency": "439.62500",
     "Offset Frequency": "",
@@ -2280,7 +2299,7 @@
     "User CTCSS": "1500 Hz"
   },
   {
-    "Channel Number": 121,
+    "Channel Number": 122,
     "Receive Frequency": "439.65000",
     "Transmit Frequency": "439.65000",
     "Offset Frequency": "",
@@ -2299,7 +2318,7 @@
     "User CTCSS": "1500 Hz"
   },
   {
-    "Channel Number": 122,
+    "Channel Number": 123,
     "Receive Frequency": "439.67500",
     "Transmit Frequency": "439.67500",
     "Offset Frequency": "",
@@ -2318,7 +2337,7 @@
     "User CTCSS": "1500 Hz"
   },
   {
-    "Channel Number": 123,
+    "Channel Number": 124,
     "Receive Frequency": "439.70000",
     "Transmit Frequency": "439.70000",
     "Offset Frequency": "",
@@ -2337,7 +2356,7 @@
     "User CTCSS": "1500 Hz"
   },
   {
-    "Channel Number": 124,
+    "Channel Number": 125,
     "Receive Frequency": "439.72500",
     "Transmit Frequency": "439.72500",
     "Offset Frequency": "",
@@ -2356,7 +2375,7 @@
     "User CTCSS": "1500 Hz"
   },
   {
-    "Channel Number": 125,
+    "Channel Number": 126,
     "Receive Frequency": "439.75000",
     "Transmit Frequency": "439.75000",
     "Offset Frequency": "",
@@ -2375,7 +2394,7 @@
     "User CTCSS": "1500 Hz"
   },
   {
-    "Channel Number": 126,
+    "Channel Number": 127,
     "Receive Frequency": "439.77500",
     "Transmit Frequency": "439.77500",
     "Offset Frequency": "",
@@ -2394,7 +2413,7 @@
     "User CTCSS": "1500 Hz"
   },
   {
-    "Channel Number": 127,
+    "Channel Number": 128,
     "Receive Frequency": "439.80000",
     "Transmit Frequency": "439.80000",
     "Offset Frequency": "",
@@ -2413,7 +2432,7 @@
     "User CTCSS": "1500 Hz"
   },
   {
-    "Channel Number": 128,
+    "Channel Number": 129,
     "Receive Frequency": "439.82500",
     "Transmit Frequency": "439.82500",
     "Offset Frequency": "",
@@ -2432,7 +2451,7 @@
     "User CTCSS": "1500 Hz"
   },
   {
-    "Channel Number": 129,
+    "Channel Number": 130,
     "Receive Frequency": "439.85000",
     "Transmit Frequency": "439.85000",
     "Offset Frequency": "",
@@ -2451,7 +2470,7 @@
     "User CTCSS": "1500 Hz"
   },
   {
-    "Channel Number": 130,
+    "Channel Number": 131,
     "Receive Frequency": "439.87500",
     "Transmit Frequency": "439.87500",
     "Offset Frequency": "",
@@ -2470,7 +2489,7 @@
     "User CTCSS": "1500 Hz"
   },
   {
-    "Channel Number": 131,
+    "Channel Number": 132,
     "Receive Frequency": "439.90000",
     "Transmit Frequency": "439.90000",
     "Offset Frequency": "",
@@ -2489,7 +2508,7 @@
     "User CTCSS": "1500 Hz"
   },
   {
-    "Channel Number": 132,
+    "Channel Number": 133,
     "Receive Frequency": "439.92500",
     "Transmit Frequency": "439.92500",
     "Offset Frequency": "",
@@ -2508,7 +2527,7 @@
     "User CTCSS": "1500 Hz"
   },
   {
-    "Channel Number": 133,
+    "Channel Number": 134,
     "Receive Frequency": "439.95000",
     "Transmit Frequency": "439.95000",
     "Offset Frequency": "",
@@ -2527,7 +2546,7 @@
     "User CTCSS": "1500 Hz"
   },
   {
-    "Channel Number": 134,
+    "Channel Number": 135,
     "Receive Frequency": "439.97500",
     "Transmit Frequency": "439.97500",
     "Offset Frequency": "",
@@ -2546,7 +2565,7 @@
     "User CTCSS": "1500 Hz"
   },
   {
-    "Channel Number": 135,
+    "Channel Number": 136,
     "Receive Frequency": "440.00000",
     "Transmit Frequency": "440.00000",
     "Offset Frequency": "",
@@ -2565,7 +2584,7 @@
     "User CTCSS": "1500 Hz"
   },
   {
-    "Channel Number": 136,
+    "Channel Number": 137,
     "Receive Frequency": "445.70000",
     "Transmit Frequency": "445.70000",
     "Offset Frequency": "",
@@ -2584,7 +2603,7 @@
     "User CTCSS": "1500 Hz"
   },
   {
-    "Channel Number": 137,
+    "Channel Number": 138,
     "Receive Frequency": "445.72500",
     "Transmit Frequency": "445.72500",
     "Offset Frequency": "",
@@ -2603,7 +2622,7 @@
     "User CTCSS": "1500 Hz"
   },
   {
-    "Channel Number": 138,
+    "Channel Number": 139,
     "Receive Frequency": "445.75000",
     "Transmit Frequency": "445.75000",
     "Offset Frequency": "",
@@ -2622,7 +2641,7 @@
     "User CTCSS": "1500 Hz"
   },
   {
-    "Channel Number": 139,
+    "Channel Number": 140,
     "Receive Frequency": "445.77500",
     "Transmit Frequency": "445.77500",
     "Offset Frequency": "",
@@ -2641,7 +2660,7 @@
     "User CTCSS": "1500 Hz"
   },
   {
-    "Channel Number": 140,
+    "Channel Number": 141,
     "Receive Frequency": "445.80000",
     "Transmit Frequency": "445.80000",
     "Offset Frequency": "",
@@ -2660,7 +2679,7 @@
     "User CTCSS": "1500 Hz"
   },
   {
-    "Channel Number": 141,
+    "Channel Number": 142,
     "Receive Frequency": "445.82500",
     "Transmit Frequency": "445.82500",
     "Offset Frequency": "",
@@ -2679,7 +2698,7 @@
     "User CTCSS": "1500 Hz"
   },
   {
-    "Channel Number": 142,
+    "Channel Number": 143,
     "Receive Frequency": "445.85000",
     "Transmit Frequency": "445.85000",
     "Offset Frequency": "",
@@ -2698,7 +2717,7 @@
     "User CTCSS": "1500 Hz"
   },
   {
-    "Channel Number": 143,
+    "Channel Number": 144,
     "Receive Frequency": "445.87500",
     "Transmit Frequency": "445.87500",
     "Offset Frequency": "",
@@ -2717,7 +2736,7 @@
     "User CTCSS": "1500 Hz"
   },
   {
-    "Channel Number": 144,
+    "Channel Number": 145,
     "Receive Frequency": "445.90000",
     "Transmit Frequency": "445.90000",
     "Offset Frequency": "",
@@ -2736,7 +2755,7 @@
     "User CTCSS": "1500 Hz"
   },
   {
-    "Channel Number": 145,
+    "Channel Number": 146,
     "Receive Frequency": "445.92500",
     "Transmit Frequency": "445.92500",
     "Offset Frequency": "",
@@ -2755,7 +2774,7 @@
     "User CTCSS": "1500 Hz"
   },
   {
-    "Channel Number": 146,
+    "Channel Number": 147,
     "Receive Frequency": "445.95000",
     "Transmit Frequency": "445.95000",
     "Offset Frequency": "",
@@ -2774,7 +2793,7 @@
     "User CTCSS": "1500 Hz"
   },
   {
-    "Channel Number": 147,
+    "Channel Number": 148,
     "Receive Frequency": "445.97500",
     "Transmit Frequency": "445.97500",
     "Offset Frequency": "",
@@ -2793,7 +2812,7 @@
     "User CTCSS": "1500 Hz"
   },
   {
-    "Channel Number": 148,
+    "Channel Number": 149,
     "Receive Frequency": "446.00000",
     "Transmit Frequency": "446.00000",
     "Offset Frequency": "",
@@ -2812,7 +2831,7 @@
     "User CTCSS": "1500 Hz"
   },
   {
-    "Channel Number": 149,
+    "Channel Number": 150,
     "Receive Frequency": "446.02500",
     "Transmit Frequency": "446.02500",
     "Offset Frequency": "",
@@ -2831,7 +2850,7 @@
     "User CTCSS": "1500 Hz"
   },
   {
-    "Channel Number": 150,
+    "Channel Number": 151,
     "Receive Frequency": "446.05000",
     "Transmit Frequency": "446.05000",
     "Offset Frequency": "",
@@ -2850,7 +2869,7 @@
     "User CTCSS": "1500 Hz"
   },
   {
-    "Channel Number": 151,
+    "Channel Number": 152,
     "Receive Frequency": "446.07500",
     "Transmit Frequency": "446.07500",
     "Offset Frequency": "",
@@ -2869,7 +2888,7 @@
     "User CTCSS": "1500 Hz"
   },
   {
-    "Channel Number": 152,
+    "Channel Number": 153,
     "Receive Frequency": "446.10000",
     "Transmit Frequency": "446.10000",
     "Offset Frequency": "",
@@ -2888,7 +2907,7 @@
     "User CTCSS": "1500 Hz"
   },
   {
-    "Channel Number": 153,
+    "Channel Number": 154,
     "Receive Frequency": "446.12500",
     "Transmit Frequency": "446.12500",
     "Offset Frequency": "",
@@ -2907,7 +2926,7 @@
     "User CTCSS": "1500 Hz"
   },
   {
-    "Channel Number": 154,
+    "Channel Number": 155,
     "Receive Frequency": "446.15000",
     "Transmit Frequency": "446.15000",
     "Offset Frequency": "",
@@ -2926,7 +2945,7 @@
     "User CTCSS": "1500 Hz"
   },
   {
-    "Channel Number": 155,
+    "Channel Number": 156,
     "Receive Frequency": "446.17500",
     "Transmit Frequency": "446.17500",
     "Offset Frequency": "",
@@ -2945,7 +2964,7 @@
     "User CTCSS": "1500 Hz"
   },
   {
-    "Channel Number": 156,
+    "Channel Number": 157,
     "Receive Frequency": "446.20000",
     "Transmit Frequency": "446.20000",
     "Offset Frequency": "",
@@ -2964,7 +2983,7 @@
     "User CTCSS": "1500 Hz"
   },
   {
-    "Channel Number": 157,
+    "Channel Number": 158,
     "Receive Frequency": "446.21250",
     "Transmit Frequency": "446.21250",
     "Offset Frequency": "",
@@ -2983,7 +3002,7 @@
     "User CTCSS": "1500 Hz"
   },
   {
-    "Channel Number": 158,
+    "Channel Number": 159,
     "Receive Frequency": "446.22500",
     "Transmit Frequency": "446.22500",
     "Offset Frequency": "",
@@ -3002,7 +3021,7 @@
     "User CTCSS": "1500 Hz"
   },
   {
-    "Channel Number": 159,
+    "Channel Number": 160,
     "Receive Frequency": "446.23750",
     "Transmit Frequency": "446.23750",
     "Offset Frequency": "",
@@ -3021,7 +3040,7 @@
     "User CTCSS": "1500 Hz"
   },
   {
-    "Channel Number": 160,
+    "Channel Number": 161,
     "Receive Frequency": "446.25000",
     "Transmit Frequency": "446.25000",
     "Offset Frequency": "",
@@ -3040,7 +3059,7 @@
     "User CTCSS": "1500 Hz"
   },
   {
-    "Channel Number": 161,
+    "Channel Number": 162,
     "Receive Frequency": "446.26250",
     "Transmit Frequency": "446.26250",
     "Offset Frequency": "",
@@ -3059,7 +3078,7 @@
     "User CTCSS": "1500 Hz"
   },
   {
-    "Channel Number": 162,
+    "Channel Number": 163,
     "Receive Frequency": "446.27500",
     "Transmit Frequency": "446.27500",
     "Offset Frequency": "",
@@ -3078,7 +3097,7 @@
     "User CTCSS": "1500 Hz"
   },
   {
-    "Channel Number": 163,
+    "Channel Number": 164,
     "Receive Frequency": "446.28750",
     "Transmit Frequency": "446.28750",
     "Offset Frequency": "",
@@ -3097,7 +3116,7 @@
     "User CTCSS": "1500 Hz"
   },
   {
-    "Channel Number": 164,
+    "Channel Number": 165,
     "Receive Frequency": "446.30000",
     "Transmit Frequency": "446.30000",
     "Offset Frequency": "",
@@ -3116,7 +3135,26 @@
     "User CTCSS": "1500 Hz"
   },
   {
-    "Channel Number": 165,
+    "Channel Number": 166,
+    "Receive Frequency": "446.90000",
+    "Transmit Frequency": "441.90000",
+    "Offset Frequency": "5.00 MHz",
+    "Offset Direction": "Minus",
+    "Operating Mode": "Auto",
+    "Name": "K0PRA YW",
+    "Show Name": "Large",
+    "Tone Mode": "None",
+    "CTCSS": "100.0 Hz",
+    "DCS": "023",
+    "Tx Power": "Low",
+    "Skip": "Off",
+    "Step": "Auto",
+    "Clock Shift": "Off",
+    "Comment": "8 18248 16.56 CO Arapahoe Parker K0PRA",
+    "User CTCSS": "1500 Hz"
+  },
+  {
+    "Channel Number": 167,
     "Receive Frequency": "447.17500",
     "Transmit Frequency": "442.17500",
     "Offset Frequency": "5.00 MHz",
@@ -3135,7 +3173,7 @@
     "User CTCSS": "1500 Hz"
   },
   {
-    "Channel Number": 166,
+    "Channel Number": 168,
     "Receive Frequency": "447.20000",
     "Transmit Frequency": "442.20000",
     "Offset Frequency": "5.00 MHz",
@@ -3154,7 +3192,7 @@
     "User CTCSS": "1500 Hz"
   },
   {
-    "Channel Number": 167,
+    "Channel Number": 169,
     "Receive Frequency": "447.30000",
     "Transmit Frequency": "442.30000",
     "Offset Frequency": "5.00 MHz",
@@ -3173,7 +3211,7 @@
     "User CTCSS": "1500 Hz"
   },
   {
-    "Channel Number": 168,
+    "Channel Number": 170,
     "Receive Frequency": "447.35000",
     "Transmit Frequency": "442.35000",
     "Offset Frequency": "5.00 MHz",
@@ -3192,7 +3230,7 @@
     "User CTCSS": "1500 Hz"
   },
   {
-    "Channel Number": 169,
+    "Channel Number": 171,
     "Receive Frequency": "447.45000",
     "Transmit Frequency": "442.45000",
     "Offset Frequency": "5.00 MHz",
@@ -3211,7 +3249,7 @@
     "User CTCSS": "1500 Hz"
   },
   {
-    "Channel Number": 170,
+    "Channel Number": 172,
     "Receive Frequency": "447.47500",
     "Transmit Frequency": "442.47500",
     "Offset Frequency": "5.00 MHz",
@@ -3230,7 +3268,7 @@
     "User CTCSS": "1500 Hz"
   },
   {
-    "Channel Number": 171,
+    "Channel Number": 173,
     "Receive Frequency": "447.50000",
     "Transmit Frequency": "442.50000",
     "Offset Frequency": "5.00 MHz",
@@ -3249,7 +3287,7 @@
     "User CTCSS": "1500 Hz"
   },
   {
-    "Channel Number": 172,
+    "Channel Number": 174,
     "Receive Frequency": "447.52500",
     "Transmit Frequency": "442.52500",
     "Offset Frequency": "5.00 MHz",
@@ -3268,7 +3306,7 @@
     "User CTCSS": "1500 Hz"
   },
   {
-    "Channel Number": 173,
+    "Channel Number": 175,
     "Receive Frequency": "447.52500",
     "Transmit Frequency": "442.52500",
     "Offset Frequency": "5.00 MHz",
@@ -3287,7 +3325,7 @@
     "User CTCSS": "1500 Hz"
   },
   {
-    "Channel Number": 174,
+    "Channel Number": 176,
     "Receive Frequency": "447.55000",
     "Transmit Frequency": "442.55000",
     "Offset Frequency": "5.00 MHz",
@@ -3306,7 +3344,7 @@
     "User CTCSS": "1500 Hz"
   },
   {
-    "Channel Number": 175,
+    "Channel Number": 177,
     "Receive Frequency": "447.57500",
     "Transmit Frequency": "442.57500",
     "Offset Frequency": "5.00 MHz",
@@ -3325,7 +3363,7 @@
     "User CTCSS": "1500 Hz"
   },
   {
-    "Channel Number": 176,
+    "Channel Number": 178,
     "Receive Frequency": "447.62500",
     "Transmit Frequency": "442.62500",
     "Offset Frequency": "5.00 MHz",
@@ -3344,7 +3382,7 @@
     "User CTCSS": "1500 Hz"
   },
   {
-    "Channel Number": 177,
+    "Channel Number": 179,
     "Receive Frequency": "447.62500",
     "Transmit Frequency": "442.62500",
     "Offset Frequency": "5.00 MHz",
@@ -3363,7 +3401,7 @@
     "User CTCSS": "1500 Hz"
   },
   {
-    "Channel Number": 178,
+    "Channel Number": 180,
     "Receive Frequency": "447.67500",
     "Transmit Frequency": "442.67500",
     "Offset Frequency": "5.00 MHz",
@@ -3382,7 +3420,7 @@
     "User CTCSS": "1500 Hz"
   },
   {
-    "Channel Number": 179,
+    "Channel Number": 181,
     "Receive Frequency": "447.72500",
     "Transmit Frequency": "442.72500",
     "Offset Frequency": "5.00 MHz",
@@ -3401,7 +3439,7 @@
     "User CTCSS": "1500 Hz"
   },
   {
-    "Channel Number": 180,
+    "Channel Number": 182,
     "Receive Frequency": "447.72500",
     "Transmit Frequency": "442.72500",
     "Offset Frequency": "5.00 MHz",
@@ -3420,7 +3458,7 @@
     "User CTCSS": "1500 Hz"
   },
   {
-    "Channel Number": 181,
+    "Channel Number": 183,
     "Receive Frequency": "447.82500",
     "Transmit Frequency": "442.82500",
     "Offset Frequency": "5.00 MHz",
@@ -3439,7 +3477,7 @@
     "User CTCSS": "1500 Hz"
   },
   {
-    "Channel Number": 182,
+    "Channel Number": 184,
     "Receive Frequency": "447.87500",
     "Transmit Frequency": "442.87500",
     "Offset Frequency": "5.00 MHz",
@@ -3458,7 +3496,7 @@
     "User CTCSS": "1500 Hz"
   },
   {
-    "Channel Number": 183,
+    "Channel Number": 185,
     "Receive Frequency": "447.92500",
     "Transmit Frequency": "442.92500",
     "Offset Frequency": "5.00 MHz",
@@ -3477,7 +3515,7 @@
     "User CTCSS": "1500 Hz"
   },
   {
-    "Channel Number": 184,
+    "Channel Number": 186,
     "Receive Frequency": "447.97500",
     "Transmit Frequency": "442.97500",
     "Offset Frequency": "5.00 MHz",
@@ -3496,7 +3534,7 @@
     "User CTCSS": "1500 Hz"
   },
   {
-    "Channel Number": 185,
+    "Channel Number": 187,
     "Receive Frequency": "448.00000",
     "Transmit Frequency": "443.00000",
     "Offset Frequency": "5.00 MHz",
@@ -3515,7 +3553,7 @@
     "User CTCSS": "1500 Hz"
   },
   {
-    "Channel Number": 186,
+    "Channel Number": 188,
     "Receive Frequency": "448.02500",
     "Transmit Frequency": "443.02500",
     "Offset Frequency": "5.00 MHz",
@@ -3534,7 +3572,7 @@
     "User CTCSS": "1500 Hz"
   },
   {
-    "Channel Number": 187,
+    "Channel Number": 189,
     "Receive Frequency": "448.07500",
     "Transmit Frequency": "443.07500",
     "Offset Frequency": "5.00 MHz",
@@ -3553,7 +3591,7 @@
     "User CTCSS": "1500 Hz"
   },
   {
-    "Channel Number": 188,
+    "Channel Number": 190,
     "Receive Frequency": "448.10000",
     "Transmit Frequency": "443.10000",
     "Offset Frequency": "5.00 MHz",
@@ -3572,7 +3610,7 @@
     "User CTCSS": "1500 Hz"
   },
   {
-    "Channel Number": 189,
+    "Channel Number": 191,
     "Receive Frequency": "448.12500",
     "Transmit Frequency": "443.12500",
     "Offset Frequency": "5.00 MHz",
@@ -3591,7 +3629,7 @@
     "User CTCSS": "1500 Hz"
   },
   {
-    "Channel Number": 190,
+    "Channel Number": 192,
     "Receive Frequency": "448.15000",
     "Transmit Frequency": "443.15000",
     "Offset Frequency": "5.00 MHz",
@@ -3610,7 +3648,7 @@
     "User CTCSS": "1500 Hz"
   },
   {
-    "Channel Number": 191,
+    "Channel Number": 193,
     "Receive Frequency": "448.22500",
     "Transmit Frequency": "443.22500",
     "Offset Frequency": "5.00 MHz",
@@ -3629,7 +3667,7 @@
     "User CTCSS": "1500 Hz"
   },
   {
-    "Channel Number": 192,
+    "Channel Number": 194,
     "Receive Frequency": "448.27500",
     "Transmit Frequency": "443.27500",
     "Offset Frequency": "5.00 MHz",
@@ -3648,7 +3686,7 @@
     "User CTCSS": "1500 Hz"
   },
   {
-    "Channel Number": 193,
+    "Channel Number": 195,
     "Receive Frequency": "448.30000",
     "Transmit Frequency": "443.30000",
     "Offset Frequency": "5.00 MHz",
@@ -3667,7 +3705,7 @@
     "User CTCSS": "1500 Hz"
   },
   {
-    "Channel Number": 194,
+    "Channel Number": 196,
     "Receive Frequency": "448.35000",
     "Transmit Frequency": "443.35000",
     "Offset Frequency": "5.00 MHz",
@@ -3686,7 +3724,7 @@
     "User CTCSS": "1500 Hz"
   },
   {
-    "Channel Number": 195,
+    "Channel Number": 197,
     "Receive Frequency": "448.40000",
     "Transmit Frequency": "443.40000",
     "Offset Frequency": "5.00 MHz",
@@ -3705,7 +3743,7 @@
     "User CTCSS": "1500 Hz"
   },
   {
-    "Channel Number": 196,
+    "Channel Number": 198,
     "Receive Frequency": "448.42500",
     "Transmit Frequency": "443.42500",
     "Offset Frequency": "5.00 MHz",
@@ -3724,7 +3762,7 @@
     "User CTCSS": "1500 Hz"
   },
   {
-    "Channel Number": 197,
+    "Channel Number": 199,
     "Receive Frequency": "448.45000",
     "Transmit Frequency": "443.45000",
     "Offset Frequency": "5.00 MHz",
@@ -3743,7 +3781,7 @@
     "User CTCSS": "1500 Hz"
   },
   {
-    "Channel Number": 198,
+    "Channel Number": 200,
     "Receive Frequency": "448.47500",
     "Transmit Frequency": "443.47500",
     "Offset Frequency": "5.00 MHz",
@@ -3762,7 +3800,7 @@
     "User CTCSS": "1500 Hz"
   },
   {
-    "Channel Number": 199,
+    "Channel Number": 201,
     "Receive Frequency": "448.50000",
     "Transmit Frequency": "443.50000",
     "Offset Frequency": "5.00 MHz",
@@ -3781,7 +3819,7 @@
     "User CTCSS": "1500 Hz"
   },
   {
-    "Channel Number": 200,
+    "Channel Number": 202,
     "Receive Frequency": "448.52500",
     "Transmit Frequency": "443.52500",
     "Offset Frequency": "5.00 MHz",
@@ -3800,7 +3838,7 @@
     "User CTCSS": "1500 Hz"
   },
   {
-    "Channel Number": 201,
+    "Channel Number": 203,
     "Receive Frequency": "448.60000",
     "Transmit Frequency": "443.60000",
     "Offset Frequency": "5.00 MHz",
@@ -3819,7 +3857,7 @@
     "User CTCSS": "1500 Hz"
   },
   {
-    "Channel Number": 202,
+    "Channel Number": 204,
     "Receive Frequency": "448.62500",
     "Transmit Frequency": "443.62500",
     "Offset Frequency": "5.00 MHz",
@@ -3838,7 +3876,7 @@
     "User CTCSS": "1500 Hz"
   },
   {
-    "Channel Number": 203,
+    "Channel Number": 205,
     "Receive Frequency": "448.65000",
     "Transmit Frequency": "443.65000",
     "Offset Frequency": "5.00 MHz",
@@ -3857,7 +3895,7 @@
     "User CTCSS": "1500 Hz"
   },
   {
-    "Channel Number": 204,
+    "Channel Number": 206,
     "Receive Frequency": "448.67500",
     "Transmit Frequency": "443.67500",
     "Offset Frequency": "5.00 MHz",
@@ -3876,7 +3914,7 @@
     "User CTCSS": "1500 Hz"
   },
   {
-    "Channel Number": 205,
+    "Channel Number": 207,
     "Receive Frequency": "448.70000",
     "Transmit Frequency": "443.70000",
     "Offset Frequency": "5.00 MHz",
@@ -3895,7 +3933,7 @@
     "User CTCSS": "1500 Hz"
   },
   {
-    "Channel Number": 206,
+    "Channel Number": 208,
     "Receive Frequency": "448.72500",
     "Transmit Frequency": "443.72500",
     "Offset Frequency": "5.00 MHz",
@@ -3914,7 +3952,7 @@
     "User CTCSS": "1500 Hz"
   },
   {
-    "Channel Number": 207,
+    "Channel Number": 209,
     "Receive Frequency": "448.80000",
     "Transmit Frequency": "443.80000",
     "Offset Frequency": "5.00 MHz",
@@ -3933,7 +3971,7 @@
     "User CTCSS": "1500 Hz"
   },
   {
-    "Channel Number": 208,
+    "Channel Number": 210,
     "Receive Frequency": "448.80000",
     "Transmit Frequency": "443.80000",
     "Offset Frequency": "5.00 MHz",
@@ -3952,7 +3990,7 @@
     "User CTCSS": "1500 Hz"
   },
   {
-    "Channel Number": 209,
+    "Channel Number": 211,
     "Receive Frequency": "448.82500",
     "Transmit Frequency": "443.82500",
     "Offset Frequency": "5.00 MHz",
@@ -3971,7 +4009,7 @@
     "User CTCSS": "1500 Hz"
   },
   {
-    "Channel Number": 210,
+    "Channel Number": 212,
     "Receive Frequency": "448.85000",
     "Transmit Frequency": "443.85000",
     "Offset Frequency": "5.00 MHz",
@@ -3990,7 +4028,7 @@
     "User CTCSS": "1500 Hz"
   },
   {
-    "Channel Number": 211,
+    "Channel Number": 213,
     "Receive Frequency": "448.90000",
     "Transmit Frequency": "443.90000",
     "Offset Frequency": "5.00 MHz",
@@ -4009,7 +4047,7 @@
     "User CTCSS": "1500 Hz"
   },
   {
-    "Channel Number": 212,
+    "Channel Number": 214,
     "Receive Frequency": "448.95000",
     "Transmit Frequency": "443.95000",
     "Offset Frequency": "5.00 MHz",
@@ -4028,7 +4066,7 @@
     "User CTCSS": "1500 Hz"
   },
   {
-    "Channel Number": 213,
+    "Channel Number": 215,
     "Receive Frequency": "448.97500",
     "Transmit Frequency": "443.97500",
     "Offset Frequency": "5.00 MHz",
@@ -4047,7 +4085,7 @@
     "User CTCSS": "1500 Hz"
   },
   {
-    "Channel Number": 214,
+    "Channel Number": 216,
     "Receive Frequency": "449.00000",
     "Transmit Frequency": "444.00000",
     "Offset Frequency": "5.00 MHz",
@@ -4066,7 +4104,7 @@
     "User CTCSS": "1500 Hz"
   },
   {
-    "Channel Number": 215,
+    "Channel Number": 217,
     "Receive Frequency": "449.02500",
     "Transmit Frequency": "444.02500",
     "Offset Frequency": "5.00 MHz",
@@ -4085,7 +4123,7 @@
     "User CTCSS": "1500 Hz"
   },
   {
-    "Channel Number": 216,
+    "Channel Number": 218,
     "Receive Frequency": "449.05000",
     "Transmit Frequency": "444.05000",
     "Offset Frequency": "5.00 MHz",
@@ -4104,7 +4142,7 @@
     "User CTCSS": "1500 Hz"
   },
   {
-    "Channel Number": 217,
+    "Channel Number": 219,
     "Receive Frequency": "449.22500",
     "Transmit Frequency": "444.22500",
     "Offset Frequency": "5.00 MHz",
@@ -4123,7 +4161,7 @@
     "User CTCSS": "1500 Hz"
   },
   {
-    "Channel Number": 218,
+    "Channel Number": 220,
     "Receive Frequency": "449.25000",
     "Transmit Frequency": "444.25000",
     "Offset Frequency": "5.00 MHz",
@@ -4142,7 +4180,7 @@
     "User CTCSS": "1500 Hz"
   },
   {
-    "Channel Number": 219,
+    "Channel Number": 221,
     "Receive Frequency": "449.30000",
     "Transmit Frequency": "444.30000",
     "Offset Frequency": "5.00 MHz",
@@ -4161,7 +4199,7 @@
     "User CTCSS": "1500 Hz"
   },
   {
-    "Channel Number": 220,
+    "Channel Number": 222,
     "Receive Frequency": "449.32500",
     "Transmit Frequency": "444.32500",
     "Offset Frequency": "5.00 MHz",
@@ -4180,7 +4218,7 @@
     "User CTCSS": "1500 Hz"
   },
   {
-    "Channel Number": 221,
+    "Channel Number": 223,
     "Receive Frequency": "449.35000",
     "Transmit Frequency": "444.35000",
     "Offset Frequency": "5.00 MHz",
@@ -4199,7 +4237,7 @@
     "User CTCSS": "1500 Hz"
   },
   {
-    "Channel Number": 222,
+    "Channel Number": 224,
     "Receive Frequency": "449.45000",
     "Transmit Frequency": "444.45000",
     "Offset Frequency": "5.00 MHz",
@@ -4218,7 +4256,7 @@
     "User CTCSS": "1500 Hz"
   },
   {
-    "Channel Number": 223,
+    "Channel Number": 225,
     "Receive Frequency": "449.52500",
     "Transmit Frequency": "444.52500",
     "Offset Frequency": "5.00 MHz",
@@ -4237,7 +4275,7 @@
     "User CTCSS": "1500 Hz"
   },
   {
-    "Channel Number": 224,
+    "Channel Number": 226,
     "Receive Frequency": "449.55000",
     "Transmit Frequency": "444.55000",
     "Offset Frequency": "5.00 MHz",
@@ -4256,7 +4294,7 @@
     "User CTCSS": "1500 Hz"
   },
   {
-    "Channel Number": 225,
+    "Channel Number": 227,
     "Receive Frequency": "449.57500",
     "Transmit Frequency": "444.57500",
     "Offset Frequency": "5.00 MHz",
@@ -4275,26 +4313,26 @@
     "User CTCSS": "1500 Hz"
   },
   {
-    "Channel Number": 226,
+    "Channel Number": 228,
     "Receive Frequency": "449.60000",
     "Transmit Frequency": "444.60000",
     "Offset Frequency": "5.00 MHz",
     "Offset Direction": "Minus",
     "Operating Mode": "Auto",
-    "Name": "WB0TUB FEI",
+    "Name": "N0PUF YEI",
     "Show Name": "Large",
-    "Tone Mode": "Tone",
+    "Tone Mode": "None",
     "CTCSS": "100.0 Hz",
     "DCS": "023",
     "Tx Power": "Low",
     "Skip": "Off",
     "Step": "Auto",
     "Clock Shift": "Off",
-    "Comment": "8 273 24.32 CO Jefferson Centennial Warren Mountain WB0TUB",
+    "Comment": "8 273 24.32 CO Jefferson Centennial Warren Mountain N0PUF",
     "User CTCSS": "1500 Hz"
   },
   {
-    "Channel Number": 227,
+    "Channel Number": 229,
     "Receive Frequency": "449.62500",
     "Transmit Frequency": "444.62500",
     "Offset Frequency": "5.00 MHz",
@@ -4313,7 +4351,7 @@
     "User CTCSS": "1500 Hz"
   },
   {
-    "Channel Number": 228,
+    "Channel Number": 230,
     "Receive Frequency": "449.70000",
     "Transmit Frequency": "444.70000",
     "Offset Frequency": "5.00 MHz",
@@ -4332,7 +4370,7 @@
     "User CTCSS": "1500 Hz"
   },
   {
-    "Channel Number": 229,
+    "Channel Number": 231,
     "Receive Frequency": "449.72500",
     "Transmit Frequency": "444.72500",
     "Offset Frequency": "5.00 MHz",
@@ -4347,11 +4385,11 @@
     "Skip": "Off",
     "Step": "Auto",
     "Clock Shift": "Off",
-    "Comment": "8 159 87.86 CO Weld Greeley UNC K0OJ",
+    "Comment": "8 159 87.87 CO Weld Greeley UNC K0OJ",
     "User CTCSS": "1500 Hz"
   },
   {
-    "Channel Number": 230,
+    "Channel Number": 232,
     "Receive Frequency": "449.75000",
     "Transmit Frequency": "444.75000",
     "Offset Frequency": "5.00 MHz",
@@ -4370,7 +4408,7 @@
     "User CTCSS": "1500 Hz"
   },
   {
-    "Channel Number": 231,
+    "Channel Number": 233,
     "Receive Frequency": "449.77500",
     "Transmit Frequency": "444.77500",
     "Offset Frequency": "5.00 MHz",
@@ -4389,7 +4427,7 @@
     "User CTCSS": "1500 Hz"
   },
   {
-    "Channel Number": 232,
+    "Channel Number": 234,
     "Receive Frequency": "449.80000",
     "Transmit Frequency": "444.80000",
     "Offset Frequency": "5.00 MHz",
@@ -4408,7 +4446,7 @@
     "User CTCSS": "1500 Hz"
   },
   {
-    "Channel Number": 233,
+    "Channel Number": 235,
     "Receive Frequency": "449.92500",
     "Transmit Frequency": "444.92500",
     "Offset Frequency": "5.00 MHz",
@@ -4427,7 +4465,7 @@
     "User CTCSS": "1500 Hz"
   },
   {
-    "Channel Number": 234,
+    "Channel Number": 236,
     "Receive Frequency": "449.95000",
     "Transmit Frequency": "444.95000",
     "Offset Frequency": "5.00 MHz",
@@ -4446,7 +4484,7 @@
     "User CTCSS": "1500 Hz"
   },
   {
-    "Channel Number": 235,
+    "Channel Number": 237,
     "Receive Frequency": "449.97500",
     "Transmit Frequency": "444.97500",
     "Offset Frequency": "5.00 MHz",
