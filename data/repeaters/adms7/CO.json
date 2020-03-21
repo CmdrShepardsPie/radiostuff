@@ -324,6 +324,25 @@
   },
   {
     "Number": 18,
+    "Receive": "145.11500",
+    "Transmit": "144.51500",
+    "Offset": "0.60000",
+    "Direction": "-RPT",
+    "Mode": "FM",
+    "Name": "W0PHC Pu",
+    "ToneMode": "TONE ENC",
+    "CTCSS": "88.5 Hz",
+    "DCS": "023",
+    "UserCTCSS": "1500 Hz",
+    "Power": "HIGH",
+    "Skip": "OFF",
+    "Step": "25.0KHz",
+    "ClockShift": 0,
+    "Comment": "8 191 154.19 CO Pueblo Pueblo W0PHC",
+    "Bank": 0
+  },
+  {
+    "Number": 19,
     "Receive": "145.13000",
     "Transmit": "144.53000",
     "Offset": "0.60000",
@@ -342,7 +361,7 @@
     "Bank": 0
   },
   {
-    "Number": 19,
+    "Number": 20,
     "Receive": "145.14500",
     "Transmit": "144.54500",
     "Offset": "0.60000",
@@ -361,7 +380,7 @@
     "Bank": 0
   },
   {
-    "Number": 20,
+    "Number": 21,
     "Receive": "145.16000",
     "Transmit": "144.56000",
     "Offset": "0.60000",
@@ -380,7 +399,7 @@
     "Bank": 0
   },
   {
-    "Number": 21,
+    "Number": 22,
     "Receive": "145.16000",
     "Transmit": "144.56000",
     "Offset": "0.60000",
@@ -399,7 +418,7 @@
     "Bank": 0
   },
   {
-    "Number": 22,
+    "Number": 23,
     "Receive": "145.17500",
     "Transmit": "144.57500",
     "Offset": "0.60000",
@@ -418,7 +437,7 @@
     "Bank": 0
   },
   {
-    "Number": 23,
+    "Number": 24,
     "Receive": "145.17500",
     "Transmit": "144.57500",
     "Offset": "0.60000",
@@ -437,7 +456,7 @@
     "Bank": 0
   },
   {
-    "Number": 24,
+    "Number": 25,
     "Receive": "145.19000",
     "Transmit": "144.59000",
     "Offset": "0.60000",
@@ -456,7 +475,7 @@
     "Bank": 0
   },
   {
-    "Number": 25,
+    "Number": 26,
     "Receive": "145.19000",
     "Transmit": "144.59000",
     "Offset": "0.60000",
@@ -475,32 +494,13 @@
     "Bank": 0
   },
   {
-    "Number": 26,
-    "Receive": "145.19000",
-    "Transmit": "144.59000",
-    "Offset": "0.60000",
-    "Direction": "-RPT",
-    "Mode": "FM",
-    "Name": "KB0DZB O",
-    "ToneMode": "OFF",
-    "CTCSS": "100.0 Hz",
-    "DCS": "023",
-    "UserCTCSS": "1500 Hz",
-    "Power": "HIGH",
-    "Skip": "OFF",
-    "Step": "25.0KHz",
-    "ClockShift": 0,
-    "Comment": "20 3907 373.45 KS Decatur Oberlin KB0DZB",
-    "Bank": 0
-  },
-  {
     "Number": 27,
     "Receive": "145.19000",
     "Transmit": "144.59000",
     "Offset": "0.60000",
     "Direction": "-RPT",
     "Mode": "FM",
-    "Name": "KB5ITS D",
+    "Name": "KB5ITS C",
     "ToneMode": "TONE ENC",
     "CTCSS": "100.0 Hz",
     "DCS": "023",
@@ -509,11 +509,30 @@
     "Skip": "OFF",
     "Step": "25.0KHz",
     "ClockShift": 0,
-    "Comment": "8 16606 394.87 CO Montezuma Dolores, Summit Ridge KB5ITS",
+    "Comment": "8 16606 394.87 CO Montezuma Cortez, Goodman KB5ITS",
     "Bank": 0
   },
   {
     "Number": 28,
+    "Receive": "145.19000",
+    "Transmit": "144.59000",
+    "Offset": "0.60000",
+    "Direction": "-RPT",
+    "Mode": "FM",
+    "Name": "W5SF Los",
+    "ToneMode": "TONE SQL",
+    "CTCSS": "162.2 Hz",
+    "DCS": "023",
+    "UserCTCSS": "1500 Hz",
+    "Power": "HIGH",
+    "Skip": "OFF",
+    "Step": "25.0KHz",
+    "ClockShift": 0,
+    "Comment": "35 118 436.34 NM Los Alamos Los Alamos, Pajarito Mountain W5SF",
+    "Bank": 0
+  },
+  {
+    "Number": 29,
     "Receive": "145.19000",
     "Transmit": "144.59000",
     "Offset": "0.60000",
@@ -532,32 +551,13 @@
     "Bank": 0
   },
   {
-    "Number": 29,
-    "Receive": "145.20500",
-    "Transmit": "144.60500",
-    "Offset": "0.60000",
-    "Direction": "-RPT",
-    "Mode": "FM",
-    "Name": "KA0RCZ A",
-    "ToneMode": "OFF",
-    "CTCSS": "100.0 Hz",
-    "DCS": "023",
-    "UserCTCSS": "1500 Hz",
-    "Power": "HIGH",
-    "Skip": "OFF",
-    "Step": "25.0KHz",
-    "ClockShift": 0,
-    "Comment": "31 6 474.91 NE Harlan Alma KA0RCZ",
-    "Bank": 0
-  },
-  {
     "Number": 30,
     "Receive": "145.21000",
     "Transmit": "144.61000",
     "Offset": "0.60000",
     "Direction": "-RPT",
     "Mode": "FM",
-    "Name": "N5GDR Ci",
+    "Name": "N5GDR Ma",
     "ToneMode": "TONE SQL",
     "CTCSS": "110.9 Hz",
     "DCS": "023",
@@ -566,7 +566,7 @@
     "Skip": "OFF",
     "Step": "25.0KHz",
     "ClockShift": 0,
-    "Comment": "35 16113 346.61 NM Colfax Cimarron N5GDR",
+    "Comment": "35 16113 346.61 NM Colfax Maxwell N5GDR",
     "Bank": 0
   },
   {
@@ -597,7 +597,7 @@
     "Mode": "FM",
     "Name": "KB7SWR C",
     "ToneMode": "TONE ENC",
-    "CTCSS": "114.8 Hz",
+    "CTCSS": "131.8 Hz",
     "DCS": "023",
     "UserCTCSS": "1500 Hz",
     "Power": "HIGH",
@@ -710,7 +710,7 @@
     "Direction": "-RPT",
     "Mode": "FM",
     "Name": "WA0JTB S",
-    "ToneMode": "OFF",
+    "ToneMode": "TONE ENC",
     "CTCSS": "100.0 Hz",
     "DCS": "023",
     "UserCTCSS": "1500 Hz",
@@ -786,6 +786,25 @@
     "Direction": "-RPT",
     "Mode": "FM",
     "Name": "KB5ITS M",
+    "ToneMode": "OFF",
+    "CTCSS": "100.0 Hz",
+    "DCS": "023",
+    "UserCTCSS": "1500 Hz",
+    "Power": "HIGH",
+    "Skip": "OFF",
+    "Step": "25.0KHz",
+    "ClockShift": 0,
+    "Comment": "8 18459 378.79 CO Montezuma Mancos, Caviness KB5ITS",
+    "Bank": 0
+  },
+  {
+    "Number": 43,
+    "Receive": "145.32500",
+    "Transmit": "144.72500",
+    "Offset": "0.60000",
+    "Direction": "-RPT",
+    "Mode": "FM",
+    "Name": "KB5ITS M",
     "ToneMode": "TONE ENC",
     "CTCSS": "100.0 Hz",
     "DCS": "023",
@@ -798,7 +817,7 @@
     "Bank": 0
   },
   {
-    "Number": 43,
+    "Number": 44,
     "Receive": "145.34000",
     "Transmit": "144.74000",
     "Offset": "0.60000",
@@ -817,7 +836,7 @@
     "Bank": 0
   },
   {
-    "Number": 44,
+    "Number": 45,
     "Receive": "145.35500",
     "Transmit": "144.75500",
     "Offset": "0.60000",
@@ -836,7 +855,7 @@
     "Bank": 0
   },
   {
-    "Number": 45,
+    "Number": 46,
     "Receive": "145.35500",
     "Transmit": "144.75500",
     "Offset": "0.60000",
@@ -855,7 +874,7 @@
     "Bank": 0
   },
   {
-    "Number": 46,
+    "Number": 47,
     "Receive": "145.37000",
     "Transmit": "144.77000",
     "Offset": "0.60000",
@@ -874,7 +893,7 @@
     "Bank": 0
   },
   {
-    "Number": 47,
+    "Number": 48,
     "Receive": "145.40000",
     "Transmit": "144.80000",
     "Offset": "0.60000",
@@ -893,7 +912,7 @@
     "Bank": 0
   },
   {
-    "Number": 48,
+    "Number": 49,
     "Receive": "145.40000",
     "Transmit": "144.80000",
     "Offset": "0.60000",
@@ -912,7 +931,7 @@
     "Bank": 0
   },
   {
-    "Number": 49,
+    "Number": 50,
     "Receive": "145.41500",
     "Transmit": "144.81500",
     "Offset": "0.60000",
@@ -931,7 +950,7 @@
     "Bank": 0
   },
   {
-    "Number": 50,
+    "Number": 51,
     "Receive": "145.43000",
     "Transmit": "144.83000",
     "Offset": "0.60000",
@@ -950,7 +969,7 @@
     "Bank": 0
   },
   {
-    "Number": 51,
+    "Number": 52,
     "Receive": "145.43000",
     "Transmit": "144.83000",
     "Offset": "0.60000",
@@ -969,7 +988,7 @@
     "Bank": 0
   },
   {
-    "Number": 52,
+    "Number": 53,
     "Receive": "145.44500",
     "Transmit": "144.84500",
     "Offset": "0.60000",
@@ -988,7 +1007,7 @@
     "Bank": 0
   },
   {
-    "Number": 53,
+    "Number": 54,
     "Receive": "145.46000",
     "Transmit": "144.86000",
     "Offset": "0.60000",
@@ -1007,7 +1026,7 @@
     "Bank": 0
   },
   {
-    "Number": 54,
+    "Number": 55,
     "Receive": "145.46000",
     "Transmit": "144.86000",
     "Offset": "0.60000",
@@ -1026,7 +1045,7 @@
     "Bank": 0
   },
   {
-    "Number": 55,
+    "Number": 56,
     "Receive": "145.46000",
     "Transmit": "144.86000",
     "Offset": "0.60000",
@@ -1045,7 +1064,7 @@
     "Bank": 0
   },
   {
-    "Number": 56,
+    "Number": 57,
     "Receive": "145.47500",
     "Transmit": "144.87500",
     "Offset": "0.60000",
@@ -1064,7 +1083,7 @@
     "Bank": 0
   },
   {
-    "Number": 57,
+    "Number": 58,
     "Receive": "145.49000",
     "Transmit": "144.89000",
     "Offset": "0.60000",
@@ -1083,7 +1102,7 @@
     "Bank": 0
   },
   {
-    "Number": 58,
+    "Number": 59,
     "Receive": "145.49000",
     "Transmit": "144.89000",
     "Offset": "0.60000",
@@ -1102,7 +1121,7 @@
     "Bank": 0
   },
   {
-    "Number": 59,
+    "Number": 60,
     "Receive": "145.49000",
     "Transmit": "144.89000",
     "Offset": "0.60000",
@@ -1121,7 +1140,7 @@
     "Bank": 0
   },
   {
-    "Number": 60,
+    "Number": 61,
     "Receive": "145.62000",
     "Transmit": "145.62000",
     "Offset": "0.00000",
@@ -1140,7 +1159,7 @@
     "Bank": 0
   },
   {
-    "Number": 61,
+    "Number": 62,
     "Receive": "146.40000",
     "Transmit": "146.40000",
     "Offset": "0.00000",
@@ -1159,7 +1178,7 @@
     "Bank": 0
   },
   {
-    "Number": 62,
+    "Number": 63,
     "Receive": "146.41500",
     "Transmit": "146.41500",
     "Offset": "0.00000",
@@ -1178,28 +1197,9 @@
     "Bank": 0
   },
   {
-    "Number": 63,
+    "Number": 64,
     "Receive": "146.43000",
     "Transmit": "146.43000",
-    "Offset": "0.00000",
-    "Direction": "OFF",
-    "Mode": "FM",
-    "Name": "FM Voice",
-    "ToneMode": "OFF",
-    "CTCSS": "100.0 Hz",
-    "DCS": "023",
-    "UserCTCSS": "1500 Hz",
-    "Power": "HIGH",
-    "Skip": "OFF",
-    "Step": "25.0KHz",
-    "ClockShift": 0,
-    "Comment": "FM Voice",
-    "Bank": 0
-  },
-  {
-    "Number": 64,
-    "Receive": "146.44500",
-    "Transmit": "146.44500",
     "Offset": "0.00000",
     "Direction": "OFF",
     "Mode": "FM",
@@ -1222,25 +1222,6 @@
     "Offset": "0.00000",
     "Direction": "OFF",
     "Mode": "FM",
-    "Name": "AG0N Sco",
-    "ToneMode": "TONE SQL",
-    "CTCSS": "88.5 Hz",
-    "DCS": "023",
-    "UserCTCSS": "1500 Hz",
-    "Power": "HIGH",
-    "Skip": "OFF",
-    "Step": "25.0KHz",
-    "ClockShift": 0,
-    "Comment": "31 11355 277.02 NE Scotts Bluff Scottsbluff AG0N",
-    "Bank": 0
-  },
-  {
-    "Number": 66,
-    "Receive": "146.46000",
-    "Transmit": "146.46000",
-    "Offset": "0.00000",
-    "Direction": "OFF",
-    "Mode": "FM",
     "Name": "FM Voice",
     "ToneMode": "OFF",
     "CTCSS": "100.0 Hz",
@@ -1254,9 +1235,28 @@
     "Bank": 0
   },
   {
+    "Number": 66,
+    "Receive": "146.44500",
+    "Transmit": "146.44500",
+    "Offset": "0.00000",
+    "Direction": "OFF",
+    "Mode": "FM",
+    "Name": "AG0N Sco",
+    "ToneMode": "TONE SQL",
+    "CTCSS": "88.5 Hz",
+    "DCS": "023",
+    "UserCTCSS": "1500 Hz",
+    "Power": "HIGH",
+    "Skip": "OFF",
+    "Step": "25.0KHz",
+    "ClockShift": 0,
+    "Comment": "31 11355 277.02 NE Scotts Bluff Scottsbluff AG0N",
+    "Bank": 0
+  },
+  {
     "Number": 67,
-    "Receive": "146.47500",
-    "Transmit": "146.47500",
+    "Receive": "146.46000",
+    "Transmit": "146.46000",
     "Offset": "0.00000",
     "Direction": "OFF",
     "Mode": "FM",
@@ -1279,6 +1279,25 @@
     "Offset": "0.00000",
     "Direction": "OFF",
     "Mode": "FM",
+    "Name": "FM Voice",
+    "ToneMode": "OFF",
+    "CTCSS": "100.0 Hz",
+    "DCS": "023",
+    "UserCTCSS": "1500 Hz",
+    "Power": "HIGH",
+    "Skip": "OFF",
+    "Step": "25.0KHz",
+    "ClockShift": 0,
+    "Comment": "FM Voice",
+    "Bank": 0
+  },
+  {
+    "Number": 69,
+    "Receive": "146.47500",
+    "Transmit": "146.47500",
+    "Offset": "0.00000",
+    "Direction": "OFF",
+    "Mode": "FM",
     "Name": "W0FUI Ho",
     "ToneMode": "TONE SQL",
     "CTCSS": "146.2 Hz",
@@ -1292,7 +1311,7 @@
     "Bank": 0
   },
   {
-    "Number": 69,
+    "Number": 70,
     "Receive": "146.49000",
     "Transmit": "146.49000",
     "Offset": "0.00000",
@@ -1311,7 +1330,7 @@
     "Bank": 0
   },
   {
-    "Number": 70,
+    "Number": 71,
     "Receive": "146.50500",
     "Transmit": "146.50500",
     "Offset": "0.00000",
@@ -1330,7 +1349,7 @@
     "Bank": 0
   },
   {
-    "Number": 71,
+    "Number": 72,
     "Receive": "146.52000",
     "Transmit": "146.52000",
     "Offset": "0.00000",
@@ -1349,7 +1368,7 @@
     "Bank": 0
   },
   {
-    "Number": 72,
+    "Number": 73,
     "Receive": "146.53500",
     "Transmit": "146.53500",
     "Offset": "0.00000",
@@ -1368,7 +1387,7 @@
     "Bank": 0
   },
   {
-    "Number": 73,
+    "Number": 74,
     "Receive": "146.55000",
     "Transmit": "146.55000",
     "Offset": "0.00000",
@@ -1387,7 +1406,7 @@
     "Bank": 0
   },
   {
-    "Number": 74,
+    "Number": 75,
     "Receive": "146.56500",
     "Transmit": "146.56500",
     "Offset": "0.00000",
@@ -1406,7 +1425,7 @@
     "Bank": 0
   },
   {
-    "Number": 75,
+    "Number": 76,
     "Receive": "146.58000",
     "Transmit": "146.58000",
     "Offset": "0.00000",
@@ -1425,7 +1444,7 @@
     "Bank": 0
   },
   {
-    "Number": 76,
+    "Number": 77,
     "Receive": "146.59500",
     "Transmit": "146.59500",
     "Offset": "0.00000",
@@ -1444,7 +1463,7 @@
     "Bank": 0
   },
   {
-    "Number": 77,
+    "Number": 78,
     "Receive": "146.61000",
     "Transmit": "146.01000",
     "Offset": "0.60000",
@@ -1463,7 +1482,7 @@
     "Bank": 0
   },
   {
-    "Number": 78,
+    "Number": 79,
     "Receive": "146.61000",
     "Transmit": "146.01000",
     "Offset": "0.60000",
@@ -1482,7 +1501,7 @@
     "Bank": 0
   },
   {
-    "Number": 79,
+    "Number": 80,
     "Receive": "146.61000",
     "Transmit": "146.01000",
     "Offset": "0.60000",
@@ -1501,7 +1520,7 @@
     "Bank": 0
   },
   {
-    "Number": 80,
+    "Number": 81,
     "Receive": "146.61000",
     "Transmit": "146.01000",
     "Offset": "0.60000",
@@ -1520,7 +1539,45 @@
     "Bank": 0
   },
   {
-    "Number": 81,
+    "Number": 82,
+    "Receive": "146.61000",
+    "Transmit": "146.01000",
+    "Offset": "0.60000",
+    "Direction": "-RPT",
+    "Mode": "FM",
+    "Name": "W0QS Hug",
+    "ToneMode": "TONE SQL",
+    "CTCSS": "123.0 Hz",
+    "DCS": "023",
+    "UserCTCSS": "1500 Hz",
+    "Power": "HIGH",
+    "Skip": "OFF",
+    "Step": "25.0KHz",
+    "ClockShift": 0,
+    "Comment": "20 18554 411.86 KS Graham Hugoton W0QS",
+    "Bank": 0
+  },
+  {
+    "Number": 83,
+    "Receive": "146.61000",
+    "Transmit": "146.01000",
+    "Offset": "0.60000",
+    "Direction": "-RPT",
+    "Mode": "FM",
+    "Name": "KB5ITS A",
+    "ToneMode": "TONE ENC",
+    "CTCSS": "100.0 Hz",
+    "DCS": "023",
+    "UserCTCSS": "1500 Hz",
+    "Power": "HIGH",
+    "Skip": "OFF",
+    "Step": "25.0KHz",
+    "ClockShift": 0,
+    "Comment": "35 18461 414.84 NM Taos Aztec, Hottel Hill KB5ITS",
+    "Bank": 0
+  },
+  {
+    "Number": 84,
     "Receive": "146.62500",
     "Transmit": "146.02500",
     "Offset": "0.60000",
@@ -1539,7 +1596,7 @@
     "Bank": 0
   },
   {
-    "Number": 82,
+    "Number": 85,
     "Receive": "146.64000",
     "Transmit": "146.04000",
     "Offset": "0.60000",
@@ -1558,7 +1615,7 @@
     "Bank": 0
   },
   {
-    "Number": 83,
+    "Number": 86,
     "Receive": "146.64000",
     "Transmit": "146.04000",
     "Offset": "0.60000",
@@ -1577,26 +1634,7 @@
     "Bank": 0
   },
   {
-    "Number": 84,
-    "Receive": "146.64000",
-    "Transmit": "146.04000",
-    "Offset": "0.60000",
-    "Direction": "-RPT",
-    "Mode": "FM",
-    "Name": "K5IS Per",
-    "ToneMode": "TONE ENC",
-    "CTCSS": "88.5 Hz",
-    "DCS": "023",
-    "UserCTCSS": "1500 Hz",
-    "Power": "HIGH",
-    "Skip": "OFF",
-    "Step": "25.0KHz",
-    "ClockShift": 0,
-    "Comment": "48 383 507.00 TX Ochiltree Perryton K5IS",
-    "Bank": 0
-  },
-  {
-    "Number": 85,
+    "Number": 87,
     "Receive": "146.65500",
     "Transmit": "146.05500",
     "Offset": "0.60000",
@@ -1615,7 +1653,7 @@
     "Bank": 0
   },
   {
-    "Number": 86,
+    "Number": 88,
     "Receive": "146.65500",
     "Transmit": "146.05500",
     "Offset": "0.60000",
@@ -1634,7 +1672,7 @@
     "Bank": 0
   },
   {
-    "Number": 87,
+    "Number": 89,
     "Receive": "146.67000",
     "Transmit": "146.07000",
     "Offset": "0.60000",
@@ -1653,7 +1691,7 @@
     "Bank": 0
   },
   {
-    "Number": 88,
+    "Number": 90,
     "Receive": "146.67000",
     "Transmit": "146.07000",
     "Offset": "0.60000",
@@ -1672,7 +1710,7 @@
     "Bank": 0
   },
   {
-    "Number": 89,
+    "Number": 91,
     "Receive": "146.67000",
     "Transmit": "146.07000",
     "Offset": "0.60000",
@@ -1691,7 +1729,7 @@
     "Bank": 0
   },
   {
-    "Number": 90,
+    "Number": 92,
     "Receive": "146.68500",
     "Transmit": "146.08500",
     "Offset": "0.60000",
@@ -1710,7 +1748,7 @@
     "Bank": 0
   },
   {
-    "Number": 91,
+    "Number": 93,
     "Receive": "146.68500",
     "Transmit": "146.08500",
     "Offset": "0.60000",
@@ -1729,7 +1767,7 @@
     "Bank": 0
   },
   {
-    "Number": 92,
+    "Number": 94,
     "Receive": "146.70000",
     "Transmit": "146.10000",
     "Offset": "0.60000",
@@ -1748,7 +1786,7 @@
     "Bank": 0
   },
   {
-    "Number": 93,
+    "Number": 95,
     "Receive": "146.70000",
     "Transmit": "146.10000",
     "Offset": "0.60000",
@@ -1767,7 +1805,7 @@
     "Bank": 0
   },
   {
-    "Number": 94,
+    "Number": 96,
     "Receive": "146.70000",
     "Transmit": "146.10000",
     "Offset": "0.60000",
@@ -1786,7 +1824,7 @@
     "Bank": 0
   },
   {
-    "Number": 95,
+    "Number": 97,
     "Receive": "146.70000",
     "Transmit": "146.10000",
     "Offset": "0.60000",
@@ -1805,7 +1843,7 @@
     "Bank": 0
   },
   {
-    "Number": 96,
+    "Number": 98,
     "Receive": "146.70000",
     "Transmit": "146.10000",
     "Offset": "0.60000",
@@ -1824,7 +1862,7 @@
     "Bank": 0
   },
   {
-    "Number": 97,
+    "Number": 99,
     "Receive": "146.70000",
     "Transmit": "146.10000",
     "Offset": "0.60000",
@@ -1843,7 +1881,7 @@
     "Bank": 0
   },
   {
-    "Number": 98,
+    "Number": 100,
     "Receive": "146.71500",
     "Transmit": "146.11500",
     "Offset": "0.60000",
@@ -1862,7 +1900,7 @@
     "Bank": 0
   },
   {
-    "Number": 99,
+    "Number": 101,
     "Receive": "146.71500",
     "Transmit": "146.11500",
     "Offset": "0.60000",
@@ -1881,13 +1919,13 @@
     "Bank": 0
   },
   {
-    "Number": 100,
+    "Number": 102,
     "Receive": "146.73000",
     "Transmit": "146.13000",
     "Offset": "0.60000",
     "Direction": "-RPT",
     "Mode": "FM",
-    "Name": "ND0Q Wal",
+    "Name": "W0PHC Wa",
     "ToneMode": "TONE ENC",
     "CTCSS": "88.5 Hz",
     "DCS": "023",
@@ -1896,11 +1934,11 @@
     "Skip": "OFF",
     "Step": "25.0KHz",
     "ClockShift": 0,
-    "Comment": "8 247 209.75 CO Huerfano Walsenburg, N Rattlesnake Butte ND0Q",
+    "Comment": "8 247 209.75 CO Huerfano Walsenburg, N Rattlesnake Butte W0PHC",
     "Bank": 0
   },
   {
-    "Number": 101,
+    "Number": 103,
     "Receive": "146.74500",
     "Transmit": "146.14500",
     "Offset": "0.60000",
@@ -1919,7 +1957,7 @@
     "Bank": 0
   },
   {
-    "Number": 102,
+    "Number": 104,
     "Receive": "146.74500",
     "Transmit": "146.14500",
     "Offset": "0.60000",
@@ -1938,7 +1976,7 @@
     "Bank": 0
   },
   {
-    "Number": 103,
+    "Number": 105,
     "Receive": "146.76000",
     "Transmit": "146.16000",
     "Offset": "0.60000",
@@ -1957,7 +1995,7 @@
     "Bank": 0
   },
   {
-    "Number": 104,
+    "Number": 106,
     "Receive": "146.76000",
     "Transmit": "146.16000",
     "Offset": "0.60000",
@@ -1976,7 +2014,7 @@
     "Bank": 0
   },
   {
-    "Number": 105,
+    "Number": 107,
     "Receive": "146.76000",
     "Transmit": "146.16000",
     "Offset": "0.60000",
@@ -1995,7 +2033,7 @@
     "Bank": 0
   },
   {
-    "Number": 106,
+    "Number": 108,
     "Receive": "146.76000",
     "Transmit": "146.16000",
     "Offset": "0.60000",
@@ -2014,7 +2052,7 @@
     "Bank": 0
   },
   {
-    "Number": 107,
+    "Number": 109,
     "Receive": "146.76000",
     "Transmit": "146.16000",
     "Offset": "0.60000",
@@ -2033,7 +2071,7 @@
     "Bank": 0
   },
   {
-    "Number": 108,
+    "Number": 110,
     "Receive": "146.77500",
     "Transmit": "146.17500",
     "Offset": "0.60000",
@@ -2052,7 +2090,7 @@
     "Bank": 0
   },
   {
-    "Number": 109,
+    "Number": 111,
     "Receive": "146.77500",
     "Transmit": "146.17500",
     "Offset": "0.60000",
@@ -2071,13 +2109,13 @@
     "Bank": 0
   },
   {
-    "Number": 110,
+    "Number": 112,
     "Receive": "146.79000",
     "Transmit": "146.19000",
     "Offset": "0.60000",
     "Direction": "-RPT",
     "Mode": "FM",
-    "Name": "ND0Q Pue",
+    "Name": "W0PHC Pu",
     "ToneMode": "TONE ENC",
     "CTCSS": "88.5 Hz",
     "DCS": "023",
@@ -2086,11 +2124,11 @@
     "Skip": "OFF",
     "Step": "25.0KHz",
     "ClockShift": 0,
-    "Comment": "8 193 140.36 CO Pueblo Pueblo, Baculite Mesa ND0Q",
+    "Comment": "8 193 143.54 CO Pueblo Pueblo, Baculite Mesa W0PHC",
     "Bank": 0
   },
   {
-    "Number": 111,
+    "Number": 113,
     "Receive": "146.79000",
     "Transmit": "146.19000",
     "Offset": "0.60000",
@@ -2109,7 +2147,7 @@
     "Bank": 0
   },
   {
-    "Number": 112,
+    "Number": 114,
     "Receive": "146.79000",
     "Transmit": "146.19000",
     "Offset": "0.60000",
@@ -2128,7 +2166,7 @@
     "Bank": 0
   },
   {
-    "Number": 113,
+    "Number": 115,
     "Receive": "146.80500",
     "Transmit": "146.20500",
     "Offset": "0.60000",
@@ -2147,26 +2185,7 @@
     "Bank": 0
   },
   {
-    "Number": 114,
-    "Receive": "146.80500",
-    "Transmit": "146.20500",
-    "Offset": "0.60000",
-    "Direction": "-RPT",
-    "Mode": "FM",
-    "Name": "W7BEQ Sh",
-    "ToneMode": "TONE ENC",
-    "CTCSS": "100.0 Hz",
-    "DCS": "023",
-    "UserCTCSS": "1500 Hz",
-    "Power": "HIGH",
-    "Skip": "OFF",
-    "Step": "25.0KHz",
-    "ClockShift": 0,
-    "Comment": "56 15527 497.13 WY Fremont Shoshoni, Copper Mtn W7BEQ",
-    "Bank": 0
-  },
-  {
-    "Number": 115,
+    "Number": 116,
     "Receive": "146.82000",
     "Transmit": "146.22000",
     "Offset": "0.60000",
@@ -2185,7 +2204,7 @@
     "Bank": 0
   },
   {
-    "Number": 116,
+    "Number": 117,
     "Receive": "146.82000",
     "Transmit": "146.22000",
     "Offset": "0.60000",
@@ -2204,7 +2223,7 @@
     "Bank": 0
   },
   {
-    "Number": 117,
+    "Number": 118,
     "Receive": "146.82000",
     "Transmit": "146.22000",
     "Offset": "0.60000",
@@ -2223,7 +2242,7 @@
     "Bank": 0
   },
   {
-    "Number": 118,
+    "Number": 119,
     "Receive": "146.82000",
     "Transmit": "146.22000",
     "Offset": "0.60000",
@@ -2242,7 +2261,7 @@
     "Bank": 0
   },
   {
-    "Number": 119,
+    "Number": 120,
     "Receive": "146.82000",
     "Transmit": "146.22000",
     "Offset": "0.60000",
@@ -2261,7 +2280,7 @@
     "Bank": 0
   },
   {
-    "Number": 120,
+    "Number": 121,
     "Receive": "146.82000",
     "Transmit": "146.22000",
     "Offset": "0.60000",
@@ -2280,7 +2299,7 @@
     "Bank": 0
   },
   {
-    "Number": 121,
+    "Number": 122,
     "Receive": "146.84000",
     "Transmit": "146.24000",
     "Offset": "0.60000",
@@ -2299,7 +2318,7 @@
     "Bank": 0
   },
   {
-    "Number": 122,
+    "Number": 123,
     "Receive": "146.85000",
     "Transmit": "146.25000",
     "Offset": "0.60000",
@@ -2318,7 +2337,7 @@
     "Bank": 0
   },
   {
-    "Number": 123,
+    "Number": 124,
     "Receive": "146.85000",
     "Transmit": "146.25000",
     "Offset": "0.60000",
@@ -2333,11 +2352,11 @@
     "Skip": "OFF",
     "Step": "25.0KHz",
     "ClockShift": 0,
-    "Comment": "8 42 87.95 CO El Paso Colorado Springs AD0TP",
+    "Comment": "8 42 88.49 CO El Paso Colorado Springs AD0TP",
     "Bank": 0
   },
   {
-    "Number": 124,
+    "Number": 125,
     "Receive": "146.85000",
     "Transmit": "146.25000",
     "Offset": "0.60000",
@@ -2356,7 +2375,7 @@
     "Bank": 0
   },
   {
-    "Number": 125,
+    "Number": 126,
     "Receive": "146.85000",
     "Transmit": "146.25000",
     "Offset": "0.60000",
@@ -2375,32 +2394,13 @@
     "Bank": 0
   },
   {
-    "Number": 126,
-    "Receive": "146.85000",
-    "Transmit": "146.25000",
-    "Offset": "0.60000",
-    "Direction": "-RPT",
-    "Mode": "FM",
-    "Name": "KC0BXH C",
-    "ToneMode": "TONE ENC",
-    "CTCSS": "146.2 Hz",
-    "DCS": "023",
-    "UserCTCSS": "1500 Hz",
-    "Power": "HIGH",
-    "Skip": "OFF",
-    "Step": "25.0KHz",
-    "ClockShift": 0,
-    "Comment": "46 3644 481.32 SD Pennington Custer, Bear Mountain KC0BXH",
-    "Bank": 0
-  },
-  {
     "Number": 127,
     "Receive": "146.88000",
     "Transmit": "146.28000",
     "Offset": "0.60000",
     "Direction": "-RPT",
     "Mode": "FM",
-    "Name": "WB0TUB C",
+    "Name": "N0PUF Ce",
     "ToneMode": "TONE ENC",
     "CTCSS": "100.0 Hz",
     "DCS": "023",
@@ -2409,30 +2409,11 @@
     "Skip": "OFF",
     "Step": "25.0KHz",
     "ClockShift": 0,
-    "Comment": "8 80 24.32 CO Jefferson Centennial, Warren Mountain WB0TUB",
+    "Comment": "8 80 24.32 CO Jefferson Centennial, Warren Mountain N0PUF",
     "Bank": 0
   },
   {
     "Number": 128,
-    "Receive": "146.88000",
-    "Transmit": "146.28000",
-    "Offset": "0.60000",
-    "Direction": "-RPT",
-    "Mode": "FM",
-    "Name": "ND0Q Pue",
-    "ToneMode": "TONE ENC",
-    "CTCSS": "88.5 Hz",
-    "DCS": "023",
-    "UserCTCSS": "1500 Hz",
-    "Power": "HIGH",
-    "Skip": "OFF",
-    "Step": "25.0KHz",
-    "ClockShift": 0,
-    "Comment": "8 194 154.60 CO Pueblo Pueblo, Deer Peak ND0Q",
-    "Bank": 0
-  },
-  {
-    "Number": 129,
     "Receive": "146.88000",
     "Transmit": "146.28000",
     "Offset": "0.60000",
@@ -2451,7 +2432,7 @@
     "Bank": 0
   },
   {
-    "Number": 130,
+    "Number": 129,
     "Receive": "146.88000",
     "Transmit": "146.28000",
     "Offset": "0.60000",
@@ -2470,7 +2451,7 @@
     "Bank": 0
   },
   {
-    "Number": 131,
+    "Number": 130,
     "Receive": "146.88000",
     "Transmit": "146.28000",
     "Offset": "0.60000",
@@ -2489,7 +2470,7 @@
     "Bank": 0
   },
   {
-    "Number": 132,
+    "Number": 131,
     "Receive": "146.89500",
     "Transmit": "146.29500",
     "Offset": "0.60000",
@@ -2508,7 +2489,7 @@
     "Bank": 0
   },
   {
-    "Number": 133,
+    "Number": 132,
     "Receive": "146.89500",
     "Transmit": "146.29500",
     "Offset": "0.60000",
@@ -2527,7 +2508,7 @@
     "Bank": 0
   },
   {
-    "Number": 134,
+    "Number": 133,
     "Receive": "146.91000",
     "Transmit": "147.51000",
     "Offset": "0.60000",
@@ -2546,7 +2527,7 @@
     "Bank": 0
   },
   {
-    "Number": 135,
+    "Number": 134,
     "Receive": "146.91000",
     "Transmit": "146.31000",
     "Offset": "0.60000",
@@ -2565,7 +2546,7 @@
     "Bank": 0
   },
   {
-    "Number": 136,
+    "Number": 135,
     "Receive": "146.91000",
     "Transmit": "146.31000",
     "Offset": "0.60000",
@@ -2584,7 +2565,7 @@
     "Bank": 0
   },
   {
-    "Number": 137,
+    "Number": 136,
     "Receive": "146.91000",
     "Transmit": "146.31000",
     "Offset": "0.60000",
@@ -2603,7 +2584,7 @@
     "Bank": 0
   },
   {
-    "Number": 138,
+    "Number": 137,
     "Receive": "146.91000",
     "Transmit": "146.31000",
     "Offset": "0.60000",
@@ -2622,7 +2603,7 @@
     "Bank": 0
   },
   {
-    "Number": 139,
+    "Number": 138,
     "Receive": "146.94000",
     "Transmit": "146.34000",
     "Offset": "0.60000",
@@ -2638,6 +2619,25 @@
     "Step": "25.0KHz",
     "ClockShift": 0,
     "Comment": "8 81 51.67 CO Clear Creek Idaho Springs, Squaw Mountain W0WYX",
+    "Bank": 0
+  },
+  {
+    "Number": 139,
+    "Receive": "146.94000",
+    "Transmit": "146.34000",
+    "Offset": "0.60000",
+    "Direction": "-RPT",
+    "Mode": "FM",
+    "Name": "W7VNJ Ca",
+    "ToneMode": "TONE SQL",
+    "CTCSS": "123.0 Hz",
+    "DCS": "023",
+    "UserCTCSS": "1500 Hz",
+    "Power": "HIGH",
+    "Skip": "OFF",
+    "Step": "25.0KHz",
+    "ClockShift": 0,
+    "Comment": "56 6 367.29 WY Natrona Casper, Casper Mountain W7VNJ",
     "Bank": 0
   },
   {
@@ -2675,7 +2675,7 @@
     "Skip": "OFF",
     "Step": "25.0KHz",
     "ClockShift": 0,
-    "Comment": "8 163 244.74 CO Phillips Holyoke N0JUN",
+    "Comment": "8 163 244.73 CO Phillips Holyoke N0JUN",
     "Bank": 0
   },
   {
@@ -2794,25 +2794,6 @@
   },
   {
     "Number": 148,
-    "Receive": "147.00000",
-    "Transmit": "146.40000",
-    "Offset": "0.60000",
-    "Direction": "-RPT",
-    "Mode": "FM",
-    "Name": "KC0WZL K",
-    "ToneMode": "TONE ENC",
-    "CTCSS": "123.0 Hz",
-    "DCS": "023",
-    "UserCTCSS": "1500 Hz",
-    "Power": "HIGH",
-    "Skip": "OFF",
-    "Step": "25.0KHz",
-    "ClockShift": 0,
-    "Comment": "31 14669 507.49 NE Buffalo Kearney, Kearney Water Tower KC0WZL",
-    "Bank": 0
-  },
-  {
-    "Number": 149,
     "Receive": "147.01500",
     "Transmit": "147.61500",
     "Offset": "0.60000",
@@ -2831,7 +2812,7 @@
     "Bank": 0
   },
   {
-    "Number": 150,
+    "Number": 149,
     "Receive": "147.01500",
     "Transmit": "147.61500",
     "Offset": "0.60000",
@@ -2850,7 +2831,7 @@
     "Bank": 0
   },
   {
-    "Number": 151,
+    "Number": 150,
     "Receive": "147.01500",
     "Transmit": "147.61500",
     "Offset": "0.60000",
@@ -2869,7 +2850,7 @@
     "Bank": 0
   },
   {
-    "Number": 152,
+    "Number": 151,
     "Receive": "147.02000",
     "Transmit": "147.62000",
     "Offset": "0.60000",
@@ -2888,7 +2869,7 @@
     "Bank": 0
   },
   {
-    "Number": 153,
+    "Number": 152,
     "Receive": "147.03000",
     "Transmit": "147.63000",
     "Offset": "0.60000",
@@ -2907,7 +2888,7 @@
     "Bank": 0
   },
   {
-    "Number": 154,
+    "Number": 153,
     "Receive": "147.03000",
     "Transmit": "147.63000",
     "Offset": "0.60000",
@@ -2926,7 +2907,7 @@
     "Bank": 0
   },
   {
-    "Number": 155,
+    "Number": 154,
     "Receive": "147.04000",
     "Transmit": "147.64000",
     "Offset": "0.60000",
@@ -2945,7 +2926,7 @@
     "Bank": 0
   },
   {
-    "Number": 156,
+    "Number": 155,
     "Receive": "147.04000",
     "Transmit": "147.64000",
     "Offset": "0.60000",
@@ -2964,7 +2945,7 @@
     "Bank": 0
   },
   {
-    "Number": 157,
+    "Number": 156,
     "Receive": "147.04500",
     "Transmit": "147.64500",
     "Offset": "0.60000",
@@ -2983,7 +2964,7 @@
     "Bank": 0
   },
   {
-    "Number": 158,
+    "Number": 157,
     "Receive": "147.04500",
     "Transmit": "147.64500",
     "Offset": "0.60000",
@@ -3002,7 +2983,7 @@
     "Bank": 0
   },
   {
-    "Number": 159,
+    "Number": 158,
     "Receive": "147.06000",
     "Transmit": "147.66000",
     "Offset": "0.60000",
@@ -3021,7 +3002,7 @@
     "Bank": 0
   },
   {
-    "Number": 160,
+    "Number": 159,
     "Receive": "147.06000",
     "Transmit": "147.66000",
     "Offset": "0.60000",
@@ -3040,26 +3021,7 @@
     "Bank": 0
   },
   {
-    "Number": 161,
-    "Receive": "147.06000",
-    "Transmit": "147.66000",
-    "Offset": "0.60000",
-    "Direction": "+RPT",
-    "Mode": "FM",
-    "Name": "K0ECT Ul",
-    "ToneMode": "OFF",
-    "CTCSS": "100.0 Hz",
-    "DCS": "023",
-    "UserCTCSS": "1500 Hz",
-    "Power": "HIGH",
-    "Skip": "OFF",
-    "Step": "25.0KHz",
-    "ClockShift": 0,
-    "Comment": "20 3979 382.41 KS Grant Ulysses K0ECT",
-    "Bank": 0
-  },
-  {
-    "Number": 162,
+    "Number": 160,
     "Receive": "147.06000",
     "Transmit": "147.66000",
     "Offset": "0.60000",
@@ -3078,7 +3040,26 @@
     "Bank": 0
   },
   {
-    "Number": 163,
+    "Number": 161,
+    "Receive": "147.06000",
+    "Transmit": "147.66000",
+    "Offset": "0.60000",
+    "Direction": "+RPT",
+    "Mode": "FM",
+    "Name": "K0ECT Ul",
+    "ToneMode": "OFF",
+    "CTCSS": "100.0 Hz",
+    "DCS": "023",
+    "UserCTCSS": "1500 Hz",
+    "Power": "HIGH",
+    "Skip": "OFF",
+    "Step": "25.0KHz",
+    "ClockShift": 0,
+    "Comment": "20 3979 417.06 KS Grant Ulysses K0ECT",
+    "Bank": 0
+  },
+  {
+    "Number": 162,
     "Receive": "147.07500",
     "Transmit": "147.67500",
     "Offset": "0.60000",
@@ -3097,7 +3078,7 @@
     "Bank": 0
   },
   {
-    "Number": 164,
+    "Number": 163,
     "Receive": "147.08000",
     "Transmit": "147.68000",
     "Offset": "0.60000",
@@ -3116,7 +3097,7 @@
     "Bank": 0
   },
   {
-    "Number": 165,
+    "Number": 164,
     "Receive": "147.08000",
     "Transmit": "147.68000",
     "Offset": "0.60000",
@@ -3135,7 +3116,7 @@
     "Bank": 0
   },
   {
-    "Number": 166,
+    "Number": 165,
     "Receive": "147.09000",
     "Transmit": "147.69000",
     "Offset": "0.60000",
@@ -3154,26 +3135,7 @@
     "Bank": 0
   },
   {
-    "Number": 167,
-    "Receive": "147.09000",
-    "Transmit": "147.69000",
-    "Offset": "0.60000",
-    "Direction": "+RPT",
-    "Mode": "FM",
-    "Name": "WN6QJN C",
-    "ToneMode": "TONE SQL",
-    "CTCSS": "146.2 Hz",
-    "DCS": "023",
-    "UserCTCSS": "1500 Hz",
-    "Power": "HIGH",
-    "Skip": "OFF",
-    "Step": "25.0KHz",
-    "ClockShift": 0,
-    "Comment": "46 3646 472.67 SD Custer Custer, Water Tank Hill WN6QJN",
-    "Bank": 0
-  },
-  {
-    "Number": 168,
+    "Number": 166,
     "Receive": "147.10500",
     "Transmit": "147.70500",
     "Offset": "0.60000",
@@ -3192,7 +3154,7 @@
     "Bank": 0
   },
   {
-    "Number": 169,
+    "Number": 167,
     "Receive": "147.10500",
     "Transmit": "147.70500",
     "Offset": "0.60000",
@@ -3211,7 +3173,7 @@
     "Bank": 0
   },
   {
-    "Number": 170,
+    "Number": 168,
     "Receive": "147.12000",
     "Transmit": "147.72000",
     "Offset": "0.60000",
@@ -3230,7 +3192,7 @@
     "Bank": 0
   },
   {
-    "Number": 171,
+    "Number": 169,
     "Receive": "147.12000",
     "Transmit": "147.72000",
     "Offset": "0.60000",
@@ -3249,26 +3211,7 @@
     "Bank": 0
   },
   {
-    "Number": 172,
-    "Receive": "147.12000",
-    "Transmit": "147.72000",
-    "Offset": "0.60000",
-    "Direction": "+RPT",
-    "Mode": "FM",
-    "Name": "K0HS Cus",
-    "ToneMode": "TONE SQL",
-    "CTCSS": "146.2 Hz",
-    "DCS": "023",
-    "UserCTCSS": "1500 Hz",
-    "Power": "HIGH",
-    "Skip": "OFF",
-    "Step": "25.0KHz",
-    "ClockShift": 0,
-    "Comment": "46 14968 472.59 SD Custer Custer, Mt Coolidge K0HS",
-    "Bank": 0
-  },
-  {
-    "Number": 173,
+    "Number": 170,
     "Receive": "147.12000",
     "Transmit": "147.72000",
     "Offset": "0.60000",
@@ -3287,7 +3230,7 @@
     "Bank": 0
   },
   {
-    "Number": 174,
+    "Number": 171,
     "Receive": "147.13500",
     "Transmit": "147.73500",
     "Offset": "0.60000",
@@ -3306,7 +3249,7 @@
     "Bank": 0
   },
   {
-    "Number": 175,
+    "Number": 172,
     "Receive": "147.13500",
     "Transmit": "146.53500",
     "Offset": "0.60000",
@@ -3325,7 +3268,7 @@
     "Bank": 0
   },
   {
-    "Number": 176,
+    "Number": 173,
     "Receive": "147.13500",
     "Transmit": "147.73500",
     "Offset": "0.60000",
@@ -3344,7 +3287,7 @@
     "Bank": 0
   },
   {
-    "Number": 177,
+    "Number": 174,
     "Receive": "147.14000",
     "Transmit": "147.74000",
     "Offset": "0.60000",
@@ -3363,7 +3306,7 @@
     "Bank": 0
   },
   {
-    "Number": 178,
+    "Number": 175,
     "Receive": "147.15000",
     "Transmit": "147.75000",
     "Offset": "0.60000",
@@ -3382,7 +3325,7 @@
     "Bank": 0
   },
   {
-    "Number": 179,
+    "Number": 176,
     "Receive": "147.15000",
     "Transmit": "147.75000",
     "Offset": "0.60000",
@@ -3401,7 +3344,7 @@
     "Bank": 0
   },
   {
-    "Number": 180,
+    "Number": 177,
     "Receive": "147.15000",
     "Transmit": "147.75000",
     "Offset": "0.60000",
@@ -3420,7 +3363,7 @@
     "Bank": 0
   },
   {
-    "Number": 181,
+    "Number": 178,
     "Receive": "147.16500",
     "Transmit": "147.76500",
     "Offset": "0.60000",
@@ -3439,7 +3382,7 @@
     "Bank": 0
   },
   {
-    "Number": 182,
+    "Number": 179,
     "Receive": "147.16500",
     "Transmit": "147.76500",
     "Offset": "0.60000",
@@ -3458,7 +3401,7 @@
     "Bank": 0
   },
   {
-    "Number": 183,
+    "Number": 180,
     "Receive": "147.17500",
     "Transmit": "147.77500",
     "Offset": "0.60000",
@@ -3477,7 +3420,7 @@
     "Bank": 0
   },
   {
-    "Number": 184,
+    "Number": 181,
     "Receive": "147.18000",
     "Transmit": "147.78000",
     "Offset": "0.60000",
@@ -3496,7 +3439,7 @@
     "Bank": 0
   },
   {
-    "Number": 185,
+    "Number": 182,
     "Receive": "147.18000",
     "Transmit": "147.78000",
     "Offset": "0.60000",
@@ -3515,7 +3458,7 @@
     "Bank": 0
   },
   {
-    "Number": 186,
+    "Number": 183,
     "Receive": "147.18000",
     "Transmit": "147.78000",
     "Offset": "0.60000",
@@ -3534,7 +3477,7 @@
     "Bank": 0
   },
   {
-    "Number": 187,
+    "Number": 184,
     "Receive": "147.19500",
     "Transmit": "147.79500",
     "Offset": "0.60000",
@@ -3553,7 +3496,7 @@
     "Bank": 0
   },
   {
-    "Number": 188,
+    "Number": 185,
     "Receive": "147.19500",
     "Transmit": "147.79500",
     "Offset": "0.60000",
@@ -3572,7 +3515,7 @@
     "Bank": 0
   },
   {
-    "Number": 189,
+    "Number": 186,
     "Receive": "147.20000",
     "Transmit": "147.80000",
     "Offset": "0.60000",
@@ -3591,7 +3534,7 @@
     "Bank": 0
   },
   {
-    "Number": 190,
+    "Number": 187,
     "Receive": "147.20000",
     "Transmit": "147.80000",
     "Offset": "0.60000",
@@ -3610,7 +3553,7 @@
     "Bank": 0
   },
   {
-    "Number": 191,
+    "Number": 188,
     "Receive": "147.20000",
     "Transmit": "147.80000",
     "Offset": "0.60000",
@@ -3629,7 +3572,7 @@
     "Bank": 0
   },
   {
-    "Number": 192,
+    "Number": 189,
     "Receive": "147.21000",
     "Transmit": "147.81000",
     "Offset": "0.60000",
@@ -3648,7 +3591,7 @@
     "Bank": 0
   },
   {
-    "Number": 193,
+    "Number": 190,
     "Receive": "147.21000",
     "Transmit": "147.81000",
     "Offset": "0.60000",
@@ -3667,7 +3610,7 @@
     "Bank": 0
   },
   {
-    "Number": 194,
+    "Number": 191,
     "Receive": "147.22500",
     "Transmit": "147.82500",
     "Offset": "0.60000",
@@ -3686,7 +3629,7 @@
     "Bank": 0
   },
   {
-    "Number": 195,
+    "Number": 192,
     "Receive": "147.24000",
     "Transmit": "147.84000",
     "Offset": "0.60000",
@@ -3705,7 +3648,7 @@
     "Bank": 0
   },
   {
-    "Number": 196,
+    "Number": 193,
     "Receive": "147.27000",
     "Transmit": "147.87000",
     "Offset": "0.60000",
@@ -3724,7 +3667,7 @@
     "Bank": 0
   },
   {
-    "Number": 197,
+    "Number": 194,
     "Receive": "147.27000",
     "Transmit": "147.87000",
     "Offset": "0.60000",
@@ -3743,7 +3686,7 @@
     "Bank": 0
   },
   {
-    "Number": 198,
+    "Number": 195,
     "Receive": "147.27000",
     "Transmit": "147.87000",
     "Offset": "0.60000",
@@ -3762,7 +3705,7 @@
     "Bank": 0
   },
   {
-    "Number": 199,
+    "Number": 196,
     "Receive": "147.27000",
     "Transmit": "147.87000",
     "Offset": "0.60000",
@@ -3781,7 +3724,7 @@
     "Bank": 0
   },
   {
-    "Number": 200,
+    "Number": 197,
     "Receive": "147.28000",
     "Transmit": "147.88000",
     "Offset": "0.60000",
@@ -3800,7 +3743,7 @@
     "Bank": 0
   },
   {
-    "Number": 201,
+    "Number": 198,
     "Receive": "147.28000",
     "Transmit": "147.88000",
     "Offset": "0.60000",
@@ -3819,7 +3762,7 @@
     "Bank": 0
   },
   {
-    "Number": 202,
+    "Number": 199,
     "Receive": "147.28500",
     "Transmit": "147.88500",
     "Offset": "0.60000",
@@ -3838,7 +3781,7 @@
     "Bank": 0
   },
   {
-    "Number": 203,
+    "Number": 200,
     "Receive": "147.28500",
     "Transmit": "147.88500",
     "Offset": "0.60000",
@@ -3857,7 +3800,7 @@
     "Bank": 0
   },
   {
-    "Number": 204,
+    "Number": 201,
     "Receive": "147.30000",
     "Transmit": "147.90000",
     "Offset": "0.60000",
@@ -3876,7 +3819,7 @@
     "Bank": 0
   },
   {
-    "Number": 205,
+    "Number": 202,
     "Receive": "147.33000",
     "Transmit": "147.93000",
     "Offset": "0.60000",
@@ -3895,7 +3838,7 @@
     "Bank": 0
   },
   {
-    "Number": 206,
+    "Number": 203,
     "Receive": "147.33000",
     "Transmit": "147.93000",
     "Offset": "0.60000",
@@ -3914,7 +3857,7 @@
     "Bank": 0
   },
   {
-    "Number": 207,
+    "Number": 204,
     "Receive": "147.33000",
     "Transmit": "147.93000",
     "Offset": "0.60000",
@@ -3933,7 +3876,7 @@
     "Bank": 0
   },
   {
-    "Number": 208,
+    "Number": 205,
     "Receive": "147.33000",
     "Transmit": "147.93000",
     "Offset": "0.60000",
@@ -3952,7 +3895,7 @@
     "Bank": 0
   },
   {
-    "Number": 209,
+    "Number": 206,
     "Receive": "147.34000",
     "Transmit": "147.94000",
     "Offset": "0.60000",
@@ -3971,26 +3914,7 @@
     "Bank": 0
   },
   {
-    "Number": 210,
-    "Receive": "147.34000",
-    "Transmit": "147.94000",
-    "Offset": "0.60000",
-    "Direction": "+RPT",
-    "Mode": "FM",
-    "Name": "KG7DSO V",
-    "ToneMode": "TONE ENC",
-    "CTCSS": "136.5 Hz",
-    "DCS": "023",
-    "UserCTCSS": "1500 Hz",
-    "Power": "HIGH",
-    "Skip": "OFF",
-    "Step": "25.0KHz",
-    "ClockShift": 0,
-    "Comment": "49 121 509.48 UT Uintah Vernal, Tabby Mountain KG7DSO",
-    "Bank": 0
-  },
-  {
-    "Number": 211,
+    "Number": 207,
     "Receive": "147.34500",
     "Transmit": "147.94500",
     "Offset": "0.60000",
@@ -4009,7 +3933,7 @@
     "Bank": 0
   },
   {
-    "Number": 212,
+    "Number": 208,
     "Receive": "147.34500",
     "Transmit": "147.94500",
     "Offset": "0.60000",
@@ -4028,7 +3952,7 @@
     "Bank": 0
   },
   {
-    "Number": 213,
+    "Number": 209,
     "Receive": "147.34500",
     "Transmit": "147.94500",
     "Offset": "0.60000",
@@ -4047,7 +3971,7 @@
     "Bank": 0
   },
   {
-    "Number": 214,
+    "Number": 210,
     "Receive": "147.34500",
     "Transmit": "147.94500",
     "Offset": "0.60000",
@@ -4066,7 +3990,7 @@
     "Bank": 0
   },
   {
-    "Number": 215,
+    "Number": 211,
     "Receive": "147.35000",
     "Transmit": "147.95000",
     "Offset": "0.60000",
@@ -4085,7 +4009,7 @@
     "Bank": 0
   },
   {
-    "Number": 216,
+    "Number": 212,
     "Receive": "147.35500",
     "Transmit": "146.75500",
     "Offset": "0.60000",
@@ -4104,7 +4028,7 @@
     "Bank": 0
   },
   {
-    "Number": 217,
+    "Number": 213,
     "Receive": "147.36000",
     "Transmit": "147.96000",
     "Offset": "0.60000",
@@ -4123,7 +4047,7 @@
     "Bank": 0
   },
   {
-    "Number": 218,
+    "Number": 214,
     "Receive": "147.36000",
     "Transmit": "147.96000",
     "Offset": "0.60000",
@@ -4142,7 +4066,7 @@
     "Bank": 0
   },
   {
-    "Number": 219,
+    "Number": 215,
     "Receive": "147.36000",
     "Transmit": "147.96000",
     "Offset": "0.60000",
@@ -4161,26 +4085,7 @@
     "Bank": 0
   },
   {
-    "Number": 220,
-    "Receive": "147.36000",
-    "Transmit": "147.96000",
-    "Offset": "0.60000",
-    "Direction": "+RPT",
-    "Mode": "FM",
-    "Name": "W0FLO Ch",
-    "ToneMode": "TONE SQL",
-    "CTCSS": "123.0 Hz",
-    "DCS": "023",
-    "UserCTCSS": "1500 Hz",
-    "Power": "HIGH",
-    "Skip": "OFF",
-    "Step": "25.0KHz",
-    "ClockShift": 0,
-    "Comment": "31 12643 375.76 NE Dawes Chadron, Nebraska National Forest W0FLO",
-    "Bank": 0
-  },
-  {
-    "Number": 221,
+    "Number": 216,
     "Receive": "147.36000",
     "Transmit": "147.96000",
     "Offset": "0.60000",
@@ -4199,7 +4104,26 @@
     "Bank": 0
   },
   {
-    "Number": 222,
+    "Number": 217,
+    "Receive": "147.37500",
+    "Transmit": "147.97500",
+    "Offset": "0.60000",
+    "Direction": "+RPT",
+    "Mode": "FM",
+    "Name": "Scottsbl",
+    "ToneMode": "TONE ENC",
+    "CTCSS": "123.0 Hz",
+    "DCS": "023",
+    "UserCTCSS": "1500 Hz",
+    "Power": "HIGH",
+    "Skip": "OFF",
+    "Step": "25.0KHz",
+    "ClockShift": 0,
+    "Comment": "31 18469 269.59 NE Scotts Bluff Scottsbluff",
+    "Bank": 0
+  },
+  {
+    "Number": 218,
     "Receive": "147.37500",
     "Transmit": "147.97500",
     "Offset": "0.60000",
@@ -4218,7 +4142,7 @@
     "Bank": 0
   },
   {
-    "Number": 223,
+    "Number": 219,
     "Receive": "147.39000",
     "Transmit": "147.99000",
     "Offset": "0.60000",
@@ -4237,7 +4161,7 @@
     "Bank": 0
   },
   {
-    "Number": 224,
+    "Number": 220,
     "Receive": "147.39000",
     "Transmit": "147.99000",
     "Offset": "0.60000",
@@ -4256,7 +4180,7 @@
     "Bank": 0
   },
   {
-    "Number": 225,
+    "Number": 221,
     "Receive": "147.39000",
     "Transmit": "147.99000",
     "Offset": "0.60000",
@@ -4275,7 +4199,26 @@
     "Bank": 0
   },
   {
-    "Number": 226,
+    "Number": 222,
+    "Receive": "147.39000",
+    "Transmit": "147.99000",
+    "Offset": "0.60000",
+    "Direction": "+RPT",
+    "Mode": "FM",
+    "Name": "WB5NJU K",
+    "ToneMode": "TONE ENC",
+    "CTCSS": "88.5 Hz",
+    "DCS": "023",
+    "UserCTCSS": "1500 Hz",
+    "Power": "HIGH",
+    "Skip": "OFF",
+    "Step": "25.0KHz",
+    "ClockShift": 0,
+    "Comment": "35 18214 345.12 NM Union Kenton WB5NJU",
+    "Bank": 0
+  },
+  {
+    "Number": 223,
     "Receive": "147.39000",
     "Transmit": "147.99000",
     "Offset": "0.60000",
@@ -4294,7 +4237,7 @@
     "Bank": 0
   },
   {
-    "Number": 227,
+    "Number": 224,
     "Receive": "147.42000",
     "Transmit": "147.42000",
     "Offset": "0.00000",
@@ -4313,7 +4256,7 @@
     "Bank": 0
   },
   {
-    "Number": 228,
+    "Number": 225,
     "Receive": "147.43500",
     "Transmit": "147.43500",
     "Offset": "0.00000",
@@ -4332,7 +4275,7 @@
     "Bank": 0
   },
   {
-    "Number": 229,
+    "Number": 226,
     "Receive": "147.45000",
     "Transmit": "147.45000",
     "Offset": "0.00000",
@@ -4351,7 +4294,7 @@
     "Bank": 0
   },
   {
-    "Number": 230,
+    "Number": 227,
     "Receive": "147.46500",
     "Transmit": "147.46500",
     "Offset": "0.00000",
@@ -4370,7 +4313,7 @@
     "Bank": 0
   },
   {
-    "Number": 231,
+    "Number": 228,
     "Receive": "147.48000",
     "Transmit": "147.48000",
     "Offset": "0.00000",
@@ -4389,7 +4332,7 @@
     "Bank": 0
   },
   {
-    "Number": 232,
+    "Number": 229,
     "Receive": "147.49500",
     "Transmit": "147.49500",
     "Offset": "0.00000",
@@ -4408,7 +4351,7 @@
     "Bank": 0
   },
   {
-    "Number": 233,
+    "Number": 230,
     "Receive": "147.51000",
     "Transmit": "147.51000",
     "Offset": "0.00000",
@@ -4427,7 +4370,7 @@
     "Bank": 0
   },
   {
-    "Number": 234,
+    "Number": 231,
     "Receive": "147.52500",
     "Transmit": "147.52500",
     "Offset": "0.00000",
@@ -4446,7 +4389,7 @@
     "Bank": 0
   },
   {
-    "Number": 235,
+    "Number": 232,
     "Receive": "147.54000",
     "Transmit": "147.54000",
     "Offset": "0.00000",
@@ -4465,7 +4408,7 @@
     "Bank": 0
   },
   {
-    "Number": 236,
+    "Number": 233,
     "Receive": "147.55500",
     "Transmit": "147.55500",
     "Offset": "0.00000",
@@ -4484,7 +4427,7 @@
     "Bank": 0
   },
   {
-    "Number": 237,
+    "Number": 234,
     "Receive": "147.57000",
     "Transmit": "147.57000",
     "Offset": "0.00000",
@@ -4503,7 +4446,7 @@
     "Bank": 0
   },
   {
-    "Number": 238,
+    "Number": 235,
     "Receive": "147.58500",
     "Transmit": "147.58500",
     "Offset": "0.00000",
@@ -4522,7 +4465,7 @@
     "Bank": 0
   },
   {
-    "Number": 239,
+    "Number": 236,
     "Receive": "223.40000",
     "Transmit": "223.40000",
     "Offset": "0.00000",
@@ -4541,7 +4484,7 @@
     "Bank": 0
   },
   {
-    "Number": 240,
+    "Number": 237,
     "Receive": "223.42000",
     "Transmit": "223.42000",
     "Offset": "0.00000",
@@ -4560,7 +4503,7 @@
     "Bank": 0
   },
   {
-    "Number": 241,
+    "Number": 238,
     "Receive": "223.44000",
     "Transmit": "223.44000",
     "Offset": "0.00000",
@@ -4579,7 +4522,7 @@
     "Bank": 0
   },
   {
-    "Number": 242,
+    "Number": 239,
     "Receive": "223.46000",
     "Transmit": "223.46000",
     "Offset": "0.00000",
@@ -4598,7 +4541,7 @@
     "Bank": 0
   },
   {
-    "Number": 243,
+    "Number": 240,
     "Receive": "223.48000",
     "Transmit": "223.48000",
     "Offset": "0.00000",
@@ -4617,7 +4560,7 @@
     "Bank": 0
   },
   {
-    "Number": 244,
+    "Number": 241,
     "Receive": "223.50000",
     "Transmit": "223.50000",
     "Offset": "0.00000",
@@ -4636,7 +4579,7 @@
     "Bank": 0
   },
   {
-    "Number": 245,
+    "Number": 242,
     "Receive": "223.52000",
     "Transmit": "223.52000",
     "Offset": "0.00000",
@@ -4655,7 +4598,26 @@
     "Bank": 0
   },
   {
-    "Number": 246,
+    "Number": 243,
+    "Receive": "423.00000",
+    "Transmit": "1243.00000",
+    "Offset": "820.00000",
+    "Direction": "+RPT",
+    "Mode": "FM",
+    "Name": "W0BTV Bo",
+    "ToneMode": "OFF",
+    "CTCSS": "100.0 Hz",
+    "DCS": "023",
+    "UserCTCSS": "1500 Hz",
+    "Power": "HIGH",
+    "Skip": "OFF",
+    "Step": "25.0KHz",
+    "ClockShift": 0,
+    "Comment": "8 18534 50.86 CO Boulder Boulder W0BTV",
+    "Bank": 0
+  },
+  {
+    "Number": 244,
     "Receive": "434.50000",
     "Transmit": "434.50000",
     "Offset": "0.00000",
@@ -4674,7 +4636,7 @@
     "Bank": 0
   },
   {
-    "Number": 247,
+    "Number": 245,
     "Receive": "434.52500",
     "Transmit": "434.52500",
     "Offset": "0.00000",
@@ -4693,7 +4655,7 @@
     "Bank": 0
   },
   {
-    "Number": 248,
+    "Number": 246,
     "Receive": "434.55000",
     "Transmit": "434.55000",
     "Offset": "0.00000",
@@ -4712,7 +4674,7 @@
     "Bank": 0
   },
   {
-    "Number": 249,
+    "Number": 247,
     "Receive": "434.57500",
     "Transmit": "434.57500",
     "Offset": "0.00000",
@@ -4731,7 +4693,7 @@
     "Bank": 0
   },
   {
-    "Number": 250,
+    "Number": 248,
     "Receive": "434.60000",
     "Transmit": "434.60000",
     "Offset": "0.00000",
@@ -4750,7 +4712,7 @@
     "Bank": 0
   },
   {
-    "Number": 251,
+    "Number": 249,
     "Receive": "434.62500",
     "Transmit": "434.62500",
     "Offset": "0.00000",
@@ -4769,7 +4731,7 @@
     "Bank": 0
   },
   {
-    "Number": 252,
+    "Number": 250,
     "Receive": "434.65000",
     "Transmit": "434.65000",
     "Offset": "0.00000",
@@ -4788,7 +4750,7 @@
     "Bank": 0
   },
   {
-    "Number": 253,
+    "Number": 251,
     "Receive": "434.67500",
     "Transmit": "434.67500",
     "Offset": "0.00000",
@@ -4807,7 +4769,7 @@
     "Bank": 0
   },
   {
-    "Number": 254,
+    "Number": 252,
     "Receive": "434.70000",
     "Transmit": "434.70000",
     "Offset": "0.00000",
@@ -4826,7 +4788,7 @@
     "Bank": 0
   },
   {
-    "Number": 255,
+    "Number": 253,
     "Receive": "434.72500",
     "Transmit": "434.72500",
     "Offset": "0.00000",
@@ -4845,7 +4807,7 @@
     "Bank": 0
   },
   {
-    "Number": 256,
+    "Number": 254,
     "Receive": "434.75000",
     "Transmit": "434.75000",
     "Offset": "0.00000",
@@ -4864,7 +4826,7 @@
     "Bank": 0
   },
   {
-    "Number": 257,
+    "Number": 255,
     "Receive": "434.77500",
     "Transmit": "434.77500",
     "Offset": "0.00000",
@@ -4883,7 +4845,7 @@
     "Bank": 0
   },
   {
-    "Number": 258,
+    "Number": 256,
     "Receive": "434.80000",
     "Transmit": "434.80000",
     "Offset": "0.00000",
@@ -4902,7 +4864,7 @@
     "Bank": 0
   },
   {
-    "Number": 259,
+    "Number": 257,
     "Receive": "434.82500",
     "Transmit": "434.82500",
     "Offset": "0.00000",
@@ -4921,7 +4883,7 @@
     "Bank": 0
   },
   {
-    "Number": 260,
+    "Number": 258,
     "Receive": "434.85000",
     "Transmit": "434.85000",
     "Offset": "0.00000",
@@ -4940,7 +4902,7 @@
     "Bank": 0
   },
   {
-    "Number": 261,
+    "Number": 259,
     "Receive": "434.87500",
     "Transmit": "434.87500",
     "Offset": "0.00000",
@@ -4959,7 +4921,7 @@
     "Bank": 0
   },
   {
-    "Number": 262,
+    "Number": 260,
     "Receive": "434.90000",
     "Transmit": "434.90000",
     "Offset": "0.00000",
@@ -4978,7 +4940,7 @@
     "Bank": 0
   },
   {
-    "Number": 263,
+    "Number": 261,
     "Receive": "434.92500",
     "Transmit": "434.92500",
     "Offset": "0.00000",
@@ -4997,7 +4959,7 @@
     "Bank": 0
   },
   {
-    "Number": 264,
+    "Number": 262,
     "Receive": "434.95000",
     "Transmit": "434.95000",
     "Offset": "0.00000",
@@ -5016,7 +4978,7 @@
     "Bank": 0
   },
   {
-    "Number": 265,
+    "Number": 263,
     "Receive": "434.97500",
     "Transmit": "434.97500",
     "Offset": "0.00000",
@@ -5035,7 +4997,7 @@
     "Bank": 0
   },
   {
-    "Number": 266,
+    "Number": 264,
     "Receive": "435.00000",
     "Transmit": "435.00000",
     "Offset": "0.00000",
@@ -5054,7 +5016,7 @@
     "Bank": 0
   },
   {
-    "Number": 267,
+    "Number": 265,
     "Receive": "439.50000",
     "Transmit": "439.50000",
     "Offset": "0.00000",
@@ -5073,7 +5035,7 @@
     "Bank": 0
   },
   {
-    "Number": 268,
+    "Number": 266,
     "Receive": "439.52500",
     "Transmit": "439.52500",
     "Offset": "0.00000",
@@ -5092,7 +5054,7 @@
     "Bank": 0
   },
   {
-    "Number": 269,
+    "Number": 267,
     "Receive": "439.55000",
     "Transmit": "439.55000",
     "Offset": "0.00000",
@@ -5111,7 +5073,7 @@
     "Bank": 0
   },
   {
-    "Number": 270,
+    "Number": 268,
     "Receive": "439.57500",
     "Transmit": "439.57500",
     "Offset": "0.00000",
@@ -5130,7 +5092,7 @@
     "Bank": 0
   },
   {
-    "Number": 271,
+    "Number": 269,
     "Receive": "439.60000",
     "Transmit": "439.60000",
     "Offset": "0.00000",
@@ -5149,7 +5111,7 @@
     "Bank": 0
   },
   {
-    "Number": 272,
+    "Number": 270,
     "Receive": "439.62500",
     "Transmit": "439.62500",
     "Offset": "0.00000",
@@ -5168,7 +5130,7 @@
     "Bank": 0
   },
   {
-    "Number": 273,
+    "Number": 271,
     "Receive": "439.65000",
     "Transmit": "439.65000",
     "Offset": "0.00000",
@@ -5187,7 +5149,7 @@
     "Bank": 0
   },
   {
-    "Number": 274,
+    "Number": 272,
     "Receive": "439.67500",
     "Transmit": "439.67500",
     "Offset": "0.00000",
@@ -5206,7 +5168,7 @@
     "Bank": 0
   },
   {
-    "Number": 275,
+    "Number": 273,
     "Receive": "439.70000",
     "Transmit": "439.70000",
     "Offset": "0.00000",
@@ -5225,7 +5187,7 @@
     "Bank": 0
   },
   {
-    "Number": 276,
+    "Number": 274,
     "Receive": "439.72500",
     "Transmit": "439.72500",
     "Offset": "0.00000",
@@ -5244,7 +5206,7 @@
     "Bank": 0
   },
   {
-    "Number": 277,
+    "Number": 275,
     "Receive": "439.75000",
     "Transmit": "439.75000",
     "Offset": "0.00000",
@@ -5263,7 +5225,7 @@
     "Bank": 0
   },
   {
-    "Number": 278,
+    "Number": 276,
     "Receive": "439.77500",
     "Transmit": "439.77500",
     "Offset": "0.00000",
@@ -5282,7 +5244,7 @@
     "Bank": 0
   },
   {
-    "Number": 279,
+    "Number": 277,
     "Receive": "439.80000",
     "Transmit": "439.80000",
     "Offset": "0.00000",
@@ -5301,7 +5263,7 @@
     "Bank": 0
   },
   {
-    "Number": 280,
+    "Number": 278,
     "Receive": "439.82500",
     "Transmit": "439.82500",
     "Offset": "0.00000",
@@ -5320,7 +5282,7 @@
     "Bank": 0
   },
   {
-    "Number": 281,
+    "Number": 279,
     "Receive": "439.85000",
     "Transmit": "439.85000",
     "Offset": "0.00000",
@@ -5339,7 +5301,7 @@
     "Bank": 0
   },
   {
-    "Number": 282,
+    "Number": 280,
     "Receive": "439.87500",
     "Transmit": "439.87500",
     "Offset": "0.00000",
@@ -5358,7 +5320,7 @@
     "Bank": 0
   },
   {
-    "Number": 283,
+    "Number": 281,
     "Receive": "439.90000",
     "Transmit": "439.90000",
     "Offset": "0.00000",
@@ -5377,7 +5339,7 @@
     "Bank": 0
   },
   {
-    "Number": 284,
+    "Number": 282,
     "Receive": "439.92500",
     "Transmit": "439.92500",
     "Offset": "0.00000",
@@ -5396,7 +5358,7 @@
     "Bank": 0
   },
   {
-    "Number": 285,
+    "Number": 283,
     "Receive": "439.95000",
     "Transmit": "439.95000",
     "Offset": "0.00000",
@@ -5415,7 +5377,7 @@
     "Bank": 0
   },
   {
-    "Number": 286,
+    "Number": 284,
     "Receive": "439.97500",
     "Transmit": "439.97500",
     "Offset": "0.00000",
@@ -5434,7 +5396,7 @@
     "Bank": 0
   },
   {
-    "Number": 287,
+    "Number": 285,
     "Receive": "440.00000",
     "Transmit": "440.00000",
     "Offset": "0.00000",
@@ -5453,7 +5415,7 @@
     "Bank": 0
   },
   {
-    "Number": 288,
+    "Number": 286,
     "Receive": "441.67000",
     "Transmit": "446.67000",
     "Offset": "5.00000",
@@ -5472,7 +5434,7 @@
     "Bank": 0
   },
   {
-    "Number": 289,
+    "Number": 287,
     "Receive": "442.00000",
     "Transmit": "447.00000",
     "Offset": "5.00000",
@@ -5491,7 +5453,7 @@
     "Bank": 0
   },
   {
-    "Number": 290,
+    "Number": 288,
     "Receive": "442.00000",
     "Transmit": "447.00000",
     "Offset": "5.00000",
@@ -5510,7 +5472,7 @@
     "Bank": 0
   },
   {
-    "Number": 291,
+    "Number": 289,
     "Receive": "442.17500",
     "Transmit": "447.17500",
     "Offset": "5.00000",
@@ -5529,7 +5491,7 @@
     "Bank": 0
   },
   {
-    "Number": 292,
+    "Number": 290,
     "Receive": "442.37500",
     "Transmit": "447.37500",
     "Offset": "5.00000",
@@ -5548,7 +5510,7 @@
     "Bank": 0
   },
   {
-    "Number": 293,
+    "Number": 291,
     "Receive": "442.37500",
     "Transmit": "447.37500",
     "Offset": "5.00000",
@@ -5567,7 +5529,7 @@
     "Bank": 0
   },
   {
-    "Number": 294,
+    "Number": 292,
     "Receive": "442.45000",
     "Transmit": "447.45000",
     "Offset": "5.00000",
@@ -5586,7 +5548,7 @@
     "Bank": 0
   },
   {
-    "Number": 295,
+    "Number": 293,
     "Receive": "442.50000",
     "Transmit": "447.50000",
     "Offset": "5.00000",
@@ -5605,7 +5567,26 @@
     "Bank": 0
   },
   {
-    "Number": 296,
+    "Number": 294,
+    "Receive": "442.72500",
+    "Transmit": "447.72500",
+    "Offset": "5.00000",
+    "Direction": "+RPT",
+    "Mode": "FM",
+    "Name": "KD0ARW P",
+    "ToneMode": "OFF",
+    "CTCSS": "100.0 Hz",
+    "DCS": "023",
+    "UserCTCSS": "1500 Hz",
+    "Power": "HIGH",
+    "Skip": "OFF",
+    "Step": "25.0KHz",
+    "ClockShift": 0,
+    "Comment": "20 6210 476.67 KS Phillips Phillipsburg KD0ARW",
+    "Bank": 0
+  },
+  {
+    "Number": 295,
     "Receive": "442.82500",
     "Transmit": "447.82500",
     "Offset": "5.00000",
@@ -5624,7 +5605,7 @@
     "Bank": 0
   },
   {
-    "Number": 297,
+    "Number": 296,
     "Receive": "443.00000",
     "Transmit": "448.00000",
     "Offset": "5.00000",
@@ -5643,7 +5624,7 @@
     "Bank": 0
   },
   {
-    "Number": 298,
+    "Number": 297,
     "Receive": "443.10000",
     "Transmit": "448.10000",
     "Offset": "5.00000",
@@ -5662,7 +5643,7 @@
     "Bank": 0
   },
   {
-    "Number": 299,
+    "Number": 298,
     "Receive": "443.10000",
     "Transmit": "448.10000",
     "Offset": "5.00000",
@@ -5681,7 +5662,7 @@
     "Bank": 0
   },
   {
-    "Number": 300,
+    "Number": 299,
     "Receive": "443.20000",
     "Transmit": "448.20000",
     "Offset": "5.00000",
@@ -5700,26 +5681,7 @@
     "Bank": 0
   },
   {
-    "Number": 301,
-    "Receive": "443.27500",
-    "Transmit": "448.27500",
-    "Offset": "5.00000",
-    "Direction": "+RPT",
-    "Mode": "FM",
-    "Name": "AA0HJ Ph",
-    "ToneMode": "TONE ENC",
-    "CTCSS": "100.0 Hz",
-    "DCS": "023",
-    "UserCTCSS": "1500 Hz",
-    "Power": "HIGH",
-    "Skip": "OFF",
-    "Step": "25.0KHz",
-    "ClockShift": 0,
-    "Comment": "20 11673 470.73 KS Phillips Phillipsburg AA0HJ",
-    "Bank": 0
-  },
-  {
-    "Number": 302,
+    "Number": 300,
     "Receive": "443.35000",
     "Transmit": "448.35000",
     "Offset": "5.00000",
@@ -5738,7 +5700,7 @@
     "Bank": 0
   },
   {
-    "Number": 303,
+    "Number": 301,
     "Receive": "443.40000",
     "Transmit": "448.40000",
     "Offset": "5.00000",
@@ -5757,7 +5719,7 @@
     "Bank": 0
   },
   {
-    "Number": 304,
+    "Number": 302,
     "Receive": "443.50000",
     "Transmit": "448.50000",
     "Offset": "5.00000",
@@ -5776,7 +5738,7 @@
     "Bank": 0
   },
   {
-    "Number": 305,
+    "Number": 303,
     "Receive": "443.57500",
     "Transmit": "448.57500",
     "Offset": "5.00000",
@@ -5795,7 +5757,7 @@
     "Bank": 0
   },
   {
-    "Number": 306,
+    "Number": 304,
     "Receive": "443.60000",
     "Transmit": "448.60000",
     "Offset": "5.00000",
@@ -5814,7 +5776,7 @@
     "Bank": 0
   },
   {
-    "Number": 307,
+    "Number": 305,
     "Receive": "443.67500",
     "Transmit": "448.67500",
     "Offset": "5.00000",
@@ -5833,7 +5795,7 @@
     "Bank": 0
   },
   {
-    "Number": 308,
+    "Number": 306,
     "Receive": "443.70000",
     "Transmit": "448.70000",
     "Offset": "5.00000",
@@ -5852,7 +5814,7 @@
     "Bank": 0
   },
   {
-    "Number": 309,
+    "Number": 307,
     "Receive": "444.00000",
     "Transmit": "449.00000",
     "Offset": "5.00000",
@@ -5871,7 +5833,7 @@
     "Bank": 0
   },
   {
-    "Number": 310,
+    "Number": 308,
     "Receive": "444.00000",
     "Transmit": "449.00000",
     "Offset": "5.00000",
@@ -5890,7 +5852,7 @@
     "Bank": 0
   },
   {
-    "Number": 311,
+    "Number": 309,
     "Receive": "444.12500",
     "Transmit": "449.12500",
     "Offset": "5.00000",
@@ -5909,7 +5871,7 @@
     "Bank": 0
   },
   {
-    "Number": 312,
+    "Number": 310,
     "Receive": "444.25000",
     "Transmit": "449.25000",
     "Offset": "5.00000",
@@ -5928,7 +5890,7 @@
     "Bank": 0
   },
   {
-    "Number": 313,
+    "Number": 311,
     "Receive": "444.30000",
     "Transmit": "449.30000",
     "Offset": "5.00000",
@@ -5947,7 +5909,7 @@
     "Bank": 0
   },
   {
-    "Number": 314,
+    "Number": 312,
     "Receive": "444.35000",
     "Transmit": "449.35000",
     "Offset": "5.00000",
@@ -5966,7 +5928,7 @@
     "Bank": 0
   },
   {
-    "Number": 315,
+    "Number": 313,
     "Receive": "444.40000",
     "Transmit": "449.40000",
     "Offset": "5.00000",
@@ -5985,7 +5947,7 @@
     "Bank": 0
   },
   {
-    "Number": 316,
+    "Number": 314,
     "Receive": "444.50000",
     "Transmit": "449.50000",
     "Offset": "5.00000",
@@ -6004,7 +5966,7 @@
     "Bank": 0
   },
   {
-    "Number": 317,
+    "Number": 315,
     "Receive": "444.50000",
     "Transmit": "449.50000",
     "Offset": "5.00000",
@@ -6023,7 +5985,7 @@
     "Bank": 0
   },
   {
-    "Number": 318,
+    "Number": 316,
     "Receive": "444.52500",
     "Transmit": "449.52500",
     "Offset": "5.00000",
@@ -6042,7 +6004,7 @@
     "Bank": 0
   },
   {
-    "Number": 319,
+    "Number": 317,
     "Receive": "444.55000",
     "Transmit": "449.55000",
     "Offset": "5.00000",
@@ -6061,7 +6023,7 @@
     "Bank": 0
   },
   {
-    "Number": 320,
+    "Number": 318,
     "Receive": "444.60000",
     "Transmit": "449.60000",
     "Offset": "5.00000",
@@ -6080,7 +6042,26 @@
     "Bank": 0
   },
   {
-    "Number": 321,
+    "Number": 319,
+    "Receive": "444.70000",
+    "Transmit": "449.70000",
+    "Offset": "5.00000",
+    "Direction": "+RPT",
+    "Mode": "FM",
+    "Name": "K0HS Hot",
+    "ToneMode": "TONE SQL",
+    "CTCSS": "146.2 Hz",
+    "DCS": "023",
+    "UserCTCSS": "1500 Hz",
+    "Power": "HIGH",
+    "Skip": "OFF",
+    "Step": "25.0KHz",
+    "ClockShift": 0,
+    "Comment": "46 18390 417.51 SD Fall River Hot Springs, City library/HSARC club house K0HS",
+    "Bank": 0
+  },
+  {
+    "Number": 320,
     "Receive": "444.75000",
     "Transmit": "449.75000",
     "Offset": "5.00000",
@@ -6099,7 +6080,7 @@
     "Bank": 0
   },
   {
-    "Number": 322,
+    "Number": 321,
     "Receive": "444.80000",
     "Transmit": "449.80000",
     "Offset": "5.00000",
@@ -6118,14 +6099,14 @@
     "Bank": 0
   },
   {
-    "Number": 323,
+    "Number": 322,
     "Receive": "444.82500",
     "Transmit": "449.82500",
     "Offset": "5.00000",
     "Direction": "+RPT",
     "Mode": "FM",
     "Name": "W0KAV Sc",
-    "ToneMode": "OFF",
+    "ToneMode": "TONE ENC",
     "CTCSS": "100.0 Hz",
     "DCS": "023",
     "UserCTCSS": "1500 Hz",
@@ -6137,7 +6118,7 @@
     "Bank": 0
   },
   {
-    "Number": 324,
+    "Number": 323,
     "Receive": "444.82500",
     "Transmit": "449.82500",
     "Offset": "5.00000",
@@ -6156,7 +6137,7 @@
     "Bank": 0
   },
   {
-    "Number": 325,
+    "Number": 324,
     "Receive": "444.97500",
     "Transmit": "449.97500",
     "Offset": "5.00000",
@@ -6175,7 +6156,7 @@
     "Bank": 0
   },
   {
-    "Number": 326,
+    "Number": 325,
     "Receive": "445.10000",
     "Transmit": "445.10000",
     "Offset": "0.00000",
@@ -6194,7 +6175,7 @@
     "Bank": 0
   },
   {
-    "Number": 327,
+    "Number": 326,
     "Receive": "445.70000",
     "Transmit": "445.70000",
     "Offset": "0.00000",
@@ -6213,7 +6194,7 @@
     "Bank": 0
   },
   {
-    "Number": 328,
+    "Number": 327,
     "Receive": "445.72500",
     "Transmit": "445.72500",
     "Offset": "0.00000",
@@ -6232,7 +6213,7 @@
     "Bank": 0
   },
   {
-    "Number": 329,
+    "Number": 328,
     "Receive": "445.75000",
     "Transmit": "445.75000",
     "Offset": "0.00000",
@@ -6251,7 +6232,7 @@
     "Bank": 0
   },
   {
-    "Number": 330,
+    "Number": 329,
     "Receive": "445.77500",
     "Transmit": "445.77500",
     "Offset": "0.00000",
@@ -6270,7 +6251,7 @@
     "Bank": 0
   },
   {
-    "Number": 331,
+    "Number": 330,
     "Receive": "445.80000",
     "Transmit": "445.80000",
     "Offset": "0.00000",
@@ -6289,7 +6270,7 @@
     "Bank": 0
   },
   {
-    "Number": 332,
+    "Number": 331,
     "Receive": "445.82500",
     "Transmit": "445.82500",
     "Offset": "0.00000",
@@ -6308,7 +6289,7 @@
     "Bank": 0
   },
   {
-    "Number": 333,
+    "Number": 332,
     "Receive": "445.85000",
     "Transmit": "445.85000",
     "Offset": "0.00000",
@@ -6327,7 +6308,7 @@
     "Bank": 0
   },
   {
-    "Number": 334,
+    "Number": 333,
     "Receive": "445.87500",
     "Transmit": "445.87500",
     "Offset": "0.00000",
@@ -6346,7 +6327,7 @@
     "Bank": 0
   },
   {
-    "Number": 335,
+    "Number": 334,
     "Receive": "445.90000",
     "Transmit": "445.90000",
     "Offset": "0.00000",
@@ -6365,7 +6346,7 @@
     "Bank": 0
   },
   {
-    "Number": 336,
+    "Number": 335,
     "Receive": "445.92500",
     "Transmit": "445.92500",
     "Offset": "0.00000",
@@ -6384,7 +6365,7 @@
     "Bank": 0
   },
   {
-    "Number": 337,
+    "Number": 336,
     "Receive": "445.95000",
     "Transmit": "445.95000",
     "Offset": "0.00000",
@@ -6403,7 +6384,7 @@
     "Bank": 0
   },
   {
-    "Number": 338,
+    "Number": 337,
     "Receive": "445.97500",
     "Transmit": "445.97500",
     "Offset": "0.00000",
@@ -6422,7 +6403,7 @@
     "Bank": 0
   },
   {
-    "Number": 339,
+    "Number": 338,
     "Receive": "446.00000",
     "Transmit": "446.00000",
     "Offset": "0.00000",
@@ -6441,7 +6422,7 @@
     "Bank": 0
   },
   {
-    "Number": 340,
+    "Number": 339,
     "Receive": "446.02500",
     "Transmit": "446.02500",
     "Offset": "0.00000",
@@ -6460,7 +6441,7 @@
     "Bank": 0
   },
   {
-    "Number": 341,
+    "Number": 340,
     "Receive": "446.05000",
     "Transmit": "446.05000",
     "Offset": "0.00000",
@@ -6479,7 +6460,7 @@
     "Bank": 0
   },
   {
-    "Number": 342,
+    "Number": 341,
     "Receive": "446.07500",
     "Transmit": "446.07500",
     "Offset": "0.00000",
@@ -6498,7 +6479,7 @@
     "Bank": 0
   },
   {
-    "Number": 343,
+    "Number": 342,
     "Receive": "446.10000",
     "Transmit": "446.10000",
     "Offset": "0.00000",
@@ -6517,7 +6498,7 @@
     "Bank": 0
   },
   {
-    "Number": 344,
+    "Number": 343,
     "Receive": "446.12500",
     "Transmit": "446.12500",
     "Offset": "0.00000",
@@ -6536,7 +6517,7 @@
     "Bank": 0
   },
   {
-    "Number": 345,
+    "Number": 344,
     "Receive": "446.15000",
     "Transmit": "446.15000",
     "Offset": "0.00000",
@@ -6555,7 +6536,7 @@
     "Bank": 0
   },
   {
-    "Number": 346,
+    "Number": 345,
     "Receive": "446.17500",
     "Transmit": "446.17500",
     "Offset": "0.00000",
@@ -6574,7 +6555,7 @@
     "Bank": 0
   },
   {
-    "Number": 347,
+    "Number": 346,
     "Receive": "446.20000",
     "Transmit": "446.20000",
     "Offset": "0.00000",
@@ -6593,7 +6574,7 @@
     "Bank": 0
   },
   {
-    "Number": 348,
+    "Number": 347,
     "Receive": "446.21250",
     "Transmit": "446.21250",
     "Offset": "0.00000",
@@ -6612,7 +6593,7 @@
     "Bank": 0
   },
   {
-    "Number": 349,
+    "Number": 348,
     "Receive": "446.22500",
     "Transmit": "446.22500",
     "Offset": "0.00000",
@@ -6631,7 +6612,7 @@
     "Bank": 0
   },
   {
-    "Number": 350,
+    "Number": 349,
     "Receive": "446.23750",
     "Transmit": "446.23750",
     "Offset": "0.00000",
@@ -6650,7 +6631,7 @@
     "Bank": 0
   },
   {
-    "Number": 351,
+    "Number": 350,
     "Receive": "446.25000",
     "Transmit": "446.25000",
     "Offset": "0.00000",
@@ -6669,7 +6650,7 @@
     "Bank": 0
   },
   {
-    "Number": 352,
+    "Number": 351,
     "Receive": "446.26250",
     "Transmit": "446.26250",
     "Offset": "0.00000",
@@ -6688,7 +6669,7 @@
     "Bank": 0
   },
   {
-    "Number": 353,
+    "Number": 352,
     "Receive": "446.27500",
     "Transmit": "446.27500",
     "Offset": "0.00000",
@@ -6707,9 +6688,28 @@
     "Bank": 0
   },
   {
-    "Number": 354,
+    "Number": 353,
     "Receive": "446.28750",
     "Transmit": "446.28750",
+    "Offset": "0.00000",
+    "Direction": "OFF",
+    "Mode": "FM",
+    "Name": "Digital",
+    "ToneMode": "OFF",
+    "CTCSS": "100.0 Hz",
+    "DCS": "023",
+    "UserCTCSS": "1500 Hz",
+    "Power": "HIGH",
+    "Skip": "OFF",
+    "Step": "25.0KHz",
+    "ClockShift": 0,
+    "Comment": "Digital Voice Narrowband",
+    "Bank": 0
+  },
+  {
+    "Number": 354,
+    "Receive": "446.30000",
+    "Transmit": "446.30000",
     "Offset": "0.00000",
     "Direction": "OFF",
     "Mode": "FM",
@@ -6732,25 +6732,6 @@
     "Offset": "0.00000",
     "Direction": "OFF",
     "Mode": "FM",
-    "Name": "Digital",
-    "ToneMode": "OFF",
-    "CTCSS": "100.0 Hz",
-    "DCS": "023",
-    "UserCTCSS": "1500 Hz",
-    "Power": "HIGH",
-    "Skip": "OFF",
-    "Step": "25.0KHz",
-    "ClockShift": 0,
-    "Comment": "Digital Voice Narrowband",
-    "Bank": 0
-  },
-  {
-    "Number": 356,
-    "Receive": "446.30000",
-    "Transmit": "446.30000",
-    "Offset": "0.00000",
-    "Direction": "OFF",
-    "Mode": "FM",
     "Name": "Chadron",
     "ToneMode": "OFF",
     "CTCSS": "100.0 Hz",
@@ -6761,6 +6742,25 @@
     "Step": "25.0KHz",
     "ClockShift": 0,
     "Comment": "31 17082 389.67 NE Dawes Chadron",
+    "Bank": 0
+  },
+  {
+    "Number": 356,
+    "Receive": "446.90000",
+    "Transmit": "441.90000",
+    "Offset": "5.00000",
+    "Direction": "-RPT",
+    "Mode": "FM",
+    "Name": "K0PRA Pa",
+    "ToneMode": "OFF",
+    "CTCSS": "100.0 Hz",
+    "DCS": "023",
+    "UserCTCSS": "1500 Hz",
+    "Power": "HIGH",
+    "Skip": "OFF",
+    "Step": "25.0KHz",
+    "ClockShift": 0,
+    "Comment": "8 18248 16.56 CO Arapahoe Parker K0PRA",
     "Bank": 0
   },
   {
@@ -7031,6 +7031,25 @@
   },
   {
     "Number": 371,
+    "Receive": "447.27500",
+    "Transmit": "442.27500",
+    "Offset": "5.00000",
+    "Direction": "-RPT",
+    "Mode": "FM",
+    "Name": "KB5ITS M",
+    "ToneMode": "TONE ENC",
+    "CTCSS": "100.0 Hz",
+    "DCS": "023",
+    "UserCTCSS": "1500 Hz",
+    "Power": "HIGH",
+    "Skip": "OFF",
+    "Step": "25.0KHz",
+    "ClockShift": 0,
+    "Comment": "49 18460 443.34 UT Wayne Monticello, Abajo Peak KB5ITS",
+    "Bank": 0
+  },
+  {
+    "Number": 372,
     "Receive": "447.30000",
     "Transmit": "442.30000",
     "Offset": "5.00000",
@@ -7049,7 +7068,7 @@
     "Bank": 0
   },
   {
-    "Number": 372,
+    "Number": 373,
     "Receive": "447.35000",
     "Transmit": "442.35000",
     "Offset": "5.00000",
@@ -7068,7 +7087,7 @@
     "Bank": 0
   },
   {
-    "Number": 373,
+    "Number": 374,
     "Receive": "447.35000",
     "Transmit": "442.35000",
     "Offset": "5.00000",
@@ -7087,7 +7106,7 @@
     "Bank": 0
   },
   {
-    "Number": 374,
+    "Number": 375,
     "Receive": "447.37500",
     "Transmit": "442.37500",
     "Offset": "5.00000",
@@ -7106,7 +7125,7 @@
     "Bank": 0
   },
   {
-    "Number": 375,
+    "Number": 376,
     "Receive": "447.40000",
     "Transmit": "442.40000",
     "Offset": "5.00000",
@@ -7125,7 +7144,7 @@
     "Bank": 0
   },
   {
-    "Number": 376,
+    "Number": 377,
     "Receive": "447.45000",
     "Transmit": "442.45000",
     "Offset": "5.00000",
@@ -7144,7 +7163,7 @@
     "Bank": 0
   },
   {
-    "Number": 377,
+    "Number": 378,
     "Receive": "447.45000",
     "Transmit": "442.45000",
     "Offset": "5.00000",
@@ -7163,7 +7182,7 @@
     "Bank": 0
   },
   {
-    "Number": 378,
+    "Number": 379,
     "Receive": "447.47500",
     "Transmit": "442.47500",
     "Offset": "5.00000",
@@ -7182,7 +7201,7 @@
     "Bank": 0
   },
   {
-    "Number": 379,
+    "Number": 380,
     "Receive": "447.50000",
     "Transmit": "442.50000",
     "Offset": "5.00000",
@@ -7201,7 +7220,7 @@
     "Bank": 0
   },
   {
-    "Number": 380,
+    "Number": 381,
     "Receive": "447.50000",
     "Transmit": "442.50000",
     "Offset": "5.00000",
@@ -7220,7 +7239,7 @@
     "Bank": 0
   },
   {
-    "Number": 381,
+    "Number": 382,
     "Receive": "447.52500",
     "Transmit": "442.52500",
     "Offset": "5.00000",
@@ -7239,7 +7258,7 @@
     "Bank": 0
   },
   {
-    "Number": 382,
+    "Number": 383,
     "Receive": "447.52500",
     "Transmit": "442.52500",
     "Offset": "5.00000",
@@ -7258,7 +7277,7 @@
     "Bank": 0
   },
   {
-    "Number": 383,
+    "Number": 384,
     "Receive": "447.52500",
     "Transmit": "442.52500",
     "Offset": "5.00000",
@@ -7277,7 +7296,7 @@
     "Bank": 0
   },
   {
-    "Number": 384,
+    "Number": 385,
     "Receive": "447.55000",
     "Transmit": "442.55000",
     "Offset": "5.00000",
@@ -7296,7 +7315,7 @@
     "Bank": 0
   },
   {
-    "Number": 385,
+    "Number": 386,
     "Receive": "447.57500",
     "Transmit": "442.57500",
     "Offset": "5.00000",
@@ -7315,7 +7334,7 @@
     "Bank": 0
   },
   {
-    "Number": 386,
+    "Number": 387,
     "Receive": "447.60000",
     "Transmit": "442.60000",
     "Offset": "5.00000",
@@ -7334,7 +7353,7 @@
     "Bank": 0
   },
   {
-    "Number": 387,
+    "Number": 388,
     "Receive": "447.62500",
     "Transmit": "442.62500",
     "Offset": "5.00000",
@@ -7353,7 +7372,7 @@
     "Bank": 0
   },
   {
-    "Number": 388,
+    "Number": 389,
     "Receive": "447.62500",
     "Transmit": "442.62500",
     "Offset": "5.00000",
@@ -7372,7 +7391,7 @@
     "Bank": 0
   },
   {
-    "Number": 389,
+    "Number": 390,
     "Receive": "447.65000",
     "Transmit": "442.65000",
     "Offset": "5.00000",
@@ -7391,7 +7410,7 @@
     "Bank": 0
   },
   {
-    "Number": 390,
+    "Number": 391,
     "Receive": "447.67500",
     "Transmit": "442.67500",
     "Offset": "5.00000",
@@ -7410,7 +7429,7 @@
     "Bank": 0
   },
   {
-    "Number": 391,
+    "Number": 392,
     "Receive": "447.70000",
     "Transmit": "442.70000",
     "Offset": "5.00000",
@@ -7429,7 +7448,7 @@
     "Bank": 0
   },
   {
-    "Number": 392,
+    "Number": 393,
     "Receive": "447.72500",
     "Transmit": "442.72500",
     "Offset": "5.00000",
@@ -7448,7 +7467,7 @@
     "Bank": 0
   },
   {
-    "Number": 393,
+    "Number": 394,
     "Receive": "447.72500",
     "Transmit": "442.72500",
     "Offset": "5.00000",
@@ -7467,7 +7486,7 @@
     "Bank": 0
   },
   {
-    "Number": 394,
+    "Number": 395,
     "Receive": "447.75000",
     "Transmit": "442.75000",
     "Offset": "5.00000",
@@ -7486,7 +7505,7 @@
     "Bank": 0
   },
   {
-    "Number": 395,
+    "Number": 396,
     "Receive": "447.77500",
     "Transmit": "442.77500",
     "Offset": "5.00000",
@@ -7505,7 +7524,7 @@
     "Bank": 0
   },
   {
-    "Number": 396,
+    "Number": 397,
     "Receive": "447.82500",
     "Transmit": "442.82500",
     "Offset": "5.00000",
@@ -7524,7 +7543,7 @@
     "Bank": 0
   },
   {
-    "Number": 397,
+    "Number": 398,
     "Receive": "447.87500",
     "Transmit": "442.87500",
     "Offset": "5.00000",
@@ -7543,7 +7562,7 @@
     "Bank": 0
   },
   {
-    "Number": 398,
+    "Number": 399,
     "Receive": "447.92500",
     "Transmit": "442.92500",
     "Offset": "5.00000",
@@ -7559,25 +7578,6 @@
     "Step": "25.0KHz",
     "ClockShift": 0,
     "Comment": "8 8196 14.58 CO Denver Denver K0FEZ",
-    "Bank": 0
-  },
-  {
-    "Number": 399,
-    "Receive": "447.95000",
-    "Transmit": "442.95000",
-    "Offset": "5.00000",
-    "Direction": "-RPT",
-    "Mode": "FM",
-    "Name": "ND0Q Pue",
-    "ToneMode": "TONE ENC",
-    "CTCSS": "88.5 Hz",
-    "DCS": "023",
-    "UserCTCSS": "1500 Hz",
-    "Power": "HIGH",
-    "Skip": "OFF",
-    "Step": "25.0KHz",
-    "ClockShift": 0,
-    "Comment": "8 198 140.36 CO Pueblo Pueblo ND0Q",
     "Bank": 0
   },
   {
@@ -7848,25 +7848,6 @@
   },
   {
     "Number": 414,
-    "Receive": "448.30000",
-    "Transmit": "443.30000",
-    "Offset": "5.00000",
-    "Direction": "-RPT",
-    "Mode": "FM",
-    "Name": "K7GX Pri",
-    "ToneMode": "OFF",
-    "CTCSS": "100.0 Hz",
-    "DCS": "023",
-    "UserCTCSS": "1500 Hz",
-    "Power": "HIGH",
-    "Skip": "OFF",
-    "Step": "25.0KHz",
-    "ClockShift": 0,
-    "Comment": "49 10061 506.87 UT Carbon Price, Wood Hill K7GX",
-    "Bank": 0
-  },
-  {
-    "Number": 415,
     "Receive": "448.32500",
     "Transmit": "443.32500",
     "Offset": "5.00000",
@@ -7885,7 +7866,7 @@
     "Bank": 0
   },
   {
-    "Number": 416,
+    "Number": 415,
     "Receive": "448.32500",
     "Transmit": "443.32500",
     "Offset": "5.00000",
@@ -7904,7 +7885,7 @@
     "Bank": 0
   },
   {
-    "Number": 417,
+    "Number": 416,
     "Receive": "448.32500",
     "Transmit": "443.32500",
     "Offset": "5.00000",
@@ -7923,7 +7904,7 @@
     "Bank": 0
   },
   {
-    "Number": 418,
+    "Number": 417,
     "Receive": "448.35000",
     "Transmit": "443.35000",
     "Offset": "5.00000",
@@ -7942,7 +7923,7 @@
     "Bank": 0
   },
   {
-    "Number": 419,
+    "Number": 418,
     "Receive": "448.40000",
     "Transmit": "443.40000",
     "Offset": "5.00000",
@@ -7961,7 +7942,7 @@
     "Bank": 0
   },
   {
-    "Number": 420,
+    "Number": 419,
     "Receive": "448.42500",
     "Transmit": "443.42500",
     "Offset": "5.00000",
@@ -7980,7 +7961,7 @@
     "Bank": 0
   },
   {
-    "Number": 421,
+    "Number": 420,
     "Receive": "448.45000",
     "Transmit": "443.45000",
     "Offset": "5.00000",
@@ -7999,7 +7980,7 @@
     "Bank": 0
   },
   {
-    "Number": 422,
+    "Number": 421,
     "Receive": "448.47500",
     "Transmit": "443.47500",
     "Offset": "5.00000",
@@ -8018,7 +7999,7 @@
     "Bank": 0
   },
   {
-    "Number": 423,
+    "Number": 422,
     "Receive": "448.50000",
     "Transmit": "443.50000",
     "Offset": "5.00000",
@@ -8037,7 +8018,7 @@
     "Bank": 0
   },
   {
-    "Number": 424,
+    "Number": 423,
     "Receive": "448.52500",
     "Transmit": "443.52500",
     "Offset": "5.00000",
@@ -8056,7 +8037,7 @@
     "Bank": 0
   },
   {
-    "Number": 425,
+    "Number": 424,
     "Receive": "448.60000",
     "Transmit": "443.60000",
     "Offset": "5.00000",
@@ -8075,7 +8056,7 @@
     "Bank": 0
   },
   {
-    "Number": 426,
+    "Number": 425,
     "Receive": "448.62500",
     "Transmit": "443.62500",
     "Offset": "5.00000",
@@ -8094,7 +8075,7 @@
     "Bank": 0
   },
   {
-    "Number": 427,
+    "Number": 426,
     "Receive": "448.62500",
     "Transmit": "443.62500",
     "Offset": "5.00000",
@@ -8113,7 +8094,7 @@
     "Bank": 0
   },
   {
-    "Number": 428,
+    "Number": 427,
     "Receive": "448.65000",
     "Transmit": "443.65000",
     "Offset": "5.00000",
@@ -8132,7 +8113,7 @@
     "Bank": 0
   },
   {
-    "Number": 429,
+    "Number": 428,
     "Receive": "448.65000",
     "Transmit": "443.65000",
     "Offset": "5.00000",
@@ -8147,11 +8128,11 @@
     "Skip": "OFF",
     "Step": "25.0KHz",
     "ClockShift": 0,
-    "Comment": "8 15213 276.97 CO Montrose Montrose, Waterdog Peak KB0YNA",
+    "Comment": "8 15213 276.98 CO Montrose Montrose, Waterdog Peak KB0YNA",
     "Bank": 0
   },
   {
-    "Number": 430,
+    "Number": 429,
     "Receive": "448.65000",
     "Transmit": "443.65000",
     "Offset": "5.00000",
@@ -8170,7 +8151,7 @@
     "Bank": 0
   },
   {
-    "Number": 431,
+    "Number": 430,
     "Receive": "448.67500",
     "Transmit": "443.67500",
     "Offset": "5.00000",
@@ -8189,7 +8170,7 @@
     "Bank": 0
   },
   {
-    "Number": 432,
+    "Number": 431,
     "Receive": "448.70000",
     "Transmit": "443.70000",
     "Offset": "5.00000",
@@ -8208,7 +8189,7 @@
     "Bank": 0
   },
   {
-    "Number": 433,
+    "Number": 432,
     "Receive": "448.72500",
     "Transmit": "443.72500",
     "Offset": "5.00000",
@@ -8227,7 +8208,7 @@
     "Bank": 0
   },
   {
-    "Number": 434,
+    "Number": 433,
     "Receive": "448.80000",
     "Transmit": "443.80000",
     "Offset": "5.00000",
@@ -8246,7 +8227,7 @@
     "Bank": 0
   },
   {
-    "Number": 435,
+    "Number": 434,
     "Receive": "448.80000",
     "Transmit": "443.80000",
     "Offset": "5.00000",
@@ -8265,7 +8246,7 @@
     "Bank": 0
   },
   {
-    "Number": 436,
+    "Number": 435,
     "Receive": "448.82500",
     "Transmit": "443.82500",
     "Offset": "5.00000",
@@ -8281,6 +8262,25 @@
     "Step": "25.0KHz",
     "ClockShift": 0,
     "Comment": "8 16032 12.53 CO Arapahoe Aurora WN7ANT",
+    "Bank": 0
+  },
+  {
+    "Number": 436,
+    "Receive": "448.82500",
+    "Transmit": "443.82500",
+    "Offset": "5.00000",
+    "Direction": "-RPT",
+    "Mode": "FM",
+    "Name": "KB5ITS M",
+    "ToneMode": "TONE ENC",
+    "CTCSS": "100.0 Hz",
+    "DCS": "023",
+    "UserCTCSS": "1500 Hz",
+    "Power": "HIGH",
+    "Skip": "OFF",
+    "Step": "25.0KHz",
+    "ClockShift": 0,
+    "Comment": "8 18465 288.35 CO Montrose Montrose, Raspberry KB5ITS",
     "Bank": 0
   },
   {
@@ -8480,25 +8480,6 @@
     "Offset": "5.00000",
     "Direction": "-RPT",
     "Mode": "FM",
-    "Name": "NG7T Cas",
-    "ToneMode": "OFF",
-    "CTCSS": "100.0 Hz",
-    "DCS": "023",
-    "UserCTCSS": "1500 Hz",
-    "Power": "HIGH",
-    "Skip": "OFF",
-    "Step": "25.0KHz",
-    "ClockShift": 0,
-    "Comment": "56 63 379.24 WY Natrona Casper NG7T",
-    "Bank": 0
-  },
-  {
-    "Number": 448,
-    "Receive": "449.10000",
-    "Transmit": "444.10000",
-    "Offset": "5.00000",
-    "Direction": "-RPT",
-    "Mode": "FM",
     "Name": "K7QEQ Mo",
     "ToneMode": "TONE SQL",
     "CTCSS": "107.2 Hz",
@@ -8512,7 +8493,7 @@
     "Bank": 0
   },
   {
-    "Number": 449,
+    "Number": 448,
     "Receive": "449.20000",
     "Transmit": "444.20000",
     "Offset": "5.00000",
@@ -8528,6 +8509,25 @@
     "Step": "25.0KHz",
     "ClockShift": 0,
     "Comment": "8 4588 316.51 CO Baca Springfield KZ0DEM",
+    "Bank": 0
+  },
+  {
+    "Number": 449,
+    "Receive": "449.20000",
+    "Transmit": "444.20000",
+    "Offset": "5.00000",
+    "Direction": "-RPT",
+    "Mode": "FM",
+    "Name": "Glade Pa",
+    "ToneMode": "TONE ENC",
+    "CTCSS": "107.2 Hz",
+    "DCS": "023",
+    "UserCTCSS": "1500 Hz",
+    "Power": "HIGH",
+    "Skip": "OFF",
+    "Step": "25.0KHz",
+    "ClockShift": 0,
+    "Comment": "8 18392 338.68 CO Mesa Glade Park",
     "Bank": 0
   },
   {
@@ -8622,7 +8622,7 @@
     "Skip": "OFF",
     "Step": "25.0KHz",
     "ClockShift": 0,
-    "Comment": "56 34 155.98 WY Laramie Cheyenne, Chalk Bluffs N7JJY",
+    "Comment": "56 34 155.99 WY Laramie Cheyenne, Chalk Bluffs N7JJY",
     "Bank": 0
   },
   {
@@ -8727,8 +8727,8 @@
     "Offset": "5.00000",
     "Direction": "-RPT",
     "Mode": "FM",
-    "Name": "KC0HH La",
-    "ToneMode": "TONE ENC",
+    "Name": "N0LAR La",
+    "ToneMode": "TONE SQL",
     "CTCSS": "123.0 Hz",
     "DCS": "023",
     "UserCTCSS": "1500 Hz",
@@ -8736,7 +8736,7 @@
     "Skip": "OFF",
     "Step": "25.0KHz",
     "ClockShift": 0,
-    "Comment": "8 171 260.88 CO Prowers Lamar KC0HH",
+    "Comment": "8 171 260.88 CO Prowers Lamar N0LAR",
     "Bank": 0
   },
   {
@@ -8822,8 +8822,8 @@
     "Offset": "5.00000",
     "Direction": "-RPT",
     "Mode": "FM",
-    "Name": "WB0TUB C",
-    "ToneMode": "TONE ENC",
+    "Name": "N0PUF Ce",
+    "ToneMode": "OFF",
     "CTCSS": "100.0 Hz",
     "DCS": "023",
     "UserCTCSS": "1500 Hz",
@@ -8831,7 +8831,7 @@
     "Skip": "OFF",
     "Step": "25.0KHz",
     "ClockShift": 0,
-    "Comment": "8 273 24.32 CO Jefferson Centennial, Warren Mountain WB0TUB",
+    "Comment": "8 273 24.32 CO Jefferson Centennial, Warren Mountain N0PUF",
     "Bank": 0
   },
   {
@@ -8879,25 +8879,6 @@
     "Offset": "5.00000",
     "Direction": "-RPT",
     "Mode": "FM",
-    "Name": "KC0CVU P",
-    "ToneMode": "TONE ENC",
-    "CTCSS": "107.2 Hz",
-    "DCS": "023",
-    "UserCTCSS": "1500 Hz",
-    "Power": "HIGH",
-    "Skip": "OFF",
-    "Step": "25.0KHz",
-    "ClockShift": 0,
-    "Comment": "8 199 178.15 CO Custer Pueblo, Deer Peak KC0CVU",
-    "Bank": 0
-  },
-  {
-    "Number": 469,
-    "Receive": "449.62500",
-    "Transmit": "444.62500",
-    "Offset": "5.00000",
-    "Direction": "-RPT",
-    "Mode": "FM",
     "Name": "KB0VJJ S",
     "ToneMode": "TONE SQL",
     "CTCSS": "123.0 Hz",
@@ -8908,6 +8889,25 @@
     "Step": "25.0KHz",
     "ClockShift": 0,
     "Comment": "8 9770 190.59 CO Routt Steamboat Springs KB0VJJ",
+    "Bank": 0
+  },
+  {
+    "Number": 469,
+    "Receive": "449.62500",
+    "Transmit": "444.62500",
+    "Offset": "5.00000",
+    "Direction": "-RPT",
+    "Mode": "FM",
+    "Name": "K0SLV Mo",
+    "ToneMode": "TONE ENC",
+    "CTCSS": "94.8 Hz",
+    "DCS": "023",
+    "UserCTCSS": "1500 Hz",
+    "Power": "HIGH",
+    "Skip": "OFF",
+    "Step": "25.0KHz",
+    "ClockShift": 0,
+    "Comment": "8 18580 251.30 CO Rio Grande Monte Vista K0SLV",
     "Bank": 0
   },
   {
@@ -9040,7 +9040,7 @@
     "Skip": "OFF",
     "Step": "25.0KHz",
     "ClockShift": 0,
-    "Comment": "8 159 87.86 CO Weld Greeley, UNC K0OJ",
+    "Comment": "8 159 87.87 CO Weld Greeley, UNC K0OJ",
     "Bank": 0
   },
   {

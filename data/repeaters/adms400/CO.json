@@ -343,6 +343,44 @@
   },
   {
     "Channel Number": 19,
+    "Receive Frequency": "145.19000",
+    "Transmit Frequency": "144.59000",
+    "Offset Frequency": "600 kHz",
+    "Offset Direction": "Minus",
+    "Operating Mode": "Auto",
+    "Name": "N0OBA FE",
+    "Show Name": "Large",
+    "Tone Mode": "Tone",
+    "CTCSS": "151.4 Hz",
+    "DCS": "023",
+    "Tx Power": "Low",
+    "Skip": "Off",
+    "Step": "Auto",
+    "Clock Shift": "Off",
+    "Comment": "8 8741 11.59 CO Arapahoe Aurora N0OBA",
+    "User CTCSS": "1500 Hz"
+  },
+  {
+    "Channel Number": 20,
+    "Receive Frequency": "145.19000",
+    "Transmit Frequency": "144.59000",
+    "Offset Frequency": "600 kHz",
+    "Offset Direction": "Minus",
+    "Operating Mode": "Auto",
+    "Name": "N0XLF FE",
+    "Show Name": "Large",
+    "Tone Mode": "T Sql",
+    "CTCSS": "131.8 Hz",
+    "DCS": "023",
+    "Tx Power": "Low",
+    "Skip": "Off",
+    "Step": "Auto",
+    "Clock Shift": "Off",
+    "Comment": "8 8740 54.68 CO Douglas Palmer Lake Monument Hill N0XLF",
+    "User CTCSS": "1500 Hz"
+  },
+  {
+    "Channel Number": 21,
     "Receive Frequency": "145.28000",
     "Transmit Frequency": "144.68000",
     "Offset Frequency": "600 kHz",
@@ -361,7 +399,7 @@
     "User CTCSS": "1500 Hz"
   },
   {
-    "Channel Number": 20,
+    "Channel Number": 22,
     "Receive Frequency": "145.31000",
     "Transmit Frequency": "144.71000",
     "Offset Frequency": "600 kHz",
@@ -380,7 +418,26 @@
     "User CTCSS": "1500 Hz"
   },
   {
-    "Channel Number": 21,
+    "Channel Number": 23,
+    "Receive Frequency": "145.34000",
+    "Transmit Frequency": "144.74000",
+    "Offset Frequency": "600 kHz",
+    "Offset Direction": "Minus",
+    "Operating Mode": "Auto",
+    "Name": "KE4GUQ FI",
+    "Show Name": "Large",
+    "Tone Mode": "Tone",
+    "CTCSS": "103.5 Hz",
+    "DCS": "023",
+    "Tx Power": "Low",
+    "Skip": "Off",
+    "Step": "Auto",
+    "Clock Shift": "Off",
+    "Comment": "8 73 36.29 CO Jefferson Evergreen KE4GUQ",
+    "User CTCSS": "1500 Hz"
+  },
+  {
+    "Channel Number": 24,
     "Receive Frequency": "145.40000",
     "Transmit Frequency": "144.80000",
     "Offset Frequency": "600 kHz",
@@ -399,7 +456,7 @@
     "User CTCSS": "1500 Hz"
   },
   {
-    "Channel Number": 22,
+    "Channel Number": 25,
     "Receive Frequency": "145.41500",
     "Transmit Frequency": "144.81500",
     "Offset Frequency": "600 kHz",
@@ -418,7 +475,7 @@
     "User CTCSS": "1500 Hz"
   },
   {
-    "Channel Number": 23,
+    "Channel Number": 26,
     "Receive Frequency": "145.46000",
     "Transmit Frequency": "144.86000",
     "Offset Frequency": "600 kHz",
@@ -437,7 +494,7 @@
     "User CTCSS": "1500 Hz"
   },
   {
-    "Channel Number": 24,
+    "Channel Number": 27,
     "Receive Frequency": "145.47500",
     "Transmit Frequency": "144.87500",
     "Offset Frequency": "600 kHz",
@@ -456,7 +513,7 @@
     "User CTCSS": "1500 Hz"
   },
   {
-    "Channel Number": 25,
+    "Channel Number": 28,
     "Receive Frequency": "145.49000",
     "Transmit Frequency": "144.89000",
     "Offset Frequency": "600 kHz",
@@ -475,7 +532,7 @@
     "User CTCSS": "1500 Hz"
   },
   {
-    "Channel Number": 26,
+    "Channel Number": 29,
     "Receive Frequency": "146.40000",
     "Transmit Frequency": "146.40000",
     "Offset Frequency": "",
@@ -494,7 +551,7 @@
     "User CTCSS": "1500 Hz"
   },
   {
-    "Channel Number": 27,
+    "Channel Number": 30,
     "Receive Frequency": "146.41500",
     "Transmit Frequency": "146.41500",
     "Offset Frequency": "",
@@ -513,7 +570,7 @@
     "User CTCSS": "1500 Hz"
   },
   {
-    "Channel Number": 28,
+    "Channel Number": 31,
     "Receive Frequency": "146.43000",
     "Transmit Frequency": "146.43000",
     "Offset Frequency": "",
@@ -532,7 +589,7 @@
     "User CTCSS": "1500 Hz"
   },
   {
-    "Channel Number": 29,
+    "Channel Number": 32,
     "Receive Frequency": "146.44500",
     "Transmit Frequency": "146.44500",
     "Offset Frequency": "",
@@ -551,7 +608,7 @@
     "User CTCSS": "1500 Hz"
   },
   {
-    "Channel Number": 30,
+    "Channel Number": 33,
     "Receive Frequency": "146.46000",
     "Transmit Frequency": "146.46000",
     "Offset Frequency": "",
@@ -570,7 +627,7 @@
     "User CTCSS": "1500 Hz"
   },
   {
-    "Channel Number": 31,
+    "Channel Number": 34,
     "Receive Frequency": "146.47500",
     "Transmit Frequency": "146.47500",
     "Offset Frequency": "",
@@ -589,7 +646,7 @@
     "User CTCSS": "1500 Hz"
   },
   {
-    "Channel Number": 32,
+    "Channel Number": 35,
     "Receive Frequency": "146.49000",
     "Transmit Frequency": "146.49000",
     "Offset Frequency": "",
@@ -608,7 +665,7 @@
     "User CTCSS": "1500 Hz"
   },
   {
-    "Channel Number": 33,
+    "Channel Number": 36,
     "Receive Frequency": "146.50500",
     "Transmit Frequency": "146.50500",
     "Offset Frequency": "",
@@ -627,7 +684,7 @@
     "User CTCSS": "1500 Hz"
   },
   {
-    "Channel Number": 34,
+    "Channel Number": 37,
     "Receive Frequency": "146.52000",
     "Transmit Frequency": "146.52000",
     "Offset Frequency": "",
@@ -646,7 +703,7 @@
     "User CTCSS": "1500 Hz"
   },
   {
-    "Channel Number": 35,
+    "Channel Number": 38,
     "Receive Frequency": "146.53500",
     "Transmit Frequency": "146.53500",
     "Offset Frequency": "",
@@ -665,7 +722,7 @@
     "User CTCSS": "1500 Hz"
   },
   {
-    "Channel Number": 36,
+    "Channel Number": 39,
     "Receive Frequency": "146.55000",
     "Transmit Frequency": "146.55000",
     "Offset Frequency": "",
@@ -684,7 +741,7 @@
     "User CTCSS": "1500 Hz"
   },
   {
-    "Channel Number": 37,
+    "Channel Number": 40,
     "Receive Frequency": "146.56500",
     "Transmit Frequency": "146.56500",
     "Offset Frequency": "",
@@ -703,7 +760,7 @@
     "User CTCSS": "1500 Hz"
   },
   {
-    "Channel Number": 38,
+    "Channel Number": 41,
     "Receive Frequency": "146.58000",
     "Transmit Frequency": "146.58000",
     "Offset Frequency": "",
@@ -722,7 +779,7 @@
     "User CTCSS": "1500 Hz"
   },
   {
-    "Channel Number": 39,
+    "Channel Number": 42,
     "Receive Frequency": "146.59500",
     "Transmit Frequency": "146.59500",
     "Offset Frequency": "",
@@ -741,7 +798,7 @@
     "User CTCSS": "1500 Hz"
   },
   {
-    "Channel Number": 40,
+    "Channel Number": 43,
     "Receive Frequency": "146.61000",
     "Transmit Frequency": "146.01000",
     "Offset Frequency": "600 kHz",
@@ -760,7 +817,26 @@
     "User CTCSS": "1500 Hz"
   },
   {
-    "Channel Number": 41,
+    "Channel Number": 44,
+    "Receive Frequency": "146.64000",
+    "Transmit Frequency": "146.04000",
+    "Offset Frequency": "600 kHz",
+    "Offset Direction": "Minus",
+    "Operating Mode": "Auto",
+    "Name": "WB0TUB F",
+    "Show Name": "Large",
+    "Tone Mode": "Tone",
+    "CTCSS": "100.0 Hz",
+    "DCS": "023",
+    "Tx Power": "Low",
+    "Skip": "Off",
+    "Step": "Auto",
+    "Clock Shift": "Off",
+    "Comment": "8 77 42.22 CO Jefferson Golden Centennial Cone WB0TUB",
+    "User CTCSS": "1500 Hz"
+  },
+  {
+    "Channel Number": 45,
     "Receive Frequency": "146.67000",
     "Transmit Frequency": "146.07000",
     "Offset Frequency": "600 kHz",
@@ -779,7 +855,7 @@
     "User CTCSS": "1500 Hz"
   },
   {
-    "Channel Number": 42,
+    "Channel Number": 46,
     "Receive Frequency": "146.68500",
     "Transmit Frequency": "146.08500",
     "Offset Frequency": "600 kHz",
@@ -798,7 +874,26 @@
     "User CTCSS": "1500 Hz"
   },
   {
-    "Channel Number": 43,
+    "Channel Number": 47,
+    "Receive Frequency": "146.68500",
+    "Transmit Frequency": "146.08500",
+    "Offset Frequency": "600 kHz",
+    "Offset Direction": "Minus",
+    "Operating Mode": "Auto",
+    "Name": "N0FH FEI",
+    "Show Name": "Large",
+    "Tone Mode": "Tone",
+    "CTCSS": "123.0 Hz",
+    "DCS": "023",
+    "Tx Power": "Low",
+    "Skip": "Off",
+    "Step": "Auto",
+    "Clock Shift": "Off",
+    "Comment": "8 119 94.34 CO Larimer Estes Park N0FH",
+    "User CTCSS": "1500 Hz"
+  },
+  {
+    "Channel Number": 48,
     "Receive Frequency": "146.70000",
     "Transmit Frequency": "146.10000",
     "Offset Frequency": "600 kHz",
@@ -817,7 +912,45 @@
     "User CTCSS": "1500 Hz"
   },
   {
-    "Channel Number": 44,
+    "Channel Number": 49,
+    "Receive Frequency": "146.70000",
+    "Transmit Frequency": "146.10000",
+    "Offset Frequency": "600 kHz",
+    "Offset Direction": "Minus",
+    "Operating Mode": "Auto",
+    "Name": "WB0QMR FI",
+    "Show Name": "Large",
+    "Tone Mode": "Tone",
+    "CTCSS": "107.2 Hz",
+    "DCS": "023",
+    "Tx Power": "Low",
+    "Skip": "Off",
+    "Step": "Auto",
+    "Clock Shift": "Off",
+    "Comment": "8 23 99.46 CO Summit Breckenridge WB0QMR",
+    "User CTCSS": "1500 Hz"
+  },
+  {
+    "Channel Number": 50,
+    "Receive Frequency": "146.71500",
+    "Transmit Frequency": "146.11500",
+    "Offset Frequency": "600 kHz",
+    "Offset Direction": "Minus",
+    "Operating Mode": "Auto",
+    "Name": "N0JXN F",
+    "Show Name": "Large",
+    "Tone Mode": "T Sql",
+    "CTCSS": "123.0 Hz",
+    "DCS": "023",
+    "Tx Power": "Low",
+    "Skip": "Off",
+    "Step": "Auto",
+    "Clock Shift": "Off",
+    "Comment": "8 79 14.69 CO Denver Denver N0JXN",
+    "User CTCSS": "1500 Hz"
+  },
+  {
+    "Channel Number": 51,
     "Receive Frequency": "146.76000",
     "Transmit Frequency": "146.16000",
     "Offset Frequency": "600 kHz",
@@ -836,7 +969,7 @@
     "User CTCSS": "1500 Hz"
   },
   {
-    "Channel Number": 45,
+    "Channel Number": 52,
     "Receive Frequency": "146.76000",
     "Transmit Frequency": "146.16000",
     "Offset Frequency": "600 kHz",
@@ -855,7 +988,7 @@
     "User CTCSS": "1500 Hz"
   },
   {
-    "Channel Number": 46,
+    "Channel Number": 53,
     "Receive Frequency": "146.82000",
     "Transmit Frequency": "146.22000",
     "Offset Frequency": "600 kHz",
@@ -874,7 +1007,7 @@
     "User CTCSS": "1500 Hz"
   },
   {
-    "Channel Number": 47,
+    "Channel Number": 54,
     "Receive Frequency": "146.85000",
     "Transmit Frequency": "146.25000",
     "Offset Frequency": "600 kHz",
@@ -893,7 +1026,121 @@
     "User CTCSS": "1500 Hz"
   },
   {
-    "Channel Number": 48,
+    "Channel Number": 55,
+    "Receive Frequency": "146.85000",
+    "Transmit Frequency": "146.25000",
+    "Offset Frequency": "600 kHz",
+    "Offset Direction": "Minus",
+    "Operating Mode": "Auto",
+    "Name": "AD0TP F",
+    "Show Name": "Large",
+    "Tone Mode": "Tone",
+    "CTCSS": "156.7 Hz",
+    "DCS": "023",
+    "Tx Power": "Low",
+    "Skip": "Off",
+    "Step": "Auto",
+    "Clock Shift": "Off",
+    "Comment": "8 42 88.49 CO El Paso Colorado Springs AD0TP",
+    "User CTCSS": "1500 Hz"
+  },
+  {
+    "Channel Number": 56,
+    "Receive Frequency": "146.88000",
+    "Transmit Frequency": "146.28000",
+    "Offset Frequency": "600 kHz",
+    "Offset Direction": "Minus",
+    "Operating Mode": "Auto",
+    "Name": "N0PUF F",
+    "Show Name": "Large",
+    "Tone Mode": "Tone",
+    "CTCSS": "100.0 Hz",
+    "DCS": "023",
+    "Tx Power": "Low",
+    "Skip": "Off",
+    "Step": "Auto",
+    "Clock Shift": "Off",
+    "Comment": "8 80 24.32 CO Jefferson Centennial Warren Mountain N0PUF",
+    "User CTCSS": "1500 Hz"
+  },
+  {
+    "Channel Number": 57,
+    "Receive Frequency": "146.89500",
+    "Transmit Frequency": "146.29500",
+    "Offset Frequency": "600 kHz",
+    "Offset Direction": "Minus",
+    "Operating Mode": "Auto",
+    "Name": "AB0PC FL",
+    "Show Name": "Large",
+    "Tone Mode": "T Sql",
+    "CTCSS": "100.0 Hz",
+    "DCS": "023",
+    "Tx Power": "Low",
+    "Skip": "Off",
+    "Step": "Auto",
+    "Clock Shift": "Off",
+    "Comment": "8 7 55.49 CO Park Bailey Dick Mountain AB0PC",
+    "User CTCSS": "1500 Hz"
+  },
+  {
+    "Channel Number": 58,
+    "Receive Frequency": "146.91000",
+    "Transmit Frequency": "147.51000",
+    "Offset Frequency": "600 kHz",
+    "Offset Direction": "Plus",
+    "Operating Mode": "Auto",
+    "Name": "W0JZ F",
+    "Show Name": "Large",
+    "Tone Mode": "Tone",
+    "CTCSS": "123.0 Hz",
+    "DCS": "023",
+    "Tx Power": "Low",
+    "Skip": "Off",
+    "Step": "Auto",
+    "Clock Shift": "Off",
+    "Comment": "8 13368 65.56 CO Boulder Gold Hill W0JZ",
+    "User CTCSS": "1500 Hz"
+  },
+  {
+    "Channel Number": 59,
+    "Receive Frequency": "146.91000",
+    "Transmit Frequency": "146.31000",
+    "Offset Frequency": "600 kHz",
+    "Offset Direction": "Minus",
+    "Operating Mode": "Auto",
+    "Name": "K0IRP F",
+    "Show Name": "Large",
+    "Tone Mode": "T Sql",
+    "CTCSS": "151.4 Hz",
+    "DCS": "023",
+    "Tx Power": "Low",
+    "Skip": "Off",
+    "Step": "Auto",
+    "Clock Shift": "Off",
+    "Comment": "8 43 87.95 CO El Paso Colorado Springs K0IRP",
+    "User CTCSS": "1500 Hz"
+  },
+  {
+    "Channel Number": 60,
+    "Receive Frequency": "146.94000",
+    "Transmit Frequency": "146.34000",
+    "Offset Frequency": "600 kHz",
+    "Offset Direction": "Minus",
+    "Operating Mode": "Auto",
+    "Name": "W0WYX F",
+    "Show Name": "Large",
+    "Tone Mode": "T Sql",
+    "CTCSS": "103.5 Hz",
+    "DCS": "023",
+    "Tx Power": "Low",
+    "Skip": "Off",
+    "Step": "Auto",
+    "Clock Shift": "Off",
+    "Comment": "8 81 51.67 CO Clear Creek Idaho Springs Squaw Mountain W0WYX",
+    "User CTCSS": "1500 Hz"
+  },
+  {
+    "Channel Number": 61,
     "Receive Frequency": "146.97000",
     "Transmit Frequency": "146.37000",
     "Offset Frequency": "600 kHz",
@@ -912,7 +1159,197 @@
     "User CTCSS": "1500 Hz"
   },
   {
-    "Channel Number": 49,
+    "Channel Number": 62,
+    "Receive Frequency": "146.98500",
+    "Transmit Frequency": "146.38500",
+    "Offset Frequency": "600 kHz",
+    "Offset Direction": "Minus",
+    "Operating Mode": "Auto",
+    "Name": "K0FEZ FI",
+    "Show Name": "Large",
+    "Tone Mode": "T Sql",
+    "CTCSS": "100.0 Hz",
+    "DCS": "023",
+    "Tx Power": "Low",
+    "Skip": "Off",
+    "Step": "Auto",
+    "Clock Shift": "Off",
+    "Comment": "8 82 42.22 CO Denver Golden Centennial Cone K0FEZ",
+    "User CTCSS": "1500 Hz"
+  },
+  {
+    "Channel Number": 63,
+    "Receive Frequency": "147.00000",
+    "Transmit Frequency": "147.60000",
+    "Offset Frequency": "600 kHz",
+    "Offset Direction": "Plus",
+    "Operating Mode": "Auto",
+    "Name": "KC0KWD YI",
+    "Show Name": "Large",
+    "Tone Mode": "None",
+    "CTCSS": "100.0 Hz",
+    "DCS": "023",
+    "Tx Power": "Low",
+    "Skip": "Off",
+    "Step": "Auto",
+    "Clock Shift": "Off",
+    "Comment": "8 157 72.30 CO Weld LaSalle KC0KWD",
+    "User CTCSS": "1500 Hz"
+  },
+  {
+    "Channel Number": 64,
+    "Receive Frequency": "147.03000",
+    "Transmit Frequency": "147.63000",
+    "Offset Frequency": "600 kHz",
+    "Offset Direction": "Plus",
+    "Operating Mode": "Auto",
+    "Name": "KI0HG F",
+    "Show Name": "Large",
+    "Tone Mode": "Tone",
+    "CTCSS": "100.0 Hz",
+    "DCS": "023",
+    "Tx Power": "Low",
+    "Skip": "Off",
+    "Step": "Auto",
+    "Clock Shift": "Off",
+    "Comment": "8 15670 78.00 CO Boulder Allenspark AFPD Station #5 KI0HG",
+    "User CTCSS": "1500 Hz"
+  },
+  {
+    "Channel Number": 65,
+    "Receive Frequency": "147.04500",
+    "Transmit Frequency": "147.64500",
+    "Offset Frequency": "600 kHz",
+    "Offset Direction": "Plus",
+    "Operating Mode": "Auto",
+    "Name": "K0ML F",
+    "Show Name": "Large",
+    "Tone Mode": "Tone",
+    "CTCSS": "123.0 Hz",
+    "DCS": "023",
+    "Tx Power": "Low",
+    "Skip": "Off",
+    "Step": "Auto",
+    "Clock Shift": "Off",
+    "Comment": "8 185 29.84 CO Adams Northglenn K0ML",
+    "User CTCSS": "1500 Hz"
+  },
+  {
+    "Channel Number": 66,
+    "Receive Frequency": "147.10500",
+    "Transmit Frequency": "147.70500",
+    "Offset Frequency": "600 kHz",
+    "Offset Direction": "Plus",
+    "Operating Mode": "Auto",
+    "Name": "WA0DE F",
+    "Show Name": "Large",
+    "Tone Mode": "T Sql",
+    "CTCSS": "107.2 Hz",
+    "DCS": "023",
+    "Tx Power": "Low",
+    "Skip": "Off",
+    "Step": "Auto",
+    "Clock Shift": "Off",
+    "Comment": "8 12167 82.11 CO Elbert Simla WA0DE",
+    "User CTCSS": "1500 Hz"
+  },
+  {
+    "Channel Number": 67,
+    "Receive Frequency": "147.12000",
+    "Transmit Frequency": "147.72000",
+    "Offset Frequency": "600 kHz",
+    "Offset Direction": "Plus",
+    "Operating Mode": "Auto",
+    "Name": "N0ARA F",
+    "Show Name": "Large",
+    "Tone Mode": "T Sql",
+    "CTCSS": "88.5 Hz",
+    "DCS": "023",
+    "Tx Power": "Low",
+    "Skip": "Off",
+    "Step": "Auto",
+    "Clock Shift": "Off",
+    "Comment": "8 59 41.33 CO Jefferson Critchell Critchell Mountain N0ARA",
+    "User CTCSS": "1500 Hz"
+  },
+  {
+    "Channel Number": 68,
+    "Receive Frequency": "147.13500",
+    "Transmit Frequency": "147.73500",
+    "Offset Frequency": "600 kHz",
+    "Offset Direction": "Plus",
+    "Operating Mode": "Auto",
+    "Name": "AA0L F",
+    "Show Name": "Large",
+    "Tone Mode": "Tone",
+    "CTCSS": "100.0 Hz",
+    "DCS": "023",
+    "Tx Power": "Low",
+    "Skip": "Off",
+    "Step": "Auto",
+    "Clock Shift": "Off",
+    "Comment": "8 8176 87.92 CO El Paso Colorado Springs AA0L",
+    "User CTCSS": "1500 Hz"
+  },
+  {
+    "Channel Number": 69,
+    "Receive Frequency": "147.15000",
+    "Transmit Frequency": "147.75000",
+    "Offset Frequency": "600 kHz",
+    "Offset Direction": "Plus",
+    "Operating Mode": "Auto",
+    "Name": "W0CBI F",
+    "Show Name": "Large",
+    "Tone Mode": "T Sql",
+    "CTCSS": "100.0 Hz",
+    "DCS": "023",
+    "Tx Power": "Low",
+    "Skip": "Off",
+    "Step": "Auto",
+    "Clock Shift": "Off",
+    "Comment": "8 133 40.84 CO Jefferson Golden Guy Hill W0CBI",
+    "User CTCSS": "1500 Hz"
+  },
+  {
+    "Channel Number": 70,
+    "Receive Frequency": "147.19500",
+    "Transmit Frequency": "147.79500",
+    "Offset Frequency": "600 kHz",
+    "Offset Direction": "Plus",
+    "Operating Mode": "Auto",
+    "Name": "W0LRA F",
+    "Show Name": "Large",
+    "Tone Mode": "Tone",
+    "CTCSS": "100.0 Hz",
+    "DCS": "023",
+    "Tx Power": "Low",
+    "Skip": "Off",
+    "Step": "Auto",
+    "Clock Shift": "Off",
+    "Comment": "8 179 88.02 CO Larimer Loveland Namaqua Hill W0LRA",
+    "User CTCSS": "1500 Hz"
+  },
+  {
+    "Channel Number": 71,
+    "Receive Frequency": "147.21000",
+    "Transmit Frequency": "147.81000",
+    "Offset Frequency": "600 kHz",
+    "Offset Direction": "Plus",
+    "Operating Mode": "Auto",
+    "Name": "KD0SSP FI",
+    "Show Name": "Large",
+    "Tone Mode": "T Sql",
+    "CTCSS": "100.0 Hz",
+    "DCS": "023",
+    "Tx Power": "Low",
+    "Skip": "Off",
+    "Step": "Auto",
+    "Clock Shift": "Off",
+    "Comment": "8 9775 23.97 CO Jefferson Lakewood Moffat Treatment Plant KD0SSP",
+    "User CTCSS": "1500 Hz"
+  },
+  {
+    "Channel Number": 72,
     "Receive Frequency": "147.22500",
     "Transmit Frequency": "147.82500",
     "Offset Frequency": "600 kHz",
@@ -931,7 +1368,45 @@
     "User CTCSS": "1500 Hz"
   },
   {
-    "Channel Number": 50,
+    "Channel Number": 73,
+    "Receive Frequency": "147.27000",
+    "Transmit Frequency": "147.87000",
+    "Offset Frequency": "600 kHz",
+    "Offset Direction": "Plus",
+    "Operating Mode": "Auto",
+    "Name": "W0ENO F",
+    "Show Name": "Large",
+    "Tone Mode": "T Sql",
+    "CTCSS": "100.0 Hz",
+    "DCS": "023",
+    "Tx Power": "Low",
+    "Skip": "Off",
+    "Step": "Auto",
+    "Clock Shift": "Off",
+    "Comment": "8 175 62.62 CO Boulder Longmont W0ENO",
+    "User CTCSS": "1500 Hz"
+  },
+  {
+    "Channel Number": 74,
+    "Receive Frequency": "147.27000",
+    "Transmit Frequency": "147.87000",
+    "Offset Frequency": "600 kHz",
+    "Offset Direction": "Plus",
+    "Operating Mode": "Auto",
+    "Name": "Colorado Springs F",
+    "Show Name": "Large",
+    "Tone Mode": "None",
+    "CTCSS": "100.0 Hz",
+    "DCS": "023",
+    "Tx Power": "Low",
+    "Skip": "Off",
+    "Step": "Auto",
+    "Clock Shift": "Off",
+    "Comment": "8 46 87.95 CO El Paso Colorado Springs",
+    "User CTCSS": "1500 Hz"
+  },
+  {
+    "Channel Number": 75,
     "Receive Frequency": "147.28500",
     "Transmit Frequency": "147.88500",
     "Offset Frequency": "600 kHz",
@@ -950,7 +1425,7 @@
     "User CTCSS": "1500 Hz"
   },
   {
-    "Channel Number": 51,
+    "Channel Number": 76,
     "Receive Frequency": "147.30000",
     "Transmit Frequency": "147.90000",
     "Offset Frequency": "600 kHz",
@@ -969,7 +1444,7 @@
     "User CTCSS": "1500 Hz"
   },
   {
-    "Channel Number": 52,
+    "Channel Number": 77,
     "Receive Frequency": "147.33000",
     "Transmit Frequency": "147.93000",
     "Offset Frequency": "600 kHz",
@@ -988,7 +1463,7 @@
     "User CTCSS": "1500 Hz"
   },
   {
-    "Channel Number": 53,
+    "Channel Number": 78,
     "Receive Frequency": "147.34500",
     "Transmit Frequency": "147.94500",
     "Offset Frequency": "600 kHz",
@@ -1007,7 +1482,7 @@
     "User CTCSS": "1500 Hz"
   },
   {
-    "Channel Number": 54,
+    "Channel Number": 79,
     "Receive Frequency": "147.36000",
     "Transmit Frequency": "147.96000",
     "Offset Frequency": "600 kHz",
@@ -1026,7 +1501,7 @@
     "User CTCSS": "1500 Hz"
   },
   {
-    "Channel Number": 55,
+    "Channel Number": 80,
     "Receive Frequency": "147.39000",
     "Transmit Frequency": "147.99000",
     "Offset Frequency": "600 kHz",
@@ -1045,7 +1520,7 @@
     "User CTCSS": "1500 Hz"
   },
   {
-    "Channel Number": 56,
+    "Channel Number": 81,
     "Receive Frequency": "147.39000",
     "Transmit Frequency": "147.99000",
     "Offset Frequency": "600 kHz",
@@ -1064,7 +1539,7 @@
     "User CTCSS": "1500 Hz"
   },
   {
-    "Channel Number": 57,
+    "Channel Number": 82,
     "Receive Frequency": "147.42000",
     "Transmit Frequency": "147.42000",
     "Offset Frequency": "",
@@ -1083,7 +1558,7 @@
     "User CTCSS": "1500 Hz"
   },
   {
-    "Channel Number": 58,
+    "Channel Number": 83,
     "Receive Frequency": "147.43500",
     "Transmit Frequency": "147.43500",
     "Offset Frequency": "",
@@ -1102,7 +1577,7 @@
     "User CTCSS": "1500 Hz"
   },
   {
-    "Channel Number": 59,
+    "Channel Number": 84,
     "Receive Frequency": "147.45000",
     "Transmit Frequency": "147.45000",
     "Offset Frequency": "",
@@ -1121,7 +1596,7 @@
     "User CTCSS": "1500 Hz"
   },
   {
-    "Channel Number": 60,
+    "Channel Number": 85,
     "Receive Frequency": "147.46500",
     "Transmit Frequency": "147.46500",
     "Offset Frequency": "",
@@ -1140,7 +1615,7 @@
     "User CTCSS": "1500 Hz"
   },
   {
-    "Channel Number": 61,
+    "Channel Number": 86,
     "Receive Frequency": "147.48000",
     "Transmit Frequency": "147.48000",
     "Offset Frequency": "",
@@ -1159,7 +1634,7 @@
     "User CTCSS": "1500 Hz"
   },
   {
-    "Channel Number": 62,
+    "Channel Number": 87,
     "Receive Frequency": "147.49500",
     "Transmit Frequency": "147.49500",
     "Offset Frequency": "",
@@ -1178,7 +1653,7 @@
     "User CTCSS": "1500 Hz"
   },
   {
-    "Channel Number": 63,
+    "Channel Number": 88,
     "Receive Frequency": "147.51000",
     "Transmit Frequency": "147.51000",
     "Offset Frequency": "",
@@ -1197,7 +1672,7 @@
     "User CTCSS": "1500 Hz"
   },
   {
-    "Channel Number": 64,
+    "Channel Number": 89,
     "Receive Frequency": "147.52500",
     "Transmit Frequency": "147.52500",
     "Offset Frequency": "",
@@ -1216,7 +1691,7 @@
     "User CTCSS": "1500 Hz"
   },
   {
-    "Channel Number": 65,
+    "Channel Number": 90,
     "Receive Frequency": "147.54000",
     "Transmit Frequency": "147.54000",
     "Offset Frequency": "",
@@ -1235,7 +1710,7 @@
     "User CTCSS": "1500 Hz"
   },
   {
-    "Channel Number": 66,
+    "Channel Number": 91,
     "Receive Frequency": "147.55500",
     "Transmit Frequency": "147.55500",
     "Offset Frequency": "",
@@ -1254,7 +1729,7 @@
     "User CTCSS": "1500 Hz"
   },
   {
-    "Channel Number": 67,
+    "Channel Number": 92,
     "Receive Frequency": "147.57000",
     "Transmit Frequency": "147.57000",
     "Offset Frequency": "",
@@ -1273,7 +1748,7 @@
     "User CTCSS": "1500 Hz"
   },
   {
-    "Channel Number": 68,
+    "Channel Number": 93,
     "Receive Frequency": "147.58500",
     "Transmit Frequency": "147.58500",
     "Offset Frequency": "",
@@ -1292,7 +1767,26 @@
     "User CTCSS": "1500 Hz"
   },
   {
-    "Channel Number": 69,
+    "Channel Number": 94,
+    "Receive Frequency": "423.00000",
+    "Transmit Frequency": "1243.00000",
+    "Offset Frequency": "",
+    "Offset Direction": "Plus",
+    "Operating Mode": "Auto",
+    "Name": "W0BTV F",
+    "Show Name": "Large",
+    "Tone Mode": "None",
+    "CTCSS": "100.0 Hz",
+    "DCS": "023",
+    "Tx Power": "Low",
+    "Skip": "Off",
+    "Step": "Auto",
+    "Clock Shift": "Off",
+    "Comment": "8 18534 50.86 CO Boulder Boulder W0BTV",
+    "User CTCSS": "1500 Hz"
+  },
+  {
+    "Channel Number": 95,
     "Receive Frequency": "434.50000",
     "Transmit Frequency": "434.50000",
     "Offset Frequency": "",
@@ -1311,7 +1805,7 @@
     "User CTCSS": "1500 Hz"
   },
   {
-    "Channel Number": 70,
+    "Channel Number": 96,
     "Receive Frequency": "434.52500",
     "Transmit Frequency": "434.52500",
     "Offset Frequency": "",
@@ -1330,7 +1824,7 @@
     "User CTCSS": "1500 Hz"
   },
   {
-    "Channel Number": 71,
+    "Channel Number": 97,
     "Receive Frequency": "434.55000",
     "Transmit Frequency": "434.55000",
     "Offset Frequency": "",
@@ -1349,7 +1843,7 @@
     "User CTCSS": "1500 Hz"
   },
   {
-    "Channel Number": 72,
+    "Channel Number": 98,
     "Receive Frequency": "434.57500",
     "Transmit Frequency": "434.57500",
     "Offset Frequency": "",
@@ -1368,7 +1862,7 @@
     "User CTCSS": "1500 Hz"
   },
   {
-    "Channel Number": 73,
+    "Channel Number": 99,
     "Receive Frequency": "434.60000",
     "Transmit Frequency": "434.60000",
     "Offset Frequency": "",
@@ -1387,7 +1881,7 @@
     "User CTCSS": "1500 Hz"
   },
   {
-    "Channel Number": 74,
+    "Channel Number": 100,
     "Receive Frequency": "434.62500",
     "Transmit Frequency": "434.62500",
     "Offset Frequency": "",
@@ -1406,7 +1900,7 @@
     "User CTCSS": "1500 Hz"
   },
   {
-    "Channel Number": 75,
+    "Channel Number": 101,
     "Receive Frequency": "434.65000",
     "Transmit Frequency": "434.65000",
     "Offset Frequency": "",
@@ -1425,7 +1919,7 @@
     "User CTCSS": "1500 Hz"
   },
   {
-    "Channel Number": 76,
+    "Channel Number": 102,
     "Receive Frequency": "434.67500",
     "Transmit Frequency": "434.67500",
     "Offset Frequency": "",
@@ -1444,7 +1938,7 @@
     "User CTCSS": "1500 Hz"
   },
   {
-    "Channel Number": 77,
+    "Channel Number": 103,
     "Receive Frequency": "434.70000",
     "Transmit Frequency": "434.70000",
     "Offset Frequency": "",
@@ -1463,7 +1957,7 @@
     "User CTCSS": "1500 Hz"
   },
   {
-    "Channel Number": 78,
+    "Channel Number": 104,
     "Receive Frequency": "434.72500",
     "Transmit Frequency": "434.72500",
     "Offset Frequency": "",
@@ -1482,7 +1976,7 @@
     "User CTCSS": "1500 Hz"
   },
   {
-    "Channel Number": 79,
+    "Channel Number": 105,
     "Receive Frequency": "434.75000",
     "Transmit Frequency": "434.75000",
     "Offset Frequency": "",
@@ -1501,7 +1995,7 @@
     "User CTCSS": "1500 Hz"
   },
   {
-    "Channel Number": 80,
+    "Channel Number": 106,
     "Receive Frequency": "434.77500",
     "Transmit Frequency": "434.77500",
     "Offset Frequency": "",
@@ -1520,7 +2014,7 @@
     "User CTCSS": "1500 Hz"
   },
   {
-    "Channel Number": 81,
+    "Channel Number": 107,
     "Receive Frequency": "434.80000",
     "Transmit Frequency": "434.80000",
     "Offset Frequency": "",
@@ -1539,7 +2033,7 @@
     "User CTCSS": "1500 Hz"
   },
   {
-    "Channel Number": 82,
+    "Channel Number": 108,
     "Receive Frequency": "434.82500",
     "Transmit Frequency": "434.82500",
     "Offset Frequency": "",
@@ -1558,7 +2052,7 @@
     "User CTCSS": "1500 Hz"
   },
   {
-    "Channel Number": 83,
+    "Channel Number": 109,
     "Receive Frequency": "434.85000",
     "Transmit Frequency": "434.85000",
     "Offset Frequency": "",
@@ -1577,7 +2071,7 @@
     "User CTCSS": "1500 Hz"
   },
   {
-    "Channel Number": 84,
+    "Channel Number": 110,
     "Receive Frequency": "434.87500",
     "Transmit Frequency": "434.87500",
     "Offset Frequency": "",
@@ -1596,7 +2090,7 @@
     "User CTCSS": "1500 Hz"
   },
   {
-    "Channel Number": 85,
+    "Channel Number": 111,
     "Receive Frequency": "434.90000",
     "Transmit Frequency": "434.90000",
     "Offset Frequency": "",
@@ -1615,7 +2109,7 @@
     "User CTCSS": "1500 Hz"
   },
   {
-    "Channel Number": 86,
+    "Channel Number": 112,
     "Receive Frequency": "434.92500",
     "Transmit Frequency": "434.92500",
     "Offset Frequency": "",
@@ -1634,7 +2128,7 @@
     "User CTCSS": "1500 Hz"
   },
   {
-    "Channel Number": 87,
+    "Channel Number": 113,
     "Receive Frequency": "434.95000",
     "Transmit Frequency": "434.95000",
     "Offset Frequency": "",
@@ -1653,7 +2147,7 @@
     "User CTCSS": "1500 Hz"
   },
   {
-    "Channel Number": 88,
+    "Channel Number": 114,
     "Receive Frequency": "434.97500",
     "Transmit Frequency": "434.97500",
     "Offset Frequency": "",
@@ -1672,7 +2166,7 @@
     "User CTCSS": "1500 Hz"
   },
   {
-    "Channel Number": 89,
+    "Channel Number": 115,
     "Receive Frequency": "435.00000",
     "Transmit Frequency": "435.00000",
     "Offset Frequency": "",
@@ -1691,7 +2185,7 @@
     "User CTCSS": "1500 Hz"
   },
   {
-    "Channel Number": 90,
+    "Channel Number": 116,
     "Receive Frequency": "439.50000",
     "Transmit Frequency": "439.50000",
     "Offset Frequency": "",
@@ -1710,7 +2204,7 @@
     "User CTCSS": "1500 Hz"
   },
   {
-    "Channel Number": 91,
+    "Channel Number": 117,
     "Receive Frequency": "439.52500",
     "Transmit Frequency": "439.52500",
     "Offset Frequency": "",
@@ -1729,7 +2223,7 @@
     "User CTCSS": "1500 Hz"
   },
   {
-    "Channel Number": 92,
+    "Channel Number": 118,
     "Receive Frequency": "439.55000",
     "Transmit Frequency": "439.55000",
     "Offset Frequency": "",
@@ -1748,7 +2242,7 @@
     "User CTCSS": "1500 Hz"
   },
   {
-    "Channel Number": 93,
+    "Channel Number": 119,
     "Receive Frequency": "439.57500",
     "Transmit Frequency": "439.57500",
     "Offset Frequency": "",
@@ -1767,7 +2261,7 @@
     "User CTCSS": "1500 Hz"
   },
   {
-    "Channel Number": 94,
+    "Channel Number": 120,
     "Receive Frequency": "439.60000",
     "Transmit Frequency": "439.60000",
     "Offset Frequency": "",
@@ -1786,7 +2280,7 @@
     "User CTCSS": "1500 Hz"
   },
   {
-    "Channel Number": 95,
+    "Channel Number": 121,
     "Receive Frequency": "439.62500",
     "Transmit Frequency": "439.62500",
     "Offset Frequency": "",
@@ -1805,7 +2299,7 @@
     "User CTCSS": "1500 Hz"
   },
   {
-    "Channel Number": 96,
+    "Channel Number": 122,
     "Receive Frequency": "439.65000",
     "Transmit Frequency": "439.65000",
     "Offset Frequency": "",
@@ -1824,7 +2318,7 @@
     "User CTCSS": "1500 Hz"
   },
   {
-    "Channel Number": 97,
+    "Channel Number": 123,
     "Receive Frequency": "439.67500",
     "Transmit Frequency": "439.67500",
     "Offset Frequency": "",
@@ -1843,7 +2337,7 @@
     "User CTCSS": "1500 Hz"
   },
   {
-    "Channel Number": 98,
+    "Channel Number": 124,
     "Receive Frequency": "439.70000",
     "Transmit Frequency": "439.70000",
     "Offset Frequency": "",
@@ -1862,7 +2356,7 @@
     "User CTCSS": "1500 Hz"
   },
   {
-    "Channel Number": 99,
+    "Channel Number": 125,
     "Receive Frequency": "439.72500",
     "Transmit Frequency": "439.72500",
     "Offset Frequency": "",
@@ -1881,7 +2375,7 @@
     "User CTCSS": "1500 Hz"
   },
   {
-    "Channel Number": 100,
+    "Channel Number": 126,
     "Receive Frequency": "439.75000",
     "Transmit Frequency": "439.75000",
     "Offset Frequency": "",
@@ -1900,7 +2394,7 @@
     "User CTCSS": "1500 Hz"
   },
   {
-    "Channel Number": 101,
+    "Channel Number": 127,
     "Receive Frequency": "439.77500",
     "Transmit Frequency": "439.77500",
     "Offset Frequency": "",
@@ -1919,7 +2413,7 @@
     "User CTCSS": "1500 Hz"
   },
   {
-    "Channel Number": 102,
+    "Channel Number": 128,
     "Receive Frequency": "439.80000",
     "Transmit Frequency": "439.80000",
     "Offset Frequency": "",
@@ -1938,7 +2432,7 @@
     "User CTCSS": "1500 Hz"
   },
   {
-    "Channel Number": 103,
+    "Channel Number": 129,
     "Receive Frequency": "439.82500",
     "Transmit Frequency": "439.82500",
     "Offset Frequency": "",
@@ -1957,7 +2451,7 @@
     "User CTCSS": "1500 Hz"
   },
   {
-    "Channel Number": 104,
+    "Channel Number": 130,
     "Receive Frequency": "439.85000",
     "Transmit Frequency": "439.85000",
     "Offset Frequency": "",
@@ -1976,7 +2470,7 @@
     "User CTCSS": "1500 Hz"
   },
   {
-    "Channel Number": 105,
+    "Channel Number": 131,
     "Receive Frequency": "439.87500",
     "Transmit Frequency": "439.87500",
     "Offset Frequency": "",
@@ -1995,7 +2489,7 @@
     "User CTCSS": "1500 Hz"
   },
   {
-    "Channel Number": 106,
+    "Channel Number": 132,
     "Receive Frequency": "439.90000",
     "Transmit Frequency": "439.90000",
     "Offset Frequency": "",
@@ -2014,7 +2508,7 @@
     "User CTCSS": "1500 Hz"
   },
   {
-    "Channel Number": 107,
+    "Channel Number": 133,
     "Receive Frequency": "439.92500",
     "Transmit Frequency": "439.92500",
     "Offset Frequency": "",
@@ -2033,7 +2527,7 @@
     "User CTCSS": "1500 Hz"
   },
   {
-    "Channel Number": 108,
+    "Channel Number": 134,
     "Receive Frequency": "439.95000",
     "Transmit Frequency": "439.95000",
     "Offset Frequency": "",
@@ -2052,7 +2546,7 @@
     "User CTCSS": "1500 Hz"
   },
   {
-    "Channel Number": 109,
+    "Channel Number": 135,
     "Receive Frequency": "439.97500",
     "Transmit Frequency": "439.97500",
     "Offset Frequency": "",
@@ -2071,7 +2565,7 @@
     "User CTCSS": "1500 Hz"
   },
   {
-    "Channel Number": 110,
+    "Channel Number": 136,
     "Receive Frequency": "440.00000",
     "Transmit Frequency": "440.00000",
     "Offset Frequency": "",
@@ -2090,7 +2584,7 @@
     "User CTCSS": "1500 Hz"
   },
   {
-    "Channel Number": 111,
+    "Channel Number": 137,
     "Receive Frequency": "445.70000",
     "Transmit Frequency": "445.70000",
     "Offset Frequency": "",
@@ -2109,7 +2603,7 @@
     "User CTCSS": "1500 Hz"
   },
   {
-    "Channel Number": 112,
+    "Channel Number": 138,
     "Receive Frequency": "445.72500",
     "Transmit Frequency": "445.72500",
     "Offset Frequency": "",
@@ -2128,7 +2622,7 @@
     "User CTCSS": "1500 Hz"
   },
   {
-    "Channel Number": 113,
+    "Channel Number": 139,
     "Receive Frequency": "445.75000",
     "Transmit Frequency": "445.75000",
     "Offset Frequency": "",
@@ -2147,7 +2641,7 @@
     "User CTCSS": "1500 Hz"
   },
   {
-    "Channel Number": 114,
+    "Channel Number": 140,
     "Receive Frequency": "445.77500",
     "Transmit Frequency": "445.77500",
     "Offset Frequency": "",
@@ -2166,7 +2660,7 @@
     "User CTCSS": "1500 Hz"
   },
   {
-    "Channel Number": 115,
+    "Channel Number": 141,
     "Receive Frequency": "445.80000",
     "Transmit Frequency": "445.80000",
     "Offset Frequency": "",
@@ -2185,7 +2679,7 @@
     "User CTCSS": "1500 Hz"
   },
   {
-    "Channel Number": 116,
+    "Channel Number": 142,
     "Receive Frequency": "445.82500",
     "Transmit Frequency": "445.82500",
     "Offset Frequency": "",
@@ -2204,7 +2698,7 @@
     "User CTCSS": "1500 Hz"
   },
   {
-    "Channel Number": 117,
+    "Channel Number": 143,
     "Receive Frequency": "445.85000",
     "Transmit Frequency": "445.85000",
     "Offset Frequency": "",
@@ -2223,7 +2717,7 @@
     "User CTCSS": "1500 Hz"
   },
   {
-    "Channel Number": 118,
+    "Channel Number": 144,
     "Receive Frequency": "445.87500",
     "Transmit Frequency": "445.87500",
     "Offset Frequency": "",
@@ -2242,7 +2736,7 @@
     "User CTCSS": "1500 Hz"
   },
   {
-    "Channel Number": 119,
+    "Channel Number": 145,
     "Receive Frequency": "445.90000",
     "Transmit Frequency": "445.90000",
     "Offset Frequency": "",
@@ -2261,7 +2755,7 @@
     "User CTCSS": "1500 Hz"
   },
   {
-    "Channel Number": 120,
+    "Channel Number": 146,
     "Receive Frequency": "445.92500",
     "Transmit Frequency": "445.92500",
     "Offset Frequency": "",
@@ -2280,7 +2774,7 @@
     "User CTCSS": "1500 Hz"
   },
   {
-    "Channel Number": 121,
+    "Channel Number": 147,
     "Receive Frequency": "445.95000",
     "Transmit Frequency": "445.95000",
     "Offset Frequency": "",
@@ -2299,7 +2793,7 @@
     "User CTCSS": "1500 Hz"
   },
   {
-    "Channel Number": 122,
+    "Channel Number": 148,
     "Receive Frequency": "445.97500",
     "Transmit Frequency": "445.97500",
     "Offset Frequency": "",
@@ -2318,7 +2812,7 @@
     "User CTCSS": "1500 Hz"
   },
   {
-    "Channel Number": 123,
+    "Channel Number": 149,
     "Receive Frequency": "446.00000",
     "Transmit Frequency": "446.00000",
     "Offset Frequency": "",
@@ -2337,7 +2831,7 @@
     "User CTCSS": "1500 Hz"
   },
   {
-    "Channel Number": 124,
+    "Channel Number": 150,
     "Receive Frequency": "446.02500",
     "Transmit Frequency": "446.02500",
     "Offset Frequency": "",
@@ -2356,7 +2850,7 @@
     "User CTCSS": "1500 Hz"
   },
   {
-    "Channel Number": 125,
+    "Channel Number": 151,
     "Receive Frequency": "446.05000",
     "Transmit Frequency": "446.05000",
     "Offset Frequency": "",
@@ -2375,7 +2869,7 @@
     "User CTCSS": "1500 Hz"
   },
   {
-    "Channel Number": 126,
+    "Channel Number": 152,
     "Receive Frequency": "446.07500",
     "Transmit Frequency": "446.07500",
     "Offset Frequency": "",
@@ -2394,7 +2888,7 @@
     "User CTCSS": "1500 Hz"
   },
   {
-    "Channel Number": 127,
+    "Channel Number": 153,
     "Receive Frequency": "446.10000",
     "Transmit Frequency": "446.10000",
     "Offset Frequency": "",
@@ -2413,7 +2907,7 @@
     "User CTCSS": "1500 Hz"
   },
   {
-    "Channel Number": 128,
+    "Channel Number": 154,
     "Receive Frequency": "446.12500",
     "Transmit Frequency": "446.12500",
     "Offset Frequency": "",
@@ -2432,7 +2926,7 @@
     "User CTCSS": "1500 Hz"
   },
   {
-    "Channel Number": 129,
+    "Channel Number": 155,
     "Receive Frequency": "446.15000",
     "Transmit Frequency": "446.15000",
     "Offset Frequency": "",
@@ -2451,7 +2945,7 @@
     "User CTCSS": "1500 Hz"
   },
   {
-    "Channel Number": 130,
+    "Channel Number": 156,
     "Receive Frequency": "446.17500",
     "Transmit Frequency": "446.17500",
     "Offset Frequency": "",
@@ -2470,7 +2964,7 @@
     "User CTCSS": "1500 Hz"
   },
   {
-    "Channel Number": 131,
+    "Channel Number": 157,
     "Receive Frequency": "446.20000",
     "Transmit Frequency": "446.20000",
     "Offset Frequency": "",
@@ -2489,7 +2983,7 @@
     "User CTCSS": "1500 Hz"
   },
   {
-    "Channel Number": 132,
+    "Channel Number": 158,
     "Receive Frequency": "446.21250",
     "Transmit Frequency": "446.21250",
     "Offset Frequency": "",
@@ -2508,7 +3002,7 @@
     "User CTCSS": "1500 Hz"
   },
   {
-    "Channel Number": 133,
+    "Channel Number": 159,
     "Receive Frequency": "446.22500",
     "Transmit Frequency": "446.22500",
     "Offset Frequency": "",
@@ -2527,7 +3021,7 @@
     "User CTCSS": "1500 Hz"
   },
   {
-    "Channel Number": 134,
+    "Channel Number": 160,
     "Receive Frequency": "446.23750",
     "Transmit Frequency": "446.23750",
     "Offset Frequency": "",
@@ -2546,7 +3040,7 @@
     "User CTCSS": "1500 Hz"
   },
   {
-    "Channel Number": 135,
+    "Channel Number": 161,
     "Receive Frequency": "446.25000",
     "Transmit Frequency": "446.25000",
     "Offset Frequency": "",
@@ -2565,7 +3059,7 @@
     "User CTCSS": "1500 Hz"
   },
   {
-    "Channel Number": 136,
+    "Channel Number": 162,
     "Receive Frequency": "446.26250",
     "Transmit Frequency": "446.26250",
     "Offset Frequency": "",
@@ -2584,7 +3078,7 @@
     "User CTCSS": "1500 Hz"
   },
   {
-    "Channel Number": 137,
+    "Channel Number": 163,
     "Receive Frequency": "446.27500",
     "Transmit Frequency": "446.27500",
     "Offset Frequency": "",
@@ -2603,7 +3097,7 @@
     "User CTCSS": "1500 Hz"
   },
   {
-    "Channel Number": 138,
+    "Channel Number": 164,
     "Receive Frequency": "446.28750",
     "Transmit Frequency": "446.28750",
     "Offset Frequency": "",
@@ -2622,7 +3116,7 @@
     "User CTCSS": "1500 Hz"
   },
   {
-    "Channel Number": 139,
+    "Channel Number": 165,
     "Receive Frequency": "446.30000",
     "Transmit Frequency": "446.30000",
     "Offset Frequency": "",
@@ -2641,7 +3135,7 @@
     "User CTCSS": "1500 Hz"
   },
   {
-    "Channel Number": 140,
+    "Channel Number": 166,
     "Receive Frequency": "446.90000",
     "Transmit Frequency": "441.90000",
     "Offset Frequency": "5.00 MHz",
@@ -2660,7 +3154,102 @@
     "User CTCSS": "1500 Hz"
   },
   {
-    "Channel Number": 141,
+    "Channel Number": 167,
+    "Receive Frequency": "447.17500",
+    "Transmit Frequency": "442.17500",
+    "Offset Frequency": "5.00 MHz",
+    "Offset Direction": "Minus",
+    "Operating Mode": "Auto",
+    "Name": "W0JRL FLE",
+    "Show Name": "Large",
+    "Tone Mode": "T Sql",
+    "CTCSS": "100.0 Hz",
+    "DCS": "023",
+    "Tx Power": "Low",
+    "Skip": "Off",
+    "Step": "Auto",
+    "Clock Shift": "Off",
+    "Comment": "8 12216 16.35 CO Denver Denver Broadway Plaza Lofts W0JRL",
+    "User CTCSS": "1500 Hz"
+  },
+  {
+    "Channel Number": 168,
+    "Receive Frequency": "447.20000",
+    "Transmit Frequency": "442.20000",
+    "Offset Frequency": "5.00 MHz",
+    "Offset Direction": "Minus",
+    "Operating Mode": "Auto",
+    "Name": "Falcon Y",
+    "Show Name": "Large",
+    "Tone Mode": "None",
+    "CTCSS": "100.0 Hz",
+    "DCS": "023",
+    "Tx Power": "Low",
+    "Skip": "Off",
+    "Step": "Auto",
+    "Clock Shift": "Off",
+    "Comment": "8 13790 80.96 CO El Paso Falcon",
+    "User CTCSS": "1500 Hz"
+  },
+  {
+    "Channel Number": 169,
+    "Receive Frequency": "447.30000",
+    "Transmit Frequency": "442.30000",
+    "Offset Frequency": "5.00 MHz",
+    "Offset Direction": "Minus",
+    "Operating Mode": "Auto",
+    "Name": "AC0KC FEI",
+    "Show Name": "Large",
+    "Tone Mode": "Tone",
+    "CTCSS": "107.2 Hz",
+    "DCS": "023",
+    "Tx Power": "Low",
+    "Skip": "Off",
+    "Step": "Auto",
+    "Clock Shift": "Off",
+    "Comment": "8 8739 45.42 CO Weld Fort Lupton AC0KC",
+    "User CTCSS": "1500 Hz"
+  },
+  {
+    "Channel Number": 170,
+    "Receive Frequency": "447.35000",
+    "Transmit Frequency": "442.35000",
+    "Offset Frequency": "5.00 MHz",
+    "Offset Direction": "Minus",
+    "Operating Mode": "Auto",
+    "Name": "K0IRP F",
+    "Show Name": "Large",
+    "Tone Mode": "Tone",
+    "CTCSS": "151.4 Hz",
+    "DCS": "023",
+    "Tx Power": "Low",
+    "Skip": "Off",
+    "Step": "Auto",
+    "Clock Shift": "Off",
+    "Comment": "8 50 88.42 CO El Paso Colorado Springs K0IRP",
+    "User CTCSS": "1500 Hz"
+  },
+  {
+    "Channel Number": 171,
+    "Receive Frequency": "447.45000",
+    "Transmit Frequency": "442.45000",
+    "Offset Frequency": "5.00 MHz",
+    "Offset Direction": "Minus",
+    "Operating Mode": "Auto",
+    "Name": "WA4CCC F",
+    "Show Name": "Large",
+    "Tone Mode": "Tone",
+    "CTCSS": "103.5 Hz",
+    "DCS": "023",
+    "Tx Power": "Low",
+    "Skip": "Off",
+    "Step": "Auto",
+    "Clock Shift": "Off",
+    "Comment": "8 3756 84.87 CO Grand Winter Park WA4CCC",
+    "User CTCSS": "1500 Hz"
+  },
+  {
+    "Channel Number": 172,
     "Receive Frequency": "447.47500",
     "Transmit Frequency": "442.47500",
     "Offset Frequency": "5.00 MHz",
@@ -2679,7 +3268,26 @@
     "User CTCSS": "1500 Hz"
   },
   {
-    "Channel Number": 142,
+    "Channel Number": 173,
+    "Receive Frequency": "447.50000",
+    "Transmit Frequency": "442.50000",
+    "Offset Frequency": "5.00 MHz",
+    "Offset Direction": "Minus",
+    "Operating Mode": "Auto",
+    "Name": "N0OWY F",
+    "Show Name": "Large",
+    "Tone Mode": "T Sql",
+    "CTCSS": "88.5 Hz",
+    "DCS": "023",
+    "Tx Power": "Low",
+    "Skip": "Off",
+    "Step": "Auto",
+    "Clock Shift": "Off",
+    "Comment": "8 60 31.41 CO Jefferson Conifer Critchell Mountain N0OWY",
+    "User CTCSS": "1500 Hz"
+  },
+  {
+    "Channel Number": 174,
     "Receive Frequency": "447.52500",
     "Transmit Frequency": "442.52500",
     "Offset Frequency": "5.00 MHz",
@@ -2698,7 +3306,7 @@
     "User CTCSS": "1500 Hz"
   },
   {
-    "Channel Number": 143,
+    "Channel Number": 175,
     "Receive Frequency": "447.52500",
     "Transmit Frequency": "442.52500",
     "Offset Frequency": "5.00 MHz",
@@ -2717,7 +3325,7 @@
     "User CTCSS": "1500 Hz"
   },
   {
-    "Channel Number": 144,
+    "Channel Number": 176,
     "Receive Frequency": "447.55000",
     "Transmit Frequency": "442.55000",
     "Offset Frequency": "5.00 MHz",
@@ -2736,7 +3344,7 @@
     "User CTCSS": "1500 Hz"
   },
   {
-    "Channel Number": 145,
+    "Channel Number": 177,
     "Receive Frequency": "447.57500",
     "Transmit Frequency": "442.57500",
     "Offset Frequency": "5.00 MHz",
@@ -2755,7 +3363,7 @@
     "User CTCSS": "1500 Hz"
   },
   {
-    "Channel Number": 146,
+    "Channel Number": 178,
     "Receive Frequency": "447.62500",
     "Transmit Frequency": "442.62500",
     "Offset Frequency": "5.00 MHz",
@@ -2774,7 +3382,26 @@
     "User CTCSS": "1500 Hz"
   },
   {
-    "Channel Number": 147,
+    "Channel Number": 179,
+    "Receive Frequency": "447.62500",
+    "Transmit Frequency": "442.62500",
+    "Offset Frequency": "5.00 MHz",
+    "Offset Direction": "Minus",
+    "Operating Mode": "Auto",
+    "Name": "KD0MDP FLEI",
+    "Show Name": "Large",
+    "Tone Mode": "T Sql",
+    "CTCSS": "100.0 Hz",
+    "DCS": "023",
+    "Tx Power": "Low",
+    "Skip": "Off",
+    "Step": "Auto",
+    "Clock Shift": "Off",
+    "Comment": "8 13294 69.35 CO El Paso Falcon Black Forest KD0MDP",
+    "User CTCSS": "1500 Hz"
+  },
+  {
+    "Channel Number": 180,
     "Receive Frequency": "447.67500",
     "Transmit Frequency": "442.67500",
     "Offset Frequency": "5.00 MHz",
@@ -2793,7 +3420,45 @@
     "User CTCSS": "1500 Hz"
   },
   {
-    "Channel Number": 148,
+    "Channel Number": 181,
+    "Receive Frequency": "447.72500",
+    "Transmit Frequency": "442.72500",
+    "Offset Frequency": "5.00 MHz",
+    "Offset Direction": "Minus",
+    "Operating Mode": "Auto",
+    "Name": "K0NR F",
+    "Show Name": "Large",
+    "Tone Mode": "T Sql",
+    "CTCSS": "100.0 Hz",
+    "DCS": "023",
+    "Tx Power": "Low",
+    "Skip": "Off",
+    "Step": "Auto",
+    "Clock Shift": "Off",
+    "Comment": "8 183 59.56 CO El Paso Monument Monument Hill K0NR",
+    "User CTCSS": "1500 Hz"
+  },
+  {
+    "Channel Number": 182,
+    "Receive Frequency": "447.72500",
+    "Transmit Frequency": "442.72500",
+    "Offset Frequency": "5.00 MHz",
+    "Offset Direction": "Minus",
+    "Operating Mode": "Auto",
+    "Name": "W7RF F",
+    "Show Name": "Large",
+    "Tone Mode": "Tone",
+    "CTCSS": "131.8 Hz",
+    "DCS": "023",
+    "Tx Power": "Low",
+    "Skip": "Off",
+    "Step": "Auto",
+    "Clock Shift": "Off",
+    "Comment": "8 8194 97.90 CO Larimer Fort Collins W7RF",
+    "User CTCSS": "1500 Hz"
+  },
+  {
+    "Channel Number": 183,
     "Receive Frequency": "447.82500",
     "Transmit Frequency": "442.82500",
     "Offset Frequency": "5.00 MHz",
@@ -2812,7 +3477,45 @@
     "User CTCSS": "1500 Hz"
   },
   {
-    "Channel Number": 149,
+    "Channel Number": 184,
+    "Receive Frequency": "447.87500",
+    "Transmit Frequency": "442.87500",
+    "Offset Frequency": "5.00 MHz",
+    "Offset Direction": "Minus",
+    "Operating Mode": "Auto",
+    "Name": "N6LXX FL",
+    "Show Name": "Large",
+    "Tone Mode": "T Sql",
+    "CTCSS": "107.2 Hz",
+    "DCS": "023",
+    "Tx Power": "Low",
+    "Skip": "Off",
+    "Step": "Auto",
+    "Clock Shift": "Off",
+    "Comment": "8 10513 28.27 CO Jefferson Morrison Mt. Morrison N6LXX",
+    "User CTCSS": "1500 Hz"
+  },
+  {
+    "Channel Number": 185,
+    "Receive Frequency": "447.92500",
+    "Transmit Frequency": "442.92500",
+    "Offset Frequency": "5.00 MHz",
+    "Offset Direction": "Minus",
+    "Operating Mode": "Auto",
+    "Name": "K0FEZ F",
+    "Show Name": "Large",
+    "Tone Mode": "T Sql",
+    "CTCSS": "100.0 Hz",
+    "DCS": "023",
+    "Tx Power": "Low",
+    "Skip": "Off",
+    "Step": "Auto",
+    "Clock Shift": "Off",
+    "Comment": "8 8196 14.58 CO Denver Denver K0FEZ",
+    "User CTCSS": "1500 Hz"
+  },
+  {
+    "Channel Number": 186,
     "Receive Frequency": "447.97500",
     "Transmit Frequency": "442.97500",
     "Offset Frequency": "5.00 MHz",
@@ -2831,7 +3534,7 @@
     "User CTCSS": "1500 Hz"
   },
   {
-    "Channel Number": 150,
+    "Channel Number": 187,
     "Receive Frequency": "448.00000",
     "Transmit Frequency": "443.00000",
     "Offset Frequency": "5.00 MHz",
@@ -2850,7 +3553,7 @@
     "User CTCSS": "1500 Hz"
   },
   {
-    "Channel Number": 151,
+    "Channel Number": 188,
     "Receive Frequency": "448.02500",
     "Transmit Frequency": "443.02500",
     "Offset Frequency": "5.00 MHz",
@@ -2869,7 +3572,26 @@
     "User CTCSS": "1500 Hz"
   },
   {
-    "Channel Number": 152,
+    "Channel Number": 189,
+    "Receive Frequency": "448.07500",
+    "Transmit Frequency": "443.07500",
+    "Offset Frequency": "5.00 MHz",
+    "Offset Direction": "Minus",
+    "Operating Mode": "Auto",
+    "Name": "N5EHP F",
+    "Show Name": "Large",
+    "Tone Mode": "Tone",
+    "CTCSS": "123.0 Hz",
+    "DCS": "023",
+    "Tx Power": "Low",
+    "Skip": "Off",
+    "Step": "Auto",
+    "Clock Shift": "Off",
+    "Comment": "8 91 14.69 CO Denver Denver N5EHP",
+    "User CTCSS": "1500 Hz"
+  },
+  {
+    "Channel Number": 190,
     "Receive Frequency": "448.10000",
     "Transmit Frequency": "443.10000",
     "Offset Frequency": "5.00 MHz",
@@ -2888,7 +3610,7 @@
     "User CTCSS": "1500 Hz"
   },
   {
-    "Channel Number": 153,
+    "Channel Number": 191,
     "Receive Frequency": "448.12500",
     "Transmit Frequency": "443.12500",
     "Offset Frequency": "5.00 MHz",
@@ -2907,7 +3629,26 @@
     "User CTCSS": "1500 Hz"
   },
   {
-    "Channel Number": 154,
+    "Channel Number": 192,
+    "Receive Frequency": "448.15000",
+    "Transmit Frequency": "443.15000",
+    "Offset Frequency": "5.00 MHz",
+    "Offset Direction": "Minus",
+    "Operating Mode": "Auto",
+    "Name": "WE0FUN FLE",
+    "Show Name": "Large",
+    "Tone Mode": "T Sql",
+    "CTCSS": "141.3 Hz",
+    "DCS": "023",
+    "Tx Power": "Low",
+    "Skip": "Off",
+    "Step": "Auto",
+    "Clock Shift": "Off",
+    "Comment": "8 9765 22.59 CO Denver Denver Green Valley Ranch WE0FUN",
+    "User CTCSS": "1500 Hz"
+  },
+  {
+    "Channel Number": 193,
     "Receive Frequency": "448.22500",
     "Transmit Frequency": "443.22500",
     "Offset Frequency": "5.00 MHz",
@@ -2926,7 +3667,83 @@
     "User CTCSS": "1500 Hz"
   },
   {
-    "Channel Number": 155,
+    "Channel Number": 194,
+    "Receive Frequency": "448.27500",
+    "Transmit Frequency": "443.27500",
+    "Offset Frequency": "5.00 MHz",
+    "Offset Direction": "Minus",
+    "Operating Mode": "Auto",
+    "Name": "W0BG F",
+    "Show Name": "Large",
+    "Tone Mode": "Tone",
+    "CTCSS": "156.7 Hz",
+    "DCS": "023",
+    "Tx Power": "Low",
+    "Skip": "Off",
+    "Step": "Auto",
+    "Clock Shift": "Off",
+    "Comment": "8 8199 12.53 CO Arapahoe Aurora W0BG",
+    "User CTCSS": "1500 Hz"
+  },
+  {
+    "Channel Number": 195,
+    "Receive Frequency": "448.30000",
+    "Transmit Frequency": "443.30000",
+    "Offset Frequency": "5.00 MHz",
+    "Offset Direction": "Minus",
+    "Operating Mode": "Auto",
+    "Name": "AA0L F",
+    "Show Name": "Large",
+    "Tone Mode": "Tone",
+    "CTCSS": "100.0 Hz",
+    "DCS": "023",
+    "Tx Power": "Low",
+    "Skip": "Off",
+    "Step": "Auto",
+    "Clock Shift": "Off",
+    "Comment": "8 8200 88.42 CO El Paso Colorado Springs AA0L",
+    "User CTCSS": "1500 Hz"
+  },
+  {
+    "Channel Number": 196,
+    "Receive Frequency": "448.35000",
+    "Transmit Frequency": "443.35000",
+    "Offset Frequency": "5.00 MHz",
+    "Offset Direction": "Minus",
+    "Operating Mode": "Auto",
+    "Name": "KD0SSP Y",
+    "Show Name": "Large",
+    "Tone Mode": "None",
+    "CTCSS": "100.0 Hz",
+    "DCS": "023",
+    "Tx Power": "Low",
+    "Skip": "Off",
+    "Step": "Auto",
+    "Clock Shift": "Off",
+    "Comment": "8 17349 23.98 CO Jefferson Lakewood Moffat Treatment Plant KD0SSP",
+    "User CTCSS": "1500 Hz"
+  },
+  {
+    "Channel Number": 197,
+    "Receive Frequency": "448.40000",
+    "Transmit Frequency": "443.40000",
+    "Offset Frequency": "5.00 MHz",
+    "Offset Direction": "Minus",
+    "Operating Mode": "Auto",
+    "Name": "N0ZUQ F",
+    "Show Name": "Large",
+    "Tone Mode": "Tone",
+    "CTCSS": "94.8 Hz",
+    "DCS": "023",
+    "Tx Power": "Low",
+    "Skip": "Off",
+    "Step": "Auto",
+    "Clock Shift": "Off",
+    "Comment": "8 8202 12.53 CO Arapahoe Aurora N0ZUQ",
+    "User CTCSS": "1500 Hz"
+  },
+  {
+    "Channel Number": 198,
     "Receive Frequency": "448.42500",
     "Transmit Frequency": "443.42500",
     "Offset Frequency": "5.00 MHz",
@@ -2945,7 +3762,7 @@
     "User CTCSS": "1500 Hz"
   },
   {
-    "Channel Number": 156,
+    "Channel Number": 199,
     "Receive Frequency": "448.45000",
     "Transmit Frequency": "443.45000",
     "Offset Frequency": "5.00 MHz",
@@ -2964,7 +3781,26 @@
     "User CTCSS": "1500 Hz"
   },
   {
-    "Channel Number": 157,
+    "Channel Number": 200,
+    "Receive Frequency": "448.47500",
+    "Transmit Frequency": "443.47500",
+    "Offset Frequency": "5.00 MHz",
+    "Offset Direction": "Minus",
+    "Operating Mode": "Auto",
+    "Name": "KC0KWD FI",
+    "Show Name": "Large",
+    "Tone Mode": "Tone",
+    "CTCSS": "100.0 Hz",
+    "DCS": "023",
+    "Tx Power": "Low",
+    "Skip": "Off",
+    "Step": "Auto",
+    "Clock Shift": "Off",
+    "Comment": "8 158 72.30 CO Weld Greeley KC0KWD",
+    "User CTCSS": "1500 Hz"
+  },
+  {
+    "Channel Number": 201,
     "Receive Frequency": "448.50000",
     "Transmit Frequency": "443.50000",
     "Offset Frequency": "5.00 MHz",
@@ -2983,7 +3819,26 @@
     "User CTCSS": "1500 Hz"
   },
   {
-    "Channel Number": 158,
+    "Channel Number": 202,
+    "Receive Frequency": "448.52500",
+    "Transmit Frequency": "443.52500",
+    "Offset Frequency": "5.00 MHz",
+    "Offset Direction": "Minus",
+    "Operating Mode": "Auto",
+    "Name": "N0EPA FE",
+    "Show Name": "Large",
+    "Tone Mode": "Tone",
+    "CTCSS": "151.4 Hz",
+    "DCS": "023",
+    "Tx Power": "Low",
+    "Skip": "Off",
+    "Step": "Auto",
+    "Clock Shift": "Off",
+    "Comment": "8 176 62.62 CO Boulder Longmont N0EPA",
+    "User CTCSS": "1500 Hz"
+  },
+  {
+    "Channel Number": 203,
     "Receive Frequency": "448.60000",
     "Transmit Frequency": "443.60000",
     "Offset Frequency": "5.00 MHz",
@@ -3002,7 +3857,7 @@
     "User CTCSS": "1500 Hz"
   },
   {
-    "Channel Number": 159,
+    "Channel Number": 204,
     "Receive Frequency": "448.62500",
     "Transmit Frequency": "443.62500",
     "Offset Frequency": "5.00 MHz",
@@ -3021,7 +3876,7 @@
     "User CTCSS": "1500 Hz"
   },
   {
-    "Channel Number": 160,
+    "Channel Number": 205,
     "Receive Frequency": "448.65000",
     "Transmit Frequency": "443.65000",
     "Offset Frequency": "5.00 MHz",
@@ -3040,7 +3895,83 @@
     "User CTCSS": "1500 Hz"
   },
   {
-    "Channel Number": 161,
+    "Channel Number": 206,
+    "Receive Frequency": "448.67500",
+    "Transmit Frequency": "443.67500",
+    "Offset Frequency": "5.00 MHz",
+    "Offset Direction": "Minus",
+    "Operating Mode": "Auto",
+    "Name": "W0CFI F",
+    "Show Name": "Large",
+    "Tone Mode": "T Sql",
+    "CTCSS": "100.0 Hz",
+    "DCS": "023",
+    "Tx Power": "Low",
+    "Skip": "Off",
+    "Step": "Auto",
+    "Clock Shift": "Off",
+    "Comment": "8 94 51.22 CO Denver Idaho Springs Squaw Mountain W0CFI",
+    "User CTCSS": "1500 Hz"
+  },
+  {
+    "Channel Number": 207,
+    "Receive Frequency": "448.70000",
+    "Transmit Frequency": "443.70000",
+    "Offset Frequency": "5.00 MHz",
+    "Offset Direction": "Minus",
+    "Operating Mode": "Auto",
+    "Name": "WQ8M F",
+    "Show Name": "Large",
+    "Tone Mode": "Tone",
+    "CTCSS": "146.2 Hz",
+    "DCS": "023",
+    "Tx Power": "Low",
+    "Skip": "Off",
+    "Step": "Auto",
+    "Clock Shift": "Off",
+    "Comment": "8 274 11.46 CO Douglas Parker WQ8M",
+    "User CTCSS": "1500 Hz"
+  },
+  {
+    "Channel Number": 208,
+    "Receive Frequency": "448.72500",
+    "Transmit Frequency": "443.72500",
+    "Offset Frequency": "5.00 MHz",
+    "Offset Direction": "Minus",
+    "Operating Mode": "Auto",
+    "Name": "KA0TTF F",
+    "Show Name": "Large",
+    "Tone Mode": "Tone",
+    "CTCSS": "123.0 Hz",
+    "DCS": "023",
+    "Tx Power": "Low",
+    "Skip": "Off",
+    "Step": "Auto",
+    "Clock Shift": "Off",
+    "Comment": "8 56 94.26 CO El Paso Colorado Springs Fillmore Hill KA0TTF",
+    "User CTCSS": "1500 Hz"
+  },
+  {
+    "Channel Number": 209,
+    "Receive Frequency": "448.80000",
+    "Transmit Frequency": "443.80000",
+    "Offset Frequency": "5.00 MHz",
+    "Offset Direction": "Minus",
+    "Operating Mode": "Auto",
+    "Name": "W0ENO F",
+    "Show Name": "Large",
+    "Tone Mode": "T Sql",
+    "CTCSS": "88.5 Hz",
+    "DCS": "023",
+    "Tx Power": "Low",
+    "Skip": "Off",
+    "Step": "Auto",
+    "Clock Shift": "Off",
+    "Comment": "8 177 62.62 CO Boulder Longmont W0ENO",
+    "User CTCSS": "1500 Hz"
+  },
+  {
+    "Channel Number": 210,
     "Receive Frequency": "448.80000",
     "Transmit Frequency": "443.80000",
     "Offset Frequency": "5.00 MHz",
@@ -3059,7 +3990,45 @@
     "User CTCSS": "1500 Hz"
   },
   {
-    "Channel Number": 162,
+    "Channel Number": 211,
+    "Receive Frequency": "448.82500",
+    "Transmit Frequency": "443.82500",
+    "Offset Frequency": "5.00 MHz",
+    "Offset Direction": "Minus",
+    "Operating Mode": "Auto",
+    "Name": "WN7ANT YW",
+    "Show Name": "Large",
+    "Tone Mode": "None",
+    "CTCSS": "100.0 Hz",
+    "DCS": "023",
+    "Tx Power": "Low",
+    "Skip": "Off",
+    "Step": "Auto",
+    "Clock Shift": "Off",
+    "Comment": "8 16032 12.53 CO Arapahoe Aurora WN7ANT",
+    "User CTCSS": "1500 Hz"
+  },
+  {
+    "Channel Number": 212,
+    "Receive Frequency": "448.85000",
+    "Transmit Frequency": "443.85000",
+    "Offset Frequency": "5.00 MHz",
+    "Offset Direction": "Minus",
+    "Operating Mode": "Auto",
+    "Name": "K0IBM F",
+    "Show Name": "Large",
+    "Tone Mode": "T Sql",
+    "CTCSS": "88.5 Hz",
+    "DCS": "023",
+    "Tx Power": "Low",
+    "Skip": "Off",
+    "Step": "Auto",
+    "Clock Shift": "Off",
+    "Comment": "8 136 40.84 CO Jefferson Golden Guy Hill K0IBM",
+    "User CTCSS": "1500 Hz"
+  },
+  {
+    "Channel Number": 213,
     "Receive Frequency": "448.90000",
     "Transmit Frequency": "443.90000",
     "Offset Frequency": "5.00 MHz",
@@ -3078,7 +4047,45 @@
     "User CTCSS": "1500 Hz"
   },
   {
-    "Channel Number": 163,
+    "Channel Number": 214,
+    "Receive Frequency": "448.95000",
+    "Transmit Frequency": "443.95000",
+    "Offset Frequency": "5.00 MHz",
+    "Offset Direction": "Minus",
+    "Operating Mode": "Auto",
+    "Name": "Black Forest YS",
+    "Show Name": "Large",
+    "Tone Mode": "None",
+    "CTCSS": "100.0 Hz",
+    "DCS": "023",
+    "Tx Power": "Low",
+    "Skip": "Off",
+    "Step": "Auto",
+    "Clock Shift": "Off",
+    "Comment": "8 17551 66.43 CO El Paso Black Forest",
+    "User CTCSS": "1500 Hz"
+  },
+  {
+    "Channel Number": 215,
+    "Receive Frequency": "448.97500",
+    "Transmit Frequency": "443.97500",
+    "Offset Frequency": "5.00 MHz",
+    "Offset Direction": "Minus",
+    "Operating Mode": "Auto",
+    "Name": "W0GV FL",
+    "Show Name": "Large",
+    "Tone Mode": "Tone",
+    "CTCSS": "123.0 Hz",
+    "DCS": "023",
+    "Tx Power": "Low",
+    "Skip": "Off",
+    "Step": "Auto",
+    "Clock Shift": "Off",
+    "Comment": "8 137 31.47 CO Jefferson Golden W0GV",
+    "User CTCSS": "1500 Hz"
+  },
+  {
+    "Channel Number": 216,
     "Receive Frequency": "449.00000",
     "Transmit Frequency": "444.00000",
     "Offset Frequency": "5.00 MHz",
@@ -3097,7 +4104,7 @@
     "User CTCSS": "1500 Hz"
   },
   {
-    "Channel Number": 164,
+    "Channel Number": 217,
     "Receive Frequency": "449.02500",
     "Transmit Frequency": "444.02500",
     "Offset Frequency": "5.00 MHz",
@@ -3116,7 +4123,26 @@
     "User CTCSS": "1500 Hz"
   },
   {
-    "Channel Number": 165,
+    "Channel Number": 218,
+    "Receive Frequency": "449.05000",
+    "Transmit Frequency": "444.05000",
+    "Offset Frequency": "5.00 MHz",
+    "Offset Direction": "Minus",
+    "Operating Mode": "Auto",
+    "Name": "WG0N F",
+    "Show Name": "Large",
+    "Tone Mode": "T Sql",
+    "CTCSS": "107.2 Hz",
+    "DCS": "023",
+    "Tx Power": "Low",
+    "Skip": "Off",
+    "Step": "Auto",
+    "Clock Shift": "Off",
+    "Comment": "8 95 54.64 CO Denver Idaho Springs Squaw Mountain WG0N",
+    "User CTCSS": "1500 Hz"
+  },
+  {
+    "Channel Number": 219,
     "Receive Frequency": "449.22500",
     "Transmit Frequency": "444.22500",
     "Offset Frequency": "5.00 MHz",
@@ -3135,7 +4161,64 @@
     "User CTCSS": "1500 Hz"
   },
   {
-    "Channel Number": 166,
+    "Channel Number": 220,
+    "Receive Frequency": "449.25000",
+    "Transmit Frequency": "444.25000",
+    "Offset Frequency": "5.00 MHz",
+    "Offset Direction": "Minus",
+    "Operating Mode": "Auto",
+    "Name": "K0UPS FEI",
+    "Show Name": "Large",
+    "Tone Mode": "T Sql",
+    "CTCSS": "123.0 Hz",
+    "DCS": "023",
+    "Tx Power": "Low",
+    "Skip": "Off",
+    "Step": "Auto",
+    "Clock Shift": "Off",
+    "Comment": "8 9583 97.98 CO Elbert Cedar Point K0UPS",
+    "User CTCSS": "1500 Hz"
+  },
+  {
+    "Channel Number": 221,
+    "Receive Frequency": "449.30000",
+    "Transmit Frequency": "444.30000",
+    "Offset Frequency": "5.00 MHz",
+    "Offset Direction": "Minus",
+    "Operating Mode": "Auto",
+    "Name": "N1UPS FEI",
+    "Show Name": "Large",
+    "Tone Mode": "Tone",
+    "CTCSS": "100.0 Hz",
+    "DCS": "023",
+    "Tx Power": "Low",
+    "Skip": "Off",
+    "Step": "Auto",
+    "Clock Shift": "Off",
+    "Comment": "8 8208 26.35 CO Adams Westminster N1UPS",
+    "User CTCSS": "1500 Hz"
+  },
+  {
+    "Channel Number": 222,
+    "Receive Frequency": "449.32500",
+    "Transmit Frequency": "444.32500",
+    "Offset Frequency": "5.00 MHz",
+    "Offset Direction": "Minus",
+    "Operating Mode": "Auto",
+    "Name": "KA4EPS FL",
+    "Show Name": "Large",
+    "Tone Mode": "T Sql",
+    "CTCSS": "103.5 Hz",
+    "DCS": "023",
+    "Tx Power": "Low",
+    "Skip": "Off",
+    "Step": "Auto",
+    "Clock Shift": "Off",
+    "Comment": "8 9503 72.26 CO Teller Woodland Park Paradise Pines KA4EPS",
+    "User CTCSS": "1500 Hz"
+  },
+  {
+    "Channel Number": 223,
     "Receive Frequency": "449.35000",
     "Transmit Frequency": "444.35000",
     "Offset Frequency": "5.00 MHz",
@@ -3154,7 +4237,26 @@
     "User CTCSS": "1500 Hz"
   },
   {
-    "Channel Number": 167,
+    "Channel Number": 224,
+    "Receive Frequency": "449.45000",
+    "Transmit Frequency": "444.45000",
+    "Offset Frequency": "5.00 MHz",
+    "Offset Direction": "Minus",
+    "Operating Mode": "Auto",
+    "Name": "K1DUN F",
+    "Show Name": "Large",
+    "Tone Mode": "Tone",
+    "CTCSS": "103.5 Hz",
+    "DCS": "023",
+    "Tx Power": "Low",
+    "Skip": "Off",
+    "Step": "Auto",
+    "Clock Shift": "Off",
+    "Comment": "8 99 51.67 CO Clear Creek Idaho Springs Squaw Mountain K1DUN",
+    "User CTCSS": "1500 Hz"
+  },
+  {
+    "Channel Number": 225,
     "Receive Frequency": "449.52500",
     "Transmit Frequency": "444.52500",
     "Offset Frequency": "5.00 MHz",
@@ -3173,7 +4275,7 @@
     "User CTCSS": "1500 Hz"
   },
   {
-    "Channel Number": 168,
+    "Channel Number": 226,
     "Receive Frequency": "449.55000",
     "Transmit Frequency": "444.55000",
     "Offset Frequency": "5.00 MHz",
@@ -3192,7 +4294,121 @@
     "User CTCSS": "1500 Hz"
   },
   {
-    "Channel Number": 169,
+    "Channel Number": 227,
+    "Receive Frequency": "449.57500",
+    "Transmit Frequency": "444.57500",
+    "Offset Frequency": "5.00 MHz",
+    "Offset Direction": "Minus",
+    "Operating Mode": "Auto",
+    "Name": "W0LRA F",
+    "Show Name": "Large",
+    "Tone Mode": "Tone",
+    "CTCSS": "100.0 Hz",
+    "DCS": "023",
+    "Tx Power": "Low",
+    "Skip": "Off",
+    "Step": "Auto",
+    "Clock Shift": "Off",
+    "Comment": "8 181 87.07 CO Larimer Loveland Namaqua Hill W0LRA",
+    "User CTCSS": "1500 Hz"
+  },
+  {
+    "Channel Number": 228,
+    "Receive Frequency": "449.60000",
+    "Transmit Frequency": "444.60000",
+    "Offset Frequency": "5.00 MHz",
+    "Offset Direction": "Minus",
+    "Operating Mode": "Auto",
+    "Name": "N0PUF YEI",
+    "Show Name": "Large",
+    "Tone Mode": "None",
+    "CTCSS": "100.0 Hz",
+    "DCS": "023",
+    "Tx Power": "Low",
+    "Skip": "Off",
+    "Step": "Auto",
+    "Clock Shift": "Off",
+    "Comment": "8 273 24.32 CO Jefferson Centennial Warren Mountain N0PUF",
+    "User CTCSS": "1500 Hz"
+  },
+  {
+    "Channel Number": 229,
+    "Receive Frequency": "449.62500",
+    "Transmit Frequency": "444.62500",
+    "Offset Frequency": "5.00 MHz",
+    "Offset Direction": "Minus",
+    "Operating Mode": "Auto",
+    "Name": "KE0VH Y",
+    "Show Name": "Large",
+    "Tone Mode": "T Sql",
+    "CTCSS": "141.3 Hz",
+    "DCS": "023",
+    "Tx Power": "Low",
+    "Skip": "Off",
+    "Step": "Auto",
+    "Clock Shift": "Off",
+    "Comment": "8 139 31.84 CO Jefferson Golden Lookout Mountain KE0VH",
+    "User CTCSS": "1500 Hz"
+  },
+  {
+    "Channel Number": 230,
+    "Receive Frequency": "449.70000",
+    "Transmit Frequency": "444.70000",
+    "Offset Frequency": "5.00 MHz",
+    "Offset Direction": "Minus",
+    "Operating Mode": "Auto",
+    "Name": "Lake George F",
+    "Show Name": "Large",
+    "Tone Mode": "Tone",
+    "CTCSS": "107.2 Hz",
+    "DCS": "023",
+    "Tx Power": "Low",
+    "Skip": "Off",
+    "Step": "Auto",
+    "Clock Shift": "Off",
+    "Comment": "8 8214 82.30 CO Park Lake George",
+    "User CTCSS": "1500 Hz"
+  },
+  {
+    "Channel Number": 231,
+    "Receive Frequency": "449.72500",
+    "Transmit Frequency": "444.72500",
+    "Offset Frequency": "5.00 MHz",
+    "Offset Direction": "Minus",
+    "Operating Mode": "Auto",
+    "Name": "K0OJ F",
+    "Show Name": "Large",
+    "Tone Mode": "Tone",
+    "CTCSS": "127.3 Hz",
+    "DCS": "023",
+    "Tx Power": "Low",
+    "Skip": "Off",
+    "Step": "Auto",
+    "Clock Shift": "Off",
+    "Comment": "8 159 87.87 CO Weld Greeley UNC K0OJ",
+    "User CTCSS": "1500 Hz"
+  },
+  {
+    "Channel Number": 232,
+    "Receive Frequency": "449.75000",
+    "Transmit Frequency": "444.75000",
+    "Offset Frequency": "5.00 MHz",
+    "Offset Direction": "Minus",
+    "Operating Mode": "Auto",
+    "Name": "KI0GO F",
+    "Show Name": "Large",
+    "Tone Mode": "T Sql",
+    "CTCSS": "103.5 Hz",
+    "DCS": "023",
+    "Tx Power": "Low",
+    "Skip": "Off",
+    "Step": "Auto",
+    "Clock Shift": "Off",
+    "Comment": "8 265 40.76 CO Jefferson Golden Guy Hill KI0GO",
+    "User CTCSS": "1500 Hz"
+  },
+  {
+    "Channel Number": 233,
     "Receive Frequency": "449.77500",
     "Transmit Frequency": "444.77500",
     "Offset Frequency": "5.00 MHz",
@@ -3211,7 +4427,64 @@
     "User CTCSS": "1500 Hz"
   },
   {
-    "Channel Number": 170,
+    "Channel Number": 234,
+    "Receive Frequency": "449.80000",
+    "Transmit Frequency": "444.80000",
+    "Offset Frequency": "5.00 MHz",
+    "Offset Direction": "Minus",
+    "Operating Mode": "Auto",
+    "Name": "N0FH FEI",
+    "Show Name": "Large",
+    "Tone Mode": "Tone",
+    "CTCSS": "123.0 Hz",
+    "DCS": "023",
+    "Tx Power": "Low",
+    "Skip": "Off",
+    "Step": "Auto",
+    "Clock Shift": "Off",
+    "Comment": "8 120 99.07 CO Larimer Estes Park N0FH",
+    "User CTCSS": "1500 Hz"
+  },
+  {
+    "Channel Number": 235,
+    "Receive Frequency": "449.92500",
+    "Transmit Frequency": "444.92500",
+    "Offset Frequency": "5.00 MHz",
+    "Offset Direction": "Minus",
+    "Operating Mode": "Auto",
+    "Name": "K0EB FEI",
+    "Show Name": "Large",
+    "Tone Mode": "T Sql",
+    "CTCSS": "114.8 Hz",
+    "DCS": "023",
+    "Tx Power": "Low",
+    "Skip": "Off",
+    "Step": "Auto",
+    "Clock Shift": "Off",
+    "Comment": "8 8216 48.70 CO Weld Hudson K0EB",
+    "User CTCSS": "1500 Hz"
+  },
+  {
+    "Channel Number": 236,
+    "Receive Frequency": "449.95000",
+    "Transmit Frequency": "444.95000",
+    "Offset Frequency": "5.00 MHz",
+    "Offset Direction": "Minus",
+    "Operating Mode": "Auto",
+    "Name": "W9SL F",
+    "Show Name": "Large",
+    "Tone Mode": "T Sql",
+    "CTCSS": "77.0 Hz",
+    "DCS": "023",
+    "Tx Power": "Low",
+    "Skip": "Off",
+    "Step": "Auto",
+    "Clock Shift": "Off",
+    "Comment": "8 8743 12.53 CO Arapahoe Aurora W9SL",
+    "User CTCSS": "1500 Hz"
+  },
+  {
+    "Channel Number": 237,
     "Receive Frequency": "449.97500",
     "Transmit Frequency": "444.97500",
     "Offset Frequency": "5.00 MHz",
