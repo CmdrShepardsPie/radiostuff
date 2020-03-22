@@ -35,7 +35,7 @@ async function readCacheLog(key?: string): Promise<number> {
     cacheLoaded = true;
   }
   if (key) {
-    return cacheLog[key];
+    return cacheLog[key] || 0;
   }
   return 0;
 }

@@ -37,7 +37,7 @@ async function readCacheLog(key) {
         cacheLoaded = true;
     }
     if (key) {
-        return cacheLog[key];
+        return cacheLog[key] || 0;
     }
     return 0;
 }
