@@ -3,16 +3,15 @@ var __importDefault = (this && this.__importDefault) || function (mod) {
     return (mod && mod.__esModule) ? mod : { "default": mod };
 };
 Object.defineProperty(exports, "__esModule", { value: true });
-const fs_helpers_1 = require("@helpers/fs-helpers");
 const helpers_1 = require("@helpers/helpers");
 const log_helpers_1 = require("@helpers/log-helpers");
 const axios_1 = __importDefault(require("axios"));
 const chalk_1 = __importDefault(require("chalk"));
 const jsdom_1 = require("jsdom");
 const helper_1 = require("./helper");
+const cache_helper_1 = require("@helpers/cache-helper");
 const { log, write } = log_helpers_1.createOut("Scraper");
 // const write = createWrite("Scraper");
-const cacheStart = Date.now();
 class Scraper {
     constructor(location, distance) {
         this.location = location;
@@ -42,7 +41,9 @@ class Scraper {
                 for (const row of rows) {
                     const data = {};
                     const cells = [...row.querySelectorAll("td")];
-                    cells.forEach((td, index) => { data[headers[index]] = helper_1.getTextOrNumber(td); });
+                    cells.forEach((td, index) => {
+                        data[headers[index]] = helper_1.getTextOrNumber(td);
+                    });
                     const link = cells[0].querySelector("a");
                     if (link) {
                         // write("^");
@@ -100,29 +101,10 @@ class Scraper {
         }
         return data;
     }
-    async getCache(key) {
-        const file = `../data/repeaters/_cache/${key}`;
-        if (await fs_helpers_1.dirExists(file)) {
-            // if (Math.floor(Math.random() * 10) === 0) return;
-            const stat = await fs_helpers_1.statAsync(file);
-            const diff = (cacheStart - stat.mtimeMs) / 1000 / 60 / 60;
-            // if (diff >= cacheAge) {
-            if (diff >= 24) {
-                write(`O=${chalk_1.default.blue(Math.round(diff))}`);
-                return;
-            }
-            return (await fs_helpers_1.readFileAsync(file)).toString();
-        }
-    }
-    async setCache(key, value) {
-        const file = `../data/repeaters/_cache/${key}`;
-        await fs_helpers_1.makeDirs(file);
-        return fs_helpers_1.writeFileAsync(file, value);
-    }
     async getUrl(url, cacheKey) {
         write(` ${(cacheKey || url).replace(".html", "")}:`);
         // log(chalk.green("Get URL"), url, cacheKey);
-        const cache = await this.getCache(cacheKey || url);
+        const cache = await cache_helper_1.getCache(cacheKey || url);
         if (cache) {
             // log(chalk.yellow("Cached"), url, cacheKey);
             write(chalk_1.default.green("G"));
@@ -138,7 +120,7 @@ class Scraper {
             // log(chalk.green("Got"), url);
             write(chalk_1.default.cyan("S"));
             const data = request.data;
-            await this.setCache(cacheKey || url, data);
+            await cache_helper_1.setCache(cacheKey || url, data);
             return data;
         }
     }

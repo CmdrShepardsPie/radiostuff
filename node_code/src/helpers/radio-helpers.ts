@@ -1,5 +1,4 @@
 import { IRepeaterStructured, RepeaterStatus, RepeaterUse } from "@interfaces/i-repeater-structured";
-import {IAdms400} from "@interfaces/i-adms400";
 
 export enum FrequencyBand {
   $2_m,
