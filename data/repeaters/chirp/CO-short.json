@@ -1473,22 +1473,6 @@
   },
   {
     "Location": 92,
-    "Name": "WB0TUB G",
-    "Frequency": 146.64,
-    "Duplex": "-",
-    "Offset": 0.6,
-    "Tone": "Tone",
-    "rToneFreq": 100,
-    "cToneFreq": 88.5,
-    "DtcsCode": 23,
-    "DtcsRxCode": 23,
-    "DtcsPolarity": "NN",
-    "Mode": "FM",
-    "TStep": 5,
-    "Comment": "8 77 42.22 CO Jefferson Golden, Centennial Cone WB0TUB"
-  },
-  {
-    "Location": 93,
     "Name": "KE0SJ Go",
     "Frequency": 449.525,
     "Duplex": "-",
@@ -1502,6 +1486,22 @@
     "Mode": "FM",
     "TStep": 5,
     "Comment": "8 138 42.22 CO Jefferson Golden, Centennial Cone KE0SJ"
+  },
+  {
+    "Location": 93,
+    "Name": "N0PUF Go",
+    "Frequency": 146.64,
+    "Duplex": "-",
+    "Offset": 0.6,
+    "Tone": "Tone",
+    "rToneFreq": 100,
+    "cToneFreq": 88.5,
+    "DtcsCode": 23,
+    "DtcsRxCode": 23,
+    "DtcsPolarity": "NN",
+    "Mode": "FM",
+    "TStep": 5,
+    "Comment": "8 77 42.22 CO Jefferson Golden, Centennial Cone N0PUF"
   },
   {
     "Location": 94,

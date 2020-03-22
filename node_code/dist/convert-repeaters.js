@@ -41,8 +41,8 @@ function convertRepeater(raw) {
         Use: convertRepeaterUse(raw.Use),
         Status: convertRepeaterStatus(raw["Op Status"]),
         Frequency: { Input: convertNumber(raw.Uplink) || (raw.Downlink + raw.Offset), Output: raw.Downlink },
-        SquelchTone: convertRepeaterSquelchTone(raw["Uplink Tone"], raw["Downlink Tone"]),
-        DigitalTone: convertRepeaterDigitalTone(raw["Uplink Tone"], raw["Downlink Tone"]),
+        SquelchTone: convertRepeaterSquelchTone(raw["Uplink Tone"] || raw.Tone, raw["Downlink Tone"]),
+        DigitalTone: convertRepeaterDigitalTone(raw["Uplink Tone"] || raw.Tone, raw["Downlink Tone"]),
         Digital: convertRepeaterDigitalData(raw),
         VOIP: convertRepeaterVOIP(raw),
     };

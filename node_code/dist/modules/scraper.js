@@ -112,7 +112,7 @@ class Scraper {
         }
         else {
             // Slow down the requests a little bit so we"re not hammering the server or triggering any anti-bot or DDoS protections
-            const waitTime = (1000 + (Math.random() * 5000));
+            const waitTime = (5000 + (Math.random() * 10000));
             write(`W=${chalk_1.default.yellow(Math.round(waitTime / 1000))}`);
             await helpers_1.wait(waitTime);
             // log(chalk.yellow("Get"), url);

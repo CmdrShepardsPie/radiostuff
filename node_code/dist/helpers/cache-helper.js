@@ -16,7 +16,7 @@ async function getCache(key) {
     const file = `../data/repeaters/_cache/${key}`;
     if (await fs_helpers_1.dirExists(file)) {
         const diff = (cacheStart - keyAge) / 1000 / 60 / 60 / 24;
-        if (diff >= 7) {
+        if (diff >= 30) {
             write(`O=${chalk_1.default.blue(Math.round(diff))}`);
             return;
         }
@@ -28,7 +28,7 @@ async function setCache(key, value) {
     const file = `../data/repeaters/_cache/${key}`;
     await fs_helpers_1.makeDirs(file);
     await fs_helpers_1.writeFileAsync(file, value);
-    await writeCacheLog(key, Date.now());
+    await writeCacheLog(key);
 }
 exports.setCache = setCache;
 async function readCacheLog(key) {
@@ -36,14 +36,14 @@ async function readCacheLog(key) {
         Object.assign(cacheLog, JSON.parse((await fs_helpers_1.readFileAsync(cacheLogFileName)).toString()));
         cacheLoaded = true;
     }
-    if (key) {
-        return cacheLog[key] || 0;
+    if (key && cacheLog[key]) {
+        return new Date(cacheLog[key]).valueOf();
     }
-    return 0;
+    return new Date(0).valueOf();
 }
-async function writeCacheLog(key, timestamp) {
+async function writeCacheLog(key) {
     await readCacheLog();
-    cacheLog[key] = timestamp;
+    cacheLog[key] = new Date().toISOString();
     await fs_helpers_1.makeDirs(cacheLogFileName);
     await fs_helpers_1.writeFileAsync(cacheLogFileName, JSON.stringify(cacheLog, null, 2));
 }
