@@ -14,7 +14,7 @@ export async function getCache(key: string): Promise<string | undefined> {
   const file: string = `../data/repeaters/_cache/${key}`;
   if (await dirExists(file)) {
     const diff: number = (cacheStart - keyAge) / 1000 / 60 / 60 / 24;
-    if (diff >= 30) {
+    if (diff >= 7) {
       write(`O=${chalk.blue(Math.round(diff))}`);
       return;
     }

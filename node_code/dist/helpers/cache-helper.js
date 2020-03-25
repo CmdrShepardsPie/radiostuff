@@ -16,7 +16,7 @@ async function getCache(key) {
     const file = `../data/repeaters/_cache/${key}`;
     if (await fs_helpers_1.dirExists(file)) {
         const diff = (cacheStart - keyAge) / 1000 / 60 / 60 / 24;
-        if (diff >= 30) {
+        if (diff >= 7) {
             write(`O=${chalk_1.default.blue(Math.round(diff))}`);
             return;
         }
