@@ -91,8 +91,8 @@ Location,Name,Frequency,Duplex,Offset,Tone,rToneFreq,cToneFreq,DtcsCode,DtcsRxCo
 89,W0TX Gol,448.625,-,5,TSQL,100,100,23,23,NN,FM,5,"8 112 42.14 CO Jefferson Golden, Centennial Cone W0TX"
 90,K0FEZ Go,146.985,-,0.6,TSQL,100,100,23,23,NN,FM,5,"8 82 42.22 CO Denver Golden, Centennial Cone K0FEZ"
 91,KE0SJ Go,145.28,-,0.6,Tone,100,88.5,23,23,NN,FM,5,"8 140 42.22 CO Jefferson Golden, Centennial Cone KE0SJ"
-92,WB0TUB G,146.64,-,0.6,Tone,100,88.5,23,23,NN,FM,5,"8 77 42.22 CO Jefferson Golden, Centennial Cone WB0TUB"
-93,KE0SJ Go,449.525,-,5,,88.5,88.5,23,23,NN,FM,5,"8 138 42.22 CO Jefferson Golden, Centennial Cone KE0SJ"
+92,KE0SJ Go,449.525,-,5,,88.5,88.5,23,23,NN,FM,5,"8 138 42.22 CO Jefferson Golden, Centennial Cone KE0SJ"
+93,N0PUF Go,146.64,-,0.6,Tone,100,88.5,23,23,NN,FM,5,"8 77 42.22 CO Jefferson Golden, Centennial Cone N0PUF"
 94,N0ESQ Ca,447.525,-,5,TSQL,146.2,146.2,23,23,NN,FM,5,"8 8190 44.52 CO Douglas Castle Rock, Devils Head (Pike National Forest) N0ESQ"
 95,KE0SJ Lo,447.625,-,5,Tone,100,88.5,23,23,NN,FM,5,8 9771 44.90 CO Adams Lochbuie KE0SJ
 96,AC0KC Fo,447.3,-,5,Tone,107.2,88.5,23,23,NN,FM,5,8 8739 45.42 CO Weld Fort Lupton AC0KC
@@ -179,8 +179,8 @@ Location,Name,Frequency,Duplex,Offset,Tone,rToneFreq,cToneFreq,DtcsCode,DtcsRxCo
 177,N0FH Est,449.8,-,5,Tone,123,88.5,23,23,NN,FM,5,8 120 99.07 CO Larimer Estes Park N0FH
 178,WB0QMR B,146.7,-,0.6,Tone,107.2,88.5,23,23,NN,FM,5,8 23 99.46 CO Summit Breckenridge WB0QMR
 179,WB0WDF C,447.4,-,5,Tone,67,88.5,23,23,NN,FM,5,8 66 100.92 CO Teller Cripple Creek WB0WDF
-180,WB0WDF C,145.46,-,0.6,Tone,67,88.5,23,23,NN,FM,5,8 64 100.93 CO Teller Cripple Creek WB0WDF
-181,NX0G Cri,147.015,+,0.6,Tone,107.2,88.5,23,23,NN,FM,5,8 65 100.93 CO Teller Cripple Creek NX0G
+180,NX0G Cri,147.015,+,0.6,Tone,107.2,88.5,23,23,NN,FM,5,8 65 100.93 CO Teller Cripple Creek NX0G
+181,WB0WDF C,145.46,-,0.6,Tone,67,88.5,23,23,NN,FM,5,8 64 100.93 CO Teller Cripple Creek WB0WDF
 182,WB0WDF C,224.94,-,1.6,Tone,67,88.5,23,23,NN,FM,5,8 7203 100.93 CO Teller Cripple Creek WB0WDF
 183,KC0RBT F,447.45,-,5,Tone,123,88.5,23,23,NN,FM,5,8 276 101.10 CO Larimer Fort Collins KC0RBT
 184,KA0YDW G,146.82,-,0.6,Tone,123,88.5,23,23,NN,FM,5,8 145 102.82 CO Grand Granby KA0YDW

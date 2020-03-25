@@ -261,6 +261,9 @@
       "Input": 442,
       "Output": 447
     },
+    "SquelchTone": {
+      "Input": 103.5
+    },
     "Digital": {
       "YSF": {
         "GroupID": {
@@ -291,6 +294,9 @@
     "Frequency": {
       "Input": 147.6,
       "Output": 147
+    },
+    "SquelchTone": {
+      "Input": 100
     },
     "Digital": {
       "YSF": {
@@ -457,6 +463,9 @@
     "Frequency": {
       "Input": 444.325,
       "Output": 449.325
+    },
+    "SquelchTone": {
+      "Input": 136.5
     },
     "Digital": {
       "DStar": {
@@ -632,6 +641,9 @@
     "Frequency": {
       "Input": 444.15,
       "Output": 449.15
+    },
+    "SquelchTone": {
+      "Input": 136.5
     },
     "Digital": {
       "DStar": {
@@ -1261,6 +1273,9 @@
       "Input": 444.65,
       "Output": 449.65
     },
+    "SquelchTone": {
+      "Input": 136.5
+    },
     "Digital": {
       "DStar": {
         "Node": "WR0AEN (B)"
@@ -1283,6 +1298,9 @@
     "Frequency": {
       "Input": 444.675,
       "Output": 449.675
+    },
+    "SquelchTone": {
+      "Input": 136.5
     },
     "Digital": {
       "DStar": {
@@ -1495,6 +1513,9 @@
       "Input": 442.6,
       "Output": 447.6
     },
+    "SquelchTone": {
+      "Input": 103.5
+    },
     "Digital": {
       "YSF": {
         "GroupID": {
@@ -1567,6 +1588,9 @@
     "Frequency": {
       "Input": 444.3,
       "Output": 449.3
+    },
+    "SquelchTone": {
+      "Input": 131.8
     },
     "Digital": {
       "YSF": {
@@ -1897,6 +1921,9 @@
     "Frequency": {
       "Input": 443.35,
       "Output": 448.35
+    },
+    "SquelchTone": {
+      "Input": 225.7
     },
     "Digital": {
       "YSF": {
@@ -2892,8 +2919,8 @@
     "StateID": 8,
     "Callsign": "W0SKY",
     "Location": {
-      "Latitude": 39.7333,
-      "Longitude": -105.237,
+      "Latitude": 39.73329926,
+      "Longitude": -105.23699951,
       "County": "Jefferson",
       "State": "CO",
       "Local": "Golden, Lookout Mountain"
@@ -2909,7 +2936,9 @@
       "Output": 67
     },
     "VOIP": {
-      "AllStar": {}
+      "AllStar": {
+        "NodeID": 40195
+      }
     }
   },
   {
@@ -2950,6 +2979,9 @@
       "Input": 444.6,
       "Output": 449.6
     },
+    "SquelchTone": {
+      "Input": 100
+    },
     "Digital": {
       "YSF": {
         "GroupID": {
@@ -2972,8 +3004,8 @@
     "StateID": 8,
     "Callsign": "KE0VH",
     "Location": {
-      "Latitude": 39.733,
-      "Longitude": -105.239,
+      "Latitude": 39.73300171,
+      "Longitude": -105.23899841,
       "County": "Jefferson",
       "State": "CO",
       "Local": "Golden, Lookout Mountain"
@@ -3055,8 +3087,8 @@
     "StateID": 8,
     "Callsign": "KI0HC",
     "Location": {
-      "Latitude": 39.6,
-      "Longitude": -105.21,
+      "Latitude": 39.59999847,
+      "Longitude": -105.20999908,
       "County": "Jefferson",
       "State": "CO",
       "Local": "Indian Hills, Chief Mtn"
@@ -3089,6 +3121,9 @@
     "Frequency": {
       "Input": 442.2,
       "Output": 447.2
+    },
+    "SquelchTone": {
+      "Input": 151.4
     },
     "Digital": {
       "YSF": {
@@ -3248,8 +3283,8 @@
     "StateID": 8,
     "Callsign": "KI0GO",
     "Location": {
-      "Latitude": 39.7772,
-      "Longitude": -105.328,
+      "Latitude": 39.77719879,
+      "Longitude": -105.32800293,
       "County": "Jefferson",
       "State": "CO",
       "Local": "Golden, Guy Hill"
@@ -3270,8 +3305,8 @@
     "StateID": 8,
     "Callsign": "N0POH",
     "Location": {
-      "Latitude": 39.7772,
-      "Longitude": -105.328,
+      "Latitude": 39.77719879,
+      "Longitude": -105.32800293,
       "County": "Jefferson",
       "State": "CO",
       "Local": "Golden, Guy Hill"
@@ -3341,8 +3376,8 @@
     "StateID": 8,
     "Callsign": "K0IBM",
     "Location": {
-      "Latitude": 39.7772,
-      "Longitude": -105.329,
+      "Latitude": 39.77719879,
+      "Longitude": -105.32900238,
       "County": "Jefferson",
       "State": "CO",
       "Local": "Golden, Guy Hill"
@@ -3363,8 +3398,8 @@
     "StateID": 8,
     "Callsign": "N0MHU",
     "Location": {
-      "Latitude": 39.7772,
-      "Longitude": -105.329,
+      "Latitude": 39.77719879,
+      "Longitude": -105.32900238,
       "County": "Jefferson",
       "State": "CO",
       "Local": "Golden, Guy Hill"
@@ -3385,8 +3420,8 @@
     "StateID": 8,
     "Callsign": "W0CBI",
     "Location": {
-      "Latitude": 39.7772,
-      "Longitude": -105.329,
+      "Latitude": 39.77719879,
+      "Longitude": -105.32900238,
       "County": "Jefferson",
       "State": "CO",
       "Local": "Golden, Guy Hill"
@@ -3456,8 +3491,8 @@
     "StateID": 8,
     "Callsign": "N0OWY",
     "Location": {
-      "Latitude": 39.4703,
-      "Longitude": -105.198,
+      "Latitude": 39.47029877,
+      "Longitude": -105.19799805,
       "County": "Jefferson",
       "State": "CO",
       "Local": "Conifer, Critchell Mountain"
@@ -3568,8 +3603,8 @@
     "StateID": 8,
     "Callsign": "W0JZ",
     "Location": {
-      "Latitude": 40.0633,
-      "Longitude": -105.41,
+      "Latitude": 40.06330109,
+      "Longitude": -105.41000366,
       "County": "Boulder",
       "State": "CO",
       "Local": "Gold Hill"
@@ -3590,8 +3625,8 @@
     "StateID": 8,
     "Callsign": "W0TX",
     "Location": {
-      "Latitude": 39.7525,
-      "Longitude": -105.358,
+      "Latitude": 39.75249863,
+      "Longitude": -105.35800171,
       "County": "Jefferson",
       "State": "CO",
       "Local": "Golden, Centennial Cone"
@@ -3612,8 +3647,8 @@
     "StateID": 8,
     "Callsign": "K0FEZ",
     "Location": {
-      "Latitude": 39.7525,
-      "Longitude": -105.359,
+      "Latitude": 39.75249863,
+      "Longitude": -105.35900116,
       "County": "Denver",
       "State": "CO",
       "Local": "Golden, Centennial Cone"
@@ -3639,8 +3674,8 @@
     "StateID": 8,
     "Callsign": "KE0SJ",
     "Location": {
-      "Latitude": 39.7525,
-      "Longitude": -105.359,
+      "Latitude": 39.75249863,
+      "Longitude": -105.35900116,
       "County": "Jefferson",
       "State": "CO",
       "Local": "Golden, Centennial Cone"
@@ -3676,10 +3711,10 @@
   {
     "ID": 77,
     "StateID": 8,
-    "Callsign": "WB0TUB",
+    "Callsign": "N0PUF",
     "Location": {
-      "Latitude": 39.7525,
-      "Longitude": -105.359,
+      "Latitude": 39.75249863,
+      "Longitude": -105.35900116,
       "County": "Jefferson",
       "State": "CO",
       "Local": "Golden, Centennial Cone"
@@ -3699,8 +3734,8 @@
     "StateID": 8,
     "Callsign": "KI0HC",
     "Location": {
-      "Latitude": 39.7658,
-      "Longitude": -105.366,
+      "Latitude": 39.76580048,
+      "Longitude": -105.36599731,
       "County": "Jefferson",
       "State": "CO",
       "Local": "Golden, Centennial Cone"
@@ -3711,14 +3746,15 @@
       "Input": 902.025,
       "Output": 927.8375
     },
+    "SquelchTone": {
+      "Output": 100
+    },
+    "DigitalTone": {
+      "Input": 205
+    },
     "Digital": {
       "P25": {
         "NAC": 293
-      }
-    },
-    "VOIP": {
-      "AllStar": {
-        "NodeID": 45770
       }
     }
   },
@@ -3727,8 +3763,8 @@
     "StateID": 8,
     "Callsign": "W0TX",
     "Location": {
-      "Latitude": 39.7657,
-      "Longitude": -105.366,
+      "Latitude": 39.76570129,
+      "Longitude": -105.36599731,
       "County": "Jefferson",
       "State": "CO",
       "Local": "Denver, Centennial Cone"
@@ -3741,7 +3777,8 @@
     },
     "Digital": {
       "DMR": {
-        "ColorCode": 1
+        "ColorCode": 1,
+        "ID": 310804
       }
     }
   },
@@ -3750,8 +3787,8 @@
     "StateID": 8,
     "Callsign": "KE4GUQ",
     "Location": {
-      "Latitude": 39.6333,
-      "Longitude": -105.317,
+      "Latitude": 39.63330078,
+      "Longitude": -105.31700134,
       "County": "Jefferson",
       "State": "CO",
       "Local": "Evergreen"
@@ -3777,8 +3814,8 @@
     "StateID": 8,
     "Callsign": "N0SZ",
     "Location": {
-      "Latitude": 39.6333,
-      "Longitude": -105.317,
+      "Latitude": 39.63330078,
+      "Longitude": -105.31700134,
       "County": "Clear Creek",
       "State": "CO",
       "Local": "Evergreen, Squaw Mountain"
@@ -3921,8 +3958,8 @@
     "StateID": 8,
     "Callsign": "KB0VJJ",
     "Location": {
-      "Latitude": 39.8875,
-      "Longitude": -105.426,
+      "Latitude": 39.88750076,
+      "Longitude": -105.4260025,
       "County": "Gilpin",
       "State": "CO",
       "Local": "Boulder, Thorodin Mountain"
@@ -3943,8 +3980,8 @@
     "StateID": 8,
     "Callsign": "N0SZ",
     "Location": {
-      "Latitude": 39.8875,
-      "Longitude": -105.426,
+      "Latitude": 39.88750076,
+      "Longitude": -105.4260025,
       "County": "Gilpin",
       "State": "CO",
       "Local": "Denver, Thorodin Mountain"
@@ -3994,8 +4031,8 @@
     "StateID": 8,
     "Callsign": "KI0HG",
     "Location": {
-      "Latitude": 40.1727,
-      "Longitude": -105.468,
+      "Latitude": 40.17269897,
+      "Longitude": -105.46800232,
       "County": "Boulder",
       "State": "CO",
       "Local": "Allenspark, AFPD Station #5"
@@ -4015,8 +4052,8 @@
     "StateID": 8,
     "Callsign": "W0CRA",
     "Location": {
-      "Latitude": 39.5211,
-      "Longitude": -105.305,
+      "Latitude": 39.52109909,
+      "Longitude": -105.30500031,
       "County": "Jefferson",
       "State": "CO",
       "Local": "Conifer, Conifer Mountain"
@@ -4124,8 +4161,8 @@
     "StateID": 8,
     "Callsign": "AC0KQ",
     "Location": {
-      "Latitude": 39.7189,
-      "Longitude": -105.44,
+      "Latitude": 39.71889877,
+      "Longitude": -105.44000244,
       "County": "Clear Creek",
       "State": "CO",
       "Local": "Evergreen, Saddleback Mountain"
@@ -4151,8 +4188,8 @@
     "StateID": 8,
     "Callsign": "N0ARA",
     "Location": {
-      "Latitude": 39.5148,
-      "Longitude": -105.353,
+      "Latitude": 39.51480103,
+      "Longitude": -105.35299683,
       "County": "Jefferson",
       "State": "CO",
       "Local": "Critchell, Critchell Mountain"
@@ -4199,8 +4236,8 @@
     "StateID": 8,
     "Callsign": "W0RM",
     "Location": {
-      "Latitude": 39.9172,
-      "Longitude": -105.501,
+      "Latitude": 39.91719818,
+      "Longitude": -105.50099945,
       "County": "Gilpin",
       "State": "CO",
       "Local": "Rollinsville"
@@ -4338,8 +4375,8 @@
     "StateID": 8,
     "Callsign": "WR0AEN",
     "Location": {
-      "Latitude": 39.6732,
-      "Longitude": -105.48,
+      "Latitude": 39.6731987,
+      "Longitude": -105.48000336,
       "County": "Clear Creek",
       "State": "CO",
       "Local": "Idaho Springs, Squaw Mountain"
@@ -4384,8 +4421,8 @@
     "StateID": 8,
     "Callsign": "N0PYY",
     "Location": {
-      "Latitude": 39.6781,
-      "Longitude": -105.487,
+      "Latitude": 39.67810059,
+      "Longitude": -105.48699951,
       "County": "Clear Creek",
       "State": "CO",
       "Local": "Evergreen, Squaw Mountain"
@@ -4406,8 +4443,8 @@
     "StateID": 8,
     "Callsign": "W0CFI",
     "Location": {
-      "Latitude": 39.6774,
-      "Longitude": -105.488,
+      "Latitude": 39.67739868,
+      "Longitude": -105.48799896,
       "County": "Denver",
       "State": "CO",
       "Local": "Idaho Springs, Squaw Mountain"
@@ -4428,8 +4465,8 @@
     "StateID": 8,
     "Callsign": "WG0N",
     "Location": {
-      "Latitude": 39.7425,
-      "Longitude": -105.514,
+      "Latitude": 39.74250031,
+      "Longitude": -105.51399994,
       "County": "Denver",
       "State": "CO",
       "Local": "Idaho Springs, Squaw Mountain"
@@ -4450,8 +4487,8 @@
     "StateID": 8,
     "Callsign": "KB0UDD",
     "Location": {
-      "Latitude": 39.6794,
-      "Longitude": -105.492,
+      "Latitude": 39.6794014,
+      "Longitude": -105.49199677,
       "County": "Clear Creek",
       "State": "CO",
       "Local": "Idaho Springs, Squaw Mountain"
@@ -4472,8 +4509,8 @@
     "StateID": 8,
     "Callsign": "W0CRA",
     "Location": {
-      "Latitude": 39.6794,
-      "Longitude": -105.492,
+      "Latitude": 39.6794014,
+      "Longitude": -105.49199677,
       "County": "Clear Creek",
       "State": "CO",
       "Local": "Idaho Springs, Squaw Mountain"
@@ -4494,8 +4531,8 @@
     "StateID": 8,
     "Callsign": "W0CRA",
     "Location": {
-      "Latitude": 39.6794,
-      "Longitude": -105.492,
+      "Latitude": 39.6794014,
+      "Longitude": -105.49199677,
       "County": "Clear Creek",
       "State": "CO",
       "Local": "Idaho Springs, Squaw Mountain"
@@ -4524,8 +4561,8 @@
     "StateID": 8,
     "Callsign": "W0TX",
     "Location": {
-      "Latitude": 39.6794,
-      "Longitude": -105.492,
+      "Latitude": 39.6794014,
+      "Longitude": -105.49199677,
       "County": "Jefferson",
       "State": "CO",
       "Local": "Idaho Springs, Centennial Cone"
@@ -4546,8 +4583,8 @@
     "StateID": 8,
     "Callsign": "W0TX",
     "Location": {
-      "Latitude": 39.6794,
-      "Longitude": -105.492,
+      "Latitude": 39.6794014,
+      "Longitude": -105.49199677,
       "County": "Clear Creek",
       "State": "CO",
       "Local": "Idaho Springs, Squaw Mountain"
@@ -4573,8 +4610,8 @@
     "StateID": 8,
     "Callsign": "N0SZ",
     "Location": {
-      "Latitude": 39.6798,
-      "Longitude": -105.493,
+      "Latitude": 39.67979813,
+      "Longitude": -105.49299622,
       "County": "Clear Creek",
       "State": "CO",
       "Local": "Idaho Springs, Squaw Mountain"
@@ -4587,7 +4624,8 @@
     },
     "Digital": {
       "DMR": {
-        "ColorCode": 7
+        "ColorCode": 7,
+        "ID": 310801
       }
     }
   },
@@ -4596,8 +4634,8 @@
     "StateID": 8,
     "Callsign": "N0SZ",
     "Location": {
-      "Latitude": 39.6797,
-      "Longitude": -105.493,
+      "Latitude": 39.67969894,
+      "Longitude": -105.49299622,
       "County": "Clear Creek",
       "State": "CO",
       "Local": "Idaho Springs, Squaw Mountain"
@@ -4618,8 +4656,8 @@
     "StateID": 8,
     "Callsign": "W0WYX",
     "Location": {
-      "Latitude": 39.6798,
-      "Longitude": -105.493,
+      "Latitude": 39.67979813,
+      "Longitude": -105.49299622,
       "County": "Clear Creek",
       "State": "CO",
       "Local": "Idaho Springs, Squaw Mountain"
@@ -4680,8 +4718,8 @@
     "StateID": 8,
     "Callsign": "K1DUN",
     "Location": {
-      "Latitude": 39.6794,
-      "Longitude": -105.493,
+      "Latitude": 39.6794014,
+      "Longitude": -105.49299622,
       "County": "Clear Creek",
       "State": "CO",
       "Local": "Idaho Springs, Squaw Mountain"
@@ -5156,8 +5194,8 @@
     "StateID": 8,
     "Callsign": "AB0PC",
     "Location": {
-      "Latitude": 39.4056,
-      "Longitude": -105.473,
+      "Latitude": 39.4056015,
+      "Longitude": -105.47299957,
       "County": "Park",
       "State": "CO",
       "Local": "Bailey, Dick Mountain"
@@ -5610,6 +5648,9 @@
       "Input": 144.665,
       "Output": 145.265
     },
+    "SquelchTone": {
+      "Input": 100
+    },
     "Digital": {
       "YSF": {
         "GroupID": {
@@ -5624,8 +5665,8 @@
     "StateID": 8,
     "Callsign": "KB0VJJ",
     "Location": {
-      "Latitude": 39.8865,
-      "Longitude": -105.763,
+      "Latitude": 39.88650131,
+      "Longitude": -105.76300049,
       "County": "Grand",
       "State": "CO",
       "Local": "Winter Park, Winter Park"
@@ -5710,8 +5751,8 @@
     "StateID": 8,
     "Callsign": "WA4CCC",
     "Location": {
-      "Latitude": 39.9473,
-      "Longitude": -105.795,
+      "Latitude": 39.94729996,
+      "Longitude": -105.79499817,
       "County": "Grand",
       "State": "CO",
       "Local": "Winter Park"
@@ -5731,8 +5772,8 @@
     "StateID": 8,
     "Callsign": "WC3W",
     "Location": {
-      "Latitude": 40.2392,
-      "Longitude": -105.847,
+      "Latitude": 40.23920059,
+      "Longitude": -105.84700012,
       "County": "Clear Creek",
       "State": "CO",
       "Local": "Grand Lake"
@@ -5758,8 +5799,8 @@
     "StateID": 8,
     "Callsign": "",
     "Location": {
-      "Latitude": 38.9797,
-      "Longitude": -105.357,
+      "Latitude": 38.97969818,
+      "Longitude": -105.35700226,
       "County": "Park",
       "State": "CO",
       "Local": "Lake George"
@@ -5860,8 +5901,8 @@
     "StateID": 8,
     "Callsign": "WB0WDF",
     "Location": {
-      "Latitude": 38.7467,
-      "Longitude": -105.178,
+      "Latitude": 38.74670029,
+      "Longitude": -105.1780014,
       "County": "Teller",
       "State": "CO",
       "Local": "Cripple Creek"
@@ -5881,8 +5922,8 @@
     "StateID": 8,
     "Callsign": "NX0G",
     "Location": {
-      "Latitude": 38.7466,
-      "Longitude": -105.178,
+      "Latitude": 38.7466011,
+      "Longitude": -105.1780014,
       "County": "Teller",
       "State": "CO",
       "Local": "Cripple Creek"
@@ -5923,8 +5964,8 @@
     "StateID": 8,
     "Callsign": "WB0WDF",
     "Location": {
-      "Latitude": 38.7466,
-      "Longitude": -105.178,
+      "Latitude": 38.7466011,
+      "Longitude": -105.1780014,
       "County": "Teller",
       "State": "CO",
       "Local": "Cripple Creek"
@@ -5944,8 +5985,8 @@
     "StateID": 8,
     "Callsign": "WB0WDF",
     "Location": {
-      "Latitude": 38.7466,
-      "Longitude": -105.178,
+      "Latitude": 38.7466011,
+      "Longitude": -105.1780014,
       "County": "Teller",
       "State": "CO",
       "Local": "Cripple Creek"
@@ -6030,8 +6071,8 @@
     "StateID": 8,
     "Callsign": "K7PFJ",
     "Location": {
-      "Latitude": 40.0861,
-      "Longitude": -105.939,
+      "Latitude": 40.08610153,
+      "Longitude": -105.93900299,
       "County": "Clear Creek",
       "State": "CO",
       "Local": "Granby, Mt Chauncey"
@@ -6043,7 +6084,10 @@
       "Output": 446.875
     },
     "Digital": {
-      "DMR": {}
+      "DMR": {
+        "ColorCode": 7,
+        "ID": 310838
+      }
     }
   },
   {
@@ -6051,8 +6095,8 @@
     "StateID": 8,
     "Callsign": "KA0YDW",
     "Location": {
-      "Latitude": 40.0861,
-      "Longitude": -105.939,
+      "Latitude": 40.08610153,
+      "Longitude": -105.93900299,
       "County": "Grand",
       "State": "CO",
       "Local": "Granby"
@@ -6072,8 +6116,8 @@
     "StateID": 8,
     "Callsign": "KC0CVU",
     "Location": {
-      "Latitude": 39.0489,
-      "Longitude": -105.512,
+      "Latitude": 39.0489006,
+      "Longitude": -105.51200104,
       "County": "Park",
       "State": "CO",
       "Local": "Lake George, Badger Mountain"
@@ -6602,8 +6646,8 @@
     "StateID": 8,
     "Callsign": "KB0VJJ",
     "Location": {
-      "Latitude": 39.4439,
-      "Longitude": -105.969,
+      "Latitude": 39.44390106,
+      "Longitude": -105.96900177,
       "County": "Summit",
       "State": "CO",
       "Local": "Breckenridge, Bald Mountain"
@@ -6624,8 +6668,8 @@
     "StateID": 8,
     "Callsign": "N0SZ",
     "Location": {
-      "Latitude": 39.459,
-      "Longitude": -105.979,
+      "Latitude": 39.45899963,
+      "Longitude": -105.97899628,
       "County": "Fremont",
       "State": "CO",
       "Local": "Breckenridge, Baldy"
@@ -6696,8 +6740,8 @@
     "StateID": 8,
     "Callsign": "WB0QMR",
     "Location": {
-      "Latitude": 39.4817,
-      "Longitude": -106.038,
+      "Latitude": 39.4817009,
+      "Longitude": -106.03800201,
       "County": "Summit",
       "State": "CO",
       "Local": "Breckenridge"
@@ -6817,8 +6861,8 @@
     "StateID": 8,
     "Callsign": "WB0WDF",
     "Location": {
-      "Latitude": 38.5386,
-      "Longitude": -105.349,
+      "Latitude": 38.53860092,
+      "Longitude": -105.34899902,
       "County": "Fremont",
       "State": "CO",
       "Local": "Canon City, eightmile Mountain"
@@ -6839,8 +6883,8 @@
     "StateID": 8,
     "Callsign": "N0SZ",
     "Location": {
-      "Latitude": 39.0469,
-      "Longitude": -105.87,
+      "Latitude": 39.0469017,
+      "Longitude": -105.87000275,
       "County": "Park",
       "State": "CO",
       "Local": "Fairplay, Badger"
@@ -6853,7 +6897,8 @@
     },
     "Digital": {
       "DMR": {
-        "ColorCode": 0
+        "ColorCode": 7,
+        "ID": 310827
       }
     }
   },
@@ -6916,8 +6961,8 @@
     "StateID": 8,
     "Callsign": "K0JSC",
     "Location": {
-      "Latitude": 38.4542,
-      "Longitude": -105.29,
+      "Latitude": 38.45420074,
+      "Longitude": -105.29000092,
       "County": "Fremont",
       "State": "CO",
       "Local": "Canon City, Fremont Peak"
@@ -6930,7 +6975,8 @@
     },
     "Digital": {
       "DMR": {
-        "ColorCode": 7
+        "ColorCode": 7,
+        "ID": 310815
       }
     }
   },
@@ -6939,8 +6985,8 @@
     "StateID": 8,
     "Callsign": "K0JSC",
     "Location": {
-      "Latitude": 38.4542,
-      "Longitude": -105.29,
+      "Latitude": 38.45420074,
+      "Longitude": -105.29000092,
       "County": "Fremont",
       "State": "CO",
       "Local": "Canon City, Fremont Peak"
@@ -6972,8 +7018,8 @@
     "StateID": 8,
     "Callsign": "WB0WDF",
     "Location": {
-      "Latitude": 38.4542,
-      "Longitude": -105.29,
+      "Latitude": 38.45420074,
+      "Longitude": -105.29000092,
       "County": "Fremont",
       "State": "CO",
       "Local": "Canon City, Fremont Peak"
@@ -6994,8 +7040,8 @@
     "StateID": 8,
     "Callsign": "WD0EKR",
     "Location": {
-      "Latitude": 38.4542,
-      "Longitude": -105.29,
+      "Latitude": 38.45420074,
+      "Longitude": -105.29000092,
       "County": "Fremont",
       "State": "CO",
       "Local": "Canon City, Fremont Peak"
@@ -7016,8 +7062,8 @@
     "StateID": 8,
     "Callsign": "WD0EKR",
     "Location": {
-      "Latitude": 38.4542,
-      "Longitude": -105.29,
+      "Latitude": 38.45420074,
+      "Longitude": -105.29000092,
       "County": "Fremont",
       "State": "CO",
       "Local": "Canon City, Fremont Peak"
@@ -7038,8 +7084,8 @@
     "StateID": 8,
     "Callsign": "WD0EKR",
     "Location": {
-      "Latitude": 38.4542,
-      "Longitude": -105.29,
+      "Latitude": 38.45420074,
+      "Longitude": -105.29000092,
       "County": "Fremont",
       "State": "CO",
       "Local": "Canon City, Fremont Peak"
@@ -7098,8 +7144,8 @@
     "StateID": 8,
     "Callsign": "AA0BF",
     "Location": {
-      "Latitude": 39.21,
-      "Longitude": -106.087,
+      "Latitude": 39.20999908,
+      "Longitude": -106.08699799,
       "County": "Park",
       "State": "CO",
       "Local": "Fairplay, Sacramento Mountain"
@@ -7160,8 +7206,8 @@
     "StateID": 8,
     "Callsign": "KB0VJJ",
     "Location": {
-      "Latitude": 40.0589,
-      "Longitude": -106.388,
+      "Latitude": 40.05889893,
+      "Longitude": -106.38800049,
       "County": "Grand",
       "State": "CO",
       "Local": "Kremmling, Santoy Peak"
@@ -7225,8 +7271,8 @@
     "StateID": 8,
     "Callsign": "N0SZ",
     "Location": {
-      "Latitude": 39.2653,
-      "Longitude": -106.182,
+      "Latitude": 39.26530075,
+      "Longitude": -106.18199921,
       "County": "Lake",
       "State": "CO",
       "Local": "Leadville, Mosquito Pass"
@@ -7289,8 +7335,8 @@
     "StateID": 8,
     "Callsign": "KB0VJJ",
     "Location": {
-      "Latitude": 40.6494,
-      "Longitude": -106.382,
+      "Latitude": 40.6493988,
+      "Longitude": -106.38200378,
       "County": "Jackson",
       "State": "CO",
       "Local": "Walden, Peterson Ridge"
@@ -7311,8 +7357,8 @@
     "StateID": 8,
     "Callsign": "K0RV",
     "Location": {
-      "Latitude": 39.6061,
-      "Longitude": -106.356,
+      "Latitude": 39.60609818,
+      "Longitude": -106.35600281,
       "County": "Eagle",
       "State": "CO",
       "Local": "Vail, Bald Mountain"
@@ -7332,8 +7378,8 @@
     "StateID": 8,
     "Callsign": "N0AFO",
     "Location": {
-      "Latitude": 39.6403,
-      "Longitude": -106.374,
+      "Latitude": 39.64030075,
+      "Longitude": -106.37400055,
       "County": "Eagle",
       "State": "CO",
       "Local": "Vail"
@@ -7350,8 +7396,8 @@
     "StateID": 8,
     "Callsign": "N0AFO",
     "Location": {
-      "Latitude": 39.6403,
-      "Longitude": -106.374,
+      "Latitude": 39.64030075,
+      "Longitude": -106.37400055,
       "County": "Eagle",
       "State": "CO",
       "Local": "Vail"
@@ -7372,8 +7418,8 @@
     "StateID": 8,
     "Callsign": "N0SZ",
     "Location": {
-      "Latitude": 39.6348,
-      "Longitude": -106.447,
+      "Latitude": 39.63479996,
+      "Longitude": -106.4469986,
       "County": "Eagle",
       "State": "CO",
       "Local": "Vail"
@@ -7396,8 +7442,8 @@
     "StateID": 8,
     "Callsign": "N0ZSN",
     "Location": {
-      "Latitude": 39.2508,
-      "Longitude": -106.293,
+      "Latitude": 39.25080109,
+      "Longitude": -106.29299927,
       "County": "Lake",
       "State": "CO",
       "Local": "Leadville, Quail Mountain"
@@ -7418,8 +7464,8 @@
     "StateID": 8,
     "Callsign": "KB0VJJ",
     "Location": {
-      "Latitude": 39.6554,
-      "Longitude": -106.457,
+      "Latitude": 39.65539932,
+      "Longitude": -106.45700073,
       "County": "Eagle",
       "State": "CO",
       "Local": "Vail"
@@ -7620,8 +7666,8 @@
     "StateID": 8,
     "Callsign": "KB0TUC",
     "Location": {
-      "Latitude": 38.1347,
-      "Longitude": -105.465,
+      "Latitude": 38.13470078,
+      "Longitude": -105.46499634,
       "County": "Custer",
       "State": "CO",
       "Local": "Westcliffe"
@@ -7642,8 +7688,8 @@
     "StateID": 8,
     "Callsign": "KB0TUC",
     "Location": {
-      "Latitude": 38.1347,
-      "Longitude": -105.465,
+      "Latitude": 38.13470078,
+      "Longitude": -105.46499634,
       "County": "Custer",
       "State": "CO",
       "Local": "Westcliffe"
@@ -7664,8 +7710,8 @@
     "StateID": 8,
     "Callsign": "KB0TUC",
     "Location": {
-      "Latitude": 38.1347,
-      "Longitude": -105.465,
+      "Latitude": 38.13470078,
+      "Longitude": -105.46499634,
       "County": "Custer",
       "State": "CO",
       "Local": "Westcliffe"
@@ -7677,8 +7723,7 @@
       "Output": 927.775
     },
     "DigitalTone": {
-      "Input": 116,
-      "Output": 116
+      "Input": 116
     }
   },
   {
@@ -7686,8 +7731,8 @@
     "StateID": 8,
     "Callsign": "K0JSC",
     "Location": {
-      "Latitude": 38.1347,
-      "Longitude": -105.466,
+      "Latitude": 38.13470078,
+      "Longitude": -105.46600342,
       "County": "Custer",
       "State": "CO",
       "Local": "Westcliffe"
@@ -7708,8 +7753,8 @@
     "StateID": 8,
     "Callsign": "ND0Q",
     "Location": {
-      "Latitude": 38.1347,
-      "Longitude": -105.466,
+      "Latitude": 38.13470078,
+      "Longitude": -105.46600342,
       "County": "Pueblo",
       "State": "CO",
       "Local": "Westcliffe, Deer Peak"
@@ -7751,8 +7796,8 @@
     "StateID": 8,
     "Callsign": "KD0QPG",
     "Location": {
-      "Latitude": 38.5347,
-      "Longitude": -105.999,
+      "Latitude": 38.53469849,
+      "Longitude": -105.99900055,
       "County": "Chaffee",
       "State": "CO",
       "Local": "Salida, Methodist Mountain"
@@ -7820,8 +7865,8 @@
     "StateID": 8,
     "Callsign": "W0LSD",
     "Location": {
-      "Latitude": 38.7129,
-      "Longitude": -106.2,
+      "Latitude": 38.71289825,
+      "Longitude": -106.19999695,
       "County": "Chaffee",
       "State": "CO",
       "Local": "Nathrop"
@@ -7894,8 +7939,8 @@
     "StateID": 8,
     "Callsign": "KB0VJJ",
     "Location": {
-      "Latitude": 38.4596,
-      "Longitude": -106.011,
+      "Latitude": 38.45959854,
+      "Longitude": -106.01100159,
       "County": "Chaffee",
       "State": "CO",
       "Local": "Salida, Methodist Mountain"
@@ -7916,8 +7961,8 @@
     "StateID": 8,
     "Callsign": "KC0CVU",
     "Location": {
-      "Latitude": 38.4596,
-      "Longitude": -106.011,
+      "Latitude": 38.45959854,
+      "Longitude": -106.01100159,
       "County": "Chaffee",
       "State": "CO",
       "Local": "Salida, Methodist Mountain"
@@ -7958,8 +8003,8 @@
     "StateID": 8,
     "Callsign": "K0JSC",
     "Location": {
-      "Latitude": 38.4463,
-      "Longitude": -106.011,
+      "Latitude": 38.44630051,
+      "Longitude": -106.01100159,
       "County": "Chaffee",
       "State": "CO",
       "Local": "Salida, Methodist Mountain"
@@ -7991,8 +8036,8 @@
     "StateID": 8,
     "Callsign": "KC0CVU",
     "Location": {
-      "Latitude": 38.4528,
-      "Longitude": -106.018,
+      "Latitude": 38.45280075,
+      "Longitude": -106.01799774,
       "County": "Chaffee",
       "State": "CO",
       "Local": "Salida, Methodist Mountain"
@@ -8012,8 +8057,8 @@
     "StateID": 8,
     "Callsign": "WZ0N",
     "Location": {
-      "Latitude": 38.4528,
-      "Longitude": -106.018,
+      "Latitude": 38.45280075,
+      "Longitude": -106.01799774,
       "County": "Chaffee",
       "State": "CO",
       "Local": "Salida, Methodist Mountain"
@@ -8059,8 +8104,8 @@
     "StateID": 8,
     "Callsign": "KD0H",
     "Location": {
-      "Latitude": 40.485,
-      "Longitude": -106.831,
+      "Latitude": 40.48500061,
+      "Longitude": -106.83100128,
       "County": "Routt",
       "State": "CO",
       "Local": "Steamboat Springs"
@@ -8346,8 +8391,8 @@
     "StateID": 8,
     "Callsign": "N0KM",
     "Location": {
-      "Latitude": 37.7531,
-      "Longitude": -106.109,
+      "Latitude": 37.75310135,
+      "Longitude": -106.10900116,
       "County": "Rio Grande",
       "State": "CO",
       "Local": "Center"
@@ -8374,7 +8419,7 @@
     "Callsign": "N0KM",
     "Location": {
       "Latitude": 37.75,
-      "Longitude": -106.115,
+      "Longitude": -106.11499786,
       "County": "Saguache",
       "State": "CO",
       "Local": "Center"
@@ -8537,8 +8582,8 @@
     "StateID": 8,
     "Callsign": "WA0JS",
     "Location": {
-      "Latitude": 37.8492,
-      "Longitude": -106.926,
+      "Latitude": 37.8492012,
+      "Longitude": -106.9260025,
       "County": "Mineral",
       "State": "CO",
       "Local": "Creede"
@@ -8576,8 +8621,8 @@
     "StateID": 8,
     "Callsign": "N0PKT",
     "Location": {
-      "Latitude": 37.7933,
-      "Longitude": -107.055,
+      "Latitude": 37.79330063,
+      "Longitude": -107.05500031,
       "County": "Mineral",
       "State": "CO",
       "Local": "Creede, Bristol Head"
@@ -8603,8 +8648,8 @@
     "StateID": 8,
     "Callsign": "N0JSP",
     "Location": {
-      "Latitude": 37.193,
-      "Longitude": -107.1,
+      "Latitude": 37.19300079,
+      "Longitude": -107.09999847,
       "County": "Archuleta",
       "State": "CO",
       "Local": "Pagosa Springs, Oakbrush Hill"
@@ -8645,8 +8690,8 @@
     "StateID": 35,
     "Callsign": "NM5SJ",
     "Location": {
-      "Latitude": 36.9336,
-      "Longitude": -106.999,
+      "Latitude": 36.93360138,
+      "Longitude": -106.99900055,
       "County": "Rio Arriba",
       "State": "NM",
       "Local": "Dulce"
@@ -8916,8 +8961,8 @@
     "StateID": 8,
     "Callsign": "KB0YNA",
     "Location": {
-      "Latitude": 38.6125,
-      "Longitude": -106.543,
+      "Latitude": 38.61249924,
+      "Longitude": -106.54299927,
       "County": "Gunnison",
       "State": "CO",
       "Local": "Gunnison, W Mountain or Tenderfoot Mountain"
@@ -8960,8 +9005,8 @@
     "StateID": 8,
     "Callsign": "KB5ITS",
     "Location": {
-      "Latitude": 38.03,
-      "Longitude": -107.315,
+      "Latitude": 38.02999878,
+      "Longitude": -107.31500244,
       "County": "Hinsdale",
       "State": "CO",
       "Local": "Lake City, Hill 71"
@@ -9002,8 +9047,8 @@
     "StateID": 8,
     "Callsign": "K5GF",
     "Location": {
-      "Latitude": 38.5458,
-      "Longitude": -106.925,
+      "Latitude": 38.54579926,
+      "Longitude": -106.92500305,
       "County": "Gunnison",
       "State": "CO",
       "Local": "Gunnison"
@@ -9020,8 +9065,8 @@
     "StateID": 8,
     "Callsign": "W0VTL",
     "Location": {
-      "Latitude": 38.5458,
-      "Longitude": -106.925,
+      "Latitude": 38.54579926,
+      "Longitude": -106.92500305,
       "County": "Gunnison",
       "State": "CO",
       "Local": "Gunnison"
@@ -9059,8 +9104,8 @@
     "StateID": 8,
     "Callsign": "KB5ITS",
     "Location": {
-      "Latitude": 37.115,
-      "Longitude": -107.633,
+      "Latitude": 37.11500168,
+      "Longitude": -107.63300323,
       "County": "La Plata",
       "State": "CO",
       "Local": "Ignacio, Spring Creek"
@@ -9101,8 +9146,8 @@
     "StateID": 8,
     "Callsign": "KB5ITS",
     "Location": {
-      "Latitude": 37.8119,
-      "Longitude": -107.665,
+      "Latitude": 37.81190109,
+      "Longitude": -107.66500092,
       "County": "San Juan",
       "State": "CO",
       "Local": "Silverton, Buffalo Boy"
@@ -9122,8 +9167,8 @@
     "StateID": 8,
     "Callsign": "KB5ITS",
     "Location": {
-      "Latitude": 37.8119,
-      "Longitude": -107.665,
+      "Latitude": 37.81190109,
+      "Longitude": -107.66500092,
       "County": "San Juan",
       "State": "CO",
       "Local": "Silverton, Hazelton"
@@ -9143,8 +9188,8 @@
     "StateID": 8,
     "Callsign": "KB0VJJ",
     "Location": {
-      "Latitude": 37.35,
-      "Longitude": -107.767,
+      "Latitude": 37.34999847,
+      "Longitude": -107.76699829,
       "County": "La Plata",
       "State": "CO",
       "Local": "Durango, Missionary Ridge"
@@ -9165,8 +9210,8 @@
     "StateID": 8,
     "Callsign": "K0EP",
     "Location": {
-      "Latitude": 37.3828,
-      "Longitude": -107.778,
+      "Latitude": 37.38280106,
+      "Longitude": -107.77799988,
       "County": "La Plata",
       "State": "CO",
       "Local": "Durango, Missionary Ridge"
@@ -9187,8 +9232,8 @@
     "StateID": 8,
     "Callsign": "N0SZ",
     "Location": {
-      "Latitude": 37.3669,
-      "Longitude": -107.785,
+      "Latitude": 37.3669014,
+      "Longitude": -107.78500366,
       "County": "La Plata",
       "State": "CO",
       "Local": "Durango, Missionary Ridge"
@@ -9232,8 +9277,8 @@
     "StateID": 35,
     "Callsign": "KB5ITS",
     "Location": {
-      "Latitude": 36.8,
-      "Longitude": -107.62,
+      "Latitude": 36.79999924,
+      "Longitude": -107.62000275,
       "County": "San Juan",
       "State": "NM",
       "Local": "Navajo Dam, Navajo Lake"
@@ -9253,8 +9298,8 @@
     "StateID": 8,
     "Callsign": "KB5ITT",
     "Location": {
-      "Latitude": 37.6992,
-      "Longitude": -107.806,
+      "Latitude": 37.69919968,
+      "Longitude": -107.80599976,
       "County": "San Juan",
       "State": "CO",
       "Local": "Silverton, Engineer Mountain"
@@ -9274,8 +9319,8 @@
     "StateID": 8,
     "Callsign": "KC5EVE",
     "Location": {
-      "Latitude": 37.2753,
-      "Longitude": -107.879,
+      "Latitude": 37.27529907,
+      "Longitude": -107.8789978,
       "County": "La Plata",
       "State": "CO",
       "Local": "Durango"
@@ -9445,6 +9490,9 @@
       "Input": 902.9,
       "Output": 927.9
     },
+    "SquelchTone": {
+      "Input": 131.8
+    },
     "Digital": {
       "P25": {
         "NAC": 293
@@ -9456,8 +9504,8 @@
     "StateID": 8,
     "Callsign": "KB5ITS",
     "Location": {
-      "Latitude": 37.2622,
-      "Longitude": -107.906,
+      "Latitude": 37.2621994,
+      "Longitude": -107.90599823,
       "County": "La Plata",
       "State": "CO",
       "Local": "Durango, Smelter Mountain"
@@ -9565,8 +9613,8 @@
     "StateID": 35,
     "Callsign": "NM5SJ",
     "Location": {
-      "Latitude": 36.95,
-      "Longitude": -107.85,
+      "Latitude": 36.95000076,
+      "Longitude": -107.84999847,
       "County": "San Juan",
       "State": "NM",
       "Local": "Nebo, Cedar Hill"
@@ -9586,8 +9634,8 @@
     "StateID": 8,
     "Callsign": "AD0RM",
     "Location": {
-      "Latitude": 38.18,
-      "Longitude": -107.79,
+      "Latitude": 38.18000031,
+      "Longitude": -107.79000092,
       "County": "Ouray",
       "State": "CO",
       "Local": "Ridgway, On top of Log Hill"
@@ -9600,7 +9648,8 @@
     },
     "Digital": {
       "DMR": {
-        "ColorCode": 1
+        "ColorCode": 1,
+        "ID": 311075
       }
     }
   },
@@ -9756,8 +9805,8 @@
     "StateID": 8,
     "Callsign": "WA4HND",
     "Location": {
-      "Latitude": 38.3875,
-      "Longitude": -107.674,
+      "Latitude": 38.38750076,
+      "Longitude": -107.6740036,
       "County": "Montrose",
       "State": "CO",
       "Local": "Montrose, Waterdog Peak"
@@ -9826,8 +9875,8 @@
     "StateID": 8,
     "Callsign": "KB0VIU",
     "Location": {
-      "Latitude": 37.3,
-      "Longitude": -108.028,
+      "Latitude": 37.29999924,
+      "Longitude": -108.02799988,
       "County": "La Plata",
       "State": "CO",
       "Local": "Hesperus"
@@ -9848,8 +9897,8 @@
     "StateID": 35,
     "Callsign": "KF5VBD",
     "Location": {
-      "Latitude": 36.65,
-      "Longitude": -107.791,
+      "Latitude": 36.65000153,
+      "Longitude": -107.79100037,
       "County": "San Juan",
       "State": "NM",
       "Local": "Bloomfield, Harris Mesa"
@@ -9871,8 +9920,8 @@
     "StateID": 8,
     "Callsign": "KB0YNA",
     "Location": {
-      "Latitude": 37.991,
-      "Longitude": -107.972,
+      "Latitude": 37.99100113,
+      "Longitude": -107.97200012,
       "County": "San Miguel",
       "State": "CO",
       "Local": "Telluride, Gray Head"
@@ -10052,8 +10101,8 @@
     "StateID": 35,
     "Callsign": "KB5ITS",
     "Location": {
-      "Latitude": 36.8222,
-      "Longitude": -107.993,
+      "Latitude": 36.82220078,
+      "Longitude": -107.99299622,
       "County": "San Juan",
       "State": "NM",
       "Local": "Aztec, Tank Mtn"
@@ -10073,8 +10122,8 @@
     "StateID": 35,
     "Callsign": "N5UBJ",
     "Location": {
-      "Latitude": 36.8222,
-      "Longitude": -107.993,
+      "Latitude": 36.82220078,
+      "Longitude": -107.99299622,
       "County": "San Juan",
       "State": "NM",
       "Local": "Aztec"
@@ -10115,8 +10164,8 @@
     "StateID": 8,
     "Callsign": "KB5ITS",
     "Location": {
-      "Latitude": 37.36,
-      "Longitude": -108.15,
+      "Latitude": 37.36000061,
+      "Longitude": -108.15000153,
       "County": "Montezuma",
       "State": "CO",
       "Local": "Mancos, Caviness Mountain"
@@ -10162,8 +10211,8 @@
     "StateID": 35,
     "Callsign": "KF5VBE",
     "Location": {
-      "Latitude": 36.7823,
-      "Longitude": -107.988,
+      "Latitude": 36.78229904,
+      "Longitude": -107.98799896,
       "County": "San Juan",
       "State": "NM",
       "Local": "Aztec"
@@ -10253,8 +10302,8 @@
     "StateID": 35,
     "Callsign": "KF5VBE",
     "Location": {
-      "Latitude": 36.7817,
-      "Longitude": -107.99,
+      "Latitude": 36.78170013,
+      "Longitude": -107.98999786,
       "County": "San Juan",
       "State": "NM",
       "Local": "Farmington"
@@ -10276,8 +10325,8 @@
     "StateID": 35,
     "Callsign": "KB5ITS",
     "Location": {
-      "Latitude": 36.7111,
-      "Longitude": -107.985,
+      "Latitude": 36.71110153,
+      "Longitude": -107.98500061,
       "County": "San Juan",
       "State": "NM",
       "Local": "Bloomfield"
@@ -10297,8 +10346,8 @@
     "StateID": 8,
     "Callsign": "K0VQ",
     "Location": {
-      "Latitude": 39.1761,
-      "Longitude": -106.829,
+      "Latitude": 39.17610168,
+      "Longitude": -106.82900238,
       "County": "Pitkin",
       "State": "CO",
       "Local": "Aspen, Aspen Mountain"
@@ -10319,8 +10368,8 @@
     "StateID": 8,
     "Callsign": "KC0UUX",
     "Location": {
-      "Latitude": 38.4783,
-      "Longitude": -107.876,
+      "Latitude": 38.47829819,
+      "Longitude": -107.87599945,
       "County": "Montrose",
       "State": "CO",
       "Local": "Montrose"
@@ -10341,8 +10390,8 @@
     "StateID": 8,
     "Callsign": "KD5OPD",
     "Location": {
-      "Latitude": 38.4783,
-      "Longitude": -107.876,
+      "Latitude": 38.47829819,
+      "Longitude": -107.87599945,
       "County": "Montrose",
       "State": "CO",
       "Local": "Montrose"
@@ -10450,8 +10499,8 @@
     "StateID": 8,
     "Callsign": "K0CL",
     "Location": {
-      "Latitude": 39.2131,
-      "Longitude": -106.937,
+      "Latitude": 39.21310043,
+      "Longitude": -106.93699646,
       "County": "Pitkin",
       "State": "CO",
       "Local": "Snowmass Village"
@@ -10497,8 +10546,8 @@
     "StateID": 8,
     "Callsign": "KI0MR",
     "Location": {
-      "Latitude": 38.8683,
-      "Longitude": -107.592,
+      "Latitude": 38.86830139,
+      "Longitude": -107.59200287,
       "County": "Delta",
       "State": "CO",
       "Local": "Paonia"
@@ -10518,8 +10567,8 @@
     "StateID": 35,
     "Callsign": "K5WY",
     "Location": {
-      "Latitude": 36.7281,
-      "Longitude": -108.218,
+      "Latitude": 36.72809982,
+      "Longitude": -108.21800232,
       "County": "San Juan",
       "State": "NM",
       "Local": "Farmington"
@@ -10539,8 +10588,8 @@
     "StateID": 35,
     "Callsign": "KF5VBF",
     "Location": {
-      "Latitude": 36.7281,
-      "Longitude": -108.219,
+      "Latitude": 36.72809982,
+      "Longitude": -108.21900177,
       "County": "San Juan",
       "State": "NM",
       "Local": "Farmington"
@@ -10562,8 +10611,8 @@
     "StateID": 35,
     "Callsign": "N5UBJ",
     "Location": {
-      "Latitude": 36.7281,
-      "Longitude": -108.219,
+      "Latitude": 36.72809982,
+      "Longitude": -108.21900177,
       "County": "San Juan",
       "State": "NM",
       "Local": "Farmington"
@@ -10586,8 +10635,8 @@
     "StateID": 35,
     "Callsign": "KF5VBF",
     "Location": {
-      "Latitude": 36.7083,
-      "Longitude": -108.226,
+      "Latitude": 36.70830154,
+      "Longitude": -108.22599792,
       "County": "San Juan",
       "State": "NM",
       "Local": "Farmington, Farmington Bluffs"
@@ -10609,8 +10658,8 @@
     "StateID": 8,
     "Callsign": "KB5ITS",
     "Location": {
-      "Latitude": 37.4739,
-      "Longitude": -108.505,
+      "Latitude": 37.47389984,
+      "Longitude": -108.50499725,
       "County": "Montezuma",
       "State": "CO",
       "Local": "Cortez, Goodman"
@@ -10630,8 +10679,8 @@
     "StateID": 8,
     "Callsign": "KB5ITS",
     "Location": {
-      "Latitude": 37.4739,
-      "Longitude": -108.505,
+      "Latitude": 37.47389984,
+      "Longitude": -108.50499725,
       "County": "Montezuma",
       "State": "CO",
       "Local": "Dolores, Summit Ridge"
@@ -10693,8 +10742,8 @@
     "StateID": 8,
     "Callsign": "KC0QXX",
     "Location": {
-      "Latitude": 38.9016,
-      "Longitude": -107.926,
+      "Latitude": 38.90159988,
+      "Longitude": -107.9260025,
       "County": "Delta",
       "State": "CO",
       "Local": "Cedaredge, Cedar Mesa"
@@ -10735,8 +10784,8 @@
     "StateID": 8,
     "Callsign": "W0ALC",
     "Location": {
-      "Latitude": 38.9016,
-      "Longitude": -107.926,
+      "Latitude": 38.90159988,
+      "Longitude": -107.9260025,
       "County": "Delta",
       "State": "CO",
       "Local": "Cedaredge"
@@ -10756,8 +10805,8 @@
     "StateID": 8,
     "Callsign": "KD5LWU",
     "Location": {
-      "Latitude": 37.3489,
-      "Longitude": -108.585,
+      "Latitude": 37.34889984,
+      "Longitude": -108.58499908,
       "County": "Montezuma",
       "State": "CO",
       "Local": "Cortez, Downtown"
@@ -10812,8 +10861,8 @@
     "StateID": 8,
     "Callsign": "K0VQ",
     "Location": {
-      "Latitude": 39.4247,
-      "Longitude": -107.097,
+      "Latitude": 39.42470169,
+      "Longitude": -107.09700012,
       "County": "Garfield",
       "State": "CO",
       "Local": "Carbondale, Missouri Heights"
@@ -10885,8 +10934,8 @@
     "StateID": 8,
     "Callsign": "K0ELK",
     "Location": {
-      "Latitude": 39.4,
-      "Longitude": -107.315,
+      "Latitude": 39.40000153,
+      "Longitude": -107.31500244,
       "County": "Garfield",
       "State": "CO",
       "Local": "Carbondale, Four Mile Ridge"
@@ -10914,8 +10963,8 @@
     "StateID": 8,
     "Callsign": "K0SNO",
     "Location": {
-      "Latitude": 39.4,
-      "Longitude": -107.315,
+      "Latitude": 39.40000153,
+      "Longitude": -107.31500244,
       "County": "Garfield",
       "State": "CO",
       "Local": "Carbondale, Four Mile Ridge"
@@ -10935,8 +10984,8 @@
     "StateID": 8,
     "Callsign": "",
     "Location": {
-      "Latitude": 38.9944,
-      "Longitude": -107.973,
+      "Latitude": 38.99440002,
+      "Longitude": -107.97299957,
       "County": "Delta",
       "State": "CO",
       "Local": "Cedaredge, Grand Mesa"
@@ -10978,8 +11027,8 @@
     "StateID": 8,
     "Callsign": "KB0YNA",
     "Location": {
-      "Latitude": 39.0666,
-      "Longitude": -107.937,
+      "Latitude": 39.0666008,
+      "Longitude": -107.93699646,
       "County": "Mesa",
       "State": "CO",
       "Local": "Grand Junction, Grand Mesa"
@@ -11005,8 +11054,8 @@
     "StateID": 8,
     "Callsign": "KB0VJJ",
     "Location": {
-      "Latitude": 39.4264,
-      "Longitude": -107.38,
+      "Latitude": 39.42639923,
+      "Longitude": -107.37999725,
       "County": "Garfield",
       "State": "CO",
       "Local": "Glenwood Springs, Sunlight Peak"
@@ -11048,8 +11097,8 @@
     "StateID": 8,
     "Callsign": "KI0G",
     "Location": {
-      "Latitude": 39.4264,
-      "Longitude": -107.38,
+      "Latitude": 39.42639923,
+      "Longitude": -107.37999725,
       "County": "Garfield",
       "State": "CO",
       "Local": "Glenwood Springs, Sunlight Peak"
@@ -11069,8 +11118,8 @@
     "StateID": 8,
     "Callsign": "N0XLI",
     "Location": {
-      "Latitude": 39.4264,
-      "Longitude": -107.38,
+      "Latitude": 39.42639923,
+      "Longitude": -107.37999725,
       "County": "Garfield",
       "State": "CO",
       "Local": "Glenwood Springs, Sunlight Peak"
@@ -11502,8 +11551,8 @@
     "StateID": 8,
     "Callsign": "K0VQ",
     "Location": {
-      "Latitude": 39.5506,
-      "Longitude": -107.324,
+      "Latitude": 39.55059814,
+      "Longitude": -107.3239975,
       "County": "Garfield",
       "State": "CO",
       "Local": "Glenwood Springs, Three Mile Ridge"
@@ -11546,8 +11595,8 @@
     "StateID": 8,
     "Callsign": "KI0G",
     "Location": {
-      "Latitude": 39.5505,
-      "Longitude": -107.325,
+      "Latitude": 39.55049896,
+      "Longitude": -107.32499695,
       "County": "Garfield",
       "State": "CO",
       "Local": "Glenwood Springs"
@@ -11630,8 +11679,8 @@
     "StateID": 8,
     "Callsign": "KB0SW",
     "Location": {
-      "Latitude": 39.2406,
-      "Longitude": -107.961,
+      "Latitude": 39.24060059,
+      "Longitude": -107.96099854,
       "County": "Mesa",
       "State": "CO",
       "Local": "Collbran"
@@ -11789,8 +11838,8 @@
     "StateID": 8,
     "Callsign": "KB0YNA",
     "Location": {
-      "Latitude": 38.5767,
-      "Longitude": -108.647,
+      "Latitude": 38.5766983,
+      "Longitude": -108.64700317,
       "County": "Mesa",
       "State": "CO",
       "Local": "Delta, Uncompahgre Butte"
@@ -11858,8 +11907,8 @@
     "StateID": 8,
     "Callsign": "W0BX",
     "Location": {
-      "Latitude": 39.0889,
-      "Longitude": -108.227,
+      "Latitude": 39.08890152,
+      "Longitude": -108.22699738,
       "County": "Mesa",
       "State": "CO",
       "Local": "Grand Junction, Grand Mesa"
@@ -12056,8 +12105,8 @@
     "StateID": 8,
     "Callsign": "N0SWE",
     "Location": {
-      "Latitude": 39.4745,
-      "Longitude": -107.772,
+      "Latitude": 39.47449875,
+      "Longitude": -107.77200317,
       "County": "Garfield",
       "State": "CO",
       "Local": "Rifle"
@@ -12227,8 +12276,8 @@
     "StateID": 8,
     "Callsign": "WA4HND",
     "Location": {
-      "Latitude": 39.4519,
-      "Longitude": -108.052,
+      "Latitude": 39.45190048,
+      "Longitude": -108.05200195,
       "County": "Garfield",
       "State": "CO",
       "Local": "Parachute, Mount Callahan"
@@ -12275,8 +12324,8 @@
     "StateID": 8,
     "Callsign": "W0GJT",
     "Location": {
-      "Latitude": 39.0639,
-      "Longitude": -108.55,
+      "Latitude": 39.06389999,
+      "Longitude": -108.55000305,
       "County": "Mesa",
       "State": "CO",
       "Local": "Grand Junction, 9 Mile, Hwy 141, Unaweep"
@@ -12301,8 +12350,8 @@
     "StateID": 8,
     "Callsign": "K0SSI",
     "Location": {
-      "Latitude": 39.0639,
-      "Longitude": -108.551,
+      "Latitude": 39.06389999,
+      "Longitude": -108.5510025,
       "County": "Mesa",
       "State": "CO",
       "Local": "Grand Junction"
@@ -12319,8 +12368,8 @@
     "StateID": 8,
     "Callsign": "KB0SW",
     "Location": {
-      "Latitude": 39.0639,
-      "Longitude": -108.551,
+      "Latitude": 39.06389999,
+      "Longitude": -108.5510025,
       "County": "Mesa",
       "State": "CO",
       "Local": "Grand Junction"
@@ -12340,8 +12389,8 @@
     "StateID": 8,
     "Callsign": "KC0ARV",
     "Location": {
-      "Latitude": 39.0638,
-      "Longitude": -108.551,
+      "Latitude": 39.06380081,
+      "Longitude": -108.5510025,
       "County": "Mesa",
       "State": "CO",
       "Local": "Grand Junction"
@@ -12361,8 +12410,8 @@
     "StateID": 8,
     "Callsign": "KD0RED",
     "Location": {
-      "Latitude": 39.0639,
-      "Longitude": -108.551,
+      "Latitude": 39.06389999,
+      "Longitude": -108.5510025,
       "County": "Mesa",
       "State": "CO",
       "Local": "Grand Junction"
@@ -12414,8 +12463,8 @@
     "StateID": 8,
     "Callsign": "KE0TY",
     "Location": {
-      "Latitude": 39.0639,
-      "Longitude": -108.551,
+      "Latitude": 39.06389999,
+      "Longitude": -108.5510025,
       "County": "Mesa",
       "State": "CO",
       "Local": "Grand Junction"
@@ -12435,8 +12484,8 @@
     "StateID": 8,
     "Callsign": "KB0VJJ",
     "Location": {
-      "Latitude": 39.052,
-      "Longitude": -108.565,
+      "Latitude": 39.05199814,
+      "Longitude": -108.56500244,
       "County": "Mesa",
       "State": "CO",
       "Local": "Grand Junction, Grand Mesa"
@@ -12499,8 +12548,8 @@
     "StateID": 8,
     "Callsign": "W0RRZ",
     "Location": {
-      "Latitude": 39.1173,
-      "Longitude": -108.522,
+      "Latitude": 39.11729813,
+      "Longitude": -108.52200317,
       "County": "Mesa",
       "State": "CO",
       "Local": "Grand Junction, GJT"
@@ -12629,8 +12678,8 @@
     "StateID": 8,
     "Callsign": "WD0HAM",
     "Location": {
-      "Latitude": 40.5152,
-      "Longitude": -107.546,
+      "Latitude": 40.51520157,
+      "Longitude": -107.54599762,
       "County": "Moffat",
       "State": "CO",
       "Local": "Craig"
@@ -12650,8 +12699,8 @@
     "StateID": 8,
     "Callsign": "N0SZ",
     "Location": {
-      "Latitude": 40.0875,
-      "Longitude": -108.805,
+      "Latitude": 40.08750153,
+      "Longitude": -108.80500031,
       "County": "Rio Blanco",
       "State": "CO",
       "Local": "Rangely, Cathedral Bluffs"
@@ -12674,8 +12723,8 @@
     "StateID": 49,
     "Callsign": "K7QEQ",
     "Location": {
-      "Latitude": 38.5286,
-      "Longitude": -109.322,
+      "Latitude": 38.52859879,
+      "Longitude": -109.3219986,
       "County": "Grand",
       "State": "UT",
       "Local": "Moab, Bald Mesa"
@@ -12695,8 +12744,8 @@
     "StateID": 49,
     "Callsign": "K7QEQ",
     "Location": {
-      "Latitude": 38.5286,
-      "Longitude": -109.325,
+      "Latitude": 38.52859879,
+      "Longitude": -109.32499695,
       "County": "Grand",
       "State": "UT",
       "Local": "Moab, Bald Mesa"
@@ -12717,8 +12766,8 @@
     "StateID": 49,
     "Callsign": "W7BYU",
     "Location": {
-      "Latitude": 40.3564,
-      "Longitude": -109.146,
+      "Latitude": 40.35639954,
+      "Longitude": -109.14600372,
       "County": "Uintah",
       "State": "UT",
       "Local": "Vernal"
@@ -12738,8 +12787,8 @@
     "StateID": 49,
     "Callsign": "W7BYU",
     "Location": {
-      "Latitude": 40.355,
-      "Longitude": -109.148,
+      "Latitude": 40.35499954,
+      "Longitude": -109.14800262,
       "County": "Duchesne",
       "State": "UT",
       "Local": "Roosevelt"
@@ -12764,8 +12813,8 @@
     "StateID": 49,
     "Callsign": "W7BAR",
     "Location": {
-      "Latitude": 40.1069,
-      "Longitude": -109.378,
+      "Latitude": 40.10689926,
+      "Longitude": -109.37799835,
       "County": "Uintah",
       "State": "UT",
       "Local": "Vernal, Uintah County EOC"
@@ -12903,8 +12952,8 @@
     "StateID": 49,
     "Callsign": "W7BYU",
     "Location": {
-      "Latitude": 40.2222,
-      "Longitude": -110.104,
+      "Latitude": 40.22219849,
+      "Longitude": -110.10399628,
       "County": "Duchesne",
       "State": "UT",
       "Local": "Myton, Flat Top"
@@ -12924,8 +12973,8 @@
     "StateID": 49,
     "Callsign": "WX7Y",
     "Location": {
-      "Latitude": 39.6447,
-      "Longitude": -110.348,
+      "Latitude": 39.6446991,
+      "Longitude": -110.34799957,
       "County": "Carbon",
       "State": "UT",
       "Local": "Sunny Side, Bruin Peak"
@@ -14323,6 +14372,9 @@
       "Input": 147.78,
       "Output": 147.18
     },
+    "SquelchTone": {
+      "Input": 100
+    },
     "Digital": {
       "YSF": {
         "GroupID": {
@@ -14613,8 +14665,8 @@
     "StateID": 49,
     "Callsign": "K7YI",
     "Location": {
-      "Latitude": 39.185,
-      "Longitude": -110.605,
+      "Latitude": 39.18500137,
+      "Longitude": -110.60500336,
       "County": "Carbon",
       "State": "UT",
       "Local": "Price, Cedar Mountain"
@@ -14657,8 +14709,8 @@
     "StateID": 49,
     "Callsign": "WX7Y",
     "Location": {
-      "Latitude": 39.2096,
-      "Longitude": -111.142,
+      "Latitude": 39.20959854,
+      "Longitude": -111.14199829,
       "County": "Emery",
       "State": "UT",
       "Local": "Castle Dale, Horn Mountain"
@@ -14696,8 +14748,8 @@
     "StateID": 49,
     "Callsign": "KF7YIX",
     "Location": {
-      "Latitude": 39.321,
-      "Longitude": -111.094,
+      "Latitude": 39.32099915,
+      "Longitude": -111.09400177,
       "County": "Washington",
       "State": "UT",
       "Local": "Torquerville, Hurricane Mesa"
@@ -14748,8 +14800,8 @@
     "StateID": 49,
     "Callsign": "K7GX",
     "Location": {
-      "Latitude": 39.6111,
-      "Longitude": -110.812,
+      "Latitude": 39.61109924,
+      "Longitude": -110.81199646,
       "County": "Carbon",
       "State": "UT",
       "Local": "Price, Wood Hill"
@@ -14774,8 +14826,8 @@
     "StateID": 49,
     "Callsign": "W7CEU",
     "Location": {
-      "Latitude": 39.6119,
-      "Longitude": -110.812,
+      "Latitude": 39.61190033,
+      "Longitude": -110.81199646,
       "County": "Carbon",
       "State": "UT",
       "Local": "Price, Wood Hill"
@@ -14816,8 +14868,8 @@
     "StateID": 56,
     "Callsign": "KE7UUJ",
     "Location": {
-      "Latitude": 41.5875,
-      "Longitude": -109.203,
+      "Latitude": 41.58750153,
+      "Longitude": -109.20300293,
       "County": "Sweetwater",
       "State": "WY",
       "Local": "Rock Springs, Aspen Mountain"
@@ -14875,8 +14927,8 @@
     "StateID": 56,
     "Callsign": "KF7OBL",
     "Location": {
-      "Latitude": 41.5875,
-      "Longitude": -109.203,
+      "Latitude": 41.58750153,
+      "Longitude": -109.20300293,
       "County": "Sweetwater",
       "State": "WY",
       "Local": "Rock Springs"
@@ -14892,7 +14944,8 @@
     },
     "Digital": {
       "DMR": {
-        "ColorCode": 1
+        "ColorCode": 1,
+        "ID": 315602
       }
     }
   },
@@ -14901,8 +14954,8 @@
     "StateID": 56,
     "Callsign": "AD0BN",
     "Location": {
-      "Latitude": 41.5011,
-      "Longitude": -109.464,
+      "Latitude": 41.50109863,
+      "Longitude": -109.46399689,
       "County": "Sweetwater",
       "State": "WY",
       "Local": "Green River, Green River High School"
@@ -14928,8 +14981,8 @@
     "StateID": 49,
     "Callsign": "AD7ZW",
     "Location": {
-      "Latitude": 40.3597,
-      "Longitude": -110.284,
+      "Latitude": 40.35969925,
+      "Longitude": -110.28399658,
       "County": "Duchesne",
       "State": "UT",
       "Local": "Altamont"
@@ -14958,8 +15011,8 @@
     "StateID": 56,
     "Callsign": "WY7BV",
     "Location": {
-      "Latitude": 41.0827,
-      "Longitude": -110.233,
+      "Latitude": 41.08269882,
+      "Longitude": -110.23300171,
       "County": "Uinta",
       "State": "WY",
       "Local": "Mountain View, Hickey Mtn"
@@ -15021,8 +15074,8 @@
     "StateID": 49,
     "Callsign": "KG7DSO",
     "Location": {
-      "Latitude": 40.3549,
-      "Longitude": -110.799,
+      "Latitude": 40.35490036,
+      "Longitude": -110.7990036,
       "County": "Uintah",
       "State": "UT",
       "Local": "Vernal, Tabby Mountain"
@@ -15152,14 +15205,14 @@
     "StateID": 49,
     "Callsign": "WA7GIE",
     "Location": {
-      "Latitude": 40.7056,
-      "Longitude": -110.883,
+      "Latitude": 40.70560074,
+      "Longitude": -110.88300323,
       "County": "Duchesne",
       "State": "UT",
       "Local": "Roosevelt, Mirror Lake"
     },
     "Use": "Open",
-    "Status": "On-Air",
+    "Status": "Off-Air",
     "Frequency": {
       "Input": 147.98,
       "Output": 147.38
@@ -15356,8 +15409,8 @@
     "StateID": 49,
     "Callsign": "WX7Y",
     "Location": {
-      "Latitude": 39.6567,
-      "Longitude": -111.199,
+      "Latitude": 39.65670013,
+      "Longitude": -111.1989975,
       "County": "Carbon",
       "State": "UT",
       "Local": "Scofield, Boardinghouse Rdge"
@@ -15377,8 +15430,8 @@
     "StateID": 49,
     "Callsign": "W7DHH",
     "Location": {
-      "Latitude": 39.3367,
-      "Longitude": -111.451,
+      "Latitude": 39.33670044,
+      "Longitude": -111.4509964,
       "County": "Sanpete",
       "State": "UT",
       "Local": "Ephraim, Horseshoe"
@@ -15403,8 +15456,8 @@
     "StateID": 49,
     "Callsign": "WB7REL",
     "Location": {
-      "Latitude": 39.3367,
-      "Longitude": -111.451,
+      "Latitude": 39.33670044,
+      "Longitude": -111.4509964,
       "County": "Sanpete",
       "State": "UT",
       "Local": "Indianola, Indianola Peak"
@@ -15429,8 +15482,8 @@
     "StateID": 49,
     "Callsign": "KB7BSK",
     "Location": {
-      "Latitude": 39.1936,
-      "Longitude": -111.692,
+      "Latitude": 39.1935997,
+      "Longitude": -111.69200134,
       "County": "Sanpete",
       "State": "UT",
       "Local": "Sterling"
@@ -15452,8 +15505,8 @@
     "StateID": 49,
     "Callsign": "KB7BSK",
     "Location": {
-      "Latitude": 39.1936,
-      "Longitude": -111.692,
+      "Latitude": 39.1935997,
+      "Longitude": -111.69200134,
       "County": "Utah",
       "State": "UT",
       "Local": "Sterling"
@@ -15475,8 +15528,8 @@
     "StateID": 49,
     "Callsign": "WB7REL",
     "Location": {
-      "Latitude": 39.1942,
-      "Longitude": -111.692,
+      "Latitude": 39.19419861,
+      "Longitude": -111.69200134,
       "County": "Sanpete",
       "State": "UT",
       "Local": "Starling, Sterling"
@@ -15496,8 +15549,8 @@
     "StateID": 49,
     "Callsign": "WB7REL",
     "Location": {
-      "Latitude": 39.1942,
-      "Longitude": -111.692,
+      "Latitude": 39.19419861,
+      "Longitude": -111.69200134,
       "County": "Sanpete",
       "State": "UT",
       "Local": "Sterling"
@@ -15559,8 +15612,8 @@
     "StateID": 49,
     "Callsign": "N7RVS",
     "Location": {
-      "Latitude": 39.1552,
-      "Longitude": -111.818,
+      "Latitude": 39.15520096,
+      "Longitude": -111.81800079,
       "County": "Sanpete",
       "State": "UT",
       "Local": "Gunnison, N7RVS QTH"
@@ -15722,8 +15775,8 @@
     "StateID": 49,
     "Callsign": "N6EZO",
     "Location": {
-      "Latitude": 40.1302,
-      "Longitude": -111.579,
+      "Latitude": 40.13019943,
+      "Longitude": -111.57900238,
       "County": "Utah",
       "State": "UT",
       "Local": "Mapleton"
@@ -15743,8 +15796,8 @@
     "StateID": 49,
     "Callsign": "KC7WST",
     "Location": {
-      "Latitude": 40.015,
-      "Longitude": -111.65,
+      "Latitude": 40.01499939,
+      "Longitude": -111.65000153,
       "County": "Utah",
       "State": "UT",
       "Local": "Woodland Hills"
@@ -15752,7 +15805,7 @@
     "Use": "Open",
     "Status": "On-Air",
     "Frequency": {
-      "Input": 448.8,
+      "Input": 444.8,
       "Output": 449.8
     },
     "Digital": {
@@ -15767,8 +15820,8 @@
     "StateID": 49,
     "Callsign": "WD7N",
     "Location": {
-      "Latitude": 40.1619,
-      "Longitude": -111.603,
+      "Latitude": 40.16189957,
+      "Longitude": -111.60299683,
       "County": "Utah",
       "State": "UT",
       "Local": "Springville"
@@ -15788,8 +15841,8 @@
     "StateID": 49,
     "Callsign": "WB7REL",
     "Location": {
-      "Latitude": 40.053,
-      "Longitude": -111.674,
+      "Latitude": 40.0530014,
+      "Longitude": -111.6740036,
       "County": "Sevier",
       "State": "UT",
       "Local": "Salina, Beesting Peak"
@@ -15809,8 +15862,8 @@
     "StateID": 49,
     "Callsign": "NV7V",
     "Location": {
-      "Latitude": 40.0369,
-      "Longitude": -111.721,
+      "Latitude": 40.03689957,
+      "Longitude": -111.72100067,
       "County": "Utah",
       "State": "UT",
       "Local": "Payson"
@@ -16680,6 +16733,9 @@
       "Input": 146.34,
       "Output": 146.94
     },
+    "SquelchTone": {
+      "Input": 88.5
+    },
     "Digital": {
       "YSF": {
         "GroupID": {
@@ -17010,6 +17066,9 @@
       "Input": 147.94,
       "Output": 147.34
     },
+    "SquelchTone": {
+      "Input": 88.5
+    },
     "Digital": {
       "YSF": {
         "GroupID": {
@@ -17035,6 +17094,9 @@
     "Frequency": {
       "Input": 449.475,
       "Output": 444.475
+    },
+    "SquelchTone": {
+      "Input": 88.5
     },
     "Digital": {
       "YSF": {

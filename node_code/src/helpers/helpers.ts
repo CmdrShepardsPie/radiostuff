@@ -1,4 +1,4 @@
-import { createLog, createOut } from "@helpers/log-helpers";
+import { createOut } from "@helpers/log-helpers";
 import chalk from "chalk";
 
 const { log, write }: { log: (...msg: any[]) => void; write: (...msg: any[]) => void } = createOut("Helpers");

@@ -18,7 +18,7 @@ exports.readdirAsync = util_1.promisify(fs_1.default.readdir);
 exports.writeFileAsync = util_1.promisify(fs_1.default.writeFile);
 exports.statAsync = util_1.promisify(fs_1.default.stat);
 async function makeDirs(filePath) {
-    log(chalk_1.default.green("Make Dirs"), filePath);
+    // log(chalk.green("Make Dirs"), filePath);
     let tempPath = `.`;
     for (const dir of filePath.split(/[/\\]/)) {
         if (/\w+\.\w+$/.test(dir)) {

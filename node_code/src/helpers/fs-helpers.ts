@@ -16,7 +16,7 @@ export const writeFileAsync: (path: string | number, data: any) => Promise<void>
 export const statAsync: (arg1: string) => Promise<Stats> = promisify(fs.stat);
 
 export async function makeDirs(filePath: string): Promise<void> {
-  log(chalk.green("Make Dirs"), filePath);
+  // log(chalk.green("Make Dirs"), filePath);
 
   let tempPath: string = `.`;
   for (const dir of filePath.split(/[/\\]/)) {

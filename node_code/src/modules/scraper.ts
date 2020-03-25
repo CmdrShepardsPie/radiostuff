@@ -1,4 +1,3 @@
-import { dirExists, makeDirs, readFileAsync, statAsync, writeFileAsync } from "@helpers/fs-helpers";
 import { wait } from "@helpers/helpers";
 import { createOut } from "@helpers/log-helpers";
 import { IRepeaterRaw } from "@interfaces/i-repeater-raw";
@@ -6,12 +5,10 @@ import Axios, { AxiosResponse } from "axios";
 import chalk from "chalk";
 import { JSDOM } from "jsdom";
 import { getNumber, getText, getTextOrNumber } from "./helper";
-import { Stats } from "fs";
+import { getCache, setCache } from "@helpers/cache-helper";
 
 const { log, write }: { log: (...msg: any[]) => void; write: (...msg: any[]) => void } = createOut("Scraper");
 // const write = createWrite("Scraper");
-
-const cacheStart: number = Date.now();
 
 export default class Scraper {
   private data: IRepeaterRaw[] = [];
@@ -47,7 +44,9 @@ export default class Scraper {
         for (const row of rows) {
           const data: { [key: string]: string | number | undefined } = {};
           const cells: HTMLTableDataCellElement[] = [...row.querySelectorAll("td")];
-          cells.forEach((td: HTMLTableDataCellElement, index: number): void => { data[headers[index]] = getTextOrNumber(td); });
+          cells.forEach((td: HTMLTableDataCellElement, index: number): void => {
+            data[headers[index]] = getTextOrNumber(td);
+          });
           const link: HTMLAnchorElement | null = cells[0].querySelector("a");
           if (link) {
             // write("^");
@@ -107,39 +106,18 @@ export default class Scraper {
     return data as any as IRepeaterRaw;
   }
 
-  private async getCache(key: string): Promise<string | undefined> {
-    const file: string = `../data/repeaters/_cache/${key}`;
-    if (await dirExists(file)) {
-      // if (Math.floor(Math.random() * 10) === 0) return;
-      const stat: Stats = await statAsync(file);
-      const diff: number = (cacheStart - stat.mtimeMs) / 1000 / 60 / 60;
-      // if (diff >= cacheAge) {
-      if (diff >= 24) {
-        write(`O=${chalk.blue(Math.round(diff))}`);
-        return;
-      }
-      return (await readFileAsync(file)).toString();
-    }
-  }
-
-  private async setCache(key: string, value: string): Promise<void> {
-    const file: string = `../data/repeaters/_cache/${key}`;
-    await makeDirs(file);
-    return writeFileAsync(file, value);
-  }
-
   private async getUrl(url: string, cacheKey?: string): Promise<string> {
     write(` ${(cacheKey || url).replace(".html", "")}:`);
     // log(chalk.green("Get URL"), url, cacheKey);
 
-    const cache: string | undefined = await this.getCache(cacheKey || url);
+    const cache: string | undefined = await getCache(cacheKey || url);
     if (cache) {
       // log(chalk.yellow("Cached"), url, cacheKey);
       write(chalk.green("G"));
       return cache;
     } else {
       // Slow down the requests a little bit so we"re not hammering the server or triggering any anti-bot or DDoS protections
-      const waitTime: number = (1000 + (Math.random() * 5000));
+      const waitTime: number = (5000 + (Math.random() * 10000));
 
       write(`W=${chalk.yellow(Math.round(waitTime / 1000))}`);
       await wait(waitTime);
@@ -149,8 +127,9 @@ export default class Scraper {
       write(chalk.cyan("S"));
 
       const data: string = request.data;
-      await this.setCache(cacheKey || url, data);
+      await setCache(cacheKey || url, data);
       return data;
     }
   }
+
 }

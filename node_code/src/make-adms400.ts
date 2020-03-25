@@ -19,12 +19,11 @@ import {
   buildComment,
   buildDCS,
   buildName,
-  filterDistance,
   filterFrequencies,
   filterMode,
-  filterMinimumRepeaterCount,
   FrequencyBand,
-  Mode, getRepeaterSuffix
+  getRepeaterSuffix,
+  Mode
 } from "@helpers/radio-helpers";
 
 const log: (...msg: any[]) => void = createLog("Make Adms400");
@@ -60,7 +59,7 @@ async function doIt(inFileName: string, outFileName: string): Promise<void> {
     ...repeaters
       // .filter(filterMinimumRepeaterCount(3, repeaters))
       .filter(filterFrequencies(FrequencyBand.$2_m, FrequencyBand.$70_cm))
-      .filter(filterDistance(100))
+      // .filter(filterDistance(100))
       .filter(filterMode(Mode.FM, Mode.YSF)),
   ]
     .map((map: IRepeaterStructured, index: number): IAdms400 => ({ ...convertToRadio(map), "Channel Number": index + 1 }))

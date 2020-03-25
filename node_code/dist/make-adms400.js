@@ -29,7 +29,7 @@ async function doIt(inFileName, outFileName) {
         ...repeaters
             // .filter(filterMinimumRepeaterCount(3, repeaters))
             .filter(radio_helpers_1.filterFrequencies(radio_helpers_1.FrequencyBand.$2_m, radio_helpers_1.FrequencyBand.$70_cm))
-            .filter(radio_helpers_1.filterDistance(100))
+            // .filter(filterDistance(100))
             .filter(radio_helpers_1.filterMode(radio_helpers_1.Mode.FM, radio_helpers_1.Mode.YSF)),
     ]
         .map((map, index) => ({ ...convertToRadio(map), "Channel Number": index + 1 }))
