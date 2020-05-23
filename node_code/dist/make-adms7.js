@@ -32,14 +32,15 @@ const myPoint = [39.627071500, -104.893322500]; // 4982 S Ulster St
 async function doIt(inFileName, outFileName) {
     const simplex = JSON.parse((await fs_helpers_1.readFileAsync("../data/frequencies.json")).toString())
         .map((map) => ({ Callsign: map.Name, Frequency: { Output: map.Frequency, Input: map.Frequency } }))
-        .filter((filter) => /FM|Voice|Simplex/i.test(filter.Callsign));
-    // .filter((filter: IRepeaterStructured) => !(/Data|Digital|Packet/i.test(filter.Callsign)));
+        .filter((filter) => /FM|Voice|Simplex/i.test(filter.Callsign))
+        .filter((filter) => !(/Data|Digital|Packet/i.test(filter.Callsign)));
     const repeaters = JSON.parse((await fs_helpers_1.readFileAsync(inFileName)).toString());
     repeaters.forEach((each) => {
         each.Location.Distance = gps_distance_1.default([myPoint, [each.Location.Latitude, each.Location.Longitude]]);
     });
     repeaters.sort((a, b) => a.Location.Distance > b.Location.Distance ? 1 :
         a.Location.Distance < b.Location.Distance ? -1 : 0);
+    const unique = {};
     const mapped = [
         ...simplex,
         ...repeaters
@@ -51,8 +52,16 @@ async function doIt(inFileName, outFileName) {
             filter.Use === i_repeater_structured_1.RepeaterUse.Open),
     ]
         .map((map, index) => ({ ...convertToRadio(map), Number: index + 1 }))
+        .filter((filter) => {
+        if (unique[filter.Name]) {
+            return false;
+        }
+        unique[filter.Name] = true;
+        return true;
+    })
         .slice(0, 500)
-        .sort((a, b) => parseFloat(a.Receive) - parseFloat(b.Receive))
+        // .sort((a: IAdms7, b: IAdms7) => parseFloat(a.Receive) - parseFloat(b.Receive))
+        .sort((a, b) => a.Name > b.Name ? 1 : b.Name < a.Name ? -1 : 0)
         .map((map, index) => ({ ...map, Number: index + 1 }));
     return fs_helpers_1.writeToJsonAndCsv(outFileName, mapped, mapped, false);
 }
@@ -89,12 +98,11 @@ function convertToRadio(repeater) {
     else if (TransmitDigitalTone) {
         ToneMode = "DCS";
     }
-    if (TransmitSquelchTone && ReceiveSquelchTone && TransmitSquelchTone === ReceiveSquelchTone) {
-        ToneMode = "TONE SQL";
-    }
-    else if (TransmitDigitalTone && ReceiveDigitalTone && TransmitDigitalTone === ReceiveDigitalTone) {
-        ToneMode = "DCS";
-    }
+    // if (TransmitSquelchTone && ReceiveSquelchTone && TransmitSquelchTone === ReceiveSquelchTone) {
+    //   ToneMode = "TONE SQL";
+    // } else if (TransmitDigitalTone && ReceiveDigitalTone && TransmitDigitalTone === ReceiveDigitalTone) {
+    //   ToneMode = "DCS";
+    // }
     const CTCSS = (TransmitSquelchTone || 100).toFixed(1) + " Hz";
     const DCSNumber = (TransmitDigitalTone || 23);
     const DCS = DCSNumber < 100 ? "0" + DCSNumber : "" + DCSNumber;

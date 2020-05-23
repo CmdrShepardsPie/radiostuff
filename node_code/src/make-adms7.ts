@@ -36,8 +36,8 @@ async function doIt(inFileName: string, outFileName: string): Promise<void> {
     JSON.parse((await readFileAsync("../data/frequencies.json")).toString())
       .map((map: ISimplexFrequency) =>
         ({ Callsign: map.Name, Frequency: { Output: map.Frequency, Input: map.Frequency } }))
-      .filter((filter: IRepeaterStructured) => /FM|Voice|Simplex/i.test(filter.Callsign));
-  // .filter((filter: IRepeaterStructured) => !(/Data|Digital|Packet/i.test(filter.Callsign)));
+      .filter((filter: IRepeaterStructured) => /FM|Voice|Simplex/i.test(filter.Callsign))
+      .filter((filter: IRepeaterStructured) => !(/Data|Digital|Packet/i.test(filter.Callsign)));
 
   const repeaters: IRepeaterStructured[] =
     JSON.parse((await readFileAsync(inFileName)).toString());
@@ -49,6 +49,7 @@ async function doIt(inFileName: string, outFileName: string): Promise<void> {
   repeaters.sort((a: IRepeaterStructured, b: IRepeaterStructured) =>
     a.Location.Distance! > b.Location.Distance! ? 1 :
       a.Location.Distance! < b.Location.Distance! ? -1 : 0);
+  const unique: { [key: string]: boolean } = {};
   const mapped: IAdms7[] = [
     ...simplex,
     ...repeaters
@@ -62,8 +63,16 @@ async function doIt(inFileName: string, outFileName: string): Promise<void> {
         filter.Use === RepeaterUse.Open),
   ]
     .map((map: IRepeaterStructured, index: number): IAdms7 => ({ ...convertToRadio(map), Number: index + 1 }))
+    .filter((filter) => {
+      if (unique[filter.Name]) {
+        return false;
+      }
+      unique[filter.Name] = true;
+      return true;
+    })
     .slice(0, 500)
-    .sort((a: IAdms7, b: IAdms7) => parseFloat(a.Receive) - parseFloat(b.Receive))
+    // .sort((a: IAdms7, b: IAdms7) => parseFloat(a.Receive) - parseFloat(b.Receive))
+    .sort((a: IAdms7, b: IAdms7) => a.Name > b.Name ? 1 : b.Name < a.Name ? -1 : 0)
     .map((map: IAdms7, index: number): IAdms7 => ({ ...map, Number: index + 1 }));
 
   return writeToJsonAndCsv(outFileName, mapped, mapped, false);
@@ -108,11 +117,11 @@ function convertToRadio(repeater: IRepeaterStructured): IAdms7 {
     ToneMode = "DCS";
   }
 
-  if (TransmitSquelchTone && ReceiveSquelchTone && TransmitSquelchTone === ReceiveSquelchTone) {
-    ToneMode = "TONE SQL";
-  } else if (TransmitDigitalTone && ReceiveDigitalTone && TransmitDigitalTone === ReceiveDigitalTone) {
-    ToneMode = "DCS";
-  }
+  // if (TransmitSquelchTone && ReceiveSquelchTone && TransmitSquelchTone === ReceiveSquelchTone) {
+  //   ToneMode = "TONE SQL";
+  // } else if (TransmitDigitalTone && ReceiveDigitalTone && TransmitDigitalTone === ReceiveDigitalTone) {
+  //   ToneMode = "DCS";
+  // }
 
   const CTCSS: string = (TransmitSquelchTone || 100).toFixed(1) + " Hz";
   const DCSNumber: number = (TransmitDigitalTone || 23);

@@ -38,6 +38,7 @@ async function doIt(inFileName, outFileName) {
     });
     repeaters.sort((a, b) => a.Location.Distance > b.Location.Distance ? 1 :
         a.Location.Distance < b.Location.Distance ? -1 : 0);
+    const unique = {};
     const mapped = [
         ...simplex,
         ...repeaters
@@ -48,7 +49,14 @@ async function doIt(inFileName, outFileName) {
             filter.Status !== i_repeater_structured_1.RepeaterStatus.OffAir &&
             filter.Use === i_repeater_structured_1.RepeaterUse.Open),
     ]
-        .map((map, index) => ({ ...convertToRadio(map), Location: index }));
+        .map((map, index) => ({ ...convertToRadio(map), Location: index }))
+        .filter((filter) => {
+        if (unique[filter.Name]) {
+            return false;
+        }
+        unique[filter.Name] = true;
+        return true;
+    });
     const short = mapped
         .slice(0, 128)
         // .sort((a: IChirp, b: IChirp) => a.Frequency - b.Frequency)
@@ -94,15 +102,14 @@ function convertToRadio(repeater) {
     else if (DtcsCode) {
         Tone = "DTCS";
     }
-    if (cToneFreq) {
-        Tone = "TSQL";
-    }
-    else if (DtcsRxCode) {
-        Tone = "DTCS";
-    }
-    if ((rToneFreq && cToneFreq && (rToneFreq !== cToneFreq))) {
-        Tone = "Cross";
-    }
+    // if (cToneFreq) {
+    //   Tone = "TSQL";
+    // } else if (DtcsRxCode) {
+    //   Tone = "DTCS";
+    // }
+    // if ((rToneFreq && cToneFreq && (rToneFreq !== cToneFreq))) {
+    //   Tone = "Cross";
+    // }
     cToneFreq = cToneFreq || 88.5;
     rToneFreq = rToneFreq || 88.5;
     DtcsCode = DtcsCode || 23;

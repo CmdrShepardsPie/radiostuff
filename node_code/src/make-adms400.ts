@@ -25,6 +25,7 @@ import {
   getRepeaterSuffix,
   Mode
 } from "@helpers/radio-helpers";
+import {IAdms7} from "@interfaces/i-adms7";
 
 const log: (...msg: any[]) => void = createLog("Make Adms400");
 
@@ -37,8 +38,8 @@ async function doIt(inFileName: string, outFileName: string): Promise<void> {
     JSON.parse((await readFileAsync("../data/frequencies.json")).toString())
       .map((map: ISimplexFrequency): IRepeaterStructured =>
         ({ Callsign: map.Name, Frequency: { Output: map.Frequency, Input: map.Frequency } }) as IRepeaterStructured)
-      .filter((filter: IRepeaterStructured): boolean => /FM|Voice|Simplex/i.test(filter.Callsign));
-  // .filter((filter: IRepeaterStructured) => !(/Data|Digital|Packet/i.test(filter.Callsign)));
+      .filter((filter: IRepeaterStructured) => /FM|Voice|Simplex/i.test(filter.Callsign))
+      .filter((filter: IRepeaterStructured) => !(/Data|Digital|Packet/i.test(filter.Callsign)));
 
   const repeaters: IRepeaterStructured[] =
     JSON.parse((await readFileAsync(inFileName)).toString());
@@ -52,7 +53,7 @@ async function doIt(inFileName: string, outFileName: string): Promise<void> {
   });
 
   repeaters.sort((a: IRepeaterStructured, b: IRepeaterStructured): number => a.Location.Distance! - b.Location.Distance!);
-
+  const unique: { [key: string]: boolean } = {};
   const mapped: IAdms400[] = [
     ...simplex
       .filter(filterFrequencies(FrequencyBand.$2_m, FrequencyBand.$70_cm)),
@@ -63,15 +64,26 @@ async function doIt(inFileName: string, outFileName: string): Promise<void> {
       .filter(filterMode(Mode.FM, Mode.YSF)),
   ]
     .map((map: IRepeaterStructured, index: number): IAdms400 => ({ ...convertToRadio(map), "Channel Number": index + 1 }))
+    .filter((filter) => {
+      if (unique[filter.Name]) {
+        return false;
+      }
+      unique[filter.Name] = true;
+      return true;
+    })
     .slice(0, 500)
+    .sort((a: IAdms400, b: IAdms400): number => parseFloat(a.CTCSS) - parseFloat(b.CTCSS))
     .sort((a: IAdms400, b: IAdms400): number => a["Receive Frequency"] - b["Receive Frequency"])
+    .sort((a: IAdms400, b: IAdms400): number => parseFloat(a.CTCSS) - parseFloat(b.CTCSS))
+    .sort((a: IAdms400, b: IAdms400): number => a["Receive Frequency"] - b["Receive Frequency"])
+    // .sort((a: IAdms400, b: IAdms400) => a.Name > b.Name ? 1 : b.Name < a.Name ? -1 : 0)
     .map((map: IAdms400, index: number): IAdms400 => ({ ...map, "Channel Number": index + 1 }));
 
   return writeToJsonAndCsv(outFileName, mapped, mapped);
 }
 
 function convertToRadio(repeater: IRepeaterStructured): IAdms400 {
-  const Name: string = `${buildName(repeater)} ${getRepeaterSuffix(repeater)}`;
+  const Name: string = `${buildName(repeater)}`; // ${getRepeaterSuffix(repeater)}`;
 
   const Receive: number = repeater.Frequency.Output;
   const Transmit: number = repeater.Frequency.Input;
@@ -90,11 +102,11 @@ function convertToRadio(repeater: IRepeaterStructured): IAdms400 {
     ToneMode = Adms400ToneMode.DCS; // "DCS";
   }
 
-  if (TransmitSquelchTone && ReceiveSquelchTone && TransmitSquelchTone === ReceiveSquelchTone) {
-    ToneMode = Adms400ToneMode.T_Sql; // "TONE SQL";
-  } else if (TransmitDigitalTone && ReceiveDigitalTone && TransmitDigitalTone === ReceiveDigitalTone) {
-    // ToneMode = Adms400ToneMode.T_DCS; // "DCS";
-  }
+  // if (TransmitSquelchTone && ReceiveSquelchTone && TransmitSquelchTone === ReceiveSquelchTone) {
+  //   ToneMode = Adms400ToneMode.T_Sql; // "TONE SQL";
+  // } else if (TransmitDigitalTone && ReceiveDigitalTone && TransmitDigitalTone === ReceiveDigitalTone) {
+  //   ToneMode = Adms400ToneMode.T_DCS; // "DCS";
+  // }
 
   const CTCSS: Adms400CtcssTone = ((TransmitSquelchTone || 100).toFixed(1) + " Hz") as Adms400CtcssTone;
   const DCS: Adms400DcsTone = buildDCS(TransmitDigitalTone) as Adms400DcsTone;
