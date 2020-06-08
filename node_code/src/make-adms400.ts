@@ -65,10 +65,11 @@ async function doIt(inFileName: string, outFileName: string): Promise<void> {
   ]
     .map((map: IRepeaterStructured, index: number): IAdms400 => ({ ...convertToRadio(map), "Channel Number": index + 1 }))
     .filter((filter) => {
-      if (unique[filter.Name]) {
+      const name = `${filter["Receive Frequency"]} ${filter["Transmit Frequency"]} ${filter["CTCSS"]} ${filter["DCS"]}`
+      if (unique[name]) {
         return false;
       }
-      unique[filter.Name] = true;
+      unique[name] = true;
       return true;
     })
     .slice(0, 500)
@@ -83,7 +84,7 @@ async function doIt(inFileName: string, outFileName: string): Promise<void> {
 }
 
 function convertToRadio(repeater: IRepeaterStructured): IAdms400 {
-  const Name: string = `${buildName(repeater)}`; // ${getRepeaterSuffix(repeater)}`;
+  const Name: string = `${buildName(repeater)} ${getRepeaterSuffix(repeater)}`;
 
   const Receive: number = repeater.Frequency.Output;
   const Transmit: number = repeater.Frequency.Input;

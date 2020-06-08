@@ -45,22 +45,25 @@ function filterMinimumRepeaterCount(count, repeaters) {
 exports.filterMinimumRepeaterCount = filterMinimumRepeaterCount;
 function buildName(repeater) {
     let Name = "";
-    // if (repeater.Callsign) {
-    //   Name += repeater.Callsign.trim();
-    // } else if (repeater.Location && repeater.Location.Local) {
-    //   Name += repeater.Location.Local.trim();
-    // } else if (repeater.Frequency && repeater.Frequency.Output) {
-    //   Name += repeater.Frequency.Output.toString().trim();
+    if (repeater.Callsign) {
+        Name += repeater.Callsign.trim();
+    }
+    else if (repeater.Location && repeater.Location.Local) {
+        Name += repeater.Location.Local.trim();
+    }
+    else if (repeater.Frequency && repeater.Frequency.Output) {
+        Name += repeater.Frequency.Output.toString().trim();
+    }
+    // Name += repeater.Frequency.Output.toString().trim().substr(1, 6);
+    // if (repeater.SquelchTone != null && repeater.SquelchTone.Input != null) {
+    //   Name += " " + repeater.SquelchTone.Input.toString().trim().substr(0, 6);
     // }
-    Name += repeater.Frequency.Output.toString().trim();
-    if (repeater.SquelchTone != null && repeater.SquelchTone.Input != null) {
-        Name += " " + repeater.SquelchTone.Input.toString().trim();
-    }
-    if (repeater.DigitalTone != null && repeater.DigitalTone.Input != null) {
-        Name += " " + repeater.DigitalTone.Input.toString().trim();
-    }
+    // if (repeater.DigitalTone != null && repeater.DigitalTone.Input != null) {
+    //   Name += " " + repeater.DigitalTone.Input.toString().trim().substr(0, 6);
+    // }
     Name = Name.replace(/[^0-9.a-zA-Z \/]/g, " ").trim();
-    Name = Name.replace(/,/g, " ").replace(/\s+/g, " ").trim();
+    // Name = Name.replace(/[^0-9 ]/g, "").trim();
+    Name = Name.replace(/,/g, "").replace(/\s+/g, " ").trim();
     Name = Name.substr(0, 16).trim();
     return Name;
 }

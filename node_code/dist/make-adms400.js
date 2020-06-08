@@ -35,10 +35,11 @@ async function doIt(inFileName, outFileName) {
     ]
         .map((map, index) => ({ ...convertToRadio(map), "Channel Number": index + 1 }))
         .filter((filter) => {
-        if (unique[filter.Name]) {
+        const name = `${filter["Receive Frequency"]} ${filter["Transmit Frequency"]} ${filter["CTCSS"]} ${filter["DCS"]}`;
+        if (unique[name]) {
             return false;
         }
-        unique[filter.Name] = true;
+        unique[name] = true;
         return true;
     })
         .slice(0, 500)
@@ -51,7 +52,7 @@ async function doIt(inFileName, outFileName) {
     return fs_helpers_1.writeToJsonAndCsv(outFileName, mapped, mapped);
 }
 function convertToRadio(repeater) {
-    const Name = `${radio_helpers_1.buildName(repeater)}`; // ${getRepeaterSuffix(repeater)}`;
+    const Name = `${radio_helpers_1.buildName(repeater)} ${radio_helpers_1.getRepeaterSuffix(repeater)}`;
     const Receive = repeater.Frequency.Output;
     const Transmit = repeater.Frequency.Input;
     const OffsetFrequency = repeater.Frequency.Input - repeater.Frequency.Output;
