@@ -1,29 +1,29 @@
-import "module-alias/register";
+import 'module-alias/register';
 
-import { readFileAsync, writeToJsonAndCsv } from "@helpers/fs-helpers";
-import { createLog } from "@helpers/log-helpers";
-import { ChirpDuplex, ChirpMode, ChirpTone, IChirp } from "@interfaces/i-chirp";
-import { IRepeaterStructured, RepeaterStatus, RepeaterUse } from "@interfaces/i-repeater-structured";
-import { ISimplexFrequency } from "@interfaces/i-simplex-frequency";
-import gpsDistance, { Point } from "gps-distance";
+import { readFileAsync, writeToJsonAndCsv } from '@helpers/fs-helpers';
+import { createLog } from '@helpers/log-helpers';
+import { ChirpDuplex, ChirpMode, ChirpTone, IChirp } from '@interfaces/i-chirp';
+import { IRepeaterStructured, RepeaterStatus, RepeaterUse } from '@interfaces/i-repeater-structured';
+import { ISimplexFrequency } from '@interfaces/i-simplex-frequency';
+import gpsDistance, { Point } from 'gps-distance';
 
-const log: (...msg: any[]) => void = createLog("Make Chirp");
+const log: (...msg: any[]) => void = createLog('Make Chirp');
 
 const chirp: IChirp = {
   Location: null as any,
-  Name: "",
+  Name: '',
   Frequency: null as any,
-  Duplex: "",
+  Duplex: '',
   Offset: null as any,
-  Tone: "",
+  Tone: '',
   rToneFreq: null as any,
   cToneFreq: null as any,
   DtcsCode: null as any,
   DtcsRxCode: null as any,
-  DtcsPolarity: "NN",
-  Mode: "FM",
+  DtcsPolarity: 'NN',
+  Mode: 'FM',
   TStep: 5,
-  Comment: "",
+  Comment: '',
 };
 
 const myPoint: Point = [39.627071500, -104.893322500]; // 4982 S Ulster St
@@ -31,7 +31,7 @@ const myPoint: Point = [39.627071500, -104.893322500]; // 4982 S Ulster St
 
 async function doIt(inFileName: string, outFileName: string): Promise<void> {
   const simplex: IRepeaterStructured[] =
-    JSON.parse((await readFileAsync("../data/frequencies.json")).toString())
+    JSON.parse((await readFileAsync('../data/frequencies.json')).toString())
       .map((map: ISimplexFrequency) =>
         ({ Callsign: map.Name, Frequency: { Output: map.Frequency, Input: map.Frequency } }))
       .filter((filter: IRepeaterStructured) => /FM|Voice|Simplex/i.test(filter.Callsign))
@@ -79,48 +79,48 @@ async function doIt(inFileName: string, outFileName: string): Promise<void> {
     // .sort((a: IChirp, b: IChirp) => a.Frequency - b.Frequency)
     .map((map: IChirp, index: number): IChirp => ({ ...map, Location: index }));
 
-  await writeToJsonAndCsv(outFileName + "-short", short);
-  await writeToJsonAndCsv(outFileName + "-long", long);
+  await writeToJsonAndCsv(outFileName + '-short', short);
+  await writeToJsonAndCsv(outFileName + '-long', long);
 }
 
 function convertToRadio(repeater: IRepeaterStructured): IChirp {
-  let Name: string = "";
+  let Name: string = '';
 
   if (repeater.Callsign) {
     Name += repeater.Callsign.trim();
   }
 
   if (repeater.Location && repeater.Location.Local) {
-    Name += (Name ? " " : "") + repeater.Location.Local.trim();
+    Name += (Name ? ' ' : '') + repeater.Location.Local.trim();
   }
 
   if (repeater.Frequency && repeater.Frequency.Output) {
-    Name += (Name ? " " : "") + repeater.Frequency.Output.toString().trim();
+    Name += (Name ? ' ' : '') + repeater.Frequency.Output.toString().trim();
   }
 
-  Name = Name.replace(/[^0-9.a-zA-Z \/]/g, "").trim();
-  Name = Name.replace(/[ ]+/g, " ").trim();
+  Name = Name.replace(/[^0-9.a-zA-Z \/]/g, '').trim();
+  Name = Name.replace(/[ ]+/g, ' ').trim();
   Name = Name.substr(0, 8).trim();
 
   const Frequency: number = repeater.Frequency.Output;
   let Offset: number = repeater.Frequency.Input - repeater.Frequency.Output;
-  const Duplex: ChirpDuplex = Offset > 0 ? "+" : Offset < 0 ? "-" : "";
+  const Duplex: ChirpDuplex = Offset > 0 ? '+' : Offset < 0 ? '-' : '';
   Offset = Math.abs(Math.round(Offset * 100) / 100);
   let rToneFreq: number | undefined = (repeater.SquelchTone && repeater.SquelchTone.Input);
   let cToneFreq: number | undefined = (repeater.SquelchTone && repeater.SquelchTone.Output);
   let DtcsCode: number | undefined = (repeater.DigitalTone && repeater.DigitalTone.Input);
   let DtcsRxCode: number | undefined = (repeater.DigitalTone && repeater.DigitalTone.Output);
-  let Tone: ChirpTone = "";
-  const Mode: ChirpMode = "FM";
+  let Tone: ChirpTone = '';
+  const Mode: ChirpMode = 'FM';
   let Comment: string = `${repeater.StateID} ${repeater.ID} ${repeater.Location && repeater.Location.Distance && repeater.Location.Distance.toFixed(2)} ${repeater.Location && repeater.Location.State} ${repeater.Location && repeater.Location.County} ${repeater.Location && repeater.Location.Local} ${repeater.Callsign}`;
-  Comment = Comment.replace(/undefined/g, " ").replace(/\s+/g, " ").trim();
+  Comment = Comment.replace(/undefined/g, ' ').replace(/\s+/g, ' ').trim();
   // `${item["ST/PR"] || ""} ${item.County || ""} ${item.Location || ""} ${item.Call || ""} ${item.Sponsor || ""} ${item.Affiliate || ""} ${item.Frequency} ${item.Use || ""} ${item["Op Status"] || ""} ${item.Comment || ""}`.replace(/\s+/g, " ");
   // Comment = Comment.trim().replace(",", "").substring(0, 31).trim();
 
   if (rToneFreq) {
-    Tone = "Tone";
+    Tone = 'Tone';
   } else if (DtcsCode) {
-    Tone = "DTCS";
+    Tone = 'DTCS';
   }
 
   // if (cToneFreq) {
@@ -170,7 +170,7 @@ async function start(): Promise<void> {
 
 // await doIt("data/repeaters/groups/CO/Colorado Springs - Call.json", "data/repeaters/chirp/groups/CO/Colorado Springs - Call");
 // await doIt("data/repeaters/results/CO/Colorado Springs.json", "data/repeaters/chirp/CO/Colorado Springs");
-  await doIt("../data/repeaters/converted/CO.json", "../data/repeaters/chirp/CO");
+  await doIt('../data/repeaters/converted/CO.json', '../data/repeaters/chirp/CO');
   // await doIt("../data/repeaters/groups/combined/CO - Call.json", "../data/repeaters/chirp/groups/CO - Call");
 }
 

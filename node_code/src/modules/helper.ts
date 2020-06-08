@@ -20,33 +20,33 @@ export function getText(el: Element): string {
   if (el) {
     let text: string = el.innerHTML;
     if (text) {
-      text = text.replace(/<script>.*<\/script>/gi, " ");
-      text = text.replace(/<[^>]*>/gi, " ");
-      text = text.replace(/\n/gi, " ");
-      text = text.replace(/\s+/gi, " ");
+      text = text.replace(/<script>.*<\/script>/gi, ' ');
+      text = text.replace(/<[^>]*>/gi, ' ');
+      text = text.replace(/\n/gi, ' ');
+      text = text.replace(/\s+/gi, ' ');
       return text.trim();
     }
   }
-  return "";
+  return '';
 }
 
 export function mapDir(dir: string): number {
   switch (dir) {
-    case "N":
+    case 'N':
       return 1;
-    case "NE":
+    case 'NE':
       return 2;
-    case "E":
+    case 'E':
       return 3;
-    case "SE":
+    case 'SE':
       return 4;
-    case "S":
+    case 'S':
       return 5;
-    case "SW":
+    case 'SW':
       return 6;
-    case "W":
+    case 'W':
       return 7;
-    case "NW":
+    case 'NW':
       return 8;
   }
   return 0;

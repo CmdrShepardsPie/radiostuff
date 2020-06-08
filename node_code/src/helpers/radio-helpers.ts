@@ -1,4 +1,4 @@
-import { IRepeaterStructured, RepeaterStatus, RepeaterUse } from "@interfaces/i-repeater-structured";
+import { IRepeaterStructured, RepeaterStatus, RepeaterUse } from '@interfaces/i-repeater-structured';
 
 export enum FrequencyBand {
   $2_m,
@@ -52,7 +52,7 @@ export function filterMinimumRepeaterCount(count: number, repeaters: IRepeaterSt
 }
 
 export function buildName(repeater: IRepeaterStructured): string {
-  let Name: string = "";
+  let Name: string = '';
 
   if (repeater.Callsign) {
     Name += repeater.Callsign.trim();
@@ -69,45 +69,45 @@ export function buildName(repeater: IRepeaterStructured): string {
   // if (repeater.DigitalTone != null && repeater.DigitalTone.Input != null) {
   //   Name += " " + repeater.DigitalTone.Input.toString().trim().substr(0, 6);
   // }
-  Name = Name.replace(/[^0-9.a-zA-Z \/]/g, " ").trim();
+  Name = Name.replace(/[^0-9.a-zA-Z \/]/g, ' ').trim();
   // Name = Name.replace(/[^0-9 ]/g, "").trim();
-  Name = Name.replace(/,/g, "").replace(/\s+/g, " ").trim();
+  Name = Name.replace(/,/g, '').replace(/\s+/g, ' ').trim();
   Name = Name.substr(0, 16).trim();
 
   return Name;
 }
 
 export function getRepeaterSuffix(repeater: IRepeaterStructured): string {
-  let Name: string = "";
+  let Name: string = '';
   if (!repeater.Digital && repeater.Location) {
-    Name += "F";
+    Name += 'F';
   }
   if (repeater.Digital && repeater.Digital.YSF) {
-    Name += "Y";
+    Name += 'Y';
   }
   if (repeater.Digital && repeater.Digital.ATV) {
-    Name += "T";
+    Name += 'T';
   }
   if (repeater.Digital && repeater.Digital.DMR) {
-    Name += "M";
+    Name += 'M';
   }
   if (repeater.Digital && repeater.Digital.DStar) {
-    Name += "S";
+    Name += 'S';
   }
   if (repeater.Digital && repeater.Digital.P25) {
-    Name += "P";
+    Name += 'P';
   }
   if (repeater.VOIP && repeater.VOIP.Wires) {
-    Name += "W";
+    Name += 'W';
   }
   if (repeater.VOIP && repeater.VOIP.AllStar) {
-    Name += "L";
+    Name += 'L';
   }
   if (repeater.VOIP && repeater.VOIP.EchoLink) {
-    Name += "E";
+    Name += 'E';
   }
   if (repeater.VOIP && repeater.VOIP.IRLP) {
-    Name += "I";
+    Name += 'I';
   }
   return Name;
 }
@@ -118,13 +118,13 @@ export function getRepeaterCount(name: string, all: IRepeaterStructured[]): numb
 
 export function buildComment(repeater: IRepeaterStructured): string {
   let Comment: string = `${repeater.StateID} ${repeater.ID} ${repeater.Location && (repeater.Location.Distance != null) && repeater.Location.Distance.toFixed(2)} ${repeater.Location && repeater.Location.State} ${repeater.Location && repeater.Location.County} ${repeater.Location && repeater.Location.Local} ${repeater.Callsign}`;
-  Comment = Comment.replace(/undefined/g, " ").replace(/,/g, " ").replace(/\s+/g, " ").trim();
+  Comment = Comment.replace(/undefined/g, ' ').replace(/,/g, ' ').replace(/\s+/g, ' ').trim();
   return Comment;
 }
 
 export function buildDCS(code: number | undefined): string {
-  const DCSa: string[] = (code || 23).toString().split("");
-  const DCS: string[] = ["0", "0", "0"];
+  const DCSa: string[] = (code || 23).toString().split('');
+  const DCS: string[] = ['0', '0', '0'];
   DCS.splice(DCS.length - DCSa.length, DCSa.length, ...DCSa);
-  return DCS.join("");
+  return DCS.join('');
 }

@@ -1,8 +1,8 @@
-import { dirExists, makeDirs, readFileAsync, writeFileAsync } from "@helpers/fs-helpers";
-import chalk from "chalk";
-import { createOut } from "@helpers/log-helpers";
+import { dirExists, makeDirs, readFileAsync, writeFileAsync } from '@helpers/fs-helpers';
+import chalk from 'chalk';
+import { createOut } from '@helpers/log-helpers';
 
-const { log, write }: { log: (...msg: any[]) => void; write: (...msg: any[]) => void } = createOut("Cache Helper");
+const { log, write }: { log: (...msg: any[]) => void; write: (...msg: any[]) => void } = createOut('Cache Helper');
 
 const cacheStart: number = Date.now();
 const cacheLogFileName: string = `../data/repeaters/_cache/cache-log.json`;

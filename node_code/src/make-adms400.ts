@@ -1,9 +1,9 @@
-import "module-alias/register";
+import 'module-alias/register';
 
-import { readFileAsync, writeToJsonAndCsv } from "@helpers/fs-helpers";
-import { createLog } from "@helpers/log-helpers";
-import { IRepeaterStructured } from "@interfaces/i-repeater-structured";
-import { ISimplexFrequency } from "@interfaces/i-simplex-frequency";
+import { readFileAsync, writeToJsonAndCsv } from '@helpers/fs-helpers';
+import { createLog } from '@helpers/log-helpers';
+import { IRepeaterStructured } from '@interfaces/i-repeater-structured';
+import { ISimplexFrequency } from '@interfaces/i-simplex-frequency';
 import {
   Adms400,
   Adms400CtcssTone,
@@ -12,9 +12,9 @@ import {
   Adms400OffsetFrequency,
   Adms400ToneMode,
   IAdms400,
-} from "@interfaces/i-adms400";
-import gpsDistance, { Point } from "gps-distance";
-import chalk from "chalk";
+} from '@interfaces/i-adms400';
+import gpsDistance, { Point } from 'gps-distance';
+import chalk from 'chalk';
 import {
   buildComment,
   buildDCS,
@@ -24,10 +24,10 @@ import {
   FrequencyBand,
   getRepeaterSuffix,
   Mode
-} from "@helpers/radio-helpers";
-import {IAdms7} from "@interfaces/i-adms7";
+} from '@helpers/radio-helpers';
+import { IAdms7 } from '@interfaces/i-adms7';
 
-const log: (...msg: any[]) => void = createLog("Make Adms400");
+const log: (...msg: any[]) => void = createLog('Make Adms400');
 
 const homePoint: Point = [39.627071500, -104.893322500]; // 4982 S Ulster St
 const DenverPoint: Point = [39.742043, -104.991531];
@@ -35,7 +35,7 @@ const ColoradoSpringsPoint: Point = [38.846127, -104.800644];
 
 async function doIt(inFileName: string, outFileName: string): Promise<void> {
   const simplex: IRepeaterStructured[] =
-    JSON.parse((await readFileAsync("../data/frequencies.json")).toString())
+    JSON.parse((await readFileAsync('../data/frequencies.json')).toString())
       .map((map: ISimplexFrequency): IRepeaterStructured =>
         ({ Callsign: map.Name, Frequency: { Output: map.Frequency, Input: map.Frequency } }) as IRepeaterStructured)
       .filter((filter: IRepeaterStructured) => /FM|Voice|Simplex/i.test(filter.Callsign))
@@ -63,9 +63,9 @@ async function doIt(inFileName: string, outFileName: string): Promise<void> {
       // .filter(filterDistance(100))
       .filter(filterMode(Mode.FM, Mode.YSF)),
   ]
-    .map((map: IRepeaterStructured, index: number): IAdms400 => ({ ...convertToRadio(map), "Channel Number": index + 1 }))
+    .map((map: IRepeaterStructured, index: number): IAdms400 => ({ ...convertToRadio(map), 'Channel Number': index + 1 }))
     .filter((filter) => {
-      const name = `${filter["Receive Frequency"]} ${filter["Transmit Frequency"]} ${filter["CTCSS"]} ${filter["DCS"]}`
+      const name = `${filter['Receive Frequency']} ${filter['Transmit Frequency']} ${filter.CTCSS} ${filter.DCS}`;
       if (unique[name]) {
         return false;
       }
@@ -74,11 +74,11 @@ async function doIt(inFileName: string, outFileName: string): Promise<void> {
     })
     .slice(0, 500)
     .sort((a: IAdms400, b: IAdms400): number => parseFloat(a.CTCSS) - parseFloat(b.CTCSS))
-    .sort((a: IAdms400, b: IAdms400): number => a["Receive Frequency"] - b["Receive Frequency"])
+    .sort((a: IAdms400, b: IAdms400): number => a['Receive Frequency'] - b['Receive Frequency'])
     .sort((a: IAdms400, b: IAdms400): number => parseFloat(a.CTCSS) - parseFloat(b.CTCSS))
-    .sort((a: IAdms400, b: IAdms400): number => a["Receive Frequency"] - b["Receive Frequency"])
+    .sort((a: IAdms400, b: IAdms400): number => a['Receive Frequency'] - b['Receive Frequency'])
     // .sort((a: IAdms400, b: IAdms400) => a.Name > b.Name ? 1 : b.Name < a.Name ? -1 : 0)
-    .map((map: IAdms400, index: number): IAdms400 => ({ ...map, "Channel Number": index + 1 }));
+    .map((map: IAdms400, index: number): IAdms400 => ({ ...map, 'Channel Number': index + 1 }));
 
   return writeToJsonAndCsv(outFileName, mapped, mapped);
 }
@@ -109,19 +109,19 @@ function convertToRadio(repeater: IRepeaterStructured): IAdms400 {
   //   ToneMode = Adms400ToneMode.T_DCS; // "DCS";
   // }
 
-  const CTCSS: Adms400CtcssTone = ((TransmitSquelchTone || 100).toFixed(1) + " Hz") as Adms400CtcssTone;
+  const CTCSS: Adms400CtcssTone = ((TransmitSquelchTone || 100).toFixed(1) + ' Hz') as Adms400CtcssTone;
   const DCS: Adms400DcsTone = buildDCS(TransmitDigitalTone) as Adms400DcsTone;
 
   return new Adms400({
     // "Channel Number": number;
-    "Receive Frequency": Receive.toFixed(5) as any,
-    "Transmit Frequency": Transmit.toFixed(5) as any,
-    "Offset Frequency": convertOffsetFrequency(OffsetFrequency),
-    "Offset Direction": convertOffsetDirection(OffsetFrequency),
+    'Receive Frequency': Receive.toFixed(5) as any,
+    'Transmit Frequency': Transmit.toFixed(5) as any,
+    'Offset Frequency': convertOffsetFrequency(OffsetFrequency),
+    'Offset Direction': convertOffsetDirection(OffsetFrequency),
     // "Operating Mode": Adms400OperatingMode,
     Name,
     // "Show Name": Adms400ShowName,
-    "Tone Mode": ToneMode,
+    'Tone Mode': ToneMode,
     CTCSS,
     DCS,
     // "Tx Power": Adms400TxPower,
@@ -154,7 +154,7 @@ function convertOffsetFrequency(OffsetFrequency: number): Adms400OffsetFrequency
     case 7.6:
       return Adms400OffsetFrequency.$7_60_MHz;
   }
-  log(chalk.red("ERROR"), "convertOffsetFrequency", "unknown", OffsetFrequency);
+  log(chalk.red('ERROR'), 'convertOffsetFrequency', 'unknown', OffsetFrequency);
   return Adms400OffsetFrequency.None;
 }
 
@@ -166,8 +166,8 @@ function convertOffsetDirection(OffsetFrequency: number): Adms400OffsetDirection
   } else if (OffsetFrequency > 0) {
     return Adms400OffsetDirection.Plus;
   }
-  log(chalk.red("ERROR"), "convertOffsetDirection", "unknown", OffsetFrequency);
+  log(chalk.red('ERROR'), 'convertOffsetDirection', 'unknown', OffsetFrequency);
   return Adms400OffsetDirection.Simplex;
 }
 
-export = doIt("../data/repeaters/converted/CO.json", "../data/repeaters/adms400/CO");
+export = doIt('../data/repeaters/converted/CO.json', '../data/repeaters/adms400/CO');

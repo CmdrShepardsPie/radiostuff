@@ -1,10 +1,10 @@
-import { readFileAsync, writeToJsonAndCsv } from "@helpers/fs-helpers";
-import { numberToString } from "@helpers/helpers";
-import { createLog } from "@helpers/log-helpers";
-import { IRepeaterRaw } from "@interfaces/i-repeater-raw";
-import chalk from "chalk";
+import { readFileAsync, writeToJsonAndCsv } from '@helpers/fs-helpers';
+import { numberToString } from '@helpers/helpers';
+import { createLog } from '@helpers/log-helpers';
+import { IRepeaterRaw } from '@interfaces/i-repeater-raw';
+import chalk from 'chalk';
 
-const log: (...msg: any[]) => void = createLog("Group By");
+const log: (...msg: any[]) => void = createLog('Group By');
 
 async function doIt(groupBy: keyof IRepeaterRaw, inFileName: string, outFileName: string): Promise<void> {
   const fileData: Buffer = await readFileAsync(inFileName); // await getAllFilesFromDirectory("./repeaters/data/CO/", ".json") as IRepeater[];
@@ -13,7 +13,7 @@ async function doIt(groupBy: keyof IRepeaterRaw, inFileName: string, outFileName
   // Only grouping by the keys in the first row. It"s not comprehensive but contains the essentials.
   // const keys = Object.keys(repeaters[0]) as Array<keyof IRepeater>;
   // for (const key of keys) {
-  log(chalk.green("Process"), chalk.blue("Group"), groupBy, chalk.yellow("In"), inFileName, chalk.cyan("Out"), outFileName);
+  log(chalk.green('Process'), chalk.blue('Group'), groupBy, chalk.yellow('In'), inFileName, chalk.cyan('Out'), outFileName);
   const grouped: IRepeaterRaw[] = group(groupBy, repeaters);
   await writeToJsonAndCsv(outFileName, grouped);
   // }
@@ -23,7 +23,7 @@ function group(groupBy: keyof IRepeaterRaw, repeaters: IRepeaterRaw[]): IRepeate
   const keyedGroups: { [key: string]: IRepeaterRaw[] } = {};
   repeaters.forEach((repeater: IRepeaterRaw) => {
     const keyVal: number | undefined | string = repeater[groupBy];
-    if (keyVal !== undefined && keyVal !== null && keyVal !== "") {
+    if (keyVal !== undefined && keyVal !== null && keyVal !== '') {
       if (!keyedGroups[keyVal]) {
         keyedGroups[keyVal] = [];
       }
@@ -68,7 +68,7 @@ async function start(): Promise<void> {
   // await doIt("Call",
   //   `../data/repeaters/results/CO/Colorado Springs.json`,
   //   `../data/repeaters/groups/CO/Colorado Springs - Call`);
-  await doIt("Call",
+  await doIt('Call',
     `../data/repeaters/combined/CO.json`,
     `../data/repeaters/groups/combined/CO - Call`);
 }

@@ -1,8 +1,8 @@
-import "module-alias/register";
+import 'module-alias/register';
 
-import { writeFileAsync } from "@helpers/fs-helpers";
-import { powAndFix } from "@helpers/numbers";
-import { IInputFrequency } from "@interfaces/i-input-frequency";
+import { writeFileAsync } from '@helpers/fs-helpers';
+import { powAndFix } from '@helpers/numbers';
+import { IInputFrequency } from '@interfaces/i-input-frequency';
 
 const range2m: IInputFrequency[] = [
   // Channels
@@ -56,7 +56,7 @@ const points: number = 5;
       if (!existingFrequencies[frequency]) {
         frequencies.push(definition);
         existingFrequencies[frequency] = true;
-        console.log("step", step, "start", start, "end", end, "i", i, "frequency", frequency);
+        console.log('step', step, 'start', start, 'end', end, 'i', i, 'frequency', frequency);
       }
     }
   });

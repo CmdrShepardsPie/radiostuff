@@ -1,13 +1,13 @@
-import { wait } from "@helpers/helpers";
-import { createOut } from "@helpers/log-helpers";
-import { IRepeaterRaw } from "@interfaces/i-repeater-raw";
-import Axios, { AxiosResponse } from "axios";
-import chalk from "chalk";
-import { JSDOM } from "jsdom";
-import { getNumber, getText, getTextOrNumber } from "./helper";
-import { getCache, setCache } from "@helpers/cache-helper";
+import { wait } from '@helpers/helpers';
+import { createOut } from '@helpers/log-helpers';
+import { IRepeaterRaw } from '@interfaces/i-repeater-raw';
+import Axios, { AxiosResponse } from 'axios';
+import chalk from 'chalk';
+import { JSDOM } from 'jsdom';
+import { getNumber, getText, getTextOrNumber } from './helper';
+import { getCache, setCache } from '@helpers/cache-helper';
 
-const { log, write }: { log: (...msg: any[]) => void; write: (...msg: any[]) => void } = createOut("Scraper");
+const { log, write }: { log: (...msg: any[]) => void; write: (...msg: any[]) => void } = createOut('Scraper');
 // const write = createWrite("Scraper");
 
 export default class Scraper {
@@ -16,15 +16,15 @@ export default class Scraper {
   private readonly url: string;
 
   constructor(private location: string | number, private distance: number) {
-    log(chalk.green("New Scraper"), location, distance);
+    log(chalk.green('New Scraper'), location, distance);
     this.url = `https://www.repeaterbook.com/repeaters/prox_result.php?city=${encodeURIComponent(location.toString())}&distance=${distance}&Dunit=m&band1=%25&band2=&freq=&call=&features%5B%5D=&status_id=%25&use=%25&order=distance_calc%2C+state_id%2C+%60call%60+ASC`;
   }
 
   public async process(): Promise<IRepeaterRaw[]> {
-    log(chalk.green("Process"));
+    log(chalk.green('Process'));
 
     const parts: string[] = this.location.toString().split(`,`);
-    const baseKey: string = `${(parts[1] || ".").trim()}/${parts[0].trim()}.html`;
+    const baseKey: string = `${(parts[1] || '.').trim()}/${parts[0].trim()}.html`;
     const page: string = await this.getUrl(this.url, baseKey);
     const dom: JSDOM = new JSDOM(page);
     await this.getRepeaterList(dom.window.document);
@@ -32,22 +32,22 @@ export default class Scraper {
   }
 
   private async getRepeaterList(document: Document): Promise<void> {
-    log(chalk.green("Get Repeater List"));
+    log(chalk.green('Get Repeater List'));
 
-    const table: HTMLTableElement | null = document.querySelector("table.w3-table.w3-striped.w3-responsive");
+    const table: HTMLTableElement | null = document.querySelector('table.w3-table.w3-striped.w3-responsive');
     if (table) {
-      const rows: HTMLTableRowElement[] = [...table.querySelectorAll<HTMLTableRowElement>("tbody > tr")];
+      const rows: HTMLTableRowElement[] = [...table.querySelectorAll<HTMLTableRowElement>('tbody > tr')];
       const headerRow: any | undefined = rows.shift();
       if (headerRow) {
-        const headerCells: HTMLTableHeaderCellElement[] = [...headerRow.querySelectorAll("th")];
+        const headerCells: HTMLTableHeaderCellElement[] = [...headerRow.querySelectorAll('th')];
         const headers: string[] = headerCells.map((th: HTMLTableHeaderCellElement): string => getText(th));
         for (const row of rows) {
           const data: { [key: string]: string | number | undefined } = {};
-          const cells: HTMLTableDataCellElement[] = [...row.querySelectorAll("td")];
+          const cells: HTMLTableDataCellElement[] = [...row.querySelectorAll('td')];
           cells.forEach((td: HTMLTableDataCellElement, index: number): void => {
             data[headers[index]] = getTextOrNumber(td);
           });
-          const link: HTMLAnchorElement | null = cells[0].querySelector("a");
+          const link: HTMLAnchorElement | null = cells[0].querySelector('a');
           if (link) {
             // write("^");
             Object.assign(data, await this.getRepeaterDetails(link.href));
@@ -60,7 +60,7 @@ export default class Scraper {
   }
 
   private async getRepeaterDetails(href: string): Promise<IRepeaterRaw> {
-    const urlParams: string = href.split("?")[1];
+    const urlParams: string = href.split('?')[1];
     const keyParts: RegExpMatchArray = urlParams.match(/state_id=(\d+)&ID=(\d+)/) || [];
     const key: string = `${keyParts[1]}/${keyParts[2]}.html`;
     const page: string = await this.getUrl(`https://www.repeaterbook.com/repeaters/${href}`, key);
@@ -68,7 +68,7 @@ export default class Scraper {
     const data: { [key: string]: string | number | undefined } = {};
     data.state_id = keyParts[1];
     data.ID = keyParts[2];
-    const menus: HTMLAnchorElement[] = [...dom.window.document.querySelectorAll<HTMLAnchorElement>("#cssmenu a")];
+    const menus: HTMLAnchorElement[] = [...dom.window.document.querySelectorAll<HTMLAnchorElement>('#cssmenu a')];
     const locationRegex: RegExp = /(-?\d*\.?\d*)\+(-?\d*\.?\d*)/i;
     for (const menu of menus) {
       const locationMatch: RegExpMatchArray | null = menu.href.match(locationRegex);
@@ -84,15 +84,15 @@ export default class Scraper {
         break;
       }
     }
-    const table: Element | null = dom.window.document.querySelector("table.w3-table.w3-responsive");
+    const table: Element | null = dom.window.document.querySelector('table.w3-table.w3-responsive');
     if (table) {
-      const rows: HTMLTableRowElement[] = [...table.querySelectorAll<HTMLTableRowElement>("tbody > tr")];
+      const rows: HTMLTableRowElement[] = [...table.querySelectorAll<HTMLTableRowElement>('tbody > tr')];
       for (const row of rows) {
-        const cells: HTMLTableDataCellElement[] = [...row.querySelectorAll("td")];
+        const cells: HTMLTableDataCellElement[] = [...row.querySelectorAll('td')];
         const title: string = getText(cells[0]);
         const value: number | string = getTextOrNumber(cells[1]);
-        const dataKey: string = title.split(":")[0].trim();
-        const dataVal: string = title.split(":")[1];
+        const dataKey: string = title.split(':')[0].trim();
+        const dataVal: string = title.split(':')[1];
         let updated: number | string | undefined;
         if (dataVal) {
           const date: RegExpMatchArray | null = dataVal.match(/(\d{4}-\d{2}-\d{2})/);
@@ -107,13 +107,13 @@ export default class Scraper {
   }
 
   private async getUrl(url: string, cacheKey?: string): Promise<string> {
-    write(` ${(cacheKey || url).replace(".html", "")}:`);
+    write(` ${(cacheKey || url).replace('.html', '')}:`);
     // log(chalk.green("Get URL"), url, cacheKey);
 
     const cache: string | undefined = await getCache(cacheKey || url);
     if (cache) {
       // log(chalk.yellow("Cached"), url, cacheKey);
-      write(chalk.green("G"));
+      write(chalk.green('G'));
       return cache;
     } else {
       // Slow down the requests a little bit so we"re not hammering the server or triggering any anti-bot or DDoS protections
@@ -124,7 +124,7 @@ export default class Scraper {
       // log(chalk.yellow("Get"), url);
       const request: AxiosResponse<string> = await Axios.get(url);
       // log(chalk.green("Got"), url);
-      write(chalk.cyan("S"));
+      write(chalk.cyan('S'));
 
       const data: string = request.data;
       await setCache(cacheKey || url, data);
