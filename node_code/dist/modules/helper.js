@@ -1,5 +1,6 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
+exports.mapDir = exports.getText = exports.getNumber = exports.getTextOrNumber = void 0;
 function getTextOrNumber(el) {
     const value = getText(el);
     const num = getNumber(value);

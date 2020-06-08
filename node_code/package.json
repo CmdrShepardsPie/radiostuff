@@ -18,20 +18,20 @@
   },
   "dependencies": {
     "axios": "0.19.2",
-    "chalk": "3.0.0",
+    "chalk": "4.0.0",
     "csv": "5.3.2",
     "gps-distance": "0.0.4",
-    "jsdom": "16.2.1",
+    "jsdom": "16.2.2",
     "module-alias": "2.2.2",
     "node-csv": "0.1.2",
-    "tslib": "1.11.1",
-    "tslint": "6.1.0",
+    "tslib": "2.0.0",
+    "tslint": "6.1.2",
     "tslint-config-standard": "9.0.0",
     "tslint-eslint-rules": "5.4.0",
-    "typescript": "3.8.3"
+    "typescript": "3.9.5"
   },
   "devDependencies": {
-    "@types/jsdom": "16.1.0",
+    "@types/jsdom": "16.2.3",
     "@types/module-alias": "2.0.0"
   }
 }

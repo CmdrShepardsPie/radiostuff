@@ -1,5 +1,6 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
+exports.Adms400ClockShift = exports.Adms400UserCtcss = exports.Adms400Step = exports.Adms400Skip = exports.Adms400TxPower = exports.Adms400DcsTone = exports.Adms400CtcssTone = exports.Adms400ToneMode = exports.Adms400ShowName = exports.Adms400OperatingMode = exports.Adms400OffsetDirection = exports.Adms400OffsetFrequency = exports.Adms400 = void 0;
 class Adms400 {
     constructor(adms400) {
         this["Channel Number"] = 1;

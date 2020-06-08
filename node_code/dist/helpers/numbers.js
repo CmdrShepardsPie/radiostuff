@@ -1,5 +1,6 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
+exports.powAndFix = void 0;
 function powAndFix(fValue, decimals, offset = 1) {
     const sValue = fValue.toString();
     const precision = sValue.length - ((sValue.indexOf(".") || sValue.length) + 1);
