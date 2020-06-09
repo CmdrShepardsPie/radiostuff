@@ -42,7 +42,7 @@ const points = 5;
             if (!existingFrequencies[frequency]) {
                 frequencies.push(definition);
                 existingFrequencies[frequency] = true;
-                console.log("step", step, "start", start, "end", end, "i", i, "frequency", frequency);
+                console.log('step', step, 'start', start, 'end', end, 'i', i, 'frequency', frequency);
             }
         }
     });

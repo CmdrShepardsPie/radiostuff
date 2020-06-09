@@ -3,23 +3,23 @@ Object.defineProperty(exports, "__esModule", { value: true });
 exports.Adms400ClockShift = exports.Adms400UserCtcss = exports.Adms400Step = exports.Adms400Skip = exports.Adms400TxPower = exports.Adms400DcsTone = exports.Adms400CtcssTone = exports.Adms400ToneMode = exports.Adms400ShowName = exports.Adms400OperatingMode = exports.Adms400OffsetDirection = exports.Adms400OffsetFrequency = exports.Adms400 = void 0;
 class Adms400 {
     constructor(adms400) {
-        this["Channel Number"] = 1;
-        this["Receive Frequency"] = 144;
-        this["Transmit Frequency"] = 144;
-        this["Offset Frequency"] = Adms400OffsetFrequency.None;
-        this["Offset Direction"] = Adms400OffsetDirection.Simplex;
-        this["Operating Mode"] = Adms400OperatingMode.Auto;
-        this.Name = "";
-        this["Show Name"] = Adms400ShowName.Large;
-        this["Tone Mode"] = Adms400ToneMode.None;
+        this['Channel Number'] = 1;
+        this['Receive Frequency'] = 144;
+        this['Transmit Frequency'] = 144;
+        this['Offset Frequency'] = Adms400OffsetFrequency.None;
+        this['Offset Direction'] = Adms400OffsetDirection.Simplex;
+        this['Operating Mode'] = Adms400OperatingMode.Auto;
+        this.Name = '';
+        this['Show Name'] = Adms400ShowName.Large;
+        this['Tone Mode'] = Adms400ToneMode.None;
         this.CTCSS = Adms400CtcssTone.$100_0_Hz;
         this.DCS = Adms400DcsTone.$023;
-        this["Tx Power"] = Adms400TxPower.Low;
+        this['Tx Power'] = Adms400TxPower.Low;
         this.Skip = Adms400Skip.Off;
         this.Step = Adms400Step.Auto;
-        this["Clock Shift"] = Adms400ClockShift.Off;
-        this.Comment = "";
-        this["User CTCSS"] = Adms400UserCtcss.$1500_Hz;
+        this['Clock Shift'] = Adms400ClockShift.Off;
+        this.Comment = '';
+        this['User CTCSS'] = Adms400UserCtcss.$1500_Hz;
         if (adms400) {
             Object.assign(this, adms400);
         }

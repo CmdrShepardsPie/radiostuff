@@ -7,14 +7,14 @@ const fs_helpers_1 = require("@helpers/fs-helpers");
 const helpers_1 = require("@helpers/helpers");
 const log_helpers_1 = require("@helpers/log-helpers");
 const chalk_1 = __importDefault(require("chalk"));
-const log = log_helpers_1.createLog("Group By");
+const log = log_helpers_1.createLog('Group By');
 async function doIt(groupBy, inFileName, outFileName) {
     const fileData = await fs_helpers_1.readFileAsync(inFileName); // await getAllFilesFromDirectory("./repeaters/data/CO/", ".json") as IRepeater[];
     const repeaters = JSON.parse(fileData.toString());
     // Only grouping by the keys in the first row. It"s not comprehensive but contains the essentials.
     // const keys = Object.keys(repeaters[0]) as Array<keyof IRepeater>;
     // for (const key of keys) {
-    log(chalk_1.default.green("Process"), chalk_1.default.blue("Group"), groupBy, chalk_1.default.yellow("In"), inFileName, chalk_1.default.cyan("Out"), outFileName);
+    log(chalk_1.default.green('Process'), chalk_1.default.blue('Group'), groupBy, chalk_1.default.yellow('In'), inFileName, chalk_1.default.cyan('Out'), outFileName);
     const grouped = group(groupBy, repeaters);
     await fs_helpers_1.writeToJsonAndCsv(outFileName, grouped);
     // }
@@ -23,7 +23,7 @@ function group(groupBy, repeaters) {
     const keyedGroups = {};
     repeaters.forEach((repeater) => {
         const keyVal = repeater[groupBy];
-        if (keyVal !== undefined && keyVal !== null && keyVal !== "") {
+        if (keyVal !== undefined && keyVal !== null && keyVal !== '') {
             if (!keyedGroups[keyVal]) {
                 keyedGroups[keyVal] = [];
             }
@@ -66,6 +66,6 @@ async function start() {
     // await doIt("Call",
     //   `../data/repeaters/results/CO/Colorado Springs.json`,
     //   `../data/repeaters/groups/CO/Colorado Springs - Call`);
-    await doIt("Call", `../data/repeaters/combined/CO.json`, `../data/repeaters/groups/combined/CO - Call`);
+    await doIt('Call', `../data/repeaters/combined/CO.json`, `../data/repeaters/groups/combined/CO - Call`);
 }
 exports.default = start();

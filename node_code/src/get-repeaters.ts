@@ -1,15 +1,27 @@
 import 'module-alias/register';
 
-import { parseAsync } from '@helpers/csv-helpers';
-import { readFileAsync, writeToJsonAndCsv } from '@helpers/fs-helpers';
+import { program } from 'commander';
+import { writeToJsonAndCsv } from '@helpers/fs-helpers';
 import { numberToString } from '@helpers/helpers';
 import { createLog } from '@helpers/log-helpers';
-import { ICountySeat } from '@interfaces/i-county-seat';
 import { IRepeaterRaw } from '@interfaces/i-repeater-raw';
 import chalk from 'chalk';
 import Scraper from './modules/scraper';
 
 const log: (...msg: any[]) => void = createLog('Get Repeaters');
+
+log('program');
+
+program
+  .version('0.0.1')
+  .arguments('<location>')
+  .action(async (location: string): Promise<void> => {
+    if (location) {
+      await save(location, 200);
+    }
+  });
+
+program.parse(process.argv);
 
 async function save(place: string | number, distance: number): Promise<void> {
   log(chalk.green('Save'), place, distance);
@@ -20,8 +32,8 @@ async function save(place: string | number, distance: number): Promise<void> {
 
   // @ts-ignore
   const columns: { [key in keyof IRepeaterRaw]: (string | number | undefined)[] } = {};
-  result.forEach((row: IRepeaterRaw) => {
-    Object.entries(row).forEach((entry: [string, (string | number | undefined)]) => {
+  result.forEach((row: IRepeaterRaw): void => {
+    Object.entries(row).forEach((entry: [string, (string | number | undefined)]): void => {
       const key: keyof IRepeaterRaw = entry[0] as keyof IRepeaterRaw;
       const value: string | number | undefined = entry[1];
       if (!columns[key]) {
@@ -33,8 +45,8 @@ async function save(place: string | number, distance: number): Promise<void> {
     });
   });
 
-  result.forEach((row: IRepeaterRaw) => {
-    Object.entries(row).forEach((entry: [string, (string | number | undefined)]) => {
+  result.forEach((row: IRepeaterRaw): void => {
+    Object.entries(row).forEach((entry: [string, (string | number | undefined)]): void => {
       const key: keyof IRepeaterRaw = entry[0] as keyof IRepeaterRaw;
       const value: string | number | undefined = entry[1];
       if (columns[key]!.length === 1 && columns[key]![0] === '' && value === '') {
@@ -44,7 +56,7 @@ async function save(place: string | number, distance: number): Promise<void> {
     });
   });
 
-  result.sort((a: IRepeaterRaw, b: IRepeaterRaw) => {
+  result.sort((a: IRepeaterRaw, b: IRepeaterRaw): number => {
     const aMi: string = numberToString(a.Mi || 0, 4, 5);
     const bMi: string = numberToString(b.Mi || 0, 4, 5);
     const aName: string | undefined = a.Call;
@@ -68,17 +80,3 @@ async function save(place: string | number, distance: number): Promise<void> {
 
   await writeToJsonAndCsv(`../data/repeaters/results/${subPlace}`, result);
 }
-
-export default (async (): Promise<void> => {
-  const countyFileData: Buffer = await readFileAsync('../data/Colorado_County_Seats.csv');
-  const countyData: ICountySeat[] = await parseAsync(countyFileData, { columns: true });
-  const cities: string[] = countyData.map((c: ICountySeat) => `${c['County Seat']}, CO`);
-  while (cities.length) {
-    const name: string | undefined = cities.shift();
-    if (name) {
-      await save(name, 200);
-    }
-  }
-})();
-
-// export default start();

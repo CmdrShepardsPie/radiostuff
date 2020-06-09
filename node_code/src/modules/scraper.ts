@@ -17,7 +17,41 @@ export default class Scraper {
 
   constructor(private location: string | number, private distance: number) {
     log(chalk.green('New Scraper'), location, distance);
-    this.url = `https://www.repeaterbook.com/repeaters/prox_result.php?city=${encodeURIComponent(location.toString())}&distance=${distance}&Dunit=m&band1=%25&band2=&freq=&call=&features%5B%5D=&status_id=%25&use=%25&order=distance_calc%2C+state_id%2C+%60call%60+ASC`;
+    // `https://www.repeaterbook.com/repeaters/prox_result.php?city=Denver%2C%20CO&lat=&long=&distance=200&Dunit=m&band1=%25&band2=&freq=&call=&features%5B%5D=FM&features%5B%5D=AllStar&features%5B%5D=Autopatch&features%5B%5D=Epower&features%5B%5D=EchoLink&features%5B%5D=IRLP&features%5B%5D=WIRES&features%5B%5D=WX&features%5B%5D=DStar&features%5B%5D=DMR&features%5B%5D=NXDN&features%5B%5D=P25&features%5B%5D=YSF&status_id=%25&use=%25&order=distance_calc%2C%2Bstate_id%2C%2B%60call%60%2BASC`
+    // `https://www.repeaterbook.com/repeaters/prox_result.php?city=Denver%2C+CO&lat=&long=&distance=200&Dunit=m&band1=%25&band2=&freq=&call=&features%5B%5D=FM&features%5B%5D=AllStar&features%5B%5D=Autopatch&features%5B%5D=Epower&features%5B%5D=EchoLink&features%5B%5D=IRLP&features%5B%5D=WIRES&features%5B%5D=WX&features%5B%5D=DStar&features%5B%5D=DMR&features%5B%5D=NXDN&features%5B%5D=P25&features%5B%5D=YSF&status_id=%25&use=%25&order=distance_calc%2C+state_id%2C+%60call%60+ASC`
+    const baseUrl: string = 'https://www.repeaterbook.com/repeaters/prox_result.php';
+    const params: [string, string | number][] = [
+      ['city', location],
+      ['lat', ''],
+      ['long', ''],
+      ['distance', distance],
+      ['Dunit', 'm'],
+      ['band1', '%'],
+      ['band2', ''],
+      ['freq', ''],
+      ['call', ''],
+      ['features[]', 'FM'],
+      ['features[]', 'AllStar'],
+      ['features[]', 'Autopatch'],
+      ['features[]', 'Epower'],
+      ['features[]', 'EchoLink'],
+      ['features[]', 'IRLP'],
+      ['features[]', 'WIRES'],
+      ['features[]', 'WX'],
+      ['features[]', 'DStar'],
+      ['features[]', 'DMR'],
+      ['features[]', 'NXDN'],
+      ['features[]', 'P25'],
+      ['features[]', 'YSF'],
+      ['status_id', '%'],
+      ['use', '%'],
+      ['order', 'distance_calc,+state_id,+`call`+ASC'],
+    ];
+
+    const query: string[] = params.map((param: [string, (string | number)]): string => `${param[0]}=${param[1]}`);
+
+    this.url = `${baseUrl}?${query.join('&')}`;
+    log('url', this.url);
   }
 
   public async process(): Promise<IRepeaterRaw[]> {
@@ -108,22 +142,22 @@ export default class Scraper {
 
   private async getUrl(url: string, cacheKey?: string): Promise<string> {
     write(` ${(cacheKey || url).replace('.html', '')}:`);
-    // log(chalk.green("Get URL"), url, cacheKey);
+    log(chalk.green('Get URL'), url, cacheKey);
 
     const cache: string | undefined = await getCache(cacheKey || url);
     if (cache) {
-      // log(chalk.yellow("Cached"), url, cacheKey);
+      log(chalk.yellow('Cached'), url, cacheKey);
       write(chalk.green('G'));
       return cache;
     } else {
-      // Slow down the requests a little bit so we"re not hammering the server or triggering any anti-bot or DDoS protections
+      // Slow down the requests so we're not hammering the server or triggering any anti-bot or DDoS protections
       const waitTime: number = (5000 + (Math.random() * 10000));
 
       write(`W=${chalk.yellow(Math.round(waitTime / 1000))}`);
       await wait(waitTime);
-      // log(chalk.yellow("Get"), url);
+      log(chalk.yellow('Get'), url);
       const request: AxiosResponse<string> = await Axios.get(url);
-      // log(chalk.green("Got"), url);
+      log(chalk.green('Got'), url);
       write(chalk.cyan('S'));
 
       const data: string = request.data;

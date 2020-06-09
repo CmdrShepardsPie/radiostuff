@@ -11,7 +11,7 @@ const chalk_1 = __importDefault(require("chalk"));
 const fs_1 = __importDefault(require("fs"));
 const path_1 = __importDefault(require("path"));
 const util_1 = require("util");
-const log = log_helpers_1.createLog("FS Helpers");
+const log = log_helpers_1.createLog('FS Helpers');
 exports.existsAsync = util_1.promisify(fs_1.default.exists);
 exports.mkdirAsync = util_1.promisify(fs_1.default.mkdir);
 exports.readFileAsync = util_1.promisify(fs_1.default.readFile);
@@ -65,14 +65,14 @@ async function writeToJsonAndCsv(filename, jsonData, csvData = jsonData, header 
 }
 exports.writeToJsonAndCsv = writeToJsonAndCsv;
 function splitExtension(filename) {
-    log(chalk_1.default.green("Split Extension"), filename);
-    const name = filename.substring(0, filename.lastIndexOf("."));
-    const ext = filename.substring(filename.lastIndexOf(".") + 1);
+    log(chalk_1.default.green('Split Extension'), filename);
+    const name = filename.substring(0, filename.lastIndexOf('.'));
+    const ext = filename.substring(filename.lastIndexOf('.') + 1);
     return { name, ext };
 }
 exports.splitExtension = splitExtension;
 async function getAllFilesFromDirectory(directory) {
-    log(chalk_1.default.green("Get All Files from Directory"), directory);
+    log(chalk_1.default.green('Get All Files from Directory'), directory);
     const files = [];
     const fileNames = await exports.readdirAsync(directory);
     const extMatch = /\.json$/i;

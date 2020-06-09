@@ -8,29 +8,29 @@ const fs_helpers_1 = require("@helpers/fs-helpers");
 const log_helpers_1 = require("@helpers/log-helpers");
 const i_repeater_structured_1 = require("@interfaces/i-repeater-structured");
 const gps_distance_1 = __importDefault(require("gps-distance"));
-const log = log_helpers_1.createLog("Make Adms7");
+const log = log_helpers_1.createLog('Make Adms7');
 const Adms7 = {
     Number: null,
-    Receive: "",
-    Transmit: "",
+    Receive: '',
+    Transmit: '',
     Offset: (0).toFixed(5),
-    Direction: "OFF",
-    Mode: "FM",
-    Name: "",
-    ToneMode: "OFF",
-    CTCSS: "100 Hz",
-    DCS: "023",
-    UserCTCSS: "1500 Hz",
-    Power: "HIGH",
-    Skip: "OFF",
-    Step: "25.0KHz",
+    Direction: 'OFF',
+    Mode: 'FM',
+    Name: '',
+    ToneMode: 'OFF',
+    CTCSS: '100 Hz',
+    DCS: '023',
+    UserCTCSS: '1500 Hz',
+    Power: 'HIGH',
+    Skip: 'OFF',
+    Step: '25.0KHz',
     ClockShift: 0,
-    Comment: "",
+    Comment: '',
     Bank: 0,
 };
 const myPoint = [39.627071500, -104.893322500]; // 4982 S Ulster St
 async function doIt(inFileName, outFileName) {
-    const simplex = JSON.parse((await fs_helpers_1.readFileAsync("../data/frequencies.json")).toString())
+    const simplex = JSON.parse((await fs_helpers_1.readFileAsync('../data/frequencies.json')).toString())
         .map((map) => ({ Callsign: map.Name, Frequency: { Output: map.Frequency, Input: map.Frequency } }))
         .filter((filter) => /FM|Voice|Simplex/i.test(filter.Callsign))
         .filter((filter) => !(/Data|Digital|Packet/i.test(filter.Callsign)));
@@ -66,46 +66,46 @@ async function doIt(inFileName, outFileName) {
     return fs_helpers_1.writeToJsonAndCsv(outFileName, mapped, mapped, false);
 }
 function convertToRadio(repeater) {
-    let Name = "";
+    let Name = '';
     if (repeater.Callsign) {
         Name += repeater.Callsign.trim();
     }
     if (repeater.Location && repeater.Location.Local) {
-        Name += (Name ? " " : "") + repeater.Location.Local.trim();
+        Name += (Name ? ' ' : '') + repeater.Location.Local.trim();
     }
     if (repeater.Frequency && repeater.Frequency.Output) {
-        Name += (Name ? " " : "") + repeater.Frequency.Output.toString().trim();
+        Name += (Name ? ' ' : '') + repeater.Frequency.Output.toString().trim();
     }
-    Name = Name.replace(/[^0-9.a-zA-Z \/]/g, "").trim();
-    Name = Name.replace(/[ ]+/g, " ").trim();
+    Name = Name.replace(/[^0-9.a-zA-Z \/]/g, '').trim();
+    Name = Name.replace(/[ ]+/g, ' ').trim();
     Name = Name.substr(0, 8).trim();
     const Receive = repeater.Frequency.Output.toFixed(5);
     const Transmit = repeater.Frequency.Input.toFixed(5);
     const OffsetNumber = repeater.Frequency.Input - repeater.Frequency.Output;
-    const Direction = OffsetNumber > 0 ? "+RPT" : OffsetNumber < 0 ? "-RPT" : "OFF";
+    const Direction = OffsetNumber > 0 ? '+RPT' : OffsetNumber < 0 ? '-RPT' : 'OFF';
     const Offset = Math.abs(Math.round(OffsetNumber * 100) / 100).toFixed(5);
     const TransmitSquelchTone = (repeater.SquelchTone && repeater.SquelchTone.Input);
     const ReceiveSquelchTone = (repeater.SquelchTone && repeater.SquelchTone.Output);
     const TransmitDigitalTone = (repeater.DigitalTone && repeater.DigitalTone.Input);
     const ReceiveDigitalTone = (repeater.DigitalTone && repeater.DigitalTone.Output);
-    let ToneMode = "OFF";
-    const Mode = "FM";
+    let ToneMode = 'OFF';
+    const Mode = 'FM';
     let Comment = `${repeater.StateID} ${repeater.ID} ${repeater.Location && repeater.Location.Distance && repeater.Location.Distance.toFixed(2)} ${repeater.Location && repeater.Location.State} ${repeater.Location && repeater.Location.County} ${repeater.Location && repeater.Location.Local} ${repeater.Callsign}`;
-    Comment = Comment.replace(/undefined/g, " ").replace(/\s+/g, " ").trim();
+    Comment = Comment.replace(/undefined/g, ' ').replace(/\s+/g, ' ').trim();
     if (TransmitSquelchTone) {
-        ToneMode = "TONE ENC";
+        ToneMode = 'TONE ENC';
     }
     else if (TransmitDigitalTone) {
-        ToneMode = "DCS";
+        ToneMode = 'DCS';
     }
     // if (TransmitSquelchTone && ReceiveSquelchTone && TransmitSquelchTone === ReceiveSquelchTone) {
     //   ToneMode = "TONE SQL";
     // } else if (TransmitDigitalTone && ReceiveDigitalTone && TransmitDigitalTone === ReceiveDigitalTone) {
     //   ToneMode = "DCS";
     // }
-    const CTCSS = (TransmitSquelchTone || 100).toFixed(1) + " Hz";
+    const CTCSS = (TransmitSquelchTone || 100).toFixed(1) + ' Hz';
     const DCSNumber = (TransmitDigitalTone || 23);
-    const DCS = DCSNumber < 100 ? "0" + DCSNumber : "" + DCSNumber;
+    const DCS = DCSNumber < 100 ? '0' + DCSNumber : '' + DCSNumber;
     return {
         ...Adms7,
         Receive,
@@ -133,7 +133,7 @@ async function start() {
     // }
     // await doIt("data/repeaters/groups/CO/Colorado Springs - Call.json", "data/repeaters/Adms7/groups/CO/Colorado Springs - Call");
     // await doIt("data/repeaters/results/CO/Colorado Springs.json", "data/repeaters/Adms7/CO/Colorado Springs");
-    await doIt("../data/repeaters/converted/CO.json", "../data/repeaters/adms7/CO");
+    await doIt('../data/repeaters/converted/CO.json', '../data/repeaters/adms7/CO');
     // await doIt("../data/repeaters/groups/combined/CO - Call.json", "../data/repeaters/Adms7/groups/CO - Call");
 }
 exports.default = start();

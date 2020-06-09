@@ -9,12 +9,12 @@ const i_adms400_1 = require("@interfaces/i-adms400");
 const gps_distance_1 = __importDefault(require("gps-distance"));
 const chalk_1 = __importDefault(require("chalk"));
 const radio_helpers_1 = require("@helpers/radio-helpers");
-const log = log_helpers_1.createLog("Make Adms400");
+const log = log_helpers_1.createLog('Make Adms400');
 const homePoint = [39.627071500, -104.893322500]; // 4982 S Ulster St
 const DenverPoint = [39.742043, -104.991531];
 const ColoradoSpringsPoint = [38.846127, -104.800644];
 async function doIt(inFileName, outFileName) {
-    const simplex = JSON.parse((await fs_helpers_1.readFileAsync("../data/frequencies.json")).toString())
+    const simplex = JSON.parse((await fs_helpers_1.readFileAsync('../data/frequencies.json')).toString())
         .map((map) => ({ Callsign: map.Name, Frequency: { Output: map.Frequency, Input: map.Frequency } }))
         .filter((filter) => /FM|Voice|Simplex/i.test(filter.Callsign))
         .filter((filter) => !(/Data|Digital|Packet/i.test(filter.Callsign)));
@@ -33,9 +33,9 @@ async function doIt(inFileName, outFileName) {
             // .filter(filterDistance(100))
             .filter(radio_helpers_1.filterMode(radio_helpers_1.Mode.FM, radio_helpers_1.Mode.YSF)),
     ]
-        .map((map, index) => ({ ...convertToRadio(map), "Channel Number": index + 1 }))
+        .map((map, index) => ({ ...convertToRadio(map), 'Channel Number': index + 1 }))
         .filter((filter) => {
-        const name = `${filter["Receive Frequency"]} ${filter["Transmit Frequency"]} ${filter["CTCSS"]} ${filter["DCS"]}`;
+        const name = `${filter['Receive Frequency']} ${filter['Transmit Frequency']} ${filter.CTCSS} ${filter.DCS}`;
         if (unique[name]) {
             return false;
         }
@@ -44,11 +44,11 @@ async function doIt(inFileName, outFileName) {
     })
         .slice(0, 500)
         .sort((a, b) => parseFloat(a.CTCSS) - parseFloat(b.CTCSS))
-        .sort((a, b) => a["Receive Frequency"] - b["Receive Frequency"])
+        .sort((a, b) => a['Receive Frequency'] - b['Receive Frequency'])
         .sort((a, b) => parseFloat(a.CTCSS) - parseFloat(b.CTCSS))
-        .sort((a, b) => a["Receive Frequency"] - b["Receive Frequency"])
+        .sort((a, b) => a['Receive Frequency'] - b['Receive Frequency'])
         // .sort((a: IAdms400, b: IAdms400) => a.Name > b.Name ? 1 : b.Name < a.Name ? -1 : 0)
-        .map((map, index) => ({ ...map, "Channel Number": index + 1 }));
+        .map((map, index) => ({ ...map, 'Channel Number': index + 1 }));
     return fs_helpers_1.writeToJsonAndCsv(outFileName, mapped, mapped);
 }
 function convertToRadio(repeater) {
@@ -73,18 +73,18 @@ function convertToRadio(repeater) {
     // } else if (TransmitDigitalTone && ReceiveDigitalTone && TransmitDigitalTone === ReceiveDigitalTone) {
     //   ToneMode = Adms400ToneMode.T_DCS; // "DCS";
     // }
-    const CTCSS = ((TransmitSquelchTone || 100).toFixed(1) + " Hz");
+    const CTCSS = ((TransmitSquelchTone || 100).toFixed(1) + ' Hz');
     const DCS = radio_helpers_1.buildDCS(TransmitDigitalTone);
     return new i_adms400_1.Adms400({
         // "Channel Number": number;
-        "Receive Frequency": Receive.toFixed(5),
-        "Transmit Frequency": Transmit.toFixed(5),
-        "Offset Frequency": convertOffsetFrequency(OffsetFrequency),
-        "Offset Direction": convertOffsetDirection(OffsetFrequency),
+        'Receive Frequency': Receive.toFixed(5),
+        'Transmit Frequency': Transmit.toFixed(5),
+        'Offset Frequency': convertOffsetFrequency(OffsetFrequency),
+        'Offset Direction': convertOffsetDirection(OffsetFrequency),
         // "Operating Mode": Adms400OperatingMode,
         Name,
         // "Show Name": Adms400ShowName,
-        "Tone Mode": ToneMode,
+        'Tone Mode': ToneMode,
         CTCSS,
         DCS,
         // "Tx Power": Adms400TxPower,
@@ -115,7 +115,7 @@ function convertOffsetFrequency(OffsetFrequency) {
         case 7.6:
             return i_adms400_1.Adms400OffsetFrequency.$7_60_MHz;
     }
-    log(chalk_1.default.red("ERROR"), "convertOffsetFrequency", "unknown", OffsetFrequency);
+    log(chalk_1.default.red('ERROR'), 'convertOffsetFrequency', 'unknown', OffsetFrequency);
     return i_adms400_1.Adms400OffsetFrequency.None;
 }
 function convertOffsetDirection(OffsetFrequency) {
@@ -128,7 +128,7 @@ function convertOffsetDirection(OffsetFrequency) {
     else if (OffsetFrequency > 0) {
         return i_adms400_1.Adms400OffsetDirection.Plus;
     }
-    log(chalk_1.default.red("ERROR"), "convertOffsetDirection", "unknown", OffsetFrequency);
+    log(chalk_1.default.red('ERROR'), 'convertOffsetDirection', 'unknown', OffsetFrequency);
     return i_adms400_1.Adms400OffsetDirection.Simplex;
 }
-module.exports = doIt("../data/repeaters/converted/CO.json", "../data/repeaters/adms400/CO");
+module.exports = doIt('../data/repeaters/converted/CO.json', '../data/repeaters/adms400/CO');

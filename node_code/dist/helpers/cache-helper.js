@@ -7,7 +7,7 @@ exports.setCache = exports.getCache = void 0;
 const fs_helpers_1 = require("@helpers/fs-helpers");
 const chalk_1 = __importDefault(require("chalk"));
 const log_helpers_1 = require("@helpers/log-helpers");
-const { log, write } = log_helpers_1.createOut("Cache Helper");
+const { log, write } = log_helpers_1.createOut('Cache Helper');
 const cacheStart = Date.now();
 const cacheLogFileName = `../data/repeaters/_cache/cache-log.json`;
 const cacheLog = {};

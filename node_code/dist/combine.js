@@ -7,15 +7,15 @@ const fs_helpers_1 = require("@helpers/fs-helpers");
 const helpers_1 = require("@helpers/helpers");
 const log_helpers_1 = require("@helpers/log-helpers");
 const gps_distance_1 = __importDefault(require("gps-distance"));
-const log = log_helpers_1.createLog("Combine");
+const log = log_helpers_1.createLog('Combine');
 exports.default = (async () => {
     const myPoint = [39.627071500, -104.893322500];
     const combined = [];
-    const files = await fs_helpers_1.getAllFilesFromDirectory("../data/repeaters/results/CO");
-    log("Got", files.length, "files");
+    const files = await fs_helpers_1.getAllFilesFromDirectory('../data/repeaters/results/CO');
+    log('Got', files.length, 'files');
     const found = {};
     files.forEach((file) => {
-        log("Got", file.length, "repeaters");
+        log('Got', file.length, 'repeaters');
         file.forEach((item) => {
             if (!found[`${item.state_id}-${item.ID}`]) {
                 found[`${item.state_id}-${item.ID}`] = true;
@@ -25,7 +25,7 @@ exports.default = (async () => {
             }
         });
     });
-    log("Got", combined.length, "unique repeaters");
+    log('Got', combined.length, 'unique repeaters');
     combined.sort((a, b) => {
         const aMi = helpers_1.numberToString(a.Mi || 0, 4, 24);
         const bMi = helpers_1.numberToString(b.Mi || 0, 4, 24);
@@ -46,7 +46,7 @@ exports.default = (async () => {
         return { ...result, [group]: count + 1 };
     }, {});
     // tslint:disable-next-line:no-console
-    console.log("STATS", stats);
+    console.log('STATS', stats);
     // combined.slice(0, 100).forEach((c) => log(c.Call, "\t", c.Latitude, "\t", c.Longitude, "\t", c.Mi));
-    await fs_helpers_1.writeToJsonAndCsv("../data/repeaters/combined/CO", combined);
+    await fs_helpers_1.writeToJsonAndCsv('../data/repeaters/combined/CO', combined);
 })();

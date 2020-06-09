@@ -4,15 +4,25 @@ var __importDefault = (this && this.__importDefault) || function (mod) {
 };
 Object.defineProperty(exports, "__esModule", { value: true });
 require("module-alias/register");
-const csv_helpers_1 = require("@helpers/csv-helpers");
+const commander_1 = require("commander");
 const fs_helpers_1 = require("@helpers/fs-helpers");
 const helpers_1 = require("@helpers/helpers");
 const log_helpers_1 = require("@helpers/log-helpers");
 const chalk_1 = __importDefault(require("chalk"));
 const scraper_1 = __importDefault(require("./modules/scraper"));
-const log = log_helpers_1.createLog("Get Repeaters");
+const log = log_helpers_1.createLog('Get Repeaters');
+log('program');
+commander_1.program
+    .version('0.0.1')
+    .arguments('<location>')
+    .action(async (location) => {
+    if (location) {
+        await save(location, 200);
+    }
+});
+commander_1.program.parse(process.argv);
 async function save(place, distance) {
-    log(chalk_1.default.green("Save"), place, distance);
+    log(chalk_1.default.green('Save'), place, distance);
     const scraper = new scraper_1.default(place, distance);
     const result = await scraper.process();
     // @ts-ignore
@@ -33,9 +43,9 @@ async function save(place, distance) {
         Object.entries(row).forEach((entry) => {
             const key = entry[0];
             const value = entry[1];
-            if (columns[key].length === 1 && columns[key][0] === "" && value === "") {
+            if (columns[key].length === 1 && columns[key][0] === '' && value === '') {
                 // @ts-ignore
-                row[key] = "yes";
+                row[key] = 'yes';
             }
         });
     });
@@ -55,19 +65,7 @@ async function save(place, distance) {
     // result.sort((a, b) => (a.Mi - b.Mi));
     // console.log(place, distance, result.length);
     const parts = place.toString().split(`,`);
-    const subPlace = `${(parts[1] || ".").trim()}/${parts[0].trim()}`;
-    log(chalk_1.default.yellow("Results"), result.length, subPlace);
+    const subPlace = `${(parts[1] || '.').trim()}/${parts[0].trim()}`;
+    log(chalk_1.default.yellow('Results'), result.length, subPlace);
     await fs_helpers_1.writeToJsonAndCsv(`../data/repeaters/results/${subPlace}`, result);
 }
-exports.default = (async () => {
-    const countyFileData = await fs_helpers_1.readFileAsync("../data/Colorado_County_Seats.csv");
-    const countyData = await csv_helpers_1.parseAsync(countyFileData, { columns: true });
-    const cities = countyData.map((c) => `${c["County Seat"]}, CO`);
-    while (cities.length) {
-        const name = cities.shift();
-        if (name) {
-            await save(name, 200);
-        }
-    }
-})();
-// export default start();

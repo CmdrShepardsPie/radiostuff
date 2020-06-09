@@ -45,7 +45,7 @@ function filterMinimumRepeaterCount(count, repeaters) {
 }
 exports.filterMinimumRepeaterCount = filterMinimumRepeaterCount;
 function buildName(repeater) {
-    let Name = "";
+    let Name = '';
     if (repeater.Callsign) {
         Name += repeater.Callsign.trim();
     }
@@ -62,44 +62,44 @@ function buildName(repeater) {
     // if (repeater.DigitalTone != null && repeater.DigitalTone.Input != null) {
     //   Name += " " + repeater.DigitalTone.Input.toString().trim().substr(0, 6);
     // }
-    Name = Name.replace(/[^0-9.a-zA-Z \/]/g, " ").trim();
+    Name = Name.replace(/[^0-9.a-zA-Z \/]/g, ' ').trim();
     // Name = Name.replace(/[^0-9 ]/g, "").trim();
-    Name = Name.replace(/,/g, "").replace(/\s+/g, " ").trim();
+    Name = Name.replace(/,/g, '').replace(/\s+/g, ' ').trim();
     Name = Name.substr(0, 16).trim();
     return Name;
 }
 exports.buildName = buildName;
 function getRepeaterSuffix(repeater) {
-    let Name = "";
+    let Name = '';
     if (!repeater.Digital && repeater.Location) {
-        Name += "F";
+        Name += 'F';
     }
     if (repeater.Digital && repeater.Digital.YSF) {
-        Name += "Y";
+        Name += 'Y';
     }
     if (repeater.Digital && repeater.Digital.ATV) {
-        Name += "T";
+        Name += 'T';
     }
     if (repeater.Digital && repeater.Digital.DMR) {
-        Name += "M";
+        Name += 'M';
     }
     if (repeater.Digital && repeater.Digital.DStar) {
-        Name += "S";
+        Name += 'S';
     }
     if (repeater.Digital && repeater.Digital.P25) {
-        Name += "P";
+        Name += 'P';
     }
     if (repeater.VOIP && repeater.VOIP.Wires) {
-        Name += "W";
+        Name += 'W';
     }
     if (repeater.VOIP && repeater.VOIP.AllStar) {
-        Name += "L";
+        Name += 'L';
     }
     if (repeater.VOIP && repeater.VOIP.EchoLink) {
-        Name += "E";
+        Name += 'E';
     }
     if (repeater.VOIP && repeater.VOIP.IRLP) {
-        Name += "I";
+        Name += 'I';
     }
     return Name;
 }
@@ -110,14 +110,14 @@ function getRepeaterCount(name, all) {
 exports.getRepeaterCount = getRepeaterCount;
 function buildComment(repeater) {
     let Comment = `${repeater.StateID} ${repeater.ID} ${repeater.Location && (repeater.Location.Distance != null) && repeater.Location.Distance.toFixed(2)} ${repeater.Location && repeater.Location.State} ${repeater.Location && repeater.Location.County} ${repeater.Location && repeater.Location.Local} ${repeater.Callsign}`;
-    Comment = Comment.replace(/undefined/g, " ").replace(/,/g, " ").replace(/\s+/g, " ").trim();
+    Comment = Comment.replace(/undefined/g, ' ').replace(/,/g, ' ').replace(/\s+/g, ' ').trim();
     return Comment;
 }
 exports.buildComment = buildComment;
 function buildDCS(code) {
-    const DCSa = (code || 23).toString().split("");
-    const DCS = ["0", "0", "0"];
+    const DCSa = (code || 23).toString().split('');
+    const DCS = ['0', '0', '0'];
     DCS.splice(DCS.length - DCSa.length, DCSa.length, ...DCSa);
-    return DCS.join("");
+    return DCS.join('');
 }
 exports.buildDCS = buildDCS;

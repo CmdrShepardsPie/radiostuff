@@ -8,27 +8,27 @@ const fs_helpers_1 = require("@helpers/fs-helpers");
 const log_helpers_1 = require("@helpers/log-helpers");
 const i_repeater_structured_1 = require("@interfaces/i-repeater-structured");
 const gps_distance_1 = __importDefault(require("gps-distance"));
-const log = log_helpers_1.createLog("Make Chirp");
+const log = log_helpers_1.createLog('Make Chirp');
 const chirp = {
     Location: null,
-    Name: "",
+    Name: '',
     Frequency: null,
-    Duplex: "",
+    Duplex: '',
     Offset: null,
-    Tone: "",
+    Tone: '',
     rToneFreq: null,
     cToneFreq: null,
     DtcsCode: null,
     DtcsRxCode: null,
-    DtcsPolarity: "NN",
-    Mode: "FM",
+    DtcsPolarity: 'NN',
+    Mode: 'FM',
     TStep: 5,
-    Comment: "",
+    Comment: '',
 };
 const myPoint = [39.627071500, -104.893322500]; // 4982 S Ulster St
 // const myPoint: Point = [39.742043, -104.991531]; // Denver
 async function doIt(inFileName, outFileName) {
-    const simplex = JSON.parse((await fs_helpers_1.readFileAsync("../data/frequencies.json")).toString())
+    const simplex = JSON.parse((await fs_helpers_1.readFileAsync('../data/frequencies.json')).toString())
         .map((map) => ({ Callsign: map.Name, Frequency: { Output: map.Frequency, Input: map.Frequency } }))
         .filter((filter) => /FM|Voice|Simplex/i.test(filter.Callsign))
         .filter((filter) => !(/Data|Digital|Packet/i.test(filter.Callsign)));
@@ -65,42 +65,42 @@ async function doIt(inFileName, outFileName) {
         .slice(0, 200)
         // .sort((a: IChirp, b: IChirp) => a.Frequency - b.Frequency)
         .map((map, index) => ({ ...map, Location: index }));
-    await fs_helpers_1.writeToJsonAndCsv(outFileName + "-short", short);
-    await fs_helpers_1.writeToJsonAndCsv(outFileName + "-long", long);
+    await fs_helpers_1.writeToJsonAndCsv(outFileName + '-short', short);
+    await fs_helpers_1.writeToJsonAndCsv(outFileName + '-long', long);
 }
 function convertToRadio(repeater) {
-    let Name = "";
+    let Name = '';
     if (repeater.Callsign) {
         Name += repeater.Callsign.trim();
     }
     if (repeater.Location && repeater.Location.Local) {
-        Name += (Name ? " " : "") + repeater.Location.Local.trim();
+        Name += (Name ? ' ' : '') + repeater.Location.Local.trim();
     }
     if (repeater.Frequency && repeater.Frequency.Output) {
-        Name += (Name ? " " : "") + repeater.Frequency.Output.toString().trim();
+        Name += (Name ? ' ' : '') + repeater.Frequency.Output.toString().trim();
     }
-    Name = Name.replace(/[^0-9.a-zA-Z \/]/g, "").trim();
-    Name = Name.replace(/[ ]+/g, " ").trim();
+    Name = Name.replace(/[^0-9.a-zA-Z \/]/g, '').trim();
+    Name = Name.replace(/[ ]+/g, ' ').trim();
     Name = Name.substr(0, 8).trim();
     const Frequency = repeater.Frequency.Output;
     let Offset = repeater.Frequency.Input - repeater.Frequency.Output;
-    const Duplex = Offset > 0 ? "+" : Offset < 0 ? "-" : "";
+    const Duplex = Offset > 0 ? '+' : Offset < 0 ? '-' : '';
     Offset = Math.abs(Math.round(Offset * 100) / 100);
     let rToneFreq = (repeater.SquelchTone && repeater.SquelchTone.Input);
     let cToneFreq = (repeater.SquelchTone && repeater.SquelchTone.Output);
     let DtcsCode = (repeater.DigitalTone && repeater.DigitalTone.Input);
     let DtcsRxCode = (repeater.DigitalTone && repeater.DigitalTone.Output);
-    let Tone = "";
-    const Mode = "FM";
+    let Tone = '';
+    const Mode = 'FM';
     let Comment = `${repeater.StateID} ${repeater.ID} ${repeater.Location && repeater.Location.Distance && repeater.Location.Distance.toFixed(2)} ${repeater.Location && repeater.Location.State} ${repeater.Location && repeater.Location.County} ${repeater.Location && repeater.Location.Local} ${repeater.Callsign}`;
-    Comment = Comment.replace(/undefined/g, " ").replace(/\s+/g, " ").trim();
+    Comment = Comment.replace(/undefined/g, ' ').replace(/\s+/g, ' ').trim();
     // `${item["ST/PR"] || ""} ${item.County || ""} ${item.Location || ""} ${item.Call || ""} ${item.Sponsor || ""} ${item.Affiliate || ""} ${item.Frequency} ${item.Use || ""} ${item["Op Status"] || ""} ${item.Comment || ""}`.replace(/\s+/g, " ");
     // Comment = Comment.trim().replace(",", "").substring(0, 31).trim();
     if (rToneFreq) {
-        Tone = "Tone";
+        Tone = 'Tone';
     }
     else if (DtcsCode) {
-        Tone = "DTCS";
+        Tone = 'DTCS';
     }
     // if (cToneFreq) {
     //   Tone = "TSQL";
@@ -144,7 +144,7 @@ async function start() {
     // }
     // await doIt("data/repeaters/groups/CO/Colorado Springs - Call.json", "data/repeaters/chirp/groups/CO/Colorado Springs - Call");
     // await doIt("data/repeaters/results/CO/Colorado Springs.json", "data/repeaters/chirp/CO/Colorado Springs");
-    await doIt("../data/repeaters/converted/CO.json", "../data/repeaters/chirp/CO");
+    await doIt('../data/repeaters/converted/CO.json', '../data/repeaters/chirp/CO');
     // await doIt("../data/repeaters/groups/combined/CO - Call.json", "../data/repeaters/chirp/groups/CO - Call");
 }
 exports.default = start();

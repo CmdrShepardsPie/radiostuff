@@ -19,6 +19,7 @@
   "dependencies": {
     "axios": "0.19.2",
     "chalk": "4.0.0",
+    "commander": "5.1.0",
     "csv": "5.3.2",
     "gps-distance": "0.0.4",
     "jsdom": "16.2.2",
