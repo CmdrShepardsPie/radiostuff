@@ -1,6 +1,8 @@
 import { IRepeaterStructured, RepeaterStatus, RepeaterUse } from '@interfaces/i-repeater-structured';
 
 export enum FrequencyBand {
+  $10_m,
+  $6_m,
   $2_m,
   $1_25_m,
   $70_cm,
@@ -17,6 +19,8 @@ export enum Mode {
 
 export function filterFrequencies(...bands: FrequencyBand[]): (filter: IRepeaterStructured) => boolean {
   return (filter: IRepeaterStructured): boolean =>
+    (bands.includes(FrequencyBand.$10_m) && filter.Frequency.Output >= 28 && filter.Frequency.Output <= 29.7) ||
+    (bands.includes(FrequencyBand.$6_m) && filter.Frequency.Output >= 50 && filter.Frequency.Output <= 54) ||
     (bands.includes(FrequencyBand.$2_m) && filter.Frequency.Output >= 144 && filter.Frequency.Output <= 148) ||
     (bands.includes(FrequencyBand.$1_25_m) && filter.Frequency.Output >= 222 && filter.Frequency.Output <= 225) ||
     (bands.includes(FrequencyBand.$70_cm) && filter.Frequency.Output >= 420 && filter.Frequency.Output <= 450);
