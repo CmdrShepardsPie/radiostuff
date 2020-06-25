@@ -1,0 +1,22 @@
+{
+  "ID": 241,
+  "StateID": 8,
+  "Callsign": "KB0VJJ",
+  "Location": {
+    "Latitude": 39.65539932,
+    "Longitude": -106.45700073,
+    "County": "Eagle",
+    "State": "CO",
+    "Local": "Vail"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 147.945,
+    "Output": 147.345
+  },
+  "SquelchTone": {
+    "Input": 88.5,
+    "Output": 123
+  }
+}

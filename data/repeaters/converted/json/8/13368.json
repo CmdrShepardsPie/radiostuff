@@ -1,0 +1,22 @@
+{
+  "ID": 13368,
+  "StateID": 8,
+  "Callsign": "W0JZ",
+  "Location": {
+    "Latitude": 40.06330109,
+    "Longitude": -105.41000366,
+    "County": "Boulder",
+    "State": "CO",
+    "Local": "Gold Hill"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 146.31,
+    "Output": 146.91
+  },
+  "SquelchTone": {
+    "Input": 123,
+    "Output": 127.3
+  }
+}

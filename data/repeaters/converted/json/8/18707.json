@@ -1,0 +1,22 @@
+{
+  "ID": 18707,
+  "StateID": 8,
+  "Callsign": "WB0SLW",
+  "Location": {
+    "Latitude": 38.2544472,
+    "Longitude": -104.6091409,
+    "County": "Pueblo",
+    "State": "CO",
+    "Local": "Pueblo"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 144.68,
+    "Output": 145.28
+  },
+  "SquelchTone": {
+    "Input": 100,
+    "Output": 100
+  }
+}

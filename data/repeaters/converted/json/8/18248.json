@@ -1,0 +1,31 @@
+{
+  "ID": 18248,
+  "StateID": 8,
+  "Callsign": "K0PRA",
+  "Location": {
+    "Latitude": 39.51860046,
+    "Longitude": -104.76100159,
+    "County": "Arapahoe",
+    "State": "CO",
+    "Local": "Parker"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 442.225,
+    "Output": 447.225
+  },
+  "Digital": {
+    "YSF": {
+      "GroupID": {
+        "Input": "Open ↑",
+        "Output": "Open ↓"
+      }
+    }
+  },
+  "VOIP": {
+    "Wires": {
+      "ID": 40895
+    }
+  }
+}

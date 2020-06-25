@@ -41,7 +41,8 @@ var __importDefault = (this && this.__importDefault) || function (mod) {
                     await exports.mkdirAsync(tempPath);
                 }
                 catch (e) {
-                    log(chalk_1.default.red(e));
+                    // Just swallow the error, it's probably "EEXIST: file already exists" (TODO: Should check)
+                    // log(chalk.red(e));
                 }
             }
         }
@@ -78,25 +79,31 @@ var __importDefault = (this && this.__importDefault) || function (mod) {
     exports.writeToCsv = writeToCsv;
     function splitExtension(filename) {
         log(chalk_1.default.green('Split Extension'), filename);
-        const name = filename.substring(0, filename.lastIndexOf('.'));
+        const filePath = filename.substring(0, filename.lastIndexOf(path_1.default.sep));
+        const name = filename.substring(filename.lastIndexOf(path_1.default.sep) + 1, filename.lastIndexOf('.'));
         const ext = filename.substring(filename.lastIndexOf('.') + 1);
-        return { name, ext };
+        return { path: filePath, name, ext };
     }
     exports.splitExtension = splitExtension;
-    async function getAllFilesInDirectory(directory, extension = 'json') {
+    async function getAllFilesInDirectory(directory, extension = 'json', subdirectories = 0) {
         log(chalk_1.default.green('Get All Files from Directory'), directory);
         const files = [];
+        const directories = [];
         const fileNames = await exports.readdirAsync(directory);
         const extMatch = new RegExp(`\.${extension}$`, 'i');
-        for (const fileName of fileNames) {
+        await Promise.all(fileNames.map(async (fileName) => {
             const file = path_1.default.join(directory, fileName);
-            if (file.match(extMatch)) {
-                const stat = await exports.statAsync(file);
-                if (stat.isFile()) {
-                    files.push(file);
-                }
+            const stat = await exports.statAsync(file);
+            if (stat.isFile() && file.match(extMatch)) {
+                files.push(file);
             }
-        }
+            else if (stat.isDirectory() && subdirectories > 0) {
+                directories.push(file);
+            }
+        }));
+        await Promise.all(directories.map(async (subDirectory) => {
+            files.push(...await getAllFilesInDirectory(subDirectory, extension, subdirectories - 1));
+        }));
         return files;
     }
     exports.getAllFilesInDirectory = getAllFilesInDirectory;

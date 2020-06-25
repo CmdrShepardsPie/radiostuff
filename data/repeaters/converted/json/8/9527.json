@@ -1,0 +1,22 @@
+{
+  "ID": 9527,
+  "StateID": 8,
+  "Callsign": "K0JSC",
+  "Location": {
+    "Latitude": 38.23049927,
+    "Longitude": -104.61100006,
+    "County": "Pueblo",
+    "State": "CO",
+    "Local": "Pueblo, Metro"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 442.275,
+    "Output": 447.275
+  },
+  "SquelchTone": {
+    "Input": 100,
+    "Output": 100
+  }
+}

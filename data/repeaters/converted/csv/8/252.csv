@@ -1,0 +1,2 @@
+ID,StateID,Callsign,Use,Status,DigitalTone,Digital,VOIP,Location.Latitude,Location.Longitude,Location.County,Location.State,Location.Local,Frequency.Input,Frequency.Output,SquelchTone.Input,SquelchTone.Output
+252,8,KA0WUC,Open,Other,,,,38.9939003,-105.05599976,Teller,CO,Woodland Park,444.025,449.025,141.3,

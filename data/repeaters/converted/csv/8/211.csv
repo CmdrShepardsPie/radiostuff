@@ -1,0 +1,2 @@
+ID,StateID,Callsign,Use,Status,DigitalTone,Digital,VOIP,Location.Latitude,Location.Longitude,Location.County,Location.State,Location.Local,Frequency.Input,Frequency.Output,SquelchTone.Input,SquelchTone.Output
+211,8,K0CL,Open,On-Air,,,,39.21310043,-106.93699646,Pitkin,CO,Snowmass Village,146.07,146.67,107.2,

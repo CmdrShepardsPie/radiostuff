@@ -1,0 +1,2 @@
+ID,StateID,Callsign,Use,Status,SquelchTone,DigitalTone,VOIP,Location.Latitude,Location.Longitude,Location.County,Location.State,Location.Local,Frequency.Input,Frequency.Output,Digital.P25,Digital.DStar,Digital.YSF,Digital.DMR.ColorCode,Digital.DMR.ID
+17998,8,AD0RM,Open,On-Air,,,,38.18000031,-107.79000092,Ouray,CO,"Ridgway, On top of Log Hill",442.8,447.8,,,,1,311075

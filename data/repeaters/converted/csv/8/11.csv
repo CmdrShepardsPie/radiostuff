@@ -1,0 +1,2 @@
+ID,StateID,Callsign,Use,Status,DigitalTone,Digital,Location.Latitude,Location.Longitude,Location.County,Location.State,Location.Local,Frequency.Input,Frequency.Output,SquelchTone.Input,SquelchTone.Output,VOIP.AllStar,VOIP.IRLP,VOIP.Wires,VOIP.EchoLink.NodeID
+11,8,W0IA,Open,On-Air,,,40.01499939,-105.26999664,Boulder,CO,Boulder,444.55,449.55,100,,,,,217336

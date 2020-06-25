@@ -1,0 +1,2 @@
+ID,StateID,Callsign,Use,Status,DigitalTone,Digital,Location.Latitude,Location.Longitude,Location.County,Location.State,Location.Local,Frequency.Input,Frequency.Output,SquelchTone.Input,SquelchTone.Output,VOIP.EchoLink,VOIP.Wires,VOIP.AllStar.NodeID,VOIP.IRLP.NodeID
+35,8,K0ELK,Open,On-Air,,,39.40000153,-107.31500244,Garfield,CO,"Carbondale, Four Mile Ridge",444.725,449.725,179.9,,,,28434,3722

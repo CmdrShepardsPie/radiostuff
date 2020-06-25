@@ -1,0 +1,29 @@
+{
+  "ID": 11025,
+  "StateID": 31,
+  "Callsign": "N0UGO",
+  "Location": {
+    "Latitude": 41.12820053,
+    "Longitude": -101.72000122,
+    "County": "Keith",
+    "State": "NE",
+    "Local": "Ogallala"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 146.16,
+    "Output": 146.76
+  },
+  "SquelchTone": {
+    "Input": 123
+  },
+  "VOIP": {
+    "EchoLink": {
+      "NodeID": 751985
+    },
+    "IRLP": {
+      "NodeID": 7349
+    }
+  }
+}

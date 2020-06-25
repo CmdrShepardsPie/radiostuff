@@ -1,0 +1,2 @@
+ID,StateID,Callsign,Use,Status,DigitalTone,Digital,Location.Latitude,Location.Longitude,Location.County,Location.State,Location.Local,Frequency.Input,Frequency.Output,SquelchTone.Input,SquelchTone.Output,VOIP.AllStar,VOIP.Wires,VOIP.EchoLink.NodeID,VOIP.IRLP.NodeID
+9583,8,K0UPS,Open,On-Air,,,39.37030029,-103.8010025,Elbert,CO,Cedar Point,444.25,449.25,123,123,,,3349,3349

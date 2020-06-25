@@ -1,0 +1,2 @@
+ID,StateID,Callsign,Use,Status,DigitalTone,Digital,Location.Latitude,Location.Longitude,Location.County,Location.State,Location.Local,Frequency.Input,Frequency.Output,SquelchTone.Input,SquelchTone.Output,VOIP.AllStar,VOIP.EchoLink,VOIP.Wires,VOIP.IRLP.NodeID
+23,8,WB0QMR,Open,On-Air,,,39.4817009,-106.03800201,Summit,CO,Breckenridge,146.1,146.7,107.2,,,,,3972

@@ -1,0 +1,21 @@
+{
+  "ID": 159,
+  "StateID": 8,
+  "Callsign": "K0OJ",
+  "Location": {
+    "Latitude": 40.40370178,
+    "Longitude": -104.70300293,
+    "County": "Weld",
+    "State": "CO",
+    "Local": "Greeley, UNC"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 444.725,
+    "Output": 449.725
+  },
+  "SquelchTone": {
+    "Input": 127.3
+  }
+}

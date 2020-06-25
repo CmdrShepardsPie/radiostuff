@@ -1,0 +1,24 @@
+{
+  "ID": 16783,
+  "StateID": 8,
+  "Callsign": "N0SZ",
+  "Location": {
+    "Latitude": 39.26530075,
+    "Longitude": -106.18199921,
+    "County": "Lake",
+    "State": "CO",
+    "Local": "Leadville, Mosquito Pass"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 440.05,
+    "Output": 445.05
+  },
+  "Digital": {
+    "DMR": {
+      "ColorCode": 7,
+      "ID": 310852
+    }
+  }
+}

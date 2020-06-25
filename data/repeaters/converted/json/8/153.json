@@ -1,0 +1,29 @@
+{
+  "ID": 153,
+  "StateID": 8,
+  "Callsign": "W0GJT",
+  "Location": {
+    "Latitude": 38.89899826,
+    "Longitude": -108.4960022,
+    "County": "Mesa",
+    "State": "CO",
+    "Local": "Grand Junction"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 443.15,
+    "Output": 448.15
+  },
+  "SquelchTone": {
+    "Input": 100
+  },
+  "VOIP": {
+    "EchoLink": {
+      "NodeID": 312189
+    },
+    "IRLP": {
+      "NodeID": 7963
+    }
+  }
+}

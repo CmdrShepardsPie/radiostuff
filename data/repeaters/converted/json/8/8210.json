@@ -1,0 +1,26 @@
+{
+  "ID": 8210,
+  "StateID": 8,
+  "Callsign": "WR0AEN",
+  "Location": {
+    "Latitude": 40.4233017,
+    "Longitude": -104.70899963,
+    "County": "Weld",
+    "State": "CO",
+    "Local": "Greeley"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 444.325,
+    "Output": 449.325
+  },
+  "SquelchTone": {
+    "Input": 136.5
+  },
+  "Digital": {
+    "DStar": {
+      "Node": "WR0AEN (B)"
+    }
+  }
+}

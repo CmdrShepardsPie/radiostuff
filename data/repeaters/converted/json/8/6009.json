@@ -1,0 +1,26 @@
+{
+  "ID": 6009,
+  "StateID": 8,
+  "Callsign": "K0VQ",
+  "Location": {
+    "Latitude": 39.42470169,
+    "Longitude": -107.09700012,
+    "County": "Garfield",
+    "State": "CO",
+    "Local": "Carbondale, Missouri Heights"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 442.15,
+    "Output": 447.15
+  },
+  "SquelchTone": {
+    "Input": 136.5
+  },
+  "VOIP": {
+    "EchoLink": {
+      "NodeID": 8150
+    }
+  }
+}

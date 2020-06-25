@@ -1,0 +1,22 @@
+{
+  "ID": 107,
+  "StateID": 8,
+  "Callsign": "W0CRA",
+  "Location": {
+    "Latitude": 39.6794014,
+    "Longitude": -105.49199677,
+    "County": "Clear Creek",
+    "State": "CO",
+    "Local": "Idaho Springs, Squaw Mountain"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 144.545,
+    "Output": 145.145
+  },
+  "SquelchTone": {
+    "Input": 107.2,
+    "Output": 107.2
+  }
+}

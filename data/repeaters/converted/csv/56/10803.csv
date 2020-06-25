@@ -1,0 +1,2 @@
+ID,StateID,Callsign,Use,Status,SquelchTone,DigitalTone,VOIP,Location.Latitude,Location.Longitude,Location.County,Location.State,Location.Local,Frequency.Input,Frequency.Output,Digital.P25,Digital.DStar,Digital.YSF,Digital.DMR.ColorCode,Digital.DMR.ID
+10803,56,WY7EOC,Open,On-Air,,,,41.13999939,-104.81999969,Laramie,WY,Cheyenne,444.975,449.975,,,,11,315601

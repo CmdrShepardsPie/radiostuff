@@ -1,0 +1,2 @@
+ID,StateID,Callsign,Use,Status,SquelchTone,DigitalTone,VOIP,Location.Latitude,Location.Longitude,Location.County,Location.State,Location.Local,Frequency.Input,Frequency.Output,Digital.P25,Digital.DStar,Digital.YSF,Digital.DMR.ColorCode,Digital.DMR.ID
+16783,8,N0SZ,Open,On-Air,,,,39.26530075,-106.18199921,Lake,CO,"Leadville, Mosquito Pass",440.05,445.05,,,,7,310852

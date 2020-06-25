@@ -1,0 +1,29 @@
+{
+  "ID": 17349,
+  "StateID": 8,
+  "Callsign": "KD0SSP",
+  "Location": {
+    "Latitude": 39.75059891,
+    "Longitude": -105.1230011,
+    "County": "Jefferson",
+    "State": "CO",
+    "Local": "Lakewood, Moffat Treatment Plant"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 443.35,
+    "Output": 448.35
+  },
+  "SquelchTone": {
+    "Input": 225.7
+  },
+  "Digital": {
+    "YSF": {
+      "GroupID": {
+        "Input": "Open ↑",
+        "Output": "Open ↓"
+      }
+    }
+  }
+}

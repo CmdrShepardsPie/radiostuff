@@ -1,0 +1,18 @@
+{
+  "ID": 160,
+  "StateID": 8,
+  "Callsign": "W0VTL",
+  "Location": {
+    "Latitude": 38.54579926,
+    "Longitude": -106.92500305,
+    "County": "Gunnison",
+    "State": "CO",
+    "Local": "Gunnison"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 147.72,
+    "Output": 147.12
+  }
+}

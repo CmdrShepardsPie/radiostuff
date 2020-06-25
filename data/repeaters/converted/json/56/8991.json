@@ -1,0 +1,24 @@
+{
+  "ID": 8991,
+  "StateID": 56,
+  "Callsign": "KC7DHF",
+  "Location": {
+    "Latitude": 41.15299988,
+    "Longitude": -104.81800079,
+    "County": "Laramie",
+    "State": "WY",
+    "Local": "Cheyenne, Old airport control tower"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 443.95,
+    "Output": 448.95
+  },
+  "Digital": {
+    "DMR": {
+      "ColorCode": 15,
+      "ID": 315615
+    }
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "ID": 5220,
+  "StateID": 8,
+  "Callsign": "K7PFJ",
+  "Location": {
+    "Latitude": 38.77259827,
+    "Longitude": -104.99299622,
+    "County": "Teller",
+    "State": "CO",
+    "Local": "Colorado Springs, Almagre Mountain"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 441.95,
+    "Output": 446.95
+  },
+  "Digital": {
+    "DMR": {
+      "ColorCode": 7,
+      "ID": 310816
+    }
+  }
+}

@@ -1,0 +1,2 @@
+ID,StateID,Callsign,Use,Status,DigitalTone,Digital,Location.Latitude,Location.Longitude,Location.County,Location.State,Location.Local,Frequency.Input,Frequency.Output,SquelchTone.Input,SquelchTone.Output,VOIP.AllStar,VOIP.Wires,VOIP.EchoLink.NodeID,VOIP.IRLP.NodeID
+119,8,N0FH,Open,On-Air,,,40.36009979,-105.4509964,Larimer,CO,Estes Park,146.085,146.685,123,123,,,625757,7268

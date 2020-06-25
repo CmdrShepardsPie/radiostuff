@@ -1,0 +1,24 @@
+{
+  "ID": 10783,
+  "StateID": 8,
+  "Callsign": "W0FT",
+  "Location": {
+    "Latitude": 40.25030136,
+    "Longitude": -103.80000305,
+    "County": "Morgan",
+    "State": "CO",
+    "Local": "Fort Morgan, Fort Morgan EOC"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 443.2,
+    "Output": 448.2
+  },
+  "Digital": {
+    "DMR": {
+      "ColorCode": 7,
+      "ID": 310812
+    }
+  }
+}

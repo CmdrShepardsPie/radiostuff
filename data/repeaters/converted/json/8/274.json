@@ -1,0 +1,21 @@
+{
+  "ID": 274,
+  "StateID": 8,
+  "Callsign": "WQ8M",
+  "Location": {
+    "Latitude": 39.55799866,
+    "Longitude": -104.79399872,
+    "County": "Douglas",
+    "State": "CO",
+    "Local": "Parker"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 443.7,
+    "Output": 448.7
+  },
+  "SquelchTone": {
+    "Input": 146.2
+  }
+}

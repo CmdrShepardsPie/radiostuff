@@ -1,0 +1,2 @@
+ID,StateID,Callsign,Use,Status,DigitalTone,Digital,Location.Latitude,Location.Longitude,Location.County,Location.State,Location.Local,Frequency.Input,Frequency.Output,SquelchTone.Input,SquelchTone.Output,VOIP.AllStar,VOIP.Wires,VOIP.EchoLink.NodeID,VOIP.IRLP.NodeID
+153,8,W0GJT,Open,On-Air,,,38.89899826,-108.4960022,Mesa,CO,Grand Junction,443.15,448.15,100,,,,312189,7963

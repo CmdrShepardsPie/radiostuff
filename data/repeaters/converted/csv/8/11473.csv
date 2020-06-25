@@ -1,0 +1,2 @@
+ID,StateID,Callsign,Use,Status,SquelchTone,DigitalTone,VOIP,Location.Latitude,Location.Longitude,Location.County,Location.State,Location.Local,Frequency.Input,Frequency.Output,Digital.DMR,Digital.P25,Digital.YSF,Digital.DStar.Node
+11473,8,K0PRA,Open,On-Air,,,,39.39350128,-104.67500305,Douglas,CO,Franktown,441.85,446.85,,,,K0PRA (B) Repeater

@@ -1,0 +1,21 @@
+{
+  "ID": 8214,
+  "StateID": 8,
+  "Callsign": "",
+  "Location": {
+    "Latitude": 38.97969818,
+    "Longitude": -105.35700226,
+    "County": "Park",
+    "State": "CO",
+    "Local": "Lake George"
+  },
+  "Use": "Open",
+  "Status": "Other",
+  "Frequency": {
+    "Input": 444.7,
+    "Output": 449.7
+  },
+  "SquelchTone": {
+    "Input": 107.2
+  }
+}

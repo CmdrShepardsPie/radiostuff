@@ -1,0 +1,2 @@
+ID,StateID,Callsign,Use,Status,SquelchTone,Digital,VOIP,Location.Latitude,Location.Longitude,Location.County,Location.State,Location.Local,Frequency.Input,Frequency.Output,DigitalTone.Input,DigitalTone.Output
+3537,8,W0MOG,Open,On-Air,,,,38.83390045,-104.82099915,Teller,CO,Colorado Springs,902.8,927.8,116,

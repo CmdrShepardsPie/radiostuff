@@ -1,0 +1,24 @@
+{
+  "ID": 12698,
+  "StateID": 8,
+  "Callsign": "N0SZ",
+  "Location": {
+    "Latitude": 39.0469017,
+    "Longitude": -105.87000275,
+    "County": "Park",
+    "State": "CO",
+    "Local": "Fairplay, Badger"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 441.7625,
+    "Output": 446.7625
+  },
+  "Digital": {
+    "DMR": {
+      "ColorCode": 7,
+      "ID": 310827
+    }
+  }
+}

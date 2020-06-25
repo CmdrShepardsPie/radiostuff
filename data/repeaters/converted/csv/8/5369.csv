@@ -1,0 +1,2 @@
+ID,StateID,Callsign,Use,Status,DigitalTone,Digital,Location.Latitude,Location.Longitude,Location.County,Location.State,Location.Local,Frequency.Input,Frequency.Output,SquelchTone.Input,SquelchTone.Output,VOIP.Wires,VOIP.AllStar.NodeID,VOIP.EchoLink.NodeID,VOIP.IRLP.NodeID
+5369,8,K0JSC,Open,On-Air,,,38.0340004,-104.48899841,Pueblo,CO,"Pueblo, Cedarwood",444.975,449.975,100,100,,28368,363976,7301

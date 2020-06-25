@@ -1,0 +1,22 @@
+{
+  "ID": 133,
+  "StateID": 8,
+  "Callsign": "W0CBI",
+  "Location": {
+    "Latitude": 39.77719879,
+    "Longitude": -105.32900238,
+    "County": "Jefferson",
+    "State": "CO",
+    "Local": "Golden, Guy Hill"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 147.75,
+    "Output": 147.15
+  },
+  "SquelchTone": {
+    "Input": 100,
+    "Output": 100
+  }
+}

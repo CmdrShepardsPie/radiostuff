@@ -1,0 +1,26 @@
+{
+  "ID": 137,
+  "StateID": 8,
+  "Callsign": "W0GV",
+  "Location": {
+    "Latitude": 39.75559998,
+    "Longitude": -105.22100067,
+    "County": "Jefferson",
+    "State": "CO",
+    "Local": "Golden"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 443.975,
+    "Output": 448.975
+  },
+  "SquelchTone": {
+    "Input": 123
+  },
+  "VOIP": {
+    "AllStar": {
+      "NodeID": 42845
+    }
+  }
+}

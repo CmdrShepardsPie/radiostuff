@@ -1,0 +1,2 @@
+ID,StateID,Callsign,Use,Status,DigitalTone,Digital,VOIP,Location.Latitude,Location.Longitude,Location.County,Location.State,Location.Local,Frequency.Input,Frequency.Output,SquelchTone.Input,SquelchTone.Output
+5,8,KB0UDD,Open,On-Air,,,,39.6072998,-104.74099731,Arapahoe,CO,"Aurora, Smoky Hill",144.8,145.4,100,

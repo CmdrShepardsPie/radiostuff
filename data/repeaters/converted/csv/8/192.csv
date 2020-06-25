@@ -1,0 +1,2 @@
+ID,StateID,Callsign,Use,Status,DigitalTone,Digital,VOIP,Location.Latitude,Location.Longitude,Location.County,Location.State,Location.Local,Frequency.Input,Frequency.Output,SquelchTone.Input,SquelchTone.Output
+192,8,K0ST,Open,On-Air,,,,38.25439835,-104.60900116,Pueblo,CO,"Pueblo, Pueblo",146.055,146.655,123,

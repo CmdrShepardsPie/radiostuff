@@ -1,0 +1,33 @@
+{
+  "ID": 8879,
+  "StateID": 8,
+  "Callsign": "K0JSC",
+  "Location": {
+    "Latitude": 38.45420074,
+    "Longitude": -105.29000092,
+    "County": "Fremont",
+    "State": "CO",
+    "Local": "Canon City, Fremont Peak"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 442.25,
+    "Output": 447.25
+  },
+  "SquelchTone": {
+    "Input": 100,
+    "Output": 100
+  },
+  "VOIP": {
+    "AllStar": {
+      "NodeID": 28368
+    },
+    "EchoLink": {
+      "NodeID": 363976
+    },
+    "IRLP": {
+      "NodeID": 7301
+    }
+  }
+}

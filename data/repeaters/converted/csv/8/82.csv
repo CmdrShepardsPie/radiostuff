@@ -1,0 +1,2 @@
+ID,StateID,Callsign,Use,Status,DigitalTone,Digital,Location.Latitude,Location.Longitude,Location.County,Location.State,Location.Local,Frequency.Input,Frequency.Output,SquelchTone.Input,SquelchTone.Output,VOIP.AllStar,VOIP.EchoLink,VOIP.Wires,VOIP.IRLP.NodeID
+82,8,K0FEZ,Open,On-Air,,,39.75249863,-105.35900116,Denver,CO,"Golden, Centennial Cone",146.385,146.985,100,100,,,,3346

@@ -1,0 +1,2 @@
+ID,StateID,Callsign,Use,Status,DigitalTone,Digital,VOIP,Location.Latitude,Location.Longitude,Location.County,Location.State,Location.Local,Frequency.Input,Frequency.Output,SquelchTone.Input,SquelchTone.Output
+209,8,KB5ITS,Open,On-Air,,,,37.79330063,-107.6289978,San Juan,CO,"Silverton, Kendall Mountain",147.975,147.375,156.7,

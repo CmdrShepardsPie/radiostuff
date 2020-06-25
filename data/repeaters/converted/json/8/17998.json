@@ -1,0 +1,24 @@
+{
+  "ID": 17998,
+  "StateID": 8,
+  "Callsign": "AD0RM",
+  "Location": {
+    "Latitude": 38.18000031,
+    "Longitude": -107.79000092,
+    "County": "Ouray",
+    "State": "CO",
+    "Local": "Ridgway, On top of Log Hill"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 442.8,
+    "Output": 447.8
+  },
+  "Digital": {
+    "DMR": {
+      "ColorCode": 1,
+      "ID": 311075
+    }
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "ID": 170,
+  "StateID": 8,
+  "Callsign": "KC0CVU",
+  "Location": {
+    "Latitude": 39.0489006,
+    "Longitude": -105.51200104,
+    "County": "Park",
+    "State": "CO",
+    "Local": "Lake George, Badger Mountain"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 147.96,
+    "Output": 147.36
+  },
+  "SquelchTone": {
+    "Input": 107.2,
+    "Output": 107.2
+  },
+  "VOIP": {
+    "IRLP": {
+      "NodeID": 3854
+    }
+  }
+}

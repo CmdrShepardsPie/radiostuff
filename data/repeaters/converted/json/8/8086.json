@@ -1,0 +1,23 @@
+{
+  "ID": 8086,
+  "StateID": 8,
+  "Callsign": "KD0RDI",
+  "Location": {
+    "Latitude": 37.14569855,
+    "Longitude": -104.57099915,
+    "County": "Las Animas",
+    "State": "CO",
+    "Local": "Trinidad, Raton Pass"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 441.775,
+    "Output": 446.775
+  },
+  "Digital": {
+    "DStar": {
+      "Node": "KD0RDI (B)"
+    }
+  }
+}

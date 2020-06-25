@@ -1,0 +1,27 @@
+{
+  "ID": 5336,
+  "StateID": 8,
+  "Callsign": "AA0BF",
+  "Location": {
+    "Latitude": 39.20999908,
+    "Longitude": -106.08699799,
+    "County": "Park",
+    "State": "CO",
+    "Local": "Fairplay, Sacramento Mountain"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 442.125,
+    "Output": 447.125
+  },
+  "SquelchTone": {
+    "Input": 103.5,
+    "Output": 103.5
+  },
+  "VOIP": {
+    "AllStar": {
+      "NodeID": 45840
+    }
+  }
+}

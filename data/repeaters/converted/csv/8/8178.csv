@@ -1,0 +1,2 @@
+ID,StateID,Callsign,Use,Status,DigitalTone,Digital,VOIP,Location.Latitude,Location.Longitude,Location.County,Location.State,Location.Local,Frequency.Input,Frequency.Output,SquelchTone.Input,SquelchTone.Output
+8178,8,AA0SP,Private,On-Air,,,,38.77249908,-104.99299622,El Paso,CO,"Colorado Springs, Almagre Mountain",147.78,147.18,100,

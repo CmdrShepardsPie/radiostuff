@@ -1,0 +1,2 @@
+ID,StateID,Callsign,Use,Status,DigitalTone,Digital,Location.Latitude,Location.Longitude,Location.County,Location.State,Location.Local,Frequency.Input,Frequency.Output,SquelchTone.Input,SquelchTone.Output,VOIP.Wires,VOIP.AllStar.NodeID,VOIP.EchoLink.NodeID,VOIP.IRLP.NodeID
+13485,8,N0ZSN,Open,On-Air,,,37.34069824,-105.02400208,Las Animas,CO,"La Veta, Cordova Pass",444.75,449.75,100,100,,28368,363976,7301

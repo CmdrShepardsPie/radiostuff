@@ -1,0 +1,2 @@
+ID,StateID,Callsign,Use,Status,SquelchTone,DigitalTone,VOIP,Location.Latitude,Location.Longitude,Location.County,Location.State,Location.Local,Frequency.Input,Frequency.Output,Digital.P25,Digital.DStar,Digital.YSF,Digital.DMR.ColorCode,Digital.DMR.ID
+7184,8,K0JSC,Open,On-Air,,,,38.45420074,-105.29000092,Fremont,CO,"Canon City, Fremont Peak",441.7375,446.7375,,,,7,310815

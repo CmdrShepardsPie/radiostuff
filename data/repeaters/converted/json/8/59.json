@@ -1,0 +1,22 @@
+{
+  "ID": 59,
+  "StateID": 8,
+  "Callsign": "N0ARA",
+  "Location": {
+    "Latitude": 39.51480103,
+    "Longitude": -105.35299683,
+    "County": "Jefferson",
+    "State": "CO",
+    "Local": "Critchell, Critchell Mountain"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 147.72,
+    "Output": 147.12
+  },
+  "SquelchTone": {
+    "Input": 88.5,
+    "Output": 88.5
+  }
+}

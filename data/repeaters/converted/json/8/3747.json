@@ -1,0 +1,21 @@
+{
+  "ID": 3747,
+  "StateID": 8,
+  "Callsign": "KJ0T",
+  "Location": {
+    "Latitude": 38.23059845,
+    "Longitude": -104.61100006,
+    "County": "Pueblo",
+    "State": "CO",
+    "Local": "Pueblo"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 147.84,
+    "Output": 147.24
+  },
+  "SquelchTone": {
+    "Input": 103.5
+  }
+}

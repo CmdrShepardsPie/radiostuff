@@ -1,0 +1,22 @@
+{
+  "ID": 33,
+  "StateID": 8,
+  "Callsign": "WB0WDF",
+  "Location": {
+    "Latitude": 38.53860092,
+    "Longitude": -105.34899902,
+    "County": "Fremont",
+    "State": "CO",
+    "Local": "Canon City, eightmile Mountain"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 444,
+    "Output": 449
+  },
+  "SquelchTone": {
+    "Input": 67,
+    "Output": 67
+  }
+}

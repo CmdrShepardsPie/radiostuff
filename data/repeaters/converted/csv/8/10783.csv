@@ -1,0 +1,2 @@
+ID,StateID,Callsign,Use,Status,SquelchTone,DigitalTone,VOIP,Location.Latitude,Location.Longitude,Location.County,Location.State,Location.Local,Frequency.Input,Frequency.Output,Digital.P25,Digital.DStar,Digital.YSF,Digital.DMR.ColorCode,Digital.DMR.ID
+10783,8,W0FT,Open,On-Air,,,,40.25030136,-103.80000305,Morgan,CO,"Fort Morgan, Fort Morgan EOC",443.2,448.2,,,,7,310812

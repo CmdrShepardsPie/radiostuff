@@ -1,0 +1,24 @@
+{
+  "ID": 16784,
+  "StateID": 8,
+  "Callsign": "W0FT",
+  "Location": {
+    "Latitude": 40.16049957,
+    "Longitude": -103.21399689,
+    "County": "Morgan",
+    "State": "CO",
+    "Local": "Akron"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 443.175,
+    "Output": 448.175
+  },
+  "Digital": {
+    "DMR": {
+      "ColorCode": 7,
+      "ID": 310833
+    }
+  }
+}

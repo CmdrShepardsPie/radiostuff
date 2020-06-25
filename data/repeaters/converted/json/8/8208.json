@@ -1,0 +1,29 @@
+{
+  "ID": 8208,
+  "StateID": 8,
+  "Callsign": "N1UPS",
+  "Location": {
+    "Latitude": 39.83670044,
+    "Longitude": -105.03700256,
+    "County": "Adams",
+    "State": "CO",
+    "Local": "Westminster"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 444.3,
+    "Output": 449.3
+  },
+  "SquelchTone": {
+    "Input": 100
+  },
+  "VOIP": {
+    "EchoLink": {
+      "NodeID": 43699
+    },
+    "IRLP": {
+      "NodeID": 3699
+    }
+  }
+}

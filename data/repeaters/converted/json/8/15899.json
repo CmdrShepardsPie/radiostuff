@@ -1,0 +1,24 @@
+{
+  "ID": 15899,
+  "StateID": 8,
+  "Callsign": "K7PFJ",
+  "Location": {
+    "Latitude": 40.08610153,
+    "Longitude": -105.93900299,
+    "County": "Clear Creek",
+    "State": "CO",
+    "Local": "Granby, Mt Chauncey"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 441.875,
+    "Output": 446.875
+  },
+  "Digital": {
+    "DMR": {
+      "ColorCode": 7,
+      "ID": 310838
+    }
+  }
+}

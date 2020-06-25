@@ -1,0 +1,2 @@
+ID,StateID,Callsign,Use,Status,DigitalTone,Digital,VOIP,Location.Latitude,Location.Longitude,Location.County,Location.State,Location.Local,Frequency.Input,Frequency.Output,SquelchTone.Input,SquelchTone.Output
+60,8,N0OWY,Open,On-Air,,,,39.47029877,-105.19799805,Jefferson,CO,"Conifer, Critchell Mountain",442.5,447.5,88.5,88.5

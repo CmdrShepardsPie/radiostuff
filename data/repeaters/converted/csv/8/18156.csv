@@ -1,0 +1,2 @@
+ID,StateID,Callsign,Use,Status,DigitalTone,Digital,Location.Latitude,Location.Longitude,Location.County,Location.State,Location.Local,Frequency.Input,Frequency.Output,SquelchTone.Input,SquelchTone.Output,VOIP.EchoLink,VOIP.IRLP,VOIP.Wires,VOIP.AllStar.NodeID
+18156,8,W0SKY,Open,On-Air,,,39.73329926,-105.23699951,Jefferson,CO,"Golden, Lookout Mountain",902.0375,927.975,67,67,,,,40195

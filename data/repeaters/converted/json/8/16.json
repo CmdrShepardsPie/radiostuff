@@ -1,0 +1,21 @@
+{
+  "ID": 16,
+  "StateID": 8,
+  "Callsign": "W0IA",
+  "Location": {
+    "Latitude": 40.05559921,
+    "Longitude": -105.15699768,
+    "County": "Boulder",
+    "State": "CO",
+    "Local": "Boulder, Gunbarrel Hill"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 146.16,
+    "Output": 146.76
+  },
+  "SquelchTone": {
+    "Input": 100
+  }
+}

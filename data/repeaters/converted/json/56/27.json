@@ -1,0 +1,21 @@
+{
+  "ID": 27,
+  "StateID": 56,
+  "Callsign": "KC7SNO",
+  "Location": {
+    "Latitude": 41.12390137,
+    "Longitude": -104.81900024,
+    "County": "Laramie",
+    "State": "WY",
+    "Local": "Cheyenne, Denver Hill"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 146.175,
+    "Output": 146.775
+  },
+  "SquelchTone": {
+    "Input": 114.8
+  }
+}

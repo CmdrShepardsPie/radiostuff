@@ -1,0 +1,21 @@
+{
+  "ID": 28,
+  "StateID": 56,
+  "Callsign": "KC7SNO",
+  "Location": {
+    "Latitude": 41.4178009,
+    "Longitude": -104.09799957,
+    "County": "Laramie",
+    "State": "WY",
+    "Local": "Albin"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 147.765,
+    "Output": 147.165
+  },
+  "SquelchTone": {
+    "Input": 114.8
+  }
+}

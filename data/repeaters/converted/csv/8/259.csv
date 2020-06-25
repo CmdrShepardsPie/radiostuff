@@ -1,0 +1,2 @@
+ID,StateID,Callsign,Use,Status,DigitalTone,Digital,VOIP,Location.Latitude,Location.Longitude,Location.County,Location.State,Location.Local,Frequency.Input,Frequency.Output,SquelchTone.Input,SquelchTone.Output
+259,8,K0SNO,Open,On-Air,,,,39.40000153,-107.31500244,Garfield,CO,"Carbondale, Four Mile Ridge",147.99,147.39,107.2,

@@ -1,0 +1,2 @@
+ID,StateID,Callsign,Use,Status,SquelchTone,DigitalTone,VOIP,Location.Latitude,Location.Longitude,Location.County,Location.State,Location.Local,Frequency.Input,Frequency.Output,Digital.P25,Digital.DStar,Digital.YSF,Digital.DMR.ColorCode,Digital.DMR.ID
+5220,8,K7PFJ,Open,On-Air,,,,38.77259827,-104.99299622,Teller,CO,"Colorado Springs, Almagre Mountain",441.95,446.95,,,,7,310816

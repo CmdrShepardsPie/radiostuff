@@ -1,0 +1,2 @@
+ID,StateID,Callsign,Use,Status,SquelchTone,DigitalTone,VOIP,Location.Latitude,Location.Longitude,Location.County,Location.State,Location.Local,Frequency.Input,Frequency.Output,Digital.DMR,Digital.P25,Digital.DStar,Digital.YSF.GroupID.Input,Digital.YSF.GroupID.Output
+76,56,N7UW,Open,On-Air,,,,41.31480026,-105.58200073,Albany,WY,"Laramie, University",146.01,146.61,,,,Open ↑,Open ↓

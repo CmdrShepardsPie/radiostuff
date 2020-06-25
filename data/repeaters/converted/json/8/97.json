@@ -1,0 +1,22 @@
+{
+  "ID": 97,
+  "StateID": 8,
+  "Callsign": "N0SZ",
+  "Location": {
+    "Latitude": 39.88750076,
+    "Longitude": -105.4260025,
+    "County": "Gilpin",
+    "State": "CO",
+    "Local": "Denver, Thorodin Mountain"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 444.225,
+    "Output": 449.225
+  },
+  "SquelchTone": {
+    "Input": 141.3,
+    "Output": 141.3
+  }
+}

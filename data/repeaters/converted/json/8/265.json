@@ -1,0 +1,22 @@
+{
+  "ID": 265,
+  "StateID": 8,
+  "Callsign": "KI0GO",
+  "Location": {
+    "Latitude": 39.77719879,
+    "Longitude": -105.32800293,
+    "County": "Jefferson",
+    "State": "CO",
+    "Local": "Golden, Guy Hill"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 444.75,
+    "Output": 449.75
+  },
+  "SquelchTone": {
+    "Input": 103.5,
+    "Output": 103.5
+  }
+}

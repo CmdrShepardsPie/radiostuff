@@ -1,0 +1,2 @@
+ID,StateID,Callsign,Use,Status,DigitalTone,Digital,Location.Latitude,Location.Longitude,Location.County,Location.State,Location.Local,Frequency.Input,Frequency.Output,SquelchTone.Input,SquelchTone.Output,VOIP.AllStar,VOIP.IRLP,VOIP.Wires,VOIP.EchoLink.NodeID
+176,8,N0EPA,Open,On-Air,,,40.16719818,-105.10099792,Boulder,CO,Longmont,443.525,448.525,151.4,,,,,223853

@@ -1,0 +1,2 @@
+ID,StateID,Callsign,Use,Status,DigitalTone,Digital,Location.Latitude,Location.Longitude,Location.County,Location.State,Location.Local,Frequency.Input,Frequency.Output,SquelchTone.Input,SquelchTone.Output,VOIP.AllStar,VOIP.Wires,VOIP.EchoLink.NodeID,VOIP.IRLP.NodeID
+83,8,W0CRA,Open,On-Air,,,39.17549896,-105.03399658,Douglas,CO,"Larkspur, Westcreek",147.825,147.225,107.2,107.2,,,347086,3990

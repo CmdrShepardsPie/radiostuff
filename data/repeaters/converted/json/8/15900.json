@@ -1,0 +1,24 @@
+{
+  "ID": 15900,
+  "StateID": 8,
+  "Callsign": "N0SZ",
+  "Location": {
+    "Latitude": 39.15250015,
+    "Longitude": -105.16400146,
+    "County": "Douglas",
+    "State": "CO",
+    "Local": "Westcreek"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 441.875,
+    "Output": 446.875
+  },
+  "Digital": {
+    "DMR": {
+      "ColorCode": 6,
+      "ID": 310846
+    }
+  }
+}

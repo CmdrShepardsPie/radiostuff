@@ -1,0 +1,2 @@
+ID,StateID,Callsign,Use,Status,DigitalTone,Digital,VOIP,Location.Latitude,Location.Longitude,Location.County,Location.State,Location.Local,Frequency.Input,Frequency.Output,SquelchTone.Input,SquelchTone.Output
+185,8,K0ML,Open,On-Air,,,,39.88560104,-104.98699951,Adams,CO,Northglenn,147.645,147.045,123,

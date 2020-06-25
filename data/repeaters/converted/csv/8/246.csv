@@ -1,0 +1,2 @@
+ID,StateID,Callsign,Use,Status,DigitalTone,Digital,VOIP,Location.Latitude,Location.Longitude,Location.County,Location.State,Location.Local,Frequency.Input,Frequency.Output,SquelchTone.Input,SquelchTone.Output
+246,8,W0UPS,Open,On-Air,,,,40.61700058,-105.32700348,Larimer,CO,"Fort Collins, Buckhorn Mountain",146.025,146.625,100,100

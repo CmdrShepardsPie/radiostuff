@@ -1,0 +1,21 @@
+{
+  "ID": 239,
+  "StateID": 8,
+  "Callsign": "WA6IFI",
+  "Location": {
+    "Latitude": 36.99739838,
+    "Longitude": -104.46700287,
+    "County": "Las Animas",
+    "State": "CO",
+    "Local": "Trinidad, Raton Pass"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 144.83,
+    "Output": 145.43
+  },
+  "SquelchTone": {
+    "Input": 107.2
+  }
+}

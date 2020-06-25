@@ -1,0 +1,2 @@
+ID,StateID,Callsign,Use,Status,DigitalTone,Digital,VOIP,Location.Latitude,Location.Longitude,Location.County,Location.State,Location.Local,Frequency.Input,Frequency.Output,SquelchTone.Input,SquelchTone.Output
+3740,8,WD0HAM,Open,Other,,,,40.51520157,-107.54599762,Moffat,CO,Craig,144.665,145.265,107.2,

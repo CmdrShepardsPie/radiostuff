@@ -1,0 +1,21 @@
+{
+  "ID": 64,
+  "StateID": 8,
+  "Callsign": "WB0WDF",
+  "Location": {
+    "Latitude": 38.7466011,
+    "Longitude": -105.1780014,
+    "County": "Teller",
+    "State": "CO",
+    "Local": "Cripple Creek"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 144.86,
+    "Output": 145.46
+  },
+  "SquelchTone": {
+    "Input": 67
+  }
+}

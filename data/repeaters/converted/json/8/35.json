@@ -1,0 +1,29 @@
+{
+  "ID": 35,
+  "StateID": 8,
+  "Callsign": "K0ELK",
+  "Location": {
+    "Latitude": 39.40000153,
+    "Longitude": -107.31500244,
+    "County": "Garfield",
+    "State": "CO",
+    "Local": "Carbondale, Four Mile Ridge"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 444.725,
+    "Output": 449.725
+  },
+  "SquelchTone": {
+    "Input": 179.9
+  },
+  "VOIP": {
+    "AllStar": {
+      "NodeID": 28434
+    },
+    "IRLP": {
+      "NodeID": 3722
+    }
+  }
+}

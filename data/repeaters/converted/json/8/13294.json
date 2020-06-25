@@ -1,0 +1,33 @@
+{
+  "ID": 13294,
+  "StateID": 8,
+  "Callsign": "KD0MDP",
+  "Location": {
+    "Latitude": 39.04370117,
+    "Longitude": -104.60800171,
+    "County": "El Paso",
+    "State": "CO",
+    "Local": "Falcon, Black Forest"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 442.625,
+    "Output": 447.625
+  },
+  "SquelchTone": {
+    "Input": 100,
+    "Output": 100
+  },
+  "VOIP": {
+    "AllStar": {
+      "NodeID": 28299
+    },
+    "EchoLink": {
+      "NodeID": 363976
+    },
+    "IRLP": {
+      "NodeID": 7301
+    }
+  }
+}

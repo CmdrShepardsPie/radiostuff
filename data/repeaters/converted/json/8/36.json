@@ -1,0 +1,21 @@
+{
+  "ID": 36,
+  "StateID": 8,
+  "Callsign": "KB0SW",
+  "Location": {
+    "Latitude": 39.24060059,
+    "Longitude": -107.96099854,
+    "County": "Mesa",
+    "State": "CO",
+    "Local": "Collbran"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 444.5,
+    "Output": 449.5
+  },
+  "SquelchTone": {
+    "Input": 107.2
+  }
+}

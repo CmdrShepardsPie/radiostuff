@@ -1,0 +1,21 @@
+{
+  "ID": 77,
+  "StateID": 8,
+  "Callsign": "N0PUF",
+  "Location": {
+    "Latitude": 39.75249863,
+    "Longitude": -105.35900116,
+    "County": "Jefferson",
+    "State": "CO",
+    "Local": "Golden, Centennial Cone"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 146.04,
+    "Output": 146.64
+  },
+  "SquelchTone": {
+    "Input": 100
+  }
+}

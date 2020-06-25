@@ -1,0 +1,2 @@
+ID,StateID,Callsign,Use,Status,DigitalTone,Digital,VOIP,Location.Latitude,Location.Longitude,Location.County,Location.State,Location.Local,Frequency.Input,Frequency.Output,SquelchTone.Input,SquelchTone.Output
+191,8,W0PHC,Open,On-Air,,,,38.2521019,-104.66200256,Pueblo,CO,Pueblo,144.515,145.115,88.5,

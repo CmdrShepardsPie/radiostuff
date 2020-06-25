@@ -1,0 +1,27 @@
+{
+  "ID": 8740,
+  "StateID": 8,
+  "Callsign": "N0XLF",
+  "Location": {
+    "Latitude": 39.13600159,
+    "Longitude": -104.92700195,
+    "County": "Douglas",
+    "State": "CO",
+    "Local": "Palmer Lake, Monument Hill"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 147.675,
+    "Output": 147.075
+  },
+  "SquelchTone": {
+    "Input": 131.8,
+    "Output": 131.8
+  },
+  "VOIP": {
+    "EchoLink": {
+      "NodeID": 10079
+    }
+  }
+}

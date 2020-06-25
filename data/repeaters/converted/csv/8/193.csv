@@ -1,0 +1,2 @@
+ID,StateID,Callsign,Use,Status,DigitalTone,Digital,VOIP,Location.Latitude,Location.Longitude,Location.County,Location.State,Location.Local,Frequency.Input,Frequency.Output,SquelchTone.Input,SquelchTone.Output
+193,8,W0PHC,Open,On-Air,,,,38.36240005,-104.55999756,Pueblo,CO,"Pueblo, Baculite Mesa",146.19,146.79,88.5,

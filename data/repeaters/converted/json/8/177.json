@@ -1,0 +1,27 @@
+{
+  "ID": 177,
+  "StateID": 8,
+  "Callsign": "W0ENO",
+  "Location": {
+    "Latitude": 40.16719818,
+    "Longitude": -105.10099792,
+    "County": "Boulder",
+    "State": "CO",
+    "Local": "Longmont"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 443.8,
+    "Output": 448.8
+  },
+  "SquelchTone": {
+    "Input": 88.5,
+    "Output": 88.5
+  },
+  "VOIP": {
+    "EchoLink": {
+      "NodeID": 8305
+    }
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "ID": 8715,
+  "StateID": 8,
+  "Callsign": "K7PFJ",
+  "Location": {
+    "Latitude": 40.53879929,
+    "Longitude": -105.17900085,
+    "County": "Larimer",
+    "State": "CO",
+    "Local": "Fort Collins, Horsetooth Mountain"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 441.75,
+    "Output": 446.75
+  },
+  "Digital": {
+    "DMR": {
+      "ColorCode": 7,
+      "ID": 310814
+    }
+  }
+}

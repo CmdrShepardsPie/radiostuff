@@ -1,0 +1,2 @@
+ID,StateID,Callsign,Use,Status,DigitalTone,Digital,Location.Latitude,Location.Longitude,Location.County,Location.State,Location.Local,Frequency.Input,Frequency.Output,SquelchTone.Input,SquelchTone.Output,VOIP.EchoLink,VOIP.IRLP,VOIP.Wires,VOIP.AllStar.NodeID
+5336,8,AA0BF,Open,On-Air,,,39.20999908,-106.08699799,Park,CO,"Fairplay, Sacramento Mountain",442.125,447.125,103.5,103.5,,,,45840

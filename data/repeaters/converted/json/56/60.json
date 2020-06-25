@@ -1,0 +1,24 @@
+{
+  "ID": 60,
+  "StateID": 56,
+  "Callsign": "WY7EOC",
+  "Location": {
+    "Latitude": 41.26660156,
+    "Longitude": -105.43299866,
+    "County": "Albany",
+    "State": "WY",
+    "Local": "Laramie, Pilot Hill"
+  },
+  "Use": "Closed",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 442.225,
+    "Output": 447.225
+  },
+  "Digital": {
+    "DMR": {
+      "ColorCode": 11,
+      "ID": 315608
+    }
+  }
+}

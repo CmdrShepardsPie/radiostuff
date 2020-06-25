@@ -1,0 +1,21 @@
+{
+  "ID": 19,
+  "StateID": 56,
+  "Callsign": "KB7SWR",
+  "Location": {
+    "Latitude": 41.13999939,
+    "Longitude": -104.81999969,
+    "County": "Laramie",
+    "State": "WY",
+    "Local": "Cheyenne"
+  },
+  "Use": "Open",
+  "Status": "Off-Air",
+  "Frequency": {
+    "Input": 144.635,
+    "Output": 145.235
+  },
+  "SquelchTone": {
+    "Input": 131.8
+  }
+}

@@ -1,0 +1,2 @@
+ID,StateID,Callsign,Use,Status,DigitalTone,Digital,Location.Latitude,Location.Longitude,Location.County,Location.State,Location.Local,Frequency.Input,Frequency.Output,SquelchTone.Input,SquelchTone.Output,VOIP.EchoLink,VOIP.IRLP,VOIP.Wires,VOIP.AllStar.NodeID
+10514,8,N6LXX,Open,On-Air,,,39.67340088,-105.21800232,Jefferson,CO,"Morrison, Mt. Morrison",52.67,53.17,107.2,,,,,29883

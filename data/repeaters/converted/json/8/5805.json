@@ -1,0 +1,21 @@
+{
+  "ID": 5805,
+  "StateID": 8,
+  "Callsign": "W0TX",
+  "Location": {
+    "Latitude": 39.71620178,
+    "Longitude": -105.12999725,
+    "County": "Jefferson",
+    "State": "CO",
+    "Local": "Lakewood, St Anthony Medical Campus"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 442.825,
+    "Output": 447.825
+  },
+  "DigitalTone": {
+    "Input": 73
+  }
+}

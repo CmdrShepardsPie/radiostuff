@@ -1,0 +1,21 @@
+{
+  "ID": 3740,
+  "StateID": 8,
+  "Callsign": "WD0HAM",
+  "Location": {
+    "Latitude": 40.51520157,
+    "Longitude": -107.54599762,
+    "County": "Moffat",
+    "State": "CO",
+    "Local": "Craig"
+  },
+  "Use": "Open",
+  "Status": "Other",
+  "Frequency": {
+    "Input": 144.665,
+    "Output": 145.265
+  },
+  "SquelchTone": {
+    "Input": 107.2
+  }
+}

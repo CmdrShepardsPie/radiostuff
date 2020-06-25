@@ -1,0 +1,21 @@
+{
+  "ID": 26,
+  "StateID": 8,
+  "Callsign": "W0LMA",
+  "Location": {
+    "Latitude": 39.92060089,
+    "Longitude": -105.08599854,
+    "County": "Boulder",
+    "State": "CO",
+    "Local": "Broomfield"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 443.925,
+    "Output": 448.925
+  },
+  "SquelchTone": {
+    "Input": 131.8
+  }
+}

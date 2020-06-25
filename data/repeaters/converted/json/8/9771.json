@@ -1,0 +1,21 @@
+{
+  "ID": 9771,
+  "StateID": 8,
+  "Callsign": "KE0SJ",
+  "Location": {
+    "Latitude": 40.00719833,
+    "Longitude": -104.71600342,
+    "County": "Adams",
+    "State": "CO",
+    "Local": "Lochbuie"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 442.625,
+    "Output": 447.625
+  },
+  "SquelchTone": {
+    "Input": 100
+  }
+}

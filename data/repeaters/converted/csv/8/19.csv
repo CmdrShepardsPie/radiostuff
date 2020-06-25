@@ -1,0 +1,2 @@
+ID,StateID,Callsign,Use,Status,DigitalTone,Digital,Location.Latitude,Location.Longitude,Location.County,Location.State,Location.Local,Frequency.Input,Frequency.Output,SquelchTone.Input,SquelchTone.Output,VOIP.AllStar,VOIP.EchoLink,VOIP.Wires,VOIP.IRLP.NodeID
+19,8,N0SZ,Open,On-Air,,,40.07220078,-105.35399628,Boulder,CO,"Boulder, Lee Hill",442.75,447.75,141.3,141.3,,,,3450

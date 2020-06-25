@@ -1,0 +1,2 @@
+ID,StateID,Callsign,Use,Status,DigitalTone,Digital,Location.Latitude,Location.Longitude,Location.County,Location.State,Location.Local,Frequency.Input,Frequency.Output,SquelchTone.Input,SquelchTone.Output,VOIP.AllStar,VOIP.Wires,VOIP.EchoLink.NodeID,VOIP.IRLP.NodeID
+171,8,N0LAR,Open,On-Air,,,38.036912,-102.59947,Prowers,CO,Lamar,444.5,449.5,123,123,,,37784,3774

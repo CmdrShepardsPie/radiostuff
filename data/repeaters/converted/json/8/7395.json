@@ -1,0 +1,21 @@
+{
+  "ID": 7395,
+  "StateID": 8,
+  "Callsign": "N1FSX",
+  "Location": {
+    "Latitude": 38.85200119,
+    "Longitude": -103.69999695,
+    "County": "Lincoln",
+    "State": "CO",
+    "Local": "Punkin Center"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 444.9,
+    "Output": 449.9
+  },
+  "SquelchTone": {
+    "Input": 107.2
+  }
+}

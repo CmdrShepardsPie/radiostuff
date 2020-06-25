@@ -1,0 +1,21 @@
+{
+  "ID": 10,
+  "StateID": 8,
+  "Callsign": "W0DK",
+  "Location": {
+    "Latitude": 39.97800064,
+    "Longitude": -105.27500153,
+    "County": "Boulder",
+    "State": "CO",
+    "Local": "Boulder, Table Mesa"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 443.9,
+    "Output": 448.9
+  },
+  "SquelchTone": {
+    "Input": 100
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "ID": 3753,
+  "StateID": 8,
+  "Callsign": "WA2YZT",
+  "Location": {
+    "Latitude": 39.73049927,
+    "Longitude": -105.23200226,
+    "County": "Jefferson",
+    "State": "CO",
+    "Local": "Golden, Lookout"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 441.8375,
+    "Output": 446.8375
+  },
+  "Digital": {
+    "DMR": {
+      "ColorCode": 7,
+      "ID": 310802
+    }
+  }
+}

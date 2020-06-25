@@ -1,0 +1,2 @@
+ID,StateID,Callsign,Use,Status,DigitalTone,Digital,Location.Latitude,Location.Longitude,Location.County,Location.State,Location.Local,Frequency.Input,Frequency.Output,SquelchTone.Input,SquelchTone.Output,VOIP.AllStar,VOIP.EchoLink,VOIP.Wires,VOIP.IRLP.NodeID
+158,8,KC0KWD,Open,On-Air,,,40.26119995,-104.70600128,Weld,CO,Greeley,443.475,448.475,100,,,,,3839

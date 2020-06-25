@@ -1,0 +1,21 @@
+{
+  "ID": 8191,
+  "StateID": 8,
+  "Callsign": "WA6IFI",
+  "Location": {
+    "Latitude": 38.83390045,
+    "Longitude": -104.82099915,
+    "County": "El Paso",
+    "State": "CO",
+    "Local": "Colorado Springs"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 442.55,
+    "Output": 447.55
+  },
+  "SquelchTone": {
+    "Input": 123
+  }
+}

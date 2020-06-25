@@ -1,0 +1,24 @@
+{
+  "ID": 15672,
+  "StateID": 56,
+  "Callsign": "K7PFJ",
+  "Location": {
+    "Latitude": 41.06000137,
+    "Longitude": -104.87999725,
+    "County": "Laramie",
+    "State": "WY",
+    "Local": "Cheyenne, South"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 444.9375,
+    "Output": 449.9375
+  },
+  "Digital": {
+    "DMR": {
+      "ColorCode": 7,
+      "ID": 315603
+    }
+  }
+}

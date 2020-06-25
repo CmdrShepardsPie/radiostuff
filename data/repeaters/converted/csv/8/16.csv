@@ -1,0 +1,2 @@
+ID,StateID,Callsign,Use,Status,DigitalTone,Digital,VOIP,Location.Latitude,Location.Longitude,Location.County,Location.State,Location.Local,Frequency.Input,Frequency.Output,SquelchTone.Input,SquelchTone.Output
+16,8,W0IA,Open,On-Air,,,,40.05559921,-105.15699768,Boulder,CO,"Boulder, Gunbarrel Hill",146.16,146.76,100,

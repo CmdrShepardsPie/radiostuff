@@ -1,0 +1,21 @@
+{
+  "ID": 5,
+  "StateID": 8,
+  "Callsign": "KB0UDD",
+  "Location": {
+    "Latitude": 39.6072998,
+    "Longitude": -104.74099731,
+    "County": "Arapahoe",
+    "State": "CO",
+    "Local": "Aurora, Smoky Hill"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 144.8,
+    "Output": 145.4
+  },
+  "SquelchTone": {
+    "Input": 100
+  }
+}

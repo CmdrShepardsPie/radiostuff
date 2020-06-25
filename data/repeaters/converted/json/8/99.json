@@ -1,0 +1,22 @@
+{
+  "ID": 99,
+  "StateID": 8,
+  "Callsign": "K1DUN",
+  "Location": {
+    "Latitude": 39.6794014,
+    "Longitude": -105.49299622,
+    "County": "Clear Creek",
+    "State": "CO",
+    "Local": "Idaho Springs, Squaw Mountain"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 444.45,
+    "Output": 449.45
+  },
+  "SquelchTone": {
+    "Input": 103.5,
+    "Output": 127.3
+  }
+}

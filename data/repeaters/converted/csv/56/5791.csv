@@ -1,0 +1,2 @@
+ID,StateID,Callsign,Use,Status,DigitalTone,Digital,Location.Latitude,Location.Longitude,Location.County,Location.State,Location.Local,Frequency.Input,Frequency.Output,SquelchTone.Input,SquelchTone.Output,VOIP.AllStar,VOIP.EchoLink,VOIP.Wires,VOIP.IRLP.NodeID
+5791,56,N7RON,Open,On-Air,,,41.79109955,-107.23899841,Carbon,WY,Rawlins,146.1,146.7,162.2,,,,,7045

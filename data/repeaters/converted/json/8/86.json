@@ -1,0 +1,22 @@
+{
+  "ID": 86,
+  "StateID": 8,
+  "Callsign": "N0MHU",
+  "Location": {
+    "Latitude": 39.77719879,
+    "Longitude": -105.32900238,
+    "County": "Jefferson",
+    "State": "CO",
+    "Local": "Golden, Guy Hill"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 222.4,
+    "Output": 224
+  },
+  "SquelchTone": {
+    "Input": 103.5,
+    "Output": 103.5
+  }
+}

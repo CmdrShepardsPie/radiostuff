@@ -1,0 +1,21 @@
+{
+  "ID": 3745,
+  "StateID": 8,
+  "Callsign": "KC0QXX",
+  "Location": {
+    "Latitude": 38.90159988,
+    "Longitude": -107.9260025,
+    "County": "Delta",
+    "State": "CO",
+    "Local": "Cedaredge, Cedar Mesa"
+  },
+  "Use": "Open",
+  "Status": "Other",
+  "Frequency": {
+    "Input": 147.795,
+    "Output": 147.195
+  },
+  "SquelchTone": {
+    "Input": 107.2
+  }
+}

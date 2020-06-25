@@ -1,0 +1,31 @@
+{
+  "ID": 16032,
+  "StateID": 8,
+  "Callsign": "WN7ANT",
+  "Location": {
+    "Latitude": 39.72940063,
+    "Longitude": -104.83200073,
+    "County": "Arapahoe",
+    "State": "CO",
+    "Local": "Aurora"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 443.825,
+    "Output": 448.825
+  },
+  "Digital": {
+    "YSF": {
+      "GroupID": {
+        "Input": "Open ↑",
+        "Output": "Open ↓"
+      }
+    }
+  },
+  "VOIP": {
+    "Wires": {
+      "ID": 30584
+    }
+  }
+}

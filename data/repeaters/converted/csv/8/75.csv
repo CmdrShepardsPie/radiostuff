@@ -1,0 +1,2 @@
+ID,StateID,Callsign,Use,Status,DigitalTone,Digital,VOIP,Location.Latitude,Location.Longitude,Location.County,Location.State,Location.Local,Frequency.Input,Frequency.Output,SquelchTone.Input,SquelchTone.Output
+75,8,KE0SJ,Open,On-Air,,,,39.73920059,-104.98400116,Jefferson,CO,"Boulder, Blue Mountain",144.875,145.475,100,

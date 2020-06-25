@@ -1,0 +1,2 @@
+ID,StateID,Callsign,Use,Status,DigitalTone,Digital,VOIP,Location.Latitude,Location.Longitude,Location.County,Location.State,Location.Local,Frequency.Input,Frequency.Output,SquelchTone.Input,SquelchTone.Output
+66,8,WB0WDF,Open,On-Air,,,,38.74670029,-105.1780014,Teller,CO,Cripple Creek,442.4,447.4,67,

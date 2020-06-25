@@ -1,0 +1,34 @@
+{
+  "ID": 17059,
+  "StateID": 8,
+  "Callsign": "KC0VJD",
+  "Location": {
+    "Latitude": 39.05419922,
+    "Longitude": -103.48000336,
+    "County": "Lincoln",
+    "State": "CO",
+    "Local": "Hugo"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 442,
+    "Output": 447
+  },
+  "SquelchTone": {
+    "Input": 103.5
+  },
+  "Digital": {
+    "YSF": {
+      "GroupID": {
+        "Input": "Open ↑",
+        "Output": "Open ↓"
+      }
+    }
+  },
+  "VOIP": {
+    "Wires": {
+      "ID": 30534
+    }
+  }
+}

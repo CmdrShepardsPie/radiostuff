@@ -1,0 +1,26 @@
+{
+  "ID": 8212,
+  "StateID": 8,
+  "Callsign": "WR0AEN",
+  "Location": {
+    "Latitude": 39.73759842,
+    "Longitude": -104.98500061,
+    "County": "Denver",
+    "State": "CO",
+    "Local": "Denver"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 444.65,
+    "Output": 449.65
+  },
+  "SquelchTone": {
+    "Input": 136.5
+  },
+  "Digital": {
+    "DStar": {
+      "Node": "WR0AEN (B)"
+    }
+  }
+}

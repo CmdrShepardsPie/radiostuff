@@ -1,0 +1,2 @@
+ID,StateID,Callsign,Use,Status,SquelchTone,DigitalTone,VOIP,Location.Latitude,Location.Longitude,Location.County,Location.State,Location.Local,Frequency.Input,Frequency.Output,Digital.DMR,Digital.DStar,Digital.YSF,Digital.P25.NAC
+17457,8,KI0HC,Open,On-Air,,,,39.59999847,-105.20999908,Jefferson,CO,"Indian Hills, Chief Mtn",902.025,927.9375,,,,293

@@ -1,0 +1,2 @@
+ID,StateID,Callsign,Use,Status,DigitalTone,Digital,Location.Latitude,Location.Longitude,Location.County,Location.State,Location.Local,Frequency.Input,Frequency.Output,SquelchTone.Input,SquelchTone.Output,VOIP.AllStar,VOIP.EchoLink,VOIP.Wires,VOIP.IRLP.NodeID
+11355,31,AG0N,Open,On-Air,,,41.90399933,-103.55799866,Scotts Bluff,NE,Scottsbluff,146.445,146.445,88.5,88.5,,,,3055

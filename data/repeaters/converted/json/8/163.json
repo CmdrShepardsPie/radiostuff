@@ -1,0 +1,18 @@
+{
+  "ID": 163,
+  "StateID": 8,
+  "Callsign": "N0JUN",
+  "Location": {
+    "Latitude": 40.58440018,
+    "Longitude": -102.30200195,
+    "County": "Phillips",
+    "State": "CO",
+    "Local": "Holyoke"
+  },
+  "Use": "Open",
+  "Status": "Other",
+  "Frequency": {
+    "Input": 146.355,
+    "Output": 146.955
+  }
+}

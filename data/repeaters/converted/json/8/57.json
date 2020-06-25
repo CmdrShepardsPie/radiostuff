@@ -1,0 +1,21 @@
+{
+  "ID": 57,
+  "StateID": 8,
+  "Callsign": "KB0SRJ",
+  "Location": {
+    "Latitude": 39.03020096,
+    "Longitude": -104.7990036,
+    "County": "El Paso",
+    "State": "CO",
+    "Local": "Colorado Springs, ~2 mi ENE USAFA North Gate"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 443.8,
+    "Output": 448.8
+  },
+  "SquelchTone": {
+    "Input": 100
+  }
+}

@@ -1,0 +1,2 @@
+ID,StateID,Callsign,Use,Status,DigitalTone,Digital,VOIP,Location.Latitude,Location.Longitude,Location.County,Location.State,Location.Local,Frequency.Input,Frequency.Output,SquelchTone.Input,SquelchTone.Output
+21,8,K0DK,Open,On-Air,,,,40.01499939,-105.26999664,Boulder,CO,Boulder,444.4,449.4,91.5,

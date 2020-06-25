@@ -1,0 +1,22 @@
+{
+  "ID": 12167,
+  "StateID": 8,
+  "Callsign": "WA0DE",
+  "Location": {
+    "Latitude": 39.22669983,
+    "Longitude": -104.08999634,
+    "County": "Elbert",
+    "State": "CO",
+    "Local": "Simla"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 147.705,
+    "Output": 147.105
+  },
+  "SquelchTone": {
+    "Input": 107.2,
+    "Output": 107.2
+  }
+}

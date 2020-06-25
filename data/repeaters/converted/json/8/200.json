@@ -1,0 +1,26 @@
+{
+  "ID": 200,
+  "StateID": 8,
+  "Callsign": "N0SWE",
+  "Location": {
+    "Latitude": 39.47449875,
+    "Longitude": -107.77200317,
+    "County": "Garfield",
+    "State": "CO",
+    "Local": "Rifle"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 146.16,
+    "Output": 146.76
+  },
+  "SquelchTone": {
+    "Input": 107.2
+  },
+  "VOIP": {
+    "EchoLink": {
+      "NodeID": 243117
+    }
+  }
+}

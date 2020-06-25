@@ -1,0 +1,2 @@
+ID,StateID,Callsign,Use,Status,DigitalTone,Digital,VOIP,Location.Latitude,Location.Longitude,Location.County,Location.State,Location.Local,Frequency.Input,Frequency.Output,SquelchTone.Input,SquelchTone.Output
+105,8,W0TX,Open,On-Air,,,,39.70080185,-105.1780014,Jefferson,CO,"Lakewood, Green Mountain",51.39,53.09,107.2,

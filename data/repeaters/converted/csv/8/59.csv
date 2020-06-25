@@ -1,0 +1,2 @@
+ID,StateID,Callsign,Use,Status,DigitalTone,Digital,VOIP,Location.Latitude,Location.Longitude,Location.County,Location.State,Location.Local,Frequency.Input,Frequency.Output,SquelchTone.Input,SquelchTone.Output
+59,8,N0ARA,Open,On-Air,,,,39.51480103,-105.35299683,Jefferson,CO,"Critchell, Critchell Mountain",147.72,147.12,88.5,88.5

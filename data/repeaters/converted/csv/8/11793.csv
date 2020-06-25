@@ -1,0 +1,2 @@
+ID,StateID,Callsign,Use,Status,DigitalTone,Digital,Location.Latitude,Location.Longitude,Location.County,Location.State,Location.Local,Frequency.Input,Frequency.Output,SquelchTone.Input,SquelchTone.Output,VOIP.AllStar,VOIP.Wires,VOIP.EchoLink.NodeID,VOIP.IRLP.NodeID
+11793,8,KD0SMZ,Open,On-Air,,,39.06389999,-108.5510025,Mesa,CO,Grand Junction,444.775,449.775,173.8,88.5,,,7572,7573

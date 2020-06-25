@@ -1,0 +1,2 @@
+ID,StateID,Callsign,Use,Status,DigitalTone,Digital,VOIP,Location.Latitude,Location.Longitude,Location.County,Location.State,Location.Local,Frequency.Input,Frequency.Output,SquelchTone.Input,SquelchTone.Output
+76,8,W0TX,Open,On-Air,,,,39.6794014,-105.49199677,Jefferson,CO,"Idaho Springs, Centennial Cone",144.89,145.49,100,100

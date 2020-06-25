@@ -1,0 +1,2 @@
+ID,StateID,Callsign,Use,Status,SquelchTone,Digital,VOIP,Location.Latitude,Location.Longitude,Location.County,Location.State,Location.Local,Frequency.Input,Frequency.Output,DigitalTone.Input,DigitalTone.Output
+7171,8,KC0CVU,Open,On-Air,,,,38.74499893,-104.86199951,Teller,CO,"Colorado Springs, Cheyenne Mountain",902.85,927.85,114,

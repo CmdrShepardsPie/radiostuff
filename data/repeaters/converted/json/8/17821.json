@@ -1,0 +1,24 @@
+{
+  "ID": 17821,
+  "StateID": 8,
+  "Callsign": "W1VAN",
+  "Location": {
+    "Latitude": 40.80759811,
+    "Longitude": -105.61699677,
+    "County": "Larimer",
+    "State": "CO",
+    "Local": "Red Feather Lakes, Red Feather Lakes"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 442.6,
+    "Output": 447.6
+  },
+  "Digital": {
+    "DMR": {
+      "ColorCode": 2,
+      "ID": 310869
+    }
+  }
+}

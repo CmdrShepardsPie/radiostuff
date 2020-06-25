@@ -1,0 +1,2 @@
+ID,StateID,Callsign,Use,Status,DigitalTone,Digital,VOIP,Location.Latitude,Location.Longitude,Location.County,Location.State,Location.Local,Frequency.Input,Frequency.Output,SquelchTone.Input,SquelchTone.Output
+20,8,W0CRA,Open,On-Air,,,,40.07220078,-105.35399628,Boulder,CO,"Boulder, Eldorado Mountain",442.975,447.975,107.2,107.2

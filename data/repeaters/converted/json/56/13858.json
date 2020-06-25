@@ -1,0 +1,24 @@
+{
+  "ID": 13858,
+  "StateID": 56,
+  "Callsign": "WY7EOC",
+  "Location": {
+    "Latitude": 41.79109955,
+    "Longitude": -107.23899841,
+    "County": "Carbon",
+    "State": "WY",
+    "Local": "Rawlins"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 440.05,
+    "Output": 445.05
+  },
+  "Digital": {
+    "DMR": {
+      "ColorCode": 11,
+      "ID": 315609
+    }
+  }
+}

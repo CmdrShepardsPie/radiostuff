@@ -1,0 +1,22 @@
+{
+  "ID": 149,
+  "StateID": 8,
+  "Callsign": "KB0VJJ",
+  "Location": {
+    "Latitude": 39.06669998,
+    "Longitude": -107.93599701,
+    "County": "Mesa",
+    "State": "CO",
+    "Local": "Grand Junction, Grand Mesa"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 144.755,
+    "Output": 145.355
+  },
+  "SquelchTone": {
+    "Input": 88.5,
+    "Output": 123
+  }
+}

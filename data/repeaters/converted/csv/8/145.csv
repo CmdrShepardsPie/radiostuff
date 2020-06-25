@@ -1,0 +1,2 @@
+ID,StateID,Callsign,Use,Status,DigitalTone,Digital,VOIP,Location.Latitude,Location.Longitude,Location.County,Location.State,Location.Local,Frequency.Input,Frequency.Output,SquelchTone.Input,SquelchTone.Output
+145,8,KA0YDW,Open,Other,,,,40.08610153,-105.93900299,Grand,CO,Granby,146.22,146.82,123,

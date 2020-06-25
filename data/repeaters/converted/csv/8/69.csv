@@ -1,0 +1,2 @@
+ID,StateID,Callsign,Use,Status,DigitalTone,Digital,Location.Latitude,Location.Longitude,Location.County,Location.State,Location.Local,Frequency.Input,Frequency.Output,SquelchTone.Input,SquelchTone.Output,VOIP.AllStar,VOIP.EchoLink,VOIP.Wires,VOIP.IRLP.NodeID
+69,8,WA4HND,Open,On-Air,,,38.38750076,-107.6740036,Montrose,CO,"Montrose, Waterdog Peak",442.2,447.2,107.2,107.2,,,,3710

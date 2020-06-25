@@ -1,0 +1,22 @@
+{
+  "ID": 29,
+  "StateID": 8,
+  "Callsign": "WB0WDF",
+  "Location": {
+    "Latitude": 38.45420074,
+    "Longitude": -105.29000092,
+    "County": "Fremont",
+    "State": "CO",
+    "Local": "Canon City, Fremont Peak"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 51.33,
+    "Output": 53.03
+  },
+  "SquelchTone": {
+    "Input": 88.5,
+    "Output": 88.5
+  }
+}

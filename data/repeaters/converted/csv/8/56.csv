@@ -1,0 +1,2 @@
+ID,StateID,Callsign,Use,Status,DigitalTone,Digital,VOIP,Location.Latitude,Location.Longitude,Location.County,Location.State,Location.Local,Frequency.Input,Frequency.Output,SquelchTone.Input,SquelchTone.Output
+56,8,KA0TTF,Open,On-Air,,,,38.77999878,-104.84999847,El Paso,CO,"Colorado Springs, Fillmore Hill",443.725,448.725,123,

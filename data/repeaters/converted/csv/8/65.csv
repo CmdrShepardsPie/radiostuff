@@ -1,0 +1,2 @@
+ID,StateID,Callsign,Use,Status,DigitalTone,Digital,VOIP,Location.Latitude,Location.Longitude,Location.County,Location.State,Location.Local,Frequency.Input,Frequency.Output,SquelchTone.Input,SquelchTone.Output
+65,8,NX0G,Open,On-Air,,,,38.7466011,-105.1780014,Teller,CO,Cripple Creek,147.615,147.015,107.2,

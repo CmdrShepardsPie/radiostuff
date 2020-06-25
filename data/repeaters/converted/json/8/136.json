@@ -1,0 +1,22 @@
+{
+  "ID": 136,
+  "StateID": 8,
+  "Callsign": "K0IBM",
+  "Location": {
+    "Latitude": 39.77719879,
+    "Longitude": -105.32900238,
+    "County": "Jefferson",
+    "State": "CO",
+    "Local": "Golden, Guy Hill"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 443.85,
+    "Output": 448.85
+  },
+  "SquelchTone": {
+    "Input": 88.5,
+    "Output": 88.5
+  }
+}

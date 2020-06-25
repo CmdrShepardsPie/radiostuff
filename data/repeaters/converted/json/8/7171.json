@@ -1,0 +1,21 @@
+{
+  "ID": 7171,
+  "StateID": 8,
+  "Callsign": "KC0CVU",
+  "Location": {
+    "Latitude": 38.74499893,
+    "Longitude": -104.86199951,
+    "County": "Teller",
+    "State": "CO",
+    "Local": "Colorado Springs, Cheyenne Mountain"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 902.85,
+    "Output": 927.85
+  },
+  "DigitalTone": {
+    "Input": 114
+  }
+}

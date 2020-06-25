@@ -1,0 +1,2 @@
+ID,StateID,Callsign,Use,Status,SquelchTone,DigitalTone,VOIP,Location.Latitude,Location.Longitude,Location.County,Location.State,Location.Local,Frequency.Input,Frequency.Output,Digital.DMR,Digital.P25,Digital.YSF,Digital.DStar.Node
+11792,8,KD0RED,Open,On-Air,,,,39.06389999,-108.5510025,Mesa,CO,Grand Junction,441.775,446.775,,,,KD0RED (B) Gateway Repeater

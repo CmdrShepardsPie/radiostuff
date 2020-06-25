@@ -1,0 +1,18 @@
+{
+  "ID": 42,
+  "StateID": 56,
+  "Callsign": "KF7BR",
+  "Location": {
+    "Latitude": 42.0625,
+    "Longitude": -104.18399811,
+    "County": "Goshen",
+    "State": "WY",
+    "Local": "Torrington"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 146.13,
+    "Output": 146.73
+  }
+}

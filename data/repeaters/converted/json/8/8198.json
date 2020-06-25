@@ -1,0 +1,21 @@
+{
+  "ID": 8198,
+  "StateID": 8,
+  "Callsign": "N0KG",
+  "Location": {
+    "Latitude": 38.83390045,
+    "Longitude": -104.82099915,
+    "County": "El Paso",
+    "State": "CO",
+    "Local": "Colorado Springs, Broadmoor Area"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 443.25,
+    "Output": 448.25
+  },
+  "SquelchTone": {
+    "Input": 123
+  }
+}

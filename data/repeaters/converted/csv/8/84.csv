@@ -1,0 +1,2 @@
+ID,StateID,Callsign,Use,Status,DigitalTone,Digital,VOIP,Location.Latitude,Location.Longitude,Location.County,Location.State,Location.Local,Frequency.Input,Frequency.Output,SquelchTone.Input,SquelchTone.Output
+84,8,N0PYY,Open,On-Air,,,,39.67810059,-105.48699951,Clear Creek,CO,"Evergreen, Squaw Mountain",147.9,147.3,103.5,103.5

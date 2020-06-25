@@ -1,0 +1,18 @@
+{
+  "ID": 8175,
+  "StateID": 8,
+  "Callsign": "K0SSI",
+  "Location": {
+    "Latitude": 39.06389999,
+    "Longitude": -108.5510025,
+    "County": "Mesa",
+    "State": "CO",
+    "Local": "Grand Junction"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 147.705,
+    "Output": 147.105
+  }
+}

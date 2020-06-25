@@ -1,0 +1,22 @@
+{
+  "ID": 26,
+  "StateID": 56,
+  "Callsign": "KC7SNO",
+  "Location": {
+    "Latitude": 41.13999939,
+    "Longitude": -104.81999969,
+    "County": "Laramie",
+    "State": "WY",
+    "Local": "Cheyenne, North Park"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 147.705,
+    "Output": 147.105
+  },
+  "SquelchTone": {
+    "Input": 91.5,
+    "Output": 91.5
+  }
+}

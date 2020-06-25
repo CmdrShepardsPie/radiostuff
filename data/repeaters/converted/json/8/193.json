@@ -1,0 +1,21 @@
+{
+  "ID": 193,
+  "StateID": 8,
+  "Callsign": "W0PHC",
+  "Location": {
+    "Latitude": 38.36240005,
+    "Longitude": -104.55999756,
+    "County": "Pueblo",
+    "State": "CO",
+    "Local": "Pueblo, Baculite Mesa"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 146.19,
+    "Output": 146.79
+  },
+  "SquelchTone": {
+    "Input": 88.5
+  }
+}

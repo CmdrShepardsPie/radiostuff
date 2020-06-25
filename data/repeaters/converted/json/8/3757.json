@@ -1,0 +1,21 @@
+{
+  "ID": 3757,
+  "StateID": 8,
+  "Callsign": "KC0ARV",
+  "Location": {
+    "Latitude": 39.06380081,
+    "Longitude": -108.5510025,
+    "County": "Mesa",
+    "State": "CO",
+    "Local": "Grand Junction"
+  },
+  "Use": "Open",
+  "Status": "Other",
+  "Frequency": {
+    "Input": 442.5,
+    "Output": 447.5
+  },
+  "SquelchTone": {
+    "Input": 114.8
+  }
+}

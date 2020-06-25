@@ -1,0 +1,36 @@
+{
+  "ID": 8530,
+  "StateID": 8,
+  "Callsign": "KF0KR",
+  "Location": {
+    "Latitude": 38.25439835,
+    "Longitude": -104.60900116,
+    "County": "Pueblo",
+    "State": "CO",
+    "Local": "Pueblo, Pueblo"
+  },
+  "Use": "Private",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 442.7,
+    "Output": 447.7
+  },
+  "SquelchTone": {
+    "Input": 210.7,
+    "Output": 210.7
+  },
+  "Digital": {
+    "DMR": {
+      "ColorCode": 1,
+      "ID": 310805
+    }
+  },
+  "VOIP": {
+    "AllStar": {
+      "NodeID": 29228
+    },
+    "IRLP": {
+      "NodeID": 7389
+    }
+  }
+}

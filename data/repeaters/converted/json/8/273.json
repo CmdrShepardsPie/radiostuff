@@ -1,0 +1,37 @@
+{
+  "ID": 273,
+  "StateID": 8,
+  "Callsign": "N0PUF",
+  "Location": {
+    "Latitude": 39.50419998,
+    "Longitude": -105.12799835,
+    "County": "Jefferson",
+    "State": "CO",
+    "Local": "Centennial, Warren Mountain"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 444.6,
+    "Output": 449.6
+  },
+  "SquelchTone": {
+    "Input": 100
+  },
+  "Digital": {
+    "YSF": {
+      "GroupID": {
+        "Input": "Open ↑",
+        "Output": "Open ↓"
+      }
+    }
+  },
+  "VOIP": {
+    "EchoLink": {
+      "NodeID": 690473
+    },
+    "IRLP": {
+      "NodeID": 3345
+    }
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "ID": 110,
+  "StateID": 31,
+  "Callsign": "WB7GR",
+  "Location": {
+    "Latitude": 41.70100021,
+    "Longitude": -103.68099976,
+    "County": "Scotts Bluff",
+    "State": "NE",
+    "Local": "Scottsbluff, Stage Hill"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 449.125,
+    "Output": 444.125
+  },
+  "SquelchTone": {
+    "Input": 114.8,
+    "Output": 114.8
+  }
+}

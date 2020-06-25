@@ -1,0 +1,22 @@
+{
+  "ID": 76,
+  "StateID": 8,
+  "Callsign": "W0TX",
+  "Location": {
+    "Latitude": 39.6794014,
+    "Longitude": -105.49199677,
+    "County": "Jefferson",
+    "State": "CO",
+    "Local": "Idaho Springs, Centennial Cone"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 144.89,
+    "Output": 145.49
+  },
+  "SquelchTone": {
+    "Input": 100,
+    "Output": 100
+  }
+}

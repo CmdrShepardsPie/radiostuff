@@ -1,0 +1,2 @@
+ID,StateID,Callsign,Use,Status,DigitalTone,Digital,VOIP,Location.Latitude,Location.Longitude,Location.County,Location.State,Location.Local,Frequency.Input,Frequency.Output,SquelchTone.Input,SquelchTone.Output
+93,8,W0KIZ,Open,On-Air,,,,39.73920059,-104.98400116,Denver,CO,Denver,443.55,448.55,82.5,

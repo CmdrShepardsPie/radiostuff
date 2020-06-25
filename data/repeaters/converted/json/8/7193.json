@@ -1,0 +1,24 @@
+{
+  "ID": 7193,
+  "StateID": 8,
+  "Callsign": "N0ESQ",
+  "Location": {
+    "Latitude": 39.26480103,
+    "Longitude": -105.11399841,
+    "County": "Douglas",
+    "State": "CO",
+    "Local": "Castle Rock, Devils Head"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 441.925,
+    "Output": 446.925
+  },
+  "Digital": {
+    "DMR": {
+      "ColorCode": 8,
+      "ID": 310817
+    }
+  }
+}

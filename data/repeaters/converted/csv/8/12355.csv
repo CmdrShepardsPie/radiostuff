@@ -1,0 +1,2 @@
+ID,StateID,Callsign,Use,Status,SquelchTone,DigitalTone,VOIP,Location.Latitude,Location.Longitude,Location.County,Location.State,Location.Local,Frequency.Input,Frequency.Output,Digital.P25,Digital.DStar,Digital.YSF,Digital.DMR.ColorCode,Digital.DMR.ID
+12355,8,N0SZ,Open,On-Air,,,,38.74509811,-104.86199951,El Paso,CO,"Colorado Springs, Cheyenne Mountain",440.0625,445.0625,,,,1,310857

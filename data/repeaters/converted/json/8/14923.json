@@ -1,0 +1,27 @@
+{
+  "ID": 14923,
+  "StateID": 8,
+  "Callsign": "N0PKT",
+  "Location": {
+    "Latitude": 37.79330063,
+    "Longitude": -107.05500031,
+    "County": "Mineral",
+    "State": "CO",
+    "Local": "Creede, Bristol Head"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 444.525,
+    "Output": 449.525
+  },
+  "SquelchTone": {
+    "Input": 100,
+    "Output": 100
+  },
+  "VOIP": {
+    "AllStar": {
+      "NodeID": 43265
+    }
+  }
+}

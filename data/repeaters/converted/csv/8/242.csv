@@ -1,0 +1,2 @@
+ID,StateID,Callsign,Use,Status,SquelchTone,DigitalTone,Digital,VOIP,Location.Latitude,Location.Longitude,Location.County,Location.State,Location.Local,Frequency.Input,Frequency.Output
+242,8,N0AFO,Open,On-Air,,,,,39.64030075,-106.37400055,Eagle,CO,Vail,223.2,224.8

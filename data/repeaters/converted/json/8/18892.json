@@ -1,0 +1,23 @@
+{
+  "ID": 18892,
+  "StateID": 8,
+  "Callsign": "KE0VH",
+  "Location": {
+    "Latitude": 39.661294,
+    "Longitude": -104.860203,
+    "County": "Arapahoe",
+    "State": "CO",
+    "Local": "Aurora, 225 and Parker Road"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 443.4,
+    "Output": 448.4
+  },
+  "VOIP": {
+    "Wires": {
+      "ID": 46361
+    }
+  }
+}

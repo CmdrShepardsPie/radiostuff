@@ -1,0 +1,21 @@
+{
+  "ID": 56,
+  "StateID": 8,
+  "Callsign": "KA0TTF",
+  "Location": {
+    "Latitude": 38.77999878,
+    "Longitude": -104.84999847,
+    "County": "El Paso",
+    "State": "CO",
+    "Local": "Colorado Springs, Fillmore Hill"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 443.725,
+    "Output": 448.725
+  },
+  "SquelchTone": {
+    "Input": 123
+  }
+}

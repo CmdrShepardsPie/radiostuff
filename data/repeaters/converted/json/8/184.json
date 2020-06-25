@@ -1,0 +1,21 @@
+{
+  "ID": 184,
+  "StateID": 8,
+  "Callsign": "W0LSD",
+  "Location": {
+    "Latitude": 38.71289825,
+    "Longitude": -106.19999695,
+    "County": "Chaffee",
+    "State": "CO",
+    "Local": "Nathrop"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 146.145,
+    "Output": 146.745
+  },
+  "SquelchTone": {
+    "Input": 100
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "ID": 6093,
+  "StateID": 8,
+  "Callsign": "KZ0DEM",
+  "Location": {
+    "Latitude": 37.40829849,
+    "Longitude": -102.61399841,
+    "County": "Baca",
+    "State": "CO",
+    "Local": "Springfield"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 147.93,
+    "Output": 147.33
+  },
+  "SquelchTone": {
+    "Input": 118.8,
+    "Output": 118.8
+  },
+  "VOIP": {
+    "EchoLink": {
+      "NodeID": 97142
+    },
+    "IRLP": {
+      "NodeID": 7142
+    }
+  }
+}

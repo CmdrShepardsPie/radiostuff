@@ -1,0 +1,21 @@
+{
+  "ID": 18425,
+  "StateID": 8,
+  "Callsign": "WA6IFI",
+  "Location": {
+    "Latitude": 38.44670105,
+    "Longitude": -106.01000214,
+    "County": "Chaffee",
+    "State": "CO",
+    "Local": "Salida, Methodist Mountain"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 902.025,
+    "Output": 927.8625
+  },
+  "Digital": {
+    "P25": {}
+  }
+}

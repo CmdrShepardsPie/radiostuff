@@ -1,0 +1,26 @@
+{
+  "ID": 122,
+  "StateID": 8,
+  "Callsign": "KE0AE",
+  "Location": {
+    "Latitude": 39.30329895,
+    "Longitude": -102.60500336,
+    "County": "Kit Carson",
+    "State": "CO",
+    "Local": "Stratton"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 146.295,
+    "Output": 146.895
+  },
+  "SquelchTone": {
+    "Input": 103.5
+  },
+  "VOIP": {
+    "EchoLink": {
+      "NodeID": 830619
+    }
+  }
+}

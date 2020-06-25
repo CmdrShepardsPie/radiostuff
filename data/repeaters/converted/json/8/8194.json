@@ -1,0 +1,21 @@
+{
+  "ID": 8194,
+  "StateID": 8,
+  "Callsign": "W7RF",
+  "Location": {
+    "Latitude": 40.49599838,
+    "Longitude": -105.07900238,
+    "County": "Larimer",
+    "State": "CO",
+    "Local": "Fort Collins"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 442.725,
+    "Output": 447.725
+  },
+  "SquelchTone": {
+    "Input": 131.8
+  }
+}

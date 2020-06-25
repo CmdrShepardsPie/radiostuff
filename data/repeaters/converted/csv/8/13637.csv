@@ -1,0 +1,2 @@
+ID,StateID,Callsign,Use,Status,DigitalTone,Digital,VOIP,Location.Latitude,Location.Longitude,Location.County,Location.State,Location.Local,Frequency.Input,Frequency.Output,SquelchTone.Input,SquelchTone.Output
+13637,8,WA4HND,Open,On-Air,,,,39.55049896,-107.32499695,Garfield,CO,"Glenwood Springs, Lookout Mountain",444.85,449.85,131.8,131.8

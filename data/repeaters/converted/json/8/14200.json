@@ -1,0 +1,27 @@
+{
+  "ID": 14200,
+  "StateID": 8,
+  "Callsign": "N0KM",
+  "Location": {
+    "Latitude": 37.75310135,
+    "Longitude": -106.10900116,
+    "County": "Rio Grande",
+    "State": "CO",
+    "Local": "Center"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 146.04,
+    "Output": 146.64
+  },
+  "SquelchTone": {
+    "Input": 77,
+    "Output": 77
+  },
+  "VOIP": {
+    "AllStar": {
+      "NodeID": 428602
+    }
+  }
+}

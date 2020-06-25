@@ -1,0 +1,27 @@
+{
+  "ID": 9503,
+  "StateID": 8,
+  "Callsign": "KA4EPS",
+  "Location": {
+    "Latitude": 38.9878006,
+    "Longitude": -105.04399872,
+    "County": "Teller",
+    "State": "CO",
+    "Local": "Woodland Park, Paradise Pines"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 444.325,
+    "Output": 449.325
+  },
+  "SquelchTone": {
+    "Input": 103.5,
+    "Output": 103.5
+  },
+  "VOIP": {
+    "AllStar": {
+      "NodeID": 27976
+    }
+  }
+}

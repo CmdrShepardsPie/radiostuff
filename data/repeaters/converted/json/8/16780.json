@@ -1,0 +1,24 @@
+{
+  "ID": 16780,
+  "StateID": 8,
+  "Callsign": "N0SZ",
+  "Location": {
+    "Latitude": 39.45899963,
+    "Longitude": -105.97899628,
+    "County": "Fremont",
+    "State": "CO",
+    "Local": "Breckenridge, Baldy"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 440.0875,
+    "Output": 445.0875
+  },
+  "Digital": {
+    "DMR": {
+      "ColorCode": 7,
+      "ID": 310830
+    }
+  }
+}

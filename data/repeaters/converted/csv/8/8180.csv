@@ -1,0 +1,2 @@
+ID,StateID,Callsign,Use,Status,DigitalTone,Digital,VOIP,Location.Latitude,Location.Longitude,Location.County,Location.State,Location.Local,Frequency.Input,Frequency.Output,SquelchTone.Input,SquelchTone.Output
+8180,8,K0BV,Open,On-Air,,,,37.16949844,-104.50099945,Las Animas,CO,"Trinidad, Raton Pass",147.975,147.375,100,100

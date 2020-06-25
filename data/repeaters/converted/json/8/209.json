@@ -1,0 +1,21 @@
+{
+  "ID": 209,
+  "StateID": 8,
+  "Callsign": "KB5ITS",
+  "Location": {
+    "Latitude": 37.79330063,
+    "Longitude": -107.6289978,
+    "County": "San Juan",
+    "State": "CO",
+    "Local": "Silverton, Kendall Mountain"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 147.975,
+    "Output": 147.375
+  },
+  "SquelchTone": {
+    "Input": 156.7
+  }
+}

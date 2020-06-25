@@ -1,0 +1,2 @@
+ID,StateID,Callsign,Use,Status,DigitalTone,Digital,Location.Latitude,Location.Longitude,Location.County,Location.State,Location.Local,Frequency.Input,Frequency.Output,SquelchTone.Input,SquelchTone.Output,VOIP.AllStar,VOIP.EchoLink,VOIP.Wires,VOIP.IRLP.NodeID
+73,8,KE4GUQ,Open,On-Air,,,39.63330078,-105.31700134,Jefferson,CO,Evergreen,144.74,145.34,103.5,127.3,,,,3350

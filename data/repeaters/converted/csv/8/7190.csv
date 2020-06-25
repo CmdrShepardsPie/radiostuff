@@ -1,0 +1,2 @@
+ID,StateID,Callsign,Use,Status,SquelchTone,DigitalTone,VOIP,Location.Latitude,Location.Longitude,Location.County,Location.State,Location.Local,Frequency.Input,Frequency.Output,Digital.P25,Digital.DStar,Digital.YSF,Digital.DMR.ColorCode,Digital.DMR.ID
+7190,8,N0SZ,Open,On-Air,,,,39.67979813,-105.49299622,Clear Creek,CO,"Idaho Springs, Squaw Mountain",441.9375,446.9375,,,,7,310801

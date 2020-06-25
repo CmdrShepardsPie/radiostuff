@@ -1,0 +1,2 @@
+ID,StateID,Callsign,Use,Status,DigitalTone,Digital,VOIP,Location.Latitude,Location.Longitude,Location.County,Location.State,Location.Local,Frequency.Input,Frequency.Output,SquelchTone.Input,SquelchTone.Output
+274,8,WQ8M,Open,On-Air,,,,39.55799866,-104.79399872,Douglas,CO,Parker,443.7,448.7,146.2,

@@ -1,0 +1,22 @@
+{
+  "ID": 7189,
+  "StateID": 8,
+  "Callsign": "KB0TUC",
+  "Location": {
+    "Latitude": 38.13470078,
+    "Longitude": -105.46499634,
+    "County": "Custer",
+    "State": "CO",
+    "Local": "Westcliffe"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 147.66,
+    "Output": 147.06
+  },
+  "SquelchTone": {
+    "Input": 77,
+    "Output": 77
+  }
+}

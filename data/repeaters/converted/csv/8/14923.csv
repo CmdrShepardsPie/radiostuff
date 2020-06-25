@@ -1,0 +1,2 @@
+ID,StateID,Callsign,Use,Status,DigitalTone,Digital,Location.Latitude,Location.Longitude,Location.County,Location.State,Location.Local,Frequency.Input,Frequency.Output,SquelchTone.Input,SquelchTone.Output,VOIP.EchoLink,VOIP.IRLP,VOIP.Wires,VOIP.AllStar.NodeID
+14923,8,N0PKT,Open,On-Air,,,37.79330063,-107.05500031,Mineral,CO,"Creede, Bristol Head",444.525,449.525,100,100,,,,43265

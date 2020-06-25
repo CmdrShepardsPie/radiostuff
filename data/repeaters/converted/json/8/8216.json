@@ -1,0 +1,30 @@
+{
+  "ID": 8216,
+  "StateID": 8,
+  "Callsign": "K0EB",
+  "Location": {
+    "Latitude": 40.02019882,
+    "Longitude": -104.64199829,
+    "County": "Weld",
+    "State": "CO",
+    "Local": "Hudson"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 444.925,
+    "Output": 449.925
+  },
+  "SquelchTone": {
+    "Input": 114.8,
+    "Output": 114.8
+  },
+  "VOIP": {
+    "EchoLink": {
+      "NodeID": 448035
+    },
+    "IRLP": {
+      "NodeID": 8035
+    }
+  }
+}

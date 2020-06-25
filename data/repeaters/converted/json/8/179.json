@@ -1,0 +1,21 @@
+{
+  "ID": 179,
+  "StateID": 8,
+  "Callsign": "W0LRA",
+  "Location": {
+    "Latitude": 40.39849854,
+    "Longitude": -105.125,
+    "County": "Larimer",
+    "State": "CO",
+    "Local": "Loveland, Namaqua Hill"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 147.795,
+    "Output": 147.195
+  },
+  "SquelchTone": {
+    "Input": 100
+  }
+}

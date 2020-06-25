@@ -1,0 +1,22 @@
+{
+  "ID": 237,
+  "StateID": 8,
+  "Callsign": "KD0H",
+  "Location": {
+    "Latitude": 40.48500061,
+    "Longitude": -106.83100128,
+    "County": "Routt",
+    "State": "CO",
+    "Local": "Steamboat Springs"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 147.81,
+    "Output": 147.21
+  },
+  "SquelchTone": {
+    "Input": 107.2,
+    "Output": 107.2
+  }
+}

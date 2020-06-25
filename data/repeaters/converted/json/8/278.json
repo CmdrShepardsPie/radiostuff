@@ -1,0 +1,21 @@
+{
+  "ID": 278,
+  "StateID": 8,
+  "Callsign": "KB0TUC",
+  "Location": {
+    "Latitude": 38.45389938,
+    "Longitude": -105.28600311,
+    "County": "Fremont",
+    "State": "CO",
+    "Local": "Canon City, Fremont Peak"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 902.7,
+    "Output": 927.7
+  },
+  "DigitalTone": {
+    "Input": 114
+  }
+}

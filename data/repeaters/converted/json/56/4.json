@@ -1,0 +1,18 @@
+{
+  "ID": 4,
+  "StateID": 56,
+  "Callsign": "K7UWR",
+  "Location": {
+    "Latitude": 41.30979919,
+    "Longitude": -105.45500183,
+    "County": "Albany",
+    "State": "WY",
+    "Local": "Laramie, Pilot Hill"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 52.03,
+    "Output": 53.03
+  }
+}

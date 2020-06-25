@@ -1,0 +1,2 @@
+ID,StateID,Callsign,Use,Status,DigitalTone,Digital,VOIP,Location.Latitude,Location.Longitude,Location.County,Location.State,Location.Local,Frequency.Input,Frequency.Output,SquelchTone.Input,SquelchTone.Output
+7170,8,N0PYY,Open,On-Air,,,,39.75550079,-105.22100067,Jefferson,CO,Golden,902.7875,927.7875,156.7,

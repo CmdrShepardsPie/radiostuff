@@ -1,0 +1,22 @@
+{
+  "ID": 79,
+  "StateID": 8,
+  "Callsign": "N0JXN",
+  "Location": {
+    "Latitude": 39.73920059,
+    "Longitude": -104.98400116,
+    "County": "Denver",
+    "State": "CO",
+    "Local": "Denver"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 146.115,
+    "Output": 146.715
+  },
+  "SquelchTone": {
+    "Input": 123,
+    "Output": 123
+  }
+}

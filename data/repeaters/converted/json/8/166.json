@@ -1,0 +1,22 @@
+{
+  "ID": 166,
+  "StateID": 8,
+  "Callsign": "KB0VJJ",
+  "Location": {
+    "Latitude": 40.05889893,
+    "Longitude": -106.38800049,
+    "County": "Grand",
+    "State": "CO",
+    "Local": "Kremmling, Santoy Peak"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 147.675,
+    "Output": 147.075
+  },
+  "SquelchTone": {
+    "Input": 88.5,
+    "Output": 123
+  }
+}

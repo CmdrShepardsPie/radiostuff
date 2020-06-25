@@ -1,0 +1,22 @@
+{
+  "ID": 243,
+  "StateID": 8,
+  "Callsign": "N0AFO",
+  "Location": {
+    "Latitude": 39.64030075,
+    "Longitude": -106.37400055,
+    "County": "Eagle",
+    "State": "CO",
+    "Local": "Vail"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 444.9,
+    "Output": 449.9
+  },
+  "SquelchTone": {
+    "Input": 107.2,
+    "Output": 107.2
+  }
+}

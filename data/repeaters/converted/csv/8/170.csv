@@ -1,0 +1,2 @@
+ID,StateID,Callsign,Use,Status,DigitalTone,Digital,Location.Latitude,Location.Longitude,Location.County,Location.State,Location.Local,Frequency.Input,Frequency.Output,SquelchTone.Input,SquelchTone.Output,VOIP.AllStar,VOIP.EchoLink,VOIP.Wires,VOIP.IRLP.NodeID
+170,8,KC0CVU,Open,On-Air,,,39.0489006,-105.51200104,Park,CO,"Lake George, Badger Mountain",147.96,147.36,107.2,107.2,,,,3854

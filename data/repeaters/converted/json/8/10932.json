@@ -1,0 +1,24 @@
+{
+  "ID": 10932,
+  "StateID": 8,
+  "Callsign": "N0SZ",
+  "Location": {
+    "Latitude": 39.63330078,
+    "Longitude": -105.31700134,
+    "County": "Clear Creek",
+    "State": "CO",
+    "Local": "Evergreen, Squaw Mountain"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 144.575,
+    "Output": 145.175
+  },
+  "Digital": {
+    "DMR": {
+      "ColorCode": 7,
+      "ID": 310810
+    }
+  }
+}

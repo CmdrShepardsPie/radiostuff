@@ -1,0 +1,23 @@
+{
+  "ID": 11473,
+  "StateID": 8,
+  "Callsign": "K0PRA",
+  "Location": {
+    "Latitude": 39.39350128,
+    "Longitude": -104.67500305,
+    "County": "Douglas",
+    "State": "CO",
+    "Local": "Franktown"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 441.85,
+    "Output": 446.85
+  },
+  "Digital": {
+    "DStar": {
+      "Node": "K0PRA (B) Repeater"
+    }
+  }
+}

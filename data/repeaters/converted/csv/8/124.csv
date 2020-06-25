@@ -1,0 +1,2 @@
+ID,StateID,Callsign,Use,Status,DigitalTone,Digital,VOIP,Location.Latitude,Location.Longitude,Location.County,Location.State,Location.Local,Frequency.Input,Frequency.Output,SquelchTone.Input,SquelchTone.Output
+124,8,W0QEY,Open,On-Air,,,,40.58530045,-105.08399963,Larimer,CO,"Fort Collins, CSU Durward Hall",444.85,449.85,100,100

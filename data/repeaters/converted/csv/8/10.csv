@@ -1,0 +1,2 @@
+ID,StateID,Callsign,Use,Status,DigitalTone,Digital,VOIP,Location.Latitude,Location.Longitude,Location.County,Location.State,Location.Local,Frequency.Input,Frequency.Output,SquelchTone.Input,SquelchTone.Output
+10,8,W0DK,Open,On-Air,,,,39.97800064,-105.27500153,Boulder,CO,"Boulder, Table Mesa",443.9,448.9,100,

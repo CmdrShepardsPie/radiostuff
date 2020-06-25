@@ -1,0 +1,26 @@
+{
+  "ID": 3559,
+  "StateID": 20,
+  "Callsign": "WA0VJR",
+  "Location": {
+    "Latitude": 38.91389847,
+    "Longitude": -101.59400177,
+    "County": "Wallace",
+    "State": "KS",
+    "Local": "Wallace"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 449.6,
+    "Output": 444.6
+  },
+  "SquelchTone": {
+    "Input": 146.2
+  },
+  "VOIP": {
+    "IRLP": {
+      "NodeID": 3148
+    }
+  }
+}

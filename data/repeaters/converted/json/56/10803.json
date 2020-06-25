@@ -1,0 +1,24 @@
+{
+  "ID": 10803,
+  "StateID": 56,
+  "Callsign": "WY7EOC",
+  "Location": {
+    "Latitude": 41.13999939,
+    "Longitude": -104.81999969,
+    "County": "Laramie",
+    "State": "WY",
+    "Local": "Cheyenne"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 444.975,
+    "Output": 449.975
+  },
+  "Digital": {
+    "DMR": {
+      "ColorCode": 11,
+      "ID": 315601
+    }
+  }
+}

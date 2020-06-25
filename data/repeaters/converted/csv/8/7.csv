@@ -1,0 +1,2 @@
+ID,StateID,Callsign,Use,Status,DigitalTone,Digital,Location.Latitude,Location.Longitude,Location.County,Location.State,Location.Local,Frequency.Input,Frequency.Output,SquelchTone.Input,SquelchTone.Output,VOIP.EchoLink,VOIP.IRLP,VOIP.Wires,VOIP.AllStar.NodeID
+7,8,AB0PC,Open,On-Air,,,39.4056015,-105.47299957,Park,CO,"Bailey, Dick Mountain",146.295,146.895,100,100,,,,45835

@@ -1,0 +1,2 @@
+ID,StateID,Callsign,Use,Status,DigitalTone,Digital,VOIP,Location.Latitude,Location.Longitude,Location.County,Location.State,Location.Local,Frequency.Input,Frequency.Output,SquelchTone.Input,SquelchTone.Output
+8158,8,KC0CVU,Open,On-Air,,,,38.74499893,-104.86199951,El Paso,CO,"Colorado Springs, Cheyenne Mountain",51.43,53.13,107.2,107.2

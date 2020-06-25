@@ -1,0 +1,21 @@
+{
+  "ID": 143,
+  "StateID": 8,
+  "Callsign": "N0PYY",
+  "Location": {
+    "Latitude": 39.75559998,
+    "Longitude": -105.22100067,
+    "County": "Jefferson",
+    "State": "CO",
+    "Local": "Golden"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 443.125,
+    "Output": 448.125
+  },
+  "SquelchTone": {
+    "Input": 107.2
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "ID": 251,
+  "StateID": 8,
+  "Callsign": "NX0G",
+  "Location": {
+    "Latitude": 38.9939003,
+    "Longitude": -105.05599976,
+    "County": "Teller",
+    "State": "CO",
+    "Local": "Woodland Park"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 443.65,
+    "Output": 448.65
+  },
+  "SquelchTone": {
+    "Input": 107.2
+  }
+}

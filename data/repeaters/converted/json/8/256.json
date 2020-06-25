@@ -1,0 +1,21 @@
+{
+  "ID": 256,
+  "StateID": 8,
+  "Callsign": "K0RV",
+  "Location": {
+    "Latitude": 39.60609818,
+    "Longitude": -106.35600281,
+    "County": "Eagle",
+    "State": "CO",
+    "Local": "Vail, Bald Mountain"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 146.01,
+    "Output": 146.61
+  },
+  "SquelchTone": {
+    "Input": 107.2
+  }
+}

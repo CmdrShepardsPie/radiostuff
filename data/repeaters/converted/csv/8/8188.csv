@@ -1,0 +1,2 @@
+ID,StateID,Callsign,Use,Status,DigitalTone,Digital,VOIP,Location.Latitude,Location.Longitude,Location.County,Location.State,Location.Local,Frequency.Input,Frequency.Output,SquelchTone.Input,SquelchTone.Output
+8188,8,N6RFI,Open,On-Air,,,,40.58100128,-104.90599823,Weld,CO,"Severance, Cactus Hill",442.2,447.2,82.5,

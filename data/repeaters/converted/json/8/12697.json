@@ -1,0 +1,24 @@
+{
+  "ID": 12697,
+  "StateID": 8,
+  "Callsign": "N0SZ",
+  "Location": {
+    "Latitude": 38.53469849,
+    "Longitude": -105.99900055,
+    "County": "Chaffee",
+    "State": "CO",
+    "Local": "Salida, Methodist Mountain"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 441.8125,
+    "Output": 446.8125
+  },
+  "Digital": {
+    "DMR": {
+      "ColorCode": 7,
+      "ID": 310825
+    }
+  }
+}

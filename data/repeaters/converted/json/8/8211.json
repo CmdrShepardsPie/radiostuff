@@ -1,0 +1,18 @@
+{
+  "ID": 8211,
+  "StateID": 8,
+  "Callsign": "",
+  "Location": {
+    "Latitude": 38.83390045,
+    "Longitude": -104.82099915,
+    "County": "El Paso",
+    "State": "CO",
+    "Local": "Colorado Springs"
+  },
+  "Use": "Closed",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 444.575,
+    "Output": 449.575
+  }
+}

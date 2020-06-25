@@ -1,0 +1,27 @@
+{
+  "ID": 8763,
+  "StateID": 8,
+  "Callsign": "KB0YNA",
+  "Location": {
+    "Latitude": 39.0666008,
+    "Longitude": -107.93699646,
+    "County": "Mesa",
+    "State": "CO",
+    "Local": "Grand Junction, Grand Mesa"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 444.65,
+    "Output": 449.65
+  },
+  "SquelchTone": {
+    "Input": 151.4,
+    "Output": 151.4
+  },
+  "VOIP": {
+    "IRLP": {
+      "NodeID": 8162
+    }
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "ID": 8186,
+  "StateID": 8,
+  "Callsign": "KC0DS",
+  "Location": {
+    "Latitude": 40.01499939,
+    "Longitude": -105.27100372,
+    "County": "Boulder",
+    "State": "CO",
+    "Local": "Boulder"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 441.8625,
+    "Output": 446.8625
+  },
+  "Digital": {
+    "DStar": {
+      "Node": "KC0DS (B)"
+    }
+  }
+}

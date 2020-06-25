@@ -1,0 +1,22 @@
+{
+  "ID": 183,
+  "StateID": 8,
+  "Callsign": "K0NR",
+  "Location": {
+    "Latitude": 39.09170151,
+    "Longitude": -104.87200165,
+    "County": "El Paso",
+    "State": "CO",
+    "Local": "Monument, Monument Hill"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 442.725,
+    "Output": 447.725
+  },
+  "SquelchTone": {
+    "Input": 100,
+    "Output": 100
+  }
+}

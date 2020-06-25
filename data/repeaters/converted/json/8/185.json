@@ -1,0 +1,21 @@
+{
+  "ID": 185,
+  "StateID": 8,
+  "Callsign": "K0ML",
+  "Location": {
+    "Latitude": 39.88560104,
+    "Longitude": -104.98699951,
+    "County": "Adams",
+    "State": "CO",
+    "Local": "Northglenn"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 147.645,
+    "Output": 147.045
+  },
+  "SquelchTone": {
+    "Input": 123
+  }
+}

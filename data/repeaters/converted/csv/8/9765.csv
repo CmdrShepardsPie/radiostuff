@@ -1,0 +1,2 @@
+ID,StateID,Callsign,Use,Status,DigitalTone,Digital,Location.Latitude,Location.Longitude,Location.County,Location.State,Location.Local,Frequency.Input,Frequency.Output,SquelchTone.Input,SquelchTone.Output,VOIP.IRLP,VOIP.Wires,VOIP.AllStar.NodeID,VOIP.EchoLink.NodeID
+9765,8,WE0FUN,Open,On-Air,,,39.79669952,-104.7480011,Denver,CO,"Denver, Green Valley Ranch",443.15,448.15,141.3,141.3,,,29436,24340

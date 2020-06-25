@@ -1,0 +1,22 @@
+{
+  "ID": 8204,
+  "StateID": 8,
+  "Callsign": "N0ELY",
+  "Location": {
+    "Latitude": 39.70460129,
+    "Longitude": -105.1230011,
+    "County": "Jefferson",
+    "State": "CO",
+    "Local": "Lakewood"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 443.75,
+    "Output": 448.75
+  },
+  "SquelchTone": {
+    "Input": 100,
+    "Output": 100
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "ID": 17813,
+  "StateID": 8,
+  "Callsign": "N0WAR",
+  "Location": {
+    "Latitude": 40.36059952,
+    "Longitude": -105.51999664,
+    "County": "Larimer",
+    "State": "CO",
+    "Local": "Estes Park, Prospect Mtn"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 147.84,
+    "Output": 147.24
+  },
+  "Digital": {
+    "DMR": {
+      "ColorCode": 2,
+      "ID": 310853
+    }
+  }
+}

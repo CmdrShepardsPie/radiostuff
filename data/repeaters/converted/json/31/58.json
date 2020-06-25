@@ -1,0 +1,21 @@
+{
+  "ID": 58,
+  "StateID": 31,
+  "Callsign": "N0NEB",
+  "Location": {
+    "Latitude": 41.49000168,
+    "Longitude": -103.75499725,
+    "County": "Banner",
+    "State": "NE",
+    "Local": "Harrisburg"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 146.4,
+    "Output": 147
+  },
+  "SquelchTone": {
+    "Input": 103.5
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "ID": 168,
+  "StateID": 8,
+  "Callsign": "N0JPX",
+  "Location": {
+    "Latitude": 37.50500107,
+    "Longitude": -105.00700378,
+    "County": "Huerfano",
+    "State": "CO",
+    "Local": "La Veta"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 144.755,
+    "Output": 145.355
+  },
+  "SquelchTone": {
+    "Input": 100
+  },
+  "VOIP": {
+    "IRLP": {
+      "NodeID": 3974
+    }
+  }
+}

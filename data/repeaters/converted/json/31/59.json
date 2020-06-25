@@ -1,0 +1,18 @@
+{
+  "ID": 59,
+  "StateID": 31,
+  "Callsign": "N0NEB",
+  "Location": {
+    "Latitude": 41.94060135,
+    "Longitude": -103.65599823,
+    "County": "Scotts Bluff",
+    "State": "NE",
+    "Local": "Scottsbluff"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 147.675,
+    "Output": 147.075
+  }
+}

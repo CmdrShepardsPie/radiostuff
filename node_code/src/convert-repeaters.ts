@@ -1,6 +1,6 @@
 import 'module-alias/register';
 
-import { getAllFilesInDirectory, readFileAsync, writeToJsonAndCsv } from '@helpers/fs-helpers';
+import { getAllFilesInDirectory, readFileAsync, splitExtension, writeToCsv, writeToJson } from '@helpers/fs-helpers';
 import { createLog } from '@helpers/log-helpers';
 import { IRepeaterRaw } from '@interfaces/i-repeater-raw';
 import {
@@ -14,47 +14,33 @@ import {
 const log: (...msg: any[]) => void = createLog('Convert Repeaters');
 
 export default (async (): Promise<void> => {
-  const files: string[] = await getAllFilesInDirectory('../data/repeaters/scraped', 'json');
-  // const raw: IRepeaterRaw[][] = await getAllFilesFromDirectory('../data/repeaters/scraped');
+
+  const files: string[] = await getAllFilesInDirectory('../data/repeaters/scraped/json', 'json', 1);
   log('Got', files.length, 'files');
 
-  await Promise.all(files.map(async (file: string) => {
+  const promises: Promise<void>[] = [];
+
+  await Promise.all(files.map(async (file: string): Promise<void> => {
     const fileBuffer: Buffer = await readFileAsync(file);
     const fileString: string = fileBuffer.toString();
-    const fileData: IRepeaterRaw[] = JSON.parse(fileString);
-    log(file, 'has', fileData.length, 'repeaters');
-    const converted: IRepeaterStructured[] = fileData
-      .reduce((output: IRepeaterStructured[], input: IRepeaterRaw, index: number): IRepeaterStructured[] => {
-        log(`converting repeater ${input.Call} (${index + 1}/${fileData.length}) from ${file}`);
-        return [...output, convertRepeater(input)];
-      }, [] as IRepeaterStructured[]);
-      // .filter((repeater: IRepeaterStructured): boolean => {
-      //   if (ids.includes(repeater.ID)) {
-      //     return false;
-      //   } else {
-      //     ids.push(repeater.ID);
-      //     return true;
-      //   }
-      // });
-    log('Converted', converted.length, 'repeaters');
-    await writeToJsonAndCsv('../data/repeaters/converted/CO', converted);
+    const fileData: IRepeaterRaw | IRepeaterRaw[] = JSON.parse(fileString);
+    if (typeof fileData === 'object' && Array.isArray(fileData)) {
+      const converted: IRepeaterStructured[] = fileData
+        .reduce((output: IRepeaterStructured[], input: IRepeaterRaw, index: number): IRepeaterStructured[] => {
+          log(`converting repeater ${ input.Call } (${ index + 1 }/${ fileData.length }) from ${ file }`);
+          const repeater: IRepeaterStructured = convertRepeater(input);
+          // Don't care when the fs write promises return, they do not affect the outcome and node won't terminate until the handles are closed
+          promises.push(writeToJson(`../data/repeaters/converted/json/${ repeater.StateID }/${ repeater.ID }`, repeater));
+          promises.push(writeToCsv(`../data/repeaters/converted/csv/${ repeater.StateID }/${ repeater.ID }`, repeater));
+          return [...output, repeater];
+        }, [] as IRepeaterStructured[]);
+      // Don't care when the fs write promises return, they do not affect the outcome and node won't terminate until the handles are closed
+      promises.push(writeToJson(`../data/repeaters/converted/json/${ splitExtension(file).name }`, converted));
+      promises.push(writeToCsv(`../data/repeaters/converted/csv/${ splitExtension(file).name }`, converted));
+    }
   }));
-  // const ids: number[] = [];
-  // const converted: IRepeaterStructured[] = raw
-  //   .reduce((output: IRepeaterStructured[], input: IRepeaterRaw[], index: number): IRepeaterStructured[] => {
-  //     log('Got', input.length, 'repeaters from file', index + 1);
-  //     return [...output, ...input.map(convertRepeater)];
-  //   }, [])
-  //   .filter((repeater: IRepeaterStructured): boolean => {
-  //     if (ids.includes(repeater.ID)) {
-  //       return false;
-  //     } else {
-  //       ids.push(repeater.ID);
-  //       return true;
-  //     }
-  //   });
-  // log('Converted', converted.length, 'repeaters');
-  // await writeToJsonAndCsv('../data/repeaters/converted/CO', converted);
+
+  await Promise.all(promises);
 })();
 
 function convertRepeater(raw: IRepeaterRaw): IRepeaterStructured {
@@ -161,9 +147,11 @@ function convertRepeaterDigitalData(raw: IRepeaterRaw): IRepeaterDigitalModes | 
       ID: convertNumber(raw['DMR ID']),
     } : undefined,
     P25: (raw.DGTL.includes('P') || raw['P-25 Digital Enabled']) ? { NAC: convertNumber(raw.NAC) } : undefined,
+    // TODO: Convert D-Star nodes to programmable format
     DStar: (raw.DGTL.includes('S') || raw['D-STAR Enabled']) ? { Node: raw.Node } : undefined,
     YSF: (raw.DGTL.includes('Y') || raw['YSF Digital Enabled']) ? {
       GroupID: {
+        // TODO: Convert "Open" to 0 (confirm this is correct?)
         Input: typeof raw['DG-ID'] === 'number' ? raw['DG-ID'] : typeof raw['DG-ID'] === 'string' ? raw['DG-ID'].split('/')[0].trim() : undefined,
         Output: typeof raw['DG-ID'] === 'number' ? raw['DG-ID'] : typeof raw['DG-ID'] === 'string' ? raw['DG-ID'].split('/')[1].trim() : undefined,
       },

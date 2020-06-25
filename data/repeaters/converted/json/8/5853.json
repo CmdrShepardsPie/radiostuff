@@ -1,0 +1,22 @@
+{
+  "ID": 5853,
+  "StateID": 8,
+  "Callsign": "W0UPS",
+  "Location": {
+    "Latitude": 40.61109924,
+    "Longitude": -105.3239975,
+    "County": "Larimer",
+    "State": "CO",
+    "Local": "Fort Collins, Buckhorn Mountain"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 442.7,
+    "Output": 447.7
+  },
+  "SquelchTone": {
+    "Input": 100,
+    "Output": 100
+  }
+}

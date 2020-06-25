@@ -1,0 +1,29 @@
+{
+  "ID": 13499,
+  "StateID": 8,
+  "Callsign": "KG5JL",
+  "Location": {
+    "Latitude": 37.16949844,
+    "Longitude": -104.50099945,
+    "County": "Las Animas",
+    "State": "CO",
+    "Local": "Trinidad, Raton Pass"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 442.375,
+    "Output": 447.375
+  },
+  "SquelchTone": {
+    "Input": 100
+  },
+  "Digital": {
+    "YSF": {
+      "GroupID": {
+        "Input": "Open ↑",
+        "Output": "Open ↓"
+      }
+    }
+  }
+}

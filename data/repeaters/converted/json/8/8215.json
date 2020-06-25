@@ -1,0 +1,26 @@
+{
+  "ID": 8215,
+  "StateID": 8,
+  "Callsign": "W0TX",
+  "Location": {
+    "Latitude": 39.68220139,
+    "Longitude": -105.14299774,
+    "County": "Jefferson",
+    "State": "CO",
+    "Local": "Lakewood, Green Mtn"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 444.775,
+    "Output": 449.775
+  },
+  "Digital": {
+    "YSF": {
+      "GroupID": {
+        "Input": "Open ↑",
+        "Output": "Open ↓"
+      }
+    }
+  }
+}

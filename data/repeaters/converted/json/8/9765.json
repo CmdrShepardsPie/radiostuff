@@ -1,0 +1,30 @@
+{
+  "ID": 9765,
+  "StateID": 8,
+  "Callsign": "WE0FUN",
+  "Location": {
+    "Latitude": 39.79669952,
+    "Longitude": -104.7480011,
+    "County": "Denver",
+    "State": "CO",
+    "Local": "Denver, Green Valley Ranch"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 443.15,
+    "Output": 448.15
+  },
+  "SquelchTone": {
+    "Input": 141.3,
+    "Output": 141.3
+  },
+  "VOIP": {
+    "AllStar": {
+      "NodeID": 29436
+    },
+    "EchoLink": {
+      "NodeID": 24340
+    }
+  }
+}

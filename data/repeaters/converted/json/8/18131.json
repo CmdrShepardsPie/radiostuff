@@ -1,0 +1,27 @@
+{
+  "ID": 18131,
+  "StateID": 8,
+  "Callsign": "WC3W",
+  "Location": {
+    "Latitude": 40.23920059,
+    "Longitude": -105.84700012,
+    "County": "Clear Creek",
+    "State": "CO",
+    "Local": "Grand Lake"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 444.425,
+    "Output": 449.425
+  },
+  "SquelchTone": {
+    "Input": 103.5,
+    "Output": 103.5
+  },
+  "VOIP": {
+    "AllStar": {
+      "NodeID": 45202
+    }
+  }
+}

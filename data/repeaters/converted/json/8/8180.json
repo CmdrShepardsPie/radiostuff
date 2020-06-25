@@ -1,0 +1,22 @@
+{
+  "ID": 8180,
+  "StateID": 8,
+  "Callsign": "K0BV",
+  "Location": {
+    "Latitude": 37.16949844,
+    "Longitude": -104.50099945,
+    "County": "Las Animas",
+    "State": "CO",
+    "Local": "Trinidad, Raton Pass"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 147.975,
+    "Output": 147.375
+  },
+  "SquelchTone": {
+    "Input": 100,
+    "Output": 100
+  }
+}

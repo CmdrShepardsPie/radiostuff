@@ -1,0 +1,2 @@
+ID,StateID,Callsign,Use,Status,DigitalTone,Digital,VOIP,Location.Latitude,Location.Longitude,Location.County,Location.State,Location.Local,Frequency.Input,Frequency.Output,SquelchTone.Input,SquelchTone.Output
+172,8,KB0VJJ,Open,On-Air,,,,39.28139877,-106.18599701,Lake,CO,"Leadville, Mosquito Pass",144.845,145.445,88.5,

@@ -1,0 +1,2 @@
+ID,StateID,Callsign,Use,Status,SquelchTone,DigitalTone,Digital,VOIP,Location.Latitude,Location.Longitude,Location.County,Location.State,Location.Local,Frequency.Input,Frequency.Output
+63,8,WA0JS,Open,On-Air,,,,,37.8492012,-106.9260025,Mineral,CO,Creede,146.325,146.925

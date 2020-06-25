@@ -1,0 +1,22 @@
+{
+  "ID": 8741,
+  "StateID": 8,
+  "Callsign": "N0OBA",
+  "Location": {
+    "Latitude": 39.62799835,
+    "Longitude": -104.75800323,
+    "County": "Arapahoe",
+    "State": "CO",
+    "Local": "Aurora"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 144.59,
+    "Output": 145.19
+  },
+  "SquelchTone": {
+    "Input": 131.8,
+    "Output": 131.8
+  }
+}

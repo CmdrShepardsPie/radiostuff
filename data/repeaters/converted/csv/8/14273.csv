@@ -1,0 +1,2 @@
+ID,StateID,Callsign,Use,Status,SquelchTone,DigitalTone,VOIP,Location.Latitude,Location.Longitude,Location.County,Location.State,Location.Local,Frequency.Input,Frequency.Output,Digital.P25,Digital.DStar,Digital.YSF,Digital.DMR.ColorCode,Digital.DMR.ID
+14273,8,KB0VGD,Open,On-Air,,,,39.7845993,-105.21600342,Jefferson,CO,"Golden, Table Mountain",441.975,446.975,,,,2,310811

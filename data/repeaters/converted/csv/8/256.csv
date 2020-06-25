@@ -1,0 +1,2 @@
+ID,StateID,Callsign,Use,Status,DigitalTone,Digital,VOIP,Location.Latitude,Location.Longitude,Location.County,Location.State,Location.Local,Frequency.Input,Frequency.Output,SquelchTone.Input,SquelchTone.Output
+256,8,K0RV,Open,On-Air,,,,39.60609818,-106.35600281,Eagle,CO,"Vail, Bald Mountain",146.01,146.61,107.2,

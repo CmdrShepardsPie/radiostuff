@@ -1,0 +1,21 @@
+{
+  "ID": 247,
+  "StateID": 8,
+  "Callsign": "W0PHC",
+  "Location": {
+    "Latitude": 37.77190018,
+    "Longitude": -104.45600128,
+    "County": "Huerfano",
+    "State": "CO",
+    "Local": "Walsenburg, N Rattlesnake Butte"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 146.13,
+    "Output": 146.73
+  },
+  "SquelchTone": {
+    "Input": 88.5
+  }
+}

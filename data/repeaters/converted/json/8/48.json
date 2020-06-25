@@ -1,0 +1,21 @@
+{
+  "ID": 48,
+  "StateID": 8,
+  "Callsign": "W0MOG",
+  "Location": {
+    "Latitude": 38.83810043,
+    "Longitude": -104.82099915,
+    "County": "El Paso",
+    "State": "CO",
+    "Local": "Colorado Springs"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 147.99,
+    "Output": 147.39
+  },
+  "SquelchTone": {
+    "Input": 103.5
+  }
+}

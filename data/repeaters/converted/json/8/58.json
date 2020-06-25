@@ -1,0 +1,26 @@
+{
+  "ID": 58,
+  "StateID": 8,
+  "Callsign": "WA6IFI",
+  "Location": {
+    "Latitude": 38.77259827,
+    "Longitude": -104.99299622,
+    "County": "Teller",
+    "State": "CO",
+    "Local": "Colorado Springs, Almagre Mountain"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 902.025,
+    "Output": 927.725
+  },
+  "DigitalTone": {
+    "Input": 114
+  },
+  "Digital": {
+    "P25": {
+      "NAC": 293
+    }
+  }
+}

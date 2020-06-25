@@ -1,0 +1,26 @@
+{
+  "ID": 76,
+  "StateID": 56,
+  "Callsign": "N7UW",
+  "Location": {
+    "Latitude": 41.31480026,
+    "Longitude": -105.58200073,
+    "County": "Albany",
+    "State": "WY",
+    "Local": "Laramie, University"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 146.01,
+    "Output": 146.61
+  },
+  "Digital": {
+    "YSF": {
+      "GroupID": {
+        "Input": "Open ↑",
+        "Output": "Open ↓"
+      }
+    }
+  }
+}

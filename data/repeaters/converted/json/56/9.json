@@ -1,0 +1,21 @@
+{
+  "ID": 9,
+  "StateID": 56,
+  "Callsign": "KC7SNO",
+  "Location": {
+    "Latitude": 41.31140137,
+    "Longitude": -105.59100342,
+    "County": "Albany",
+    "State": "WY",
+    "Local": "Laramie, Beacon Hill"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 146.22,
+    "Output": 146.82
+  },
+  "SquelchTone": {
+    "Input": 114.8
+  }
+}

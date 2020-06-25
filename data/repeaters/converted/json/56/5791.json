@@ -1,0 +1,26 @@
+{
+  "ID": 5791,
+  "StateID": 56,
+  "Callsign": "N7RON",
+  "Location": {
+    "Latitude": 41.79109955,
+    "Longitude": -107.23899841,
+    "County": "Carbon",
+    "State": "WY",
+    "Local": "Rawlins"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 146.1,
+    "Output": 146.7
+  },
+  "SquelchTone": {
+    "Input": 162.2
+  },
+  "VOIP": {
+    "IRLP": {
+      "NodeID": 7045
+    }
+  }
+}

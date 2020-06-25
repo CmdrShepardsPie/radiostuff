@@ -1,0 +1,34 @@
+{
+  "ID": 167,
+  "StateID": 8,
+  "Callsign": "KC0ITF",
+  "Location": {
+    "Latitude": 37.99950027,
+    "Longitude": -103.52899933,
+    "County": "Otero",
+    "State": "CO",
+    "Local": "La Junta, North La Junta"
+  },
+  "Use": "Private",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 147.96,
+    "Output": 147.36
+  },
+  "SquelchTone": {
+    "Output": 123
+  },
+  "Digital": {
+    "YSF": {
+      "GroupID": {
+        "Input": "Open ↑",
+        "Output": "Open ↓"
+      }
+    }
+  },
+  "VOIP": {
+    "Wires": {
+      "ID": 11360
+    }
+  }
+}

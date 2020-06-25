@@ -1,0 +1,2 @@
+ID,StateID,Callsign,Use,Status,DigitalTone,Digital,Location.Latitude,Location.Longitude,Location.County,Location.State,Location.Local,Frequency.Input,Frequency.Output,SquelchTone.Input,SquelchTone.Output,VOIP.EchoLink,VOIP.IRLP,VOIP.Wires,VOIP.AllStar.NodeID
+9503,8,KA4EPS,Open,On-Air,,,38.9878006,-105.04399872,Teller,CO,"Woodland Park, Paradise Pines",444.325,449.325,103.5,103.5,,,,27976

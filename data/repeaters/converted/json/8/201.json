@@ -1,0 +1,21 @@
+{
+  "ID": 201,
+  "StateID": 8,
+  "Callsign": "W0RM",
+  "Location": {
+    "Latitude": 39.91719818,
+    "Longitude": -105.50099945,
+    "County": "Gilpin",
+    "State": "CO",
+    "Local": "Rollinsville"
+  },
+  "Use": "Open",
+  "Status": "Other",
+  "Frequency": {
+    "Input": 223,
+    "Output": 224.6
+  },
+  "SquelchTone": {
+    "Input": 100
+  }
+}

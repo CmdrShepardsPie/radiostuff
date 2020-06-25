@@ -1,0 +1,2 @@
+ID,StateID,Callsign,Use,Status,DigitalTone,Digital,VOIP,Location.Latitude,Location.Longitude,Location.County,Location.State,Location.Local,Frequency.Input,Frequency.Output,SquelchTone.Input,SquelchTone.Output
+26,8,W0LMA,Open,On-Air,,,,39.92060089,-105.08599854,Boulder,CO,Broomfield,443.925,448.925,131.8,

@@ -1,0 +1,21 @@
+{
+  "ID": 210,
+  "StateID": 8,
+  "Callsign": "KB5ITS",
+  "Location": {
+    "Latitude": 37.81190109,
+    "Longitude": -107.66400146,
+    "County": "San Juan",
+    "State": "CO",
+    "Local": "Silverton"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 442.525,
+    "Output": 447.525
+  },
+  "SquelchTone": {
+    "Input": 127.3
+  }
+}

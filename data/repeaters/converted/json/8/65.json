@@ -1,0 +1,21 @@
+{
+  "ID": 65,
+  "StateID": 8,
+  "Callsign": "NX0G",
+  "Location": {
+    "Latitude": 38.7466011,
+    "Longitude": -105.1780014,
+    "County": "Teller",
+    "State": "CO",
+    "Local": "Cripple Creek"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 147.615,
+    "Output": 147.015
+  },
+  "SquelchTone": {
+    "Input": 107.2
+  }
+}

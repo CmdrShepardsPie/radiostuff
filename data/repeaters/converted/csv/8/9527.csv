@@ -1,0 +1,2 @@
+ID,StateID,Callsign,Use,Status,DigitalTone,Digital,VOIP,Location.Latitude,Location.Longitude,Location.County,Location.State,Location.Local,Frequency.Input,Frequency.Output,SquelchTone.Input,SquelchTone.Output
+9527,8,K0JSC,Open,On-Air,,,,38.23049927,-104.61100006,Pueblo,CO,"Pueblo, Metro",442.275,447.275,100,100

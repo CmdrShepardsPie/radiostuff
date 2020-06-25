@@ -1,0 +1,22 @@
+{
+  "ID": 4086,
+  "StateID": 20,
+  "Callsign": "K0ECT",
+  "Location": {
+    "Latitude": 38.17499924,
+    "Longitude": -101.76100159,
+    "County": "Hamilton",
+    "State": "KS",
+    "Local": "Syracuse"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 449,
+    "Output": 444
+  },
+  "SquelchTone": {
+    "Input": 141.3,
+    "Output": 141.3
+  }
+}

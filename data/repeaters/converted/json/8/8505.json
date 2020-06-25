@@ -1,0 +1,24 @@
+{
+  "ID": 8505,
+  "StateID": 8,
+  "Callsign": "N0AOL",
+  "Location": {
+    "Latitude": 40.51530075,
+    "Longitude": -105.14700317,
+    "County": "Larimer",
+    "State": "CO",
+    "Local": "Fort Collins"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 441.7375,
+    "Output": 446.7375
+  },
+  "Digital": {
+    "DMR": {
+      "ColorCode": 2,
+      "ID": 310803
+    }
+  }
+}

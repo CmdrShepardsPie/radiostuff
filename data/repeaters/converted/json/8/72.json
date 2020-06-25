@@ -1,0 +1,22 @@
+{
+  "ID": 72,
+  "StateID": 8,
+  "Callsign": "KB0VJJ",
+  "Location": {
+    "Latitude": 39.88750076,
+    "Longitude": -105.4260025,
+    "County": "Gilpin",
+    "State": "CO",
+    "Local": "Boulder, Thorodin Mountain"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 144.71,
+    "Output": 145.31
+  },
+  "SquelchTone": {
+    "Input": 88.5,
+    "Output": 123
+  }
+}

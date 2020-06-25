@@ -1,0 +1,22 @@
+{
+  "ID": 8250,
+  "StateID": 8,
+  "Callsign": "WR0AEN",
+  "Location": {
+    "Latitude": 39.6731987,
+    "Longitude": -105.48000336,
+    "County": "Clear Creek",
+    "State": "CO",
+    "Local": "Idaho Springs, Squaw Mountain"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 444,
+    "Output": 449
+  },
+  "SquelchTone": {
+    "Input": 136.5,
+    "Output": 136.5
+  }
+}

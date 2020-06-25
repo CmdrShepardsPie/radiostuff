@@ -1,0 +1,26 @@
+{
+  "ID": 128,
+  "StateID": 8,
+  "Callsign": "KE0AE",
+  "Location": {
+    "Latitude": 39.26879883,
+    "Longitude": -103.48799896,
+    "County": "Lincoln",
+    "State": "CO",
+    "Local": "Genoa"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 147.66,
+    "Output": 147.06
+  },
+  "SquelchTone": {
+    "Input": 103.5
+  },
+  "VOIP": {
+    "AllStar": {
+      "NodeID": 42740
+    }
+  }
+}

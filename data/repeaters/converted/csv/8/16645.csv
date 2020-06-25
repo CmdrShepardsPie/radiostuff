@@ -1,0 +1,2 @@
+ID,StateID,Callsign,Use,Status,DigitalTone,Digital,VOIP,Location.Latitude,Location.Longitude,Location.County,Location.State,Location.Local,Frequency.Input,Frequency.Output,SquelchTone.Input,SquelchTone.Output
+16645,8,N0KM,Open,On-Air,,,,37.75,-106.11499786,Rio Grande,CO,Center,442.1,447.1,77,

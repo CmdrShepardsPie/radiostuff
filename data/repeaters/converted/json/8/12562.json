@@ -1,0 +1,24 @@
+{
+  "ID": 12562,
+  "StateID": 8,
+  "Callsign": "W0DMR",
+  "Location": {
+    "Latitude": 40.54460144,
+    "Longitude": -104.94400024,
+    "County": "Larimer",
+    "State": "CO",
+    "Local": "Fort Collins, Timnath"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 147.99,
+    "Output": 147.39
+  },
+  "Digital": {
+    "DMR": {
+      "ColorCode": 2,
+      "ID": 310822
+    }
+  }
+}

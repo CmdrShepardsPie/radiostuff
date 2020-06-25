@@ -1,0 +1,34 @@
+{
+  "ID": 157,
+  "StateID": 8,
+  "Callsign": "KC0KWD",
+  "Location": {
+    "Latitude": 40.26119995,
+    "Longitude": -104.70600128,
+    "County": "Weld",
+    "State": "CO",
+    "Local": "LaSalle"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 147.6,
+    "Output": 147
+  },
+  "SquelchTone": {
+    "Input": 100
+  },
+  "Digital": {
+    "YSF": {
+      "GroupID": {
+        "Input": "Open ↑",
+        "Output": "Open ↓"
+      }
+    }
+  },
+  "VOIP": {
+    "IRLP": {
+      "NodeID": 3839
+    }
+  }
+}

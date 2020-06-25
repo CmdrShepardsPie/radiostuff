@@ -1,0 +1,27 @@
+{
+  "ID": 9580,
+  "StateID": 8,
+  "Callsign": "AC0KQ",
+  "Location": {
+    "Latitude": 39.71889877,
+    "Longitude": -105.44000244,
+    "County": "Clear Creek",
+    "State": "CO",
+    "Local": "Evergreen, Saddleback Mountain"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 442.85,
+    "Output": 447.85
+  },
+  "SquelchTone": {
+    "Input": 141.3,
+    "Output": 141.3
+  },
+  "VOIP": {
+    "AllStar": {
+      "NodeID": 29571
+    }
+  }
+}

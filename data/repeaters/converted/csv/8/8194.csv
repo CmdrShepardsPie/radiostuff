@@ -1,0 +1,2 @@
+ID,StateID,Callsign,Use,Status,DigitalTone,Digital,VOIP,Location.Latitude,Location.Longitude,Location.County,Location.State,Location.Local,Frequency.Input,Frequency.Output,SquelchTone.Input,SquelchTone.Output
+8194,8,W7RF,Open,On-Air,,,,40.49599838,-105.07900238,Larimer,CO,Fort Collins,442.725,447.725,131.8,

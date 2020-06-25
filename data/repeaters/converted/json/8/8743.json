@@ -1,0 +1,22 @@
+{
+  "ID": 8743,
+  "StateID": 8,
+  "Callsign": "W9SL",
+  "Location": {
+    "Latitude": 39.72940063,
+    "Longitude": -104.83200073,
+    "County": "Arapahoe",
+    "State": "CO",
+    "Local": "Aurora"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 444.95,
+    "Output": 449.95
+  },
+  "SquelchTone": {
+    "Input": 77,
+    "Output": 77
+  }
+}

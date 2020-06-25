@@ -1,0 +1,21 @@
+{
+  "ID": 145,
+  "StateID": 8,
+  "Callsign": "KA0YDW",
+  "Location": {
+    "Latitude": 40.08610153,
+    "Longitude": -105.93900299,
+    "County": "Grand",
+    "State": "CO",
+    "Local": "Granby"
+  },
+  "Use": "Open",
+  "Status": "Other",
+  "Frequency": {
+    "Input": 146.22,
+    "Output": 146.82
+  },
+  "SquelchTone": {
+    "Input": 123
+  }
+}

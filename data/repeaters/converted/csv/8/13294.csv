@@ -1,0 +1,2 @@
+ID,StateID,Callsign,Use,Status,DigitalTone,Digital,Location.Latitude,Location.Longitude,Location.County,Location.State,Location.Local,Frequency.Input,Frequency.Output,SquelchTone.Input,SquelchTone.Output,VOIP.Wires,VOIP.AllStar.NodeID,VOIP.EchoLink.NodeID,VOIP.IRLP.NodeID
+13294,8,KD0MDP,Open,On-Air,,,39.04370117,-104.60800171,El Paso,CO,"Falcon, Black Forest",442.625,447.625,100,100,,28299,363976,7301

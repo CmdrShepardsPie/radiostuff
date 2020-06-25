@@ -1,0 +1,2 @@
+ID,StateID,Callsign,Use,Status,DigitalTone,Digital,Location.Latitude,Location.Longitude,Location.County,Location.State,Location.Local,Frequency.Input,Frequency.Output,SquelchTone.Input,SquelchTone.Output,VOIP.Wires,VOIP.AllStar.NodeID,VOIP.EchoLink.NodeID,VOIP.IRLP.NodeID
+7185,8,K0JSC,Open,On-Air,,,38.43009949,-105.23200226,Fremont,CO,"Canon City, Colorado",442.975,447.975,100,100,,28368,363976,7301

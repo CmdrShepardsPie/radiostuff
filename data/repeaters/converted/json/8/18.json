@@ -1,0 +1,23 @@
+{
+  "ID": 18,
+  "StateID": 8,
+  "Callsign": "W0IA",
+  "Location": {
+    "Latitude": 40.07220078,
+    "Longitude": -105.35399628,
+    "County": "Boulder",
+    "State": "CO",
+    "Local": "Boulder, Lee Hill"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 222.42,
+    "Output": 224.02
+  },
+  "VOIP": {
+    "EchoLink": {
+      "NodeID": 217336
+    }
+  }
+}

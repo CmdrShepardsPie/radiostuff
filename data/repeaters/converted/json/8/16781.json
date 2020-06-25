@@ -1,0 +1,24 @@
+{
+  "ID": 16781,
+  "StateID": 8,
+  "Callsign": "N0SZ",
+  "Location": {
+    "Latitude": 39.63479996,
+    "Longitude": -106.4469986,
+    "County": "Eagle",
+    "State": "CO",
+    "Local": "Vail"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 440.075,
+    "Output": 445.075
+  },
+  "Digital": {
+    "DMR": {
+      "ColorCode": 7,
+      "ID": 310851
+    }
+  }
+}

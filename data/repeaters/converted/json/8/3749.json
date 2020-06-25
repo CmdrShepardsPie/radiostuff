@@ -1,0 +1,21 @@
+{
+  "ID": 3749,
+  "StateID": 8,
+  "Callsign": "W0ALC",
+  "Location": {
+    "Latitude": 38.90159988,
+    "Longitude": -107.9260025,
+    "County": "Delta",
+    "State": "CO",
+    "Local": "Cedaredge"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 147.96,
+    "Output": 147.36
+  },
+  "SquelchTone": {
+    "Input": 100
+  }
+}

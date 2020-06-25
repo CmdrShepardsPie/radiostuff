@@ -1,0 +1,2 @@
+ID,StateID,Callsign,Use,Status,DigitalTone,Digital,VOIP,Location.Latitude,Location.Longitude,Location.County,Location.State,Location.Local,Frequency.Input,Frequency.Output,SquelchTone.Input,SquelchTone.Output
+43,8,K0IRP,Open,On-Air,,,,38.83810043,-104.82099915,El Paso,CO,Colorado Springs,146.31,146.91,151.4,151.4

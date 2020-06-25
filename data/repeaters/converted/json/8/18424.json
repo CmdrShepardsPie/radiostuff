@@ -1,0 +1,23 @@
+{
+  "ID": 18424,
+  "StateID": 8,
+  "Callsign": "KI0HC",
+  "Location": {
+    "Latitude": 40.61669922,
+    "Longitude": -105.32800293,
+    "County": "Larimer",
+    "State": "CO",
+    "Local": "Fort Collins, Buckhorn Mountain"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 902.025,
+    "Output": 927.875
+  },
+  "Digital": {
+    "P25": {
+      "NAC": 293
+    }
+  }
+}

@@ -1,0 +1,2 @@
+ID,StateID,Callsign,Use,Status,DigitalTone,Digital,VOIP,Location.Latitude,Location.Longitude,Location.County,Location.State,Location.Local,Frequency.Input,Frequency.Output,SquelchTone.Input,SquelchTone.Output
+210,8,KB5ITS,Open,On-Air,,,,37.81190109,-107.66400146,San Juan,CO,Silverton,442.525,447.525,127.3,

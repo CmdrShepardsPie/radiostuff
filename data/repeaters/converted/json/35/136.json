@@ -1,0 +1,21 @@
+{
+  "ID": 136,
+  "StateID": 35,
+  "Callsign": "NM5ML",
+  "Location": {
+    "Latitude": 36.90330124,
+    "Longitude": -104.43900299,
+    "County": "Colfax",
+    "State": "NM",
+    "Local": "Raton, Sierra Grande"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 147.88,
+    "Output": 147.28
+  },
+  "SquelchTone": {
+    "Input": 100
+  }
+}

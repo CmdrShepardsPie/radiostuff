@@ -1,0 +1,29 @@
+{
+  "ID": 8739,
+  "StateID": 8,
+  "Callsign": "AC0KC",
+  "Location": {
+    "Latitude": 40.02759933,
+    "Longitude": -104.78900146,
+    "County": "Weld",
+    "State": "CO",
+    "Local": "Fort Lupton"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 442.3,
+    "Output": 447.3
+  },
+  "SquelchTone": {
+    "Input": 107.2
+  },
+  "VOIP": {
+    "EchoLink": {
+      "NodeID": 405804
+    },
+    "IRLP": {
+      "NodeID": 3887
+    }
+  }
+}

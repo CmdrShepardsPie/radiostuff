@@ -1,0 +1,30 @@
+{
+  "ID": 3794,
+  "StateID": 8,
+  "Callsign": "N0LAR",
+  "Location": {
+    "Latitude": 38.128033,
+    "Longitude": -102.531803,
+    "County": "Prowers",
+    "State": "CO",
+    "Local": "Lamar, 4 Miles East of Lamar"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 146.01,
+    "Output": 146.61
+  },
+  "SquelchTone": {
+    "Input": 123,
+    "Output": 123
+  },
+  "VOIP": {
+    "EchoLink": {
+      "NodeID": 37784
+    },
+    "IRLP": {
+      "NodeID": 3774
+    }
+  }
+}

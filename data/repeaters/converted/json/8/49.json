@@ -1,0 +1,21 @@
+{
+  "ID": 49,
+  "StateID": 8,
+  "Callsign": "KF0WF",
+  "Location": {
+    "Latitude": 38.83390045,
+    "Longitude": -104.82099915,
+    "County": "El Paso",
+    "State": "CO",
+    "Local": "Colorado Springs"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 442.025,
+    "Output": 447.025
+  },
+  "SquelchTone": {
+    "Input": 123
+  }
+}

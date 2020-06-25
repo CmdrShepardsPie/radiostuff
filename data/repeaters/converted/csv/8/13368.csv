@@ -1,0 +1,2 @@
+ID,StateID,Callsign,Use,Status,DigitalTone,Digital,VOIP,Location.Latitude,Location.Longitude,Location.County,Location.State,Location.Local,Frequency.Input,Frequency.Output,SquelchTone.Input,SquelchTone.Output
+13368,8,W0JZ,Open,On-Air,,,,40.06330109,-105.41000366,Boulder,CO,Gold Hill,146.31,146.91,123,127.3

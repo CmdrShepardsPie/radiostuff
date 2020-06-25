@@ -15,46 +15,29 @@
     const i_repeater_structured_1 = require("@interfaces/i-repeater-structured");
     const log = log_helpers_1.createLog('Convert Repeaters');
     exports.default = (async () => {
-        const files = await fs_helpers_1.getAllFilesInDirectory('../data/repeaters/scraped', 'json');
-        // const raw: IRepeaterRaw[][] = await getAllFilesFromDirectory('../data/repeaters/scraped');
+        const files = await fs_helpers_1.getAllFilesInDirectory('../data/repeaters/scraped/json', 'json', 1);
         log('Got', files.length, 'files');
+        const promises = [];
         await Promise.all(files.map(async (file) => {
             const fileBuffer = await fs_helpers_1.readFileAsync(file);
             const fileString = fileBuffer.toString();
             const fileData = JSON.parse(fileString);
-            log(file, 'has', fileData.length, 'repeaters');
-            const converted = fileData
-                .reduce((output, input, index) => {
-                log(`converting repeater ${input.Call} (${index + 1}/${fileData.length}) from ${file}`);
-                return [...output, convertRepeater(input)];
-            }, []);
-            // .filter((repeater: IRepeaterStructured): boolean => {
-            //   if (ids.includes(repeater.ID)) {
-            //     return false;
-            //   } else {
-            //     ids.push(repeater.ID);
-            //     return true;
-            //   }
-            // });
-            log('Converted', converted.length, 'repeaters');
-            await fs_helpers_1.writeToJsonAndCsv('../data/repeaters/converted/CO', converted);
+            if (typeof fileData === 'object' && Array.isArray(fileData)) {
+                const converted = fileData
+                    .reduce((output, input, index) => {
+                    log(`converting repeater ${input.Call} (${index + 1}/${fileData.length}) from ${file}`);
+                    const repeater = convertRepeater(input);
+                    // Don't care when the fs write promises return, they do not affect the outcome and node won't terminate until the handles are closed
+                    promises.push(fs_helpers_1.writeToJson(`../data/repeaters/converted/json/${repeater.StateID}/${repeater.ID}`, repeater));
+                    promises.push(fs_helpers_1.writeToCsv(`../data/repeaters/converted/csv/${repeater.StateID}/${repeater.ID}`, repeater));
+                    return [...output, repeater];
+                }, []);
+                // Don't care when the fs write promises return, they do not affect the outcome and node won't terminate until the handles are closed
+                promises.push(fs_helpers_1.writeToJson(`../data/repeaters/converted/json/${fs_helpers_1.splitExtension(file).name}`, converted));
+                promises.push(fs_helpers_1.writeToCsv(`../data/repeaters/converted/csv/${fs_helpers_1.splitExtension(file).name}`, converted));
+            }
         }));
-        // const ids: number[] = [];
-        // const converted: IRepeaterStructured[] = raw
-        //   .reduce((output: IRepeaterStructured[], input: IRepeaterRaw[], index: number): IRepeaterStructured[] => {
-        //     log('Got', input.length, 'repeaters from file', index + 1);
-        //     return [...output, ...input.map(convertRepeater)];
-        //   }, [])
-        //   .filter((repeater: IRepeaterStructured): boolean => {
-        //     if (ids.includes(repeater.ID)) {
-        //       return false;
-        //     } else {
-        //       ids.push(repeater.ID);
-        //       return true;
-        //     }
-        //   });
-        // log('Converted', converted.length, 'repeaters');
-        // await writeToJsonAndCsv('../data/repeaters/converted/CO', converted);
+        await Promise.all(promises);
     })();
     function convertRepeater(raw) {
         return {
@@ -156,9 +139,11 @@
                 ID: convertNumber(raw['DMR ID']),
             } : undefined,
             P25: (raw.DGTL.includes('P') || raw['P-25 Digital Enabled']) ? { NAC: convertNumber(raw.NAC) } : undefined,
+            // TODO: Convert D-Star nodes to programmable format
             DStar: (raw.DGTL.includes('S') || raw['D-STAR Enabled']) ? { Node: raw.Node } : undefined,
             YSF: (raw.DGTL.includes('Y') || raw['YSF Digital Enabled']) ? {
                 GroupID: {
+                    // TODO: Convert "Open" to 0 (confirm this is correct?)
                     Input: typeof raw['DG-ID'] === 'number' ? raw['DG-ID'] : typeof raw['DG-ID'] === 'string' ? raw['DG-ID'].split('/')[0].trim() : undefined,
                     Output: typeof raw['DG-ID'] === 'number' ? raw['DG-ID'] : typeof raw['DG-ID'] === 'string' ? raw['DG-ID'].split('/')[1].trim() : undefined,
                 },

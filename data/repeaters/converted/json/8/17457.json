@@ -1,0 +1,23 @@
+{
+  "ID": 17457,
+  "StateID": 8,
+  "Callsign": "KI0HC",
+  "Location": {
+    "Latitude": 39.59999847,
+    "Longitude": -105.20999908,
+    "County": "Jefferson",
+    "State": "CO",
+    "Local": "Indian Hills, Chief Mtn"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 902.025,
+    "Output": 927.9375
+  },
+  "Digital": {
+    "P25": {
+      "NAC": 293
+    }
+  }
+}

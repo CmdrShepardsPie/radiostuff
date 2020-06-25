@@ -1,0 +1,24 @@
+{
+  "ID": 17292,
+  "StateID": 8,
+  "Callsign": "K0PRA",
+  "Location": {
+    "Latitude": 39.44910049,
+    "Longitude": -104.70300293,
+    "County": "Douglas",
+    "State": "CO",
+    "Local": "Parker"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 440.075,
+    "Output": 445.075
+  },
+  "Digital": {
+    "DMR": {
+      "ColorCode": 1,
+      "ID": 310844
+    }
+  }
+}

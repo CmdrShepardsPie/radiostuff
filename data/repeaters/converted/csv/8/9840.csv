@@ -1,0 +1,2 @@
+ID,StateID,Callsign,Use,Status,DigitalTone,Digital,VOIP,Location.Latitude,Location.Longitude,Location.County,Location.State,Location.Local,Frequency.Input,Frequency.Output,SquelchTone.Input,SquelchTone.Output
+9840,8,WZ0N,Open,On-Air,,,,38.88330078,-105.93299866,Park,CO,Hartsel,443.575,448.575,103.5,103.5

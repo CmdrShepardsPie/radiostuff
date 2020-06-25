@@ -1,0 +1,22 @@
+{
+  "ID": 260,
+  "StateID": 8,
+  "Callsign": "K0VQ",
+  "Location": {
+    "Latitude": 39.17610168,
+    "Longitude": -106.82900238,
+    "County": "Pitkin",
+    "State": "CO",
+    "Local": "Aspen, Aspen Mountain"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 442.05,
+    "Output": 447.05
+  },
+  "SquelchTone": {
+    "Input": 136.5,
+    "Output": 136.5
+  }
+}

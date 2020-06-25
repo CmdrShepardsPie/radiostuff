@@ -1,0 +1,23 @@
+{
+  "ID": 18416,
+  "StateID": 8,
+  "Callsign": "W0QEY",
+  "Location": {
+    "Latitude": 40.57759857,
+    "Longitude": -105.09300232,
+    "County": "Larimer",
+    "State": "CO",
+    "Local": "Fort Collins, CSU Durward Hall"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 441.7625,
+    "Output": 446.7625
+  },
+  "Digital": {
+    "DMR": {
+      "ColorCode": 8
+    }
+  }
+}

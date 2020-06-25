@@ -1,0 +1,2 @@
+ID,StateID,Callsign,Use,Status,SquelchTone,DigitalTone,VOIP,Location.Latitude,Location.Longitude,Location.County,Location.State,Location.Local,Frequency.Input,Frequency.Output,Digital.P25,Digital.DStar,Digital.YSF,Digital.DMR.ColorCode,Digital.DMR.ID
+7193,8,N0ESQ,Open,On-Air,,,,39.26480103,-105.11399841,Douglas,CO,"Castle Rock, Devils Head",441.925,446.925,,,,8,310817

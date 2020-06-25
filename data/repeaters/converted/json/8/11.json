@@ -1,0 +1,26 @@
+{
+  "ID": 11,
+  "StateID": 8,
+  "Callsign": "W0IA",
+  "Location": {
+    "Latitude": 40.01499939,
+    "Longitude": -105.26999664,
+    "County": "Boulder",
+    "State": "CO",
+    "Local": "Boulder"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 444.55,
+    "Output": 449.55
+  },
+  "SquelchTone": {
+    "Input": 100
+  },
+  "VOIP": {
+    "EchoLink": {
+      "NodeID": 217336
+    }
+  }
+}

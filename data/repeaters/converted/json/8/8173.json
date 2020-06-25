@@ -1,0 +1,18 @@
+{
+  "ID": 8173,
+  "StateID": 8,
+  "Callsign": "NE0Z",
+  "Location": {
+    "Latitude": 38.30690002,
+    "Longitude": -104.62000275,
+    "County": "Pueblo",
+    "State": "CO",
+    "Local": "Pueblo, CSU"
+  },
+  "Use": "Private",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 147.6,
+    "Output": 147
+  }
+}

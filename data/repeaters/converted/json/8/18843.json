@@ -1,0 +1,28 @@
+{
+  "ID": 18843,
+  "StateID": 8,
+  "Callsign": "W0CTS",
+  "Location": {
+    "Latitude": 38.036886,
+    "Longitude": -102.599448,
+    "County": "Prowers",
+    "State": "CO",
+    "Local": "Lamar, 1.7 Miles S.E."
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 147.75,
+    "Output": 147.15
+  },
+  "SquelchTone": {
+    "Input": 123,
+    "Output": 123
+  },
+  "Digital": {
+    "DMR": {
+      "ColorCode": 1,
+      "ID": 311665
+    }
+  }
+}

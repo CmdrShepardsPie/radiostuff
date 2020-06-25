@@ -1,0 +1,2 @@
+ID,StateID,Callsign,Use,Status,DigitalTone,Digital,VOIP,Location.Latitude,Location.Longitude,Location.County,Location.State,Location.Local,Frequency.Input,Frequency.Output,SquelchTone.Input,SquelchTone.Output
+8218,8,ND0Q,Open,On-Air,,,,38.13470078,-105.46600342,Pueblo,CO,"Westcliffe, Deer Peak",894.1,919.1,88.5,

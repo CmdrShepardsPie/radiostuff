@@ -1,0 +1,21 @@
+{
+  "ID": 192,
+  "StateID": 8,
+  "Callsign": "K0ST",
+  "Location": {
+    "Latitude": 38.25439835,
+    "Longitude": -104.60900116,
+    "County": "Pueblo",
+    "State": "CO",
+    "Local": "Pueblo, Pueblo"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 146.055,
+    "Output": 146.655
+  },
+  "SquelchTone": {
+    "Input": 123
+  }
+}

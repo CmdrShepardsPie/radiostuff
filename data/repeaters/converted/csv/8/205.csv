@@ -1,0 +1,2 @@
+ID,StateID,Callsign,Use,Status,DigitalTone,Digital,VOIP,Location.Latitude,Location.Longitude,Location.County,Location.State,Location.Local,Frequency.Input,Frequency.Output,SquelchTone.Input,SquelchTone.Output
+205,8,KC0CVU,Open,On-Air,,,,38.45280075,-106.01799774,Chaffee,CO,"Salida, Methodist Mountain",444.65,449.65,107.2,

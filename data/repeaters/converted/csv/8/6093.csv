@@ -1,0 +1,2 @@
+ID,StateID,Callsign,Use,Status,DigitalTone,Digital,Location.Latitude,Location.Longitude,Location.County,Location.State,Location.Local,Frequency.Input,Frequency.Output,SquelchTone.Input,SquelchTone.Output,VOIP.AllStar,VOIP.Wires,VOIP.EchoLink.NodeID,VOIP.IRLP.NodeID
+6093,8,KZ0DEM,Open,On-Air,,,37.40829849,-102.61399841,Baca,CO,Springfield,147.93,147.33,118.8,118.8,,,97142,7142

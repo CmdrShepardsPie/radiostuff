@@ -1,0 +1,22 @@
+{
+  "ID": 13637,
+  "StateID": 8,
+  "Callsign": "WA4HND",
+  "Location": {
+    "Latitude": 39.55049896,
+    "Longitude": -107.32499695,
+    "County": "Garfield",
+    "State": "CO",
+    "Local": "Glenwood Springs, Lookout Mountain"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 444.85,
+    "Output": 449.85
+  },
+  "SquelchTone": {
+    "Input": 131.8,
+    "Output": 131.8
+  }
+}

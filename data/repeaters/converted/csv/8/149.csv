@@ -1,0 +1,2 @@
+ID,StateID,Callsign,Use,Status,DigitalTone,Digital,VOIP,Location.Latitude,Location.Longitude,Location.County,Location.State,Location.Local,Frequency.Input,Frequency.Output,SquelchTone.Input,SquelchTone.Output
+149,8,KB0VJJ,Open,On-Air,,,,39.06669998,-107.93599701,Mesa,CO,"Grand Junction, Grand Mesa",144.755,145.355,88.5,123

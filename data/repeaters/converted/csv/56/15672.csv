@@ -1,0 +1,2 @@
+ID,StateID,Callsign,Use,Status,SquelchTone,DigitalTone,VOIP,Location.Latitude,Location.Longitude,Location.County,Location.State,Location.Local,Frequency.Input,Frequency.Output,Digital.P25,Digital.DStar,Digital.YSF,Digital.DMR.ColorCode,Digital.DMR.ID
+15672,56,K7PFJ,Open,On-Air,,,,41.06000137,-104.87999725,Laramie,WY,"Cheyenne, South",444.9375,449.9375,,,,7,315603

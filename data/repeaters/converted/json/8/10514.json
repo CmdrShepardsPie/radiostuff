@@ -1,0 +1,26 @@
+{
+  "ID": 10514,
+  "StateID": 8,
+  "Callsign": "N6LXX",
+  "Location": {
+    "Latitude": 39.67340088,
+    "Longitude": -105.21800232,
+    "County": "Jefferson",
+    "State": "CO",
+    "Local": "Morrison, Mt. Morrison"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 52.67,
+    "Output": 53.17
+  },
+  "SquelchTone": {
+    "Input": 107.2
+  },
+  "VOIP": {
+    "AllStar": {
+      "NodeID": 29883
+    }
+  }
+}

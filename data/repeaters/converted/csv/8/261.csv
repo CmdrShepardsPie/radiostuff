@@ -1,0 +1,2 @@
+ID,StateID,Callsign,Use,Status,DigitalTone,Digital,Location.Latitude,Location.Longitude,Location.County,Location.State,Location.Local,Frequency.Input,Frequency.Output,SquelchTone.Input,SquelchTone.Output,VOIP.EchoLink,VOIP.IRLP,VOIP.Wires,VOIP.AllStar.NodeID
+261,8,W0GJT,Open,On-Air,,,39.06389999,-108.55000305,Mesa,CO,"Grand Junction, 9 Mile, Hwy 141, Unaweep",146.22,146.82,107.2,,,,,43554

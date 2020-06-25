@@ -1,0 +1,22 @@
+{
+  "ID": 8190,
+  "StateID": 8,
+  "Callsign": "N0ESQ",
+  "Location": {
+    "Latitude": 39.26480103,
+    "Longitude": -105.11399841,
+    "County": "Douglas",
+    "State": "CO",
+    "Local": "Castle Rock, Devils Head (Pike National Forest)"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 442.525,
+    "Output": 447.525
+  },
+  "SquelchTone": {
+    "Input": 146.2,
+    "Output": 146.2
+  }
+}

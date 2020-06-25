@@ -1,0 +1,22 @@
+{
+  "ID": 8189,
+  "StateID": 8,
+  "Callsign": "N0ESQ",
+  "Location": {
+    "Latitude": 39.49420166,
+    "Longitude": -104.83599854,
+    "County": "Douglas",
+    "State": "CO",
+    "Local": "Parker, Hess Reservoir"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 442.525,
+    "Output": 447.525
+  },
+  "SquelchTone": {
+    "Input": 203.5,
+    "Output": 146.2
+  }
+}

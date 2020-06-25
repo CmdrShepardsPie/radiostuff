@@ -1,0 +1,26 @@
+{
+  "ID": 23,
+  "StateID": 8,
+  "Callsign": "WB0QMR",
+  "Location": {
+    "Latitude": 39.4817009,
+    "Longitude": -106.03800201,
+    "County": "Summit",
+    "State": "CO",
+    "Local": "Breckenridge"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 146.1,
+    "Output": 146.7
+  },
+  "SquelchTone": {
+    "Input": 107.2
+  },
+  "VOIP": {
+    "IRLP": {
+      "NodeID": 3972
+    }
+  }
+}

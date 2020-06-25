@@ -1,0 +1,22 @@
+{
+  "ID": 95,
+  "StateID": 8,
+  "Callsign": "WG0N",
+  "Location": {
+    "Latitude": 39.74250031,
+    "Longitude": -105.51399994,
+    "County": "Denver",
+    "State": "CO",
+    "Local": "Idaho Springs, Squaw Mountain"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 444.05,
+    "Output": 449.05
+  },
+  "SquelchTone": {
+    "Input": 107.2,
+    "Output": 107.2
+  }
+}

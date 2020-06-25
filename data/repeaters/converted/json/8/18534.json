@@ -1,0 +1,18 @@
+{
+  "ID": 18534,
+  "StateID": 8,
+  "Callsign": "W0BTV",
+  "Location": {
+    "Latitude": 39.97848511,
+    "Longitude": -105.27445221,
+    "County": "Boulder",
+    "State": "CO",
+    "Local": "Boulder"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 1243,
+    "Output": 423
+  }
+}

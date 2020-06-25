@@ -1,0 +1,34 @@
+{
+  "ID": 15436,
+  "StateID": 56,
+  "Callsign": "N7UW",
+  "Location": {
+    "Latitude": 41.09719849,
+    "Longitude": -105.97699738,
+    "County": "Albany",
+    "State": "WY",
+    "Local": "Laramie, Jelm Mountain"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 147.615,
+    "Output": 147.015
+  },
+  "SquelchTone": {
+    "Input": 146.2
+  },
+  "Digital": {
+    "YSF": {
+      "GroupID": {
+        "Input": "Open ↑",
+        "Output": "Open ↓"
+      }
+    }
+  },
+  "VOIP": {
+    "EchoLink": {
+      "NodeID": 82070
+    }
+  }
+}

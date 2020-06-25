@@ -1,0 +1,27 @@
+{
+  "ID": 18156,
+  "StateID": 8,
+  "Callsign": "W0SKY",
+  "Location": {
+    "Latitude": 39.73329926,
+    "Longitude": -105.23699951,
+    "County": "Jefferson",
+    "State": "CO",
+    "Local": "Golden, Lookout Mountain"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 902.0375,
+    "Output": 927.975
+  },
+  "SquelchTone": {
+    "Input": 67,
+    "Output": 67
+  },
+  "VOIP": {
+    "AllStar": {
+      "NodeID": 40195
+    }
+  }
+}

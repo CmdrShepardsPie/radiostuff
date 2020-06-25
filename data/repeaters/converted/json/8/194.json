@@ -1,0 +1,26 @@
+{
+  "ID": 194,
+  "StateID": 8,
+  "Callsign": "W0PHC",
+  "Location": {
+    "Latitude": 38.20700073,
+    "Longitude": -104.70700073,
+    "County": "Pueblo",
+    "State": "CO",
+    "Local": "Pueblo, 12 Mile Hill"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 146.28,
+    "Output": 146.88
+  },
+  "SquelchTone": {
+    "Input": 88.5
+  },
+  "Digital": {
+    "DMR": {
+      "ColorCode": 0
+    }
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "ID": 3537,
+  "StateID": 8,
+  "Callsign": "W0MOG",
+  "Location": {
+    "Latitude": 38.83390045,
+    "Longitude": -104.82099915,
+    "County": "Teller",
+    "State": "CO",
+    "Local": "Colorado Springs"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 902.8,
+    "Output": 927.8
+  },
+  "DigitalTone": {
+    "Input": 116
+  }
+}

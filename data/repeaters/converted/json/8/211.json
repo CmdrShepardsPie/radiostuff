@@ -1,0 +1,21 @@
+{
+  "ID": 211,
+  "StateID": 8,
+  "Callsign": "K0CL",
+  "Location": {
+    "Latitude": 39.21310043,
+    "Longitude": -106.93699646,
+    "County": "Pitkin",
+    "State": "CO",
+    "Local": "Snowmass Village"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 146.07,
+    "Output": 146.67
+  },
+  "SquelchTone": {
+    "Input": 107.2
+  }
+}

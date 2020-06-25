@@ -1,0 +1,2 @@
+ID,StateID,Callsign,Use,Status,DigitalTone,Digital,VOIP,Location.Latitude,Location.Longitude,Location.County,Location.State,Location.Local,Frequency.Input,Frequency.Output,SquelchTone.Input,SquelchTone.Output
+175,8,W0ENO,Open,On-Air,,,,40.16719818,-105.10099792,Boulder,CO,Longmont,147.87,147.27,100,100

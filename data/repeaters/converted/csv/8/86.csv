@@ -1,0 +1,2 @@
+ID,StateID,Callsign,Use,Status,DigitalTone,Digital,VOIP,Location.Latitude,Location.Longitude,Location.County,Location.State,Location.Local,Frequency.Input,Frequency.Output,SquelchTone.Input,SquelchTone.Output
+86,8,N0MHU,Open,On-Air,,,,39.77719879,-105.32900238,Jefferson,CO,"Golden, Guy Hill",222.4,224,103.5,103.5

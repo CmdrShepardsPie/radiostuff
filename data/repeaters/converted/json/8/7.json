@@ -1,0 +1,27 @@
+{
+  "ID": 7,
+  "StateID": 8,
+  "Callsign": "AB0PC",
+  "Location": {
+    "Latitude": 39.4056015,
+    "Longitude": -105.47299957,
+    "County": "Park",
+    "State": "CO",
+    "Local": "Bailey, Dick Mountain"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 146.295,
+    "Output": 146.895
+  },
+  "SquelchTone": {
+    "Input": 100,
+    "Output": 100
+  },
+  "VOIP": {
+    "AllStar": {
+      "NodeID": 45835
+    }
+  }
+}

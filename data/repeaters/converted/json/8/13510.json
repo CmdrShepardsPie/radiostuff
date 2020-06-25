@@ -1,0 +1,33 @@
+{
+  "ID": 13510,
+  "StateID": 8,
+  "Callsign": "K0JSC",
+  "Location": {
+    "Latitude": 38.44630051,
+    "Longitude": -106.01100159,
+    "County": "Chaffee",
+    "State": "CO",
+    "Local": "Salida, Methodist Mountain"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 444.975,
+    "Output": 449.975
+  },
+  "SquelchTone": {
+    "Input": 100,
+    "Output": 100
+  },
+  "VOIP": {
+    "AllStar": {
+      "NodeID": 28368
+    },
+    "EchoLink": {
+      "NodeID": 363976
+    },
+    "IRLP": {
+      "NodeID": 7301
+    }
+  }
+}

@@ -1,0 +1,2 @@
+ID,StateID,Callsign,Use,Status,DigitalTone,Digital,VOIP,Location.Latitude,Location.Longitude,Location.County,Location.State,Location.Local,Frequency.Input,Frequency.Output,SquelchTone.Input,SquelchTone.Output
+4086,20,K0ECT,Open,On-Air,,,,38.17499924,-101.76100159,Hamilton,KS,Syracuse,449,444,141.3,141.3

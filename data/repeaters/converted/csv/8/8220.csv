@@ -1,0 +1,2 @@
+ID,StateID,Callsign,Use,Status,SquelchTone,DigitalTone,VOIP,Location.Latitude,Location.Longitude,Location.County,Location.State,Location.Local,Frequency.Input,Frequency.Output,Digital.DMR,Digital.P25,Digital.YSF,Digital.DStar.Node
+8220,8,KC0DS,Open,On-Air,,,,40.03720093,-105.23000336,Boulder,CO,Boulder,1263.8625,1283.8625,,,,KC0DS (A) Repeater

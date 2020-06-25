@@ -1,0 +1,21 @@
+{
+  "ID": 8167,
+  "StateID": 8,
+  "Callsign": "KE0TY",
+  "Location": {
+    "Latitude": 39.06389999,
+    "Longitude": -108.5510025,
+    "County": "Mesa",
+    "State": "CO",
+    "Local": "Grand Junction"
+  },
+  "Use": "Open",
+  "Status": "Other",
+  "Frequency": {
+    "Input": 144.62,
+    "Output": 145.22
+  },
+  "SquelchTone": {
+    "Input": 107.2
+  }
+}

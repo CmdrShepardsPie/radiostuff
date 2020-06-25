@@ -1,0 +1,18 @@
+{
+  "ID": 8195,
+  "StateID": 8,
+  "Callsign": "WB0TPT",
+  "Location": {
+    "Latitude": 39.73759842,
+    "Longitude": -104.98500061,
+    "County": "Denver",
+    "State": "CO",
+    "Local": "Denver"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 442.9,
+    "Output": 447.9
+  }
+}

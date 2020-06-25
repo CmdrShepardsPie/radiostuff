@@ -1,0 +1,21 @@
+{
+  "ID": 3756,
+  "StateID": 8,
+  "Callsign": "WA4CCC",
+  "Location": {
+    "Latitude": 39.94729996,
+    "Longitude": -105.79499817,
+    "County": "Grand",
+    "State": "CO",
+    "Local": "Winter Park"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 442.45,
+    "Output": 447.45
+  },
+  "SquelchTone": {
+    "Input": 103.5
+  }
+}

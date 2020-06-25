@@ -1,0 +1,21 @@
+{
+  "ID": 111,
+  "StateID": 31,
+  "Callsign": "W0KAV",
+  "Location": {
+    "Latitude": 41.88710022,
+    "Longitude": -103.66400146,
+    "County": "Scotts Bluff",
+    "State": "NE",
+    "Local": "Scottsbluff"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 449.825,
+    "Output": 444.825
+  },
+  "SquelchTone": {
+    "Input": 100
+  }
+}

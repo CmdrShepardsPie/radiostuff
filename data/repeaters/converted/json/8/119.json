@@ -1,0 +1,30 @@
+{
+  "ID": 119,
+  "StateID": 8,
+  "Callsign": "N0FH",
+  "Location": {
+    "Latitude": 40.36009979,
+    "Longitude": -105.4509964,
+    "County": "Larimer",
+    "State": "CO",
+    "Local": "Estes Park"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 146.085,
+    "Output": 146.685
+  },
+  "SquelchTone": {
+    "Input": 123,
+    "Output": 123
+  },
+  "VOIP": {
+    "EchoLink": {
+      "NodeID": 625757
+    },
+    "IRLP": {
+      "NodeID": 7268
+    }
+  }
+}

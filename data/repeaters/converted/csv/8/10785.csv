@@ -1,0 +1,2 @@
+ID,StateID,Callsign,Use,Status,SquelchTone,DigitalTone,VOIP,Location.Latitude,Location.Longitude,Location.County,Location.State,Location.Local,Frequency.Input,Frequency.Output,Digital.P25,Digital.DStar,Digital.YSF,Digital.DMR.ColorCode,Digital.DMR.ID
+10785,8,K0JSC,Open,On-Air,,,,38.23070145,-104.61100006,Pueblo,CO,Pueblo,441.9875,446.9875,,,,6,310821

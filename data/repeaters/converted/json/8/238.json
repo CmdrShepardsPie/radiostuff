@@ -1,0 +1,21 @@
+{
+  "ID": 238,
+  "StateID": 8,
+  "Callsign": "WA0JTB",
+  "Location": {
+    "Latitude": 40.62559891,
+    "Longitude": -103.20700073,
+    "County": "Logan",
+    "State": "CO",
+    "Local": "Sterling, CO"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 144.695,
+    "Output": 145.295
+  },
+  "SquelchTone": {
+    "Input": 100
+  }
+}

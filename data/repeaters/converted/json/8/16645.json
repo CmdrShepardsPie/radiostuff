@@ -1,0 +1,21 @@
+{
+  "ID": 16645,
+  "StateID": 8,
+  "Callsign": "N0KM",
+  "Location": {
+    "Latitude": 37.75,
+    "Longitude": -106.11499786,
+    "County": "Rio Grande",
+    "State": "CO",
+    "Local": "Center"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 442.1,
+    "Output": 447.1
+  },
+  "SquelchTone": {
+    "Input": 77
+  }
+}

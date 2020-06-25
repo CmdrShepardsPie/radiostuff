@@ -1,0 +1,21 @@
+{
+  "ID": 91,
+  "StateID": 8,
+  "Callsign": "N5EHP",
+  "Location": {
+    "Latitude": 39.73920059,
+    "Longitude": -104.98400116,
+    "County": "Denver",
+    "State": "CO",
+    "Local": "Denver"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 443.075,
+    "Output": 448.075
+  },
+  "SquelchTone": {
+    "Input": 123
+  }
+}

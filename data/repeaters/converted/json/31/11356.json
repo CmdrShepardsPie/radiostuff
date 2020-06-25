@@ -1,0 +1,27 @@
+{
+  "ID": 11356,
+  "StateID": 31,
+  "Callsign": "WD0BQM",
+  "Location": {
+    "Latitude": 41.95100021,
+    "Longitude": -103.80000305,
+    "County": "Scotts Bluff",
+    "State": "NE",
+    "Local": "Mitchell"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 445.1,
+    "Output": 445.1
+  },
+  "SquelchTone": {
+    "Input": 100,
+    "Output": 100
+  },
+  "VOIP": {
+    "IRLP": {
+      "NodeID": 3942
+    }
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "ID": 94,
+  "StateID": 8,
+  "Callsign": "W0CFI",
+  "Location": {
+    "Latitude": 39.67739868,
+    "Longitude": -105.48799896,
+    "County": "Denver",
+    "State": "CO",
+    "Local": "Idaho Springs, Squaw Mountain"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 443.675,
+    "Output": 448.675
+  },
+  "SquelchTone": {
+    "Input": 100,
+    "Output": 100
+  }
+}

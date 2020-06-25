@@ -1,0 +1,27 @@
+{
+  "ID": 154,
+  "StateID": 8,
+  "Callsign": "WA4HND",
+  "Location": {
+    "Latitude": 39.05390167,
+    "Longitude": -108.2539978,
+    "County": "Mesa",
+    "State": "CO",
+    "Local": "Grand Junction, Grand Mesa"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 444.3,
+    "Output": 449.3
+  },
+  "SquelchTone": {
+    "Input": 107.2,
+    "Output": 107.2
+  },
+  "VOIP": {
+    "IRLP": {
+      "NodeID": 3710
+    }
+  }
+}

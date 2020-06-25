@@ -1,0 +1,30 @@
+{
+  "ID": 9583,
+  "StateID": 8,
+  "Callsign": "K0UPS",
+  "Location": {
+    "Latitude": 39.37030029,
+    "Longitude": -103.8010025,
+    "County": "Elbert",
+    "State": "CO",
+    "Local": "Cedar Point"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 444.25,
+    "Output": 449.25
+  },
+  "SquelchTone": {
+    "Input": 123,
+    "Output": 123
+  },
+  "VOIP": {
+    "EchoLink": {
+      "NodeID": 3349
+    },
+    "IRLP": {
+      "NodeID": 3349
+    }
+  }
+}

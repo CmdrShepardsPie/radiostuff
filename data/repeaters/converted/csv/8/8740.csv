@@ -1,0 +1,2 @@
+ID,StateID,Callsign,Use,Status,DigitalTone,Digital,Location.Latitude,Location.Longitude,Location.County,Location.State,Location.Local,Frequency.Input,Frequency.Output,SquelchTone.Input,SquelchTone.Output,VOIP.AllStar,VOIP.IRLP,VOIP.Wires,VOIP.EchoLink.NodeID
+8740,8,N0XLF,Open,On-Air,,,39.13600159,-104.92700195,Douglas,CO,"Palmer Lake, Monument Hill",147.675,147.075,131.8,131.8,,,,10079

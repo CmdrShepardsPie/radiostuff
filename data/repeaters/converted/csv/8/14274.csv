@@ -1,0 +1,2 @@
+ID,StateID,Callsign,Use,Status,SquelchTone,DigitalTone,VOIP,Location.Latitude,Location.Longitude,Location.County,Location.State,Location.Local,Frequency.Input,Frequency.Output,Digital.P25,Digital.DStar,Digital.YSF,Digital.DMR.ColorCode,Digital.DMR.ID
+14274,8,KB0VGD,Open,On-Air,,,,40.53879929,-105.17900085,Larimer,CO,"Fort Collins, Horsetooth Mountain",144.665,145.265,,,,2,310831

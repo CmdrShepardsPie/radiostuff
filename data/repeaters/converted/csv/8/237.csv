@@ -1,0 +1,2 @@
+ID,StateID,Callsign,Use,Status,DigitalTone,Digital,VOIP,Location.Latitude,Location.Longitude,Location.County,Location.State,Location.Local,Frequency.Input,Frequency.Output,SquelchTone.Input,SquelchTone.Output
+237,8,KD0H,Open,On-Air,,,,40.48500061,-106.83100128,Routt,CO,Steamboat Springs,147.81,147.21,107.2,107.2

@@ -1,0 +1,21 @@
+{
+  "ID": 8179,
+  "StateID": 8,
+  "Callsign": "KI0MR",
+  "Location": {
+    "Latitude": 38.86830139,
+    "Longitude": -107.59200287,
+    "County": "Delta",
+    "State": "CO",
+    "Local": "Paonia"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 147.93,
+    "Output": 147.33
+  },
+  "SquelchTone": {
+    "Input": 107.2
+  }
+}

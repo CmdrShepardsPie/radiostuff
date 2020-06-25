@@ -1,0 +1,27 @@
+{
+  "ID": 19,
+  "StateID": 8,
+  "Callsign": "N0SZ",
+  "Location": {
+    "Latitude": 40.07220078,
+    "Longitude": -105.35399628,
+    "County": "Boulder",
+    "State": "CO",
+    "Local": "Boulder, Lee Hill"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 442.75,
+    "Output": 447.75
+  },
+  "SquelchTone": {
+    "Input": 141.3,
+    "Output": 141.3
+  },
+  "VOIP": {
+    "IRLP": {
+      "NodeID": 3450
+    }
+  }
+}

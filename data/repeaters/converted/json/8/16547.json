@@ -1,0 +1,22 @@
+{
+  "ID": 16547,
+  "StateID": 8,
+  "Callsign": "W0CRA",
+  "Location": {
+    "Latitude": 39.17549896,
+    "Longitude": -105.03399658,
+    "County": "Douglas",
+    "State": "CO",
+    "Local": "Larkspur, Westcreek"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 443.425,
+    "Output": 448.425
+  },
+  "SquelchTone": {
+    "Input": 107.2,
+    "Output": 107.2
+  }
+}

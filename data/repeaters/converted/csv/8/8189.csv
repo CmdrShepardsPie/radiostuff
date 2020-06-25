@@ -1,0 +1,2 @@
+ID,StateID,Callsign,Use,Status,DigitalTone,Digital,VOIP,Location.Latitude,Location.Longitude,Location.County,Location.State,Location.Local,Frequency.Input,Frequency.Output,SquelchTone.Input,SquelchTone.Output
+8189,8,N0ESQ,Open,On-Air,,,,39.49420166,-104.83599854,Douglas,CO,"Parker, Hess Reservoir",442.525,447.525,203.5,146.2

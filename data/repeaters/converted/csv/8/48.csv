@@ -1,0 +1,2 @@
+ID,StateID,Callsign,Use,Status,DigitalTone,Digital,VOIP,Location.Latitude,Location.Longitude,Location.County,Location.State,Location.Local,Frequency.Input,Frequency.Output,SquelchTone.Input,SquelchTone.Output
+48,8,W0MOG,Open,On-Air,,,,38.83810043,-104.82099915,El Paso,CO,Colorado Springs,147.99,147.39,103.5,

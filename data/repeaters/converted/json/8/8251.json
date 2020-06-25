@@ -1,0 +1,21 @@
+{
+  "ID": 8251,
+  "StateID": 8,
+  "Callsign": "WB7UPS",
+  "Location": {
+    "Latitude": 40.70389938,
+    "Longitude": -105.00900269,
+    "County": "Larimer",
+    "State": "CO",
+    "Local": "Wellington"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 443.325,
+    "Output": 448.325
+  },
+  "SquelchTone": {
+    "Input": 110.9
+  }
+}

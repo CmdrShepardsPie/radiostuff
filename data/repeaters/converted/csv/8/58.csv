@@ -1,0 +1,2 @@
+ID,StateID,Callsign,Use,Status,SquelchTone,VOIP,Location.Latitude,Location.Longitude,Location.County,Location.State,Location.Local,Frequency.Input,Frequency.Output,DigitalTone.Input,DigitalTone.Output,Digital.DMR,Digital.DStar,Digital.YSF,Digital.P25.NAC
+58,8,WA6IFI,Open,On-Air,,,38.77259827,-104.99299622,Teller,CO,"Colorado Springs, Almagre Mountain",902.025,927.725,114,,,,,293

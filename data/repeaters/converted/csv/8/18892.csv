@@ -1,0 +1,2 @@
+ID,StateID,Callsign,Use,Status,SquelchTone,DigitalTone,Digital,Location.Latitude,Location.Longitude,Location.County,Location.State,Location.Local,Frequency.Input,Frequency.Output,VOIP.AllStar,VOIP.EchoLink,VOIP.IRLP,VOIP.Wires.ID
+18892,8,KE0VH,Open,On-Air,,,,39.661294,-104.860203,Arapahoe,CO,"Aurora, 225 and Parker Road",443.4,448.4,,,,46361

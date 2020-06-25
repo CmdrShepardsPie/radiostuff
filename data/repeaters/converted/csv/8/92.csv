@@ -1,0 +1,2 @@
+ID,StateID,Callsign,Use,Status,DigitalTone,Digital,VOIP,Location.Latitude,Location.Longitude,Location.County,Location.State,Location.Local,Frequency.Input,Frequency.Output,SquelchTone.Input,SquelchTone.Output
+92,8,KB0UDD,Open,On-Air,,,,39.72940063,-104.83100128,Denver,CO,"Aurora, Smokey Hill",443.5,448.5,100,

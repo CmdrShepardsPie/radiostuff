@@ -1,0 +1,2 @@
+ID,StateID,Callsign,Use,Status,DigitalTone,VOIP,Location.Latitude,Location.Longitude,Location.County,Location.State,Location.Local,Frequency.Input,Frequency.Output,SquelchTone.Input,SquelchTone.Output,Digital.DMR,Digital.P25,Digital.DStar,Digital.YSF.GroupID.Input,Digital.YSF.GroupID.Output
+139,8,KE0VH,Open,On-Air,,,39.73300171,-105.23899841,Jefferson,CO,"Golden, Lookout Mountain",444.625,449.625,141.3,141.3,,,,Open ↑,Open ↓

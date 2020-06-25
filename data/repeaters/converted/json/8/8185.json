@@ -1,0 +1,24 @@
+{
+  "ID": 8185,
+  "StateID": 8,
+  "Callsign": "N0SZ",
+  "Location": {
+    "Latitude": 40.01499939,
+    "Longitude": -105.27100372,
+    "County": "Boulder",
+    "State": "CO",
+    "Local": "Boulder, Mount Thorodin"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 441.8,
+    "Output": 446.8
+  },
+  "Digital": {
+    "DMR": {
+      "ColorCode": 7,
+      "ID": 310800
+    }
+  }
+}

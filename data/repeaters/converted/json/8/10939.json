@@ -1,0 +1,24 @@
+{
+  "ID": 10939,
+  "StateID": 8,
+  "Callsign": "N0SZ",
+  "Location": {
+    "Latitude": 39.73070145,
+    "Longitude": -105.23300171,
+    "County": "Jefferson",
+    "State": "CO",
+    "Local": "Golden, Lookout Mountain"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 144.77,
+    "Output": 145.37
+  },
+  "Digital": {
+    "DMR": {
+      "ColorCode": 7,
+      "ID": 310808
+    }
+  }
+}

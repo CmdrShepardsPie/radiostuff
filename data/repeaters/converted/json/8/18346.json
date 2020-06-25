@@ -1,0 +1,22 @@
+{
+  "ID": 18346,
+  "StateID": 8,
+  "Callsign": "NA0PW",
+  "Location": {
+    "Latitude": 38.31610107,
+    "Longitude": -104.7419967,
+    "County": "Pueblo",
+    "State": "CO",
+    "Local": "Pueblo West, Liberty Point"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 442.45,
+    "Output": 447.45
+  },
+  "SquelchTone": {
+    "Input": 123,
+    "Output": 123
+  }
+}

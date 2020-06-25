@@ -1,0 +1,23 @@
+{
+  "ID": 6805,
+  "StateID": 35,
+  "Callsign": "KD0RDI",
+  "Location": {
+    "Latitude": 36.99250031,
+    "Longitude": -104.47399902,
+    "County": "Colfax",
+    "State": "NM",
+    "Local": "Raton, Raton Pass"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 441.775,
+    "Output": 446.775
+  },
+  "Digital": {
+    "DStar": {
+      "Node": "KD0RDI (B) Repeater"
+    }
+  }
+}

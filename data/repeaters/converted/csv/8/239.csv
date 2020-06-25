@@ -1,0 +1,2 @@
+ID,StateID,Callsign,Use,Status,DigitalTone,Digital,VOIP,Location.Latitude,Location.Longitude,Location.County,Location.State,Location.Local,Frequency.Input,Frequency.Output,SquelchTone.Input,SquelchTone.Output
+239,8,WA6IFI,Open,On-Air,,,,36.99739838,-104.46700287,Las Animas,CO,"Trinidad, Raton Pass",144.83,145.43,107.2,

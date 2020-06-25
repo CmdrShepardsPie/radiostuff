@@ -1,0 +1,22 @@
+{
+  "ID": 129,
+  "StateID": 8,
+  "Callsign": "KB0VJJ",
+  "Location": {
+    "Latitude": 39.42639923,
+    "Longitude": -107.37999725,
+    "County": "Garfield",
+    "State": "CO",
+    "Local": "Glenwood Springs, Sunlight Peak"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 146.25,
+    "Output": 146.85
+  },
+  "SquelchTone": {
+    "Input": 88.5,
+    "Output": 123
+  }
+}

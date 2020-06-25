@@ -1,0 +1,27 @@
+{
+  "ID": 14732,
+  "StateID": 8,
+  "Callsign": "KI0HC",
+  "Location": {
+    "Latitude": 39.53910065,
+    "Longitude": -104.56900024,
+    "County": "Douglas",
+    "State": "CO",
+    "Local": "Parker"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 902.025,
+    "Output": 927.7375
+  },
+  "SquelchTone": {
+    "Input": 100,
+    "Output": 100
+  },
+  "Digital": {
+    "P25": {
+      "NAC": 293
+    }
+  }
+}

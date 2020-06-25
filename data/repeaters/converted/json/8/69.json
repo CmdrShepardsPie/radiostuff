@@ -1,0 +1,27 @@
+{
+  "ID": 69,
+  "StateID": 8,
+  "Callsign": "WA4HND",
+  "Location": {
+    "Latitude": 38.38750076,
+    "Longitude": -107.6740036,
+    "County": "Montrose",
+    "State": "CO",
+    "Local": "Montrose, Waterdog Peak"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 442.2,
+    "Output": 447.2
+  },
+  "SquelchTone": {
+    "Input": 107.2,
+    "Output": 107.2
+  },
+  "VOIP": {
+    "IRLP": {
+      "NodeID": 3710
+    }
+  }
+}

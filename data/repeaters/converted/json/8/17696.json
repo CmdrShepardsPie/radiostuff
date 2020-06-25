@@ -1,0 +1,24 @@
+{
+  "ID": 17696,
+  "StateID": 8,
+  "Callsign": "N0KEG",
+  "Location": {
+    "Latitude": 39.51860046,
+    "Longitude": -104.76100159,
+    "County": "Douglas",
+    "State": "CO",
+    "Local": "Parker"
+  },
+  "Use": "Open",
+  "Status": "Other",
+  "Frequency": {
+    "Input": 443.05,
+    "Output": 448.05
+  },
+  "Digital": {
+    "DMR": {
+      "ColorCode": 1,
+      "ID": 310374
+    }
+  }
+}

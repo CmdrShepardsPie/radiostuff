@@ -1,0 +1,30 @@
+{
+  "ID": 11793,
+  "StateID": 8,
+  "Callsign": "KD0SMZ",
+  "Location": {
+    "Latitude": 39.06389999,
+    "Longitude": -108.5510025,
+    "County": "Mesa",
+    "State": "CO",
+    "Local": "Grand Junction"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 444.775,
+    "Output": 449.775
+  },
+  "SquelchTone": {
+    "Input": 173.8,
+    "Output": 88.5
+  },
+  "VOIP": {
+    "EchoLink": {
+      "NodeID": 7572
+    },
+    "IRLP": {
+      "NodeID": 7573
+    }
+  }
+}

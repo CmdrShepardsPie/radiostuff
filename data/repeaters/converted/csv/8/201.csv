@@ -1,0 +1,2 @@
+ID,StateID,Callsign,Use,Status,DigitalTone,Digital,VOIP,Location.Latitude,Location.Longitude,Location.County,Location.State,Location.Local,Frequency.Input,Frequency.Output,SquelchTone.Input,SquelchTone.Output
+201,8,W0RM,Open,Other,,,,39.91719818,-105.50099945,Gilpin,CO,Rollinsville,223,224.6,100,

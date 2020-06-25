@@ -1,0 +1,27 @@
+{
+  "ID": 276,
+  "StateID": 8,
+  "Callsign": "KC0RBT",
+  "Location": {
+    "Latitude": 40.51530075,
+    "Longitude": -105.14700317,
+    "County": "Larimer",
+    "State": "CO",
+    "Local": "Fort Collins"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 442.45,
+    "Output": 447.45
+  },
+  "SquelchTone": {
+    "Input": 123,
+    "Output": 123
+  },
+  "VOIP": {
+    "EchoLink": {
+      "NodeID": 447450
+    }
+  }
+}

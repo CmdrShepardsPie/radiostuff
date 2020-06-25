@@ -1,0 +1,22 @@
+{
+  "ID": 42,
+  "StateID": 8,
+  "Callsign": "AD0TP",
+  "Location": {
+    "Latitude": 38.83969879,
+    "Longitude": -104.7437973,
+    "County": "El Paso",
+    "State": "CO",
+    "Local": "Colorado Springs"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 146.25,
+    "Output": 146.85
+  },
+  "SquelchTone": {
+    "Input": 156.7,
+    "Output": 103.5
+  }
+}

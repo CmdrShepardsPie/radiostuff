@@ -1,0 +1,2 @@
+ID,StateID,Callsign,Use,Status,SquelchTone,DigitalTone,VOIP,Location.Latitude,Location.Longitude,Location.County,Location.State,Location.Local,Frequency.Input,Frequency.Output,Digital.P25,Digital.DStar,Digital.YSF,Digital.DMR.ColorCode,Digital.DMR.ID
+12562,8,W0DMR,Open,On-Air,,,,40.54460144,-104.94400024,Larimer,CO,"Fort Collins, Timnath",147.99,147.39,,,,2,310822

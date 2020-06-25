@@ -1,0 +1,23 @@
+{
+  "ID": 18710,
+  "StateID": 8,
+  "Callsign": "KE0VUW",
+  "Location": {
+    "Latitude": 39.046,
+    "Longitude": -104.8065,
+    "County": "El Paso",
+    "State": "CO",
+    "Local": "Colorado Springs, Sun Hills Subdivision"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 441.8875,
+    "Output": 446.8875
+  },
+  "Digital": {
+    "DStar": {
+      "Node": "KE0VUW (B) Repeater"
+    }
+  }
+}

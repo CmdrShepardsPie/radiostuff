@@ -1,0 +1,2 @@
+ID,StateID,Callsign,Use,Status,DigitalTone,Digital,VOIP,Location.Latitude,Location.Longitude,Location.County,Location.State,Location.Local,Frequency.Input,Frequency.Output,SquelchTone.Input,SquelchTone.Output
+31,8,WD0EKR,Open,On-Air,,,,38.45420074,-105.29000092,Fremont,CO,"Canon City, Fremont Peak",222.36,223.96,103.5,103.5

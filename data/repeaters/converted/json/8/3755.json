@@ -1,0 +1,21 @@
+{
+  "ID": 3755,
+  "StateID": 8,
+  "Callsign": "",
+  "Location": {
+    "Latitude": 38.99440002,
+    "Longitude": -107.97299957,
+    "County": "Delta",
+    "State": "CO",
+    "Local": "Cedaredge, Grand Mesa"
+  },
+  "Use": "Open",
+  "Status": "Other",
+  "Frequency": {
+    "Input": 442.35,
+    "Output": 447.35
+  },
+  "SquelchTone": {
+    "Input": 107.2
+  }
+}

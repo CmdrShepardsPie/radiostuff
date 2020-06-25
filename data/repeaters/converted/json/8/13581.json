@@ -1,0 +1,24 @@
+{
+  "ID": 13581,
+  "StateID": 8,
+  "Callsign": "K0RTS",
+  "Location": {
+    "Latitude": 39.27830124,
+    "Longitude": -103.5,
+    "County": "Lincoln",
+    "State": "CO",
+    "Local": "Genoa, Limon"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 441.7375,
+    "Output": 446.7375
+  },
+  "Digital": {
+    "DMR": {
+      "ColorCode": 8,
+      "ID": 310829
+    }
+  }
+}

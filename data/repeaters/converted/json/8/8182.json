@@ -1,0 +1,18 @@
+{
+  "ID": 8182,
+  "StateID": 8,
+  "Callsign": "KB0SRJ",
+  "Location": {
+    "Latitude": 38.83390045,
+    "Longitude": -104.82099915,
+    "County": "El Paso",
+    "State": "CO",
+    "Local": "Colorado Springs"
+  },
+  "Use": "Closed",
+  "Status": "Other",
+  "Frequency": {
+    "Input": 222.46,
+    "Output": 224.06
+  }
+}

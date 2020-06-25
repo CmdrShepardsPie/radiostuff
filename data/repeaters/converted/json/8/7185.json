@@ -1,0 +1,33 @@
+{
+  "ID": 7185,
+  "StateID": 8,
+  "Callsign": "K0JSC",
+  "Location": {
+    "Latitude": 38.43009949,
+    "Longitude": -105.23200226,
+    "County": "Fremont",
+    "State": "CO",
+    "Local": "Canon City, Colorado"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 442.975,
+    "Output": 447.975
+  },
+  "SquelchTone": {
+    "Input": 100,
+    "Output": 100
+  },
+  "VOIP": {
+    "AllStar": {
+      "NodeID": 28368
+    },
+    "EchoLink": {
+      "NodeID": 363976
+    },
+    "IRLP": {
+      "NodeID": 7301
+    }
+  }
+}

@@ -1,0 +1,2 @@
+ID,StateID,Callsign,Use,Status,DigitalTone,Digital,Location.Latitude,Location.Longitude,Location.County,Location.State,Location.Local,Frequency.Input,Frequency.Output,SquelchTone.Input,SquelchTone.Output,VOIP.AllStar,VOIP.Wires,VOIP.EchoLink.NodeID,VOIP.IRLP.NodeID
+38,8,W0CRA,Open,On-Air,,,38.73720169,-104.87999725,El Paso,CO,"Colorado Springs, Cheyenne Mountain",144.56,145.16,107.2,107.2,,,347086,3990

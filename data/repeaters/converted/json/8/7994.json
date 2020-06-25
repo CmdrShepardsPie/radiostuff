@@ -1,0 +1,33 @@
+{
+  "ID": 7994,
+  "StateID": 8,
+  "Callsign": "K0JSC",
+  "Location": {
+    "Latitude": 38.3030014,
+    "Longitude": -104.73400116,
+    "County": "Pueblo",
+    "State": "CO",
+    "Local": "Pueblo West"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 443.975,
+    "Output": 448.975
+  },
+  "SquelchTone": {
+    "Input": 100,
+    "Output": 100
+  },
+  "VOIP": {
+    "AllStar": {
+      "NodeID": 28368
+    },
+    "EchoLink": {
+      "NodeID": 363976
+    },
+    "IRLP": {
+      "NodeID": 7301
+    }
+  }
+}

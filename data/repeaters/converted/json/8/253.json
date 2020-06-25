@@ -1,0 +1,21 @@
+{
+  "ID": 253,
+  "StateID": 8,
+  "Callsign": "WA4HND",
+  "Location": {
+    "Latitude": 39.45190048,
+    "Longitude": -108.05200195,
+    "County": "Garfield",
+    "State": "CO",
+    "Local": "Parachute, Mount Callahan"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 444.8,
+    "Output": 449.8
+  },
+  "SquelchTone": {
+    "Input": 107.2
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "ID": 198,
+  "StateID": 8,
+  "Callsign": "W0PHC",
+  "Location": {
+    "Latitude": 38.36240005,
+    "Longitude": -104.55999756,
+    "County": "Pueblo",
+    "State": "CO",
+    "Local": "Pueblo, 12 Mile"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 442.95,
+    "Output": 447.95
+  },
+  "SquelchTone": {
+    "Input": 88.5
+  },
+  "Digital": {
+    "DMR": {
+      "ColorCode": 0
+    }
+  }
+}

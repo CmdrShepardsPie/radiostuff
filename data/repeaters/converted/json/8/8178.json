@@ -1,0 +1,21 @@
+{
+  "ID": 8178,
+  "StateID": 8,
+  "Callsign": "AA0SP",
+  "Location": {
+    "Latitude": 38.77249908,
+    "Longitude": -104.99299622,
+    "County": "El Paso",
+    "State": "CO",
+    "Local": "Colorado Springs, Almagre Mountain"
+  },
+  "Use": "Private",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 147.78,
+    "Output": 147.18
+  },
+  "SquelchTone": {
+    "Input": 100
+  }
+}

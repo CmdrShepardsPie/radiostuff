@@ -1,0 +1,26 @@
+{
+  "ID": 131,
+  "StateID": 8,
+  "Callsign": "K0VQ",
+  "Location": {
+    "Latitude": 39.55059814,
+    "Longitude": -107.3239975,
+    "County": "Garfield",
+    "State": "CO",
+    "Local": "Glenwood Springs, Three Mile Ridge"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 147.9,
+    "Output": 147.3
+  },
+  "SquelchTone": {
+    "Input": 107.2
+  },
+  "VOIP": {
+    "EchoLink": {
+      "NodeID": 266359
+    }
+  }
+}

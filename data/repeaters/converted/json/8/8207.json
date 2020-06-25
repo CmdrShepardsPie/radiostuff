@@ -1,0 +1,26 @@
+{
+  "ID": 8207,
+  "StateID": 8,
+  "Callsign": "WR0AEN",
+  "Location": {
+    "Latitude": 39.69670105,
+    "Longitude": -104.80999756,
+    "County": "Arapahoe",
+    "State": "CO",
+    "Local": "Aurora"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 444.15,
+    "Output": 449.15
+  },
+  "SquelchTone": {
+    "Input": 136.5
+  },
+  "Digital": {
+    "DStar": {
+      "Node": "WR0AEN (B)"
+    }
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "ID": 18580,
+  "StateID": 8,
+  "Callsign": "K0SLV",
+  "Location": {
+    "Latitude": 37.58418274,
+    "Longitude": -106.13030243,
+    "County": "Rio Grande",
+    "State": "CO",
+    "Local": "Monte Vista"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 444.625,
+    "Output": 449.625
+  },
+  "SquelchTone": {
+    "Input": 94.8
+  }
+}

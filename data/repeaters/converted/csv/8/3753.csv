@@ -1,0 +1,2 @@
+ID,StateID,Callsign,Use,Status,SquelchTone,DigitalTone,VOIP,Location.Latitude,Location.Longitude,Location.County,Location.State,Location.Local,Frequency.Input,Frequency.Output,Digital.P25,Digital.DStar,Digital.YSF,Digital.DMR.ColorCode,Digital.DMR.ID
+3753,8,WA2YZT,Open,On-Air,,,,39.73049927,-105.23200226,Jefferson,CO,"Golden, Lookout",441.8375,446.8375,,,,7,310802

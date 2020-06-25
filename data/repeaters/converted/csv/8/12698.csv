@@ -1,0 +1,2 @@
+ID,StateID,Callsign,Use,Status,SquelchTone,DigitalTone,VOIP,Location.Latitude,Location.Longitude,Location.County,Location.State,Location.Local,Frequency.Input,Frequency.Output,Digital.P25,Digital.DStar,Digital.YSF,Digital.DMR.ColorCode,Digital.DMR.ID
+12698,8,N0SZ,Open,On-Air,,,,39.0469017,-105.87000275,Park,CO,"Fairplay, Badger",441.7625,446.7625,,,,7,310827

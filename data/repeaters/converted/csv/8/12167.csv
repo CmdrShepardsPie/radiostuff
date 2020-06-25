@@ -1,0 +1,2 @@
+ID,StateID,Callsign,Use,Status,DigitalTone,Digital,VOIP,Location.Latitude,Location.Longitude,Location.County,Location.State,Location.Local,Frequency.Input,Frequency.Output,SquelchTone.Input,SquelchTone.Output
+12167,8,WA0DE,Open,On-Air,,,,39.22669983,-104.08999634,Elbert,CO,Simla,147.705,147.105,107.2,107.2

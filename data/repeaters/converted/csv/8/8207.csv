@@ -1,0 +1,2 @@
+ID,StateID,Callsign,Use,Status,DigitalTone,VOIP,Location.Latitude,Location.Longitude,Location.County,Location.State,Location.Local,Frequency.Input,Frequency.Output,SquelchTone.Input,SquelchTone.Output,Digital.DMR,Digital.P25,Digital.YSF,Digital.DStar.Node
+8207,8,WR0AEN,Open,On-Air,,,39.69670105,-104.80999756,Arapahoe,CO,Aurora,444.15,449.15,136.5,,,,,WR0AEN (B)

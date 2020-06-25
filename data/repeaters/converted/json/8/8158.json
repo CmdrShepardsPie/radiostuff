@@ -1,0 +1,22 @@
+{
+  "ID": 8158,
+  "StateID": 8,
+  "Callsign": "KC0CVU",
+  "Location": {
+    "Latitude": 38.74499893,
+    "Longitude": -104.86199951,
+    "County": "El Paso",
+    "State": "CO",
+    "Local": "Colorado Springs, Cheyenne Mountain"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 51.43,
+    "Output": 53.13
+  },
+  "SquelchTone": {
+    "Input": 107.2,
+    "Output": 107.2
+  }
+}

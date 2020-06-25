@@ -1,0 +1,21 @@
+{
+  "ID": 172,
+  "StateID": 8,
+  "Callsign": "KB0VJJ",
+  "Location": {
+    "Latitude": 39.28139877,
+    "Longitude": -106.18599701,
+    "County": "Lake",
+    "State": "CO",
+    "Local": "Leadville, Mosquito Pass"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 144.845,
+    "Output": 145.445
+  },
+  "SquelchTone": {
+    "Input": 88.5
+  }
+}

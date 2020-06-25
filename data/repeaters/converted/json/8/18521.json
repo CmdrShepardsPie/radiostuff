@@ -1,0 +1,23 @@
+{
+  "ID": 18521,
+  "StateID": 8,
+  "Callsign": "KB0VGD",
+  "Location": {
+    "Latitude": 40.42331314,
+    "Longitude": -104.70912933,
+    "County": "Weld",
+    "State": "CO",
+    "Local": "Greeley"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 440.1375,
+    "Output": 445.1375
+  },
+  "Digital": {
+    "DMR": {
+      "ColorCode": 2
+    }
+  }
+}

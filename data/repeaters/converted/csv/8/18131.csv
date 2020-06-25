@@ -1,0 +1,2 @@
+ID,StateID,Callsign,Use,Status,DigitalTone,Digital,Location.Latitude,Location.Longitude,Location.County,Location.State,Location.Local,Frequency.Input,Frequency.Output,SquelchTone.Input,SquelchTone.Output,VOIP.EchoLink,VOIP.IRLP,VOIP.Wires,VOIP.AllStar.NodeID
+18131,8,WC3W,Open,On-Air,,,40.23920059,-105.84700012,Clear Creek,CO,Grand Lake,444.425,449.425,103.5,103.5,,,,45202

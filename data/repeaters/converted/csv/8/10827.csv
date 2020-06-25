@@ -1,0 +1,2 @@
+ID,StateID,Callsign,Use,Status,DigitalTone,Digital,VOIP,Location.Latitude,Location.Longitude,Location.County,Location.State,Location.Local,Frequency.Input,Frequency.Output,SquelchTone.Input,SquelchTone.Output
+10827,8,N0ZSN,Open,On-Air,,,,39.25080109,-106.29299927,Lake,CO,"Leadville, Quail Mountain",147.84,147.24,156.7,156.7

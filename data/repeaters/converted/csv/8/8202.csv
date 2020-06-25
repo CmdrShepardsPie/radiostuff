@@ -1,0 +1,2 @@
+ID,StateID,Callsign,Use,Status,DigitalTone,Digital,VOIP,Location.Latitude,Location.Longitude,Location.County,Location.State,Location.Local,Frequency.Input,Frequency.Output,SquelchTone.Input,SquelchTone.Output
+8202,8,N0ZUQ,Open,On-Air,,,,39.72940063,-104.83200073,Arapahoe,CO,Aurora,443.4,448.4,94.8,

@@ -1,0 +1,21 @@
+{
+  "ID": 205,
+  "StateID": 8,
+  "Callsign": "KC0CVU",
+  "Location": {
+    "Latitude": 38.45280075,
+    "Longitude": -106.01799774,
+    "County": "Chaffee",
+    "State": "CO",
+    "Local": "Salida, Methodist Mountain"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 444.65,
+    "Output": 449.65
+  },
+  "SquelchTone": {
+    "Input": 107.2
+  }
+}

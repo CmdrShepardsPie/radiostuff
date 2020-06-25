@@ -1,0 +1,2 @@
+ID,StateID,Callsign,Use,Status,SquelchTone,DigitalTone,VOIP,Location.Latitude,Location.Longitude,Location.County,Location.State,Location.Local,Frequency.Input,Frequency.Output,Digital.P25,Digital.DStar,Digital.YSF,Digital.DMR.ColorCode,Digital.DMR.ID
+18416,8,W0QEY,Open,On-Air,,,,40.57759857,-105.09300232,Larimer,CO,"Fort Collins, CSU Durward Hall",441.7625,446.7625,,,,8,

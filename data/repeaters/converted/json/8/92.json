@@ -1,0 +1,21 @@
+{
+  "ID": 92,
+  "StateID": 8,
+  "Callsign": "KB0UDD",
+  "Location": {
+    "Latitude": 39.72940063,
+    "Longitude": -104.83100128,
+    "County": "Denver",
+    "State": "CO",
+    "Local": "Aurora, Smokey Hill"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 443.5,
+    "Output": 448.5
+  },
+  "SquelchTone": {
+    "Input": 100
+  }
+}

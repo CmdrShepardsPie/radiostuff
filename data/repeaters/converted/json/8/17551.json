@@ -1,0 +1,29 @@
+{
+  "ID": 17551,
+  "StateID": 8,
+  "Callsign": "",
+  "Location": {
+    "Latitude": 39.04850006,
+    "Longitude": -104.7009964,
+    "County": "El Paso",
+    "State": "CO",
+    "Local": "Black Forest"
+  },
+  "Use": "Open",
+  "Status": "Other",
+  "Frequency": {
+    "Input": 443.95,
+    "Output": 448.95
+  },
+  "Digital": {
+    "DStar": {
+      "Node": "(B) Repeater"
+    },
+    "YSF": {
+      "GroupID": {
+        "Input": "Open ↑",
+        "Output": "Open ↓"
+      }
+    }
+  }
+}

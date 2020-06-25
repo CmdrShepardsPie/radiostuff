@@ -1,0 +1,22 @@
+{
+  "ID": 3792,
+  "StateID": 8,
+  "Callsign": "KZ0DEM",
+  "Location": {
+    "Latitude": 37.36999893,
+    "Longitude": -102.85900116,
+    "County": "Las Animas",
+    "State": "CO",
+    "Local": "Pritchett, Tator Butte"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 146.04,
+    "Output": 146.64
+  },
+  "SquelchTone": {
+    "Input": 100,
+    "Output": 100
+  }
+}

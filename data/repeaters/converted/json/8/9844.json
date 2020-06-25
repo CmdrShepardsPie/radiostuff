@@ -1,0 +1,23 @@
+{
+  "ID": 9844,
+  "StateID": 8,
+  "Callsign": "KD0QPG",
+  "Location": {
+    "Latitude": 38.53469849,
+    "Longitude": -105.99900055,
+    "County": "Chaffee",
+    "State": "CO",
+    "Local": "Salida, Methodist Mountain"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 441.975,
+    "Output": 446.975
+  },
+  "Digital": {
+    "DStar": {
+      "Node": "KD0QPG (B) Gateway Repeater"
+    }
+  }
+}

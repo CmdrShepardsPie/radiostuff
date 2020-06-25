@@ -1,0 +1,21 @@
+{
+  "ID": 29,
+  "StateID": 56,
+  "Callsign": "N7GCR",
+  "Location": {
+    "Latitude": 41.63330078,
+    "Longitude": -106.52600098,
+    "County": "Carbon",
+    "State": "WY",
+    "Local": "Rawlins, Elk Mountain"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 147.84,
+    "Output": 147.24
+  },
+  "SquelchTone": {
+    "Input": 100
+  }
+}

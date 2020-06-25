@@ -1,0 +1,21 @@
+{
+  "ID": 18718,
+  "StateID": 8,
+  "Callsign": "KC0VJD",
+  "Location": {
+    "Latitude": 39.374653,
+    "Longitude": -103.8021,
+    "County": "Lincoln",
+    "State": "CO",
+    "Local": "Limon, Cedar Point"
+  },
+  "Use": "Open",
+  "Status": "Testing",
+  "Frequency": {
+    "Input": 442.6,
+    "Output": 447.65
+  },
+  "SquelchTone": {
+    "Input": 103.5
+  }
+}

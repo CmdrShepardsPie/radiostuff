@@ -1,0 +1,2 @@
+ID,StateID,Callsign,Use,Status,DigitalTone,Digital,VOIP,Location.Latitude,Location.Longitude,Location.County,Location.State,Location.Local,Frequency.Input,Frequency.Output,SquelchTone.Input,SquelchTone.Output
+18872,8,K0CGQ,Open,On-Air,,,,38.123,-105.328,Custer,CO,Querida,444.675,449.675,88.5,

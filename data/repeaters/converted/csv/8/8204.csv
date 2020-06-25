@@ -1,0 +1,2 @@
+ID,StateID,Callsign,Use,Status,DigitalTone,Digital,VOIP,Location.Latitude,Location.Longitude,Location.County,Location.State,Location.Local,Frequency.Input,Frequency.Output,SquelchTone.Input,SquelchTone.Output
+8204,8,N0ELY,Open,On-Air,,,,39.70460129,-105.1230011,Jefferson,CO,Lakewood,443.75,448.75,100,100

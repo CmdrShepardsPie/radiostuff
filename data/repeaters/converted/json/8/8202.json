@@ -1,0 +1,21 @@
+{
+  "ID": 8202,
+  "StateID": 8,
+  "Callsign": "N0ZUQ",
+  "Location": {
+    "Latitude": 39.72940063,
+    "Longitude": -104.83200073,
+    "County": "Arapahoe",
+    "State": "CO",
+    "Local": "Aurora"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 443.4,
+    "Output": 448.4
+  },
+  "SquelchTone": {
+    "Input": 94.8
+  }
+}

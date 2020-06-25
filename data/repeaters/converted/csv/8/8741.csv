@@ -1,0 +1,2 @@
+ID,StateID,Callsign,Use,Status,DigitalTone,Digital,VOIP,Location.Latitude,Location.Longitude,Location.County,Location.State,Location.Local,Frequency.Input,Frequency.Output,SquelchTone.Input,SquelchTone.Output
+8741,8,N0OBA,Open,On-Air,,,,39.62799835,-104.75800323,Arapahoe,CO,Aurora,144.59,145.19,131.8,131.8

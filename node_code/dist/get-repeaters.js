@@ -33,6 +33,7 @@ var __importDefault = (this && this.__importDefault) || function (mod) {
     commander_1.program.parse(process.argv);
     async function getRepeaters(place, distance) {
         log(chalk_1.default.green('getRepeaters'), place, distance);
+        const promises = [];
         const scraper = new scraper_1.default(place, distance);
         const repeaters = await scraper.scrape();
         const columns = {};
@@ -48,7 +49,7 @@ var __importDefault = (this && this.__importDefault) || function (mod) {
                 }
             });
         });
-        await Promise.all(repeaters.map(async (row) => {
+        repeaters.forEach((row) => {
             Object.entries(row).forEach((entry) => {
                 const key = entry[0];
                 const value = entry[1];
@@ -57,13 +58,16 @@ var __importDefault = (this && this.__importDefault) || function (mod) {
                     row[key] = true;
                 }
             });
-            await fs_helpers_1.writeToJson(`../data/repeaters/scraped/json/${row.state_id}/${row.ID}`, row);
-            await fs_helpers_1.writeToCsv(`../data/repeaters/scraped/csv/${row.state_id}/${row.ID}`, row);
-        }));
+            // Don't care when the fs write promises return, they do not affect the outcome and node won't terminate until the handles are closed
+            promises.push(fs_helpers_1.writeToJson(`../data/repeaters/scraped/json/${row.state_id}/${row.ID}`, row));
+            promises.push(fs_helpers_1.writeToCsv(`../data/repeaters/scraped/csv/${row.state_id}/${row.ID}`, row));
+        });
         const stateCity = place.toString().split(`,`);
         const placePath = `${(stateCity[1] || '.').trim()}/${stateCity[0].trim()}`;
         log(chalk_1.default.yellow('Scraped'), repeaters.length, placePath);
-        await fs_helpers_1.writeToJson(`../data/repeaters/scraped/json/${placePath}`, repeaters);
-        await fs_helpers_1.writeToCsv(`../data/repeaters/scraped/csv/${placePath}`, repeaters);
+        // Don't care when the fs write promises return, they do not affect the outcome and node won't terminate until the handles are closed
+        promises.push(fs_helpers_1.writeToJson(`../data/repeaters/scraped/json/${placePath}`, repeaters));
+        promises.push(fs_helpers_1.writeToCsv(`../data/repeaters/scraped/csv/${placePath}`, repeaters));
+        await Promise.all(promises);
     }
 });

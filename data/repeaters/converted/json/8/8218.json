@@ -1,0 +1,21 @@
+{
+  "ID": 8218,
+  "StateID": 8,
+  "Callsign": "ND0Q",
+  "Location": {
+    "Latitude": 38.13470078,
+    "Longitude": -105.46600342,
+    "County": "Pueblo",
+    "State": "CO",
+    "Local": "Westcliffe, Deer Peak"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 894.1,
+    "Output": 919.1
+  },
+  "SquelchTone": {
+    "Input": 88.5
+  }
+}

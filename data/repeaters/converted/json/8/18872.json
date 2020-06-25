@@ -1,0 +1,21 @@
+{
+  "ID": 18872,
+  "StateID": 8,
+  "Callsign": "K0CGQ",
+  "Location": {
+    "Latitude": 38.123,
+    "Longitude": -105.328,
+    "County": "Custer",
+    "State": "CO",
+    "Local": "Querida"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 444.675,
+    "Output": 449.675
+  },
+  "SquelchTone": {
+    "Input": 88.5
+  }
+}

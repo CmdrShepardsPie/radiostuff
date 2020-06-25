@@ -1,0 +1,18 @@
+{
+  "ID": 57,
+  "StateID": 31,
+  "Callsign": "WD0BQM",
+  "Location": {
+    "Latitude": 41.88710022,
+    "Longitude": -103.66400146,
+    "County": "Scotts Bluff",
+    "State": "NE",
+    "Local": "Scottsbluff"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 144.875,
+    "Output": 145.475
+  }
+}

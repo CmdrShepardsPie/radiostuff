@@ -1,0 +1,2 @@
+ID,StateID,Callsign,Use,Status,DigitalTone,Digital,VOIP,Location.Latitude,Location.Longitude,Location.County,Location.State,Location.Local,Frequency.Input,Frequency.Output,SquelchTone.Input,SquelchTone.Output
+179,8,W0LRA,Open,On-Air,,,,40.39849854,-105.125,Larimer,CO,"Loveland, Namaqua Hill",147.795,147.195,100,

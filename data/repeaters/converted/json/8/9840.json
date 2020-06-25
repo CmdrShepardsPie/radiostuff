@@ -1,0 +1,22 @@
+{
+  "ID": 9840,
+  "StateID": 8,
+  "Callsign": "WZ0N",
+  "Location": {
+    "Latitude": 38.88330078,
+    "Longitude": -105.93299866,
+    "County": "Park",
+    "State": "CO",
+    "Local": "Hartsel"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 443.575,
+    "Output": 448.575
+  },
+  "SquelchTone": {
+    "Input": 103.5,
+    "Output": 103.5
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "ID": 8,
+  "StateID": 8,
+  "Callsign": "W0CRA",
+  "Location": {
+    "Latitude": 40.07220078,
+    "Longitude": -105.35399628,
+    "County": "Boulder",
+    "State": "CO",
+    "Local": "Boulder, Eldorado Mountain"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 144.86,
+    "Output": 145.46
+  },
+  "SquelchTone": {
+    "Input": 107.2,
+    "Output": 107.2
+  },
+  "VOIP": {
+    "EchoLink": {
+      "NodeID": 347086
+    },
+    "IRLP": {
+      "NodeID": 3990
+    }
+  }
+}

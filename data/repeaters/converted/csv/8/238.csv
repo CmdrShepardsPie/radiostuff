@@ -1,0 +1,2 @@
+ID,StateID,Callsign,Use,Status,DigitalTone,Digital,VOIP,Location.Latitude,Location.Longitude,Location.County,Location.State,Location.Local,Frequency.Input,Frequency.Output,SquelchTone.Input,SquelchTone.Output
+238,8,WA0JTB,Open,On-Air,,,,40.62559891,-103.20700073,Logan,CO,"Sterling, CO",144.695,145.295,100,

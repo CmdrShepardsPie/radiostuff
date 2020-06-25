@@ -1,0 +1,2 @@
+ID,StateID,Callsign,Use,Status,DigitalTone,Digital,VOIP,Location.Latitude,Location.Longitude,Location.County,Location.State,Location.Local,Frequency.Input,Frequency.Output,SquelchTone.Input,SquelchTone.Output
+72,8,KB0VJJ,Open,On-Air,,,,39.88750076,-105.4260025,Gilpin,CO,"Boulder, Thorodin Mountain",144.71,145.31,88.5,123

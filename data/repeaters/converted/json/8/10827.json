@@ -1,0 +1,22 @@
+{
+  "ID": 10827,
+  "StateID": 8,
+  "Callsign": "N0ZSN",
+  "Location": {
+    "Latitude": 39.25080109,
+    "Longitude": -106.29299927,
+    "County": "Lake",
+    "State": "CO",
+    "Local": "Leadville, Quail Mountain"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 147.84,
+    "Output": 147.24
+  },
+  "SquelchTone": {
+    "Input": 156.7,
+    "Output": 156.7
+  }
+}

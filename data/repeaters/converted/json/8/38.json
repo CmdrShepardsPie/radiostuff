@@ -1,0 +1,30 @@
+{
+  "ID": 38,
+  "StateID": 8,
+  "Callsign": "W0CRA",
+  "Location": {
+    "Latitude": 38.73720169,
+    "Longitude": -104.87999725,
+    "County": "El Paso",
+    "State": "CO",
+    "Local": "Colorado Springs, Cheyenne Mountain"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 144.56,
+    "Output": 145.16
+  },
+  "SquelchTone": {
+    "Input": 107.2,
+    "Output": 107.2
+  },
+  "VOIP": {
+    "EchoLink": {
+      "NodeID": 347086
+    },
+    "IRLP": {
+      "NodeID": 3990
+    }
+  }
+}

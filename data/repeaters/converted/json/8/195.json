@@ -1,0 +1,21 @@
+{
+  "ID": 195,
+  "StateID": 8,
+  "Callsign": "ND0Q",
+  "Location": {
+    "Latitude": 38.39250183,
+    "Longitude": -104.55500031,
+    "County": "Pueblo",
+    "State": "CO",
+    "Local": "Pueblo, Baculite Mesa"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 222.66,
+    "Output": 224.26
+  },
+  "SquelchTone": {
+    "Input": 88.5
+  }
+}

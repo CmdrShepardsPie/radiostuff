@@ -1,0 +1,2 @@
+ID,StateID,Callsign,Use,Status,DigitalTone,Digital,VOIP,Location.Latitude,Location.Longitude,Location.County,Location.State,Location.Local,Frequency.Input,Frequency.Output,SquelchTone.Input,SquelchTone.Output
+7953,8,KD5OPD,Open,On-Air,,,,38.47829819,-107.87599945,Montrose,CO,Montrose,146.19,146.79,107.2,107.2

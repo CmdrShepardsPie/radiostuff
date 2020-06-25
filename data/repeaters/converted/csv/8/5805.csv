@@ -1,0 +1,2 @@
+ID,StateID,Callsign,Use,Status,SquelchTone,Digital,VOIP,Location.Latitude,Location.Longitude,Location.County,Location.State,Location.Local,Frequency.Input,Frequency.Output,DigitalTone.Input,DigitalTone.Output
+5805,8,W0TX,Open,On-Air,,,,39.71620178,-105.12999725,Jefferson,CO,"Lakewood, St Anthony Medical Campus",442.825,447.825,73,

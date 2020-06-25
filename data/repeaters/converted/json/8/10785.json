@@ -1,0 +1,24 @@
+{
+  "ID": 10785,
+  "StateID": 8,
+  "Callsign": "K0JSC",
+  "Location": {
+    "Latitude": 38.23070145,
+    "Longitude": -104.61100006,
+    "County": "Pueblo",
+    "State": "CO",
+    "Local": "Pueblo"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 441.9875,
+    "Output": 446.9875
+  },
+  "Digital": {
+    "DMR": {
+      "ColorCode": 6,
+      "ID": 310821
+    }
+  }
+}

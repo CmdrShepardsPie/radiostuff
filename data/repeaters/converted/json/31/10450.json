@@ -1,0 +1,23 @@
+{
+  "ID": 10450,
+  "StateID": 31,
+  "Callsign": "N2VHZ",
+  "Location": {
+    "Latitude": 42.0929985,
+    "Longitude": -102.87000275,
+    "County": "Box Butte",
+    "State": "NE",
+    "Local": "Alliance"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 147.615,
+    "Output": 147.015
+  },
+  "VOIP": {
+    "EchoLink": {
+      "NodeID": 775183
+    }
+  }
+}

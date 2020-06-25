@@ -1,0 +1,21 @@
+{
+  "ID": 18465,
+  "StateID": 8,
+  "Callsign": "KB5ITS",
+  "Location": {
+    "Latitude": 38.41740036,
+    "Longitude": -107.84600067,
+    "County": "Montrose",
+    "State": "CO",
+    "Local": "Montrose, Raspberry"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 443.825,
+    "Output": 448.825
+  },
+  "SquelchTone": {
+    "Input": 100
+  }
+}

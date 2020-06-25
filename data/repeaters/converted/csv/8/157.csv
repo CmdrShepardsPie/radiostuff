@@ -1,0 +1,2 @@
+ID,StateID,Callsign,Use,Status,DigitalTone,Location.Latitude,Location.Longitude,Location.County,Location.State,Location.Local,Frequency.Input,Frequency.Output,SquelchTone.Input,SquelchTone.Output,Digital.DMR,Digital.P25,Digital.DStar,VOIP.AllStar,VOIP.EchoLink,VOIP.Wires,VOIP.IRLP.NodeID,Digital.YSF.GroupID.Input,Digital.YSF.GroupID.Output
+157,8,KC0KWD,Open,On-Air,,40.26119995,-104.70600128,Weld,CO,LaSalle,147.6,147,100,,,,,,,,3839,Open ↑,Open ↓

@@ -1,0 +1,26 @@
+{
+  "ID": 189,
+  "StateID": 8,
+  "Callsign": "N0PWZ",
+  "Location": {
+    "Latitude": 38.25439835,
+    "Longitude": -104.60900116,
+    "County": "El Paso",
+    "State": "CO",
+    "Local": "Palmer Divide"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 444.725,
+    "Output": 449.725
+  },
+  "SquelchTone": {
+    "Input": 100
+  },
+  "VOIP": {
+    "IRLP": {
+      "NodeID": 3043
+    }
+  }
+}

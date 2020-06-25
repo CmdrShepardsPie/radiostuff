@@ -1,0 +1,2 @@
+ID,StateID,Callsign,Use,Status,DigitalTone,Digital,VOIP,Location.Latitude,Location.Longitude,Location.County,Location.State,Location.Local,Frequency.Input,Frequency.Output,SquelchTone.Input,SquelchTone.Output
+110,31,WB7GR,Open,On-Air,,,,41.70100021,-103.68099976,Scotts Bluff,NE,"Scottsbluff, Stage Hill",449.125,444.125,114.8,114.8

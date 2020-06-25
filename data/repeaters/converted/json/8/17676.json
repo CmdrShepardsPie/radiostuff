@@ -1,0 +1,27 @@
+{
+  "ID": 17676,
+  "StateID": 8,
+  "Callsign": "N0KEG",
+  "Location": {
+    "Latitude": 39.58069992,
+    "Longitude": -104.8769989,
+    "County": "Arapahoe",
+    "State": "CO",
+    "Local": "Centennial"
+  },
+  "Use": "Open",
+  "Status": "Other",
+  "Frequency": {
+    "Input": 147.915,
+    "Output": 147.315
+  },
+  "Digital": {
+    "DMR": {
+      "ColorCode": 1,
+      "ID": 310759
+    },
+    "DStar": {
+      "Node": "N0KEG (C) Repeater"
+    }
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "ID": 3811,
+  "StateID": 8,
+  "Callsign": "WZ0N",
+  "Location": {
+    "Latitude": 38.45280075,
+    "Longitude": -106.01799774,
+    "County": "Chaffee",
+    "State": "CO",
+    "Local": "Salida, Methodist Mountain"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 444.925,
+    "Output": 449.925
+  },
+  "SquelchTone": {
+    "Input": 103.5,
+    "Output": 103.5
+  }
+}

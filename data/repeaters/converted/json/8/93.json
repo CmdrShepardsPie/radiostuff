@@ -1,0 +1,21 @@
+{
+  "ID": 93,
+  "StateID": 8,
+  "Callsign": "W0KIZ",
+  "Location": {
+    "Latitude": 39.73920059,
+    "Longitude": -104.98400116,
+    "County": "Denver",
+    "State": "CO",
+    "Local": "Denver"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 443.55,
+    "Output": 448.55
+  },
+  "SquelchTone": {
+    "Input": 82.5
+  }
+}

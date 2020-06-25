@@ -1,0 +1,22 @@
+{
+  "ID": 244,
+  "StateID": 8,
+  "Callsign": "KB0VJJ",
+  "Location": {
+    "Latitude": 40.6493988,
+    "Longitude": -106.38200378,
+    "County": "Jackson",
+    "State": "CO",
+    "Local": "Walden, Peterson Ridge"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 144.56,
+    "Output": 145.16
+  },
+  "SquelchTone": {
+    "Input": 88.5,
+    "Output": 123
+  }
+}

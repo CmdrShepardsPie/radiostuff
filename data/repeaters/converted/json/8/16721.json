@@ -1,0 +1,24 @@
+{
+  "ID": 16721,
+  "StateID": 8,
+  "Callsign": "W0BX",
+  "Location": {
+    "Latitude": 39.08890152,
+    "Longitude": -108.22699738,
+    "County": "Mesa",
+    "State": "CO",
+    "Local": "Grand Junction, Grand Mesa"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 441.9125,
+    "Output": 446.9125
+  },
+  "Digital": {
+    "DMR": {
+      "ColorCode": 1,
+      "ID": 310868
+    }
+  }
+}

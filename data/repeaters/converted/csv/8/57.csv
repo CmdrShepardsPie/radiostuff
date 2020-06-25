@@ -1,0 +1,2 @@
+ID,StateID,Callsign,Use,Status,DigitalTone,Digital,VOIP,Location.Latitude,Location.Longitude,Location.County,Location.State,Location.Local,Frequency.Input,Frequency.Output,SquelchTone.Input,SquelchTone.Output
+57,8,KB0SRJ,Open,On-Air,,,,39.03020096,-104.7990036,El Paso,CO,"Colorado Springs, ~2 mi ENE USAFA North Gate",443.8,448.8,100,

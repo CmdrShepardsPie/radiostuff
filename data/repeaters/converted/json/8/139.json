@@ -1,0 +1,30 @@
+{
+  "ID": 139,
+  "StateID": 8,
+  "Callsign": "KE0VH",
+  "Location": {
+    "Latitude": 39.73300171,
+    "Longitude": -105.23899841,
+    "County": "Jefferson",
+    "State": "CO",
+    "Local": "Golden, Lookout Mountain"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 444.625,
+    "Output": 449.625
+  },
+  "SquelchTone": {
+    "Input": 141.3,
+    "Output": 141.3
+  },
+  "Digital": {
+    "YSF": {
+      "GroupID": {
+        "Input": "Open ↑",
+        "Output": "Open ↓"
+      }
+    }
+  }
+}

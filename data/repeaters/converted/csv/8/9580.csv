@@ -1,0 +1,2 @@
+ID,StateID,Callsign,Use,Status,DigitalTone,Digital,Location.Latitude,Location.Longitude,Location.County,Location.State,Location.Local,Frequency.Input,Frequency.Output,SquelchTone.Input,SquelchTone.Output,VOIP.EchoLink,VOIP.IRLP,VOIP.Wires,VOIP.AllStar.NodeID
+9580,8,AC0KQ,Open,On-Air,,,39.71889877,-105.44000244,Clear Creek,CO,"Evergreen, Saddleback Mountain",442.85,447.85,141.3,141.3,,,,29571

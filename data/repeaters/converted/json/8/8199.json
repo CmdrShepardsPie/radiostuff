@@ -1,0 +1,21 @@
+{
+  "ID": 8199,
+  "StateID": 8,
+  "Callsign": "W0BG",
+  "Location": {
+    "Latitude": 39.72940063,
+    "Longitude": -104.83200073,
+    "County": "Arapahoe",
+    "State": "CO",
+    "Local": "Aurora"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 443.275,
+    "Output": 448.275
+  },
+  "SquelchTone": {
+    "Input": 156.7
+  }
+}

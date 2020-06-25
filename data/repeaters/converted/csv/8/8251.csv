@@ -1,0 +1,2 @@
+ID,StateID,Callsign,Use,Status,DigitalTone,Digital,VOIP,Location.Latitude,Location.Longitude,Location.County,Location.State,Location.Local,Frequency.Input,Frequency.Output,SquelchTone.Input,SquelchTone.Output
+8251,8,WB7UPS,Open,On-Air,,,,40.70389938,-105.00900269,Larimer,CO,Wellington,443.325,448.325,110.9,

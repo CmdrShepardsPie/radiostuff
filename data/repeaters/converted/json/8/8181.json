@@ -1,0 +1,18 @@
+{
+  "ID": 8181,
+  "StateID": 8,
+  "Callsign": "KI0G",
+  "Location": {
+    "Latitude": 39.55049896,
+    "Longitude": -107.32499695,
+    "County": "Garfield",
+    "State": "CO",
+    "Local": "Glenwood Springs"
+  },
+  "Use": "Closed",
+  "Status": "Other",
+  "Frequency": {
+    "Input": 222.42,
+    "Output": 224.02
+  }
+}

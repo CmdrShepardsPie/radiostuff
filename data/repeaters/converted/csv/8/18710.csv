@@ -1,0 +1,2 @@
+ID,StateID,Callsign,Use,Status,SquelchTone,DigitalTone,VOIP,Location.Latitude,Location.Longitude,Location.County,Location.State,Location.Local,Frequency.Input,Frequency.Output,Digital.DMR,Digital.P25,Digital.YSF,Digital.DStar.Node
+18710,8,KE0VUW,Open,On-Air,,,,39.046,-104.8065,El Paso,CO,"Colorado Springs, Sun Hills Subdivision",441.8875,446.8875,,,,KE0VUW (B) Repeater

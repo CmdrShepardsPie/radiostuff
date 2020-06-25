@@ -1,0 +1,2 @@
+ID,StateID,Callsign,Use,Status,DigitalTone,Digital,VOIP,Location.Latitude,Location.Longitude,Location.County,Location.State,Location.Local,Frequency.Input,Frequency.Output,SquelchTone.Input,SquelchTone.Output
+3792,8,KZ0DEM,Open,On-Air,,,,37.36999893,-102.85900116,Las Animas,CO,"Pritchett, Tator Butte",146.04,146.64,100,100

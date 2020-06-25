@@ -1,0 +1,2 @@
+ID,StateID,Callsign,Use,Status,DigitalTone,Digital,VOIP,Location.Latitude,Location.Longitude,Location.County,Location.State,Location.Local,Frequency.Input,Frequency.Output,SquelchTone.Input,SquelchTone.Output
+99,8,K1DUN,Open,On-Air,,,,39.6794014,-105.49299622,Clear Creek,CO,"Idaho Springs, Squaw Mountain",444.45,449.45,103.5,127.3

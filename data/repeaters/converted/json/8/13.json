@@ -1,0 +1,26 @@
+{
+  "ID": 13,
+  "StateID": 8,
+  "Callsign": "W0DK",
+  "Location": {
+    "Latitude": 39.97829819,
+    "Longitude": -105.27500153,
+    "County": "Boulder",
+    "State": "CO",
+    "Local": "Boulder"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 146.01,
+    "Output": 146.61
+  },
+  "SquelchTone": {
+    "Input": 100
+  },
+  "VOIP": {
+    "IRLP": {
+      "NodeID": 7007
+    }
+  }
+}

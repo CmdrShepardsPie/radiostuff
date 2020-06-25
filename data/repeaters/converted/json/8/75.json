@@ -1,0 +1,21 @@
+{
+  "ID": 75,
+  "StateID": 8,
+  "Callsign": "KE0SJ",
+  "Location": {
+    "Latitude": 39.73920059,
+    "Longitude": -104.98400116,
+    "County": "Jefferson",
+    "State": "CO",
+    "Local": "Boulder, Blue Mountain"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 144.875,
+    "Output": 145.475
+  },
+  "SquelchTone": {
+    "Input": 100
+  }
+}

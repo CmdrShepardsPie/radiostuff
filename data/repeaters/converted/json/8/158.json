@@ -1,0 +1,26 @@
+{
+  "ID": 158,
+  "StateID": 8,
+  "Callsign": "KC0KWD",
+  "Location": {
+    "Latitude": 40.26119995,
+    "Longitude": -104.70600128,
+    "County": "Weld",
+    "State": "CO",
+    "Local": "Greeley"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 443.475,
+    "Output": 448.475
+  },
+  "SquelchTone": {
+    "Input": 100
+  },
+  "VOIP": {
+    "IRLP": {
+      "NodeID": 3839
+    }
+  }
+}

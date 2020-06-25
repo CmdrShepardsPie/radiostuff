@@ -1,0 +1,21 @@
+{
+  "ID": 259,
+  "StateID": 8,
+  "Callsign": "K0SNO",
+  "Location": {
+    "Latitude": 39.40000153,
+    "Longitude": -107.31500244,
+    "County": "Garfield",
+    "State": "CO",
+    "Local": "Carbondale, Four Mile Ridge"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 147.99,
+    "Output": 147.39
+  },
+  "SquelchTone": {
+    "Input": 107.2
+  }
+}

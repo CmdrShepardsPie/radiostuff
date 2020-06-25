@@ -1,0 +1,27 @@
+{
+  "ID": 123,
+  "StateID": 8,
+  "Callsign": "W0UPS",
+  "Location": {
+    "Latitude": 40.53969955,
+    "Longitude": -105.19599915,
+    "County": "Larimer",
+    "State": "CO",
+    "Local": "Fort Collins, Horsetooth Mountain"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 144.515,
+    "Output": 145.115
+  },
+  "SquelchTone": {
+    "Input": 100,
+    "Output": 100
+  },
+  "VOIP": {
+    "EchoLink": {
+      "NodeID": 4236
+    }
+  }
+}

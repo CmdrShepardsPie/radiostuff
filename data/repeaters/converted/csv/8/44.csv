@@ -1,0 +1,2 @@
+ID,StateID,Callsign,Use,Status,DigitalTone,Digital,VOIP,Location.Latitude,Location.Longitude,Location.County,Location.State,Location.Local,Frequency.Input,Frequency.Output,SquelchTone.Input,SquelchTone.Output
+44,8,KB0SRJ,Open,On-Air,,,,38.84000015,-105.04000092,El Paso,CO,"Colorado Springs, Pikes Peak",146.37,146.97,100,

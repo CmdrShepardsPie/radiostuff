@@ -1,0 +1,2 @@
+ID,StateID,Callsign,Use,Status,DigitalTone,Digital,VOIP,Location.Latitude,Location.Longitude,Location.County,Location.State,Location.Local,Frequency.Input,Frequency.Output,SquelchTone.Input,SquelchTone.Output
+19,56,KB7SWR,Open,Off-Air,,,,41.13999939,-104.81999969,Laramie,WY,Cheyenne,144.635,145.235,131.8,

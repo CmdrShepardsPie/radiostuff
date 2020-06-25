@@ -1,0 +1,21 @@
+{
+  "ID": 245,
+  "StateID": 8,
+  "Callsign": "ND0Q",
+  "Location": {
+    "Latitude": 38.04109955,
+    "Longitude": -105.18499756,
+    "County": "Custer",
+    "State": "CO",
+    "Local": "Walsenburg, Deer Peak"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 222.72,
+    "Output": 224.32
+  },
+  "SquelchTone": {
+    "Input": 88.5
+  }
+}

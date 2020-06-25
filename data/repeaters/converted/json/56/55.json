@@ -1,0 +1,21 @@
+{
+  "ID": 55,
+  "StateID": 56,
+  "Callsign": "KD7BN",
+  "Location": {
+    "Latitude": 41.79109955,
+    "Longitude": -107.23799896,
+    "County": "Carbon",
+    "State": "WY",
+    "Local": "Rawlins"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 147.99,
+    "Output": 147.39
+  },
+  "SquelchTone": {
+    "Input": 100
+  }
+}

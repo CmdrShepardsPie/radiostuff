@@ -1,0 +1,2 @@
+ID,StateID,Callsign,Use,Status,DigitalTone,Digital,VOIP,Location.Latitude,Location.Longitude,Location.County,Location.State,Location.Local,Frequency.Input,Frequency.Output,SquelchTone.Input,SquelchTone.Output
+2,8,KB0VJJ,Open,On-Air,,,,40.16059875,-103.21399689,Washington,CO,Akron,144.8,145.4,88.5,123

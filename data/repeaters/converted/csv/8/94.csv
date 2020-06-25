@@ -1,0 +1,2 @@
+ID,StateID,Callsign,Use,Status,DigitalTone,Digital,VOIP,Location.Latitude,Location.Longitude,Location.County,Location.State,Location.Local,Frequency.Input,Frequency.Output,SquelchTone.Input,SquelchTone.Output
+94,8,W0CFI,Open,On-Air,,,,39.67739868,-105.48799896,Denver,CO,"Idaho Springs, Squaw Mountain",443.675,448.675,100,100

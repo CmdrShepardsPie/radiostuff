@@ -1,0 +1,2 @@
+ID,StateID,Callsign,Use,Status,DigitalTone,VOIP,Location.Latitude,Location.Longitude,Location.County,Location.State,Location.Local,Frequency.Input,Frequency.Output,SquelchTone.Input,SquelchTone.Output,Digital.DMR,Digital.P25,Digital.DStar,Digital.YSF.GroupID.Input,Digital.YSF.GroupID.Output
+13499,8,KG5JL,Open,On-Air,,,37.16949844,-104.50099945,Las Animas,CO,"Trinidad, Raton Pass",442.375,447.375,100,,,,,Open ↑,Open ↓

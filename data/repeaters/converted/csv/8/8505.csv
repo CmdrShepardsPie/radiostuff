@@ -1,0 +1,2 @@
+ID,StateID,Callsign,Use,Status,SquelchTone,DigitalTone,VOIP,Location.Latitude,Location.Longitude,Location.County,Location.State,Location.Local,Frequency.Input,Frequency.Output,Digital.P25,Digital.DStar,Digital.YSF,Digital.DMR.ColorCode,Digital.DMR.ID
+8505,8,N0AOL,Open,On-Air,,,,40.51530075,-105.14700317,Larimer,CO,Fort Collins,441.7375,446.7375,,,,2,310803

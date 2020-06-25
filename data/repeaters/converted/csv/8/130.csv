@@ -1,0 +1,2 @@
+ID,StateID,Callsign,Use,Status,DigitalTone,Digital,VOIP,Location.Latitude,Location.Longitude,Location.County,Location.State,Location.Local,Frequency.Input,Frequency.Output,SquelchTone.Input,SquelchTone.Output
+130,8,KI0G,Open,On-Air,,,,39.42639923,-107.37999725,Garfield,CO,"Glenwood Springs, Sunlight Peak",146.28,146.88,107.2,

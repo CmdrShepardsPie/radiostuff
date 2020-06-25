@@ -1,0 +1,2 @@
+ID,StateID,Callsign,Use,Status,SquelchTone,DigitalTone,VOIP,Location.Latitude,Location.Longitude,Location.County,Location.State,Location.Local,Frequency.Input,Frequency.Output,Digital.P25,Digital.DStar,Digital.YSF,Digital.DMR.ColorCode,Digital.DMR.ID
+18418,8,N0SZ,Open,On-Air,,,,40.61700058,-105.32700348,Larimer,CO,"Fort Collins, Buckhorn Mountain",440.2,445.2,,,,7,

@@ -1,0 +1,22 @@
+{
+  "ID": 8193,
+  "StateID": 8,
+  "Callsign": "KA0WUC",
+  "Location": {
+    "Latitude": 38.9939003,
+    "Longitude": -105.05699921,
+    "County": "Teller",
+    "State": "CO",
+    "Local": "Woodland Park"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 442.675,
+    "Output": 447.675
+  },
+  "SquelchTone": {
+    "Input": 179.9,
+    "Output": 179.9
+  }
+}

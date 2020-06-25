@@ -1,0 +1,21 @@
+{
+  "ID": 266,
+  "StateID": 8,
+  "Callsign": "W0WYX",
+  "Location": {
+    "Latitude": 39.92060089,
+    "Longitude": -105.08599854,
+    "County": "Boulder",
+    "State": "CO",
+    "Local": "Broomfield"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 444.825,
+    "Output": 449.825
+  },
+  "SquelchTone": {
+    "Input": 103.5
+  }
+}

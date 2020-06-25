@@ -1,0 +1,21 @@
+{
+  "ID": 54,
+  "StateID": 8,
+  "Callsign": "KB0SRJ",
+  "Location": {
+    "Latitude": 38.84000015,
+    "Longitude": -105.04000092,
+    "County": "El Paso",
+    "State": "CO",
+    "Local": "Colorado Springs, Pikes Peak"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 443.45,
+    "Output": 448.45
+  },
+  "SquelchTone": {
+    "Input": 100
+  }
+}
