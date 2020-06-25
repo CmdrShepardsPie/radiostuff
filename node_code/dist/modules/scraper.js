@@ -61,7 +61,7 @@ var __importDefault = (this && this.__importDefault) || function (mod) {
             this.url = `${baseUrl}?${query.join('&')}`;
             log('url', this.url);
         }
-        async process() {
+        async scrape() {
             log(chalk_1.default.green('Process'));
             const parts = this.location.toString().split(`,`);
             const baseKey = `${(parts[1] || '.').trim()}/${parts[0].trim()}.html`;

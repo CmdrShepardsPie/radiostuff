@@ -54,7 +54,7 @@ export default class Scraper {
     log('url', this.url);
   }
 
-  public async process(): Promise<IRepeaterRaw[]> {
+  public async scrape(): Promise<IRepeaterRaw[]> {
     log(chalk.green('Process'));
 
     const parts: string[] = this.location.toString().split(`,`);

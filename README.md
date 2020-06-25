@@ -1,17 +1,16 @@
-Various scripts to scrape RepeaterBook for repeaters, store them, process them, and generate CSVs.
+Various scripts to scrape RepeaterBook for repeaters, store them, process them, and generate programmable CSVs.
 
-Output available in Chirp and Yaesu format.
+Output available for Chirp, Yaesu ADMS-7, and RT Systems ADMS-M400. RT Systems WCS-7100 is WIP.
 
 Node code developed on macOS and Windows 10.
 
-Node version v12.13.1, npm version 6.12.1
+Node v12.18.0, npm 6.14.4
 
 Python code developed on Windows 10.
 
-Python version 3.8.0 x64
+Python 3.8.0 x64
 
-generate-frequencies: Create a set of simplex frequencies based on ranges
-defined by the ARRL and Colorado Council of Amateur Radio Clubs.
+generate-frequencies: Create a set of simplex frequencies based on ranges defined by the ARRL and Colorado Council of Amateur Radio Clubs.
 
 get-repeaters: Crawl and scrape repeaters from RepeaterBook and cache them locally.
 

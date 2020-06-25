@@ -20,21 +20,22 @@ var __importDefault = (this && this.__importDefault) || function (mod) {
     const chalk_1 = __importDefault(require("chalk"));
     const scraper_1 = __importDefault(require("./modules/scraper"));
     const log = log_helpers_1.createLog('Get Repeaters');
-    log('program');
+    log('Program Setup');
     commander_1.program
         .version('0.0.1')
         .arguments('<location>')
         .action(async (location) => {
+        log('Program Action');
         if (location) {
-            await save(location, 200);
+            await getRepeaters(location, 200);
         }
     });
+    log('Program Parse Args');
     commander_1.program.parse(process.argv);
-    async function save(place, distance) {
-        log(chalk_1.default.green('Save'), place, distance);
+    async function getRepeaters(place, distance) {
+        log(chalk_1.default.green('getRepeaters'), place, distance);
         const scraper = new scraper_1.default(place, distance);
-        const result = await scraper.process();
-        // @ts-ignore
+        const result = await scraper.scrape();
         const columns = {};
         result.forEach((row) => {
             Object.entries(row).forEach((entry) => {

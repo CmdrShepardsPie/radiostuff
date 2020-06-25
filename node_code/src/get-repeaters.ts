@@ -10,28 +10,30 @@ import Scraper from './modules/scraper';
 
 const log: (...msg: any[]) => void = createLog('Get Repeaters');
 
-log('program');
+log('Program Setup');
 
 program
   .version('0.0.1')
   .arguments('<location>')
   .action(async (location: string): Promise<void> => {
+    log('Program Action');
     if (location) {
-      await save(location, 200);
+      await getRepeaters(location, 200);
     }
   });
 
+log('Program Parse Args');
+
 program.parse(process.argv);
 
-async function save(place: string | number, distance: number): Promise<void> {
-  log(chalk.green('Save'), place, distance);
+async function getRepeaters(place: string | number, distance: number): Promise<void> {
+  log(chalk.green('getRepeaters'), place, distance);
 
   const scraper: Scraper = new Scraper(place, distance);
 
-  const result: IRepeaterRaw[] = await scraper.process();
+  const result: IRepeaterRaw[] = await scraper.scrape();
 
-  // @ts-ignore
-  const columns: { [key in keyof IRepeaterRaw]: (string | number | undefined)[] } = {};
+  const columns: { [key in keyof Partial<IRepeaterRaw>]: (string | number | undefined)[] } = {};
   result.forEach((row: IRepeaterRaw): void => {
     Object.entries(row).forEach((entry: [string, (string | number | undefined)]): void => {
       const key: keyof IRepeaterRaw = entry[0] as keyof IRepeaterRaw;
