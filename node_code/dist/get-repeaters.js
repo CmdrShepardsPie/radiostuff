@@ -7,17 +7,17 @@ var __importDefault = (this && this.__importDefault) || function (mod) {
         if (v !== undefined) module.exports = v;
     }
     else if (typeof define === "function" && define.amd) {
-        define(["require", "exports", "module-alias/register", "commander", "@helpers/fs-helpers", "@helpers/log-helpers", "chalk", "./modules/scraper"], factory);
+        define(["require", "exports", "module-alias/register", "commander", "@helpers/log-helpers", "chalk", "./modules/scraper", "@helpers/fs-helpers"], factory);
     }
 })(function (require, exports) {
     "use strict";
     Object.defineProperty(exports, "__esModule", { value: true });
     require("module-alias/register");
     const commander_1 = require("commander");
-    const fs_helpers_1 = require("@helpers/fs-helpers");
     const log_helpers_1 = require("@helpers/log-helpers");
     const chalk_1 = __importDefault(require("chalk"));
     const scraper_1 = __importDefault(require("./modules/scraper"));
+    const fs_helpers_1 = require("@helpers/fs-helpers");
     const log = log_helpers_1.createLog('Get Repeaters');
     log('Program Setup');
     commander_1.program
@@ -57,11 +57,13 @@ var __importDefault = (this && this.__importDefault) || function (mod) {
                     row[key] = true;
                 }
             });
-            await fs_helpers_1.writeToJsonAndCsv(`../data/repeaters/scraped/${row.state_id}/${row.ID}`, repeaters);
+            await fs_helpers_1.writeToJson(`../data/repeaters/scraped/json/${row.state_id}/${row.ID}`, row);
+            await fs_helpers_1.writeToCsv(`../data/repeaters/scraped/csv/${row.state_id}/${row.ID}`, row);
         }));
         const stateCity = place.toString().split(`,`);
-        const subPlace = `${(stateCity[1] || '.').trim()}/${stateCity[0].trim()}`;
-        log(chalk_1.default.yellow('Scraped'), repeaters.length, subPlace);
-        await fs_helpers_1.writeToJsonAndCsv(`../data/repeaters/scraped/${subPlace}`, repeaters);
+        const placePath = `${(stateCity[1] || '.').trim()}/${stateCity[0].trim()}`;
+        log(chalk_1.default.yellow('Scraped'), repeaters.length, placePath);
+        await fs_helpers_1.writeToJson(`../data/repeaters/scraped/json/${placePath}`, repeaters);
+        await fs_helpers_1.writeToCsv(`../data/repeaters/scraped/csv/${placePath}`, repeaters);
     }
 });

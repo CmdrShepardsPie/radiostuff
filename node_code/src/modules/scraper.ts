@@ -54,6 +54,7 @@ export default class Scraper {
     log('url', this.url);
   }
 
+  // TODO: Make observable or event driven
   public async scrape(): Promise<IRepeaterRaw[]> {
     log(chalk.green('Process'));
 

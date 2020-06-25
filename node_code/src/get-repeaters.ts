@@ -1,12 +1,12 @@
 import 'module-alias/register';
 
 import { program } from 'commander';
-import { writeToJsonAndCsv } from '@helpers/fs-helpers';
 import { numberToString } from '@helpers/helpers';
 import { createLog } from '@helpers/log-helpers';
 import { IRepeaterRaw } from '@interfaces/i-repeater-raw';
 import chalk from 'chalk';
 import Scraper from './modules/scraper';
+import { writeToCsv, writeToJson } from '@helpers/fs-helpers';
 
 const log: (...msg: any[]) => void = createLog('Get Repeaters');
 
@@ -56,13 +56,15 @@ async function getRepeaters(place: string | number, distance: number): Promise<v
         row[key] = true;
       }
     });
-    await writeToJsonAndCsv(`../data/repeaters/scraped/${row.state_id}/${row.ID}`, repeaters);
+    await writeToJson(`../data/repeaters/scraped/json/${row.state_id}/${row.ID}`, row);
+    await writeToCsv(`../data/repeaters/scraped/csv/${row.state_id}/${row.ID}`, row);
   }));
 
   const stateCity: string[] = place.toString().split(`,`);
-  const subPlace: string = `${(stateCity[1] || '.').trim()}/${stateCity[0].trim()}`;
+  const placePath: string = `${(stateCity[1] || '.').trim()}/${stateCity[0].trim()}`;
 
-  log(chalk.yellow('Scraped'), repeaters.length, subPlace);
+  log(chalk.yellow('Scraped'), repeaters.length, placePath);
 
-  await writeToJsonAndCsv(`../data/repeaters/scraped/${subPlace}`, repeaters);
+  await writeToJson(`../data/repeaters/scraped/json/${placePath}`, repeaters);
+  await writeToCsv(`../data/repeaters/scraped/csv/${placePath}`, repeaters);
 }

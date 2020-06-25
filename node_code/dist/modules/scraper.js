@@ -60,6 +60,7 @@ var __importDefault = (this && this.__importDefault) || function (mod) {
             this.url = `${baseUrl}?${query.join('&')}`;
             log('url', this.url);
         }
+        // TODO: Make observable or event driven
         async scrape() {
             log(chalk_1.default.green('Process'));
             const parts = this.location.toString().split(`,`);

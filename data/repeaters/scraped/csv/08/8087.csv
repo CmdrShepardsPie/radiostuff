@@ -1,0 +1,2 @@
+Frequency,Offset,Tone,Call,Location,ST/PR,Use,VOIP,DGTL,Mi,Dir,,state_id,ID,Latitude,Longitude,Downlink,Uplink,D-STAR Enabled,Node,Sources,County,Op Status,Sponsor,Notes,Last update
+446.9125,-5,,KC0CVU,"Colorado Springs, Cheyenne Mountain",CO,OPEN,,S,62.14,S,,08,8087,38.74509811,-104.86199951,446.9125,441.9125,1,KC0CVU (B) Repeater,jfindu lookup / dstar-users lookup,El Paso,On-Air,Cheyenne Mountain Repeater Group (CMRG),This DStar repeater is up but not truly functional. It serves as a local repeater presently as it is not connected to the internet for now.,2019-12-28

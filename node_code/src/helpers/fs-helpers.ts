@@ -50,17 +50,18 @@ export async function dirExists(filePath: string): Promise<boolean> {
   return exists;
 }
 
-export async function writeToJsonAndCsv(filename: string, jsonData: any[], csvData: any[] = jsonData, header: boolean = true): Promise<void> {
-  // log(chalk.green("Write to Json and CSV"), filename);
-
+export async function writeToJson(filename: string, jsonData: any | any[]): Promise<void> {
   const jsonString: string = JSON.stringify(jsonData, null, 2);
   const jsonName: string = `${filename}.json`;
   await makeDirs(jsonName);
   await writeFileAsync(jsonName, jsonString);
+}
 
+export async function writeToCsv(filename: string, csvData: any | any[], header: boolean = true): Promise<void> {
   const csvPrep: object[] = Array.isArray(csvData) ? fillArrayObjects(csvData.map((r: any): any => flattenObject(r))) : [flattenObject(csvData)];
   const csvString: string = await stringifyAsync(csvPrep, { header });
   const csvName: string = `${filename}.csv`;
+  await makeDirs(csvName);
   await writeFileAsync(csvName, csvString);
 }
 

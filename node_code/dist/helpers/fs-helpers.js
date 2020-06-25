@@ -12,7 +12,7 @@ var __importDefault = (this && this.__importDefault) || function (mod) {
 })(function (require, exports) {
     "use strict";
     Object.defineProperty(exports, "__esModule", { value: true });
-    exports.getAllFilesInDirectory = exports.splitExtension = exports.writeToJsonAndCsv = exports.dirExists = exports.makeDirs = exports.statAsync = exports.writeFileAsync = exports.readdirAsync = exports.readFileAsync = exports.mkdirAsync = exports.existsAsync = void 0;
+    exports.getAllFilesInDirectory = exports.splitExtension = exports.writeToCsv = exports.writeToJson = exports.dirExists = exports.makeDirs = exports.statAsync = exports.writeFileAsync = exports.readdirAsync = exports.readFileAsync = exports.mkdirAsync = exports.existsAsync = void 0;
     const csv_helpers_1 = require("@helpers/csv-helpers");
     const helpers_1 = require("@helpers/helpers");
     const log_helpers_1 = require("@helpers/log-helpers");
@@ -61,18 +61,21 @@ var __importDefault = (this && this.__importDefault) || function (mod) {
         return exists;
     }
     exports.dirExists = dirExists;
-    async function writeToJsonAndCsv(filename, jsonData, csvData = jsonData, header = true) {
-        // log(chalk.green("Write to Json and CSV"), filename);
+    async function writeToJson(filename, jsonData) {
         const jsonString = JSON.stringify(jsonData, null, 2);
         const jsonName = `${filename}.json`;
         await makeDirs(jsonName);
         await exports.writeFileAsync(jsonName, jsonString);
+    }
+    exports.writeToJson = writeToJson;
+    async function writeToCsv(filename, csvData, header = true) {
         const csvPrep = Array.isArray(csvData) ? csv_helpers_1.fillArrayObjects(csvData.map((r) => helpers_1.flattenObject(r))) : [helpers_1.flattenObject(csvData)];
         const csvString = await csv_helpers_1.stringifyAsync(csvPrep, { header });
         const csvName = `${filename}.csv`;
+        await makeDirs(csvName);
         await exports.writeFileAsync(csvName, csvString);
     }
-    exports.writeToJsonAndCsv = writeToJsonAndCsv;
+    exports.writeToCsv = writeToCsv;
     function splitExtension(filename) {
         log(chalk_1.default.green('Split Extension'), filename);
         const name = filename.substring(0, filename.lastIndexOf('.'));
