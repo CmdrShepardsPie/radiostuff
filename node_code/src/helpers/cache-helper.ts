@@ -1,21 +1,23 @@
 import { dirExists, makeDirs, readFileAsync, writeFileAsync } from '@helpers/fs-helpers';
 import chalk from 'chalk';
 import { createOut } from '@helpers/log-helpers';
+import { dayMS, weekMS } from '@helpers/helpers';
 
 const { log, write }: { log: (...msg: any[]) => void; write: (...msg: any[]) => void } = createOut('Cache Helper');
 
 const cacheStart: number = Date.now();
 const cacheLogFileName: string = `../data/repeaters/_cache/cache-log.json`;
 const cacheLog: { [key: string]: string } = {};
+const maxCacheAgeMS: number = weekMS * 4;
 let cacheLoaded: boolean = false;
 
 export async function getCache(key: string): Promise<string | undefined> {
   const keyAge: number = await readCacheLog(key);
   const file: string = `../data/repeaters/_cache/${key}`;
   if (await dirExists(file)) {
-    const diff: number = (cacheStart - keyAge) / 1000 / 60 / 60 / 24;
-    if (diff >= 7) {
-      write(`O=${chalk.blue(Math.round(diff))}`);
+    const cageAgeMS: number = (cacheStart - keyAge);
+    if (cageAgeMS >= maxCacheAgeMS) {
+      write(`O=${chalk.blue(Math.round(cageAgeMS / dayMS))}`);
       return;
     }
     return (await readFileAsync(file)).toString();

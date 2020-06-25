@@ -7,7 +7,7 @@ var __importDefault = (this && this.__importDefault) || function (mod) {
         if (v !== undefined) module.exports = v;
     }
     else if (typeof define === "function" && define.amd) {
-        define(["require", "exports", "@helpers/fs-helpers", "chalk", "@helpers/log-helpers"], factory);
+        define(["require", "exports", "@helpers/fs-helpers", "chalk", "@helpers/log-helpers", "@helpers/helpers"], factory);
     }
 })(function (require, exports) {
     "use strict";
@@ -16,18 +16,20 @@ var __importDefault = (this && this.__importDefault) || function (mod) {
     const fs_helpers_1 = require("@helpers/fs-helpers");
     const chalk_1 = __importDefault(require("chalk"));
     const log_helpers_1 = require("@helpers/log-helpers");
+    const helpers_1 = require("@helpers/helpers");
     const { log, write } = log_helpers_1.createOut('Cache Helper');
     const cacheStart = Date.now();
     const cacheLogFileName = `../data/repeaters/_cache/cache-log.json`;
     const cacheLog = {};
+    const maxCacheAgeMS = helpers_1.weekMS * 4;
     let cacheLoaded = false;
     async function getCache(key) {
         const keyAge = await readCacheLog(key);
         const file = `../data/repeaters/_cache/${key}`;
         if (await fs_helpers_1.dirExists(file)) {
-            const diff = (cacheStart - keyAge) / 1000 / 60 / 60 / 24;
-            if (diff >= 7) {
-                write(`O=${chalk_1.default.blue(Math.round(diff))}`);
+            const cageAgeMS = (cacheStart - keyAge);
+            if (cageAgeMS >= maxCacheAgeMS) {
+                write(`O=${chalk_1.default.blue(Math.round(cageAgeMS / helpers_1.dayMS))}`);
                 return;
             }
             return (await fs_helpers_1.readFileAsync(file)).toString();

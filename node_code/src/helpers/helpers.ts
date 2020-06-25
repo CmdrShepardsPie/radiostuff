@@ -61,14 +61,20 @@ export function flattenObject(data: any): any {
       const value: any = entry[1];
       if (typeof value === 'object' && !Array.isArray(value)) {
         delete subData[key];
-        const valueWithKeynames: { [key: string]: any } = {};
+        const valueWithKeyNames: { [key: string]: any } = {};
         Object.entries(value).forEach((subEntry: [string, any]) => {
-          valueWithKeynames[`${key}.${subEntry[0]}`] = subEntry[1];
+          valueWithKeyNames[`${key}.${subEntry[0]}`] = subEntry[1];
         });
-        subData = { ...subData, ...valueWithKeynames };
+        subData = { ...subData, ...valueWithKeyNames };
         loop = true;
       }
     }
   }
   return subData;
 }
+
+export const secondMS: number = 1000;
+export const minuteMS: number = secondMS * 60;
+export const hourMS: number = minuteMS * 60;
+export const dayMS: number = hourMS * 24;
+export const weekMS: number = dayMS * 7;

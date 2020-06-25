@@ -12,7 +12,7 @@ var __importDefault = (this && this.__importDefault) || function (mod) {
 })(function (require, exports) {
     "use strict";
     Object.defineProperty(exports, "__esModule", { value: true });
-    exports.flattenObject = exports.numberToString = exports.wait = void 0;
+    exports.weekMS = exports.dayMS = exports.hourMS = exports.minuteMS = exports.secondMS = exports.flattenObject = exports.numberToString = exports.wait = void 0;
     const log_helpers_1 = require("@helpers/log-helpers");
     const chalk_1 = __importDefault(require("chalk"));
     const { log, write } = log_helpers_1.createOut('Helpers');
@@ -75,11 +75,11 @@ var __importDefault = (this && this.__importDefault) || function (mod) {
                 const value = entry[1];
                 if (typeof value === 'object' && !Array.isArray(value)) {
                     delete subData[key];
-                    const valueWithKeynames = {};
+                    const valueWithKeyNames = {};
                     Object.entries(value).forEach((subEntry) => {
-                        valueWithKeynames[`${key}.${subEntry[0]}`] = subEntry[1];
+                        valueWithKeyNames[`${key}.${subEntry[0]}`] = subEntry[1];
                     });
-                    subData = { ...subData, ...valueWithKeynames };
+                    subData = { ...subData, ...valueWithKeyNames };
                     loop = true;
                 }
             }
@@ -87,4 +87,9 @@ var __importDefault = (this && this.__importDefault) || function (mod) {
         return subData;
     }
     exports.flattenObject = flattenObject;
+    exports.secondMS = 1000;
+    exports.minuteMS = exports.secondMS * 60;
+    exports.hourMS = exports.minuteMS * 60;
+    exports.dayMS = exports.hourMS * 24;
+    exports.weekMS = exports.dayMS * 7;
 });

@@ -151,10 +151,10 @@ export default class Scraper {
       return cache;
     } else {
       // Slow down the requests so we're not hammering the server or triggering any anti-bot or DDoS protections
-      const waitTime: number = (5000 + (Math.random() * 10000));
+      // const waitTime: number = (5000 + (Math.random() * 10000));
 
-      write(`W=${chalk.yellow(Math.round(waitTime / 1000))}`);
-      await wait(waitTime);
+      // write(`W=${chalk.yellow(Math.round(waitTime / 1000))}`);
+      // await wait(waitTime);
       log(chalk.yellow('Get'), url);
       const request: AxiosResponse<string> = await Axios.get(url);
       log(chalk.green('Got'), url);

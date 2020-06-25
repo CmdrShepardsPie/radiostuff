@@ -7,12 +7,11 @@ var __importDefault = (this && this.__importDefault) || function (mod) {
         if (v !== undefined) module.exports = v;
     }
     else if (typeof define === "function" && define.amd) {
-        define(["require", "exports", "@helpers/helpers", "@helpers/log-helpers", "axios", "chalk", "jsdom", "./helper", "@helpers/cache-helper"], factory);
+        define(["require", "exports", "@helpers/log-helpers", "axios", "chalk", "jsdom", "./helper", "@helpers/cache-helper"], factory);
     }
 })(function (require, exports) {
     "use strict";
     Object.defineProperty(exports, "__esModule", { value: true });
-    const helpers_1 = require("@helpers/helpers");
     const log_helpers_1 = require("@helpers/log-helpers");
     const axios_1 = __importDefault(require("axios"));
     const chalk_1 = __importDefault(require("chalk"));
@@ -153,9 +152,9 @@ var __importDefault = (this && this.__importDefault) || function (mod) {
             }
             else {
                 // Slow down the requests so we're not hammering the server or triggering any anti-bot or DDoS protections
-                const waitTime = (5000 + (Math.random() * 10000));
-                write(`W=${chalk_1.default.yellow(Math.round(waitTime / 1000))}`);
-                await helpers_1.wait(waitTime);
+                // const waitTime: number = (5000 + (Math.random() * 10000));
+                // write(`W=${chalk.yellow(Math.round(waitTime / 1000))}`);
+                // await wait(waitTime);
                 log(chalk_1.default.yellow('Get'), url);
                 const request = await axios_1.default.get(url);
                 log(chalk_1.default.green('Got'), url);
