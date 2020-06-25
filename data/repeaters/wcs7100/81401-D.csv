@@ -8,7 +8,7 @@ Channel Number,Receive Frequency,Transmit Frequency,Offset Frequency,Offset Dire
 7,449.05000,444.05000,5.00 MHz,-DUP,FM,K7SDC FEI,Tone,88.5 Hz,100.0 Hz,023,Both N,Off,49 59 UT Carbon Sunnyside Bruin Point K7SDC,,,,,,Filter 1,,,None,88.5 Hz,88.5 Hz,023,Both N,Filter 1,FM
 8,449.05000,444.05000,5.00 MHz,-DUP,FM,WG0N F,T Sql,107.2 Hz,107.2 Hz,023,Both N,Off,8 95 CO Denver Idaho Springs Squaw Mountain WG0N,,,,,,Filter 1,,,None,88.5 Hz,88.5 Hz,023,Both N,Filter 1,FM
 9,449.10000,444.10000,5.00 MHz,-DUP,FM,K7QEQ F,T Sql,107.2 Hz,107.2 Hz,023,Both N,Off,49 52 UT Grand Moab Bald Mesa K7QEQ,,,,,,Filter 1,,,None,88.5 Hz,88.5 Hz,023,Both N,Filter 1,FM
-10,449.15000,444.15000,5.00 MHz,-DUP,DV,WR0AEN S,Tone,136.5 Hz,100.0 Hz,023,Both N,Off,8 8207 CO Arapahoe Aurora WR0AEN,,,CQCQCQ,WR0AEN B,,Filter 1,,,None,88.5 Hz,88.5 Hz,023,Both N,Filter 1,FM
+10,449.15000,444.15000,5.00 MHz,-DUP,DV,WR0AEN S,Tone,136.5 Hz,100.0 Hz,023,Both N,Off,8 8207 CO Arapahoe Aurora WR0AEN,,,CQCQCQ,WR0AEN B,WR0AEN G,Filter 1,,,None,88.5 Hz,88.5 Hz,023,Both N,Filter 1,FM
 11,449.20000,444.20000,5.00 MHz,-DUP,FM,Glade Park F,Tone,107.2 Hz,100.0 Hz,023,Both N,Off,8 18392 CO Mesa Glade Park,,,,,,Filter 1,,,None,88.5 Hz,88.5 Hz,023,Both N,Filter 1,FM
 12,449.22500,444.22500,5.00 MHz,-DUP,FM,N0SZ F,T Sql,141.3 Hz,141.3 Hz,023,Both N,Off,8 97 CO Gilpin Denver Thorodin Mountain N0SZ,,,,,,Filter 1,,,None,88.5 Hz,88.5 Hz,023,Both N,Filter 1,FM
 13,449.30000,444.30000,5.00 MHz,-DUP,FM,N1UPS FEI,Tone,100.0 Hz,100.0 Hz,023,Both N,Off,8 8208 CO Adams Westminster N1UPS,,,,,,Filter 1,,,None,88.5 Hz,88.5 Hz,023,Both N,Filter 1,FM
@@ -30,10 +30,10 @@ Channel Number,Receive Frequency,Transmit Frequency,Offset Frequency,Offset Dire
 29,449.62500,444.62500,5.00 MHz,-DUP,FM,K0SLV F,Tone,94.8 Hz,100.0 Hz,023,Both N,Off,8 18580 CO Rio Grande Monte Vista K0SLV,,,,,,Filter 1,,,None,88.5 Hz,88.5 Hz,023,Both N,Filter 1,FM
 30,449.62500,444.62500,5.00 MHz,-DUP,FM,KB0VJJ F,T Sql,123.0 Hz,123.0 Hz,023,Both N,Off,8 9770 CO Routt Steamboat Springs KB0VJJ,,,,,,Filter 1,,,None,88.5 Hz,88.5 Hz,023,Both N,Filter 1,FM
 31,449.65000,444.65000,5.00 MHz,-DUP,FM,KC0CVU F,Tone,107.2 Hz,100.0 Hz,023,Both N,Off,8 205 CO Chaffee Salida Methodist Mountain KC0CVU,,,,,,Filter 1,,,None,88.5 Hz,88.5 Hz,023,Both N,Filter 1,FM
-32,449.65000,444.65000,5.00 MHz,-DUP,DV,WR0AEN S,Tone,136.5 Hz,100.0 Hz,023,Both N,Off,8 8212 CO Denver Denver WR0AEN,,,CQCQCQ,WR0AEN B,,Filter 1,,,None,88.5 Hz,88.5 Hz,023,Both N,Filter 1,FM
+32,449.65000,444.65000,5.00 MHz,-DUP,DV,WR0AEN S,Tone,136.5 Hz,100.0 Hz,023,Both N,Off,8 8212 CO Denver Denver WR0AEN,,,CQCQCQ,WR0AEN B,WR0AEN G,Filter 1,,,None,88.5 Hz,88.5 Hz,023,Both N,Filter 1,FM
 33,449.65000,444.65000,5.00 MHz,-DUP,FM,KB0YNA FI,T Sql,151.4 Hz,151.4 Hz,023,Both N,Off,8 8763 CO Mesa Grand Junction Grand Mesa KB0YNA,,,,,,Filter 1,,,None,88.5 Hz,88.5 Hz,023,Both N,Filter 1,FM
 34,449.67500,444.67500,5.00 MHz,-DUP,FM,K0CGQ F,Tone,88.5 Hz,100.0 Hz,023,Both N,Off,8 18872 CO Custer Querida K0CGQ,,,,,,Filter 1,,,None,88.5 Hz,88.5 Hz,023,Both N,Filter 1,FM
-35,449.67500,444.67500,5.00 MHz,-DUP,DV,WR0AEN SI,Tone,136.5 Hz,100.0 Hz,023,Both N,Off,8 8213 CO Denver Denver WR0AEN,,,CQCQCQ,WR0AEN B,,Filter 1,,,None,88.5 Hz,88.5 Hz,023,Both N,Filter 1,FM
+35,449.67500,444.67500,5.00 MHz,-DUP,DV,WR0AEN SI,Tone,136.5 Hz,100.0 Hz,023,Both N,Off,8 8213 CO Denver Denver WR0AEN,,,CQCQCQ,WR0AEN B,WR0AEN G,Filter 1,,,None,88.5 Hz,88.5 Hz,023,Both N,Filter 1,FM
 36,449.70000,444.70000,5.00 MHz,-DUP,FM,KB0YNA FI,T Sql,107.2 Hz,107.2 Hz,023,Both N,Off,8 254 CO San Miguel Telluride Gray Head KB0YNA,,,,,,Filter 1,,,None,88.5 Hz,88.5 Hz,023,Both N,Filter 1,FM
 37,449.70000,444.70000,5.00 MHz,-DUP,FM,Lake George F,Tone,107.2 Hz,100.0 Hz,023,Both N,Off,8 8214 CO Park Lake George,,,,,,Filter 1,,,None,88.5 Hz,88.5 Hz,023,Both N,Filter 1,FM
 38,449.70000,444.70000,5.00 MHz,-DUP,FM,W7BYU F,Tone,136.5 Hz,100.0 Hz,023,Both N,Off,49 182 UT Uintah Vernal W7BYU,,,,,,Filter 1,,,None,88.5 Hz,88.5 Hz,023,Both N,Filter 1,FM

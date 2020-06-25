@@ -1,7 +1,7 @@
 Channel Number,Receive Frequency,Transmit Frequency,Offset Frequency,Offset Direction,Operating Mode,Name,Tone Mode,CTCSS,Rx CTCSS,DCS,DCS Polarity,Select Scan,Comment,Digital Squelch,Digital Code,Your Callsign,Rpt-1 CallSign,Rpt-2 CallSign,Filter,Tx Data Mode,Data Mode,Split Tone Mode,Split CTCSS,Split Rx CTCSS,Split DCS,Split DCS Polarity,Tx Filter,Tx Operating Mode
 1,144.26500,144.26500,,Simplex,FM,KC2HSO FI,Tone,203.5 Hz,100.0 Hz,023,Both N,Off,35 16629 NM Los Alamos Los Alamos KC2HSO,,,,,,Filter 1,,,None,88.5 Hz,88.5 Hz,023,Both N,Filter 1,FM
 2,145.11500,144.51500,600 kHz,-DUP,FM,W0PHC F,Tone,88.5 Hz,100.0 Hz,023,Both N,Off,8 191 CO Pueblo Pueblo W0PHC,,,,,,Filter 1,,,None,88.5 Hz,88.5 Hz,023,Both N,Filter 1,FM
-3,145.11500,144.51500,600 kHz,-DUP,DV,KF5VBE S,None,100.0 Hz,100.0 Hz,023,Both N,Off,35 11428 NM San Juan Farmington KF5VBE,,,CQCQCQ,KF5VBE C,,Filter 1,,,None,88.5 Hz,88.5 Hz,023,Both N,Filter 1,FM
+3,145.11500,144.51500,600 kHz,-DUP,DV,KF5VBE S,None,100.0 Hz,100.0 Hz,023,Both N,Off,35 11428 NM San Juan Farmington KF5VBE,,,CQCQCQ,KF5VBE C,KF5VBE G,Filter 1,,,None,88.5 Hz,88.5 Hz,023,Both N,Filter 1,FM
 4,145.11500,144.51500,600 kHz,-DUP,FM,W0UPS FE,T Sql,100.0 Hz,100.0 Hz,023,Both N,Off,8 123 CO Larimer Fort Collins Horsetooth Mountain W0UPS,,,,,,Filter 1,,,None,88.5 Hz,88.5 Hz,023,Both N,Filter 1,FM
 5,145.13000,144.53000,600 kHz,-DUP,FM,KB0VJJ F,Tone,88.5 Hz,123.0 Hz,023,Both N,Off,8 37 CO El Paso Colorado Springs Cheyenne Mountain KB0VJJ,,,,,,Filter 1,,,None,88.5 Hz,88.5 Hz,023,Both N,Filter 1,FM
 6,145.14500,144.54500,600 kHz,-DUP,FM,W0CRA F,T Sql,107.2 Hz,107.2 Hz,023,Both N,Off,8 107 CO Clear Creek Idaho Springs Squaw Mountain W0CRA,,,,,,Filter 1,,,None,88.5 Hz,88.5 Hz,023,Both N,Filter 1,FM
@@ -10,7 +10,7 @@ Channel Number,Receive Frequency,Transmit Frequency,Offset Frequency,Offset Dire
 9,145.17500,144.57500,600 kHz,-DUP,FM,W0RRZ FI,Tone,107.2 Hz,100.0 Hz,023,Both N,Off,8 147 CO Mesa Grand Junction GJT W0RRZ,,,,,,Filter 1,,,None,88.5 Hz,88.5 Hz,023,Both N,Filter 1,FM
 10,145.17500,144.57500,600 kHz,-DUP,FM,NM5EM F,T Sql,156.7 Hz,156.7 Hz,023,Both N,Off,35 15615 NM Sandoval Cuba Eureka Mesa NM5EM,,,,,,Filter 1,,,None,88.5 Hz,88.5 Hz,023,Both N,Filter 1,FM
 11,145.19000,144.59000,600 kHz,-DUP,FM,KB5ITS F,Tone,100.0 Hz,100.0 Hz,023,Both N,Off,8 16606 CO Montezuma Cortez Goodman KB5ITS,,,,,,Filter 1,,,None,88.5 Hz,88.5 Hz,023,Both N,Filter 1,FM
-12,145.19000,144.59000,600 kHz,-DUP,DV,NM5EC S,None,100.0 Hz,100.0 Hz,023,Both N,Off,35 18232 NM Los Alamos Los Alamos Pajarito Mountain NM5EC,,,CQCQCQ,NM5EC  C,,Filter 1,,,None,88.5 Hz,88.5 Hz,023,Both N,Filter 1,FM
+12,145.19000,144.59000,600 kHz,-DUP,DV,NM5EC S,None,100.0 Hz,100.0 Hz,023,Both N,Off,35 18232 NM Los Alamos Los Alamos Pajarito Mountain NM5EC,,,CQCQCQ,NM5EC  C,NM5EC  G,Filter 1,,,None,88.5 Hz,88.5 Hz,023,Both N,Filter 1,FM
 13,145.19000,144.59000,600 kHz,-DUP,FM,N0OBA F,T Sql,131.8 Hz,131.8 Hz,023,Both N,Off,8 8741 CO Arapahoe Aurora N0OBA,,,,,,Filter 1,,,None,88.5 Hz,88.5 Hz,023,Both N,Filter 1,FM
 14,145.19000,144.59000,600 kHz,-DUP,FM,W5SF F,T Sql,162.2 Hz,162.2 Hz,023,Both N,Off,35 118 NM Los Alamos Los Alamos Pajarito Mountain W5SF,,,,,,Filter 1,,,None,88.5 Hz,88.5 Hz,023,Both N,Filter 1,FM
 15,145.22000,144.62000,600 kHz,-DUP,FM,KE0TY F,Tone,107.2 Hz,100.0 Hz,023,Both N,Off,8 8167 CO Mesa Grand Junction KE0TY,,,,,,Filter 1,,,None,88.5 Hz,88.5 Hz,023,Both N,Filter 1,FM
@@ -27,8 +27,8 @@ Channel Number,Receive Frequency,Transmit Frequency,Offset Frequency,Offset Dire
 26,145.35500,144.75500,600 kHz,-DUP,FM,KB0VJJ F,Tone,88.5 Hz,123.0 Hz,023,Both N,Off,8 149 CO Mesa Grand Junction Grand Mesa KB0VJJ,,,,,,Filter 1,,,None,88.5 Hz,88.5 Hz,023,Both N,Filter 1,FM
 27,145.35500,144.75500,600 kHz,-DUP,FM,N0JPX FI,Tone,100.0 Hz,100.0 Hz,023,Both N,Off,8 168 CO Huerfano La Veta N0JPX,,,,,,Filter 1,,,None,88.5 Hz,88.5 Hz,023,Both N,Filter 1,FM
 28,145.37000,144.77000,600 kHz,-DUP,FM,KB0VIU F,T Sql,100.0 Hz,100.0 Hz,023,Both N,Off,8 8169 CO La Plata Hesperus KB0VIU,,,,,,Filter 1,,,None,88.5 Hz,88.5 Hz,023,Both N,Filter 1,FM
-29,145.38500,144.78500,600 kHz,-DUP,DV,KC0CVU S,None,100.0 Hz,100.0 Hz,023,Both N,Off,8 8088 CO El Paso Colorado Springs Cheyenne Mountain KC0CVU,,,CQCQCQ,KC0CVU C,,Filter 1,,,None,88.5 Hz,88.5 Hz,023,Both N,Filter 1,FM
-30,145.38750,144.78750,600 kHz,-DUP,DV,KC0DS S,None,100.0 Hz,100.0 Hz,023,Both N,Off,8 8171 CO Boulder Boulder KC0DS,,,CQCQCQ,KC0DS  C,,Filter 1,,,None,88.5 Hz,88.5 Hz,023,Both N,Filter 1,FM
+29,145.38500,144.78500,600 kHz,-DUP,DV,KC0CVU S,None,100.0 Hz,100.0 Hz,023,Both N,Off,8 8088 CO El Paso Colorado Springs Cheyenne Mountain KC0CVU,,,CQCQCQ,KC0CVU C,KC0CVU G,Filter 1,,,None,88.5 Hz,88.5 Hz,023,Both N,Filter 1,FM
+30,145.38750,144.78750,600 kHz,-DUP,DV,KC0DS S,None,100.0 Hz,100.0 Hz,023,Both N,Off,8 8171 CO Boulder Boulder KC0DS,,,CQCQCQ,KC0DS  C,KC0DS  G,Filter 1,,,None,88.5 Hz,88.5 Hz,023,Both N,Filter 1,FM
 31,145.39000,144.79000,600 kHz,-DUP,FM,KF5PFO F,Tone,100.0 Hz,100.0 Hz,023,Both N,Off,35 137 NM Taos Red River Molycorp KF5PFO,,,,,,Filter 1,,,None,88.5 Hz,88.5 Hz,023,Both N,Filter 1,FM
 32,145.40000,144.80000,600 kHz,-DUP,FM,KB0UDD F,Tone,100.0 Hz,100.0 Hz,023,Both N,Off,8 5 CO Arapahoe Aurora Smoky Hill KB0UDD,,,,,,Filter 1,,,None,88.5 Hz,88.5 Hz,023,Both N,Filter 1,FM
 33,145.41500,144.81500,600 kHz,-DUP,FM,KA0WUC F,Tone,179.9 Hz,100.0 Hz,023,Both N,Off,8 249 CO Teller Woodland Park KA0WUC,,,,,,Filter 1,,,None,88.5 Hz,88.5 Hz,023,Both N,Filter 1,FM

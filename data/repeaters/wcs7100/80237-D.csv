@@ -1,5 +1,5 @@
 Channel Number,Receive Frequency,Transmit Frequency,Offset Frequency,Offset Direction,Operating Mode,Name,Tone Mode,CTCSS,Rx CTCSS,DCS,DCS Polarity,Select Scan,Comment,Digital Squelch,Digital Code,Your Callsign,Rpt-1 CallSign,Rpt-2 CallSign,Filter,Tx Data Mode,Data Mode,Split Tone Mode,Split CTCSS,Split Rx CTCSS,Split DCS,Split DCS Polarity,Tx Filter,Tx Operating Mode
-1,449.67500,444.67500,5.00 MHz,-DUP,DV,WR0AEN SI,Tone,136.5 Hz,100.0 Hz,023,Both N,Off,8 8213 CO Denver Denver WR0AEN,,,CQCQCQ,WR0AEN B,,Filter 1,,,None,88.5 Hz,88.5 Hz,023,Both N,Filter 1,FM
+1,449.67500,444.67500,5.00 MHz,-DUP,DV,WR0AEN SI,Tone,136.5 Hz,100.0 Hz,023,Both N,Off,8 8213 CO Denver Denver WR0AEN,,,CQCQCQ,WR0AEN B,WR0AEN G,Filter 1,,,None,88.5 Hz,88.5 Hz,023,Both N,Filter 1,FM
 2,449.70000,444.70000,5.00 MHz,-DUP,FM,Lake George F,Tone,107.2 Hz,100.0 Hz,023,Both N,Off,8 8214 CO Park Lake George,,,,,,Filter 1,,,None,88.5 Hz,88.5 Hz,023,Both N,Filter 1,FM
 3,449.72500,444.72500,5.00 MHz,-DUP,FM,N0PWZ FI,Tone,100.0 Hz,100.0 Hz,023,Both N,Off,8 189 CO El Paso Palmer Divide N0PWZ,,,,,,Filter 1,,,None,88.5 Hz,88.5 Hz,023,Both N,Filter 1,FM
 4,449.72500,444.72500,5.00 MHz,-DUP,FM,K0OJ F,Tone,127.3 Hz,100.0 Hz,023,Both N,Off,8 159 CO Weld Greeley UNC K0OJ,,,,,,Filter 1,,,None,88.5 Hz,88.5 Hz,023,Both N,Filter 1,FM

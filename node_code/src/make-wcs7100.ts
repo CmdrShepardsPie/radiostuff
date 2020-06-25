@@ -118,11 +118,13 @@ function convertToRadio(repeater: RepeaterStructured): Wcs7100 {
   let OperatingMode: Wcs7100OperatingMode = Wcs7100OperatingMode.FM; // (repeater.Digital && repeater.Digital.DStar && repeater.Digital.DStar.Node) ? Wcs7100OperatingMode.DV : Wcs7100OperatingMode.FM;
   let YourCallsign: Wcs7100YourCallsign = Wcs7100YourCallsign.None; // OperatingMode === Wcs7100OperatingMode.DV ? Wcs7100YourCallsign.CQCQCQ : Wcs7100YourCallsign.None;
   let Rpt1CallSign: string = '';
+  let Rpt2CallSign: string = '';
 
   if (repeater.Digital && repeater.Digital.DStar && repeater.Digital.DStar.Node) {
     OperatingMode = Wcs7100OperatingMode.DV;
     YourCallsign = Wcs7100YourCallsign.CQCQCQ;
     Rpt1CallSign = convertDStarCallSign(repeater.Callsign, repeater.Digital.DStar.Node);
+    Rpt2CallSign = convertDStarCallSign(repeater.Callsign, 'G');
   }
 
   let ToneMode: Wcs7100ToneMode = Wcs7100ToneMode.None;
@@ -157,6 +159,7 @@ function convertToRadio(repeater: RepeaterStructured): Wcs7100 {
     Comment,
     'Your Callsign': YourCallsign,
     'Rpt-1 CallSign': Rpt1CallSign,
+    'Rpt-2 CallSign': Rpt2CallSign,
   });
 }
 
@@ -204,14 +207,18 @@ function convertOffsetDirection(OffsetFrequency: number): Wcs7100OffsetDirection
 }
 
 function convertDStarCallSign(callsign: string, node: string): string {
+  log('convertDStarCallSign', 'callsign', callsign, 'node', node);
   if (callsign && node) {
-    const callSignModuleRegex: RegExp = new RegExp(`${ callsign }? ?\\(?([ABCDEFG])\\)?`);
+    const callSignModuleRegex: RegExp = new RegExp(`(${ callsign } )?\\(?([ABCDEFG])\\)?`);
     const callSignModule: RegExpMatchArray | null = node.match(callSignModuleRegex);
-
-    log('convertDStarCallSign', 'callsign', callsign, 'node', node, 'callSignModule', callSignModule, `${ callsign } ${ callSignModule![1] }`);
+    log('convertDStarCallSign', 'callsign', callsign, 'node', node, 'callSignModule', callSignModule);
 
     const callsignPadded: string = `${ callsign }        `;
-    return `${ callsignPadded.substr(0, 7) }${ callSignModule![1] }`;
+    const result: string = `${ callsignPadded.substr(0, 7) }${ callSignModule![callSignModule!.length - 1] }`;
+
+    log('convertDStarCallSign', 'callsign', callsign, 'node', node, 'callSignModule', callSignModule, 'result', result);
+
+    return result;
   }
   return '';
 }

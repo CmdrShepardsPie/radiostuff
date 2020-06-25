@@ -49,7 +49,7 @@ Channel Number,Receive Frequency,Transmit Frequency,Offset Frequency,Offset Dire
 48,147.28500,147.88500,600 kHz,+DUP,FM,KB0VJJ F,Tone,88.5 Hz,123.0 Hz,023,Both N,Off,8 204 CO Chaffee Salida Methodist Mountain KB0VJJ,,,,,,Filter 1,,,None,88.5 Hz,88.5 Hz,023,Both N,Filter 1,FM
 49,147.30000,147.90000,600 kHz,+DUP,FM,N0PYY F,T Sql,103.5 Hz,103.5 Hz,023,Both N,Off,8 84 CO Clear Creek Evergreen Squaw Mountain N0PYY,,,,,,Filter 1,,,None,88.5 Hz,88.5 Hz,023,Both N,Filter 1,FM
 50,147.30000,147.90000,600 kHz,+DUP,FM,K0VQ FE,Tone,107.2 Hz,100.0 Hz,023,Both N,Off,8 131 CO Garfield Glenwood Springs Three Mile Ridge K0VQ,,,,,,Filter 1,,,None,88.5 Hz,88.5 Hz,023,Both N,Filter 1,FM
-51,147.31500,147.91500,600 kHz,+DUP,DV,N0KEG MS,None,100.0 Hz,100.0 Hz,023,Both N,Off,8 17676 CO Arapahoe Centennial N0KEG,,,CQCQCQ,N0KEG  C,,Filter 1,,,None,88.5 Hz,88.5 Hz,023,Both N,Filter 1,FM
+51,147.31500,147.91500,600 kHz,+DUP,DV,N0KEG MS,None,100.0 Hz,100.0 Hz,023,Both N,Off,8 17676 CO Arapahoe Centennial N0KEG,,,CQCQCQ,N0KEG  C,N0KEG  G,Filter 1,,,None,88.5 Hz,88.5 Hz,023,Both N,Filter 1,FM
 52,147.32000,147.92000,600 kHz,+DUP,FM,K7SDC FEI,Tone,88.5 Hz,100.0 Hz,023,Both N,Off,49 58 UT Carbon Sunnyside Bruin Point K7SDC,,,,,,Filter 1,,,None,88.5 Hz,88.5 Hz,023,Both N,Filter 1,FM
 53,147.33000,147.93000,600 kHz,+DUP,FM,W0TX F,Tone,100.0 Hz,100.0 Hz,023,Both N,Off,8 85 CO Jefferson Lakewood Green Mountain W0TX,,,,,,Filter 1,,,None,88.5 Hz,88.5 Hz,023,Both N,Filter 1,FM
 54,147.33000,147.93000,600 kHz,+DUP,FM,KI0MR F,Tone,107.2 Hz,100.0 Hz,023,Both N,Off,8 8179 CO Delta Paonia KI0MR,,,,,,Filter 1,,,None,88.5 Hz,88.5 Hz,023,Both N,Filter 1,FM
@@ -76,9 +76,9 @@ Channel Number,Receive Frequency,Transmit Frequency,Offset Frequency,Offset Dire
 75,147.58500,147.58500,,Simplex,FM,FM Voice ,None,100.0 Hz,100.0 Hz,023,Both N,Off,FM Voice,,,,,,Filter 1,,,None,88.5 Hz,88.5 Hz,023,Both N,Filter 1,FM
 76,423.00000,1243.00000,,+DUP,FM,W0BTV F,None,100.0 Hz,100.0 Hz,023,Both N,Off,8 18534 CO Boulder Boulder W0BTV,,,,,,Filter 1,,,None,88.5 Hz,88.5 Hz,023,Both N,Filter 1,FM
 77,442.00000,447.00000,5.00 MHz,+DUP,FM,KA5BIW F,Tone,100.0 Hz,100.0 Hz,023,Both N,Off,35 15608 NM Los Alamos Los Alamos KA5BIW,,,,,,Filter 1,,,None,88.5 Hz,88.5 Hz,023,Both N,Filter 1,FM
-78,442.42500,447.42500,5.00 MHz,+DUP,DV,NM5WR S,None,100.0 Hz,100.0 Hz,023,Both N,Off,35 5181 NM Los Alamos Los Alamos NM5WR,,,CQCQCQ,NM5WR  B,,Filter 1,,,None,88.5 Hz,88.5 Hz,023,Both N,Filter 1,FM
+78,442.42500,447.42500,5.00 MHz,+DUP,DV,NM5WR S,None,100.0 Hz,100.0 Hz,023,Both N,Off,35 5181 NM Los Alamos Los Alamos NM5WR,,,CQCQCQ,NM5WR  B,NM5WR  G,Filter 1,,,None,88.5 Hz,88.5 Hz,023,Both N,Filter 1,FM
 79,443.10000,448.10000,5.00 MHz,+DUP,FM,NM5SC FL,Tone,100.0 Hz,100.0 Hz,023,Both N,Off,35 9767 NM Sandoval San Ysidro Pajarito Peak NM5SC,,,,,,Filter 1,,,None,88.5 Hz,88.5 Hz,023,Both N,Filter 1,FM
-80,444.15000,449.15000,5.00 MHz,+DUP,DV,KF5VBF S,None,100.0 Hz,100.0 Hz,023,Both N,Off,35 15650 NM San Juan Farmington KF5VBF,,,CQCQCQ,KF5VBF B,,Filter 1,,,None,88.5 Hz,88.5 Hz,023,Both N,Filter 1,FM
+80,444.15000,449.15000,5.00 MHz,+DUP,DV,KF5VBF S,None,100.0 Hz,100.0 Hz,023,Both N,Off,35 15650 NM San Juan Farmington KF5VBF,,,CQCQCQ,KF5VBF B,KF5VBF G,Filter 1,,,None,88.5 Hz,88.5 Hz,023,Both N,Filter 1,FM
 81,444.35000,449.35000,5.00 MHz,+DUP,FM,NM5ML F,Tone,100.0 Hz,100.0 Hz,023,Both N,Off,35 77 NM Colfax Eagle Nest Iron Mountain NM5ML,,,,,,Filter 1,,,None,88.5 Hz,88.5 Hz,023,Both N,Filter 1,FM
 82,444.97500,449.97500,5.00 MHz,+DUP,FM,N5TSV F,Tone,123.0 Hz,100.0 Hz,023,Both N,Off,35 183 NM Taos Taos Wheeler Peak N5TSV,,,,,,Filter 1,,,None,88.5 Hz,88.5 Hz,023,Both N,Filter 1,FM
 83,445.70000,445.70000,,Simplex,FM,FM Voice ,None,100.0 Hz,100.0 Hz,023,Both N,Off,FM Voice,,,,,,Filter 1,,,None,88.5 Hz,88.5 Hz,023,Both N,Filter 1,FM
