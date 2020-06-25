@@ -237,7 +237,7 @@ Channel Number,Receive Frequency,Transmit Frequency,Offset Frequency,Offset Dire
 236,447.72500,442.72500,5.00 MHz,Minus,Auto,W7RF F,Large,Tone,131.8 Hz,023,Low,Off,Auto,Off,8 8194 CO Larimer Fort Collins W7RF,1500 Hz
 237,447.75000,442.75000,5.00 MHz,Minus,Auto,WD0EKR FI,Large,T Sql,103.5 Hz,023,Low,Off,Auto,Off,8 32 CO Fremont Canon City Fremont Peak WD0EKR,1500 Hz
 238,447.75000,442.75000,5.00 MHz,Minus,Auto,N0SZ FI,Large,T Sql,141.3 Hz,023,Low,Off,Auto,Off,8 19 CO Boulder Boulder Lee Hill N0SZ,1500 Hz
-239,447.82500,442.82500,5.00 MHz,Minus,Auto,W0TX F,Large,DCS,100.0 Hz,073,Low,Off,Auto,Off,8 5805 CO Jefferson Lakewood St Anthony Medical Campus W0TX,1500 Hz
+239,447.82500,442.82500,5.00 MHz,Minus,Auto,W0TX F,Large,T DCS,100.0 Hz,073,Low,Off,Auto,Off,8 5805 CO Jefferson Lakewood St Anthony Medical Campus W0TX,1500 Hz
 240,447.85000,442.85000,5.00 MHz,Minus,Auto,AC0KQ FL,Large,T Sql,141.3 Hz,023,Low,Off,Auto,Off,8 9580 CO Clear Creek Evergreen Saddleback Mountain AC0KQ,1500 Hz
 241,447.87500,442.87500,5.00 MHz,Minus,Auto,N6LXX FL,Large,T Sql,107.2 Hz,023,Low,Off,Auto,Off,8 10513 CO Jefferson Morrison Mt. Morrison N6LXX,1500 Hz
 242,447.90000,442.90000,5.00 MHz,Minus,Auto,WB0TPT F,Large,None,100.0 Hz,023,Low,Off,Auto,Off,8 8195 CO Denver Denver WB0TPT,1500 Hz

@@ -40,13 +40,7 @@ export function filterMode(...modes: Mode[]): (filter: RepeaterStructured) => bo
       (modes.includes(Mode.DMR) && filter.Digital != null && filter.Digital.DMR != null) ||
       (modes.includes(Mode.P25) && filter.Digital != null && filter.Digital.P25 != null) ||
       (modes.includes(Mode.DStar) && filter.Digital != null && filter.Digital.DStar != null) ||
-      (
-        modes.includes(Mode.YSF) &&
-        (
-          (filter.Digital != null && filter.Digital.YSF != null) ||
-          (filter.VOIP != null && filter.VOIP.Wires != null)
-        )
-      )
+      (modes.includes(Mode.YSF) && filter.Digital != null && filter.Digital.YSF != null)
     );
 }
 
@@ -89,14 +83,14 @@ export function getRepeaterSuffix(repeater: RepeaterStructured): string {
   if (repeater.Digital && repeater.Digital.YSF) {
     Name += 'Y';
   }
+  if (repeater.Digital && repeater.Digital.DStar) {
+    Name += 'S';
+  }
   if (repeater.Digital && repeater.Digital.ATV) {
     Name += 'T';
   }
   if (repeater.Digital && repeater.Digital.DMR) {
     Name += 'M';
-  }
-  if (repeater.Digital && repeater.Digital.DStar) {
-    Name += 'S';
   }
   if (repeater.Digital && repeater.Digital.P25) {
     Name += 'P';
