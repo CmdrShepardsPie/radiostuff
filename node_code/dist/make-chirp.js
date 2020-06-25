@@ -7,7 +7,7 @@ var __importDefault = (this && this.__importDefault) || function (mod) {
         if (v !== undefined) module.exports = v;
     }
     else if (typeof define === "function" && define.amd) {
-        define(["require", "exports", "module-alias/register", "@helpers/fs-helpers", "@helpers/log-helpers", "@interfaces/i-repeater-structured", "gps-distance"], factory);
+        define(["require", "exports", "module-alias/register", "@helpers/fs-helpers", "@helpers/log-helpers", "@interfaces/repeater-structured", "gps-distance"], factory);
     }
 })(function (require, exports) {
     "use strict";
@@ -15,7 +15,7 @@ var __importDefault = (this && this.__importDefault) || function (mod) {
     require("module-alias/register");
     const fs_helpers_1 = require("@helpers/fs-helpers");
     const log_helpers_1 = require("@helpers/log-helpers");
-    const i_repeater_structured_1 = require("@interfaces/i-repeater-structured");
+    const repeater_structured_1 = require("@interfaces/repeater-structured");
     const gps_distance_1 = __importDefault(require("gps-distance"));
     const log = log_helpers_1.createLog('Make Chirp');
     const chirp = {
@@ -55,8 +55,8 @@ var __importDefault = (this && this.__importDefault) || function (mod) {
                 (filter.Frequency.Output >= 222 && filter.Frequency.Output <= 225) ||
                 (filter.Frequency.Output >= 420 && filter.Frequency.Output <= 450))
                 .filter((filter) => !filter.Digital &&
-                filter.Status !== i_repeater_structured_1.RepeaterStatus.OffAir &&
-                filter.Use === i_repeater_structured_1.RepeaterUse.Open),
+                filter.Status !== repeater_structured_1.RepeaterStatus.OffAir &&
+                filter.Use === repeater_structured_1.RepeaterUse.Open),
         ]
             .map((map, index) => ({ ...convertToRadio(map), Location: index }))
             .filter((filter) => {

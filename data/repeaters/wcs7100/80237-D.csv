@@ -1,0 +1,22 @@
+Channel Number,Receive Frequency,Transmit Frequency,Offset Frequency,Offset Direction,Operating Mode,Name,Tone Mode,CTCSS,Rx CTCSS,DCS,DCS Polarity,Select Scan,Comment,Digital Squelch,Digital Code,Your Callsign,Rpt-1 CallSign,Rpt-2 CallSign,Filter,Tx Data Mode,Data Mode,Split Tone Mode,Split CTCSS,Split Rx CTCSS,Split DCS,Split DCS Polarity,Tx Filter,Tx Operating Mode
+1,449.67500,444.67500,5.00 MHz,-DUP,DV,WR0AEN SI,Tone,136.5 Hz,100.0 Hz,023,Both N,Off,8 8213 CO Denver Denver WR0AEN,,,CQCQCQ,WR0AEN B,,Filter 1,,,None,88.5 Hz,88.5 Hz,023,Both N,Filter 1,FM
+2,449.70000,444.70000,5.00 MHz,-DUP,FM,Lake George F,Tone,107.2 Hz,100.0 Hz,023,Both N,Off,8 8214 CO Park Lake George,,,,,,Filter 1,,,None,88.5 Hz,88.5 Hz,023,Both N,Filter 1,FM
+3,449.72500,444.72500,5.00 MHz,-DUP,FM,N0PWZ FI,Tone,100.0 Hz,100.0 Hz,023,Both N,Off,8 189 CO El Paso Palmer Divide N0PWZ,,,,,,Filter 1,,,None,88.5 Hz,88.5 Hz,023,Both N,Filter 1,FM
+4,449.72500,444.72500,5.00 MHz,-DUP,FM,K0OJ F,Tone,127.3 Hz,100.0 Hz,023,Both N,Off,8 159 CO Weld Greeley UNC K0OJ,,,,,,Filter 1,,,None,88.5 Hz,88.5 Hz,023,Both N,Filter 1,FM
+5,449.72500,444.72500,5.00 MHz,-DUP,FM,K0ELK FLI,Tone,179.9 Hz,100.0 Hz,023,Both N,Off,8 35 CO Garfield Carbondale Four Mile Ridge K0ELK,,,,,,Filter 1,,,None,88.5 Hz,88.5 Hz,023,Both N,Filter 1,FM
+6,449.75000,444.75000,5.00 MHz,-DUP,FM,N0ZSN FLEI,T Sql,100.0 Hz,100.0 Hz,023,Both N,Off,8 13485 CO Las Animas La Veta Cordova Pass N0ZSN,,,,,,Filter 1,,,None,88.5 Hz,88.5 Hz,023,Both N,Filter 1,FM
+7,449.75000,444.75000,5.00 MHz,-DUP,FM,KI0GO F,T Sql,103.5 Hz,103.5 Hz,023,Both N,Off,8 265 CO Jefferson Golden Guy Hill KI0GO,,,,,,Filter 1,,,None,88.5 Hz,88.5 Hz,023,Both N,Filter 1,FM
+8,449.77500,444.77500,5.00 MHz,-DUP,FM,KD0SMZ FEI,Tone,173.8 Hz,88.5 Hz,023,Both N,Off,8 11793 CO Mesa Grand Junction KD0SMZ,,,,,,Filter 1,,,None,88.5 Hz,88.5 Hz,023,Both N,Filter 1,FM
+9,449.80000,444.80000,5.00 MHz,-DUP,FM,WA4HND F,Tone,107.2 Hz,100.0 Hz,023,Both N,Off,8 253 CO Garfield Parachute Mount Callahan WA4HND,,,,,,Filter 1,,,None,88.5 Hz,88.5 Hz,023,Both N,Filter 1,FM
+10,449.80000,444.80000,5.00 MHz,-DUP,FM,N0FH FEI,Tone,123.0 Hz,100.0 Hz,023,Both N,Off,8 120 CO Larimer Estes Park N0FH,,,,,,Filter 1,,,None,88.5 Hz,88.5 Hz,023,Both N,Filter 1,FM
+11,449.82500,444.82500,5.00 MHz,-DUP,FM,W0ALC F,Tone,100.0 Hz,100.0 Hz,023,Both N,Off,8 3760 CO Delta Cedaredge W0ALC,,,,,,Filter 1,,,None,88.5 Hz,88.5 Hz,023,Both N,Filter 1,FM
+12,449.82500,444.82500,5.00 MHz,-DUP,FM,W0WYX F,Tone,103.5 Hz,100.0 Hz,023,Both N,Off,8 266 CO Boulder Broomfield W0WYX,,,,,,Filter 1,,,None,88.5 Hz,88.5 Hz,023,Both N,Filter 1,FM
+13,449.85000,444.85000,5.00 MHz,-DUP,FM,W0QEY F,T Sql,100.0 Hz,100.0 Hz,023,Both N,Off,8 124 CO Larimer Fort Collins CSU Durward Hall W0QEY,,,,,,Filter 1,,,None,88.5 Hz,88.5 Hz,023,Both N,Filter 1,FM
+14,449.85000,444.85000,5.00 MHz,-DUP,FM,WA4HND F,T Sql,131.8 Hz,131.8 Hz,023,Both N,Off,8 13637 CO Garfield Glenwood Springs Lookout Mountain WA4HND,,,,,,Filter 1,,,None,88.5 Hz,88.5 Hz,023,Both N,Filter 1,FM
+15,449.90000,444.90000,5.00 MHz,-DUP,FM,N0AFO F,T Sql,107.2 Hz,107.2 Hz,023,Both N,Off,8 243 CO Eagle Vail N0AFO,,,,,,Filter 1,,,None,88.5 Hz,88.5 Hz,023,Both N,Filter 1,FM
+16,449.90000,444.90000,5.00 MHz,-DUP,FM,N1FSX F,Tone,107.2 Hz,100.0 Hz,023,Both N,Off,8 7395 CO Lincoln Punkin Center N1FSX,,,,,,Filter 1,,,None,88.5 Hz,88.5 Hz,023,Both N,Filter 1,FM
+17,449.92500,444.92500,5.00 MHz,-DUP,FM,WZ0N F,T Sql,103.5 Hz,103.5 Hz,023,Both N,Off,8 3811 CO Chaffee Salida Methodist Mountain WZ0N,,,,,,Filter 1,,,None,88.5 Hz,88.5 Hz,023,Both N,Filter 1,FM
+18,449.92500,444.92500,5.00 MHz,-DUP,FM,K0EB FEI,T Sql,114.8 Hz,114.8 Hz,023,Both N,Off,8 8216 CO Weld Hudson K0EB,,,,,,Filter 1,,,None,88.5 Hz,88.5 Hz,023,Both N,Filter 1,FM
+19,449.95000,444.95000,5.00 MHz,-DUP,FM,W9SL F,T Sql,77.0 Hz,77.0 Hz,023,Both N,Off,8 8743 CO Arapahoe Aurora W9SL,,,,,,Filter 1,,,None,88.5 Hz,88.5 Hz,023,Both N,Filter 1,FM
+20,449.95000,444.95000,5.00 MHz,-DUP,FM,K5GF F,None,100.0 Hz,100.0 Hz,023,Both N,Off,8 161 CO Gunnison Gunnison K5GF,,,,,,Filter 1,,,None,88.5 Hz,88.5 Hz,023,Both N,Filter 1,FM
+21,449.97500,444.97500,5.00 MHz,-DUP,FM,K0JSC FLEI,T Sql,100.0 Hz,100.0 Hz,023,Both N,Off,8 13510 CO Chaffee Salida Methodist Mountain K0JSC,,,,,,Filter 1,,,None,88.5 Hz,88.5 Hz,023,Both N,Filter 1,FM

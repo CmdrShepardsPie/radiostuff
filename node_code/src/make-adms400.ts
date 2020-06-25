@@ -12,7 +12,6 @@ import {
   Adms400OffsetFrequency,
   Adms400ToneMode,
 } from '@interfaces/adms400';
-import gpsDistance, { Point } from 'gps-distance';
 import chalk from 'chalk';
 import {
   buildComment,
@@ -114,13 +113,13 @@ function convertToRadio(repeater: RepeaterStructured): Adms400 {
   if (TransmitSquelchTone) {
     ToneMode = Adms400ToneMode.Tone; // "TONE ENC";
   } else if (TransmitDigitalTone) {
-    ToneMode = Adms400ToneMode.DCS; // "DCS";
+    ToneMode = Adms400ToneMode.T_DCS; // "DCS";
   }
 
   if (TransmitSquelchTone && ReceiveSquelchTone && TransmitSquelchTone === ReceiveSquelchTone) {
     ToneMode = Adms400ToneMode.T_Sql; // "TONE SQL";
   } else if (TransmitDigitalTone && ReceiveDigitalTone && TransmitDigitalTone === ReceiveDigitalTone) {
-    ToneMode = Adms400ToneMode.T_DCS; // "DCS";
+    ToneMode = Adms400ToneMode.DCS; // "DCS";
   }
 
   const CTCSS: Adms400CtcssTone = ((TransmitSquelchTone || 100).toFixed(1) + ' Hz') as Adms400CtcssTone;
