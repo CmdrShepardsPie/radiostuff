@@ -1,0 +1,29 @@
+{
+  "ID": 56,
+  "StateID": 49,
+  "Callsign": "K7SDC",
+  "Location": {
+    "Latitude": 38.07260132,
+    "Longitude": -110.79499817,
+    "County": "Wayne",
+    "State": "UT",
+    "Local": "Hanksville, Ellen Peak"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 147.68,
+    "Output": 147.08
+  },
+  "SquelchTone": {
+    "Input": 136.5
+  },
+  "VOIP": {
+    "EchoLink": {
+      "NodeID": 64264
+    },
+    "IRLP": {
+      "NodeID": 3270
+    }
+  }
+}

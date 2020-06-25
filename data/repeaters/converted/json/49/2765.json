@@ -1,0 +1,21 @@
+{
+  "ID": 2765,
+  "StateID": 49,
+  "Callsign": "W7CEU",
+  "Location": {
+    "Latitude": 39.61190033,
+    "Longitude": -110.81199646,
+    "County": "Carbon",
+    "State": "UT",
+    "Local": "Price, Wood Hill"
+  },
+  "Use": "Open",
+  "Status": "Other",
+  "Frequency": {
+    "Input": 443.3,
+    "Output": 448.3
+  },
+  "SquelchTone": {
+    "Input": 88.5
+  }
+}

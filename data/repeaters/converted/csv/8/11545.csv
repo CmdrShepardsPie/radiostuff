@@ -1,0 +1,2 @@
+ID,StateID,Callsign,Use,Status,DigitalTone,Digital,VOIP,Location.Latitude,Location.Longitude,Location.County,Location.State,Location.Local,Frequency.Input,Frequency.Output,SquelchTone.Input,SquelchTone.Output
+11545,8,KB5ITS,Open,On-Air,,,,37.2621994,-107.90599823,La Plata,CO,"Durango, Smelter Mountain",147.735,147.135,100,100

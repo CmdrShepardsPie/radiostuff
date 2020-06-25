@@ -1,0 +1,21 @@
+{
+  "ID": 128,
+  "StateID": 35,
+  "Callsign": "NM5SJ",
+  "Location": {
+    "Latitude": 36.23329926,
+    "Longitude": -107.56199646,
+    "County": "Rio Arriba",
+    "State": "NM",
+    "Local": "Lybrook"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 144.89,
+    "Output": 145.49
+  },
+  "SquelchTone": {
+    "Input": 100
+  }
+}

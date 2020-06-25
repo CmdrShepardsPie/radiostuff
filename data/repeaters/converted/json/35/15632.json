@@ -1,0 +1,21 @@
+{
+  "ID": 15632,
+  "StateID": 35,
+  "Callsign": "NM5EM",
+  "Location": {
+    "Latitude": 36.124,
+    "Longitude": -106.396,
+    "County": "Rio Arriba",
+    "State": "NM",
+    "Local": "Abiquiu, Cerro Pelon"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 147.64,
+    "Output": 147.04
+  },
+  "SquelchTone": {
+    "Input": 141.3
+  }
+}

@@ -1,0 +1,2 @@
+ID,StateID,Callsign,Use,Status,DigitalTone,Digital,VOIP,Location.Latitude,Location.Longitude,Location.County,Location.State,Location.Local,Frequency.Input,Frequency.Output,SquelchTone.Input,SquelchTone.Output
+8169,8,KB0VIU,Open,On-Air,,,,37.29999924,-108.02799988,La Plata,CO,Hesperus,144.77,145.37,100,100

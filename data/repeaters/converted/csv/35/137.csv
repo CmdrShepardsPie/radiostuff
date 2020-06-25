@@ -1,0 +1,2 @@
+ID,StateID,Callsign,Use,Status,DigitalTone,Digital,VOIP,Location.Latitude,Location.Longitude,Location.County,Location.State,Location.Local,Frequency.Input,Frequency.Output,SquelchTone.Input,SquelchTone.Output
+137,35,KF5PFO,Open,On-Air,,,,36.69300079,-105.51399994,Taos,NM,"Red River, Molycorp",144.79,145.39,100,

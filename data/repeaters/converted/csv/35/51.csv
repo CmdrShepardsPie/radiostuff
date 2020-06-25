@@ -1,0 +1,2 @@
+ID,StateID,Callsign,Use,Status,DigitalTone,Digital,VOIP,Location.Latitude,Location.Longitude,Location.County,Location.State,Location.Local,Frequency.Input,Frequency.Output,SquelchTone.Input,SquelchTone.Output
+51,35,NM5ML,Open,On-Air,,,,36.6067009,-107.80500031,San Juan,NM,"Bloomfield, Harris Mesa",147.88,147.28,67,

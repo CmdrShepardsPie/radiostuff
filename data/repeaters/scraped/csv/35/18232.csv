@@ -1,0 +1,2 @@
+Frequency,Offset,Tone,Call,Location,ST/PR,Use,VOIP,DGTL,Mi,Dir,,state_id,ID,Latitude,Longitude,Downlink,Uplink,D-STAR Enabled,Node,Sources,County,Grid,Op Status,Coverage,Sponsor,Features,Last update
+145.19,-0.6,,NM5EC,"Los Alamos, Pajarito Mountain",NM,OPEN,,S,194.32,SSE,,35,18232,35.88669968,-106.39499664,145.19,144.59,1,NM5EC (C) Repeater,jfindu lookup / dstar-users lookup,Los Alamos,DM65TV,On-Air,Wide area,SFARC,"Mixed mode DStar, analog and fusion (under another entry, using W5SF callsign)",2019-10-30

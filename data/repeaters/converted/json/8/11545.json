@@ -1,0 +1,22 @@
+{
+  "ID": 11545,
+  "StateID": 8,
+  "Callsign": "KB5ITS",
+  "Location": {
+    "Latitude": 37.2621994,
+    "Longitude": -107.90599823,
+    "County": "La Plata",
+    "State": "CO",
+    "Local": "Durango, Smelter Mountain"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 147.735,
+    "Output": 147.135
+  },
+  "SquelchTone": {
+    "Input": 100,
+    "Output": 100
+  }
+}

@@ -1,0 +1,2 @@
+ID,StateID,Callsign,Use,Status,DigitalTone,Digital,VOIP,Location.Latitude,Location.Longitude,Location.County,Location.State,Location.Local,Frequency.Input,Frequency.Output,SquelchTone.Input,SquelchTone.Output
+113,8,K0EP,Open,On-Air,,,,37.41529846,-108.01200104,La Plata,CO,"Durango, Eagle Pass",146.07,146.67,100,100

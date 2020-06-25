@@ -1,0 +1,21 @@
+{
+  "ID": 50,
+  "StateID": 35,
+  "Callsign": "K5WXI",
+  "Location": {
+    "Latitude": 36.71110153,
+    "Longitude": -107.98400116,
+    "County": "San Juan",
+    "State": "NM",
+    "Local": "Bloomfield"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 146.32,
+    "Output": 146.92
+  },
+  "SquelchTone": {
+    "Input": 100
+  }
+}

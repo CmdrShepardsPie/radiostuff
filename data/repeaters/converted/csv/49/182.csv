@@ -1,0 +1,2 @@
+ID,StateID,Callsign,Use,Status,DigitalTone,Digital,VOIP,Location.Latitude,Location.Longitude,Location.County,Location.State,Location.Local,Frequency.Input,Frequency.Output,SquelchTone.Input,SquelchTone.Output
+182,49,W7BYU,Open,Other,,,,40.35639954,-109.14600372,Uintah,UT,Vernal,444.7,449.7,136.5,

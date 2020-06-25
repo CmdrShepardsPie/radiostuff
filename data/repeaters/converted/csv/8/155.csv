@@ -1,0 +1,2 @@
+ID,StateID,Callsign,Use,Status,DigitalTone,Digital,Location.Latitude,Location.Longitude,Location.County,Location.State,Location.Local,Frequency.Input,Frequency.Output,SquelchTone.Input,SquelchTone.Output,VOIP.AllStar,VOIP.EchoLink,VOIP.Wires,VOIP.IRLP.NodeID
+155,8,WA4HND,Open,On-Air,,,39.06560135,-108.7480011,Mesa,CO,"Grand Junction, Black Ridge",444.575,449.575,131.8,131.8,,,,3710

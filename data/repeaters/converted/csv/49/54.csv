@@ -1,0 +1,2 @@
+ID,StateID,Callsign,Use,Status,DigitalTone,Digital,Location.Latitude,Location.Longitude,Location.County,Location.State,Location.Local,Frequency.Input,Frequency.Output,SquelchTone.Input,SquelchTone.Output,VOIP.AllStar,VOIP.Wires,VOIP.EchoLink.NodeID,VOIP.IRLP.NodeID
+54,49,K7SDC,Open,On-Air,,,39.20980072,-111.14199829,Emery,UT,"Castle Dale, Horn Mountain",147.66,147.06,88.5,,,,64264,3270

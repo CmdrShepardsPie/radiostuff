@@ -1,0 +1,22 @@
+{
+  "ID": 11546,
+  "StateID": 8,
+  "Callsign": "K0EP",
+  "Location": {
+    "Latitude": 37.27529907,
+    "Longitude": -107.87999725,
+    "County": "La Plata",
+    "State": "CO",
+    "Local": "Durango"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 444.85,
+    "Output": 449.85
+  },
+  "SquelchTone": {
+    "Input": 100,
+    "Output": 100
+  }
+}

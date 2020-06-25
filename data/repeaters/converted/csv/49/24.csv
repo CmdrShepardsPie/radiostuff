@@ -1,0 +1,2 @@
+ID,StateID,Callsign,Use,Status,DigitalTone,Digital,VOIP,Location.Latitude,Location.Longitude,Location.County,Location.State,Location.Local,Frequency.Input,Frequency.Output,SquelchTone.Input,SquelchTone.Output
+24,49,K7HEN,Open,On-Air,,,,40.75170135,-109.48699951,Uintah,UT,"Vernal, Grizzly Ridge",144.89,145.49,136.5,

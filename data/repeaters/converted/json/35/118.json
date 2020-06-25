@@ -1,0 +1,22 @@
+{
+  "ID": 118,
+  "StateID": 35,
+  "Callsign": "W5SF",
+  "Location": {
+    "Latitude": 35.88669968,
+    "Longitude": -106.39499664,
+    "County": "Los Alamos",
+    "State": "NM",
+    "Local": "Los Alamos, Pajarito Mountain"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 144.59,
+    "Output": 145.19
+  },
+  "SquelchTone": {
+    "Input": 162.2,
+    "Output": 162.2
+  }
+}

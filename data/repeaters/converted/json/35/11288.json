@@ -1,0 +1,21 @@
+{
+  "ID": 11288,
+  "StateID": 35,
+  "Callsign": "NM5ML",
+  "Location": {
+    "Latitude": 36.59780121,
+    "Longitude": -105.44499969,
+    "County": "Taos",
+    "State": "NM",
+    "Local": "Taos, Ski Valley"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 147.74,
+    "Output": 147.14
+  },
+  "SquelchTone": {
+    "Input": 67
+  }
+}

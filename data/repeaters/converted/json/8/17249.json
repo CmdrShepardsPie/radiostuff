@@ -1,0 +1,24 @@
+{
+  "ID": 17249,
+  "StateID": 8,
+  "Callsign": "N0SZ",
+  "Location": {
+    "Latitude": 40.08750153,
+    "Longitude": -108.80500031,
+    "County": "Rio Blanco",
+    "State": "CO",
+    "Local": "Rangely, Cathedral Bluffs"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 440.2625,
+    "Output": 445.2625
+  },
+  "Digital": {
+    "DMR": {
+      "ColorCode": 7,
+      "ID": 310154
+    }
+  }
+}

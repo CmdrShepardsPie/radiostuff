@@ -1,0 +1,2 @@
+ID,StateID,Callsign,Use,Status,DigitalTone,Digital,VOIP,Location.Latitude,Location.Longitude,Location.County,Location.State,Location.Local,Frequency.Input,Frequency.Output,SquelchTone.Input,SquelchTone.Output
+115,8,KC5EVE,Open,On-Air,,,,37.27529907,-107.8789978,La Plata,CO,Durango,443.625,448.625,131.8,131.8

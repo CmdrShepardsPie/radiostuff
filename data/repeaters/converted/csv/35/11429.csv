@@ -1,0 +1,2 @@
+ID,StateID,Callsign,Use,Status,SquelchTone,DigitalTone,VOIP,Location.Latitude,Location.Longitude,Location.County,Location.State,Location.Local,Frequency.Input,Frequency.Output,Digital.DMR,Digital.P25,Digital.YSF,Digital.DStar.Node
+11429,35,KF5VBD,Closed,On-Air,,,,36.65000153,-107.79100037,San Juan,NM,"Bloomfield, Harris Mesa",1272.3,1292.3,,,,KF5VBD (A) Gateway Repeater

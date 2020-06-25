@@ -1,0 +1,24 @@
+{
+  "ID": 15733,
+  "StateID": 35,
+  "Callsign": "NM5BB",
+  "Location": {
+    "Latitude": 35.88669968,
+    "Longitude": -106.39499664,
+    "County": "Los Alamos",
+    "State": "NM",
+    "Local": "Los Alamos, Pajarito Mountain"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 447.225,
+    "Output": 442.225
+  },
+  "Digital": {
+    "DMR": {
+      "ColorCode": 7,
+      "ID": 313505
+    }
+  }
+}

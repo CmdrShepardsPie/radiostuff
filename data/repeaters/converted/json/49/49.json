@@ -1,0 +1,18 @@
+{
+  "ID": 49,
+  "StateID": 49,
+  "Callsign": "K7QEQ",
+  "Location": {
+    "Latitude": 37.83919907,
+    "Longitude": -109.46199799,
+    "County": "San Juan",
+    "State": "UT",
+    "Local": "Monticello, Abajo Pk"
+  },
+  "Use": "Closed",
+  "Status": "Other",
+  "Frequency": {
+    "Input": 222.34,
+    "Output": 223.94
+  }
+}

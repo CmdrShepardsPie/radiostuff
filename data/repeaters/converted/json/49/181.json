@@ -1,0 +1,21 @@
+{
+  "ID": 181,
+  "StateID": 49,
+  "Callsign": "W7BAR",
+  "Location": {
+    "Latitude": 40.73960114,
+    "Longitude": -109.48400116,
+    "County": "Uintah",
+    "State": "UT",
+    "Local": "Vernal, Grizzly Ridge"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 147.64,
+    "Output": 147.04
+  },
+  "SquelchTone": {
+    "Input": 136.5
+  }
+}

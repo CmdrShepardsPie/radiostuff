@@ -1,0 +1,2 @@
+ID,StateID,Callsign,Use,Status,DigitalTone,Digital,VOIP,Location.Latitude,Location.Longitude,Location.County,Location.State,Location.Local,Frequency.Input,Frequency.Output,SquelchTone.Input,SquelchTone.Output
+183,35,N5TSV,Open,On-Air,,,,36.55670166,-105.41600037,Taos,NM,"Taos, Wheeler Peak",449.975,444.975,123,

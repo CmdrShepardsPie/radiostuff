@@ -1,0 +1,18 @@
+{
+  "ID": 196,
+  "StateID": 35,
+  "Callsign": "KB5RX",
+  "Location": {
+    "Latitude": 35.88399887,
+    "Longitude": -106.38200378,
+    "County": "Los Alamos",
+    "State": "NM",
+    "Local": "Los Alamos, Pajarito Mountain"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 222.34,
+    "Output": 223.94
+  }
+}

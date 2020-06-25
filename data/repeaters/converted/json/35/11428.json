@@ -1,0 +1,23 @@
+{
+  "ID": 11428,
+  "StateID": 35,
+  "Callsign": "KF5VBE",
+  "Location": {
+    "Latitude": 36.78170013,
+    "Longitude": -107.98999786,
+    "County": "San Juan",
+    "State": "NM",
+    "Local": "Farmington"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 144.515,
+    "Output": 145.115
+  },
+  "Digital": {
+    "DStar": {
+      "Node": "KF5VBE (C) Gateway Repeater"
+    }
+  }
+}

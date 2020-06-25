@@ -1,0 +1,22 @@
+{
+  "ID": 52,
+  "StateID": 49,
+  "Callsign": "K7QEQ",
+  "Location": {
+    "Latitude": 38.52859879,
+    "Longitude": -109.32499695,
+    "County": "Grand",
+    "State": "UT",
+    "Local": "Moab, Bald Mesa"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 444.1,
+    "Output": 449.1
+  },
+  "SquelchTone": {
+    "Input": 107.2,
+    "Output": 107.2
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "ID": 8177,
+  "StateID": 8,
+  "Callsign": "KB5ITS",
+  "Location": {
+    "Latitude": 37.11500168,
+    "Longitude": -107.63300323,
+    "County": "La Plata",
+    "State": "CO",
+    "Local": "Ignacio, Spring Creek"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 147.75,
+    "Output": 147.15
+  },
+  "SquelchTone": {
+    "Input": 100
+  }
+}

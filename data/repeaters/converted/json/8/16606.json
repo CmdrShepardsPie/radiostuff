@@ -1,0 +1,21 @@
+{
+  "ID": 16606,
+  "StateID": 8,
+  "Callsign": "KB5ITS",
+  "Location": {
+    "Latitude": 37.47389984,
+    "Longitude": -108.50499725,
+    "County": "Montezuma",
+    "State": "CO",
+    "Local": "Cortez, Goodman"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 144.59,
+    "Output": 145.19
+  },
+  "SquelchTone": {
+    "Input": 100
+  }
+}

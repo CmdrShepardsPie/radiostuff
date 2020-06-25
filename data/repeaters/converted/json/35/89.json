@@ -1,0 +1,21 @@
+{
+  "ID": 89,
+  "StateID": 35,
+  "Callsign": "NM5ML",
+  "Location": {
+    "Latitude": 35.90309906,
+    "Longitude": -108.77200317,
+    "County": "McKinley",
+    "State": "NM",
+    "Local": "Gallup, Deza Bluffs"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 147.82,
+    "Output": 147.22
+  },
+  "SquelchTone": {
+    "Input": 67
+  }
+}

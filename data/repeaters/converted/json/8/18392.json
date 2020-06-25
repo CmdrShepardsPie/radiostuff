@@ -1,0 +1,21 @@
+{
+  "ID": 18392,
+  "StateID": 8,
+  "Callsign": "",
+  "Location": {
+    "Latitude": 38.97999954,
+    "Longitude": -108.73999786,
+    "County": "Mesa",
+    "State": "CO",
+    "Local": "Glade Park"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 444.2,
+    "Output": 449.2
+  },
+  "SquelchTone": {
+    "Input": 107.2
+  }
+}

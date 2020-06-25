@@ -1,0 +1,21 @@
+{
+  "ID": 208,
+  "StateID": 8,
+  "Callsign": "KB5ITT",
+  "Location": {
+    "Latitude": 37.69919968,
+    "Longitude": -107.80599976,
+    "County": "San Juan",
+    "State": "CO",
+    "Local": "Silverton, Engineer Mountain"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 147.87,
+    "Output": 147.27
+  },
+  "SquelchTone": {
+    "Input": 127.3
+  }
+}

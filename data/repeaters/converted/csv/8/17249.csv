@@ -1,0 +1,2 @@
+ID,StateID,Callsign,Use,Status,SquelchTone,DigitalTone,VOIP,Location.Latitude,Location.Longitude,Location.County,Location.State,Location.Local,Frequency.Input,Frequency.Output,Digital.P25,Digital.DStar,Digital.YSF,Digital.DMR.ColorCode,Digital.DMR.ID
+17249,8,N0SZ,Open,On-Air,,,,40.08750153,-108.80500031,Rio Blanco,CO,"Rangely, Cathedral Bluffs",440.2625,445.2625,,,,7,310154

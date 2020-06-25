@@ -1,0 +1,2 @@
+ID,StateID,Callsign,Use,Status,DigitalTone,Digital,VOIP,Location.Latitude,Location.Longitude,Location.County,Location.State,Location.Local,Frequency.Input,Frequency.Output,SquelchTone.Input,SquelchTone.Output
+151,8,W0RRZ,Open,On-Air,,,,39.06560135,-108.7480011,Mesa,CO,"Grand Junction, Black Ridge (Above Colorado Ntl Monument)",146.34,146.94,107.2,107.2

@@ -1,0 +1,21 @@
+{
+  "ID": 253,
+  "StateID": 49,
+  "Callsign": "WB7CBS",
+  "Location": {
+    "Latitude": 40.3594017,
+    "Longitude": -110.28600311,
+    "County": "Duchesne",
+    "State": "UT",
+    "Local": "Altamont"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 146.14,
+    "Output": 146.74
+  },
+  "SquelchTone": {
+    "Input": 100
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "ID": 16782,
+  "StateID": 8,
+  "Callsign": "N0SZ",
+  "Location": {
+    "Latitude": 37.3669014,
+    "Longitude": -107.78500366,
+    "County": "La Plata",
+    "State": "CO",
+    "Local": "Durango, Missionary Ridge"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 440.1375,
+    "Output": 445.1375
+  },
+  "Digital": {
+    "DMR": {
+      "ColorCode": 7,
+      "ID": 310854
+    }
+  }
+}

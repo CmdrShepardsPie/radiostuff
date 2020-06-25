@@ -1,0 +1,23 @@
+{
+  "ID": 16602,
+  "StateID": 35,
+  "Callsign": "KE8AVN",
+  "Location": {
+    "Latitude": 35.88000107,
+    "Longitude": -106.3030014,
+    "County": "Los Alamos",
+    "State": "NM",
+    "Local": "Los Alamos"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 447.925,
+    "Output": 442.925
+  },
+  "Digital": {
+    "DMR": {
+      "ColorCode": 1
+    }
+  }
+}

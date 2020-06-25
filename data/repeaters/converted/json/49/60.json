@@ -1,0 +1,29 @@
+{
+  "ID": 60,
+  "StateID": 49,
+  "Callsign": "K7SDC",
+  "Location": {
+    "Latitude": 37.83919907,
+    "Longitude": -109.46199799,
+    "County": "San Juan",
+    "State": "UT",
+    "Local": "Monticello, Abajo Peak"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 146.01,
+    "Output": 146.61
+  },
+  "SquelchTone": {
+    "Input": 88.5
+  },
+  "VOIP": {
+    "EchoLink": {
+      "NodeID": 64264
+    },
+    "IRLP": {
+      "NodeID": 3270
+    }
+  }
+}

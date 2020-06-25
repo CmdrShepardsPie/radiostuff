@@ -1,0 +1,21 @@
+{
+  "ID": 66,
+  "StateID": 35,
+  "Callsign": "NM5ML",
+  "Location": {
+    "Latitude": 36.0135994,
+    "Longitude": -106.84400177,
+    "County": "Sandoval",
+    "State": "NM",
+    "Local": "Cuba, Eureka Mesa"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 147.84,
+    "Output": 147.24
+  },
+  "SquelchTone": {
+    "Input": 67
+  }
+}

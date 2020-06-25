@@ -1,0 +1,2 @@
+ID,StateID,Callsign,Use,Status,DigitalTone,Digital,VOIP,Location.Latitude,Location.Longitude,Location.County,Location.State,Location.Local,Frequency.Input,Frequency.Output,SquelchTone.Input,SquelchTone.Output
+13041,49,W7BYU,Open,On-Air,,,,40.22219849,-110.10399628,Duchesne,UT,"Myton, Flat Top",144.89,145.49,136.5,

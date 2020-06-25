@@ -1,0 +1,23 @@
+{
+  "ID": 16280,
+  "StateID": 35,
+  "Callsign": "KF5VBE",
+  "Location": {
+    "Latitude": 36.78229904,
+    "Longitude": -107.98799896,
+    "County": "San Juan",
+    "State": "NM",
+    "Local": "Aztec"
+  },
+  "Use": "Closed",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 1271.1,
+    "Output": 1291.1
+  },
+  "Digital": {
+    "DStar": {
+      "Node": "KF5VBE (A) Repeater"
+    }
+  }
+}

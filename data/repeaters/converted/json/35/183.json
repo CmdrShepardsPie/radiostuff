@@ -1,0 +1,21 @@
+{
+  "ID": 183,
+  "StateID": 35,
+  "Callsign": "N5TSV",
+  "Location": {
+    "Latitude": 36.55670166,
+    "Longitude": -105.41600037,
+    "County": "Taos",
+    "State": "NM",
+    "Local": "Taos, Wheeler Peak"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 449.975,
+    "Output": 444.975
+  },
+  "SquelchTone": {
+    "Input": 123
+  }
+}

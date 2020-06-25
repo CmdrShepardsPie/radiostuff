@@ -1,0 +1,21 @@
+{
+  "ID": 81,
+  "StateID": 35,
+  "Callsign": "KB5ITS",
+  "Location": {
+    "Latitude": 36.72809982,
+    "Longitude": -108.21800232,
+    "County": "San Juan",
+    "State": "NM",
+    "Local": "Farmington"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 52.01,
+    "Output": 53.01
+  },
+  "SquelchTone": {
+    "Input": 131.8
+  }
+}

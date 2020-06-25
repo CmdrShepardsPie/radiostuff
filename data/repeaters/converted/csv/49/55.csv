@@ -1,0 +1,2 @@
+ID,StateID,Callsign,Use,Status,DigitalTone,Digital,Location.Latitude,Location.Longitude,Location.County,Location.State,Location.Local,Frequency.Input,Frequency.Output,SquelchTone.Input,SquelchTone.Output,VOIP.AllStar,VOIP.EchoLink,VOIP.Wires,VOIP.IRLP.NodeID
+55,49,K7SDC,Open,On-Air,,,39.75579834,-110.98999786,Carbon,UT,"Scofield, Ford Ridge",144.71,145.31,88.5,,,,,3270

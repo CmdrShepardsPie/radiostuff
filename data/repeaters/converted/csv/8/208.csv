@@ -1,0 +1,2 @@
+ID,StateID,Callsign,Use,Status,DigitalTone,Digital,VOIP,Location.Latitude,Location.Longitude,Location.County,Location.State,Location.Local,Frequency.Input,Frequency.Output,SquelchTone.Input,SquelchTone.Output
+208,8,KB5ITT,Open,On-Air,,,,37.69919968,-107.80599976,San Juan,CO,"Silverton, Engineer Mountain",147.87,147.27,127.3,

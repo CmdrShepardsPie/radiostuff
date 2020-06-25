@@ -1,0 +1,21 @@
+{
+  "ID": 15624,
+  "StateID": 35,
+  "Callsign": "NM5SJ",
+  "Location": {
+    "Latitude": 36.93360138,
+    "Longitude": -106.99900055,
+    "County": "Rio Arriba",
+    "State": "NM",
+    "Local": "Dulce"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 144.83,
+    "Output": 145.43
+  },
+  "SquelchTone": {
+    "Input": 136.5
+  }
+}

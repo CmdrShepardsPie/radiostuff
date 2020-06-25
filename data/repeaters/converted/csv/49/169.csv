@@ -1,0 +1,2 @@
+ID,StateID,Callsign,Use,Status,DigitalTone,Digital,VOIP,Location.Latitude,Location.Longitude,Location.County,Location.State,Location.Local,Frequency.Input,Frequency.Output,SquelchTone.Input,SquelchTone.Output
+169,49,NA7DB,Open,On-Air,,,,37.03419876,-110.8690033,San Juan,UT,"Page (az), Navajo Mountain",443.75,448.75,100,

@@ -1,0 +1,29 @@
+{
+  "ID": 163,
+  "StateID": 49,
+  "Callsign": "W7BAR",
+  "Location": {
+    "Latitude": 40.35720062,
+    "Longitude": -109.14700317,
+    "County": "Uintah",
+    "State": "UT",
+    "Local": "Vernal, Blue Mountain"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 147.7,
+    "Output": 147.1
+  },
+  "SquelchTone": {
+    "Input": 136.5
+  },
+  "VOIP": {
+    "EchoLink": {
+      "NodeID": 458414
+    },
+    "IRLP": {
+      "NodeID": 3577
+    }
+  }
+}

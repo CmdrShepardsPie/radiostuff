@@ -1,0 +1,18 @@
+{
+  "ID": 194,
+  "StateID": 35,
+  "Callsign": "W5PDO",
+  "Location": {
+    "Latitude": 35.90269852,
+    "Longitude": -106.28199768,
+    "County": "Los Alamos",
+    "State": "NM",
+    "Local": "Los Alamos, Barranca Mesa"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 146.28,
+    "Output": 146.88
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "ID": 174,
+  "StateID": 8,
+  "Callsign": "KB0SW",
+  "Location": {
+    "Latitude": 39.58190155,
+    "Longitude": -108.95200348,
+    "County": "Garfield",
+    "State": "CO",
+    "Local": "Loma, Baxter Pass"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 442,
+    "Output": 447
+  },
+  "SquelchTone": {
+    "Input": 107.2
+  }
+}

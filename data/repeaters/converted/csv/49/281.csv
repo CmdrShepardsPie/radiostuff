@@ -1,0 +1,2 @@
+ID,StateID,Callsign,Use,Status,DigitalTone,Digital,Location.Latitude,Location.Longitude,Location.County,Location.State,Location.Local,Frequency.Input,Frequency.Output,SquelchTone.Input,SquelchTone.Output,VOIP.AllStar,VOIP.IRLP,VOIP.Wires,VOIP.EchoLink.NodeID
+281,49,W7BYU,Open,On-Air,,,40.35499954,-109.14800262,Duchesne,UT,Roosevelt,146.32,146.92,136.5,,,,,458695

@@ -1,0 +1,2 @@
+ID,StateID,Callsign,Use,Status,SquelchTone,DigitalTone,VOIP,Location.Latitude,Location.Longitude,Location.County,Location.State,Location.Local,Frequency.Input,Frequency.Output,Digital.P25,Digital.DStar,Digital.YSF,Digital.DMR.ColorCode,Digital.DMR.ID
+16602,35,KE8AVN,Open,On-Air,,,,35.88000107,-106.3030014,Los Alamos,NM,Los Alamos,447.925,442.925,,,,1,

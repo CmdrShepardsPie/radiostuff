@@ -1,0 +1,22 @@
+{
+  "ID": 115,
+  "StateID": 8,
+  "Callsign": "KC5EVE",
+  "Location": {
+    "Latitude": 37.27529907,
+    "Longitude": -107.8789978,
+    "County": "La Plata",
+    "State": "CO",
+    "Local": "Durango"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 443.625,
+    "Output": 448.625
+  },
+  "SquelchTone": {
+    "Input": 131.8,
+    "Output": 131.8
+  }
+}

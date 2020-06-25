@@ -1,0 +1,30 @@
+{
+  "ID": 14977,
+  "StateID": 49,
+  "Callsign": "AD7ZW",
+  "Location": {
+    "Latitude": 40.35969925,
+    "Longitude": -110.28399658,
+    "County": "Duchesne",
+    "State": "UT",
+    "Local": "Altamont"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 147.88,
+    "Output": 147.28
+  },
+  "SquelchTone": {
+    "Input": 107.2,
+    "Output": 107.2
+  },
+  "VOIP": {
+    "EchoLink": {
+      "NodeID": 458414
+    },
+    "IRLP": {
+      "NodeID": 3205
+    }
+  }
+}

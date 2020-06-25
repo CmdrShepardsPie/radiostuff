@@ -1,0 +1,2 @@
+ID,StateID,Callsign,Use,Status,DigitalTone,VOIP,Location.Latitude,Location.Longitude,Location.County,Location.State,Location.Local,Frequency.Input,Frequency.Output,SquelchTone.Input,SquelchTone.Output,Digital.DMR,Digital.DStar,Digital.YSF,Digital.P25.NAC
+123,35,WD9CMS,Open,On-Air,,,35.88809967,-106.30599976,Los Alamos,NM,Los Alamos,449.775,444.775,131.8,,,,,293

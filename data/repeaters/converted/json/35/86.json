@@ -1,0 +1,21 @@
+{
+  "ID": 86,
+  "StateID": 35,
+  "Callsign": "KB5ITS",
+  "Location": {
+    "Latitude": 36.72809982,
+    "Longitude": -108.21800232,
+    "County": "San Juan",
+    "State": "NM",
+    "Local": "Farmington, College Hill"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 147.6,
+    "Output": 147
+  },
+  "SquelchTone": {
+    "Input": 100
+  }
+}

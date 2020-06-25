@@ -1,0 +1,2 @@
+ID,StateID,Callsign,Use,Status,DigitalTone,Digital,VOIP,Location.Latitude,Location.Longitude,Location.County,Location.State,Location.Local,Frequency.Input,Frequency.Output,SquelchTone.Input,SquelchTone.Output
+100,49,KD7HLL,Open,On-Air,,,,37.26929855,-109.95700073,San Juan,UT,Mexican Hat,444.9,449.9,123,

@@ -1,0 +1,21 @@
+{
+  "ID": 174,
+  "StateID": 35,
+  "Callsign": "KF5PFO",
+  "Location": {
+    "Latitude": 36.64690018,
+    "Longitude": -105.96700287,
+    "County": "Taos",
+    "State": "NM",
+    "Local": "Tres Piedras, San Antonio Mountain"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 146.16,
+    "Output": 146.76
+  },
+  "SquelchTone": {
+    "Input": 67
+  }
+}

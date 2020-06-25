@@ -1,0 +1,27 @@
+{
+  "ID": 155,
+  "StateID": 8,
+  "Callsign": "WA4HND",
+  "Location": {
+    "Latitude": 39.06560135,
+    "Longitude": -108.7480011,
+    "County": "Mesa",
+    "State": "CO",
+    "Local": "Grand Junction, Black Ridge"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 444.575,
+    "Output": 449.575
+  },
+  "SquelchTone": {
+    "Input": 131.8,
+    "Output": 131.8
+  },
+  "VOIP": {
+    "IRLP": {
+      "NodeID": 3710
+    }
+  }
+}

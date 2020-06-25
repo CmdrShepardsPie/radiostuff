@@ -1,0 +1,18 @@
+{
+  "ID": 18470,
+  "StateID": 49,
+  "Callsign": "AE7TA",
+  "Location": {
+    "Latitude": 39.32099915,
+    "Longitude": -111.09400177,
+    "County": "Cache",
+    "State": "UT",
+    "Local": "Logan, Sedgwick Peak"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 444.375,
+    "Output": 449.375
+  }
+}

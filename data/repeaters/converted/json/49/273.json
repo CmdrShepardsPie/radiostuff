@@ -1,0 +1,21 @@
+{
+  "ID": 273,
+  "StateID": 49,
+  "Callsign": "WX7Y",
+  "Location": {
+    "Latitude": 39.20999908,
+    "Longitude": -111.14199829,
+    "County": "Emery",
+    "State": "UT",
+    "Local": "Huntington, Skyline Dr"
+  },
+  "Use": "Open",
+  "Status": "Other",
+  "Frequency": {
+    "Input": 222.32,
+    "Output": 223.92
+  },
+  "SquelchTone": {
+    "Input": 88.5
+  }
+}

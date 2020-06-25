@@ -1,0 +1,29 @@
+{
+  "ID": 59,
+  "StateID": 49,
+  "Callsign": "K7SDC",
+  "Location": {
+    "Latitude": 39.63890076,
+    "Longitude": -110.34200287,
+    "County": "Carbon",
+    "State": "UT",
+    "Local": "Sunnyside, Bruin Point"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 444.05,
+    "Output": 449.05
+  },
+  "SquelchTone": {
+    "Input": 88.5
+  },
+  "VOIP": {
+    "EchoLink": {
+      "NodeID": 64264
+    },
+    "IRLP": {
+      "NodeID": 3270
+    }
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "ID": 11163,
+  "StateID": 49,
+  "Callsign": "KF7YIX",
+  "Location": {
+    "Latitude": 39.32099915,
+    "Longitude": -111.09400177,
+    "County": "Washington",
+    "State": "UT",
+    "Local": "Torquerville, Hurricane Mesa"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 1279.25,
+    "Output": 1299.25
+  },
+  "Digital": {
+    "DStar": {
+      "Node": "KF7YIX (A) Gateway Repeater"
+    }
+  }
+}

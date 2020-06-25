@@ -1,0 +1,2 @@
+ID,StateID,Callsign,Use,Status,DigitalTone,Digital,VOIP,Location.Latitude,Location.Longitude,Location.County,Location.State,Location.Local,Frequency.Input,Frequency.Output,SquelchTone.Input,SquelchTone.Output
+188,8,N0JSP,Open,On-Air,,,,37.19300079,-107.09999847,Archuleta,CO,"Pagosa Springs, Oakbrush Hill",146.01,146.61,123,

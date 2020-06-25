@@ -1,0 +1,23 @@
+{
+  "ID": 15650,
+  "StateID": 35,
+  "Callsign": "KF5VBF",
+  "Location": {
+    "Latitude": 36.72809982,
+    "Longitude": -108.21900177,
+    "County": "San Juan",
+    "State": "NM",
+    "Local": "Farmington"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 449.15,
+    "Output": 444.15
+  },
+  "Digital": {
+    "DStar": {
+      "Node": "KF5VBF (B) Repeater"
+    }
+  }
+}

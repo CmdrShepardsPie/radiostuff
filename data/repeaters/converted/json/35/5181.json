@@ -1,0 +1,23 @@
+{
+  "ID": 5181,
+  "StateID": 35,
+  "Callsign": "NM5WR",
+  "Location": {
+    "Latitude": 35.88809967,
+    "Longitude": -106.30699921,
+    "County": "Los Alamos",
+    "State": "NM",
+    "Local": "Los Alamos"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 447.425,
+    "Output": 442.425
+  },
+  "Digital": {
+    "DStar": {
+      "Node": "NM5WR (B)"
+    }
+  }
+}

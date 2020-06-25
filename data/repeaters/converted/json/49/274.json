@@ -1,0 +1,26 @@
+{
+  "ID": 274,
+  "StateID": 49,
+  "Callsign": "K7SDC",
+  "Location": {
+    "Latitude": 39.1719017,
+    "Longitude": -110.6190033,
+    "County": "Emery",
+    "State": "UT",
+    "Local": "Castle Dale, Cedar Mountain"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 443.55,
+    "Output": 448.55
+  },
+  "SquelchTone": {
+    "Input": 88.5
+  },
+  "VOIP": {
+    "IRLP": {
+      "NodeID": 3280
+    }
+  }
+}

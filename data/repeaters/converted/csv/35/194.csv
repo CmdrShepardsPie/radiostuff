@@ -1,0 +1,2 @@
+ID,StateID,Callsign,Use,Status,SquelchTone,DigitalTone,Digital,VOIP,Location.Latitude,Location.Longitude,Location.County,Location.State,Location.Local,Frequency.Input,Frequency.Output
+194,35,W5PDO,Open,On-Air,,,,,35.90269852,-106.28199768,Los Alamos,NM,"Los Alamos, Barranca Mesa",146.28,146.88

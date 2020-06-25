@@ -1,0 +1,2 @@
+ID,StateID,Callsign,Use,Status,DigitalTone,Digital,VOIP,Location.Latitude,Location.Longitude,Location.County,Location.State,Location.Local,Frequency.Input,Frequency.Output,SquelchTone.Input,SquelchTone.Output
+19,35,KF5PFO,Open,On-Air,,,,36.8594017,-106.01899719,Rio Arriba,NM,"Tres Piedras, San Antonio Mountain",146.16,146.76,67,

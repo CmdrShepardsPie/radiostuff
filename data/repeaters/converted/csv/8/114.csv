@@ -1,0 +1,2 @@
+ID,StateID,Callsign,Use,Status,DigitalTone,Digital,VOIP,Location.Latitude,Location.Longitude,Location.County,Location.State,Location.Local,Frequency.Input,Frequency.Output,SquelchTone.Input,SquelchTone.Output
+114,8,KB0VJJ,Open,On-Air,,,,37.34999847,-107.76699829,La Plata,CO,"Durango, Missionary Ridge",147.945,147.345,88.5,123

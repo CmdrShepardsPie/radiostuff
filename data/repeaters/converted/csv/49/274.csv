@@ -1,0 +1,2 @@
+ID,StateID,Callsign,Use,Status,DigitalTone,Digital,Location.Latitude,Location.Longitude,Location.County,Location.State,Location.Local,Frequency.Input,Frequency.Output,SquelchTone.Input,SquelchTone.Output,VOIP.AllStar,VOIP.EchoLink,VOIP.Wires,VOIP.IRLP.NodeID
+274,49,K7SDC,Open,On-Air,,,39.1719017,-110.6190033,Emery,UT,"Castle Dale, Cedar Mountain",443.55,448.55,88.5,,,,,3280

@@ -1,0 +1,21 @@
+{
+  "ID": 15608,
+  "StateID": 35,
+  "Callsign": "KA5BIW",
+  "Location": {
+    "Latitude": 35.89199829,
+    "Longitude": -106.28500366,
+    "County": "Los Alamos",
+    "State": "NM",
+    "Local": "Los Alamos"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 447,
+    "Output": 442
+  },
+  "SquelchTone": {
+    "Input": 100
+  }
+}

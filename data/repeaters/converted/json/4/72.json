@@ -1,0 +1,21 @@
+{
+  "ID": 72,
+  "StateID": 4,
+  "Callsign": "NM5SJ",
+  "Location": {
+    "Latitude": 36.46139908,
+    "Longitude": -109.09600067,
+    "County": "Apache",
+    "State": "AZ",
+    "Local": "Red Rock, Roof Butte"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 146.22,
+    "Output": 146.82
+  },
+  "SquelchTone": {
+    "Input": 100
+  }
+}

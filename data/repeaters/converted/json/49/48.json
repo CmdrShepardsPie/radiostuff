@@ -1,0 +1,21 @@
+{
+  "ID": 48,
+  "StateID": 49,
+  "Callsign": "K7QEQ",
+  "Location": {
+    "Latitude": 38.57389832,
+    "Longitude": -109.5490036,
+    "County": "Grand",
+    "State": "UT",
+    "Local": "Moab"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 146.3,
+    "Output": 146.9
+  },
+  "SquelchTone": {
+    "Input": 88.5
+  }
+}

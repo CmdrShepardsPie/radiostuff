@@ -1,0 +1,2 @@
+ID,StateID,Callsign,Use,Status,DigitalTone,Digital,VOIP,Location.Latitude,Location.Longitude,Location.County,Location.State,Location.Local,Frequency.Input,Frequency.Output,SquelchTone.Input,SquelchTone.Output
+85,35,K5WXI,Open,On-Air,,,,36.72809982,-108.21800232,San Juan,NM,Farmington,146.25,146.85,100,100

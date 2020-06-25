@@ -1,0 +1,21 @@
+{
+  "ID": 24,
+  "StateID": 49,
+  "Callsign": "K7HEN",
+  "Location": {
+    "Latitude": 40.75170135,
+    "Longitude": -109.48699951,
+    "County": "Uintah",
+    "State": "UT",
+    "Local": "Vernal, Grizzly Ridge"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 144.89,
+    "Output": 145.49
+  },
+  "SquelchTone": {
+    "Input": 136.5
+  }
+}

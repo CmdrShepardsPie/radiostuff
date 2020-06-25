@@ -1,0 +1,2 @@
+ID,StateID,Callsign,Use,Status,DigitalTone,Digital,VOIP,Location.Latitude,Location.Longitude,Location.County,Location.State,Location.Local,Frequency.Input,Frequency.Output,SquelchTone.Input,SquelchTone.Output
+50,35,K5WXI,Open,On-Air,,,,36.71110153,-107.98400116,San Juan,NM,Bloomfield,146.32,146.92,100,

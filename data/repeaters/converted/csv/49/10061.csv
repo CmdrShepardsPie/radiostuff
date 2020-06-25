@@ -1,0 +1,2 @@
+ID,StateID,Callsign,Use,Status,SquelchTone,DigitalTone,Digital,Location.Latitude,Location.Longitude,Location.County,Location.State,Location.Local,Frequency.Input,Frequency.Output,VOIP.AllStar,VOIP.Wires,VOIP.EchoLink.NodeID,VOIP.IRLP.NodeID
+10061,49,K7GX,Open,Other,,,,39.61109924,-110.81199646,Carbon,UT,"Price, Wood Hill",443.3,448.3,,,64264,3270

@@ -1,0 +1,21 @@
+{
+  "ID": 183,
+  "StateID": 49,
+  "Callsign": "W7CWI",
+  "Location": {
+    "Latitude": 37.03419876,
+    "Longitude": -110.8690033,
+    "County": "San Juan",
+    "State": "UT",
+    "Local": "Page (AZ), Navajo Mountain"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 444.925,
+    "Output": 449.925
+  },
+  "SquelchTone": {
+    "Input": 100
+  }
+}

@@ -1,0 +1,2 @@
+ID,StateID,Callsign,Use,Status,DigitalTone,Digital,VOIP,Location.Latitude,Location.Longitude,Location.County,Location.State,Location.Local,Frequency.Input,Frequency.Output,SquelchTone.Input,SquelchTone.Output
+18460,49,KB5ITS,Open,On-Air,,,,37.83940125,-109.46299744,Wayne,UT,"Monticello, Abajo Peak",442.275,447.275,100,

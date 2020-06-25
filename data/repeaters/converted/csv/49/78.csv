@@ -1,0 +1,2 @@
+ID,StateID,Callsign,Use,Status,DigitalTone,Digital,VOIP,Location.Latitude,Location.Longitude,Location.County,Location.State,Location.Local,Frequency.Input,Frequency.Output,SquelchTone.Input,SquelchTone.Output
+78,49,W7CEU,Open,Other,,,,39.61190033,-110.81199646,Carbon,UT,"Price, Wood Hill",144.83,145.43,88.5,

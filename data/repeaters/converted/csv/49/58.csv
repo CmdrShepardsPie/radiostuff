@@ -1,0 +1,2 @@
+ID,StateID,Callsign,Use,Status,DigitalTone,Digital,Location.Latitude,Location.Longitude,Location.County,Location.State,Location.Local,Frequency.Input,Frequency.Output,SquelchTone.Input,SquelchTone.Output,VOIP.AllStar,VOIP.Wires,VOIP.EchoLink.NodeID,VOIP.IRLP.NodeID
+58,49,K7SDC,Open,On-Air,,,39.63890076,-110.34200287,Carbon,UT,"Sunnyside, Bruin Point",147.92,147.32,88.5,,,,64264,3270

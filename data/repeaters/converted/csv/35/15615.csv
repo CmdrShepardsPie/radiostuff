@@ -1,0 +1,2 @@
+ID,StateID,Callsign,Use,Status,DigitalTone,Digital,VOIP,Location.Latitude,Location.Longitude,Location.County,Location.State,Location.Local,Frequency.Input,Frequency.Output,SquelchTone.Input,SquelchTone.Output
+15615,35,NM5EM,Open,On-Air,,,,36.013384,-106.844559,Sandoval,NM,"Cuba, Eureka Mesa",144.575,145.175,156.7,156.7

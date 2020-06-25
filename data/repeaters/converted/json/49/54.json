@@ -1,0 +1,29 @@
+{
+  "ID": 54,
+  "StateID": 49,
+  "Callsign": "K7SDC",
+  "Location": {
+    "Latitude": 39.20980072,
+    "Longitude": -111.14199829,
+    "County": "Emery",
+    "State": "UT",
+    "Local": "Castle Dale, Horn Mountain"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 147.66,
+    "Output": 147.06
+  },
+  "SquelchTone": {
+    "Input": 88.5
+  },
+  "VOIP": {
+    "EchoLink": {
+      "NodeID": 64264
+    },
+    "IRLP": {
+      "NodeID": 3270
+    }
+  }
+}

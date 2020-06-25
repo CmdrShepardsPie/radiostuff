@@ -1,0 +1,22 @@
+{
+  "ID": 114,
+  "StateID": 8,
+  "Callsign": "KB0VJJ",
+  "Location": {
+    "Latitude": 37.34999847,
+    "Longitude": -107.76699829,
+    "County": "La Plata",
+    "State": "CO",
+    "Local": "Durango, Missionary Ridge"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 147.945,
+    "Output": 147.345
+  },
+  "SquelchTone": {
+    "Input": 88.5,
+    "Output": 123
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "ID": 9767,
+  "StateID": 35,
+  "Callsign": "NM5SC",
+  "Location": {
+    "Latitude": 35.69670105,
+    "Longitude": -106.85900116,
+    "County": "Sandoval",
+    "State": "NM",
+    "Local": "San Ysidro, Pajarito Peak"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 448.1,
+    "Output": 443.1
+  },
+  "SquelchTone": {
+    "Input": 100
+  },
+  "VOIP": {
+    "AllStar": {
+      "NodeID": 27748
+    }
+  }
+}

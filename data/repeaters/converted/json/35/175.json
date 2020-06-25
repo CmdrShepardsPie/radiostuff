@@ -1,0 +1,21 @@
+{
+  "ID": 175,
+  "StateID": 35,
+  "Callsign": "NM5ML",
+  "Location": {
+    "Latitude": 36.85969925,
+    "Longitude": -106.01799774,
+    "County": "Rio Arriba",
+    "State": "NM",
+    "Local": "Tres Piedras, San Antonio Mountain"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 147.82,
+    "Output": 147.22
+  },
+  "SquelchTone": {
+    "Input": 100
+  }
+}

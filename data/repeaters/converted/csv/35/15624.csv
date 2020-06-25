@@ -1,0 +1,2 @@
+ID,StateID,Callsign,Use,Status,DigitalTone,Digital,VOIP,Location.Latitude,Location.Longitude,Location.County,Location.State,Location.Local,Frequency.Input,Frequency.Output,SquelchTone.Input,SquelchTone.Output
+15624,35,NM5SJ,Open,On-Air,,,,36.93360138,-106.99900055,Rio Arriba,NM,Dulce,144.83,145.43,136.5,

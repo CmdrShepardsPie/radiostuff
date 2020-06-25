@@ -1,0 +1,21 @@
+{
+  "ID": 188,
+  "StateID": 8,
+  "Callsign": "N0JSP",
+  "Location": {
+    "Latitude": 37.19300079,
+    "Longitude": -107.09999847,
+    "County": "Archuleta",
+    "State": "CO",
+    "Local": "Pagosa Springs, Oakbrush Hill"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 146.01,
+    "Output": 146.61
+  },
+  "SquelchTone": {
+    "Input": 123
+  }
+}

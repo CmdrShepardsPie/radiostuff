@@ -1,0 +1,2 @@
+ID,StateID,Callsign,Use,Status,DigitalTone,Digital,VOIP,Location.Latitude,Location.Longitude,Location.County,Location.State,Location.Local,Frequency.Input,Frequency.Output,SquelchTone.Input,SquelchTone.Output
+128,35,NM5SJ,Open,On-Air,,,,36.23329926,-107.56199646,Rio Arriba,NM,Lybrook,144.89,145.49,100,

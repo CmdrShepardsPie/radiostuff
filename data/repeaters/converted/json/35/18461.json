@@ -1,0 +1,21 @@
+{
+  "ID": 18461,
+  "StateID": 35,
+  "Callsign": "KB5ITS",
+  "Location": {
+    "Latitude": 36.80630112,
+    "Longitude": -108.0019989,
+    "County": "San Juan",
+    "State": "NM",
+    "Local": "Aztec, Hottel Hill"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 146.01,
+    "Output": 146.61
+  },
+  "SquelchTone": {
+    "Input": 100
+  }
+}

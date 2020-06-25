@@ -1,0 +1,23 @@
+{
+  "ID": 18232,
+  "StateID": 35,
+  "Callsign": "NM5EC",
+  "Location": {
+    "Latitude": 35.88669968,
+    "Longitude": -106.39499664,
+    "County": "Los Alamos",
+    "State": "NM",
+    "Local": "Los Alamos, Pajarito Mountain"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 144.59,
+    "Output": 145.19
+  },
+  "Digital": {
+    "DStar": {
+      "Node": "NM5EC (C) Repeater"
+    }
+  }
+}

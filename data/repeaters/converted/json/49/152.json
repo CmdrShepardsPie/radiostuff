@@ -1,0 +1,18 @@
+{
+  "ID": 152,
+  "StateID": 49,
+  "Callsign": "N7PQD",
+  "Location": {
+    "Latitude": 40.15470123,
+    "Longitude": -110.39199829,
+    "County": "Duchesne",
+    "State": "UT",
+    "Local": "Duchense"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 147.86,
+    "Output": 147.26
+  }
+}

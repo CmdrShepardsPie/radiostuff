@@ -1,0 +1,27 @@
+{
+  "ID": 254,
+  "StateID": 8,
+  "Callsign": "KB0YNA",
+  "Location": {
+    "Latitude": 37.99100113,
+    "Longitude": -107.97200012,
+    "County": "San Miguel",
+    "State": "CO",
+    "Local": "Telluride, Gray Head"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 444.7,
+    "Output": 449.7
+  },
+  "SquelchTone": {
+    "Input": 107.2,
+    "Output": 107.2
+  },
+  "VOIP": {
+    "IRLP": {
+      "NodeID": 3710
+    }
+  }
+}

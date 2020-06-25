@@ -1,0 +1,21 @@
+{
+  "ID": 51,
+  "StateID": 35,
+  "Callsign": "NM5ML",
+  "Location": {
+    "Latitude": 36.6067009,
+    "Longitude": -107.80500031,
+    "County": "San Juan",
+    "State": "NM",
+    "Local": "Bloomfield, Harris Mesa"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 147.88,
+    "Output": 147.28
+  },
+  "SquelchTone": {
+    "Input": 67
+  }
+}

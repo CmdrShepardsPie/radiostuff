@@ -1,0 +1,21 @@
+{
+  "ID": 77,
+  "StateID": 35,
+  "Callsign": "NM5ML",
+  "Location": {
+    "Latitude": 36.59999847,
+    "Longitude": -105.25,
+    "County": "Colfax",
+    "State": "NM",
+    "Local": "Eagle Nest, Iron Mountain"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 449.35,
+    "Output": 444.35
+  },
+  "SquelchTone": {
+    "Input": 100
+  }
+}

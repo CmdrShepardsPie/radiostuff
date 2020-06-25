@@ -1,0 +1,2 @@
+ID,StateID,Callsign,Use,Status,DigitalTone,Digital,VOIP,Location.Latitude,Location.Longitude,Location.County,Location.State,Location.Local,Frequency.Input,Frequency.Output,SquelchTone.Input,SquelchTone.Output
+163,4,KB5ITS,Open,On-Air,,,,36.46139908,-109.09600067,Apache,AZ,"Lukachukai, Roof Butte",144.65,145.25,100,

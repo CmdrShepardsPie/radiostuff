@@ -1,0 +1,22 @@
+{
+  "ID": 8169,
+  "StateID": 8,
+  "Callsign": "KB0VIU",
+  "Location": {
+    "Latitude": 37.29999924,
+    "Longitude": -108.02799988,
+    "County": "La Plata",
+    "State": "CO",
+    "Local": "Hesperus"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 144.77,
+    "Output": 145.37
+  },
+  "SquelchTone": {
+    "Input": 100,
+    "Output": 100
+  }
+}

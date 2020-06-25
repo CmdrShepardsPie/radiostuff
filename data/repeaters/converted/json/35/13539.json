@@ -1,0 +1,21 @@
+{
+  "ID": 13539,
+  "StateID": 35,
+  "Callsign": "KC5WDV",
+  "Location": {
+    "Latitude": 35.90309906,
+    "Longitude": -108.77200317,
+    "County": "McKinley",
+    "State": "NM",
+    "Local": "Gallup, Deza Bluffs"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 443.2,
+    "Output": 448.2
+  },
+  "SquelchTone": {
+    "Input": 100
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "ID": 123,
+  "StateID": 35,
+  "Callsign": "WD9CMS",
+  "Location": {
+    "Latitude": 35.88809967,
+    "Longitude": -106.30599976,
+    "County": "Los Alamos",
+    "State": "NM",
+    "Local": "Los Alamos"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 449.775,
+    "Output": 444.775
+  },
+  "SquelchTone": {
+    "Input": 131.8
+  },
+  "Digital": {
+    "P25": {
+      "NAC": 293
+    }
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "ID": 18460,
+  "StateID": 49,
+  "Callsign": "KB5ITS",
+  "Location": {
+    "Latitude": 37.83940125,
+    "Longitude": -109.46299744,
+    "County": "Wayne",
+    "State": "UT",
+    "Local": "Monticello, Abajo Peak"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 442.275,
+    "Output": 447.275
+  },
+  "SquelchTone": {
+    "Input": 100
+  }
+}

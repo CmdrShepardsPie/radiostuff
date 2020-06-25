@@ -1,0 +1,2 @@
+ID,StateID,Callsign,Use,Status,DigitalTone,Digital,VOIP,Location.Latitude,Location.Longitude,Location.County,Location.State,Location.Local,Frequency.Input,Frequency.Output,SquelchTone.Input,SquelchTone.Output
+183,49,W7CWI,Open,On-Air,,,,37.03419876,-110.8690033,San Juan,UT,"Page (AZ), Navajo Mountain",444.925,449.925,100,

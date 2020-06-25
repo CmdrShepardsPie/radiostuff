@@ -1,0 +1,22 @@
+{
+  "ID": 151,
+  "StateID": 8,
+  "Callsign": "W0RRZ",
+  "Location": {
+    "Latitude": 39.06560135,
+    "Longitude": -108.7480011,
+    "County": "Mesa",
+    "State": "CO",
+    "Local": "Grand Junction, Black Ridge (Above Colorado Ntl Monument)"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 146.34,
+    "Output": 146.94
+  },
+  "SquelchTone": {
+    "Input": 107.2,
+    "Output": 107.2
+  }
+}

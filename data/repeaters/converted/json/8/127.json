@@ -1,0 +1,27 @@
+{
+  "ID": 127,
+  "StateID": 8,
+  "Callsign": "KB0YNA",
+  "Location": {
+    "Latitude": 38.5766983,
+    "Longitude": -108.64700317,
+    "County": "Mesa",
+    "State": "CO",
+    "Local": "Delta, Uncompahgre Butte"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 444.4,
+    "Output": 449.4
+  },
+  "SquelchTone": {
+    "Input": 131.8,
+    "Output": 131.8
+  },
+  "VOIP": {
+    "IRLP": {
+      "NodeID": 3710
+    }
+  }
+}

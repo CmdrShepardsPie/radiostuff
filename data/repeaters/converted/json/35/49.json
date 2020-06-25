@@ -1,0 +1,21 @@
+{
+  "ID": 49,
+  "StateID": 35,
+  "Callsign": "KB5ITS",
+  "Location": {
+    "Latitude": 36.61000061,
+    "Longitude": -107.80999756,
+    "County": "San Juan",
+    "State": "NM",
+    "Local": "Bloomfield, Harris mesa"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 147.7,
+    "Output": 147.1
+  },
+  "SquelchTone": {
+    "Input": 100
+  }
+}

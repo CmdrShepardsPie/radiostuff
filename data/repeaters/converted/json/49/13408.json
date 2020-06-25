@@ -1,0 +1,26 @@
+{
+  "ID": 13408,
+  "StateID": 49,
+  "Callsign": "W7BAR",
+  "Location": {
+    "Latitude": 40.10689926,
+    "Longitude": -109.37799835,
+    "County": "Uintah",
+    "State": "UT",
+    "Local": "Vernal, Uintah County EOC"
+  },
+  "Use": "Open",
+  "Status": "Other",
+  "Frequency": {
+    "Input": 444.9,
+    "Output": 449.9
+  },
+  "SquelchTone": {
+    "Input": 136.5
+  },
+  "VOIP": {
+    "IRLP": {
+      "NodeID": 7705
+    }
+  }
+}

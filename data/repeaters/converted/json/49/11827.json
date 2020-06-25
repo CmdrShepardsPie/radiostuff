@@ -1,0 +1,21 @@
+{
+  "ID": 11827,
+  "StateID": 49,
+  "Callsign": "WA7VHF",
+  "Location": {
+    "Latitude": 37.0340004,
+    "Longitude": -110.8690033,
+    "County": "San Juan",
+    "State": "UT",
+    "Local": "Page, Navajo Mountain"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 443.6,
+    "Output": 448.6
+  },
+  "SquelchTone": {
+    "Input": 100
+  }
+}

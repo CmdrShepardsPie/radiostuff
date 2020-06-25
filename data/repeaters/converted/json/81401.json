@@ -1,0 +1,9891 @@
+[
+  {
+    "ID": 69,
+    "StateID": 8,
+    "Callsign": "WA4HND",
+    "Location": {
+      "Latitude": 38.38750076,
+      "Longitude": -107.6740036,
+      "County": "Montrose",
+      "State": "CO",
+      "Local": "Montrose, Waterdog Peak"
+    },
+    "Use": "Open",
+    "Status": "On-Air",
+    "Frequency": {
+      "Input": 442.2,
+      "Output": 447.2
+    },
+    "SquelchTone": {
+      "Input": 107.2,
+      "Output": 107.2
+    },
+    "VOIP": {
+      "IRLP": {
+        "NodeID": 3710
+      }
+    }
+  },
+  {
+    "ID": 12442,
+    "StateID": 8,
+    "Callsign": "KC0UUX",
+    "Location": {
+      "Latitude": 38.47829819,
+      "Longitude": -107.87599945,
+      "County": "Montrose",
+      "State": "CO",
+      "Local": "Montrose"
+    },
+    "Use": "Open",
+    "Status": "On-Air",
+    "Frequency": {
+      "Input": 146.31,
+      "Output": 146.91
+    },
+    "SquelchTone": {
+      "Input": 107.2,
+      "Output": 107.2
+    }
+  },
+  {
+    "ID": 7953,
+    "StateID": 8,
+    "Callsign": "KD5OPD",
+    "Location": {
+      "Latitude": 38.47829819,
+      "Longitude": -107.87599945,
+      "County": "Montrose",
+      "State": "CO",
+      "Local": "Montrose"
+    },
+    "Use": "Open",
+    "Status": "On-Air",
+    "Frequency": {
+      "Input": 146.19,
+      "Output": 146.79
+    },
+    "SquelchTone": {
+      "Input": 107.2,
+      "Output": 107.2
+    }
+  },
+  {
+    "ID": 18465,
+    "StateID": 8,
+    "Callsign": "KB5ITS",
+    "Location": {
+      "Latitude": 38.41740036,
+      "Longitude": -107.84600067,
+      "County": "Montrose",
+      "State": "CO",
+      "Local": "Montrose, Raspberry"
+    },
+    "Use": "Open",
+    "Status": "On-Air",
+    "Frequency": {
+      "Input": 443.825,
+      "Output": 448.825
+    },
+    "SquelchTone": {
+      "Input": 100
+    }
+  },
+  {
+    "ID": 17998,
+    "StateID": 8,
+    "Callsign": "AD0RM",
+    "Location": {
+      "Latitude": 38.18000031,
+      "Longitude": -107.79000092,
+      "County": "Ouray",
+      "State": "CO",
+      "Local": "Ridgway, On top of Log Hill"
+    },
+    "Use": "Open",
+    "Status": "On-Air",
+    "Frequency": {
+      "Input": 442.8,
+      "Output": 447.8
+    },
+    "Digital": {
+      "DMR": {
+        "ColorCode": 1,
+        "ID": 311075
+      }
+    }
+  },
+  {
+    "ID": 8179,
+    "StateID": 8,
+    "Callsign": "KI0MR",
+    "Location": {
+      "Latitude": 38.86830139,
+      "Longitude": -107.59200287,
+      "County": "Delta",
+      "State": "CO",
+      "Local": "Paonia"
+    },
+    "Use": "Open",
+    "Status": "On-Air",
+    "Frequency": {
+      "Input": 147.93,
+      "Output": 147.33
+    },
+    "SquelchTone": {
+      "Input": 107.2
+    }
+  },
+  {
+    "ID": 3745,
+    "StateID": 8,
+    "Callsign": "KC0QXX",
+    "Location": {
+      "Latitude": 38.90159988,
+      "Longitude": -107.9260025,
+      "County": "Delta",
+      "State": "CO",
+      "Local": "Cedaredge, Cedar Mesa"
+    },
+    "Use": "Open",
+    "Status": "Other",
+    "Frequency": {
+      "Input": 147.795,
+      "Output": 147.195
+    },
+    "SquelchTone": {
+      "Input": 107.2
+    }
+  },
+  {
+    "ID": 3749,
+    "StateID": 8,
+    "Callsign": "W0ALC",
+    "Location": {
+      "Latitude": 38.90159988,
+      "Longitude": -107.9260025,
+      "County": "Delta",
+      "State": "CO",
+      "Local": "Cedaredge"
+    },
+    "Use": "Open",
+    "Status": "On-Air",
+    "Frequency": {
+      "Input": 147.96,
+      "Output": 147.36
+    },
+    "SquelchTone": {
+      "Input": 100
+    }
+  },
+  {
+    "ID": 3760,
+    "StateID": 8,
+    "Callsign": "W0ALC",
+    "Location": {
+      "Latitude": 38.90159988,
+      "Longitude": -107.9260025,
+      "County": "Delta",
+      "State": "CO",
+      "Local": "Cedaredge"
+    },
+    "Use": "Open",
+    "Status": "Other",
+    "Frequency": {
+      "Input": 444.825,
+      "Output": 449.825
+    },
+    "SquelchTone": {
+      "Input": 100
+    }
+  },
+  {
+    "ID": 3755,
+    "StateID": 8,
+    "Callsign": "",
+    "Location": {
+      "Latitude": 38.99440002,
+      "Longitude": -107.97299957,
+      "County": "Delta",
+      "State": "CO",
+      "Local": "Cedaredge, Grand Mesa"
+    },
+    "Use": "Open",
+    "Status": "Other",
+    "Frequency": {
+      "Input": 442.35,
+      "Output": 447.35
+    },
+    "SquelchTone": {
+      "Input": 107.2
+    }
+  },
+  {
+    "ID": 254,
+    "StateID": 8,
+    "Callsign": "KB0YNA",
+    "Location": {
+      "Latitude": 37.99100113,
+      "Longitude": -107.97200012,
+      "County": "San Miguel",
+      "State": "CO",
+      "Local": "Telluride, Gray Head"
+    },
+    "Use": "Open",
+    "Status": "On-Air",
+    "Frequency": {
+      "Input": 444.7,
+      "Output": 449.7
+    },
+    "SquelchTone": {
+      "Input": 107.2,
+      "Output": 107.2
+    },
+    "VOIP": {
+      "IRLP": {
+        "NodeID": 3710
+      }
+    }
+  },
+  {
+    "ID": 149,
+    "StateID": 8,
+    "Callsign": "KB0VJJ",
+    "Location": {
+      "Latitude": 39.06669998,
+      "Longitude": -107.93599701,
+      "County": "Mesa",
+      "State": "CO",
+      "Local": "Grand Junction, Grand Mesa"
+    },
+    "Use": "Open",
+    "Status": "On-Air",
+    "Frequency": {
+      "Input": 144.755,
+      "Output": 145.355
+    },
+    "SquelchTone": {
+      "Input": 88.5,
+      "Output": 123
+    }
+  },
+  {
+    "ID": 8763,
+    "StateID": 8,
+    "Callsign": "KB0YNA",
+    "Location": {
+      "Latitude": 39.0666008,
+      "Longitude": -107.93699646,
+      "County": "Mesa",
+      "State": "CO",
+      "Local": "Grand Junction, Grand Mesa"
+    },
+    "Use": "Open",
+    "Status": "On-Air",
+    "Frequency": {
+      "Input": 444.65,
+      "Output": 449.65
+    },
+    "SquelchTone": {
+      "Input": 151.4,
+      "Output": 151.4
+    },
+    "VOIP": {
+      "IRLP": {
+        "NodeID": 8162
+      }
+    }
+  },
+  {
+    "ID": 161,
+    "StateID": 8,
+    "Callsign": "K5GF",
+    "Location": {
+      "Latitude": 38.54579926,
+      "Longitude": -106.92500305,
+      "County": "Gunnison",
+      "State": "CO",
+      "Local": "Gunnison"
+    },
+    "Use": "Open",
+    "Status": "Other",
+    "Frequency": {
+      "Input": 444.95,
+      "Output": 449.95
+    }
+  },
+  {
+    "ID": 160,
+    "StateID": 8,
+    "Callsign": "W0VTL",
+    "Location": {
+      "Latitude": 38.54579926,
+      "Longitude": -106.92500305,
+      "County": "Gunnison",
+      "State": "CO",
+      "Local": "Gunnison"
+    },
+    "Use": "Open",
+    "Status": "On-Air",
+    "Frequency": {
+      "Input": 147.72,
+      "Output": 147.12
+    }
+  },
+  {
+    "ID": 210,
+    "StateID": 8,
+    "Callsign": "KB5ITS",
+    "Location": {
+      "Latitude": 37.81190109,
+      "Longitude": -107.66400146,
+      "County": "San Juan",
+      "State": "CO",
+      "Local": "Silverton"
+    },
+    "Use": "Open",
+    "Status": "On-Air",
+    "Frequency": {
+      "Input": 442.525,
+      "Output": 447.525
+    },
+    "SquelchTone": {
+      "Input": 127.3
+    }
+  },
+  {
+    "ID": 154,
+    "StateID": 8,
+    "Callsign": "WA4HND",
+    "Location": {
+      "Latitude": 39.05390167,
+      "Longitude": -108.2539978,
+      "County": "Mesa",
+      "State": "CO",
+      "Local": "Grand Junction, Grand Mesa"
+    },
+    "Use": "Open",
+    "Status": "On-Air",
+    "Frequency": {
+      "Input": 444.3,
+      "Output": 449.3
+    },
+    "SquelchTone": {
+      "Input": 107.2,
+      "Output": 107.2
+    },
+    "VOIP": {
+      "IRLP": {
+        "NodeID": 3710
+      }
+    }
+  },
+  {
+    "ID": 209,
+    "StateID": 8,
+    "Callsign": "KB5ITS",
+    "Location": {
+      "Latitude": 37.79330063,
+      "Longitude": -107.6289978,
+      "County": "San Juan",
+      "State": "CO",
+      "Local": "Silverton, Kendall Mountain"
+    },
+    "Use": "Open",
+    "Status": "On-Air",
+    "Frequency": {
+      "Input": 147.975,
+      "Output": 147.375
+    },
+    "SquelchTone": {
+      "Input": 156.7
+    }
+  },
+  {
+    "ID": 16721,
+    "StateID": 8,
+    "Callsign": "W0BX",
+    "Location": {
+      "Latitude": 39.08890152,
+      "Longitude": -108.22699738,
+      "County": "Mesa",
+      "State": "CO",
+      "Local": "Grand Junction, Grand Mesa"
+    },
+    "Use": "Open",
+    "Status": "On-Air",
+    "Frequency": {
+      "Input": 441.9125,
+      "Output": 446.9125
+    },
+    "Digital": {
+      "DMR": {
+        "ColorCode": 1,
+        "ID": 310868
+      }
+    }
+  },
+  {
+    "ID": 153,
+    "StateID": 8,
+    "Callsign": "W0GJT",
+    "Location": {
+      "Latitude": 38.89899826,
+      "Longitude": -108.4960022,
+      "County": "Mesa",
+      "State": "CO",
+      "Local": "Grand Junction"
+    },
+    "Use": "Open",
+    "Status": "On-Air",
+    "Frequency": {
+      "Input": 443.15,
+      "Output": 448.15
+    },
+    "SquelchTone": {
+      "Input": 100
+    },
+    "VOIP": {
+      "EchoLink": {
+        "NodeID": 312189
+      },
+      "IRLP": {
+        "NodeID": 7963
+      }
+    }
+  },
+  {
+    "ID": 127,
+    "StateID": 8,
+    "Callsign": "KB0YNA",
+    "Location": {
+      "Latitude": 38.5766983,
+      "Longitude": -108.64700317,
+      "County": "Mesa",
+      "State": "CO",
+      "Local": "Delta, Uncompahgre Butte"
+    },
+    "Use": "Open",
+    "Status": "On-Air",
+    "Frequency": {
+      "Input": 444.4,
+      "Output": 449.4
+    },
+    "SquelchTone": {
+      "Input": 131.8,
+      "Output": 131.8
+    },
+    "VOIP": {
+      "IRLP": {
+        "NodeID": 3710
+      }
+    }
+  },
+  {
+    "ID": 36,
+    "StateID": 8,
+    "Callsign": "KB0SW",
+    "Location": {
+      "Latitude": 39.24060059,
+      "Longitude": -107.96099854,
+      "County": "Mesa",
+      "State": "CO",
+      "Local": "Collbran"
+    },
+    "Use": "Open",
+    "Status": "On-Air",
+    "Frequency": {
+      "Input": 444.5,
+      "Output": 449.5
+    },
+    "SquelchTone": {
+      "Input": 107.2
+    }
+  },
+  {
+    "ID": 208,
+    "StateID": 8,
+    "Callsign": "KB5ITT",
+    "Location": {
+      "Latitude": 37.69919968,
+      "Longitude": -107.80599976,
+      "County": "San Juan",
+      "State": "CO",
+      "Local": "Silverton, Engineer Mountain"
+    },
+    "Use": "Open",
+    "Status": "On-Air",
+    "Frequency": {
+      "Input": 147.87,
+      "Output": 147.27
+    },
+    "SquelchTone": {
+      "Input": 127.3
+    }
+  },
+  {
+    "ID": 152,
+    "StateID": 8,
+    "Callsign": "KE0TY",
+    "Location": {
+      "Latitude": 39.06389999,
+      "Longitude": -108.55000305,
+      "County": "Mesa",
+      "State": "CO",
+      "Local": "Grand Junction"
+    },
+    "Use": "Open",
+    "Status": "Other",
+    "Frequency": {
+      "Input": 147.99,
+      "Output": 147.39
+    },
+    "SquelchTone": {
+      "Input": 107.2
+    }
+  },
+  {
+    "ID": 261,
+    "StateID": 8,
+    "Callsign": "W0GJT",
+    "Location": {
+      "Latitude": 39.06389999,
+      "Longitude": -108.55000305,
+      "County": "Mesa",
+      "State": "CO",
+      "Local": "Grand Junction, 9 Mile, Hwy 141, Unaweep"
+    },
+    "Use": "Open",
+    "Status": "On-Air",
+    "Frequency": {
+      "Input": 146.22,
+      "Output": 146.82
+    },
+    "SquelchTone": {
+      "Input": 107.2
+    },
+    "VOIP": {
+      "AllStar": {
+        "NodeID": 43554
+      }
+    }
+  },
+  {
+    "ID": 3757,
+    "StateID": 8,
+    "Callsign": "KC0ARV",
+    "Location": {
+      "Latitude": 39.06380081,
+      "Longitude": -108.5510025,
+      "County": "Mesa",
+      "State": "CO",
+      "Local": "Grand Junction"
+    },
+    "Use": "Open",
+    "Status": "Other",
+    "Frequency": {
+      "Input": 442.5,
+      "Output": 447.5
+    },
+    "SquelchTone": {
+      "Input": 114.8
+    }
+  },
+  {
+    "ID": 8175,
+    "StateID": 8,
+    "Callsign": "K0SSI",
+    "Location": {
+      "Latitude": 39.06389999,
+      "Longitude": -108.5510025,
+      "County": "Mesa",
+      "State": "CO",
+      "Local": "Grand Junction"
+    },
+    "Use": "Open",
+    "Status": "On-Air",
+    "Frequency": {
+      "Input": 147.705,
+      "Output": 147.105
+    }
+  },
+  {
+    "ID": 8206,
+    "StateID": 8,
+    "Callsign": "KB0SW",
+    "Location": {
+      "Latitude": 39.06389999,
+      "Longitude": -108.5510025,
+      "County": "Mesa",
+      "State": "CO",
+      "Local": "Grand Junction"
+    },
+    "Use": "Closed",
+    "Status": "On-Air",
+    "Frequency": {
+      "Input": 444,
+      "Output": 449
+    },
+    "SquelchTone": {
+      "Output": 107.2
+    }
+  },
+  {
+    "ID": 11792,
+    "StateID": 8,
+    "Callsign": "KD0RED",
+    "Location": {
+      "Latitude": 39.06389999,
+      "Longitude": -108.5510025,
+      "County": "Mesa",
+      "State": "CO",
+      "Local": "Grand Junction"
+    },
+    "Use": "Open",
+    "Status": "On-Air",
+    "Frequency": {
+      "Input": 441.775,
+      "Output": 446.775
+    },
+    "Digital": {
+      "DStar": {
+        "Node": "KD0RED (B) Gateway Repeater"
+      }
+    }
+  },
+  {
+    "ID": 11793,
+    "StateID": 8,
+    "Callsign": "KD0SMZ",
+    "Location": {
+      "Latitude": 39.06389999,
+      "Longitude": -108.5510025,
+      "County": "Mesa",
+      "State": "CO",
+      "Local": "Grand Junction"
+    },
+    "Use": "Open",
+    "Status": "On-Air",
+    "Frequency": {
+      "Input": 444.775,
+      "Output": 449.775
+    },
+    "SquelchTone": {
+      "Input": 173.8,
+      "Output": 88.5
+    },
+    "VOIP": {
+      "EchoLink": {
+        "NodeID": 7572
+      },
+      "IRLP": {
+        "NodeID": 7573
+      }
+    }
+  },
+  {
+    "ID": 8167,
+    "StateID": 8,
+    "Callsign": "KE0TY",
+    "Location": {
+      "Latitude": 39.06389999,
+      "Longitude": -108.5510025,
+      "County": "Mesa",
+      "State": "CO",
+      "Local": "Grand Junction"
+    },
+    "Use": "Open",
+    "Status": "Other",
+    "Frequency": {
+      "Input": 144.62,
+      "Output": 145.22
+    },
+    "SquelchTone": {
+      "Input": 107.2
+    }
+  },
+  {
+    "ID": 14923,
+    "StateID": 8,
+    "Callsign": "N0PKT",
+    "Location": {
+      "Latitude": 37.79330063,
+      "Longitude": -107.05500031,
+      "County": "Mineral",
+      "State": "CO",
+      "Local": "Creede, Bristol Head"
+    },
+    "Use": "Open",
+    "Status": "On-Air",
+    "Frequency": {
+      "Input": 444.525,
+      "Output": 449.525
+    },
+    "SquelchTone": {
+      "Input": 100,
+      "Output": 100
+    },
+    "VOIP": {
+      "AllStar": {
+        "NodeID": 43265
+      }
+    }
+  },
+  {
+    "ID": 147,
+    "StateID": 8,
+    "Callsign": "W0RRZ",
+    "Location": {
+      "Latitude": 39.11729813,
+      "Longitude": -108.52200317,
+      "County": "Mesa",
+      "State": "CO",
+      "Local": "Grand Junction, GJT"
+    },
+    "Use": "Open",
+    "Status": "On-Air",
+    "Frequency": {
+      "Input": 144.575,
+      "Output": 145.175
+    },
+    "SquelchTone": {
+      "Input": 107.2
+    },
+    "VOIP": {
+      "IRLP": {
+        "NodeID": 3161
+      }
+    }
+  },
+  {
+    "ID": 63,
+    "StateID": 8,
+    "Callsign": "WA0JS",
+    "Location": {
+      "Latitude": 37.8492012,
+      "Longitude": -106.9260025,
+      "County": "Mineral",
+      "State": "CO",
+      "Local": "Creede"
+    },
+    "Use": "Open",
+    "Status": "On-Air",
+    "Frequency": {
+      "Input": 146.325,
+      "Output": 146.925
+    }
+  },
+  {
+    "ID": 18392,
+    "StateID": 8,
+    "Callsign": "",
+    "Location": {
+      "Latitude": 38.97999954,
+      "Longitude": -108.73999786,
+      "County": "Mesa",
+      "State": "CO",
+      "Local": "Glade Park"
+    },
+    "Use": "Open",
+    "Status": "On-Air",
+    "Frequency": {
+      "Input": 444.2,
+      "Output": 449.2
+    },
+    "SquelchTone": {
+      "Input": 107.2
+    }
+  },
+  {
+    "ID": 211,
+    "StateID": 8,
+    "Callsign": "K0CL",
+    "Location": {
+      "Latitude": 39.21310043,
+      "Longitude": -106.93699646,
+      "County": "Pitkin",
+      "State": "CO",
+      "Local": "Snowmass Village"
+    },
+    "Use": "Open",
+    "Status": "On-Air",
+    "Frequency": {
+      "Input": 146.07,
+      "Output": 146.67
+    },
+    "SquelchTone": {
+      "Input": 107.2
+    }
+  },
+  {
+    "ID": 35,
+    "StateID": 8,
+    "Callsign": "K0ELK",
+    "Location": {
+      "Latitude": 39.40000153,
+      "Longitude": -107.31500244,
+      "County": "Garfield",
+      "State": "CO",
+      "Local": "Carbondale, Four Mile Ridge"
+    },
+    "Use": "Open",
+    "Status": "On-Air",
+    "Frequency": {
+      "Input": 444.725,
+      "Output": 449.725
+    },
+    "SquelchTone": {
+      "Input": 179.9
+    },
+    "VOIP": {
+      "AllStar": {
+        "NodeID": 28434
+      },
+      "IRLP": {
+        "NodeID": 3722
+      }
+    }
+  },
+  {
+    "ID": 259,
+    "StateID": 8,
+    "Callsign": "K0SNO",
+    "Location": {
+      "Latitude": 39.40000153,
+      "Longitude": -107.31500244,
+      "County": "Garfield",
+      "State": "CO",
+      "Local": "Carbondale, Four Mile Ridge"
+    },
+    "Use": "Open",
+    "Status": "On-Air",
+    "Frequency": {
+      "Input": 147.99,
+      "Output": 147.39
+    },
+    "SquelchTone": {
+      "Input": 107.2
+    }
+  },
+  {
+    "ID": 129,
+    "StateID": 8,
+    "Callsign": "KB0VJJ",
+    "Location": {
+      "Latitude": 39.42639923,
+      "Longitude": -107.37999725,
+      "County": "Garfield",
+      "State": "CO",
+      "Local": "Glenwood Springs, Sunlight Peak"
+    },
+    "Use": "Open",
+    "Status": "On-Air",
+    "Frequency": {
+      "Input": 146.25,
+      "Output": 146.85
+    },
+    "SquelchTone": {
+      "Input": 88.5,
+      "Output": 123
+    }
+  },
+  {
+    "ID": 130,
+    "StateID": 8,
+    "Callsign": "KI0G",
+    "Location": {
+      "Latitude": 39.42639923,
+      "Longitude": -107.37999725,
+      "County": "Garfield",
+      "State": "CO",
+      "Local": "Glenwood Springs, Sunlight Peak"
+    },
+    "Use": "Open",
+    "Status": "On-Air",
+    "Frequency": {
+      "Input": 146.28,
+      "Output": 146.88
+    },
+    "SquelchTone": {
+      "Input": 107.2
+    }
+  },
+  {
+    "ID": 132,
+    "StateID": 8,
+    "Callsign": "KI0G",
+    "Location": {
+      "Latitude": 39.42639923,
+      "Longitude": -107.37999725,
+      "County": "Garfield",
+      "State": "CO",
+      "Local": "Glenwood Springs, Sunlight Peak"
+    },
+    "Use": "Open",
+    "Status": "On-Air",
+    "Frequency": {
+      "Input": 442.1,
+      "Output": 447.1
+    },
+    "SquelchTone": {
+      "Input": 107.2
+    }
+  },
+  {
+    "ID": 255,
+    "StateID": 8,
+    "Callsign": "N0XLI",
+    "Location": {
+      "Latitude": 39.42639923,
+      "Longitude": -107.37999725,
+      "County": "Garfield",
+      "State": "CO",
+      "Local": "Glenwood Springs, Sunlight Peak"
+    },
+    "Use": "Open",
+    "Status": "On-Air",
+    "Frequency": {
+      "Input": 444.6,
+      "Output": 449.6
+    },
+    "SquelchTone": {
+      "Input": 107.2
+    }
+  },
+  {
+    "ID": 260,
+    "StateID": 8,
+    "Callsign": "K0VQ",
+    "Location": {
+      "Latitude": 39.17610168,
+      "Longitude": -106.82900238,
+      "County": "Pitkin",
+      "State": "CO",
+      "Local": "Aspen, Aspen Mountain"
+    },
+    "Use": "Open",
+    "Status": "On-Air",
+    "Frequency": {
+      "Input": 442.05,
+      "Output": 447.05
+    },
+    "SquelchTone": {
+      "Input": 136.5,
+      "Output": 136.5
+    }
+  },
+  {
+    "ID": 200,
+    "StateID": 8,
+    "Callsign": "N0SWE",
+    "Location": {
+      "Latitude": 39.47449875,
+      "Longitude": -107.77200317,
+      "County": "Garfield",
+      "State": "CO",
+      "Local": "Rifle"
+    },
+    "Use": "Open",
+    "Status": "On-Air",
+    "Frequency": {
+      "Input": 146.16,
+      "Output": 146.76
+    },
+    "SquelchTone": {
+      "Input": 107.2
+    },
+    "VOIP": {
+      "EchoLink": {
+        "NodeID": 243117
+      }
+    }
+  },
+  {
+    "ID": 151,
+    "StateID": 8,
+    "Callsign": "W0RRZ",
+    "Location": {
+      "Latitude": 39.06560135,
+      "Longitude": -108.7480011,
+      "County": "Mesa",
+      "State": "CO",
+      "Local": "Grand Junction, Black Ridge (Above Colorado Ntl Monument)"
+    },
+    "Use": "Open",
+    "Status": "On-Air",
+    "Frequency": {
+      "Input": 146.34,
+      "Output": 146.94
+    },
+    "SquelchTone": {
+      "Input": 107.2,
+      "Output": 107.2
+    }
+  },
+  {
+    "ID": 155,
+    "StateID": 8,
+    "Callsign": "WA4HND",
+    "Location": {
+      "Latitude": 39.06560135,
+      "Longitude": -108.7480011,
+      "County": "Mesa",
+      "State": "CO",
+      "Local": "Grand Junction, Black Ridge"
+    },
+    "Use": "Open",
+    "Status": "On-Air",
+    "Frequency": {
+      "Input": 444.575,
+      "Output": 449.575
+    },
+    "SquelchTone": {
+      "Input": 131.8,
+      "Output": 131.8
+    },
+    "VOIP": {
+      "IRLP": {
+        "NodeID": 3710
+      }
+    }
+  },
+  {
+    "ID": 253,
+    "StateID": 8,
+    "Callsign": "WA4HND",
+    "Location": {
+      "Latitude": 39.45190048,
+      "Longitude": -108.05200195,
+      "County": "Garfield",
+      "State": "CO",
+      "Local": "Parachute, Mount Callahan"
+    },
+    "Use": "Open",
+    "Status": "On-Air",
+    "Frequency": {
+      "Input": 444.8,
+      "Output": 449.8
+    },
+    "SquelchTone": {
+      "Input": 107.2
+    }
+  },
+  {
+    "ID": 6009,
+    "StateID": 8,
+    "Callsign": "K0VQ",
+    "Location": {
+      "Latitude": 39.42470169,
+      "Longitude": -107.09700012,
+      "County": "Garfield",
+      "State": "CO",
+      "Local": "Carbondale, Missouri Heights"
+    },
+    "Use": "Open",
+    "Status": "On-Air",
+    "Frequency": {
+      "Input": 442.15,
+      "Output": 447.15
+    },
+    "SquelchTone": {
+      "Input": 136.5
+    },
+    "VOIP": {
+      "EchoLink": {
+        "NodeID": 8150
+      }
+    }
+  },
+  {
+    "ID": 16739,
+    "StateID": 8,
+    "Callsign": "KD0MRC",
+    "Location": {
+      "Latitude": 38.50630188,
+      "Longitude": -106.34500122,
+      "County": "Chaffee",
+      "State": "CO",
+      "Local": "Maysville"
+    },
+    "Use": "Open",
+    "Status": "On-Air",
+    "Frequency": {
+      "Input": 144.725,
+      "Output": 145.325
+    },
+    "SquelchTone": {
+      "Input": 100
+    }
+  },
+  {
+    "ID": 8181,
+    "StateID": 8,
+    "Callsign": "KI0G",
+    "Location": {
+      "Latitude": 39.55049896,
+      "Longitude": -107.32499695,
+      "County": "Garfield",
+      "State": "CO",
+      "Local": "Glenwood Springs"
+    },
+    "Use": "Closed",
+    "Status": "Other",
+    "Frequency": {
+      "Input": 222.42,
+      "Output": 224.02
+    }
+  },
+  {
+    "ID": 8192,
+    "StateID": 8,
+    "Callsign": "KI0G",
+    "Location": {
+      "Latitude": 39.55049896,
+      "Longitude": -107.32499695,
+      "County": "Garfield",
+      "State": "CO",
+      "Local": "Glenwood Springs"
+    },
+    "Use": "Closed",
+    "Status": "Other",
+    "Frequency": {
+      "Input": 442.6,
+      "Output": 447.6
+    }
+  },
+  {
+    "ID": 13637,
+    "StateID": 8,
+    "Callsign": "WA4HND",
+    "Location": {
+      "Latitude": 39.55049896,
+      "Longitude": -107.32499695,
+      "County": "Garfield",
+      "State": "CO",
+      "Local": "Glenwood Springs, Lookout Mountain"
+    },
+    "Use": "Open",
+    "Status": "On-Air",
+    "Frequency": {
+      "Input": 444.85,
+      "Output": 449.85
+    },
+    "SquelchTone": {
+      "Input": 131.8,
+      "Output": 131.8
+    }
+  },
+  {
+    "ID": 131,
+    "StateID": 8,
+    "Callsign": "K0VQ",
+    "Location": {
+      "Latitude": 39.55059814,
+      "Longitude": -107.3239975,
+      "County": "Garfield",
+      "State": "CO",
+      "Local": "Glenwood Springs, Three Mile Ridge"
+    },
+    "Use": "Open",
+    "Status": "On-Air",
+    "Frequency": {
+      "Input": 147.9,
+      "Output": 147.3
+    },
+    "SquelchTone": {
+      "Input": 107.2
+    },
+    "VOIP": {
+      "EchoLink": {
+        "NodeID": 266359
+      }
+    }
+  },
+  {
+    "ID": 113,
+    "StateID": 8,
+    "Callsign": "K0EP",
+    "Location": {
+      "Latitude": 37.41529846,
+      "Longitude": -108.01200104,
+      "County": "La Plata",
+      "State": "CO",
+      "Local": "Durango, Eagle Pass"
+    },
+    "Use": "Open",
+    "Status": "On-Air",
+    "Frequency": {
+      "Input": 146.07,
+      "Output": 146.67
+    },
+    "SquelchTone": {
+      "Input": 100,
+      "Output": 100
+    }
+  },
+  {
+    "ID": 116,
+    "StateID": 8,
+    "Callsign": "K0EP",
+    "Location": {
+      "Latitude": 37.38280106,
+      "Longitude": -107.77799988,
+      "County": "La Plata",
+      "State": "CO",
+      "Local": "Durango, Missionary Ridge"
+    },
+    "Use": "Open",
+    "Status": "On-Air",
+    "Frequency": {
+      "Input": 146.1,
+      "Output": 146.7
+    },
+    "SquelchTone": {
+      "Input": 100,
+      "Output": 100
+    }
+  },
+  {
+    "ID": 16782,
+    "StateID": 8,
+    "Callsign": "N0SZ",
+    "Location": {
+      "Latitude": 37.3669014,
+      "Longitude": -107.78500366,
+      "County": "La Plata",
+      "State": "CO",
+      "Local": "Durango, Missionary Ridge"
+    },
+    "Use": "Open",
+    "Status": "On-Air",
+    "Frequency": {
+      "Input": 440.1375,
+      "Output": 445.1375
+    },
+    "Digital": {
+      "DMR": {
+        "ColorCode": 7,
+        "ID": 310854
+      }
+    }
+  },
+  {
+    "ID": 114,
+    "StateID": 8,
+    "Callsign": "KB0VJJ",
+    "Location": {
+      "Latitude": 37.34999847,
+      "Longitude": -107.76699829,
+      "County": "La Plata",
+      "State": "CO",
+      "Local": "Durango, Missionary Ridge"
+    },
+    "Use": "Open",
+    "Status": "On-Air",
+    "Frequency": {
+      "Input": 147.945,
+      "Output": 147.345
+    },
+    "SquelchTone": {
+      "Input": 88.5,
+      "Output": 123
+    }
+  },
+  {
+    "ID": 18459,
+    "StateID": 8,
+    "Callsign": "KB5ITS",
+    "Location": {
+      "Latitude": 37.36460114,
+      "Longitude": -108.14800262,
+      "County": "Montezuma",
+      "State": "CO",
+      "Local": "Mancos, Caviness"
+    },
+    "Use": "Open",
+    "Status": "On-Air",
+    "Frequency": {
+      "Input": 144.725,
+      "Output": 145.325
+    }
+  },
+  {
+    "ID": 16606,
+    "StateID": 8,
+    "Callsign": "KB5ITS",
+    "Location": {
+      "Latitude": 37.47389984,
+      "Longitude": -108.50499725,
+      "County": "Montezuma",
+      "State": "CO",
+      "Local": "Cortez, Goodman"
+    },
+    "Use": "Open",
+    "Status": "On-Air",
+    "Frequency": {
+      "Input": 144.59,
+      "Output": 145.19
+    },
+    "SquelchTone": {
+      "Input": 100
+    }
+  },
+  {
+    "ID": 184,
+    "StateID": 8,
+    "Callsign": "W0LSD",
+    "Location": {
+      "Latitude": 38.71289825,
+      "Longitude": -106.19999695,
+      "County": "Chaffee",
+      "State": "CO",
+      "Local": "Nathrop"
+    },
+    "Use": "Open",
+    "Status": "On-Air",
+    "Frequency": {
+      "Input": 146.145,
+      "Output": 146.745
+    },
+    "SquelchTone": {
+      "Input": 100
+    }
+  },
+  {
+    "ID": 8169,
+    "StateID": 8,
+    "Callsign": "KB0VIU",
+    "Location": {
+      "Latitude": 37.29999924,
+      "Longitude": -108.02799988,
+      "County": "La Plata",
+      "State": "CO",
+      "Local": "Hesperus"
+    },
+    "Use": "Open",
+    "Status": "On-Air",
+    "Frequency": {
+      "Input": 144.77,
+      "Output": 145.37
+    },
+    "SquelchTone": {
+      "Input": 100,
+      "Output": 100
+    }
+  },
+  {
+    "ID": 115,
+    "StateID": 8,
+    "Callsign": "KC5EVE",
+    "Location": {
+      "Latitude": 37.27529907,
+      "Longitude": -107.8789978,
+      "County": "La Plata",
+      "State": "CO",
+      "Local": "Durango"
+    },
+    "Use": "Open",
+    "Status": "On-Air",
+    "Frequency": {
+      "Input": 443.625,
+      "Output": 448.625
+    },
+    "SquelchTone": {
+      "Input": 131.8,
+      "Output": 131.8
+    }
+  },
+  {
+    "ID": 11546,
+    "StateID": 8,
+    "Callsign": "K0EP",
+    "Location": {
+      "Latitude": 37.27529907,
+      "Longitude": -107.87999725,
+      "County": "La Plata",
+      "State": "CO",
+      "Local": "Durango"
+    },
+    "Use": "Open",
+    "Status": "On-Air",
+    "Frequency": {
+      "Input": 444.85,
+      "Output": 449.85
+    },
+    "SquelchTone": {
+      "Input": 100,
+      "Output": 100
+    }
+  },
+  {
+    "ID": 15895,
+    "StateID": 8,
+    "Callsign": "N5UBJ",
+    "Location": {
+      "Latitude": 37.34500122,
+      "Longitude": -108.28900146,
+      "County": "Montezuma",
+      "State": "CO",
+      "Local": "Mancos, Caviness Mountain"
+    },
+    "Use": "Open",
+    "Status": "On-Air",
+    "Frequency": {
+      "Input": 441.7375,
+      "Output": 446.7375
+    },
+    "Digital": {
+      "DMR": {
+        "ColorCode": 6,
+        "ID": 310826
+      }
+    }
+  },
+  {
+    "ID": 11545,
+    "StateID": 8,
+    "Callsign": "KB5ITS",
+    "Location": {
+      "Latitude": 37.2621994,
+      "Longitude": -107.90599823,
+      "County": "La Plata",
+      "State": "CO",
+      "Local": "Durango, Smelter Mountain"
+    },
+    "Use": "Open",
+    "Status": "On-Air",
+    "Frequency": {
+      "Input": 147.735,
+      "Output": 147.135
+    },
+    "SquelchTone": {
+      "Input": 100,
+      "Output": 100
+    }
+  },
+  {
+    "ID": 8168,
+    "StateID": 8,
+    "Callsign": "KB5ITS",
+    "Location": {
+      "Latitude": 37.32600021,
+      "Longitude": -108.2480011,
+      "County": "Montezuma",
+      "State": "CO",
+      "Local": "Mancos, Menefee Mountain"
+    },
+    "Use": "Open",
+    "Status": "On-Air",
+    "Frequency": {
+      "Input": 144.725,
+      "Output": 145.325
+    },
+    "SquelchTone": {
+      "Input": 100
+    }
+  },
+  {
+    "ID": 13042,
+    "StateID": 49,
+    "Callsign": "K7QEQ",
+    "Location": {
+      "Latitude": 38.52859879,
+      "Longitude": -109.3219986,
+      "County": "Grand",
+      "State": "UT",
+      "Local": "Moab, Bald Mesa"
+    },
+    "Use": "Open",
+    "Status": "On-Air",
+    "Frequency": {
+      "Input": 146.16,
+      "Output": 146.76
+    },
+    "SquelchTone": {
+      "Input": 88.5
+    }
+  },
+  {
+    "ID": 52,
+    "StateID": 49,
+    "Callsign": "K7QEQ",
+    "Location": {
+      "Latitude": 38.52859879,
+      "Longitude": -109.32499695,
+      "County": "Grand",
+      "State": "UT",
+      "Local": "Moab, Bald Mesa"
+    },
+    "Use": "Open",
+    "Status": "On-Air",
+    "Frequency": {
+      "Input": 444.1,
+      "Output": 449.1
+    },
+    "SquelchTone": {
+      "Input": 107.2,
+      "Output": 107.2
+    }
+  },
+  {
+    "ID": 205,
+    "StateID": 8,
+    "Callsign": "KC0CVU",
+    "Location": {
+      "Latitude": 38.45280075,
+      "Longitude": -106.01799774,
+      "County": "Chaffee",
+      "State": "CO",
+      "Local": "Salida, Methodist Mountain"
+    },
+    "Use": "Open",
+    "Status": "On-Air",
+    "Frequency": {
+      "Input": 444.65,
+      "Output": 449.65
+    },
+    "SquelchTone": {
+      "Input": 107.2
+    }
+  },
+  {
+    "ID": 3811,
+    "StateID": 8,
+    "Callsign": "WZ0N",
+    "Location": {
+      "Latitude": 38.45280075,
+      "Longitude": -106.01799774,
+      "County": "Chaffee",
+      "State": "CO",
+      "Local": "Salida, Methodist Mountain"
+    },
+    "Use": "Open",
+    "Status": "On-Air",
+    "Frequency": {
+      "Input": 444.925,
+      "Output": 449.925
+    },
+    "SquelchTone": {
+      "Input": 103.5,
+      "Output": 103.5
+    }
+  },
+  {
+    "ID": 204,
+    "StateID": 8,
+    "Callsign": "KB0VJJ",
+    "Location": {
+      "Latitude": 38.45959854,
+      "Longitude": -106.01100159,
+      "County": "Chaffee",
+      "State": "CO",
+      "Local": "Salida, Methodist Mountain"
+    },
+    "Use": "Open",
+    "Status": "On-Air",
+    "Frequency": {
+      "Input": 147.885,
+      "Output": 147.285
+    },
+    "SquelchTone": {
+      "Input": 88.5,
+      "Output": 123
+    }
+  },
+  {
+    "ID": 203,
+    "StateID": 8,
+    "Callsign": "KC0CVU",
+    "Location": {
+      "Latitude": 38.45959854,
+      "Longitude": -106.01100159,
+      "County": "Chaffee",
+      "State": "CO",
+      "Local": "Salida, Methodist Mountain"
+    },
+    "Use": "Open",
+    "Status": "On-Air",
+    "Frequency": {
+      "Input": 144.695,
+      "Output": 145.295
+    },
+    "SquelchTone": {
+      "Input": 107.2
+    }
+  },
+  {
+    "ID": 13510,
+    "StateID": 8,
+    "Callsign": "K0JSC",
+    "Location": {
+      "Latitude": 38.44630051,
+      "Longitude": -106.01100159,
+      "County": "Chaffee",
+      "State": "CO",
+      "Local": "Salida, Methodist Mountain"
+    },
+    "Use": "Open",
+    "Status": "On-Air",
+    "Frequency": {
+      "Input": 444.975,
+      "Output": 449.975
+    },
+    "SquelchTone": {
+      "Input": 100,
+      "Output": 100
+    },
+    "VOIP": {
+      "AllStar": {
+        "NodeID": 28368
+      },
+      "EchoLink": {
+        "NodeID": 363976
+      },
+      "IRLP": {
+        "NodeID": 7301
+      }
+    }
+  },
+  {
+    "ID": 18425,
+    "StateID": 8,
+    "Callsign": "WA6IFI",
+    "Location": {
+      "Latitude": 38.44670105,
+      "Longitude": -106.01000214,
+      "County": "Chaffee",
+      "State": "CO",
+      "Local": "Salida, Methodist Mountain"
+    },
+    "Use": "Open",
+    "Status": "On-Air",
+    "Frequency": {
+      "Input": 902.025,
+      "Output": 927.8625
+    },
+    "Digital": {
+      "P25": {}
+    }
+  },
+  {
+    "ID": 10827,
+    "StateID": 8,
+    "Callsign": "N0ZSN",
+    "Location": {
+      "Latitude": 39.25080109,
+      "Longitude": -106.29299927,
+      "County": "Lake",
+      "State": "CO",
+      "Local": "Leadville, Quail Mountain"
+    },
+    "Use": "Open",
+    "Status": "On-Air",
+    "Frequency": {
+      "Input": 147.84,
+      "Output": 147.24
+    },
+    "SquelchTone": {
+      "Input": 156.7,
+      "Output": 156.7
+    }
+  },
+  {
+    "ID": 9844,
+    "StateID": 8,
+    "Callsign": "KD0QPG",
+    "Location": {
+      "Latitude": 38.53469849,
+      "Longitude": -105.99900055,
+      "County": "Chaffee",
+      "State": "CO",
+      "Local": "Salida, Methodist Mountain"
+    },
+    "Use": "Open",
+    "Status": "On-Air",
+    "Frequency": {
+      "Input": 441.975,
+      "Output": 446.975
+    },
+    "Digital": {
+      "DStar": {
+        "Node": "KD0QPG (B) Gateway Repeater"
+      }
+    }
+  },
+  {
+    "ID": 12697,
+    "StateID": 8,
+    "Callsign": "N0SZ",
+    "Location": {
+      "Latitude": 38.53469849,
+      "Longitude": -105.99900055,
+      "County": "Chaffee",
+      "State": "CO",
+      "Local": "Salida, Methodist Mountain"
+    },
+    "Use": "Open",
+    "Status": "On-Air",
+    "Frequency": {
+      "Input": 441.8125,
+      "Output": 446.8125
+    },
+    "Digital": {
+      "DMR": {
+        "ColorCode": 7,
+        "ID": 310825
+      }
+    }
+  },
+  {
+    "ID": 8177,
+    "StateID": 8,
+    "Callsign": "KB5ITS",
+    "Location": {
+      "Latitude": 37.11500168,
+      "Longitude": -107.63300323,
+      "County": "La Plata",
+      "State": "CO",
+      "Local": "Ignacio, Spring Creek"
+    },
+    "Use": "Open",
+    "Status": "On-Air",
+    "Frequency": {
+      "Input": 147.75,
+      "Output": 147.15
+    },
+    "SquelchTone": {
+      "Input": 100
+    }
+  },
+  {
+    "ID": 188,
+    "StateID": 8,
+    "Callsign": "N0JSP",
+    "Location": {
+      "Latitude": 37.19300079,
+      "Longitude": -107.09999847,
+      "County": "Archuleta",
+      "State": "CO",
+      "Local": "Pagosa Springs, Oakbrush Hill"
+    },
+    "Use": "Open",
+    "Status": "On-Air",
+    "Frequency": {
+      "Input": 146.01,
+      "Output": 146.61
+    },
+    "SquelchTone": {
+      "Input": 123
+    }
+  },
+  {
+    "ID": 16783,
+    "StateID": 8,
+    "Callsign": "N0SZ",
+    "Location": {
+      "Latitude": 39.26530075,
+      "Longitude": -106.18199921,
+      "County": "Lake",
+      "State": "CO",
+      "Local": "Leadville, Mosquito Pass"
+    },
+    "Use": "Open",
+    "Status": "On-Air",
+    "Frequency": {
+      "Input": 440.05,
+      "Output": 445.05
+    },
+    "Digital": {
+      "DMR": {
+        "ColorCode": 7,
+        "ID": 310852
+      }
+    }
+  },
+  {
+    "ID": 172,
+    "StateID": 8,
+    "Callsign": "KB0VJJ",
+    "Location": {
+      "Latitude": 39.28139877,
+      "Longitude": -106.18599701,
+      "County": "Lake",
+      "State": "CO",
+      "Local": "Leadville, Mosquito Pass"
+    },
+    "Use": "Open",
+    "Status": "On-Air",
+    "Frequency": {
+      "Input": 144.845,
+      "Output": 145.445
+    },
+    "SquelchTone": {
+      "Input": 88.5
+    }
+  },
+  {
+    "ID": 48,
+    "StateID": 49,
+    "Callsign": "K7QEQ",
+    "Location": {
+      "Latitude": 38.57389832,
+      "Longitude": -109.5490036,
+      "County": "Grand",
+      "State": "UT",
+      "Local": "Moab"
+    },
+    "Use": "Open",
+    "Status": "On-Air",
+    "Frequency": {
+      "Input": 146.3,
+      "Output": 146.9
+    },
+    "SquelchTone": {
+      "Input": 88.5
+    }
+  },
+  {
+    "ID": 9840,
+    "StateID": 8,
+    "Callsign": "WZ0N",
+    "Location": {
+      "Latitude": 38.88330078,
+      "Longitude": -105.93299866,
+      "County": "Park",
+      "State": "CO",
+      "Local": "Hartsel"
+    },
+    "Use": "Open",
+    "Status": "On-Air",
+    "Frequency": {
+      "Input": 443.575,
+      "Output": 448.575
+    },
+    "SquelchTone": {
+      "Input": 103.5,
+      "Output": 103.5
+    }
+  },
+  {
+    "ID": 174,
+    "StateID": 8,
+    "Callsign": "KB0SW",
+    "Location": {
+      "Latitude": 39.58190155,
+      "Longitude": -108.95200348,
+      "County": "Garfield",
+      "State": "CO",
+      "Local": "Loma, Baxter Pass"
+    },
+    "Use": "Open",
+    "Status": "On-Air",
+    "Frequency": {
+      "Input": 442,
+      "Output": 447
+    },
+    "SquelchTone": {
+      "Input": 107.2
+    }
+  },
+  {
+    "ID": 5336,
+    "StateID": 8,
+    "Callsign": "AA0BF",
+    "Location": {
+      "Latitude": 39.20999908,
+      "Longitude": -106.08699799,
+      "County": "Park",
+      "State": "CO",
+      "Local": "Fairplay, Sacramento Mountain"
+    },
+    "Use": "Open",
+    "Status": "On-Air",
+    "Frequency": {
+      "Input": 442.125,
+      "Output": 447.125
+    },
+    "SquelchTone": {
+      "Input": 103.5,
+      "Output": 103.5
+    },
+    "VOIP": {
+      "AllStar": {
+        "NodeID": 45840
+      }
+    }
+  },
+  {
+    "ID": 16645,
+    "StateID": 8,
+    "Callsign": "N0KM",
+    "Location": {
+      "Latitude": 37.75,
+      "Longitude": -106.11499786,
+      "County": "Rio Grande",
+      "State": "CO",
+      "Local": "Center"
+    },
+    "Use": "Open",
+    "Status": "On-Air",
+    "Frequency": {
+      "Input": 442.1,
+      "Output": 447.1
+    },
+    "SquelchTone": {
+      "Input": 77
+    }
+  },
+  {
+    "ID": 14200,
+    "StateID": 8,
+    "Callsign": "N0KM",
+    "Location": {
+      "Latitude": 37.75310135,
+      "Longitude": -106.10900116,
+      "County": "Rio Grande",
+      "State": "CO",
+      "Local": "Center"
+    },
+    "Use": "Open",
+    "Status": "On-Air",
+    "Frequency": {
+      "Input": 146.04,
+      "Output": 146.64
+    },
+    "SquelchTone": {
+      "Input": 77,
+      "Output": 77
+    },
+    "VOIP": {
+      "AllStar": {
+        "NodeID": 428602
+      }
+    }
+  },
+  {
+    "ID": 16781,
+    "StateID": 8,
+    "Callsign": "N0SZ",
+    "Location": {
+      "Latitude": 39.63479996,
+      "Longitude": -106.4469986,
+      "County": "Eagle",
+      "State": "CO",
+      "Local": "Vail"
+    },
+    "Use": "Open",
+    "Status": "On-Air",
+    "Frequency": {
+      "Input": 440.075,
+      "Output": 445.075
+    },
+    "Digital": {
+      "DMR": {
+        "ColorCode": 7,
+        "ID": 310851
+      }
+    }
+  },
+  {
+    "ID": 241,
+    "StateID": 8,
+    "Callsign": "KB0VJJ",
+    "Location": {
+      "Latitude": 39.65539932,
+      "Longitude": -106.45700073,
+      "County": "Eagle",
+      "State": "CO",
+      "Local": "Vail"
+    },
+    "Use": "Open",
+    "Status": "On-Air",
+    "Frequency": {
+      "Input": 147.945,
+      "Output": 147.345
+    },
+    "SquelchTone": {
+      "Input": 88.5,
+      "Output": 123
+    }
+  },
+  {
+    "ID": 49,
+    "StateID": 49,
+    "Callsign": "K7QEQ",
+    "Location": {
+      "Latitude": 37.83919907,
+      "Longitude": -109.46199799,
+      "County": "San Juan",
+      "State": "UT",
+      "Local": "Monticello, Abajo Pk"
+    },
+    "Use": "Closed",
+    "Status": "Other",
+    "Frequency": {
+      "Input": 222.34,
+      "Output": 223.94
+    }
+  },
+  {
+    "ID": 50,
+    "StateID": 49,
+    "Callsign": "K7QEQ",
+    "Location": {
+      "Latitude": 37.83919907,
+      "Longitude": -109.46199799,
+      "County": "San Juan",
+      "State": "UT",
+      "Local": "Monticello, Abajo Peak"
+    },
+    "Use": "Closed",
+    "Status": "Other",
+    "Frequency": {
+      "Input": 442.4,
+      "Output": 447.4
+    }
+  },
+  {
+    "ID": 124,
+    "StateID": 49,
+    "Callsign": "K7QEQ",
+    "Location": {
+      "Latitude": 37.83919907,
+      "Longitude": -109.46199799,
+      "County": "San Juan",
+      "State": "UT",
+      "Local": "Monticello, Abajo Peak"
+    },
+    "Use": "Open",
+    "Status": "On-Air",
+    "Frequency": {
+      "Input": 442.1,
+      "Output": 447.1
+    },
+    "SquelchTone": {
+      "Input": 107.2,
+      "Output": 107.2
+    }
+  },
+  {
+    "ID": 60,
+    "StateID": 49,
+    "Callsign": "K7SDC",
+    "Location": {
+      "Latitude": 37.83919907,
+      "Longitude": -109.46199799,
+      "County": "San Juan",
+      "State": "UT",
+      "Local": "Monticello, Abajo Peak"
+    },
+    "Use": "Open",
+    "Status": "On-Air",
+    "Frequency": {
+      "Input": 146.01,
+      "Output": 146.61
+    },
+    "SquelchTone": {
+      "Input": 88.5
+    },
+    "VOIP": {
+      "EchoLink": {
+        "NodeID": 64264
+      },
+      "IRLP": {
+        "NodeID": 3270
+      }
+    }
+  },
+  {
+    "ID": 18460,
+    "StateID": 49,
+    "Callsign": "KB5ITS",
+    "Location": {
+      "Latitude": 37.83940125,
+      "Longitude": -109.46299744,
+      "County": "Wayne",
+      "State": "UT",
+      "Local": "Monticello, Abajo Peak"
+    },
+    "Use": "Open",
+    "Status": "On-Air",
+    "Frequency": {
+      "Input": 442.275,
+      "Output": 447.275
+    },
+    "SquelchTone": {
+      "Input": 100
+    }
+  },
+  {
+    "ID": 256,
+    "StateID": 8,
+    "Callsign": "K0RV",
+    "Location": {
+      "Latitude": 39.60609818,
+      "Longitude": -106.35600281,
+      "County": "Eagle",
+      "State": "CO",
+      "Local": "Vail, Bald Mountain"
+    },
+    "Use": "Open",
+    "Status": "On-Air",
+    "Frequency": {
+      "Input": 146.01,
+      "Output": 146.61
+    },
+    "SquelchTone": {
+      "Input": 107.2
+    }
+  },
+  {
+    "ID": 12698,
+    "StateID": 8,
+    "Callsign": "N0SZ",
+    "Location": {
+      "Latitude": 39.0469017,
+      "Longitude": -105.87000275,
+      "County": "Park",
+      "State": "CO",
+      "Local": "Fairplay, Badger"
+    },
+    "Use": "Open",
+    "Status": "On-Air",
+    "Frequency": {
+      "Input": 441.7625,
+      "Output": 446.7625
+    },
+    "Digital": {
+      "DMR": {
+        "ColorCode": 7,
+        "ID": 310827
+      }
+    }
+  },
+  {
+    "ID": 18580,
+    "StateID": 8,
+    "Callsign": "K0SLV",
+    "Location": {
+      "Latitude": 37.58418274,
+      "Longitude": -106.13030243,
+      "County": "Rio Grande",
+      "State": "CO",
+      "Local": "Monte Vista"
+    },
+    "Use": "Open",
+    "Status": "On-Air",
+    "Frequency": {
+      "Input": 444.625,
+      "Output": 449.625
+    },
+    "SquelchTone": {
+      "Input": 94.8
+    }
+  },
+  {
+    "ID": 242,
+    "StateID": 8,
+    "Callsign": "N0AFO",
+    "Location": {
+      "Latitude": 39.64030075,
+      "Longitude": -106.37400055,
+      "County": "Eagle",
+      "State": "CO",
+      "Local": "Vail"
+    },
+    "Use": "Open",
+    "Status": "On-Air",
+    "Frequency": {
+      "Input": 223.2,
+      "Output": 224.8
+    }
+  },
+  {
+    "ID": 243,
+    "StateID": 8,
+    "Callsign": "N0AFO",
+    "Location": {
+      "Latitude": 39.64030075,
+      "Longitude": -106.37400055,
+      "County": "Eagle",
+      "State": "CO",
+      "Local": "Vail"
+    },
+    "Use": "Open",
+    "Status": "On-Air",
+    "Frequency": {
+      "Input": 444.9,
+      "Output": 449.9
+    },
+    "SquelchTone": {
+      "Input": 107.2,
+      "Output": 107.2
+    }
+  },
+  {
+    "ID": 23,
+    "StateID": 8,
+    "Callsign": "WB0QMR",
+    "Location": {
+      "Latitude": 39.4817009,
+      "Longitude": -106.03800201,
+      "County": "Summit",
+      "State": "CO",
+      "Local": "Breckenridge"
+    },
+    "Use": "Open",
+    "Status": "On-Air",
+    "Frequency": {
+      "Input": 146.1,
+      "Output": 146.7
+    },
+    "SquelchTone": {
+      "Input": 107.2
+    },
+    "VOIP": {
+      "IRLP": {
+        "NodeID": 3972
+      }
+    }
+  },
+  {
+    "ID": 24,
+    "StateID": 8,
+    "Callsign": "KB0VJJ",
+    "Location": {
+      "Latitude": 39.44390106,
+      "Longitude": -105.96900177,
+      "County": "Summit",
+      "State": "CO",
+      "Local": "Breckenridge, Bald Mountain"
+    },
+    "Use": "Open",
+    "Status": "On-Air",
+    "Frequency": {
+      "Input": 147.99,
+      "Output": 147.39
+    },
+    "SquelchTone": {
+      "Input": 88.5,
+      "Output": 123
+    }
+  },
+  {
+    "ID": 16780,
+    "StateID": 8,
+    "Callsign": "N0SZ",
+    "Location": {
+      "Latitude": 39.45899963,
+      "Longitude": -105.97899628,
+      "County": "Fremont",
+      "State": "CO",
+      "Local": "Breckenridge, Baldy"
+    },
+    "Use": "Open",
+    "Status": "On-Air",
+    "Frequency": {
+      "Input": 440.0875,
+      "Output": 445.0875
+    },
+    "Digital": {
+      "DMR": {
+        "ColorCode": 7,
+        "ID": 310830
+      }
+    }
+  },
+  {
+    "ID": 15624,
+    "StateID": 35,
+    "Callsign": "NM5SJ",
+    "Location": {
+      "Latitude": 36.93360138,
+      "Longitude": -106.99900055,
+      "County": "Rio Arriba",
+      "State": "NM",
+      "Local": "Dulce"
+    },
+    "Use": "Open",
+    "Status": "On-Air",
+    "Frequency": {
+      "Input": 144.83,
+      "Output": 145.43
+    },
+    "SquelchTone": {
+      "Input": 136.5
+    }
+  },
+  {
+    "ID": 44,
+    "StateID": 35,
+    "Callsign": "KB5ITS",
+    "Location": {
+      "Latitude": 36.82220078,
+      "Longitude": -107.99199677,
+      "County": "San Juan",
+      "State": "NM",
+      "Local": "Aztec"
+    },
+    "Use": "Open",
+    "Status": "On-Air",
+    "Frequency": {
+      "Input": 442.45,
+      "Output": 447.45
+    },
+    "SquelchTone": {
+      "Input": 107.2
+    }
+  },
+  {
+    "ID": 43,
+    "StateID": 35,
+    "Callsign": "NM5SJ",
+    "Location": {
+      "Latitude": 36.82220078,
+      "Longitude": -107.99199677,
+      "County": "San Juan",
+      "State": "NM",
+      "Local": "Aztec"
+    },
+    "Use": "Open",
+    "Status": "On-Air",
+    "Frequency": {
+      "Input": 146.14,
+      "Output": 146.74
+    },
+    "SquelchTone": {
+      "Input": 100
+    }
+  },
+  {
+    "ID": 12413,
+    "StateID": 35,
+    "Callsign": "N5UBJ",
+    "Location": {
+      "Latitude": 36.82220078,
+      "Longitude": -107.99299622,
+      "County": "San Juan",
+      "State": "NM",
+      "Local": "Aztec"
+    },
+    "Use": "Open",
+    "Status": "On-Air",
+    "Frequency": {
+      "Input": 447.25,
+      "Output": 442.25
+    },
+    "Digital": {
+      "DMR": {
+        "ColorCode": 1,
+        "ID": 313502
+      }
+    }
+  },
+  {
+    "ID": 18461,
+    "StateID": 35,
+    "Callsign": "KB5ITS",
+    "Location": {
+      "Latitude": 36.80630112,
+      "Longitude": -108.0019989,
+      "County": "San Juan",
+      "State": "NM",
+      "Local": "Aztec, Hottel Hill"
+    },
+    "Use": "Open",
+    "Status": "On-Air",
+    "Frequency": {
+      "Input": 146.01,
+      "Output": 146.61
+    },
+    "SquelchTone": {
+      "Input": 100
+    }
+  },
+  {
+    "ID": 16280,
+    "StateID": 35,
+    "Callsign": "KF5VBE",
+    "Location": {
+      "Latitude": 36.78229904,
+      "Longitude": -107.98799896,
+      "County": "San Juan",
+      "State": "NM",
+      "Local": "Aztec"
+    },
+    "Use": "Closed",
+    "Status": "On-Air",
+    "Frequency": {
+      "Input": 1271.1,
+      "Output": 1291.1
+    },
+    "Digital": {
+      "DStar": {
+        "Node": "KF5VBE (A) Repeater"
+      }
+    }
+  },
+  {
+    "ID": 11428,
+    "StateID": 35,
+    "Callsign": "KF5VBE",
+    "Location": {
+      "Latitude": 36.78170013,
+      "Longitude": -107.98999786,
+      "County": "San Juan",
+      "State": "NM",
+      "Local": "Farmington"
+    },
+    "Use": "Open",
+    "Status": "On-Air",
+    "Frequency": {
+      "Input": 144.515,
+      "Output": 145.115
+    },
+    "Digital": {
+      "DStar": {
+        "Node": "KF5VBE (C) Gateway Repeater"
+      }
+    }
+  },
+  {
+    "ID": 18712,
+    "StateID": 35,
+    "Callsign": "N5UBJ",
+    "Location": {
+      "Latitude": 36.7785,
+      "Longitude": -108.1875,
+      "County": "San Juan",
+      "State": "NM",
+      "Local": "Farmington, FAA Hill"
+    },
+    "Use": "Open",
+    "Status": "On-Air",
+    "Frequency": {
+      "Input": 445.3,
+      "Output": 440.3
+    },
+    "Digital": {
+      "DMR": {
+        "ColorCode": 6,
+        "ID": 311624
+      }
+    }
+  },
+  {
+    "ID": 50,
+    "StateID": 35,
+    "Callsign": "K5WXI",
+    "Location": {
+      "Latitude": 36.71110153,
+      "Longitude": -107.98400116,
+      "County": "San Juan",
+      "State": "NM",
+      "Local": "Bloomfield"
+    },
+    "Use": "Open",
+    "Status": "On-Air",
+    "Frequency": {
+      "Input": 146.32,
+      "Output": 146.92
+    },
+    "SquelchTone": {
+      "Input": 100
+    }
+  },
+  {
+    "ID": 8218,
+    "StateID": 8,
+    "Callsign": "ND0Q",
+    "Location": {
+      "Latitude": 38.13470078,
+      "Longitude": -105.46600342,
+      "County": "Pueblo",
+      "State": "CO",
+      "Local": "Westcliffe, Deer Peak"
+    },
+    "Use": "Open",
+    "Status": "On-Air",
+    "Frequency": {
+      "Input": 894.1,
+      "Output": 919.1
+    },
+    "SquelchTone": {
+      "Input": 88.5
+    }
+  },
+  {
+    "ID": 17249,
+    "StateID": 8,
+    "Callsign": "N0SZ",
+    "Location": {
+      "Latitude": 40.08750153,
+      "Longitude": -108.80500031,
+      "County": "Rio Blanco",
+      "State": "CO",
+      "Local": "Rangely, Cathedral Bluffs"
+    },
+    "Use": "Open",
+    "Status": "On-Air",
+    "Frequency": {
+      "Input": 440.2625,
+      "Output": 445.2625
+    },
+    "Digital": {
+      "DMR": {
+        "ColorCode": 7,
+        "ID": 310154
+      }
+    }
+  },
+  {
+    "ID": 248,
+    "StateID": 8,
+    "Callsign": "KB0TUC",
+    "Location": {
+      "Latitude": 38.13470078,
+      "Longitude": -105.46499634,
+      "County": "Custer",
+      "State": "CO",
+      "Local": "Westcliffe"
+    },
+    "Use": "Open",
+    "Status": "On-Air",
+    "Frequency": {
+      "Input": 443.15,
+      "Output": 448.15
+    },
+    "SquelchTone": {
+      "Input": 103.5,
+      "Output": 103.5
+    }
+  },
+  {
+    "ID": 7192,
+    "StateID": 8,
+    "Callsign": "KB0TUC",
+    "Location": {
+      "Latitude": 38.13470078,
+      "Longitude": -105.46499634,
+      "County": "Custer",
+      "State": "CO",
+      "Local": "Westcliffe"
+    },
+    "Use": "Open",
+    "Status": "On-Air",
+    "Frequency": {
+      "Input": 902.775,
+      "Output": 927.775
+    },
+    "DigitalTone": {
+      "Input": 116
+    }
+  },
+  {
+    "ID": 7189,
+    "StateID": 8,
+    "Callsign": "KB0TUC",
+    "Location": {
+      "Latitude": 38.13470078,
+      "Longitude": -105.46499634,
+      "County": "Custer",
+      "State": "CO",
+      "Local": "Westcliffe"
+    },
+    "Use": "Open",
+    "Status": "On-Air",
+    "Frequency": {
+      "Input": 147.66,
+      "Output": 147.06
+    },
+    "SquelchTone": {
+      "Input": 77,
+      "Output": 77
+    }
+  },
+  {
+    "ID": 169,
+    "StateID": 8,
+    "Callsign": "NX0G",
+    "Location": {
+      "Latitude": 39.04940033,
+      "Longitude": -105.51300049,
+      "County": "Park",
+      "State": "CO",
+      "Local": "Lake George, Badger Mountain"
+    },
+    "Use": "Open",
+    "Status": "On-Air",
+    "Frequency": {
+      "Input": 146.085,
+      "Output": 146.685
+    },
+    "SquelchTone": {
+      "Input": 107.2,
+      "Output": 107.2
+    }
+  },
+  {
+    "ID": 170,
+    "StateID": 8,
+    "Callsign": "KC0CVU",
+    "Location": {
+      "Latitude": 39.0489006,
+      "Longitude": -105.51200104,
+      "County": "Park",
+      "State": "CO",
+      "Local": "Lake George, Badger Mountain"
+    },
+    "Use": "Open",
+    "Status": "On-Air",
+    "Frequency": {
+      "Input": 147.96,
+      "Output": 147.36
+    },
+    "SquelchTone": {
+      "Input": 107.2,
+      "Output": 107.2
+    },
+    "VOIP": {
+      "IRLP": {
+        "NodeID": 3854
+      }
+    }
+  },
+  {
+    "ID": 85,
+    "StateID": 35,
+    "Callsign": "K5WXI",
+    "Location": {
+      "Latitude": 36.72809982,
+      "Longitude": -108.21800232,
+      "County": "San Juan",
+      "State": "NM",
+      "Local": "Farmington"
+    },
+    "Use": "Open",
+    "Status": "On-Air",
+    "Frequency": {
+      "Input": 146.25,
+      "Output": 146.85
+    },
+    "SquelchTone": {
+      "Input": 100,
+      "Output": 100
+    }
+  },
+  {
+    "ID": 87,
+    "StateID": 35,
+    "Callsign": "K5WY",
+    "Location": {
+      "Latitude": 36.72809982,
+      "Longitude": -108.21800232,
+      "County": "San Juan",
+      "State": "NM",
+      "Local": "Farmington"
+    },
+    "Use": "Open",
+    "Status": "Other",
+    "Frequency": {
+      "Input": 444,
+      "Output": 449
+    },
+    "SquelchTone": {
+      "Input": 100
+    }
+  },
+  {
+    "ID": 81,
+    "StateID": 35,
+    "Callsign": "KB5ITS",
+    "Location": {
+      "Latitude": 36.72809982,
+      "Longitude": -108.21800232,
+      "County": "San Juan",
+      "State": "NM",
+      "Local": "Farmington"
+    },
+    "Use": "Open",
+    "Status": "On-Air",
+    "Frequency": {
+      "Input": 52.01,
+      "Output": 53.01
+    },
+    "SquelchTone": {
+      "Input": 131.8
+    }
+  },
+  {
+    "ID": 84,
+    "StateID": 35,
+    "Callsign": "KB5ITS",
+    "Location": {
+      "Latitude": 36.72809982,
+      "Longitude": -108.21800232,
+      "County": "San Juan",
+      "State": "NM",
+      "Local": "Farmington"
+    },
+    "Use": "Open",
+    "Status": "On-Air",
+    "Frequency": {
+      "Input": 146.16,
+      "Output": 146.76
+    },
+    "SquelchTone": {
+      "Input": 100,
+      "Output": 100
+    }
+  },
+  {
+    "ID": 86,
+    "StateID": 35,
+    "Callsign": "KB5ITS",
+    "Location": {
+      "Latitude": 36.72809982,
+      "Longitude": -108.21800232,
+      "County": "San Juan",
+      "State": "NM",
+      "Local": "Farmington, College Hill"
+    },
+    "Use": "Open",
+    "Status": "On-Air",
+    "Frequency": {
+      "Input": 147.6,
+      "Output": 147
+    },
+    "SquelchTone": {
+      "Input": 100
+    }
+  },
+  {
+    "ID": 15650,
+    "StateID": 35,
+    "Callsign": "KF5VBF",
+    "Location": {
+      "Latitude": 36.72809982,
+      "Longitude": -108.21900177,
+      "County": "San Juan",
+      "State": "NM",
+      "Local": "Farmington"
+    },
+    "Use": "Open",
+    "Status": "On-Air",
+    "Frequency": {
+      "Input": 449.15,
+      "Output": 444.15
+    },
+    "Digital": {
+      "DStar": {
+        "Node": "KF5VBF (B) Repeater"
+      }
+    }
+  },
+  {
+    "ID": 12412,
+    "StateID": 35,
+    "Callsign": "N5UBJ",
+    "Location": {
+      "Latitude": 36.72809982,
+      "Longitude": -108.21900177,
+      "County": "San Juan",
+      "State": "NM",
+      "Local": "Farmington"
+    },
+    "Use": "Open",
+    "Status": "On-Air",
+    "Frequency": {
+      "Input": 447.325,
+      "Output": 442.325
+    },
+    "Digital": {
+      "DMR": {
+        "ColorCode": 1,
+        "ID": 313501
+      }
+    }
+  },
+  {
+    "ID": 16279,
+    "StateID": 35,
+    "Callsign": "KF5VBF",
+    "Location": {
+      "Latitude": 36.70830154,
+      "Longitude": -108.22599792,
+      "County": "San Juan",
+      "State": "NM",
+      "Local": "Farmington, Farmington Bluffs"
+    },
+    "Use": "Closed",
+    "Status": "On-Air",
+    "Frequency": {
+      "Input": 1271.7,
+      "Output": 1291.7
+    },
+    "Digital": {
+      "DStar": {
+        "Node": "KF5VBF (A) Repeater"
+      }
+    }
+  },
+  {
+    "ID": 11429,
+    "StateID": 35,
+    "Callsign": "KF5VBD",
+    "Location": {
+      "Latitude": 36.65000153,
+      "Longitude": -107.79100037,
+      "County": "San Juan",
+      "State": "NM",
+      "Local": "Bloomfield, Harris Mesa"
+    },
+    "Use": "Closed",
+    "Status": "On-Air",
+    "Frequency": {
+      "Input": 1272.3,
+      "Output": 1292.3
+    },
+    "Digital": {
+      "DStar": {
+        "Node": "KF5VBD (A) Gateway Repeater"
+      }
+    }
+  },
+  {
+    "ID": 33,
+    "StateID": 8,
+    "Callsign": "WB0WDF",
+    "Location": {
+      "Latitude": 38.53860092,
+      "Longitude": -105.34899902,
+      "County": "Fremont",
+      "State": "CO",
+      "Local": "Canon City, eightmile Mountain"
+    },
+    "Use": "Open",
+    "Status": "On-Air",
+    "Frequency": {
+      "Input": 444,
+      "Output": 449
+    },
+    "SquelchTone": {
+      "Input": 67,
+      "Output": 67
+    }
+  },
+  {
+    "ID": 166,
+    "StateID": 8,
+    "Callsign": "KB0VJJ",
+    "Location": {
+      "Latitude": 40.05889893,
+      "Longitude": -106.38800049,
+      "County": "Grand",
+      "State": "CO",
+      "Local": "Kremmling, Santoy Peak"
+    },
+    "Use": "Open",
+    "Status": "On-Air",
+    "Frequency": {
+      "Input": 147.675,
+      "Output": 147.075
+    },
+    "SquelchTone": {
+      "Input": 88.5,
+      "Output": 123
+    }
+  },
+  {
+    "ID": 49,
+    "StateID": 35,
+    "Callsign": "KB5ITS",
+    "Location": {
+      "Latitude": 36.61000061,
+      "Longitude": -107.80999756,
+      "County": "San Juan",
+      "State": "NM",
+      "Local": "Bloomfield, Harris mesa"
+    },
+    "Use": "Open",
+    "Status": "On-Air",
+    "Frequency": {
+      "Input": 147.7,
+      "Output": 147.1
+    },
+    "SquelchTone": {
+      "Input": 100
+    }
+  },
+  {
+    "ID": 51,
+    "StateID": 35,
+    "Callsign": "NM5ML",
+    "Location": {
+      "Latitude": 36.6067009,
+      "Longitude": -107.80500031,
+      "County": "San Juan",
+      "State": "NM",
+      "Local": "Bloomfield, Harris Mesa"
+    },
+    "Use": "Open",
+    "Status": "On-Air",
+    "Frequency": {
+      "Input": 147.88,
+      "Output": 147.28
+    },
+    "SquelchTone": {
+      "Input": 67
+    }
+  },
+  {
+    "ID": 7184,
+    "StateID": 8,
+    "Callsign": "K0JSC",
+    "Location": {
+      "Latitude": 38.45420074,
+      "Longitude": -105.29000092,
+      "County": "Fremont",
+      "State": "CO",
+      "Local": "Canon City, Fremont Peak"
+    },
+    "Use": "Open",
+    "Status": "On-Air",
+    "Frequency": {
+      "Input": 441.7375,
+      "Output": 446.7375
+    },
+    "Digital": {
+      "DMR": {
+        "ColorCode": 7,
+        "ID": 310815
+      }
+    }
+  },
+  {
+    "ID": 8879,
+    "StateID": 8,
+    "Callsign": "K0JSC",
+    "Location": {
+      "Latitude": 38.45420074,
+      "Longitude": -105.29000092,
+      "County": "Fremont",
+      "State": "CO",
+      "Local": "Canon City, Fremont Peak"
+    },
+    "Use": "Open",
+    "Status": "On-Air",
+    "Frequency": {
+      "Input": 442.25,
+      "Output": 447.25
+    },
+    "SquelchTone": {
+      "Input": 100,
+      "Output": 100
+    },
+    "VOIP": {
+      "AllStar": {
+        "NodeID": 28368
+      },
+      "EchoLink": {
+        "NodeID": 363976
+      },
+      "IRLP": {
+        "NodeID": 7301
+      }
+    }
+  },
+  {
+    "ID": 29,
+    "StateID": 8,
+    "Callsign": "WB0WDF",
+    "Location": {
+      "Latitude": 38.45420074,
+      "Longitude": -105.29000092,
+      "County": "Fremont",
+      "State": "CO",
+      "Local": "Canon City, Fremont Peak"
+    },
+    "Use": "Open",
+    "Status": "On-Air",
+    "Frequency": {
+      "Input": 51.33,
+      "Output": 53.03
+    },
+    "SquelchTone": {
+      "Input": 88.5,
+      "Output": 88.5
+    }
+  },
+  {
+    "ID": 30,
+    "StateID": 8,
+    "Callsign": "WD0EKR",
+    "Location": {
+      "Latitude": 38.45420074,
+      "Longitude": -105.29000092,
+      "County": "Fremont",
+      "State": "CO",
+      "Local": "Canon City, Fremont Peak"
+    },
+    "Use": "Open",
+    "Status": "On-Air",
+    "Frequency": {
+      "Input": 144.89,
+      "Output": 145.49
+    },
+    "SquelchTone": {
+      "Input": 103.5,
+      "Output": 103.5
+    }
+  },
+  {
+    "ID": 31,
+    "StateID": 8,
+    "Callsign": "WD0EKR",
+    "Location": {
+      "Latitude": 38.45420074,
+      "Longitude": -105.29000092,
+      "County": "Fremont",
+      "State": "CO",
+      "Local": "Canon City, Fremont Peak"
+    },
+    "Use": "Open",
+    "Status": "On-Air",
+    "Frequency": {
+      "Input": 222.36,
+      "Output": 223.96
+    },
+    "SquelchTone": {
+      "Input": 103.5,
+      "Output": 103.5
+    }
+  },
+  {
+    "ID": 32,
+    "StateID": 8,
+    "Callsign": "WD0EKR",
+    "Location": {
+      "Latitude": 38.45420074,
+      "Longitude": -105.29000092,
+      "County": "Fremont",
+      "State": "CO",
+      "Local": "Canon City, Fremont Peak"
+    },
+    "Use": "Open",
+    "Status": "On-Air",
+    "Frequency": {
+      "Input": 442.75,
+      "Output": 447.75
+    },
+    "SquelchTone": {
+      "Input": 103.5,
+      "Output": 103.5
+    },
+    "VOIP": {
+      "IRLP": {
+        "NodeID": 3081
+      }
+    }
+  },
+  {
+    "ID": 278,
+    "StateID": 8,
+    "Callsign": "KB0TUC",
+    "Location": {
+      "Latitude": 38.45389938,
+      "Longitude": -105.28600311,
+      "County": "Fremont",
+      "State": "CO",
+      "Local": "Canon City, Fremont Peak"
+    },
+    "Use": "Open",
+    "Status": "On-Air",
+    "Frequency": {
+      "Input": 902.7,
+      "Output": 927.7
+    },
+    "DigitalTone": {
+      "Input": 114
+    }
+  },
+  {
+    "ID": 8214,
+    "StateID": 8,
+    "Callsign": "",
+    "Location": {
+      "Latitude": 38.97969818,
+      "Longitude": -105.35700226,
+      "County": "Park",
+      "State": "CO",
+      "Local": "Lake George"
+    },
+    "Use": "Open",
+    "Status": "Other",
+    "Frequency": {
+      "Input": 444.7,
+      "Output": 449.7
+    },
+    "SquelchTone": {
+      "Input": 107.2
+    }
+  },
+  {
+    "ID": 18872,
+    "StateID": 8,
+    "Callsign": "K0CGQ",
+    "Location": {
+      "Latitude": 38.123,
+      "Longitude": -105.328,
+      "County": "Custer",
+      "State": "CO",
+      "Local": "Querida"
+    },
+    "Use": "Open",
+    "Status": "On-Air",
+    "Frequency": {
+      "Input": 444.675,
+      "Output": 449.675
+    },
+    "SquelchTone": {
+      "Input": 88.5
+    }
+  },
+  {
+    "ID": 7185,
+    "StateID": 8,
+    "Callsign": "K0JSC",
+    "Location": {
+      "Latitude": 38.43009949,
+      "Longitude": -105.23200226,
+      "County": "Fremont",
+      "State": "CO",
+      "Local": "Canon City, Colorado"
+    },
+    "Use": "Open",
+    "Status": "On-Air",
+    "Frequency": {
+      "Input": 442.975,
+      "Output": 447.975
+    },
+    "SquelchTone": {
+      "Input": 100,
+      "Output": 100
+    },
+    "VOIP": {
+      "AllStar": {
+        "NodeID": 28368
+      },
+      "EchoLink": {
+        "NodeID": 363976
+      },
+      "IRLP": {
+        "NodeID": 7301
+      }
+    }
+  },
+  {
+    "ID": 7,
+    "StateID": 8,
+    "Callsign": "AB0PC",
+    "Location": {
+      "Latitude": 39.4056015,
+      "Longitude": -105.47299957,
+      "County": "Park",
+      "State": "CO",
+      "Local": "Bailey, Dick Mountain"
+    },
+    "Use": "Open",
+    "Status": "On-Air",
+    "Frequency": {
+      "Input": 146.295,
+      "Output": 146.895
+    },
+    "SquelchTone": {
+      "Input": 100,
+      "Output": 100
+    },
+    "VOIP": {
+      "AllStar": {
+        "NodeID": 45835
+      }
+    }
+  },
+  {
+    "ID": 65,
+    "StateID": 8,
+    "Callsign": "NX0G",
+    "Location": {
+      "Latitude": 38.7466011,
+      "Longitude": -105.1780014,
+      "County": "Teller",
+      "State": "CO",
+      "Local": "Cripple Creek"
+    },
+    "Use": "Open",
+    "Status": "On-Air",
+    "Frequency": {
+      "Input": 147.615,
+      "Output": 147.015
+    },
+    "SquelchTone": {
+      "Input": 107.2
+    }
+  },
+  {
+    "ID": 64,
+    "StateID": 8,
+    "Callsign": "WB0WDF",
+    "Location": {
+      "Latitude": 38.7466011,
+      "Longitude": -105.1780014,
+      "County": "Teller",
+      "State": "CO",
+      "Local": "Cripple Creek"
+    },
+    "Use": "Open",
+    "Status": "On-Air",
+    "Frequency": {
+      "Input": 144.86,
+      "Output": 145.46
+    },
+    "SquelchTone": {
+      "Input": 67
+    }
+  },
+  {
+    "ID": 66,
+    "StateID": 8,
+    "Callsign": "WB0WDF",
+    "Location": {
+      "Latitude": 38.74670029,
+      "Longitude": -105.1780014,
+      "County": "Teller",
+      "State": "CO",
+      "Local": "Cripple Creek"
+    },
+    "Use": "Open",
+    "Status": "On-Air",
+    "Frequency": {
+      "Input": 442.4,
+      "Output": 447.4
+    },
+    "SquelchTone": {
+      "Input": 67
+    }
+  },
+  {
+    "ID": 3740,
+    "StateID": 8,
+    "Callsign": "WD0HAM",
+    "Location": {
+      "Latitude": 40.51520157,
+      "Longitude": -107.54599762,
+      "County": "Moffat",
+      "State": "CO",
+      "Local": "Craig"
+    },
+    "Use": "Open",
+    "Status": "Other",
+    "Frequency": {
+      "Input": 144.665,
+      "Output": 145.265
+    },
+    "SquelchTone": {
+      "Input": 107.2
+    }
+  },
+  {
+    "ID": 245,
+    "StateID": 8,
+    "Callsign": "ND0Q",
+    "Location": {
+      "Latitude": 38.04109955,
+      "Longitude": -105.18499756,
+      "County": "Custer",
+      "State": "CO",
+      "Local": "Walsenburg, Deer Peak"
+    },
+    "Use": "Open",
+    "Status": "On-Air",
+    "Frequency": {
+      "Input": 222.72,
+      "Output": 224.32
+    },
+    "SquelchTone": {
+      "Input": 88.5
+    }
+  },
+  {
+    "ID": 197,
+    "StateID": 8,
+    "Callsign": "W0PHC",
+    "Location": {
+      "Latitude": 38.04109955,
+      "Longitude": -105.18499756,
+      "County": "Pueblo",
+      "State": "CO",
+      "Local": "Pueblo, Jackson Hill"
+    },
+    "Use": "Open",
+    "Status": "On-Air",
+    "Frequency": {
+      "Input": 442.175,
+      "Output": 447.175
+    },
+    "SquelchTone": {
+      "Input": 88.5
+    }
+  },
+  {
+    "ID": 13408,
+    "StateID": 49,
+    "Callsign": "W7BAR",
+    "Location": {
+      "Latitude": 40.10689926,
+      "Longitude": -109.37799835,
+      "County": "Uintah",
+      "State": "UT",
+      "Local": "Vernal, Uintah County EOC"
+    },
+    "Use": "Open",
+    "Status": "Other",
+    "Frequency": {
+      "Input": 444.9,
+      "Output": 449.9
+    },
+    "SquelchTone": {
+      "Input": 136.5
+    },
+    "VOIP": {
+      "IRLP": {
+        "NodeID": 7705
+      }
+    }
+  },
+  {
+    "ID": 3756,
+    "StateID": 8,
+    "Callsign": "WA4CCC",
+    "Location": {
+      "Latitude": 39.94729996,
+      "Longitude": -105.79499817,
+      "County": "Grand",
+      "State": "CO",
+      "Local": "Winter Park"
+    },
+    "Use": "Open",
+    "Status": "On-Air",
+    "Frequency": {
+      "Input": 442.45,
+      "Output": 447.45
+    },
+    "SquelchTone": {
+      "Input": 103.5
+    }
+  },
+  {
+    "ID": 99,
+    "StateID": 8,
+    "Callsign": "K1DUN",
+    "Location": {
+      "Latitude": 39.6794014,
+      "Longitude": -105.49299622,
+      "County": "Clear Creek",
+      "State": "CO",
+      "Local": "Idaho Springs, Squaw Mountain"
+    },
+    "Use": "Open",
+    "Status": "On-Air",
+    "Frequency": {
+      "Input": 444.45,
+      "Output": 449.45
+    },
+    "SquelchTone": {
+      "Input": 103.5,
+      "Output": 127.3
+    }
+  },
+  {
+    "ID": 8197,
+    "StateID": 8,
+    "Callsign": "N0SZ",
+    "Location": {
+      "Latitude": 39.67969894,
+      "Longitude": -105.49299622,
+      "County": "Clear Creek",
+      "State": "CO",
+      "Local": "Idaho Springs, Squaw Mountain"
+    },
+    "Use": "Open",
+    "Status": "On-Air",
+    "Frequency": {
+      "Input": 443.225,
+      "Output": 448.225
+    },
+    "SquelchTone": {
+      "Input": 141.3,
+      "Output": 141.3
+    }
+  },
+  {
+    "ID": 7190,
+    "StateID": 8,
+    "Callsign": "N0SZ",
+    "Location": {
+      "Latitude": 39.67979813,
+      "Longitude": -105.49299622,
+      "County": "Clear Creek",
+      "State": "CO",
+      "Local": "Idaho Springs, Squaw Mountain"
+    },
+    "Use": "Open",
+    "Status": "On-Air",
+    "Frequency": {
+      "Input": 441.9375,
+      "Output": 446.9375
+    },
+    "Digital": {
+      "DMR": {
+        "ColorCode": 7,
+        "ID": 310801
+      }
+    }
+  },
+  {
+    "ID": 81,
+    "StateID": 8,
+    "Callsign": "W0WYX",
+    "Location": {
+      "Latitude": 39.67979813,
+      "Longitude": -105.49299622,
+      "County": "Clear Creek",
+      "State": "CO",
+      "Local": "Idaho Springs, Squaw Mountain"
+    },
+    "Use": "Open",
+    "Status": "On-Air",
+    "Frequency": {
+      "Input": 146.34,
+      "Output": 146.94
+    },
+    "SquelchTone": {
+      "Input": 103.5,
+      "Output": 103.5
+    }
+  },
+  {
+    "ID": 78,
+    "StateID": 8,
+    "Callsign": "KB0UDD",
+    "Location": {
+      "Latitude": 39.6794014,
+      "Longitude": -105.49199677,
+      "County": "Clear Creek",
+      "State": "CO",
+      "Local": "Idaho Springs, Squaw Mountain"
+    },
+    "Use": "Open",
+    "Status": "On-Air",
+    "Frequency": {
+      "Input": 146.07,
+      "Output": 146.67
+    },
+    "SquelchTone": {
+      "Input": 100,
+      "Output": 100
+    }
+  },
+  {
+    "ID": 107,
+    "StateID": 8,
+    "Callsign": "W0CRA",
+    "Location": {
+      "Latitude": 39.6794014,
+      "Longitude": -105.49199677,
+      "County": "Clear Creek",
+      "State": "CO",
+      "Local": "Idaho Springs, Squaw Mountain"
+    },
+    "Use": "Open",
+    "Status": "On-Air",
+    "Frequency": {
+      "Input": 144.545,
+      "Output": 145.145
+    },
+    "SquelchTone": {
+      "Input": 107.2,
+      "Output": 107.2
+    }
+  },
+  {
+    "ID": 264,
+    "StateID": 8,
+    "Callsign": "W0CRA",
+    "Location": {
+      "Latitude": 39.6794014,
+      "Longitude": -105.49199677,
+      "County": "Clear Creek",
+      "State": "CO",
+      "Local": "Idaho Springs, Squaw Mountain"
+    },
+    "Use": "Open",
+    "Status": "On-Air",
+    "Frequency": {
+      "Input": 442.575,
+      "Output": 447.575
+    },
+    "SquelchTone": {
+      "Input": 107.2,
+      "Output": 107.2
+    },
+    "VOIP": {
+      "EchoLink": {
+        "NodeID": 347088
+      },
+      "IRLP": {
+        "NodeID": 3291
+      }
+    }
+  },
+  {
+    "ID": 76,
+    "StateID": 8,
+    "Callsign": "W0TX",
+    "Location": {
+      "Latitude": 39.6794014,
+      "Longitude": -105.49199677,
+      "County": "Jefferson",
+      "State": "CO",
+      "Local": "Idaho Springs, Centennial Cone"
+    },
+    "Use": "Open",
+    "Status": "On-Air",
+    "Frequency": {
+      "Input": 144.89,
+      "Output": 145.49
+    },
+    "SquelchTone": {
+      "Input": 100,
+      "Output": 100
+    }
+  },
+  {
+    "ID": 98,
+    "StateID": 8,
+    "Callsign": "W0TX",
+    "Location": {
+      "Latitude": 39.6794014,
+      "Longitude": -105.49199677,
+      "County": "Clear Creek",
+      "State": "CO",
+      "Local": "Idaho Springs, Squaw Mountain"
+    },
+    "Use": "Open",
+    "Status": "On-Air",
+    "Frequency": {
+      "Input": 444.35,
+      "Output": 449.35
+    },
+    "SquelchTone": {
+      "Input": 100,
+      "Output": 100
+    },
+    "VOIP": {
+      "EchoLink": {
+        "NodeID": 4140
+      }
+    }
+  },
+  {
+    "ID": 15900,
+    "StateID": 8,
+    "Callsign": "N0SZ",
+    "Location": {
+      "Latitude": 39.15250015,
+      "Longitude": -105.16400146,
+      "County": "Douglas",
+      "State": "CO",
+      "Local": "Westcreek"
+    },
+    "Use": "Open",
+    "Status": "On-Air",
+    "Frequency": {
+      "Input": 441.875,
+      "Output": 446.875
+    },
+    "Digital": {
+      "DMR": {
+        "ColorCode": 6,
+        "ID": 310846
+      }
+    }
+  },
+  {
+    "ID": 94,
+    "StateID": 8,
+    "Callsign": "W0CFI",
+    "Location": {
+      "Latitude": 39.67739868,
+      "Longitude": -105.48799896,
+      "County": "Denver",
+      "State": "CO",
+      "Local": "Idaho Springs, Squaw Mountain"
+    },
+    "Use": "Open",
+    "Status": "On-Air",
+    "Frequency": {
+      "Input": 443.675,
+      "Output": 448.675
+    },
+    "SquelchTone": {
+      "Input": 100,
+      "Output": 100
+    }
+  },
+  {
+    "ID": 84,
+    "StateID": 8,
+    "Callsign": "N0PYY",
+    "Location": {
+      "Latitude": 39.67810059,
+      "Longitude": -105.48699951,
+      "County": "Clear Creek",
+      "State": "CO",
+      "Local": "Evergreen, Squaw Mountain"
+    },
+    "Use": "Open",
+    "Status": "On-Air",
+    "Frequency": {
+      "Input": 147.9,
+      "Output": 147.3
+    },
+    "SquelchTone": {
+      "Input": 103.5,
+      "Output": 103.5
+    }
+  },
+  {
+    "ID": 8250,
+    "StateID": 8,
+    "Callsign": "WR0AEN",
+    "Location": {
+      "Latitude": 39.6731987,
+      "Longitude": -105.48000336,
+      "County": "Clear Creek",
+      "State": "CO",
+      "Local": "Idaho Springs, Squaw Mountain"
+    },
+    "Use": "Open",
+    "Status": "On-Air",
+    "Frequency": {
+      "Input": 444,
+      "Output": 449
+    },
+    "SquelchTone": {
+      "Input": 136.5,
+      "Output": 136.5
+    }
+  },
+  {
+    "ID": 59,
+    "StateID": 8,
+    "Callsign": "N0ARA",
+    "Location": {
+      "Latitude": 39.51480103,
+      "Longitude": -105.35299683,
+      "County": "Jefferson",
+      "State": "CO",
+      "Local": "Critchell, Critchell Mountain"
+    },
+    "Use": "Open",
+    "Status": "On-Air",
+    "Frequency": {
+      "Input": 147.72,
+      "Output": 147.12
+    },
+    "SquelchTone": {
+      "Input": 88.5,
+      "Output": 88.5
+    }
+  },
+  {
+    "ID": 15899,
+    "StateID": 8,
+    "Callsign": "K7PFJ",
+    "Location": {
+      "Latitude": 40.08610153,
+      "Longitude": -105.93900299,
+      "County": "Clear Creek",
+      "State": "CO",
+      "Local": "Granby, Mt Chauncey"
+    },
+    "Use": "Open",
+    "Status": "On-Air",
+    "Frequency": {
+      "Input": 441.875,
+      "Output": 446.875
+    },
+    "Digital": {
+      "DMR": {
+        "ColorCode": 7,
+        "ID": 310838
+      }
+    }
+  },
+  {
+    "ID": 145,
+    "StateID": 8,
+    "Callsign": "KA0YDW",
+    "Location": {
+      "Latitude": 40.08610153,
+      "Longitude": -105.93900299,
+      "County": "Grand",
+      "State": "CO",
+      "Local": "Granby"
+    },
+    "Use": "Open",
+    "Status": "Other",
+    "Frequency": {
+      "Input": 146.22,
+      "Output": 146.82
+    },
+    "SquelchTone": {
+      "Input": 123
+    }
+  },
+  {
+    "ID": 9770,
+    "StateID": 8,
+    "Callsign": "KB0VJJ",
+    "Location": {
+      "Latitude": 40.48500061,
+      "Longitude": -106.83200073,
+      "County": "Routt",
+      "State": "CO",
+      "Local": "Steamboat Springs"
+    },
+    "Use": "Open",
+    "Status": "On-Air",
+    "Frequency": {
+      "Input": 444.625,
+      "Output": 449.625
+    },
+    "SquelchTone": {
+      "Input": 123,
+      "Output": 123
+    }
+  },
+  {
+    "ID": 237,
+    "StateID": 8,
+    "Callsign": "KD0H",
+    "Location": {
+      "Latitude": 40.48500061,
+      "Longitude": -106.83100128,
+      "County": "Routt",
+      "State": "CO",
+      "Local": "Steamboat Springs"
+    },
+    "Use": "Open",
+    "Status": "On-Air",
+    "Frequency": {
+      "Input": 147.81,
+      "Output": 147.21
+    },
+    "SquelchTone": {
+      "Input": 107.2,
+      "Output": 107.2
+    }
+  },
+  {
+    "ID": 95,
+    "StateID": 8,
+    "Callsign": "WG0N",
+    "Location": {
+      "Latitude": 39.74250031,
+      "Longitude": -105.51399994,
+      "County": "Denver",
+      "State": "CO",
+      "Local": "Idaho Springs, Squaw Mountain"
+    },
+    "Use": "Open",
+    "Status": "On-Air",
+    "Frequency": {
+      "Input": 444.05,
+      "Output": 449.05
+    },
+    "SquelchTone": {
+      "Input": 107.2,
+      "Output": 107.2
+    }
+  },
+  {
+    "ID": 19,
+    "StateID": 35,
+    "Callsign": "KF5PFO",
+    "Location": {
+      "Latitude": 36.8594017,
+      "Longitude": -106.01899719,
+      "County": "Rio Arriba",
+      "State": "NM",
+      "Local": "Tres Piedras, San Antonio Mountain"
+    },
+    "Use": "Open",
+    "Status": "On-Air",
+    "Frequency": {
+      "Input": 146.16,
+      "Output": 146.76
+    },
+    "SquelchTone": {
+      "Input": 67
+    }
+  },
+  {
+    "ID": 175,
+    "StateID": 35,
+    "Callsign": "NM5ML",
+    "Location": {
+      "Latitude": 36.85969925,
+      "Longitude": -106.01799774,
+      "County": "Rio Arriba",
+      "State": "NM",
+      "Local": "Tres Piedras, San Antonio Mountain"
+    },
+    "Use": "Open",
+    "Status": "On-Air",
+    "Frequency": {
+      "Input": 147.82,
+      "Output": 147.22
+    },
+    "SquelchTone": {
+      "Input": 100
+    }
+  },
+  {
+    "ID": 44,
+    "StateID": 8,
+    "Callsign": "KB0SRJ",
+    "Location": {
+      "Latitude": 38.84000015,
+      "Longitude": -105.04000092,
+      "County": "El Paso",
+      "State": "CO",
+      "Local": "Colorado Springs, Pikes Peak"
+    },
+    "Use": "Open",
+    "Status": "On-Air",
+    "Frequency": {
+      "Input": 146.37,
+      "Output": 146.97
+    },
+    "SquelchTone": {
+      "Input": 100
+    }
+  },
+  {
+    "ID": 54,
+    "StateID": 8,
+    "Callsign": "KB0SRJ",
+    "Location": {
+      "Latitude": 38.84000015,
+      "Longitude": -105.04000092,
+      "County": "El Paso",
+      "State": "CO",
+      "Local": "Colorado Springs, Pikes Peak"
+    },
+    "Use": "Open",
+    "Status": "On-Air",
+    "Frequency": {
+      "Input": 443.45,
+      "Output": 448.45
+    },
+    "SquelchTone": {
+      "Input": 100
+    }
+  },
+  {
+    "ID": 3750,
+    "StateID": 8,
+    "Callsign": "KA0WUC",
+    "Location": {
+      "Latitude": 38.99380112,
+      "Longitude": -105.05699921,
+      "County": "Teller",
+      "State": "CO",
+      "Local": "Woodland Park"
+    },
+    "Use": "Open",
+    "Status": "On-Air",
+    "Frequency": {
+      "Input": 902.9,
+      "Output": 927.9
+    },
+    "DigitalTone": {
+      "Input": 205
+    }
+  },
+  {
+    "ID": 8193,
+    "StateID": 8,
+    "Callsign": "KA0WUC",
+    "Location": {
+      "Latitude": 38.9939003,
+      "Longitude": -105.05699921,
+      "County": "Teller",
+      "State": "CO",
+      "Local": "Woodland Park"
+    },
+    "Use": "Open",
+    "Status": "On-Air",
+    "Frequency": {
+      "Input": 442.675,
+      "Output": 447.675
+    },
+    "SquelchTone": {
+      "Input": 179.9,
+      "Output": 179.9
+    }
+  },
+  {
+    "ID": 249,
+    "StateID": 8,
+    "Callsign": "KA0WUC",
+    "Location": {
+      "Latitude": 38.9939003,
+      "Longitude": -105.05599976,
+      "County": "Teller",
+      "State": "CO",
+      "Local": "Woodland Park"
+    },
+    "Use": "Open",
+    "Status": "Other",
+    "Frequency": {
+      "Input": 144.815,
+      "Output": 145.415
+    },
+    "SquelchTone": {
+      "Input": 179.9
+    }
+  },
+  {
+    "ID": 252,
+    "StateID": 8,
+    "Callsign": "KA0WUC",
+    "Location": {
+      "Latitude": 38.9939003,
+      "Longitude": -105.05599976,
+      "County": "Teller",
+      "State": "CO",
+      "Local": "Woodland Park"
+    },
+    "Use": "Open",
+    "Status": "Other",
+    "Frequency": {
+      "Input": 444.025,
+      "Output": 449.025
+    },
+    "SquelchTone": {
+      "Input": 141.3
+    }
+  },
+  {
+    "ID": 250,
+    "StateID": 8,
+    "Callsign": "NX0G",
+    "Location": {
+      "Latitude": 38.9939003,
+      "Longitude": -105.05599976,
+      "County": "Teller",
+      "State": "CO",
+      "Local": "Woodland Park"
+    },
+    "Use": "Open",
+    "Status": "On-Air",
+    "Frequency": {
+      "Input": 146.22,
+      "Output": 146.82
+    },
+    "SquelchTone": {
+      "Input": 107.2
+    }
+  },
+  {
+    "ID": 251,
+    "StateID": 8,
+    "Callsign": "NX0G",
+    "Location": {
+      "Latitude": 38.9939003,
+      "Longitude": -105.05599976,
+      "County": "Teller",
+      "State": "CO",
+      "Local": "Woodland Park"
+    },
+    "Use": "Open",
+    "Status": "On-Air",
+    "Frequency": {
+      "Input": 443.65,
+      "Output": 448.65
+    },
+    "SquelchTone": {
+      "Input": 107.2
+    }
+  },
+  {
+    "ID": 9503,
+    "StateID": 8,
+    "Callsign": "KA4EPS",
+    "Location": {
+      "Latitude": 38.9878006,
+      "Longitude": -105.04399872,
+      "County": "Teller",
+      "State": "CO",
+      "Local": "Woodland Park, Paradise Pines"
+    },
+    "Use": "Open",
+    "Status": "On-Air",
+    "Frequency": {
+      "Input": 444.325,
+      "Output": 449.325
+    },
+    "SquelchTone": {
+      "Input": 103.5,
+      "Output": 103.5
+    },
+    "VOIP": {
+      "AllStar": {
+        "NodeID": 27976
+      }
+    }
+  },
+  {
+    "ID": 17250,
+    "StateID": 8,
+    "Callsign": "N0SZ",
+    "Location": {
+      "Latitude": 38.77199936,
+      "Longitude": -104.99299622,
+      "County": "El Paso",
+      "State": "CO",
+      "Local": "Colorado Springs, Almagre Mountain"
+    },
+    "Use": "Open",
+    "Status": "On-Air",
+    "Frequency": {
+      "Input": 144.635,
+      "Output": 145.235
+    },
+    "Digital": {
+      "DMR": {
+        "ColorCode": 7,
+        "ID": 310824
+      }
+    }
+  },
+  {
+    "ID": 8178,
+    "StateID": 8,
+    "Callsign": "AA0SP",
+    "Location": {
+      "Latitude": 38.77249908,
+      "Longitude": -104.99299622,
+      "County": "El Paso",
+      "State": "CO",
+      "Local": "Colorado Springs, Almagre Mountain"
+    },
+    "Use": "Private",
+    "Status": "On-Air",
+    "Frequency": {
+      "Input": 147.78,
+      "Output": 147.18
+    },
+    "SquelchTone": {
+      "Input": 100
+    }
+  },
+  {
+    "ID": 5220,
+    "StateID": 8,
+    "Callsign": "K7PFJ",
+    "Location": {
+      "Latitude": 38.77259827,
+      "Longitude": -104.99299622,
+      "County": "Teller",
+      "State": "CO",
+      "Local": "Colorado Springs, Almagre Mountain"
+    },
+    "Use": "Open",
+    "Status": "On-Air",
+    "Frequency": {
+      "Input": 441.95,
+      "Output": 446.95
+    },
+    "Digital": {
+      "DMR": {
+        "ColorCode": 7,
+        "ID": 310816
+      }
+    }
+  },
+  {
+    "ID": 58,
+    "StateID": 8,
+    "Callsign": "WA6IFI",
+    "Location": {
+      "Latitude": 38.77259827,
+      "Longitude": -104.99299622,
+      "County": "Teller",
+      "State": "CO",
+      "Local": "Colorado Springs, Almagre Mountain"
+    },
+    "Use": "Open",
+    "Status": "On-Air",
+    "Frequency": {
+      "Input": 902.025,
+      "Output": 927.725
+    },
+    "DigitalTone": {
+      "Input": 114
+    },
+    "Digital": {
+      "P25": {
+        "NAC": 293
+      }
+    }
+  },
+  {
+    "ID": 9580,
+    "StateID": 8,
+    "Callsign": "AC0KQ",
+    "Location": {
+      "Latitude": 39.71889877,
+      "Longitude": -105.44000244,
+      "County": "Clear Creek",
+      "State": "CO",
+      "Local": "Evergreen, Saddleback Mountain"
+    },
+    "Use": "Open",
+    "Status": "On-Air",
+    "Frequency": {
+      "Input": 442.85,
+      "Output": 447.85
+    },
+    "SquelchTone": {
+      "Input": 141.3,
+      "Output": 141.3
+    },
+    "VOIP": {
+      "AllStar": {
+        "NodeID": 29571
+      }
+    }
+  },
+  {
+    "ID": 100,
+    "StateID": 49,
+    "Callsign": "KD7HLL",
+    "Location": {
+      "Latitude": 37.26929855,
+      "Longitude": -109.95700073,
+      "County": "San Juan",
+      "State": "UT",
+      "Local": "Mexican Hat"
+    },
+    "Use": "Open",
+    "Status": "On-Air",
+    "Frequency": {
+      "Input": 444.9,
+      "Output": 449.9
+    },
+    "SquelchTone": {
+      "Input": 123
+    }
+  },
+  {
+    "ID": 281,
+    "StateID": 49,
+    "Callsign": "W7BYU",
+    "Location": {
+      "Latitude": 40.35499954,
+      "Longitude": -109.14800262,
+      "County": "Duchesne",
+      "State": "UT",
+      "Local": "Roosevelt"
+    },
+    "Use": "Open",
+    "Status": "On-Air",
+    "Frequency": {
+      "Input": 146.32,
+      "Output": 146.92
+    },
+    "SquelchTone": {
+      "Input": 136.5
+    },
+    "VOIP": {
+      "EchoLink": {
+        "NodeID": 458695
+      }
+    }
+  },
+  {
+    "ID": 182,
+    "StateID": 49,
+    "Callsign": "W7BYU",
+    "Location": {
+      "Latitude": 40.35639954,
+      "Longitude": -109.14600372,
+      "County": "Uintah",
+      "State": "UT",
+      "Local": "Vernal"
+    },
+    "Use": "Open",
+    "Status": "Other",
+    "Frequency": {
+      "Input": 444.7,
+      "Output": 449.7
+    },
+    "SquelchTone": {
+      "Input": 136.5
+    }
+  },
+  {
+    "ID": 163,
+    "StateID": 49,
+    "Callsign": "W7BAR",
+    "Location": {
+      "Latitude": 40.35720062,
+      "Longitude": -109.14700317,
+      "County": "Uintah",
+      "State": "UT",
+      "Local": "Vernal, Blue Mountain"
+    },
+    "Use": "Open",
+    "Status": "On-Air",
+    "Frequency": {
+      "Input": 147.7,
+      "Output": 147.1
+    },
+    "SquelchTone": {
+      "Input": 136.5
+    },
+    "VOIP": {
+      "EchoLink": {
+        "NodeID": 458414
+      },
+      "IRLP": {
+        "NodeID": 3577
+      }
+    }
+  },
+  {
+    "ID": 7193,
+    "StateID": 8,
+    "Callsign": "N0ESQ",
+    "Location": {
+      "Latitude": 39.26480103,
+      "Longitude": -105.11399841,
+      "County": "Douglas",
+      "State": "CO",
+      "Local": "Castle Rock, Devils Head"
+    },
+    "Use": "Open",
+    "Status": "On-Air",
+    "Frequency": {
+      "Input": 441.925,
+      "Output": 446.925
+    },
+    "Digital": {
+      "DMR": {
+        "ColorCode": 8,
+        "ID": 310817
+      }
+    }
+  },
+  {
+    "ID": 8190,
+    "StateID": 8,
+    "Callsign": "N0ESQ",
+    "Location": {
+      "Latitude": 39.26480103,
+      "Longitude": -105.11399841,
+      "County": "Douglas",
+      "State": "CO",
+      "Local": "Castle Rock, Devils Head (Pike National Forest)"
+    },
+    "Use": "Open",
+    "Status": "On-Air",
+    "Frequency": {
+      "Input": 442.525,
+      "Output": 447.525
+    },
+    "SquelchTone": {
+      "Input": 146.2,
+      "Output": 146.2
+    }
+  },
+  {
+    "ID": 73,
+    "StateID": 8,
+    "Callsign": "KE4GUQ",
+    "Location": {
+      "Latitude": 39.63330078,
+      "Longitude": -105.31700134,
+      "County": "Jefferson",
+      "State": "CO",
+      "Local": "Evergreen"
+    },
+    "Use": "Open",
+    "Status": "On-Air",
+    "Frequency": {
+      "Input": 144.74,
+      "Output": 145.34
+    },
+    "SquelchTone": {
+      "Input": 103.5,
+      "Output": 127.3
+    },
+    "VOIP": {
+      "IRLP": {
+        "NodeID": 3350
+      }
+    }
+  },
+  {
+    "ID": 10932,
+    "StateID": 8,
+    "Callsign": "N0SZ",
+    "Location": {
+      "Latitude": 39.63330078,
+      "Longitude": -105.31700134,
+      "County": "Clear Creek",
+      "State": "CO",
+      "Local": "Evergreen, Squaw Mountain"
+    },
+    "Use": "Open",
+    "Status": "On-Air",
+    "Frequency": {
+      "Input": 144.575,
+      "Output": 145.175
+    },
+    "Digital": {
+      "DMR": {
+        "ColorCode": 7,
+        "ID": 310810
+      }
+    }
+  },
+  {
+    "ID": 60,
+    "StateID": 8,
+    "Callsign": "N0OWY",
+    "Location": {
+      "Latitude": 39.47029877,
+      "Longitude": -105.19799805,
+      "County": "Jefferson",
+      "State": "CO",
+      "Local": "Conifer, Critchell Mountain"
+    },
+    "Use": "Open",
+    "Status": "On-Air",
+    "Frequency": {
+      "Input": 442.5,
+      "Output": 447.5
+    },
+    "SquelchTone": {
+      "Input": 88.5,
+      "Output": 88.5
+    }
+  },
+  {
+    "ID": 83,
+    "StateID": 8,
+    "Callsign": "W0CRA",
+    "Location": {
+      "Latitude": 39.17549896,
+      "Longitude": -105.03399658,
+      "County": "Douglas",
+      "State": "CO",
+      "Local": "Larkspur, Westcreek"
+    },
+    "Use": "Open",
+    "Status": "On-Air",
+    "Frequency": {
+      "Input": 147.825,
+      "Output": 147.225
+    },
+    "SquelchTone": {
+      "Input": 107.2,
+      "Output": 107.2
+    },
+    "VOIP": {
+      "EchoLink": {
+        "NodeID": 347086
+      },
+      "IRLP": {
+        "NodeID": 3990
+      }
+    }
+  },
+  {
+    "ID": 16547,
+    "StateID": 8,
+    "Callsign": "W0CRA",
+    "Location": {
+      "Latitude": 39.17549896,
+      "Longitude": -105.03399658,
+      "County": "Douglas",
+      "State": "CO",
+      "Local": "Larkspur, Westcreek"
+    },
+    "Use": "Open",
+    "Status": "On-Air",
+    "Frequency": {
+      "Input": 443.425,
+      "Output": 448.425
+    },
+    "SquelchTone": {
+      "Input": 107.2,
+      "Output": 107.2
+    }
+  },
+  {
+    "ID": 39,
+    "StateID": 8,
+    "Callsign": "KB0SRJ",
+    "Location": {
+      "Latitude": 38.70000076,
+      "Longitude": -104.90000153,
+      "County": "El Paso",
+      "State": "CO",
+      "Local": "Colorado Springs, ~2 mi ENE USAFA North Gate"
+    },
+    "Use": "Open",
+    "Status": "On-Air",
+    "Frequency": {
+      "Input": 144.665,
+      "Output": 145.265
+    },
+    "SquelchTone": {
+      "Input": 100
+    },
+    "Digital": {
+      "YSF": {
+        "GroupID": {
+          "Input": "Open ↑",
+          "Output": "Open ↓"
+        }
+      }
+    }
+  },
+  {
+    "ID": 82,
+    "StateID": 8,
+    "Callsign": "K0FEZ",
+    "Location": {
+      "Latitude": 39.75249863,
+      "Longitude": -105.35900116,
+      "County": "Denver",
+      "State": "CO",
+      "Local": "Golden, Centennial Cone"
+    },
+    "Use": "Open",
+    "Status": "On-Air",
+    "Frequency": {
+      "Input": 146.385,
+      "Output": 146.985
+    },
+    "SquelchTone": {
+      "Input": 100,
+      "Output": 100
+    },
+    "VOIP": {
+      "IRLP": {
+        "NodeID": 3346
+      }
+    }
+  },
+  {
+    "ID": 138,
+    "StateID": 8,
+    "Callsign": "KE0SJ",
+    "Location": {
+      "Latitude": 39.75249863,
+      "Longitude": -105.35900116,
+      "County": "Jefferson",
+      "State": "CO",
+      "Local": "Golden, Centennial Cone"
+    },
+    "Use": "Open",
+    "Status": "On-Air",
+    "Frequency": {
+      "Input": 444.525,
+      "Output": 449.525
+    }
+  },
+  {
+    "ID": 140,
+    "StateID": 8,
+    "Callsign": "KE0SJ",
+    "Location": {
+      "Latitude": 39.75249863,
+      "Longitude": -105.35900116,
+      "County": "Jefferson",
+      "State": "CO",
+      "Local": "Golden, Centennial Cone"
+    },
+    "Use": "Open",
+    "Status": "On-Air",
+    "Frequency": {
+      "Input": 144.68,
+      "Output": 145.28
+    },
+    "SquelchTone": {
+      "Input": 100
+    }
+  },
+  {
+    "ID": 77,
+    "StateID": 8,
+    "Callsign": "N0PUF",
+    "Location": {
+      "Latitude": 39.75249863,
+      "Longitude": -105.35900116,
+      "County": "Jefferson",
+      "State": "CO",
+      "Local": "Golden, Centennial Cone"
+    },
+    "Use": "Open",
+    "Status": "On-Air",
+    "Frequency": {
+      "Input": 146.04,
+      "Output": 146.64
+    },
+    "SquelchTone": {
+      "Input": 100
+    }
+  },
+  {
+    "ID": 112,
+    "StateID": 8,
+    "Callsign": "W0TX",
+    "Location": {
+      "Latitude": 39.75249863,
+      "Longitude": -105.35800171,
+      "County": "Jefferson",
+      "State": "CO",
+      "Local": "Golden, Centennial Cone"
+    },
+    "Use": "Open",
+    "Status": "On-Air",
+    "Frequency": {
+      "Input": 443.625,
+      "Output": 448.625
+    },
+    "SquelchTone": {
+      "Input": 100,
+      "Output": 100
+    }
+  },
+  {
+    "ID": 7165,
+    "StateID": 8,
+    "Callsign": "W0TX",
+    "Location": {
+      "Latitude": 39.76570129,
+      "Longitude": -105.36599731,
+      "County": "Jefferson",
+      "State": "CO",
+      "Local": "Denver, Centennial Cone"
+    },
+    "Use": "Open",
+    "Status": "On-Air",
+    "Frequency": {
+      "Input": 441.7875,
+      "Output": 446.7875
+    },
+    "Digital": {
+      "DMR": {
+        "ColorCode": 1,
+        "ID": 310804
+      }
+    }
+  },
+  {
+    "ID": 9702,
+    "StateID": 8,
+    "Callsign": "KI0HC",
+    "Location": {
+      "Latitude": 39.76580048,
+      "Longitude": -105.36599731,
+      "County": "Jefferson",
+      "State": "CO",
+      "Local": "Golden, Centennial Cone"
+    },
+    "Use": "Open",
+    "Status": "On-Air",
+    "Frequency": {
+      "Input": 902.025,
+      "Output": 927.8375
+    },
+    "SquelchTone": {
+      "Output": 100
+    },
+    "DigitalTone": {
+      "Input": 205
+    },
+    "Digital": {
+      "P25": {
+        "NAC": 293
+      }
+    }
+  },
+  {
+    "ID": 41,
+    "StateID": 8,
+    "Callsign": "KC0CVU",
+    "Location": {
+      "Latitude": 38.73720169,
+      "Longitude": -104.8809967,
+      "County": "El Paso",
+      "State": "CO",
+      "Local": "Colorado Springs, Cheyenne Mountain"
+    },
+    "Use": "Open",
+    "Status": "On-Air",
+    "Frequency": {
+      "Input": 146.16,
+      "Output": 146.76
+    },
+    "SquelchTone": {
+      "Input": 107.2,
+      "Output": 107.2
+    }
+  },
+  {
+    "ID": 53,
+    "StateID": 8,
+    "Callsign": "KC0CVU",
+    "Location": {
+      "Latitude": 38.73720169,
+      "Longitude": -104.8809967,
+      "County": "El Paso",
+      "State": "CO",
+      "Local": "Colorado Springs, Cheyenne Mountain"
+    },
+    "Use": "Open",
+    "Status": "On-Air",
+    "Frequency": {
+      "Input": 443.1,
+      "Output": 448.1
+    },
+    "SquelchTone": {
+      "Input": 107.2,
+      "Output": 107.2
+    }
+  },
+  {
+    "ID": 269,
+    "StateID": 8,
+    "Callsign": "KC0CVU",
+    "Location": {
+      "Latitude": 38.73720169,
+      "Longitude": -104.8809967,
+      "County": "El Paso",
+      "State": "CO",
+      "Local": "Colorado Springs, Cheyenne Mountain"
+    },
+    "Use": "Open",
+    "Status": "On-Air",
+    "Frequency": {
+      "Input": 443,
+      "Output": 448
+    },
+    "SquelchTone": {
+      "Input": 107.2
+    }
+  },
+  {
+    "ID": 201,
+    "StateID": 8,
+    "Callsign": "W0RM",
+    "Location": {
+      "Latitude": 39.91719818,
+      "Longitude": -105.50099945,
+      "County": "Gilpin",
+      "State": "CO",
+      "Local": "Rollinsville"
+    },
+    "Use": "Open",
+    "Status": "Other",
+    "Frequency": {
+      "Input": 223,
+      "Output": 224.6
+    },
+    "SquelchTone": {
+      "Input": 100
+    }
+  },
+  {
+    "ID": 47,
+    "StateID": 8,
+    "Callsign": "KC0CVU",
+    "Location": {
+      "Latitude": 38.73720169,
+      "Longitude": -104.87999725,
+      "County": "El Paso",
+      "State": "CO",
+      "Local": "Colorado Springs, Cheyenne Mountain"
+    },
+    "Use": "Open",
+    "Status": "On-Air",
+    "Frequency": {
+      "Input": 147.945,
+      "Output": 147.345
+    },
+    "SquelchTone": {
+      "Input": 107.2,
+      "Output": 107.2
+    },
+    "VOIP": {
+      "IRLP": {
+        "NodeID": 3854
+      }
+    }
+  },
+  {
+    "ID": 38,
+    "StateID": 8,
+    "Callsign": "W0CRA",
+    "Location": {
+      "Latitude": 38.73720169,
+      "Longitude": -104.87999725,
+      "County": "El Paso",
+      "State": "CO",
+      "Local": "Colorado Springs, Cheyenne Mountain"
+    },
+    "Use": "Open",
+    "Status": "On-Air",
+    "Frequency": {
+      "Input": 144.56,
+      "Output": 145.16
+    },
+    "SquelchTone": {
+      "Input": 107.2,
+      "Output": 107.2
+    },
+    "VOIP": {
+      "EchoLink": {
+        "NodeID": 347086
+      },
+      "IRLP": {
+        "NodeID": 3990
+      }
+    }
+  },
+  {
+    "ID": 17457,
+    "StateID": 8,
+    "Callsign": "KI0HC",
+    "Location": {
+      "Latitude": 39.59999847,
+      "Longitude": -105.20999908,
+      "County": "Jefferson",
+      "State": "CO",
+      "Local": "Indian Hills, Chief Mtn"
+    },
+    "Use": "Open",
+    "Status": "On-Air",
+    "Frequency": {
+      "Input": 902.025,
+      "Output": 927.9375
+    },
+    "Digital": {
+      "P25": {
+        "NAC": 293
+      }
+    }
+  },
+  {
+    "ID": 18345,
+    "StateID": 8,
+    "Callsign": "W0PHC",
+    "Location": {
+      "Latitude": 37.77199936,
+      "Longitude": -105.02200317,
+      "County": "Huerfano",
+      "State": "CO",
+      "Local": "Walsenburg, Badito Cone"
+    },
+    "Use": "Open",
+    "Status": "On-Air",
+    "Frequency": {
+      "Input": 442.6,
+      "Output": 447.6
+    },
+    "SquelchTone": {
+      "Input": 88.5,
+      "Output": 88.5
+    },
+    "Digital": {
+      "DMR": {
+        "ColorCode": 0
+      }
+    }
+  },
+  {
+    "ID": 8088,
+    "StateID": 8,
+    "Callsign": "KC0CVU",
+    "Location": {
+      "Latitude": 38.74449921,
+      "Longitude": -104.86199951,
+      "County": "El Paso",
+      "State": "CO",
+      "Local": "Colorado Springs, Cheyenne Mountain"
+    },
+    "Use": "Open",
+    "Status": "Testing",
+    "Frequency": {
+      "Input": 144.785,
+      "Output": 145.385
+    },
+    "Digital": {
+      "DStar": {
+        "Node": "KC0CVU (C) Repeater"
+      }
+    }
+  },
+  {
+    "ID": 8158,
+    "StateID": 8,
+    "Callsign": "KC0CVU",
+    "Location": {
+      "Latitude": 38.74499893,
+      "Longitude": -104.86199951,
+      "County": "El Paso",
+      "State": "CO",
+      "Local": "Colorado Springs, Cheyenne Mountain"
+    },
+    "Use": "Open",
+    "Status": "On-Air",
+    "Frequency": {
+      "Input": 51.43,
+      "Output": 53.13
+    },
+    "SquelchTone": {
+      "Input": 107.2,
+      "Output": 107.2
+    }
+  },
+  {
+    "ID": 7171,
+    "StateID": 8,
+    "Callsign": "KC0CVU",
+    "Location": {
+      "Latitude": 38.74499893,
+      "Longitude": -104.86199951,
+      "County": "Teller",
+      "State": "CO",
+      "Local": "Colorado Springs, Cheyenne Mountain"
+    },
+    "Use": "Open",
+    "Status": "On-Air",
+    "Frequency": {
+      "Input": 902.85,
+      "Output": 927.85
+    },
+    "DigitalTone": {
+      "Input": 114
+    }
+  },
+  {
+    "ID": 8087,
+    "StateID": 8,
+    "Callsign": "KC0CVU",
+    "Location": {
+      "Latitude": 38.74509811,
+      "Longitude": -104.86199951,
+      "County": "El Paso",
+      "State": "CO",
+      "Local": "Colorado Springs, Cheyenne Mountain"
+    },
+    "Use": "Open",
+    "Status": "On-Air",
+    "Frequency": {
+      "Input": 441.9125,
+      "Output": 446.9125
+    },
+    "Digital": {
+      "DStar": {
+        "Node": "KC0CVU (B) Repeater"
+      }
+    }
+  },
+  {
+    "ID": 12355,
+    "StateID": 8,
+    "Callsign": "N0SZ",
+    "Location": {
+      "Latitude": 38.74509811,
+      "Longitude": -104.86199951,
+      "County": "El Paso",
+      "State": "CO",
+      "Local": "Colorado Springs, Cheyenne Mountain"
+    },
+    "Use": "Open",
+    "Status": "On-Air",
+    "Frequency": {
+      "Input": 440.0625,
+      "Output": 445.0625
+    },
+    "Digital": {
+      "DMR": {
+        "ColorCode": 1,
+        "ID": 310857
+      }
+    }
+  },
+  {
+    "ID": 37,
+    "StateID": 8,
+    "Callsign": "KB0VJJ",
+    "Location": {
+      "Latitude": 38.74520111,
+      "Longitude": -104.86199951,
+      "County": "El Paso",
+      "State": "CO",
+      "Local": "Colorado Springs, Cheyenne Mountain"
+    },
+    "Use": "Open",
+    "Status": "On-Air",
+    "Frequency": {
+      "Input": 144.53,
+      "Output": 145.13
+    },
+    "SquelchTone": {
+      "Input": 88.5,
+      "Output": 123
+    }
+  },
+  {
+    "ID": 80,
+    "StateID": 8,
+    "Callsign": "N0PUF",
+    "Location": {
+      "Latitude": 39.50419998,
+      "Longitude": -105.12799835,
+      "County": "Jefferson",
+      "State": "CO",
+      "Local": "Centennial, Warren Mountain"
+    },
+    "Use": "Open",
+    "Status": "On-Air",
+    "Frequency": {
+      "Input": 146.28,
+      "Output": 146.88
+    },
+    "SquelchTone": {
+      "Input": 100
+    }
+  },
+  {
+    "ID": 273,
+    "StateID": 8,
+    "Callsign": "N0PUF",
+    "Location": {
+      "Latitude": 39.50419998,
+      "Longitude": -105.12799835,
+      "County": "Jefferson",
+      "State": "CO",
+      "Local": "Centennial, Warren Mountain"
+    },
+    "Use": "Open",
+    "Status": "On-Air",
+    "Frequency": {
+      "Input": 444.6,
+      "Output": 449.6
+    },
+    "SquelchTone": {
+      "Input": 100
+    },
+    "Digital": {
+      "YSF": {
+        "GroupID": {
+          "Input": "Open ↑",
+          "Output": "Open ↓"
+        }
+      }
+    },
+    "VOIP": {
+      "EchoLink": {
+        "NodeID": 690473
+      },
+      "IRLP": {
+        "NodeID": 3345
+      }
+    }
+  },
+  {
+    "ID": 136,
+    "StateID": 8,
+    "Callsign": "K0IBM",
+    "Location": {
+      "Latitude": 39.77719879,
+      "Longitude": -105.32900238,
+      "County": "Jefferson",
+      "State": "CO",
+      "Local": "Golden, Guy Hill"
+    },
+    "Use": "Open",
+    "Status": "On-Air",
+    "Frequency": {
+      "Input": 443.85,
+      "Output": 448.85
+    },
+    "SquelchTone": {
+      "Input": 88.5,
+      "Output": 88.5
+    }
+  },
+  {
+    "ID": 86,
+    "StateID": 8,
+    "Callsign": "N0MHU",
+    "Location": {
+      "Latitude": 39.77719879,
+      "Longitude": -105.32900238,
+      "County": "Jefferson",
+      "State": "CO",
+      "Local": "Golden, Guy Hill"
+    },
+    "Use": "Open",
+    "Status": "On-Air",
+    "Frequency": {
+      "Input": 222.4,
+      "Output": 224
+    },
+    "SquelchTone": {
+      "Input": 103.5,
+      "Output": 103.5
+    }
+  },
+  {
+    "ID": 133,
+    "StateID": 8,
+    "Callsign": "W0CBI",
+    "Location": {
+      "Latitude": 39.77719879,
+      "Longitude": -105.32900238,
+      "County": "Jefferson",
+      "State": "CO",
+      "Local": "Golden, Guy Hill"
+    },
+    "Use": "Open",
+    "Status": "On-Air",
+    "Frequency": {
+      "Input": 147.75,
+      "Output": 147.15
+    },
+    "SquelchTone": {
+      "Input": 100,
+      "Output": 100
+    }
+  },
+  {
+    "ID": 265,
+    "StateID": 8,
+    "Callsign": "KI0GO",
+    "Location": {
+      "Latitude": 39.77719879,
+      "Longitude": -105.32800293,
+      "County": "Jefferson",
+      "State": "CO",
+      "Local": "Golden, Guy Hill"
+    },
+    "Use": "Open",
+    "Status": "On-Air",
+    "Frequency": {
+      "Input": 444.75,
+      "Output": 449.75
+    },
+    "SquelchTone": {
+      "Input": 103.5,
+      "Output": 103.5
+    }
+  },
+  {
+    "ID": 134,
+    "StateID": 8,
+    "Callsign": "N0POH",
+    "Location": {
+      "Latitude": 39.77719879,
+      "Longitude": -105.32800293,
+      "County": "Jefferson",
+      "State": "CO",
+      "Local": "Golden, Guy Hill"
+    },
+    "Use": "Open",
+    "Status": "On-Air",
+    "Frequency": {
+      "Input": 223.14,
+      "Output": 224.74
+    },
+    "SquelchTone": {
+      "Input": 88.5,
+      "Output": 88.5
+    }
+  },
+  {
+    "ID": 71,
+    "StateID": 8,
+    "Callsign": "WT0C",
+    "Location": {
+      "Latitude": 39.77719879,
+      "Longitude": -105.32800293,
+      "County": "Jefferson",
+      "State": "CO",
+      "Local": "Golden, Guy Hill"
+    },
+    "Use": "Open",
+    "Status": "On-Air",
+    "Frequency": {
+      "Input": 144.62,
+      "Output": 145.22
+    },
+    "SquelchTone": {
+      "Input": 103.5,
+      "Output": 103.5
+    },
+    "Digital": {
+      "P25": {
+        "NAC": 293
+      }
+    }
+  },
+  {
+    "ID": 72,
+    "StateID": 8,
+    "Callsign": "KB0VJJ",
+    "Location": {
+      "Latitude": 39.88750076,
+      "Longitude": -105.4260025,
+      "County": "Gilpin",
+      "State": "CO",
+      "Local": "Boulder, Thorodin Mountain"
+    },
+    "Use": "Open",
+    "Status": "On-Air",
+    "Frequency": {
+      "Input": 144.71,
+      "Output": 145.31
+    },
+    "SquelchTone": {
+      "Input": 88.5,
+      "Output": 123
+    }
+  },
+  {
+    "ID": 97,
+    "StateID": 8,
+    "Callsign": "N0SZ",
+    "Location": {
+      "Latitude": 39.88750076,
+      "Longitude": -105.4260025,
+      "County": "Gilpin",
+      "State": "CO",
+      "Local": "Denver, Thorodin Mountain"
+    },
+    "Use": "Open",
+    "Status": "On-Air",
+    "Frequency": {
+      "Input": 444.225,
+      "Output": 449.225
+    },
+    "SquelchTone": {
+      "Input": 141.3,
+      "Output": 141.3
+    }
+  },
+  {
+    "ID": 56,
+    "StateID": 8,
+    "Callsign": "KA0TTF",
+    "Location": {
+      "Latitude": 38.77999878,
+      "Longitude": -104.84999847,
+      "County": "El Paso",
+      "State": "CO",
+      "Local": "Colorado Springs, Fillmore Hill"
+    },
+    "Use": "Open",
+    "Status": "On-Air",
+    "Frequency": {
+      "Input": 443.725,
+      "Output": 448.725
+    },
+    "SquelchTone": {
+      "Input": 123
+    }
+  },
+  {
+    "ID": 128,
+    "StateID": 35,
+    "Callsign": "NM5SJ",
+    "Location": {
+      "Latitude": 36.23329926,
+      "Longitude": -107.56199646,
+      "County": "Rio Arriba",
+      "State": "NM",
+      "Local": "Lybrook"
+    },
+    "Use": "Open",
+    "Status": "On-Air",
+    "Frequency": {
+      "Input": 144.89,
+      "Output": 145.49
+    },
+    "SquelchTone": {
+      "Input": 100
+    }
+  },
+  {
+    "ID": 18131,
+    "StateID": 8,
+    "Callsign": "WC3W",
+    "Location": {
+      "Latitude": 40.23920059,
+      "Longitude": -105.84700012,
+      "County": "Clear Creek",
+      "State": "CO",
+      "Local": "Grand Lake"
+    },
+    "Use": "Open",
+    "Status": "On-Air",
+    "Frequency": {
+      "Input": 444.425,
+      "Output": 449.425
+    },
+    "SquelchTone": {
+      "Input": 103.5,
+      "Output": 103.5
+    },
+    "VOIP": {
+      "AllStar": {
+        "NodeID": 45202
+      }
+    }
+  },
+  {
+    "ID": 8740,
+    "StateID": 8,
+    "Callsign": "N0XLF",
+    "Location": {
+      "Latitude": 39.13600159,
+      "Longitude": -104.92700195,
+      "County": "Douglas",
+      "State": "CO",
+      "Local": "Palmer Lake, Monument Hill"
+    },
+    "Use": "Open",
+    "Status": "On-Air",
+    "Frequency": {
+      "Input": 147.675,
+      "Output": 147.075
+    },
+    "SquelchTone": {
+      "Input": 131.8,
+      "Output": 131.8
+    },
+    "VOIP": {
+      "EchoLink": {
+        "NodeID": 10079
+      }
+    }
+  },
+  {
+    "ID": 10513,
+    "StateID": 8,
+    "Callsign": "N6LXX",
+    "Location": {
+      "Latitude": 39.67340088,
+      "Longitude": -105.21800232,
+      "County": "Jefferson",
+      "State": "CO",
+      "Local": "Morrison, Mt. Morrison"
+    },
+    "Use": "Open",
+    "Status": "On-Air",
+    "Frequency": {
+      "Input": 442.875,
+      "Output": 447.875
+    },
+    "SquelchTone": {
+      "Input": 107.2,
+      "Output": 107.2
+    },
+    "VOIP": {
+      "AllStar": {
+        "NodeID": 29913
+      }
+    }
+  },
+  {
+    "ID": 10514,
+    "StateID": 8,
+    "Callsign": "N6LXX",
+    "Location": {
+      "Latitude": 39.67340088,
+      "Longitude": -105.21800232,
+      "County": "Jefferson",
+      "State": "CO",
+      "Local": "Morrison, Mt. Morrison"
+    },
+    "Use": "Open",
+    "Status": "On-Air",
+    "Frequency": {
+      "Input": 52.67,
+      "Output": 53.17
+    },
+    "SquelchTone": {
+      "Input": 107.2
+    },
+    "VOIP": {
+      "AllStar": {
+        "NodeID": 29883
+      }
+    }
+  },
+  {
+    "ID": 8211,
+    "StateID": 8,
+    "Callsign": "",
+    "Location": {
+      "Latitude": 38.83390045,
+      "Longitude": -104.82099915,
+      "County": "El Paso",
+      "State": "CO",
+      "Local": "Colorado Springs"
+    },
+    "Use": "Closed",
+    "Status": "On-Air",
+    "Frequency": {
+      "Input": 444.575,
+      "Output": 449.575
+    }
+  },
+  {
+    "ID": 8200,
+    "StateID": 8,
+    "Callsign": "AA0L",
+    "Location": {
+      "Latitude": 38.83390045,
+      "Longitude": -104.82099915,
+      "County": "El Paso",
+      "State": "CO",
+      "Local": "Colorado Springs"
+    },
+    "Use": "Open",
+    "Status": "On-Air",
+    "Frequency": {
+      "Input": 443.3,
+      "Output": 448.3
+    },
+    "SquelchTone": {
+      "Input": 100
+    }
+  },
+  {
+    "ID": 50,
+    "StateID": 8,
+    "Callsign": "K0IRP",
+    "Location": {
+      "Latitude": 38.83390045,
+      "Longitude": -104.82099915,
+      "County": "El Paso",
+      "State": "CO",
+      "Local": "Colorado Springs"
+    },
+    "Use": "Open",
+    "Status": "On-Air",
+    "Frequency": {
+      "Input": 442.35,
+      "Output": 447.35
+    },
+    "SquelchTone": {
+      "Input": 151.4
+    }
+  },
+  {
+    "ID": 8182,
+    "StateID": 8,
+    "Callsign": "KB0SRJ",
+    "Location": {
+      "Latitude": 38.83390045,
+      "Longitude": -104.82099915,
+      "County": "El Paso",
+      "State": "CO",
+      "Local": "Colorado Springs"
+    },
+    "Use": "Closed",
+    "Status": "Other",
+    "Frequency": {
+      "Input": 222.46,
+      "Output": 224.06
+    }
+  },
+  {
+    "ID": 49,
+    "StateID": 8,
+    "Callsign": "KF0WF",
+    "Location": {
+      "Latitude": 38.83390045,
+      "Longitude": -104.82099915,
+      "County": "El Paso",
+      "State": "CO",
+      "Local": "Colorado Springs"
+    },
+    "Use": "Open",
+    "Status": "On-Air",
+    "Frequency": {
+      "Input": 442.025,
+      "Output": 447.025
+    },
+    "SquelchTone": {
+      "Input": 123
+    }
+  },
+  {
+    "ID": 8198,
+    "StateID": 8,
+    "Callsign": "N0KG",
+    "Location": {
+      "Latitude": 38.83390045,
+      "Longitude": -104.82099915,
+      "County": "El Paso",
+      "State": "CO",
+      "Local": "Colorado Springs, Broadmoor Area"
+    },
+    "Use": "Open",
+    "Status": "On-Air",
+    "Frequency": {
+      "Input": 443.25,
+      "Output": 448.25
+    },
+    "SquelchTone": {
+      "Input": 123
+    }
+  },
+  {
+    "ID": 51,
+    "StateID": 8,
+    "Callsign": "NX0G",
+    "Location": {
+      "Latitude": 38.83390045,
+      "Longitude": -104.82099915,
+      "County": "El Paso",
+      "State": "CO",
+      "Local": "Colorado Springs"
+    },
+    "Use": "Open",
+    "Status": "On-Air",
+    "Frequency": {
+      "Input": 442.475,
+      "Output": 447.475
+    },
+    "SquelchTone": {
+      "Input": 107.2
+    }
+  },
+  {
+    "ID": 55,
+    "StateID": 8,
+    "Callsign": "W0MOG",
+    "Location": {
+      "Latitude": 38.83390045,
+      "Longitude": -104.82099915,
+      "County": "El Paso",
+      "State": "CO",
+      "Local": "Colorado Springs"
+    },
+    "Use": "Open",
+    "Status": "Other",
+    "Frequency": {
+      "Input": 443.6,
+      "Output": 448.6
+    },
+    "SquelchTone": {
+      "Input": 114.8
+    }
+  },
+  {
+    "ID": 3537,
+    "StateID": 8,
+    "Callsign": "W0MOG",
+    "Location": {
+      "Latitude": 38.83390045,
+      "Longitude": -104.82099915,
+      "County": "Teller",
+      "State": "CO",
+      "Local": "Colorado Springs"
+    },
+    "Use": "Open",
+    "Status": "On-Air",
+    "Frequency": {
+      "Input": 902.8,
+      "Output": 927.8
+    },
+    "DigitalTone": {
+      "Input": 116
+    }
+  },
+  {
+    "ID": 8191,
+    "StateID": 8,
+    "Callsign": "WA6IFI",
+    "Location": {
+      "Latitude": 38.83390045,
+      "Longitude": -104.82099915,
+      "County": "El Paso",
+      "State": "CO",
+      "Local": "Colorado Springs"
+    },
+    "Use": "Open",
+    "Status": "On-Air",
+    "Frequency": {
+      "Input": 442.55,
+      "Output": 447.55
+    },
+    "SquelchTone": {
+      "Input": 123
+    }
+  },
+  {
+    "ID": 139,
+    "StateID": 8,
+    "Callsign": "KE0VH",
+    "Location": {
+      "Latitude": 39.73300171,
+      "Longitude": -105.23899841,
+      "County": "Jefferson",
+      "State": "CO",
+      "Local": "Golden, Lookout Mountain"
+    },
+    "Use": "Open",
+    "Status": "On-Air",
+    "Frequency": {
+      "Input": 444.625,
+      "Output": 449.625
+    },
+    "SquelchTone": {
+      "Input": 141.3,
+      "Output": 141.3
+    },
+    "Digital": {
+      "YSF": {
+        "GroupID": {
+          "Input": "Open ↑",
+          "Output": "Open ↓"
+        }
+      }
+    }
+  },
+  {
+    "ID": 46,
+    "StateID": 8,
+    "Callsign": "",
+    "Location": {
+      "Latitude": 38.83810043,
+      "Longitude": -104.82099915,
+      "County": "El Paso",
+      "State": "CO",
+      "Local": "Colorado Springs"
+    },
+    "Use": "Open",
+    "Status": "On-Air",
+    "Frequency": {
+      "Input": 147.87,
+      "Output": 147.27
+    }
+  },
+  {
+    "ID": 43,
+    "StateID": 8,
+    "Callsign": "K0IRP",
+    "Location": {
+      "Latitude": 38.83810043,
+      "Longitude": -104.82099915,
+      "County": "El Paso",
+      "State": "CO",
+      "Local": "Colorado Springs"
+    },
+    "Use": "Open",
+    "Status": "On-Air",
+    "Frequency": {
+      "Input": 146.31,
+      "Output": 146.91
+    },
+    "SquelchTone": {
+      "Input": 151.4,
+      "Output": 151.4
+    }
+  },
+  {
+    "ID": 48,
+    "StateID": 8,
+    "Callsign": "W0MOG",
+    "Location": {
+      "Latitude": 38.83810043,
+      "Longitude": -104.82099915,
+      "County": "El Paso",
+      "State": "CO",
+      "Local": "Colorado Springs"
+    },
+    "Use": "Open",
+    "Status": "On-Air",
+    "Frequency": {
+      "Input": 147.99,
+      "Output": 147.39
+    },
+    "SquelchTone": {
+      "Input": 103.5
+    }
+  },
+  {
+    "ID": 18156,
+    "StateID": 8,
+    "Callsign": "W0SKY",
+    "Location": {
+      "Latitude": 39.73329926,
+      "Longitude": -105.23699951,
+      "County": "Jefferson",
+      "State": "CO",
+      "Local": "Golden, Lookout Mountain"
+    },
+    "Use": "Open",
+    "Status": "On-Air",
+    "Frequency": {
+      "Input": 902.0375,
+      "Output": 927.975
+    },
+    "SquelchTone": {
+      "Input": 67,
+      "Output": 67
+    },
+    "VOIP": {
+      "AllStar": {
+        "NodeID": 40195
+      }
+    }
+  },
+  {
+    "ID": 10939,
+    "StateID": 8,
+    "Callsign": "N0SZ",
+    "Location": {
+      "Latitude": 39.73070145,
+      "Longitude": -105.23300171,
+      "County": "Jefferson",
+      "State": "CO",
+      "Local": "Golden, Lookout Mountain"
+    },
+    "Use": "Open",
+    "Status": "On-Air",
+    "Frequency": {
+      "Input": 144.77,
+      "Output": 145.37
+    },
+    "Digital": {
+      "DMR": {
+        "ColorCode": 7,
+        "ID": 310808
+      }
+    }
+  },
+  {
+    "ID": 3753,
+    "StateID": 8,
+    "Callsign": "WA2YZT",
+    "Location": {
+      "Latitude": 39.73049927,
+      "Longitude": -105.23200226,
+      "County": "Jefferson",
+      "State": "CO",
+      "Local": "Golden, Lookout"
+    },
+    "Use": "Open",
+    "Status": "On-Air",
+    "Frequency": {
+      "Input": 441.8375,
+      "Output": 446.8375
+    },
+    "Digital": {
+      "DMR": {
+        "ColorCode": 7,
+        "ID": 310802
+      }
+    }
+  },
+  {
+    "ID": 183,
+    "StateID": 8,
+    "Callsign": "K0NR",
+    "Location": {
+      "Latitude": 39.09170151,
+      "Longitude": -104.87200165,
+      "County": "El Paso",
+      "State": "CO",
+      "Local": "Monument, Monument Hill"
+    },
+    "Use": "Open",
+    "Status": "On-Air",
+    "Frequency": {
+      "Input": 442.725,
+      "Output": 447.725
+    },
+    "SquelchTone": {
+      "Input": 100,
+      "Output": 100
+    }
+  },
+  {
+    "ID": 8176,
+    "StateID": 8,
+    "Callsign": "AA0L",
+    "Location": {
+      "Latitude": 38.83969879,
+      "Longitude": -104.80000305,
+      "County": "El Paso",
+      "State": "CO",
+      "Local": "Colorado Springs"
+    },
+    "Use": "Open",
+    "Status": "On-Air",
+    "Frequency": {
+      "Input": 147.735,
+      "Output": 147.135
+    },
+    "SquelchTone": {
+      "Input": 100
+    }
+  },
+  {
+    "ID": 105,
+    "StateID": 8,
+    "Callsign": "W0TX",
+    "Location": {
+      "Latitude": 39.70080185,
+      "Longitude": -105.1780014,
+      "County": "Jefferson",
+      "State": "CO",
+      "Local": "Lakewood, Green Mountain"
+    },
+    "Use": "Open",
+    "Status": "On-Air",
+    "Frequency": {
+      "Input": 51.39,
+      "Output": 53.09
+    },
+    "SquelchTone": {
+      "Input": 107.2
+    }
+  },
+  {
+    "ID": 163,
+    "StateID": 4,
+    "Callsign": "KB5ITS",
+    "Location": {
+      "Latitude": 36.46139908,
+      "Longitude": -109.09600067,
+      "County": "Apache",
+      "State": "AZ",
+      "Local": "Lukachukai, Roof Butte"
+    },
+    "Use": "Open",
+    "Status": "On-Air",
+    "Frequency": {
+      "Input": 144.65,
+      "Output": 145.25
+    },
+    "SquelchTone": {
+      "Input": 100
+    }
+  },
+  {
+    "ID": 72,
+    "StateID": 4,
+    "Callsign": "NM5SJ",
+    "Location": {
+      "Latitude": 36.46139908,
+      "Longitude": -109.09600067,
+      "County": "Apache",
+      "State": "AZ",
+      "Local": "Red Rock, Roof Butte"
+    },
+    "Use": "Open",
+    "Status": "On-Air",
+    "Frequency": {
+      "Input": 146.22,
+      "Output": 146.82
+    },
+    "SquelchTone": {
+      "Input": 100
+    }
+  },
+  {
+    "ID": 7170,
+    "StateID": 8,
+    "Callsign": "N0PYY",
+    "Location": {
+      "Latitude": 39.75550079,
+      "Longitude": -105.22100067,
+      "County": "Jefferson",
+      "State": "CO",
+      "Local": "Golden"
+    },
+    "Use": "Open",
+    "Status": "On-Air",
+    "Frequency": {
+      "Input": 902.7875,
+      "Output": 927.7875
+    },
+    "SquelchTone": {
+      "Input": 156.7
+    }
+  },
+  {
+    "ID": 143,
+    "StateID": 8,
+    "Callsign": "N0PYY",
+    "Location": {
+      "Latitude": 39.75559998,
+      "Longitude": -105.22100067,
+      "County": "Jefferson",
+      "State": "CO",
+      "Local": "Golden"
+    },
+    "Use": "Open",
+    "Status": "On-Air",
+    "Frequency": {
+      "Input": 443.125,
+      "Output": 448.125
+    },
+    "SquelchTone": {
+      "Input": 107.2
+    }
+  },
+  {
+    "ID": 137,
+    "StateID": 8,
+    "Callsign": "W0GV",
+    "Location": {
+      "Latitude": 39.75559998,
+      "Longitude": -105.22100067,
+      "County": "Jefferson",
+      "State": "CO",
+      "Local": "Golden"
+    },
+    "Use": "Open",
+    "Status": "On-Air",
+    "Frequency": {
+      "Input": 443.975,
+      "Output": 448.975
+    },
+    "SquelchTone": {
+      "Input": 123
+    },
+    "VOIP": {
+      "AllStar": {
+        "NodeID": 42845
+      }
+    }
+  },
+  {
+    "ID": 174,
+    "StateID": 35,
+    "Callsign": "KF5PFO",
+    "Location": {
+      "Latitude": 36.64690018,
+      "Longitude": -105.96700287,
+      "County": "Taos",
+      "State": "NM",
+      "Local": "Tres Piedras, San Antonio Mountain"
+    },
+    "Use": "Open",
+    "Status": "On-Air",
+    "Frequency": {
+      "Input": 146.16,
+      "Output": 146.76
+    },
+    "SquelchTone": {
+      "Input": 67
+    }
+  },
+  {
+    "ID": 85,
+    "StateID": 8,
+    "Callsign": "W0TX",
+    "Location": {
+      "Latitude": 39.68220139,
+      "Longitude": -105.14299774,
+      "County": "Jefferson",
+      "State": "CO",
+      "Local": "Lakewood, Green Mountain"
+    },
+    "Use": "Open",
+    "Status": "On-Air",
+    "Frequency": {
+      "Input": 147.93,
+      "Output": 147.33
+    },
+    "SquelchTone": {
+      "Input": 100
+    }
+  },
+  {
+    "ID": 267,
+    "StateID": 8,
+    "Callsign": "W0TX",
+    "Location": {
+      "Latitude": 39.68220139,
+      "Longitude": -105.14299774,
+      "County": "Jefferson",
+      "State": "CO",
+      "Local": "Lakewood, Green Mountain"
+    },
+    "Use": "Open",
+    "Status": "On-Air",
+    "Frequency": {
+      "Input": 222.78,
+      "Output": 224.38
+    },
+    "SquelchTone": {
+      "Input": 100,
+      "Output": 100
+    }
+  },
+  {
+    "ID": 8215,
+    "StateID": 8,
+    "Callsign": "W0TX",
+    "Location": {
+      "Latitude": 39.68220139,
+      "Longitude": -105.14299774,
+      "County": "Jefferson",
+      "State": "CO",
+      "Local": "Lakewood, Green Mtn"
+    },
+    "Use": "Open",
+    "Status": "On-Air",
+    "Frequency": {
+      "Input": 444.775,
+      "Output": 449.775
+    },
+    "Digital": {
+      "YSF": {
+        "GroupID": {
+          "Input": "Open ↑",
+          "Output": "Open ↓"
+        }
+      }
+    }
+  },
+  {
+    "ID": 14273,
+    "StateID": 8,
+    "Callsign": "KB0VGD",
+    "Location": {
+      "Latitude": 39.7845993,
+      "Longitude": -105.21600342,
+      "County": "Jefferson",
+      "State": "CO",
+      "Local": "Golden, Table Mountain"
+    },
+    "Use": "Open",
+    "Status": "On-Air",
+    "Frequency": {
+      "Input": 441.975,
+      "Output": 446.975
+    },
+    "Digital": {
+      "DMR": {
+        "ColorCode": 2,
+        "ID": 310811
+      }
+    }
+  },
+  {
+    "ID": 18710,
+    "StateID": 8,
+    "Callsign": "KE0VUW",
+    "Location": {
+      "Latitude": 39.046,
+      "Longitude": -104.8065,
+      "County": "El Paso",
+      "State": "CO",
+      "Local": "Colorado Springs, Sun Hills Subdivision"
+    },
+    "Use": "Open",
+    "Status": "On-Air",
+    "Frequency": {
+      "Input": 441.8875,
+      "Output": 446.8875
+    },
+    "Digital": {
+      "DStar": {
+        "Node": "KE0VUW (B) Repeater"
+      }
+    }
+  },
+  {
+    "ID": 57,
+    "StateID": 8,
+    "Callsign": "KB0SRJ",
+    "Location": {
+      "Latitude": 39.03020096,
+      "Longitude": -104.7990036,
+      "County": "El Paso",
+      "State": "CO",
+      "Local": "Colorado Springs, ~2 mi ENE USAFA North Gate"
+    },
+    "Use": "Open",
+    "Status": "On-Air",
+    "Frequency": {
+      "Input": 443.8,
+      "Output": 448.8
+    },
+    "SquelchTone": {
+      "Input": 100
+    }
+  },
+  {
+    "ID": 18346,
+    "StateID": 8,
+    "Callsign": "NA0PW",
+    "Location": {
+      "Latitude": 38.31610107,
+      "Longitude": -104.7419967,
+      "County": "Pueblo",
+      "State": "CO",
+      "Local": "Pueblo West, Liberty Point"
+    },
+    "Use": "Open",
+    "Status": "On-Air",
+    "Frequency": {
+      "Input": 442.45,
+      "Output": 447.45
+    },
+    "SquelchTone": {
+      "Input": 123,
+      "Output": 123
+    }
+  },
+  {
+    "ID": 58,
+    "StateID": 49,
+    "Callsign": "K7SDC",
+    "Location": {
+      "Latitude": 39.63890076,
+      "Longitude": -110.34200287,
+      "County": "Carbon",
+      "State": "UT",
+      "Local": "Sunnyside, Bruin Point"
+    },
+    "Use": "Open",
+    "Status": "On-Air",
+    "Frequency": {
+      "Input": 147.92,
+      "Output": 147.32
+    },
+    "SquelchTone": {
+      "Input": 88.5
+    },
+    "VOIP": {
+      "EchoLink": {
+        "NodeID": 64264
+      },
+      "IRLP": {
+        "NodeID": 3270
+      }
+    }
+  },
+  {
+    "ID": 59,
+    "StateID": 49,
+    "Callsign": "K7SDC",
+    "Location": {
+      "Latitude": 39.63890076,
+      "Longitude": -110.34200287,
+      "County": "Carbon",
+      "State": "UT",
+      "Local": "Sunnyside, Bruin Point"
+    },
+    "Use": "Open",
+    "Status": "On-Air",
+    "Frequency": {
+      "Input": 444.05,
+      "Output": 449.05
+    },
+    "SquelchTone": {
+      "Input": 88.5
+    },
+    "VOIP": {
+      "EchoLink": {
+        "NodeID": 64264
+      },
+      "IRLP": {
+        "NodeID": 3270
+      }
+    }
+  },
+  {
+    "ID": 7994,
+    "StateID": 8,
+    "Callsign": "K0JSC",
+    "Location": {
+      "Latitude": 38.3030014,
+      "Longitude": -104.73400116,
+      "County": "Pueblo",
+      "State": "CO",
+      "Local": "Pueblo West"
+    },
+    "Use": "Open",
+    "Status": "On-Air",
+    "Frequency": {
+      "Input": 443.975,
+      "Output": 448.975
+    },
+    "SquelchTone": {
+      "Input": 100,
+      "Output": 100
+    },
+    "VOIP": {
+      "AllStar": {
+        "NodeID": 28368
+      },
+      "EchoLink": {
+        "NodeID": 363976
+      },
+      "IRLP": {
+        "NodeID": 7301
+      }
+    }
+  },
+  {
+    "ID": 42,
+    "StateID": 8,
+    "Callsign": "AD0TP",
+    "Location": {
+      "Latitude": 38.83969879,
+      "Longitude": -104.7437973,
+      "County": "El Paso",
+      "State": "CO",
+      "Local": "Colorado Springs"
+    },
+    "Use": "Open",
+    "Status": "On-Air",
+    "Frequency": {
+      "Input": 146.25,
+      "Output": 146.85
+    },
+    "SquelchTone": {
+      "Input": 156.7,
+      "Output": 103.5
+    }
+  },
+  {
+    "ID": 8204,
+    "StateID": 8,
+    "Callsign": "N0ELY",
+    "Location": {
+      "Latitude": 39.70460129,
+      "Longitude": -105.1230011,
+      "County": "Jefferson",
+      "State": "CO",
+      "Local": "Lakewood"
+    },
+    "Use": "Open",
+    "Status": "On-Air",
+    "Frequency": {
+      "Input": 443.75,
+      "Output": 448.75
+    },
+    "SquelchTone": {
+      "Input": 100,
+      "Output": 100
+    }
+  },
+  {
+    "ID": 5805,
+    "StateID": 8,
+    "Callsign": "W0TX",
+    "Location": {
+      "Latitude": 39.71620178,
+      "Longitude": -105.12999725,
+      "County": "Jefferson",
+      "State": "CO",
+      "Local": "Lakewood, St Anthony Medical Campus"
+    },
+    "Use": "Open",
+    "Status": "On-Air",
+    "Frequency": {
+      "Input": 442.825,
+      "Output": 447.825
+    },
+    "DigitalTone": {
+      "Input": 73
+    }
+  },
+  {
+    "ID": 168,
+    "StateID": 8,
+    "Callsign": "N0JPX",
+    "Location": {
+      "Latitude": 37.50500107,
+      "Longitude": -105.00700378,
+      "County": "Huerfano",
+      "State": "CO",
+      "Local": "La Veta"
+    },
+    "Use": "Open",
+    "Status": "On-Air",
+    "Frequency": {
+      "Input": 144.755,
+      "Output": 145.355
+    },
+    "SquelchTone": {
+      "Input": 100
+    },
+    "VOIP": {
+      "IRLP": {
+        "NodeID": 3974
+      }
+    }
+  },
+  {
+    "ID": 4237,
+    "StateID": 49,
+    "Callsign": "K7YI",
+    "Location": {
+      "Latitude": 39.18500137,
+      "Longitude": -110.60500336,
+      "County": "Carbon",
+      "State": "UT",
+      "Local": "Price, Cedar Mountain"
+    },
+    "Use": "Open",
+    "Status": "On-Air",
+    "Frequency": {
+      "Input": 443.075,
+      "Output": 448.075
+    },
+    "Digital": {
+      "DStar": {
+        "Node": "K7YI (B)"
+      }
+    }
+  },
+  {
+    "ID": 274,
+    "StateID": 49,
+    "Callsign": "K7SDC",
+    "Location": {
+      "Latitude": 39.1719017,
+      "Longitude": -110.6190033,
+      "County": "Emery",
+      "State": "UT",
+      "Local": "Castle Dale, Cedar Mountain"
+    },
+    "Use": "Open",
+    "Status": "On-Air",
+    "Frequency": {
+      "Input": 443.55,
+      "Output": 448.55
+    },
+    "SquelchTone": {
+      "Input": 88.5
+    },
+    "VOIP": {
+      "IRLP": {
+        "NodeID": 3280
+      }
+    }
+  },
+  {
+    "ID": 74,
+    "StateID": 49,
+    "Callsign": "K7YI",
+    "Location": {
+      "Latitude": 39.1719017,
+      "Longitude": -110.6190033,
+      "County": "Emery",
+      "State": "UT",
+      "Local": "Castle Dale, Cedar Mountain"
+    },
+    "Use": "Closed",
+    "Status": "Other",
+    "Frequency": {
+      "Input": 442.125,
+      "Output": 447.125
+    },
+    "SquelchTone": {
+      "Input": 100
+    }
+  },
+  {
+    "ID": 57,
+    "StateID": 49,
+    "Callsign": "K7SDC",
+    "Location": {
+      "Latitude": 39.17150116,
+      "Longitude": -110.62000275,
+      "County": "Emery",
+      "State": "UT",
+      "Local": "Castle Dale, Cedar Mountain"
+    },
+    "Use": "Open",
+    "Status": "On-Air",
+    "Frequency": {
+      "Input": 147.74,
+      "Output": 147.14
+    },
+    "SquelchTone": {
+      "Input": 88.5
+    },
+    "VOIP": {
+      "EchoLink": {
+        "NodeID": 64264
+      },
+      "IRLP": {
+        "NodeID": 3270
+      }
+    }
+  },
+  {
+    "ID": 9775,
+    "StateID": 8,
+    "Callsign": "KD0SSP",
+    "Location": {
+      "Latitude": 39.75049973,
+      "Longitude": -105.1230011,
+      "County": "Jefferson",
+      "State": "CO",
+      "Local": "Lakewood, Moffat Treatment Plant"
+    },
+    "Use": "Open",
+    "Status": "On-Air",
+    "Frequency": {
+      "Input": 147.81,
+      "Output": 147.21
+    },
+    "SquelchTone": {
+      "Input": 100,
+      "Output": 100
+    },
+    "VOIP": {
+      "IRLP": {
+        "NodeID": 3241
+      }
+    }
+  },
+  {
+    "ID": 17349,
+    "StateID": 8,
+    "Callsign": "KD0SSP",
+    "Location": {
+      "Latitude": 39.75059891,
+      "Longitude": -105.1230011,
+      "County": "Jefferson",
+      "State": "CO",
+      "Local": "Lakewood, Moffat Treatment Plant"
+    },
+    "Use": "Open",
+    "Status": "On-Air",
+    "Frequency": {
+      "Input": 443.35,
+      "Output": 448.35
+    },
+    "SquelchTone": {
+      "Input": 225.7
+    },
+    "Digital": {
+      "YSF": {
+        "GroupID": {
+          "Input": "Open ↑",
+          "Output": "Open ↓"
+        }
+      }
+    }
+  },
+  {
+    "ID": 13368,
+    "StateID": 8,
+    "Callsign": "W0JZ",
+    "Location": {
+      "Latitude": 40.06330109,
+      "Longitude": -105.41000366,
+      "County": "Boulder",
+      "State": "CO",
+      "Local": "Gold Hill"
+    },
+    "Use": "Open",
+    "Status": "On-Air",
+    "Frequency": {
+      "Input": 146.31,
+      "Output": 146.91
+    },
+    "SquelchTone": {
+      "Input": 123,
+      "Output": 127.3
+    }
+  },
+  {
+    "ID": 194,
+    "StateID": 8,
+    "Callsign": "W0PHC",
+    "Location": {
+      "Latitude": 38.20700073,
+      "Longitude": -104.70700073,
+      "County": "Pueblo",
+      "State": "CO",
+      "Local": "Pueblo, 12 Mile Hill"
+    },
+    "Use": "Open",
+    "Status": "On-Air",
+    "Frequency": {
+      "Input": 146.28,
+      "Output": 146.88
+    },
+    "SquelchTone": {
+      "Input": 88.5
+    },
+    "Digital": {
+      "DMR": {
+        "ColorCode": 0
+      }
+    }
+  },
+  {
+    "ID": 244,
+    "StateID": 8,
+    "Callsign": "KB0VJJ",
+    "Location": {
+      "Latitude": 40.6493988,
+      "Longitude": -106.38200378,
+      "County": "Jackson",
+      "State": "CO",
+      "Local": "Walden, Peterson Ridge"
+    },
+    "Use": "Open",
+    "Status": "On-Air",
+    "Frequency": {
+      "Input": 144.56,
+      "Output": 145.16
+    },
+    "SquelchTone": {
+      "Input": 88.5,
+      "Output": 123
+    }
+  },
+  {
+    "ID": 14,
+    "StateID": 8,
+    "Callsign": "W0DK",
+    "Location": {
+      "Latitude": 39.97750092,
+      "Longitude": -105.27899933,
+      "County": "Boulder",
+      "State": "CO",
+      "Local": "Boulder, Table Mountain"
+    },
+    "Use": "Open",
+    "Status": "On-Air",
+    "Frequency": {
+      "Input": 146.1,
+      "Output": 146.7
+    },
+    "SquelchTone": {
+      "Input": 100
+    }
+  },
+  {
+    "ID": 10,
+    "StateID": 8,
+    "Callsign": "W0DK",
+    "Location": {
+      "Latitude": 39.97800064,
+      "Longitude": -105.27500153,
+      "County": "Boulder",
+      "State": "CO",
+      "Local": "Boulder, Table Mesa"
+    },
+    "Use": "Open",
+    "Status": "On-Air",
+    "Frequency": {
+      "Input": 443.9,
+      "Output": 448.9
+    },
+    "SquelchTone": {
+      "Input": 100
+    }
+  },
+  {
+    "ID": 13,
+    "StateID": 8,
+    "Callsign": "W0DK",
+    "Location": {
+      "Latitude": 39.97829819,
+      "Longitude": -105.27500153,
+      "County": "Boulder",
+      "State": "CO",
+      "Local": "Boulder"
+    },
+    "Use": "Open",
+    "Status": "On-Air",
+    "Frequency": {
+      "Input": 146.01,
+      "Output": 146.61
+    },
+    "SquelchTone": {
+      "Input": 100
+    },
+    "VOIP": {
+      "IRLP": {
+        "NodeID": 7007
+      }
+    }
+  },
+  {
+    "ID": 18534,
+    "StateID": 8,
+    "Callsign": "W0BTV",
+    "Location": {
+      "Latitude": 39.97848511,
+      "Longitude": -105.27445221,
+      "County": "Boulder",
+      "State": "CO",
+      "Local": "Boulder"
+    },
+    "Use": "Open",
+    "Status": "On-Air",
+    "Frequency": {
+      "Input": 1243,
+      "Output": 423
+    }
+  },
+  {
+    "ID": 191,
+    "StateID": 8,
+    "Callsign": "W0PHC",
+    "Location": {
+      "Latitude": 38.2521019,
+      "Longitude": -104.66200256,
+      "County": "Pueblo",
+      "State": "CO",
+      "Local": "Pueblo"
+    },
+    "Use": "Open",
+    "Status": "On-Air",
+    "Frequency": {
+      "Input": 144.515,
+      "Output": 145.115
+    },
+    "SquelchTone": {
+      "Input": 88.5
+    }
+  },
+  {
+    "ID": 19,
+    "StateID": 8,
+    "Callsign": "N0SZ",
+    "Location": {
+      "Latitude": 40.07220078,
+      "Longitude": -105.35399628,
+      "County": "Boulder",
+      "State": "CO",
+      "Local": "Boulder, Lee Hill"
+    },
+    "Use": "Open",
+    "Status": "On-Air",
+    "Frequency": {
+      "Input": 442.75,
+      "Output": 447.75
+    },
+    "SquelchTone": {
+      "Input": 141.3,
+      "Output": 141.3
+    },
+    "VOIP": {
+      "IRLP": {
+        "NodeID": 3450
+      }
+    }
+  },
+  {
+    "ID": 5219,
+    "StateID": 8,
+    "Callsign": "N0SZ",
+    "Location": {
+      "Latitude": 40.07220078,
+      "Longitude": -105.35399628,
+      "County": "Boulder",
+      "State": "CO",
+      "Local": "Boulder, Lee Hill"
+    },
+    "Use": "Open",
+    "Status": "On-Air",
+    "Frequency": {
+      "Input": 441.9875,
+      "Output": 446.9875
+    },
+    "Digital": {
+      "DMR": {
+        "ColorCode": 7,
+        "ID": 310813
+      }
+    }
+  },
+  {
+    "ID": 8992,
+    "StateID": 8,
+    "Callsign": "N0SZ",
+    "Location": {
+      "Latitude": 40.07220078,
+      "Longitude": -105.35399628,
+      "County": "Boulder",
+      "State": "CO",
+      "Local": "Boulder, Lee Hill"
+    },
+    "Use": "Open",
+    "Status": "On-Air",
+    "Frequency": {
+      "Input": 440.05,
+      "Output": 445.05
+    },
+    "Digital": {
+      "DMR": {
+        "ColorCode": 1,
+        "ID": 310852
+      }
+    }
+  },
+  {
+    "ID": 8,
+    "StateID": 8,
+    "Callsign": "W0CRA",
+    "Location": {
+      "Latitude": 40.07220078,
+      "Longitude": -105.35399628,
+      "County": "Boulder",
+      "State": "CO",
+      "Local": "Boulder, Eldorado Mountain"
+    },
+    "Use": "Open",
+    "Status": "On-Air",
+    "Frequency": {
+      "Input": 144.86,
+      "Output": 145.46
+    },
+    "SquelchTone": {
+      "Input": 107.2,
+      "Output": 107.2
+    },
+    "VOIP": {
+      "EchoLink": {
+        "NodeID": 347086
+      },
+      "IRLP": {
+        "NodeID": 3990
+      }
+    }
+  },
+  {
+    "ID": 20,
+    "StateID": 8,
+    "Callsign": "W0CRA",
+    "Location": {
+      "Latitude": 40.07220078,
+      "Longitude": -105.35399628,
+      "County": "Boulder",
+      "State": "CO",
+      "Local": "Boulder, Eldorado Mountain"
+    },
+    "Use": "Open",
+    "Status": "On-Air",
+    "Frequency": {
+      "Input": 442.975,
+      "Output": 447.975
+    },
+    "SquelchTone": {
+      "Input": 107.2,
+      "Output": 107.2
+    }
+  },
+  {
+    "ID": 18,
+    "StateID": 8,
+    "Callsign": "W0IA",
+    "Location": {
+      "Latitude": 40.07220078,
+      "Longitude": -105.35399628,
+      "County": "Boulder",
+      "State": "CO",
+      "Local": "Boulder, Lee Hill"
+    },
+    "Use": "Open",
+    "Status": "On-Air",
+    "Frequency": {
+      "Input": 222.42,
+      "Output": 224.02
+    },
+    "VOIP": {
+      "EchoLink": {
+        "NodeID": 217336
+      }
+    }
+  },
+  {
+    "ID": 17551,
+    "StateID": 8,
+    "Callsign": "",
+    "Location": {
+      "Latitude": 39.04850006,
+      "Longitude": -104.7009964,
+      "County": "El Paso",
+      "State": "CO",
+      "Local": "Black Forest"
+    },
+    "Use": "Open",
+    "Status": "Other",
+    "Frequency": {
+      "Input": 443.95,
+      "Output": 448.95
+    },
+    "Digital": {
+      "DStar": {
+        "Node": "(B) Repeater"
+      },
+      "YSF": {
+        "GroupID": {
+          "Input": "Open ↑",
+          "Output": "Open ↓"
+        }
+      }
+    }
+  },
+  {
+    "ID": 13485,
+    "StateID": 8,
+    "Callsign": "N0ZSN",
+    "Location": {
+      "Latitude": 37.34069824,
+      "Longitude": -105.02400208,
+      "County": "Las Animas",
+      "State": "CO",
+      "Local": "La Veta, Cordova Pass"
+    },
+    "Use": "Open",
+    "Status": "On-Air",
+    "Frequency": {
+      "Input": 444.75,
+      "Output": 449.75
+    },
+    "SquelchTone": {
+      "Input": 100,
+      "Output": 100
+    },
+    "VOIP": {
+      "AllStar": {
+        "NodeID": 28368
+      },
+      "EchoLink": {
+        "NodeID": 363976
+      },
+      "IRLP": {
+        "NodeID": 7301
+      }
+    }
+  },
+  {
+    "ID": 8186,
+    "StateID": 8,
+    "Callsign": "KC0DS",
+    "Location": {
+      "Latitude": 40.01499939,
+      "Longitude": -105.27100372,
+      "County": "Boulder",
+      "State": "CO",
+      "Local": "Boulder"
+    },
+    "Use": "Open",
+    "Status": "On-Air",
+    "Frequency": {
+      "Input": 441.8625,
+      "Output": 446.8625
+    },
+    "Digital": {
+      "DStar": {
+        "Node": "KC0DS (B)"
+      }
+    }
+  },
+  {
+    "ID": 8185,
+    "StateID": 8,
+    "Callsign": "N0SZ",
+    "Location": {
+      "Latitude": 40.01499939,
+      "Longitude": -105.27100372,
+      "County": "Boulder",
+      "State": "CO",
+      "Local": "Boulder, Mount Thorodin"
+    },
+    "Use": "Open",
+    "Status": "On-Air",
+    "Frequency": {
+      "Input": 441.8,
+      "Output": 446.8
+    },
+    "Digital": {
+      "DMR": {
+        "ColorCode": 7,
+        "ID": 310800
+      }
+    }
+  },
+  {
+    "ID": 8221,
+    "StateID": 8,
+    "Callsign": "W0DK",
+    "Location": {
+      "Latitude": 40.01499939,
+      "Longitude": -105.27100372,
+      "County": "Boulder",
+      "State": "CO",
+      "Local": "Boulder"
+    },
+    "Use": "Open",
+    "Status": "On-Air",
+    "Frequency": {
+      "Input": 1279.5,
+      "Output": 1299.5
+    },
+    "Digital": {
+      "DStar": {
+        "Node": "W0DK (A) DVAP 24/7"
+      }
+    }
+  },
+  {
+    "ID": 21,
+    "StateID": 8,
+    "Callsign": "K0DK",
+    "Location": {
+      "Latitude": 40.01499939,
+      "Longitude": -105.26999664,
+      "County": "Boulder",
+      "State": "CO",
+      "Local": "Boulder"
+    },
+    "Use": "Open",
+    "Status": "On-Air",
+    "Frequency": {
+      "Input": 444.4,
+      "Output": 449.4
+    },
+    "SquelchTone": {
+      "Input": 91.5
+    }
+  },
+  {
+    "ID": 11,
+    "StateID": 8,
+    "Callsign": "W0IA",
+    "Location": {
+      "Latitude": 40.01499939,
+      "Longitude": -105.26999664,
+      "County": "Boulder",
+      "State": "CO",
+      "Local": "Boulder"
+    },
+    "Use": "Open",
+    "Status": "On-Air",
+    "Frequency": {
+      "Input": 444.55,
+      "Output": 449.55
+    },
+    "SquelchTone": {
+      "Input": 100
+    },
+    "VOIP": {
+      "EchoLink": {
+        "NodeID": 217336
+      }
+    }
+  },
+  {
+    "ID": 8173,
+    "StateID": 8,
+    "Callsign": "NE0Z",
+    "Location": {
+      "Latitude": 38.30690002,
+      "Longitude": -104.62000275,
+      "County": "Pueblo",
+      "State": "CO",
+      "Local": "Pueblo, CSU"
+    },
+    "Use": "Private",
+    "Status": "On-Air",
+    "Frequency": {
+      "Input": 147.6,
+      "Output": 147
+    }
+  },
+  {
+    "ID": 18707,
+    "StateID": 8,
+    "Callsign": "WB0SLW",
+    "Location": {
+      "Latitude": 38.2544472,
+      "Longitude": -104.6091409,
+      "County": "Pueblo",
+      "State": "CO",
+      "Local": "Pueblo"
+    },
+    "Use": "Open",
+    "Status": "On-Air",
+    "Frequency": {
+      "Input": 144.68,
+      "Output": 145.28
+    },
+    "SquelchTone": {
+      "Input": 100,
+      "Output": 100
+    }
+  },
+  {
+    "ID": 192,
+    "StateID": 8,
+    "Callsign": "K0ST",
+    "Location": {
+      "Latitude": 38.25439835,
+      "Longitude": -104.60900116,
+      "County": "Pueblo",
+      "State": "CO",
+      "Local": "Pueblo, Pueblo"
+    },
+    "Use": "Open",
+    "Status": "On-Air",
+    "Frequency": {
+      "Input": 146.055,
+      "Output": 146.655
+    },
+    "SquelchTone": {
+      "Input": 123
+    }
+  },
+  {
+    "ID": 8530,
+    "StateID": 8,
+    "Callsign": "KF0KR",
+    "Location": {
+      "Latitude": 38.25439835,
+      "Longitude": -104.60900116,
+      "County": "Pueblo",
+      "State": "CO",
+      "Local": "Pueblo, Pueblo"
+    },
+    "Use": "Private",
+    "Status": "On-Air",
+    "Frequency": {
+      "Input": 442.7,
+      "Output": 447.7
+    },
+    "SquelchTone": {
+      "Input": 210.7,
+      "Output": 210.7
+    },
+    "Digital": {
+      "DMR": {
+        "ColorCode": 1,
+        "ID": 310805
+      }
+    },
+    "VOIP": {
+      "AllStar": {
+        "NodeID": 29228
+      },
+      "IRLP": {
+        "NodeID": 7389
+      }
+    }
+  },
+  {
+    "ID": 189,
+    "StateID": 8,
+    "Callsign": "N0PWZ",
+    "Location": {
+      "Latitude": 38.25439835,
+      "Longitude": -104.60900116,
+      "County": "El Paso",
+      "State": "CO",
+      "Local": "Palmer Divide"
+    },
+    "Use": "Open",
+    "Status": "On-Air",
+    "Frequency": {
+      "Input": 444.725,
+      "Output": 449.725
+    },
+    "SquelchTone": {
+      "Input": 100
+    },
+    "VOIP": {
+      "IRLP": {
+        "NodeID": 3043
+      }
+    }
+  },
+  {
+    "ID": 10785,
+    "StateID": 8,
+    "Callsign": "K0JSC",
+    "Location": {
+      "Latitude": 38.23070145,
+      "Longitude": -104.61100006,
+      "County": "Pueblo",
+      "State": "CO",
+      "Local": "Pueblo"
+    },
+    "Use": "Open",
+    "Status": "On-Air",
+    "Frequency": {
+      "Input": 441.9875,
+      "Output": 446.9875
+    },
+    "Digital": {
+      "DMR": {
+        "ColorCode": 6,
+        "ID": 310821
+      }
+    }
+  },
+  {
+    "ID": 3747,
+    "StateID": 8,
+    "Callsign": "KJ0T",
+    "Location": {
+      "Latitude": 38.23059845,
+      "Longitude": -104.61100006,
+      "County": "Pueblo",
+      "State": "CO",
+      "Local": "Pueblo"
+    },
+    "Use": "Open",
+    "Status": "On-Air",
+    "Frequency": {
+      "Input": 147.84,
+      "Output": 147.24
+    },
+    "SquelchTone": {
+      "Input": 103.5
+    }
+  },
+  {
+    "ID": 9527,
+    "StateID": 8,
+    "Callsign": "K0JSC",
+    "Location": {
+      "Latitude": 38.23049927,
+      "Longitude": -104.61100006,
+      "County": "Pueblo",
+      "State": "CO",
+      "Local": "Pueblo, Metro"
+    },
+    "Use": "Open",
+    "Status": "On-Air",
+    "Frequency": {
+      "Input": 442.275,
+      "Output": 447.275
+    },
+    "SquelchTone": {
+      "Input": 100,
+      "Output": 100
+    }
+  },
+  {
+    "ID": 8189,
+    "StateID": 8,
+    "Callsign": "N0ESQ",
+    "Location": {
+      "Latitude": 39.49420166,
+      "Longitude": -104.83599854,
+      "County": "Douglas",
+      "State": "CO",
+      "Local": "Parker, Hess Reservoir"
+    },
+    "Use": "Open",
+    "Status": "On-Air",
+    "Frequency": {
+      "Input": 442.525,
+      "Output": 447.525
+    },
+    "SquelchTone": {
+      "Input": 203.5,
+      "Output": 146.2
+    }
+  },
+  {
+    "ID": 56,
+    "StateID": 49,
+    "Callsign": "K7SDC",
+    "Location": {
+      "Latitude": 38.07260132,
+      "Longitude": -110.79499817,
+      "County": "Wayne",
+      "State": "UT",
+      "Local": "Hanksville, Ellen Peak"
+    },
+    "Use": "Open",
+    "Status": "On-Air",
+    "Frequency": {
+      "Input": 147.68,
+      "Output": 147.08
+    },
+    "SquelchTone": {
+      "Input": 136.5
+    },
+    "VOIP": {
+      "EchoLink": {
+        "NodeID": 64264
+      },
+      "IRLP": {
+        "NodeID": 3270
+      }
+    }
+  },
+  {
+    "ID": 8196,
+    "StateID": 8,
+    "Callsign": "K0FEZ",
+    "Location": {
+      "Latitude": 39.73759842,
+      "Longitude": -104.98500061,
+      "County": "Denver",
+      "State": "CO",
+      "Local": "Denver"
+    },
+    "Use": "Open",
+    "Status": "On-Air",
+    "Frequency": {
+      "Input": 442.925,
+      "Output": 447.925
+    },
+    "SquelchTone": {
+      "Input": 100,
+      "Output": 100
+    }
+  },
+  {
+    "ID": 8195,
+    "StateID": 8,
+    "Callsign": "WB0TPT",
+    "Location": {
+      "Latitude": 39.73759842,
+      "Longitude": -104.98500061,
+      "County": "Denver",
+      "State": "CO",
+      "Local": "Denver"
+    },
+    "Use": "Open",
+    "Status": "On-Air",
+    "Frequency": {
+      "Input": 442.9,
+      "Output": 447.9
+    }
+  },
+  {
+    "ID": 8212,
+    "StateID": 8,
+    "Callsign": "WR0AEN",
+    "Location": {
+      "Latitude": 39.73759842,
+      "Longitude": -104.98500061,
+      "County": "Denver",
+      "State": "CO",
+      "Local": "Denver"
+    },
+    "Use": "Open",
+    "Status": "On-Air",
+    "Frequency": {
+      "Input": 444.65,
+      "Output": 449.65
+    },
+    "SquelchTone": {
+      "Input": 136.5
+    },
+    "Digital": {
+      "DStar": {
+        "Node": "WR0AEN (B)"
+      }
+    }
+  },
+  {
+    "ID": 8213,
+    "StateID": 8,
+    "Callsign": "WR0AEN",
+    "Location": {
+      "Latitude": 39.73759842,
+      "Longitude": -104.98500061,
+      "County": "Denver",
+      "State": "CO",
+      "Local": "Denver"
+    },
+    "Use": "Open",
+    "Status": "On-Air",
+    "Frequency": {
+      "Input": 444.675,
+      "Output": 449.675
+    },
+    "SquelchTone": {
+      "Input": 136.5
+    },
+    "Digital": {
+      "DStar": {
+        "Node": "WR0AEN (B)"
+      }
+    },
+    "VOIP": {
+      "IRLP": {
+        "NodeID": 7708
+      }
+    }
+  },
+  {
+    "ID": 75,
+    "StateID": 8,
+    "Callsign": "KE0SJ",
+    "Location": {
+      "Latitude": 39.73920059,
+      "Longitude": -104.98400116,
+      "County": "Jefferson",
+      "State": "CO",
+      "Local": "Boulder, Blue Mountain"
+    },
+    "Use": "Open",
+    "Status": "On-Air",
+    "Frequency": {
+      "Input": 144.875,
+      "Output": 145.475
+    },
+    "SquelchTone": {
+      "Input": 100
+    }
+  },
+  {
+    "ID": 79,
+    "StateID": 8,
+    "Callsign": "N0JXN",
+    "Location": {
+      "Latitude": 39.73920059,
+      "Longitude": -104.98400116,
+      "County": "Denver",
+      "State": "CO",
+      "Local": "Denver"
+    },
+    "Use": "Open",
+    "Status": "On-Air",
+    "Frequency": {
+      "Input": 146.115,
+      "Output": 146.715
+    },
+    "SquelchTone": {
+      "Input": 123,
+      "Output": 123
+    }
+  },
+  {
+    "ID": 91,
+    "StateID": 8,
+    "Callsign": "N5EHP",
+    "Location": {
+      "Latitude": 39.73920059,
+      "Longitude": -104.98400116,
+      "County": "Denver",
+      "State": "CO",
+      "Local": "Denver"
+    },
+    "Use": "Open",
+    "Status": "On-Air",
+    "Frequency": {
+      "Input": 443.075,
+      "Output": 448.075
+    },
+    "SquelchTone": {
+      "Input": 123
+    }
+  },
+  {
+    "ID": 93,
+    "StateID": 8,
+    "Callsign": "W0KIZ",
+    "Location": {
+      "Latitude": 39.73920059,
+      "Longitude": -104.98400116,
+      "County": "Denver",
+      "State": "CO",
+      "Local": "Denver"
+    },
+    "Use": "Open",
+    "Status": "On-Air",
+    "Frequency": {
+      "Input": 443.55,
+      "Output": 448.55
+    },
+    "SquelchTone": {
+      "Input": 82.5
+    }
+  },
+  {
+    "ID": 17676,
+    "StateID": 8,
+    "Callsign": "N0KEG",
+    "Location": {
+      "Latitude": 39.58069992,
+      "Longitude": -104.8769989,
+      "County": "Arapahoe",
+      "State": "CO",
+      "Local": "Centennial"
+    },
+    "Use": "Open",
+    "Status": "Other",
+    "Frequency": {
+      "Input": 147.915,
+      "Output": 147.315
+    },
+    "Digital": {
+      "DMR": {
+        "ColorCode": 1,
+        "ID": 310759
+      },
+      "DStar": {
+        "Node": "N0KEG (C) Repeater"
+      }
+    }
+  },
+  {
+    "ID": 12216,
+    "StateID": 8,
+    "Callsign": "W0JRL",
+    "Location": {
+      "Latitude": 39.75519943,
+      "Longitude": -104.98699951,
+      "County": "Denver",
+      "State": "CO",
+      "Local": "Denver, Broadway Plaza Lofts"
+    },
+    "Use": "Open",
+    "Status": "On-Air",
+    "Frequency": {
+      "Input": 442.175,
+      "Output": 447.175
+    },
+    "SquelchTone": {
+      "Input": 100,
+      "Output": 100
+    },
+    "VOIP": {
+      "AllStar": {
+        "NodeID": 29997
+      },
+      "EchoLink": {
+        "NodeID": 201712
+      }
+    }
+  },
+  {
+    "ID": 8220,
+    "StateID": 8,
+    "Callsign": "KC0DS",
+    "Location": {
+      "Latitude": 40.03720093,
+      "Longitude": -105.23000336,
+      "County": "Boulder",
+      "State": "CO",
+      "Local": "Boulder"
+    },
+    "Use": "Open",
+    "Status": "On-Air",
+    "Frequency": {
+      "Input": 1263.8625,
+      "Output": 1283.8625
+    },
+    "Digital": {
+      "DStar": {
+        "Node": "KC0DS (A) Repeater"
+      }
+    }
+  },
+  {
+    "ID": 8171,
+    "StateID": 8,
+    "Callsign": "KC0DS",
+    "Location": {
+      "Latitude": 40.03720093,
+      "Longitude": -105.23000336,
+      "County": "Boulder",
+      "State": "CO",
+      "Local": "Boulder"
+    },
+    "Use": "Open",
+    "Status": "On-Air",
+    "Frequency": {
+      "Input": 144.7875,
+      "Output": 145.3875
+    },
+    "Digital": {
+      "DStar": {
+        "Node": "KC0DS (C)"
+      }
+    }
+  },
+  {
+    "ID": 15,
+    "StateID": 8,
+    "Callsign": "K0DK",
+    "Location": {
+      "Latitude": 40.05709839,
+      "Longitude": -105.24299622,
+      "County": "Boulder",
+      "State": "CO",
+      "Local": "Boulder"
+    },
+    "Use": "Open",
+    "Status": "On-Air",
+    "Frequency": {
+      "Input": 146.13,
+      "Output": 146.73
+    },
+    "SquelchTone": {
+      "Input": 91.5,
+      "Output": 91.5
+    },
+    "VOIP": {
+      "EchoLink": {
+        "NodeID": 115482
+      }
+    }
+  },
+  {
+    "ID": 8208,
+    "StateID": 8,
+    "Callsign": "N1UPS",
+    "Location": {
+      "Latitude": 39.83670044,
+      "Longitude": -105.03700256,
+      "County": "Adams",
+      "State": "CO",
+      "Local": "Westminster"
+    },
+    "Use": "Open",
+    "Status": "On-Air",
+    "Frequency": {
+      "Input": 444.3,
+      "Output": 449.3
+    },
+    "SquelchTone": {
+      "Input": 100
+    },
+    "VOIP": {
+      "EchoLink": {
+        "NodeID": 43699
+      },
+      "IRLP": {
+        "NodeID": 3699
+      }
+    }
+  },
+  {
+    "ID": 193,
+    "StateID": 8,
+    "Callsign": "W0PHC",
+    "Location": {
+      "Latitude": 38.36240005,
+      "Longitude": -104.55999756,
+      "County": "Pueblo",
+      "State": "CO",
+      "Local": "Pueblo, Baculite Mesa"
+    },
+    "Use": "Open",
+    "Status": "On-Air",
+    "Frequency": {
+      "Input": 146.19,
+      "Output": 146.79
+    },
+    "SquelchTone": {
+      "Input": 88.5
+    }
+  },
+  {
+    "ID": 198,
+    "StateID": 8,
+    "Callsign": "W0PHC",
+    "Location": {
+      "Latitude": 38.36240005,
+      "Longitude": -104.55999756,
+      "County": "Pueblo",
+      "State": "CO",
+      "Local": "Pueblo, 12 Mile"
+    },
+    "Use": "Open",
+    "Status": "On-Air",
+    "Frequency": {
+      "Input": 442.95,
+      "Output": 447.95
+    },
+    "SquelchTone": {
+      "Input": 88.5
+    },
+    "Digital": {
+      "DMR": {
+        "ColorCode": 0
+      }
+    }
+  },
+  {
+    "ID": 195,
+    "StateID": 8,
+    "Callsign": "ND0Q",
+    "Location": {
+      "Latitude": 38.39250183,
+      "Longitude": -104.55500031,
+      "County": "Pueblo",
+      "State": "CO",
+      "Local": "Pueblo, Baculite Mesa"
+    },
+    "Use": "Open",
+    "Status": "On-Air",
+    "Frequency": {
+      "Input": 222.66,
+      "Output": 224.26
+    },
+    "SquelchTone": {
+      "Input": 88.5
+    }
+  },
+  {
+    "ID": 13294,
+    "StateID": 8,
+    "Callsign": "KD0MDP",
+    "Location": {
+      "Latitude": 39.04370117,
+      "Longitude": -104.60800171,
+      "County": "El Paso",
+      "State": "CO",
+      "Local": "Falcon, Black Forest"
+    },
+    "Use": "Open",
+    "Status": "On-Air",
+    "Frequency": {
+      "Input": 442.625,
+      "Output": 447.625
+    },
+    "SquelchTone": {
+      "Input": 100,
+      "Output": 100
+    },
+    "VOIP": {
+      "AllStar": {
+        "NodeID": 28299
+      },
+      "EchoLink": {
+        "NodeID": 363976
+      },
+      "IRLP": {
+        "NodeID": 7301
+      }
+    }
+  },
+  {
+    "ID": 26,
+    "StateID": 8,
+    "Callsign": "W0LMA",
+    "Location": {
+      "Latitude": 39.92060089,
+      "Longitude": -105.08599854,
+      "County": "Boulder",
+      "State": "CO",
+      "Local": "Broomfield"
+    },
+    "Use": "Open",
+    "Status": "On-Air",
+    "Frequency": {
+      "Input": 443.925,
+      "Output": 448.925
+    },
+    "SquelchTone": {
+      "Input": 131.8
+    }
+  },
+  {
+    "ID": 266,
+    "StateID": 8,
+    "Callsign": "W0WYX",
+    "Location": {
+      "Latitude": 39.92060089,
+      "Longitude": -105.08599854,
+      "County": "Boulder",
+      "State": "CO",
+      "Local": "Broomfield"
+    },
+    "Use": "Open",
+    "Status": "On-Air",
+    "Frequency": {
+      "Input": 444.825,
+      "Output": 449.825
+    },
+    "SquelchTone": {
+      "Input": 103.5
+    }
+  },
+  {
+    "ID": 18892,
+    "StateID": 8,
+    "Callsign": "KE0VH",
+    "Location": {
+      "Latitude": 39.661294,
+      "Longitude": -104.860203,
+      "County": "Arapahoe",
+      "State": "CO",
+      "Local": "Aurora, 225 and Parker Road"
+    },
+    "Use": "Open",
+    "Status": "On-Air",
+    "Frequency": {
+      "Input": 443.4,
+      "Output": 448.4
+    },
+    "VOIP": {
+      "Wires": {
+        "ID": 46361
+      }
+    }
+  },
+  {
+    "ID": 274,
+    "StateID": 8,
+    "Callsign": "WQ8M",
+    "Location": {
+      "Latitude": 39.55799866,
+      "Longitude": -104.79399872,
+      "County": "Douglas",
+      "State": "CO",
+      "Local": "Parker"
+    },
+    "Use": "Open",
+    "Status": "On-Air",
+    "Frequency": {
+      "Input": 443.7,
+      "Output": 448.7
+    },
+    "SquelchTone": {
+      "Input": 146.2
+    }
+  },
+  {
+    "ID": 137,
+    "StateID": 35,
+    "Callsign": "KF5PFO",
+    "Location": {
+      "Latitude": 36.69300079,
+      "Longitude": -105.51399994,
+      "County": "Taos",
+      "State": "NM",
+      "Local": "Red River, Molycorp"
+    },
+    "Use": "Open",
+    "Status": "On-Air",
+    "Frequency": {
+      "Input": 144.79,
+      "Output": 145.39
+    },
+    "SquelchTone": {
+      "Input": 100
+    }
+  },
+  {
+    "ID": 18248,
+    "StateID": 8,
+    "Callsign": "K0PRA",
+    "Location": {
+      "Latitude": 39.51860046,
+      "Longitude": -104.76100159,
+      "County": "Arapahoe",
+      "State": "CO",
+      "Local": "Parker"
+    },
+    "Use": "Open",
+    "Status": "On-Air",
+    "Frequency": {
+      "Input": 442.225,
+      "Output": 447.225
+    },
+    "Digital": {
+      "YSF": {
+        "GroupID": {
+          "Input": "Open ↑",
+          "Output": "Open ↓"
+        }
+      }
+    },
+    "VOIP": {
+      "Wires": {
+        "ID": 40895
+      }
+    }
+  },
+  {
+    "ID": 17696,
+    "StateID": 8,
+    "Callsign": "N0KEG",
+    "Location": {
+      "Latitude": 39.51860046,
+      "Longitude": -104.76100159,
+      "County": "Douglas",
+      "State": "CO",
+      "Local": "Parker"
+    },
+    "Use": "Open",
+    "Status": "Other",
+    "Frequency": {
+      "Input": 443.05,
+      "Output": 448.05
+    },
+    "Digital": {
+      "DMR": {
+        "ColorCode": 1,
+        "ID": 310374
+      }
+    }
+  },
+  {
+    "ID": 17813,
+    "StateID": 8,
+    "Callsign": "N0WAR",
+    "Location": {
+      "Latitude": 40.36059952,
+      "Longitude": -105.51999664,
+      "County": "Larimer",
+      "State": "CO",
+      "Local": "Estes Park, Prospect Mtn"
+    },
+    "Use": "Open",
+    "Status": "On-Air",
+    "Frequency": {
+      "Input": 147.84,
+      "Output": 147.24
+    },
+    "Digital": {
+      "DMR": {
+        "ColorCode": 2,
+        "ID": 310853
+      }
+    }
+  },
+  {
+    "ID": 16,
+    "StateID": 8,
+    "Callsign": "W0IA",
+    "Location": {
+      "Latitude": 40.05559921,
+      "Longitude": -105.15699768,
+      "County": "Boulder",
+      "State": "CO",
+      "Local": "Boulder, Gunbarrel Hill"
+    },
+    "Use": "Open",
+    "Status": "On-Air",
+    "Frequency": {
+      "Input": 146.16,
+      "Output": 146.76
+    },
+    "SquelchTone": {
+      "Input": 100
+    }
+  },
+  {
+    "ID": 13041,
+    "StateID": 49,
+    "Callsign": "W7BYU",
+    "Location": {
+      "Latitude": 40.22219849,
+      "Longitude": -110.10399628,
+      "County": "Duchesne",
+      "State": "UT",
+      "Local": "Myton, Flat Top"
+    },
+    "Use": "Open",
+    "Status": "On-Air",
+    "Frequency": {
+      "Input": 144.89,
+      "Output": 145.49
+    },
+    "SquelchTone": {
+      "Input": 136.5
+    }
+  },
+  {
+    "ID": 17292,
+    "StateID": 8,
+    "Callsign": "K0PRA",
+    "Location": {
+      "Latitude": 39.44910049,
+      "Longitude": -104.70300293,
+      "County": "Douglas",
+      "State": "CO",
+      "Local": "Parker"
+    },
+    "Use": "Open",
+    "Status": "On-Air",
+    "Frequency": {
+      "Input": 440.075,
+      "Output": 445.075
+    },
+    "Digital": {
+      "DMR": {
+        "ColorCode": 1,
+        "ID": 310844
+      }
+    }
+  },
+  {
+    "ID": 11473,
+    "StateID": 8,
+    "Callsign": "K0PRA",
+    "Location": {
+      "Latitude": 39.39350128,
+      "Longitude": -104.67500305,
+      "County": "Douglas",
+      "State": "CO",
+      "Local": "Franktown"
+    },
+    "Use": "Open",
+    "Status": "On-Air",
+    "Frequency": {
+      "Input": 441.85,
+      "Output": 446.85
+    },
+    "Digital": {
+      "DStar": {
+        "Node": "K0PRA (B) Repeater"
+      }
+    }
+  },
+  {
+    "ID": 185,
+    "StateID": 8,
+    "Callsign": "K0ML",
+    "Location": {
+      "Latitude": 39.88560104,
+      "Longitude": -104.98699951,
+      "County": "Adams",
+      "State": "CO",
+      "Local": "Northglenn"
+    },
+    "Use": "Open",
+    "Status": "On-Air",
+    "Frequency": {
+      "Input": 147.645,
+      "Output": 147.045
+    },
+    "SquelchTone": {
+      "Input": 123
+    }
+  },
+  {
+    "ID": 120,
+    "StateID": 8,
+    "Callsign": "N0FH",
+    "Location": {
+      "Latitude": 40.37720108,
+      "Longitude": -105.52100372,
+      "County": "Larimer",
+      "State": "CO",
+      "Local": "Estes Park"
+    },
+    "Use": "Open",
+    "Status": "On-Air",
+    "Frequency": {
+      "Input": 444.8,
+      "Output": 449.8
+    },
+    "SquelchTone": {
+      "Input": 123
+    },
+    "VOIP": {
+      "EchoLink": {
+        "NodeID": 625757
+      },
+      "IRLP": {
+        "NodeID": 7268
+      }
+    }
+  },
+  {
+    "ID": 8207,
+    "StateID": 8,
+    "Callsign": "WR0AEN",
+    "Location": {
+      "Latitude": 39.69670105,
+      "Longitude": -104.80999756,
+      "County": "Arapahoe",
+      "State": "CO",
+      "Local": "Aurora"
+    },
+    "Use": "Open",
+    "Status": "On-Air",
+    "Frequency": {
+      "Input": 444.15,
+      "Output": 449.15
+    },
+    "SquelchTone": {
+      "Input": 136.5
+    },
+    "Digital": {
+      "DStar": {
+        "Node": "WR0AEN (B)"
+      }
+    }
+  },
+  {
+    "ID": 8202,
+    "StateID": 8,
+    "Callsign": "N0ZUQ",
+    "Location": {
+      "Latitude": 39.72940063,
+      "Longitude": -104.83200073,
+      "County": "Arapahoe",
+      "State": "CO",
+      "Local": "Aurora"
+    },
+    "Use": "Open",
+    "Status": "On-Air",
+    "Frequency": {
+      "Input": 443.4,
+      "Output": 448.4
+    },
+    "SquelchTone": {
+      "Input": 94.8
+    }
+  },
+  {
+    "ID": 8199,
+    "StateID": 8,
+    "Callsign": "W0BG",
+    "Location": {
+      "Latitude": 39.72940063,
+      "Longitude": -104.83200073,
+      "County": "Arapahoe",
+      "State": "CO",
+      "Local": "Aurora"
+    },
+    "Use": "Open",
+    "Status": "On-Air",
+    "Frequency": {
+      "Input": 443.275,
+      "Output": 448.275
+    },
+    "SquelchTone": {
+      "Input": 156.7
+    }
+  },
+  {
+    "ID": 8743,
+    "StateID": 8,
+    "Callsign": "W9SL",
+    "Location": {
+      "Latitude": 39.72940063,
+      "Longitude": -104.83200073,
+      "County": "Arapahoe",
+      "State": "CO",
+      "Local": "Aurora"
+    },
+    "Use": "Open",
+    "Status": "On-Air",
+    "Frequency": {
+      "Input": 444.95,
+      "Output": 449.95
+    },
+    "SquelchTone": {
+      "Input": 77,
+      "Output": 77
+    }
+  },
+  {
+    "ID": 16032,
+    "StateID": 8,
+    "Callsign": "WN7ANT",
+    "Location": {
+      "Latitude": 39.72940063,
+      "Longitude": -104.83200073,
+      "County": "Arapahoe",
+      "State": "CO",
+      "Local": "Aurora"
+    },
+    "Use": "Open",
+    "Status": "On-Air",
+    "Frequency": {
+      "Input": 443.825,
+      "Output": 448.825
+    },
+    "Digital": {
+      "YSF": {
+        "GroupID": {
+          "Input": "Open ↑",
+          "Output": "Open ↓"
+        }
+      }
+    },
+    "VOIP": {
+      "Wires": {
+        "ID": 30584
+      }
+    }
+  },
+  {
+    "ID": 92,
+    "StateID": 8,
+    "Callsign": "KB0UDD",
+    "Location": {
+      "Latitude": 39.72940063,
+      "Longitude": -104.83100128,
+      "County": "Denver",
+      "State": "CO",
+      "Local": "Aurora, Smokey Hill"
+    },
+    "Use": "Open",
+    "Status": "On-Air",
+    "Frequency": {
+      "Input": 443.5,
+      "Output": 448.5
+    },
+    "SquelchTone": {
+      "Input": 100
+    }
+  },
+  {
+    "ID": 119,
+    "StateID": 8,
+    "Callsign": "N0FH",
+    "Location": {
+      "Latitude": 40.36009979,
+      "Longitude": -105.4509964,
+      "County": "Larimer",
+      "State": "CO",
+      "Local": "Estes Park"
+    },
+    "Use": "Open",
+    "Status": "On-Air",
+    "Frequency": {
+      "Input": 146.085,
+      "Output": 146.685
+    },
+    "SquelchTone": {
+      "Input": 123,
+      "Output": 123
+    },
+    "VOIP": {
+      "EchoLink": {
+        "NodeID": 625757
+      },
+      "IRLP": {
+        "NodeID": 7268
+      }
+    }
+  },
+  {
+    "ID": 8741,
+    "StateID": 8,
+    "Callsign": "N0OBA",
+    "Location": {
+      "Latitude": 39.62799835,
+      "Longitude": -104.75800323,
+      "County": "Arapahoe",
+      "State": "CO",
+      "Local": "Aurora"
+    },
+    "Use": "Open",
+    "Status": "On-Air",
+    "Frequency": {
+      "Input": 144.59,
+      "Output": 145.19
+    },
+    "SquelchTone": {
+      "Input": 131.8,
+      "Output": 131.8
+    }
+  },
+  {
+    "ID": 5,
+    "StateID": 8,
+    "Callsign": "KB0UDD",
+    "Location": {
+      "Latitude": 39.6072998,
+      "Longitude": -104.74099731,
+      "County": "Arapahoe",
+      "State": "CO",
+      "Local": "Aurora, Smoky Hill"
+    },
+    "Use": "Open",
+    "Status": "On-Air",
+    "Frequency": {
+      "Input": 144.8,
+      "Output": 145.4
+    },
+    "SquelchTone": {
+      "Input": 100
+    }
+  },
+  {
+    "ID": 5369,
+    "StateID": 8,
+    "Callsign": "K0JSC",
+    "Location": {
+      "Latitude": 38.0340004,
+      "Longitude": -104.48899841,
+      "County": "Pueblo",
+      "State": "CO",
+      "Local": "Pueblo, Cedarwood"
+    },
+    "Use": "Open",
+    "Status": "On-Air",
+    "Frequency": {
+      "Input": 444.975,
+      "Output": 449.975
+    },
+    "SquelchTone": {
+      "Input": 100,
+      "Output": 100
+    },
+    "VOIP": {
+      "AllStar": {
+        "NodeID": 28368
+      },
+      "EchoLink": {
+        "NodeID": 363976
+      },
+      "IRLP": {
+        "NodeID": 7301
+      }
+    }
+  },
+  {
+    "ID": 66,
+    "StateID": 35,
+    "Callsign": "NM5ML",
+    "Location": {
+      "Latitude": 36.0135994,
+      "Longitude": -106.84400177,
+      "County": "Sandoval",
+      "State": "NM",
+      "Local": "Cuba, Eureka Mesa"
+    },
+    "Use": "Open",
+    "Status": "On-Air",
+    "Frequency": {
+      "Input": 147.84,
+      "Output": 147.24
+    },
+    "SquelchTone": {
+      "Input": 67
+    }
+  },
+  {
+    "ID": 15615,
+    "StateID": 35,
+    "Callsign": "NM5EM",
+    "Location": {
+      "Latitude": 36.013384,
+      "Longitude": -106.844559,
+      "County": "Sandoval",
+      "State": "NM",
+      "Local": "Cuba, Eureka Mesa"
+    },
+    "Use": "Open",
+    "Status": "On-Air",
+    "Frequency": {
+      "Input": 144.575,
+      "Output": 145.175
+    },
+    "SquelchTone": {
+      "Input": 156.7,
+      "Output": 156.7
+    }
+  },
+  {
+    "ID": 15632,
+    "StateID": 35,
+    "Callsign": "NM5EM",
+    "Location": {
+      "Latitude": 36.124,
+      "Longitude": -106.396,
+      "County": "Rio Arriba",
+      "State": "NM",
+      "Local": "Abiquiu, Cerro Pelon"
+    },
+    "Use": "Open",
+    "Status": "On-Air",
+    "Frequency": {
+      "Input": 147.64,
+      "Output": 147.04
+    },
+    "SquelchTone": {
+      "Input": 141.3
+    }
+  },
+  {
+    "ID": 11288,
+    "StateID": 35,
+    "Callsign": "NM5ML",
+    "Location": {
+      "Latitude": 36.59780121,
+      "Longitude": -105.44499969,
+      "County": "Taos",
+      "State": "NM",
+      "Local": "Taos, Ski Valley"
+    },
+    "Use": "Open",
+    "Status": "On-Air",
+    "Frequency": {
+      "Input": 147.74,
+      "Output": 147.14
+    },
+    "SquelchTone": {
+      "Input": 67
+    }
+  },
+  {
+    "ID": 176,
+    "StateID": 8,
+    "Callsign": "N0EPA",
+    "Location": {
+      "Latitude": 40.16719818,
+      "Longitude": -105.10099792,
+      "County": "Boulder",
+      "State": "CO",
+      "Local": "Longmont"
+    },
+    "Use": "Open",
+    "Status": "On-Air",
+    "Frequency": {
+      "Input": 443.525,
+      "Output": 448.525
+    },
+    "SquelchTone": {
+      "Input": 151.4
+    },
+    "VOIP": {
+      "EchoLink": {
+        "NodeID": 223853
+      }
+    }
+  },
+  {
+    "ID": 175,
+    "StateID": 8,
+    "Callsign": "W0ENO",
+    "Location": {
+      "Latitude": 40.16719818,
+      "Longitude": -105.10099792,
+      "County": "Boulder",
+      "State": "CO",
+      "Local": "Longmont"
+    },
+    "Use": "Open",
+    "Status": "On-Air",
+    "Frequency": {
+      "Input": 147.87,
+      "Output": 147.27
+    },
+    "SquelchTone": {
+      "Input": 100,
+      "Output": 100
+    }
+  },
+  {
+    "ID": 177,
+    "StateID": 8,
+    "Callsign": "W0ENO",
+    "Location": {
+      "Latitude": 40.16719818,
+      "Longitude": -105.10099792,
+      "County": "Boulder",
+      "State": "CO",
+      "Local": "Longmont"
+    },
+    "Use": "Open",
+    "Status": "On-Air",
+    "Frequency": {
+      "Input": 443.8,
+      "Output": 448.8
+    },
+    "SquelchTone": {
+      "Input": 88.5,
+      "Output": 88.5
+    },
+    "VOIP": {
+      "EchoLink": {
+        "NodeID": 8305
+      }
+    }
+  },
+  {
+    "ID": 181,
+    "StateID": 49,
+    "Callsign": "W7BAR",
+    "Location": {
+      "Latitude": 40.73960114,
+      "Longitude": -109.48400116,
+      "County": "Uintah",
+      "State": "UT",
+      "Local": "Vernal, Grizzly Ridge"
+    },
+    "Use": "Open",
+    "Status": "On-Air",
+    "Frequency": {
+      "Input": 147.64,
+      "Output": 147.04
+    },
+    "SquelchTone": {
+      "Input": 136.5
+    }
+  },
+  {
+    "ID": 24,
+    "StateID": 49,
+    "Callsign": "K7HEN",
+    "Location": {
+      "Latitude": 40.75170135,
+      "Longitude": -109.48699951,
+      "County": "Uintah",
+      "State": "UT",
+      "Local": "Vernal, Grizzly Ridge"
+    },
+    "Use": "Open",
+    "Status": "On-Air",
+    "Frequency": {
+      "Input": 144.89,
+      "Output": 145.49
+    },
+    "SquelchTone": {
+      "Input": 136.5
+    }
+  },
+  {
+    "ID": 9765,
+    "StateID": 8,
+    "Callsign": "WE0FUN",
+    "Location": {
+      "Latitude": 39.79669952,
+      "Longitude": -104.7480011,
+      "County": "Denver",
+      "State": "CO",
+      "Local": "Denver, Green Valley Ranch"
+    },
+    "Use": "Open",
+    "Status": "On-Air",
+    "Frequency": {
+      "Input": 443.15,
+      "Output": 448.15
+    },
+    "SquelchTone": {
+      "Input": 141.3,
+      "Output": 141.3
+    },
+    "VOIP": {
+      "AllStar": {
+        "NodeID": 29436
+      },
+      "EchoLink": {
+        "NodeID": 24340
+      }
+    }
+  },
+  {
+    "ID": 10058,
+    "StateID": 49,
+    "Callsign": "K7GX",
+    "Location": {
+      "Latitude": 39.61109924,
+      "Longitude": -110.81199646,
+      "County": "Carbon",
+      "State": "UT",
+      "Local": "Price, Wood Hill"
+    },
+    "Use": "Open",
+    "Status": "On-Air",
+    "Frequency": {
+      "Input": 147.8,
+      "Output": 147.2
+    },
+    "SquelchTone": {
+      "Input": 88.5
+    },
+    "VOIP": {
+      "EchoLink": {
+        "NodeID": 64264
+      },
+      "IRLP": {
+        "NodeID": 3270
+      }
+    }
+  },
+  {
+    "ID": 10061,
+    "StateID": 49,
+    "Callsign": "K7GX",
+    "Location": {
+      "Latitude": 39.61109924,
+      "Longitude": -110.81199646,
+      "County": "Carbon",
+      "State": "UT",
+      "Local": "Price, Wood Hill"
+    },
+    "Use": "Open",
+    "Status": "Other",
+    "Frequency": {
+      "Input": 443.3,
+      "Output": 448.3
+    },
+    "VOIP": {
+      "EchoLink": {
+        "NodeID": 64264
+      },
+      "IRLP": {
+        "NodeID": 3270
+      }
+    }
+  },
+  {
+    "ID": 78,
+    "StateID": 49,
+    "Callsign": "W7CEU",
+    "Location": {
+      "Latitude": 39.61190033,
+      "Longitude": -110.81199646,
+      "County": "Carbon",
+      "State": "UT",
+      "Local": "Price, Wood Hill"
+    },
+    "Use": "Open",
+    "Status": "Other",
+    "Frequency": {
+      "Input": 144.83,
+      "Output": 145.43
+    },
+    "SquelchTone": {
+      "Input": 88.5
+    }
+  },
+  {
+    "ID": 2764,
+    "StateID": 49,
+    "Callsign": "W7CEU",
+    "Location": {
+      "Latitude": 39.61190033,
+      "Longitude": -110.81199646,
+      "County": "Carbon",
+      "State": "UT",
+      "Local": "Price, Wood Hill"
+    },
+    "Use": "Open",
+    "Status": "Other",
+    "Frequency": {
+      "Input": 222.9,
+      "Output": 224.5
+    },
+    "SquelchTone": {
+      "Input": 88.5
+    }
+  },
+  {
+    "ID": 2765,
+    "StateID": 49,
+    "Callsign": "W7CEU",
+    "Location": {
+      "Latitude": 39.61190033,
+      "Longitude": -110.81199646,
+      "County": "Carbon",
+      "State": "UT",
+      "Local": "Price, Wood Hill"
+    },
+    "Use": "Open",
+    "Status": "Other",
+    "Frequency": {
+      "Input": 443.3,
+      "Output": 448.3
+    },
+    "SquelchTone": {
+      "Input": 88.5
+    }
+  },
+  {
+    "ID": 152,
+    "StateID": 49,
+    "Callsign": "N7PQD",
+    "Location": {
+      "Latitude": 40.15470123,
+      "Longitude": -110.39199829,
+      "County": "Duchesne",
+      "State": "UT",
+      "Local": "Duchense"
+    },
+    "Use": "Open",
+    "Status": "On-Air",
+    "Frequency": {
+      "Input": 147.86,
+      "Output": 147.26
+    }
+  },
+  {
+    "ID": 14732,
+    "StateID": 8,
+    "Callsign": "KI0HC",
+    "Location": {
+      "Latitude": 39.53910065,
+      "Longitude": -104.56900024,
+      "County": "Douglas",
+      "State": "CO",
+      "Local": "Parker"
+    },
+    "Use": "Open",
+    "Status": "On-Air",
+    "Frequency": {
+      "Input": 902.025,
+      "Output": 927.7375
+    },
+    "SquelchTone": {
+      "Input": 100,
+      "Output": 100
+    },
+    "Digital": {
+      "P25": {
+        "NAC": 293
+      }
+    }
+  },
+  {
+    "ID": 183,
+    "StateID": 35,
+    "Callsign": "N5TSV",
+    "Location": {
+      "Latitude": 36.55670166,
+      "Longitude": -105.41600037,
+      "County": "Taos",
+      "State": "NM",
+      "Local": "Taos, Wheeler Peak"
+    },
+    "Use": "Open",
+    "Status": "On-Air",
+    "Frequency": {
+      "Input": 449.975,
+      "Output": 444.975
+    },
+    "SquelchTone": {
+      "Input": 123
+    }
+  },
+  {
+    "ID": 247,
+    "StateID": 8,
+    "Callsign": "W0PHC",
+    "Location": {
+      "Latitude": 37.77190018,
+      "Longitude": -104.45600128,
+      "County": "Huerfano",
+      "State": "CO",
+      "Local": "Walsenburg, N Rattlesnake Butte"
+    },
+    "Use": "Open",
+    "Status": "On-Air",
+    "Frequency": {
+      "Input": 146.13,
+      "Output": 146.73
+    },
+    "SquelchTone": {
+      "Input": 88.5
+    }
+  },
+  {
+    "ID": 14977,
+    "StateID": 49,
+    "Callsign": "AD7ZW",
+    "Location": {
+      "Latitude": 40.35969925,
+      "Longitude": -110.28399658,
+      "County": "Duchesne",
+      "State": "UT",
+      "Local": "Altamont"
+    },
+    "Use": "Open",
+    "Status": "On-Air",
+    "Frequency": {
+      "Input": 147.88,
+      "Output": 147.28
+    },
+    "SquelchTone": {
+      "Input": 107.2,
+      "Output": 107.2
+    },
+    "VOIP": {
+      "EchoLink": {
+        "NodeID": 458414
+      },
+      "IRLP": {
+        "NodeID": 3205
+      }
+    }
+  },
+  {
+    "ID": 77,
+    "StateID": 35,
+    "Callsign": "NM5ML",
+    "Location": {
+      "Latitude": 36.59999847,
+      "Longitude": -105.25,
+      "County": "Colfax",
+      "State": "NM",
+      "Local": "Eagle Nest, Iron Mountain"
+    },
+    "Use": "Open",
+    "Status": "On-Air",
+    "Frequency": {
+      "Input": 449.35,
+      "Output": 444.35
+    },
+    "SquelchTone": {
+      "Input": 100
+    }
+  },
+  {
+    "ID": 253,
+    "StateID": 49,
+    "Callsign": "WB7CBS",
+    "Location": {
+      "Latitude": 40.3594017,
+      "Longitude": -110.28600311,
+      "County": "Duchesne",
+      "State": "UT",
+      "Local": "Altamont"
+    },
+    "Use": "Open",
+    "Status": "On-Air",
+    "Frequency": {
+      "Input": 146.14,
+      "Output": 146.74
+    },
+    "SquelchTone": {
+      "Input": 100
+    }
+  },
+  {
+    "ID": 13539,
+    "StateID": 35,
+    "Callsign": "KC5WDV",
+    "Location": {
+      "Latitude": 35.90309906,
+      "Longitude": -108.77200317,
+      "County": "McKinley",
+      "State": "NM",
+      "Local": "Gallup, Deza Bluffs"
+    },
+    "Use": "Open",
+    "Status": "On-Air",
+    "Frequency": {
+      "Input": 443.2,
+      "Output": 448.2
+    },
+    "SquelchTone": {
+      "Input": 100
+    }
+  },
+  {
+    "ID": 89,
+    "StateID": 35,
+    "Callsign": "NM5ML",
+    "Location": {
+      "Latitude": 35.90309906,
+      "Longitude": -108.77200317,
+      "County": "McKinley",
+      "State": "NM",
+      "Local": "Gallup, Deza Bluffs"
+    },
+    "Use": "Open",
+    "Status": "On-Air",
+    "Frequency": {
+      "Input": 147.82,
+      "Output": 147.22
+    },
+    "SquelchTone": {
+      "Input": 67
+    }
+  },
+  {
+    "ID": 8739,
+    "StateID": 8,
+    "Callsign": "AC0KC",
+    "Location": {
+      "Latitude": 40.02759933,
+      "Longitude": -104.78900146,
+      "County": "Weld",
+      "State": "CO",
+      "Local": "Fort Lupton"
+    },
+    "Use": "Open",
+    "Status": "On-Air",
+    "Frequency": {
+      "Input": 442.3,
+      "Output": 447.3
+    },
+    "SquelchTone": {
+      "Input": 107.2
+    },
+    "VOIP": {
+      "EchoLink": {
+        "NodeID": 405804
+      },
+      "IRLP": {
+        "NodeID": 3887
+      }
+    }
+  },
+  {
+    "ID": 8183,
+    "StateID": 8,
+    "Callsign": "AC0KC",
+    "Location": {
+      "Latitude": 40.08470154,
+      "Longitude": -104.81300354,
+      "County": "Weld",
+      "State": "CO",
+      "Local": "Fort Lupton"
+    },
+    "Use": "Open",
+    "Status": "On-Air",
+    "Frequency": {
+      "Input": 223.36,
+      "Output": 224.96
+    }
+  },
+  {
+    "ID": 18470,
+    "StateID": 49,
+    "Callsign": "AE7TA",
+    "Location": {
+      "Latitude": 39.32099915,
+      "Longitude": -111.09400177,
+      "County": "Cache",
+      "State": "UT",
+      "Local": "Logan, Sedgwick Peak"
+    },
+    "Use": "Open",
+    "Status": "On-Air",
+    "Frequency": {
+      "Input": 444.375,
+      "Output": 449.375
+    }
+  },
+  {
+    "ID": 11163,
+    "StateID": 49,
+    "Callsign": "KF7YIX",
+    "Location": {
+      "Latitude": 39.32099915,
+      "Longitude": -111.09400177,
+      "County": "Washington",
+      "State": "UT",
+      "Local": "Torquerville, Hurricane Mesa"
+    },
+    "Use": "Open",
+    "Status": "On-Air",
+    "Frequency": {
+      "Input": 1279.25,
+      "Output": 1299.25
+    },
+    "Digital": {
+      "DStar": {
+        "Node": "KF7YIX (A) Gateway Repeater"
+      }
+    }
+  },
+  {
+    "ID": 179,
+    "StateID": 8,
+    "Callsign": "W0LRA",
+    "Location": {
+      "Latitude": 40.39849854,
+      "Longitude": -105.125,
+      "County": "Larimer",
+      "State": "CO",
+      "Local": "Loveland, Namaqua Hill"
+    },
+    "Use": "Open",
+    "Status": "On-Air",
+    "Frequency": {
+      "Input": 147.795,
+      "Output": 147.195
+    },
+    "SquelchTone": {
+      "Input": 100
+    }
+  },
+  {
+    "ID": 73,
+    "StateID": 49,
+    "Callsign": "K7YI",
+    "Location": {
+      "Latitude": 39.20959854,
+      "Longitude": -111.14199829,
+      "County": "Emery",
+      "State": "UT",
+      "Local": "Castle Dale, Horn Mountain"
+    },
+    "Use": "Open",
+    "Status": "On-Air",
+    "Frequency": {
+      "Input": 442.625,
+      "Output": 447.625
+    },
+    "SquelchTone": {
+      "Input": 100
+    }
+  },
+  {
+    "ID": 272,
+    "StateID": 49,
+    "Callsign": "WX7Y",
+    "Location": {
+      "Latitude": 39.20959854,
+      "Longitude": -111.14199829,
+      "County": "Emery",
+      "State": "UT",
+      "Local": "Castle Dale, Horn Mountain"
+    },
+    "Use": "Open",
+    "Status": "Other",
+    "Frequency": {
+      "Input": 442.7,
+      "Output": 447.7
+    },
+    "SquelchTone": {
+      "Input": 123
+    }
+  },
+  {
+    "ID": 54,
+    "StateID": 49,
+    "Callsign": "K7SDC",
+    "Location": {
+      "Latitude": 39.20980072,
+      "Longitude": -111.14199829,
+      "County": "Emery",
+      "State": "UT",
+      "Local": "Castle Dale, Horn Mountain"
+    },
+    "Use": "Open",
+    "Status": "On-Air",
+    "Frequency": {
+      "Input": 147.66,
+      "Output": 147.06
+    },
+    "SquelchTone": {
+      "Input": 88.5
+    },
+    "VOIP": {
+      "EchoLink": {
+        "NodeID": 64264
+      },
+      "IRLP": {
+        "NodeID": 3270
+      }
+    }
+  },
+  {
+    "ID": 273,
+    "StateID": 49,
+    "Callsign": "WX7Y",
+    "Location": {
+      "Latitude": 39.20999908,
+      "Longitude": -111.14199829,
+      "County": "Emery",
+      "State": "UT",
+      "Local": "Huntington, Skyline Dr"
+    },
+    "Use": "Open",
+    "Status": "Other",
+    "Frequency": {
+      "Input": 222.32,
+      "Output": 223.92
+    },
+    "SquelchTone": {
+      "Input": 88.5
+    }
+  },
+  {
+    "ID": 9771,
+    "StateID": 8,
+    "Callsign": "KE0SJ",
+    "Location": {
+      "Latitude": 40.00719833,
+      "Longitude": -104.71600342,
+      "County": "Adams",
+      "State": "CO",
+      "Local": "Lochbuie"
+    },
+    "Use": "Open",
+    "Status": "On-Air",
+    "Frequency": {
+      "Input": 442.625,
+      "Output": 447.625
+    },
+    "SquelchTone": {
+      "Input": 100
+    }
+  },
+  {
+    "ID": 172,
+    "StateID": 35,
+    "Callsign": "KF5PFO",
+    "Location": {
+      "Latitude": 36.24689865,
+      "Longitude": -105.65399933,
+      "County": "Taos",
+      "State": "NM",
+      "Local": "Taos, Picuris Peak"
+    },
+    "Use": "Open",
+    "Status": "On-Air",
+    "Frequency": {
+      "Input": 147.72,
+      "Output": 147.12
+    },
+    "SquelchTone": {
+      "Input": 67
+    },
+    "VOIP": {
+      "EchoLink": {
+        "NodeID": 828279
+      }
+    }
+  },
+  {
+    "ID": 181,
+    "StateID": 8,
+    "Callsign": "W0LRA",
+    "Location": {
+      "Latitude": 40.39780045,
+      "Longitude": -105.0739975,
+      "County": "Larimer",
+      "State": "CO",
+      "Local": "Loveland, Namaqua Hill"
+    },
+    "Use": "Open",
+    "Status": "On-Air",
+    "Frequency": {
+      "Input": 444.575,
+      "Output": 449.575
+    },
+    "SquelchTone": {
+      "Input": 100
+    }
+  },
+  {
+    "ID": 5853,
+    "StateID": 8,
+    "Callsign": "W0UPS",
+    "Location": {
+      "Latitude": 40.61109924,
+      "Longitude": -105.3239975,
+      "County": "Larimer",
+      "State": "CO",
+      "Local": "Fort Collins, Buckhorn Mountain"
+    },
+    "Use": "Open",
+    "Status": "On-Air",
+    "Frequency": {
+      "Input": 442.7,
+      "Output": 447.7
+    },
+    "SquelchTone": {
+      "Input": 100,
+      "Output": 100
+    }
+  },
+  {
+    "ID": 18424,
+    "StateID": 8,
+    "Callsign": "KI0HC",
+    "Location": {
+      "Latitude": 40.61669922,
+      "Longitude": -105.32800293,
+      "County": "Larimer",
+      "State": "CO",
+      "Local": "Fort Collins, Buckhorn Mountain"
+    },
+    "Use": "Open",
+    "Status": "On-Air",
+    "Frequency": {
+      "Input": 902.025,
+      "Output": 927.875
+    },
+    "Digital": {
+      "P25": {
+        "NAC": 293
+      }
+    }
+  },
+  {
+    "ID": 18418,
+    "StateID": 8,
+    "Callsign": "N0SZ",
+    "Location": {
+      "Latitude": 40.61700058,
+      "Longitude": -105.32700348,
+      "County": "Larimer",
+      "State": "CO",
+      "Local": "Fort Collins, Buckhorn Mountain"
+    },
+    "Use": "Open",
+    "Status": "On-Air",
+    "Frequency": {
+      "Input": 440.2,
+      "Output": 445.2
+    },
+    "Digital": {
+      "DMR": {
+        "ColorCode": 7
+      }
+    }
+  },
+  {
+    "ID": 246,
+    "StateID": 8,
+    "Callsign": "W0UPS",
+    "Location": {
+      "Latitude": 40.61700058,
+      "Longitude": -105.32700348,
+      "County": "Larimer",
+      "State": "CO",
+      "Local": "Fort Collins, Buckhorn Mountain"
+    },
+    "Use": "Open",
+    "Status": "On-Air",
+    "Frequency": {
+      "Input": 146.025,
+      "Output": 146.625
+    },
+    "SquelchTone": {
+      "Input": 100,
+      "Output": 100
+    }
+  },
+  {
+    "ID": 3660,
+    "StateID": 8,
+    "Callsign": "W0UPS",
+    "Location": {
+      "Latitude": 40.61700058,
+      "Longitude": -105.32700348,
+      "County": "Larimer",
+      "State": "CO",
+      "Local": "Fort Collins, Buckhorn Mountain"
+    },
+    "Use": "Open",
+    "Status": "On-Air",
+    "Frequency": {
+      "Input": 223.24,
+      "Output": 224.84
+    },
+    "SquelchTone": {
+      "Input": 100,
+      "Output": 100
+    }
+  },
+  {
+    "ID": 15733,
+    "StateID": 35,
+    "Callsign": "NM5BB",
+    "Location": {
+      "Latitude": 35.88669968,
+      "Longitude": -106.39499664,
+      "County": "Los Alamos",
+      "State": "NM",
+      "Local": "Los Alamos, Pajarito Mountain"
+    },
+    "Use": "Open",
+    "Status": "On-Air",
+    "Frequency": {
+      "Input": 447.225,
+      "Output": 442.225
+    },
+    "Digital": {
+      "DMR": {
+        "ColorCode": 7,
+        "ID": 313505
+      }
+    }
+  },
+  {
+    "ID": 18232,
+    "StateID": 35,
+    "Callsign": "NM5EC",
+    "Location": {
+      "Latitude": 35.88669968,
+      "Longitude": -106.39499664,
+      "County": "Los Alamos",
+      "State": "NM",
+      "Local": "Los Alamos, Pajarito Mountain"
+    },
+    "Use": "Open",
+    "Status": "On-Air",
+    "Frequency": {
+      "Input": 144.59,
+      "Output": 145.19
+    },
+    "Digital": {
+      "DStar": {
+        "Node": "NM5EC (C) Repeater"
+      }
+    }
+  },
+  {
+    "ID": 118,
+    "StateID": 35,
+    "Callsign": "W5SF",
+    "Location": {
+      "Latitude": 35.88669968,
+      "Longitude": -106.39499664,
+      "County": "Los Alamos",
+      "State": "NM",
+      "Local": "Los Alamos, Pajarito Mountain"
+    },
+    "Use": "Open",
+    "Status": "On-Air",
+    "Frequency": {
+      "Input": 144.59,
+      "Output": 145.19
+    },
+    "SquelchTone": {
+      "Input": 162.2,
+      "Output": 162.2
+    }
+  },
+  {
+    "ID": 196,
+    "StateID": 35,
+    "Callsign": "KB5RX",
+    "Location": {
+      "Latitude": 35.88399887,
+      "Longitude": -106.38200378,
+      "County": "Los Alamos",
+      "State": "NM",
+      "Local": "Los Alamos, Pajarito Mountain"
+    },
+    "Use": "Open",
+    "Status": "On-Air",
+    "Frequency": {
+      "Input": 222.34,
+      "Output": 223.94
+    }
+  },
+  {
+    "ID": 123,
+    "StateID": 8,
+    "Callsign": "W0UPS",
+    "Location": {
+      "Latitude": 40.53969955,
+      "Longitude": -105.19599915,
+      "County": "Larimer",
+      "State": "CO",
+      "Local": "Fort Collins, Horsetooth Mountain"
+    },
+    "Use": "Open",
+    "Status": "On-Air",
+    "Frequency": {
+      "Input": 144.515,
+      "Output": 145.115
+    },
+    "SquelchTone": {
+      "Input": 100,
+      "Output": 100
+    },
+    "VOIP": {
+      "EchoLink": {
+        "NodeID": 4236
+      }
+    }
+  },
+  {
+    "ID": 126,
+    "StateID": 8,
+    "Callsign": "W0UPS",
+    "Location": {
+      "Latitude": 40.53969955,
+      "Longitude": -105.19599915,
+      "County": "Larimer",
+      "State": "CO",
+      "Local": "Fort Collins, Horsetooth Mountain"
+    },
+    "Use": "Open",
+    "Status": "On-Air",
+    "Frequency": {
+      "Input": 442.275,
+      "Output": 447.275
+    },
+    "SquelchTone": {
+      "Input": 100,
+      "Output": 100
+    }
+  },
+  {
+    "ID": 275,
+    "StateID": 8,
+    "Callsign": "W0UPS",
+    "Location": {
+      "Latitude": 40.53969955,
+      "Longitude": -105.19599915,
+      "County": "Larimer",
+      "State": "CO",
+      "Local": "Fort Collins, Horsetooth Mountain"
+    },
+    "Use": "Open",
+    "Status": "On-Air",
+    "Frequency": {
+      "Input": 222.92,
+      "Output": 224.52
+    },
+    "SquelchTone": {
+      "Input": 100,
+      "Output": 100
+    }
+  },
+  {
+    "ID": 17821,
+    "StateID": 8,
+    "Callsign": "W1VAN",
+    "Location": {
+      "Latitude": 40.80759811,
+      "Longitude": -105.61699677,
+      "County": "Larimer",
+      "State": "CO",
+      "Local": "Red Feather Lakes, Red Feather Lakes"
+    },
+    "Use": "Open",
+    "Status": "On-Air",
+    "Frequency": {
+      "Input": 442.6,
+      "Output": 447.6
+    },
+    "Digital": {
+      "DMR": {
+        "ColorCode": 2,
+        "ID": 310869
+      }
+    }
+  },
+  {
+    "ID": 8086,
+    "StateID": 8,
+    "Callsign": "KD0RDI",
+    "Location": {
+      "Latitude": 37.14569855,
+      "Longitude": -104.57099915,
+      "County": "Las Animas",
+      "State": "CO",
+      "Local": "Trinidad, Raton Pass"
+    },
+    "Use": "Open",
+    "Status": "On-Air",
+    "Frequency": {
+      "Input": 441.775,
+      "Output": 446.775
+    },
+    "Digital": {
+      "DStar": {
+        "Node": "KD0RDI (B)"
+      }
+    }
+  },
+  {
+    "ID": 8216,
+    "StateID": 8,
+    "Callsign": "K0EB",
+    "Location": {
+      "Latitude": 40.02019882,
+      "Longitude": -104.64199829,
+      "County": "Weld",
+      "State": "CO",
+      "Local": "Hudson"
+    },
+    "Use": "Open",
+    "Status": "On-Air",
+    "Frequency": {
+      "Input": 444.925,
+      "Output": 449.925
+    },
+    "SquelchTone": {
+      "Input": 114.8,
+      "Output": 114.8
+    },
+    "VOIP": {
+      "EchoLink": {
+        "NodeID": 448035
+      },
+      "IRLP": {
+        "NodeID": 8035
+      }
+    }
+  },
+  {
+    "ID": 8715,
+    "StateID": 8,
+    "Callsign": "K7PFJ",
+    "Location": {
+      "Latitude": 40.53879929,
+      "Longitude": -105.17900085,
+      "County": "Larimer",
+      "State": "CO",
+      "Local": "Fort Collins, Horsetooth Mountain"
+    },
+    "Use": "Open",
+    "Status": "On-Air",
+    "Frequency": {
+      "Input": 441.75,
+      "Output": 446.75
+    },
+    "Digital": {
+      "DMR": {
+        "ColorCode": 7,
+        "ID": 310814
+      }
+    }
+  },
+  {
+    "ID": 14274,
+    "StateID": 8,
+    "Callsign": "KB0VGD",
+    "Location": {
+      "Latitude": 40.53879929,
+      "Longitude": -105.17900085,
+      "County": "Larimer",
+      "State": "CO",
+      "Local": "Fort Collins, Horsetooth Mountain"
+    },
+    "Use": "Open",
+    "Status": "On-Air",
+    "Frequency": {
+      "Input": 144.665,
+      "Output": 145.265
+    },
+    "Digital": {
+      "DMR": {
+        "ColorCode": 2,
+        "ID": 310831
+      }
+    }
+  },
+  {
+    "ID": 276,
+    "StateID": 8,
+    "Callsign": "KC0RBT",
+    "Location": {
+      "Latitude": 40.51530075,
+      "Longitude": -105.14700317,
+      "County": "Larimer",
+      "State": "CO",
+      "Local": "Fort Collins"
+    },
+    "Use": "Open",
+    "Status": "On-Air",
+    "Frequency": {
+      "Input": 442.45,
+      "Output": 447.45
+    },
+    "SquelchTone": {
+      "Input": 123,
+      "Output": 123
+    },
+    "VOIP": {
+      "EchoLink": {
+        "NodeID": 447450
+      }
+    }
+  },
+  {
+    "ID": 8505,
+    "StateID": 8,
+    "Callsign": "N0AOL",
+    "Location": {
+      "Latitude": 40.51530075,
+      "Longitude": -105.14700317,
+      "County": "Larimer",
+      "State": "CO",
+      "Local": "Fort Collins"
+    },
+    "Use": "Open",
+    "Status": "On-Air",
+    "Frequency": {
+      "Input": 441.7375,
+      "Output": 446.7375
+    },
+    "Digital": {
+      "DMR": {
+        "ColorCode": 2,
+        "ID": 310803
+      }
+    }
+  },
+  {
+    "ID": 194,
+    "StateID": 35,
+    "Callsign": "W5PDO",
+    "Location": {
+      "Latitude": 35.90269852,
+      "Longitude": -106.28199768,
+      "County": "Los Alamos",
+      "State": "NM",
+      "Local": "Los Alamos, Barranca Mesa"
+    },
+    "Use": "Open",
+    "Status": "On-Air",
+    "Frequency": {
+      "Input": 146.28,
+      "Output": 146.88
+    }
+  },
+  {
+    "ID": 55,
+    "StateID": 49,
+    "Callsign": "K7SDC",
+    "Location": {
+      "Latitude": 39.75579834,
+      "Longitude": -110.98999786,
+      "County": "Carbon",
+      "State": "UT",
+      "Local": "Scofield, Ford Ridge"
+    },
+    "Use": "Open",
+    "Status": "On-Air",
+    "Frequency": {
+      "Input": 144.71,
+      "Output": 145.31
+    },
+    "SquelchTone": {
+      "Input": 88.5
+    },
+    "VOIP": {
+      "IRLP": {
+        "NodeID": 3270
+      }
+    }
+  },
+  {
+    "ID": 5181,
+    "StateID": 35,
+    "Callsign": "NM5WR",
+    "Location": {
+      "Latitude": 35.88809967,
+      "Longitude": -106.30699921,
+      "County": "Los Alamos",
+      "State": "NM",
+      "Local": "Los Alamos"
+    },
+    "Use": "Open",
+    "Status": "On-Air",
+    "Frequency": {
+      "Input": 447.425,
+      "Output": 442.425
+    },
+    "Digital": {
+      "DStar": {
+        "Node": "NM5WR (B)"
+      }
+    }
+  },
+  {
+    "ID": 123,
+    "StateID": 35,
+    "Callsign": "WD9CMS",
+    "Location": {
+      "Latitude": 35.88809967,
+      "Longitude": -106.30599976,
+      "County": "Los Alamos",
+      "State": "NM",
+      "Local": "Los Alamos"
+    },
+    "Use": "Open",
+    "Status": "On-Air",
+    "Frequency": {
+      "Input": 449.775,
+      "Output": 444.775
+    },
+    "SquelchTone": {
+      "Input": 131.8
+    },
+    "Digital": {
+      "P25": {
+        "NAC": 293
+      }
+    }
+  },
+  {
+    "ID": 9407,
+    "StateID": 35,
+    "Callsign": "KA5BIW",
+    "Location": {
+      "Latitude": 35.89199829,
+      "Longitude": -106.28500366,
+      "County": "Los Alamos",
+      "State": "NM",
+      "Local": "Los Alamos"
+    },
+    "Use": "Open",
+    "Status": "On-Air",
+    "Frequency": {
+      "Input": 222.44,
+      "Output": 224.04
+    },
+    "SquelchTone": {
+      "Input": 100,
+      "Output": 100
+    }
+  },
+  {
+    "ID": 15608,
+    "StateID": 35,
+    "Callsign": "KA5BIW",
+    "Location": {
+      "Latitude": 35.89199829,
+      "Longitude": -106.28500366,
+      "County": "Los Alamos",
+      "State": "NM",
+      "Local": "Los Alamos"
+    },
+    "Use": "Open",
+    "Status": "On-Air",
+    "Frequency": {
+      "Input": 447,
+      "Output": 442
+    },
+    "SquelchTone": {
+      "Input": 100
+    }
+  },
+  {
+    "ID": 16629,
+    "StateID": 35,
+    "Callsign": "KC2HSO",
+    "Location": {
+      "Latitude": 35.88000107,
+      "Longitude": -106.3030014,
+      "County": "Los Alamos",
+      "State": "NM",
+      "Local": "Los Alamos"
+    },
+    "Use": "Open",
+    "Status": "On-Air",
+    "Frequency": {
+      "Input": 144.265,
+      "Output": 144.265
+    },
+    "SquelchTone": {
+      "Input": 203.5
+    },
+    "VOIP": {
+      "IRLP": {
+        "NodeID": 8039
+      }
+    }
+  },
+  {
+    "ID": 16602,
+    "StateID": 35,
+    "Callsign": "KE8AVN",
+    "Location": {
+      "Latitude": 35.88000107,
+      "Longitude": -106.3030014,
+      "County": "Los Alamos",
+      "State": "NM",
+      "Local": "Los Alamos"
+    },
+    "Use": "Open",
+    "Status": "On-Air",
+    "Frequency": {
+      "Input": 447.925,
+      "Output": 442.925
+    },
+    "Digital": {
+      "DMR": {
+        "ColorCode": 1
+      }
+    }
+  },
+  {
+    "ID": 12228,
+    "StateID": 35,
+    "Callsign": "WD9CMS",
+    "Location": {
+      "Latitude": 35.88000107,
+      "Longitude": -106.3030014,
+      "County": "Los Alamos",
+      "State": "NM",
+      "Local": "Los Alamos"
+    },
+    "Use": "Open",
+    "Status": "On-Air",
+    "Frequency": {
+      "Input": 902.9,
+      "Output": 927.9
+    },
+    "SquelchTone": {
+      "Input": 131.8
+    },
+    "Digital": {
+      "P25": {
+        "NAC": 293
+      }
+    }
+  },
+  {
+    "ID": 8194,
+    "StateID": 8,
+    "Callsign": "W7RF",
+    "Location": {
+      "Latitude": 40.49599838,
+      "Longitude": -105.07900238,
+      "County": "Larimer",
+      "State": "CO",
+      "Local": "Fort Collins"
+    },
+    "Use": "Open",
+    "Status": "On-Air",
+    "Frequency": {
+      "Input": 442.725,
+      "Output": 447.725
+    },
+    "SquelchTone": {
+      "Input": 131.8
+    }
+  },
+  {
+    "ID": 8180,
+    "StateID": 8,
+    "Callsign": "K0BV",
+    "Location": {
+      "Latitude": 37.16949844,
+      "Longitude": -104.50099945,
+      "County": "Las Animas",
+      "State": "CO",
+      "Local": "Trinidad, Raton Pass"
+    },
+    "Use": "Open",
+    "Status": "On-Air",
+    "Frequency": {
+      "Input": 147.975,
+      "Output": 147.375
+    },
+    "SquelchTone": {
+      "Input": 100,
+      "Output": 100
+    }
+  },
+  {
+    "ID": 13499,
+    "StateID": 8,
+    "Callsign": "KG5JL",
+    "Location": {
+      "Latitude": 37.16949844,
+      "Longitude": -104.50099945,
+      "County": "Las Animas",
+      "State": "CO",
+      "Local": "Trinidad, Raton Pass"
+    },
+    "Use": "Open",
+    "Status": "On-Air",
+    "Frequency": {
+      "Input": 442.375,
+      "Output": 447.375
+    },
+    "SquelchTone": {
+      "Input": 100
+    },
+    "Digital": {
+      "YSF": {
+        "GroupID": {
+          "Input": "Open ↑",
+          "Output": "Open ↓"
+        }
+      }
+    }
+  },
+  {
+    "ID": 240,
+    "StateID": 8,
+    "Callsign": "KC0CVU",
+    "Location": {
+      "Latitude": 37.16939926,
+      "Longitude": -104.5,
+      "County": "Las Animas",
+      "State": "CO",
+      "Local": "Trinidad, Raton Pass"
+    },
+    "Use": "Open",
+    "Status": "On-Air",
+    "Frequency": {
+      "Input": 444.6,
+      "Output": 449.6
+    },
+    "SquelchTone": {
+      "Input": 107.2
+    }
+  },
+  {
+    "ID": 3621,
+    "StateID": 8,
+    "Callsign": "W0UPS",
+    "Location": {
+      "Latitude": 40.44400024,
+      "Longitude": -104.98899841,
+      "County": "Larimer",
+      "State": "CO",
+      "Local": "Loveland, Budweiser Event Center"
+    },
+    "Use": "Open",
+    "Status": "On-Air",
+    "Frequency": {
+      "Input": 443.025,
+      "Output": 448.025
+    },
+    "SquelchTone": {
+      "Input": 100,
+      "Output": 100
+    },
+    "Digital": {
+      "YSF": {
+        "GroupID": {
+          "Input": "Open ↑",
+          "Output": "Open ↓"
+        }
+      }
+    }
+  },
+  {
+    "ID": 9767,
+    "StateID": 35,
+    "Callsign": "NM5SC",
+    "Location": {
+      "Latitude": 35.69670105,
+      "Longitude": -106.85900116,
+      "County": "Sandoval",
+      "State": "NM",
+      "Local": "San Ysidro, Pajarito Peak"
+    },
+    "Use": "Open",
+    "Status": "On-Air",
+    "Frequency": {
+      "Input": 448.1,
+      "Output": 443.1
+    },
+    "SquelchTone": {
+      "Input": 100
+    },
+    "VOIP": {
+      "AllStar": {
+        "NodeID": 27748
+      }
+    }
+  },
+  {
+    "ID": 169,
+    "StateID": 49,
+    "Callsign": "NA7DB",
+    "Location": {
+      "Latitude": 37.03419876,
+      "Longitude": -110.8690033,
+      "County": "San Juan",
+      "State": "UT",
+      "Local": "Page (az), Navajo Mountain"
+    },
+    "Use": "Open",
+    "Status": "On-Air",
+    "Frequency": {
+      "Input": 443.75,
+      "Output": 448.75
+    },
+    "SquelchTone": {
+      "Input": 100
+    }
+  },
+  {
+    "ID": 183,
+    "StateID": 49,
+    "Callsign": "W7CWI",
+    "Location": {
+      "Latitude": 37.03419876,
+      "Longitude": -110.8690033,
+      "County": "San Juan",
+      "State": "UT",
+      "Local": "Page (AZ), Navajo Mountain"
+    },
+    "Use": "Open",
+    "Status": "On-Air",
+    "Frequency": {
+      "Input": 444.925,
+      "Output": 449.925
+    },
+    "SquelchTone": {
+      "Input": 100
+    }
+  },
+  {
+    "ID": 218,
+    "StateID": 49,
+    "Callsign": "W7WAC",
+    "Location": {
+      "Latitude": 37.03419876,
+      "Longitude": -110.8690033,
+      "County": "San Juan",
+      "State": "UT",
+      "Local": "Page (AZ), Navajo Mountain"
+    },
+    "Use": "Open",
+    "Status": "On-Air",
+    "Frequency": {
+      "Input": 146.36,
+      "Output": 146.96
+    },
+    "SquelchTone": {
+      "Input": 100
+    }
+  },
+  {
+    "ID": 11827,
+    "StateID": 49,
+    "Callsign": "WA7VHF",
+    "Location": {
+      "Latitude": 37.0340004,
+      "Longitude": -110.8690033,
+      "County": "San Juan",
+      "State": "UT",
+      "Local": "Page, Navajo Mountain"
+    },
+    "Use": "Open",
+    "Status": "On-Air",
+    "Frequency": {
+      "Input": 443.6,
+      "Output": 448.6
+    },
+    "SquelchTone": {
+      "Input": 100
+    }
+  }
+]

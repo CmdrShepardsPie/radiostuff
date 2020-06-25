@@ -1,0 +1,2 @@
+ID,StateID,Callsign,Use,Status,DigitalTone,Digital,Location.Latitude,Location.Longitude,Location.County,Location.State,Location.Local,Frequency.Input,Frequency.Output,SquelchTone.Input,SquelchTone.Output,VOIP.AllStar,VOIP.EchoLink,VOIP.Wires,VOIP.IRLP.NodeID
+127,8,KB0YNA,Open,On-Air,,,38.5766983,-108.64700317,Mesa,CO,"Delta, Uncompahgre Butte",444.4,449.4,131.8,131.8,,,,3710

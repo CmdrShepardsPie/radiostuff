@@ -1,0 +1,2 @@
+ID,StateID,Callsign,Use,Status,SquelchTone,DigitalTone,VOIP,Location.Latitude,Location.Longitude,Location.County,Location.State,Location.Local,Frequency.Input,Frequency.Output,Digital.DMR,Digital.P25,Digital.YSF,Digital.DStar.Node
+16279,35,KF5VBF,Closed,On-Air,,,,36.70830154,-108.22599792,San Juan,NM,"Farmington, Farmington Bluffs",1271.7,1291.7,,,,KF5VBF (A) Repeater

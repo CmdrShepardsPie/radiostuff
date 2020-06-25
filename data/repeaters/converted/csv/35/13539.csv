@@ -1,0 +1,2 @@
+ID,StateID,Callsign,Use,Status,DigitalTone,Digital,VOIP,Location.Latitude,Location.Longitude,Location.County,Location.State,Location.Local,Frequency.Input,Frequency.Output,SquelchTone.Input,SquelchTone.Output
+13539,35,KC5WDV,Open,On-Air,,,,35.90309906,-108.77200317,McKinley,NM,"Gallup, Deza Bluffs",443.2,448.2,100,

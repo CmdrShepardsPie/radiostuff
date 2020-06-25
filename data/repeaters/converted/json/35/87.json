@@ -1,0 +1,21 @@
+{
+  "ID": 87,
+  "StateID": 35,
+  "Callsign": "K5WY",
+  "Location": {
+    "Latitude": 36.72809982,
+    "Longitude": -108.21800232,
+    "County": "San Juan",
+    "State": "NM",
+    "Local": "Farmington"
+  },
+  "Use": "Open",
+  "Status": "Other",
+  "Frequency": {
+    "Input": 444,
+    "Output": 449
+  },
+  "SquelchTone": {
+    "Input": 100
+  }
+}

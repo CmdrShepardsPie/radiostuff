@@ -1,0 +1,21 @@
+{
+  "ID": 182,
+  "StateID": 49,
+  "Callsign": "W7BYU",
+  "Location": {
+    "Latitude": 40.35639954,
+    "Longitude": -109.14600372,
+    "County": "Uintah",
+    "State": "UT",
+    "Local": "Vernal"
+  },
+  "Use": "Open",
+  "Status": "Other",
+  "Frequency": {
+    "Input": 444.7,
+    "Output": 449.7
+  },
+  "SquelchTone": {
+    "Input": 136.5
+  }
+}

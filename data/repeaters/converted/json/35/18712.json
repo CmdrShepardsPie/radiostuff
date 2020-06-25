@@ -1,0 +1,24 @@
+{
+  "ID": 18712,
+  "StateID": 35,
+  "Callsign": "N5UBJ",
+  "Location": {
+    "Latitude": 36.7785,
+    "Longitude": -108.1875,
+    "County": "San Juan",
+    "State": "NM",
+    "Local": "Farmington, FAA Hill"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 445.3,
+    "Output": 440.3
+  },
+  "Digital": {
+    "DMR": {
+      "ColorCode": 6,
+      "ID": 311624
+    }
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "ID": 4237,
+  "StateID": 49,
+  "Callsign": "K7YI",
+  "Location": {
+    "Latitude": 39.18500137,
+    "Longitude": -110.60500336,
+    "County": "Carbon",
+    "State": "UT",
+    "Local": "Price, Cedar Mountain"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 443.075,
+    "Output": 448.075
+  },
+  "Digital": {
+    "DStar": {
+      "Node": "K7YI (B)"
+    }
+  }
+}

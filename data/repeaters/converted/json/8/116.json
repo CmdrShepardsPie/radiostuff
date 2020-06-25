@@ -1,0 +1,22 @@
+{
+  "ID": 116,
+  "StateID": 8,
+  "Callsign": "K0EP",
+  "Location": {
+    "Latitude": 37.38280106,
+    "Longitude": -107.77799988,
+    "County": "La Plata",
+    "State": "CO",
+    "Local": "Durango, Missionary Ridge"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 146.1,
+    "Output": 146.7
+  },
+  "SquelchTone": {
+    "Input": 100,
+    "Output": 100
+  }
+}

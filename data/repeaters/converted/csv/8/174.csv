@@ -1,0 +1,2 @@
+ID,StateID,Callsign,Use,Status,DigitalTone,Digital,VOIP,Location.Latitude,Location.Longitude,Location.County,Location.State,Location.Local,Frequency.Input,Frequency.Output,SquelchTone.Input,SquelchTone.Output
+174,8,KB0SW,Open,On-Air,,,,39.58190155,-108.95200348,Garfield,CO,"Loma, Baxter Pass",442,447,107.2,

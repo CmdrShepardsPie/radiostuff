@@ -1,0 +1,2 @@
+ID,StateID,Callsign,Use,Status,DigitalTone,Digital,VOIP,Location.Latitude,Location.Longitude,Location.County,Location.State,Location.Local,Frequency.Input,Frequency.Output,SquelchTone.Input,SquelchTone.Output
+11546,8,K0EP,Open,On-Air,,,,37.27529907,-107.87999725,La Plata,CO,Durango,444.85,449.85,100,100

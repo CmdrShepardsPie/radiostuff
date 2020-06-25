@@ -1,0 +1,26 @@
+{
+  "ID": 281,
+  "StateID": 49,
+  "Callsign": "W7BYU",
+  "Location": {
+    "Latitude": 40.35499954,
+    "Longitude": -109.14800262,
+    "County": "Duchesne",
+    "State": "UT",
+    "Local": "Roosevelt"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 146.32,
+    "Output": 146.92
+  },
+  "SquelchTone": {
+    "Input": 136.5
+  },
+  "VOIP": {
+    "EchoLink": {
+      "NodeID": 458695
+    }
+  }
+}

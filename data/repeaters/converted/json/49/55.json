@@ -1,0 +1,26 @@
+{
+  "ID": 55,
+  "StateID": 49,
+  "Callsign": "K7SDC",
+  "Location": {
+    "Latitude": 39.75579834,
+    "Longitude": -110.98999786,
+    "County": "Carbon",
+    "State": "UT",
+    "Local": "Scofield, Ford Ridge"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 144.71,
+    "Output": 145.31
+  },
+  "SquelchTone": {
+    "Input": 88.5
+  },
+  "VOIP": {
+    "IRLP": {
+      "NodeID": 3270
+    }
+  }
+}

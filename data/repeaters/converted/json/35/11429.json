@@ -1,0 +1,23 @@
+{
+  "ID": 11429,
+  "StateID": 35,
+  "Callsign": "KF5VBD",
+  "Location": {
+    "Latitude": 36.65000153,
+    "Longitude": -107.79100037,
+    "County": "San Juan",
+    "State": "NM",
+    "Local": "Bloomfield, Harris Mesa"
+  },
+  "Use": "Closed",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 1272.3,
+    "Output": 1292.3
+  },
+  "Digital": {
+    "DStar": {
+      "Node": "KF5VBD (A) Gateway Repeater"
+    }
+  }
+}

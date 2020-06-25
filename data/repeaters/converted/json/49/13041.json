@@ -1,0 +1,21 @@
+{
+  "ID": 13041,
+  "StateID": 49,
+  "Callsign": "W7BYU",
+  "Location": {
+    "Latitude": 40.22219849,
+    "Longitude": -110.10399628,
+    "County": "Duchesne",
+    "State": "UT",
+    "Local": "Myton, Flat Top"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 144.89,
+    "Output": 145.49
+  },
+  "SquelchTone": {
+    "Input": 136.5
+  }
+}

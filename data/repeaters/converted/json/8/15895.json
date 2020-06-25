@@ -1,0 +1,24 @@
+{
+  "ID": 15895,
+  "StateID": 8,
+  "Callsign": "N5UBJ",
+  "Location": {
+    "Latitude": 37.34500122,
+    "Longitude": -108.28900146,
+    "County": "Montezuma",
+    "State": "CO",
+    "Local": "Mancos, Caviness Mountain"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 441.7375,
+    "Output": 446.7375
+  },
+  "Digital": {
+    "DMR": {
+      "ColorCode": 6,
+      "ID": 310826
+    }
+  }
+}

@@ -1,0 +1,2 @@
+ID,StateID,Callsign,Use,Status,DigitalTone,Digital,VOIP,Location.Latitude,Location.Longitude,Location.County,Location.State,Location.Local,Frequency.Input,Frequency.Output,SquelchTone.Input,SquelchTone.Output
+89,35,NM5ML,Open,On-Air,,,,35.90309906,-108.77200317,McKinley,NM,"Gallup, Deza Bluffs",147.82,147.22,67,

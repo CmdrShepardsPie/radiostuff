@@ -1,0 +1,26 @@
+{
+  "ID": 172,
+  "StateID": 35,
+  "Callsign": "KF5PFO",
+  "Location": {
+    "Latitude": 36.24689865,
+    "Longitude": -105.65399933,
+    "County": "Taos",
+    "State": "NM",
+    "Local": "Taos, Picuris Peak"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 147.72,
+    "Output": 147.12
+  },
+  "SquelchTone": {
+    "Input": 67
+  },
+  "VOIP": {
+    "EchoLink": {
+      "NodeID": 828279
+    }
+  }
+}

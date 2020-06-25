@@ -1,0 +1,21 @@
+{
+  "ID": 100,
+  "StateID": 49,
+  "Callsign": "KD7HLL",
+  "Location": {
+    "Latitude": 37.26929855,
+    "Longitude": -109.95700073,
+    "County": "San Juan",
+    "State": "UT",
+    "Local": "Mexican Hat"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 444.9,
+    "Output": 449.9
+  },
+  "SquelchTone": {
+    "Input": 123
+  }
+}

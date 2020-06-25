@@ -1,0 +1,2 @@
+ID,StateID,Callsign,Use,Status,DigitalTone,Digital,VOIP,Location.Latitude,Location.Longitude,Location.County,Location.State,Location.Local,Frequency.Input,Frequency.Output,SquelchTone.Input,SquelchTone.Output
+52,49,K7QEQ,Open,On-Air,,,,38.52859879,-109.32499695,Grand,UT,"Moab, Bald Mesa",444.1,449.1,107.2,107.2

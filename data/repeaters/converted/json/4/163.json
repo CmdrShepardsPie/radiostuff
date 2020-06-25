@@ -1,0 +1,21 @@
+{
+  "ID": 163,
+  "StateID": 4,
+  "Callsign": "KB5ITS",
+  "Location": {
+    "Latitude": 36.46139908,
+    "Longitude": -109.09600067,
+    "County": "Apache",
+    "State": "AZ",
+    "Local": "Lukachukai, Roof Butte"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 144.65,
+    "Output": 145.25
+  },
+  "SquelchTone": {
+    "Input": 100
+  }
+}

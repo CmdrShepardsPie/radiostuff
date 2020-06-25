@@ -1,0 +1,21 @@
+{
+  "ID": 169,
+  "StateID": 49,
+  "Callsign": "NA7DB",
+  "Location": {
+    "Latitude": 37.03419876,
+    "Longitude": -110.8690033,
+    "County": "San Juan",
+    "State": "UT",
+    "Local": "Page (az), Navajo Mountain"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 443.75,
+    "Output": 448.75
+  },
+  "SquelchTone": {
+    "Input": 100
+  }
+}

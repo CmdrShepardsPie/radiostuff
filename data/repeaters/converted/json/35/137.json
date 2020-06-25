@@ -1,0 +1,21 @@
+{
+  "ID": 137,
+  "StateID": 35,
+  "Callsign": "KF5PFO",
+  "Location": {
+    "Latitude": 36.69300079,
+    "Longitude": -105.51399994,
+    "County": "Taos",
+    "State": "NM",
+    "Local": "Red River, Molycorp"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 144.79,
+    "Output": 145.39
+  },
+  "SquelchTone": {
+    "Input": 100
+  }
+}
