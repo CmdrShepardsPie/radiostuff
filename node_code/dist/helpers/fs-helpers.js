@@ -12,7 +12,7 @@ var __importDefault = (this && this.__importDefault) || function (mod) {
 })(function (require, exports) {
     "use strict";
     Object.defineProperty(exports, "__esModule", { value: true });
-    exports.getAllFilesFromDirectory = exports.splitExtension = exports.writeToJsonAndCsv = exports.dirExists = exports.makeDirs = exports.statAsync = exports.writeFileAsync = exports.readdirAsync = exports.readFileAsync = exports.mkdirAsync = exports.existsAsync = void 0;
+    exports.getAllFilesInDirectory = exports.splitExtension = exports.writeToJsonAndCsv = exports.dirExists = exports.makeDirs = exports.statAsync = exports.writeFileAsync = exports.readdirAsync = exports.readFileAsync = exports.mkdirAsync = exports.existsAsync = void 0;
     const csv_helpers_1 = require("@helpers/csv-helpers");
     const helpers_1 = require("@helpers/helpers");
     const log_helpers_1 = require("@helpers/log-helpers");
@@ -80,24 +80,21 @@ var __importDefault = (this && this.__importDefault) || function (mod) {
         return { name, ext };
     }
     exports.splitExtension = splitExtension;
-    async function getAllFilesFromDirectory(directory) {
+    async function getAllFilesInDirectory(directory, extension = 'json') {
         log(chalk_1.default.green('Get All Files from Directory'), directory);
         const files = [];
         const fileNames = await exports.readdirAsync(directory);
-        const extMatch = /\.json$/i;
+        const extMatch = new RegExp(`\.${extension}$`, 'i');
         for (const fileName of fileNames) {
             const file = path_1.default.join(directory, fileName);
-            const stat = await exports.statAsync(file);
-            if (stat.isFile() && file.match(extMatch)) {
-                // log("Get All Files From Directory", chalk.green("reading"), file);
-                const data = await exports.readFileAsync(file);
-                files.push(JSON.parse(data.toString()));
-            }
-            else {
-                // log("Get All Files From Directory", chalk.red("skipped"), file);
+            if (file.match(extMatch)) {
+                const stat = await exports.statAsync(file);
+                if (stat.isFile()) {
+                    files.push(file);
+                }
             }
         }
         return files;
     }
-    exports.getAllFilesFromDirectory = getAllFilesFromDirectory;
+    exports.getAllFilesInDirectory = getAllFilesInDirectory;
 });

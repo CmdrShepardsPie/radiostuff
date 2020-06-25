@@ -15,25 +15,46 @@
     const i_repeater_structured_1 = require("@interfaces/i-repeater-structured");
     const log = log_helpers_1.createLog('Convert Repeaters');
     exports.default = (async () => {
-        const raw = await fs_helpers_1.getAllFilesFromDirectory('../data/repeaters/results/CO');
-        log('Got', raw.length, 'files');
-        const ids = [];
-        const converted = raw
-            .reduce((output, input, index) => {
-            log('Got', input.length, 'repeaters from file', index + 1);
-            return [...output, ...input.map(convertRepeater)];
-        }, [])
-            .filter((repeater) => {
-            if (ids.includes(repeater.ID)) {
-                return false;
-            }
-            else {
-                ids.push(repeater.ID);
-                return true;
-            }
-        });
-        log('Converted', converted.length, 'repeaters');
-        await fs_helpers_1.writeToJsonAndCsv('../data/repeaters/converted/CO', converted);
+        const files = await fs_helpers_1.getAllFilesInDirectory('../data/repeaters/scraped', 'json');
+        // const raw: IRepeaterRaw[][] = await getAllFilesFromDirectory('../data/repeaters/scraped');
+        log('Got', files.length, 'files');
+        await Promise.all(files.map(async (file) => {
+            const fileBuffer = await fs_helpers_1.readFileAsync(file);
+            const fileString = fileBuffer.toString();
+            const fileData = JSON.parse(fileString);
+            log(file, 'has', fileData.length, 'repeaters');
+            const converted = fileData
+                .reduce((output, input, index) => {
+                log(`converting repeater ${input.Call} (${index + 1}/${fileData.length}) from ${file}`);
+                return [...output, convertRepeater(input)];
+            }, []);
+            // .filter((repeater: IRepeaterStructured): boolean => {
+            //   if (ids.includes(repeater.ID)) {
+            //     return false;
+            //   } else {
+            //     ids.push(repeater.ID);
+            //     return true;
+            //   }
+            // });
+            log('Converted', converted.length, 'repeaters');
+            await fs_helpers_1.writeToJsonAndCsv('../data/repeaters/converted/CO', converted);
+        }));
+        // const ids: number[] = [];
+        // const converted: IRepeaterStructured[] = raw
+        //   .reduce((output: IRepeaterStructured[], input: IRepeaterRaw[], index: number): IRepeaterStructured[] => {
+        //     log('Got', input.length, 'repeaters from file', index + 1);
+        //     return [...output, ...input.map(convertRepeater)];
+        //   }, [])
+        //   .filter((repeater: IRepeaterStructured): boolean => {
+        //     if (ids.includes(repeater.ID)) {
+        //       return false;
+        //     } else {
+        //       ids.push(repeater.ID);
+        //       return true;
+        //     }
+        //   });
+        // log('Converted', converted.length, 'repeaters');
+        // await writeToJsonAndCsv('../data/repeaters/converted/CO', converted);
     })();
     function convertRepeater(raw) {
         return {
