@@ -4,7 +4,7 @@
         if (v !== undefined) module.exports = v;
     }
     else if (typeof define === "function" && define.amd) {
-        define(["require", "exports", "module-alias/register", "@helpers/fs-helpers", "@helpers/log-helpers", "@interfaces/i-repeater-structured"], factory);
+        define(["require", "exports", "module-alias/register", "@helpers/fs-helpers", "@helpers/log-helpers", "@interfaces/repeater-structured"], factory);
     }
 })(function (require, exports) {
     "use strict";
@@ -12,7 +12,7 @@
     require("module-alias/register");
     const fs_helpers_1 = require("@helpers/fs-helpers");
     const log_helpers_1 = require("@helpers/log-helpers");
-    const i_repeater_structured_1 = require("@interfaces/i-repeater-structured");
+    const repeater_structured_1 = require("@interfaces/repeater-structured");
     const log = log_helpers_1.createLog('Convert Repeaters');
     exports.default = (async () => {
         const files = await fs_helpers_1.getAllFilesInDirectory('../data/repeaters/scraped/json', 'json', 1);
@@ -63,30 +63,30 @@
     function convertRepeaterUse(raw) {
         switch (raw.toLowerCase()) {
             case 'open':
-                return i_repeater_structured_1.RepeaterUse.Open;
+                return repeater_structured_1.RepeaterUse.Open;
             case 'closed':
-                return i_repeater_structured_1.RepeaterUse.Closed;
+                return repeater_structured_1.RepeaterUse.Closed;
             case 'private':
-                return i_repeater_structured_1.RepeaterUse.Private;
+                return repeater_structured_1.RepeaterUse.Private;
             default:
-                return i_repeater_structured_1.RepeaterUse.Other;
+                return repeater_structured_1.RepeaterUse.Other;
         }
     }
     function convertRepeaterStatus(raw) {
         if (!raw) {
-            return i_repeater_structured_1.RepeaterStatus.Other;
+            return repeater_structured_1.RepeaterStatus.Other;
         }
         switch (raw.toLowerCase()) {
             case 'on-air':
-                return i_repeater_structured_1.RepeaterStatus.OnAir;
+                return repeater_structured_1.RepeaterStatus.OnAir;
             case 'off-air':
-                return i_repeater_structured_1.RepeaterStatus.OffAir;
+                return repeater_structured_1.RepeaterStatus.OffAir;
             case 'testing':
-                return i_repeater_structured_1.RepeaterStatus.Testing;
+                return repeater_structured_1.RepeaterStatus.Testing;
             case 'unknown':
-                return i_repeater_structured_1.RepeaterStatus.Unknown;
+                return repeater_structured_1.RepeaterStatus.Unknown;
             default:
-                return i_repeater_structured_1.RepeaterStatus.Other;
+                return repeater_structured_1.RepeaterStatus.Other;
         }
     }
     function convertRepeaterSquelchTone(rawInput, rawOutput) {

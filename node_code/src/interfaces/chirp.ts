@@ -1,4 +1,4 @@
-export interface IChirp {
+export interface Chirp {
   Location: number;
   Name: string;
   Frequency: number;

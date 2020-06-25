@@ -1,20 +1,20 @@
 import { getAllFilesFromDirectory, writeToJsonAndCsv } from '@helpers/fs-helpers';
 import { numberToString } from '@helpers/helpers';
 import { createLog } from '@helpers/log-helpers';
-import { IRepeaterRaw } from '@interfaces/i-repeater-raw';
+import { RepeaterRaw } from '@interfaces/repeater-raw';
 import gpsDistance, { Point } from 'gps-distance';
 
 const log: (...msg: any[]) => void = createLog('Combine');
 
 export default (async (): Promise<void> => {
   const myPoint: Point = [39.627071500, -104.893322500];
-  const combined: IRepeaterRaw[] = [];
-  const files: IRepeaterRaw[][] = await getAllFilesFromDirectory<IRepeaterRaw[]>('../data/repeaters/results/CO');
+  const combined: RepeaterRaw[] = [];
+  const files: RepeaterRaw[][] = await getAllFilesFromDirectory<RepeaterRaw[]>('../data/repeaters/results/CO');
   log('Got', files.length, 'files');
   const found: { [key: string]: boolean | undefined } = {};
-  files.forEach((file: IRepeaterRaw[]) => {
+  files.forEach((file: RepeaterRaw[]) => {
     log('Got', file.length, 'repeaters');
-    file.forEach((item: IRepeaterRaw) => {
+    file.forEach((item: RepeaterRaw) => {
       if (!found[`${item.state_id}-${item.ID}`]) {
         found[`${item.state_id}-${item.ID}`] = true;
         combined.push(item);
@@ -24,7 +24,7 @@ export default (async (): Promise<void> => {
     });
   });
   log('Got', combined.length, 'unique repeaters');
-  combined.sort((a: IRepeaterRaw, b: IRepeaterRaw) => {
+  combined.sort((a: RepeaterRaw, b: RepeaterRaw) => {
     const aMi: string = numberToString(a.Mi || 0, 4, 24);
     const bMi: string = numberToString(b.Mi || 0, 4, 24);
     const aRepeaterName: string | undefined = a.Call;
@@ -36,7 +36,7 @@ export default (async (): Promise<void> => {
 
     return aStr > bStr ? 1 : aStr < bStr ? -1 : 0;
   });
-  const stats: { [key: string]: number } = combined.reduce((result: { [key: string]: number }, data: IRepeaterRaw) => {
+  const stats: { [key: string]: number } = combined.reduce((result: { [key: string]: number }, data: RepeaterRaw) => {
     const freq: string = Math.round(data.Frequency || 0).toString();
     const pow: number = Math.pow(10, Math.max(freq.length - 2, 0)) * 2;
     const group: number = Math.round((data.Frequency || 0) / pow) * pow;

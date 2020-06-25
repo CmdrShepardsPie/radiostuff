@@ -1,4 +1,4 @@
-import { IRepeaterStructured, RepeaterStatus, RepeaterUse } from '@interfaces/i-repeater-structured';
+import { RepeaterStructured, RepeaterStatus, RepeaterUse } from '@interfaces/repeater-structured';
 
 export enum FrequencyBand {
   $10_m,
@@ -17,8 +17,8 @@ export enum Mode {
   YSF,
 }
 
-export function filterFrequencies(...bands: FrequencyBand[]): (filter: IRepeaterStructured) => boolean {
-  return (filter: IRepeaterStructured): boolean =>
+export function filterFrequencies(...bands: FrequencyBand[]): (filter: RepeaterStructured) => boolean {
+  return (filter: RepeaterStructured): boolean =>
     (bands.includes(FrequencyBand.$10_m) && filter.Frequency.Output >= 28 && filter.Frequency.Output <= 29.7) ||
     (bands.includes(FrequencyBand.$6_m) && filter.Frequency.Output >= 50 && filter.Frequency.Output <= 54) ||
     (bands.includes(FrequencyBand.$2_m) && filter.Frequency.Output >= 144 && filter.Frequency.Output <= 148) ||
@@ -26,12 +26,12 @@ export function filterFrequencies(...bands: FrequencyBand[]): (filter: IRepeater
     (bands.includes(FrequencyBand.$70_cm) && filter.Frequency.Output >= 420 && filter.Frequency.Output <= 450);
 }
 
-export function filterDistance(distance: number): (filter: IRepeaterStructured) => boolean {
-  return (filter: IRepeaterStructured): boolean => !filter.Location || filter.Location.Distance! < distance;
+export function filterDistance(distance: number): (filter: RepeaterStructured) => boolean {
+  return (filter: RepeaterStructured): boolean => !filter.Location || filter.Location.Distance! < distance;
 }
 
-export function filterMode(...modes: Mode[]): (filter: IRepeaterStructured) => boolean {
-  return (filter: IRepeaterStructured): boolean =>
+export function filterMode(...modes: Mode[]): (filter: RepeaterStructured) => boolean {
+  return (filter: RepeaterStructured): boolean =>
     filter.Status !== RepeaterStatus.OffAir &&
     filter.Use === RepeaterUse.Open &&
     (
@@ -50,12 +50,12 @@ export function filterMode(...modes: Mode[]): (filter: IRepeaterStructured) => b
     );
 }
 
-export function filterMinimumRepeaterCount(count: number, repeaters: IRepeaterStructured[]): (filter: IRepeaterStructured) => boolean {
-  return (filter: IRepeaterStructured): boolean =>
+export function filterMinimumRepeaterCount(count: number, repeaters: RepeaterStructured[]): (filter: RepeaterStructured) => boolean {
+  return (filter: RepeaterStructured): boolean =>
     !!filter.Callsign && getRepeaterCount(filter.Callsign, repeaters) >= count;
 }
 
-export function buildName(repeater: IRepeaterStructured): string {
+export function buildName(repeater: RepeaterStructured): string {
   let Name: string = '';
 
   if (repeater.Callsign) {
@@ -81,7 +81,7 @@ export function buildName(repeater: IRepeaterStructured): string {
   return Name;
 }
 
-export function getRepeaterSuffix(repeater: IRepeaterStructured): string {
+export function getRepeaterSuffix(repeater: RepeaterStructured): string {
   let Name: string = '';
   if (!repeater.Digital && repeater.Location) {
     Name += 'F';
@@ -116,12 +116,12 @@ export function getRepeaterSuffix(repeater: IRepeaterStructured): string {
   return Name;
 }
 
-export function getRepeaterCount(name: string, all: IRepeaterStructured[]): number {
-  return all.filter((a: IRepeaterStructured): boolean => a.Callsign.trim() === name).length;
+export function getRepeaterCount(name: string, all: RepeaterStructured[]): number {
+  return all.filter((a: RepeaterStructured): boolean => a.Callsign.trim() === name).length;
 }
 
-export function buildComment(repeater: IRepeaterStructured): string {
-  let Comment: string = `${repeater.StateID} ${repeater.ID} ${repeater.Location && (repeater.Location.Distance != null) && repeater.Location.Distance.toFixed(2)} ${repeater.Location && repeater.Location.State} ${repeater.Location && repeater.Location.County} ${repeater.Location && repeater.Location.Local} ${repeater.Callsign}`;
+export function buildComment(repeater: RepeaterStructured): string {
+  let Comment: string = `${repeater.StateID} ${repeater.ID} ${repeater.Location && (repeater.Location.Distance != null) && repeater.Location.Distance.toFixed(2) || ''} ${repeater.Location && repeater.Location.State || ''} ${repeater.Location && repeater.Location.County || ''} ${repeater.Location && repeater.Location.Local || ''} ${repeater.Callsign}`;
   Comment = Comment.replace(/undefined/g, ' ').replace(/,/g, ' ').replace(/\s+/g, ' ').trim();
   return Comment;
 }

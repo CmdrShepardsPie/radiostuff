@@ -68,11 +68,11 @@ var __importDefault = (this && this.__importDefault) || function (mod) {
         });
         const short = mapped
             .slice(0, 128)
-            // .sort((a: IChirp, b: IChirp) => a.Frequency - b.Frequency)
+            // .sort((a: Chirp, b: Chirp) => a.Frequency - b.Frequency)
             .map((map, index) => ({ ...map, Location: index }));
         const long = mapped
             .slice(0, 200)
-            // .sort((a: IChirp, b: IChirp) => a.Frequency - b.Frequency)
+            // .sort((a: Chirp, b: Chirp) => a.Frequency - b.Frequency)
             .map((map, index) => ({ ...map, Location: index }));
         await fs_helpers_1.writeToJsonAndCsv(outFileName + '-short', short);
         await fs_helpers_1.writeToJsonAndCsv(outFileName + '-long', long);

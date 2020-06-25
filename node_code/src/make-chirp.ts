@@ -2,14 +2,14 @@ import 'module-alias/register';
 
 import { readFileAsync, writeToJsonAndCsv } from '@helpers/fs-helpers';
 import { createLog } from '@helpers/log-helpers';
-import { ChirpDuplex, ChirpMode, ChirpTone, IChirp } from '@interfaces/i-chirp';
-import { IRepeaterStructured, RepeaterStatus, RepeaterUse } from '@interfaces/i-repeater-structured';
-import { ISimplexFrequency } from '@interfaces/i-simplex-frequency';
+import { ChirpDuplex, ChirpMode, ChirpTone, Chirp } from '@interfaces/chirp';
+import { RepeaterStructured, RepeaterStatus, RepeaterUse } from '@interfaces/repeater-structured';
+import { SimplexFrequency } from '@interfaces/simplex-frequency';
 import gpsDistance, { Point } from 'gps-distance';
 
 const log: (...msg: any[]) => void = createLog('Make Chirp');
 
-const chirp: IChirp = {
+const chirp: Chirp = {
   Location: null as any,
   Name: '',
   Frequency: null as any,
@@ -30,37 +30,37 @@ const myPoint: Point = [39.627071500, -104.893322500]; // 4982 S Ulster St
 // const myPoint: Point = [39.742043, -104.991531]; // Denver
 
 async function doIt(inFileName: string, outFileName: string): Promise<void> {
-  const simplex: IRepeaterStructured[] =
+  const simplex: RepeaterStructured[] =
     JSON.parse((await readFileAsync('../data/frequencies.json')).toString())
-      .map((map: ISimplexFrequency) =>
+      .map((map: SimplexFrequency) =>
         ({ Callsign: map.Name, Frequency: { Output: map.Frequency, Input: map.Frequency } }))
-      .filter((filter: IRepeaterStructured) => /FM|Voice|Simplex/i.test(filter.Callsign))
-      .filter((filter: IRepeaterStructured) => !(/Data|Digital|Packet/i.test(filter.Callsign)));
+      .filter((filter: RepeaterStructured) => /FM|Voice|Simplex/i.test(filter.Callsign))
+      .filter((filter: RepeaterStructured) => !(/Data|Digital|Packet/i.test(filter.Callsign)));
 
-  const repeaters: IRepeaterStructured[] =
+  const repeaters: RepeaterStructured[] =
     JSON.parse((await readFileAsync(inFileName)).toString());
 
-  repeaters.forEach((each: IRepeaterStructured) => {
+  repeaters.forEach((each: RepeaterStructured) => {
     each.Location.Distance = gpsDistance([myPoint, [each.Location.Latitude, each.Location.Longitude]]);
   });
 
-  repeaters.sort((a: IRepeaterStructured, b: IRepeaterStructured) =>
+  repeaters.sort((a: RepeaterStructured, b: RepeaterStructured) =>
     a.Location.Distance! > b.Location.Distance! ? 1 :
       a.Location.Distance! < b.Location.Distance! ? -1 : 0);
   const unique: { [key: string]: boolean } = {};
-  const mapped: IChirp[] = [
+  const mapped: Chirp[] = [
     ...simplex,
     ...repeaters
-      .filter((filter: IRepeaterStructured) =>
+      .filter((filter: RepeaterStructured) =>
         (filter.Frequency.Output >= 144 && filter.Frequency.Output <= 148) ||
         (filter.Frequency.Output >= 222 && filter.Frequency.Output <= 225) ||
         (filter.Frequency.Output >= 420 && filter.Frequency.Output <= 450))
-      .filter((filter: IRepeaterStructured) =>
+      .filter((filter: RepeaterStructured) =>
         !filter.Digital &&
         filter.Status !== RepeaterStatus.OffAir &&
         filter.Use === RepeaterUse.Open),
   ]
-    .map((map: IRepeaterStructured, index: number): IChirp => ({ ...convertToRadio(map), Location: index }))
+    .map((map: RepeaterStructured, index: number): Chirp => ({ ...convertToRadio(map), Location: index }))
     .filter((filter) => {
       if (unique[filter.Name]) {
         return false;
@@ -69,21 +69,21 @@ async function doIt(inFileName: string, outFileName: string): Promise<void> {
       return true;
     });
 
-  const short: IChirp[] = mapped
+  const short: Chirp[] = mapped
     .slice(0, 128)
-    // .sort((a: IChirp, b: IChirp) => a.Frequency - b.Frequency)
-    .map((map: IChirp, index: number): IChirp => ({ ...map, Location: index }));
+    // .sort((a: Chirp, b: Chirp) => a.Frequency - b.Frequency)
+    .map((map: Chirp, index: number): Chirp => ({ ...map, Location: index }));
 
-  const long: IChirp[] = mapped
+  const long: Chirp[] = mapped
     .slice(0, 200)
-    // .sort((a: IChirp, b: IChirp) => a.Frequency - b.Frequency)
-    .map((map: IChirp, index: number): IChirp => ({ ...map, Location: index }));
+    // .sort((a: Chirp, b: Chirp) => a.Frequency - b.Frequency)
+    .map((map: Chirp, index: number): Chirp => ({ ...map, Location: index }));
 
   await writeToJsonAndCsv(outFileName + '-short', short);
   await writeToJsonAndCsv(outFileName + '-long', long);
 }
 
-function convertToRadio(repeater: IRepeaterStructured): IChirp {
+function convertToRadio(repeater: RepeaterStructured): Chirp {
   let Name: string = '';
 
   if (repeater.Callsign) {

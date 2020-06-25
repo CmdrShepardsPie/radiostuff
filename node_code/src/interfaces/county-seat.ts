@@ -1,4 +1,4 @@
-export interface ICountySeat {
+export interface CountySeat {
   County: string;
   'FIPS Code': string;
   'FIPS State and County Code': string;

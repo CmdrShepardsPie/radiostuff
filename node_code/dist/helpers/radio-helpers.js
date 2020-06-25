@@ -4,13 +4,13 @@
         if (v !== undefined) module.exports = v;
     }
     else if (typeof define === "function" && define.amd) {
-        define(["require", "exports", "@interfaces/i-repeater-structured"], factory);
+        define(["require", "exports", "@interfaces/repeater-structured"], factory);
     }
 })(function (require, exports) {
     "use strict";
     Object.defineProperty(exports, "__esModule", { value: true });
     exports.buildDCS = exports.buildComment = exports.getRepeaterCount = exports.getRepeaterSuffix = exports.buildName = exports.filterMinimumRepeaterCount = exports.filterMode = exports.filterDistance = exports.filterFrequencies = exports.Mode = exports.FrequencyBand = void 0;
-    const i_repeater_structured_1 = require("@interfaces/i-repeater-structured");
+    const repeater_structured_1 = require("@interfaces/repeater-structured");
     var FrequencyBand;
     (function (FrequencyBand) {
         FrequencyBand[FrequencyBand["$10_m"] = 0] = "$10_m";
@@ -41,8 +41,8 @@
     }
     exports.filterDistance = filterDistance;
     function filterMode(...modes) {
-        return (filter) => filter.Status !== i_repeater_structured_1.RepeaterStatus.OffAir &&
-            filter.Use === i_repeater_structured_1.RepeaterUse.Open &&
+        return (filter) => filter.Status !== repeater_structured_1.RepeaterStatus.OffAir &&
+            filter.Use === repeater_structured_1.RepeaterUse.Open &&
             ((modes.includes(Mode.FM) && !filter.Digital) ||
                 (modes.includes(Mode.ATV) && filter.Digital != null && filter.Digital.ATV != null) ||
                 (modes.includes(Mode.DMR) && filter.Digital != null && filter.Digital.DMR != null) ||
@@ -122,7 +122,7 @@
     }
     exports.getRepeaterCount = getRepeaterCount;
     function buildComment(repeater) {
-        let Comment = `${repeater.StateID} ${repeater.ID} ${repeater.Location && (repeater.Location.Distance != null) && repeater.Location.Distance.toFixed(2)} ${repeater.Location && repeater.Location.State} ${repeater.Location && repeater.Location.County} ${repeater.Location && repeater.Location.Local} ${repeater.Callsign}`;
+        let Comment = `${repeater.StateID} ${repeater.ID} ${repeater.Location && (repeater.Location.Distance != null) && repeater.Location.Distance.toFixed(2) || ''} ${repeater.Location && repeater.Location.State || ''} ${repeater.Location && repeater.Location.County || ''} ${repeater.Location && repeater.Location.Local || ''} ${repeater.Callsign}`;
         Comment = Comment.replace(/undefined/g, ' ').replace(/,/g, ' ').replace(/\s+/g, ' ').trim();
         return Comment;
     }

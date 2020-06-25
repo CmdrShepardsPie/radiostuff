@@ -2,14 +2,14 @@ import 'module-alias/register';
 
 import { getAllFilesInDirectory, readFileAsync, splitExtension, writeToCsv, writeToJson } from '@helpers/fs-helpers';
 import { createLog } from '@helpers/log-helpers';
-import { IRepeaterRaw } from '@interfaces/i-repeater-raw';
+import { RepeaterRaw } from '@interfaces/repeater-raw';
 import {
-  IRepeaterDigitalModes,
-  IRepeaterStructured,
-  IRepeaterVOIPModes,
+  RepeaterDigitalModes,
+  RepeaterStructured,
+  RepeaterVOIPModes,
   RepeaterStatus,
   RepeaterUse,
-} from '@interfaces/i-repeater-structured';
+} from '@interfaces/repeater-structured';
 
 const log: (...msg: any[]) => void = createLog('Convert Repeaters');
 
@@ -23,17 +23,17 @@ export default (async (): Promise<void> => {
   await Promise.all(files.map(async (file: string): Promise<void> => {
     const fileBuffer: Buffer = await readFileAsync(file);
     const fileString: string = fileBuffer.toString();
-    const fileData: IRepeaterRaw | IRepeaterRaw[] = JSON.parse(fileString);
+    const fileData: RepeaterRaw | RepeaterRaw[] = JSON.parse(fileString);
     if (typeof fileData === 'object' && Array.isArray(fileData)) {
-      const converted: IRepeaterStructured[] = fileData
-        .reduce((output: IRepeaterStructured[], input: IRepeaterRaw, index: number): IRepeaterStructured[] => {
+      const converted: RepeaterStructured[] = fileData
+        .reduce((output: RepeaterStructured[], input: RepeaterRaw, index: number): RepeaterStructured[] => {
           log(`converting repeater ${ input.Call } (${ index + 1 }/${ fileData.length }) from ${ file }`);
-          const repeater: IRepeaterStructured = convertRepeater(input);
+          const repeater: RepeaterStructured = convertRepeater(input);
           // Don't care when the fs write promises return, they do not affect the outcome and node won't terminate until the handles are closed
           promises.push(writeToJson(`../data/repeaters/converted/json/${ repeater.StateID }/${ repeater.ID }`, repeater));
           promises.push(writeToCsv(`../data/repeaters/converted/csv/${ repeater.StateID }/${ repeater.ID }`, repeater));
           return [...output, repeater];
-        }, [] as IRepeaterStructured[]);
+        }, [] as RepeaterStructured[]);
       // Don't care when the fs write promises return, they do not affect the outcome and node won't terminate until the handles are closed
       promises.push(writeToJson(`../data/repeaters/converted/json/${ splitExtension(file).name }`, converted));
       promises.push(writeToCsv(`../data/repeaters/converted/csv/${ splitExtension(file).name }`, converted));
@@ -43,7 +43,7 @@ export default (async (): Promise<void> => {
   await Promise.all(promises);
 })();
 
-function convertRepeater(raw: IRepeaterRaw): IRepeaterStructured {
+function convertRepeater(raw: RepeaterRaw): RepeaterStructured {
   return {
     ID: convertNumber(raw.ID) as number,
     StateID: convertNumber(raw.state_id) as number,
@@ -139,8 +139,8 @@ function convertNumber(input: string | number | undefined, numberFilter: RegExp 
   }
 }
 
-function convertRepeaterDigitalData(raw: IRepeaterRaw): IRepeaterDigitalModes | undefined {
-  const converted: IRepeaterDigitalModes = {
+function convertRepeaterDigitalData(raw: RepeaterRaw): RepeaterDigitalModes | undefined {
+  const converted: RepeaterDigitalModes = {
     // TODO: ATV?: boolean;
     DMR: (raw.DGTL.includes('D') || raw['DMR Enabled']) ? {
       ColorCode: convertNumber(raw['Color Code']),
@@ -162,8 +162,8 @@ function convertRepeaterDigitalData(raw: IRepeaterRaw): IRepeaterDigitalModes | 
   }
 }
 
-function convertRepeaterVOIP(raw: IRepeaterRaw): IRepeaterVOIPModes | undefined {
-  const converted: IRepeaterVOIPModes = {
+function convertRepeaterVOIP(raw: RepeaterRaw): RepeaterVOIPModes | undefined {
+  const converted: RepeaterVOIPModes = {
     AllStar: (raw.VOIP.includes('A') || raw.AllStar) ? { NodeID: convertNumber(raw.AllStar) } : undefined,
     EchoLink: (raw.VOIP.includes('E') || raw.EchoLink) ? {
       NodeID: raw.EchoLink,

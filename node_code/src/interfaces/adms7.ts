@@ -1,99 +1,78 @@
-export interface IAdms400 {
-  'Channel Number': number;
-  'Receive Frequency': number;
-  'Transmit Frequency': number;
-  'Offset Frequency': Adms400OffsetFrequency;
-  'Offset Direction': Adms400OffsetDirection;
-  'Operating Mode': Adms400OperatingMode;
+export interface Adms7 {
+  Number: number;
+  Receive: string;
+  Transmit: string;
+  Offset: string;
+  Direction: Adms7OffsetDirection;
+  Mode: Adms7OperatingMode;
   Name: string;
-  'Show Name': Adms400ShowName;
-  'Tone Mode': Adms400ToneMode;
-  CTCSS: Adms400CtcssTone;
-  DCS: Adms400DcsTone;
-  'Tx Power': Adms400TxPower;
-  Skip: Adms400Skip;
-  Step: Adms400Step;
-  'Clock Shift': Adms400ClockShift;
+  ToneMode: Adms7ToneMode;
+  CTCSS: Adms7CtcssTone;
+  DCS: Adms7DcsTone;
+  UserCTCSS: Adms7UserCtcss;
+  Power: Adms7TxPower;
+  Skip: Adms7Skip;
+  Step: Adms7Step;
+  ClockShift: Adms7ClockShift;
   Comment: string;
-  'User CTCSS': Adms400UserCtcss;
+  Bank: Adms7Bank;
 }
 
-export class Adms400 implements IAdms400 {
-  'Channel Number': number = 1;
-  'Receive Frequency': number = 144;
-  'Transmit Frequency': number = 144;
-  'Offset Frequency': Adms400OffsetFrequency = Adms400OffsetFrequency.None;
-  'Offset Direction': Adms400OffsetDirection = Adms400OffsetDirection.Simplex;
-  'Operating Mode': Adms400OperatingMode = Adms400OperatingMode.Auto;
+export class Adms7 implements Adms7 {
+  Number: number = -1;
+  Receive: string = '';
+  Transmit: string = '';
+  Offset: string = (0).toFixed(5);
+  Direction: Adms7OffsetDirection = Adms7OffsetDirection.Off;
+  Mode: Adms7OperatingMode = Adms7OperatingMode.FM;
   Name: string = '';
-  'Show Name': Adms400ShowName = Adms400ShowName.Large;
-  'Tone Mode': Adms400ToneMode = Adms400ToneMode.None;
-  CTCSS: Adms400CtcssTone = Adms400CtcssTone.$100_0_Hz;
-  DCS: Adms400DcsTone = Adms400DcsTone.$023;
-  'Tx Power': Adms400TxPower = Adms400TxPower.Low;
-  Skip: Adms400Skip = Adms400Skip.Off;
-  Step: Adms400Step = Adms400Step.Auto;
-  'Clock Shift': Adms400ClockShift = Adms400ClockShift.Off;
+  ToneMode: Adms7ToneMode = Adms7ToneMode.Off;
+  CTCSS: Adms7CtcssTone = Adms7CtcssTone.$100_Hz;
+  DCS: Adms7DcsTone = Adms7DcsTone.$23;
+  UserCTCSS: Adms7UserCtcss = Adms7UserCtcss.$1500_Hz;
+  Power: Adms7TxPower = Adms7TxPower.Low;
+  Skip: Adms7Skip = Adms7Skip.Off;
+  Step: Adms7Step = Adms7Step.$5_khz;
+  ClockShift: Adms7ClockShift = Adms7ClockShift.Off;
   Comment: string = '';
-  'User CTCSS': Adms400UserCtcss = Adms400UserCtcss.$1500_Hz;
+  Bank: Adms7Bank = Adms7Bank.A;
 
-  constructor(adms400?: Partial<IAdms400>) {
-    if (adms400) {
-      Object.assign(this, adms400);
+  constructor(adms7?: Partial<Adms7>) {
+    if (adms7) {
+      Object.assign(this, adms7);
     }
   }
 }
 
-export enum Adms400OffsetFrequency {
-  None = '',
-  $100_kHz = '100 kHz',
-  $500_kHz = '500 kHz',
-  $600_kHz = '600 kHz',
-  $1_00_MHz = '1.00 MHz',
-  $1_60_MHz = '1.60 MHz',
-  $3_00_MHz = '3.00 MHz',
-  $5_00_MHz = '5.00 MHz',
-  $7_60_MHz = '7.60 MHz',
+export enum Adms7OffsetDirection {
+  Off = 'OFF',
+  Minus = '-RPT',
+  Plus = '+RPT',
+  Split = '-/+',
 }
 
-export enum Adms400OffsetDirection {
-  Simplex = 'Simplex',
-  Minus = 'Minus',
-  Plus = 'Plus',
-  Split = 'Split',
-}
-
-export enum Adms400OperatingMode {
-  Auto = 'Auto',
+export enum Adms7OperatingMode {
   FM = 'FM',
-  FM_Narrow = 'FM Narrow',
+  NFM = 'NFM',
   AM = 'AM',
 }
 
-export enum Adms400ShowName {
-  Small = 'Small',
-  Large = 'Large',
-}
-
-export enum Adms400ToneMode {
-  None = 'None',
-  Tone = 'Tone',
-  T_Sql = 'T Sql',
+export enum Adms7ToneMode {
+  Off = 'OFF',
+  Tone_Enc = 'TONE ENC',
+  Tone_Sql = 'TONE SQL',
   DCS = 'DCS',
-  Rev_CTCSS = 'Rev CTCSS',
-  User_CTCSS = 'User CTCSS',
-  Pager = 'Pager',
-  D_Code = 'D Code',
-  T_DCS = 'T DCS',
-  D_Tone = 'D Tone',
+  Rev_Tone = 'REV TONE',
+  PR_Freq = 'PR FREQ',
+  Pager = 'PAGER'
 }
 
-export enum Adms400CtcssTone {
-  $67_0_Hz = '67.0 Hz',
+export enum Adms7CtcssTone {
+  $67_Hz = '67.0 Hz',
   $69_3_Hz = '69.3 Hz',
   $71_9_Hz = '71.9 Hz',
   $74_4_Hz = '74.4 Hz',
-  $77_0_Hz = '77.0 Hz',
+  $77_Hz = '77.0 Hz',
   $79_7_Hz = '79.7 Hz',
   $82_5_Hz = '82.5 Hz',
   $85_4_Hz = '85.4 Hz',
@@ -101,13 +80,13 @@ export enum Adms400CtcssTone {
   $91_5_Hz = '91.5 Hz',
   $94_8_Hz = '94.8 Hz',
   $97_4_Hz = '97.4 Hz',
-  $100_0_Hz = '100.0 Hz',
+  $100_Hz = '100.0 Hz',
   $103_5_Hz = '103.5 Hz',
   $107_2_Hz = '107.2 Hz',
   $110_9_Hz = '110.9 Hz',
   $114_8_Hz = '114.8 Hz',
   $118_8_Hz = '118.8 Hz',
-  $123_0_Hz = '123.0 Hz',
+  $123_Hz = '123.0 Hz',
   $127_3_Hz = '127.3 Hz',
   $131_8_Hz = '131.8 Hz',
   $136_5_Hz = '136.5 Hz',
@@ -141,29 +120,29 @@ export enum Adms400CtcssTone {
   $254_1_Hz = '254.1 Hz',
 }
 
-export enum Adms400DcsTone {
-  $006 = '006',
-  $007 = '007',
-  $015 = '015',
-  $017 = '017',
-  $021 = '021',
-  $023 = '023',
-  $025 = '025',
-  $026 = '026',
-  $031 = '031',
-  $032 = '032',
-  $036 = '036',
-  $043 = '043',
-  $047 = '047',
-  $050 = '050',
-  $051 = '051',
-  $053 = '053',
-  $054 = '054',
-  $065 = '065',
-  $071 = '071',
-  $072 = '072',
-  $073 = '073',
-  $074 = '074',
+export enum Adms7DcsTone {
+  $6 = '006',
+  $7 = '007',
+  $15 = '015',
+  $17 = '017',
+  $21 = '021',
+  $23 = '023',
+  $25 = '025',
+  $26 = '026',
+  $31 = '031',
+  $32 = '032',
+  $36 = '036',
+  $43 = '043',
+  $47 = '047',
+  $50 = '050',
+  $51 = '051',
+  $53 = '053',
+  $54 = '054',
+  $65 = '065',
+  $71 = '071',
+  $72 = '072',
+  $73 = '073',
+  $74 = '074',
   $114 = '114',
   $115 = '115',
   $116 = '116',
@@ -256,32 +235,31 @@ export enum Adms400DcsTone {
   $754 = '754',
 }
 
-export enum Adms400TxPower {
-  Low = 'Low',
-  Medium = 'Medium',
-  High = 'High',
+export enum Adms7TxPower {
+  Low = 'LOW',
+  Medium = 'MID',
+  High = 'HIGH',
 }
 
-export enum Adms400Skip {
-  Off = 'Off',
-  Skip = 'Skip',
-  Select = 'Select',
+export enum Adms7Skip {
+  Off = 'OFF',
+  Skip = 'SKIP',
+  Select = 'SELECT',
 }
 
-export enum Adms400Step {
-  Auto = 'Auto',
-  $5_khz = '5 khz',
-  $6_25_khz = '6.25 kHz',
-  $10_khz = '10 kHz',
-  $12_5_khz = '12.5 kHz',
-  $15_khz = '15 kHz',
-  $20_khz = '20 kHz',
-  $25_khz = '25 kHz',
-  $50_khz = '50 kHz',
-  $100_khz = '100 kHz',
+export enum Adms7Step {
+  $5_khz = '5.0KHz',
+  $6_25_khz = '6.25KHz',
+  $10_khz = '10.0KHz',
+  $12_5_khz = '12.5KHz',
+  $15_khz = '15.0KHz',
+  $20_khz = '20.0KHz',
+  $25_khz = '25.0KHz',
+  $50_khz = '50.0KHz',
+  $100_khz = '100.0KHz',
 }
 
-export enum Adms400UserCtcss {
+export enum Adms7UserCtcss {
   $300_Hz = '300 Hz',
   $400_Hz = '400 Hz',
   $500_Hz = '500 Hz',
@@ -312,7 +290,12 @@ export enum Adms400UserCtcss {
   $3000_Hz = '3000 Hz',
 }
 
-export enum Adms400ClockShift {
-  Off = 'Off',
-  On = 'On',
+export enum Adms7ClockShift {
+  Off = 0,
+  On = 1,
+}
+
+export enum Adms7Bank {
+  A = 0,
+  B = 1,
 }

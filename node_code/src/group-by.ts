@@ -1,27 +1,27 @@
 import { readFileAsync, writeToJsonAndCsv } from '@helpers/fs-helpers';
 import { numberToString } from '@helpers/helpers';
 import { createLog } from '@helpers/log-helpers';
-import { IRepeaterRaw } from '@interfaces/i-repeater-raw';
+import { RepeaterRaw } from '@interfaces/repeater-raw';
 import chalk from 'chalk';
 
 const log: (...msg: any[]) => void = createLog('Group By');
 
-async function doIt(groupBy: keyof IRepeaterRaw, inFileName: string, outFileName: string): Promise<void> {
+async function doIt(groupBy: keyof RepeaterRaw, inFileName: string, outFileName: string): Promise<void> {
   const fileData: Buffer = await readFileAsync(inFileName); // await getAllFilesFromDirectory("./repeaters/data/CO/", ".json") as IRepeater[];
-  const repeaters: IRepeaterRaw[] = JSON.parse(fileData.toString());
+  const repeaters: RepeaterRaw[] = JSON.parse(fileData.toString());
 
   // Only grouping by the keys in the first row. It"s not comprehensive but contains the essentials.
   // const keys = Object.keys(repeaters[0]) as Array<keyof IRepeater>;
   // for (const key of keys) {
   log(chalk.green('Process'), chalk.blue('Group'), groupBy, chalk.yellow('In'), inFileName, chalk.cyan('Out'), outFileName);
-  const grouped: IRepeaterRaw[] = group(groupBy, repeaters);
+  const grouped: RepeaterRaw[] = group(groupBy, repeaters);
   await writeToJsonAndCsv(outFileName, grouped);
   // }
 }
 
-function group(groupBy: keyof IRepeaterRaw, repeaters: IRepeaterRaw[]): IRepeaterRaw[] {
-  const keyedGroups: { [key: string]: IRepeaterRaw[] } = {};
-  repeaters.forEach((repeater: IRepeaterRaw) => {
+function group(groupBy: keyof RepeaterRaw, repeaters: RepeaterRaw[]): RepeaterRaw[] {
+  const keyedGroups: { [key: string]: RepeaterRaw[] } = {};
+  repeaters.forEach((repeater: RepeaterRaw) => {
     const keyVal: number | undefined | string = repeater[groupBy];
     if (keyVal !== undefined && keyVal !== null && keyVal !== '') {
       if (!keyedGroups[keyVal]) {
@@ -30,8 +30,8 @@ function group(groupBy: keyof IRepeaterRaw, repeaters: IRepeaterRaw[]): IRepeate
       keyedGroups[keyVal].push(repeater);
     }
   });
-  const sorting: [string, IRepeaterRaw[]][] = Object.entries(keyedGroups);
-  sorting.sort((a: [string, IRepeaterRaw[]], b: [string, IRepeaterRaw[]]) => {
+  const sorting: [string, RepeaterRaw[]][] = Object.entries(keyedGroups);
+  sorting.sort((a: [string, RepeaterRaw[]], b: [string, RepeaterRaw[]]) => {
     const aMi: string = numberToString(a[1][0].Mi || 0, 5, 24);
     const bMi: string = numberToString(b[1][0].Mi || 0, 5, 24);
     const aNumRepeaters: string = numberToString(100 - a[1].length, 4, 1);
@@ -49,7 +49,7 @@ function group(groupBy: keyof IRepeaterRaw, repeaters: IRepeaterRaw[]): IRepeate
 
     return aStr > bStr ? 1 : aStr < bStr ? -1 : 0;
   });
-  return sorting.reduce((prev: IRepeaterRaw[], curr: [string, IRepeaterRaw[]]) => [...prev, ...curr[1]], [] as IRepeaterRaw[]);
+  return sorting.reduce((prev: RepeaterRaw[], curr: [string, RepeaterRaw[]]) => [...prev, ...curr[1]], [] as RepeaterRaw[]);
 }
 
 async function start(): Promise<void> {

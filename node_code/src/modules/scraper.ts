@@ -1,6 +1,6 @@
 import { wait } from '@helpers/helpers';
 import { createOut } from '@helpers/log-helpers';
-import { IRepeaterRaw } from '@interfaces/i-repeater-raw';
+import { RepeaterRaw } from '@interfaces/repeater-raw';
 import Axios, { AxiosResponse } from 'axios';
 import chalk from 'chalk';
 import { JSDOM } from 'jsdom';
@@ -11,7 +11,7 @@ const { log, write }: { log: (...msg: any[]) => void; write: (...msg: any[]) => 
 // const write = createWrite("Scraper");
 
 export default class Scraper {
-  private data: IRepeaterRaw[] = [];
+  private data: RepeaterRaw[] = [];
 
   private readonly url: string;
 
@@ -55,7 +55,7 @@ export default class Scraper {
   }
 
   // TODO: Make observable or event driven
-  public async scrape(): Promise<IRepeaterRaw[]> {
+  public async scrape(): Promise<RepeaterRaw[]> {
     log(chalk.green('Process'));
 
     const parts: string[] = this.location.toString().split(`,`);
@@ -88,13 +88,13 @@ export default class Scraper {
             Object.assign(data, await this.getRepeaterDetails(link.href));
             // write("_");
           }
-          this.data.push(data as any as IRepeaterRaw);
+          this.data.push(data as any as RepeaterRaw);
         }
       }
     }
   }
 
-  private async getRepeaterDetails(href: string): Promise<IRepeaterRaw> {
+  private async getRepeaterDetails(href: string): Promise<RepeaterRaw> {
     const urlParams: string = href.split('?')[1];
     const keyParts: RegExpMatchArray = urlParams.match(/state_id=(\d+)&ID=(\d+)/) || [];
     const key: string = `${keyParts[1]}/${keyParts[2]}.html`;
@@ -138,7 +138,7 @@ export default class Scraper {
         data[dataKey] = updated || value;
       }
     }
-    return data as any as IRepeaterRaw;
+    return data as any as RepeaterRaw;
   }
 
   private async getUrl(url: string, cacheKey?: string): Promise<string> {

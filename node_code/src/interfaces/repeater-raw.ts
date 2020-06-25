@@ -1,4 +1,4 @@
-export interface IRepeaterRaw {
+export interface RepeaterRaw {
   Frequency: number;
   Offset: number;
   Tone: any;

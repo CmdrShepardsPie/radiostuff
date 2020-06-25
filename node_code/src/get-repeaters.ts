@@ -2,7 +2,7 @@ import 'module-alias/register';
 
 import { program } from 'commander';
 import { createLog } from '@helpers/log-helpers';
-import { IRepeaterRaw } from '@interfaces/i-repeater-raw';
+import { RepeaterRaw } from '@interfaces/repeater-raw';
 import chalk from 'chalk';
 import Scraper from './modules/scraper';
 import { writeToCsv, writeToJson } from '@helpers/fs-helpers';
@@ -32,12 +32,12 @@ async function getRepeaters(place: string | number, distance: number): Promise<v
 
   const scraper: Scraper = new Scraper(place, distance);
 
-  const repeaters: IRepeaterRaw[] = await scraper.scrape();
+  const repeaters: RepeaterRaw[] = await scraper.scrape();
 
-  const columns: { [key in keyof Partial<IRepeaterRaw>]: (string | number | undefined)[] } = {};
-  repeaters.forEach((row: IRepeaterRaw): void => {
+  const columns: { [key in keyof Partial<RepeaterRaw>]: (string | number | undefined)[] } = {};
+  repeaters.forEach((row: RepeaterRaw): void => {
     Object.entries(row).forEach((entry: [string, (string | number | undefined)]): void => {
-      const key: keyof IRepeaterRaw = entry[0] as keyof IRepeaterRaw;
+      const key: keyof RepeaterRaw = entry[0] as keyof RepeaterRaw;
       const value: string | number | undefined = entry[1];
       if (!columns[key]) {
         columns[key] = [];
@@ -48,9 +48,9 @@ async function getRepeaters(place: string | number, distance: number): Promise<v
     });
   });
 
-  repeaters.forEach((row: IRepeaterRaw): void => {
+  repeaters.forEach((row: RepeaterRaw): void => {
     Object.entries(row).forEach((entry: [string, (string | number | undefined)]): void => {
-      const key: keyof IRepeaterRaw = entry[0] as keyof IRepeaterRaw;
+      const key: keyof RepeaterRaw = entry[0] as keyof RepeaterRaw;
       const value: string | number | undefined = entry[1];
       if (columns[key]!.length === 1 && columns[key]![0] === '' && value === '') {
         // @ts-ignore

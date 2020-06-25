@@ -1,9 +1,9 @@
-export interface ISimplexRepeaterIntermediate {
+export interface SimplexRepeaterIntermediate {
   Callsign: string;
   Frequency: { Input: number; Output: number };
 }
 
-export interface IRepeaterStructured {
+export interface RepeaterStructured {
   ID: number;
   StateID: number;
   Callsign: string;
@@ -14,8 +14,8 @@ export interface IRepeaterStructured {
   Frequency: { Input: number; Output: number };
   SquelchTone?: { Input?: number; Output?: number };
   DigitalTone?: { Input?: number; Output?: number };
-  Digital?: IRepeaterDigitalModes;
-  VOIP?: IRepeaterVOIPModes;
+  Digital?: RepeaterDigitalModes;
+  VOIP?: RepeaterVOIPModes;
   // Comment: string;
 }
 
@@ -39,7 +39,7 @@ export enum EchoLinkNodeStatus {
   NodeOffline = 'Node Offline',
 }
 
-export interface IRepeaterDigitalModes {
+export interface RepeaterDigitalModes {
   ATV?: boolean;
   DMR?: { ColorCode?: number; ID?: number };
   P25?: { NAC?: number; };
@@ -47,7 +47,7 @@ export interface IRepeaterDigitalModes {
   YSF?: { GroupID?: { Input?: string; Output?: string }; };
 }
 
-export interface IRepeaterVOIPModes {
+export interface RepeaterVOIPModes {
   AllStar?: { NodeID?: number; };
   EchoLink?: { NodeID?: number; Call?: string; Status?: EchoLinkNodeStatus };
   IRLP?: { NodeID?: number; };

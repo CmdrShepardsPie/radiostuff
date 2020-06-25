@@ -1,4 +1,4 @@
-export interface IInputFrequency {
+export interface InputFrequency {
   start: number;
   end: number;
   name: string;
