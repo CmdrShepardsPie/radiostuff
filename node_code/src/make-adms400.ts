@@ -1,6 +1,6 @@
 import 'module-alias/register';
 
-import { readFileAsync, writeToCsv } from '@helpers/fs-helpers';
+import { readFileAsync, readFromCsv, writeToCsv } from '@helpers/fs-helpers';
 import { createLog } from '@helpers/log-helpers';
 import { RepeaterStructured } from '@interfaces/repeater-structured';
 import { SimplexFrequency } from '@interfaces/simplex-frequency';
@@ -49,11 +49,10 @@ program.parse(process.argv);
 
 async function doIt(inFileName: string, outFileName: string): Promise<void> {
   const simplex: RepeaterStructured[] =
-    JSON.parse((await readFileAsync('../data/frequencies.json')).toString())
+    (await readFromCsv<SimplexFrequency>('../data/simplex-frequencies.csv'))
       .map((map: SimplexFrequency): RepeaterStructured =>
         ({ Callsign: map.Name, Frequency: { Output: map.Frequency, Input: map.Frequency } }) as RepeaterStructured)
-      .filter((filter: RepeaterStructured): boolean => /FM|Voice|Simplex/i.test(filter.Callsign))
-      .filter((filter: RepeaterStructured): boolean => !(/Data|Digital|Packet/i.test(filter.Callsign)));
+      .filter((filter: RepeaterStructured): boolean => /FM|Digital|Mixed/i.test(filter.Callsign)); // TODO: Make a function and enum
 
   const repeaters: RepeaterStructured[] =
     JSON.parse((await readFileAsync(inFileName)).toString());
@@ -70,10 +69,16 @@ async function doIt(inFileName: string, outFileName: string): Promise<void> {
   const unique: { [key: string]: boolean } = {};
   const mapped: Adms400[] = [
     ...simplex
-      .filter(filterFrequencies(FrequencyBand.$2_m, FrequencyBand.$70_cm)),
+      .filter(filterFrequencies(
+        FrequencyBand.$2_m,
+        FrequencyBand.$70_cm,
+      )),
     ...repeaters
       // .filter(filterMinimumRepeaterCount(3, repeaters))
-      .filter(filterFrequencies(FrequencyBand.$2_m, FrequencyBand.$70_cm))
+      .filter(filterFrequencies(
+        FrequencyBand.$2_m,
+        FrequencyBand.$70_cm,
+      ))
       // .filter(filterDistance(100))
       .filter(filterMode(Mode.FM, Mode.YSF)),
   ]

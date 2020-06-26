@@ -1,6 +1,6 @@
 import 'module-alias/register';
 
-import { readFileAsync, writeToCsv } from '@helpers/fs-helpers';
+import { readFileAsync, readFromCsv, writeToCsv } from '@helpers/fs-helpers';
 import { createLog } from '@helpers/log-helpers';
 import { RepeaterStructured } from '@interfaces/repeater-structured';
 import { SimplexFrequency } from '@interfaces/simplex-frequency';
@@ -49,12 +49,11 @@ program.parse(process.argv);
 
 async function doIt(inFileName: string, outFileName: string): Promise<void> {
   const promises: Promise<void>[] = [];
+
   const simplex: RepeaterStructured[] =
-    JSON.parse((await readFileAsync('../data/frequencies.json')).toString())
+    (await readFromCsv<SimplexFrequency>('../data/simplex-frequencies.csv'))
       .map((map: SimplexFrequency): RepeaterStructured =>
-        ({ Callsign: map.Name, Frequency: { Output: map.Frequency, Input: map.Frequency } }) as RepeaterStructured)
-      .filter((filter: RepeaterStructured): boolean => /FM|Voice|Simplex/i.test(filter.Callsign))
-      .filter((filter: RepeaterStructured): boolean => !(/Data|Digital|Packet/i.test(filter.Callsign)));
+        ({ Callsign: map.Name, Frequency: { Output: map.Frequency, Input: map.Frequency } }) as RepeaterStructured); // TODO: Make a function and enum
 
   const repeaters: RepeaterStructured[] =
     JSON.parse((await readFileAsync(inFileName)).toString());
@@ -71,10 +70,36 @@ async function doIt(inFileName: string, outFileName: string): Promise<void> {
   const unique: { [key: string]: boolean } = {};
   const mapped: Wcs7100[] = [
     ...simplex
-      .filter(filterFrequencies(FrequencyBand.$2_m, FrequencyBand.$70_cm)),
+      .filter(filterFrequencies(
+        FrequencyBand.$160_m,
+        FrequencyBand.$80_m,
+        FrequencyBand.$40_m,
+        FrequencyBand.$30_m,
+        FrequencyBand.$20_m,
+        FrequencyBand.$17_m,
+        FrequencyBand.$15_m,
+        FrequencyBand.$12_m,
+        FrequencyBand.$10_m,
+        FrequencyBand.$6_m,
+        FrequencyBand.$2_m,
+        FrequencyBand.$70_cm,
+      )),
     ...repeaters
       // .filter(filterMinimumRepeaterCount(3, repeaters))
-      .filter(filterFrequencies(FrequencyBand.$2_m, FrequencyBand.$70_cm))
+      .filter(filterFrequencies(
+        FrequencyBand.$160_m,
+        FrequencyBand.$80_m,
+        FrequencyBand.$40_m,
+        FrequencyBand.$30_m,
+        FrequencyBand.$20_m,
+        FrequencyBand.$17_m,
+        FrequencyBand.$15_m,
+        FrequencyBand.$12_m,
+        FrequencyBand.$10_m,
+        FrequencyBand.$6_m,
+        FrequencyBand.$2_m,
+        FrequencyBand.$70_cm,
+      ))
       // .filter(filterDistance(100))
       .filter(filterMode(Mode.FM, Mode.DStar)),
   ]
@@ -120,11 +145,25 @@ function convertToRadio(repeater: RepeaterStructured): Wcs7100 {
   let Rpt1CallSign: string = '';
   let Rpt2CallSign: string = '';
 
-  if (repeater.Digital && repeater.Digital.DStar && repeater.Digital.DStar.Node) {
+  if ((repeater.Digital && repeater.Digital.DStar && repeater.Digital.DStar.Node) || /^Digital/.test(repeater.Callsign)) {
     OperatingMode = Wcs7100OperatingMode.DV;
     YourCallsign = Wcs7100YourCallsign.CQCQCQ;
-    Rpt1CallSign = convertDStarCallSign(repeater.Callsign, repeater.Digital.DStar.Node);
-    Rpt2CallSign = convertDStarCallSign(repeater.Callsign, 'G');
+    if (repeater.Digital && repeater.Digital.DStar && repeater.Digital.DStar.Node) {
+      Rpt1CallSign = convertDStarCallSign(repeater.Callsign, repeater.Digital.DStar.Node);
+      Rpt2CallSign = convertDStarCallSign(repeater.Callsign, 'G');
+    }
+  } else if (/^AM/.test(repeater.Callsign)) {
+    OperatingMode = Wcs7100OperatingMode.AM;
+  } else if (/^SSB/.test(repeater.Callsign)) {
+    if (repeater.Frequency.Output <= 10) {
+      OperatingMode = Wcs7100OperatingMode.LSB;
+    } else {
+      OperatingMode = Wcs7100OperatingMode.USB;
+    }
+  } else if (/^CW/.test(repeater.Callsign)) {
+    OperatingMode = Wcs7100OperatingMode.CW;
+  } else if (/^RTTY/.test(repeater.Callsign)) {
+    OperatingMode = Wcs7100OperatingMode.RTTY;
   }
 
   let ToneMode: Wcs7100ToneMode = Wcs7100ToneMode.None;

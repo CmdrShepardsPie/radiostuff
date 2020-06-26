@@ -1,4 +1,4 @@
-import { fillArrayObjects, stringifyAsync } from '@helpers/csv-helpers';
+import { fillArrayObjects, parseAsync, stringifyAsync } from '@helpers/csv-helpers';
 import { flattenObject } from '@helpers/helpers';
 import { createLog } from '@helpers/log-helpers';
 import chalk from 'chalk';
@@ -64,6 +64,18 @@ export async function writeToCsv(filename: string, csvData: any | any[], header:
   const csvName: string = `${filename}.csv`;
   await makeDirs(csvName);
   await writeFileAsync(csvName, csvString);
+}
+
+export async function readFromJson<T>(filename: string): Promise<T> {
+  const fileBuffer: Buffer = await readFileAsync(filename);
+  const fileString: string = fileBuffer.toString();
+  return JSON.parse(fileString);
+}
+
+export async function readFromCsv<T>(filename: string, columns: boolean = true, cast: boolean = true): Promise<T[]> {
+  const fileBuffer: Buffer = await readFileAsync(filename);
+  const fileString: string = fileBuffer.toString();
+  return parseAsync(fileString, { columns, cast });
 }
 
 export function splitExtension(filename: string): { ext: string; name: string; path: string; } {

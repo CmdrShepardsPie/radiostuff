@@ -13,11 +13,20 @@
     const repeater_structured_1 = require("@interfaces/repeater-structured");
     var FrequencyBand;
     (function (FrequencyBand) {
-        FrequencyBand[FrequencyBand["$10_m"] = 0] = "$10_m";
-        FrequencyBand[FrequencyBand["$6_m"] = 1] = "$6_m";
-        FrequencyBand[FrequencyBand["$2_m"] = 2] = "$2_m";
-        FrequencyBand[FrequencyBand["$1_25_m"] = 3] = "$1_25_m";
-        FrequencyBand[FrequencyBand["$70_cm"] = 4] = "$70_cm";
+        FrequencyBand[FrequencyBand["$160_m"] = 0] = "$160_m";
+        FrequencyBand[FrequencyBand["$80_m"] = 1] = "$80_m";
+        // $60_m,
+        FrequencyBand[FrequencyBand["$40_m"] = 2] = "$40_m";
+        FrequencyBand[FrequencyBand["$30_m"] = 3] = "$30_m";
+        FrequencyBand[FrequencyBand["$20_m"] = 4] = "$20_m";
+        FrequencyBand[FrequencyBand["$17_m"] = 5] = "$17_m";
+        FrequencyBand[FrequencyBand["$15_m"] = 6] = "$15_m";
+        FrequencyBand[FrequencyBand["$12_m"] = 7] = "$12_m";
+        FrequencyBand[FrequencyBand["$10_m"] = 8] = "$10_m";
+        FrequencyBand[FrequencyBand["$6_m"] = 9] = "$6_m";
+        FrequencyBand[FrequencyBand["$2_m"] = 10] = "$2_m";
+        FrequencyBand[FrequencyBand["$1_25_m"] = 11] = "$1_25_m";
+        FrequencyBand[FrequencyBand["$70_cm"] = 12] = "$70_cm";
     })(FrequencyBand = exports.FrequencyBand || (exports.FrequencyBand = {}));
     var Mode;
     (function (Mode) {
@@ -29,7 +38,16 @@
         Mode[Mode["YSF"] = 5] = "YSF";
     })(Mode = exports.Mode || (exports.Mode = {}));
     function filterFrequencies(...bands) {
-        return (filter) => (bands.includes(FrequencyBand.$10_m) && filter.Frequency.Output >= 28 && filter.Frequency.Output <= 29.7) ||
+        return (filter) => (bands.includes(FrequencyBand.$160_m) && filter.Frequency.Output >= 1.8 && filter.Frequency.Output <= 2.0) ||
+            (bands.includes(FrequencyBand.$80_m) && filter.Frequency.Output >= 3.5 && filter.Frequency.Output <= 4.0) ||
+            // (bands.includes(FrequencyBand.$60_m) && filter.Frequency.Output >= 28 && filter.Frequency.Output <= 29.7) ||
+            (bands.includes(FrequencyBand.$40_m) && filter.Frequency.Output >= 7.0 && filter.Frequency.Output <= 7.3) ||
+            (bands.includes(FrequencyBand.$30_m) && filter.Frequency.Output >= 10.1 && filter.Frequency.Output <= 10.15) ||
+            (bands.includes(FrequencyBand.$20_m) && filter.Frequency.Output >= 14.0 && filter.Frequency.Output <= 14.35) ||
+            (bands.includes(FrequencyBand.$17_m) && filter.Frequency.Output >= 18.068 && filter.Frequency.Output <= 18.168) ||
+            (bands.includes(FrequencyBand.$15_m) && filter.Frequency.Output >= 21.0 && filter.Frequency.Output <= 21.45) ||
+            (bands.includes(FrequencyBand.$12_m) && filter.Frequency.Output >= 24.89 && filter.Frequency.Output <= 24.99) ||
+            (bands.includes(FrequencyBand.$10_m) && filter.Frequency.Output >= 28 && filter.Frequency.Output <= 29.7) ||
             (bands.includes(FrequencyBand.$6_m) && filter.Frequency.Output >= 50 && filter.Frequency.Output <= 54) ||
             (bands.includes(FrequencyBand.$2_m) && filter.Frequency.Output >= 144 && filter.Frequency.Output <= 148) ||
             (bands.includes(FrequencyBand.$1_25_m) && filter.Frequency.Output >= 222 && filter.Frequency.Output <= 225) ||

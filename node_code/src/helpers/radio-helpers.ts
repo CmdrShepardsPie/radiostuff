@@ -1,6 +1,15 @@
 import { RepeaterStructured, RepeaterStatus, RepeaterUse } from '@interfaces/repeater-structured';
 
 export enum FrequencyBand {
+  $160_m,
+  $80_m,
+  // $60_m,
+  $40_m,
+  $30_m,
+  $20_m,
+  $17_m,
+  $15_m,
+  $12_m,
   $10_m,
   $6_m,
   $2_m,
@@ -19,6 +28,15 @@ export enum Mode {
 
 export function filterFrequencies(...bands: FrequencyBand[]): (filter: RepeaterStructured) => boolean {
   return (filter: RepeaterStructured): boolean =>
+    (bands.includes(FrequencyBand.$160_m) && filter.Frequency.Output >= 1.8 && filter.Frequency.Output <= 2.0) ||
+    (bands.includes(FrequencyBand.$80_m) && filter.Frequency.Output >= 3.5 && filter.Frequency.Output <= 4.0) ||
+    // (bands.includes(FrequencyBand.$60_m) && filter.Frequency.Output >= 28 && filter.Frequency.Output <= 29.7) ||
+    (bands.includes(FrequencyBand.$40_m) && filter.Frequency.Output >= 7.0 && filter.Frequency.Output <= 7.3) ||
+    (bands.includes(FrequencyBand.$30_m) && filter.Frequency.Output >= 10.1 && filter.Frequency.Output <= 10.15) ||
+    (bands.includes(FrequencyBand.$20_m) && filter.Frequency.Output >= 14.0 && filter.Frequency.Output <= 14.35) ||
+    (bands.includes(FrequencyBand.$17_m) && filter.Frequency.Output >= 18.068 && filter.Frequency.Output <= 18.168) ||
+    (bands.includes(FrequencyBand.$15_m) && filter.Frequency.Output >= 21.0 && filter.Frequency.Output <= 21.45) ||
+    (bands.includes(FrequencyBand.$12_m) && filter.Frequency.Output >= 24.89 && filter.Frequency.Output <= 24.99) ||
     (bands.includes(FrequencyBand.$10_m) && filter.Frequency.Output >= 28 && filter.Frequency.Output <= 29.7) ||
     (bands.includes(FrequencyBand.$6_m) && filter.Frequency.Output >= 50 && filter.Frequency.Output <= 54) ||
     (bands.includes(FrequencyBand.$2_m) && filter.Frequency.Output >= 144 && filter.Frequency.Output <= 148) ||

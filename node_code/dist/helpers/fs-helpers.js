@@ -12,7 +12,7 @@ var __importDefault = (this && this.__importDefault) || function (mod) {
 })(function (require, exports) {
     "use strict";
     Object.defineProperty(exports, "__esModule", { value: true });
-    exports.getAllFilesInDirectory = exports.splitExtension = exports.writeToCsv = exports.writeToJson = exports.dirExists = exports.makeDirs = exports.statAsync = exports.writeFileAsync = exports.readdirAsync = exports.readFileAsync = exports.mkdirAsync = exports.existsAsync = void 0;
+    exports.getAllFilesInDirectory = exports.splitExtension = exports.readFromCsv = exports.readFromJson = exports.writeToCsv = exports.writeToJson = exports.dirExists = exports.makeDirs = exports.statAsync = exports.writeFileAsync = exports.readdirAsync = exports.readFileAsync = exports.mkdirAsync = exports.existsAsync = void 0;
     const csv_helpers_1 = require("@helpers/csv-helpers");
     const helpers_1 = require("@helpers/helpers");
     const log_helpers_1 = require("@helpers/log-helpers");
@@ -77,6 +77,18 @@ var __importDefault = (this && this.__importDefault) || function (mod) {
         await exports.writeFileAsync(csvName, csvString);
     }
     exports.writeToCsv = writeToCsv;
+    async function readFromJson(filename) {
+        const fileBuffer = await exports.readFileAsync(filename);
+        const fileString = fileBuffer.toString();
+        return JSON.parse(fileString);
+    }
+    exports.readFromJson = readFromJson;
+    async function readFromCsv(filename, columns = true, cast = true) {
+        const fileBuffer = await exports.readFileAsync(filename);
+        const fileString = fileBuffer.toString();
+        return csv_helpers_1.parseAsync(fileString, { columns, cast });
+    }
+    exports.readFromCsv = readFromCsv;
     function splitExtension(filename) {
         log(chalk_1.default.green('Split Extension'), filename);
         const filePath = filename.substring(0, filename.lastIndexOf(path_1.default.sep));
