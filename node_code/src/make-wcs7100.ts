@@ -1,6 +1,6 @@
 import 'module-alias/register';
 
-import { getAllFilesInDirectory, readFileAsync, readFromCsv, writeToCsv} from '@helpers/fs-helpers';
+import { getAllFilesInDirectory, readFileAsync, readFromCsv, writeToCsv } from '@helpers/fs-helpers';
 import { createLog } from '@helpers/log-helpers';
 import { RepeaterStructured } from '@interfaces/repeater-structured';
 import { SimplexFrequency } from '@interfaces/simplex-frequency';
@@ -73,7 +73,7 @@ async function doIt(location: gpsDistance.Point, outFileName: string): Promise<v
     const name: string = `${fileData.StateID} ${fileData.ID}`;
     if (!uniqueFileName[name]) {
       uniqueFileName[name] = true;
-      fileData.Location.Distance = gpsDistance([location, [fileData.Location.Latitude, fileData.Location.Longitude]]);
+      fileData.Location.Distance = Math.round(gpsDistance([location, [fileData.Location.Latitude, fileData.Location.Longitude]]));
       repeaters.push(fileData);
     }
   }));
@@ -152,15 +152,19 @@ async function doIt(location: gpsDistance.Point, outFileName: string): Promise<v
 
   const B: Wcs7100[] = duplexWcs7100
     .slice(0, 99)
+    .sort((a: Wcs7100, b: Wcs7100): number => a.Name > b.Name ? 1 : a.Name < b.Name ? - 1 : 0)
     .map((map: Wcs7100, index: number): Wcs7100 => ({ ...map, 'Channel Number': index + 1 }));
   const C: Wcs7100[] = duplexWcs7100
     .slice(99, 198)
+    .sort((a: Wcs7100, b: Wcs7100): number => a.Name > b.Name ? 1 : a.Name < b.Name ? - 1 : 0)
     .map((map: Wcs7100, index: number): Wcs7100 => ({ ...map, 'Channel Number': index + 1 }));
   const D: Wcs7100[] = duplexWcs7100
     .slice(198, 297)
+    .sort((a: Wcs7100, b: Wcs7100): number => a.Name > b.Name ? 1 : a.Name < b.Name ? - 1 : 0)
     .map((map: Wcs7100, index: number): Wcs7100 => ({ ...map, 'Channel Number': index + 1 }));
   const E: Wcs7100[] = duplexWcs7100
     .slice(297, 396)
+    .sort((a: Wcs7100, b: Wcs7100): number => a.Name > b.Name ? 1 : a.Name < b.Name ? - 1 : 0)
     .map((map: Wcs7100, index: number): Wcs7100 => ({ ...map, 'Channel Number': index + 1 }));
 
   promises.push(writeToCsv(`${outFileName}-A`, simplexWcs7100));
@@ -173,7 +177,8 @@ async function doIt(location: gpsDistance.Point, outFileName: string): Promise<v
 }
 
 function convertToRadio(repeater: RepeaterStructured): Wcs7100 {
-  const Name: string = `${buildName(repeater)} ${getRepeaterSuffix(repeater)}`;
+  // const Name: string = `${buildName(repeater)} ${getRepeaterSuffix(repeater)}`;
+  const Name: string = `${buildName(repeater)}`;
 
   const Receive: number = repeater.Frequency.Output;
   const Transmit: number = repeater.Frequency.Input;

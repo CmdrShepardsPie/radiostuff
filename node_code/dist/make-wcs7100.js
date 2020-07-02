@@ -53,7 +53,7 @@ var __importDefault = (this && this.__importDefault) || function (mod) {
             const name = `${fileData.StateID} ${fileData.ID}`;
             if (!uniqueFileName[name]) {
                 uniqueFileName[name] = true;
-                fileData.Location.Distance = gps_distance_1.default([location, [fileData.Location.Latitude, fileData.Location.Longitude]]);
+                fileData.Location.Distance = Math.round(gps_distance_1.default([location, [fileData.Location.Latitude, fileData.Location.Longitude]]));
                 repeaters.push(fileData);
             }
         }));
@@ -97,15 +97,19 @@ var __importDefault = (this && this.__importDefault) || function (mod) {
             .filter((filter) => filter['Offset Direction'] !== wcs7100_1.Wcs7100OffsetDirection.Simplex || filter['Tone Mode'] !== wcs7100_1.Wcs7100ToneMode.None);
         const B = duplexWcs7100
             .slice(0, 99)
+            .sort((a, b) => a.Name > b.Name ? 1 : a.Name < b.Name ? -1 : 0)
             .map((map, index) => ({ ...map, 'Channel Number': index + 1 }));
         const C = duplexWcs7100
             .slice(99, 198)
+            .sort((a, b) => a.Name > b.Name ? 1 : a.Name < b.Name ? -1 : 0)
             .map((map, index) => ({ ...map, 'Channel Number': index + 1 }));
         const D = duplexWcs7100
             .slice(198, 297)
+            .sort((a, b) => a.Name > b.Name ? 1 : a.Name < b.Name ? -1 : 0)
             .map((map, index) => ({ ...map, 'Channel Number': index + 1 }));
         const E = duplexWcs7100
             .slice(297, 396)
+            .sort((a, b) => a.Name > b.Name ? 1 : a.Name < b.Name ? -1 : 0)
             .map((map, index) => ({ ...map, 'Channel Number': index + 1 }));
         promises.push(fs_helpers_1.writeToCsv(`${outFileName}-A`, simplexWcs7100));
         promises.push(fs_helpers_1.writeToCsv(`${outFileName}-B`, B));
@@ -115,7 +119,8 @@ var __importDefault = (this && this.__importDefault) || function (mod) {
         await Promise.all(promises);
     }
     function convertToRadio(repeater) {
-        const Name = `${radio_helpers_1.buildName(repeater)} ${radio_helpers_1.getRepeaterSuffix(repeater)}`;
+        // const Name: string = `${buildName(repeater)} ${getRepeaterSuffix(repeater)}`;
+        const Name = `${radio_helpers_1.buildName(repeater)}`;
         const Receive = repeater.Frequency.Output;
         const Transmit = repeater.Frequency.Input;
         const OffsetFrequency = repeater.Frequency.Input - repeater.Frequency.Output;
