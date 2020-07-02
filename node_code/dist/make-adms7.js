@@ -38,7 +38,7 @@ var __importDefault = (this && this.__importDefault) || function (mod) {
     async function doIt(inFileName, outFileName) {
         const simplex = (await fs_helpers_1.readFromCsv('../data/simplex-frequencies.csv'))
             .map((map) => ({ Callsign: map.Name, Frequency: { Output: map.Frequency, Input: map.Frequency } }))
-            .filter((filter) => /FM|Digital|Mixed/i.test(filter.Callsign)); // TODO: Make a function and enum
+            .filter((filter) => /FM|Digital|Mixed|Fusion/i.test(filter.Callsign)); // TODO: Make a function and enum
         const repeaters = JSON.parse((await fs_helpers_1.readFileAsync(inFileName)).toString());
         // repeaters.forEach((each: RepeaterStructured): void => {
         //   each.Location.Distance = Math.min(

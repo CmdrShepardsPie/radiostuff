@@ -6,51 +6,54 @@ Frequency,Name
 7.04,RTTY DX
 7.29,AM Calling
 14.286,AM Calling
-29.6,FM
+29.6,FM Simplex
 50.125,SSB Calling
 50.62,Digital Calling
-52.02,FM
-52.04,FM
-52.525,FM
-52.54,FM
+52.02,FM Simplex
+52.04,FM Simplex
+52.525,FM Simplex
+52.54,FM Simplex
 53.02,Mixed
 53.52,Mixed
 53.9,Mixed
 144.2,SSB Calling
-146.4,FM
-146.415,FM
-146.43,FM
-146.445,FM
-146.46,FM
-146.475,FM
-146.49,FM
-146.505,FM
+145.5625,Fusion Simplex
+145.67,D-Star Simplex
+146.4,FM Simplex
+146.415,FM Simplex
+146.43,FM Simplex
+146.445,FM Simplex
+146.46,FM Simplex
+146.475,FM Simplex
+146.49,FM Simplex
+146.505,FM Simplex
 146.52,FM Calling
-146.535,FM
-146.55,FM
-146.565,FM
-146.58,FM
-146.595,FM
-147.42,FM
-147.435,FM
-147.45,FM
-147.465,FM
-147.48,FM
-147.495,FM
-147.51,FM
-147.525,FM
-147.54,FM
-147.555,FM
-147.57,FM
-147.585,FM
+146.535,FM Simplex
+146.55,FM Simplex
+146.565,FM Simplex
+146.58,FM Simplex
+146.595,FM Simplex
+147.42,FM Simplex
+147.435,FM Simplex
+147.45,FM Simplex
+147.465,FM Simplex
+147.48,FM Simplex
+147.495,FM Simplex
+147.51,FM Simplex
+147.525,FM Simplex
+147.525,Fusion Simplex
+147.54,FM Simplex
+147.555,FM Simplex
+147.57,FM Simplex
+147.585,FM Simplex
 222.1,SSB Calling
-223.4,FM
-223.42,FM
-223.44,FM
-223.46,FM
-223.48,FM
+223.4,FM Simplex
+223.42,FM Simplex
+223.44,FM Simplex
+223.46,FM Simplex
+223.48,FM Simplex
 223.5,FM Calling
-223.52,FM
+223.52,FM Simplex
 432.1,SSB Calling
 440.7,Mixed
 440.725,Mixed
@@ -76,36 +79,37 @@ Frequency,Name
 441.225,Mixed
 441.25,Mixed
 441.275,Mixed
-445.7,FM
-445.725,FM
-445.75,FM
-445.775,FM
-445.8,FM
-445.825,FM
-445.85,FM
-445.875,FM
-445.9,FM
-445.925,FM
-445.95,FM
-445.975,FM
+445.7,FM Simplex
+445.725,FM Simplex
+445.75,FM Simplex
+445.775,FM Simplex
+445.8,FM Simplex
+445.825,FM Simplex
+445.85,FM Simplex
+445.875,FM Simplex
+445.9,FM Simplex
+445.925,FM Simplex
+445.95,FM Simplex
+445.975,FM Simplex
 446,FM Calling
-446.025,FM
-446.05,FM
-446.075,FM
-446.1,FM
-446.125,FM
-446.15,FM
-446.175,FM
-446.2,FM
+446.025,FM Simplex
+446.05,FM Simplex
+446.075,FM Simplex
+446.1,FM Simplex
+446.125,FM Simplex
+446.15,FM Simplex
+446.175,FM Simplex
+446.2,FM Simplex
 446.2,Digital
 446.2125,Digital
-446.225,FM
+446.225,FM Simplex
 446.225,Digital
+446.225,D-Star Simplex
 446.2375,Digital
-446.25,FM
+446.25,FM Simplex
 446.25,Digital
 446.2625,Digital
-446.275,FM
+446.275,FM Simplex
 446.275,Digital
 446.2875,Digital
 446.3,Digital

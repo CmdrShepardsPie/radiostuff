@@ -53,7 +53,8 @@ async function doIt(inFileName: string, outFileName: string): Promise<void> {
   const simplex: RepeaterStructured[] =
     (await readFromCsv<SimplexFrequency>('../data/simplex-frequencies.csv'))
       .map((map: SimplexFrequency): RepeaterStructured =>
-        ({ Callsign: map.Name, Frequency: { Output: map.Frequency, Input: map.Frequency } }) as RepeaterStructured); // TODO: Make a function and enum
+        ({ Callsign: map.Name, Frequency: { Output: map.Frequency, Input: map.Frequency } }) as RepeaterStructured)
+      .filter((filter: RepeaterStructured): boolean => !/Fusion/i.test(filter.Callsign)); // TODO: Make a function and enum
 
   const repeaters: RepeaterStructured[] =
     JSON.parse((await readFileAsync(inFileName)).toString());
