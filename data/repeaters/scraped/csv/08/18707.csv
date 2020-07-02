@@ -1,2 +1,2 @@
-Frequency,Offset,Tone,Call,Location,ST/PR,Use,VOIP,DGTL,Mi,Dir,,state_id,ID,Latitude,Longitude,Downlink,Uplink,Uplink Tone,Downlink Tone,County,Op Status,Sponsor,Last update
-145.28,-0.6,100,WB0SLW,Pueblo,CO,OPEN,,,97.25,S,,08,18707,38.2544472,-104.6091409,145.28,144.68,100,100,Pueblo,On-Air,Steve Worley,2020-04-26
+Frequency,Offset,Tone Up / Down,Location,County,Call,Use,,state_id,ID,Latitude,Longitude,Downlink,Uplink,Uplink Tone,Downlink Tone,Op Status,Sponsor,Last update
+145.28,-0.6,100,Pueblo,Pueblo,WB0SLW,OPEN,,08,18707,38.2544472,-104.6091409,145.28,144.68,100,100,On-Air,Steve Worley,2020-04-26

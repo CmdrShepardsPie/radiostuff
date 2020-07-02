@@ -7,7 +7,7 @@ var __importDefault = (this && this.__importDefault) || function (mod) {
         if (v !== undefined) module.exports = v;
     }
     else if (typeof define === "function" && define.amd) {
-        define(["require", "exports", "module-alias/register", "@helpers/fs-helpers", "@helpers/log-helpers", "@interfaces/wcs7100", "chalk", "@helpers/radio-helpers", "commander"], factory);
+        define(["require", "exports", "module-alias/register", "@helpers/fs-helpers", "@helpers/log-helpers", "@interfaces/wcs7100", "chalk", "@helpers/radio-helpers", "commander", "gps-distance"], factory);
     }
 })(function (require, exports) {
     "use strict";
@@ -19,6 +19,7 @@ var __importDefault = (this && this.__importDefault) || function (mod) {
     const chalk_1 = __importDefault(require("chalk"));
     const radio_helpers_1 = require("@helpers/radio-helpers");
     const commander_1 = require("commander");
+    const gps_distance_1 = __importDefault(require("gps-distance"));
     const log = log_helpers_1.createLog('Make Wcs7100');
     // const homePoint: Point = [39.627071500, -104.893322500]; // 4982 S Ulster St
     // const DenverPoint: Point = [39.742043, -104.991531];
@@ -26,29 +27,50 @@ var __importDefault = (this && this.__importDefault) || function (mod) {
     log('Program Setup');
     commander_1.program
         .version('0.0.1')
-        .arguments('<location>')
-        .action(async (location) => {
-        log('Program Action');
+        .arguments('<location> <name>')
+        .action(async (location, name) => {
+        log('Program Action', location, name);
         if (location) {
-            await doIt(`../data/repeaters/converted/json/${location}.json`, `../data/repeaters/wcs7100/${location}`);
+            const latLong = location.split(',').map((l) => parseFloat(l));
+            await doIt(latLong, `../data/repeaters/wcs7100/${name}`);
         }
     });
     log('Program Parse Args');
     commander_1.program.parse(process.argv);
-    async function doIt(inFileName, outFileName) {
+    async function doIt(location, outFileName) {
         const promises = [];
+        const repeaters = [];
         const simplex = (await fs_helpers_1.readFromCsv('../data/simplex-frequencies.csv'))
             .map((map) => ({ Callsign: map.Name, Frequency: { Output: map.Frequency, Input: map.Frequency } }))
             .filter((filter) => !/Fusion|Mixed/i.test(filter.Callsign)); // TODO: Make a function and enum
-        const repeaters = JSON.parse((await fs_helpers_1.readFileAsync(inFileName)).toString());
+        const files = await fs_helpers_1.getAllFilesInDirectory('../data/repeaters/converted/json', 'json', 1);
+        log('Got', files.length, 'Files');
+        const uniqueFiles = {};
+        await Promise.all(files.map(async (file) => {
+            // log('Read File', file);
+            const fileBuffer = await fs_helpers_1.readFileAsync(file);
+            const fileString = fileBuffer.toString();
+            const fileData = JSON.parse(fileString);
+            const name = `${fileData.StateID} ${fileData.ID}`;
+            if (!uniqueFiles[name]) {
+                uniqueFiles[name] = true;
+                fileData.Location.Distance = gps_distance_1.default([location, [fileData.Location.Latitude, fileData.Location.Longitude]]);
+                repeaters.push(fileData);
+            }
+        }));
+        log('Got', repeaters.length, 'Repeaters');
         // repeaters.forEach((each: RepeaterStructured): void => {
         //   each.Location.Distance = Math.min(
-        //     gpsDistance([homePoint, [each.Location.Latitude, each.Location.Longitude]]),
+        //     gpsDistance([location, [each.Location.Latitude, each.Location.Longitude]]),
         //     // gpsDistance([DenverPoint, [each.Location.Latitude, each.Location.Longitude]]),
         //     // gpsDistance([ColoradoSpringsPoint, [each.Location.Latitude, each.Location.Longitude]]),
         //   );
         // });
-        // repeaters.sort((a: RepeaterStructured, b: RepeaterStructured): number => a.Location.Distance! - b.Location.Distance!);
+        repeaters
+            .sort((a, b) => (a.DigitalTone && a.DigitalTone.Input || 0) - (b.DigitalTone && b.DigitalTone.Input || 0))
+            .sort((a, b) => (a.SquelchTone && a.SquelchTone.Input || 0) - (b.SquelchTone && b.SquelchTone.Input || 0))
+            .sort((a, b) => a.Frequency.Input - b.Frequency.Input)
+            .sort((a, b) => a.Location.Distance - b.Location.Distance);
         const unique = {};
         const mapped = [
             ...simplex
@@ -67,45 +89,45 @@ var __importDefault = (this && this.__importDefault) || function (mod) {
             }
             unique[name] = true;
             return true;
-        })
-            .slice(0, 500);
+        });
+        // .slice(0, 500);
         const simplexWcs7100 = mapped
             .filter((filter) => filter['Offset Direction'] === wcs7100_1.Wcs7100OffsetDirection.Simplex && filter['Tone Mode'] === wcs7100_1.Wcs7100ToneMode.None)
             .slice(0, 99)
-            .sort((a, b) => parseFloat(a.CTCSS) - parseFloat(b.CTCSS))
-            .sort((a, b) => a['Receive Frequency'] - b['Receive Frequency'])
-            .sort((a, b) => parseFloat(a.CTCSS) - parseFloat(b.CTCSS))
-            .sort((a, b) => a['Receive Frequency'] - b['Receive Frequency'])
+            // .sort((a: Wcs7100, b: Wcs7100): number => parseFloat(a.CTCSS) - parseFloat(b.CTCSS))
+            // .sort((a: Wcs7100, b: Wcs7100): number => a['Receive Frequency'] - b['Receive Frequency'])
+            // .sort((a: Wcs7100, b: Wcs7100): number => parseFloat(a.CTCSS) - parseFloat(b.CTCSS))
+            // .sort((a: Wcs7100, b: Wcs7100): number => a['Receive Frequency'] - b['Receive Frequency'])
             .map((map, index) => ({ ...map, 'Channel Number': index + 1 }));
         const duplexWcs7100 = mapped
             .filter((filter) => filter['Offset Direction'] !== wcs7100_1.Wcs7100OffsetDirection.Simplex || filter['Tone Mode'] !== wcs7100_1.Wcs7100ToneMode.None);
         const B = duplexWcs7100
             .slice(0, 99)
-            .sort((a, b) => parseFloat(a.CTCSS) - parseFloat(b.CTCSS))
-            .sort((a, b) => a['Receive Frequency'] - b['Receive Frequency'])
-            .sort((a, b) => parseFloat(a.CTCSS) - parseFloat(b.CTCSS))
-            .sort((a, b) => a['Receive Frequency'] - b['Receive Frequency'])
+            // .sort((a: Wcs7100, b: Wcs7100): number => parseFloat(a.CTCSS) - parseFloat(b.CTCSS))
+            // .sort((a: Wcs7100, b: Wcs7100): number => a['Receive Frequency'] - b['Receive Frequency'])
+            // .sort((a: Wcs7100, b: Wcs7100): number => parseFloat(a.CTCSS) - parseFloat(b.CTCSS))
+            // .sort((a: Wcs7100, b: Wcs7100): number => a['Receive Frequency'] - b['Receive Frequency'])
             .map((map, index) => ({ ...map, 'Channel Number': index + 1 }));
         const C = duplexWcs7100
             .slice(99, 198)
-            .sort((a, b) => parseFloat(a.CTCSS) - parseFloat(b.CTCSS))
-            .sort((a, b) => a['Receive Frequency'] - b['Receive Frequency'])
-            .sort((a, b) => parseFloat(a.CTCSS) - parseFloat(b.CTCSS))
-            .sort((a, b) => a['Receive Frequency'] - b['Receive Frequency'])
+            // .sort((a: Wcs7100, b: Wcs7100): number => parseFloat(a.CTCSS) - parseFloat(b.CTCSS))
+            // .sort((a: Wcs7100, b: Wcs7100): number => a['Receive Frequency'] - b['Receive Frequency'])
+            // .sort((a: Wcs7100, b: Wcs7100): number => parseFloat(a.CTCSS) - parseFloat(b.CTCSS))
+            // .sort((a: Wcs7100, b: Wcs7100): number => a['Receive Frequency'] - b['Receive Frequency'])
             .map((map, index) => ({ ...map, 'Channel Number': index + 1 }));
         const D = duplexWcs7100
             .slice(198, 297)
-            .sort((a, b) => parseFloat(a.CTCSS) - parseFloat(b.CTCSS))
-            .sort((a, b) => a['Receive Frequency'] - b['Receive Frequency'])
-            .sort((a, b) => parseFloat(a.CTCSS) - parseFloat(b.CTCSS))
-            .sort((a, b) => a['Receive Frequency'] - b['Receive Frequency'])
+            // .sort((a: Wcs7100, b: Wcs7100): number => parseFloat(a.CTCSS) - parseFloat(b.CTCSS))
+            // .sort((a: Wcs7100, b: Wcs7100): number => a['Receive Frequency'] - b['Receive Frequency'])
+            // .sort((a: Wcs7100, b: Wcs7100): number => parseFloat(a.CTCSS) - parseFloat(b.CTCSS))
+            // .sort((a: Wcs7100, b: Wcs7100): number => a['Receive Frequency'] - b['Receive Frequency'])
             .map((map, index) => ({ ...map, 'Channel Number': index + 1 }));
         const E = duplexWcs7100
             .slice(297, 396)
-            .sort((a, b) => parseFloat(a.CTCSS) - parseFloat(b.CTCSS))
-            .sort((a, b) => a['Receive Frequency'] - b['Receive Frequency'])
-            .sort((a, b) => parseFloat(a.CTCSS) - parseFloat(b.CTCSS))
-            .sort((a, b) => a['Receive Frequency'] - b['Receive Frequency'])
+            // .sort((a: Wcs7100, b: Wcs7100): number => parseFloat(a.CTCSS) - parseFloat(b.CTCSS))
+            // .sort((a: Wcs7100, b: Wcs7100): number => a['Receive Frequency'] - b['Receive Frequency'])
+            // .sort((a: Wcs7100, b: Wcs7100): number => parseFloat(a.CTCSS) - parseFloat(b.CTCSS))
+            // .sort((a: Wcs7100, b: Wcs7100): number => a['Receive Frequency'] - b['Receive Frequency'])
             .map((map, index) => ({ ...map, 'Channel Number': index + 1 }));
         promises.push(fs_helpers_1.writeToCsv(`${outFileName}-A`, simplexWcs7100));
         promises.push(fs_helpers_1.writeToCsv(`${outFileName}-B`, B));
@@ -192,8 +214,9 @@ var __importDefault = (this && this.__importDefault) || function (mod) {
             'Rpt-2 CallSign': Rpt2CallSign,
         });
     }
-    function convertOffsetFrequency(OffsetFrequency) {
-        switch (Math.abs(Math.round(OffsetFrequency * 10)) / 10) {
+    function convertOffsetFrequency(offsetFrequency) {
+        const roundFrequency = Math.abs(Math.round(offsetFrequency * 10)) / 10;
+        switch (roundFrequency) {
             case 0:
                 return wcs7100_1.Wcs7100OffsetFrequency.None;
             case 0.1:
@@ -219,7 +242,7 @@ var __importDefault = (this && this.__importDefault) || function (mod) {
             case 7.6:
                 return wcs7100_1.Wcs7100OffsetFrequency.$7_60_MHz;
         }
-        log(chalk_1.default.red('ERROR'), 'convertOffsetFrequency', 'unknown', OffsetFrequency);
+        log(chalk_1.default.red('ERROR'), 'convertOffsetFrequency', 'unknown', roundFrequency);
         return wcs7100_1.Wcs7100OffsetFrequency.None;
     }
     function convertOffsetDirection(OffsetFrequency) {
@@ -236,14 +259,14 @@ var __importDefault = (this && this.__importDefault) || function (mod) {
         return wcs7100_1.Wcs7100OffsetDirection.Simplex;
     }
     function convertDStarCallSign(callsign, node) {
-        log('convertDStarCallSign', 'callsign', callsign, 'node', node);
+        // log('convertDStarCallSign', 'callsign', callsign, 'node', node);
         if (callsign && node) {
             const callSignModuleRegex = new RegExp(`(${callsign} )?\\(?([ABCDEFG])\\)?`);
             const callSignModule = node.match(callSignModuleRegex);
-            log('convertDStarCallSign', 'callsign', callsign, 'node', node, 'callSignModule', callSignModule);
+            // log('convertDStarCallSign', 'callsign', callsign, 'node', node, 'callSignModule', callSignModule);
             const callsignPadded = `${callsign}        `;
             const result = `${callsignPadded.substr(0, 7)}${callSignModule[callSignModule.length - 1]}`;
-            log('convertDStarCallSign', 'callsign', callsign, 'node', node, 'callSignModule', callSignModule, 'result', result);
+            // log('convertDStarCallSign', 'callsign', callsign, 'node', node, 'callSignModule', callSignModule, 'result', result);
             return result;
         }
         return '';

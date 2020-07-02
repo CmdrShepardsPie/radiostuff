@@ -68,8 +68,8 @@ async function getRepeaters(place: string | number, distance: number): Promise<v
   log(chalk.yellow('Scraped'), repeaters.length, placePath);
 
   // Don't care when the fs write promises return, they do not affect the outcome and node won't terminate until the handles are closed
-  promises.push(writeToJson(`../data/repeaters/scraped/json/${placePath}`, repeaters));
-  promises.push(writeToCsv(`../data/repeaters/scraped/csv/${placePath}`, repeaters));
+  // promises.push(writeToJson(`../data/repeaters/scraped/json/${placePath}`, repeaters));
+  // promises.push(writeToCsv(`../data/repeaters/scraped/csv/${placePath}`, repeaters));
 
   await Promise.all(promises);
 }

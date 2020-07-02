@@ -1,0 +1,23 @@
+{
+  "Frequency": 449.6,
+  "Offset": -5,
+  "Tone Up / Down": 136.5,
+  "Location": "Layton, Kaysville Peak",
+  "County": "Weber",
+  "Call": "AI7J",
+  "Use": "OPEN",
+  "": "",
+  "state_id": "49",
+  "ID": "9",
+  "Latitude": 41.0503006,
+  "Longitude": -111.84400177,
+  "Downlink": 449.6,
+  "Uplink": 444.6,
+  "Uplink Tone": 136.5,
+  "Grid": "DN41BB",
+  "Op Status": "On-Air",
+  "Coverage": "Wide area: Wasatch Front from Ogden to the Utah/Idaho border.",
+  "Features": 9,
+  "Coordination": "UVHFS",
+  "Last update": "2015-07-19"
+}

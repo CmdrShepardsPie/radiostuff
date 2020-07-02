@@ -1,0 +1,23 @@
+{
+  "Frequency": 447.975,
+  "Offset": -5,
+  "Tone Up / Down": "DSTR",
+  "Location": "Logan, WA7KMF QTH",
+  "County": "Cache",
+  "Call": "AC7O",
+  "Use": "OPEN",
+  "": "",
+  "state_id": "49",
+  "ID": "11082",
+  "Latitude": 41.72230148,
+  "Longitude": -111.84999847,
+  "Downlink": 447.975,
+  "Uplink": 442.975,
+  "D-STAR Enabled": true,
+  "Node": "AC7O (B) Gateway Repeater",
+  "Sources": "jfindu lookup / dstar-users lookup",
+  "Grid": "DN41BR",
+  "Op Status": "On-Air",
+  "Web links": "http://barconline.org/repeaters/",
+  "Last update": "2016-07-05"
+}

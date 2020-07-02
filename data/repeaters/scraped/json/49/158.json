@@ -1,0 +1,22 @@
+{
+  "Frequency": 449.775,
+  "Offset": -5,
+  "Tone Up / Down": 123,
+  "Location": "West Haven",
+  "County": "Weber",
+  "Call": "N7TOP",
+  "Use": "OPEN",
+  "": "",
+  "state_id": "49",
+  "ID": "158",
+  "Latitude": 41.20299911,
+  "Longitude": -112.0510025,
+  "Downlink": 449.775,
+  "Uplink": 444.775,
+  "Uplink Tone": 123,
+  "Op Status": "On-Air",
+  "Features": "Remote base.",
+  "Links": "Full-time to 146.92000 (N7TOP) at Corinne, Promontory Point, UT . Full-time to 448.77500 (N7TOP) at West Haven, UT .",
+  "Coordination": "UVHFS",
+  "Last update": "2014-04-14"
+}

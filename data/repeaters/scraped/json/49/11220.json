@@ -1,0 +1,23 @@
+{
+  "Frequency": 147.925,
+  "Offset": -0.6,
+  "Tone Up / Down": "DSTR",
+  "Location": "Tremonton",
+  "County": "Box Elder",
+  "Call": "N7RDS",
+  "Use": "OPEN",
+  "": "",
+  "state_id": "49",
+  "ID": "11220",
+  "Latitude": 41.7118988,
+  "Longitude": -112.16600037,
+  "Downlink": 147.925,
+  "Uplink": 147.325,
+  "D-STAR Enabled": true,
+  "Node": "N7RDS (C)",
+  "Sources": "jfindu lookup / dstar-users lookup",
+  "Op Status": "On-Air",
+  "Sponsor": "NUTS",
+  "Coordination": "UVHFS",
+  "Last update": "2015-08-13"
+}

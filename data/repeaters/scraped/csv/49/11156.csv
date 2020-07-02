@@ -1,0 +1,2 @@
+Frequency,Offset,Tone Up / Down,Location,County,Call,Use,,state_id,ID,Latitude,Longitude,Downlink,Uplink,D-STAR Enabled,Node,Sources,Grid,On-air,Coordination,Last update
+1299.25,-20,DSTR,Cedar City,Iron,WR7AAA,OPEN,,49,11156,37.72570038,-113.06800079,1299.25,1279.25,1,WR7AAA (A) Gateway Repeater,jfindu lookup / dstar-users lookup,DM37LR,Unknown,UVHFS,2014-02-17

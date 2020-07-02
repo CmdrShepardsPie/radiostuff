@@ -2,7 +2,10 @@ Frequency,Name
 1.81,CW QRP
 1.91,SSB QRP
 3.59,RTTY DX
+3.81,SSB
 3.885,AM Calling
+3.989,SSB
+3.9905,SSB
 5.3305,USB
 5.332,CW
 5.332,RTTY
@@ -19,7 +22,9 @@ Frequency,Name
 5.405,CW
 5.405,RTTY
 7.04,RTTY DX
+7.24,SSB
 7.29,AM Calling
+14.265,SSB
 14.286,AM Calling
 29.6,FM Simplex
 50.125,SSB Calling

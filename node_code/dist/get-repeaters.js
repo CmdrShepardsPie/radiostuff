@@ -66,8 +66,8 @@ var __importDefault = (this && this.__importDefault) || function (mod) {
         const placePath = `${(stateCity[1] || '.').trim()}/${stateCity[0].trim()}`;
         log(chalk_1.default.yellow('Scraped'), repeaters.length, placePath);
         // Don't care when the fs write promises return, they do not affect the outcome and node won't terminate until the handles are closed
-        promises.push(fs_helpers_1.writeToJson(`../data/repeaters/scraped/json/${placePath}`, repeaters));
-        promises.push(fs_helpers_1.writeToCsv(`../data/repeaters/scraped/csv/${placePath}`, repeaters));
+        // promises.push(writeToJson(`../data/repeaters/scraped/json/${placePath}`, repeaters));
+        // promises.push(writeToCsv(`../data/repeaters/scraped/csv/${placePath}`, repeaters));
         await Promise.all(promises);
     }
 });

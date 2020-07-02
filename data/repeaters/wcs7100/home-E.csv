@@ -1,0 +1,58 @@
+Channel Number,Receive Frequency,Transmit Frequency,Offset Frequency,Offset Direction,Operating Mode,Name,Tone Mode,CTCSS,Rx CTCSS,DCS,DCS Polarity,Select Scan,Comment,Digital Squelch,Digital Code,Your Callsign,Rpt-1 CallSign,Rpt-2 CallSign,Filter,Tx Data Mode,Data Mode,Split Tone Mode,Split CTCSS,Split Rx CTCSS,Split DCS,Split DCS Polarity,Tx Filter,Tx Operating Mode
+1,147.12000,147.72000,600 kHz,+DUP,FM,KF5PFO FE,Tone,67.0 Hz,100.0 Hz,023,Both N,Off,35 172 381.73 NM Taos Taos Picuris Peak KF5PFO,,,,,,Filter 1,,,None,88.5 Hz,88.5 Hz,023,Both N,Filter 1,FM
+2,449.90000,444.90000,5.00 MHz,-DUP,FM,W7BAR FI,Tone,136.5 Hz,100.0 Hz,023,Both N,Off,49 13408 386.41 UT Uintah Vernal Uintah County EOC W7BAR,,,,,,Filter 1,,,None,88.5 Hz,88.5 Hz,023,Both N,Filter 1,FM
+3,145.19000,144.59000,600 kHz,-DUP,FM,KB5ITS F,Tone,100.0 Hz,100.0 Hz,023,Both N,Off,8 16606 394.87 CO Montezuma Cortez Goodman KB5ITS,,,,,,Filter 1,,,None,88.5 Hz,88.5 Hz,023,Both N,Filter 1,FM
+4,146.76000,146.16000,600 kHz,-DUP,FM,K7QEQ F,Tone,88.5 Hz,100.0 Hz,023,Both N,Off,49 13042 401.27 UT Grand Moab Bald Mesa K7QEQ,,,,,,Filter 1,,,None,88.5 Hz,88.5 Hz,023,Both N,Filter 1,FM
+5,449.10000,444.10000,5.00 MHz,-DUP,FM,K7QEQ F,T Sql,107.2 Hz,107.2 Hz,023,Both N,Off,49 52 401.51 UT Grand Moab Bald Mesa K7QEQ,,,,,,Filter 1,,,None,88.5 Hz,88.5 Hz,023,Both N,Filter 1,FM
+6,147.04000,147.64000,600 kHz,+DUP,FM,W7BAR F,Tone,136.5 Hz,100.0 Hz,023,Both N,Off,49 181 409.07 UT Uintah Vernal Grizzly Ridge W7BAR,,,,,,Filter 1,,,None,88.5 Hz,88.5 Hz,023,Both N,Filter 1,FM
+7,145.49000,144.89000,600 kHz,-DUP,FM,K7HEN F,Tone,136.5 Hz,100.0 Hz,023,Both N,Off,49 24 409.69 UT Uintah Vernal Grizzly Ridge K7HEN,,,,,,Filter 1,,,None,88.5 Hz,88.5 Hz,023,Both N,Filter 1,FM
+8,147.04000,147.64000,600 kHz,+DUP,FM,NM5EM F,Tone,141.3 Hz,100.0 Hz,023,Both N,Off,35 15632 411.23 NM Rio Arriba Abiquiu Cerro Pelon NM5EM,,,,,,Filter 1,,,None,88.5 Hz,88.5 Hz,023,Both N,Filter 1,FM
+9,146.74000,146.14000,600 kHz,-DUP,FM,NM5SJ F,Tone,100.0 Hz,100.0 Hz,023,Both N,Off,35 43 412.91 NM San Juan Aztec NM5SJ,,,,,,Filter 1,,,None,88.5 Hz,88.5 Hz,023,Both N,Filter 1,FM
+10,447.45000,442.45000,5.00 MHz,-DUP,FM,KB5ITS F,Tone,107.2 Hz,100.0 Hz,023,Both N,Off,35 44 412.91 NM San Juan Aztec KB5ITS,,,,,,Filter 1,,,None,88.5 Hz,88.5 Hz,023,Both N,Filter 1,FM
+11,145.11500,144.51500,600 kHz,-DUP,DV,KF5VBE S,None,100.0 Hz,100.0 Hz,023,Both N,Off,35 11428 416.25 NM San Juan Farmington KF5VBE,,,CQCQCQ,KF5VBE C,KF5VBE G,Filter 1,,,None,88.5 Hz,88.5 Hz,023,Both N,Filter 1,FM
+12,146.90000,146.30000,600 kHz,-DUP,FM,K7QEQ F,Tone,88.5 Hz,100.0 Hz,023,Both N,Off,49 48 418.41 UT Grand Moab K7QEQ,,,,,,Filter 1,,,None,88.5 Hz,88.5 Hz,023,Both N,Filter 1,FM
+13,147.10000,147.70000,600 kHz,+DUP,FM,KB5ITS F,Tone,100.0 Hz,100.0 Hz,023,Both N,Off,35 49 421.43 NM San Juan Bloomfield Harris mesa KB5ITS,,,,,,Filter 1,,,None,88.5 Hz,88.5 Hz,023,Both N,Filter 1,FM
+14,147.28000,147.88000,600 kHz,+DUP,FM,NM5ML F,Tone,67.0 Hz,100.0 Hz,023,Both N,Off,35 51 421.46 NM San Juan Bloomfield Harris Mesa NM5ML,,,,,,Filter 1,,,None,88.5 Hz,88.5 Hz,023,Both N,Filter 1,FM
+15,146.92000,146.32000,600 kHz,-DUP,FM,K5WXI F,Tone,100.0 Hz,100.0 Hz,023,Both N,Off,35 50 422.00 NM San Juan Bloomfield K5WXI,,,,,,Filter 1,,,None,88.5 Hz,88.5 Hz,023,Both N,Filter 1,FM
+16,442.00000,447.00000,5.00 MHz,+DUP,FM,KA5BIW F,Tone,100.0 Hz,100.0 Hz,023,Both N,Off,35 15608 432.95 NM Los Alamos Los Alamos KA5BIW,,,,,,Filter 1,,,None,88.5 Hz,88.5 Hz,023,Both N,Filter 1,FM
+17,442.42500,447.42500,5.00 MHz,+DUP,DV,NM5WR S,None,100.0 Hz,100.0 Hz,023,Both N,Off,35 5181 433.91 NM Los Alamos Los Alamos NM5WR,,,CQCQCQ,NM5WR  B,NM5WR  G,Filter 1,,,None,88.5 Hz,88.5 Hz,023,Both N,Filter 1,FM
+18,53.01000,52.01000,1.00 MHz,-DUP,FM,KB5ITS F,Tone,131.8 Hz,100.0 Hz,023,Both N,Off,35 81 433.94 NM San Juan Farmington KB5ITS,,,,,,Filter 1,,,None,88.5 Hz,88.5 Hz,023,Both N,Filter 1,FM
+19,146.76000,146.16000,600 kHz,-DUP,FM,KB5ITS F,T Sql,100.0 Hz,100.0 Hz,023,Both N,Off,35 84 433.94 NM San Juan Farmington KB5ITS,,,,,,Filter 1,,,None,88.5 Hz,88.5 Hz,023,Both N,Filter 1,FM
+20,147.00000,147.60000,600 kHz,+DUP,FM,KB5ITS F,Tone,100.0 Hz,100.0 Hz,023,Both N,Off,35 86 433.94 NM San Juan Farmington College Hill KB5ITS,,,,,,Filter 1,,,None,88.5 Hz,88.5 Hz,023,Both N,Filter 1,FM
+21,449.00000,444.00000,5.00 MHz,-DUP,FM,K5WY F,Tone,100.0 Hz,100.0 Hz,023,Both N,Off,35 87 433.94 NM San Juan Farmington K5WY,,,,,,Filter 1,,,None,88.5 Hz,88.5 Hz,023,Both N,Filter 1,FM
+22,444.15000,449.15000,5.00 MHz,+DUP,DV,KF5VBF S,None,100.0 Hz,100.0 Hz,023,Both N,Off,35 15650 434.00 NM San Juan Farmington KF5VBF,,,CQCQCQ,KF5VBF B,KF5VBF G,Filter 1,,,None,88.5 Hz,88.5 Hz,023,Both N,Filter 1,FM
+23,144.26500,144.26500,,Simplex,FM,KC2HSO FI,Tone,203.5 Hz,100.0 Hz,023,Both N,Off,35 16629 434.68 NM Los Alamos Los Alamos KC2HSO,,,,,,Filter 1,,,None,88.5 Hz,88.5 Hz,023,Both N,Filter 1,FM
+24,145.19000,144.59000,600 kHz,-DUP,DV,NM5EC S,None,100.0 Hz,100.0 Hz,023,Both N,Off,35 18232 436.34 NM Los Alamos Los Alamos Pajarito Mountain NM5EC,,,CQCQCQ,NM5EC  C,NM5EC  G,Filter 1,,,None,88.5 Hz,88.5 Hz,023,Both N,Filter 1,FM
+25,145.19000,144.59000,600 kHz,-DUP,FM,W5SF F,T Sql,162.2 Hz,162.2 Hz,023,Both N,Off,35 118 436.34 NM Los Alamos Los Alamos Pajarito Mountain W5SF,,,,,,Filter 1,,,None,88.5 Hz,88.5 Hz,023,Both N,Filter 1,FM
+26,147.24000,147.84000,600 kHz,+DUP,FM,NM5ML F,Tone,67.0 Hz,100.0 Hz,023,Both N,Off,35 66 436.78 NM Sandoval Cuba Eureka Mesa NM5ML,,,,,,Filter 1,,,None,88.5 Hz,88.5 Hz,023,Both N,Filter 1,FM
+27,145.17500,144.57500,600 kHz,-DUP,FM,NM5EM F,T Sql,156.7 Hz,156.7 Hz,023,Both N,Off,35 15615 436.82 NM Sandoval Cuba Eureka Mesa NM5EM,,,,,,Filter 1,,,None,88.5 Hz,88.5 Hz,023,Both N,Filter 1,FM
+28,146.61000,146.01000,600 kHz,-DUP,FM,K7SDC FEI,Tone,88.5 Hz,100.0 Hz,023,Both N,Off,49 60 443.28 UT San Juan Monticello Abajo Peak K7SDC,,,,,,Filter 1,,,None,88.5 Hz,88.5 Hz,023,Both N,Filter 1,FM
+29,447.10000,442.10000,5.00 MHz,-DUP,FM,K7QEQ F,T Sql,107.2 Hz,107.2 Hz,023,Both N,Off,49 124 443.28 UT San Juan Monticello Abajo Peak K7QEQ,,,,,,Filter 1,,,None,88.5 Hz,88.5 Hz,023,Both N,Filter 1,FM
+30,447.27500,442.27500,5.00 MHz,-DUP,FM,KB5ITS F,Tone,100.0 Hz,100.0 Hz,023,Both N,Off,49 18460 443.34 UT Wayne Monticello Abajo Peak KB5ITS,,,,,,Filter 1,,,None,88.5 Hz,88.5 Hz,023,Both N,Filter 1,FM
+31,145.49000,144.89000,600 kHz,-DUP,FM,NM5SJ F,Tone,100.0 Hz,100.0 Hz,023,Both N,Off,35 128 444.01 NM Rio Arriba Lybrook NM5SJ,,,,,,Filter 1,,,None,88.5 Hz,88.5 Hz,023,Both N,Filter 1,FM
+32,147.28000,147.88000,600 kHz,+DUP,FM,AD7ZW FEI,T Sql,107.2 Hz,107.2 Hz,023,Both N,Off,49 14977 466.31 UT Duchesne Altamont AD7ZW,,,,,,Filter 1,,,None,88.5 Hz,88.5 Hz,023,Both N,Filter 1,FM
+33,147.32000,147.92000,600 kHz,+DUP,FM,K7SDC FEI,Tone,88.5 Hz,100.0 Hz,023,Both N,Off,49 58 466.54 UT Carbon Sunnyside Bruin Point K7SDC,,,,,,Filter 1,,,None,88.5 Hz,88.5 Hz,023,Both N,Filter 1,FM
+34,449.05000,444.05000,5.00 MHz,-DUP,FM,K7SDC FEI,Tone,88.5 Hz,100.0 Hz,023,Both N,Off,49 59 466.54 UT Carbon Sunnyside Bruin Point K7SDC,,,,,,Filter 1,,,None,88.5 Hz,88.5 Hz,023,Both N,Filter 1,FM
+35,443.10000,448.10000,5.00 MHz,+DUP,FM,NM5SC FL,Tone,100.0 Hz,100.0 Hz,023,Both N,Off,35 9767 470.01 NM Sandoval San Ysidro Pajarito Peak NM5SC,,,,,,Filter 1,,,None,88.5 Hz,88.5 Hz,023,Both N,Filter 1,FM
+36,147.26000,147.86000,600 kHz,+DUP,FM,N7PQD F,None,100.0 Hz,100.0 Hz,023,Both N,Off,49 152 472.70 UT Duchesne Duchense N7PQD,,,,,,Filter 1,,,None,88.5 Hz,88.5 Hz,023,Both N,Filter 1,FM
+37,448.07500,443.07500,5.00 MHz,-DUP,DV,K7YI S,None,100.0 Hz,100.0 Hz,023,Both N,Off,49 4237 493.10 UT Carbon Price Cedar Mountain K7YI,,,CQCQCQ,K7YI   B,K7YI   G,Filter 1,,,None,88.5 Hz,88.5 Hz,023,Both N,Filter 1,FM
+38,448.55000,443.55000,5.00 MHz,-DUP,FM,K7SDC FI,Tone,88.5 Hz,100.0 Hz,023,Both N,Off,49 274 494.49 UT Emery Castle Dale Cedar Mountain K7SDC,,,,,,Filter 1,,,None,88.5 Hz,88.5 Hz,023,Both N,Filter 1,FM
+39,147.14000,147.74000,600 kHz,+DUP,FM,K7SDC FEI,Tone,88.5 Hz,100.0 Hz,023,Both N,Off,49 57 494.58 UT Emery Castle Dale Cedar Mountain K7SDC,,,,,,Filter 1,,,None,88.5 Hz,88.5 Hz,023,Both N,Filter 1,FM
+40,145.43000,144.83000,600 kHz,-DUP,FM,W7CEU F,Tone,88.5 Hz,100.0 Hz,023,Both N,Off,49 78 506.86 UT Carbon Price Wood Hill W7CEU,,,,,,Filter 1,,,None,88.5 Hz,88.5 Hz,023,Both N,Filter 1,FM
+41,448.30000,443.30000,5.00 MHz,-DUP,FM,W7CEU F,Tone,88.5 Hz,100.0 Hz,023,Both N,Off,49 2765 506.86 UT Carbon Price Wood Hill W7CEU,,,,,,Filter 1,,,None,88.5 Hz,88.5 Hz,023,Both N,Filter 1,FM
+42,147.20000,147.80000,600 kHz,+DUP,FM,K7GX FEI,Tone,88.5 Hz,100.0 Hz,023,Both N,Off,49 10058 506.87 UT Carbon Price Wood Hill K7GX,,,,,,Filter 1,,,None,88.5 Hz,88.5 Hz,023,Both N,Filter 1,FM
+43,448.30000,443.30000,5.00 MHz,-DUP,FM,K7GX FEI,None,100.0 Hz,100.0 Hz,023,Both N,Off,49 10061 506.87 UT Carbon Price Wood Hill K7GX,,,,,,Filter 1,,,None,88.5 Hz,88.5 Hz,023,Both N,Filter 1,FM
+44,145.25000,144.65000,600 kHz,-DUP,FM,KB5ITS F,Tone,100.0 Hz,100.0 Hz,023,Both N,Off,4 163 509.15 AZ Apache Lukachukai Roof Butte KB5ITS,,,,,,Filter 1,,,None,88.5 Hz,88.5 Hz,023,Both N,Filter 1,FM
+45,146.82000,146.22000,600 kHz,-DUP,FM,NM5SJ F,Tone,100.0 Hz,100.0 Hz,023,Both N,Off,4 72 509.15 AZ Apache Red Rock Roof Butte NM5SJ,,,,,,Filter 1,,,None,88.5 Hz,88.5 Hz,023,Both N,Filter 1,FM
+46,449.90000,444.90000,5.00 MHz,-DUP,FM,KD7HLL F,Tone,123.0 Hz,100.0 Hz,023,Both N,Off,49 100 512.89 UT San Juan Mexican Hat KD7HLL,,,,,,Filter 1,,,None,88.5 Hz,88.5 Hz,023,Both N,Filter 1,FM
+47,145.31000,144.71000,600 kHz,-DUP,FM,K7SDC FI,Tone,88.5 Hz,100.0 Hz,023,Both N,Off,49 55 521.75 UT Carbon Scofield Ford Ridge K7SDC,,,,,,Filter 1,,,None,88.5 Hz,88.5 Hz,023,Both N,Filter 1,FM
+48,449.37500,444.37500,5.00 MHz,-DUP,FM,AE7TA F,None,100.0 Hz,100.0 Hz,023,Both N,Off,49 18470 533.20 UT Cache Logan Sedgwick Peak AE7TA,,,,,,Filter 1,,,None,88.5 Hz,88.5 Hz,023,Both N,Filter 1,FM
+49,147.22000,147.82000,600 kHz,+DUP,FM,NM5ML F,Tone,67.0 Hz,100.0 Hz,023,Both N,Off,35 89 536.27 NM McKinley Gallup Deza Bluffs NM5ML,,,,,,Filter 1,,,None,88.5 Hz,88.5 Hz,023,Both N,Filter 1,FM
+50,448.20000,443.20000,5.00 MHz,-DUP,FM,KC5WDV F,Tone,100.0 Hz,100.0 Hz,023,Both N,Off,35 13539 536.27 NM McKinley Gallup Deza Bluffs KC5WDV,,,,,,Filter 1,,,None,88.5 Hz,88.5 Hz,023,Both N,Filter 1,FM
+51,147.06000,147.66000,600 kHz,+DUP,FM,K7SDC FEI,Tone,88.5 Hz,100.0 Hz,023,Both N,Off,49 54 538.66 UT Emery Castle Dale Horn Mountain K7SDC,,,,,,Filter 1,,,None,88.5 Hz,88.5 Hz,023,Both N,Filter 1,FM
+52,447.70000,442.70000,5.00 MHz,-DUP,FM,WX7Y F,Tone,123.0 Hz,100.0 Hz,023,Both N,Off,49 272 538.66 UT Emery Castle Dale Horn Mountain WX7Y,,,,,,Filter 1,,,None,88.5 Hz,88.5 Hz,023,Both N,Filter 1,FM
+53,147.08000,147.68000,600 kHz,+DUP,FM,K7SDC FEI,Tone,136.5 Hz,100.0 Hz,023,Both N,Off,49 56 539.38 UT Wayne Hanksville Ellen Peak K7SDC,,,,,,Filter 1,,,None,88.5 Hz,88.5 Hz,023,Both N,Filter 1,FM
+54,146.96000,146.36000,600 kHz,-DUP,FM,W7WAC F,Tone,100.0 Hz,100.0 Hz,023,Both N,Off,49 218 595.47 UT San Juan Page (AZ) Navajo Mountain W7WAC,,,,,,Filter 1,,,None,88.5 Hz,88.5 Hz,023,Both N,Filter 1,FM
+55,448.75000,443.75000,5.00 MHz,-DUP,FM,NA7DB F,Tone,100.0 Hz,100.0 Hz,023,Both N,Off,49 169 595.47 UT San Juan Page (az) Navajo Mountain NA7DB,,,,,,Filter 1,,,None,88.5 Hz,88.5 Hz,023,Both N,Filter 1,FM
+56,449.92500,444.92500,5.00 MHz,-DUP,FM,W7CWI F,Tone,100.0 Hz,100.0 Hz,023,Both N,Off,49 183 595.47 UT San Juan Page (AZ) Navajo Mountain W7CWI,,,,,,Filter 1,,,None,88.5 Hz,88.5 Hz,023,Both N,Filter 1,FM
+57,448.60000,443.60000,5.00 MHz,-DUP,FM,WA7VHF F,Tone,100.0 Hz,100.0 Hz,023,Both N,Off,49 11827 595.48 UT San Juan Page Navajo Mountain WA7VHF,,,,,,Filter 1,,,None,88.5 Hz,88.5 Hz,023,Both N,Filter 1,FM

@@ -1,2 +1,2 @@
-Frequency,Offset,Tone,Call,Location,ST/PR,Use,VOIP,DGTL,Mi,Dir,,state_id,ID,Latitude,Longitude,Downlink,Uplink,County,Op Status,Sponsor,Web links,Last update
-145.325,-0.6,,KB5ITS,"Mancos, Caviness",CO,OPEN,,,81.57,SSW,,08,18459,37.36460114,-108.14800262,145.325,144.725,Montezuma,On-Air,San Juan Connection,http://www.sjcham.com,2020-01-12
+Frequency,Offset,Tone Up / Down,Location,County,Call,Use,,state_id,ID,Latitude,Longitude,Downlink,Uplink,Op Status,Sponsor,Web links,Last update
+145.325,-0.6,,"Mancos, Caviness",Montezuma,KB5ITS,OPEN,,08,18459,37.36460114,-108.14800262,145.325,144.725,On-Air,San Juan Connection,http://www.sjcham.com,2020-01-12

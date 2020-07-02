@@ -1,0 +1,22 @@
+{
+  "Frequency": 1299.75,
+  "Offset": -20,
+  "Tone Up / Down": "DSTR",
+  "Location": "Logan, Mt Logan",
+  "County": "Cache",
+  "Call": "AC7O",
+  "Use": "OPEN",
+  "": "",
+  "state_id": "49",
+  "ID": "11084",
+  "Latitude": 41.72460175,
+  "Longitude": -111.8010025,
+  "Downlink": 1299.75,
+  "Uplink": 1279.75,
+  "D-STAR Enabled": true,
+  "Node": "AC7O (A)",
+  "Sources": "jfindu lookup / dstar-users lookup",
+  "Op Status": "On-Air",
+  "Web links": "http://barconline.org/repeaters/",
+  "Last update": "2014-02-02"
+}

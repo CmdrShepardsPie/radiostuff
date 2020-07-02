@@ -1,0 +1,23 @@
+{
+  "Frequency": 1299.25,
+  "Offset": -20,
+  "Tone Up / Down": "DSTR",
+  "Location": "Cedar City",
+  "County": "Iron",
+  "Call": "WR7AAA",
+  "Use": "OPEN",
+  "": "",
+  "state_id": "49",
+  "ID": "11156",
+  "Latitude": 37.72570038,
+  "Longitude": -113.06800079,
+  "Downlink": 1299.25,
+  "Uplink": 1279.25,
+  "D-STAR Enabled": true,
+  "Node": "WR7AAA (A) Gateway Repeater",
+  "Sources": "jfindu lookup / dstar-users lookup",
+  "Grid": "DM37LR",
+  "On-air": "Unknown",
+  "Coordination": "UVHFS",
+  "Last update": "2014-02-17"
+}

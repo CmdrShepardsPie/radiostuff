@@ -35,8 +35,8 @@ export default (async (): Promise<void> => {
           return [...output, repeater];
         }, [] as RepeaterStructured[]);
       // Don't care when the fs write promises return, they do not affect the outcome and node won't terminate until the handles are closed
-      promises.push(writeToJson(`../data/repeaters/converted/json/${ splitExtension(file).name }`, converted));
-      promises.push(writeToCsv(`../data/repeaters/converted/csv/${ splitExtension(file).name }`, converted));
+      // promises.push(writeToJson(`../data/repeaters/converted/json/${ splitExtension(file).name }`, converted));
+      // promises.push(writeToCsv(`../data/repeaters/converted/csv/${ splitExtension(file).name }`, converted));
     }
   }));
 

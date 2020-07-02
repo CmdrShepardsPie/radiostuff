@@ -1,2 +1,2 @@
-Frequency,Offset,Tone,Call,Location,ST/PR,Use,VOIP,DGTL,Mi,Dir,,state_id,ID,Latitude,Longitude,Downlink,Uplink,Uplink Tone,County,Op Status,Coverage,Sponsor,Last update
-447.65,-5.1,103.5,KC0VJD,"Limon, Cedar Point",CO,OPEN,,,61.31,SE,,08,18718,39.374653,-103.8021,447.65,442.6,103.5,Lincoln,Testing,"Limon, Agate, Hugo, Genoa, Deer Trail, Simla,",Delbert Noakes (KC0VJD),2020-05-07
+Frequency,Offset,Tone Up / Down,Location,County,Call,Use,,state_id,ID,Latitude,Longitude,Downlink,Uplink,Uplink Tone,Op Status,Coverage,Sponsor,Last update
+447.65,-5.1,103.5,"Limon, Cedar Point",Lincoln,KC0VJD,OPEN,,08,18718,39.374653,-103.8021,447.65,442.6,103.5,Testing,"Limon, Agate, Hugo, Genoa, Deer Trail, Simla,",Delbert Noakes (KC0VJD),2020-05-07

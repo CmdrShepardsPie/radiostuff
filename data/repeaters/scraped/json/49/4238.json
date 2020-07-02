@@ -1,0 +1,23 @@
+{
+  "Frequency": 449.575,
+  "Offset": -5,
+  "Tone Up / Down": "DSTR",
+  "Location": "Wellsville",
+  "County": "Cache",
+  "Call": "NU7TS",
+  "Use": "OPEN",
+  "": "",
+  "state_id": "49",
+  "ID": "4238",
+  "Latitude": 41.6114006,
+  "Longitude": -111.95200348,
+  "Downlink": 449.575,
+  "Uplink": 444.575,
+  "D-STAR Enabled": true,
+  "Node": "NU7TS (B)",
+  "Sources": "jfindu lookup / dstar-users lookup",
+  "Grid": "DN41AO",
+  "Op Status": "On-Air",
+  "Coverage": "",
+  "Last update": "2015-06-06"
+}

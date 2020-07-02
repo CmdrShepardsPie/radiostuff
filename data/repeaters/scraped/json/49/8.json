@@ -1,0 +1,22 @@
+{
+  "Frequency": 449.25,
+  "Offset": -5,
+  "Tone Up / Down": 100,
+  "Location": "Layton",
+  "County": "Davis",
+  "Call": "AI7J",
+  "Use": "OPEN",
+  "": "",
+  "state_id": "49",
+  "ID": "8",
+  "Latitude": 41.05400085,
+  "Longitude": -111.95200348,
+  "Downlink": 449.25,
+  "Uplink": 444.25,
+  "Uplink Tone": 100,
+  "Grid": "DN41AB",
+  "Op Status": "On-Air",
+  "Features": 4,
+  "Coordination": "UVHFS",
+  "Last update": "2015-08-21"
+}

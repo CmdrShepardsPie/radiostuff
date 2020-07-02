@@ -1,0 +1,23 @@
+{
+  "Frequency": 145.15,
+  "Offset": -0.6,
+  "Tone Up / Down": "DSTR",
+  "Location": "Logan, WA7KMF QTH",
+  "County": "Cache",
+  "Call": "AC7O",
+  "Use": "OPEN",
+  "": "",
+  "state_id": "49",
+  "ID": "11083",
+  "Latitude": 41.72230148,
+  "Longitude": -111.84999847,
+  "Downlink": 145.15,
+  "Uplink": 144.55,
+  "D-STAR Enabled": true,
+  "Node": "AC7O (C) Hot Spot &lt;24/7",
+  "Sources": "jfindu lookup / dstar-users lookup",
+  "Grid": "DN41BR",
+  "Op Status": "On-Air",
+  "Coordination": "UVHFS",
+  "Last update": "2019-02-19"
+}

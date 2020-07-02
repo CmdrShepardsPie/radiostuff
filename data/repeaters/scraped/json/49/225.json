@@ -1,0 +1,23 @@
+{
+  "Frequency": 433.6,
+  "Offset": -5,
+  "Tone Up / Down": 100,
+  "Location": "Salt Lake City, Nelson Peak",
+  "County": "Tooele",
+  "Call": "WA7GIE",
+  "Use": "CLOSED",
+  "": "",
+  "state_id": "49",
+  "ID": "225",
+  "Latitude": 40.61360168,
+  "Longitude": -112.18800354,
+  "Downlink": 433.6,
+  "Uplink": 428.6,
+  "Uplink Tone": 100,
+  "Grid": "DN30VO",
+  "Op Status": "On-Air",
+  "Coverage": "Wasatch Front from Payson to Tremonton.",
+  "Features": 9,
+  "Coordination": "UVHFS",
+  "Last update": "2013-11-16"
+}

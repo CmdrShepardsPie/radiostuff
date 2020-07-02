@@ -1,0 +1,22 @@
+{
+  "Frequency": 447.95,
+  "Offset": -5,
+  "Tone Up / Down": "DSTR",
+  "Location": "Ogden, Sheriff's Office",
+  "County": "Weber",
+  "Call": "KE7EGG",
+  "Use": "OPEN",
+  "": "",
+  "state_id": "49",
+  "ID": "11160",
+  "Latitude": 41.22299957,
+  "Longitude": -111.97399902,
+  "Downlink": 447.95,
+  "Uplink": 442.95,
+  "D-STAR Enabled": true,
+  "Node": "KE7EGG (B)",
+  "Sources": "jfindu lookup / dstar-users lookup",
+  "On-air": "Unknown",
+  "Coordination": "UVHFS",
+  "Last update": "2014-02-17"
+}

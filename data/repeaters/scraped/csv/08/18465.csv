@@ -1,2 +1,2 @@
-Frequency,Offset,Tone,Call,Location,ST/PR,Use,VOIP,DGTL,Mi,Dir,,state_id,ID,Latitude,Longitude,Downlink,Uplink,Uplink Tone,County,Op Status,Coverage,Sponsor,Web links,Last update
-448.825,-5,100,KB5ITS,"Montrose, Raspberry",CO,OPEN,,,179.49,WSW,,08,18465,38.41740036,-107.84600067,448.825,443.825,100,Montrose,On-Air,"Nucla, Uncompahgre Plateau, coverage into Montrose and ?West End?",San Juan Connection,http://www.sjcham.com,2020-01-17
+Frequency,Offset,Tone Up / Down,Location,County,Call,Use,,state_id,ID,Latitude,Longitude,Downlink,Uplink,Uplink Tone,Op Status,Coverage,Sponsor,Web links,Last update
+448.825,-5,100,"Montrose, Raspberry",Montrose,KB5ITS,OPEN,,08,18465,38.41740036,-107.84600067,448.825,443.825,100,On-Air,"Nucla, Uncompahgre Plateau, coverage into Montrose and ?West End?",San Juan Connection,http://www.sjcham.com,2020-01-17

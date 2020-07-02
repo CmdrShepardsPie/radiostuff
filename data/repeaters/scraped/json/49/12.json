@@ -1,0 +1,23 @@
+{
+  "Frequency": 448.45,
+  "Offset": -5,
+  "Tone Up / Down": 100,
+  "Location": "Salt Lake City, Ensign Peak",
+  "County": "Salt Lake",
+  "Call": "KC7IIB",
+  "Use": "OPEN",
+  "": "",
+  "state_id": "49",
+  "ID": "12",
+  "Latitude": 40.80810165,
+  "Longitude": -111.88999939,
+  "Downlink": 448.45,
+  "Uplink": 443.45,
+  "Uplink Tone": 100,
+  "Grid": "DN40BT",
+  "Op Status": "On-Air",
+  "Sponsor": "Salt Lake Co ARES",
+  "Notes": 5,
+  "Coordination": "UVHFS",
+  "Last update": "2016-07-05"
+}

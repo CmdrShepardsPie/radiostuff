@@ -1,0 +1,22 @@
+{
+  "Frequency": 449.525,
+  "Offset": -5,
+  "Tone Up / Down": 100,
+  "Location": "St George, Winchester Hills",
+  "County": "Washington",
+  "Call": "KA7STK",
+  "Use": "OPEN",
+  "": "",
+  "state_id": "49",
+  "ID": "82",
+  "Latitude": 37.22079849,
+  "Longitude": -113.62799835,
+  "Downlink": 449.525,
+  "Uplink": 444.525,
+  "Uplink Tone": 100,
+  "Op Status": "On-Air",
+  "Coverage": "St. George and the neighboring communities.",
+  "Features": "Closed autopatch.",
+  "Coordination": "UVHFS",
+  "Last update": "2015-11-05"
+}

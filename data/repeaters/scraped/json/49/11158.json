@@ -1,0 +1,23 @@
+{
+  "Frequency": 447.95,
+  "Offset": -5,
+  "Tone Up / Down": "DSTR",
+  "Location": "Torquerville, Hurricane Mesa",
+  "County": "Washington",
+  "Call": "KF7YIX",
+  "Use": "OPEN",
+  "": "",
+  "state_id": "49",
+  "ID": "11158",
+  "Latitude": 37.23320007,
+  "Longitude": -113.23100281,
+  "Downlink": 447.95,
+  "Uplink": 442.95,
+  "D-STAR Enabled": true,
+  "Node": "KF7YIX (B) Gateway Repeater",
+  "Sources": "jfindu lookup / dstar-users lookup",
+  "Grid": "DM37JF",
+  "Op Status": "On-Air",
+  "Coordination": "UVHFS",
+  "Last update": "2015-08-04"
+}

@@ -1,0 +1,23 @@
+{
+  "Frequency": 447.775,
+  "Offset": -5,
+  "Tone Up / Down": 123,
+  "Location": "Ogden, Powder Mountain",
+  "County": "Weber",
+  "Call": "N7TOP",
+  "Use": "OPEN",
+  "": "",
+  "state_id": "49",
+  "ID": "160",
+  "Latitude": 41.37060165,
+  "Longitude": -111.76599884,
+  "Downlink": 447.775,
+  "Uplink": 442.775,
+  "Uplink Tone": 123,
+  "Grid": "DN41CI",
+  "Op Status": "On-Air",
+  "Coverage": "Wide area: Cache and Morgan valleys.",
+  "Features": "Linked.",
+  "Coordination": "UVHFS",
+  "Last update": "2016-12-13"
+}
