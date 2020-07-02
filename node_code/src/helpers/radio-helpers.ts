@@ -3,7 +3,7 @@ import { RepeaterStructured, RepeaterStatus, RepeaterUse } from '@interfaces/rep
 export enum FrequencyBand {
   $160_m,
   $80_m,
-  // $60_m,
+  $60_m,
   $40_m,
   $30_m,
   $20_m,
@@ -30,7 +30,7 @@ export function filterFrequencies(...bands: FrequencyBand[]): (filter: RepeaterS
   return (filter: RepeaterStructured): boolean =>
     (bands.includes(FrequencyBand.$160_m) && filter.Frequency.Output >= 1.8 && filter.Frequency.Output <= 2.0) ||
     (bands.includes(FrequencyBand.$80_m) && filter.Frequency.Output >= 3.5 && filter.Frequency.Output <= 4.0) ||
-    // (bands.includes(FrequencyBand.$60_m) && filter.Frequency.Output >= 28 && filter.Frequency.Output <= 29.7) ||
+    (bands.includes(FrequencyBand.$60_m) && filter.Frequency.Output >= 5.3305 && filter.Frequency.Output <= 5.405) ||
     (bands.includes(FrequencyBand.$40_m) && filter.Frequency.Output >= 7.0 && filter.Frequency.Output <= 7.3) ||
     (bands.includes(FrequencyBand.$30_m) && filter.Frequency.Output >= 10.1 && filter.Frequency.Output <= 10.15) ||
     (bands.includes(FrequencyBand.$20_m) && filter.Frequency.Output >= 14.0 && filter.Frequency.Output <= 14.35) ||

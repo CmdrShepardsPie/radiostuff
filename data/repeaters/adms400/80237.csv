@@ -203,15 +203,15 @@ Channel Number,Receive Frequency,Transmit Frequency,Offset Frequency,Offset Dire
 202,446.12500,446.12500,,Simplex,Auto,FM Simplex ,Large,None,100.0 Hz,023,Low,Off,Auto,Off,FM Simplex,1500 Hz
 203,446.15000,446.15000,,Simplex,Auto,FM Simplex ,Large,None,100.0 Hz,023,Low,Off,Auto,Off,FM Simplex,1500 Hz
 204,446.17500,446.17500,,Simplex,Auto,FM Simplex ,Large,None,100.0 Hz,023,Low,Off,Auto,Off,FM Simplex,1500 Hz
-205,446.20000,446.20000,,Simplex,Auto,FM Simplex ,Large,None,100.0 Hz,023,Low,Off,Auto,Off,FM Simplex,1500 Hz
-206,446.21250,446.21250,,Simplex,Auto,Digital ,Large,None,100.0 Hz,023,Low,Off,Auto,Off,Digital,1500 Hz
-207,446.22500,446.22500,,Simplex,Auto,FM Simplex ,Large,None,100.0 Hz,023,Low,Off,Auto,Off,FM Simplex,1500 Hz
-208,446.23750,446.23750,,Simplex,Auto,Digital ,Large,None,100.0 Hz,023,Low,Off,Auto,Off,Digital,1500 Hz
-209,446.25000,446.25000,,Simplex,Auto,FM Simplex ,Large,None,100.0 Hz,023,Low,Off,Auto,Off,FM Simplex,1500 Hz
-210,446.26250,446.26250,,Simplex,Auto,Digital ,Large,None,100.0 Hz,023,Low,Off,Auto,Off,Digital,1500 Hz
-211,446.27500,446.27500,,Simplex,Auto,FM Simplex ,Large,None,100.0 Hz,023,Low,Off,Auto,Off,FM Simplex,1500 Hz
-212,446.28750,446.28750,,Simplex,Auto,Digital ,Large,None,100.0 Hz,023,Low,Off,Auto,Off,Digital,1500 Hz
-213,446.30000,446.30000,,Simplex,Auto,Digital ,Large,None,100.0 Hz,023,Low,Off,Auto,Off,Digital,1500 Hz
+205,446.20000,446.20000,,Simplex,Auto,Digital Simplex ,Large,None,100.0 Hz,023,Low,Off,Auto,Off,Digital Simplex,1500 Hz
+206,446.21250,446.21250,,Simplex,Auto,Digital Simplex ,Large,None,100.0 Hz,023,Low,Off,Auto,Off,Digital Simplex,1500 Hz
+207,446.22500,446.22500,,Simplex,Auto,Digital Simplex ,Large,None,100.0 Hz,023,Low,Off,Auto,Off,Digital Simplex,1500 Hz
+208,446.23750,446.23750,,Simplex,Auto,Digital Simplex ,Large,None,100.0 Hz,023,Low,Off,Auto,Off,Digital Simplex,1500 Hz
+209,446.25000,446.25000,,Simplex,Auto,Digital Simplex ,Large,None,100.0 Hz,023,Low,Off,Auto,Off,Digital Simplex,1500 Hz
+210,446.26250,446.26250,,Simplex,Auto,Digital Simplex ,Large,None,100.0 Hz,023,Low,Off,Auto,Off,Digital Simplex,1500 Hz
+211,446.27500,446.27500,,Simplex,Auto,Digital Simplex ,Large,None,100.0 Hz,023,Low,Off,Auto,Off,Digital Simplex,1500 Hz
+212,446.28750,446.28750,,Simplex,Auto,Digital Simplex ,Large,None,100.0 Hz,023,Low,Off,Auto,Off,Digital Simplex,1500 Hz
+213,446.30000,446.30000,,Simplex,Auto,Digital Simplex ,Large,None,100.0 Hz,023,Low,Off,Auto,Off,Digital Simplex,1500 Hz
 214,447.00000,442.00000,5.00 MHz,Minus,Auto,KC0VJD YW,Large,Tone,103.5 Hz,023,Low,Off,Auto,Off,8 17059 CO Lincoln Hugo KC0VJD,1500 Hz
 215,447.02500,442.02500,5.00 MHz,Minus,Auto,KF0WF F,Large,Tone,123.0 Hz,023,Low,Off,Auto,Off,8 49 CO El Paso Colorado Springs KF0WF,1500 Hz
 216,447.05000,442.05000,5.00 MHz,Minus,Auto,K0VQ F,Large,T Sql,136.5 Hz,023,Low,Off,Auto,Off,8 260 CO Pitkin Aspen Aspen Mountain K0VQ,1500 Hz

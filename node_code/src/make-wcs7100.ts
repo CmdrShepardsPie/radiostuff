@@ -74,6 +74,7 @@ async function doIt(inFileName: string, outFileName: string): Promise<void> {
       .filter(filterFrequencies(
         FrequencyBand.$160_m,
         FrequencyBand.$80_m,
+        FrequencyBand.$60_m,
         FrequencyBand.$40_m,
         FrequencyBand.$30_m,
         FrequencyBand.$20_m,
@@ -90,6 +91,7 @@ async function doIt(inFileName: string, outFileName: string): Promise<void> {
       .filter(filterFrequencies(
         FrequencyBand.$160_m,
         FrequencyBand.$80_m,
+        FrequencyBand.$60_m,
         FrequencyBand.$40_m,
         FrequencyBand.$30_m,
         FrequencyBand.$20_m,
@@ -161,6 +163,10 @@ function convertToRadio(repeater: RepeaterStructured): Wcs7100 {
     } else {
       OperatingMode = Wcs7100OperatingMode.USB;
     }
+  } else if (/^USB/.test(repeater.Callsign)) {
+    OperatingMode = Wcs7100OperatingMode.USB;
+  } else if (/^LSB/.test(repeater.Callsign)) {
+    OperatingMode = Wcs7100OperatingMode.LSB;
   } else if (/^CW/.test(repeater.Callsign)) {
     OperatingMode = Wcs7100OperatingMode.CW;
   } else if (/^RTTY/.test(repeater.Callsign)) {

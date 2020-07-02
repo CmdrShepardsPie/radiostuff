@@ -3,19 +3,40 @@ Frequency,Name
 1.91,SSB QRP
 3.59,RTTY DX
 3.885,AM Calling
+5.3305,USB
+5.332,CW
+5.332,RTTY
+5.3465,USB
+5.348,CW
+5.348,RTTY
+5.357,USB
+5.3585,CW
+5.3585,RTTY
+5.3715,USB
+5.373,CW
+5.373,RTTY
+5.4035,USB
+5.405,CW
+5.405,RTTY
 7.04,RTTY DX
 7.29,AM Calling
 14.286,AM Calling
 29.6,FM Simplex
 50.125,SSB Calling
-50.62,Digital Calling
+51.5125,FM Simplex
+51.525,FM Simplex
+51.5375,FM Simplex
+51.55,FM Simplex
+51.5625,FM Simplex
+51.575,FM Simplex
+51.5875,FM Simplex
 52.02,FM Simplex
 52.04,FM Simplex
 52.525,FM Simplex
 52.54,FM Simplex
-53.02,Mixed
-53.52,Mixed
-53.9,Mixed
+53.02,FM Simplex
+53.52,FM Simplex
+53.9,FM Simplex
 144.2,SSB Calling
 145.5625,Fusion Simplex
 145.67,D-Star Simplex
@@ -99,17 +120,17 @@ Frequency,Name
 446.125,FM Simplex
 446.15,FM Simplex
 446.175,FM Simplex
+446.2,Digital Simplex
 446.2,FM Simplex
-446.2,Digital
-446.2125,Digital
-446.225,FM Simplex
-446.225,Digital
+446.2125,Digital Simplex
+446.225,Digital Simplex
 446.225,D-Star Simplex
-446.2375,Digital
+446.225,FM Simplex
+446.2375,Digital Simplex
+446.25,Digital Simplex
 446.25,FM Simplex
-446.25,Digital
-446.2625,Digital
+446.2625,Digital Simplex
+446.275,Digital Simplex
 446.275,FM Simplex
-446.275,Digital
-446.2875,Digital
-446.3,Digital
+446.2875,Digital Simplex
+446.3,Digital Simplex
