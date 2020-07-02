@@ -1,6 +1,6 @@
 import 'module-alias/register';
 
-import { readFileAsync, readFromCsv, writeToCsv } from '@helpers/fs-helpers';
+import { getAllFilesInDirectory, readFileAsync, readFromCsv, writeToCsv } from '@helpers/fs-helpers';
 import { createLog } from '@helpers/log-helpers';
 import { RepeaterStructured } from '@interfaces/repeater-structured';
 import { SimplexFrequency } from '@interfaces/simplex-frequency';
@@ -36,11 +36,12 @@ log('Program Setup');
 
 program
   .version('0.0.1')
-  .arguments('<location>')
-  .action(async (location: string): Promise<void> => {
-    log('Program Action');
+  .arguments('<location> <name>')
+  .action(async (location: string, name: string): Promise<void> => {
+    log('Program Action', location, name);
     if (location) {
-      await doIt(`../data/repeaters/converted/json/${location}.json`, `../data/repeaters/adms7/${location}`);
+      const latLong: gpsDistance.Point = location.split(',').map((l: string): number => parseFloat(l)) as gpsDistance.Point;
+      await doIt(latLong,`../data/repeaters/adms7/${name}`);
     }
   });
 
@@ -48,27 +49,45 @@ log('Program Parse Args');
 
 program.parse(process.argv);
 
-async function doIt(inFileName: string, outFileName: string): Promise<void> {
+async function doIt(location: gpsDistance.Point, outFileName: string): Promise<void> {
+  const repeaters: RepeaterStructured[] = [];
+
   const simplex: RepeaterStructured[] =
     (await readFromCsv<SimplexFrequency>('../data/simplex-frequencies.csv'))
       .map((map: SimplexFrequency): RepeaterStructured =>
         ({ Callsign: map.Name, Frequency: { Output: map.Frequency, Input: map.Frequency } }) as RepeaterStructured)
       .filter((filter: RepeaterStructured): boolean => /FM|Digital|Mixed|Fusion/i.test(filter.Callsign)); // TODO: Make a function and enum
 
+  const files: string[] = await getAllFilesInDirectory('../data/repeaters/converted/json', 'json', 1);
 
-  const repeaters: RepeaterStructured[] =
-    JSON.parse((await readFileAsync(inFileName)).toString());
+  const uniqueFileName: { [key: string]: boolean } = {};
 
-  // repeaters.forEach((each: RepeaterStructured): void => {
-  //   each.Location.Distance = Math.min(
-  //     gpsDistance([homePoint, [each.Location.Latitude, each.Location.Longitude]]),
-  //     // gpsDistance([DenverPoint, [each.Location.Latitude, each.Location.Longitude]]),
-  //     // gpsDistance([ColoradoSpringsPoint, [each.Location.Latitude, each.Location.Longitude]]),
-  //   );
-  // });
+  await Promise.all(files.map(async (file: string): Promise<void> => {
+    // log('Read File', file);
+    const fileBuffer: Buffer = await readFileAsync(file);
+    const fileString: string = fileBuffer.toString();
+    const fileData: RepeaterStructured = JSON.parse(fileString);
+    const name: string = `${fileData.StateID} ${fileData.ID}`;
+    if (!uniqueFileName[name]) {
+      uniqueFileName[name] = true;
+      fileData.Location.Distance = gpsDistance([location, [fileData.Location.Latitude, fileData.Location.Longitude]]);
+      repeaters.push(fileData);
+    }
+  }));
 
-  repeaters.sort((a: RepeaterStructured, b: RepeaterStructured): number => a.Location.Distance! - b.Location.Distance!);
-  const unique: { [key: string]: boolean } = {};
+  log('Got', repeaters.length, 'Repeaters');
+
+  repeaters
+    .sort((a: RepeaterStructured, b: RepeaterStructured): number => (a.DigitalTone && a.DigitalTone.Input || 0) - (b.DigitalTone && b.DigitalTone.Input || 0))
+    .sort((a: RepeaterStructured, b: RepeaterStructured): number => (a.SquelchTone && a.SquelchTone.Input || 0) - (b.SquelchTone && b.SquelchTone.Input || 0))
+    .sort((a: RepeaterStructured, b: RepeaterStructured): number => a.Frequency.Input - b.Frequency.Input)
+    .sort((a: RepeaterStructured, b: RepeaterStructured): number => a.Location.Distance! - b.Location.Distance!)
+    .sort((a: RepeaterStructured, b: RepeaterStructured): number => (a.DigitalTone && a.DigitalTone.Input || 0) - (b.DigitalTone && b.DigitalTone.Input || 0))
+    .sort((a: RepeaterStructured, b: RepeaterStructured): number => (a.SquelchTone && a.SquelchTone.Input || 0) - (b.SquelchTone && b.SquelchTone.Input || 0))
+    .sort((a: RepeaterStructured, b: RepeaterStructured): number => a.Frequency.Input - b.Frequency.Input)
+    .sort((a: RepeaterStructured, b: RepeaterStructured): number => a.Location.Distance! - b.Location.Distance!);
+
+  const uniqueRouterId: { [key: string]: boolean } = {};
   const mapped: Adms7[] = [
     ...simplex
       .filter(filterFrequencies(
@@ -87,18 +106,14 @@ async function doIt(inFileName: string, outFileName: string): Promise<void> {
     .map((map: RepeaterStructured, index: number): Adms7 => ({ ...convertToRadio(map), Number: index + 1 }))
     .filter((filter: Adms7): boolean => {
       const name: string = `${filter.Receive} ${filter.Transmit} ${filter.ToneMode} ${filter.CTCSS} ${filter.DCS}`;
-      if (unique[name]) {
+      if (uniqueRouterId[name]) {
         return false;
       }
-      unique[name] = true;
+      uniqueRouterId[name] = true;
       return true;
     })
     .concat([...new Array(500)].map((): Adms7 => ({ ClockShift: Adms7ClockShift.Off, Bank: Adms7Bank.A } as Adms7)))
     .slice(0, 500)
-    .sort((a: Adms7, b: Adms7): number => parseFloat(a.CTCSS) - parseFloat(b.CTCSS))
-    .sort((a: Adms7, b: Adms7): number => parseFloat(a.Receive) - parseFloat(b.Receive))
-    .sort((a: Adms7, b: Adms7): number => parseFloat(a.CTCSS) - parseFloat(b.CTCSS))
-    .sort((a: Adms7, b: Adms7): number => parseFloat(a.Receive) - parseFloat(b.Receive))
     .map((map: Adms7, index: number): Adms7 => ({ ...map, Number: index + 1 }));
 
   return writeToCsv(outFileName, mapped, false);
