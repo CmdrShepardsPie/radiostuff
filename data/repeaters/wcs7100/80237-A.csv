@@ -30,71 +30,63 @@ Channel Number,Receive Frequency,Transmit Frequency,Offset Frequency,Offset Dire
 29,52.52500,52.52500,,Simplex,FM,FM Simplex ,None,100.0 Hz,100.0 Hz,023,Both N,Off,FM Simplex,,,,,,Filter 1,,,None,88.5 Hz,88.5 Hz,023,Both N,Filter 1,FM
 30,52.54000,52.54000,,Simplex,FM,FM Simplex ,None,100.0 Hz,100.0 Hz,023,Both N,Off,FM Simplex,,,,,,Filter 1,,,None,88.5 Hz,88.5 Hz,023,Both N,Filter 1,FM
 31,53.02000,53.02000,,Simplex,FM,FM Simplex ,None,100.0 Hz,100.0 Hz,023,Both N,Off,FM Simplex,,,,,,Filter 1,,,None,88.5 Hz,88.5 Hz,023,Both N,Filter 1,FM
-32,53.03000,51.33000,,-DUP,FM,WB0WDF F,T Sql,88.5 Hz,88.5 Hz,023,Both N,Off,8 29 CO Fremont Canon City Fremont Peak WB0WDF,,,,,,Filter 1,,,None,88.5 Hz,88.5 Hz,023,Both N,Filter 1,FM
-33,53.03000,52.03000,1.00 MHz,-DUP,FM,K7UWR F,None,100.0 Hz,100.0 Hz,023,Both N,Off,56 4 WY Albany Laramie Pilot Hill K7UWR,,,,,,Filter 1,,,None,88.5 Hz,88.5 Hz,023,Both N,Filter 1,FM
-34,53.09000,51.39000,,-DUP,FM,W0TX F,Tone,107.2 Hz,100.0 Hz,023,Both N,Off,8 105 CO Jefferson Lakewood Green Mountain W0TX,,,,,,Filter 1,,,None,88.5 Hz,88.5 Hz,023,Both N,Filter 1,FM
-35,53.13000,51.43000,,-DUP,FM,KC0CVU F,T Sql,107.2 Hz,107.2 Hz,023,Both N,Off,8 8158 CO El Paso Colorado Springs Cheyenne Mountain KC0CVU,,,,,,Filter 1,,,None,88.5 Hz,88.5 Hz,023,Both N,Filter 1,FM
-36,53.17000,52.67000,500 kHz,-DUP,FM,N6LXX FL,Tone,107.2 Hz,100.0 Hz,023,Both N,Off,8 10514 CO Jefferson Morrison Mt. Morrison N6LXX,,,,,,Filter 1,,,None,88.5 Hz,88.5 Hz,023,Both N,Filter 1,FM
-37,53.52000,53.52000,,Simplex,FM,FM Simplex ,None,100.0 Hz,100.0 Hz,023,Both N,Off,FM Simplex,,,,,,Filter 1,,,None,88.5 Hz,88.5 Hz,023,Both N,Filter 1,FM
-38,53.90000,53.90000,,Simplex,FM,FM Simplex ,None,100.0 Hz,100.0 Hz,023,Both N,Off,FM Simplex,,,,,,Filter 1,,,None,88.5 Hz,88.5 Hz,023,Both N,Filter 1,FM
-39,144.20000,144.20000,,Simplex,USB,SSB Calling ,None,100.0 Hz,100.0 Hz,023,Both N,Off,SSB Calling,,,,,,Filter 1,,,None,88.5 Hz,88.5 Hz,023,Both N,Filter 1,FM
-40,145.11500,144.51500,600 kHz,-DUP,FM,W0PHC F,Tone,88.5 Hz,100.0 Hz,023,Both N,Off,8 191 CO Pueblo Pueblo W0PHC,,,,,,Filter 1,,,None,88.5 Hz,88.5 Hz,023,Both N,Filter 1,FM
-41,145.11500,144.51500,600 kHz,-DUP,FM,W0UPS FE,T Sql,100.0 Hz,100.0 Hz,023,Both N,Off,8 123 CO Larimer Fort Collins Horsetooth Mountain W0UPS,,,,,,Filter 1,,,None,88.5 Hz,88.5 Hz,023,Both N,Filter 1,FM
-42,145.13000,144.53000,600 kHz,-DUP,FM,KB0VJJ F,Tone,88.5 Hz,123.0 Hz,023,Both N,Off,8 37 CO El Paso Colorado Springs Cheyenne Mountain KB0VJJ,,,,,,Filter 1,,,None,88.5 Hz,88.5 Hz,023,Both N,Filter 1,FM
-43,145.14500,144.54500,600 kHz,-DUP,FM,W0CRA F,T Sql,107.2 Hz,107.2 Hz,023,Both N,Off,8 107 CO Clear Creek Idaho Springs Squaw Mountain W0CRA,,,,,,Filter 1,,,None,88.5 Hz,88.5 Hz,023,Both N,Filter 1,FM
-44,145.16000,144.56000,600 kHz,-DUP,FM,KB0VJJ F,Tone,88.5 Hz,123.0 Hz,023,Both N,Off,8 244 CO Jackson Walden Peterson Ridge KB0VJJ,,,,,,Filter 1,,,None,88.5 Hz,88.5 Hz,023,Both N,Filter 1,FM
-45,145.16000,144.56000,600 kHz,-DUP,FM,W0CRA FEI,T Sql,107.2 Hz,107.2 Hz,023,Both N,Off,8 38 CO El Paso Colorado Springs Cheyenne Mountain W0CRA,,,,,,Filter 1,,,None,88.5 Hz,88.5 Hz,023,Both N,Filter 1,FM
-46,145.17500,144.57500,600 kHz,-DUP,FM,W0RRZ FI,Tone,107.2 Hz,100.0 Hz,023,Both N,Off,8 147 CO Mesa Grand Junction GJT W0RRZ,,,,,,Filter 1,,,None,88.5 Hz,88.5 Hz,023,Both N,Filter 1,FM
-47,145.19000,144.59000,600 kHz,-DUP,FM,N0OBA F,T Sql,131.8 Hz,131.8 Hz,023,Both N,Off,8 8741 CO Arapahoe Aurora N0OBA,,,,,,Filter 1,,,None,88.5 Hz,88.5 Hz,023,Both N,Filter 1,FM
-48,145.22000,144.62000,600 kHz,-DUP,FM,KE0TY F,Tone,107.2 Hz,100.0 Hz,023,Both N,Off,8 8167 CO Mesa Grand Junction KE0TY,,,,,,Filter 1,,,None,88.5 Hz,88.5 Hz,023,Both N,Filter 1,FM
-49,145.26500,144.66500,600 kHz,-DUP,FM,WD0HAM F,Tone,107.2 Hz,100.0 Hz,023,Both N,Off,8 3740 CO Moffat Craig WD0HAM,,,,,,Filter 1,,,None,88.5 Hz,88.5 Hz,023,Both N,Filter 1,FM
-50,145.28000,144.68000,600 kHz,-DUP,FM,KE0SJ F,Tone,100.0 Hz,100.0 Hz,023,Both N,Off,8 140 CO Jefferson Golden Centennial Cone KE0SJ,,,,,,Filter 1,,,None,88.5 Hz,88.5 Hz,023,Both N,Filter 1,FM
-51,145.28000,144.68000,600 kHz,-DUP,FM,WB0SLW F,T Sql,100.0 Hz,100.0 Hz,023,Both N,Off,8 18707 CO Pueblo Pueblo WB0SLW,,,,,,Filter 1,,,None,88.5 Hz,88.5 Hz,023,Both N,Filter 1,FM
-52,145.29500,144.69500,600 kHz,-DUP,FM,WA0JTB F,Tone,100.0 Hz,100.0 Hz,023,Both N,Off,8 238 CO Logan Sterling CO WA0JTB,,,,,,Filter 1,,,None,88.5 Hz,88.5 Hz,023,Both N,Filter 1,FM
-53,145.29500,144.69500,600 kHz,-DUP,FM,KC0CVU F,Tone,107.2 Hz,100.0 Hz,023,Both N,Off,8 203 CO Chaffee Salida Methodist Mountain KC0CVU,,,,,,Filter 1,,,None,88.5 Hz,88.5 Hz,023,Both N,Filter 1,FM
-54,145.31000,144.71000,600 kHz,-DUP,FM,KB0VJJ F,Tone,88.5 Hz,123.0 Hz,023,Both N,Off,8 72 CO Gilpin Boulder Thorodin Mountain KB0VJJ,,,,,,Filter 1,,,None,88.5 Hz,88.5 Hz,023,Both N,Filter 1,FM
-55,145.32500,144.72500,600 kHz,-DUP,FM,KD0MRC F,Tone,100.0 Hz,100.0 Hz,023,Both N,Off,8 16739 CO Chaffee Maysville KD0MRC,,,,,,Filter 1,,,None,88.5 Hz,88.5 Hz,023,Both N,Filter 1,FM
-56,145.34000,144.74000,600 kHz,-DUP,FM,KE4GUQ FI,Tone,103.5 Hz,127.3 Hz,023,Both N,Off,8 73 CO Jefferson Evergreen KE4GUQ,,,,,,Filter 1,,,None,88.5 Hz,88.5 Hz,023,Both N,Filter 1,FM
-57,145.35500,144.75500,600 kHz,-DUP,FM,KB0VJJ F,Tone,88.5 Hz,123.0 Hz,023,Both N,Off,8 149 CO Mesa Grand Junction Grand Mesa KB0VJJ,,,,,,Filter 1,,,None,88.5 Hz,88.5 Hz,023,Both N,Filter 1,FM
-58,145.35500,144.75500,600 kHz,-DUP,FM,N0JPX FI,Tone,100.0 Hz,100.0 Hz,023,Both N,Off,8 168 CO Huerfano La Veta N0JPX,,,,,,Filter 1,,,None,88.5 Hz,88.5 Hz,023,Both N,Filter 1,FM
-59,145.38500,144.78500,600 kHz,-DUP,DV,KC0CVU S,None,100.0 Hz,100.0 Hz,023,Both N,Off,8 8088 CO El Paso Colorado Springs Cheyenne Mountain KC0CVU,,,CQCQCQ,KC0CVU C,KC0CVU G,Filter 1,,,None,88.5 Hz,88.5 Hz,023,Both N,Filter 1,FM
-60,145.38750,144.78750,600 kHz,-DUP,DV,KC0DS S,None,100.0 Hz,100.0 Hz,023,Both N,Off,8 8171 CO Boulder Boulder KC0DS,,,CQCQCQ,KC0DS  C,KC0DS  G,Filter 1,,,None,88.5 Hz,88.5 Hz,023,Both N,Filter 1,FM
-61,145.40000,144.80000,600 kHz,-DUP,FM,KB0VJJ F,Tone,88.5 Hz,123.0 Hz,023,Both N,Off,8 2 CO Washington Akron KB0VJJ,,,,,,Filter 1,,,None,88.5 Hz,88.5 Hz,023,Both N,Filter 1,FM
-62,145.40000,144.80000,600 kHz,-DUP,FM,KB0UDD F,Tone,100.0 Hz,100.0 Hz,023,Both N,Off,8 5 CO Arapahoe Aurora Smoky Hill KB0UDD,,,,,,Filter 1,,,None,88.5 Hz,88.5 Hz,023,Both N,Filter 1,FM
-63,145.41500,144.81500,600 kHz,-DUP,FM,KA0WUC F,Tone,179.9 Hz,100.0 Hz,023,Both N,Off,8 249 CO Teller Woodland Park KA0WUC,,,,,,Filter 1,,,None,88.5 Hz,88.5 Hz,023,Both N,Filter 1,FM
-64,145.43000,144.83000,600 kHz,-DUP,FM,WA6IFI F,Tone,107.2 Hz,100.0 Hz,023,Both N,Off,8 239 CO Las Animas Trinidad Raton Pass WA6IFI,,,,,,Filter 1,,,None,88.5 Hz,88.5 Hz,023,Both N,Filter 1,FM
-65,145.44500,144.84500,600 kHz,-DUP,FM,KB0VJJ F,Tone,88.5 Hz,100.0 Hz,023,Both N,Off,8 172 CO Lake Leadville Mosquito Pass KB0VJJ,,,,,,Filter 1,,,None,88.5 Hz,88.5 Hz,023,Both N,Filter 1,FM
-66,145.46000,144.86000,600 kHz,-DUP,FM,WB0WDF F,Tone,67.0 Hz,100.0 Hz,023,Both N,Off,8 64 CO Teller Cripple Creek WB0WDF,,,,,,Filter 1,,,None,88.5 Hz,88.5 Hz,023,Both N,Filter 1,FM
-67,145.46000,144.86000,600 kHz,-DUP,FM,W0CRA FEI,T Sql,107.2 Hz,107.2 Hz,023,Both N,Off,8 8 CO Boulder Boulder Eldorado Mountain W0CRA,,,,,,Filter 1,,,None,88.5 Hz,88.5 Hz,023,Both N,Filter 1,FM
-68,145.47500,144.87500,600 kHz,-DUP,FM,KE0SJ F,Tone,100.0 Hz,100.0 Hz,023,Both N,Off,8 75 CO Jefferson Boulder Blue Mountain KE0SJ,,,,,,Filter 1,,,None,88.5 Hz,88.5 Hz,023,Both N,Filter 1,FM
-69,145.47500,144.87500,600 kHz,-DUP,FM,WD0BQM F,None,100.0 Hz,100.0 Hz,023,Both N,Off,31 57 NE Scotts Bluff Scottsbluff WD0BQM,,,,,,Filter 1,,,None,88.5 Hz,88.5 Hz,023,Both N,Filter 1,FM
-70,145.49000,144.89000,600 kHz,-DUP,FM,W0TX F,T Sql,100.0 Hz,100.0 Hz,023,Both N,Off,8 76 CO Jefferson Idaho Springs Centennial Cone W0TX,,,,,,Filter 1,,,None,88.5 Hz,88.5 Hz,023,Both N,Filter 1,FM
-71,145.49000,144.89000,600 kHz,-DUP,FM,WD0EKR F,T Sql,103.5 Hz,103.5 Hz,023,Both N,Off,8 30 CO Fremont Canon City Fremont Peak WD0EKR,,,,,,Filter 1,,,None,88.5 Hz,88.5 Hz,023,Both N,Filter 1,FM
-72,145.67000,145.67000,,Simplex,FM,D Star Simplex ,None,100.0 Hz,100.0 Hz,023,Both N,Off,D-Star Simplex,,,,,,Filter 1,,,None,88.5 Hz,88.5 Hz,023,Both N,Filter 1,FM
-73,146.40000,146.40000,,Simplex,FM,FM Simplex ,None,100.0 Hz,100.0 Hz,023,Both N,Off,FM Simplex,,,,,,Filter 1,,,None,88.5 Hz,88.5 Hz,023,Both N,Filter 1,FM
-74,146.41500,146.41500,,Simplex,FM,FM Simplex ,None,100.0 Hz,100.0 Hz,023,Both N,Off,FM Simplex,,,,,,Filter 1,,,None,88.5 Hz,88.5 Hz,023,Both N,Filter 1,FM
-75,146.43000,146.43000,,Simplex,FM,FM Simplex ,None,100.0 Hz,100.0 Hz,023,Both N,Off,FM Simplex,,,,,,Filter 1,,,None,88.5 Hz,88.5 Hz,023,Both N,Filter 1,FM
-76,146.44500,146.44500,,Simplex,FM,AG0N FI,T Sql,88.5 Hz,88.5 Hz,023,Both N,Off,31 11355 NE Scotts Bluff Scottsbluff AG0N,,,,,,Filter 1,,,None,88.5 Hz,88.5 Hz,023,Both N,Filter 1,FM
-77,146.44500,146.44500,,Simplex,FM,FM Simplex ,None,100.0 Hz,100.0 Hz,023,Both N,Off,FM Simplex,,,,,,Filter 1,,,None,88.5 Hz,88.5 Hz,023,Both N,Filter 1,FM
-78,146.46000,146.46000,,Simplex,FM,FM Simplex ,None,100.0 Hz,100.0 Hz,023,Both N,Off,FM Simplex,,,,,,Filter 1,,,None,88.5 Hz,88.5 Hz,023,Both N,Filter 1,FM
-79,146.47500,146.47500,,Simplex,FM,FM Simplex ,None,100.0 Hz,100.0 Hz,023,Both N,Off,FM Simplex,,,,,,Filter 1,,,None,88.5 Hz,88.5 Hz,023,Both N,Filter 1,FM
-80,146.49000,146.49000,,Simplex,FM,FM Simplex ,None,100.0 Hz,100.0 Hz,023,Both N,Off,FM Simplex,,,,,,Filter 1,,,None,88.5 Hz,88.5 Hz,023,Both N,Filter 1,FM
-81,146.50500,146.50500,,Simplex,FM,FM Simplex ,None,100.0 Hz,100.0 Hz,023,Both N,Off,FM Simplex,,,,,,Filter 1,,,None,88.5 Hz,88.5 Hz,023,Both N,Filter 1,FM
-82,146.52000,146.52000,,Simplex,FM,FM Calling ,None,100.0 Hz,100.0 Hz,023,Both N,Off,FM Calling,,,,,,Filter 1,,,None,88.5 Hz,88.5 Hz,023,Both N,Filter 1,FM
-83,146.53500,146.53500,,Simplex,FM,FM Simplex ,None,100.0 Hz,100.0 Hz,023,Both N,Off,FM Simplex,,,,,,Filter 1,,,None,88.5 Hz,88.5 Hz,023,Both N,Filter 1,FM
-84,146.55000,146.55000,,Simplex,FM,FM Simplex ,None,100.0 Hz,100.0 Hz,023,Both N,Off,FM Simplex,,,,,,Filter 1,,,None,88.5 Hz,88.5 Hz,023,Both N,Filter 1,FM
-85,146.56500,146.56500,,Simplex,FM,FM Simplex ,None,100.0 Hz,100.0 Hz,023,Both N,Off,FM Simplex,,,,,,Filter 1,,,None,88.5 Hz,88.5 Hz,023,Both N,Filter 1,FM
-86,146.58000,146.58000,,Simplex,FM,FM Simplex ,None,100.0 Hz,100.0 Hz,023,Both N,Off,FM Simplex,,,,,,Filter 1,,,None,88.5 Hz,88.5 Hz,023,Both N,Filter 1,FM
-87,146.59500,146.59500,,Simplex,FM,FM Simplex ,None,100.0 Hz,100.0 Hz,023,Both N,Off,FM Simplex,,,,,,Filter 1,,,None,88.5 Hz,88.5 Hz,023,Both N,Filter 1,FM
-88,146.61000,146.01000,600 kHz,-DUP,FM,W0DK FI,Tone,100.0 Hz,100.0 Hz,023,Both N,Off,8 13 CO Boulder Boulder W0DK,,,,,,Filter 1,,,None,88.5 Hz,88.5 Hz,023,Both N,Filter 1,FM
-89,146.61000,146.01000,600 kHz,-DUP,FM,K0RV F,Tone,107.2 Hz,100.0 Hz,023,Both N,Off,8 256 CO Eagle Vail Bald Mountain K0RV,,,,,,Filter 1,,,None,88.5 Hz,88.5 Hz,023,Both N,Filter 1,FM
-90,146.61000,146.01000,600 kHz,-DUP,FM,N0LAR FEI,T Sql,123.0 Hz,123.0 Hz,023,Both N,Off,8 3794 CO Prowers Lamar 4 Miles East of Lamar N0LAR,,,,,,Filter 1,,,None,88.5 Hz,88.5 Hz,023,Both N,Filter 1,FM
-91,146.62500,146.02500,600 kHz,-DUP,FM,W0UPS F,T Sql,100.0 Hz,100.0 Hz,023,Both N,Off,8 246 CO Larimer Fort Collins Buckhorn Mountain W0UPS,,,,,,Filter 1,,,None,88.5 Hz,88.5 Hz,023,Both N,Filter 1,FM
-92,146.64000,146.04000,600 kHz,-DUP,FM,N0KM FL,T Sql,77.0 Hz,77.0 Hz,023,Both N,Off,8 14200 CO Rio Grande Center N0KM,,,,,,Filter 1,,,None,88.5 Hz,88.5 Hz,023,Both N,Filter 1,FM
-93,146.64000,146.04000,600 kHz,-DUP,FM,N0PUF F,Tone,100.0 Hz,100.0 Hz,023,Both N,Off,8 77 CO Jefferson Golden Centennial Cone N0PUF,,,,,,Filter 1,,,None,88.5 Hz,88.5 Hz,023,Both N,Filter 1,FM
-94,146.64000,146.04000,600 kHz,-DUP,FM,KZ0DEM F,T Sql,100.0 Hz,100.0 Hz,023,Both N,Off,8 3792 CO Las Animas Pritchett Tator Butte KZ0DEM,,,,,,Filter 1,,,None,88.5 Hz,88.5 Hz,023,Both N,Filter 1,FM
-95,146.65500,146.05500,600 kHz,-DUP,FM,K0ST F,Tone,123.0 Hz,100.0 Hz,023,Both N,Off,8 192 CO Pueblo Pueblo Pueblo K0ST,,,,,,Filter 1,,,None,88.5 Hz,88.5 Hz,023,Both N,Filter 1,FM
-96,146.67000,146.07000,600 kHz,-DUP,FM,KB0UDD F,T Sql,100.0 Hz,100.0 Hz,023,Both N,Off,8 78 CO Clear Creek Idaho Springs Squaw Mountain KB0UDD,,,,,,Filter 1,,,None,88.5 Hz,88.5 Hz,023,Both N,Filter 1,FM
-97,146.67000,146.07000,600 kHz,-DUP,FM,K0CL F,Tone,107.2 Hz,100.0 Hz,023,Both N,Off,8 211 CO Pitkin Snowmass Village K0CL,,,,,,Filter 1,,,None,88.5 Hz,88.5 Hz,023,Both N,Filter 1,FM
-98,146.68500,146.08500,600 kHz,-DUP,FM,NX0G F,T Sql,107.2 Hz,107.2 Hz,023,Both N,Off,8 169 CO Park Lake George Badger Mountain NX0G,,,,,,Filter 1,,,None,88.5 Hz,88.5 Hz,023,Both N,Filter 1,FM
-99,146.68500,146.08500,600 kHz,-DUP,FM,N0FH FEI,T Sql,123.0 Hz,123.0 Hz,023,Both N,Off,8 119 CO Larimer Estes Park N0FH,,,,,,Filter 1,,,None,88.5 Hz,88.5 Hz,023,Both N,Filter 1,FM
+32,53.52000,53.52000,,Simplex,FM,FM Simplex ,None,100.0 Hz,100.0 Hz,023,Both N,Off,FM Simplex,,,,,,Filter 1,,,None,88.5 Hz,88.5 Hz,023,Both N,Filter 1,FM
+33,53.90000,53.90000,,Simplex,FM,FM Simplex ,None,100.0 Hz,100.0 Hz,023,Both N,Off,FM Simplex,,,,,,Filter 1,,,None,88.5 Hz,88.5 Hz,023,Both N,Filter 1,FM
+34,144.20000,144.20000,,Simplex,USB,SSB Calling ,None,100.0 Hz,100.0 Hz,023,Both N,Off,SSB Calling,,,,,,Filter 1,,,None,88.5 Hz,88.5 Hz,023,Both N,Filter 1,FM
+35,145.67000,145.67000,,Simplex,DV,D-Star Simplex ,None,100.0 Hz,100.0 Hz,023,Both N,Off,D-Star Simplex,,,CQCQCQ,,,Filter 1,,,None,88.5 Hz,88.5 Hz,023,Both N,Filter 1,FM
+36,146.40000,146.40000,,Simplex,FM,FM Simplex ,None,100.0 Hz,100.0 Hz,023,Both N,Off,FM Simplex,,,,,,Filter 1,,,None,88.5 Hz,88.5 Hz,023,Both N,Filter 1,FM
+37,146.41500,146.41500,,Simplex,FM,FM Simplex ,None,100.0 Hz,100.0 Hz,023,Both N,Off,FM Simplex,,,,,,Filter 1,,,None,88.5 Hz,88.5 Hz,023,Both N,Filter 1,FM
+38,146.43000,146.43000,,Simplex,FM,FM Simplex ,None,100.0 Hz,100.0 Hz,023,Both N,Off,FM Simplex,,,,,,Filter 1,,,None,88.5 Hz,88.5 Hz,023,Both N,Filter 1,FM
+39,146.44500,146.44500,,Simplex,FM,FM Simplex ,None,100.0 Hz,100.0 Hz,023,Both N,Off,FM Simplex,,,,,,Filter 1,,,None,88.5 Hz,88.5 Hz,023,Both N,Filter 1,FM
+40,146.46000,146.46000,,Simplex,FM,FM Simplex ,None,100.0 Hz,100.0 Hz,023,Both N,Off,FM Simplex,,,,,,Filter 1,,,None,88.5 Hz,88.5 Hz,023,Both N,Filter 1,FM
+41,146.47500,146.47500,,Simplex,FM,FM Simplex ,None,100.0 Hz,100.0 Hz,023,Both N,Off,FM Simplex,,,,,,Filter 1,,,None,88.5 Hz,88.5 Hz,023,Both N,Filter 1,FM
+42,146.49000,146.49000,,Simplex,FM,FM Simplex ,None,100.0 Hz,100.0 Hz,023,Both N,Off,FM Simplex,,,,,,Filter 1,,,None,88.5 Hz,88.5 Hz,023,Both N,Filter 1,FM
+43,146.50500,146.50500,,Simplex,FM,FM Simplex ,None,100.0 Hz,100.0 Hz,023,Both N,Off,FM Simplex,,,,,,Filter 1,,,None,88.5 Hz,88.5 Hz,023,Both N,Filter 1,FM
+44,146.52000,146.52000,,Simplex,FM,FM Calling ,None,100.0 Hz,100.0 Hz,023,Both N,Off,FM Calling,,,,,,Filter 1,,,None,88.5 Hz,88.5 Hz,023,Both N,Filter 1,FM
+45,146.53500,146.53500,,Simplex,FM,FM Simplex ,None,100.0 Hz,100.0 Hz,023,Both N,Off,FM Simplex,,,,,,Filter 1,,,None,88.5 Hz,88.5 Hz,023,Both N,Filter 1,FM
+46,146.55000,146.55000,,Simplex,FM,FM Simplex ,None,100.0 Hz,100.0 Hz,023,Both N,Off,FM Simplex,,,,,,Filter 1,,,None,88.5 Hz,88.5 Hz,023,Both N,Filter 1,FM
+47,146.56500,146.56500,,Simplex,FM,FM Simplex ,None,100.0 Hz,100.0 Hz,023,Both N,Off,FM Simplex,,,,,,Filter 1,,,None,88.5 Hz,88.5 Hz,023,Both N,Filter 1,FM
+48,146.58000,146.58000,,Simplex,FM,FM Simplex ,None,100.0 Hz,100.0 Hz,023,Both N,Off,FM Simplex,,,,,,Filter 1,,,None,88.5 Hz,88.5 Hz,023,Both N,Filter 1,FM
+49,146.59500,146.59500,,Simplex,FM,FM Simplex ,None,100.0 Hz,100.0 Hz,023,Both N,Off,FM Simplex,,,,,,Filter 1,,,None,88.5 Hz,88.5 Hz,023,Both N,Filter 1,FM
+50,147.42000,147.42000,,Simplex,FM,FM Simplex ,None,100.0 Hz,100.0 Hz,023,Both N,Off,FM Simplex,,,,,,Filter 1,,,None,88.5 Hz,88.5 Hz,023,Both N,Filter 1,FM
+51,147.43500,147.43500,,Simplex,FM,FM Simplex ,None,100.0 Hz,100.0 Hz,023,Both N,Off,FM Simplex,,,,,,Filter 1,,,None,88.5 Hz,88.5 Hz,023,Both N,Filter 1,FM
+52,147.45000,147.45000,,Simplex,FM,FM Simplex ,None,100.0 Hz,100.0 Hz,023,Both N,Off,FM Simplex,,,,,,Filter 1,,,None,88.5 Hz,88.5 Hz,023,Both N,Filter 1,FM
+53,147.46500,147.46500,,Simplex,FM,FM Simplex ,None,100.0 Hz,100.0 Hz,023,Both N,Off,FM Simplex,,,,,,Filter 1,,,None,88.5 Hz,88.5 Hz,023,Both N,Filter 1,FM
+54,147.48000,147.48000,,Simplex,FM,FM Simplex ,None,100.0 Hz,100.0 Hz,023,Both N,Off,FM Simplex,,,,,,Filter 1,,,None,88.5 Hz,88.5 Hz,023,Both N,Filter 1,FM
+55,147.49500,147.49500,,Simplex,FM,FM Simplex ,None,100.0 Hz,100.0 Hz,023,Both N,Off,FM Simplex,,,,,,Filter 1,,,None,88.5 Hz,88.5 Hz,023,Both N,Filter 1,FM
+56,147.51000,147.51000,,Simplex,FM,FM Simplex ,None,100.0 Hz,100.0 Hz,023,Both N,Off,FM Simplex,,,,,,Filter 1,,,None,88.5 Hz,88.5 Hz,023,Both N,Filter 1,FM
+57,147.52500,147.52500,,Simplex,FM,FM Simplex ,None,100.0 Hz,100.0 Hz,023,Both N,Off,FM Simplex,,,,,,Filter 1,,,None,88.5 Hz,88.5 Hz,023,Both N,Filter 1,FM
+58,147.54000,147.54000,,Simplex,FM,FM Simplex ,None,100.0 Hz,100.0 Hz,023,Both N,Off,FM Simplex,,,,,,Filter 1,,,None,88.5 Hz,88.5 Hz,023,Both N,Filter 1,FM
+59,147.55500,147.55500,,Simplex,FM,FM Simplex ,None,100.0 Hz,100.0 Hz,023,Both N,Off,FM Simplex,,,,,,Filter 1,,,None,88.5 Hz,88.5 Hz,023,Both N,Filter 1,FM
+60,147.57000,147.57000,,Simplex,FM,FM Simplex ,None,100.0 Hz,100.0 Hz,023,Both N,Off,FM Simplex,,,,,,Filter 1,,,None,88.5 Hz,88.5 Hz,023,Both N,Filter 1,FM
+61,147.58500,147.58500,,Simplex,FM,FM Simplex ,None,100.0 Hz,100.0 Hz,023,Both N,Off,FM Simplex,,,,,,Filter 1,,,None,88.5 Hz,88.5 Hz,023,Both N,Filter 1,FM
+62,432.10000,432.10000,,Simplex,USB,SSB Calling ,None,100.0 Hz,100.0 Hz,023,Both N,Off,SSB Calling,,,,,,Filter 1,,,None,88.5 Hz,88.5 Hz,023,Both N,Filter 1,FM
+63,445.70000,445.70000,,Simplex,FM,FM Simplex ,None,100.0 Hz,100.0 Hz,023,Both N,Off,FM Simplex,,,,,,Filter 1,,,None,88.5 Hz,88.5 Hz,023,Both N,Filter 1,FM
+64,445.72500,445.72500,,Simplex,FM,FM Simplex ,None,100.0 Hz,100.0 Hz,023,Both N,Off,FM Simplex,,,,,,Filter 1,,,None,88.5 Hz,88.5 Hz,023,Both N,Filter 1,FM
+65,445.75000,445.75000,,Simplex,FM,FM Simplex ,None,100.0 Hz,100.0 Hz,023,Both N,Off,FM Simplex,,,,,,Filter 1,,,None,88.5 Hz,88.5 Hz,023,Both N,Filter 1,FM
+66,445.77500,445.77500,,Simplex,FM,FM Simplex ,None,100.0 Hz,100.0 Hz,023,Both N,Off,FM Simplex,,,,,,Filter 1,,,None,88.5 Hz,88.5 Hz,023,Both N,Filter 1,FM
+67,445.80000,445.80000,,Simplex,FM,FM Simplex ,None,100.0 Hz,100.0 Hz,023,Both N,Off,FM Simplex,,,,,,Filter 1,,,None,88.5 Hz,88.5 Hz,023,Both N,Filter 1,FM
+68,445.82500,445.82500,,Simplex,FM,FM Simplex ,None,100.0 Hz,100.0 Hz,023,Both N,Off,FM Simplex,,,,,,Filter 1,,,None,88.5 Hz,88.5 Hz,023,Both N,Filter 1,FM
+69,445.85000,445.85000,,Simplex,FM,FM Simplex ,None,100.0 Hz,100.0 Hz,023,Both N,Off,FM Simplex,,,,,,Filter 1,,,None,88.5 Hz,88.5 Hz,023,Both N,Filter 1,FM
+70,445.87500,445.87500,,Simplex,FM,FM Simplex ,None,100.0 Hz,100.0 Hz,023,Both N,Off,FM Simplex,,,,,,Filter 1,,,None,88.5 Hz,88.5 Hz,023,Both N,Filter 1,FM
+71,445.90000,445.90000,,Simplex,FM,FM Simplex ,None,100.0 Hz,100.0 Hz,023,Both N,Off,FM Simplex,,,,,,Filter 1,,,None,88.5 Hz,88.5 Hz,023,Both N,Filter 1,FM
+72,445.92500,445.92500,,Simplex,FM,FM Simplex ,None,100.0 Hz,100.0 Hz,023,Both N,Off,FM Simplex,,,,,,Filter 1,,,None,88.5 Hz,88.5 Hz,023,Both N,Filter 1,FM
+73,445.95000,445.95000,,Simplex,FM,FM Simplex ,None,100.0 Hz,100.0 Hz,023,Both N,Off,FM Simplex,,,,,,Filter 1,,,None,88.5 Hz,88.5 Hz,023,Both N,Filter 1,FM
+74,445.97500,445.97500,,Simplex,FM,FM Simplex ,None,100.0 Hz,100.0 Hz,023,Both N,Off,FM Simplex,,,,,,Filter 1,,,None,88.5 Hz,88.5 Hz,023,Both N,Filter 1,FM
+75,446.00000,446.00000,,Simplex,FM,FM Calling ,None,100.0 Hz,100.0 Hz,023,Both N,Off,FM Calling,,,,,,Filter 1,,,None,88.5 Hz,88.5 Hz,023,Both N,Filter 1,FM
+76,446.02500,446.02500,,Simplex,FM,FM Simplex ,None,100.0 Hz,100.0 Hz,023,Both N,Off,FM Simplex,,,,,,Filter 1,,,None,88.5 Hz,88.5 Hz,023,Both N,Filter 1,FM
+77,446.05000,446.05000,,Simplex,FM,FM Simplex ,None,100.0 Hz,100.0 Hz,023,Both N,Off,FM Simplex,,,,,,Filter 1,,,None,88.5 Hz,88.5 Hz,023,Both N,Filter 1,FM
+78,446.07500,446.07500,,Simplex,FM,FM Simplex ,None,100.0 Hz,100.0 Hz,023,Both N,Off,FM Simplex,,,,,,Filter 1,,,None,88.5 Hz,88.5 Hz,023,Both N,Filter 1,FM
+79,446.10000,446.10000,,Simplex,FM,FM Simplex ,None,100.0 Hz,100.0 Hz,023,Both N,Off,FM Simplex,,,,,,Filter 1,,,None,88.5 Hz,88.5 Hz,023,Both N,Filter 1,FM
+80,446.12500,446.12500,,Simplex,FM,FM Simplex ,None,100.0 Hz,100.0 Hz,023,Both N,Off,FM Simplex,,,,,,Filter 1,,,None,88.5 Hz,88.5 Hz,023,Both N,Filter 1,FM
+81,446.15000,446.15000,,Simplex,FM,FM Simplex ,None,100.0 Hz,100.0 Hz,023,Both N,Off,FM Simplex,,,,,,Filter 1,,,None,88.5 Hz,88.5 Hz,023,Both N,Filter 1,FM
+82,446.17500,446.17500,,Simplex,FM,FM Simplex ,None,100.0 Hz,100.0 Hz,023,Both N,Off,FM Simplex,,,,,,Filter 1,,,None,88.5 Hz,88.5 Hz,023,Both N,Filter 1,FM
+83,446.20000,446.20000,,Simplex,DV,Digital Simplex ,None,100.0 Hz,100.0 Hz,023,Both N,Off,Digital Simplex,,,CQCQCQ,,,Filter 1,,,None,88.5 Hz,88.5 Hz,023,Both N,Filter 1,FM
+84,446.21250,446.21250,,Simplex,DV,Digital Simplex ,None,100.0 Hz,100.0 Hz,023,Both N,Off,Digital Simplex,,,CQCQCQ,,,Filter 1,,,None,88.5 Hz,88.5 Hz,023,Both N,Filter 1,FM
+85,446.22500,446.22500,,Simplex,DV,Digital Simplex ,None,100.0 Hz,100.0 Hz,023,Both N,Off,Digital Simplex,,,CQCQCQ,,,Filter 1,,,None,88.5 Hz,88.5 Hz,023,Both N,Filter 1,FM
+86,446.23750,446.23750,,Simplex,DV,Digital Simplex ,None,100.0 Hz,100.0 Hz,023,Both N,Off,Digital Simplex,,,CQCQCQ,,,Filter 1,,,None,88.5 Hz,88.5 Hz,023,Both N,Filter 1,FM
+87,446.25000,446.25000,,Simplex,DV,Digital Simplex ,None,100.0 Hz,100.0 Hz,023,Both N,Off,Digital Simplex,,,CQCQCQ,,,Filter 1,,,None,88.5 Hz,88.5 Hz,023,Both N,Filter 1,FM
+88,446.26250,446.26250,,Simplex,DV,Digital Simplex ,None,100.0 Hz,100.0 Hz,023,Both N,Off,Digital Simplex,,,CQCQCQ,,,Filter 1,,,None,88.5 Hz,88.5 Hz,023,Both N,Filter 1,FM
+89,446.27500,446.27500,,Simplex,DV,Digital Simplex ,None,100.0 Hz,100.0 Hz,023,Both N,Off,Digital Simplex,,,CQCQCQ,,,Filter 1,,,None,88.5 Hz,88.5 Hz,023,Both N,Filter 1,FM
+90,446.28750,446.28750,,Simplex,DV,Digital Simplex ,None,100.0 Hz,100.0 Hz,023,Both N,Off,Digital Simplex,,,CQCQCQ,,,Filter 1,,,None,88.5 Hz,88.5 Hz,023,Both N,Filter 1,FM
+91,446.30000,446.30000,,Simplex,DV,Digital Simplex ,None,100.0 Hz,100.0 Hz,023,Both N,Off,Digital Simplex,,,CQCQCQ,,,Filter 1,,,None,88.5 Hz,88.5 Hz,023,Both N,Filter 1,FM

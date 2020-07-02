@@ -39,7 +39,7 @@ var __importDefault = (this && this.__importDefault) || function (mod) {
         const promises = [];
         const simplex = (await fs_helpers_1.readFromCsv('../data/simplex-frequencies.csv'))
             .map((map) => ({ Callsign: map.Name, Frequency: { Output: map.Frequency, Input: map.Frequency } }))
-            .filter((filter) => !/Fusion/i.test(filter.Callsign)); // TODO: Make a function and enum
+            .filter((filter) => !/Fusion|Mixed/i.test(filter.Callsign)); // TODO: Make a function and enum
         const repeaters = JSON.parse((await fs_helpers_1.readFileAsync(inFileName)).toString());
         // repeaters.forEach((each: RepeaterStructured): void => {
         //   each.Location.Distance = Math.min(
@@ -68,17 +68,50 @@ var __importDefault = (this && this.__importDefault) || function (mod) {
             unique[name] = true;
             return true;
         })
-            .slice(0, 500)
+            .slice(0, 500);
+        const simplexWcs7100 = mapped
+            .filter((filter) => filter['Offset Direction'] === wcs7100_1.Wcs7100OffsetDirection.Simplex && filter['Tone Mode'] === wcs7100_1.Wcs7100ToneMode.None)
+            .slice(0, 99)
             .sort((a, b) => parseFloat(a.CTCSS) - parseFloat(b.CTCSS))
             .sort((a, b) => a['Receive Frequency'] - b['Receive Frequency'])
             .sort((a, b) => parseFloat(a.CTCSS) - parseFloat(b.CTCSS))
             .sort((a, b) => a['Receive Frequency'] - b['Receive Frequency'])
             .map((map, index) => ({ ...map, 'Channel Number': index + 1 }));
-        promises.push(fs_helpers_1.writeToCsv(`${outFileName}-A`, mapped.slice(0, 99).map((map, index) => ({ ...map, 'Channel Number': index + 1 }))));
-        promises.push(fs_helpers_1.writeToCsv(`${outFileName}-B`, mapped.slice(99, 198).map((map, index) => ({ ...map, 'Channel Number': index + 1 }))));
-        promises.push(fs_helpers_1.writeToCsv(`${outFileName}-C`, mapped.slice(198, 297).map((map, index) => ({ ...map, 'Channel Number': index + 1 }))));
-        promises.push(fs_helpers_1.writeToCsv(`${outFileName}-D`, mapped.slice(297, 396).map((map, index) => ({ ...map, 'Channel Number': index + 1 }))));
-        promises.push(fs_helpers_1.writeToCsv(`${outFileName}-E`, mapped.slice(396, 495).map((map, index) => ({ ...map, 'Channel Number': index + 1 }))));
+        const duplexWcs7100 = mapped
+            .filter((filter) => filter['Offset Direction'] !== wcs7100_1.Wcs7100OffsetDirection.Simplex || filter['Tone Mode'] !== wcs7100_1.Wcs7100ToneMode.None);
+        const B = duplexWcs7100
+            .slice(0, 99)
+            .sort((a, b) => parseFloat(a.CTCSS) - parseFloat(b.CTCSS))
+            .sort((a, b) => a['Receive Frequency'] - b['Receive Frequency'])
+            .sort((a, b) => parseFloat(a.CTCSS) - parseFloat(b.CTCSS))
+            .sort((a, b) => a['Receive Frequency'] - b['Receive Frequency'])
+            .map((map, index) => ({ ...map, 'Channel Number': index + 1 }));
+        const C = duplexWcs7100
+            .slice(99, 198)
+            .sort((a, b) => parseFloat(a.CTCSS) - parseFloat(b.CTCSS))
+            .sort((a, b) => a['Receive Frequency'] - b['Receive Frequency'])
+            .sort((a, b) => parseFloat(a.CTCSS) - parseFloat(b.CTCSS))
+            .sort((a, b) => a['Receive Frequency'] - b['Receive Frequency'])
+            .map((map, index) => ({ ...map, 'Channel Number': index + 1 }));
+        const D = duplexWcs7100
+            .slice(198, 297)
+            .sort((a, b) => parseFloat(a.CTCSS) - parseFloat(b.CTCSS))
+            .sort((a, b) => a['Receive Frequency'] - b['Receive Frequency'])
+            .sort((a, b) => parseFloat(a.CTCSS) - parseFloat(b.CTCSS))
+            .sort((a, b) => a['Receive Frequency'] - b['Receive Frequency'])
+            .map((map, index) => ({ ...map, 'Channel Number': index + 1 }));
+        const E = duplexWcs7100
+            .slice(297, 396)
+            .sort((a, b) => parseFloat(a.CTCSS) - parseFloat(b.CTCSS))
+            .sort((a, b) => a['Receive Frequency'] - b['Receive Frequency'])
+            .sort((a, b) => parseFloat(a.CTCSS) - parseFloat(b.CTCSS))
+            .sort((a, b) => a['Receive Frequency'] - b['Receive Frequency'])
+            .map((map, index) => ({ ...map, 'Channel Number': index + 1 }));
+        promises.push(fs_helpers_1.writeToCsv(`${outFileName}-A`, simplexWcs7100));
+        promises.push(fs_helpers_1.writeToCsv(`${outFileName}-B`, B));
+        promises.push(fs_helpers_1.writeToCsv(`${outFileName}-C`, C));
+        promises.push(fs_helpers_1.writeToCsv(`${outFileName}-D`, D));
+        promises.push(fs_helpers_1.writeToCsv(`${outFileName}-E`, E));
         await Promise.all(promises);
     }
     function convertToRadio(repeater) {
@@ -95,7 +128,7 @@ var __importDefault = (this && this.__importDefault) || function (mod) {
         let YourCallsign = wcs7100_1.Wcs7100YourCallsign.None; // OperatingMode === Wcs7100OperatingMode.DV ? Wcs7100YourCallsign.CQCQCQ : Wcs7100YourCallsign.None;
         let Rpt1CallSign = '';
         let Rpt2CallSign = '';
-        if ((repeater.Digital && repeater.Digital.DStar && repeater.Digital.DStar.Node) || /^Digital/.test(repeater.Callsign)) {
+        if ((repeater.Digital && repeater.Digital.DStar && repeater.Digital.DStar.Node) || /^Digital/.test(repeater.Callsign) || /^D[ -]?Star/.test(repeater.Callsign)) {
             OperatingMode = wcs7100_1.Wcs7100OperatingMode.DV;
             YourCallsign = wcs7100_1.Wcs7100YourCallsign.CQCQCQ;
             if (repeater.Digital && repeater.Digital.DStar && repeater.Digital.DStar.Node) {

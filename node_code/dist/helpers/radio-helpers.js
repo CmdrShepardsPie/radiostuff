@@ -91,9 +91,10 @@
         // if (repeater.DigitalTone != null && repeater.DigitalTone.Input != null) {
         //   Name += " " + repeater.DigitalTone.Input.toString().trim().substr(0, 6);
         // }
-        Name = Name.replace(/[^0-9.a-zA-Z \/]/g, ' ').trim();
+        // Name = Name.replace(/[^0-9.a-zA-Z \/]/g, ' ').trim();
         // Name = Name.replace(/[^0-9 ]/g, "").trim();
-        Name = Name.replace(/,/g, '').replace(/\s+/g, ' ').trim();
+        // Name = Name.replace(/,/g, '').replace(/\s+/g, ' ').trim();
+        Name = Name.replace(/\s+/g, ' ').trim();
         Name = Name.substr(0, 16).trim();
         return Name;
     }
