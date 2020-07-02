@@ -58,15 +58,17 @@ var __importDefault = (this && this.__importDefault) || function (mod) {
         }));
         log('Got', repeaters.length, 'Repeaters');
         repeaters
+            .sort((a, b) => a.Callsign > b.Callsign ? 1 : a.Callsign < b.Callsign ? -1 : 0)
             .sort((a, b) => (a.DigitalTone && a.DigitalTone.Input || 0) - (b.DigitalTone && b.DigitalTone.Input || 0))
             .sort((a, b) => (a.SquelchTone && a.SquelchTone.Input || 0) - (b.SquelchTone && b.SquelchTone.Input || 0))
             .sort((a, b) => a.Frequency.Input - b.Frequency.Input)
             .sort((a, b) => a.Location.Distance - b.Location.Distance)
+            .sort((a, b) => a.Callsign > b.Callsign ? 1 : a.Callsign < b.Callsign ? -1 : 0)
             .sort((a, b) => (a.DigitalTone && a.DigitalTone.Input || 0) - (b.DigitalTone && b.DigitalTone.Input || 0))
             .sort((a, b) => (a.SquelchTone && a.SquelchTone.Input || 0) - (b.SquelchTone && b.SquelchTone.Input || 0))
             .sort((a, b) => a.Frequency.Input - b.Frequency.Input)
             .sort((a, b) => a.Location.Distance - b.Location.Distance);
-        const uniqueRouterId = {};
+        // const uniqueRouterId: { [key: string]: boolean } = {};
         const mapped = [
             ...simplex
                 .filter(radio_helpers_1.filterFrequencies(radio_helpers_1.FrequencyBand.$2_m, radio_helpers_1.FrequencyBand.$70_cm)),
@@ -77,14 +79,14 @@ var __importDefault = (this && this.__importDefault) || function (mod) {
                 .filter(radio_helpers_1.filterMode(radio_helpers_1.Mode.FM, radio_helpers_1.Mode.YSF)),
         ]
             .map((map, index) => ({ ...convertToRadio(map), Number: index + 1 }))
-            .filter((filter) => {
-            const name = `${filter.Receive} ${filter.Transmit} ${filter.ToneMode} ${filter.CTCSS} ${filter.DCS}`;
-            if (uniqueRouterId[name]) {
-                return false;
-            }
-            uniqueRouterId[name] = true;
-            return true;
-        })
+            // .filter((filter: Adms7): boolean => {
+            //   const name: string = `${filter.Receive} ${filter.Transmit} ${filter.ToneMode} ${filter.CTCSS} ${filter.DCS}`;
+            //   if (uniqueRouterId[name]) {
+            //     return false;
+            //   }
+            //   uniqueRouterId[name] = true;
+            //   return true;
+            // })
             .concat([...new Array(500)].map(() => ({ ClockShift: adms7_1.Adms7ClockShift.Off, Bank: adms7_1.Adms7Bank.A })))
             .slice(0, 500)
             .map((map, index) => ({ ...map, Number: index + 1 }));

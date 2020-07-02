@@ -81,16 +81,19 @@ async function doIt(location: gpsDistance.Point, outFileName: string): Promise<v
   log('Got', repeaters.length, 'Repeaters');
 
   repeaters
+    .sort((a: RepeaterStructured, b: RepeaterStructured): number => a.Callsign > b.Callsign ? 1 : a.Callsign < b.Callsign ? - 1 : 0)
     .sort((a: RepeaterStructured, b: RepeaterStructured): number => (a.DigitalTone && a.DigitalTone.Input || 0) - (b.DigitalTone && b.DigitalTone.Input || 0))
     .sort((a: RepeaterStructured, b: RepeaterStructured): number => (a.SquelchTone && a.SquelchTone.Input || 0) - (b.SquelchTone && b.SquelchTone.Input || 0))
     .sort((a: RepeaterStructured, b: RepeaterStructured): number => a.Frequency.Input - b.Frequency.Input)
     .sort((a: RepeaterStructured, b: RepeaterStructured): number => a.Location.Distance! - b.Location.Distance!)
+
+    .sort((a: RepeaterStructured, b: RepeaterStructured): number => a.Callsign > b.Callsign ? 1 : a.Callsign < b.Callsign ? - 1 : 0)
     .sort((a: RepeaterStructured, b: RepeaterStructured): number => (a.DigitalTone && a.DigitalTone.Input || 0) - (b.DigitalTone && b.DigitalTone.Input || 0))
     .sort((a: RepeaterStructured, b: RepeaterStructured): number => (a.SquelchTone && a.SquelchTone.Input || 0) - (b.SquelchTone && b.SquelchTone.Input || 0))
     .sort((a: RepeaterStructured, b: RepeaterStructured): number => a.Frequency.Input - b.Frequency.Input)
     .sort((a: RepeaterStructured, b: RepeaterStructured): number => a.Location.Distance! - b.Location.Distance!);
 
-  const uniqueRouterId: { [key: string]: boolean } = {};
+  // const uniqueRouterId: { [key: string]: boolean } = {};
   const mapped: Wcs7100[] = [
     ...simplex
       .filter(filterFrequencies(
@@ -128,15 +131,15 @@ async function doIt(location: gpsDistance.Point, outFileName: string): Promise<v
       // .filter(filterDistance(100))
       .filter(filterMode(Mode.FM, Mode.DStar)),
   ]
-    .map((map: RepeaterStructured, index: number): Wcs7100 => ({ ...convertToRadio(map), 'Channel Number': index + 1 }))
-    .filter((filter: Wcs7100): boolean => {
-      const name: string = `${filter['Operating Mode']} ${filter['Receive Frequency']} ${filter['Transmit Frequency']} ${filter['Tone Mode']} ${filter.CTCSS} ${filter['Rx CTCSS']} ${filter.DCS}`;
-      if (uniqueRouterId[name]) {
-        return false;
-      }
-      uniqueRouterId[name] = true;
-      return true;
-    });
+    .map((map: RepeaterStructured, index: number): Wcs7100 => ({ ...convertToRadio(map), 'Channel Number': index + 1 }));
+    // .filter((filter: Wcs7100): boolean => {
+    //   const name: string = `${filter['Operating Mode']} ${filter['Receive Frequency']} ${filter['Transmit Frequency']} ${filter['Tone Mode']} ${filter.CTCSS} ${filter['Rx CTCSS']} ${filter.DCS}`;
+    //   if (uniqueRouterId[name]) {
+    //     return false;
+    //   }
+    //   uniqueRouterId[name] = true;
+    //   return true;
+    // });
     // .slice(0, 500);
 
   const simplexWcs7100: Wcs7100[] = mapped

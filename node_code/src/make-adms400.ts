@@ -78,16 +78,19 @@ async function doIt(location: gpsDistance.Point, outFileName: string): Promise<v
   log('Got', repeaters.length, 'Repeaters');
 
   repeaters
+    .sort((a: RepeaterStructured, b: RepeaterStructured): number => a.Callsign > b.Callsign ? 1 : a.Callsign < b.Callsign ? - 1 : 0)
     .sort((a: RepeaterStructured, b: RepeaterStructured): number => (a.DigitalTone && a.DigitalTone.Input || 0) - (b.DigitalTone && b.DigitalTone.Input || 0))
     .sort((a: RepeaterStructured, b: RepeaterStructured): number => (a.SquelchTone && a.SquelchTone.Input || 0) - (b.SquelchTone && b.SquelchTone.Input || 0))
     .sort((a: RepeaterStructured, b: RepeaterStructured): number => a.Frequency.Input - b.Frequency.Input)
     .sort((a: RepeaterStructured, b: RepeaterStructured): number => a.Location.Distance! - b.Location.Distance!)
+
+    .sort((a: RepeaterStructured, b: RepeaterStructured): number => a.Callsign > b.Callsign ? 1 : a.Callsign < b.Callsign ? - 1 : 0)
     .sort((a: RepeaterStructured, b: RepeaterStructured): number => (a.DigitalTone && a.DigitalTone.Input || 0) - (b.DigitalTone && b.DigitalTone.Input || 0))
     .sort((a: RepeaterStructured, b: RepeaterStructured): number => (a.SquelchTone && a.SquelchTone.Input || 0) - (b.SquelchTone && b.SquelchTone.Input || 0))
     .sort((a: RepeaterStructured, b: RepeaterStructured): number => a.Frequency.Input - b.Frequency.Input)
     .sort((a: RepeaterStructured, b: RepeaterStructured): number => a.Location.Distance! - b.Location.Distance!);
 
-  const uniqueRouterId: { [key: string]: boolean } = {};
+  // const uniqueRouterId: { [key: string]: boolean } = {};
   const mapped: Adms400[] = [
     ...simplex
       .filter(filterFrequencies(
@@ -104,14 +107,14 @@ async function doIt(location: gpsDistance.Point, outFileName: string): Promise<v
       .filter(filterMode(Mode.FM, Mode.YSF)),
   ]
     .map((map: RepeaterStructured, index: number): Adms400 => ({ ...convertToRadio(map), 'Channel Number': index + 1 }))
-    .filter((filter: Adms400): boolean => {
-      const name: string = `${filter['Receive Frequency']} ${filter['Transmit Frequency']} ${filter['Tone Mode']} ${filter.CTCSS} ${filter.DCS}`;
-      if (uniqueRouterId[name]) {
-        return false;
-      }
-      uniqueRouterId[name] = true;
-      return true;
-    })
+    // .filter((filter: Adms400): boolean => {
+    //   const name: string = `${filter['Receive Frequency']} ${filter['Transmit Frequency']} ${filter['Tone Mode']} ${filter.CTCSS} ${filter.DCS}`;
+    //   if (uniqueRouterId[name]) {
+    //     return false;
+    //   }
+    //   uniqueRouterId[name] = true;
+    //   return true;
+    // })
     .slice(0, 500)
     .map((map: Adms400, index: number): Adms400 => ({ ...map, 'Channel Number': index + 1 }));
 

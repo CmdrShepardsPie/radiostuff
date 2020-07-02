@@ -59,15 +59,17 @@ var __importDefault = (this && this.__importDefault) || function (mod) {
         }));
         log('Got', repeaters.length, 'Repeaters');
         repeaters
+            .sort((a, b) => a.Callsign > b.Callsign ? 1 : a.Callsign < b.Callsign ? -1 : 0)
             .sort((a, b) => (a.DigitalTone && a.DigitalTone.Input || 0) - (b.DigitalTone && b.DigitalTone.Input || 0))
             .sort((a, b) => (a.SquelchTone && a.SquelchTone.Input || 0) - (b.SquelchTone && b.SquelchTone.Input || 0))
             .sort((a, b) => a.Frequency.Input - b.Frequency.Input)
             .sort((a, b) => a.Location.Distance - b.Location.Distance)
+            .sort((a, b) => a.Callsign > b.Callsign ? 1 : a.Callsign < b.Callsign ? -1 : 0)
             .sort((a, b) => (a.DigitalTone && a.DigitalTone.Input || 0) - (b.DigitalTone && b.DigitalTone.Input || 0))
             .sort((a, b) => (a.SquelchTone && a.SquelchTone.Input || 0) - (b.SquelchTone && b.SquelchTone.Input || 0))
             .sort((a, b) => a.Frequency.Input - b.Frequency.Input)
             .sort((a, b) => a.Location.Distance - b.Location.Distance);
-        const uniqueRouterId = {};
+        // const uniqueRouterId: { [key: string]: boolean } = {};
         const mapped = [
             ...simplex
                 .filter(radio_helpers_1.filterFrequencies(radio_helpers_1.FrequencyBand.$160_m, radio_helpers_1.FrequencyBand.$80_m, radio_helpers_1.FrequencyBand.$60_m, radio_helpers_1.FrequencyBand.$40_m, radio_helpers_1.FrequencyBand.$30_m, radio_helpers_1.FrequencyBand.$20_m, radio_helpers_1.FrequencyBand.$17_m, radio_helpers_1.FrequencyBand.$15_m, radio_helpers_1.FrequencyBand.$12_m, radio_helpers_1.FrequencyBand.$10_m, radio_helpers_1.FrequencyBand.$6_m, radio_helpers_1.FrequencyBand.$2_m, radio_helpers_1.FrequencyBand.$70_cm)),
@@ -77,15 +79,15 @@ var __importDefault = (this && this.__importDefault) || function (mod) {
                 // .filter(filterDistance(100))
                 .filter(radio_helpers_1.filterMode(radio_helpers_1.Mode.FM, radio_helpers_1.Mode.DStar)),
         ]
-            .map((map, index) => ({ ...convertToRadio(map), 'Channel Number': index + 1 }))
-            .filter((filter) => {
-            const name = `${filter['Operating Mode']} ${filter['Receive Frequency']} ${filter['Transmit Frequency']} ${filter['Tone Mode']} ${filter.CTCSS} ${filter['Rx CTCSS']} ${filter.DCS}`;
-            if (uniqueRouterId[name]) {
-                return false;
-            }
-            uniqueRouterId[name] = true;
-            return true;
-        });
+            .map((map, index) => ({ ...convertToRadio(map), 'Channel Number': index + 1 }));
+        // .filter((filter: Wcs7100): boolean => {
+        //   const name: string = `${filter['Operating Mode']} ${filter['Receive Frequency']} ${filter['Transmit Frequency']} ${filter['Tone Mode']} ${filter.CTCSS} ${filter['Rx CTCSS']} ${filter.DCS}`;
+        //   if (uniqueRouterId[name]) {
+        //     return false;
+        //   }
+        //   uniqueRouterId[name] = true;
+        //   return true;
+        // });
         // .slice(0, 500);
         const simplexWcs7100 = mapped
             .filter((filter) => filter['Offset Direction'] === wcs7100_1.Wcs7100OffsetDirection.Simplex && filter['Tone Mode'] === wcs7100_1.Wcs7100ToneMode.None)

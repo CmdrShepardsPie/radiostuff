@@ -72,29 +72,29 @@ Channel Number,Receive Frequency,Transmit Frequency,Offset Frequency,Offset Dire
 71,447.97500,442.97500,5.00 MHz,-DUP,FM,K0JSC FLEI,T Sql,100.0 Hz,100.0 Hz,023,Both N,Off,8 7185 136.27 CO Fremont Canon City Colorado K0JSC,,,,,,Filter 1,,,None,88.5 Hz,88.5 Hz,023,Both N,Filter 1,FM
 72,147.07500,147.67500,600 kHz,+DUP,FM,KB0VJJ F,Tone,88.5 Hz,123.0 Hz,023,Both N,Off,8 166 136.34 CO Grand Kremmling Santoy Peak KB0VJJ,,,,,,Filter 1,,,None,88.5 Hz,88.5 Hz,023,Both N,Filter 1,FM
 73,146.79000,146.19000,600 kHz,-DUP,FM,W0PHC F,Tone,88.5 Hz,100.0 Hz,023,Both N,Off,8 193 143.54 CO Pueblo Pueblo Baculite Mesa W0PHC,,,,,,Filter 1,,,None,88.5 Hz,88.5 Hz,023,Both N,Filter 1,FM
-74,448.97500,443.97500,5.00 MHz,-DUP,FM,K0JSC FLEI,T Sql,100.0 Hz,100.0 Hz,023,Both N,Off,8 7994 147.87 CO Pueblo Pueblo West K0JSC,,,,,,Filter 1,,,None,88.5 Hz,88.5 Hz,023,Both N,Filter 1,FM
-75,146.74500,146.14500,600 kHz,-DUP,FM,W0LSD F,Tone,100.0 Hz,100.0 Hz,023,Both N,Off,8 184 151.73 CO Chaffee Nathrop W0LSD,,,,,,Filter 1,,,None,88.5 Hz,88.5 Hz,023,Both N,Filter 1,FM
-76,145.11500,144.51500,600 kHz,-DUP,FM,W0PHC F,Tone,88.5 Hz,100.0 Hz,023,Both N,Off,8 191 154.19 CO Pueblo Pueblo W0PHC,,,,,,Filter 1,,,None,88.5 Hz,88.5 Hz,023,Both N,Filter 1,FM
-77,446.97500,441.97500,5.00 MHz,-DUP,DV,KD0QPG S,None,100.0 Hz,100.0 Hz,023,Both N,Off,8 9844 154.47 CO Chaffee Salida Methodist Mountain KD0QPG,,,CQCQCQ,KD0QPG B,KD0QPG G,Filter 1,,,None,88.5 Hz,88.5 Hz,023,Both N,Filter 1,FM
-78,145.28000,144.68000,600 kHz,-DUP,FM,WB0SLW F,T Sql,100.0 Hz,100.0 Hz,023,Both N,Off,8 18707 154.59 CO Pueblo Pueblo WB0SLW,,,,,,Filter 1,,,None,88.5 Hz,88.5 Hz,023,Both N,Filter 1,FM
-79,146.65500,146.05500,600 kHz,-DUP,FM,K0ST F,Tone,123.0 Hz,100.0 Hz,023,Both N,Off,8 192 154.60 CO Pueblo Pueblo Pueblo K0ST,,,,,,Filter 1,,,None,88.5 Hz,88.5 Hz,023,Both N,Filter 1,FM
-80,449.72500,444.72500,5.00 MHz,-DUP,FM,N0PWZ FI,Tone,100.0 Hz,100.0 Hz,023,Both N,Off,8 189 154.60 CO El Paso Palmer Divide N0PWZ,,,,,,Filter 1,,,None,88.5 Hz,88.5 Hz,023,Both N,Filter 1,FM
-81,145.40000,144.80000,600 kHz,-DUP,FM,KB0VJJ F,Tone,88.5 Hz,123.0 Hz,023,Both N,Off,8 2 155.06 CO Washington Akron KB0VJJ,,,,,,Filter 1,,,None,88.5 Hz,88.5 Hz,023,Both N,Filter 1,FM
-82,147.24000,147.84000,600 kHz,+DUP,FM,KJ0T F,Tone,103.5 Hz,100.0 Hz,023,Both N,Off,8 3747 157.19 CO Pueblo Pueblo KJ0T,,,,,,Filter 1,,,None,88.5 Hz,88.5 Hz,023,Both N,Filter 1,FM
-83,145.29500,144.69500,600 kHz,-DUP,FM,KC0CVU F,Tone,107.2 Hz,100.0 Hz,023,Both N,Off,8 203 161.77 CO Chaffee Salida Methodist Mountain KC0CVU,,,,,,Filter 1,,,None,88.5 Hz,88.5 Hz,023,Both N,Filter 1,FM
-84,147.28500,147.88500,600 kHz,+DUP,FM,KB0VJJ F,Tone,88.5 Hz,123.0 Hz,023,Both N,Off,8 204 161.77 CO Chaffee Salida Methodist Mountain KB0VJJ,,,,,,Filter 1,,,None,88.5 Hz,88.5 Hz,023,Both N,Filter 1,FM
-85,449.65000,444.65000,5.00 MHz,-DUP,FM,KC0CVU F,Tone,107.2 Hz,100.0 Hz,023,Both N,Off,8 205 162.74 CO Chaffee Salida Methodist Mountain KC0CVU,,,,,,Filter 1,,,None,88.5 Hz,88.5 Hz,023,Both N,Filter 1,FM
-86,449.92500,444.92500,5.00 MHz,-DUP,FM,WZ0N F,T Sql,103.5 Hz,103.5 Hz,023,Both N,Off,8 3811 162.74 CO Chaffee Salida Methodist Mountain WZ0N,,,,,,Filter 1,,,None,88.5 Hz,88.5 Hz,023,Both N,Filter 1,FM
-87,449.97500,444.97500,5.00 MHz,-DUP,FM,K0JSC FLEI,T Sql,100.0 Hz,100.0 Hz,023,Both N,Off,8 13510 162.96 CO Chaffee Salida Methodist Mountain K0JSC,,,,,,Filter 1,,,None,88.5 Hz,88.5 Hz,023,Both N,Filter 1,FM
-88,146.77500,146.17500,600 kHz,-DUP,FM,KC7SNO F,Tone,114.8 Hz,100.0 Hz,023,Both N,Off,56 27 166.56 WY Laramie Cheyenne Denver Hill KC7SNO,,,,,,Filter 1,,,None,88.5 Hz,88.5 Hz,023,Both N,Filter 1,FM
-89,147.10500,147.70500,600 kHz,+DUP,FM,KC7SNO F,T Sql,91.5 Hz,91.5 Hz,023,Both N,Off,56 26 168.34 WY Laramie Cheyenne North Park KC7SNO,,,,,,Filter 1,,,None,88.5 Hz,88.5 Hz,023,Both N,Filter 1,FM
-90,145.16000,144.56000,600 kHz,-DUP,FM,KB0VJJ F,Tone,88.5 Hz,123.0 Hz,023,Both N,Off,8 244 170.10 CO Jackson Walden Peterson Ridge KB0VJJ,,,,,,Filter 1,,,None,88.5 Hz,88.5 Hz,023,Both N,Filter 1,FM
-91,449.67500,444.67500,5.00 MHz,-DUP,FM,K0CGQ F,Tone,88.5 Hz,100.0 Hz,023,Both N,Off,8 18872 171.43 CO Custer Querida K0CGQ,,,,,,Filter 1,,,None,88.5 Hz,88.5 Hz,023,Both N,Filter 1,FM
-92,448.15000,443.15000,5.00 MHz,-DUP,FM,KB7SWR F,Tone,100.0 Hz,100.0 Hz,023,Both N,Off,56 20 171.87 WY Laramie Cheyenne KB7SWR,,,,,,Filter 1,,,None,88.5 Hz,88.5 Hz,023,Both N,Filter 1,FM
-93,147.06000,147.66000,600 kHz,+DUP,FM,KB0TUC F,T Sql,77.0 Hz,77.0 Hz,023,Both N,Off,8 7189 173.16 CO Custer Westcliffe KB0TUC,,,,,,Filter 1,,,None,88.5 Hz,88.5 Hz,023,Both N,Filter 1,FM
-94,448.15000,443.15000,5.00 MHz,-DUP,FM,KB0TUC F,T Sql,103.5 Hz,103.5 Hz,023,Both N,Off,8 248 173.16 CO Custer Westcliffe KB0TUC,,,,,,Filter 1,,,None,88.5 Hz,88.5 Hz,023,Both N,Filter 1,FM
-95,447.05000,442.05000,5.00 MHz,-DUP,FM,K0VQ F,T Sql,136.5 Hz,136.5 Hz,023,Both N,Off,8 260 173.71 CO Pitkin Aspen Aspen Mountain K0VQ,,,,,,Filter 1,,,None,88.5 Hz,88.5 Hz,023,Both N,Filter 1,FM
-96,145.32500,144.72500,600 kHz,-DUP,FM,KD0MRC F,Tone,100.0 Hz,100.0 Hz,023,Both N,Off,8 16739 176.74 CO Chaffee Maysville KD0MRC,,,,,,Filter 1,,,None,88.5 Hz,88.5 Hz,023,Both N,Filter 1,FM
-97,447.17500,442.17500,5.00 MHz,-DUP,FM,W0PHC F,Tone,88.5 Hz,100.0 Hz,023,Both N,Off,8 197 178.15 CO Pueblo Pueblo Jackson Hill W0PHC,,,,,,Filter 1,,,None,88.5 Hz,88.5 Hz,023,Both N,Filter 1,FM
-98,145.29500,144.69500,600 kHz,-DUP,FM,WA0JTB F,Tone,100.0 Hz,100.0 Hz,023,Both N,Off,8 238 181.33 CO Logan Sterling CO WA0JTB,,,,,,Filter 1,,,None,88.5 Hz,88.5 Hz,023,Both N,Filter 1,FM
-99,146.67000,146.07000,600 kHz,-DUP,FM,K0CL F,Tone,107.2 Hz,100.0 Hz,023,Both N,Off,8 211 181.48 CO Pitkin Snowmass Village K0CL,,,,,,Filter 1,,,None,88.5 Hz,88.5 Hz,023,Both N,Filter 1,FM
+74,447.45000,442.45000,5.00 MHz,-DUP,FM,NA0PW F,T Sql,123.0 Hz,123.0 Hz,023,Both N,Off,8 18346 146.36 CO Pueblo Pueblo West Liberty Point NA0PW,,,,,,Filter 1,,,None,88.5 Hz,88.5 Hz,023,Both N,Filter 1,FM
+75,448.97500,443.97500,5.00 MHz,-DUP,FM,K0JSC FLEI,T Sql,100.0 Hz,100.0 Hz,023,Both N,Off,8 7994 147.87 CO Pueblo Pueblo West K0JSC,,,,,,Filter 1,,,None,88.5 Hz,88.5 Hz,023,Both N,Filter 1,FM
+76,146.74500,146.14500,600 kHz,-DUP,FM,W0LSD F,Tone,100.0 Hz,100.0 Hz,023,Both N,Off,8 184 151.73 CO Chaffee Nathrop W0LSD,,,,,,Filter 1,,,None,88.5 Hz,88.5 Hz,023,Both N,Filter 1,FM
+77,145.11500,144.51500,600 kHz,-DUP,FM,W0PHC F,Tone,88.5 Hz,100.0 Hz,023,Both N,Off,8 191 154.19 CO Pueblo Pueblo W0PHC,,,,,,Filter 1,,,None,88.5 Hz,88.5 Hz,023,Both N,Filter 1,FM
+78,446.97500,441.97500,5.00 MHz,-DUP,DV,KD0QPG S,None,100.0 Hz,100.0 Hz,023,Both N,Off,8 9844 154.47 CO Chaffee Salida Methodist Mountain KD0QPG,,,CQCQCQ,KD0QPG B,KD0QPG G,Filter 1,,,None,88.5 Hz,88.5 Hz,023,Both N,Filter 1,FM
+79,145.28000,144.68000,600 kHz,-DUP,FM,WB0SLW F,T Sql,100.0 Hz,100.0 Hz,023,Both N,Off,8 18707 154.59 CO Pueblo Pueblo WB0SLW,,,,,,Filter 1,,,None,88.5 Hz,88.5 Hz,023,Both N,Filter 1,FM
+80,146.65500,146.05500,600 kHz,-DUP,FM,K0ST F,Tone,123.0 Hz,100.0 Hz,023,Both N,Off,8 192 154.60 CO Pueblo Pueblo Pueblo K0ST,,,,,,Filter 1,,,None,88.5 Hz,88.5 Hz,023,Both N,Filter 1,FM
+81,449.72500,444.72500,5.00 MHz,-DUP,FM,N0PWZ FI,Tone,100.0 Hz,100.0 Hz,023,Both N,Off,8 189 154.60 CO El Paso Palmer Divide N0PWZ,,,,,,Filter 1,,,None,88.5 Hz,88.5 Hz,023,Both N,Filter 1,FM
+82,145.40000,144.80000,600 kHz,-DUP,FM,KB0VJJ F,Tone,88.5 Hz,123.0 Hz,023,Both N,Off,8 2 155.06 CO Washington Akron KB0VJJ,,,,,,Filter 1,,,None,88.5 Hz,88.5 Hz,023,Both N,Filter 1,FM
+83,147.24000,147.84000,600 kHz,+DUP,FM,KJ0T F,Tone,103.5 Hz,100.0 Hz,023,Both N,Off,8 3747 157.19 CO Pueblo Pueblo KJ0T,,,,,,Filter 1,,,None,88.5 Hz,88.5 Hz,023,Both N,Filter 1,FM
+84,447.27500,442.27500,5.00 MHz,-DUP,FM,K0JSC F,T Sql,100.0 Hz,100.0 Hz,023,Both N,Off,8 9527 157.20 CO Pueblo Pueblo Metro K0JSC,,,,,,Filter 1,,,None,88.5 Hz,88.5 Hz,023,Both N,Filter 1,FM
+85,145.29500,144.69500,600 kHz,-DUP,FM,KC0CVU F,Tone,107.2 Hz,100.0 Hz,023,Both N,Off,8 203 161.77 CO Chaffee Salida Methodist Mountain KC0CVU,,,,,,Filter 1,,,None,88.5 Hz,88.5 Hz,023,Both N,Filter 1,FM
+86,147.28500,147.88500,600 kHz,+DUP,FM,KB0VJJ F,Tone,88.5 Hz,123.0 Hz,023,Both N,Off,8 204 161.77 CO Chaffee Salida Methodist Mountain KB0VJJ,,,,,,Filter 1,,,None,88.5 Hz,88.5 Hz,023,Both N,Filter 1,FM
+87,449.65000,444.65000,5.00 MHz,-DUP,FM,KC0CVU F,Tone,107.2 Hz,100.0 Hz,023,Both N,Off,8 205 162.74 CO Chaffee Salida Methodist Mountain KC0CVU,,,,,,Filter 1,,,None,88.5 Hz,88.5 Hz,023,Both N,Filter 1,FM
+88,449.92500,444.92500,5.00 MHz,-DUP,FM,WZ0N F,T Sql,103.5 Hz,103.5 Hz,023,Both N,Off,8 3811 162.74 CO Chaffee Salida Methodist Mountain WZ0N,,,,,,Filter 1,,,None,88.5 Hz,88.5 Hz,023,Both N,Filter 1,FM
+89,449.97500,444.97500,5.00 MHz,-DUP,FM,K0JSC FLEI,T Sql,100.0 Hz,100.0 Hz,023,Both N,Off,8 13510 162.96 CO Chaffee Salida Methodist Mountain K0JSC,,,,,,Filter 1,,,None,88.5 Hz,88.5 Hz,023,Both N,Filter 1,FM
+90,146.77500,146.17500,600 kHz,-DUP,FM,KC7SNO F,Tone,114.8 Hz,100.0 Hz,023,Both N,Off,56 27 166.56 WY Laramie Cheyenne Denver Hill KC7SNO,,,,,,Filter 1,,,None,88.5 Hz,88.5 Hz,023,Both N,Filter 1,FM
+91,147.10500,147.70500,600 kHz,+DUP,FM,KC7SNO F,T Sql,91.5 Hz,91.5 Hz,023,Both N,Off,56 26 168.34 WY Laramie Cheyenne North Park KC7SNO,,,,,,Filter 1,,,None,88.5 Hz,88.5 Hz,023,Both N,Filter 1,FM
+92,145.16000,144.56000,600 kHz,-DUP,FM,KB0VJJ F,Tone,88.5 Hz,123.0 Hz,023,Both N,Off,8 244 170.10 CO Jackson Walden Peterson Ridge KB0VJJ,,,,,,Filter 1,,,None,88.5 Hz,88.5 Hz,023,Both N,Filter 1,FM
+93,449.67500,444.67500,5.00 MHz,-DUP,FM,K0CGQ F,Tone,88.5 Hz,100.0 Hz,023,Both N,Off,8 18872 171.43 CO Custer Querida K0CGQ,,,,,,Filter 1,,,None,88.5 Hz,88.5 Hz,023,Both N,Filter 1,FM
+94,448.15000,443.15000,5.00 MHz,-DUP,FM,KB7SWR F,Tone,100.0 Hz,100.0 Hz,023,Both N,Off,56 20 171.87 WY Laramie Cheyenne KB7SWR,,,,,,Filter 1,,,None,88.5 Hz,88.5 Hz,023,Both N,Filter 1,FM
+95,147.06000,147.66000,600 kHz,+DUP,FM,KB0TUC F,T Sql,77.0 Hz,77.0 Hz,023,Both N,Off,8 7189 173.16 CO Custer Westcliffe KB0TUC,,,,,,Filter 1,,,None,88.5 Hz,88.5 Hz,023,Both N,Filter 1,FM
+96,448.15000,443.15000,5.00 MHz,-DUP,FM,KB0TUC F,T Sql,103.5 Hz,103.5 Hz,023,Both N,Off,8 248 173.16 CO Custer Westcliffe KB0TUC,,,,,,Filter 1,,,None,88.5 Hz,88.5 Hz,023,Both N,Filter 1,FM
+97,447.05000,442.05000,5.00 MHz,-DUP,FM,K0VQ F,T Sql,136.5 Hz,136.5 Hz,023,Both N,Off,8 260 173.71 CO Pitkin Aspen Aspen Mountain K0VQ,,,,,,Filter 1,,,None,88.5 Hz,88.5 Hz,023,Both N,Filter 1,FM
+98,145.32500,144.72500,600 kHz,-DUP,FM,KD0MRC F,Tone,100.0 Hz,100.0 Hz,023,Both N,Off,8 16739 176.74 CO Chaffee Maysville KD0MRC,,,,,,Filter 1,,,None,88.5 Hz,88.5 Hz,023,Both N,Filter 1,FM
+99,447.17500,442.17500,5.00 MHz,-DUP,FM,W0PHC F,Tone,88.5 Hz,100.0 Hz,023,Both N,Off,8 197 178.15 CO Pueblo Pueblo Jackson Hill W0PHC,,,,,,Filter 1,,,None,88.5 Hz,88.5 Hz,023,Both N,Filter 1,FM

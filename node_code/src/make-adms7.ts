@@ -78,16 +78,19 @@ async function doIt(location: gpsDistance.Point, outFileName: string): Promise<v
   log('Got', repeaters.length, 'Repeaters');
 
   repeaters
+    .sort((a: RepeaterStructured, b: RepeaterStructured): number => a.Callsign > b.Callsign ? 1 : a.Callsign < b.Callsign ? - 1 : 0)
     .sort((a: RepeaterStructured, b: RepeaterStructured): number => (a.DigitalTone && a.DigitalTone.Input || 0) - (b.DigitalTone && b.DigitalTone.Input || 0))
     .sort((a: RepeaterStructured, b: RepeaterStructured): number => (a.SquelchTone && a.SquelchTone.Input || 0) - (b.SquelchTone && b.SquelchTone.Input || 0))
     .sort((a: RepeaterStructured, b: RepeaterStructured): number => a.Frequency.Input - b.Frequency.Input)
     .sort((a: RepeaterStructured, b: RepeaterStructured): number => a.Location.Distance! - b.Location.Distance!)
+
+    .sort((a: RepeaterStructured, b: RepeaterStructured): number => a.Callsign > b.Callsign ? 1 : a.Callsign < b.Callsign ? - 1 : 0)
     .sort((a: RepeaterStructured, b: RepeaterStructured): number => (a.DigitalTone && a.DigitalTone.Input || 0) - (b.DigitalTone && b.DigitalTone.Input || 0))
     .sort((a: RepeaterStructured, b: RepeaterStructured): number => (a.SquelchTone && a.SquelchTone.Input || 0) - (b.SquelchTone && b.SquelchTone.Input || 0))
     .sort((a: RepeaterStructured, b: RepeaterStructured): number => a.Frequency.Input - b.Frequency.Input)
     .sort((a: RepeaterStructured, b: RepeaterStructured): number => a.Location.Distance! - b.Location.Distance!);
 
-  const uniqueRouterId: { [key: string]: boolean } = {};
+  // const uniqueRouterId: { [key: string]: boolean } = {};
   const mapped: Adms7[] = [
     ...simplex
       .filter(filterFrequencies(
@@ -104,14 +107,14 @@ async function doIt(location: gpsDistance.Point, outFileName: string): Promise<v
       .filter(filterMode(Mode.FM, Mode.YSF)),
   ]
     .map((map: RepeaterStructured, index: number): Adms7 => ({ ...convertToRadio(map), Number: index + 1 }))
-    .filter((filter: Adms7): boolean => {
-      const name: string = `${filter.Receive} ${filter.Transmit} ${filter.ToneMode} ${filter.CTCSS} ${filter.DCS}`;
-      if (uniqueRouterId[name]) {
-        return false;
-      }
-      uniqueRouterId[name] = true;
-      return true;
-    })
+    // .filter((filter: Adms7): boolean => {
+    //   const name: string = `${filter.Receive} ${filter.Transmit} ${filter.ToneMode} ${filter.CTCSS} ${filter.DCS}`;
+    //   if (uniqueRouterId[name]) {
+    //     return false;
+    //   }
+    //   uniqueRouterId[name] = true;
+    //   return true;
+    // })
     .concat([...new Array(500)].map((): Adms7 => ({ ClockShift: Adms7ClockShift.Off, Bank: Adms7Bank.A } as Adms7)))
     .slice(0, 500)
     .map((map: Adms7, index: number): Adms7 => ({ ...map, Number: index + 1 }));
