@@ -39,7 +39,7 @@ var __importDefault = (this && this.__importDefault) || function (mod) {
         const promises = [];
         const simplex = (await fs_helpers_1.readFromCsv('../data/simplex-frequencies.csv'))
             .map((map) => ({ Callsign: map.Name, Frequency: { Output: map.Frequency, Input: map.Frequency } }))
-            .filter((filter) => !/Fusion|Mixed/i.test(filter.Callsign)); // TODO: Make a function and enum
+            .filter((filter) => !/Fusion|Mixed|QRP/i.test(filter.Callsign)); // TODO: Make a function and enum
         const repeaters = JSON.parse((await fs_helpers_1.readFileAsync(inFileName)).toString());
         // repeaters.forEach((each: RepeaterStructured): void => {
         //   each.Location.Distance = Math.min(
@@ -61,7 +61,7 @@ var __importDefault = (this && this.__importDefault) || function (mod) {
         ]
             .map((map, index) => ({ ...convertToRadio(map), 'Channel Number': index + 1 }))
             .filter((filter) => {
-            const name = `${filter['Receive Frequency']} ${filter['Transmit Frequency']} ${filter['Tone Mode']} ${filter.CTCSS} ${filter['Rx CTCSS']} ${filter.DCS}`;
+            const name = `${filter['Operating Mode']} ${filter['Receive Frequency']} ${filter['Transmit Frequency']} ${filter['Tone Mode']} ${filter.CTCSS} ${filter['Rx CTCSS']} ${filter.DCS}`;
             if (unique[name]) {
                 return false;
             }

@@ -56,7 +56,7 @@ async function doIt(inFileName: string, outFileName: string): Promise<void> {
     (await readFromCsv<SimplexFrequency>('../data/simplex-frequencies.csv'))
       .map((map: SimplexFrequency): RepeaterStructured =>
         ({ Callsign: map.Name, Frequency: { Output: map.Frequency, Input: map.Frequency } }) as RepeaterStructured)
-      .filter((filter: RepeaterStructured): boolean => !/Fusion|Mixed/i.test(filter.Callsign)); // TODO: Make a function and enum
+      .filter((filter: RepeaterStructured): boolean => !/Fusion|Mixed|QRP/i.test(filter.Callsign)); // TODO: Make a function and enum
 
   const repeaters: RepeaterStructured[] =
     JSON.parse((await readFileAsync(inFileName)).toString());
@@ -110,7 +110,7 @@ async function doIt(inFileName: string, outFileName: string): Promise<void> {
   ]
     .map((map: RepeaterStructured, index: number): Wcs7100 => ({ ...convertToRadio(map), 'Channel Number': index + 1 }))
     .filter((filter: Wcs7100): boolean => {
-      const name: string = `${filter['Receive Frequency']} ${filter['Transmit Frequency']} ${filter['Tone Mode']} ${filter.CTCSS} ${filter['Rx CTCSS']} ${filter.DCS}`;
+      const name: string = `${filter['Operating Mode']} ${filter['Receive Frequency']} ${filter['Transmit Frequency']} ${filter['Tone Mode']} ${filter.CTCSS} ${filter['Rx CTCSS']} ${filter.DCS}`;
       if (unique[name]) {
         return false;
       }
