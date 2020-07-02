@@ -1,5 +1,6 @@
 import { createOut } from '@helpers/log-helpers';
 import chalk from 'chalk';
+import gpsDistance from 'gps-distance';
 
 const { log, write }: { log: (...msg: any[]) => void; write: (...msg: any[]) => void } = createOut('Helpers');
 
@@ -71,6 +72,14 @@ export function flattenObject(data: any): any {
     }
   }
   return subData;
+}
+
+export function splitCoordinates(input: string): gpsDistance.Point {
+  return input.split(',').map((l: string): number => parseFloat(l)) as gpsDistance.Point;
+}
+
+export function checkCoordinates(point: gpsDistance.Point): boolean {
+  return point.length === 2 && !isNaN(point[0]) && !isNaN(point[1]);
 }
 
 export const secondMS: number = 1000;

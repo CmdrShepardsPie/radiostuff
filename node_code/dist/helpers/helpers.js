@@ -12,7 +12,7 @@ var __importDefault = (this && this.__importDefault) || function (mod) {
 })(function (require, exports) {
     "use strict";
     Object.defineProperty(exports, "__esModule", { value: true });
-    exports.weekMS = exports.dayMS = exports.hourMS = exports.minuteMS = exports.secondMS = exports.flattenObject = exports.numberToString = exports.wait = void 0;
+    exports.weekMS = exports.dayMS = exports.hourMS = exports.minuteMS = exports.secondMS = exports.checkCoordinates = exports.splitCoordinates = exports.flattenObject = exports.numberToString = exports.wait = void 0;
     const log_helpers_1 = require("@helpers/log-helpers");
     const chalk_1 = __importDefault(require("chalk"));
     const { log, write } = log_helpers_1.createOut('Helpers');
@@ -87,6 +87,14 @@ var __importDefault = (this && this.__importDefault) || function (mod) {
         return subData;
     }
     exports.flattenObject = flattenObject;
+    function splitCoordinates(input) {
+        return input.split(',').map((l) => parseFloat(l));
+    }
+    exports.splitCoordinates = splitCoordinates;
+    function checkCoordinates(point) {
+        return point.length === 2 && !isNaN(point[0]) && !isNaN(point[1]);
+    }
+    exports.checkCoordinates = checkCoordinates;
     exports.secondMS = 1000;
     exports.minuteMS = exports.secondMS * 60;
     exports.hourMS = exports.minuteMS * 60;

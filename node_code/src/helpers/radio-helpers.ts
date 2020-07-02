@@ -1,4 +1,8 @@
-import { RepeaterStructured, RepeaterStatus, RepeaterUse } from '@interfaces/repeater-structured';
+import { RepeaterStatus, RepeaterStructured, RepeaterUse } from '@interfaces/repeater-structured';
+import { getAllFilesInDirectory, readFileAsync, readFromCsv } from '@helpers/fs-helpers';
+import { SimplexFrequency } from '@interfaces/simplex-frequency';
+import gpsDistance from 'gps-distance';
+import { RtSystemsOffsetFrequency } from '@interfaces/rt-systems';
 
 export enum FrequencyBand {
   $160_m,
@@ -24,6 +28,18 @@ export enum Mode {
   P25,
   DStar,
   YSF,
+}
+
+export interface IRtSystemsCommon {
+  TransmitSquelchTone: number | undefined;
+  TransmitDigitalTone: number | undefined;
+  Comment: string;
+  Transmit: number;
+  OffsetFrequency: number;
+  ReceiveDigitalTone: number | undefined;
+  Receive: number;
+  ReceiveSquelchTone: number | undefined;
+  Name: string;
 }
 
 export function filterFrequencies(...bands: FrequencyBand[]): (filter: RepeaterStructured) => boolean {
@@ -77,17 +93,6 @@ export function buildName(repeater: RepeaterStructured): string {
   } else if (repeater.Frequency && repeater.Frequency.Output) {
     Name += repeater.Frequency.Output.toString().trim();
   }
-
-  // Name += repeater.Frequency.Output.toString().trim().substr(1, 6);
-  // if (repeater.SquelchTone != null && repeater.SquelchTone.Input != null) {
-  //   Name += " " + repeater.SquelchTone.Input.toString().trim().substr(0, 6);
-  // }
-  // if (repeater.DigitalTone != null && repeater.DigitalTone.Input != null) {
-  //   Name += " " + repeater.DigitalTone.Input.toString().trim().substr(0, 6);
-  // }
-  // Name = Name.replace(/[^0-9.a-zA-Z \/]/g, ' ').trim();
-  // Name = Name.replace(/[^0-9 ]/g, "").trim();
-  // Name = Name.replace(/,/g, '').replace(/\s+/g, ' ').trim();
   Name = Name.replace(/\s+/g, ' ').trim();
   Name = Name.substr(0, 16).trim();
 
@@ -144,4 +149,90 @@ export function buildDCS(code: number | undefined): string {
   const DCS: string[] = ['0', '0', '0'];
   DCS.splice(DCS.length - DCSa.length, DCSa.length, ...DCSa);
   return DCS.join('');
+}
+
+export function sortStructuredRepeaters(repeaters: RepeaterStructured[]): RepeaterStructured[] {
+  return repeaters
+    .sort((a: RepeaterStructured, b: RepeaterStructured): number => a.Callsign > b.Callsign ? 1 : a.Callsign < b.Callsign ? - 1 : 0)
+    .sort((a: RepeaterStructured, b: RepeaterStructured): number => (a.DigitalTone && a.DigitalTone.Input || 0) - (b.DigitalTone && b.DigitalTone.Input || 0))
+    .sort((a: RepeaterStructured, b: RepeaterStructured): number => (a.SquelchTone && a.SquelchTone.Input || 0) - (b.SquelchTone && b.SquelchTone.Input || 0))
+    .sort((a: RepeaterStructured, b: RepeaterStructured): number => a.Frequency.Input - b.Frequency.Input)
+    .sort((a: RepeaterStructured, b: RepeaterStructured): number => a.Location.Distance! - b.Location.Distance!);
+}
+
+export async function loadSimplex(filterSimplex: RegExp): Promise<RepeaterStructured[]> {
+  return (await readFromCsv<SimplexFrequency>('../data/simplex-frequencies.csv'))
+    .map((map: SimplexFrequency): RepeaterStructured =>
+      ({ Callsign: map.Name, Frequency: { Output: map.Frequency, Input: map.Frequency } }) as RepeaterStructured)
+    .filter((filter: RepeaterStructured): boolean => filterSimplex.test(filter.Callsign)); // TODO: Make a function and enum
+}
+
+export async function loadRepeaters(location: gpsDistance.Point): Promise<RepeaterStructured[]> {
+  const files: string[] = await getAllFilesInDirectory('../data/repeaters/converted/json', 'json', 1);
+
+  return sortStructuredRepeaters(
+    await Promise.all(
+      files.map(async (file: string): Promise<RepeaterStructured> => {
+        const fileBuffer: Buffer = await readFileAsync(file);
+        const fileString: string = fileBuffer.toString();
+        const fileData: RepeaterStructured = JSON.parse(fileString);
+        fileData.Location.Distance = Math.round(gpsDistance([location, [fileData.Location.Latitude, fileData.Location.Longitude]]));
+        return fileData;
+      })
+    )
+  );
+}
+
+export function rtSystemsCommon(repeater: RepeaterStructured): IRtSystemsCommon {
+  const Name: string = `${buildName(repeater)}`;
+  const Receive: number = repeater.Frequency.Output;
+  const Transmit: number = repeater.Frequency.Input;
+  const OffsetFrequency: number = repeater.Frequency.Input - repeater.Frequency.Output;
+  const TransmitSquelchTone: number | undefined = (repeater.SquelchTone && repeater.SquelchTone.Input);
+  const ReceiveSquelchTone: number | undefined = (repeater.SquelchTone && repeater.SquelchTone.Output);
+  const TransmitDigitalTone: number | undefined = (repeater.DigitalTone && repeater.DigitalTone.Input);
+  const ReceiveDigitalTone: number | undefined = (repeater.DigitalTone && repeater.DigitalTone.Output);
+  const Comment: string = buildComment(repeater);
+  return {
+    Name,
+    Receive,
+    Transmit,
+    OffsetFrequency,
+    TransmitSquelchTone,
+    ReceiveSquelchTone,
+    TransmitDigitalTone,
+    ReceiveDigitalTone,
+    Comment,
+  };
+}
+
+export function convertOffsetFrequency(offsetFrequency: number): RtSystemsOffsetFrequency {
+  const roundFrequency: number = Math.abs(Math.round(offsetFrequency * 10)) / 10;
+  switch (roundFrequency) {
+    case 0:
+      return RtSystemsOffsetFrequency.None;
+    case 0.1:
+      return RtSystemsOffsetFrequency.$100_kHz;
+    case 0.4:
+      return RtSystemsOffsetFrequency.$400_kHz;
+    case 0.5:
+      return RtSystemsOffsetFrequency.$500_kHz;
+    case 0.6:
+      return RtSystemsOffsetFrequency.$600_kHz;
+    case 1:
+      return RtSystemsOffsetFrequency.$1_MHz;
+    case 1.6:
+      return RtSystemsOffsetFrequency.$1_60_MHz;
+    case 2.5:
+      return RtSystemsOffsetFrequency.$2_50_MHz;
+    case 3:
+      return RtSystemsOffsetFrequency.$3_MHz;
+    case 5:
+      return RtSystemsOffsetFrequency.$5_MHz;
+    case 5.05:
+      return RtSystemsOffsetFrequency.$5_05_MHz;
+    case 7.6:
+      return RtSystemsOffsetFrequency.$7_60_MHz;
+  }
+  return RtSystemsOffsetFrequency.None;
 }

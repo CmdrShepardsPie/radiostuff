@@ -9,7 +9,7 @@
 })(function (require, exports) {
     "use strict";
     Object.defineProperty(exports, "__esModule", { value: true });
-    exports.Adms400ClockShift = exports.Adms400UserCtcss = exports.Adms400Step = exports.Adms400Skip = exports.Adms400TxPower = exports.Adms400DcsTone = exports.Adms400CtcssTone = exports.Adms400ToneMode = exports.Adms400ShowName = exports.Adms400OperatingMode = exports.Adms400OffsetDirection = exports.Adms400OffsetFrequency = exports.Adms400 = void 0;
+    exports.Adms400ClockShift = exports.RtSystemsUserCtcss = exports.Adms400Step = exports.Adms400Skip = exports.Adms400TxPower = exports.Adms400DcsTone = exports.Adms400CtcssTone = exports.Adms400ToneMode = exports.Adms400ShowName = exports.Adms400OperatingMode = exports.Adms400OffsetDirection = exports.Adms400OffsetFrequency = exports.Adms400 = void 0;
     class Adms400 {
         constructor(adms400) {
             this['Channel Number'] = 1;
@@ -28,7 +28,7 @@
             this.Step = Adms400Step.Auto;
             this['Clock Shift'] = Adms400ClockShift.Off;
             this.Comment = '';
-            this['User CTCSS'] = Adms400UserCtcss.$1500_Hz;
+            this['User CTCSS'] = RtSystemsUserCtcss.$1500_Hz;
             if (adms400) {
                 Object.assign(this, adms400);
             }
@@ -272,37 +272,37 @@
         Adms400Step["$50_khz"] = "50 kHz";
         Adms400Step["$100_khz"] = "100 kHz";
     })(Adms400Step = exports.Adms400Step || (exports.Adms400Step = {}));
-    var Adms400UserCtcss;
-    (function (Adms400UserCtcss) {
-        Adms400UserCtcss["$300_Hz"] = "300 Hz";
-        Adms400UserCtcss["$400_Hz"] = "400 Hz";
-        Adms400UserCtcss["$500_Hz"] = "500 Hz";
-        Adms400UserCtcss["$600_Hz"] = "600 Hz";
-        Adms400UserCtcss["$700_Hz"] = "700 Hz";
-        Adms400UserCtcss["$800_Hz"] = "800 Hz";
-        Adms400UserCtcss["$900_Hz"] = "900 Hz";
-        Adms400UserCtcss["$1000_Hz"] = "1000 Hz";
-        Adms400UserCtcss["$1100_Hz"] = "1100 Hz";
-        Adms400UserCtcss["$1200_Hz"] = "1200 Hz";
-        Adms400UserCtcss["$1300_Hz"] = "1300 Hz";
-        Adms400UserCtcss["$1400_Hz"] = "1400 Hz";
-        Adms400UserCtcss["$1500_Hz"] = "1500 Hz";
-        Adms400UserCtcss["$1600_Hz"] = "1600 Hz";
-        Adms400UserCtcss["$1700_Hz"] = "1700 Hz";
-        Adms400UserCtcss["$1800_Hz"] = "1800 Hz";
-        Adms400UserCtcss["$1900_Hz"] = "1900 Hz";
-        Adms400UserCtcss["$2000_Hz"] = "2000 Hz";
-        Adms400UserCtcss["$2100_Hz"] = "2100 Hz";
-        Adms400UserCtcss["$2200_Hz"] = "2200 Hz";
-        Adms400UserCtcss["$2300_Hz"] = "2300 Hz";
-        Adms400UserCtcss["$2400_Hz"] = "2400 Hz";
-        Adms400UserCtcss["$2500_Hz"] = "2500 Hz";
-        Adms400UserCtcss["$2600_Hz"] = "2600 Hz";
-        Adms400UserCtcss["$2700_Hz"] = "2700 Hz";
-        Adms400UserCtcss["$2800_Hz"] = "2800 Hz";
-        Adms400UserCtcss["$2900_Hz"] = "2900 Hz";
-        Adms400UserCtcss["$3000_Hz"] = "3000 Hz";
-    })(Adms400UserCtcss = exports.Adms400UserCtcss || (exports.Adms400UserCtcss = {}));
+    var RtSystemsUserCtcss;
+    (function (RtSystemsUserCtcss) {
+        RtSystemsUserCtcss["$300_Hz"] = "300 Hz";
+        RtSystemsUserCtcss["$400_Hz"] = "400 Hz";
+        RtSystemsUserCtcss["$500_Hz"] = "500 Hz";
+        RtSystemsUserCtcss["$600_Hz"] = "600 Hz";
+        RtSystemsUserCtcss["$700_Hz"] = "700 Hz";
+        RtSystemsUserCtcss["$800_Hz"] = "800 Hz";
+        RtSystemsUserCtcss["$900_Hz"] = "900 Hz";
+        RtSystemsUserCtcss["$1000_Hz"] = "1000 Hz";
+        RtSystemsUserCtcss["$1100_Hz"] = "1100 Hz";
+        RtSystemsUserCtcss["$1200_Hz"] = "1200 Hz";
+        RtSystemsUserCtcss["$1300_Hz"] = "1300 Hz";
+        RtSystemsUserCtcss["$1400_Hz"] = "1400 Hz";
+        RtSystemsUserCtcss["$1500_Hz"] = "1500 Hz";
+        RtSystemsUserCtcss["$1600_Hz"] = "1600 Hz";
+        RtSystemsUserCtcss["$1700_Hz"] = "1700 Hz";
+        RtSystemsUserCtcss["$1800_Hz"] = "1800 Hz";
+        RtSystemsUserCtcss["$1900_Hz"] = "1900 Hz";
+        RtSystemsUserCtcss["$2000_Hz"] = "2000 Hz";
+        RtSystemsUserCtcss["$2100_Hz"] = "2100 Hz";
+        RtSystemsUserCtcss["$2200_Hz"] = "2200 Hz";
+        RtSystemsUserCtcss["$2300_Hz"] = "2300 Hz";
+        RtSystemsUserCtcss["$2400_Hz"] = "2400 Hz";
+        RtSystemsUserCtcss["$2500_Hz"] = "2500 Hz";
+        RtSystemsUserCtcss["$2600_Hz"] = "2600 Hz";
+        RtSystemsUserCtcss["$2700_Hz"] = "2700 Hz";
+        RtSystemsUserCtcss["$2800_Hz"] = "2800 Hz";
+        RtSystemsUserCtcss["$2900_Hz"] = "2900 Hz";
+        RtSystemsUserCtcss["$3000_Hz"] = "3000 Hz";
+    })(RtSystemsUserCtcss = exports.RtSystemsUserCtcss || (exports.RtSystemsUserCtcss = {}));
     var Adms400ClockShift;
     (function (Adms400ClockShift) {
         Adms400ClockShift["Off"] = "Off";
