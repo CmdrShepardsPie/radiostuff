@@ -50,30 +50,32 @@ var __importDefault = (this && this.__importDefault) || function (mod) {
                 .filter(radio_helpers_1.filterFrequencies(radio_helpers_1.FrequencyBand.$160_m, radio_helpers_1.FrequencyBand.$80_m, radio_helpers_1.FrequencyBand.$60_m, radio_helpers_1.FrequencyBand.$40_m, radio_helpers_1.FrequencyBand.$30_m, radio_helpers_1.FrequencyBand.$20_m, radio_helpers_1.FrequencyBand.$17_m, radio_helpers_1.FrequencyBand.$15_m, radio_helpers_1.FrequencyBand.$12_m, radio_helpers_1.FrequencyBand.$10_m, radio_helpers_1.FrequencyBand.$6_m, radio_helpers_1.FrequencyBand.$2_m, radio_helpers_1.FrequencyBand.$70_cm))
                 .filter(radio_helpers_1.filterMode(radio_helpers_1.Mode.FM, radio_helpers_1.Mode.DStar)),
         ]
-            .map((map, index) => ({ ...convertToRadio(map), 'Channel Number': index + 1 }));
+            .map((map, index) => convertToRadio(map))
+            .slice(0, 500);
         const simplexWcs7100 = mapped
             .filter((filter) => filter['Offset Direction'] === wcs7100_1.Wcs7100OffsetDirection.Simplex && filter['Tone Mode'] === wcs7100_1.Wcs7100ToneMode.None);
         const duplexWcs7100 = mapped
-            .filter((filter) => filter['Offset Direction'] !== wcs7100_1.Wcs7100OffsetDirection.Simplex || filter['Tone Mode'] !== wcs7100_1.Wcs7100ToneMode.None)
-            .sort((a, b) => a.Name > b.Name ? 1 : a.Name < b.Name ? -1 : 0);
-        // const recombine: Wcs7100[] = [...simplexWcs7100, ...duplexWcs7100]
-        //   .map((map: Wcs7100, index: number): Wcs7100 => ({ ...map, 'Channel Number': index + 1 }));
+            .filter((filter) => filter['Offset Direction'] !== wcs7100_1.Wcs7100OffsetDirection.Simplex || filter['Tone Mode'] !== wcs7100_1.Wcs7100ToneMode.None);
         const A = simplexWcs7100
             .slice(0, 99)
             .map((map, index) => ({ ...map, 'Channel Number': index + 1 }));
         const B = duplexWcs7100
             .slice(0, 99)
+            .sort((a, b) => a.Name > b.Name ? 1 : a.Name < b.Name ? -1 : 0)
             .map((map, index) => ({ ...map, 'Channel Number': index + 1 }));
         const C = duplexWcs7100
             .slice(99, 198)
+            .sort((a, b) => a.Name > b.Name ? 1 : a.Name < b.Name ? -1 : 0)
             .map((map, index) => ({ ...map, 'Channel Number': index + 1 }));
         const D = duplexWcs7100
             .slice(198, 297)
+            .sort((a, b) => a.Name > b.Name ? 1 : a.Name < b.Name ? -1 : 0)
             .map((map, index) => ({ ...map, 'Channel Number': index + 1 }));
         const E = duplexWcs7100
             .slice(297, 396)
+            .sort((a, b) => a.Name > b.Name ? 1 : a.Name < b.Name ? -1 : 0)
             .map((map, index) => ({ ...map, 'Channel Number': index + 1 }));
-        promises.push(fs_helpers_1.writeToCsv(`${outFileName}-A`, simplexWcs7100));
+        promises.push(fs_helpers_1.writeToCsv(`${outFileName}-A`, A));
         promises.push(fs_helpers_1.writeToCsv(`${outFileName}-B`, B));
         promises.push(fs_helpers_1.writeToCsv(`${outFileName}-C`, C));
         promises.push(fs_helpers_1.writeToCsv(`${outFileName}-D`, D));
