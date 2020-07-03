@@ -9,8 +9,8 @@ import {
   filterFrequencies,
   filterMode,
   FrequencyBand,
-  IRtSystemsCommon, loadRepeaters, loadSimplex,
-  Mode, rtSystemsCommon
+  RadioCommon, loadRepeaters, loadSimplex,
+  Mode, radioCommon
 } from '@helpers/radio-helpers';
 import chalk from 'chalk';
 import {
@@ -82,7 +82,7 @@ function convertToRadio(repeater: RepeaterStructured): Adms7 {
     TransmitDigitalTone,
     ReceiveDigitalTone,
     Comment,
-  }: IRtSystemsCommon = rtSystemsCommon(repeater);
+  }: RadioCommon = radioCommon(repeater);
 
   const Receive: string = repeater.Frequency.Output.toFixed(5);
   const Transmit: string = repeater.Frequency.Input.toFixed(5);

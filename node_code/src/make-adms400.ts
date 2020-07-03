@@ -10,13 +10,10 @@ import {
 } from '@interfaces/adms400';
 import chalk from 'chalk';
 import {
-  buildDCS,
-  convertOffsetFrequency,
+  buildDCS, convertOffsetFrequency,
   filterFrequencies,
   filterMode,
-  FrequencyBand,
-  IRtSystemsCommon, loadRepeaters, loadSimplex,
-  Mode, rtSystemsCommon
+  FrequencyBand, RadioCommon, loadRepeaters, loadSimplex, Mode, radioCommon,
 } from '@helpers/radio-helpers';
 import { program } from 'commander';
 import gpsDistance from 'gps-distance';
@@ -65,11 +62,20 @@ async function doIt(location: gpsDistance.Point, outFileName: string): Promise<v
       ))
       .filter(filterMode(Mode.FM, Mode.YSF)),
   ]
-    .map((map: RepeaterStructured, index: number): Adms400 => ({ ...convertToRadio(map), 'Channel Number': index + 1 }))
-    .slice(0, 500)
+    .map((map: RepeaterStructured): Adms400 => convertToRadio(map))
+    .slice(0, 500);
+
+  const simplexAdms400: Adms400[] = mapped
+    .filter((filter: Adms400): boolean => filter['Offset Direction'] === Adms400OffsetDirection.Simplex && filter['Tone Mode'] === Adms400ToneMode.None);
+
+  const duplexAdms400: Adms400[] = mapped
+    .filter((filter: Adms400): boolean => filter['Offset Direction'] !== Adms400OffsetDirection.Simplex || filter['Tone Mode'] !== Adms400ToneMode.None)
+    .sort((a: Adms400, b: Adms400): number => a.Name > b.Name ? 1 : a.Name < b.Name ? - 1 : 0);
+
+  const recombine: Adms400[] = [...simplexAdms400, ...duplexAdms400]
     .map((map: Adms400, index: number): Adms400 => ({ ...map, 'Channel Number': index + 1 }));
 
-  return writeToCsv(outFileName, mapped);
+  return writeToCsv(outFileName, recombine);
 }
 
 function convertToRadio(repeater: RepeaterStructured): Adms400 {
@@ -83,7 +89,7 @@ function convertToRadio(repeater: RepeaterStructured): Adms400 {
     TransmitDigitalTone,
     ReceiveDigitalTone,
     Comment,
-  }: IRtSystemsCommon = rtSystemsCommon(repeater);
+  }: RadioCommon = radioCommon(repeater);
 
   let ToneMode: Adms400ToneMode = Adms400ToneMode.None;
 

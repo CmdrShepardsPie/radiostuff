@@ -2,13 +2,11 @@ import { createOut } from '@helpers/log-helpers';
 import chalk from 'chalk';
 import gpsDistance from 'gps-distance';
 
-const { log, write }: { log: (...msg: any[]) => void; write: (...msg: any[]) => void } = createOut('Helpers');
+const { log }: { log: (...msg: any[]) => void; write: (...msg: any[]) => void } = createOut('Helpers');
 
 export function wait<T = void>(ms: number, fn?: () => (T | Promise<T>)): Promise<T> {
-  // log(chalk.green("Wait"), ms);
-  // write(`(${Math.round(ms / 1000)})`);
   return new Promise((resolve: (value?: (Promise<T> | T)) => void, reject: (reason?: any) => void): void => {
-    setTimeout(async () => {
+    setTimeout(async (): Promise<void> => {
       try {
         resolve(fn && (await fn()));
       } catch (e) {
@@ -63,7 +61,7 @@ export function flattenObject(data: any): any {
       if (typeof value === 'object' && !Array.isArray(value)) {
         delete subData[key];
         const valueWithKeyNames: { [key: string]: any } = {};
-        Object.entries(value).forEach((subEntry: [string, any]) => {
+        Object.entries(value).forEach((subEntry: [string, any]): void => {
           valueWithKeyNames[`${key}.${subEntry[0]}`] = subEntry[1];
         });
         subData = { ...subData, ...valueWithKeyNames };

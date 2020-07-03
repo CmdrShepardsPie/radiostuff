@@ -15,10 +15,8 @@ var __importDefault = (this && this.__importDefault) || function (mod) {
     exports.weekMS = exports.dayMS = exports.hourMS = exports.minuteMS = exports.secondMS = exports.checkCoordinates = exports.splitCoordinates = exports.flattenObject = exports.numberToString = exports.wait = void 0;
     const log_helpers_1 = require("@helpers/log-helpers");
     const chalk_1 = __importDefault(require("chalk"));
-    const { log, write } = log_helpers_1.createOut('Helpers');
+    const { log } = log_helpers_1.createOut('Helpers');
     function wait(ms, fn) {
-        // log(chalk.green("Wait"), ms);
-        // write(`(${Math.round(ms / 1000)})`);
         return new Promise((resolve, reject) => {
             setTimeout(async () => {
                 try {

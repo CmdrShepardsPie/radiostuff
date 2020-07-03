@@ -49,13 +49,19 @@ var __importDefault = (this && this.__importDefault) || function (mod) {
                 .filter(radio_helpers_1.filterFrequencies(radio_helpers_1.FrequencyBand.$2_m, radio_helpers_1.FrequencyBand.$70_cm))
                 .filter(radio_helpers_1.filterMode(radio_helpers_1.Mode.FM, radio_helpers_1.Mode.YSF)),
         ]
-            .map((map, index) => ({ ...convertToRadio(map), 'Channel Number': index + 1 }))
-            .slice(0, 500)
+            .map((map) => convertToRadio(map))
+            .slice(0, 500);
+        const simplexAdms400 = mapped
+            .filter((filter) => filter['Offset Direction'] === adms400_1.Adms400OffsetDirection.Simplex && filter['Tone Mode'] === adms400_1.Adms400ToneMode.None);
+        const duplexAdms400 = mapped
+            .filter((filter) => filter['Offset Direction'] !== adms400_1.Adms400OffsetDirection.Simplex || filter['Tone Mode'] !== adms400_1.Adms400ToneMode.None)
+            .sort((a, b) => a.Name > b.Name ? 1 : a.Name < b.Name ? -1 : 0);
+        const recombine = [...simplexAdms400, ...duplexAdms400]
             .map((map, index) => ({ ...map, 'Channel Number': index + 1 }));
-        return fs_helpers_1.writeToCsv(outFileName, mapped);
+        return fs_helpers_1.writeToCsv(outFileName, recombine);
     }
     function convertToRadio(repeater) {
-        const { Name, Receive, Transmit, OffsetFrequency, TransmitSquelchTone, ReceiveSquelchTone, TransmitDigitalTone, ReceiveDigitalTone, Comment, } = radio_helpers_1.rtSystemsCommon(repeater);
+        const { Name, Receive, Transmit, OffsetFrequency, TransmitSquelchTone, ReceiveSquelchTone, TransmitDigitalTone, ReceiveDigitalTone, Comment, } = radio_helpers_1.radioCommon(repeater);
         let ToneMode = adms400_1.Adms400ToneMode.None;
         if (TransmitSquelchTone) {
             ToneMode = adms400_1.Adms400ToneMode.Tone; // "TONE ENC";

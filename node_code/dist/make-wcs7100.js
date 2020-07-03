@@ -52,26 +52,26 @@ var __importDefault = (this && this.__importDefault) || function (mod) {
         ]
             .map((map, index) => ({ ...convertToRadio(map), 'Channel Number': index + 1 }));
         const simplexWcs7100 = mapped
-            .filter((filter) => filter['Offset Direction'] === wcs7100_1.Wcs7100OffsetDirection.Simplex && filter['Tone Mode'] === wcs7100_1.Wcs7100ToneMode.None)
+            .filter((filter) => filter['Offset Direction'] === wcs7100_1.Wcs7100OffsetDirection.Simplex && filter['Tone Mode'] === wcs7100_1.Wcs7100ToneMode.None);
+        const duplexWcs7100 = mapped
+            .filter((filter) => filter['Offset Direction'] !== wcs7100_1.Wcs7100OffsetDirection.Simplex || filter['Tone Mode'] !== wcs7100_1.Wcs7100ToneMode.None)
+            .sort((a, b) => a.Name > b.Name ? 1 : a.Name < b.Name ? -1 : 0);
+        // const recombine: Wcs7100[] = [...simplexWcs7100, ...duplexWcs7100]
+        //   .map((map: Wcs7100, index: number): Wcs7100 => ({ ...map, 'Channel Number': index + 1 }));
+        const A = simplexWcs7100
             .slice(0, 99)
             .map((map, index) => ({ ...map, 'Channel Number': index + 1 }));
-        const duplexWcs7100 = mapped
-            .filter((filter) => filter['Offset Direction'] !== wcs7100_1.Wcs7100OffsetDirection.Simplex || filter['Tone Mode'] !== wcs7100_1.Wcs7100ToneMode.None);
         const B = duplexWcs7100
             .slice(0, 99)
-            .sort((a, b) => a.Name > b.Name ? 1 : a.Name < b.Name ? -1 : 0)
             .map((map, index) => ({ ...map, 'Channel Number': index + 1 }));
         const C = duplexWcs7100
             .slice(99, 198)
-            .sort((a, b) => a.Name > b.Name ? 1 : a.Name < b.Name ? -1 : 0)
             .map((map, index) => ({ ...map, 'Channel Number': index + 1 }));
         const D = duplexWcs7100
             .slice(198, 297)
-            .sort((a, b) => a.Name > b.Name ? 1 : a.Name < b.Name ? -1 : 0)
             .map((map, index) => ({ ...map, 'Channel Number': index + 1 }));
         const E = duplexWcs7100
             .slice(297, 396)
-            .sort((a, b) => a.Name > b.Name ? 1 : a.Name < b.Name ? -1 : 0)
             .map((map, index) => ({ ...map, 'Channel Number': index + 1 }));
         promises.push(fs_helpers_1.writeToCsv(`${outFileName}-A`, simplexWcs7100));
         promises.push(fs_helpers_1.writeToCsv(`${outFileName}-B`, B));
@@ -81,7 +81,7 @@ var __importDefault = (this && this.__importDefault) || function (mod) {
         await Promise.all(promises);
     }
     function convertToRadio(repeater) {
-        const { Name, Receive, Transmit, OffsetFrequency, TransmitSquelchTone, ReceiveSquelchTone, TransmitDigitalTone, ReceiveDigitalTone, Comment, } = radio_helpers_1.rtSystemsCommon(repeater);
+        const { Name, Receive, Transmit, OffsetFrequency, TransmitSquelchTone, ReceiveSquelchTone, TransmitDigitalTone, ReceiveDigitalTone, Comment, } = radio_helpers_1.radioCommon(repeater);
         let OperatingMode = wcs7100_1.Wcs7100OperatingMode.FM; // (repeater.Digital && repeater.Digital.DStar && repeater.Digital.DStar.Node) ? Wcs7100OperatingMode.DV : Wcs7100OperatingMode.FM;
         let YourCallSign = wcs7100_1.Wcs7100YourCallsign.None; // OperatingMode === Wcs7100OperatingMode.DV ? Wcs7100YourCallsign.CQCQCQ : Wcs7100YourCallsign.None;
         let Rpt1CallSign = '';
@@ -131,7 +131,7 @@ var __importDefault = (this && this.__importDefault) || function (mod) {
             ToneMode = wcs7100_1.Wcs7100ToneMode.DTCS; // "DCS";
         }
         const CTCSS = ((TransmitSquelchTone || 100).toFixed(1) + ' Hz');
-        const Rx_CTCSS = ((ReceiveSquelchTone || 100).toFixed(1) + ' Hz');
+        const Rx_CTCSS = ((ReceiveSquelchTone || TransmitSquelchTone || 100).toFixed(1) + ' Hz');
         const DCS = radio_helpers_1.buildDCS(TransmitDigitalTone);
         return new wcs7100_1.Wcs7100({
             'Receive Frequency': Receive.toFixed(5),

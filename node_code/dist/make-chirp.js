@@ -7,7 +7,7 @@ var __importDefault = (this && this.__importDefault) || function (mod) {
         if (v !== undefined) module.exports = v;
     }
     else if (typeof define === "function" && define.amd) {
-        define(["require", "exports", "module-alias/register", "@helpers/fs-helpers", "@helpers/log-helpers", "@interfaces/repeater-structured", "gps-distance"], factory);
+        define(["require", "exports", "module-alias/register", "@helpers/fs-helpers", "@helpers/log-helpers", "@interfaces/chirp", "chalk", "@helpers/radio-helpers", "commander", "@helpers/helpers"], factory);
     }
 })(function (require, exports) {
     "use strict";
@@ -15,146 +15,108 @@ var __importDefault = (this && this.__importDefault) || function (mod) {
     require("module-alias/register");
     const fs_helpers_1 = require("@helpers/fs-helpers");
     const log_helpers_1 = require("@helpers/log-helpers");
-    const repeater_structured_1 = require("@interfaces/repeater-structured");
-    const gps_distance_1 = __importDefault(require("gps-distance"));
+    const chirp_1 = require("@interfaces/chirp");
+    const chalk_1 = __importDefault(require("chalk"));
+    const radio_helpers_1 = require("@helpers/radio-helpers");
+    const commander_1 = require("commander");
+    const helpers_1 = require("@helpers/helpers");
     const log = log_helpers_1.createLog('Make Chirp');
-    const chirp = {
-        Location: null,
-        Name: '',
-        Frequency: null,
-        Duplex: '',
-        Offset: null,
-        Tone: '',
-        rToneFreq: null,
-        cToneFreq: null,
-        DtcsCode: null,
-        DtcsRxCode: null,
-        DtcsPolarity: 'NN',
-        Mode: 'FM',
-        TStep: 5,
-        Comment: '',
-    };
-    const myPoint = [39.627071500, -104.893322500]; // 4982 S Ulster St
-    // const myPoint: Point = [39.742043, -104.991531]; // Denver
-    async function doIt(inFileName, outFileName) {
-        const simplex = JSON.parse((await fs_helpers_1.readFileAsync('../data/frequencies.json')).toString())
-            .map((map) => ({ Callsign: map.Name, Frequency: { Output: map.Frequency, Input: map.Frequency } }))
-            .filter((filter) => /FM|Voice|Simplex/i.test(filter.Callsign))
-            .filter((filter) => !(/Data|Digital|Packet/i.test(filter.Callsign)));
-        const repeaters = JSON.parse((await fs_helpers_1.readFileAsync(inFileName)).toString());
-        repeaters.forEach((each) => {
-            each.Location.Distance = gps_distance_1.default([myPoint, [each.Location.Latitude, each.Location.Longitude]]);
-        });
-        repeaters.sort((a, b) => a.Location.Distance > b.Location.Distance ? 1 :
-            a.Location.Distance < b.Location.Distance ? -1 : 0);
-        const unique = {};
-        const mapped = [
-            ...simplex,
-            ...repeaters
-                .filter((filter) => (filter.Frequency.Output >= 144 && filter.Frequency.Output <= 148) ||
-                (filter.Frequency.Output >= 222 && filter.Frequency.Output <= 225) ||
-                (filter.Frequency.Output >= 420 && filter.Frequency.Output <= 450))
-                .filter((filter) => !filter.Digital &&
-                filter.Status !== repeater_structured_1.RepeaterStatus.OffAir &&
-                filter.Use === repeater_structured_1.RepeaterUse.Open),
-        ]
-            .map((map, index) => ({ ...convertToRadio(map), Location: index }))
-            .filter((filter) => {
-            if (unique[filter.Name]) {
-                return false;
+    // const homePoint: Point = [39.627071500, -104.893322500]; // 4982 S Ulster St
+    // const DenverPoint: Point = [39.742043, -104.991531];
+    // const ColoradoSpringsPoint: Point = [38.846127, -104.800644];
+    log('Program Setup');
+    commander_1.program
+        .version('0.0.1')
+        .arguments('<location> <name>')
+        .action(async (location, name) => {
+        log('Program Action', location, name);
+        if (location) {
+            const latLong = helpers_1.splitCoordinates(location);
+            if (helpers_1.checkCoordinates(latLong)) {
+                await doIt(latLong, `../data/repeaters/chirp/${name}`);
             }
-            unique[filter.Name] = true;
-            return true;
-        });
-        const short = mapped
-            .slice(0, 128)
-            // .sort((a: Chirp, b: Chirp) => a.Frequency - b.Frequency)
+        }
+    });
+    log('Program Parse Args');
+    commander_1.program.parse(process.argv);
+    async function doIt(location, outFileName) {
+        const simplex = await radio_helpers_1.loadSimplex(/FM/i);
+        const repeaters = await radio_helpers_1.loadRepeaters(location);
+        const mapped = [
+            ...simplex
+                .filter(radio_helpers_1.filterFrequencies(radio_helpers_1.FrequencyBand.$2_m, radio_helpers_1.FrequencyBand.$1_25_m, radio_helpers_1.FrequencyBand.$70_cm)),
+            ...repeaters
+                .filter(radio_helpers_1.filterFrequencies(radio_helpers_1.FrequencyBand.$2_m, radio_helpers_1.FrequencyBand.$1_25_m, radio_helpers_1.FrequencyBand.$70_cm))
+                .filter(radio_helpers_1.filterMode(radio_helpers_1.Mode.FM)),
+        ]
+            .map((map) => convertToRadio(map));
+        await saveSubset(mapped, 127, `${outFileName}-127`);
+        await saveSubset(mapped, 199, `${outFileName}-199`);
+    }
+    async function saveSubset(mapped, length, fileName) {
+        const subset = mapped.slice(0, length);
+        const simplexChirp = subset
+            .filter((filter) => filter.Duplex === chirp_1.ChirpDuplex.Simplex && filter.Tone === chirp_1.ChirpToneMode.None);
+        const duplexChirp = subset
+            .filter((filter) => filter.Duplex !== chirp_1.ChirpDuplex.Simplex || filter.Tone !== chirp_1.ChirpToneMode.None)
+            .sort((a, b) => a.Name > b.Name ? 1 : a.Name < b.Name ? -1 : 0);
+        const recombine = [...simplexChirp, ...duplexChirp]
             .map((map, index) => ({ ...map, Location: index }));
-        const long = mapped
-            .slice(0, 200)
-            // .sort((a: Chirp, b: Chirp) => a.Frequency - b.Frequency)
-            .map((map, index) => ({ ...map, Location: index }));
-        await fs_helpers_1.writeToJsonAndCsv(outFileName + '-short', short);
-        await fs_helpers_1.writeToJsonAndCsv(outFileName + '-long', long);
+        return fs_helpers_1.writeToCsv(fileName, recombine);
     }
     function convertToRadio(repeater) {
-        let Name = '';
-        if (repeater.Callsign) {
-            Name += repeater.Callsign.trim();
+        const { Name, Receive, Transmit, OffsetFrequency, TransmitSquelchTone, ReceiveSquelchTone, TransmitDigitalTone, ReceiveDigitalTone, Comment, } = radio_helpers_1.radioCommon(repeater);
+        let ToneMode = chirp_1.ChirpToneMode.None;
+        if (TransmitSquelchTone) {
+            ToneMode = chirp_1.ChirpToneMode.Tone; // "TONE ENC";
         }
-        if (repeater.Location && repeater.Location.Local) {
-            Name += (Name ? ' ' : '') + repeater.Location.Local.trim();
+        else if (TransmitDigitalTone) {
+            ToneMode = chirp_1.ChirpToneMode.DTCS; // "DCS";
         }
-        if (repeater.Frequency && repeater.Frequency.Output) {
-            Name += (Name ? ' ' : '') + repeater.Frequency.Output.toString().trim();
+        if (TransmitSquelchTone && ReceiveSquelchTone) {
+            if (TransmitSquelchTone === ReceiveSquelchTone) {
+                ToneMode = chirp_1.ChirpToneMode.T_Sql; // "TONE SQL";
+            }
+            else {
+                ToneMode = chirp_1.ChirpToneMode.Cross;
+            }
         }
-        Name = Name.replace(/[^0-9.a-zA-Z \/]/g, '').trim();
-        Name = Name.replace(/[ ]+/g, ' ').trim();
-        Name = Name.substr(0, 8).trim();
-        const Frequency = repeater.Frequency.Output;
-        let Offset = repeater.Frequency.Input - repeater.Frequency.Output;
-        const Duplex = Offset > 0 ? '+' : Offset < 0 ? '-' : '';
-        Offset = Math.abs(Math.round(Offset * 100) / 100);
-        let rToneFreq = (repeater.SquelchTone && repeater.SquelchTone.Input);
-        let cToneFreq = (repeater.SquelchTone && repeater.SquelchTone.Output);
-        let DtcsCode = (repeater.DigitalTone && repeater.DigitalTone.Input);
-        let DtcsRxCode = (repeater.DigitalTone && repeater.DigitalTone.Output);
-        let Tone = '';
-        const Mode = 'FM';
-        let Comment = `${repeater.StateID} ${repeater.ID} ${repeater.Location && repeater.Location.Distance && repeater.Location.Distance.toFixed(2)} ${repeater.Location && repeater.Location.State} ${repeater.Location && repeater.Location.County} ${repeater.Location && repeater.Location.Local} ${repeater.Callsign}`;
-        Comment = Comment.replace(/undefined/g, ' ').replace(/\s+/g, ' ').trim();
-        // `${item["ST/PR"] || ""} ${item.County || ""} ${item.Location || ""} ${item.Call || ""} ${item.Sponsor || ""} ${item.Affiliate || ""} ${item.Frequency} ${item.Use || ""} ${item["Op Status"] || ""} ${item.Comment || ""}`.replace(/\s+/g, " ");
-        // Comment = Comment.trim().replace(",", "").substring(0, 31).trim();
-        if (rToneFreq) {
-            Tone = 'Tone';
+        else if (TransmitDigitalTone && ReceiveDigitalTone && TransmitDigitalTone === ReceiveDigitalTone) {
+            if (TransmitDigitalTone === ReceiveDigitalTone) {
+                ToneMode = chirp_1.ChirpToneMode.DTCS; // "TONE SQL";
+            }
+            else {
+                ToneMode = chirp_1.ChirpToneMode.Cross;
+            }
         }
-        else if (DtcsCode) {
-            Tone = 'DTCS';
-        }
-        // if (cToneFreq) {
-        //   Tone = "TSQL";
-        // } else if (DtcsRxCode) {
-        //   Tone = "DTCS";
-        // }
-        // if ((rToneFreq && cToneFreq && (rToneFreq !== cToneFreq))) {
-        //   Tone = "Cross";
-        // }
-        cToneFreq = cToneFreq || 88.5;
-        rToneFreq = rToneFreq || 88.5;
-        DtcsCode = DtcsCode || 23;
-        DtcsRxCode = DtcsRxCode || 23;
-        // log(chalk.green("Made Row"), row);
-        return {
-            ...chirp,
-            // Location,
+        const CTCSS = TransmitSquelchTone || 100;
+        const Rx_CTCSS = ReceiveSquelchTone || TransmitSquelchTone || 100;
+        const DCS = parseInt(radio_helpers_1.buildDCS(TransmitDigitalTone), 10);
+        const Rx_DCS = parseInt(radio_helpers_1.buildDCS(ReceiveDigitalTone || TransmitDigitalTone), 10);
+        return new chirp_1.Chirp({
             Name,
-            Frequency,
-            Duplex,
-            Offset,
-            rToneFreq,
-            cToneFreq,
-            DtcsCode,
-            DtcsRxCode,
-            Tone,
-            Mode,
+            Frequency: Receive,
+            Duplex: convertOffsetDirection(OffsetFrequency),
+            Offset: Math.round(Math.abs(Transmit - Receive) * 10) / 10,
+            Tone: ToneMode,
+            rToneFreq: CTCSS,
+            cToneFreq: Rx_CTCSS,
+            DtcsCode: DCS,
+            DtcsRxCode: Rx_DCS,
             Comment,
-        };
+        });
     }
-    async function start() {
-        // const coFiles = (await readdirAsync("./repeaters/data/CO/")).map((f) => `../data/CO/${f}`);
-        // const utFiles = (await readdirAsync("./repeaters/data/UT/")).map((f) => `../data/UT/${f}`);
-        // const nmFiles = (await readdirAsync("./repeaters/data/NM/")).map((f) => `../data/NM/${f}`);
-        // const coGroups = (await readdirAsync("./repeaters/groups/CO/")).map((f) => `groups/CO/${f}`);
-        // const utGroups = (await readdirAsync("./repeaters/groups/UT/")).map((f) => `groups/UT/${f}`);
-        // const nmGroups = (await readdirAsync("./repeaters/groups/NM/")).map((f) => `groups/NM/${f}`);
-        // const allFiles = [...coFiles, ...utFiles, ...nmFiles, ...coGroups, ...utGroups, ...nmGroups].filter((f) => /\.json$/.test(f)).map((f) => f.replace(".json", ""));
-        // for (const file of allFiles) {
-        //   await doIt(file);
-        // }
-        // await doIt("data/repeaters/groups/CO/Colorado Springs - Call.json", "data/repeaters/chirp/groups/CO/Colorado Springs - Call");
-        // await doIt("data/repeaters/results/CO/Colorado Springs.json", "data/repeaters/chirp/CO/Colorado Springs");
-        await doIt('../data/repeaters/converted/CO.json', '../data/repeaters/chirp/CO');
-        // await doIt("../data/repeaters/groups/combined/CO - Call.json", "../data/repeaters/chirp/groups/CO - Call");
+    function convertOffsetDirection(OffsetFrequency) {
+        if (OffsetFrequency === 0) {
+            return chirp_1.ChirpDuplex.Simplex;
+        }
+        else if (OffsetFrequency < 0) {
+            return chirp_1.ChirpDuplex.Minus;
+        }
+        else if (OffsetFrequency > 0) {
+            return chirp_1.ChirpDuplex.Plus;
+        }
+        log(chalk_1.default.red('ERROR'), 'convertOffsetDirection', 'unknown', OffsetFrequency);
+        return chirp_1.ChirpDuplex.Simplex;
     }
-    exports.default = start();
 });

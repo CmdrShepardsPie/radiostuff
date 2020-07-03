@@ -12,7 +12,7 @@ var __importDefault = (this && this.__importDefault) || function (mod) {
 })(function (require, exports) {
     "use strict";
     Object.defineProperty(exports, "__esModule", { value: true });
-    exports.convertOffsetFrequency = exports.rtSystemsCommon = exports.loadRepeaters = exports.loadSimplex = exports.sortStructuredRepeaters = exports.buildDCS = exports.buildComment = exports.getRepeaterCount = exports.getRepeaterSuffix = exports.buildName = exports.filterMinimumRepeaterCount = exports.filterMode = exports.filterDistance = exports.filterFrequencies = exports.Mode = exports.FrequencyBand = void 0;
+    exports.convertOffsetFrequency = exports.radioCommon = exports.loadRepeaters = exports.loadSimplex = exports.sortStructuredRepeaters = exports.buildDCS = exports.buildComment = exports.getRepeaterCount = exports.getRepeaterSuffix = exports.buildName = exports.filterMinimumRepeaterCount = exports.filterMode = exports.filterDistance = exports.filterFrequencies = exports.Mode = exports.FrequencyBand = void 0;
     const repeater_structured_1 = require("@interfaces/repeater-structured");
     const fs_helpers_1 = require("@helpers/fs-helpers");
     const gps_distance_1 = __importDefault(require("gps-distance"));
@@ -173,7 +173,7 @@ var __importDefault = (this && this.__importDefault) || function (mod) {
         })));
     }
     exports.loadRepeaters = loadRepeaters;
-    function rtSystemsCommon(repeater) {
+    function radioCommon(repeater) {
         const Name = `${buildName(repeater)}`;
         const Receive = repeater.Frequency.Output;
         const Transmit = repeater.Frequency.Input;
@@ -195,7 +195,7 @@ var __importDefault = (this && this.__importDefault) || function (mod) {
             Comment,
         };
     }
-    exports.rtSystemsCommon = rtSystemsCommon;
+    exports.radioCommon = radioCommon;
     function convertOffsetFrequency(offsetFrequency) {
         const roundFrequency = Math.abs(Math.round(offsetFrequency * 10)) / 10;
         switch (roundFrequency) {

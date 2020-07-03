@@ -1,177 +1,150 @@
 import 'module-alias/register';
 
-import { readFileAsync, writeToJsonAndCsv } from '@helpers/fs-helpers';
+import { writeToCsv } from '@helpers/fs-helpers';
 import { createLog } from '@helpers/log-helpers';
-import { ChirpDuplex, ChirpMode, ChirpTone, Chirp } from '@interfaces/chirp';
-import { RepeaterStructured, RepeaterStatus, RepeaterUse } from '@interfaces/repeater-structured';
-import { SimplexFrequency } from '@interfaces/simplex-frequency';
-import gpsDistance, { Point } from 'gps-distance';
+import { RepeaterStructured } from '@interfaces/repeater-structured';
+import {
+  Chirp, ChirpDuplex,
+  ChirpToneMode,
+} from '@interfaces/chirp';
+import chalk from 'chalk';
+import {
+  buildDCS, filterFrequencies,
+  filterMode,
+  FrequencyBand, RadioCommon, loadRepeaters, loadSimplex, Mode, radioCommon,
+} from '@helpers/radio-helpers';
+import { program } from 'commander';
+import gpsDistance from 'gps-distance';
+import { checkCoordinates, splitCoordinates } from '@helpers/helpers';
 
 const log: (...msg: any[]) => void = createLog('Make Chirp');
 
-const chirp: Chirp = {
-  Location: null as any,
-  Name: '',
-  Frequency: null as any,
-  Duplex: '',
-  Offset: null as any,
-  Tone: '',
-  rToneFreq: null as any,
-  cToneFreq: null as any,
-  DtcsCode: null as any,
-  DtcsRxCode: null as any,
-  DtcsPolarity: 'NN',
-  Mode: 'FM',
-  TStep: 5,
-  Comment: '',
-};
+// const homePoint: Point = [39.627071500, -104.893322500]; // 4982 S Ulster St
+// const DenverPoint: Point = [39.742043, -104.991531];
+// const ColoradoSpringsPoint: Point = [38.846127, -104.800644];
 
-const myPoint: Point = [39.627071500, -104.893322500]; // 4982 S Ulster St
-// const myPoint: Point = [39.742043, -104.991531]; // Denver
+log('Program Setup');
 
-async function doIt(inFileName: string, outFileName: string): Promise<void> {
-  const simplex: RepeaterStructured[] =
-    JSON.parse((await readFileAsync('../data/frequencies.json')).toString())
-      .map((map: SimplexFrequency) =>
-        ({ Callsign: map.Name, Frequency: { Output: map.Frequency, Input: map.Frequency } }))
-      .filter((filter: RepeaterStructured) => /FM|Voice|Simplex/i.test(filter.Callsign))
-      .filter((filter: RepeaterStructured) => !(/Data|Digital|Packet/i.test(filter.Callsign)));
-
-  const repeaters: RepeaterStructured[] =
-    JSON.parse((await readFileAsync(inFileName)).toString());
-
-  repeaters.forEach((each: RepeaterStructured) => {
-    each.Location.Distance = gpsDistance([myPoint, [each.Location.Latitude, each.Location.Longitude]]);
+program
+  .version('0.0.1')
+  .arguments('<location> <name>')
+  .action(async (location: string, name: string): Promise<void> => {
+    log('Program Action', location, name);
+    if (location) {
+      const latLong: gpsDistance.Point = splitCoordinates(location);
+      if (checkCoordinates(latLong)) {
+        await doIt(latLong, `../data/repeaters/chirp/${ name }`);
+      }
+    }
   });
 
-  repeaters.sort((a: RepeaterStructured, b: RepeaterStructured) =>
-    a.Location.Distance! > b.Location.Distance! ? 1 :
-      a.Location.Distance! < b.Location.Distance! ? -1 : 0);
-  const unique: { [key: string]: boolean } = {};
+log('Program Parse Args');
+
+program.parse(process.argv);
+
+async function doIt(location: gpsDistance.Point, outFileName: string): Promise<void> {
+  const simplex: RepeaterStructured[] = await loadSimplex(/FM/i);
+  const repeaters: RepeaterStructured[] = await loadRepeaters(location);
+
   const mapped: Chirp[] = [
-    ...simplex,
+    ...simplex
+      .filter(filterFrequencies(
+        FrequencyBand.$2_m,
+        FrequencyBand.$1_25_m,
+        FrequencyBand.$70_cm,
+      )),
     ...repeaters
-      .filter((filter: RepeaterStructured) =>
-        (filter.Frequency.Output >= 144 && filter.Frequency.Output <= 148) ||
-        (filter.Frequency.Output >= 222 && filter.Frequency.Output <= 225) ||
-        (filter.Frequency.Output >= 420 && filter.Frequency.Output <= 450))
-      .filter((filter: RepeaterStructured) =>
-        !filter.Digital &&
-        filter.Status !== RepeaterStatus.OffAir &&
-        filter.Use === RepeaterUse.Open),
+      .filter(filterFrequencies(
+        FrequencyBand.$2_m,
+        FrequencyBand.$1_25_m,
+        FrequencyBand.$70_cm,
+      ))
+      .filter(filterMode(Mode.FM)),
   ]
-    .map((map: RepeaterStructured, index: number): Chirp => ({ ...convertToRadio(map), Location: index }))
-    .filter((filter) => {
-      if (unique[filter.Name]) {
-        return false;
-      }
-      unique[filter.Name] = true;
-      return true;
-    });
+    .map((map: RepeaterStructured): Chirp => convertToRadio(map));
 
-  const short: Chirp[] = mapped
-    .slice(0, 128)
-    // .sort((a: Chirp, b: Chirp) => a.Frequency - b.Frequency)
+  await saveSubset(mapped, 127, `${outFileName}-127`);
+  await saveSubset(mapped, 199, `${outFileName}-199`);
+}
+
+async function saveSubset(mapped: Chirp[], length: number, fileName: string): Promise<void> {
+  const subset: Chirp[] = mapped.slice(0, length);
+
+  const simplexChirp: Chirp[] = subset
+    .filter((filter: Chirp): boolean => filter.Duplex === ChirpDuplex.Simplex && filter.Tone === ChirpToneMode.None);
+
+  const duplexChirp: Chirp[] = subset
+    .filter((filter: Chirp): boolean => filter.Duplex !== ChirpDuplex.Simplex || filter.Tone !== ChirpToneMode.None)
+    .sort((a: Chirp, b: Chirp): number => a.Name > b.Name ? 1 : a.Name < b.Name ? - 1 : 0);
+
+  const recombine: Chirp[] = [...simplexChirp, ...duplexChirp]
     .map((map: Chirp, index: number): Chirp => ({ ...map, Location: index }));
 
-  const long: Chirp[] = mapped
-    .slice(0, 200)
-    // .sort((a: Chirp, b: Chirp) => a.Frequency - b.Frequency)
-    .map((map: Chirp, index: number): Chirp => ({ ...map, Location: index }));
-
-  await writeToJsonAndCsv(outFileName + '-short', short);
-  await writeToJsonAndCsv(outFileName + '-long', long);
+  return writeToCsv(fileName, recombine);
 }
 
 function convertToRadio(repeater: RepeaterStructured): Chirp {
-  let Name: string = '';
-
-  if (repeater.Callsign) {
-    Name += repeater.Callsign.trim();
-  }
-
-  if (repeater.Location && repeater.Location.Local) {
-    Name += (Name ? ' ' : '') + repeater.Location.Local.trim();
-  }
-
-  if (repeater.Frequency && repeater.Frequency.Output) {
-    Name += (Name ? ' ' : '') + repeater.Frequency.Output.toString().trim();
-  }
-
-  Name = Name.replace(/[^0-9.a-zA-Z \/]/g, '').trim();
-  Name = Name.replace(/[ ]+/g, ' ').trim();
-  Name = Name.substr(0, 8).trim();
-
-  const Frequency: number = repeater.Frequency.Output;
-  let Offset: number = repeater.Frequency.Input - repeater.Frequency.Output;
-  const Duplex: ChirpDuplex = Offset > 0 ? '+' : Offset < 0 ? '-' : '';
-  Offset = Math.abs(Math.round(Offset * 100) / 100);
-  let rToneFreq: number | undefined = (repeater.SquelchTone && repeater.SquelchTone.Input);
-  let cToneFreq: number | undefined = (repeater.SquelchTone && repeater.SquelchTone.Output);
-  let DtcsCode: number | undefined = (repeater.DigitalTone && repeater.DigitalTone.Input);
-  let DtcsRxCode: number | undefined = (repeater.DigitalTone && repeater.DigitalTone.Output);
-  let Tone: ChirpTone = '';
-  const Mode: ChirpMode = 'FM';
-  let Comment: string = `${repeater.StateID} ${repeater.ID} ${repeater.Location && repeater.Location.Distance && repeater.Location.Distance.toFixed(2)} ${repeater.Location && repeater.Location.State} ${repeater.Location && repeater.Location.County} ${repeater.Location && repeater.Location.Local} ${repeater.Callsign}`;
-  Comment = Comment.replace(/undefined/g, ' ').replace(/\s+/g, ' ').trim();
-  // `${item["ST/PR"] || ""} ${item.County || ""} ${item.Location || ""} ${item.Call || ""} ${item.Sponsor || ""} ${item.Affiliate || ""} ${item.Frequency} ${item.Use || ""} ${item["Op Status"] || ""} ${item.Comment || ""}`.replace(/\s+/g, " ");
-  // Comment = Comment.trim().replace(",", "").substring(0, 31).trim();
-
-  if (rToneFreq) {
-    Tone = 'Tone';
-  } else if (DtcsCode) {
-    Tone = 'DTCS';
-  }
-
-  // if (cToneFreq) {
-  //   Tone = "TSQL";
-  // } else if (DtcsRxCode) {
-  //   Tone = "DTCS";
-  // }
-
-  // if ((rToneFreq && cToneFreq && (rToneFreq !== cToneFreq))) {
-  //   Tone = "Cross";
-  // }
-
-  cToneFreq = cToneFreq || 88.5;
-  rToneFreq = rToneFreq || 88.5;
-  DtcsCode = DtcsCode || 23;
-  DtcsRxCode = DtcsRxCode || 23;
-
-// log(chalk.green("Made Row"), row);
-  return {
-    ...chirp,
-// Location,
+  const {
     Name,
-    Frequency,
-    Duplex,
-    Offset,
-    rToneFreq,
-    cToneFreq,
-    DtcsCode,
-    DtcsRxCode,
-    Tone,
-    Mode,
+    Receive,
+    Transmit,
+    OffsetFrequency,
+    TransmitSquelchTone,
+    ReceiveSquelchTone,
+    TransmitDigitalTone,
+    ReceiveDigitalTone,
     Comment,
-  };
+  }: RadioCommon = radioCommon(repeater);
+
+  let ToneMode: ChirpToneMode = ChirpToneMode.None;
+
+  if (TransmitSquelchTone) {
+    ToneMode = ChirpToneMode.Tone; // "TONE ENC";
+  } else if (TransmitDigitalTone) {
+    ToneMode = ChirpToneMode.DTCS; // "DCS";
+  }
+
+  if (TransmitSquelchTone && ReceiveSquelchTone) {
+    if (TransmitSquelchTone === ReceiveSquelchTone) {
+      ToneMode = ChirpToneMode.T_Sql; // "TONE SQL";
+    } else {
+      ToneMode = ChirpToneMode.Cross;
+    }
+  } else if (TransmitDigitalTone && ReceiveDigitalTone && TransmitDigitalTone === ReceiveDigitalTone) {
+    if (TransmitDigitalTone === ReceiveDigitalTone) {
+      ToneMode = ChirpToneMode.DTCS; // "TONE SQL";
+    } else {
+      ToneMode = ChirpToneMode.Cross;
+    }
+  }
+
+  const CTCSS: number = TransmitSquelchTone || 100;
+  const Rx_CTCSS: number = ReceiveSquelchTone || TransmitSquelchTone || 100;
+  const DCS: number = parseInt(buildDCS(TransmitDigitalTone), 10);
+  const Rx_DCS: number = parseInt(buildDCS(ReceiveDigitalTone || TransmitDigitalTone), 10);
+
+  return new Chirp({
+    Name,
+    Frequency: Receive,
+    Duplex: convertOffsetDirection(OffsetFrequency),
+    Offset: Math.round(Math.abs(Transmit - Receive) * 10) / 10,
+    Tone: ToneMode,
+    rToneFreq: CTCSS,
+    cToneFreq: Rx_CTCSS,
+    DtcsCode: DCS,
+    DtcsRxCode: Rx_DCS,
+    Comment,
+  });
 }
 
-async function start(): Promise<void> {
-// const coFiles = (await readdirAsync("./repeaters/data/CO/")).map((f) => `../data/CO/${f}`);
-// const utFiles = (await readdirAsync("./repeaters/data/UT/")).map((f) => `../data/UT/${f}`);
-// const nmFiles = (await readdirAsync("./repeaters/data/NM/")).map((f) => `../data/NM/${f}`);
-// const coGroups = (await readdirAsync("./repeaters/groups/CO/")).map((f) => `groups/CO/${f}`);
-// const utGroups = (await readdirAsync("./repeaters/groups/UT/")).map((f) => `groups/UT/${f}`);
-// const nmGroups = (await readdirAsync("./repeaters/groups/NM/")).map((f) => `groups/NM/${f}`);
-// const allFiles = [...coFiles, ...utFiles, ...nmFiles, ...coGroups, ...utGroups, ...nmGroups].filter((f) => /\.json$/.test(f)).map((f) => f.replace(".json", ""));
-// for (const file of allFiles) {
-//   await doIt(file);
-// }
-
-// await doIt("data/repeaters/groups/CO/Colorado Springs - Call.json", "data/repeaters/chirp/groups/CO/Colorado Springs - Call");
-// await doIt("data/repeaters/results/CO/Colorado Springs.json", "data/repeaters/chirp/CO/Colorado Springs");
-  await doIt('../data/repeaters/converted/CO.json', '../data/repeaters/chirp/CO');
-  // await doIt("../data/repeaters/groups/combined/CO - Call.json", "../data/repeaters/chirp/groups/CO - Call");
+function convertOffsetDirection(OffsetFrequency: number): ChirpDuplex {
+  if (OffsetFrequency === 0) {
+    return ChirpDuplex.Simplex;
+  } else if (OffsetFrequency < 0) {
+    return ChirpDuplex.Minus;
+  } else if (OffsetFrequency > 0) {
+    return ChirpDuplex.Plus;
+  }
+  log(chalk.red('ERROR'), 'convertOffsetDirection', 'unknown', OffsetFrequency);
+  return ChirpDuplex.Simplex;
 }
-
-export default start();

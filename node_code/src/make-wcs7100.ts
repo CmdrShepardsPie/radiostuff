@@ -15,15 +15,16 @@ import {
   buildDCS, convertOffsetFrequency,
   filterFrequencies,
   filterMode,
-  FrequencyBand, IRtSystemsCommon,
+  FrequencyBand, RadioCommon,
   loadRepeaters,
   loadSimplex,
-  Mode, rtSystemsCommon
+  Mode, radioCommon
 } from '@helpers/radio-helpers';
 import { program } from 'commander';
 import gpsDistance from 'gps-distance';
 import { checkCoordinates, splitCoordinates } from '@helpers/helpers';
 import { RtSystemsCtcssTone, RtSystemsDcsTone } from '@interfaces/rt-systems';
+import { Adms400, Adms400OffsetDirection, Adms400ToneMode } from '@interfaces/adms400';
 
 const log: (...msg: any[]) => void = createLog('Make Wcs7100');
 
@@ -94,28 +95,30 @@ async function doIt(location: gpsDistance.Point, outFileName: string): Promise<v
     .map((map: RepeaterStructured, index: number): Wcs7100 => ({ ...convertToRadio(map), 'Channel Number': index + 1 }));
 
   const simplexWcs7100: Wcs7100[] = mapped
-    .filter((filter: Wcs7100): boolean => filter['Offset Direction'] === Wcs7100OffsetDirection.Simplex && filter['Tone Mode'] === Wcs7100ToneMode.None)
-    .slice(0, 99)
-    .map((map: Wcs7100, index: number): Wcs7100 => ({ ...map, 'Channel Number': index + 1 }));
+    .filter((filter: Wcs7100): boolean => filter['Offset Direction'] === Wcs7100OffsetDirection.Simplex && filter['Tone Mode'] === Wcs7100ToneMode.None);
 
   const duplexWcs7100: Wcs7100[] = mapped
-    .filter((filter: Wcs7100): boolean => filter['Offset Direction'] !== Wcs7100OffsetDirection.Simplex || filter['Tone Mode'] !== Wcs7100ToneMode.None);
+    .filter((filter: Wcs7100): boolean => filter['Offset Direction'] !== Wcs7100OffsetDirection.Simplex || filter['Tone Mode'] !== Wcs7100ToneMode.None)
+    .sort((a: Wcs7100, b: Wcs7100): number => a.Name > b.Name ? 1 : a.Name < b.Name ? - 1 : 0);
 
+  // const recombine: Wcs7100[] = [...simplexWcs7100, ...duplexWcs7100]
+  //   .map((map: Wcs7100, index: number): Wcs7100 => ({ ...map, 'Channel Number': index + 1 }));
+
+  const A: Wcs7100[] = simplexWcs7100
+    .slice(0, 99)
+    .map((map: Wcs7100, index: number): Wcs7100 => ({ ...map, 'Channel Number': index + 1 }));
   const B: Wcs7100[] = duplexWcs7100
     .slice(0, 99)
-    .sort((a: Wcs7100, b: Wcs7100): number => a.Name > b.Name ? 1 : a.Name < b.Name ? - 1 : 0)
     .map((map: Wcs7100, index: number): Wcs7100 => ({ ...map, 'Channel Number': index + 1 }));
   const C: Wcs7100[] = duplexWcs7100
     .slice(99, 198)
-    .sort((a: Wcs7100, b: Wcs7100): number => a.Name > b.Name ? 1 : a.Name < b.Name ? - 1 : 0)
     .map((map: Wcs7100, index: number): Wcs7100 => ({ ...map, 'Channel Number': index + 1 }));
   const D: Wcs7100[] = duplexWcs7100
     .slice(198, 297)
-    .sort((a: Wcs7100, b: Wcs7100): number => a.Name > b.Name ? 1 : a.Name < b.Name ? - 1 : 0)
     .map((map: Wcs7100, index: number): Wcs7100 => ({ ...map, 'Channel Number': index + 1 }));
   const E: Wcs7100[] = duplexWcs7100
     .slice(297, 396)
-    .sort((a: Wcs7100, b: Wcs7100): number => a.Name > b.Name ? 1 : a.Name < b.Name ? - 1 : 0)
+
     .map((map: Wcs7100, index: number): Wcs7100 => ({ ...map, 'Channel Number': index + 1 }));
 
   promises.push(writeToCsv(`${outFileName}-A`, simplexWcs7100));
@@ -138,7 +141,7 @@ function convertToRadio(repeater: RepeaterStructured): Wcs7100 {
     TransmitDigitalTone,
     ReceiveDigitalTone,
     Comment,
-  }: IRtSystemsCommon = rtSystemsCommon(repeater);
+  }: RadioCommon = radioCommon(repeater);
 
   let OperatingMode: Wcs7100OperatingMode = Wcs7100OperatingMode.FM; // (repeater.Digital && repeater.Digital.DStar && repeater.Digital.DStar.Node) ? Wcs7100OperatingMode.DV : Wcs7100OperatingMode.FM;
   let YourCallSign: Wcs7100YourCallsign = Wcs7100YourCallsign.None; // OperatingMode === Wcs7100OperatingMode.DV ? Wcs7100YourCallsign.CQCQCQ : Wcs7100YourCallsign.None;
@@ -185,7 +188,7 @@ function convertToRadio(repeater: RepeaterStructured): Wcs7100 {
   }
 
   const CTCSS: RtSystemsCtcssTone = ((TransmitSquelchTone || 100).toFixed(1) + ' Hz') as RtSystemsCtcssTone;
-  const Rx_CTCSS: RtSystemsCtcssTone = ((ReceiveSquelchTone || 100).toFixed(1) + ' Hz') as RtSystemsCtcssTone;
+  const Rx_CTCSS: RtSystemsCtcssTone = ((ReceiveSquelchTone || TransmitSquelchTone || 100).toFixed(1) + ' Hz') as RtSystemsCtcssTone;
   const DCS: RtSystemsDcsTone = buildDCS(TransmitDigitalTone) as RtSystemsDcsTone;
 
   return new Wcs7100({

@@ -56,7 +56,7 @@ var __importDefault = (this && this.__importDefault) || function (mod) {
         return fs_helpers_1.writeToCsv(outFileName, mapped, false);
     }
     function convertToRadio(repeater) {
-        const { Name, TransmitSquelchTone, ReceiveSquelchTone, TransmitDigitalTone, ReceiveDigitalTone, Comment, } = radio_helpers_1.rtSystemsCommon(repeater);
+        const { Name, TransmitSquelchTone, ReceiveSquelchTone, TransmitDigitalTone, ReceiveDigitalTone, Comment, } = radio_helpers_1.radioCommon(repeater);
         const Receive = repeater.Frequency.Output.toFixed(5);
         const Transmit = repeater.Frequency.Input.toFixed(5);
         const OffsetFrequency = repeater.Frequency.Input - repeater.Frequency.Output;

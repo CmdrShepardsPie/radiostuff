@@ -30,7 +30,7 @@ export enum Mode {
   YSF,
 }
 
-export interface IRtSystemsCommon {
+export interface RadioCommon {
   TransmitSquelchTone: number | undefined;
   TransmitDigitalTone: number | undefined;
   Comment: string;
@@ -183,7 +183,7 @@ export async function loadRepeaters(location: gpsDistance.Point): Promise<Repeat
   );
 }
 
-export function rtSystemsCommon(repeater: RepeaterStructured): IRtSystemsCommon {
+export function radioCommon(repeater: RepeaterStructured): RadioCommon {
   const Name: string = `${buildName(repeater)}`;
   const Receive: number = repeater.Frequency.Output;
   const Transmit: number = repeater.Frequency.Input;
