@@ -63,8 +63,8 @@ async function doIt(location: gpsDistance.Point, outFileName: string): Promise<v
   ]
     .map((map: RepeaterStructured): Chirp => convertToRadio(map));
 
-  await saveSubset(mapped, 127, `${outFileName}-127`);
-  await saveSubset(mapped, 199, `${outFileName}-199`);
+  await saveSubset(mapped, 128, `${outFileName}-128`);
+  await saveSubset(mapped, 200, `${outFileName}-200`);
 }
 
 async function saveSubset(mapped: Chirp[], length: number, fileName: string): Promise<void> {

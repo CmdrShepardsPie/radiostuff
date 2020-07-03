@@ -110,19 +110,20 @@ Location,Name,Frequency,Duplex,Offset,Tone,rToneFreq,cToneFreq,DtcsCode,DtcsRxCo
 108,W0DK,448.9,-,5,Tone,100,100,23,23,NN,FM,5,8 10 51.00 CO Boulder Boulder Table Mesa W0DK
 109,W0GV,448.975,-,5,Tone,123,123,23,23,NN,FM,5,8 137 31.00 CO Jefferson Golden W0GV
 110,W0IA,146.76,-,0.6,Tone,100,100,23,23,NN,FM,5,8 16 53.00 CO Boulder Boulder Gunbarrel Hill W0IA
-111,W0JRL,447.175,-,5,TSQL,100,100,23,23,NN,FM,5,8 12216 16.00 CO Denver Denver Broadway Plaza Lofts W0JRL
-112,W0KIZ,448.55,-,5,Tone,82.5,82.5,23,23,NN,FM,5,8 93 15.00 CO Denver Denver W0KIZ
-113,W0LMA,448.925,-,5,Tone,131.8,131.8,23,23,NN,FM,5,8 26 37.00 CO Boulder Broomfield W0LMA
-114,W0TX,147.33,+,0.6,Tone,100,100,23,23,NN,FM,5,8 85 22.00 CO Jefferson Lakewood Green Mountain W0TX
-115,W0TX,224.38,-,1.6,TSQL,100,100,23,23,NN,FM,5,8 267 22.00 CO Jefferson Lakewood Green Mountain W0TX
-116,W0TX,447.825,-,5,DTCS,100,100,73,73,NN,FM,5,8 5805 23.00 CO Jefferson Lakewood St Anthony Medical Campus W0TX
-117,W0TX,448.625,-,5,TSQL,100,100,23,23,NN,FM,5,8 112 42.00 CO Jefferson Golden Centennial Cone W0TX
-118,W0TX,145.49,-,0.6,TSQL,100,100,23,23,NN,FM,5,8 76 52.00 CO Jefferson Idaho Springs Centennial Cone W0TX
-119,W0TX,449.35,-,5,TSQL,100,100,23,23,NN,FM,5,8 98 52.00 CO Clear Creek Idaho Springs Squaw Mountain W0TX
-120,W0WYX,449.825,-,5,Tone,103.5,103.5,23,23,NN,FM,5,8 266 37.00 CO Boulder Broomfield W0WYX
-121,W0WYX,146.94,-,0.6,TSQL,103.5,103.5,23,23,NN,FM,5,8 81 52.00 CO Clear Creek Idaho Springs Squaw Mountain W0WYX
-122,W9SL,449.95,-,5,TSQL,77,77,23,23,NN,FM,5,8 8743 13.00 CO Arapahoe Aurora W9SL
-123,WB0TPT,447.9,-,5,,100,100,23,23,NN,FM,5,8 8195 15.00 CO Denver Denver WB0TPT
-124,WE0FUN,448.15,-,5,TSQL,141.3,141.3,23,23,NN,FM,5,8 9765 23.00 CO Denver Denver Green Valley Ranch WE0FUN
-125,WQ8M,448.7,-,5,Tone,146.2,146.2,23,23,NN,FM,5,8 274 11.00 CO Douglas Parker WQ8M
-126,WR0AEN,449,-,5,TSQL,136.5,136.5,23,23,NN,FM,5,8 8250 50.00 CO Clear Creek Idaho Springs Squaw Mountain WR0AEN
+111,W0IA,449.55,-,5,Tone,100,100,23,23,NN,FM,5,8 11 54.00 CO Boulder Boulder W0IA
+112,W0JRL,447.175,-,5,TSQL,100,100,23,23,NN,FM,5,8 12216 16.00 CO Denver Denver Broadway Plaza Lofts W0JRL
+113,W0KIZ,448.55,-,5,Tone,82.5,82.5,23,23,NN,FM,5,8 93 15.00 CO Denver Denver W0KIZ
+114,W0LMA,448.925,-,5,Tone,131.8,131.8,23,23,NN,FM,5,8 26 37.00 CO Boulder Broomfield W0LMA
+115,W0TX,147.33,+,0.6,Tone,100,100,23,23,NN,FM,5,8 85 22.00 CO Jefferson Lakewood Green Mountain W0TX
+116,W0TX,224.38,-,1.6,TSQL,100,100,23,23,NN,FM,5,8 267 22.00 CO Jefferson Lakewood Green Mountain W0TX
+117,W0TX,447.825,-,5,DTCS,100,100,73,73,NN,FM,5,8 5805 23.00 CO Jefferson Lakewood St Anthony Medical Campus W0TX
+118,W0TX,448.625,-,5,TSQL,100,100,23,23,NN,FM,5,8 112 42.00 CO Jefferson Golden Centennial Cone W0TX
+119,W0TX,145.49,-,0.6,TSQL,100,100,23,23,NN,FM,5,8 76 52.00 CO Jefferson Idaho Springs Centennial Cone W0TX
+120,W0TX,449.35,-,5,TSQL,100,100,23,23,NN,FM,5,8 98 52.00 CO Clear Creek Idaho Springs Squaw Mountain W0TX
+121,W0WYX,449.825,-,5,Tone,103.5,103.5,23,23,NN,FM,5,8 266 37.00 CO Boulder Broomfield W0WYX
+122,W0WYX,146.94,-,0.6,TSQL,103.5,103.5,23,23,NN,FM,5,8 81 52.00 CO Clear Creek Idaho Springs Squaw Mountain W0WYX
+123,W9SL,449.95,-,5,TSQL,77,77,23,23,NN,FM,5,8 8743 13.00 CO Arapahoe Aurora W9SL
+124,WB0TPT,447.9,-,5,,100,100,23,23,NN,FM,5,8 8195 15.00 CO Denver Denver WB0TPT
+125,WE0FUN,448.15,-,5,TSQL,141.3,141.3,23,23,NN,FM,5,8 9765 23.00 CO Denver Denver Green Valley Ranch WE0FUN
+126,WQ8M,448.7,-,5,Tone,146.2,146.2,23,23,NN,FM,5,8 274 11.00 CO Douglas Parker WQ8M
+127,WR0AEN,449,-,5,TSQL,136.5,136.5,23,23,NN,FM,5,8 8250 50.00 CO Clear Creek Idaho Springs Squaw Mountain WR0AEN

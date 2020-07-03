@@ -50,8 +50,8 @@ var __importDefault = (this && this.__importDefault) || function (mod) {
                 .filter(radio_helpers_1.filterMode(radio_helpers_1.Mode.FM)),
         ]
             .map((map) => convertToRadio(map));
-        await saveSubset(mapped, 127, `${outFileName}-127`);
-        await saveSubset(mapped, 199, `${outFileName}-199`);
+        await saveSubset(mapped, 128, `${outFileName}-128`);
+        await saveSubset(mapped, 200, `${outFileName}-200`);
     }
     async function saveSubset(mapped, length, fileName) {
         const subset = mapped.slice(0, length);
