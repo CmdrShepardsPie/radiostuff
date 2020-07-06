@@ -24,6 +24,7 @@ Frequency,Name
 7.04,RTTY DX
 7.24,SSB
 7.29,AM Calling
+14.172,SSB
 14.265,SSB
 14.286,AM Calling
 29.6,FM Simplex
@@ -37,7 +38,7 @@ Frequency,Name
 51.5875,FM Simplex
 52.02,FM Simplex
 52.04,FM Simplex
-52.525,FM Simplex
+52.525,FM Calling
 52.54,FM Simplex
 53.02,FM Simplex
 53.52,FM Simplex
