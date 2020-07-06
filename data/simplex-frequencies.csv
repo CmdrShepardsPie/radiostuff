@@ -26,7 +26,7 @@ Frequency,Name
 7.29,AM Calling
 14.265,SSB
 14.286,AM Calling
-29.6,FM Simplex
+29.6,FM Calling
 50.125,SSB Calling
 51.5125,FM Simplex
 51.525,FM Simplex
@@ -37,14 +37,15 @@ Frequency,Name
 51.5875,FM Simplex
 52.02,FM Simplex
 52.04,FM Simplex
-52.525,FM Simplex
-52.54,FM Simplex
+52.525,FM Calling Primary
+52.54,FM Calling Secondary
 53.02,FM Simplex
 53.52,FM Simplex
 53.9,FM Simplex
 144.2,SSB Calling
 145.5625,Fusion Simplex
 145.67,D-Star Simplex
+145.8,FM ISS Voice
 146.4,FM Simplex
 146.415,FM Simplex
 146.43,FM Simplex
@@ -78,6 +79,7 @@ Frequency,Name
 223.44,FM Simplex
 223.46,FM Simplex
 223.48,FM Simplex
+223.5,FM Calling
 223.5,FM Calling
 223.52,FM Simplex
 432.1,SSB Calling
@@ -117,6 +119,7 @@ Frequency,Name
 445.925,FM Simplex
 445.95,FM Simplex
 445.975,FM Simplex
+446,FM Calling
 446,FM Calling
 446.025,FM Simplex
 446.05,FM Simplex
