@@ -24,7 +24,7 @@
             this.CTCSS = rt_systems_1.RtSystemsCtcssTone.$100_Hz;
             this.DCS = rt_systems_1.RtSystemsDcsTone.$23;
             this.UserCTCSS = rt_systems_1.RtSystemsUserCtcss.$1500_Hz;
-            this.Power = Adms7TxPower.Low;
+            this.Power = Adms7TxPower.High;
             this.Skip = Adms7Skip.Off;
             this.Step = Adms7Step.$5_khz;
             this.ClockShift = Adms7ClockShift.Off;

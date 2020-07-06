@@ -19,6 +19,7 @@ import { program } from 'commander';
 import gpsDistance from 'gps-distance';
 import { RtSystemsCtcssTone, RtSystemsDcsTone } from '@interfaces/rt-systems';
 import { checkCoordinates, splitCoordinates } from '@helpers/helpers';
+import { Chirp } from '@interfaces/chirp';
 
 const log: (...msg: any[]) => void = createLog('Make Adms400');
 
@@ -46,7 +47,7 @@ log('Program Parse Args');
 program.parse(process.argv);
 
 async function doIt(location: gpsDistance.Point, outFileName: string): Promise<void> {
-  const simplex: RepeaterStructured[] = await loadSimplex(/FM|Digital|Mixed|Fusion/i);
+  const simplex: RepeaterStructured[] = await loadSimplex(/FM|(Digital Simplex)|Mixed|Fusion/i);
   const repeaters: RepeaterStructured[] = await loadRepeaters(location);
 
   const mapped: Adms400[] = [
@@ -70,6 +71,7 @@ async function doIt(location: gpsDistance.Point, outFileName: string): Promise<v
 
   const duplexAdms400: Adms400[] = mapped
     .filter((filter: Adms400): boolean => filter['Offset Direction'] !== Adms400OffsetDirection.Simplex || filter['Tone Mode'] !== Adms400ToneMode.None)
+    .sort((a: Adms400, b: Adms400): number => a['Receive Frequency'] - b['Receive Frequency'])
     .sort((a: Adms400, b: Adms400): number => a.Name > b.Name ? 1 : a.Name < b.Name ? - 1 : 0);
 
   const recombine: Adms400[] = [...simplexAdms400, ...duplexAdms400]

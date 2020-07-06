@@ -40,7 +40,7 @@ var __importDefault = (this && this.__importDefault) || function (mod) {
     log('Program Parse Args');
     commander_1.program.parse(process.argv);
     async function doIt(location, outFileName) {
-        const simplex = await radio_helpers_1.loadSimplex(/FM|Digital|Mixed|Fusion/i);
+        const simplex = await radio_helpers_1.loadSimplex(/FM|(Digital Simplex)|Mixed|Fusion/i);
         const repeaters = await radio_helpers_1.loadRepeaters(location);
         const mapped = [
             ...simplex
@@ -55,6 +55,7 @@ var __importDefault = (this && this.__importDefault) || function (mod) {
             .filter((filter) => filter['Offset Direction'] === adms400_1.Adms400OffsetDirection.Simplex && filter['Tone Mode'] === adms400_1.Adms400ToneMode.None);
         const duplexAdms400 = mapped
             .filter((filter) => filter['Offset Direction'] !== adms400_1.Adms400OffsetDirection.Simplex || filter['Tone Mode'] !== adms400_1.Adms400ToneMode.None)
+            .sort((a, b) => a['Receive Frequency'] - b['Receive Frequency'])
             .sort((a, b) => a.Name > b.Name ? 1 : a.Name < b.Name ? -1 : 0);
         const recombine = [...simplexAdms400, ...duplexAdms400]
             .map((map, index) => ({ ...map, 'Channel Number': index + 1 }));

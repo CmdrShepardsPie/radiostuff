@@ -75,6 +75,7 @@ async function saveSubset(mapped: Chirp[], length: number, fileName: string): Pr
 
   const duplexChirp: Chirp[] = subset
     .filter((filter: Chirp): boolean => filter.Duplex !== ChirpDuplex.Simplex || filter.Tone !== ChirpToneMode.None)
+    .sort((a: Chirp, b: Chirp): number => a.Frequency - b.Frequency)
     .sort((a: Chirp, b: Chirp): number => a.Name > b.Name ? 1 : a.Name < b.Name ? - 1 : 0);
 
   const recombine: Chirp[] = [...simplexChirp, ...duplexChirp]

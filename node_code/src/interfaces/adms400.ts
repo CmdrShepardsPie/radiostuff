@@ -35,7 +35,7 @@ export class Adms400 implements IAdms400 {
   'Tone Mode': Adms400ToneMode = Adms400ToneMode.None;
   CTCSS: RtSystemsCtcssTone = RtSystemsCtcssTone.$100_Hz;
   DCS: RtSystemsDcsTone = RtSystemsDcsTone.$23;
-  'Tx Power': Adms400TxPower = Adms400TxPower.Low;
+  'Tx Power': Adms400TxPower = Adms400TxPower.High;
   Skip: Adms400Skip = Adms400Skip.Off;
   Step: Adms400Step = Adms400Step.Auto;
   'Clock Shift': Adms400ClockShift = Adms400ClockShift.Off;

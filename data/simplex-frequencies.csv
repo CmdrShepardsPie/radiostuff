@@ -24,6 +24,7 @@ Frequency,Name
 7.04,RTTY DX
 7.24,SSB
 7.29,AM Calling
+14.172,SSB
 14.265,SSB
 14.286,AM Calling
 29.6,FM Calling
@@ -43,9 +44,12 @@ Frequency,Name
 53.52,FM Simplex
 53.9,FM Simplex
 144.2,SSB Calling
+144.49,ISS FM Voice Uplink
 145.5625,Fusion Simplex
 145.67,D-Star Simplex
-145.8,FM ISS Voice
+145.8,ISS FM Voice and SSTV Downlink
+145.825,ISS Digital Packet Uplink and Downlink
+145.99,ISS FM Repeater Uplink
 146.4,FM Simplex
 146.415,FM Simplex
 146.43,FM Simplex
@@ -83,6 +87,8 @@ Frequency,Name
 223.5,FM Calling
 223.52,FM Simplex
 432.1,SSB Calling
+437.55,ISS Digital Packet Uplink and Downlink
+437.8,ISS FM Repeater Downlink
 440.7,Mixed
 440.725,Mixed
 440.75,Mixed

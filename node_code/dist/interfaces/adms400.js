@@ -24,7 +24,7 @@
             this['Tone Mode'] = Adms400ToneMode.None;
             this.CTCSS = rt_systems_1.RtSystemsCtcssTone.$100_Hz;
             this.DCS = rt_systems_1.RtSystemsDcsTone.$23;
-            this['Tx Power'] = Adms400TxPower.Low;
+            this['Tx Power'] = Adms400TxPower.High;
             this.Skip = Adms400Skip.Off;
             this.Step = Adms400Step.Auto;
             this['Clock Shift'] = Adms400ClockShift.Off;

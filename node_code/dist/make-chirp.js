@@ -59,6 +59,7 @@ var __importDefault = (this && this.__importDefault) || function (mod) {
             .filter((filter) => filter.Duplex === chirp_1.ChirpDuplex.Simplex && filter.Tone === chirp_1.ChirpToneMode.None);
         const duplexChirp = subset
             .filter((filter) => filter.Duplex !== chirp_1.ChirpDuplex.Simplex || filter.Tone !== chirp_1.ChirpToneMode.None)
+            .sort((a, b) => a.Frequency - b.Frequency)
             .sort((a, b) => a.Name > b.Name ? 1 : a.Name < b.Name ? -1 : 0);
         const recombine = [...simplexChirp, ...duplexChirp]
             .map((map, index) => ({ ...map, Location: index }));

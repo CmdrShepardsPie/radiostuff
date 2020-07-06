@@ -32,7 +32,7 @@ export class Adms7 implements IAdms7 {
   CTCSS: RtSystemsCtcssTone = RtSystemsCtcssTone.$100_Hz;
   DCS: RtSystemsDcsTone = RtSystemsDcsTone.$23;
   UserCTCSS: RtSystemsUserCtcss = RtSystemsUserCtcss.$1500_Hz;
-  Power: Adms7TxPower = Adms7TxPower.Low;
+  Power: Adms7TxPower = Adms7TxPower.High;
   Skip: Adms7Skip = Adms7Skip.Off;
   Step: Adms7Step = Adms7Step.$5_khz;
   ClockShift: Adms7ClockShift = Adms7ClockShift.Off;
