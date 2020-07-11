@@ -5,7 +5,7 @@ import { createLog } from '@helpers/log-helpers';
 import { RepeaterStructured } from '@interfaces/repeater-structured';
 import {
   Adms400,
-  Adms400OffsetDirection,
+  Adms400OffsetDirection, Adms400OperatingMode,
   Adms400ToneMode,
 } from '@interfaces/adms400';
 import chalk from 'chalk';
@@ -20,6 +20,7 @@ import gpsDistance from 'gps-distance';
 import { RtSystemsCtcssTone, RtSystemsDcsTone } from '@interfaces/rt-systems';
 import { checkCoordinates, splitCoordinates } from '@helpers/helpers';
 import { Chirp } from '@interfaces/chirp';
+import { Wcs7100OperatingMode, Wcs7100YourCallsign } from '@interfaces/wcs7100';
 
 const log: (...msg: any[]) => void = createLog('Make Adms400');
 
@@ -47,7 +48,7 @@ log('Program Parse Args');
 program.parse(process.argv);
 
 async function doIt(location: gpsDistance.Point, outFileName: string): Promise<void> {
-  const simplex: RepeaterStructured[] = await loadSimplex(/FM|(Digital Simplex)|Mixed|Fusion/i);
+  const simplex: RepeaterStructured[] = await loadSimplex(/FM|AM|(ISS Uplink)|(ISS Downlink)|(Digital Simplex)|Mixed|Fusion/i);
   const repeaters: RepeaterStructured[] = await loadRepeaters(location);
 
   const mapped: Adms400[] = [
@@ -93,6 +94,12 @@ function convertToRadio(repeater: RepeaterStructured): Adms400 {
     Comment,
   }: RadioCommon = radioCommon(repeater);
 
+  let OperatingMode: Adms400OperatingMode = Adms400OperatingMode.Auto;
+
+  if (/^AM/.test(repeater.Callsign)) {
+    OperatingMode = Adms400OperatingMode.AM;
+  }
+
   let ToneMode: Adms400ToneMode = Adms400ToneMode.None;
 
   if (TransmitSquelchTone) {
@@ -115,6 +122,7 @@ function convertToRadio(repeater: RepeaterStructured): Adms400 {
     'Transmit Frequency': Transmit.toFixed(5) as any,
     'Offset Frequency': convertOffsetFrequency(OffsetFrequency),
     'Offset Direction': convertOffsetDirection(OffsetFrequency),
+    'Operating Mode': OperatingMode,
     Name,
     'Tone Mode': ToneMode,
     CTCSS,

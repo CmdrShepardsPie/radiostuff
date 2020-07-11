@@ -40,7 +40,7 @@ var __importDefault = (this && this.__importDefault) || function (mod) {
     log('Program Parse Args');
     commander_1.program.parse(process.argv);
     async function doIt(location, outFileName) {
-        const simplex = await radio_helpers_1.loadSimplex(/FM|(Digital Simplex)|Mixed|Fusion/i);
+        const simplex = await radio_helpers_1.loadSimplex(/FM|AM|(ISS Uplink)|(ISS Downlink)|(Digital Simplex)|Mixed|Fusion/i);
         const repeaters = await radio_helpers_1.loadRepeaters(location);
         const mapped = [
             ...simplex
@@ -63,6 +63,10 @@ var __importDefault = (this && this.__importDefault) || function (mod) {
     }
     function convertToRadio(repeater) {
         const { Name, Receive, Transmit, OffsetFrequency, TransmitSquelchTone, ReceiveSquelchTone, TransmitDigitalTone, ReceiveDigitalTone, Comment, } = radio_helpers_1.radioCommon(repeater);
+        let OperatingMode = adms400_1.Adms400OperatingMode.Auto;
+        if (/^AM/.test(repeater.Callsign)) {
+            OperatingMode = adms400_1.Adms400OperatingMode.AM;
+        }
         let ToneMode = adms400_1.Adms400ToneMode.None;
         if (TransmitSquelchTone) {
             ToneMode = adms400_1.Adms400ToneMode.Tone; // "TONE ENC";
@@ -83,6 +87,7 @@ var __importDefault = (this && this.__importDefault) || function (mod) {
             'Transmit Frequency': Transmit.toFixed(5),
             'Offset Frequency': radio_helpers_1.convertOffsetFrequency(OffsetFrequency),
             'Offset Direction': convertOffsetDirection(OffsetFrequency),
+            'Operating Mode': OperatingMode,
             Name,
             'Tone Mode': ToneMode,
             CTCSS,
