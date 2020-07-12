@@ -99,7 +99,7 @@ var __importDefault = (this && this.__importDefault) || function (mod) {
                 Name += ' ';
             Name += repeater.Frequency.Output.toString().trim();
         }
-        Name = Name.replace(/\s+/g, ' ').trim();
+        Name = Name.replace(/,\s+/g, ' ').replace(/,\s+/g, ' ').trim();
         Name = Name.substr(0, 20).trim();
         return Name;
     }
