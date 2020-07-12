@@ -8,8 +8,8 @@
   "Use": "OPEN",
   "VOIP": "",
   "DGTL": "D",
-  "Mi": 166.22,
-  "Dir": "SE",
+  "Mi": 145.3,
+  "Dir": "ESE",
   "": "Static Talkgroups: 3108 - Colorado - Slot 1 3740 - REACT - Slot 1 31083 - CO Severe WX - Slot 1",
   "state_id": "08",
   "ID": "18843",
@@ -33,5 +33,6 @@
   "Notes": "CCARC Coordination #: 821 - Repeater is a Motorola MTR2000 with MMDVM Linecard",
   "Nets": "REACT Net Tue 20:30",
   "Web links": "http://www.qrz.com/db/n0lar",
-  "Last update": "2020-05-30"
+  "Coordination": "CCARC",
+  "Last update": "2020-06-12"
 }

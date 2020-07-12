@@ -87,14 +87,22 @@ export function buildName(repeater: RepeaterStructured): string {
   let Name: string = '';
 
   if (repeater.Callsign) {
-    Name += repeater.Callsign.trim();
-  } else if (repeater.Location && repeater.Location.Local) {
+    if (repeater.Location && repeater.Location.Local) {
+      Name += repeater.Callsign.trim().substr(-3);
+    } else {
+      Name += repeater.Callsign.trim();
+    }
+  }
+  if (repeater.Location && repeater.Location.Local) {
+    if (Name) Name += ' ';
     Name += repeater.Location.Local.trim();
-  } else if (repeater.Frequency && repeater.Frequency.Output) {
+  }
+  if (repeater.Frequency && repeater.Frequency.Output) {
+    if (Name) Name += ' ';
     Name += repeater.Frequency.Output.toString().trim();
   }
   Name = Name.replace(/\s+/g, ' ').trim();
-  Name = Name.substr(0, 16).trim();
+  Name = Name.substr(0, 20).trim();
 
   return Name;
 }
@@ -163,7 +171,16 @@ export function sortStructuredRepeaters(repeaters: RepeaterStructured[]): Repeat
 export async function loadSimplex(filterSimplex: RegExp): Promise<RepeaterStructured[]> {
   return (await readFromCsv<SimplexFrequency>('../data/simplex-frequencies.csv'))
     .map((map: SimplexFrequency): RepeaterStructured =>
-      ({ Callsign: map.Name, Frequency: { Output: map.Frequency, Input: map.Frequency } }) as RepeaterStructured)
+      ({
+        Callsign: map.Name,
+        Frequency: {
+          Output: map.Frequency,
+          Input: map.Input || map.Frequency,
+        },
+        ...(map.Tone ? {SquelchTone: {
+          Input: map.Tone
+        }} : {})
+      }) as RepeaterStructured)
     .filter((filter: RepeaterStructured): boolean => filterSimplex.test(filter.Callsign)); // TODO: Make a function and enum
 }
 

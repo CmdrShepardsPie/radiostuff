@@ -8,8 +8,8 @@
   "Use": "OPEN",
   "VOIP": "",
   "DGTL": "D",
-  "Mi": 4.51,
-  "Dir": "SSE",
+  "Mi": 80.37,
+  "Dir": "NNE",
   "": "Colorado Mega Reflector - XLX376 Transcoder - YSF 23160 - WiresX 40895 Welcome to the new and improved Colorado Mega Link! Brought to you by the Parker Radio Association, where we have fun, play radio and keep the squelch loose. Please join us Monday nights at 8pm mountain time our our digital net.",
   "state_id": "08",
   "ID": "17676",
@@ -17,9 +17,6 @@
   "Longitude": -104.8769989,
   "Downlink": 147.315,
   "Uplink": 147.915,
-  "D-STAR Enabled": true,
-  "Node": "N0KEG (C) Repeater",
-  "Sources": "jfindu lookup / dstar-users lookup",
   "DMR Enabled": true,
   "Color Code": 1,
   "DMR ID": 310759,
@@ -32,5 +29,5 @@
   "Affiliate": "Parker Radio Association",
   "Nets": "Monday 8pm. Colorado Link Digital Net. Repeater is used in DSTAR mode for this net.",
   "Web links": "https://www.parkerradio.org",
-  "Last update": "2019-11-27"
+  "Last update": "2020-06-13"
 }

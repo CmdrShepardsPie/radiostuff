@@ -40,7 +40,7 @@ var __importDefault = (this && this.__importDefault) || function (mod) {
     log('Program Parse Args');
     commander_1.program.parse(process.argv);
     async function doIt(location, outFileName) {
-        const simplex = await radio_helpers_1.loadSimplex(/FM|AM|(ISS Uplink)|(ISS Downlink)|(Digital Simplex)|Mixed|Fusion/i);
+        const simplex = await radio_helpers_1.loadSimplex(/FM|AM|ISS|Digital|Fusion/i);
         const repeaters = await radio_helpers_1.loadRepeaters(location);
         const mapped = [
             ...simplex

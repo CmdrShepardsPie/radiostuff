@@ -8,15 +8,15 @@
   "Use": "OPEN",
   "VOIP": "W",
   "DGTL": "Y",
-  "Mi": 86.03,
-  "Dir": "SE",
+  "Mi": 102.9,
+  "Dir": "E",
   "": "",
   "state_id": "08",
   "ID": "17059",
   "Latitude": 39.05419922,
   "Longitude": -103.48000336,
-  "Downlink": 447,
-  "Uplink": 442,
+  "Downlink": 447.15,
+  "Uplink": 442.15,
   "YSF Digital Enabled": true,
   "DG-ID": "Open ↑ / Open ↓",
   "WIRES-X": 30534,
@@ -26,5 +26,5 @@
   "Sponsor": "Delbert Noakes (KC0VJD)",
   "Features": "APRS repeater &amp; I-Gate / Weather station",
   "Coordination": "CCARC",
-  "Last update": "2020-01-26"
+  "Last update": "2020-06-21"
 }

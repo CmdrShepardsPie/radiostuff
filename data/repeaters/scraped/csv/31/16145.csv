@@ -1,0 +1,2 @@
+Frequency,Offset,Tone,Call,Location,ST/PR,Use,VOIP,DGTL,Mi,Dir,,state_id,ID,Latitude,Longitude,Downlink,Uplink,Uplink Tone,D-STAR Enabled,Node,Sources,County,Grid,Op Status,Coverage,Mixed-Mode,Analog Bandwidth,Coordination,Last update
+444.7,5,167.9,NI0P,Wood River,NE,OPEN,,S,194.59,ESE,,31,16145,40.8205986,-98.60009766,444.7,449.7,167.9,1,NI0P (B) Repeater,jfindu lookup / dstar-users lookup,Hall,EN00,On-Air,"West Hall County and East Buffalo County, HWY 30 and Interstate 80",Yes; analog capable.,,WB0CMC,2018-12-09

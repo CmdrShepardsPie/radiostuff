@@ -8,8 +8,8 @@
   "Use": "OPEN",
   "VOIP": "",
   "DGTL": "",
-  "Mi": 32.71,
-  "Dir": "WNW",
+  "Mi": 99.95,
+  "Dir": "N",
   "": "",
   "state_id": "08",
   "ID": "72",
@@ -29,5 +29,5 @@
   "Notes": "Split tone. The repeater still transmits 123.0 for those wishing to use tone squelch, you must run a split tone 88.5 TX and 123.0 RX",
   "Nets": "Colorado Traffic Net: Daily at 19:30. Colorado Connection Net (all welcome): Thu at 20:00. Statewide ARES: Sun at 20:00.",
   "Coordination": "CCARC",
-  "Last update": "2019-08-15"
+  "Last update": "2020-06-21"
 }

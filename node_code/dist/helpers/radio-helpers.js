@@ -82,16 +82,25 @@ var __importDefault = (this && this.__importDefault) || function (mod) {
     function buildName(repeater) {
         let Name = '';
         if (repeater.Callsign) {
-            Name += repeater.Callsign.trim();
+            if (repeater.Location && repeater.Location.Local) {
+                Name += repeater.Callsign.trim().substr(-3);
+            }
+            else {
+                Name += repeater.Callsign.trim();
+            }
         }
-        else if (repeater.Location && repeater.Location.Local) {
+        if (repeater.Location && repeater.Location.Local) {
+            if (Name)
+                Name += ' ';
             Name += repeater.Location.Local.trim();
         }
-        else if (repeater.Frequency && repeater.Frequency.Output) {
+        if (repeater.Frequency && repeater.Frequency.Output) {
+            if (Name)
+                Name += ' ';
             Name += repeater.Frequency.Output.toString().trim();
         }
         Name = Name.replace(/\s+/g, ' ').trim();
-        Name = Name.substr(0, 16).trim();
+        Name = Name.substr(0, 20).trim();
         return Name;
     }
     exports.buildName = buildName;
@@ -158,7 +167,16 @@ var __importDefault = (this && this.__importDefault) || function (mod) {
     exports.sortStructuredRepeaters = sortStructuredRepeaters;
     async function loadSimplex(filterSimplex) {
         return (await fs_helpers_1.readFromCsv('../data/simplex-frequencies.csv'))
-            .map((map) => ({ Callsign: map.Name, Frequency: { Output: map.Frequency, Input: map.Frequency } }))
+            .map((map) => ({
+            Callsign: map.Name,
+            Frequency: {
+                Output: map.Frequency,
+                Input: map.Input || map.Frequency,
+            },
+            ...(map.Tone ? { SquelchTone: {
+                    Input: map.Tone
+                } } : {})
+        }))
             .filter((filter) => filterSimplex.test(filter.Callsign)); // TODO: Make a function and enum
     }
     exports.loadSimplex = loadSimplex;
