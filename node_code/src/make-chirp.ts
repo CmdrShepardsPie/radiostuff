@@ -43,7 +43,7 @@ log('Program Parse Args');
 program.parse(process.argv);
 
 async function doIt(location: gpsDistance.Point, outFileName: string): Promise<void> {
-  const simplex: RepeaterStructured[] = await loadSimplex(/FM Calling/i);
+  const simplex: RepeaterStructured[] = await loadSimplex(/FM/i);
   const repeaters: RepeaterStructured[] = await loadRepeaters(location);
 
   const mapped: Chirp[] = [
