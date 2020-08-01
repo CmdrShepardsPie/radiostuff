@@ -1,2 +1,2 @@
-Frequency,Offset,Tone,Call,Location,ST/PR,Use,VOIP,DGTL,Mi,Dir,,state_id,ID,Latitude,Longitude,Downlink,Uplink,Uplink Tone,County,Op Status,IRLP,Last update
-144.265,0,203.5,KC2HSO,Los Alamos,NM,OPEN,I,,187.2,SSW,,35,16629,35.88000107,-106.3030014,144.265,144.265,203.5,Los Alamos,On-Air,8039,2017-12-08
+Frequency,Offset,Tone,Call,Location,ST/PR,Use,VOIP,DGTL,Mi,Dir,,state_id,ID
+144.265,0,203.5,KC2HSO,Los Alamos,NM,OPEN,I,,187.2,SSW,,35,16629
