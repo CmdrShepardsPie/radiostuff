@@ -1,5 +1,8 @@
 tsc
 
+node dist/get-repeaters.js "Uravan, CO"
+node dist/get-repeaters.js "Nucla, CO"
+node dist/get-repeaters.js "Naturita, CO"
 node dist/get-repeaters.js "Grand Junction, CO"
 node dist/get-repeaters.js "Meeker, CO"
 node dist/get-repeaters.js "Fort Collins, CO"

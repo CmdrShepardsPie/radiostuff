@@ -1,0 +1,129 @@
+Location,Name,Frequency,Duplex,Offset,Tone,rToneFreq,cToneFreq,DtcsCode,DtcsRxCode,DtcsPolarity,Mode,TStep,Comment
+0,FM Simplex 146.4,146.4,,0,,100,100,23,23,NN,FM,5,FM Simplex
+1,FM Simplex 146.415,146.415,,0,,100,100,23,23,NN,FM,5,FM Simplex
+2,FM Simplex 146.43,146.43,,0,,100,100,23,23,NN,FM,5,FM Simplex
+3,FM Simplex 146.445,146.445,,0,,100,100,23,23,NN,FM,5,FM Simplex
+4,FM Simplex 146.46,146.46,,0,,100,100,23,23,NN,FM,5,FM Simplex
+5,FM Simplex 146.475,146.475,,0,,100,100,23,23,NN,FM,5,FM Simplex
+6,FM Simplex 146.49,146.49,,0,,100,100,23,23,NN,FM,5,FM Simplex
+7,FM Simplex 146.505,146.505,,0,,100,100,23,23,NN,FM,5,FM Simplex
+8,FM Calling 146.52,146.52,,0,,100,100,23,23,NN,FM,5,FM Calling
+9,FM Simplex 146.535,146.535,,0,,100,100,23,23,NN,FM,5,FM Simplex
+10,FM Simplex 146.55,146.55,,0,,100,100,23,23,NN,FM,5,FM Simplex
+11,FM Simplex 146.565,146.565,,0,,100,100,23,23,NN,FM,5,FM Simplex
+12,FM Simplex 146.58,146.58,,0,,100,100,23,23,NN,FM,5,FM Simplex
+13,FM Simplex 146.595,146.595,,0,,100,100,23,23,NN,FM,5,FM Simplex
+14,FM Simplex 147.42,147.42,,0,,100,100,23,23,NN,FM,5,FM Simplex
+15,FM Simplex 147.435,147.435,,0,,100,100,23,23,NN,FM,5,FM Simplex
+16,FM Simplex 147.45,147.45,,0,,100,100,23,23,NN,FM,5,FM Simplex
+17,FM Simplex 147.465,147.465,,0,,100,100,23,23,NN,FM,5,FM Simplex
+18,FM Simplex 147.48,147.48,,0,,100,100,23,23,NN,FM,5,FM Simplex
+19,FM Simplex 147.495,147.495,,0,,100,100,23,23,NN,FM,5,FM Simplex
+20,FM Simplex 147.51,147.51,,0,,100,100,23,23,NN,FM,5,FM Simplex
+21,FM Simplex 147.525,147.525,,0,,100,100,23,23,NN,FM,5,FM Simplex
+22,FM Simplex 147.54,147.54,,0,,100,100,23,23,NN,FM,5,FM Simplex
+23,FM Simplex 147.555,147.555,,0,,100,100,23,23,NN,FM,5,FM Simplex
+24,FM Simplex 147.57,147.57,,0,,100,100,23,23,NN,FM,5,FM Simplex
+25,FM Simplex 147.585,147.585,,0,,100,100,23,23,NN,FM,5,FM Simplex
+26,FM Simplex 223.4,223.4,,0,,100,100,23,23,NN,FM,5,FM Simplex
+27,FM Simplex 223.42,223.42,,0,,100,100,23,23,NN,FM,5,FM Simplex
+28,FM Simplex 223.44,223.44,,0,,100,100,23,23,NN,FM,5,FM Simplex
+29,FM Simplex 223.46,223.46,,0,,100,100,23,23,NN,FM,5,FM Simplex
+30,FM Simplex 223.48,223.48,,0,,100,100,23,23,NN,FM,5,FM Simplex
+31,FM Calling 223.5,223.5,,0,,100,100,23,23,NN,FM,5,FM Calling
+32,FM Simplex 223.52,223.52,,0,,100,100,23,23,NN,FM,5,FM Simplex
+33,FM Simplex 445.7,445.7,,0,,100,100,23,23,NN,FM,5,FM Simplex
+34,FM Simplex 445.725,445.725,,0,,100,100,23,23,NN,FM,5,FM Simplex
+35,FM Simplex 445.75,445.75,,0,,100,100,23,23,NN,FM,5,FM Simplex
+36,FM Simplex 445.775,445.775,,0,,100,100,23,23,NN,FM,5,FM Simplex
+37,FM Simplex 445.8,445.8,,0,,100,100,23,23,NN,FM,5,FM Simplex
+38,FM Simplex 445.825,445.825,,0,,100,100,23,23,NN,FM,5,FM Simplex
+39,FM Simplex 445.85,445.85,,0,,100,100,23,23,NN,FM,5,FM Simplex
+40,FM Simplex 445.875,445.875,,0,,100,100,23,23,NN,FM,5,FM Simplex
+41,FM Simplex 445.9,445.9,,0,,100,100,23,23,NN,FM,5,FM Simplex
+42,FM Simplex 445.925,445.925,,0,,100,100,23,23,NN,FM,5,FM Simplex
+43,FM Simplex 445.95,445.95,,0,,100,100,23,23,NN,FM,5,FM Simplex
+44,FM Simplex 445.975,445.975,,0,,100,100,23,23,NN,FM,5,FM Simplex
+45,FM Calling 446,446,,0,,100,100,23,23,NN,FM,5,FM Calling
+46,FM Simplex 446.025,446.025,,0,,100,100,23,23,NN,FM,5,FM Simplex
+47,FM Simplex 446.05,446.05,,0,,100,100,23,23,NN,FM,5,FM Simplex
+48,FM Simplex 446.075,446.075,,0,,100,100,23,23,NN,FM,5,FM Simplex
+49,FM Simplex 446.1,446.1,,0,,100,100,23,23,NN,FM,5,FM Simplex
+50,FM Simplex 446.125,446.125,,0,,100,100,23,23,NN,FM,5,FM Simplex
+51,FM Simplex 446.15,446.15,,0,,100,100,23,23,NN,FM,5,FM Simplex
+52,FM Simplex 446.175,446.175,,0,,100,100,23,23,NN,FM,5,FM Simplex
+53,FM Simplex 446.2,446.2,,0,,100,100,23,23,NN,FM,5,FM Simplex
+54,FM Simplex 446.225,446.225,,0,,100,100,23,23,NN,FM,5,FM Simplex
+55,FM Simplex 446.25,446.25,,0,,100,100,23,23,NN,FM,5,FM Simplex
+56,FM Simplex 446.275,446.275,,0,,100,100,23,23,NN,FM,5,FM Simplex
+57,0DE Simla 147.105,147.105,+,0.6,TSQL,107.2,107.2,23,23,NN,FM,5,8 12167 68.00 CO Elbert Simla WA0DE
+58,0KG Colorado Springs,448.25,-,5,Tone,123,123,23,23,NN,FM,5,8 8198 13.00 CO El Paso Colorado Springs Broadmoor Area N0KG
+59,0NR Monument Monumen,447.725,-,5,TSQL,100,100,23,23,NN,FM,5,8 183 18.00 CO El Paso Monument Monument Hill K0NR
+60,0PC Bailey Dick Moun,146.895,-,0.6,TSQL,100,100,23,23,NN,FM,5,8 7 78.00 CO Park Bailey Dick Mountain AB0PC
+61,0PW Pueblo West Libe,447.45,-,5,TSQL,123,123,23,23,NN,FM,5,8 18346 70.00 CO Pueblo Pueblo West Liberty Point NA0PW
+62,0ST Pueblo Pueblo 14,146.655,-,0.6,Tone,123,123,23,23,NN,FM,5,8 192 79.00 CO Pueblo Pueblo Pueblo K0ST
+63,0TP Colorado Springs,146.85,-,0.6,Cross,156.7,103.5,23,23,NN,FM,5,8 42 13.00 CO El Paso Colorado Springs AD0TP
+64,0TX Lakewood Green M,147.33,+,0.6,Tone,100,100,23,23,NN,FM,5,8 85 87.00 CO Jefferson Lakewood Green Mountain W0TX
+65,0VH Aurora 225 and P,448.4,-,5,,100,100,23,23,NN,FM,5,8 18892 80.00 CO Arapahoe Aurora 225 and Parker Road KE0VH
+66,0WF Colorado Springs,447.025,-,5,Tone,123,123,23,23,NN,FM,5,8 49 13.00 CO El Paso Colorado Springs KF0WF
+67,A0L Colorado Springs,147.135,+,0.6,Tone,100,100,23,23,NN,FM,5,8 8176 12.00 CO El Paso Colorado Springs AA0L
+68,A0L Colorado Springs,448.3,-,5,Tone,100,100,23,23,NN,FM,5,8 8200 13.00 CO El Paso Colorado Springs AA0L
+69,ARA Critchell Critch,147.12,+,0.6,TSQL,88.5,88.5,23,23,NN,FM,5,8 59 80.00 CO Jefferson Critchell Critchell Mountain N0ARA
+70,CRA Colorado Springs,145.16,-,0.6,TSQL,107.2,107.2,23,23,NN,FM,5,8 38 25.00 CO El Paso Colorado Springs Cheyenne Mountain W0CRA
+71,CRA Larkspur Westcre,147.225,+,0.6,TSQL,107.2,107.2,23,23,NN,FM,5,8 83 33.00 CO Douglas Larkspur Westcreek W0CRA
+72,CRA Larkspur Westcre,448.425,-,5,TSQL,107.2,107.2,23,23,NN,FM,5,8 16547 33.00 CO Douglas Larkspur Westcreek W0CRA
+73,CVU Colorado Springs,146.76,-,0.6,TSQL,107.2,107.2,23,23,NN,FM,5,8 41 25.00 CO El Paso Colorado Springs Cheyenne Mountain KC0CVU
+74,CVU Colorado Springs,147.345,+,0.6,TSQL,107.2,107.2,23,23,NN,FM,5,8 47 25.00 CO El Paso Colorado Springs Cheyenne Mountain KC0CVU
+75,CVU Colorado Springs,448,-,5,Tone,107.2,107.2,23,23,NN,FM,5,8 269 25.00 CO El Paso Colorado Springs Cheyenne Mountain KC0CVU
+76,CVU Colorado Springs,448.1,-,5,TSQL,107.2,107.2,23,23,NN,FM,5,8 53 25.00 CO El Paso Colorado Springs Cheyenne Mountain KC0CVU
+77,CVU Lake George Badg,147.36,+,0.6,TSQL,107.2,107.2,23,23,NN,FM,5,8 170 64.00 CO Park Lake George Badger Mountain KC0CVU
+78,Colorado Springs 147,147.27,+,0.6,,100,100,23,23,NN,FM,5,8 46 12.00 CO El Paso Colorado Springs
+79,D0Q Pueblo Baculite,224.26,-,1.6,Tone,88.5,88.5,23,23,NN,FM,5,8 195 65.00 CO Pueblo Pueblo Baculite Mesa ND0Q
+80,EKR Canon City Fremo,145.49,-,0.6,TSQL,103.5,103.5,23,23,NN,FM,5,8 30 70.00 CO Fremont Canon City Fremont Peak WD0EKR
+81,EKR Canon City Fremo,223.96,-,1.6,TSQL,103.5,103.5,23,23,NN,FM,5,8 31 70.00 CO Fremont Canon City Fremont Peak WD0EKR
+82,EKR Canon City Fremo,447.75,-,5,TSQL,103.5,103.5,23,23,NN,FM,5,8 32 70.00 CO Fremont Canon City Fremont Peak WD0EKR
+83,EPS Woodland Park Pa,449.325,-,5,TSQL,103.5,103.5,23,23,NN,FM,5,8 9503 23.00 CO Teller Woodland Park Paradise Pines KA4EPS
+84,ESQ Castle Rock Devi,447.525,-,5,TSQL,146.2,146.2,23,23,NN,FM,5,8 8190 45.00 CO Douglas Castle Rock Devils Head (Pike National Forest) N0ESQ
+85,ESQ Parker Hess Rese,447.525,-,5,Cross,203.5,146.2,23,23,NN,FM,5,8 8189 61.00 CO Douglas Parker Hess Reservoir N0ESQ
+86,IFI Colorado Springs,447.55,-,5,Tone,123,123,23,23,NN,FM,5,8 8191 13.00 CO El Paso Colorado Springs WA6IFI
+87,IRP Colorado Springs,146.91,-,0.6,TSQL,151.4,151.4,23,23,NN,FM,5,8 43 12.00 CO El Paso Colorado Springs K0IRP
+88,IRP Colorado Springs,447.35,-,5,Tone,151.4,151.4,23,23,NN,FM,5,8 50 13.00 CO El Paso Colorado Springs K0IRP
+89,ISS FM L/v VOICE Rep,145.8,+,1123.9,,100,100,23,23,NN,FM,5,ISS FM L/v VOICE Repeater (Worldwide)
+90,ISS FM U/v VOICE Rep,145.8,+,292,,100,100,23,23,NN,FM,5,ISS FM U/v VOICE Repeater (Worldwide)
+91,ISS FM V/u with PL V,437.8,-,291.8,Tone,67,67,23,23,NN,FM,5,ISS FM V/u with PL VOICE Repeater (Worldwide)
+92,ISS FM VOICE for ITU,145.8,-,1.3,,100,100,23,23,NN,FM,5,ISS FM VOICE for ITU Region 2&3
+93,J0T Pueblo 147.24,147.24,+,0.6,Tone,103.5,103.5,23,23,NN,FM,5,8 3747 81.00 CO Pueblo Pueblo KJ0T
+94,JSC Canon City Color,447.975,-,5,TSQL,100,100,23,23,NN,FM,5,8 7185 69.00 CO Fremont Canon City Colorado K0JSC
+95,JSC Canon City Fremo,447.25,-,5,TSQL,100,100,23,23,NN,FM,5,8 8879 70.00 CO Fremont Canon City Fremont Peak K0JSC
+96,JSC Pueblo Metro 447,447.275,-,5,TSQL,100,100,23,23,NN,FM,5,8 9527 81.00 CO Pueblo Pueblo Metro K0JSC
+97,JSC Pueblo West 448.,448.975,-,5,TSQL,100,100,23,23,NN,FM,5,8 7994 72.00 CO Pueblo Pueblo West K0JSC
+98,Lake George 449.7,449.7,-,5,Tone,107.2,107.2,23,23,NN,FM,5,8 8214 49.00 CO Park Lake George
+99,MDP Falcon Black For,447.625,-,5,TSQL,100,100,23,23,NN,FM,5,8 13294 19.00 CO El Paso Falcon Black Forest KD0MDP
+100,MOG Colorado Springs,147.39,+,0.6,Tone,103.5,103.5,23,23,NN,FM,5,8 48 12.00 CO El Paso Colorado Springs W0MOG
+101,MOG Colorado Springs,448.6,-,5,Tone,114.8,114.8,23,23,NN,FM,5,8 55 13.00 CO El Paso Colorado Springs W0MOG
+102,OBA Aurora 145.19,145.19,-,0.6,TSQL,131.8,131.8,23,23,NN,FM,5,8 8741 76.00 CO Arapahoe Aurora N0OBA
+103,OWY Conifer Critchel,447.5,-,5,TSQL,88.5,88.5,23,23,NN,FM,5,8 60 68.00 CO Jefferson Conifer Critchell Mountain N0OWY
+104,PHC Pueblo 145.115,145.115,-,0.6,Tone,88.5,88.5,23,23,NN,FM,5,8 191 78.00 CO Pueblo Pueblo W0PHC
+105,PHC Pueblo Baculite,146.79,-,0.6,Tone,88.5,88.5,23,23,NN,FM,5,8 193 68.00 CO Pueblo Pueblo Baculite Mesa W0PHC
+106,PUF Centennial Warre,146.88,-,0.6,Tone,100,100,23,23,NN,FM,5,8 80 69.00 CO Jefferson Centennial Warren Mountain N0PUF
+107,PWZ Palmer Divide 44,449.725,-,5,Tone,100,100,23,23,NN,FM,5,8 189 79.00 CO El Paso Palmer Divide N0PWZ
+108,Q8M Parker 448.7,448.7,-,5,Tone,146.2,146.2,23,23,NN,FM,5,8 274 68.00 CO Douglas Parker WQ8M
+109,SLW Pueblo 145.28,145.28,-,0.6,TSQL,100,100,23,23,NN,FM,5,8 18707 79.00 CO Pueblo Pueblo WB0SLW
+110,SRJ Colorado Springs,146.97,-,0.6,Tone,100,100,23,23,NN,FM,5,8 44 25.00 CO El Paso Colorado Springs Pikes Peak KB0SRJ
+111,SRJ Colorado Springs,448.45,-,5,Tone,100,100,23,23,NN,FM,5,8 54 25.00 CO El Paso Colorado Springs Pikes Peak KB0SRJ
+112,SRJ Colorado Springs,448.8,-,5,Tone,100,100,23,23,NN,FM,5,8 57 9.00 CO El Paso Colorado Springs ~2 mi ENE USAFA North Gate KB0SRJ
+113,TTF Colorado Springs,448.725,-,5,Tone,123,123,23,23,NN,FM,5,8 56 19.00 CO El Paso Colorado Springs Fillmore Hill KA0TTF
+114,UDD Aurora Smoky Hil,145.4,-,0.6,Tone,100,100,23,23,NN,FM,5,8 5 74.00 CO Arapahoe Aurora Smoky Hill KB0UDD
+115,VJJ Colorado Springs,145.13,-,0.6,Cross,88.5,123,23,23,NN,FM,5,8 37 23.00 CO El Paso Colorado Springs Cheyenne Mountain KB0VJJ
+116,WDF Canon City eight,449,-,5,TSQL,67,67,23,23,NN,FM,5,8 33 67.00 CO Fremont Canon City eightmile Mountain WB0WDF
+117,WDF Cripple Creek 14,145.46,-,0.6,Tone,67,67,23,23,NN,FM,5,8 64 40.00 CO Teller Cripple Creek WB0WDF
+118,WDF Cripple Creek 44,447.4,-,5,Tone,67,67,23,23,NN,FM,5,8 66 40.00 CO Teller Cripple Creek WB0WDF
+119,WUC Woodland Park 14,145.415,-,0.6,Tone,179.9,179.9,23,23,NN,FM,5,8 249 24.00 CO Teller Woodland Park KA0WUC
+120,WUC Woodland Park 44,447.675,-,5,TSQL,179.9,179.9,23,23,NN,FM,5,8 8193 24.00 CO Teller Woodland Park KA0WUC
+121,WUC Woodland Park 44,449.025,-,5,Tone,141.3,141.3,23,23,NN,FM,5,8 252 24.00 CO Teller Woodland Park KA0WUC
+122,X0G Colorado Springs,447.475,-,5,Tone,107.2,107.2,23,23,NN,FM,5,8 51 13.00 CO El Paso Colorado Springs NX0G
+123,X0G Cripple Creek 14,147.015,+,0.6,Tone,107.2,107.2,23,23,NN,FM,5,8 65 40.00 CO Teller Cripple Creek NX0G
+124,X0G Lake George Badg,146.685,-,0.6,TSQL,107.2,107.2,23,23,NN,FM,5,8 169 64.00 CO Park Lake George Badger Mountain NX0G
+125,X0G Woodland Park 14,146.82,-,0.6,Tone,107.2,107.2,23,23,NN,FM,5,8 250 24.00 CO Teller Woodland Park NX0G
+126,X0G Woodland Park 44,448.65,-,5,Tone,107.2,107.2,23,23,NN,FM,5,8 251 24.00 CO Teller Woodland Park NX0G
+127,XLF Palmer Lake Monu,147.075,+,0.6,TSQL,131.8,131.8,23,23,NN,FM,5,8 8740 24.00 CO Douglas Palmer Lake Monument Hill N0XLF
