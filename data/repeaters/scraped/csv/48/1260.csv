@@ -1,2 +1,2 @@
-Frequency,Offset,Tone,Call,Location,ST/PR,Use,VOIP,DGTL,Mi,Dir,,state_id,ID,Latitude,Longitude,Downlink,Uplink,County,On-air,Coordination,Last update
-443.5,5,,N5LTZ,Amarillo,TX,CLOSED,,,157.38,SSE,,48,1260,35.22000122,-101.83000183,443.5,448.5,Potter,Unknown,TVHFS,
+Frequency,Offset,Tone,Call,Location,ST/PR,Use,VOIP,DGTL,Mi,Dir,,state_id,ID,Latitude,Longitude,Downlink,Uplink,County,On-air,FM,Analog Bandwidth,Coordination,Last update
+443.5,5,,N5LTZ,Amarillo,TX,CLOSED,,,157.38,SSE,,48,1260,35.22000122,-101.83000183,443.5,448.5,Potter,Unknown,Yes; analog capable.,,TVHFS,

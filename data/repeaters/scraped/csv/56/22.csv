@@ -1,2 +1,2 @@
-Frequency,Offset,Tone,Call,Location,ST/PR,Use,VOIP,DGTL,Mi,Dir,,state_id,ID,Latitude,Longitude,Downlink,Uplink,Uplink Tone,County,Op Status,Sponsor,Notes,Nets,Coordination,Last update
-146.88,-0.6,100,KC7BJY,"Big Piney, The Hogsback",WY,OPEN,,,190.69,NW,,56,22,42.32929993,-110.31999969,146.88,146.28,100,Sublette,On-Air,"Sublette Co ARC """,9,SCARC: Mon at 19:30.,WRCG,2017-01-04
+Frequency,Offset,Tone,Call,Location,ST/PR,Use,VOIP,DGTL,Mi,Dir,,state_id,ID,Latitude,Longitude,Downlink,Uplink,Uplink Tone,County,Op Status,Sponsor,FM,Analog Bandwidth,Notes,Nets,Coordination,Last update
+146.88,-0.6,100,KC7BJY,"Big Piney, The Hogsback",WY,OPEN,,,190.69,NW,,56,22,42.32929993,-110.31999969,146.88,146.28,100,Sublette,On-Air,"Sublette Co ARC """,Yes; analog capable.,,9,SCARC: Mon at 19:30.,WRCG,2017-01-04

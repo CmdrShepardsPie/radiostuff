@@ -8,7 +8,7 @@
   "Use": "OPEN",
   "VOIP": "",
   "DGTL": "",
-  "Mi": 197.13,
+  "Mi": 193.68,
   "Dir": "WSW",
   "": "",
   "state_id": "49",
@@ -21,6 +21,8 @@
   "Op Status": "On-Air",
   "Coverage": "Southern border of Utah including Kanab and surrounding areas.",
   "Features": 4,
+  "FM": "Yes; analog capable.",
+  "Analog Bandwidth": "",
   "Coordination": "UVHFS",
   "Last update": "2012-07-18"
 }

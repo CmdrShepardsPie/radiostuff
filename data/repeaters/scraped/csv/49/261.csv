@@ -1,2 +1,2 @@
-Frequency,Offset,Tone Up / Down,Location,County,Call,Use,,state_id,ID,Latitude,Longitude,Downlink,Uplink,Uplink Tone,Op Status,Coverage,Coordination,Last update
-448.275,-5,107.2,Ogden,Weber,WB7TSQ,OPEN,,49,261,41.21020126,-111.97100067,448.275,443.275,107.2,On-Air,Wide area.,UVHFS,2008-07-10
+Frequency,Offset,Tone,Call,Location,ST/PR,Use,VOIP,DGTL,Mi,Dir,,state_id,ID,Latitude,Longitude,Downlink,Uplink,Uplink Tone,County,Op Status,Coverage,FM,Analog Bandwidth,Coordination,Last update
+448.275,-5,107.2,WB7TSQ,Ogden,UT,OPEN,,,101.69,E,,49,261,41.21020126,-111.97100067,448.275,443.275,107.2,Weber,On-Air,Wide area.,Yes; analog capable.,,UVHFS,2008-07-10

@@ -8,7 +8,7 @@
   "Use": "OPEN",
   "VOIP": "",
   "DGTL": "",
-  "Mi": 188.03,
+  "Mi": 184.25,
   "Dir": "WSW",
   "": "",
   "state_id": "49",
@@ -19,6 +19,8 @@
   "Uplink": 147.78,
   "County": "Kane",
   "Op Status": "On-Air",
+  "FM": "Yes; analog capable.",
+  "Analog Bandwidth": "",
   "Coordination": "UVHFS",
   "Last update": "2015-03-04"
 }

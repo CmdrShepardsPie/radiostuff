@@ -12,19 +12,5 @@
   "Dir": "NW",
   "": "",
   "state_id": "31",
-  "ID": "11355",
-  "Latitude": 41.90399933,
-  "Longitude": -103.55799866,
-  "Downlink": 146.445,
-  "Uplink": 146.445,
-  "Uplink Tone": 88.5,
-  "Downlink Tone": 88.5,
-  "County": "Scotts Bluff",
-  "Op Status": "On-Air",
-  "Coverage": "",
-  "IRLP": 3055,
-  "Commands": "Access pre-fix = 5",
-  "Notes": "This is a simplex IRLP node. 147.285 rptr is down. 3055 is directly accessed on 146.445 w/88.5 tone. Controlled access. Contact AG0N for access. 147.435/123PL Scottsbluff node 8930 available 24/7 no access code.",
-  "Web links": "http://garymcduffie.com",
-  "Last update": "2015-03-16"
+  "ID": "11355"
 }

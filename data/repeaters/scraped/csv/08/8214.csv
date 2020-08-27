@@ -1,2 +1,2 @@
-Frequency,Offset,Tone,Call,Location,ST/PR,Use,VOIP,DGTL,Mi,Dir,,state_id,ID,Latitude,Longitude,Downlink,Uplink,Uplink Tone,County,On-air,Sponsor,Coordination,Last update
-449.7,-5,107.2,,Lake George,CO,OPEN,,,37.33,N,,08,8214,38.97969818,-105.35700226,449.7,444.7,107.2,Park,Unknown,CMRG,CCARC,2012-11-12
+Frequency,Offset,Tone,Call,Location,ST/PR,Use,VOIP,DGTL,Mi,Dir,,state_id,ID,Latitude,Longitude,Downlink,Uplink,Uplink Tone,County,On-air,Sponsor,FM,Analog Bandwidth,Coordination,Last update
+449.7,-5,107.2,,Lake George,CO,OPEN,,,37.33,N,,08,8214,38.97969818,-105.35700226,449.7,444.7,107.2,Park,Unknown,CMRG,Yes; analog capable.,,CCARC,2012-11-12

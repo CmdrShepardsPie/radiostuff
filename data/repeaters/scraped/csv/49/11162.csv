@@ -1,2 +1,2 @@
-Frequency,Offset,Tone Up / Down,Location,County,Call,Use,,state_id,ID,Latitude,Longitude,Downlink,Uplink,D-STAR Enabled,Node,Sources,On-air,Coordination,Last update
-1298.75,-20,DSTR,"Ogden, Sheriff's Office",Weber,KE7EGG,OPEN,,49,11162,41.22299957,-111.97399902,1298.75,1278.75,1,KE7EGG (A),jfindu lookup / dstar-users lookup,Unknown,UVHFS,2014-02-17
+Frequency,Offset,Tone,Call,Location,ST/PR,Use,VOIP,DGTL,Mi,Dir,,state_id,ID,Latitude,Longitude,Downlink,Uplink,D-STAR Enabled,Node,Sources,County,On-air,Coordination,Last update
+1298.75,-20,,KE7EGG,"Ogden, Sheriff's Office",UT,OPEN,,S,101.79,E,,49,11162,41.22299957,-111.97399902,1298.75,1278.75,1,KE7EGG (A),jfindu lookup / dstar-users lookup,Weber,Unknown,UVHFS,2014-02-17

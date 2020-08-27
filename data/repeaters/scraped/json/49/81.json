@@ -8,8 +8,8 @@
   "Use": "CLOSED",
   "VOIP": "",
   "DGTL": "",
-  "Mi": 183.72,
-  "Dir": "NW",
+  "Mi": 103.65,
+  "Dir": "SE",
   "": "",
   "state_id": "49",
   "ID": "81",
@@ -24,6 +24,8 @@
   "Coverage": "North Salt Lake to South Ogden.",
   "Sponsor": "Rocky Mtn RA",
   "Features": "Remote base, 5,100'.",
+  "FM": "Yes; analog capable.",
+  "Analog Bandwidth": "",
   "Coordination": "UVHFS",
   "Last update": "2015-07-19"
 }

@@ -1,11 +1,15 @@
 {
   "Frequency": 448.325,
   "Offset": -5,
-  "Tone Up / Down": 100,
-  "Location": "Westcliffe",
-  "County": "Custer",
+  "Tone": 100,
   "Call": "K0JSC",
+  "Location": "Westcliffe",
+  "ST/PR": "CO",
   "Use": "OPEN",
+  "VOIP": "",
+  "DGTL": "",
+  "Mi": 25.37,
+  "Dir": "SSW",
   "": "",
   "state_id": "08",
   "ID": "15584",
@@ -15,8 +19,11 @@
   "Uplink": 443.325,
   "Uplink Tone": 100,
   "Downlink Tone": 100,
+  "County": "Custer",
   "Op Status": "On-Air",
   "Affiliate": "The Fun Machine",
+  "FM": "Yes; analog capable.",
+  "Analog Bandwidth": "",
   "Links": "Full-time to the The Fun Machine System .",
-  "Last update": "2017-01-06"
+  "Last update": "2020-07-16"
 }

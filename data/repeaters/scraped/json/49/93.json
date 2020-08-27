@@ -8,8 +8,8 @@
   "Use": "OPEN",
   "VOIP": "",
   "DGTL": "",
-  "Mi": 183.6,
-  "Dir": "NW",
+  "Mi": 104.16,
+  "Dir": "SE",
   "": "",
   "state_id": "49",
   "ID": "93",
@@ -23,6 +23,8 @@
   "Coverage": "Utah County from Alpine to Payson. Salt Lake Valley communities from Salt Lake City to Draper.",
   "Sponsor": "Rocky Mtn RA",
   "Features": 5,
+  "FM": "Yes; analog capable.",
+  "Analog Bandwidth": "",
   "Coordination": "UVHFS",
   "Last update": "2015-07-19"
 }

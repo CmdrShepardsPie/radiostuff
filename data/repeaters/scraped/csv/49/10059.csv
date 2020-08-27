@@ -1,2 +1,2 @@
-Frequency,Offset,Tone Up / Down,Location,County,Call,Use,,state_id,ID,Latitude,Longitude,Downlink,Uplink,Uplink Tone,Grid,Op Status,Features,IRLP,AllStar,Coordination,Last update
-447.05,-5,114.8,Layton,Davis,AH2S,OPEN,,49,10059,41.05519867,-111.97699738,447.05,442.05,114.8,DN41AB,On-Air,"IRLP, Allstar",3515,28463,UVHFS,2017-03-31
+Frequency,Offset,Tone,Call,Location,ST/PR,Use,VOIP,DGTL,Mi,Dir,,state_id,ID,Latitude,Longitude,Downlink,Uplink,Uplink Tone,County,Grid,Op Status,Features,FM,Analog Bandwidth,IRLP,AllStar,Coordination,Last update
+447.05,-5,114.8,AH2S,Layton,UT,OPEN,IA,,98.89,E,,49,10059,41.05519867,-111.97699738,447.05,442.05,114.8,Davis,DN41AB,On-Air,"IRLP, Allstar",Yes; analog capable.,,3515,28463,UVHFS,2017-03-31

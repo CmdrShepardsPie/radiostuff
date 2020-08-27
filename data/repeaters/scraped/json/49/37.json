@@ -8,8 +8,8 @@
   "Use": "OPEN",
   "VOIP": "",
   "DGTL": "",
-  "Mi": 192.33,
-  "Dir": "NW",
+  "Mi": 100.05,
+  "Dir": "ESE",
   "": "",
   "state_id": "49",
   "ID": "37",
@@ -21,6 +21,8 @@
   "County": "Salt Lake",
   "On-air": "Unknown",
   "Coverage": "Salt Lake Valley communities from Salt Lake City to Draper.",
+  "FM": "Yes; analog capable.",
+  "Analog Bandwidth": "",
   "Coordination": "UVHFS",
   "Last update": ""
 }

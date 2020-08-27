@@ -8,8 +8,8 @@
   "Use": "OPEN",
   "VOIP": "",
   "DGTL": "",
-  "Mi": 179.13,
-  "Dir": "WNW",
+  "Mi": 118.42,
+  "Dir": "SSE",
   "": "",
   "state_id": "49",
   "ID": "165",
@@ -21,6 +21,8 @@
   "Op Status": "On-Air",
   "Coverage": "West-central Utah around Delta.",
   "Features": 4,
+  "FM": "Yes; analog capable.",
+  "Analog Bandwidth": "",
   "Coordination": "UVHFS",
   "Last update": "2016-04-05"
 }

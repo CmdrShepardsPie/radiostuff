@@ -24,6 +24,8 @@
   "Grid": "DM78ik",
   "Op Status": "On-Air",
   "Coverage": "Wide from Custer County to Park County and Chaffee County to Pueblo County. Repeater Coverage Map",
+  "FM": "Yes; analog capable.",
+  "Analog Bandwidth": "",
   "Links": "Full-time to the The Fun Machine System .",
   "EchoLink": 363976,
   "IRLP": 7301,
@@ -32,5 +34,5 @@
   "Web links": "K0JSC dot Com",
   "Feed": "Listen Live",
   "Coordination": "CCARC",
-  "Last update": "2013-01-27"
+  "Last update": "2020-07-16"
 }

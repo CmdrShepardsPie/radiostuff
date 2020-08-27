@@ -25,6 +25,8 @@
   "Sponsor": "Rocky Mtn VHF Soc",
   "Affiliate": "Boulder County ARES",
   "Features": 5,
+  "FM": "Yes; analog capable.",
+  "Analog Bandwidth": "",
   "Notes": "ARES primary repeater. Voting Receivers: RX Location Tone Pitch PL Gunbarrel single beep low 100.0 Lousville single beep low 100.0 Lyons double beep high followed by medium 100.0 Louisville #2 double beep high followed by low 100.0",
   "RX Location": "Tone",
   "Gunbarrel": "single beep",

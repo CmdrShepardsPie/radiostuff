@@ -1,2 +1,2 @@
-Frequency,Offset,Tone,Call,Location,ST/PR,Use,VOIP,DGTL,Mi,Dir,,state_id,ID,Latitude,Longitude,Downlink,Uplink,Uplink Tone,County,Grid,Op Status,Coverage,Sponsor,Features,Links,Coordination,Last update
-444.325,5,100,NM5ML,"Albuquerque, Sandia Crest",NM,OPEN,,,145.8,SSE,,35,37,35.20890045,-106.4469986,444.325,449.325,100,Bernalillo,DM65SF,On-Air,Wide area.,,10,Full-time to the Mega-Link System .,NMFCC,2018-01-07
+Frequency,Offset,Tone,Call,Location,ST/PR,Use,VOIP,DGTL,Mi,Dir,,state_id,ID,Latitude,Longitude,Downlink,Uplink,Uplink Tone,County,Grid,Op Status,Coverage,Sponsor,Features,FM,Analog Bandwidth,Links,Coordination,Last update
+444.325,5,100,NM5ML,"Albuquerque, Sandia Crest",NM,OPEN,,,145.8,SSE,,35,37,35.20890045,-106.4469986,444.325,449.325,100,Bernalillo,DM65SF,On-Air,Wide area.,,10,Yes; analog capable.,,Full-time to the Mega-Link System .,NMFCC,2018-01-07

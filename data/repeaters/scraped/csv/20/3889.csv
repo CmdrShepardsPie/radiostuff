@@ -1,2 +1,2 @@
-Frequency,Offset,Tone,Call,Location,ST/PR,Use,VOIP,DGTL,Mi,Dir,,state_id,ID,Latitude,Longitude,Downlink,Uplink,Uplink Tone,Downlink Tone,County,Grid,Op Status,Coverage,Sponsor,Features,IRLP,Coordination,Last update
-146.82,-0.6,156.7,NW0K,Colby,KS,OPEN,I,,104.98,SE,,20,3889,39.39149857,-101.0739975,146.82,146.22,156.7,156.7,Thomas,DM99LJ,On-Air,Local,TARC,"Closed autopatch, e-power.",7552,Kansas Repeater Council,2019-05-06
+Frequency,Offset,Tone,Call,Location,ST/PR,Use,VOIP,DGTL,Mi,Dir,,state_id,ID,Latitude,Longitude,Downlink,Uplink,Uplink Tone,Downlink Tone,County,Grid,Op Status,Coverage,Sponsor,Features,FM,Analog Bandwidth,IRLP,Coordination,Last update
+146.82,-0.6,156.7,NW0K,Colby,KS,OPEN,I,,104.98,SE,,20,3889,39.39149857,-101.0739975,146.82,146.22,156.7,156.7,Thomas,DM99LJ,On-Air,Local,TARC,"Closed autopatch, e-power.",Yes; analog capable.,,7552,Kansas Repeater Council,2019-05-06

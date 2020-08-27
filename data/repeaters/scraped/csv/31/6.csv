@@ -1,2 +1,2 @@
-Frequency,Offset,Tone,Call,Location,ST/PR,Use,VOIP,DGTL,Mi,Dir,,state_id,ID,Latitude,Longitude,Downlink,Uplink,Uplink Tone,County,Op Status,Features,Web links,Coordination,Last update
-145.205,-0.6,CSQ,KA0RCZ,Alma,NE,OPEN,,,158.37,ESE,,31,6,40.10079956,-99.36250305,145.205,144.605,CSQ,Harlan,On-Air,Linked to 444.625 Axtel.,http://w0ky.club/,WB0CMC,2018-04-01
+Frequency,Offset,Tone,Call,Location,ST/PR,Use,VOIP,DGTL,Mi,Dir,,state_id,ID,Latitude,Longitude,Downlink,Uplink,Uplink Tone,County,Op Status,Features,FM,Analog Bandwidth,Web links,Coordination,Last update
+145.205,-0.6,CSQ,KA0RCZ,Alma,NE,OPEN,,,158.37,ESE,,31,6,40.10079956,-99.36250305,145.205,144.605,CSQ,Harlan,On-Air,Linked to 444.625 Axtel.,Yes; analog capable.,,http://w0ky.club/,WB0CMC,2018-04-01

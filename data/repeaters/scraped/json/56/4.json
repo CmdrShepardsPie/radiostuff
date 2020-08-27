@@ -23,6 +23,8 @@
   "Coverage": "I-80 from west of Laramie to east of Cheyenne for 25 watt mobiles with 1/4 wave antenna.",
   "Sponsor": "K7UWR",
   "Features": 8,
+  "FM": "Yes; analog capable.",
+  "Analog Bandwidth": "",
   "Web links": "http://www.r-vcr.com/k7uwr/repeater.htm",
   "Last update": "2017-01-04"
 }

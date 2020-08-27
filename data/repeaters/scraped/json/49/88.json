@@ -8,8 +8,8 @@
   "Use": "OPEN",
   "VOIP": "",
   "DGTL": "",
-  "Mi": 175.21,
-  "Dir": "WNW",
+  "Mi": 118.92,
+  "Dir": "SE",
   "": "",
   "state_id": "49",
   "ID": "88",
@@ -23,6 +23,8 @@
   "Coverage": "West-central Utah around Delta, Tusher Mountains, Monroe &amp; Clear Creek Canyon.",
   "Sponsor": "Nyle Stott, KB7WQD",
   "Features": 8,
+  "FM": "Yes; analog capable.",
+  "Analog Bandwidth": "",
   "Coordination": "UVHFS",
   "Last update": "2016-05-29"
 }

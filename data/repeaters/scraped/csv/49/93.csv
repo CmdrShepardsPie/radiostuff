@@ -1,2 +1,2 @@
-Frequency,Offset,Tone,Call,Location,ST/PR,Use,VOIP,DGTL,Mi,Dir,,state_id,ID,Latitude,Longitude,Downlink,Uplink,County,Grid,Op Status,Coverage,Sponsor,Features,Coordination,Last update
-448.35,-5,,KC7OXI,"Draper, South Mountain",UT,OPEN,,,183.6,NW,,49,93,40.46390152,-111.89299774,448.35,443.35,Salt Lake,DN40BL,On-Air,Utah County from Alpine to Payson. Salt Lake Valley communities from Salt Lake City to Draper.,Rocky Mtn RA,5,UVHFS,2015-07-19
+Frequency,Offset,Tone,Call,Location,ST/PR,Use,VOIP,DGTL,Mi,Dir,,state_id,ID,Latitude,Longitude,Downlink,Uplink,County,Grid,Op Status,Coverage,Sponsor,Features,FM,Analog Bandwidth,Coordination,Last update
+448.35,-5,,KC7OXI,"Draper, South Mountain",UT,OPEN,,,104.16,SE,,49,93,40.46390152,-111.89299774,448.35,443.35,Salt Lake,DN40BL,On-Air,Utah County from Alpine to Payson. Salt Lake Valley communities from Salt Lake City to Draper.,Rocky Mtn RA,5,Yes; analog capable.,,UVHFS,2015-07-19

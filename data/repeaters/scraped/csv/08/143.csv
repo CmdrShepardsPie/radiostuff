@@ -1,2 +1,2 @@
-Frequency,Offset,Tone,Call,Location,ST/PR,Use,VOIP,DGTL,Mi,Dir,,state_id,ID,Latitude,Longitude,Downlink,Uplink,Uplink Tone,County,Op Status,Sponsor,Coordination,Last update
-448.125,-5,107.2,N0PYY,Golden,CO,OPEN,,,90.26,N,,08,143,39.75559998,-105.22100067,448.125,443.125,107.2,Jefferson,On-Air,Denver PD EEB,CCARC,2014-04-28
+Frequency,Offset,Tone,Call,Location,ST/PR,Use,VOIP,DGTL,Mi,Dir,,state_id,ID,Latitude,Longitude,Downlink,Uplink,Uplink Tone,County,Op Status,Sponsor,FM,Analog Bandwidth,Coordination,Last update
+448.125,-5,107.2,N0PYY,Golden,CO,OPEN,,,90.26,N,,08,143,39.75559998,-105.22100067,448.125,443.125,107.2,Jefferson,On-Air,Denver PD EEB,Yes; analog capable.,,CCARC,2014-04-28

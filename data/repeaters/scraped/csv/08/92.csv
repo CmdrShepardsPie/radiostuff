@@ -1,2 +1,2 @@
-Frequency,Offset,Tone,Call,Location,ST/PR,Use,VOIP,DGTL,Mi,Dir,,state_id,ID,Latitude,Longitude,Downlink,Uplink,Uplink Tone,County,Op Status,Coverage,Sponsor,Features,Links,Coordination,Last update
-448.5,-5,100,KB0UDD,"Aurora, Smokey Hill",CO,OPEN,,,90.93,NNE,,08,92,39.72940063,-104.83100128,448.5,443.5,100,Denver,On-Air,Greater Denver area.,Castle Rock Repeater Group,E-power.,"Full-time to 145.40000 (KB0UDD) at Aurora, Smoky Hill, CO .",CCARC,2017-03-11
+Frequency,Offset,Tone,Call,Location,ST/PR,Use,VOIP,DGTL,Mi,Dir,,state_id,ID,Latitude,Longitude,Downlink,Uplink,Uplink Tone,County,Op Status,Coverage,Sponsor,Features,FM,Analog Bandwidth,Links,Coordination,Last update
+448.5,-5,100,KB0UDD,"Aurora, Smokey Hill",CO,OPEN,,,90.93,NNE,,08,92,39.72940063,-104.83100128,448.5,443.5,100,Denver,On-Air,Greater Denver area.,Castle Rock Repeater Group,E-power.,Yes; analog capable.,,"Full-time to 145.40000 (KB0UDD) at Aurora, Smoky Hill, CO .",CCARC,2017-03-11

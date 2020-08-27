@@ -1,2 +1,2 @@
-Frequency,Offset,Tone,Call,Location,ST/PR,Use,VOIP,DGTL,Mi,Dir,,state_id,ID,Latitude,Longitude,Downlink,Uplink,Uplink Tone,County,Op Status,Coverage,Sponsor,Features,Nets,Last update
-147.03,0.6,123,K0ECT,Dodge City,KS,OPEN,,,176.11,ESE,,20,3974,37.75279999,-100.01699829,147.03,147.63,123,Ford,On-Air,,SKECT,Autopatch,RACES,2019-09-02
+Frequency,Offset,Tone,Call,Location,ST/PR,Use,VOIP,DGTL,Mi,Dir,,state_id,ID,Latitude,Longitude,Downlink,Uplink,Uplink Tone,County,Op Status,Coverage,Sponsor,Features,FM,Analog Bandwidth,Nets,Last update
+147.03,0.6,123,K0ECT,Dodge City,KS,OPEN,,,176.11,ESE,,20,3974,37.75279999,-100.01699829,147.03,147.63,123,Ford,On-Air,,SKECT,Autopatch,Yes; analog capable.,,RACES,2019-09-02

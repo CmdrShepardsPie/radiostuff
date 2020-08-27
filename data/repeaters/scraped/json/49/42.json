@@ -8,8 +8,8 @@
   "Use": "OPEN",
   "VOIP": "",
   "DGTL": "",
-  "Mi": 191.76,
-  "Dir": "NW",
+  "Mi": 106.28,
+  "Dir": "ESE",
   "": "",
   "state_id": "49",
   "ID": "42",
@@ -24,6 +24,8 @@
   "Coverage": "Salt Lake Valley communities from Salt Lake City to Draper.",
   "Sponsor": "Salt Lake Co ARES",
   "Features": 4,
+  "FM": "Yes; analog capable.",
+  "Analog Bandwidth": "",
   "Coordination": "UVHFS",
   "Last update": ""
 }

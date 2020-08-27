@@ -1,2 +1,2 @@
-Frequency,Offset,Tone,Call,Location,ST/PR,Use,VOIP,DGTL,Mi,Dir,,state_id,ID,Latitude,Longitude,Downlink,Uplink,Uplink Tone,Downlink Tone,County,Grid,Op Status,Coverage,Sponsor,Features,EchoLink,Web links,Coordination,Last update
-146.73,-0.6,91.5,K0DK,Boulder,CO,OPEN,E,,111.09,N,Node Offline,08,15,40.05709839,-105.24299622,146.73,146.13,91.5,91.5,Boulder,DN70jb,On-Air,Local,BARC,12,115482,http://www.ked-wireless.com/products1.htm,CCARC,2017-05-02
+Frequency,Offset,Tone,Call,Location,ST/PR,Use,VOIP,DGTL,Mi,Dir,,state_id,ID,Latitude,Longitude,Downlink,Uplink,Uplink Tone,Downlink Tone,County,Grid,Op Status,Coverage,Sponsor,Features,FM,Analog Bandwidth,EchoLink,Web links,Coordination,Last update
+146.73,-0.6,91.5,K0DK,Boulder,CO,OPEN,E,,111.09,N,Node Offline,08,15,40.05709839,-105.24299622,146.73,146.13,91.5,91.5,Boulder,DN70jb,On-Air,Local,BARC,12,Yes; analog capable.,,115482,http://www.ked-wireless.com/products1.htm,CCARC,2017-05-02

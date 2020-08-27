@@ -1,2 +1,2 @@
-Frequency,Offset,Tone,Call,Location,ST/PR,Use,VOIP,DGTL,Mi,Dir,,state_id,ID,Latitude,Longitude,Downlink,Uplink,Uplink Tone,County,Op Status,Sponsor,Web links,Coordination,Last update
-145.43,-0.6,136.5,NM5SJ,Dulce,NM,OPEN,,,114.77,SSE,,35,15624,36.93360138,-106.99900055,145.43,144.83,136.5,Rio Arriba,On-Air,Totah Amateur Radio Club,http://totaharc.org/repeaters/,NMFCC,2019-10-21
+Frequency,Offset,Tone,Call,Location,ST/PR,Use,VOIP,DGTL,Mi,Dir,,state_id,ID,Latitude,Longitude,Downlink,Uplink,Uplink Tone,County,Op Status,Sponsor,FM,Analog Bandwidth,Web links,Coordination,Last update
+145.43,-0.6,136.5,NM5SJ,Dulce,NM,OPEN,,,142.75,SW,,35,15624,36.93360138,-106.99900055,145.43,144.83,136.5,Rio Arriba,On-Air,Totah Amateur Radio Club,Yes; analog capable.,,http://totaharc.org/repeaters/,NMFCC,2019-10-21

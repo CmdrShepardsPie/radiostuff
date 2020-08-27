@@ -1,2 +1,2 @@
-Frequency,Offset,Tone,Call,Location,ST/PR,Use,VOIP,DGTL,Mi,Dir,,state_id,ID,Latitude,Longitude,Downlink,Uplink,Uplink Tone,County,Grid,On-air,Coverage,Sponsor,Features,Coordination,Last update
-449.95,-5,100,W7EO,"Vernon, Vernon Hills",UT,OPEN,,,189,NW,,49,199,40.13079834,-112.3809967,449.95,444.95,100,Tooele,DN30TD,Unknown,Tooele Valley and communities from Grantsville down toward Vernon.,"Tooele County ARES, West Desert ARC",5,UVHFS,2008-07-10
+Frequency,Offset,Tone,Call,Location,ST/PR,Use,VOIP,DGTL,Mi,Dir,,state_id,ID,Latitude,Longitude,Downlink,Uplink,Uplink Tone,County,Grid,On-air,Coverage,Sponsor,Features,FM,Analog Bandwidth,Coordination,Last update
+449.95,-5,100,W7EO,"Vernon, Vernon Hills",UT,OPEN,,,88.6,SE,,49,199,40.13079834,-112.3809967,449.95,444.95,100,Tooele,DN30TD,Unknown,Tooele Valley and communities from Grantsville down toward Vernon.,"Tooele County ARES, West Desert ARC",5,Yes; analog capable.,,UVHFS,2008-07-10

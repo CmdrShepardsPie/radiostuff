@@ -1,2 +1,2 @@
-Frequency,Offset,Tone,Call,Location,ST/PR,Use,VOIP,DGTL,Mi,Dir,,state_id,ID,Latitude,Longitude,Downlink,Uplink,Uplink Tone,County,Op Status,Sponsor,Features,Coordination,Last update
-444.125,5,100,WA5TSV,Los Lunas,NM,OPEN,,,170.92,S,,35,127,34.80609894,-106.73300171,444.125,449.125,100,Valencia,On-Air,Los Lunas ARA,"Closed autopatch, e-power.",NMFCC,2016-01-23
+Frequency,Offset,Tone,Call,Location,ST/PR,Use,VOIP,DGTL,Mi,Dir,,state_id,ID,Latitude,Longitude,Downlink,Uplink,Uplink Tone,County,Op Status,Sponsor,Features,FM,Analog Bandwidth,Coordination,Last update
+444.125,5,100,WA5TSV,Los Lunas,NM,OPEN,,,170.92,S,,35,127,34.80609894,-106.73300171,444.125,449.125,100,Valencia,On-Air,Los Lunas ARA,"Closed autopatch, e-power.",Yes; analog capable.,,NMFCC,2016-01-23

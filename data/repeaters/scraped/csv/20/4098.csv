@@ -1,2 +1,2 @@
-Frequency,Offset,Tone,Call,Location,ST/PR,Use,VOIP,DGTL,Mi,Dir,,state_id,ID,Latitude,Longitude,Downlink,Uplink,Uplink Tone,Downlink Tone,County,Grid,Op Status,Coverage,Sponsor,Links,Nets,Web links,Coordination,Last update
-444.25,5,141.3,K0ECT,Montezuma,KS,OPEN,,,153.46,ESE,,20,4098,37.6344986,-100.46399689,444.25,449.25,141.3,141.3,Gray,DM97SP,On-Air,Local,SKECT,Full-time to the SKECT System .,ARES,http://skect.org/default.aspx,Kansas Repeater Council,2018-07-12
+Frequency,Offset,Tone,Call,Location,ST/PR,Use,VOIP,DGTL,Mi,Dir,,state_id,ID,Latitude,Longitude,Downlink,Uplink,Uplink Tone,Downlink Tone,County,Grid,Op Status,Coverage,Sponsor,FM,Analog Bandwidth,Links,Nets,Web links,Coordination,Last update
+444.25,5,141.3,K0ECT,Montezuma,KS,OPEN,,,153.46,ESE,,20,4098,37.6344986,-100.46399689,444.25,449.25,141.3,141.3,Gray,DM97SP,On-Air,Local,SKECT,Yes; analog capable.,,Full-time to the SKECT System .,ARES,http://skect.org/default.aspx,Kansas Repeater Council,2018-07-12

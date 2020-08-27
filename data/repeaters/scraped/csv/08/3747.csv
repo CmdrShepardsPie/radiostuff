@@ -1,2 +1,2 @@
-Frequency,Offset,Tone,Call,Location,ST/PR,Use,VOIP,DGTL,Mi,Dir,,state_id,ID,Latitude,Longitude,Downlink,Uplink,Uplink Tone,County,Grid,Op Status,Coverage,Sponsor,Coordination,Last update
-147.24,0.6,103.5,KJ0T,Pueblo,CO,OPEN,,,36.55,SE,,08,3747,38.23059845,-104.61100006,147.24,147.84,103.5,Pueblo,DM78QF,On-Air,Pueblo and Fremont Counties,TARA,CCARC,2012-06-13
+Frequency,Offset,Tone,Call,Location,ST/PR,Use,VOIP,DGTL,Mi,Dir,,state_id,ID,Latitude,Longitude,Downlink,Uplink,Uplink Tone,County,Grid,Op Status,Coverage,Sponsor,FM,Analog Bandwidth,Coordination,Last update
+147.24,0.6,103.5,KJ0T,Pueblo,CO,OPEN,,,36.55,SE,,08,3747,38.23059845,-104.61100006,147.24,147.84,103.5,Pueblo,DM78QF,On-Air,Pueblo and Fremont Counties,TARA,Yes; analog capable.,,CCARC,2012-06-13

@@ -1,2 +1,2 @@
-Frequency,Offset,Tone Up / Down,Location,County,Call,Use,,state_id,ID,Latitude,Longitude,Downlink,Uplink,Uplink Tone,Downlink Tone,Op Status,Sponsor,Links,Coordination,Last update
-147.285,0.6,88.5,"Winter Park, Winter Park",Grand,KB0VJJ,OPEN,,08,15582,39.88650131,-105.76300049,147.285,147.885,88.5,123,On-Air,Colorado Connection,Full-time to the Colorado Connection System .,CCARC,2017-01-06
+Frequency,Offset,Tone,Call,Location,ST/PR,Use,VOIP,DGTL,Mi,Dir,,state_id,ID,Latitude,Longitude,Downlink,Uplink,Uplink Tone,Downlink Tone,County,Op Status,Sponsor,FM,Analog Bandwidth,Links,Coordination,Last update
+147.285,0.6,88.5,KB0VJJ,"Winter Park, Winter Park",CO,OPEN,,,103.4,NNW,,08,15582,39.88650131,-105.76300049,147.285,147.885,88.5,123,Grand,On-Air,Colorado Connection,Yes; analog capable.,,Full-time to the Colorado Connection System .,CCARC,2017-01-06

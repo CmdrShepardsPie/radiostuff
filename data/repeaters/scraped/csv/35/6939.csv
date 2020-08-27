@@ -1,2 +1,2 @@
-Frequency,Offset,Tone,Call,Location,ST/PR,Use,VOIP,DGTL,Mi,Dir,,state_id,ID,Latitude,Longitude,Downlink,Uplink,Uplink Tone,County,Grid,Op Status,Sponsor,EchoLink,Last update
-146.92,-0.6,67,KF5ERC,Albuquerque,NM,OPEN,E,,162.67,SSE,Node Offline,35,6939,34.98099899,-106.3259964,146.92,146.32,67,Bernalillo,DM64UX,On-Air,Mel Watkins,714941,2018-06-16
+Frequency,Offset,Tone,Call,Location,ST/PR,Use,VOIP,DGTL,Mi,Dir,,state_id,ID,Latitude,Longitude,Downlink,Uplink,Uplink Tone,County,Grid,Op Status,Sponsor,FM,Analog Bandwidth,EchoLink,Last update
+146.92,-0.6,67,KF5ERC,Albuquerque,NM,OPEN,E,,162.67,SSE,Node Offline,35,6939,34.98099899,-106.3259964,146.92,146.32,67,Bernalillo,DM64UX,On-Air,Mel Watkins,Yes; analog capable.,,714941,2018-06-16

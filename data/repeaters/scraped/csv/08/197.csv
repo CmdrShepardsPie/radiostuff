@@ -1,2 +1,2 @@
-Frequency,Offset,Tone Up / Down,Location,County,Call,Use,,state_id,ID,Latitude,Longitude,Downlink,Uplink,Uplink Tone,Grid,Op Status,Coverage,Sponsor,Features,Web links,Coordination,Last update
-447.175,-5,88.5,"Pueblo, Jackson Hill",Pueblo,W0PHC,OPEN,,08,197,38.04109955,-105.18499756,447.175,442.175,88.5,DM78JA,On-Air,Wide area: Southeast Colorado.,Pueblo Amateur Radio Club,11,http://www.puebloradio.org/,CCARC,2019-12-10
+Frequency,Offset,Tone,Call,Location,ST/PR,Use,VOIP,DGTL,Mi,Dir,,state_id,ID,Latitude,Longitude,Downlink,Uplink,Uplink Tone,DMR Enabled,Color Code,IPSC Network,Wide Network,County,Grid,Op Status,Coverage,Sponsor,Web links,Coordination,Last update
+447.175,-5,CC 88.5,W0PHC,"Pueblo, 12 Mile Hill",CO,OPEN,,D,32.69,SE,,08,197,38.20700073,-104.7070007,447.175,442.175,88.5,1,0,c Record retrieved from radioid.net,,Pueblo,DM78PE,On-Air,Wide area: Southeast Colorado.,Pueblo Amateur Radio Club,http://www.puebloradio.org/,CCARC,2020-07-19

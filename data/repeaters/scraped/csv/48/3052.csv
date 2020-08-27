@@ -1,2 +1,2 @@
-Frequency,Offset,Tone,Call,Location,ST/PR,Use,VOIP,DGTL,Mi,Dir,,state_id,ID,Latitude,Longitude,Downlink,Uplink,Uplink Tone,County,Grid,Op Status,EchoLink,Coordination,Last update
-927.1625,-25,151.4,KA3IDN,Amarillo,TX,OPEN,E,,156.2,SSE,Node Offline,48,3052,35.2417984,-101.81300354,927.1625,902.1625,151.4,Potter,DM95CF,On-Air,361016,TVHFS,
+Frequency,Offset,Tone,Call,Location,ST/PR,Use,VOIP,DGTL,Mi,Dir,,state_id,ID,Latitude,Longitude,Downlink,Uplink,Uplink Tone,County,Grid,Op Status,FM,Analog Bandwidth,EchoLink,Coordination,Last update
+927.1625,-25,151.4,KA3IDN,Amarillo,TX,OPEN,E,,156.2,SSE,Node Offline,48,3052,35.2417984,-101.81300354,927.1625,902.1625,151.4,Potter,DM95CF,On-Air,Yes; analog capable.,,361016,TVHFS,

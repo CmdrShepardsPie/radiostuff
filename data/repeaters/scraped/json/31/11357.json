@@ -12,20 +12,5 @@
   "Dir": "NNW",
   "": "",
   "state_id": "31",
-  "ID": "11357",
-  "Latitude": 42.82649994,
-  "Longitude": -102.98999786,
-  "Downlink": 145.62,
-  "Uplink": 145.62,
-  "Uplink Tone": 100,
-  "Downlink Tone": 100,
-  "County": "Dawes",
-  "Grid": "DN82MT",
-  "Op Status": "On-Air",
-  "Coverage": "Chadron, Gordon, Alliance, Crawford, Pine Ridge.",
-  "Sponsor": "Pine Ridge Amateur Radio Club - Ron Cashon -- 308 432-3322",
-  "Features": "Voice ID",
-  "IRLP": 3936,
-  "Notes": "IRLP status down",
-  "Last update": "2020-01-19"
+  "ID": "11357"
 }

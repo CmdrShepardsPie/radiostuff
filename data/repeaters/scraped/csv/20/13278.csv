@@ -1,2 +1,2 @@
-Frequency,Offset,Tone,Call,Location,ST/PR,Use,VOIP,DGTL,Mi,Dir,,state_id,ID,Latitude,Longitude,Downlink,Uplink,Uplink Tone,Downlink Tone,County,Grid,Op Status,Coverage,Sponsor,Affiliate,Features,AllStar,Last update
-224.28,-1.6,131.8,N7JYS,Hays,KS,OPEN,A,,195.34,SE,,20,13278,38.93429947,-99.31549835,224.28,222.68,131.8,131.8,Ellis,EM08IW,On-Air,50,N7JYS,Western Kansas Intertie,Internet linking,2351,2018-01-07
+Frequency,Offset,Tone,Call,Location,ST/PR,Use,VOIP,DGTL,Mi,Dir,,state_id,ID,Latitude,Longitude,Downlink,Uplink,Uplink Tone,Downlink Tone,County,Grid,Op Status,Coverage,Sponsor,Affiliate,Features,FM,Analog Bandwidth,AllStar,Last update
+224.28,-1.6,131.8,N7JYS,Hays,KS,OPEN,A,,195.34,SE,,20,13278,38.93429947,-99.31549835,224.28,222.68,131.8,131.8,Ellis,EM08IW,On-Air,50,N7JYS,Western Kansas Intertie,Internet linking,Yes; analog capable.,,2351,2018-01-07

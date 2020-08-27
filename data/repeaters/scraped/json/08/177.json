@@ -23,9 +23,11 @@
   "Op Status": "On-Air",
   "Sponsor": "Longmont ARC",
   "Features": 30,
+  "FM": "Yes; analog capable.",
+  "Analog Bandwidth": "",
   "Links": "Linkable to 147.27000 (W0ENO) at Longmont, CO .",
   "EchoLink": 8305,
   "Nets": "Hamlet: Tue at 1900. LARC: Thur at 20:00.",
   "Coordination": "CCARC",
-  "Last update": "2020-05-17"
+  "Last update": "2020-07-30"
 }

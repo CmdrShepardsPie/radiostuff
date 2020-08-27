@@ -1,2 +1,2 @@
-Frequency,Offset,Tone,Call,Location,ST/PR,Use,VOIP,DGTL,Mi,Dir,,state_id,ID,Latitude,Longitude,Downlink,Uplink,Uplink Tone,Downlink Tone,County,Op Status,Coordination,Last update
-146.85,-0.6,123,N0VL,Lexington,NE,OPEN,,,134.82,ESE,,31,12983,40.78070068,-99.74210358,146.85,146.25,123,123,Dawson,On-Air,WB0CMC,2016-07-20
+Frequency,Offset,Tone,Call,Location,ST/PR,Use,VOIP,DGTL,Mi,Dir,,state_id,ID,Latitude,Longitude,Downlink,Uplink,Uplink Tone,Downlink Tone,County,Op Status,FM,Analog Bandwidth,Coordination,Last update
+146.85,-0.6,123,N0VL,Lexington,NE,OPEN,,,134.82,ESE,,31,12983,40.78070068,-99.74210358,146.85,146.25,123,123,Dawson,On-Air,Yes; analog capable.,,WB0CMC,2016-07-20

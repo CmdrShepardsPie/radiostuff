@@ -12,17 +12,5 @@
   "Dir": "NW",
   "": "",
   "state_id": "31",
-  "ID": "11356",
-  "Latitude": 41.95100021,
-  "Longitude": -103.80000305,
-  "Downlink": 445.1,
-  "Uplink": 445.1,
-  "Uplink Tone": 100,
-  "Downlink Tone": 100,
-  "County": "Scotts Bluff",
-  "Grid": "DN81CW",
-  "Op Status": "On-Air",
-  "IRLP": 3942,
-  "Notes": "This is a simplex IRLP node.",
-  "Last update": "2014-04-17"
+  "ID": "11356"
 }

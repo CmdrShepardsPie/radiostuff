@@ -17,12 +17,11 @@
   "Longitude": -106.11499786,
   "Downlink": 447.1,
   "Uplink": 442.1,
-  "Bandwidth": 25,
   "Uplink Tone": 77,
   "County": "Rio Grande",
   "Op Status": "On-Air",
   "Coverage": "Local 10 mi radius.",
-  "Mixed-Mode": "Yes; analog capable.",
+  "FM": "Yes; analog capable.",
   "Analog Bandwidth": 25,
   "Coordination": "CCARC",
   "Last update": "2020-04-29"

@@ -1,11 +1,15 @@
 {
   "Frequency": 224.72,
   "Offset": -1.6,
-  "Tone Up / Down": 103.5,
-  "Location": "Colorado springs",
-  "County": "El Paso",
+  "Tone": 103.5,
   "Call": "W0MOG",
+  "Location": "Colorado springs",
+  "ST/PR": "CO",
   "Use": "OPEN",
+  "VOIP": "",
+  "DGTL": "",
+  "Mi": 38.67,
+  "Dir": "NE",
   "": "",
   "state_id": "08",
   "ID": "15989",
@@ -15,8 +19,11 @@
   "Uplink": 223.12,
   "Uplink Tone": 103.5,
   "Downlink Tone": 103.5,
+  "County": "El Paso",
   "Op Status": "On-Air",
   "Coverage": "Local",
   "Sponsor": "w0mog",
-  "Last update": "2017-04-07"
+  "FM": "Yes; analog capable.",
+  "Analog Bandwidth": "",
+  "Last update": "2020-07-24"
 }

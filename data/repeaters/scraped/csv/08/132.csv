@@ -1,2 +1,2 @@
-Frequency,Offset,Tone,Call,Location,ST/PR,Use,VOIP,DGTL,Mi,Dir,,state_id,ID,Latitude,Longitude,Downlink,Uplink,Uplink Tone,County,Op Status,Sponsor,Coordination,Last update
-447.1,-5,107.2,KI0G,"Glenwood Springs, Sunlight Peak",CO,OPEN,,,134.05,WNW,,08,132,39.42639923,-107.37999725,447.1,442.1,107.2,Garfield,On-Air,Ski Country ARC,CCARC,2012-11-10
+Frequency,Offset,Tone,Call,Location,ST/PR,Use,VOIP,DGTL,Mi,Dir,,state_id,ID,Latitude,Longitude,Downlink,Uplink,Uplink Tone,County,Op Status,Sponsor,FM,Analog Bandwidth,Coordination,Last update
+447.1,-5,107.2,KI0G,"Glenwood Springs, Sunlight Peak",CO,OPEN,,,134.05,WNW,,08,132,39.42639923,-107.37999725,447.1,442.1,107.2,Garfield,On-Air,Ski Country ARC,Yes; analog capable.,,CCARC,2012-11-10

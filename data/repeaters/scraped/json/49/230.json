@@ -8,8 +8,8 @@
   "Use": "CLOSED",
   "VOIP": "",
   "DGTL": "",
-  "Mi": 186.53,
-  "Dir": "NW",
+  "Mi": 98.85,
+  "Dir": "SE",
   "": "",
   "state_id": "49",
   "ID": "230",
@@ -24,6 +24,8 @@
   "Sponsor": "Desert ARS",
   "Affiliate": "Cactus-Intertie",
   "Features": "Remote base.",
+  "FM": "Yes; analog capable.",
+  "Analog Bandwidth": "",
   "Coordination": "UVHFS",
   "Last update": "2015-06-08"
 }

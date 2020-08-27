@@ -1,2 +1,2 @@
-Frequency,Offset,Tone Up / Down,Location,County,Call,Use,,state_id,ID,Latitude,Longitude,Downlink,Uplink,Uplink Tone,Grid,On-air,Coverage,Sponsor,Features,Coordination,Last update
-448.175,-5,203.5,"Salt Lake City, Ensign Peak",Salt Lake,KD7IMS,OPEN,,49,101,40.80469894,-111.89600372,448.175,443.175,203.5,DN40BT,Unknown,Wide area: Salt Lake Valley communities from Salt Lake City to Draper.,N7HIW,5,UVHFS,
+Frequency,Offset,Tone,Call,Location,ST/PR,Use,VOIP,DGTL,Mi,Dir,,state_id,ID,Latitude,Longitude,Downlink,Uplink,Uplink Tone,County,Grid,On-air,Coverage,Sponsor,Features,FM,Analog Bandwidth,Coordination,Last update
+448.175,-5,203.5,KD7IMS,"Salt Lake City, Ensign Peak",UT,OPEN,,,101.46,ESE,,49,101,40.80469894,-111.89600372,448.175,443.175,203.5,Salt Lake,DN40BT,Unknown,Wide area: Salt Lake Valley communities from Salt Lake City to Draper.,N7HIW,5,Yes; analog capable.,,UVHFS,

@@ -8,8 +8,8 @@
   "Use": "OPEN",
   "VOIP": "",
   "DGTL": "",
-  "Mi": 199.25,
-  "Dir": "NW",
+  "Mi": 101.88,
+  "Dir": "ESE",
   "": "",
   "state_id": "49",
   "ID": "13",
@@ -23,6 +23,8 @@
   "Coverage": "Salt Lake Valley communities from Salt Lake City to Draper.",
   "Sponsor": "Utah VHF Society",
   "Features": 4,
+  "FM": "Yes; analog capable.",
+  "Analog Bandwidth": "",
   "Coordination": "UVHFS",
   "Last update": "2008-07-10"
 }

@@ -1,2 +1,2 @@
-Frequency,Offset,Tone,Call,Location,ST/PR,Use,VOIP,DGTL,Mi,Dir,,state_id,ID,Latitude,Longitude,Downlink,Uplink,Uplink Tone,County,Op Status,Coverage,Sponsor,Features,Coordination,Last update
-145.295,-0.6,100,WA0JTB,"Sterling, CO",CO,OPEN,,,184.85,NE,,08,238,40.62559891,-103.20700073,145.295,144.695,100,Logan,On-Air,Wide area,NECARA,"Autopatch, e-power.",CCARC,2020-01-17
+Frequency,Offset,Tone,Call,Location,ST/PR,Use,VOIP,DGTL,Mi,Dir,,state_id,ID,Latitude,Longitude,Downlink,Uplink,Uplink Tone,County,Op Status,Coverage,Sponsor,Features,FM,Analog Bandwidth,Coordination,Last update
+145.295,-0.6,100,WA0JTB,"Sterling, CO",CO,OPEN,,,184.85,NE,,08,238,40.62559891,-103.20700073,145.295,144.695,100,Logan,On-Air,Wide area,NECARA,"Autopatch, e-power.",Yes; analog capable.,,CCARC,2020-01-17

@@ -1,2 +1,2 @@
-Frequency,Offset,Tone Up / Down,Location,County,Call,Use,,state_id,ID,Latitude,Longitude,Downlink,Uplink,Op Status,Coverage,Features,Coordination,Last update
-224.96,-1.6,,Syracuse,Davis,NJ7J,OPEN,,49,170,41.08750153,-112.04199982,224.96,223.36,On-Air,Wasatch Front from Ogden to the Utah/Idaho border. Ogden and South Ogden area. North Salt Lake to South Ogden.,4,UVHFS,2019-04-05
+Frequency,Offset,Tone,Call,Location,ST/PR,Use,VOIP,DGTL,Mi,Dir,,state_id,ID,Latitude,Longitude,Downlink,Uplink,County,Op Status,Coverage,Features,FM,Analog Bandwidth,Coordination,Last update
+224.96,-1.6,,NJ7J,Syracuse,UT,OPEN,,,96.01,E,,49,170,41.08750153,-112.04199982,224.96,223.36,Davis,On-Air,Wasatch Front from Ogden to the Utah/Idaho border. Ogden and South Ogden area. North Salt Lake to South Ogden.,4,Yes; analog capable.,,UVHFS,2019-04-05

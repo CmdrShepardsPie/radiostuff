@@ -1,11 +1,15 @@
 {
   "Frequency": 447.275,
   "Offset": -5,
-  "Tone Up / Down": 100,
-  "Location": "Monticello, Abajo Peak",
-  "County": "Wayne",
+  "Tone": 100,
   "Call": "KB5ITS",
+  "Location": "Monticello, Abajo Peak",
+  "ST/PR": "UT",
   "Use": "OPEN",
+  "VOIP": "",
+  "DGTL": "",
+  "Mi": 140.02,
+  "Dir": "WNW",
   "": "",
   "state_id": "49",
   "ID": "18460",
@@ -14,9 +18,12 @@
   "Downlink": 447.275,
   "Uplink": 442.275,
   "Uplink Tone": 100,
+  "County": "San Juan",
   "Op Status": "On-Air",
   "Sponsor": "San Juan Connection",
+  "FM": "Yes; analog capable.",
+  "Analog Bandwidth": "",
   "Links": "Full-time to the SAN JUAN CONNECTION System .",
   "Web links": "http://www.sjcham.com",
-  "Last update": "2020-01-13"
+  "Last update": "2020-07-07"
 }

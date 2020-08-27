@@ -1,11 +1,15 @@
 {
   "Frequency": 224.64,
   "Offset": -1.6,
-  "Tone Up / Down": 156.7,
-  "Location": "Sandy",
-  "County": "Salt Lake",
+  "Tone": 156.7,
   "Call": "KA7EGC",
+  "Location": "Sandy",
+  "ST/PR": "UT",
   "Use": "OPEN",
+  "VOIP": "",
+  "DGTL": "",
+  "Mi": 106.38,
+  "Dir": "ESE",
   "": "",
   "state_id": "49",
   "ID": "17742",
@@ -14,6 +18,9 @@
   "Downlink": 224.64,
   "Uplink": 223.04,
   "Uplink Tone": 156.7,
+  "County": "Salt Lake",
   "Op Status": "On-Air",
+  "FM": "Yes; analog capable.",
+  "Analog Bandwidth": "",
   "Last update": "2019-04-22"
 }

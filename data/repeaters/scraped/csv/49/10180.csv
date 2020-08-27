@@ -1,2 +1,2 @@
-Frequency,Offset,Tone,Call,Location,ST/PR,Use,VOIP,DGTL,Mi,Dir,,state_id,ID,Latitude,Longitude,Downlink,Uplink,Uplink Tone,County,Op Status,Coordination,Last update
-449.7,-5,127.3,KO7R,"Cedar Fort, Internet Mountain",UT,OPEN,,,185.46,NW,,49,10180,40.32720184,-112.10399628,449.7,444.7,127.3,Utah,On-Air,UVHFS,2017-09-01
+Frequency,Offset,Tone,Call,Location,ST/PR,Use,VOIP,DGTL,Mi,Dir,,state_id,ID,Latitude,Longitude,Downlink,Uplink,Uplink Tone,County,Op Status,FM,Analog Bandwidth,Coordination,Last update
+449.7,-5,127.3,KO7R,"Cedar Fort, Internet Mountain",UT,OPEN,,,96.09,SE,,49,10180,40.32720184,-112.10399628,449.7,444.7,127.3,Utah,On-Air,Yes; analog capable.,,UVHFS,2017-09-01

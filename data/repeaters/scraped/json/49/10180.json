@@ -8,8 +8,8 @@
   "Use": "OPEN",
   "VOIP": "",
   "DGTL": "",
-  "Mi": 185.46,
-  "Dir": "NW",
+  "Mi": 96.09,
+  "Dir": "SE",
   "": "",
   "state_id": "49",
   "ID": "10180",
@@ -20,6 +20,8 @@
   "Uplink Tone": 127.3,
   "County": "Utah",
   "Op Status": "On-Air",
+  "FM": "Yes; analog capable.",
+  "Analog Bandwidth": "",
   "Coordination": "UVHFS",
   "Last update": "2017-09-01"
 }

@@ -1,2 +1,2 @@
-Frequency,Offset,Tone,Call,Location,ST/PR,Use,VOIP,DGTL,Mi,Dir,,state_id,ID,Latitude,Longitude,Downlink,Uplink,Uplink Tone,County,Grid,Op Status,Coverage,Sponsor,Coordination,Last update
-444.075,5,100,W5NES,"Mountainair, Capilla Peak",NM,OPEN,,,180.7,S,,35,131,34.70100021,-106.40200043,444.075,449.075,100,Torrance,DM64TQ,On-Air,"Excellent coverage in Albuquerque, up to Santa Fe.",W5NES,NMFCC,2018-11-22
+Frequency,Offset,Tone,Call,Location,ST/PR,Use,VOIP,DGTL,Mi,Dir,,state_id,ID,Latitude,Longitude,Downlink,Uplink,Uplink Tone,County,Grid,Op Status,Coverage,Sponsor,FM,Analog Bandwidth,Coordination,Last update
+444.075,5,100,W5NES,"Mountainair, Capilla Peak",NM,OPEN,,,180.7,S,,35,131,34.70100021,-106.40200043,444.075,449.075,100,Torrance,DM64TQ,On-Air,"Excellent coverage in Albuquerque, up to Santa Fe.",W5NES,Yes; analog capable.,,NMFCC,2018-11-22

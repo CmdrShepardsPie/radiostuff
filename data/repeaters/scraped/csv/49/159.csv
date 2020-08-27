@@ -1,2 +1,2 @@
-Frequency,Offset,Tone Up / Down,Location,County,Call,Use,,state_id,ID,Latitude,Longitude,Downlink,Uplink,Uplink Tone,Grid,On-air,Coverage,Sponsor,Features,Coordination,Last update
-224,-1.6,167.9,"Ogden, Powder Mountain",Weber,N7TOP,OPEN,,49,159,41.37060165,-111.76599884,224,222.4,167.9,DN41CI,Unknown,Wide area: Cache and Morgan valleys.,Intermountain Repeater Emergency Amateur Network,Remote base.,UVHFS,
+Frequency,Offset,Tone,Call,Location,ST/PR,Use,VOIP,DGTL,Mi,Dir,,state_id,ID,Latitude,Longitude,Downlink,Uplink,Uplink Tone,County,Grid,On-air,Coverage,Sponsor,Features,FM,Analog Bandwidth,Coordination,Last update
+224,-1.6,167.9,N7TOP,"Ogden, Powder Mountain",UT,OPEN,,,115.28,E,,49,159,41.37060165,-111.76599884,224,222.4,167.9,Weber,DN41CI,Unknown,Wide area: Cache and Morgan valleys.,Intermountain Repeater Emergency Amateur Network,Remote base.,Yes; analog capable.,,UVHFS,

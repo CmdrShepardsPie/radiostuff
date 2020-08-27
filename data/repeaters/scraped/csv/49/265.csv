@@ -1,2 +1,2 @@
-Frequency,Offset,Tone,Call,Location,ST/PR,Use,VOIP,DGTL,Mi,Dir,,state_id,ID,Latitude,Longitude,Downlink,Uplink,Uplink Tone,County,Grid,Op Status,Coverage,Sponsor,IRLP,Coordination,Last update
-448.425,-5,100,WD7SL,"Salt Lake City, LDS HQ",UT,OPEN,I,,198.95,NW,,49,265,40.77109909,-111.88899994,448.425,443.425,100,Salt Lake,DN40BS,On-Air,Salt Lake Valley communities from Salt Lake City to Draper.,ERC,3837,UVHFS,2016-06-21
+Frequency,Offset,Tone,Call,Location,ST/PR,Use,VOIP,DGTL,Mi,Dir,,state_id,ID,Latitude,Longitude,Downlink,Uplink,Uplink Tone,County,Grid,Op Status,Coverage,Sponsor,FM,Analog Bandwidth,IRLP,Coordination,Last update
+448.425,-5,100,WD7SL,"Salt Lake City, LDS HQ",UT,OPEN,I,,101.84,ESE,,49,265,40.77109909,-111.88899994,448.425,443.425,100,Salt Lake,DN40BS,On-Air,Salt Lake Valley communities from Salt Lake City to Draper.,ERC,Yes; analog capable.,,3837,UVHFS,2016-06-21

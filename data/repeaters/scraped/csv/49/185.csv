@@ -1,2 +1,2 @@
-Frequency,Offset,Tone Up / Down,Location,County,Call,Use,,state_id,ID,Latitude,Longitude,Downlink,Uplink,Uplink Tone,Grid,Op Status,Coverage,Coordination,Last update
-449.35,-5,123,Bountiful,Davis,W7CWK,OPEN,,49,185,40.89149857,-111.88500214,449.35,444.35,123,DN40BV,On-Air,North Salt Lake to South Ogden,UVHFS,2008-07-10
+Frequency,Offset,Tone,Call,Location,ST/PR,Use,VOIP,DGTL,Mi,Dir,,state_id,ID,Latitude,Longitude,Downlink,Uplink,Uplink Tone,County,Grid,Op Status,Coverage,FM,Analog Bandwidth,Coordination,Last update
+449.35,-5,123,W7CWK,Bountiful,UT,OPEN,,,102.25,ESE,,49,185,40.89149857,-111.88500214,449.35,444.35,123,Davis,DN40BV,On-Air,North Salt Lake to South Ogden,Yes; analog capable.,,UVHFS,2008-07-10

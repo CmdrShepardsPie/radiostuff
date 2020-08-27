@@ -1,2 +1,2 @@
-Frequency,Offset,Tone,Call,Location,ST/PR,Use,VOIP,DGTL,Mi,Dir,,state_id,ID,Latitude,Longitude,Downlink,Uplink,Uplink Tone,County,Grid,Op Status,Coverage,Sponsor,Coordination,Last update
-147.24,0.6,100,N7GCR,"Rawlins, Elk Mountain",WY,OPEN,,,150.86,N,,56,29,41.63330078,-106.52600098,147.24,147.84,100,Carbon,DN61RP,On-Air,Wide area.,CCARS,WRCG,2017-01-04
+Frequency,Offset,Tone,Call,Location,ST/PR,Use,VOIP,DGTL,Mi,Dir,,state_id,ID,Latitude,Longitude,Downlink,Uplink,Uplink Tone,County,Grid,Op Status,Coverage,Sponsor,FM,Analog Bandwidth,Coordination,Last update
+147.24,0.6,100,N7GCR,"Rawlins, Elk Mountain",WY,OPEN,,,150.86,N,,56,29,41.63330078,-106.52600098,147.24,147.84,100,Carbon,DN61RP,On-Air,Wide area.,CCARS,Yes; analog capable.,,WRCG,2017-01-04

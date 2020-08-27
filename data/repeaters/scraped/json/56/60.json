@@ -5,7 +5,7 @@
   "Call": "WY7EOC",
   "Location": "Laramie, Pilot Hill",
   "ST/PR": "WY",
-  "Use": "CLOSED",
+  "Use": "OPEN",
   "VOIP": "",
   "DGTL": "D",
   "Mi": 194.97,
@@ -30,9 +30,9 @@
   "County": "Albany",
   "Grid": "DN71GG",
   "Op Status": "On-Air",
-  "Coverage": "Wide area.",
+  "Coverage": "Wide area. 60 mi radius.",
   "Sponsor": "Laramie County EM",
   "Affiliate": "Wyoming DMR Project",
   "Coordination": "WRCG",
-  "Last update": "2019-12-12"
+  "Last update": "2020-07-12"
 }

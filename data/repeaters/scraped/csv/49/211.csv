@@ -1,2 +1,2 @@
-Frequency,Offset,Tone,Call,Location,ST/PR,Use,VOIP,DGTL,Mi,Dir,,state_id,ID,Latitude,Longitude,Downlink,Uplink,County,Op Status,Coverage,Features,Coordination,Last update
-447.175,-5,,W7SAR,Salt Lake City,UT,OPEN,,,198.31,NW,,49,211,40.7594986,-111.88800049,447.175,442.175,Salt Lake,On-Air,Salt Lake Valley communities from Salt Lake City to Draper.,Portable.,UVHFS,2008-07-10
+Frequency,Offset,Tone,Call,Location,ST/PR,Use,VOIP,DGTL,Mi,Dir,,state_id,ID,Latitude,Longitude,Downlink,Uplink,County,Op Status,Coverage,Features,FM,Analog Bandwidth,Coordination,Last update
+447.175,-5,,W7SAR,Salt Lake City,UT,OPEN,,,101.91,ESE,,49,211,40.7594986,-111.88800049,447.175,442.175,Salt Lake,On-Air,Salt Lake Valley communities from Salt Lake City to Draper.,Portable.,Yes; analog capable.,,UVHFS,2008-07-10

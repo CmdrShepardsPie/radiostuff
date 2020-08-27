@@ -8,8 +8,8 @@
   "Use": "CLOSED",
   "VOIP": "",
   "DGTL": "",
-  "Mi": 183.74,
-  "Dir": "NW",
+  "Mi": 103.45,
+  "Dir": "SE",
   "": "",
   "state_id": "49",
   "ID": "10744",
@@ -21,6 +21,8 @@
   "County": "Utah",
   "Op Status": "On-Air",
   "Sponsor": "UHDARC",
+  "FM": "Yes; analog capable.",
+  "Analog Bandwidth": "",
   "Coordination": "UVHFS",
   "Last update": "2016-07-05"
 }

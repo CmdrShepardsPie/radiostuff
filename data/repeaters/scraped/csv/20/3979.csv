@@ -1,2 +1,2 @@
-Frequency,Offset,Tone,Call,Location,ST/PR,Use,VOIP,DGTL,Mi,Dir,,state_id,ID,Latitude,Longitude,Downlink,Uplink,County,Grid,Op Status,Coverage,Sponsor,Coordination,Last update
-147.06,0.6,,K0ECT,Ulysses,KS,OPEN,,,199.04,SE,,20,3979,37.24000168,-101.1989975,147.06,147.66,Grant,DM97JF,On-Air,Local,SKECT,Kansas Repeater Council,2019-10-18
+Frequency,Offset,Tone,Call,Location,ST/PR,Use,VOIP,DGTL,Mi,Dir,,state_id,ID,Latitude,Longitude,Downlink,Uplink,County,Grid,Op Status,Coverage,Sponsor,FM,Analog Bandwidth,Coordination,Last update
+147.06,0.6,,K0ECT,Ulysses,KS,OPEN,,,199.04,SE,,20,3979,37.24000168,-101.1989975,147.06,147.66,Grant,DM97JF,On-Air,Local,SKECT,Yes; analog capable.,,Kansas Repeater Council,2019-10-18

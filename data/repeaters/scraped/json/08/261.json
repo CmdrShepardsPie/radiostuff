@@ -21,6 +21,8 @@
   "County": "Mesa",
   "Op Status": "On-Air",
   "Coverage": "Wide area: North Western Colorado - South to Montrose and East on I-70.",
+  "FM": "Yes; analog capable.",
+  "Analog Bandwidth": "",
   "AllStar": 43554,
   "Commands": "Enter *83 node# to link. *81 Unlink",
   "Coordination": "CCARC",

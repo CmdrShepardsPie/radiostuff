@@ -1,2 +1,2 @@
-Frequency,Offset,Tone,Call,Location,ST/PR,Use,VOIP,DGTL,Mi,Dir,,state_id,ID,Latitude,Longitude,Downlink,Uplink,County,On-air,Coverage,Sponsor,Features,Last update
-449.1,-5,,NG7T,Casper,WY,OPEN,,,166.74,N,,56,63,42.86669922,-106.31199646,449.1,444.1,Natrona,Unknown,Wide area: 50 mi radius.,NG7T,E-power.,2017-01-04
+Frequency,Offset,Tone,Call,Location,ST/PR,Use,VOIP,DGTL,Mi,Dir,,state_id,ID,Latitude,Longitude,Downlink,Uplink,County,On-air,Coverage,Sponsor,Features,FM,Analog Bandwidth,Last update
+449.1,-5,,NG7T,Casper,WY,OPEN,,,166.74,N,,56,63,42.86669922,-106.31199646,449.1,444.1,Natrona,Unknown,Wide area: 50 mi radius.,NG7T,E-power.,Yes; analog capable.,,2017-01-04

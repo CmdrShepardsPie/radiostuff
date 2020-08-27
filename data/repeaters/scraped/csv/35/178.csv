@@ -1,2 +1,2 @@
-Frequency,Offset,Tone,Call,Location,ST/PR,Use,VOIP,DGTL,Mi,Dir,,state_id,ID,Latitude,Longitude,Downlink,Uplink,County,On-air,Sponsor,Coordination,Last update
-224.98,-1.6,,WA5EMA,Tucumcari,NM,OPEN,,,198.68,SE,,35,178,35.17169952,-103.72399902,224.98,223.38,Quay,Unknown,WA5EMA,NMFCC,
+Frequency,Offset,Tone,Call,Location,ST/PR,Use,VOIP,DGTL,Mi,Dir,,state_id,ID,Latitude,Longitude,Downlink,Uplink,County,On-air,Sponsor,FM,Analog Bandwidth,Coordination,Last update
+224.98,-1.6,,WA5EMA,Tucumcari,NM,OPEN,,,198.68,SE,,35,178,35.17169952,-103.72399902,224.98,223.38,Quay,Unknown,WA5EMA,Yes; analog capable.,,NMFCC,

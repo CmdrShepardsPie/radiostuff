@@ -8,8 +8,8 @@
   "Use": "OPEN",
   "VOIP": "",
   "DGTL": "",
-  "Mi": 197.22,
-  "Dir": "NW",
+  "Mi": 104.56,
+  "Dir": "ESE",
   "": "",
   "state_id": "49",
   "ID": "102",
@@ -23,6 +23,8 @@
   "Op Status": "On-Air",
   "Coverage": "Salt Lake Valley communities from Salt Lake City to Draper. Utah County from Alpine to Payson.",
   "Features": 4,
+  "FM": "Yes; analog capable.",
+  "Analog Bandwidth": "",
   "Coordination": "UVHFS",
   "Last update": "2008-07-10"
 }

@@ -17,7 +17,6 @@
   "Longitude": -105.04000092,
   "Downlink": 146.97,
   "Uplink": 146.37,
-  "Bandwidth": 25,
   "Uplink Tone": 100,
   "County": "El Paso",
   "Grid": "DM78LU",
@@ -25,9 +24,12 @@
   "Coverage": "Wide area. line-of-sight coverage to pretty much the entire prairie of Colorado, from the mountains eastward to Kansas, with signal as far as New Mexico and Wyoming depending on where you are.",
   "Sponsor": "Pikes Peak FM Assoc",
   "Features": "e-power.",
+  "FM": "Yes; analog capable.",
+  "Analog Bandwidth": 25,
   "Links": "Linkable to 448.45000 (KB0SRJ) at Colorado Springs, Pikes Peak, CO .",
   "Nets": "listed on http://ppfma.org",
   "Web links": "PPFMA Repeaters",
+  "Feed": "Listen Live",
   "Coordination": "CCARC",
-  "Last update": "2019-11-11"
+  "Last update": "2020-07-16"
 }

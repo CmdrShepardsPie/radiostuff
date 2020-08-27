@@ -1,2 +1,2 @@
-Frequency,Offset,Tone Up / Down,Location,County,Call,Use,,state_id,ID,Latitude,Longitude,Downlink,Uplink,Uplink Tone,Grid,Op Status,Features,Coordination,Last update
-449.25,-5,100,Layton,Davis,AI7J,OPEN,,49,8,41.05400085,-111.95200348,449.25,444.25,100,DN41AB,On-Air,4,UVHFS,2015-08-21
+Frequency,Offset,Tone,Call,Location,ST/PR,Use,VOIP,DGTL,Mi,Dir,,state_id,ID,Latitude,Longitude,Downlink,Uplink,Uplink Tone,County,Grid,Op Status,Features,FM,Analog Bandwidth,Coordination,Last update
+449.25,-5,100,AI7J,Layton,UT,OPEN,,,100.15,E,,49,8,41.05400085,-111.95200348,449.25,444.25,100,Davis,DN41AB,On-Air,4,Yes; analog capable.,,UVHFS,2015-08-21

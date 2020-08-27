@@ -1,2 +1,2 @@
-Frequency,Offset,Tone,Call,Location,ST/PR,Use,VOIP,DGTL,Mi,Dir,,state_id,ID,Latitude,Longitude,Downlink,Uplink,Uplink Tone,County,Op Status,Coverage,Sponsor,Coordination,Last update
-443.5,5,141.3,WK0DX,Plains,KS,OPEN,,,154.26,SE,,20,11458,37.26029968,-100.59300232,443.5,448.5,141.3,Meade,On-Air,Wide Area,WK0DX,Kansas Repeater Council,2016-11-19
+Frequency,Offset,Tone,Call,Location,ST/PR,Use,VOIP,DGTL,Mi,Dir,,state_id,ID,Latitude,Longitude,Downlink,Uplink,Uplink Tone,County,Op Status,Coverage,Sponsor,FM,Analog Bandwidth,Coordination,Last update
+443.5,5,141.3,WK0DX,Plains,KS,OPEN,,,154.26,SE,,20,11458,37.26029968,-100.59300232,443.5,448.5,141.3,Meade,On-Air,Wide Area,WK0DX,Yes; analog capable.,,Kansas Repeater Council,2016-11-19

@@ -1,2 +1,2 @@
-Frequency,Offset,Tone Up / Down,Location,County,Call,Use,,state_id,ID,Latitude,Longitude,Downlink,Uplink,On-air,Coordination,Last update
-447.6,-5,,Eden,Weber,KJ7YE,OPEN,,49,118,41.29790115,-111.81500244,447.6,442.6,Unknown,UVHFS,2008-07-10
+Frequency,Offset,Tone,Call,Location,ST/PR,Use,VOIP,DGTL,Mi,Dir,,state_id,ID,Latitude,Longitude,Downlink,Uplink,County,On-air,FM,Analog Bandwidth,Coordination,Last update
+447.6,-5,,KJ7YE,Eden,UT,OPEN,,,111.23,E,,49,118,41.29790115,-111.81500244,447.6,442.6,Weber,Unknown,Yes; analog capable.,,UVHFS,2008-07-10

@@ -1,2 +1,2 @@
-Frequency,Offset,Tone,Call,Location,ST/PR,Use,VOIP,DGTL,Mi,Dir,,state_id,ID,Latitude,Longitude,Downlink,Uplink,Uplink Tone,County,Op Status,Notes,Last update
-441.375,5,88.5,WR9B,Amarillo,TX,OPEN,,,157.23,SSE,,48,11328,35.22200012,-101.83100128,441.375,446.375,88.5,Randall,On-Air,30,2014-04-12
+Frequency,Offset,Tone,Call,Location,ST/PR,Use,VOIP,DGTL,Mi,Dir,,state_id,ID,Latitude,Longitude,Downlink,Uplink,Uplink Tone,County,Op Status,FM,Analog Bandwidth,Notes,Last update
+441.375,5,88.5,WR9B,Amarillo,TX,OPEN,,,157.23,SSE,,48,11328,35.22200012,-101.83100128,441.375,446.375,88.5,Randall,On-Air,Yes; analog capable.,,30,2014-04-12

@@ -1,2 +1,2 @@
-Frequency,Offset,Tone,Call,Location,ST/PR,Use,VOIP,DGTL,Mi,Dir,,state_id,ID,Latitude,Longitude,Downlink,Uplink,Bandwidth,Uplink Tone,Downlink Tone,WIRES-X,County,Grid,Op Status,Coverage,Mixed-Mode,Analog Bandwidth,Coordination,Last update
-444.7,5,110.9,KW5KW,"Dimmitt, White house on east side of road",TX,OPEN,W,,198.16,S,,48,17812,34.55089951,-102.31199646,444.7,449.7,12.5,110.9,110.9,28485,Castro,DM84UN,On-Air,Castro County 15 mi radius.,Yes; analog capable.,12.5,TVHFS,2020-01-22
+Frequency,Offset,Tone,Call,Location,ST/PR,Use,VOIP,DGTL,Mi,Dir,,state_id,ID,Latitude,Longitude,Downlink,Uplink,Uplink Tone,Downlink Tone,WIRES-X,County,Grid,Op Status,Coverage,FM,Analog Bandwidth,Coordination,Last update
+444.7,5,110.9,KW5KW,"Dimmitt, White house on east side of road",TX,OPEN,W,,198.16,S,,48,17812,34.55089951,-102.31199646,444.7,449.7,110.9,110.9,28485,Castro,DM84UN,On-Air,Castro County 15 mi radius.,Yes; analog capable.,12.5,TVHFS,2020-01-22

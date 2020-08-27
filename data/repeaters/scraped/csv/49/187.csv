@@ -1,2 +1,2 @@
-Frequency,Offset,Tone Up / Down,Location,County,Call,Use,,state_id,ID,Latitude,Longitude,Downlink,Uplink,Uplink Tone,Grid,On-air,Coverage,Features,Web links,Coordination,Last update
-145.21,-0.6,123,Huntsville,Weber,W7DBA,OPEN,,49,187,41.25899887,-111.76300049,145.21,144.61,123,DN41CG,Unknown,City of Morgan and surrounding communities.,4,http://w7dba.hopto.org/,UVHFS,2008-07-10
+Frequency,Offset,Tone,Call,Location,ST/PR,Use,VOIP,DGTL,Mi,Dir,,state_id,ID,Latitude,Longitude,Downlink,Uplink,Uplink Tone,County,Grid,On-air,Coverage,Features,FM,Analog Bandwidth,Web links,Coordination,Last update
+145.21,-0.6,123,W7DBA,Huntsville,UT,OPEN,,,113.01,E,,49,187,41.25899887,-111.76300049,145.21,144.61,123,Weber,DN41CG,Unknown,City of Morgan and surrounding communities.,4,Yes; analog capable.,,http://w7dba.hopto.org/,UVHFS,2008-07-10

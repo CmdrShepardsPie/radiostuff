@@ -1,2 +1,2 @@
-Frequency,Offset,Tone,Call,Location,ST/PR,Use,VOIP,DGTL,Mi,Dir,,state_id,ID,Latitude,Longitude,Downlink,Uplink,County,Op Status,Coverage,Sponsor,Coordination,Last update
-442.225,5.1,,N5CUL,Los Lunas,NM,OPEN,,,170.92,S,,35,126,34.80609894,-106.73300171,442.225,447.275,Valencia,On-Air,Los Lunas.,N5CUL,NMFCC,2017-08-22
+Frequency,Offset,Tone,Call,Location,ST/PR,Use,VOIP,DGTL,Mi,Dir,,state_id,ID,Latitude,Longitude,Downlink,Uplink,County,Op Status,Coverage,Sponsor,FM,Analog Bandwidth,Coordination,Last update
+442.225,5.1,,N5CUL,Los Lunas,NM,OPEN,,,170.92,S,,35,126,34.80609894,-106.73300171,442.225,447.275,Valencia,On-Air,Los Lunas.,N5CUL,Yes; analog capable.,,NMFCC,2017-08-22

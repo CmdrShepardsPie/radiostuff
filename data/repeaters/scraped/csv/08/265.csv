@@ -1,2 +1,2 @@
-Frequency,Offset,Tone,Call,Location,ST/PR,Use,VOIP,DGTL,Mi,Dir,,state_id,ID,Latitude,Longitude,Downlink,Uplink,Uplink Tone,Downlink Tone,County,Op Status,Sponsor,Features,Web links,Coordination,Last update
-449.75,-5,103.5,KI0GO,"Golden, Guy Hill",CO,OPEN,,,91.91,N,,08,265,39.77719879,-105.32800293,449.75,444.75,103.5,103.5,Jefferson,On-Air,Rocky Mtn Radio League,8,Repeater,CCARC,2016-12-23
+Frequency,Offset,Tone,Call,Location,ST/PR,Use,VOIP,DGTL,Mi,Dir,,state_id,ID,Latitude,Longitude,Downlink,Uplink,Uplink Tone,Downlink Tone,County,Op Status,Sponsor,Features,FM,Analog Bandwidth,Web links,Coordination,Last update
+449.75,-5,103.5,KI0GO,"Golden, Guy Hill",CO,OPEN,,,91.91,N,,08,265,39.77719879,-105.32800293,449.75,444.75,103.5,103.5,Jefferson,On-Air,Rocky Mtn Radio League,8,Yes; analog capable.,,Repeater,CCARC,2016-12-23

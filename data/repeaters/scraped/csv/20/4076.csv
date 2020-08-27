@@ -1,2 +1,2 @@
-Frequency,Offset,Tone,Call,Location,ST/PR,Use,VOIP,DGTL,Mi,Dir,,state_id,ID,Latitude,Longitude,Downlink,Uplink,Uplink Tone,YSF Digital Enabled,DG-ID,County,Grid,Op Status,Coverage,Sponsor,Mixed-Mode,Analog Bandwidth,Coordination,Last update
+Frequency,Offset,Tone,Call,Location,ST/PR,Use,VOIP,DGTL,Mi,Dir,,state_id,ID,Latitude,Longitude,Downlink,Uplink,Uplink Tone,YSF Digital Enabled,DG-ID,County,Grid,Op Status,Coverage,Sponsor,FM,Analog Bandwidth,Coordination,Last update
 443.6,5,100,KE0KIY,Hays,KS,OPEN,,Y,193.27,SE,,20,4076,38.94250107,-99.35569763,443.6,448.6,100,1,Open ↑ / Open ↓,Ellis,EM08HW,On-Air,Local.,ECHO ARC,Yes; analog capable.,,Kansas Repeater Council,2018-04-06

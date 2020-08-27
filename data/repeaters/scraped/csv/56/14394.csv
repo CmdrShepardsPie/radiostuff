@@ -1,2 +1,2 @@
-Frequency,Offset,Tone,Call,Location,ST/PR,Use,VOIP,DGTL,Mi,Dir,,state_id,ID,Latitude,Longitude,Downlink,Uplink,Uplink Tone,Downlink Tone,YSF Digital Enabled,DG-ID,County,Op Status,Features,Mixed-Mode,Analog Bandwidth,Last update
-449.075,-5,123,KF7EHE,"Kemmerer, Dempsey Ridge",WY,OPEN,,Y,178.92,WNW,,56,14394,41.79240036,-110.53800201,449.075,444.075,123,123,1,Open ↑ / Open ↓,Lincoln,Testing,220,Yes; analog capable.,1,2020-03-26
+Frequency,Offset,Tone,Call,Location,ST/PR,Use,VOIP,DGTL,Mi,Dir,,state_id,ID,Latitude,Longitude,Downlink,Uplink,Uplink Tone,Downlink Tone,YSF Digital Enabled,DG-ID,County,Op Status,Features,FM,Analog Bandwidth,Last update
+449.075,-5,123,KF7EHE,"Kemmerer, Dempsey Ridge",WY,OPEN,,Y,178.92,WNW,,56,14394,41.79240036,-110.53800201,449.075,444.075,123,123,1,Open ↑ / Open ↓,Lincoln,Testing,220,Yes; analog capable.,,2020-03-26

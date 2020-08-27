@@ -1,2 +1,2 @@
-Frequency,Offset,Tone,Call,Location,ST/PR,Use,VOIP,DGTL,Mi,Dir,,state_id,ID,Latitude,Longitude,Downlink,Uplink,Uplink Tone,County,Op Status,Coverage,Sponsor,Features,Coordination,Last update
-147.38,0.6,203.5,KB7WQD,"Delta, Notch Peak",UT,OPEN,,,175.21,WNW,,49,88,39.35219955,-112.57700348,147.38,147.98,203.5,Millard,On-Air,"West-central Utah around Delta, Tusher Mountains, Monroe &amp; Clear Creek Canyon.","Nyle Stott, KB7WQD",8,UVHFS,2016-05-29
+Frequency,Offset,Tone,Call,Location,ST/PR,Use,VOIP,DGTL,Mi,Dir,,state_id,ID,Latitude,Longitude,Downlink,Uplink,Uplink Tone,County,Op Status,Coverage,Sponsor,Features,FM,Analog Bandwidth,Coordination,Last update
+147.38,0.6,203.5,KB7WQD,"Delta, Notch Peak",UT,OPEN,,,118.92,SE,,49,88,39.35219955,-112.57700348,147.38,147.98,203.5,Millard,On-Air,"West-central Utah around Delta, Tusher Mountains, Monroe &amp; Clear Creek Canyon.","Nyle Stott, KB7WQD",8,Yes; analog capable.,,UVHFS,2016-05-29

@@ -1,2 +1,2 @@
-Frequency,Offset,Tone,Call,Location,ST/PR,Use,VOIP,DGTL,Mi,Dir,,state_id,ID,Latitude,Longitude,Downlink,Uplink,Uplink Tone,County,Op Status,Sponsor,Coordination,Last update
-447.9,-5,CSQ,WB0TPT,Denver,CO,OPEN,,,89.94,N,,08,8195,39.73759842,-104.98500061,447.9,442.9,CSQ,Denver,On-Air,WB0TPT,CCARC,2017-03-11
+Frequency,Offset,Tone,Call,Location,ST/PR,Use,VOIP,DGTL,Mi,Dir,,state_id,ID,Latitude,Longitude,Downlink,Uplink,Uplink Tone,County,Op Status,Sponsor,FM,Analog Bandwidth,Coordination,Last update
+447.9,-5,CSQ,WB0TPT,Denver,CO,OPEN,,,89.94,N,,08,8195,39.73759842,-104.98500061,447.9,442.9,CSQ,Denver,On-Air,WB0TPT,Yes; analog capable.,,CCARC,2017-03-11

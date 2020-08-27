@@ -1,2 +1,2 @@
-Frequency,Offset,Tone,Call,Location,ST/PR,Use,VOIP,DGTL,Mi,Dir,,state_id,ID,Latitude,Longitude,Downlink,Uplink,Uplink Tone,County,Op Status,Coverage,Sponsor,Nets,Coordination,Last update
-146.82,-0.6,114.8,KC7SNO,"Laramie, Beacon Hill",WY,OPEN,,,198.71,N,,56,9,41.31140137,-105.59100342,146.82,146.22,114.8,Albany,On-Air,Wide area.,Shy-Wy Amateur Radio Club,Shy-WY ARC: Thu at 19:00.,WRCG,2019-06-13
+Frequency,Offset,Tone,Call,Location,ST/PR,Use,VOIP,DGTL,Mi,Dir,,state_id,ID,Latitude,Longitude,Downlink,Uplink,Uplink Tone,County,Op Status,Coverage,Sponsor,FM,Analog Bandwidth,Nets,Coordination,Last update
+146.82,-0.6,114.8,KC7SNO,"Laramie, Beacon Hill",WY,OPEN,,,198.71,N,,56,9,41.31140137,-105.59100342,146.82,146.22,114.8,Albany,On-Air,Wide area.,Shy-Wy Amateur Radio Club,Yes; analog capable.,,Shy-WY ARC: Thu at 19:00.,WRCG,2019-06-13

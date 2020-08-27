@@ -1,2 +1,2 @@
-Frequency,Offset,Tone,Call,Location,ST/PR,Use,VOIP,DGTL,Mi,Dir,,state_id,ID,Latitude,Longitude,Downlink,Uplink,Uplink Tone,County,Grid,Op Status,Coverage,Sponsor,Features,Links,Coordination,Last update
-146.64,-0.6,173.8,KD7AGA,"Casper, Casper Mountain",WY,OPEN,,,158.95,N,,56,7,42.75249863,-106.31400299,146.64,146.04,173.8,Natrona,DN62US,On-Air,Regional.,CDK Net,E-power.,"Full-time to 449.57500 (W7VNJ) at Casper, Wyoming Med Center, WY .",WRCG,2017-01-04
+Frequency,Offset,Tone,Call,Location,ST/PR,Use,VOIP,DGTL,Mi,Dir,,state_id,ID,Latitude,Longitude,Downlink,Uplink,Uplink Tone,County,Grid,Op Status,Coverage,Sponsor,Features,FM,Analog Bandwidth,Links,Coordination,Last update
+146.64,-0.6,173.8,KD7AGA,"Casper, Casper Mountain",WY,OPEN,,,158.95,N,,56,7,42.75249863,-106.31400299,146.64,146.04,173.8,Natrona,DN62US,On-Air,Regional.,CDK Net,E-power.,Yes; analog capable.,,"Full-time to 449.57500 (W7VNJ) at Casper, Wyoming Med Center, WY .",WRCG,2017-01-04

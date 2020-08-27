@@ -8,8 +8,8 @@
   "Use": "OPEN",
   "VOIP": "",
   "DGTL": "",
-  "Mi": 194.51,
-  "Dir": "NW",
+  "Mi": 89.8,
+  "Dir": "SE",
   "": "",
   "state_id": "49",
   "ID": "246",
@@ -24,6 +24,8 @@
   "Coverage": "Wide area: Wasatch Front from Payson to the Utah/Idaho border.",
   "Sponsor": "ERC Repeater System",
   "Features": 9,
+  "FM": "Yes; analog capable.",
+  "Analog Bandwidth": "",
   "Coordination": "UVHFS",
   "Last update": "2015-07-25"
 }

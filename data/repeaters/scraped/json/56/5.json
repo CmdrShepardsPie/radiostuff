@@ -25,6 +25,8 @@
   "Coverage": "Wide Area",
   "Sponsor": "Casper ARC",
   "Features": "E-power, 15 watts, autopatch.",
+  "FM": "Yes; analog capable.",
+  "Analog Bandwidth": "",
   "Commands": "*[number] to dial # to hang up. 7 digit numbers only.",
   "Notes": "Autopatch",
   "Web links": "http://casperarc.net/wiki/index.php/145.235",

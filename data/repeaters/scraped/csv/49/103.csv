@@ -1,2 +1,2 @@
-Frequency,Offset,Tone Up / Down,Location,County,Call,Use,,state_id,ID,Latitude,Longitude,Downlink,Uplink,Grid,Op Status,Coverage,Features,Coordination,Last update
-448.85,-5,,"Magna, Kessler Peak",Salt Lake,W7YDO,CLOSED,,49,103,40.67559814,-112.20200348,448.85,443.85,DN30VQ,On-Air,Wide area: Salt Lake Valley communities from Salt Lake City to Draper.,8,UVHFS,2015-06-08
+Frequency,Offset,Tone,Call,Location,ST/PR,Use,VOIP,DGTL,Mi,Dir,,state_id,ID,Latitude,Longitude,Downlink,Uplink,County,Grid,Op Status,Coverage,Features,FM,Analog Bandwidth,Coordination,Last update
+448.85,-5,,W7YDO,"Magna, Kessler Peak",UT,CLOSED,,,85.82,ESE,,49,103,40.67559814,-112.20200348,448.85,443.85,Salt Lake,DN30VQ,On-Air,Wide area: Salt Lake Valley communities from Salt Lake City to Draper.,8,Yes; analog capable.,,UVHFS,2015-06-08

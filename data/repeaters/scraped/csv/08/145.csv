@@ -1,2 +1,2 @@
-Frequency,Offset,Tone,Call,Location,ST/PR,Use,VOIP,DGTL,Mi,Dir,,state_id,ID,Latitude,Longitude,Downlink,Uplink,Uplink Tone,County,On-air,Sponsor,Features,Coordination,Last update
-146.82,-0.6,123,KA0YDW,Granby,CO,OPEN,,,119.37,NNW,,08,145,40.08610153,-105.93900299,146.82,146.22,123,Grand,Unknown,GCARA,E-power.,CCARC,2014-09-06
+Frequency,Offset,Tone,Call,Location,ST/PR,Use,VOIP,DGTL,Mi,Dir,,state_id,ID,Latitude,Longitude,Downlink,Uplink,Uplink Tone,County,On-air,Sponsor,Features,FM,Analog Bandwidth,Coordination,Last update
+146.82,-0.6,123,KA0YDW,Granby,CO,OPEN,,,119.37,NNW,,08,145,40.08610153,-105.93900299,146.82,146.22,123,Grand,Unknown,GCARA,E-power.,Yes; analog capable.,,CCARC,2014-09-06

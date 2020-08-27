@@ -21,6 +21,8 @@
   "Op Status": "On-Air",
   "Coverage": "Wide area. 35 mi radius.",
   "Features": 400,
+  "FM": "Yes; analog capable.",
+  "Analog Bandwidth": "",
   "Coordination": "TVHFS",
   "Last update": "2017-08-31"
 }

@@ -1,2 +1,2 @@
-Frequency,Offset,Tone,Call,Location,ST/PR,Use,VOIP,DGTL,Mi,Dir,,state_id,ID,Latitude,Longitude,Downlink,Uplink,Uplink Tone,Downlink Tone,County,Grid,Op Status,Coverage,Sponsor,Features,Coordination,Last update
-147.18,0.6,100,KE0KIY,Hays,KS,OPEN,,,196.42,SE,,20,3993,38.84109879,-99.38279724,147.18,147.78,100,100,Ellis,EM08HU,On-Air,35,Ellis Co. Ham Operators (ECHO),e-power.,Kansas Repeater Council,2019-03-18
+Frequency,Offset,Tone,Call,Location,ST/PR,Use,VOIP,DGTL,Mi,Dir,,state_id,ID,Latitude,Longitude,Downlink,Uplink,Uplink Tone,Downlink Tone,County,Grid,Op Status,Coverage,Sponsor,Features,FM,Analog Bandwidth,Coordination,Last update
+147.18,0.6,100,KE0KIY,Hays,KS,OPEN,,,196.42,SE,,20,3993,38.84109879,-99.38279724,147.18,147.78,100,100,Ellis,EM08HU,On-Air,35,Ellis Co. Ham Operators (ECHO),e-power.,Yes; analog capable.,,Kansas Repeater Council,2019-03-18

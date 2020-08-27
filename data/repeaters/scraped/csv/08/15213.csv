@@ -1,2 +1,2 @@
-Frequency,Offset,Tone Up / Down,Location,County,Call,Use,,state_id,ID,Latitude,Longitude,Downlink,Uplink,Downlink Tone,Op Status,Coverage,Sponsor,Links,Last update
-448.65,-5,,"Montrose, Waterdog Peak",Montrose,KB0YNA,OPEN,,08,15213,38.38750076,-107.6740036,448.65,443.65,151.4,On-Air,Wide area.,KB0YNA,"Full-time to 447.65000 (KB0YNA) at Gunnison, W Mountain or Tenderfoot Mountain, CO .",2016-10-11
+Frequency,Offset,Tone,Call,Location,ST/PR,Use,VOIP,DGTL,Mi,Dir,,state_id,ID,Latitude,Longitude,Downlink,Uplink,Downlink Tone,County,Op Status,Coverage,Sponsor,FM,Analog Bandwidth,Links,Last update
+448.65,-5,,KB0YNA,"Montrose, Waterdog Peak",CO,OPEN,,,132.65,W,,08,15213,38.38750076,-107.6740036,448.65,443.65,151.4,Montrose,On-Air,Wide area.,KB0YNA,Yes; analog capable.,,"Full-time to 447.65000 (KB0YNA) at Gunnison, W Mountain or Tenderfoot Mountain, CO .",2016-10-11

@@ -1,2 +1,2 @@
-Frequency,Offset,Tone,Call,Location,ST/PR,Use,VOIP,DGTL,Mi,Dir,,state_id,ID,Latitude,Longitude,Downlink,Uplink,Uplink Tone,County,Op Status,Sponsor,Coordination,Last update
-146.625,-0.6,88.5,K5GUD,Sharon,OK,OPEN,,,197.89,SE,,40,4536,36.27000046,-99.33000183,146.625,146.025,88.5,Woodward,On-Air,K5GUD,ORSI,2017-07-23
+Frequency,Offset,Tone,Call,Location,ST/PR,Use,VOIP,DGTL,Mi,Dir,,state_id,ID,Latitude,Longitude,Downlink,Uplink,Uplink Tone,County,Op Status,Sponsor,FM,Analog Bandwidth,Coordination,Last update
+146.625,-0.6,88.5,K5GUD,Sharon,OK,OPEN,,,197.89,SE,,40,4536,36.27000046,-99.33000183,146.625,146.025,88.5,Woodward,On-Air,K5GUD,Yes; analog capable.,,ORSI,2017-07-23

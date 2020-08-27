@@ -1,2 +1,2 @@
-Frequency,Offset,Tone,Call,Location,ST/PR,Use,VOIP,DGTL,Mi,Dir,,state_id,ID,Latitude,Longitude,Downlink,Uplink,Uplink Tone,County,Grid,Op Status,EchoLink,AllStar,Web links,Last update
-147.465,0,88.5,W5MHG,Albuquerque,NM,OPEN,EA,,152.44,S,Node Offline,35,15944,35.09460068,-106.5510025,147.465,147.465,88.5,Bernalillo,DM65RC,On-Air,465010,28239,http://www.w5mhg.com,2017-07-21
+Frequency,Offset,Tone,Call,Location,ST/PR,Use,VOIP,DGTL,Mi,Dir,,state_id,ID
+147.465,0,88.5,W5MHG,Albuquerque,NM,OPEN,EA,,152.44,S,,35,15944

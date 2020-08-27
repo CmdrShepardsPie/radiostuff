@@ -1,2 +1,2 @@
-Frequency,Offset,Tone,Call,Location,ST/PR,Use,VOIP,DGTL,Mi,Dir,,state_id,ID,Latitude,Longitude,Downlink,Uplink,County,Op Status,Coverage,Sponsor,EchoLink,Notes,Coordination,Last update
-443.75,5,,WA5EMA,Tucumcari,NM,OPEN,E,,198.68,SE,Node Offline,35,179,35.17169952,-103.72399902,443.75,448.75,Quay,On-Air,Local coverage in town.,WA5EMA,406798,EchoLink active during daytime hours.,NMFCC,2014-09-06
+Frequency,Offset,Tone,Call,Location,ST/PR,Use,VOIP,DGTL,Mi,Dir,,state_id,ID,Latitude,Longitude,Downlink,Uplink,Uplink Tone,County,Op Status,Coverage,Sponsor,FM,Analog Bandwidth,EchoLink,Notes,Coordination,Last update
+443.75,5,100,WA5EMA,Tucumcari,NM,OPEN,E,,198.68,SE,Node Offline,35,179,35.17169952,-103.72399902,443.75,448.75,100,Quay,On-Air,Local coverage in town.,WA5EMA,Yes; analog capable.,,406798,EchoLink active during daytime hours.,NMFCC,2020-07-13

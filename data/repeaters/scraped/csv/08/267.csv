@@ -1,2 +1,2 @@
-Frequency,Offset,Tone,Call,Location,ST/PR,Use,VOIP,DGTL,Mi,Dir,,state_id,ID,Latitude,Longitude,Downlink,Uplink,Uplink Tone,Downlink Tone,County,Op Status,Sponsor,Web links,Coordination,Last update
-224.38,-1.6,100,W0TX,"Lakewood, Green Mountain",CO,OPEN,,,85.3,N,,08,267,39.68220139,-105.14299774,224.38,222.78,100,100,Jefferson,On-Air,Denver Radio Club,DRC Repeaters,CCARC,2017-03-11
+Frequency,Offset,Tone,Call,Location,ST/PR,Use,VOIP,DGTL,Mi,Dir,,state_id,ID,Latitude,Longitude,Downlink,Uplink,Uplink Tone,Downlink Tone,County,Op Status,Sponsor,FM,Analog Bandwidth,Web links,Coordination,Last update
+224.38,-1.6,100,W0TX,"Lakewood, Green Mountain",CO,OPEN,,,85.3,N,,08,267,39.68220139,-105.14299774,224.38,222.78,100,100,Jefferson,On-Air,Denver Radio Club,Yes; analog capable.,,DRC Repeaters,CCARC,2017-03-11

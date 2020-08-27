@@ -24,7 +24,7 @@
   "County": "Lincoln",
   "Op Status": "Testing",
   "Features": 220,
-  "Mixed-Mode": "Yes; analog capable.",
-  "Analog Bandwidth": true,
+  "FM": "Yes; analog capable.",
+  "Analog Bandwidth": "",
   "Last update": "2020-03-26"
 }

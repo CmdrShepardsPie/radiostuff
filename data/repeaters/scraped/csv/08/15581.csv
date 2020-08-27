@@ -1,2 +1,2 @@
-Frequency,Offset,Tone Up / Down,Location,County,Call,Use,,state_id,ID,Latitude,Longitude,Downlink,Uplink,Uplink Tone,Downlink Tone,Op Status,Sponsor,Links,Coordination,Last update
-147.355,-0.6,88.5,"Grand Junction, Grand Mesa",Mesa,KB0VJJ,OPEN,,08,15581,39.05199814,-108.56500244,147.355,146.755,88.5,123,On-Air,Colorado Connection,Full-time to the Colorado Connection System .,CCARC,2017-01-06
+Frequency,Offset,Tone,Call,Location,ST/PR,Use,VOIP,DGTL,Mi,Dir,,state_id,ID,Latitude,Longitude,Downlink,Uplink,Uplink Tone,Downlink Tone,County,Op Status,Sponsor,FM,Analog Bandwidth,Links,Coordination,Last update
+147.355,-0.6,88.5,KB0VJJ,"Grand Junction, Grand Mesa",CO,OPEN,,,184.73,WNW,,08,15581,39.05199814,-108.56500244,147.355,146.755,88.5,123,Mesa,On-Air,Colorado Connection,Yes; analog capable.,,Full-time to the Colorado Connection System .,CCARC,2017-01-06

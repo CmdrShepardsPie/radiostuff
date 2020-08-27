@@ -1,2 +1,2 @@
-Frequency,Offset,Tone,Call,Location,ST/PR,Use,VOIP,DGTL,Mi,Dir,,state_id,ID,Latitude,Longitude,Downlink,Uplink,Uplink Tone,Downlink Tone,County,Grid,Op Status,Coverage,Sponsor,Features,Web links,Coordination,Last update
-146.96,-0.6,100,K5URR,"Belen, Capilla Peak",NM,OPEN,,,180.69,S,,35,46,34.70140076,-106.40100098,146.96,146.36,100,88.5,Torrance,DM64TQ,On-Air,Wide area.,Upper Rio FM Society,9,http://www.urfmsi.org/,NMFCC,2018-11-19
+Frequency,Offset,Tone,Call,Location,ST/PR,Use,VOIP,DGTL,Mi,Dir,,state_id,ID,Latitude,Longitude,Downlink,Uplink,Uplink Tone,Downlink Tone,County,Grid,Op Status,Coverage,Sponsor,Features,FM,Analog Bandwidth,Web links,Coordination,Last update
+146.96,-0.6,100,K5URR,"Belen, Capilla Peak",NM,OPEN,,,180.69,S,,35,46,34.70140076,-106.40100098,146.96,146.36,100,88.5,Torrance,DM64TQ,On-Air,Wide area.,Upper Rio FM Society,9,Yes; analog capable.,,http://www.urfmsi.org/,NMFCC,2018-11-19

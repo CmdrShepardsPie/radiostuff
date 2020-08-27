@@ -1,2 +1,2 @@
-Frequency,Offset,Tone,Call,Location,ST/PR,Use,VOIP,DGTL,Mi,Dir,,state_id,ID,Latitude,Longitude,Downlink,Uplink,Uplink Tone,County,Op Status,Sponsor,Web links,Coordination,Last update
-145.43,-0.6,107.2,WA6IFI,"Trinidad, Raton Pass",CO,OPEN,,,108.55,SSE,,08,239,36.99739838,-104.46700287,145.43,144.83,107.2,Las Animas,On-Air,Cheyenne Mountain Repeater Group,CMRG Repeaters,CCARC,2017-10-24
+Frequency,Offset,Tone,Call,Location,ST/PR,Use,VOIP,DGTL,Mi,Dir,,state_id,ID,Latitude,Longitude,Downlink,Uplink,Uplink Tone,County,Op Status,Sponsor,FM,Analog Bandwidth,Web links,Coordination,Last update
+145.43,-0.6,107.2,WA6IFI,"Trinidad, Raton Pass",CO,OPEN,,,108.55,SSE,,08,239,36.99739838,-104.46700287,145.43,144.83,107.2,Las Animas,On-Air,Cheyenne Mountain Repeater Group,Yes; analog capable.,,CMRG Repeaters,CCARC,2017-10-24

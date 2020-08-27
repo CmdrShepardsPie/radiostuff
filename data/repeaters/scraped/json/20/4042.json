@@ -21,16 +21,18 @@
   "Downlink Tone": 162.2,
   "County": "Ellis",
   "Grid": "EM08IW",
-  "Op Status": "On-Air",
+  "Op Status": "Off-Air",
   "Coverage": "Click for coverage map. 35 mi radius.",
   "Sponsor": "N7JYS",
   "Affiliate": "Affiliate of the K-Link Repeater Network",
   "Features": "E-Power.",
-  "Links": "Full-time to 444.95000 (AB0UO) at Russell, K-Link, KS . Full-time to 443.57500 (K0HAM) at Ransom, K-Link, KS . Full-time to the K-Link System . Linkable to the NEKSUN (K0HAM) System .",
+  "FM": "Yes; analog capable.",
+  "Analog Bandwidth": "",
+  "Links": "Full-time to 443.57500 (K0HAM) at Ransom, K-Link, KS . Full-time to 444.95000 (AB0UO) at Russell, K-Link, KS . Full-time to the K-Link System . Linkable to the NEKSUN (K0HAM) System .",
   "AllStar": 42940,
   "Nets": "ARES: Sat at 21:00.",
   "Web links": "K-Link Repeater Network",
   "Feed": "Listen Live",
   "Coordination": "Kansas Repeater Council",
-  "Last update": "2020-05-19"
+  "Last update": "2020-07-30"
 }

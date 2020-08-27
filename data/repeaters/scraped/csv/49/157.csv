@@ -1,2 +1,2 @@
-Frequency,Offset,Tone Up / Down,Location,County,Call,Use,,state_id,ID,Latitude,Longitude,Downlink,Uplink,Uplink Tone,Grid,Op Status,Coverage,Links,Notes,Coordination,Last update
-146.92,-0.6,123,"Corinne, Promontory Point",Weber,N7TOP,OPEN,,49,157,41.25790024,-112.44100189,146.92,146.32,123,DN31SG,On-Air,Wasatch Front from Ogden to the Utah/Idaho border.,"Full-time to 449.77500 (N7TOP) at West Haven, UT .",6,UVHFS,2015-11-11
+Frequency,Offset,Tone,Call,Location,ST/PR,Use,VOIP,DGTL,Mi,Dir,,state_id,ID,Latitude,Longitude,Downlink,Uplink,Uplink Tone,County,Grid,Op Status,Coverage,FM,Analog Bandwidth,Links,Notes,Coordination,Last update
+146.92,-0.6,123,N7TOP,"Corinne, Promontory Point",UT,OPEN,,,79.87,E,,49,157,41.25790024,-112.44100189,146.92,146.32,123,Weber,DN31SG,On-Air,Wasatch Front from Ogden to the Utah/Idaho border.,Yes; analog capable.,,"Full-time to 449.77500 (N7TOP) at West Haven, UT .",6,UVHFS,2015-11-11

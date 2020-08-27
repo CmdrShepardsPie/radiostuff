@@ -1,2 +1,2 @@
-Frequency,Offset,Tone,Call,Location,ST/PR,Use,VOIP,DGTL,Mi,Dir,,state_id,ID,Latitude,Longitude,Downlink,Uplink,Uplink Tone,County,On-air,Sponsor,Features,Coordination,Last update
-145.13,-0.6,131.8,W5HFZ,Buffalo,OK,OPEN,,,185.62,SE,,40,4352,36.83000183,-99.62999725,145.13,144.53,131.8,Harper,Unknown,GBARG,WX.,ORSI,2009-05-31
+Frequency,Offset,Tone,Call,Location,ST/PR,Use,VOIP,DGTL,Mi,Dir,,state_id,ID,Latitude,Longitude,Downlink,Uplink,Uplink Tone,County,On-air,Sponsor,Features,FM,Analog Bandwidth,Coordination,Last update
+145.13,-0.6,131.8,W5HFZ,Buffalo,OK,OPEN,,,185.62,SE,,40,4352,36.83000183,-99.62999725,145.13,144.53,131.8,Harper,Unknown,GBARG,WX.,Yes; analog capable.,,ORSI,2009-05-31

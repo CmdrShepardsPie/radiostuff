@@ -1,11 +1,15 @@
 {
   "Frequency": 448.825,
   "Offset": -5,
-  "Tone Up / Down": 100,
-  "Location": "Montrose, Raspberry",
-  "County": "Montrose",
+  "Tone": 100,
   "Call": "KB5ITS",
+  "Location": "Montrose, Raspberry",
+  "ST/PR": "CO",
   "Use": "OPEN",
+  "VOIP": "",
+  "DGTL": "",
+  "Mi": 141.88,
+  "Dir": "W",
   "": "",
   "state_id": "08",
   "ID": "18465",
@@ -14,9 +18,12 @@
   "Downlink": 448.825,
   "Uplink": 443.825,
   "Uplink Tone": 100,
+  "County": "Montrose",
   "Op Status": "On-Air",
   "Coverage": "Nucla, Uncompahgre Plateau, coverage into Montrose and ?West End?",
   "Sponsor": "San Juan Connection",
+  "FM": "Yes; analog capable.",
+  "Analog Bandwidth": "",
   "Web links": "http://www.sjcham.com",
-  "Last update": "2020-01-17"
+  "Last update": "2020-08-01"
 }

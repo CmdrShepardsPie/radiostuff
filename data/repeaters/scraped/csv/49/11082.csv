@@ -1,2 +1,2 @@
-Frequency,Offset,Tone Up / Down,Location,County,Call,Use,,state_id,ID,Latitude,Longitude,Downlink,Uplink,D-STAR Enabled,Node,Sources,Grid,Op Status,Web links,Last update
-447.975,-5,DSTR,"Logan, WA7KMF QTH",Cache,AC7O,OPEN,,49,11082,41.72230148,-111.84999847,447.975,442.975,1,AC7O (B) Gateway Repeater,jfindu lookup / dstar-users lookup,DN41BR,On-Air,http://barconline.org/repeaters/,2016-07-05
+Frequency,Offset,Tone,Call,Location,ST/PR,Use,VOIP,DGTL,Mi,Dir,,state_id,ID,Latitude,Longitude,Downlink,Uplink,D-STAR Enabled,Node,Sources,County,Grid,Op Status,Web links,Last update
+447.975,-5,,AC7O,"Logan, WA7KMF QTH",UT,OPEN,,S,122.01,E,,49,11082,41.72230148,-111.84999847,447.975,442.975,1,AC7O (B) Gateway Repeater,jfindu lookup / dstar-users lookup,Cache,DN41BR,On-Air,http://barconline.org/repeaters/,2016-07-05

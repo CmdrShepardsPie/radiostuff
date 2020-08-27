@@ -25,6 +25,8 @@
   "Coverage": "I-70 Limon, Co area.",
   "Sponsor": "K0UPS Club c/o N1UPS",
   "Features": "Full duplex node.",
+  "FM": "Yes; analog capable.",
+  "Analog Bandwidth": "",
   "EchoLink": 3349,
   "IRLP": 3349,
   "Commands": "** [StarStar] Prefix for Echolink Node.",

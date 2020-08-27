@@ -8,8 +8,8 @@
   "Use": "OPEN",
   "VOIP": "",
   "DGTL": "",
-  "Mi": 194.44,
-  "Dir": "NW",
+  "Mi": 89.89,
+  "Dir": "SE",
   "": "",
   "state_id": "49",
   "ID": "285",
@@ -23,6 +23,8 @@
   "On-air": "Unknown",
   "Coverage": "Wasatch Front from Payson to Tremonton.",
   "Features": 9,
+  "FM": "Yes; analog capable.",
+  "Analog Bandwidth": "",
   "Coordination": "UVHFS",
   "Last update": "2008-09-15"
 }

@@ -20,15 +20,19 @@
   "Uplink Tone": 103.5,
   "Downlink Tone": 103.5,
   "County": "Park",
-  "Grid": "DM69wf",
+  "Grid": "DM69WF",
   "Op Status": "On-Air",
   "Coverage": "Covers Fairplay, Alma, and western South Park.",
   "Sponsor": "AA0BF",
   "Affiliate": "Park County Radio Club, AB0PC",
   "Features": "Emergency automatic generator.",
+  "FM": "Yes; analog capable.",
+  "Analog Bandwidth": "",
+  "Links": "Full-time to 146.89500 (AB0PC) at Bailey, Dick Mountain, CO .",
   "AllStar": 45840,
   "Notes": "Normally linked via Allstar to 45835 - AB0PC, Bailey, CO.",
   "Nets": "When connected to AB0PC - Bailey: ARES Mon 19:00, Park County Radio Club Wed 19:30.",
+  "Web links": "https://www.ab0pc.org/",
   "Coordination": "CCARC",
-  "Last update": "2019-03-08"
+  "Last update": "2020-07-16"
 }

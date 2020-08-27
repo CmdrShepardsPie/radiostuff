@@ -1,2 +1,2 @@
-Frequency,Offset,Tone Up / Down,Location,County,Call,Use,,state_id,ID,Latitude,Longitude,Downlink,Uplink,Uplink Tone,Grid,Op Status,Coverage,Sponsor,Features,IRLP,Coordination,Last update
-449.95,-5,123,"Clearfield, civic center",Davis,NJ7J,OPEN,,49,171,41.11330032,-112.02300262,449.95,444.95,123,DN31XC,On-Air,Ogden and South Ogden area.,City of Clearfield.,4,3876,UVHFS,2015-10-02
+Frequency,Offset,Tone,Call,Location,ST/PR,Use,VOIP,DGTL,Mi,Dir,,state_id,ID,Latitude,Longitude,Downlink,Uplink,Uplink Tone,County,Grid,Op Status,Coverage,Sponsor,Features,FM,Analog Bandwidth,IRLP,Coordination,Last update
+449.95,-5,123,NJ7J,"Clearfield, civic center",UT,OPEN,I,,97.36,E,,49,171,41.11330032,-112.02300262,449.95,444.95,123,Davis,DN31XC,On-Air,Ogden and South Ogden area.,City of Clearfield.,4,Yes; analog capable.,,3876,UVHFS,2015-10-02

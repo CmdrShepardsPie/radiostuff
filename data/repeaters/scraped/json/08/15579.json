@@ -1,11 +1,15 @@
 {
   "Frequency": 147.165,
   "Offset": 0.6,
-  "Tone Up / Down": 88.5,
-  "Location": "Steamboat Springs",
-  "County": "Routt",
+  "Tone": 88.5,
   "Call": "KB0VJJ",
+  "Location": "Steamboat Springs",
+  "ST/PR": "CO",
   "Use": "OPEN",
+  "VOIP": "",
+  "DGTL": "",
+  "Mi": 164.71,
+  "Dir": "NNW",
   "": "",
   "state_id": "08",
   "ID": "15579",
@@ -15,8 +19,11 @@
   "Uplink": 147.765,
   "Uplink Tone": 88.5,
   "Downlink Tone": 123,
-  "Op Status": "On-Air",
+  "County": "Routt",
+  "Op Status": "Off-Air",
   "Sponsor": "Colorado Connection",
+  "FM": "Yes; analog capable.",
+  "Analog Bandwidth": "",
   "Links": "Full-time to the Colorado Connection System .",
-  "Last update": "2017-01-06"
+  "Last update": "2020-07-16"
 }

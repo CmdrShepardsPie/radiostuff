@@ -1,2 +1,2 @@
-Frequency,Offset,Tone,Call,Location,ST/PR,Use,VOIP,DGTL,Mi,Dir,,state_id,ID,Latitude,Longitude,Downlink,Uplink,Uplink Tone,County,Grid,Op Status,Coverage,Sponsor,Features,Web links,Coordination,Last update
-444.975,5,88.5,N5DFQ,Guymon,OK,OPEN,,,189.72,SE,,40,4419,36.67580032,-101.54699707,444.975,449.975,88.5,Texas,DM96FQ,On-Air,30,DBARC,Linked.,http://caprockintertie.org/,ORSI,2014-07-07
+Frequency,Offset,Tone,Call,Location,ST/PR,Use,VOIP,DGTL,Mi,Dir,,state_id,ID,Latitude,Longitude,Downlink,Uplink,Uplink Tone,County,Grid,Op Status,Coverage,Sponsor,Features,FM,Analog Bandwidth,Web links,Coordination,Last update
+444.975,5,88.5,N5DFQ,Guymon,OK,OPEN,,,189.72,SE,,40,4419,36.67580032,-101.54699707,444.975,449.975,88.5,Texas,DM96FQ,On-Air,30,DBARC,Linked.,Yes; analog capable.,,http://caprockintertie.org/,ORSI,2014-07-07

@@ -8,8 +8,8 @@
   "Use": "OPEN",
   "VOIP": "",
   "DGTL": "",
-  "Mi": 187.47,
-  "Dir": "NW",
+  "Mi": 104.63,
+  "Dir": "ESE",
   "": "",
   "state_id": "49",
   "ID": "4194",
@@ -23,6 +23,8 @@
   "Op Status": "On-Air",
   "Coverage": "Salt Lake Valley communities from Salt Lake City to Draper.",
   "Features": 4,
+  "FM": "Yes; analog capable.",
+  "Analog Bandwidth": "",
   "Coordination": "UVHFS",
   "Last update": "2015-02-04"
 }

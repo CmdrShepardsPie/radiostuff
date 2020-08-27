@@ -21,6 +21,8 @@
   "Downlink Tone": 123,
   "County": "Larimer",
   "Op Status": "On-Air",
+  "FM": "Yes; analog capable.",
+  "Analog Bandwidth": "",
   "EchoLink": 447450,
   "Coordination": "CCARC",
   "Last update": "2020-03-22"

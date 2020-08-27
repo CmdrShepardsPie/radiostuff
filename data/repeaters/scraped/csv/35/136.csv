@@ -1,2 +1,2 @@
-Frequency,Offset,Tone,Call,Location,ST/PR,Use,VOIP,DGTL,Mi,Dir,,state_id,ID,Latitude,Longitude,Downlink,Uplink,Uplink Tone,County,Op Status,Coverage,Sponsor,Features,Links,Coordination,Last update
-147.28,0.6,100,NM5ML,"Raton, Sierra Grande",NM,OPEN,,,115.15,SSE,,35,136,36.90330124,-104.43900299,147.28,147.88,100,Colfax,On-Air,Wide area.,,8,Full-time to the Mega-Link System .,NMFCC,2018-01-07
+Frequency,Offset,Tone,Call,Location,ST/PR,Use,VOIP,DGTL,Mi,Dir,,state_id,ID,Latitude,Longitude,Downlink,Uplink,Uplink Tone,County,Op Status,Coverage,Sponsor,Features,FM,Analog Bandwidth,Links,Coordination,Last update
+147.28,0.6,100,NM5ML,"Raton, Sierra Grande",NM,OPEN,,,115.15,SSE,,35,136,36.90330124,-104.43900299,147.28,147.88,100,Colfax,On-Air,Wide area.,,8,Yes; analog capable.,,Full-time to the Mega-Link System .,NMFCC,2018-01-07

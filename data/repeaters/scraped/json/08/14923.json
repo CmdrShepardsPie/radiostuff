@@ -21,10 +21,12 @@
   "Downlink Tone": 100,
   "County": "Mineral",
   "Grid": "DM67lt",
-  "Op Status": "On-Air",
+  "Op Status": "Off-Air",
   "Sponsor": "N0PKT",
   "Affiliate": "The Fun Machine",
+  "FM": "Yes; analog capable.",
+  "Analog Bandwidth": "",
   "Links": "Full-time to the The Fun Machine System .",
   "AllStar": 43265,
-  "Last update": "2017-01-06"
+  "Last update": "2020-07-16"
 }

@@ -1,2 +1,2 @@
-Frequency,Offset,Tone,Call,Location,ST/PR,Use,VOIP,DGTL,Mi,Dir,,state_id,ID,Latitude,Longitude,Downlink,Uplink,Uplink Tone,Downlink Tone,County,Op Status,Sponsor,Features,Coordination,Last update
-444.85,5,74.4,KA0RCZ,Kearney,NE,OPEN,,,169.02,ESE,,31,90,40.69929886,-99.08170319,444.85,449.85,74.4,74.4,Buffalo,On-Air,KA0RCZ,"Autopatch, e-power, linked.",WB0CMC,2017-05-21
+Frequency,Offset,Tone,Call,Location,ST/PR,Use,VOIP,DGTL,Mi,Dir,,state_id,ID,Latitude,Longitude,Downlink,Uplink,Uplink Tone,Downlink Tone,County,Op Status,Sponsor,Features,FM,Analog Bandwidth,Coordination,Last update
+444.85,5,74.4,KA0RCZ,Kearney,NE,OPEN,,,169.02,ESE,,31,90,40.69929886,-99.08170319,444.85,449.85,74.4,74.4,Buffalo,On-Air,KA0RCZ,"Autopatch, e-power, linked.",Yes; analog capable.,,WB0CMC,2017-05-21

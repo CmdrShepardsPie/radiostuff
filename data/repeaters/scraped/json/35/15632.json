@@ -8,8 +8,8 @@
   "Use": "OPEN",
   "VOIP": "",
   "DGTL": "",
-  "Mi": 179.16,
-  "Dir": "SSE",
+  "Mi": 173.09,
+  "Dir": "SSW",
   "": "",
   "state_id": "35",
   "ID": "15632",
@@ -22,6 +22,8 @@
   "Grid": "DM66TC",
   "Op Status": "On-Air",
   "Sponsor": "NMEMA ARC",
+  "FM": "Yes; analog capable.",
+  "Analog Bandwidth": "",
   "Coordination": "NMFCC",
   "Last update": "2020-05-14"
 }

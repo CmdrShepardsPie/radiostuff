@@ -25,9 +25,12 @@
   "Coverage": "Wide area: Cheyenne, Wyoming to the north, Monument, Colorado to the south, Limon, Colorado to the east, and the continental divide to the west.",
   "Sponsor": "Colorado Connection",
   "Features": 10,
+  "FM": "Yes; analog capable.",
+  "Analog Bandwidth": "",
   "Links": "Full-time to the Colorado Connection System .",
   "Notes": "Split tone. The repeater still transmits 123.0 for those wishing to use tone squelch, you must run a split tone 88.5 TX and 123.0 RX",
   "Nets": "Colorado Traffic Net: Daily at 19:30. Colorado Connection Net (all welcome): Thu at 20:00. Statewide ARES: Sun at 20:00.",
+  "Web links": "https://www.colcon.org/",
   "Coordination": "CCARC",
-  "Last update": "2020-06-21"
+  "Last update": "2020-07-16"
 }

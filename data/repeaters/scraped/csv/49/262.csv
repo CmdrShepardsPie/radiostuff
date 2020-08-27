@@ -1,2 +1,2 @@
-Frequency,Offset,Tone Up / Down,Location,County,Call,Use,,state_id,ID,Latitude,Longitude,Downlink,Uplink,Uplink Tone,Op Status,Coordination,Last update
-145.41,-0.6,123,"Ogden, foothills",Weber,WB7TSQ,OPEN,,49,262,41.20800018,-111.91899872,145.41,144.81,123,On-Air,UVHFS,2008-07-10
+Frequency,Offset,Tone,Call,Location,ST/PR,Use,VOIP,DGTL,Mi,Dir,,state_id,ID,Latitude,Longitude,Downlink,Uplink,Uplink Tone,County,Op Status,FM,Analog Bandwidth,Coordination,Last update
+145.41,-0.6,123,WB7TSQ,"Ogden, foothills",UT,OPEN,,,104.24,E,,49,262,41.20800018,-111.91899872,145.41,144.81,123,Weber,On-Air,Yes; analog capable.,,UVHFS,2008-07-10

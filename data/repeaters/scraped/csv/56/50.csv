@@ -1,2 +1,2 @@
-Frequency,Offset,Tone,Call,Location,ST/PR,Use,VOIP,DGTL,Mi,Dir,,state_id,ID,Latitude,Longitude,Downlink,Uplink,County,Grid,Op Status,Last update
-147.15,0.6,,KK7BA,Douglas,WY,OPEN,,,185.67,NNE,,56,50,42.95999908,-105.43000031,147.15,147.75,Converse,DN72GX,On-Air,2017-03-05
+Frequency,Offset,Tone,Call,Location,ST/PR,Use,VOIP,DGTL,Mi,Dir,,state_id,ID,Latitude,Longitude,Downlink,Uplink,County,Grid,Op Status,FM,Analog Bandwidth,Last update
+147.15,0.6,,KK7BA,Douglas,WY,OPEN,,,185.67,NNE,,56,50,42.95999908,-105.43000031,147.15,147.75,Converse,DN72GX,On-Air,Yes; analog capable.,,2017-03-05

@@ -1,2 +1,2 @@
-Frequency,Offset,Tone,Call,Location,ST/PR,Use,VOIP,DGTL,Mi,Dir,,state_id,ID,Latitude,Longitude,Downlink,Uplink,Uplink Tone,County,Grid,Op Status,Coverage,Notes,Coordination,Last update
-448.125,-5,100,N7HIW,Murray,UT,OPEN,,,193.93,NW,,49,138,40.65579987,-111.91500092,448.125,443.125,100,Salt Lake,DN40BP,On-Air,Salt Lake Valley communities from Salt Lake City to Draper.,4,UVHFS,2019-04-05
+Frequency,Offset,Tone,Call,Location,ST/PR,Use,VOIP,DGTL,Mi,Dir,,state_id,ID,Latitude,Longitude,Downlink,Uplink,Uplink Tone,County,Grid,Op Status,Coverage,FM,Analog Bandwidth,Notes,Coordination,Last update
+448.125,-5,100,N7HIW,Murray,UT,OPEN,,,100.92,ESE,,49,138,40.65579987,-111.91500092,448.125,443.125,100,Salt Lake,DN40BP,On-Air,Salt Lake Valley communities from Salt Lake City to Draper.,Yes; analog capable.,,4,UVHFS,2019-04-05

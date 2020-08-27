@@ -1,2 +1,2 @@
-Frequency,Offset,Tone,Call,Location,ST/PR,Use,VOIP,DGTL,Mi,Dir,,state_id,ID,Latitude,Longitude,Downlink,Uplink,Uplink Tone,County,Op Status,Sponsor,Coordination,Last update
-147.36,0.6,100,W0ALC,Cedaredge,CO,OPEN,,,149.01,WNW,,08,3749,38.90159988,-107.9260025,147.36,147.96,100,Delta,On-Air,W0ALC,CCARC,2019-08-26
+Frequency,Offset,Tone,Call,Location,ST/PR,Use,VOIP,DGTL,Mi,Dir,,state_id,ID,Latitude,Longitude,Downlink,Uplink,Uplink Tone,County,Op Status,Sponsor,FM,Analog Bandwidth,Coordination,Last update
+147.36,0.6,100,W0ALC,Cedaredge,CO,OPEN,,,149.01,WNW,,08,3749,38.90159988,-107.9260025,147.36,147.96,100,Delta,On-Air,W0ALC,Yes; analog capable.,,CCARC,2019-08-26

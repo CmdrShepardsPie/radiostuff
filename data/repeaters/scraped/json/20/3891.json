@@ -24,6 +24,8 @@
   "Coverage": "Repeater Coverage Map",
   "Sponsor": "Russell County EM",
   "Features": "E-power (batt/gen).",
+  "FM": "Yes; analog capable.",
+  "Analog Bandwidth": "",
   "Links": "Linkable to 444.95000 (AB0UO) at Russell, K-Link, KS . Linkable to 444.85000 (KS0LNK) at Minneapolis, K-Link, KS .",
   "Notes": "CSQ = local only. Link access requires PL 162.2. Can be linked to K-Link by a control operator.",
   "Nets": "ARES: Wed at 21:00. ARES: Sat at 21:00.",

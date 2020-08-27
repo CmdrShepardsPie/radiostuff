@@ -23,6 +23,8 @@
   "Op Status": "On-Air",
   "Coverage": "Greater grand Junction area.",
   "Features": "E-power,",
+  "FM": "Yes; analog capable.",
+  "Analog Bandwidth": "",
   "IRLP": 3161,
   "Commands": "Standard IRLP node commands.",
   "Coordination": "CCARC",

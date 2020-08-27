@@ -8,8 +8,8 @@
   "Use": "OPEN",
   "VOIP": "",
   "DGTL": "",
-  "Mi": 192.81,
-  "Dir": "NW",
+  "Mi": 100.52,
+  "Dir": "ESE",
   "": "",
   "state_id": "49",
   "ID": "162",
@@ -22,6 +22,8 @@
   "Op Status": "On-Air",
   "Coverage": "Utah County from Alpine to Payson.",
   "Features": 4,
+  "FM": "Yes; analog capable.",
+  "Analog Bandwidth": "",
   "Coordination": "UVHFS",
   "Last update": "2015-03-25"
 }

@@ -8,8 +8,8 @@
   "Use": "OPEN",
   "VOIP": "",
   "DGTL": "",
-  "Mi": 193.53,
-  "Dir": "NW",
+  "Mi": 102.26,
+  "Dir": "ESE",
   "": "",
   "state_id": "49",
   "ID": "6271",
@@ -20,6 +20,8 @@
   "Uplink Tone": 100,
   "County": "Salt Lake",
   "Op Status": "On-Air",
+  "FM": "Yes; analog capable.",
+  "Analog Bandwidth": "",
   "Coordination": "UVHFS",
   "Last update": "2013-09-11"
 }

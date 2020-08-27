@@ -1,2 +1,2 @@
-Frequency,Offset,Tone,Call,Location,ST/PR,Use,VOIP,DGTL,Mi,Dir,,state_id,ID,Latitude,Longitude,Downlink,Uplink,Uplink Tone,County,Op Status,Sponsor,Features,Coordination,Last update
-447.4,-5,67,WB0WDF,Cripple Creek,CO,OPEN,,,20.7,N,,08,66,38.74670029,-105.1780014,447.4,442.4,67,Teller,On-Air,WB0WDF,"E-power, Solar, Remote Base",CCARC,2012-06-15
+Frequency,Offset,Tone,Call,Location,ST/PR,Use,VOIP,DGTL,Mi,Dir,,state_id,ID,Latitude,Longitude,Downlink,Uplink,Uplink Tone,County,Op Status,Sponsor,Features,FM,Analog Bandwidth,Coordination,Last update
+447.4,-5,67,WB0WDF,Cripple Creek,CO,OPEN,,,20.7,N,,08,66,38.74670029,-105.1780014,447.4,442.4,67,Teller,On-Air,WB0WDF,"E-power, Solar, Remote Base",Yes; analog capable.,,CCARC,2012-06-15

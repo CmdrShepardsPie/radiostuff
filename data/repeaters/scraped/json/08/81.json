@@ -25,6 +25,8 @@
   "Coverage": "Wide area: west to the Continental Divide, south to Colorado Springs, east to Limon, and north to Cheyenne.",
   "Sponsor": "Rocky Mtn Radio League",
   "Features": 11,
+  "FM": "Yes; analog capable.",
+  "Analog Bandwidth": "",
   "Links": "Linkable to 449.82500 (W0WYX) at Broomfield, CO . Linkable to 449.45000 (K1DUN) at Idaho Springs, Squaw Mountain, CO .",
   "Commands": "Autopatch: 911* / Off 0*.",
   "Nets": "Colorado WX: Daily at 06:30. RMRL: Mod at 20:30. Astronomy: Tue at 19:00. Amateur Radio Events: Tue at 20:00.",

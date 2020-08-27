@@ -1,2 +1,2 @@
-Frequency,Offset,Tone,Call,Location,ST/PR,Use,VOIP,DGTL,Mi,Dir,,state_id,ID,Latitude,Longitude,Downlink,Uplink,Uplink Tone,County,Op Status,Coverage,Sponsor,Web links,Last update
-447.1,-5,100,KG7EGM,"Draper, Fire Station",UT,OPEN,,,185.51,NW,,49,10060,40.52470016,-111.86399841,447.1,442.1,100,Salt Lake,On-Air,Wide area.,DHRA,http://draperhamradio.wordpress.com,2017-09-01
+Frequency,Offset,Tone,Call,Location,ST/PR,Use,VOIP,DGTL,Mi,Dir,,state_id,ID,Latitude,Longitude,Downlink,Uplink,Uplink Tone,County,Op Status,Coverage,Sponsor,FM,Analog Bandwidth,Web links,Last update
+447.1,-5,100,KG7EGM,"Draper, Fire Station",UT,OPEN,,,104.81,ESE,,49,10060,40.52470016,-111.86399841,447.1,442.1,100,Salt Lake,On-Air,Wide area.,DHRA,Yes; analog capable.,,http://draperhamradio.wordpress.com,2017-09-01

@@ -1,2 +1,2 @@
-Frequency,Offset,Tone Up / Down,Location,County,Call,Use,,state_id,ID,Latitude,Longitude,Downlink,Uplink,Uplink Tone,Grid,Op Status,Coverage,Affiliate,Nets,Coordination,Last update
-449.7,-5,100,"Laketown, Bear Lake",Rich,K7OGM,OPEN,,49,44,41.88249969,-111.26899719,449.7,444.7,100,DN41IV,On-Air,Wide area: Bear Lake and surrounding communities.,Intermountain Intertie,State RACES: 3rd Thursday of even-numbered months.,UVHFS,2013-06-10
+Frequency,Offset,Tone,Call,Location,ST/PR,Use,VOIP,DGTL,Mi,Dir,,state_id,ID,Latitude,Longitude,Downlink,Uplink,Uplink Tone,County,Grid,Op Status,Coverage,Affiliate,FM,Analog Bandwidth,Nets,Coordination,Last update
+449.7,-5,100,K7OGM,"Laketown, Bear Lake",UT,OPEN,,,153.44,E,,49,44,41.88249969,-111.26899719,449.7,444.7,100,Rich,DN41IV,On-Air,Wide area: Bear Lake and surrounding communities.,Intermountain Intertie,Yes; analog capable.,,State RACES: 3rd Thursday of even-numbered months.,UVHFS,2013-06-10

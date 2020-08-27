@@ -1,2 +1,2 @@
-Frequency,Offset,Tone,Call,Location,ST/PR,Use,VOIP,DGTL,Mi,Dir,,state_id,ID,Latitude,Longitude,Downlink,Uplink,Uplink Tone,County,Grid,On-air,Coverage,Features,Coordination,Last update
-927.1125,-25,D432,W7XDX,"West Jordan, Butterfield Peak",UT,OPEN,,,194.44,NW,,49,285,40.46720123,-112.17099762,927.1125,902.1125,D432,Salt Lake,DN30VL,Unknown,Wasatch Front from Payson to Tremonton.,9,UVHFS,2008-09-15
+Frequency,Offset,Tone,Call,Location,ST/PR,Use,VOIP,DGTL,Mi,Dir,,state_id,ID,Latitude,Longitude,Downlink,Uplink,Uplink Tone,County,Grid,On-air,Coverage,Features,FM,Analog Bandwidth,Coordination,Last update
+927.1125,-25,D432,W7XDX,"West Jordan, Butterfield Peak",UT,OPEN,,,89.89,SE,,49,285,40.46720123,-112.17099762,927.1125,902.1125,D432,Salt Lake,DN30VL,Unknown,Wasatch Front from Payson to Tremonton.,9,Yes; analog capable.,,UVHFS,2008-09-15

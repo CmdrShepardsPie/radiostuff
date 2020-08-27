@@ -1,2 +1,2 @@
-Frequency,Offset,Tone,Call,Location,ST/PR,Use,VOIP,DGTL,Mi,Dir,,state_id,ID,Latitude,Longitude,Downlink,Uplink,Uplink Tone,County,Grid,Op Status,Coverage,Sponsor,Features,Coordination,Last update
-448.8,-5,88.5,KA7SLC,Bountiful,UT,CLOSED,,,183.72,NW,,49,81,40.45700073,-111.90499878,448.8,443.8,88.5,Davis,DN40BK,On-Air,North Salt Lake to South Ogden.,Rocky Mtn RA,"Remote base, 5,100'.",UVHFS,2015-07-19
+Frequency,Offset,Tone,Call,Location,ST/PR,Use,VOIP,DGTL,Mi,Dir,,state_id,ID,Latitude,Longitude,Downlink,Uplink,Uplink Tone,County,Grid,Op Status,Coverage,Sponsor,Features,FM,Analog Bandwidth,Coordination,Last update
+448.8,-5,88.5,KA7SLC,Bountiful,UT,CLOSED,,,103.65,SE,,49,81,40.45700073,-111.90499878,448.8,443.8,88.5,Davis,DN40BK,On-Air,North Salt Lake to South Ogden.,Rocky Mtn RA,"Remote base, 5,100'.",Yes; analog capable.,,UVHFS,2015-07-19

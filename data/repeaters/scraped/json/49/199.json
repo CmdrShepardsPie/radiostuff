@@ -8,8 +8,8 @@
   "Use": "OPEN",
   "VOIP": "",
   "DGTL": "",
-  "Mi": 189,
-  "Dir": "NW",
+  "Mi": 88.6,
+  "Dir": "SE",
   "": "",
   "state_id": "49",
   "ID": "199",
@@ -24,6 +24,8 @@
   "Coverage": "Tooele Valley and communities from Grantsville down toward Vernon.",
   "Sponsor": "Tooele County ARES, West Desert ARC",
   "Features": 5,
+  "FM": "Yes; analog capable.",
+  "Analog Bandwidth": "",
   "Coordination": "UVHFS",
   "Last update": "2008-07-10"
 }

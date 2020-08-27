@@ -8,8 +8,8 @@
   "Use": "OPEN",
   "VOIP": "",
   "DGTL": "",
-  "Mi": 195.03,
-  "Dir": "NW",
+  "Mi": 101.81,
+  "Dir": "ESE",
   "": "",
   "state_id": "49",
   "ID": "11159",
@@ -21,6 +21,8 @@
   "County": "Salt Lake",
   "Grid": "DN40BQ",
   "Op Status": "On-Air",
+  "FM": "Yes; analog capable.",
+  "Analog Bandwidth": "",
   "Coordination": "UVHFS",
   "Last update": "2017-03-16"
 }

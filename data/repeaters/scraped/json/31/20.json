@@ -25,8 +25,8 @@
   "Op Status": "On-Air",
   "Coverage": "Hall County / Nebraska State Fair",
   "Sponsor": "Grand Island Amateur Radio Society (GIARS)",
-  "Mixed-Mode": "Yes; analog capable.",
-  "Analog Bandwidth": true,
+  "FM": "Yes; analog capable.",
+  "Analog Bandwidth": "",
   "Coordination": "WB0CMC",
   "Last update": "2018-01-05"
 }

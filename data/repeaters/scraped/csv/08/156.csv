@@ -1,2 +1,2 @@
-Frequency,Offset,Tone,Call,Location,ST/PR,Use,VOIP,DGTL,Mi,Dir,,state_id,ID,Latitude,Longitude,Downlink,Uplink,Uplink Tone,Downlink Tone,County,Op Status,Sponsor,Features,Coordination,Last update
-146.85,-0.6,100,W0UPS,"Greeley, UNC",CO,OPEN,,,137.91,NNE,,08,156,40.40359879,-104.69999695,146.85,146.25,100,100,Weld,On-Air,Northern Colorado ARC,"E-power, WX.",CCARC,2017-05-08
+Frequency,Offset,Tone,Call,Location,ST/PR,Use,VOIP,DGTL,Mi,Dir,,state_id,ID,Latitude,Longitude,Downlink,Uplink,Uplink Tone,Downlink Tone,County,Op Status,Sponsor,Features,FM,Analog Bandwidth,Coordination,Last update
+146.85,-0.6,100,W0UPS,"Greeley, UNC",CO,OPEN,,,137.91,NNE,,08,156,40.40359879,-104.69999695,146.85,146.25,100,100,Weld,On-Air,Northern Colorado ARC,"E-power, WX.",Yes; analog capable.,,CCARC,2017-05-08

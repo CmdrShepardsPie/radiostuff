@@ -1,2 +1,2 @@
-Frequency,Offset,Tone Up / Down,Location,County,Call,Use,,state_id,ID,Latitude,Longitude,Downlink,Uplink,Uplink Tone,Op Status,Sponsor,Affiliate,Coordination,Last update
-147.03,0.6,100,"Allenspark, AFPD Station #5",Boulder,KI0HG,OPEN,,08,15670,40.17269897,-105.46800232,147.03,147.63,100,On-Air,KI0HG,Boulder County Amateur Radio Emergency Service,CCARC,2017-01-20
+Frequency,Offset,Tone,Call,Location,ST/PR,Use,VOIP,DGTL,Mi,Dir,,state_id,ID,Latitude,Longitude,Downlink,Uplink,Uplink Tone,County,Op Status,Sponsor,Affiliate,FM,Analog Bandwidth,Coordination,Last update
+147.03,0.6,100,KI0HG,"Allenspark, AFPD Station #5",CO,OPEN,,,119.78,N,,08,15670,40.17269897,-105.46800232,147.03,147.63,100,Boulder,On-Air,KI0HG,Boulder County Amateur Radio Emergency Service,Yes; analog capable.,,CCARC,2017-01-20

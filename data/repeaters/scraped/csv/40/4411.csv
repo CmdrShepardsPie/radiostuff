@@ -1,2 +1,2 @@
-Frequency,Offset,Tone,Call,Location,ST/PR,Use,VOIP,DGTL,Mi,Dir,,state_id,ID,Latitude,Longitude,Downlink,Uplink,County,On-air,Coverage,Sponsor,Features,Coordination,Last update
-147.39,0.6,,N5AKN,Forgan,OK,OPEN,,,167.55,SE,,40,4411,36.9070015,-100.53900146,147.39,147.99,Beaver,Unknown,70,N5AKN,WX.,ORSI,
+Frequency,Offset,Tone,Call,Location,ST/PR,Use,VOIP,DGTL,Mi,Dir,,state_id,ID,Latitude,Longitude,Downlink,Uplink,County,On-air,Coverage,Sponsor,Features,FM,Analog Bandwidth,Coordination,Last update
+147.39,0.6,,N5AKN,Forgan,OK,OPEN,,,167.55,SE,,40,4411,36.9070015,-100.53900146,147.39,147.99,Beaver,Unknown,70,N5AKN,WX.,Yes; analog capable.,,ORSI,

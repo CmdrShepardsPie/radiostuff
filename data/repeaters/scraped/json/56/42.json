@@ -1,7 +1,7 @@
 {
   "Frequency": 146.73,
   "Offset": -0.6,
-  "Tone": "CSQ",
+  "Tone": 100,
   "Call": "KF7BR",
   "Location": "Torrington",
   "ST/PR": "WY",
@@ -17,9 +17,11 @@
   "Longitude": -104.18399811,
   "Downlink": 146.73,
   "Uplink": 146.13,
-  "Uplink Tone": "CSQ",
+  "Uplink Tone": 100,
   "County": "Goshen",
   "Grid": "DN72VB",
   "Op Status": "On-Air",
-  "Last update": "2019-02-20"
+  "FM": "Yes; analog capable.",
+  "Analog Bandwidth": "",
+  "Last update": "2020-08-10"
 }

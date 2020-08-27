@@ -1,2 +1,2 @@
-Frequency,Offset,Tone,Call,Location,ST/PR,Use,VOIP,DGTL,Mi,Dir,,state_id,ID,Latitude,Longitude,Downlink,Uplink,Uplink Tone,County,Op Status,Affiliate,Features,Web links,Coordination,Last update
-444.575,5,88.5,N5LTZ,Wayside,TX,OPEN,,,190.28,SSE,,48,1549,34.7928009,-101.54699707,444.575,449.575,88.5,Armstrong,On-Air,Caprock Intertie,Linked,Caprock Intertie,TVHFS,2013-04-13
+Frequency,Offset,Tone,Call,Location,ST/PR,Use,VOIP,DGTL,Mi,Dir,,state_id,ID,Latitude,Longitude,Downlink,Uplink,Uplink Tone,County,Op Status,Affiliate,Features,FM,Analog Bandwidth,Web links,Coordination,Last update
+444.575,5,88.5,N5LTZ,Wayside,TX,OPEN,,,190.28,SSE,,48,1549,34.7928009,-101.54699707,444.575,449.575,88.5,Armstrong,On-Air,Caprock Intertie,Linked,Yes; analog capable.,,Caprock Intertie,TVHFS,2013-04-13

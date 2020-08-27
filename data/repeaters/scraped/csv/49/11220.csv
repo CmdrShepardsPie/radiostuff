@@ -1,2 +1,2 @@
-Frequency,Offset,Tone Up / Down,Location,County,Call,Use,,state_id,ID,Latitude,Longitude,Downlink,Uplink,D-STAR Enabled,Node,Sources,Op Status,Sponsor,Coordination,Last update
-147.925,-0.6,DSTR,Tremonton,Box Elder,N7RDS,OPEN,,49,11220,41.7118988,-112.16600037,147.925,147.325,1,N7RDS (C),jfindu lookup / dstar-users lookup,On-Air,NUTS,UVHFS,2015-08-13
+Frequency,Offset,Tone,Call,Location,ST/PR,Use,VOIP,DGTL,Mi,Dir,,state_id,ID,Latitude,Longitude,Downlink,Uplink,D-STAR Enabled,Node,Sources,County,Op Status,Sponsor,Coordination,Last update
+147.925,-0.6,,N7RDS,Tremonton,UT,OPEN,,S,108.06,NE,,49,11220,41.7118988,-112.16600037,147.925,147.325,1,N7RDS (C),jfindu lookup / dstar-users lookup,Box Elder,On-Air,NUTS,UVHFS,2015-08-13

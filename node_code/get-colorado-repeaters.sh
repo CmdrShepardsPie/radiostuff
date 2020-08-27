@@ -1,5 +1,7 @@
 tsc
 
+node dist/get-repeaters.js "Moab, UT"
+node dist/get-repeaters.js "Bonneville, UT"
 node dist/get-repeaters.js "Uravan, CO"
 node dist/get-repeaters.js "Nucla, CO"
 node dist/get-repeaters.js "Naturita, CO"

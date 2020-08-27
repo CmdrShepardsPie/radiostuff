@@ -1,2 +1,2 @@
-Frequency,Offset,Tone,Call,Location,ST/PR,Use,VOIP,DGTL,Mi,Dir,,state_id,ID,Latitude,Longitude,Downlink,Uplink,Uplink Tone,County,Op Status,Coverage,Sponsor,Features,Links,Coordination,Last update
-146.66,-0.6,100,NM5ML,"Grants, Microwave Ridge",NM,OPEN,,,153.96,SSW,,35,94,35.14720154,-107.85099792,146.66,146.06,100,Cibola,On-Air,Wide area.,Mega-Link Rptr System,9,Full-time to the Mega-Link System .,NMFCC,2017-07-25
+Frequency,Offset,Tone,Call,Location,ST/PR,Use,VOIP,DGTL,Mi,Dir,,state_id,ID,Latitude,Longitude,Downlink,Uplink,Uplink Tone,County,Grid,Op Status,Coverage,Sponsor,Features,FM,Analog Bandwidth,Links,Web links,Coordination,Last update
+146.66,-0.6,100,NM5ML,"Grants, Microwave Ridge",NM,OPEN,,,147.46,SSW,,35,94,35.1891,-107.5996,146.66,146.06,100,Cibola,DM65EE,On-Air,Wide area.,Mega-Link Rptr System,9,Yes; analog capable.,,Full-time to the Mega-Link System .,http://www.nm5ml.com/,NMFCC,2020-08-24

@@ -23,6 +23,8 @@
   "Op Status": "On-Air",
   "Coverage": "Wide area: Denver metro.",
   "Sponsor": "Colorado Repeater Association (CRA)",
+  "FM": "Yes; analog capable.",
+  "Analog Bandwidth": "",
   "EchoLink": 347088,
   "IRLP": 3291,
   "Commands": "Member-only IRLP and Echolink node",

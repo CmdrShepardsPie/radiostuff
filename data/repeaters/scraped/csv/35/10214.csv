@@ -1,2 +1,2 @@
-Frequency,Offset,Tone,Call,Location,ST/PR,Use,VOIP,DGTL,Mi,Dir,,state_id,ID,Latitude,Longitude,Downlink,Uplink,Uplink Tone,County,Grid,Op Status,Sponsor,IRLP,Last update
-145.37,-0.6,162.2,NM5HD,Rio Rancho,NM,OPEN,I,,144.1,S,,35,10214,35.19760132,-106.71499634,145.37,144.77,162.2,Sandoval,DM65PE,On-Air,Adrian Miura,7706,2014-11-23
+Frequency,Offset,Tone,Call,Location,ST/PR,Use,VOIP,DGTL,Mi,Dir,,state_id,ID,Latitude,Longitude,Downlink,Uplink,Uplink Tone,County,Grid,Op Status,Sponsor,FM,Analog Bandwidth,IRLP,Last update
+145.37,-0.6,162.2,NM5HD,Rio Rancho,NM,OPEN,I,,144.1,S,,35,10214,35.19760132,-106.71499634,145.37,144.77,162.2,Sandoval,DM65PE,On-Air,Adrian Miura,Yes; analog capable.,,7706,2014-11-23

@@ -1,2 +1,2 @@
-Frequency,Offset,Tone,Call,Location,ST/PR,Use,VOIP,DGTL,Mi,Dir,,state_id,ID,Latitude,Longitude,Downlink,Uplink,County,Grid,Op Status,Coverage,Sponsor,Features,Coordination,Last update
-147.06,0.6,,W7DES,"Salt Lake City, Capitol",UT,OPEN,,,199.25,NW,,49,13,40.77750015,-111.88800049,147.06,147.66,Salt Lake,DN40BS,On-Air,Salt Lake Valley communities from Salt Lake City to Draper.,Utah VHF Society,4,UVHFS,2008-07-10
+Frequency,Offset,Tone,Call,Location,ST/PR,Use,VOIP,DGTL,Mi,Dir,,state_id,ID,Latitude,Longitude,Downlink,Uplink,County,Grid,Op Status,Coverage,Sponsor,Features,FM,Analog Bandwidth,Coordination,Last update
+147.06,0.6,,W7DES,"Salt Lake City, Capitol",UT,OPEN,,,101.88,ESE,,49,13,40.77750015,-111.88800049,147.06,147.66,Salt Lake,DN40BS,On-Air,Salt Lake Valley communities from Salt Lake City to Draper.,Utah VHF Society,4,Yes; analog capable.,,UVHFS,2008-07-10

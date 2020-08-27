@@ -17,7 +17,6 @@
   "Longitude": -102.31199646,
   "Downlink": 444.7,
   "Uplink": 449.7,
-  "Bandwidth": 12.5,
   "Uplink Tone": 110.9,
   "Downlink Tone": 110.9,
   "WIRES-X": 28485,
@@ -25,7 +24,7 @@
   "Grid": "DM84UN",
   "Op Status": "On-Air",
   "Coverage": "Castro County 15 mi radius.",
-  "Mixed-Mode": "Yes; analog capable.",
+  "FM": "Yes; analog capable.",
   "Analog Bandwidth": 12.5,
   "Coordination": "TVHFS",
   "Last update": "2020-01-22"

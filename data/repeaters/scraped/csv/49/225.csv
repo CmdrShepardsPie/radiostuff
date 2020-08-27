@@ -1,2 +1,2 @@
-Frequency,Offset,Tone Up / Down,Location,County,Call,Use,,state_id,ID,Latitude,Longitude,Downlink,Uplink,Uplink Tone,Grid,Op Status,Coverage,Features,Coordination,Last update
-433.6,-5,100,"Salt Lake City, Nelson Peak",Tooele,WA7GIE,CLOSED,,49,225,40.61360168,-112.18800354,433.6,428.6,100,DN30VO,On-Air,Wasatch Front from Payson to Tremonton.,9,UVHFS,2013-11-16
+Frequency,Offset,Tone,Call,Location,ST/PR,Use,VOIP,DGTL,Mi,Dir,,state_id,ID,Latitude,Longitude,Downlink,Uplink,Uplink Tone,County,Grid,Op Status,Coverage,Features,FM,Analog Bandwidth,Coordination,Last update
+433.6,-5,100,WA7GIE,"Salt Lake City, Nelson Peak",UT,CLOSED,,,87.04,ESE,,49,225,40.61360168,-112.18800354,433.6,428.6,100,Tooele,DN30VO,On-Air,Wasatch Front from Payson to Tremonton.,9,Yes; analog capable.,,UVHFS,2013-11-16

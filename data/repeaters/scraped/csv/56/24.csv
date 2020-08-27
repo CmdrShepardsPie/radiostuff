@@ -1,2 +1,2 @@
-Frequency,Offset,Tone,Call,Location,ST/PR,Use,VOIP,DGTL,Mi,Dir,,state_id,ID,Latitude,Longitude,Downlink,Uplink,Uplink Tone,County,Op Status,Coverage,Sponsor,Notes,Coordination,Last update
-145.145,-0.6,100,KC7BJY,Marbleton,WY,OPEN,,,193.4,NW,,56,24,42.55360031,-110.10900116,145.145,144.545,100,Sublette,On-Air,"Marbleton, Big Piney, Pinedale and Boulder areas.",Sublette Co ARC,7,WRCG,2018-05-12
+Frequency,Offset,Tone,Call,Location,ST/PR,Use,VOIP,DGTL,Mi,Dir,,state_id,ID,Latitude,Longitude,Downlink,Uplink,Uplink Tone,County,Op Status,Coverage,Sponsor,FM,Analog Bandwidth,Notes,Coordination,Last update
+145.145,-0.6,100,KC7BJY,Marbleton,WY,OPEN,,,193.4,NW,,56,24,42.55360031,-110.10900116,145.145,144.545,100,Sublette,On-Air,"Marbleton, Big Piney, Pinedale and Boulder areas.",Sublette Co ARC,Yes; analog capable.,,7,WRCG,2018-05-12
