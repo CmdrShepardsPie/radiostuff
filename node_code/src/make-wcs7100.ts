@@ -12,19 +12,21 @@ import {
 } from '@interfaces/wcs7100';
 import chalk from 'chalk';
 import {
-  buildDCS, convertOffsetFrequency,
+  buildDCS,
+  convertOffsetFrequency,
   filterFrequencies,
   filterMode,
-  FrequencyBand, RadioCommon,
+  FrequencyBand,
   loadRepeaters,
   loadSimplex,
-  Mode, radioCommon
+  Mode,
+  RadioCommon,
+  radioCommon
 } from '@helpers/radio-helpers';
 import { program } from 'commander';
 import gpsDistance from 'gps-distance';
 import { checkCoordinates, splitCoordinates } from '@helpers/helpers';
 import { RtSystemsCtcssTone, RtSystemsDcsTone } from '@interfaces/rt-systems';
-import { Adms400, Adms400OffsetDirection, Adms400ToneMode } from '@interfaces/adms400';
 
 const log: (...msg: any[]) => void = createLog('Make Wcs7100');
 
@@ -54,7 +56,7 @@ program.parse(process.argv);
 async function doIt(location: gpsDistance.Point, outFileName: string): Promise<void> {
   const promises: Promise<void>[] = [];
 
-  const simplex: RepeaterStructured[] = await loadSimplex(/^((?!(Fusion|Mixed|QRP|RTTY|CW)).)*$/i);
+  const simplex: RepeaterStructured[] = await loadSimplex(/^((?!(Fusion|Mixed)).)*$/i);
   const repeaters: RepeaterStructured[] = await loadRepeaters(location);
 
   const mapped: Wcs7100[] = [
@@ -102,28 +104,35 @@ async function doIt(location: gpsDistance.Point, outFileName: string): Promise<v
     .filter((filter: Wcs7100): boolean => filter['Offset Direction'] !== Wcs7100OffsetDirection.Simplex || filter['Tone Mode'] !== Wcs7100ToneMode.None);
 
   const A: Wcs7100[] = simplexWcs7100
+    .filter((filter: Wcs7100): boolean => !(filter['Operating Mode'] === Wcs7100OperatingMode.FM || filter['Operating Mode'] === Wcs7100OperatingMode.DV))
     .slice(0, 99)
     .map((map: Wcs7100, index: number): Wcs7100 => ({ ...map, 'Channel Number': index + 1 }));
-  const B: Wcs7100[] = duplexWcs7100
+
+  const B: Wcs7100[] = simplexWcs7100
+    .filter((filter: Wcs7100): boolean => filter['Operating Mode'] === Wcs7100OperatingMode.FM || filter['Operating Mode'] === Wcs7100OperatingMode.DV)
     .slice(0, 99)
-    .sort((a: Wcs7100, b: Wcs7100): number => a['Receive Frequency'] - b['Receive Frequency'])
-    .sort((a: Wcs7100, b: Wcs7100): number => a.Name > b.Name ? 1 : a.Name < b.Name ? - 1 : 0)
     .map((map: Wcs7100, index: number): Wcs7100 => ({ ...map, 'Channel Number': index + 1 }));
+
   const C: Wcs7100[] = duplexWcs7100
-    .slice(99, 198)
+    .slice(0, 99)
     .sort((a: Wcs7100, b: Wcs7100): number => a['Receive Frequency'] - b['Receive Frequency'])
     .sort((a: Wcs7100, b: Wcs7100): number => a.Name > b.Name ? 1 : a.Name < b.Name ? - 1 : 0)
     .map((map: Wcs7100, index: number): Wcs7100 => ({ ...map, 'Channel Number': index + 1 }));
   const D: Wcs7100[] = duplexWcs7100
-    .slice(198, 297)
+    .slice(99, 198)
     .sort((a: Wcs7100, b: Wcs7100): number => a['Receive Frequency'] - b['Receive Frequency'])
     .sort((a: Wcs7100, b: Wcs7100): number => a.Name > b.Name ? 1 : a.Name < b.Name ? - 1 : 0)
     .map((map: Wcs7100, index: number): Wcs7100 => ({ ...map, 'Channel Number': index + 1 }));
   const E: Wcs7100[] = duplexWcs7100
-    .slice(297, 396)
+    .slice(198, 297)
     .sort((a: Wcs7100, b: Wcs7100): number => a['Receive Frequency'] - b['Receive Frequency'])
     .sort((a: Wcs7100, b: Wcs7100): number => a.Name > b.Name ? 1 : a.Name < b.Name ? - 1 : 0)
     .map((map: Wcs7100, index: number): Wcs7100 => ({ ...map, 'Channel Number': index + 1 }));
+  // const F: Wcs7100[] = duplexWcs7100
+  //   .slice(297, 396)
+  //   .sort((a: Wcs7100, b: Wcs7100): number => a['Receive Frequency'] - b['Receive Frequency'])
+  //   .sort((a: Wcs7100, b: Wcs7100): number => a.Name > b.Name ? 1 : a.Name < b.Name ? - 1 : 0)
+  //   .map((map: Wcs7100, index: number): Wcs7100 => ({ ...map, 'Channel Number': index + 1 }));
 
   promises.push(writeToCsv(`${outFileName}-A`, A));
   promises.push(writeToCsv(`${outFileName}-B`, B));

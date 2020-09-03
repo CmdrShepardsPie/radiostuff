@@ -41,7 +41,7 @@ var __importDefault = (this && this.__importDefault) || function (mod) {
     commander_1.program.parse(process.argv);
     async function doIt(location, outFileName) {
         const promises = [];
-        const simplex = await radio_helpers_1.loadSimplex(/^((?!(Fusion|Mixed|QRP|RTTY|CW)).)*$/i);
+        const simplex = await radio_helpers_1.loadSimplex(/^((?!(Fusion|Mixed)).)*$/i);
         const repeaters = await radio_helpers_1.loadRepeaters(location);
         const mapped = [
             ...simplex
@@ -57,28 +57,33 @@ var __importDefault = (this && this.__importDefault) || function (mod) {
         const duplexWcs7100 = mapped
             .filter((filter) => filter['Offset Direction'] !== wcs7100_1.Wcs7100OffsetDirection.Simplex || filter['Tone Mode'] !== wcs7100_1.Wcs7100ToneMode.None);
         const A = simplexWcs7100
+            .filter((filter) => !(filter['Operating Mode'] === wcs7100_1.Wcs7100OperatingMode.FM || filter['Operating Mode'] === wcs7100_1.Wcs7100OperatingMode.DV))
             .slice(0, 99)
             .map((map, index) => ({ ...map, 'Channel Number': index + 1 }));
-        const B = duplexWcs7100
+        const B = simplexWcs7100
+            .filter((filter) => filter['Operating Mode'] === wcs7100_1.Wcs7100OperatingMode.FM || filter['Operating Mode'] === wcs7100_1.Wcs7100OperatingMode.DV)
             .slice(0, 99)
-            .sort((a, b) => a['Receive Frequency'] - b['Receive Frequency'])
-            .sort((a, b) => a.Name > b.Name ? 1 : a.Name < b.Name ? -1 : 0)
             .map((map, index) => ({ ...map, 'Channel Number': index + 1 }));
         const C = duplexWcs7100
-            .slice(99, 198)
+            .slice(0, 99)
             .sort((a, b) => a['Receive Frequency'] - b['Receive Frequency'])
             .sort((a, b) => a.Name > b.Name ? 1 : a.Name < b.Name ? -1 : 0)
             .map((map, index) => ({ ...map, 'Channel Number': index + 1 }));
         const D = duplexWcs7100
-            .slice(198, 297)
+            .slice(99, 198)
             .sort((a, b) => a['Receive Frequency'] - b['Receive Frequency'])
             .sort((a, b) => a.Name > b.Name ? 1 : a.Name < b.Name ? -1 : 0)
             .map((map, index) => ({ ...map, 'Channel Number': index + 1 }));
         const E = duplexWcs7100
-            .slice(297, 396)
+            .slice(198, 297)
             .sort((a, b) => a['Receive Frequency'] - b['Receive Frequency'])
             .sort((a, b) => a.Name > b.Name ? 1 : a.Name < b.Name ? -1 : 0)
             .map((map, index) => ({ ...map, 'Channel Number': index + 1 }));
+        // const F: Wcs7100[] = duplexWcs7100
+        //   .slice(297, 396)
+        //   .sort((a: Wcs7100, b: Wcs7100): number => a['Receive Frequency'] - b['Receive Frequency'])
+        //   .sort((a: Wcs7100, b: Wcs7100): number => a.Name > b.Name ? 1 : a.Name < b.Name ? - 1 : 0)
+        //   .map((map: Wcs7100, index: number): Wcs7100 => ({ ...map, 'Channel Number': index + 1 }));
         promises.push(fs_helpers_1.writeToCsv(`${outFileName}-A`, A));
         promises.push(fs_helpers_1.writeToCsv(`${outFileName}-B`, B));
         promises.push(fs_helpers_1.writeToCsv(`${outFileName}-C`, C));
