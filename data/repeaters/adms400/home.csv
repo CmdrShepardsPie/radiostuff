@@ -4,7 +4,7 @@ Channel Number,Receive Frequency,Transmit Frequency,Offset Frequency,Offset Dire
 3,144.42500,144.42500,,Simplex,AM,AM Simplex 144.425,Large,None,100.0 Hz,023,High,Off,Auto,Off,AM Simplex,1500 Hz
 4,144.45000,144.45000,,Simplex,AM,AM Simplex 144.45,Large,None,100.0 Hz,023,High,Off,Auto,Off,AM Simplex,1500 Hz
 5,145.56250,145.56250,,Simplex,Auto,Fusion Simplex 145.5,Large,None,100.0 Hz,023,High,Off,Auto,Off,Fusion Simplex,1500 Hz
-6,145.82500,145.82500,,Simplex,Auto,ISS AX.25 1200 Bd AF,Large,None,100.0 Hz,023,High,Off,Auto,Off,ISS AX.25 1200 Bd AFSK Packet Radio (Worldwide),1500 Hz
+6,145.82500,145.82500,,Simplex,Auto,ISS AX.25 1200 Bd AF,Large,None,100.0 Hz,023,High,Off,Auto,Off,ISS AX.25 1200 Bd AFSK Packet Radio (Worldwide) FM,1500 Hz
 7,146.40000,146.40000,,Simplex,Auto,FM Simplex 146.4,Large,None,100.0 Hz,023,High,Off,Auto,Off,FM Simplex,1500 Hz
 8,146.41500,146.41500,,Simplex,Auto,FM Simplex 146.415,Large,None,100.0 Hz,023,High,Off,Auto,Off,FM Simplex,1500 Hz
 9,146.43000,146.43000,,Simplex,Auto,FM Simplex 146.43,Large,None,100.0 Hz,023,High,Off,Auto,Off,FM Simplex,1500 Hz
@@ -32,7 +32,7 @@ Channel Number,Receive Frequency,Transmit Frequency,Offset Frequency,Offset Dire
 31,147.55500,147.55500,,Simplex,Auto,FM Simplex 147.555,Large,None,100.0 Hz,023,High,Off,Auto,Off,FM Simplex,1500 Hz
 32,147.57000,147.57000,,Simplex,Auto,FM Simplex 147.57,Large,None,100.0 Hz,023,High,Off,Auto,Off,FM Simplex,1500 Hz
 33,147.58500,147.58500,,Simplex,Auto,FM Simplex 147.585,Large,None,100.0 Hz,023,High,Off,Auto,Off,FM Simplex,1500 Hz
-34,437.55000,437.55000,,Simplex,Auto,ISS UHF Simplex (rar,Large,None,100.0 Hz,023,High,Off,Auto,Off,ISS UHF Simplex (rarely used),1500 Hz
+34,437.55000,437.55000,,Simplex,Auto,ISS UHF Simplex (rar,Large,None,100.0 Hz,023,High,Off,Auto,Off,ISS UHF Simplex (rarely used) FM,1500 Hz
 35,445.70000,445.70000,,Simplex,Auto,FM Simplex 445.7,Large,None,100.0 Hz,023,High,Off,Auto,Off,FM Simplex,1500 Hz
 36,445.72500,445.72500,,Simplex,Auto,FM Simplex 445.725,Large,None,100.0 Hz,023,High,Off,Auto,Off,FM Simplex,1500 Hz
 37,445.75000,445.75000,,Simplex,Auto,FM Simplex 445.75,Large,None,100.0 Hz,023,High,Off,Auto,Off,FM Simplex,1500 Hz
@@ -250,10 +250,10 @@ Channel Number,Receive Frequency,Transmit Frequency,Offset Frequency,Offset Dire
 249,145.43000,144.83000,600 kHz,Minus,Auto,IFI Trinidad Raton P,Large,Tone,107.2 Hz,023,High,Off,Auto,Off,8 239 295.00 CO Las Animas Trinidad Raton Pass WA6IFI,1500 Hz
 250,146.91000,146.31000,600 kHz,Minus,Auto,IRP Colorado Springs,Large,T Sql,151.4 Hz,023,High,Off,Auto,Off,8 43 88.00 CO El Paso Colorado Springs K0IRP,1500 Hz
 251,447.35000,442.35000,5.00 MHz,Minus,Auto,IRP Colorado Springs,Large,Tone,151.4 Hz,023,High,Off,Auto,Off,8 50 88.00 CO El Paso Colorado Springs K0IRP,1500 Hz
-252,145.80000,1269.65000,,Plus,Auto,ISS FM L/v VOICE Rep,Large,None,100.0 Hz,023,High,Off,Auto,Off,ISS FM L/v VOICE Repeater (Worldwide),1500 Hz
-253,145.80000,437.80000,,Plus,Auto,ISS FM U/v VOICE Rep,Large,None,100.0 Hz,023,High,Off,Auto,Off,ISS FM U/v VOICE Repeater (Worldwide),1500 Hz
-254,437.80000,145.99000,,Minus,Auto,ISS FM V/u with PL V,Large,Tone,67.0 Hz,023,High,Off,Auto,Off,ISS FM V/u with PL VOICE Repeater (Worldwide),1500 Hz
-255,145.80000,144.49000,,Minus,Auto,ISS FM VOICE for ITU,Large,None,100.0 Hz,023,High,Off,Auto,Off,ISS FM VOICE for ITU Region 2&3,1500 Hz
+252,145.80000,1269.65000,,Plus,Auto,ISS L/v VOICE Repeat,Large,None,100.0 Hz,023,High,Off,Auto,Off,ISS L/v VOICE Repeater (Worldwide) FM,1500 Hz
+253,145.80000,437.80000,,Plus,Auto,ISS U/v VOICE Repeat,Large,None,100.0 Hz,023,High,Off,Auto,Off,ISS U/v VOICE Repeater (Worldwide) FM,1500 Hz
+254,437.80000,145.99000,,Minus,Auto,ISS V/u with PL VOIC,Large,Tone,67.0 Hz,023,High,Off,Auto,Off,ISS V/u with PL VOICE Repeater (Worldwide) FM,1500 Hz
+255,145.80000,144.49000,,Minus,Auto,ISS VOICE for ITU Re,Large,None,100.0 Hz,023,High,Off,Auto,Off,ISS VOICE for ITU Region 2&3 FM,1500 Hz
 256,447.45000,442.45000,5.00 MHz,Minus,Auto,ITS Aztec 447.45,Large,Tone,107.2 Hz,023,High,Off,Auto,Off,35 44 413.00 NM San Juan Aztec KB5ITS,1500 Hz
 257,146.61000,146.01000,600 kHz,Minus,Auto,ITS Aztec Hottel Hil,Large,Tone,100.0 Hz,023,High,Off,Auto,Off,35 18461 415.00 NM San Juan Aztec Hottel Hill KB5ITS,1500 Hz
 258,147.10000,147.70000,600 kHz,Plus,Auto,ITS Bloomfield Harri,Large,Tone,100.0 Hz,023,High,Off,Auto,Off,35 49 421.00 NM San Juan Bloomfield Harris mesa KB5ITS,1500 Hz

@@ -1,9 +1,9 @@
 Channel Number,Receive Frequency,Transmit Frequency,Offset Frequency,Offset Direction,Operating Mode,Name,Tone Mode,CTCSS,Rx CTCSS,DCS,DCS Polarity,Select Scan,Comment,Digital Squelch,Digital Code,Your Callsign,Rpt-1 CallSign,Rpt-2 CallSign,Filter,Tx Data Mode,Data Mode,Split Tone Mode,Split CTCSS,Split Rx CTCSS,Split DCS,Split DCS Polarity,Tx Filter,Tx Operating Mode
-1,145.82500,145.82500,,Simplex,FM,ISS AX.25 1200 Bd AF,None,100.0 Hz,100.0 Hz,023,Both N,Off,ISS AX.25 1200 Bd AFSK Packet Radio (Worldwide),,,,,,Filter 1,,,None,88.5 Hz,88.5 Hz,023,Both N,Filter 1,FM
-2,437.55000,437.55000,,Simplex,FM,ISS UHF Simplex (rar,None,100.0 Hz,100.0 Hz,023,Both N,Off,ISS UHF Simplex (rarely used),,,,,,Filter 1,,,None,88.5 Hz,88.5 Hz,023,Both N,Filter 1,FM
-3,145.80000,144.49000,,-DUP,FM,ISS FM VOICE for ITU,None,100.0 Hz,100.0 Hz,023,Both N,Off,ISS FM VOICE for ITU Region 2&3,,,,,,Filter 1,,,None,88.5 Hz,88.5 Hz,023,Both N,Filter 1,FM
-4,145.80000,437.80000,,+DUP,FM,ISS FM U/v VOICE Rep,None,100.0 Hz,100.0 Hz,023,Both N,Off,ISS FM U/v VOICE Repeater (Worldwide),,,,,,Filter 1,,,None,88.5 Hz,88.5 Hz,023,Both N,Filter 1,FM
-5,145.80000,1269.65000,,+DUP,FM,ISS FM L/v VOICE Rep,None,100.0 Hz,100.0 Hz,023,Both N,Off,ISS FM L/v VOICE Repeater (Worldwide),,,,,,Filter 1,,,None,88.5 Hz,88.5 Hz,023,Both N,Filter 1,FM
+1,145.82500,145.82500,,Simplex,FM,ISS AX.25 1200 Bd AF,None,100.0 Hz,100.0 Hz,023,Both N,Off,ISS AX.25 1200 Bd AFSK Packet Radio (Worldwide) FM,,,,,,Filter 1,,,None,88.5 Hz,88.5 Hz,023,Both N,Filter 1,FM
+2,437.55000,437.55000,,Simplex,FM,ISS UHF Simplex (rar,None,100.0 Hz,100.0 Hz,023,Both N,Off,ISS UHF Simplex (rarely used) FM,,,,,,Filter 1,,,None,88.5 Hz,88.5 Hz,023,Both N,Filter 1,FM
+3,145.80000,144.49000,,-DUP,FM,ISS VOICE for ITU Re,None,100.0 Hz,100.0 Hz,023,Both N,Off,ISS VOICE for ITU Region 2&3 FM,,,,,,Filter 1,,,None,88.5 Hz,88.5 Hz,023,Both N,Filter 1,FM
+4,145.80000,437.80000,,+DUP,FM,ISS U/v VOICE Repeat,None,100.0 Hz,100.0 Hz,023,Both N,Off,ISS U/v VOICE Repeater (Worldwide) FM,,,,,,Filter 1,,,None,88.5 Hz,88.5 Hz,023,Both N,Filter 1,FM
+5,145.80000,1269.65000,,+DUP,FM,ISS L/v VOICE Repeat,None,100.0 Hz,100.0 Hz,023,Both N,Off,ISS L/v VOICE Repeater (Worldwide) FM,,,,,,Filter 1,,,None,88.5 Hz,88.5 Hz,023,Both N,Filter 1,FM
 6,145.85000,436.00000,,+DUP,FM,SAT Swiatowid FM 145,None,100.0 Hz,100.0 Hz,023,Both N,Off,SAT Swiatowid FM,,,,,,Filter 1,,,None,88.5 Hz,88.5 Hz,023,Both N,Filter 1,FM
 7,145.88000,435.35000,,+DUP,FM,SAT AO-92 (Fox-1D) F,Tone,67.0 Hz,67.0 Hz,023,Both N,Off,SAT AO-92 (Fox-1D) FM,,,,,,Filter 1,,,None,88.5 Hz,88.5 Hz,023,Both N,Filter 1,FM
 8,145.88000,1267.35900,,+DUP,FM,SAT AO-92 (Fox-1D) F,Tone,67.0 Hz,67.0 Hz,023,Both N,Off,SAT AO-92 (Fox-1D) FM,,,,,,Filter 1,,,None,88.5 Hz,88.5 Hz,023,Both N,Filter 1,FM
@@ -19,5 +19,5 @@ Channel Number,Receive Frequency,Transmit Frequency,Offset Frequency,Offset Dire
 18,436.79500,145.85000,,-DUP,FM,SAT SO-50 (SaudiSat-,Tone,67.0 Hz,67.0 Hz,023,Both N,Off,SAT SO-50 (SaudiSat-1C) FM,,,,,,Filter 1,,,None,88.5 Hz,88.5 Hz,023,Both N,Filter 1,FM
 19,436.79500,145.85000,,-DUP,FM,SAT AO-27 FM 436.795,None,100.0 Hz,100.0 Hz,023,Both N,Off,SAT AO-27 FM,,,,,,Filter 1,,,None,88.5 Hz,88.5 Hz,023,Both N,Filter 1,FM
 20,437.20000,144.35000,,-DUP,FM,SAT CAS-3H (LilacSat,None,100.0 Hz,100.0 Hz,023,Both N,Off,SAT CAS-3H (LilacSat-2) FM,,,,,,Filter 1,,,None,88.5 Hz,88.5 Hz,023,Both N,Filter 1,FM
-21,437.80000,145.99000,,-DUP,FM,ISS FM V/u with PL V,Tone,67.0 Hz,67.0 Hz,023,Both N,Off,ISS FM V/u with PL VOICE Repeater (Worldwide),,,,,,Filter 1,,,None,88.5 Hz,88.5 Hz,023,Both N,Filter 1,FM
+21,437.80000,145.99000,,-DUP,FM,ISS V/u with PL VOIC,Tone,67.0 Hz,67.0 Hz,023,Both N,Off,ISS V/u with PL VOICE Repeater (Worldwide) FM,,,,,,Filter 1,,,None,88.5 Hz,88.5 Hz,023,Both N,Filter 1,FM
 22,437.80000,145.99000,,-DUP,FM,SAT ISS Crossband Re,Tone,67.0 Hz,67.0 Hz,023,Both N,Off,SAT ISS Crossband Repeater FM,,,,,,Filter 1,,,None,88.5 Hz,88.5 Hz,023,Both N,Filter 1,FM

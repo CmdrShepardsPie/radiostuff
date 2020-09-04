@@ -82,10 +82,10 @@ Frequency,Name,Input,Tone
 144.45,AM Simplex,,
 145.5625,Fusion Simplex,,
 145.67,D-Star Simplex,,
-145.8,ISS FM VOICE for ITU Region 2&3,144.49,
-145.8,ISS FM U/v VOICE Repeater (Worldwide),437.8,
-145.8,ISS FM L/v VOICE Repeater (Worldwide),1269.65,
-145.825,ISS AX.25 1200 Bd AFSK Packet Radio (Worldwide),145.825,
+145.8,ISS VOICE for ITU Region 2&3 FM,144.49,
+145.8,ISS U/v VOICE Repeater (Worldwide) FM,437.8,
+145.8,ISS L/v VOICE Repeater (Worldwide) FM,1269.65,
+145.825,ISS AX.25 1200 Bd AFSK Packet Radio (Worldwide) FM,145.825,
 145.85,SAT Swiatowid FM,436,
 145.88,SAT AO-92 (Fox-1D) FM,435.35,67
 145.88,SAT AO-92 (Fox-1D) FM,1267.359,67
@@ -137,8 +137,8 @@ Frequency,Name,Input,Tone
 436.795,SAT SO-50 (SaudiSat-1C) FM,145.85,67
 436.795,SAT AO-27 FM,145.85,
 437.2,SAT CAS-3H (LilacSat-2) FM,144.35,
-437.55,ISS UHF Simplex (rarely used),437.55,
-437.8,ISS FM V/u with PL VOICE Repeater (Worldwide),145.99,67
+437.55,ISS UHF Simplex (rarely used) FM,437.55,
+437.8,ISS V/u with PL VOICE Repeater (Worldwide) FM,145.99,67
 437.8,SAT ISS Crossband Repeater FM,145.99,67
 440.7,Mixed,,
 440.725,Mixed,,

@@ -52,10 +52,10 @@ Channel Number,Receive Frequency,Transmit Frequency,Offset Frequency,Offset Dire
 51,449.05000,444.05000,5.00 MHz,-DUP,FM,G0N Idaho Springs Sq,T Sql,107.2 Hz,107.2 Hz,023,Both N,Off,8 95 55.00 CO Denver Idaho Springs Squaw Mountain WG0N,,,,,,Filter 1,,,None,88.5 Hz,88.5 Hz,023,Both N,Filter 1,FM
 52,145.34000,144.74000,600 kHz,-DUP,FM,GUQ Evergreen 145.34,Tone,103.5 Hz,127.3 Hz,023,Both N,Off,8 73 36.00 CO Jefferson Evergreen KE4GUQ,,,,,,Filter 1,,,None,88.5 Hz,88.5 Hz,023,Both N,Filter 1,FM
 53,448.85000,443.85000,5.00 MHz,-DUP,FM,IBM Golden Guy Hill,T Sql,88.5 Hz,88.5 Hz,023,Both N,Off,8 136 41.00 CO Jefferson Golden Guy Hill K0IBM,,,,,,Filter 1,,,None,88.5 Hz,88.5 Hz,023,Both N,Filter 1,FM
-54,145.80000,1269.65000,,+DUP,FM,ISS FM L/v VOICE Rep,None,100.0 Hz,100.0 Hz,023,Both N,Off,ISS FM L/v VOICE Repeater (Worldwide),,,,,,Filter 1,,,None,88.5 Hz,88.5 Hz,023,Both N,Filter 1,FM
-55,145.80000,437.80000,,+DUP,FM,ISS FM U/v VOICE Rep,None,100.0 Hz,100.0 Hz,023,Both N,Off,ISS FM U/v VOICE Repeater (Worldwide),,,,,,Filter 1,,,None,88.5 Hz,88.5 Hz,023,Both N,Filter 1,FM
-56,437.80000,145.99000,,-DUP,FM,ISS FM V/u with PL V,Tone,67.0 Hz,67.0 Hz,023,Both N,Off,ISS FM V/u with PL VOICE Repeater (Worldwide),,,,,,Filter 1,,,None,88.5 Hz,88.5 Hz,023,Both N,Filter 1,FM
-57,145.80000,144.49000,,-DUP,FM,ISS FM VOICE for ITU,None,100.0 Hz,100.0 Hz,023,Both N,Off,ISS FM VOICE for ITU Region 2&3,,,,,,Filter 1,,,None,88.5 Hz,88.5 Hz,023,Both N,Filter 1,FM
+54,145.80000,1269.65000,,+DUP,FM,ISS L/v VOICE Repeat,None,100.0 Hz,100.0 Hz,023,Both N,Off,ISS L/v VOICE Repeater (Worldwide) FM,,,,,,Filter 1,,,None,88.5 Hz,88.5 Hz,023,Both N,Filter 1,FM
+55,145.80000,437.80000,,+DUP,FM,ISS U/v VOICE Repeat,None,100.0 Hz,100.0 Hz,023,Both N,Off,ISS U/v VOICE Repeater (Worldwide) FM,,,,,,Filter 1,,,None,88.5 Hz,88.5 Hz,023,Both N,Filter 1,FM
+56,437.80000,145.99000,,-DUP,FM,ISS V/u with PL VOIC,Tone,67.0 Hz,67.0 Hz,023,Both N,Off,ISS V/u with PL VOICE Repeater (Worldwide) FM,,,,,,Filter 1,,,None,88.5 Hz,88.5 Hz,023,Both N,Filter 1,FM
+57,145.80000,144.49000,,-DUP,FM,ISS VOICE for ITU Re,None,100.0 Hz,100.0 Hz,023,Both N,Off,ISS VOICE for ITU Region 2&3 FM,,,,,,Filter 1,,,None,88.5 Hz,88.5 Hz,023,Both N,Filter 1,FM
 58,447.17500,442.17500,5.00 MHz,-DUP,FM,JRL Denver Broadway,T Sql,100.0 Hz,100.0 Hz,023,Both N,Off,8 12216 16.00 CO Denver Denver Broadway Plaza Lofts W0JRL,,,,,,Filter 1,,,None,88.5 Hz,88.5 Hz,023,Both N,Filter 1,FM
 59,146.71500,146.11500,600 kHz,-DUP,FM,JXN Denver 146.715,T Sql,123.0 Hz,123.0 Hz,023,Both N,Off,8 79 15.00 CO Denver Denver N0JXN,,,,,,Filter 1,,,None,88.5 Hz,88.5 Hz,023,Both N,Filter 1,FM
 60,147.31500,147.91500,600 kHz,+DUP,DV,KEG Centennial 147.3,None,100.0 Hz,100.0 Hz,023,Both N,Off,8 17676 5.00 CO Arapahoe Centennial N0KEG,,,CQCQCQ,N0KEG  C,N0KEG  G,Filter 1,,,None,88.5 Hz,88.5 Hz,023,Both N,Filter 1,FM
