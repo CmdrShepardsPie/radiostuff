@@ -57,29 +57,35 @@ var __importDefault = (this && this.__importDefault) || function (mod) {
         const duplexWcs7100 = mapped
             .filter((filter) => filter['Offset Direction'] !== wcs7100_1.Wcs7100OffsetDirection.Simplex || filter['Tone Mode'] !== wcs7100_1.Wcs7100ToneMode.None);
         const A = simplexWcs7100
-            .filter((filter) => !(filter['Operating Mode'] === wcs7100_1.Wcs7100OperatingMode.FM || filter['Operating Mode'] === wcs7100_1.Wcs7100OperatingMode.DV))
+            .filter((filter) => !(filter['Operating Mode'] === wcs7100_1.Wcs7100OperatingMode.FM || filter['Operating Mode'] === wcs7100_1.Wcs7100OperatingMode.DV)
+            && !/^ISS/.test(filter.Name) && !/^SAT/.test(filter.Name))
             .slice(0, 99)
             .map((map, index) => ({ ...map, 'Channel Number': index + 1 }));
         const B = simplexWcs7100
-            .filter((filter) => filter['Operating Mode'] === wcs7100_1.Wcs7100OperatingMode.FM || filter['Operating Mode'] === wcs7100_1.Wcs7100OperatingMode.DV)
+            .filter((filter) => (filter['Operating Mode'] === wcs7100_1.Wcs7100OperatingMode.FM || filter['Operating Mode'] === wcs7100_1.Wcs7100OperatingMode.DV)
+            && !/^ISS/.test(filter.Name) && !/^SAT/.test(filter.Name))
             .slice(0, 99)
             .map((map, index) => ({ ...map, 'Channel Number': index + 1 }));
-        const C = duplexWcs7100
+        const C = [...simplexWcs7100, ...duplexWcs7100]
+            .filter((filter) => /^ISS/.test(filter.Name) || /^SAT/.test(filter.Name))
             .slice(0, 99)
-            .sort((a, b) => a['Receive Frequency'] - b['Receive Frequency'])
-            .sort((a, b) => a.Name > b.Name ? 1 : a.Name < b.Name ? -1 : 0)
             .map((map, index) => ({ ...map, 'Channel Number': index + 1 }));
         const D = duplexWcs7100
-            .slice(99, 198)
+            .slice(0, 99)
             .sort((a, b) => a['Receive Frequency'] - b['Receive Frequency'])
             .sort((a, b) => a.Name > b.Name ? 1 : a.Name < b.Name ? -1 : 0)
             .map((map, index) => ({ ...map, 'Channel Number': index + 1 }));
         const E = duplexWcs7100
-            .slice(198, 297)
+            .slice(99, 198)
             .sort((a, b) => a['Receive Frequency'] - b['Receive Frequency'])
             .sort((a, b) => a.Name > b.Name ? 1 : a.Name < b.Name ? -1 : 0)
             .map((map, index) => ({ ...map, 'Channel Number': index + 1 }));
         // const F: Wcs7100[] = duplexWcs7100
+        //   .slice(198, 297)
+        //   .sort((a: Wcs7100, b: Wcs7100): number => a['Receive Frequency'] - b['Receive Frequency'])
+        //   .sort((a: Wcs7100, b: Wcs7100): number => a.Name > b.Name ? 1 : a.Name < b.Name ? - 1 : 0)
+        //   .map((map: Wcs7100, index: number): Wcs7100 => ({ ...map, 'Channel Number': index + 1 }));
+        // const G: Wcs7100[] = duplexWcs7100
         //   .slice(297, 396)
         //   .sort((a: Wcs7100, b: Wcs7100): number => a['Receive Frequency'] - b['Receive Frequency'])
         //   .sort((a: Wcs7100, b: Wcs7100): number => a.Name > b.Name ? 1 : a.Name < b.Name ? - 1 : 0)
