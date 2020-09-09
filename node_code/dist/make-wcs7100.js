@@ -51,7 +51,10 @@ var __importDefault = (this && this.__importDefault) || function (mod) {
                 .filter(radio_helpers_1.filterMode(radio_helpers_1.Mode.FM, radio_helpers_1.Mode.DStar)),
         ]
             .map((map, index) => convertToRadio(map))
-            .slice(0, 500);
+            // The lower frequencies are very noisy and have to turn the SQL up high which cuts out low signals in the higher frequencies
+            .filter((filter) => filter['Operating Mode'] === wcs7100_1.Wcs7100OperatingMode.FM ||
+            filter['Operating Mode'] === wcs7100_1.Wcs7100OperatingMode.DV ||
+            filter['Receive Frequency'] >= 10);
         // const simplexFilter = (filter: Wcs7100): boolean => filter['Offset Direction'] === Wcs7100OffsetDirection.Simplex && filter['Tone Mode'] === Wcs7100ToneMode.None;
         const duplexFilter = (filter) => filter['Offset Direction'] !== wcs7100_1.Wcs7100OffsetDirection.Simplex || filter['Tone Mode'] !== wcs7100_1.Wcs7100ToneMode.None;
         const fmOrDVFilter = (filter) => filter['Operating Mode'] === wcs7100_1.Wcs7100OperatingMode.FM || filter['Operating Mode'] === wcs7100_1.Wcs7100OperatingMode.DV;

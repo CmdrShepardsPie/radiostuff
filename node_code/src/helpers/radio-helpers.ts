@@ -102,7 +102,7 @@ export function buildName(repeater: RepeaterStructured): string {
     Name += repeater.Frequency.Output.toString().trim();
   }
   Name = Name.replace(/,\s+/g, ' ').replace(/,\s+/g, ' ').trim();
-  Name = Name.substr(0, 20).trim();
+  Name = Name.substr(0, 32).trim();
 
   return Name;
 }

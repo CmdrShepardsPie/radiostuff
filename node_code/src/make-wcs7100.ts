@@ -95,14 +95,17 @@ async function doIt(location: gpsDistance.Point, outFileName: string): Promise<v
       .filter(filterMode(Mode.FM, Mode.DStar)),
   ]
     .map((map: RepeaterStructured, index: number): Wcs7100 => convertToRadio(map))
-    .slice(0, 500);
+    // The lower frequencies are very noisy and have to turn the SQL up high which cuts out low signals in the higher frequencies
+    .filter((filter: Wcs7100): boolean =>
+      filter['Operating Mode'] === Wcs7100OperatingMode.FM ||
+      filter['Operating Mode'] === Wcs7100OperatingMode.DV ||
+      filter['Receive Frequency'] >= 10);
 
   // const simplexFilter = (filter: Wcs7100): boolean => filter['Offset Direction'] === Wcs7100OffsetDirection.Simplex && filter['Tone Mode'] === Wcs7100ToneMode.None;
   const duplexFilter = (filter: Wcs7100): boolean => filter['Offset Direction'] !== Wcs7100OffsetDirection.Simplex || filter['Tone Mode'] !== Wcs7100ToneMode.None;
   const fmOrDVFilter = (filter: Wcs7100): boolean => filter['Operating Mode'] === Wcs7100OperatingMode.FM || filter['Operating Mode'] === Wcs7100OperatingMode.DV;
   const issOrSatFilter = (filter: Wcs7100): boolean => /^[A-Z]* ISS/.test(filter.Name) || /^[A-Z]* SAT/.test(filter.Name);
   const sotaOrWarcFilter = (filter: Wcs7100): boolean => /^[A-Z]* SOTA/.test(filter.Name) || /^[A-Z]* WARC/.test(filter.Name);
-
 
   const A: Wcs7100[] = mapped
     .filter((filter: Wcs7100): boolean => (issOrSatFilter(filter) || sotaOrWarcFilter(filter) || !fmOrDVFilter(filter)))
