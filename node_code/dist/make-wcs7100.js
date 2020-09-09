@@ -52,40 +52,40 @@ var __importDefault = (this && this.__importDefault) || function (mod) {
         ]
             .map((map, index) => convertToRadio(map))
             .slice(0, 500);
-        const simplexWcs7100 = mapped
-            .filter((filter) => filter['Offset Direction'] === wcs7100_1.Wcs7100OffsetDirection.Simplex && filter['Tone Mode'] === wcs7100_1.Wcs7100ToneMode.None);
-        const duplexWcs7100 = mapped
-            .filter((filter) => filter['Offset Direction'] !== wcs7100_1.Wcs7100OffsetDirection.Simplex || filter['Tone Mode'] !== wcs7100_1.Wcs7100ToneMode.None);
-        const A = simplexWcs7100
-            .filter((filter) => !(filter['Operating Mode'] === wcs7100_1.Wcs7100OperatingMode.FM || filter['Operating Mode'] === wcs7100_1.Wcs7100OperatingMode.DV)
-            && !/^ISS/.test(filter.Name) && !/^SAT/.test(filter.Name))
+        // const simplexFilter = (filter: Wcs7100): boolean => filter['Offset Direction'] === Wcs7100OffsetDirection.Simplex && filter['Tone Mode'] === Wcs7100ToneMode.None;
+        const duplexFilter = (filter) => filter['Offset Direction'] !== wcs7100_1.Wcs7100OffsetDirection.Simplex || filter['Tone Mode'] !== wcs7100_1.Wcs7100ToneMode.None;
+        const fmOrDVFilter = (filter) => filter['Operating Mode'] === wcs7100_1.Wcs7100OperatingMode.FM || filter['Operating Mode'] === wcs7100_1.Wcs7100OperatingMode.DV;
+        const issOrSatFilter = (filter) => /^ISS/.test(filter.Name) || /^SAT/.test(filter.Name);
+        const A = mapped
+            .filter((filter) => !duplexFilter(filter) && !issOrSatFilter(filter) && !fmOrDVFilter(filter))
             .sort((a, b) => a.Name > b.Name ? 1 : a.Name < b.Name ? -1 : 0)
             .sort((a, b) => a['Transmit Frequency'] - b['Transmit Frequency'])
             .sort((a, b) => a['Receive Frequency'] - b['Receive Frequency'])
             .slice(0, 99)
             .map((map, index) => ({ ...map, 'Channel Number': index + 1 }));
-        const B = simplexWcs7100
-            .filter((filter) => (filter['Operating Mode'] === wcs7100_1.Wcs7100OperatingMode.FM || filter['Operating Mode'] === wcs7100_1.Wcs7100OperatingMode.DV)
-            && !/^ISS/.test(filter.Name) && !/^SAT/.test(filter.Name))
+        const B = mapped
+            .filter((filter) => !duplexFilter(filter) && !issOrSatFilter(filter) && fmOrDVFilter(filter))
             .sort((a, b) => a.Name > b.Name ? 1 : a.Name < b.Name ? -1 : 0)
             .sort((a, b) => a['Transmit Frequency'] - b['Transmit Frequency'])
             .sort((a, b) => a['Receive Frequency'] - b['Receive Frequency'])
             .slice(0, 99)
             .map((map, index) => ({ ...map, 'Channel Number': index + 1 }));
-        const C = [...simplexWcs7100, ...duplexWcs7100]
-            .filter((filter) => /^ISS/.test(filter.Name) || /^SAT/.test(filter.Name))
+        const C = mapped
+            .filter((filter) => !duplexFilter(filter) && issOrSatFilter(filter))
             .sort((a, b) => a['Transmit Frequency'] - b['Transmit Frequency'])
             .sort((a, b) => a['Receive Frequency'] - b['Receive Frequency'])
             .sort((a, b) => a.Name > b.Name ? 1 : a.Name < b.Name ? -1 : 0)
             .slice(0, 99)
             .map((map, index) => ({ ...map, 'Channel Number': index + 1 }));
-        const D = duplexWcs7100
+        const D = mapped
+            .filter((filter) => duplexFilter(filter) && !issOrSatFilter(filter))
             .slice(0, 99)
             .sort((a, b) => a['Transmit Frequency'] - b['Transmit Frequency'])
             .sort((a, b) => a['Receive Frequency'] - b['Receive Frequency'])
             .sort((a, b) => a.Name > b.Name ? 1 : a.Name < b.Name ? -1 : 0)
             .map((map, index) => ({ ...map, 'Channel Number': index + 1 }));
-        const E = duplexWcs7100
+        const E = mapped
+            .filter((filter) => duplexFilter(filter) && !issOrSatFilter(filter))
             .slice(99, 198)
             .sort((a, b) => a['Transmit Frequency'] - b['Transmit Frequency'])
             .sort((a, b) => a['Receive Frequency'] - b['Receive Frequency'])
@@ -159,6 +159,7 @@ var __importDefault = (this && this.__importDefault) || function (mod) {
             ToneMode = wcs7100_1.Wcs7100ToneMode.DTCS; // "DCS";
         }
         const CTCSS = ((TransmitSquelchTone || 100).toFixed(1) + ' Hz');
+        // tslint:disable-next-line:variable-name
         const Rx_CTCSS = ((ReceiveSquelchTone || TransmitSquelchTone || 100).toFixed(1) + ' Hz');
         const DCS = radio_helpers_1.buildDCS(TransmitDigitalTone);
         return new wcs7100_1.Wcs7100({

@@ -97,47 +97,45 @@ async function doIt(location: gpsDistance.Point, outFileName: string): Promise<v
     .map((map: RepeaterStructured, index: number): Wcs7100 => convertToRadio(map))
     .slice(0, 500);
 
-  const simplexWcs7100: Wcs7100[] = mapped
-    .filter((filter: Wcs7100): boolean => filter['Offset Direction'] === Wcs7100OffsetDirection.Simplex && filter['Tone Mode'] === Wcs7100ToneMode.None);
+  // const simplexFilter = (filter: Wcs7100): boolean => filter['Offset Direction'] === Wcs7100OffsetDirection.Simplex && filter['Tone Mode'] === Wcs7100ToneMode.None;
+  const duplexFilter = (filter: Wcs7100): boolean => filter['Offset Direction'] !== Wcs7100OffsetDirection.Simplex || filter['Tone Mode'] !== Wcs7100ToneMode.None;
+  const fmOrDVFilter = (filter: Wcs7100): boolean => filter['Operating Mode'] === Wcs7100OperatingMode.FM || filter['Operating Mode'] === Wcs7100OperatingMode.DV;
+  const issOrSatFilter = (filter: Wcs7100): boolean => /^ISS/.test(filter.Name) || /^SAT/.test(filter.Name);
 
-  const duplexWcs7100: Wcs7100[] = mapped
-    .filter((filter: Wcs7100): boolean => filter['Offset Direction'] !== Wcs7100OffsetDirection.Simplex || filter['Tone Mode'] !== Wcs7100ToneMode.None);
 
-  const A: Wcs7100[] = simplexWcs7100
-    .filter((filter: Wcs7100): boolean =>
-      !(filter['Operating Mode'] === Wcs7100OperatingMode.FM || filter['Operating Mode'] === Wcs7100OperatingMode.DV)
-      && !/^ISS/.test(filter.Name) && !/^SAT/.test(filter.Name))
+  const A: Wcs7100[] = mapped
+    .filter((filter: Wcs7100): boolean => !duplexFilter(filter) && !issOrSatFilter(filter) && !fmOrDVFilter(filter))
     .sort((a: Wcs7100, b: Wcs7100): number => a.Name > b.Name ? 1 : a.Name < b.Name ? - 1 : 0)
     .sort((a: Wcs7100, b: Wcs7100): number => a['Transmit Frequency'] - b['Transmit Frequency'])
     .sort((a: Wcs7100, b: Wcs7100): number => a['Receive Frequency'] - b['Receive Frequency'])
     .slice(0, 99)
     .map((map: Wcs7100, index: number): Wcs7100 => ({ ...map, 'Channel Number': index + 1 }));
 
-  const B: Wcs7100[] = simplexWcs7100
-    .filter((filter: Wcs7100): boolean =>
-      (filter['Operating Mode'] === Wcs7100OperatingMode.FM || filter['Operating Mode'] === Wcs7100OperatingMode.DV)
-      && !/^ISS/.test(filter.Name) && !/^SAT/.test(filter.Name))
+  const B: Wcs7100[] = mapped
+    .filter((filter: Wcs7100): boolean => !duplexFilter(filter) && !issOrSatFilter(filter) && fmOrDVFilter(filter))
     .sort((a: Wcs7100, b: Wcs7100): number => a.Name > b.Name ? 1 : a.Name < b.Name ? - 1 : 0)
     .sort((a: Wcs7100, b: Wcs7100): number => a['Transmit Frequency'] - b['Transmit Frequency'])
     .sort((a: Wcs7100, b: Wcs7100): number => a['Receive Frequency'] - b['Receive Frequency'])
     .slice(0, 99)
     .map((map: Wcs7100, index: number): Wcs7100 => ({ ...map, 'Channel Number': index + 1 }));
 
-  const C: Wcs7100[] = [...simplexWcs7100, ...duplexWcs7100]
-    .filter((filter: Wcs7100): boolean => /^ISS/.test(filter.Name) || /^SAT/.test(filter.Name))
+  const C: Wcs7100[] = mapped
+    .filter((filter: Wcs7100): boolean => !duplexFilter(filter) && issOrSatFilter(filter))
     .sort((a: Wcs7100, b: Wcs7100): number => a['Transmit Frequency'] - b['Transmit Frequency'])
     .sort((a: Wcs7100, b: Wcs7100): number => a['Receive Frequency'] - b['Receive Frequency'])
     .sort((a: Wcs7100, b: Wcs7100): number => a.Name > b.Name ? 1 : a.Name < b.Name ? - 1 : 0)
     .slice(0, 99)
     .map((map: Wcs7100, index: number): Wcs7100 => ({ ...map, 'Channel Number': index + 1 }));
 
-  const D: Wcs7100[] = duplexWcs7100
+  const D: Wcs7100[] = mapped
+    .filter((filter: Wcs7100): boolean => duplexFilter(filter) && !issOrSatFilter(filter))
     .slice(0, 99)
     .sort((a: Wcs7100, b: Wcs7100): number => a['Transmit Frequency'] - b['Transmit Frequency'])
     .sort((a: Wcs7100, b: Wcs7100): number => a['Receive Frequency'] - b['Receive Frequency'])
     .sort((a: Wcs7100, b: Wcs7100): number => a.Name > b.Name ? 1 : a.Name < b.Name ? - 1 : 0)
     .map((map: Wcs7100, index: number): Wcs7100 => ({ ...map, 'Channel Number': index + 1 }));
-  const E: Wcs7100[] = duplexWcs7100
+  const E: Wcs7100[] = mapped
+    .filter((filter: Wcs7100): boolean => duplexFilter(filter) && !issOrSatFilter(filter))
     .slice(99, 198)
     .sort((a: Wcs7100, b: Wcs7100): number => a['Transmit Frequency'] - b['Transmit Frequency'])
     .sort((a: Wcs7100, b: Wcs7100): number => a['Receive Frequency'] - b['Receive Frequency'])
@@ -221,6 +219,7 @@ function convertToRadio(repeater: RepeaterStructured): Wcs7100 {
   }
 
   const CTCSS: RtSystemsCtcssTone = ((TransmitSquelchTone || 100).toFixed(1) + ' Hz') as RtSystemsCtcssTone;
+  // tslint:disable-next-line:variable-name
   const Rx_CTCSS: RtSystemsCtcssTone = ((ReceiveSquelchTone || TransmitSquelchTone || 100).toFixed(1) + ' Hz') as RtSystemsCtcssTone;
   const DCS: RtSystemsDcsTone = buildDCS(TransmitDigitalTone) as RtSystemsDcsTone;
 
