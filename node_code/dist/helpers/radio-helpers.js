@@ -94,7 +94,7 @@ var __importDefault = (this && this.__importDefault) || function (mod) {
                 Name += ' ';
             Name += repeater.Location.Local.trim();
         }
-        if (repeater.Frequency && repeater.Frequency.Output) {
+        if (!Name && repeater.Frequency && repeater.Frequency.Output) {
             if (Name)
                 Name += ' ';
             Name += repeater.Frequency.Output.toString().trim();

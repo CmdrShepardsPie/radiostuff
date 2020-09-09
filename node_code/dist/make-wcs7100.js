@@ -41,7 +41,7 @@ var __importDefault = (this && this.__importDefault) || function (mod) {
     commander_1.program.parse(process.argv);
     async function doIt(location, outFileName) {
         const promises = [];
-        const simplex = await radio_helpers_1.loadSimplex(/^((?!(Fusion|Mixed)).)*$/i);
+        const simplex = await radio_helpers_1.loadSimplex(/^((?!(Fusion|Mixed|CW|RTTY)).)*$/i);
         const repeaters = await radio_helpers_1.loadRepeaters(location);
         const mapped = [
             ...simplex
@@ -56,51 +56,42 @@ var __importDefault = (this && this.__importDefault) || function (mod) {
         const duplexFilter = (filter) => filter['Offset Direction'] !== wcs7100_1.Wcs7100OffsetDirection.Simplex || filter['Tone Mode'] !== wcs7100_1.Wcs7100ToneMode.None;
         const fmOrDVFilter = (filter) => filter['Operating Mode'] === wcs7100_1.Wcs7100OperatingMode.FM || filter['Operating Mode'] === wcs7100_1.Wcs7100OperatingMode.DV;
         const issOrSatFilter = (filter) => /^ISS/.test(filter.Name) || /^SAT/.test(filter.Name);
+        const sotaOrWarcFilter = (filter) => /^SOTA/.test(filter.Name) || /^WARC/.test(filter.Name);
         const A = mapped
-            .filter((filter) => !duplexFilter(filter) && !issOrSatFilter(filter) && !fmOrDVFilter(filter))
-            .sort((a, b) => a.Name > b.Name ? 1 : a.Name < b.Name ? -1 : 0)
+            .filter((filter) => (issOrSatFilter(filter) || sotaOrWarcFilter(filter) || !fmOrDVFilter(filter)))
             .sort((a, b) => a['Transmit Frequency'] - b['Transmit Frequency'])
             .sort((a, b) => a['Receive Frequency'] - b['Receive Frequency'])
+            .sort((a, b) => a.Name > b.Name ? 1 : a.Name < b.Name ? -1 : 0)
             .slice(0, 99)
             .map((map, index) => ({ ...map, 'Channel Number': index + 1 }));
         const B = mapped
-            .filter((filter) => !duplexFilter(filter) && !issOrSatFilter(filter) && fmOrDVFilter(filter))
+            .filter((filter) => !duplexFilter(filter) && !issOrSatFilter(filter) && !sotaOrWarcFilter(filter) && fmOrDVFilter(filter))
             .sort((a, b) => a.Name > b.Name ? 1 : a.Name < b.Name ? -1 : 0)
             .sort((a, b) => a['Transmit Frequency'] - b['Transmit Frequency'])
             .sort((a, b) => a['Receive Frequency'] - b['Receive Frequency'])
             .slice(0, 99)
             .map((map, index) => ({ ...map, 'Channel Number': index + 1 }));
         const C = mapped
-            .filter((filter) => issOrSatFilter(filter))
-            .sort((a, b) => a['Transmit Frequency'] - b['Transmit Frequency'])
-            .sort((a, b) => a['Receive Frequency'] - b['Receive Frequency'])
-            .sort((a, b) => a.Name > b.Name ? 1 : a.Name < b.Name ? -1 : 0)
-            .slice(0, 99)
-            .map((map, index) => ({ ...map, 'Channel Number': index + 1 }));
-        const D = mapped
             .filter((filter) => duplexFilter(filter) && !issOrSatFilter(filter))
             .slice(0, 99)
             .sort((a, b) => a['Transmit Frequency'] - b['Transmit Frequency'])
             .sort((a, b) => a['Receive Frequency'] - b['Receive Frequency'])
             .sort((a, b) => a.Name > b.Name ? 1 : a.Name < b.Name ? -1 : 0)
             .map((map, index) => ({ ...map, 'Channel Number': index + 1 }));
-        const E = mapped
+        const D = mapped
             .filter((filter) => duplexFilter(filter) && !issOrSatFilter(filter))
             .slice(99, 198)
             .sort((a, b) => a['Transmit Frequency'] - b['Transmit Frequency'])
             .sort((a, b) => a['Receive Frequency'] - b['Receive Frequency'])
             .sort((a, b) => a.Name > b.Name ? 1 : a.Name < b.Name ? -1 : 0)
             .map((map, index) => ({ ...map, 'Channel Number': index + 1 }));
-        // const F: Wcs7100[] = duplexWcs7100
-        //   .slice(198, 297)
-        //   .sort((a: Wcs7100, b: Wcs7100): number => a['Receive Frequency'] - b['Receive Frequency'])
-        //   .sort((a: Wcs7100, b: Wcs7100): number => a.Name > b.Name ? 1 : a.Name < b.Name ? - 1 : 0)
-        //   .map((map: Wcs7100, index: number): Wcs7100 => ({ ...map, 'Channel Number': index + 1 }));
-        // const G: Wcs7100[] = duplexWcs7100
-        //   .slice(297, 396)
-        //   .sort((a: Wcs7100, b: Wcs7100): number => a['Receive Frequency'] - b['Receive Frequency'])
-        //   .sort((a: Wcs7100, b: Wcs7100): number => a.Name > b.Name ? 1 : a.Name < b.Name ? - 1 : 0)
-        //   .map((map: Wcs7100, index: number): Wcs7100 => ({ ...map, 'Channel Number': index + 1 }));
+        const E = mapped
+            .filter((filter) => duplexFilter(filter) && !issOrSatFilter(filter))
+            .slice(198, 297)
+            .sort((a, b) => a['Transmit Frequency'] - b['Transmit Frequency'])
+            .sort((a, b) => a['Receive Frequency'] - b['Receive Frequency'])
+            .sort((a, b) => a.Name > b.Name ? 1 : a.Name < b.Name ? -1 : 0)
+            .map((map, index) => ({ ...map, 'Channel Number': index + 1 }));
         promises.push(fs_helpers_1.writeToCsv(`${outFileName}-A`, A));
         promises.push(fs_helpers_1.writeToCsv(`${outFileName}-B`, B));
         promises.push(fs_helpers_1.writeToCsv(`${outFileName}-C`, C));

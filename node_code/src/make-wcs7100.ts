@@ -56,7 +56,7 @@ program.parse(process.argv);
 async function doIt(location: gpsDistance.Point, outFileName: string): Promise<void> {
   const promises: Promise<void>[] = [];
 
-  const simplex: RepeaterStructured[] = await loadSimplex(/^((?!(Fusion|Mixed)).)*$/i);
+  const simplex: RepeaterStructured[] = await loadSimplex(/^((?!(Fusion|Mixed|CW|RTTY)).)*$/i);
   const repeaters: RepeaterStructured[] = await loadRepeaters(location);
 
   const mapped: Wcs7100[] = [
@@ -101,18 +101,19 @@ async function doIt(location: gpsDistance.Point, outFileName: string): Promise<v
   const duplexFilter = (filter: Wcs7100): boolean => filter['Offset Direction'] !== Wcs7100OffsetDirection.Simplex || filter['Tone Mode'] !== Wcs7100ToneMode.None;
   const fmOrDVFilter = (filter: Wcs7100): boolean => filter['Operating Mode'] === Wcs7100OperatingMode.FM || filter['Operating Mode'] === Wcs7100OperatingMode.DV;
   const issOrSatFilter = (filter: Wcs7100): boolean => /^ISS/.test(filter.Name) || /^SAT/.test(filter.Name);
+  const sotaOrWarcFilter = (filter: Wcs7100): boolean => /^SOTA/.test(filter.Name) || /^WARC/.test(filter.Name);
 
 
   const A: Wcs7100[] = mapped
-    .filter((filter: Wcs7100): boolean => !duplexFilter(filter) && !issOrSatFilter(filter) && !fmOrDVFilter(filter))
-    .sort((a: Wcs7100, b: Wcs7100): number => a.Name > b.Name ? 1 : a.Name < b.Name ? - 1 : 0)
+    .filter((filter: Wcs7100): boolean => (issOrSatFilter(filter) || sotaOrWarcFilter(filter) || !fmOrDVFilter(filter)))
     .sort((a: Wcs7100, b: Wcs7100): number => a['Transmit Frequency'] - b['Transmit Frequency'])
     .sort((a: Wcs7100, b: Wcs7100): number => a['Receive Frequency'] - b['Receive Frequency'])
+    .sort((a: Wcs7100, b: Wcs7100): number => a.Name > b.Name ? 1 : a.Name < b.Name ? - 1 : 0)
     .slice(0, 99)
     .map((map: Wcs7100, index: number): Wcs7100 => ({ ...map, 'Channel Number': index + 1 }));
 
   const B: Wcs7100[] = mapped
-    .filter((filter: Wcs7100): boolean => !duplexFilter(filter) && !issOrSatFilter(filter) && fmOrDVFilter(filter))
+    .filter((filter: Wcs7100): boolean => !duplexFilter(filter) && !issOrSatFilter(filter) && !sotaOrWarcFilter(filter) && fmOrDVFilter(filter) )
     .sort((a: Wcs7100, b: Wcs7100): number => a.Name > b.Name ? 1 : a.Name < b.Name ? - 1 : 0)
     .sort((a: Wcs7100, b: Wcs7100): number => a['Transmit Frequency'] - b['Transmit Frequency'])
     .sort((a: Wcs7100, b: Wcs7100): number => a['Receive Frequency'] - b['Receive Frequency'])
@@ -120,37 +121,28 @@ async function doIt(location: gpsDistance.Point, outFileName: string): Promise<v
     .map((map: Wcs7100, index: number): Wcs7100 => ({ ...map, 'Channel Number': index + 1 }));
 
   const C: Wcs7100[] = mapped
-    .filter((filter: Wcs7100): boolean => issOrSatFilter(filter))
-    .sort((a: Wcs7100, b: Wcs7100): number => a['Transmit Frequency'] - b['Transmit Frequency'])
-    .sort((a: Wcs7100, b: Wcs7100): number => a['Receive Frequency'] - b['Receive Frequency'])
-    .sort((a: Wcs7100, b: Wcs7100): number => a.Name > b.Name ? 1 : a.Name < b.Name ? - 1 : 0)
-    .slice(0, 99)
-    .map((map: Wcs7100, index: number): Wcs7100 => ({ ...map, 'Channel Number': index + 1 }));
-
-  const D: Wcs7100[] = mapped
     .filter((filter: Wcs7100): boolean => duplexFilter(filter) && !issOrSatFilter(filter))
     .slice(0, 99)
     .sort((a: Wcs7100, b: Wcs7100): number => a['Transmit Frequency'] - b['Transmit Frequency'])
     .sort((a: Wcs7100, b: Wcs7100): number => a['Receive Frequency'] - b['Receive Frequency'])
     .sort((a: Wcs7100, b: Wcs7100): number => a.Name > b.Name ? 1 : a.Name < b.Name ? - 1 : 0)
     .map((map: Wcs7100, index: number): Wcs7100 => ({ ...map, 'Channel Number': index + 1 }));
-  const E: Wcs7100[] = mapped
+
+  const D: Wcs7100[] = mapped
     .filter((filter: Wcs7100): boolean => duplexFilter(filter) && !issOrSatFilter(filter))
     .slice(99, 198)
     .sort((a: Wcs7100, b: Wcs7100): number => a['Transmit Frequency'] - b['Transmit Frequency'])
     .sort((a: Wcs7100, b: Wcs7100): number => a['Receive Frequency'] - b['Receive Frequency'])
     .sort((a: Wcs7100, b: Wcs7100): number => a.Name > b.Name ? 1 : a.Name < b.Name ? - 1 : 0)
     .map((map: Wcs7100, index: number): Wcs7100 => ({ ...map, 'Channel Number': index + 1 }));
-  // const F: Wcs7100[] = duplexWcs7100
-  //   .slice(198, 297)
-  //   .sort((a: Wcs7100, b: Wcs7100): number => a['Receive Frequency'] - b['Receive Frequency'])
-  //   .sort((a: Wcs7100, b: Wcs7100): number => a.Name > b.Name ? 1 : a.Name < b.Name ? - 1 : 0)
-  //   .map((map: Wcs7100, index: number): Wcs7100 => ({ ...map, 'Channel Number': index + 1 }));
-  // const G: Wcs7100[] = duplexWcs7100
-  //   .slice(297, 396)
-  //   .sort((a: Wcs7100, b: Wcs7100): number => a['Receive Frequency'] - b['Receive Frequency'])
-  //   .sort((a: Wcs7100, b: Wcs7100): number => a.Name > b.Name ? 1 : a.Name < b.Name ? - 1 : 0)
-  //   .map((map: Wcs7100, index: number): Wcs7100 => ({ ...map, 'Channel Number': index + 1 }));
+
+  const E: Wcs7100[] = mapped
+    .filter((filter: Wcs7100): boolean => duplexFilter(filter) && !issOrSatFilter(filter))
+    .slice(198, 297)
+    .sort((a: Wcs7100, b: Wcs7100): number => a['Transmit Frequency'] - b['Transmit Frequency'])
+    .sort((a: Wcs7100, b: Wcs7100): number => a['Receive Frequency'] - b['Receive Frequency'])
+    .sort((a: Wcs7100, b: Wcs7100): number => a.Name > b.Name ? 1 : a.Name < b.Name ? - 1 : 0)
+    .map((map: Wcs7100, index: number): Wcs7100 => ({ ...map, 'Channel Number': index + 1 }));
 
   promises.push(writeToCsv(`${outFileName}-A`, A));
   promises.push(writeToCsv(`${outFileName}-B`, B));
