@@ -1,2 +1,2 @@
-Frequency,Offset,Tone,Call,Location,ST/PR,Use,VOIP,DGTL,Mi,Dir,,state_id,ID,Latitude,Longitude,Downlink,Uplink,Uplink Tone,County,Grid,Op Status,Coverage,Sponsor,Coordination,Last update
-447.275,-5,100,K7UCA,"Orem, Timpanogos Hospital",UT,OPEN,,,189,WNW,,49,65,40.31389999,-111.71299744,447.275,442.275,100,Utah,DN40DH,On-Air,Wasatch Front from Payson to Tremonton.,Utah Co ARES,UVHFS,2015-07-17
+Frequency,Offset,Tone,Call,Location,ST/PR,Use,VOIP,DGTL,Mi,Dir,,state_id,ID,Latitude,Longitude,Downlink,Uplink,Uplink Tone,County,Grid,Op Status,Coverage,Sponsor,FM,Analog Bandwidth,Coordination,Last update
+447.275,-5,100,K7UCA,"Orem, Timpanogos Hospital",UT,OPEN,,,189,WNW,,49,65,40.31389999,-111.71299744,447.275,442.275,100,Utah,DN40DH,On-Air,Wasatch Front from Payson to Tremonton.,Utah Co ARES,Yes; analog capable.,,UVHFS,2015-07-17

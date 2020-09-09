@@ -23,6 +23,8 @@
   "Op Status": "On-Air",
   "Coverage": "provides coverage to central Baca County",
   "Sponsor": "Baca County Div of Emerg Mgt Communications",
+  "FM": "Yes; analog capable.",
+  "Analog Bandwidth": "",
   "EchoLink": 97142,
   "IRLP": 7142,
   "Commands": 55,

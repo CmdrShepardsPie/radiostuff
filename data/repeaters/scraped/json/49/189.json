@@ -21,9 +21,14 @@
   "County": "Sevier",
   "Grid": "DM38XM",
   "Op Status": "On-Air",
-  "Coverage": "Wide area: Richfield and its surrounding communities including Nephi to the north, Fillmore to the west, Ferron and Emery to the east, and Panguitch to the south.",
+  "Coverage": "Wide area: Richfield and its surrounding communities including Nephi to the north, Fillmore to the west, Ferron and Emery to the east, and Panguitch to the south. 50 radius.",
+  "Sponsor": "Dean Harmer W7DHH",
+  "FM": "Yes; analog capable.",
+  "Analog Bandwidth": 25,
   "Links": "Full-time to the Skyline Repeater System .",
   "Notes": 11,
+  "Nets": "Skyline Net Sun 20:00 local",
+  "Web links": "http://skylineradioclub.com",
   "Coordination": "UVHFS",
-  "Last update": "2017-04-07"
+  "Last update": "2020-08-19"
 }

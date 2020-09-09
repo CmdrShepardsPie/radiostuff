@@ -13,15 +13,18 @@
   "": "",
   "state_id": "35",
   "ID": "16113",
-  "Latitude": 36.50999832,
-  "Longitude": -104.91000366,
+  "Latitude": 36.683,
+  "Longitude": -104.415,
   "Downlink": 145.21,
   "Uplink": 144.61,
   "Uplink Tone": 110.9,
   "Downlink Tone": 110.9,
   "County": "Colfax",
+  "Grid": "DM76TQ",
   "Op Status": "On-Air",
   "Sponsor": "Gary Reynolds N5GDR, Dale Finley KB5NFT",
+  "FM": "Yes; analog capable.",
+  "Analog Bandwidth": 25,
   "AllStar": 46298,
-  "Last update": "2020-01-25"
+  "Last update": "2020-08-02"
 }

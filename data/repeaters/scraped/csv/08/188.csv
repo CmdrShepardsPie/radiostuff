@@ -1,2 +1,2 @@
-Frequency,Offset,Tone,Call,Location,ST/PR,Use,VOIP,DGTL,Mi,Dir,,state_id,ID,Latitude,Longitude,Downlink,Uplink,Uplink Tone,County,Grid,Op Status,Web links,Coordination,Last update
-146.61,-0.6,123,N0JSP,"Pagosa Springs, Oakbrush Hill",CO,OPEN,,,134.2,SW,,08,188,37.19300079,-107.09999847,146.61,146.01,123,Archuleta,DM67KE,On-Air,http://durangoarc.org/,CCARC,2018-01-15
+Frequency,Offset,Tone,Call,Location,ST/PR,Use,VOIP,DGTL,Mi,Dir,,state_id,ID,Latitude,Longitude,Downlink,Uplink,Uplink Tone,County,Grid,Op Status,FM,Analog Bandwidth,Web links,Coordination,Last update
+146.61,-0.6,123,N0JSP,"Pagosa Springs, Oakbrush Hill",CO,OPEN,,,134.2,SW,,08,188,37.19300079,-107.09999847,146.61,146.01,123,Archuleta,DM67KE,On-Air,Yes; analog capable.,,http://durangoarc.org/,CCARC,2018-01-15

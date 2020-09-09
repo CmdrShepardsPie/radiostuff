@@ -22,6 +22,8 @@
   "Op Status": "On-Air",
   "Coverage": "Wide area: Via mobile (50 watts, 1/4 wave or better): This repeater covers the Utah and Salt Lake Valleys, south along I-15 as far south as Filmore (spotty coverage,) portions of the west desert, and points north to the Idaho border. Very spotty coverage eastwards into the Wasatch. Via handie-talkie: Coverage is good in Utah county, marginal in many parts of Salt Lake county, particularly in the southern part of the valley. Map . 90 mi radius.",
   "Sponsor": "Utah ARC",
+  "FM": "Yes; analog capable.",
+  "Analog Bandwidth": "",
   "EchoLink": 703269,
   "IRLP": 3352,
   "Commands": "While anyone may Dial In to this node, only UARC members will be given the \"prefix code\" that will allow them to Dial Out into the IRLP network.",

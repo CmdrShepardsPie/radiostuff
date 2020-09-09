@@ -1,2 +1,2 @@
-Frequency,Offset,Tone,Call,Location,ST/PR,Use,VOIP,DGTL,Mi,Dir,,state_id,ID,Latitude,Longitude,Downlink,Uplink,Uplink Tone,County,Grid,Op Status,Coverage,Sponsor,Features,Web links,Coordination,Last update
-147.34,0.6,100,N5LEM,"Angel Fire, Agua Fria Peak",NM,OPEN,,,144.37,S,,35,41,36.36000061,-105.20999908,147.34,147.94,100,Colfax,DM76JI,On-Air,Wide area.,Taos ARC,E-power.,Taos Amateur Radio Club,NMFCC,2017-08-27
+Frequency,Offset,Tone,Call,Location,ST/PR,Use,VOIP,DGTL,Mi,Dir,,state_id,ID,Latitude,Longitude,Downlink,Uplink,Uplink Tone,County,Grid,Op Status,Coverage,Sponsor,Features,FM,Analog Bandwidth,Web links,Coordination,Last update
+147.34,0.6,100,N5LEM,"Angel Fire, Agua Fria Peak",NM,OPEN,,,144.37,S,,35,41,36.36000061,-105.20999908,147.34,147.94,100,Colfax,DM76JI,On-Air,Wide area.,Taos ARC,E-power.,Yes; analog capable.,,Taos Amateur Radio Club,NMFCC,2017-08-27

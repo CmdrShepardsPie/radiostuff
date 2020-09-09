@@ -1,2 +1,2 @@
-Frequency,Offset,Tone,Call,Location,ST/PR,Use,VOIP,DGTL,Mi,Dir,,state_id,ID,Latitude,Longitude,Downlink,Uplink,Uplink Tone,Downlink Tone,County,Op Status,Sponsor,Coordination,Last update
-449.85,-5,100,K0EP,Durango,CO,OPEN,,,166,WSW,,08,11546,37.27529907,-107.87999725,449.85,444.85,100,100,La Plata,On-Air,DARC,CCARC,2018-09-26
+Frequency,Offset,Tone,Call,Location,ST/PR,Use,VOIP,DGTL,Mi,Dir,,state_id,ID,Latitude,Longitude,Downlink,Uplink,Uplink Tone,Downlink Tone,County,Op Status,Sponsor,FM,Analog Bandwidth,Coordination,Last update
+449.85,-5,100,K0EP,Durango,CO,OPEN,,,166,WSW,,08,11546,37.27529907,-107.87999725,449.85,444.85,100,100,La Plata,On-Air,DARC,Yes; analog capable.,,CCARC,2018-09-26

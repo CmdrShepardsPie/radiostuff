@@ -1,2 +1,2 @@
-Frequency,Offset,Tone,Call,Location,ST/PR,Use,VOIP,DGTL,Mi,Dir,,state_id,ID,Latitude,Longitude,Downlink,Uplink,Uplink Tone,County,Grid,Op Status,Coverage,Features,Coordination,Last update
-448.7,-5,114.8,N7IMF,"Lehi, Lake Mountain",UT,OPEN,,,198.51,WNW,,49,142,40.27809906,-111.93399811,448.7,443.7,114.8,Salt Lake,DN40AG,On-Air,Wide area: Utah County from Alpine to Payson. Salt Lake Valley communities from Salt Lake City to Draper.,7,UVHFS,2015-06-08
+Frequency,Offset,Tone,Call,Location,ST/PR,Use,VOIP,DGTL,Mi,Dir,,state_id,ID,Latitude,Longitude,Downlink,Uplink,Uplink Tone,County,Grid,Op Status,Coverage,Features,FM,Analog Bandwidth,Coordination,Last update
+448.7,-5,114.8,N7IMF,"Lehi, Lake Mountain",UT,OPEN,,,198.51,WNW,,49,142,40.27809906,-111.93399811,448.7,443.7,114.8,Salt Lake,DN40AG,On-Air,Wide area: Utah County from Alpine to Payson. Salt Lake Valley communities from Salt Lake City to Draper.,7,Yes; analog capable.,,UVHFS,2015-06-08

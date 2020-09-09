@@ -1,2 +1,2 @@
-Frequency,Offset,Tone,Call,Location,ST/PR,Use,VOIP,DGTL,Mi,Dir,,state_id,ID,Latitude,Longitude,Downlink,Uplink,Uplink Tone,County,Grid,Op Status,Coverage,Sponsor,Features,Coordination,Last update
-448.225,-5,146.2,KC7MVI,"Eureka, Eureka Peak",UT,OPEN,,,199.52,WNW,,49,92,39.94060135,-112.11699677,448.225,443.225,146.2,Juab,DM39WW,On-Air,Wide area: Utah County from Alpine to Payson.,Utah Valley Comm College,"Autopatch, 4,300'.",UVHFS,2016-05-20
+Frequency,Offset,Tone,Call,Location,ST/PR,Use,VOIP,DGTL,Mi,Dir,,state_id,ID,Latitude,Longitude,Downlink,Uplink,Uplink Tone,County,Grid,Op Status,Coverage,Sponsor,Features,FM,Analog Bandwidth,Coordination,Last update
+448.225,-5,146.2,KC7MVI,"Eureka, Eureka Peak",UT,OPEN,,,199.52,WNW,,49,92,39.94060135,-112.11699677,448.225,443.225,146.2,Juab,DM39WW,On-Air,Wide area: Utah County from Alpine to Payson.,Utah Valley Comm College,"Autopatch, 4,300'.",Yes; analog capable.,,UVHFS,2016-05-20

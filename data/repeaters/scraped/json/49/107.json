@@ -21,11 +21,14 @@
   "County": "Sanpete",
   "Grid": "DM49CH",
   "Op Status": "On-Air",
-  "Coverage": "Manti and surroundings, as well as Nephi and Fairview to the north and Richfield to the south.",
-  "Sponsor": "Sanpete Co SO",
+  "Coverage": "Manti and surroundings, as well as Nephi and Fairview to the north and Richfield to the south. 50 radius.",
+  "Sponsor": "Skyline Radio club",
   "Features": "Autopatch.",
+  "FM": "Yes; analog capable.",
+  "Analog Bandwidth": 25,
+  "Links": "Full-time to the Skyline Repeater System .",
   "IRLP": 3576,
-  "Web links": "http://www.sanpeteso.org/skyline/skyline_files/frame.html",
+  "Web links": "http://www.skylineradioclub.com/",
   "Coordination": "UVHFS",
-  "Last update": "2015-07-19"
+  "Last update": "2020-08-19"
 }

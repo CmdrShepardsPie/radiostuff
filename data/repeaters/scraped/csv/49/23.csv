@@ -1,2 +1,2 @@
-Frequency,Offset,Tone,Call,Location,ST/PR,Use,VOIP,DGTL,Mi,Dir,,state_id,ID,Latitude,Longitude,Downlink,Uplink,Uplink Tone,County,Grid,Op Status,Coordination,Last update
-147.16,0.6,136.5,K7HEN,"Heber City, Strawberry Peak",UT,OPEN,,,198.93,W,,49,23,40.28760147,-111.31500244,147.16,147.76,136.5,Wasatch,DN40IG,On-Air,UVHFS,2017-05-16
+Frequency,Offset,Tone,Call,Location,ST/PR,Use,VOIP,DGTL,Mi,Dir,,state_id,ID,Latitude,Longitude,Downlink,Uplink,Uplink Tone,County,Grid,Op Status,FM,Analog Bandwidth,Coordination,Last update
+147.16,0.6,136.5,K7HEN,"Heber City, Strawberry Peak",UT,OPEN,,,198.93,W,,49,23,40.28760147,-111.31500244,147.16,147.76,136.5,Wasatch,DN40IG,On-Air,Yes; analog capable.,,UVHFS,2017-05-16

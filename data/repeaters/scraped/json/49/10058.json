@@ -20,6 +20,8 @@
   "Uplink Tone": 88.5,
   "County": "Carbon",
   "Op Status": "On-Air",
+  "FM": "Yes; analog capable.",
+  "Analog Bandwidth": "",
   "EchoLink": 64264,
   "IRLP": 3270,
   "Coordination": "UVHFS",

@@ -1,2 +1,2 @@
-Frequency,Offset,Tone,Call,Location,ST/PR,Use,VOIP,DGTL,Mi,Dir,,state_id,ID,Latitude,Longitude,Downlink,Uplink,Uplink Tone,County,Op Status,Features,Coordination,Last update
-146.74,-0.6,100,WB7CBS,Altamont,UT,OPEN,,,181.89,W,,49,253,40.3594017,-110.28600311,146.74,146.14,100,Duchesne,On-Air,Autopatch.,UVHFS,2015-06-11
+Frequency,Offset,Tone,Call,Location,ST/PR,Use,VOIP,DGTL,Mi,Dir,,state_id,ID,Latitude,Longitude,Downlink,Uplink,Uplink Tone,County,Op Status,Features,FM,Analog Bandwidth,Coordination,Last update
+146.74,-0.6,100,WB7CBS,Altamont,UT,OPEN,,,181.89,W,,49,253,40.3594017,-110.28600311,146.74,146.14,100,Duchesne,On-Air,Autopatch.,Yes; analog capable.,,UVHFS,2015-06-11

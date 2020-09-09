@@ -19,6 +19,8 @@
   "Uplink": 443.3,
   "County": "Carbon",
   "On-air": "Unknown",
+  "FM": "Yes; analog capable.",
+  "Analog Bandwidth": "",
   "EchoLink": 64264,
   "IRLP": 3270,
   "Coordination": "UVHFS",

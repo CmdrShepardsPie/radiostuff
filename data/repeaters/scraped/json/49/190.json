@@ -22,9 +22,12 @@
   "Grid": "DM49GI",
   "Op Status": "On-Air",
   "Coverage": "Wide area: Provo to Salina.",
-  "Sponsor": "Skyline Repeater System",
   "Features": "Autopatch, 10,350'.",
+  "FM": "Yes; analog capable.",
+  "Analog Bandwidth": "",
+  "Links": "Full-time to the Skyline Repeater System .",
   "IRLP": 3576,
+  "Web links": "http://www.skylineradioclub.com",
   "Coordination": "UVHFS",
-  "Last update": "2017-11-12"
+  "Last update": "2020-08-19"
 }

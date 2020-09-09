@@ -1,2 +1,2 @@
-Frequency,Offset,Tone,Call,Location,ST/PR,Use,VOIP,DGTL,Mi,Dir,,state_id,ID,Latitude,Longitude,Downlink,Uplink,Uplink Tone,County,Op Status,Coverage,Sponsor,Last update
-144.635,0.6,100,WY7BV,"Mountain View, Hickey Mtn",WY,OPEN,,,182.65,WNW,,56,14219,41.08269882,-110.23300171,144.635,145.235,100,Uinta,On-Air,I-80,Bridger Valley Amateur Radio Club,2018-05-28
+Frequency,Offset,Tone,Call,Location,ST/PR,Use,VOIP,DGTL,Mi,Dir,,state_id,ID,Latitude,Longitude,Downlink,Uplink,Uplink Tone,County,Op Status,Coverage,Sponsor,FM,Analog Bandwidth,Last update
+144.635,0.6,100,WY7BV,"Mountain View, Hickey Mtn",WY,OPEN,,,182.65,WNW,,56,14219,41.08269882,-110.23300171,144.635,145.235,100,Uinta,On-Air,I-80,Bridger Valley Amateur Radio Club,Yes; analog capable.,,2018-05-28

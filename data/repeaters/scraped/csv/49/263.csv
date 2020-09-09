@@ -1,2 +1,2 @@
-Frequency,Offset,Tone,Call,Location,ST/PR,Use,VOIP,DGTL,Mi,Dir,,state_id,ID,Latitude,Longitude,Downlink,Uplink,County,Grid,On-air,Coverage,Features,Coordination,Last update
-448.9,-5,,WB7TSQ,"Coalville, Lewis Peak",UT,OPEN,,,195.87,WNW,,49,263,40.85499954,-111.48000336,448.9,443.9,Summit,DN40GU,Unknown,"Wide area: Park City, Heber, Coalville and other nearby communities.","Remote base, 9,304'.",UVHFS,
+Frequency,Offset,Tone,Call,Location,ST/PR,Use,VOIP,DGTL,Mi,Dir,,state_id,ID,Latitude,Longitude,Downlink,Uplink,County,Grid,On-air,Coverage,Features,FM,Analog Bandwidth,Coordination,Last update
+448.9,-5,,WB7TSQ,"Coalville, Lewis Peak",UT,OPEN,,,195.87,WNW,,49,263,40.85499954,-111.48000336,448.9,443.9,Summit,DN40GU,Unknown,"Wide area: Park City, Heber, Coalville and other nearby communities.","Remote base, 9,304'.",Yes; analog capable.,,UVHFS,

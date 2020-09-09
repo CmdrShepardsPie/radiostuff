@@ -1,4 +1,4 @@
-tsc
+npm run build
 
 node dist/get-repeaters.js "Moab, UT"
 node dist/get-repeaters.js "Bonneville, UT"
@@ -69,3 +69,10 @@ node dist/get-repeaters.js "Alamosa, CO"
 node dist/get-repeaters.js "Pagosa Springs, CO"
 node dist/get-repeaters.js "Breckenridge, CO"
 node dist/get-repeaters.js "Canon City, CO"
+
+node dist/convert-repeaters.js
+
+node dist/make-adms7.js 39.627071500,-104.893322500 home
+node dist/make-adms400.js 39.627071500,-104.893322500 home
+node dist/make-chirp.js 39.627071500,-104.893322500 home
+node dist/make-wcs7100.js 39.627071500,-104.893322500 home

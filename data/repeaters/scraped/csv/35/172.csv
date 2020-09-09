@@ -1,2 +1,2 @@
-Frequency,Offset,Tone,Call,Location,ST/PR,Use,VOIP,DGTL,Mi,Dir,,state_id,ID,Latitude,Longitude,Downlink,Uplink,Uplink Tone,County,Grid,Op Status,Coverage,Sponsor,Affiliate,Features,EchoLink,Web links,Coordination,Last update
-147.12,0.6,67,KF5PFO,"Taos, Picuris Peak",NM,OPEN,E,,154,S,ON - IDLE,35,172,36.24689865,-105.65399933,147.12,147.72,67,Taos,DM76EF,On-Air,Wide area.,Taos Amateur Radio Club,ARRL,E-power.,828279,http://taosarc.org/,NMFCC,2017-02-24
+Frequency,Offset,Tone,Call,Location,ST/PR,Use,VOIP,DGTL,Mi,Dir,,state_id,ID,Latitude,Longitude,Downlink,Uplink,Uplink Tone,County,Grid,Op Status,Coverage,Sponsor,Affiliate,Features,FM,Analog Bandwidth,EchoLink,Web links,Coordination,Last update
+147.12,0.6,67,KF5PFO,"Taos, Picuris Peak",NM,OPEN,E,,154,S,Node Offline,35,172,36.24689865,-105.65399933,147.12,147.72,67,Taos,DM76EF,On-Air,Wide area.,Taos Amateur Radio Club,ARRL,E-power.,Yes; analog capable.,,828279,http://taosarc.org/,NMFCC,2017-02-24

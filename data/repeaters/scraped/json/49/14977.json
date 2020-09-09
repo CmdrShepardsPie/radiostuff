@@ -25,6 +25,8 @@
   "Coverage": "",
   "Sponsor": "AD7ZW",
   "Features": "Autopatch",
+  "FM": "Yes; analog capable.",
+  "Analog Bandwidth": "",
   "EchoLink": 458414,
   "IRLP": 3205,
   "Commands": "B21 = 911 B22 = Local Public Safety Dispatch (Non Emergency) B3 = 3 Minute Autopatch Extension B0 = Autopatch Disconnect",

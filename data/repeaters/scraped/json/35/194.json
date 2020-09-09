@@ -24,6 +24,8 @@
   "Coverage": "",
   "Sponsor": "Los Alamos ARC",
   "Features": "Autopatch",
+  "FM": "Yes; analog capable.",
+  "Analog Bandwidth": "",
   "Commands": "Autopatch: Up- *88, wait for dialtone, and dial phone nbr. Down- #.",
   "Notes": "Located on the Barranca Mesa water tower.",
   "Nets": "LAARC: Sun at 2000.",

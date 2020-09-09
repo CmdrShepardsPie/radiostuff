@@ -1,2 +1,2 @@
-Frequency,Offset,Tone,Call,Location,ST/PR,Use,VOIP,DGTL,Mi,Dir,,state_id,ID,Latitude,Longitude,Downlink,Uplink,Uplink Tone,County,Op Status,Sponsor,Coordination,Last update
-53.01,-1,131.8,KB5ITS,Farmington,NM,OPEN,,,76.44,WSW,,35,81,36.72809982,-108.21800232,53.01,52.01,131.8,San Juan,On-Air,KB5ITS,NMFCC,2017-07-02
+Frequency,Offset,Tone,Call,Location,ST/PR,Use,VOIP,DGTL,Mi,Dir,,state_id,ID,Latitude,Longitude,Downlink,Uplink,Uplink Tone,County,Op Status,Sponsor,FM,Analog Bandwidth,Coordination,Last update
+53.01,-1,131.8,KB5ITS,Farmington,NM,OPEN,,,76.44,WSW,,35,81,36.72809982,-108.21800232,53.01,52.01,131.8,San Juan,On-Air,KB5ITS,Yes; analog capable.,,NMFCC,2017-07-02

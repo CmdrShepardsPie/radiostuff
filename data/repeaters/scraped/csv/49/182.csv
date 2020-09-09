@@ -1,2 +1,2 @@
-Frequency,Offset,Tone,Call,Location,ST/PR,Use,VOIP,DGTL,Mi,Dir,,state_id,ID,Latitude,Longitude,Downlink,Uplink,Uplink Tone,County,Grid,On-air,Coverage,Sponsor,Features,Coordination,Last update
-449.7,-5,136.5,W7BYU,Vernal,UT,OPEN,,,175.43,WNW,,49,182,40.35639954,-109.14600372,449.7,444.7,136.5,Uintah,DN50KI,Unknown,"Vernal, Roosevelt, Duchesne and other Uintah basin communities.",W7BYU,8,UVHFS,
+Frequency,Offset,Tone,Call,Location,ST/PR,Use,VOIP,DGTL,Mi,Dir,,state_id,ID,Latitude,Longitude,Downlink,Uplink,Uplink Tone,County,Grid,On-air,Coverage,Sponsor,Features,FM,Analog Bandwidth,Coordination,Last update
+449.7,-5,136.5,W7BYU,Vernal,UT,OPEN,,,175.43,WNW,,49,182,40.35639954,-109.14600372,449.7,444.7,136.5,Uintah,DN50KI,Unknown,"Vernal, Roosevelt, Duchesne and other Uintah basin communities.",W7BYU,8,Yes; analog capable.,,UVHFS,

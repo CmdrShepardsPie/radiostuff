@@ -1,2 +1,2 @@
-Frequency,Offset,Tone,Call,Location,ST/PR,Use,VOIP,DGTL,Mi,Dir,,state_id,ID,Latitude,Longitude,Downlink,Uplink,Uplink Tone,County,Grid,Op Status,Coverage,Sponsor,Features,EchoLink,Web links,Coordination,Last update
-449.075,-5,167.9,N7BYU,"Provo, BYU",UT,OPEN,E,,197.76,W,ON - IDLE,49,129,40.24850082,-111.64700317,449.075,444.075,167.9,Utah,DN40EF,On-Air,Utah County from Alpine to Payson.,"KI7TD, BYU ARC",4,96806,BYU Repeaters,UVHFS,2015-06-08
+Frequency,Offset,Tone,Call,Location,ST/PR,Use,VOIP,DGTL,Mi,Dir,,state_id,ID,Latitude,Longitude,Downlink,Uplink,Uplink Tone,County,Grid,Op Status,Coverage,Sponsor,Features,FM,Analog Bandwidth,EchoLink,Web links,Coordination,Last update
+449.075,-5,167.9,N7BYU,"Provo, BYU",UT,OPEN,E,,197.76,W,ON - IDLE,49,129,40.24850082,-111.64700317,449.075,444.075,167.9,Utah,DN40EF,On-Air,Utah County from Alpine to Payson.,"KI7TD, BYU ARC",4,Yes; analog capable.,,96806,BYU Repeaters,UVHFS,2015-06-08

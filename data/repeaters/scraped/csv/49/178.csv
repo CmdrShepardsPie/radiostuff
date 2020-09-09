@@ -1,2 +1,2 @@
-Frequency,Offset,Tone,Call,Location,ST/PR,Use,VOIP,DGTL,Mi,Dir,,state_id,ID,Latitude,Longitude,Downlink,Uplink,Uplink Tone,County,Grid,On-air,Coverage,Features,Links,Coordination,Last update
-145.23,-0.6,100,NZ6Z,Park City,UT,OPEN,,,195.56,WNW,,49,178,40.74250031,-111.51200104,145.23,144.63,100,Summit,DN40FR,Unknown,"Park City, Heber, Coalville and other nearby communities.",7,"Full-time to 447.50000 (NZ6Z) at Park City, UT .",UVHFS,
+Frequency,Offset,Tone,Call,Location,ST/PR,Use,VOIP,DGTL,Mi,Dir,,state_id,ID,Latitude,Longitude,Downlink,Uplink,Uplink Tone,County,Grid,On-air,Coverage,Features,FM,Analog Bandwidth,Links,Coordination,Last update
+145.23,-0.6,100,NZ6Z,Park City,UT,OPEN,,,195.56,WNW,,49,178,40.74250031,-111.51200104,145.23,144.63,100,Summit,DN40FR,Unknown,"Park City, Heber, Coalville and other nearby communities.",7,Yes; analog capable.,,"Full-time to 447.50000 (NZ6Z) at Park City, UT .",UVHFS,

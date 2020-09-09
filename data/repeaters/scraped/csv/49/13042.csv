@@ -1,2 +1,2 @@
-Frequency,Offset,Tone,Call,Location,ST/PR,Use,VOIP,DGTL,Mi,Dir,,state_id,ID,Latitude,Longitude,Downlink,Uplink,Uplink Tone,County,Op Status,Coverage,Sponsor,Notes,Web links,Coordination,Last update
-146.76,-0.6,88.5,K7QEQ,"Moab, Bald Mesa",UT,OPEN,,,188.22,WSW,,49,13042,38.52859879,-109.3219986,146.76,146.16,88.5,Grand,On-Air,Moab and immediate surroundings.,SDARC,8,http://162.250.21.7/index.html,UVHFS,2019-11-27
+Frequency,Offset,Tone,Call,Location,ST/PR,Use,VOIP,DGTL,Mi,Dir,,state_id,ID,Latitude,Longitude,Downlink,Uplink,Uplink Tone,County,Op Status,Coverage,Sponsor,FM,Analog Bandwidth,Notes,Web links,Coordination,Last update
+146.76,-0.6,88.5,K7QEQ,"Moab, Bald Mesa",UT,OPEN,,,188.22,WSW,,49,13042,38.52859879,-109.3219986,146.76,146.16,88.5,Grand,On-Air,Moab and immediate surroundings.,SDARC,Yes; analog capable.,,8,http://162.250.21.7/index.html,UVHFS,2019-11-27
