@@ -16,8 +16,7 @@ Channel Number,Receive Frequency,Transmit Frequency,Offset Frequency,Offset Dire
 15,436.40000,145.97000,,-DUP,FM,SAT Duchifat3 FM 436,None,100.0 Hz,100.0 Hz,023,Both N,Off,SAT Duchifat3 FM,,,,,,Filter 1,,,None,88.5 Hz,88.5 Hz,023,Both N,Filter 1,FM
 16,145.89500,1263.50000,,+DUP,FM,SAT FUNcube on ESEO,None,100.0 Hz,100.0 Hz,023,Both N,Off,SAT FUNcube on ESEO FM,,,,,,Filter 1,,,None,88.5 Hz,88.5 Hz,023,Both N,Filter 1,FM
 17,435.88000,145.88000,,-DUP,FM,SAT IO-86 (LAPAN-A2),Tone,88.5 Hz,88.5 Hz,023,Both N,Off,SAT IO-86 (LAPAN-A2) FM,,,,,,Filter 1,,,None,88.5 Hz,88.5 Hz,023,Both N,Filter 1,FM
-18,437.80000,145.99000,,-DUP,FM,SAT ISS Crossband Re,Tone,67.0 Hz,67.0 Hz,023,Both N,Off,SAT ISS Crossband Repeater FM,,,,,,Filter 1,,,None,88.5 Hz,88.5 Hz,023,Both N,Filter 1,FM
-19,145.90000,437.50000,,+DUP,FM,SAT PO-101 (Diwata-2,Tone,141.3 Hz,141.3 Hz,023,Both N,Off,SAT PO-101 (Diwata-2) FM,,,,,,Filter 1,,,None,88.5 Hz,88.5 Hz,023,Both N,Filter 1,FM
-20,436.79500,145.85000,,-DUP,FM,SAT SO-50 (SaudiSat-,Tone,67.0 Hz,67.0 Hz,023,Both N,Off,SAT SO-50 (SaudiSat-1C) FM,,,,,,Filter 1,,,None,88.5 Hz,88.5 Hz,023,Both N,Filter 1,FM
-21,145.85000,436.00000,,+DUP,FM,SAT Swiatowid FM 145,None,100.0 Hz,100.0 Hz,023,Both N,Off,SAT Swiatowid FM,,,,,,Filter 1,,,None,88.5 Hz,88.5 Hz,023,Both N,Filter 1,FM
-22,436.40000,145.97000,,-DUP,FM,SAT Tevel Mission FM,None,100.0 Hz,100.0 Hz,023,Both N,Off,SAT Tevel Mission FM,,,,,,Filter 1,,,None,88.5 Hz,88.5 Hz,023,Both N,Filter 1,FM
+18,145.90000,437.50000,,+DUP,FM,SAT PO-101 (Diwata-2,Tone,141.3 Hz,141.3 Hz,023,Both N,Off,SAT PO-101 (Diwata-2) FM,,,,,,Filter 1,,,None,88.5 Hz,88.5 Hz,023,Both N,Filter 1,FM
+19,436.79500,145.85000,,-DUP,FM,SAT SO-50 (SaudiSat-,Tone,67.0 Hz,67.0 Hz,023,Both N,Off,SAT SO-50 (SaudiSat-1C) FM,,,,,,Filter 1,,,None,88.5 Hz,88.5 Hz,023,Both N,Filter 1,FM
+20,145.85000,436.00000,,+DUP,FM,SAT Swiatowid FM 145,None,100.0 Hz,100.0 Hz,023,Both N,Off,SAT Swiatowid FM,,,,,,Filter 1,,,None,88.5 Hz,88.5 Hz,023,Both N,Filter 1,FM
+21,436.40000,145.97000,,-DUP,FM,SAT Tevel Mission FM,None,100.0 Hz,100.0 Hz,023,Both N,Off,SAT Tevel Mission FM,,,,,,Filter 1,,,None,88.5 Hz,88.5 Hz,023,Both N,Filter 1,FM

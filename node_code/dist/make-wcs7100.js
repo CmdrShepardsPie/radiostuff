@@ -71,7 +71,7 @@ var __importDefault = (this && this.__importDefault) || function (mod) {
             .slice(0, 99)
             .map((map, index) => ({ ...map, 'Channel Number': index + 1 }));
         const C = mapped
-            .filter((filter) => !duplexFilter(filter) && issOrSatFilter(filter))
+            .filter((filter) => issOrSatFilter(filter))
             .sort((a, b) => a['Transmit Frequency'] - b['Transmit Frequency'])
             .sort((a, b) => a['Receive Frequency'] - b['Receive Frequency'])
             .sort((a, b) => a.Name > b.Name ? 1 : a.Name < b.Name ? -1 : 0)
