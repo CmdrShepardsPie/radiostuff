@@ -62,9 +62,9 @@ var __importDefault = (this && this.__importDefault) || function (mod) {
         const sotaOrWarcFilter = (filter) => /^[A-Z]* SOTA/.test(filter.Name) || /^[A-Z]* WARC/.test(filter.Name);
         const A = mapped
             .filter((filter) => (issOrSatFilter(filter) || sotaOrWarcFilter(filter) || !fmOrDVFilter(filter)))
+            .sort((a, b) => a.Name > b.Name ? 1 : a.Name < b.Name ? -1 : 0)
             .sort((a, b) => a['Transmit Frequency'] - b['Transmit Frequency'])
             .sort((a, b) => a['Receive Frequency'] - b['Receive Frequency'])
-            .sort((a, b) => a.Name > b.Name ? 1 : a.Name < b.Name ? -1 : 0)
             .slice(0, 99)
             .map((map, index) => ({ ...map, 'Channel Number': index + 1 }));
         const B = mapped

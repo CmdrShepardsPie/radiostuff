@@ -109,9 +109,9 @@ async function doIt(location: gpsDistance.Point, outFileName: string): Promise<v
 
   const A: Wcs7100[] = mapped
     .filter((filter: Wcs7100): boolean => (issOrSatFilter(filter) || sotaOrWarcFilter(filter) || !fmOrDVFilter(filter)))
+    .sort((a: Wcs7100, b: Wcs7100): number => a.Name > b.Name ? 1 : a.Name < b.Name ? - 1 : 0)
     .sort((a: Wcs7100, b: Wcs7100): number => a['Transmit Frequency'] - b['Transmit Frequency'])
     .sort((a: Wcs7100, b: Wcs7100): number => a['Receive Frequency'] - b['Receive Frequency'])
-    .sort((a: Wcs7100, b: Wcs7100): number => a.Name > b.Name ? 1 : a.Name < b.Name ? - 1 : 0)
     .slice(0, 99)
     .map((map: Wcs7100, index: number): Wcs7100 => ({ ...map, 'Channel Number': index + 1 }));
 
