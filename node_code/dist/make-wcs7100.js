@@ -55,8 +55,8 @@ var __importDefault = (this && this.__importDefault) || function (mod) {
         // const simplexFilter = (filter: Wcs7100): boolean => filter['Offset Direction'] === Wcs7100OffsetDirection.Simplex && filter['Tone Mode'] === Wcs7100ToneMode.None;
         const duplexFilter = (filter) => filter['Offset Direction'] !== wcs7100_1.Wcs7100OffsetDirection.Simplex || filter['Tone Mode'] !== wcs7100_1.Wcs7100ToneMode.None;
         const fmOrDVFilter = (filter) => filter['Operating Mode'] === wcs7100_1.Wcs7100OperatingMode.FM || filter['Operating Mode'] === wcs7100_1.Wcs7100OperatingMode.DV;
-        const issOrSatFilter = (filter) => /^ISS/.test(filter.Name) || /^SAT/.test(filter.Name);
-        const sotaOrWarcFilter = (filter) => /^SOTA/.test(filter.Name) || /^WARC/.test(filter.Name);
+        const issOrSatFilter = (filter) => /^[A-Z]* ISS/.test(filter.Name) || /^[A-Z]* SAT/.test(filter.Name);
+        const sotaOrWarcFilter = (filter) => /^[A-Z]* SOTA/.test(filter.Name) || /^[A-Z]* WARC/.test(filter.Name);
         const A = mapped
             .filter((filter) => (issOrSatFilter(filter) || sotaOrWarcFilter(filter) || !fmOrDVFilter(filter)))
             .sort((a, b) => a['Transmit Frequency'] - b['Transmit Frequency'])

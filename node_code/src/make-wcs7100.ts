@@ -100,8 +100,8 @@ async function doIt(location: gpsDistance.Point, outFileName: string): Promise<v
   // const simplexFilter = (filter: Wcs7100): boolean => filter['Offset Direction'] === Wcs7100OffsetDirection.Simplex && filter['Tone Mode'] === Wcs7100ToneMode.None;
   const duplexFilter = (filter: Wcs7100): boolean => filter['Offset Direction'] !== Wcs7100OffsetDirection.Simplex || filter['Tone Mode'] !== Wcs7100ToneMode.None;
   const fmOrDVFilter = (filter: Wcs7100): boolean => filter['Operating Mode'] === Wcs7100OperatingMode.FM || filter['Operating Mode'] === Wcs7100OperatingMode.DV;
-  const issOrSatFilter = (filter: Wcs7100): boolean => /^ISS/.test(filter.Name) || /^SAT/.test(filter.Name);
-  const sotaOrWarcFilter = (filter: Wcs7100): boolean => /^SOTA/.test(filter.Name) || /^WARC/.test(filter.Name);
+  const issOrSatFilter = (filter: Wcs7100): boolean => /^[A-Z]* ISS/.test(filter.Name) || /^[A-Z]* SAT/.test(filter.Name);
+  const sotaOrWarcFilter = (filter: Wcs7100): boolean => /^[A-Z]* SOTA/.test(filter.Name) || /^[A-Z]* WARC/.test(filter.Name);
 
 
   const A: Wcs7100[] = mapped
