@@ -1,0 +1,201 @@
+Location,Name,Frequency,Duplex,Offset,Tone,rToneFreq,cToneFreq,DtcsCode,DtcsRxCode,DtcsPolarity,Mode,TStep,Comment
+0,FM Calling,146.52,,0,,100,100,23,23,NN,FM,5,FM Calling
+1,FM Calling,223.5,,0,,100,100,23,23,NN,FM,5,FM Calling
+2,FM Calling,446,,0,,100,100,23,23,NN,FM,5,FM Calling
+3,0BF Fairplay Sacramento Mountain,447.125,-,5,TSQL,103.5,103.5,23,23,NN,FM,5,8 5336 10780.00 CO Park Fairplay Sacramento Mountain AA0BF
+4,0BG Aurora,448.275,-,5,Tone,156.7,156.7,23,23,NN,FM,5,8 8199 10770.00 CO Arapahoe Aurora W0BG
+5,0CL Snowmass Village,146.67,-,0.6,Tone,107.2,107.2,23,23,NN,FM,5,8 211 10749.00 CO Pitkin Snowmass Village K0CL
+6,0DK Boulder,146.61,-,0.6,Tone,100,100,23,23,NN,FM,5,8 13 10729.00 CO Boulder Boulder W0DK
+7,0DK Boulder,146.73,-,0.6,TSQL,91.5,91.5,23,23,NN,FM,5,8 15 10722.00 CO Boulder Boulder K0DK
+8,0DK Boulder,449.4,-,5,Tone,91.5,91.5,23,23,NN,FM,5,8 21 10726.00 CO Boulder Boulder K0DK
+9,0DK Boulder Table Mesa,448.9,-,5,Tone,100,100,23,23,NN,FM,5,8 10 10729.00 CO Boulder Boulder Table Mesa W0DK
+10,0DK Boulder Table Mountain,146.7,-,0.6,Tone,100,100,23,23,NN,FM,5,8 14 10729.00 CO Boulder Boulder Table Mountain W0DK
+11,0EB Hudson,449.925,-,5,TSQL,114.8,114.8,23,23,NN,FM,5,8 8216 10746.00 CO Weld Hudson K0EB
+12,0FH Estes Park,146.685,-,0.6,TSQL,123,123,23,23,NN,FM,5,8 119 10685.00 CO Larimer Estes Park N0FH
+13,0FH Estes Park,449.8,-,5,Tone,123,123,23,23,NN,FM,5,8 120 10680.00 CO Larimer Estes Park N0FH
+14,0GO Golden Guy Hill,449.75,-,5,TSQL,103.5,103.5,23,23,NN,FM,5,8 265 10748.00 CO Jefferson Golden Guy Hill KI0GO
+15,0GV Golden,448.975,-,5,Tone,123,123,23,23,NN,FM,5,8 137 10754.00 CO Jefferson Golden W0GV
+16,0IA Boulder,449.55,-,5,Tone,100,100,23,23,NN,FM,5,8 11 10726.00 CO Boulder Boulder W0IA
+17,0IA Boulder Gunbarrel Hill,146.76,-,0.6,Tone,100,100,23,23,NN,FM,5,8 16 10726.00 CO Boulder Boulder Gunbarrel Hill W0IA
+18,0IA Boulder Lee Hill,224.02,-,1.6,,100,100,23,23,NN,FM,5,8 18 10717.00 CO Boulder Boulder Lee Hill W0IA
+19,0JZ Gold Hill,146.91,-,0.6,Cross,123,127.3,23,23,NN,FM,5,8 13368 10716.00 CO Boulder Gold Hill W0JZ
+20,0KC Fort Lupton,224.96,-,1.6,,100,100,23,23,NN,FM,5,8 8183 10734.00 CO Weld Fort Lupton AC0KC
+21,0KC Fort Lupton,447.3,-,5,Tone,107.2,107.2,23,23,NN,FM,5,8 8739 10741.00 CO Weld Fort Lupton AC0KC
+22,0KQ Evergreen Saddleback Mountai,447.85,-,5,TSQL,141.3,141.3,23,23,NN,FM,5,8 9580 10750.00 CO Clear Creek Evergreen Saddleback Mountain AC0KQ
+23,0ML Northglenn,147.045,+,0.6,Tone,123,123,23,23,NN,FM,5,8 185 10749.00 CO Adams Northglenn K0ML
+24,0MR Paonia,147.33,+,0.6,Tone,107.2,107.2,23,23,NN,FM,5,8 8179 10760.00 CO Delta Paonia KI0MR
+25,0OJ Greeley UNC,449.725,-,5,Tone,127.3,127.3,23,23,NN,FM,5,8 159 10705.00 CO Weld Greeley UNC K0OJ
+26,0PC Bailey Dick Mountain,146.895,-,0.6,TSQL,100,100,23,23,NN,FM,5,8 7 10781.00 CO Park Bailey Dick Mountain AB0PC
+27,0RM Rollinsville,224.6,-,1.6,Tone,100,100,23,23,NN,FM,5,8 201 10728.00 CO Gilpin Rollinsville W0RM
+28,0RV Vail Bald Mountain,146.61,-,0.6,Tone,107.2,107.2,23,23,NN,FM,5,8 256 10730.00 CO Eagle Vail Bald Mountain K0RV
+29,0SJ Boulder Blue Mountain,145.475,-,0.6,Tone,100,100,23,23,NN,FM,5,8 75 10764.00 CO Jefferson Boulder Blue Mountain KE0SJ
+30,0SJ Golden Centennial Cone,145.28,-,0.6,Tone,100,100,23,23,NN,FM,5,8 140 10750.00 CO Jefferson Golden Centennial Cone KE0SJ
+31,0SJ Golden Centennial Cone,449.525,-,5,,100,100,23,23,NN,FM,5,8 138 10750.00 CO Jefferson Golden Centennial Cone KE0SJ
+32,0SJ Lochbuie,447.625,-,5,Tone,100,100,23,23,NN,FM,5,8 9771 10745.00 CO Adams Lochbuie KE0SJ
+33,0SW Collbran,449.5,-,5,Tone,107.2,107.2,23,23,NN,FM,5,8 36 10709.00 CO Mesa Collbran KB0SW
+34,0SW Loma Baxter Pass,447,-,5,Tone,107.2,107.2,23,23,NN,FM,5,8 174 10638.00 CO Garfield Loma Baxter Pass KB0SW
+35,0SZ Boulder Lee Hill,447.75,-,5,TSQL,141.3,141.3,23,23,NN,FM,5,8 19 10717.00 CO Boulder Boulder Lee Hill N0SZ
+36,0SZ Denver Thorodin Mountain,449.225,-,5,TSQL,141.3,141.3,23,23,NN,FM,5,8 97 10734.00 CO Gilpin Denver Thorodin Mountain N0SZ
+37,0SZ Idaho Springs Squaw Mountain,448.225,-,5,TSQL,141.3,141.3,23,23,NN,FM,5,8 8197 10752.00 CO Clear Creek Idaho Springs Squaw Mountain N0SZ
+38,0TX Golden Centennial Cone,448.625,-,5,TSQL,100,100,23,23,NN,FM,5,8 112 10750.00 CO Jefferson Golden Centennial Cone W0TX
+39,0TX Idaho Springs Centennial Con,145.49,-,0.6,TSQL,100,100,23,23,NN,FM,5,8 76 10753.00 CO Jefferson Idaho Springs Centennial Cone W0TX
+40,0TX Idaho Springs Squaw Mountain,449.35,-,5,TSQL,100,100,23,23,NN,FM,5,8 98 10753.00 CO Clear Creek Idaho Springs Squaw Mountain W0TX
+41,0TX Lakewood Green Mountain,147.33,+,0.6,Tone,100,100,23,23,NN,FM,5,8 85 10764.00 CO Jefferson Lakewood Green Mountain W0TX
+42,0TX Lakewood Green Mountain,224.38,-,1.6,TSQL,100,100,23,23,NN,FM,5,8 267 10764.00 CO Jefferson Lakewood Green Mountain W0TX
+43,0TX Lakewood St Anthony Medical,447.825,-,5,DTCS,100,100,73,73,NN,FM,5,8 5805 10761.00 CO Jefferson Lakewood St Anthony Medical Campus W0TX
+44,0TY Grand Junction,145.22,-,0.6,Tone,107.2,107.2,23,23,NN,FM,5,8 8167 10705.00 CO Mesa Grand Junction KE0TY
+45,0TY Grand Junction,147.39,+,0.6,Tone,107.2,107.2,23,23,NN,FM,5,8 152 10705.00 CO Mesa Grand Junction KE0TY
+46,0VH Aurora 225 and Parker Road,448.4,-,5,,100,100,23,23,NN,FM,5,8 18892 10776.00 CO Arapahoe Aurora 225 and Parker Road KE0VH
+47,0VQ Aspen Aspen Mountain,447.05,-,5,TSQL,136.5,136.5,23,23,NN,FM,5,8 260 10757.00 CO Pitkin Aspen Aspen Mountain K0VQ
+48,0VQ Carbondale Missouri Heights,447.15,-,5,Tone,136.5,136.5,23,23,NN,FM,5,8 6009 10722.00 CO Garfield Carbondale Missouri Heights K0VQ
+49,0VQ Glenwood Springs Three Mile,147.3,+,0.6,Tone,107.2,107.2,23,23,NN,FM,5,8 131 10701.00 CO Garfield Glenwood Springs Three Mile Ridge K0VQ
+50,7BN Rawlins,147.39,+,0.6,Tone,100,100,23,23,NN,FM,5,56 55 10478.00 WY Carbon Rawlins KD7BN
+51,7BR Torrington,146.73,-,0.6,,100,100,23,23,NN,FM,5,56 42 10552.00 WY Goshen Torrington KF7BR
+52,7GR Scottsbluff Stage Hill,444.125,+,5,TSQL,114.8,114.8,23,23,NN,FM,5,31 110 10605.00 NE Scotts Bluff Scottsbluff Stage Hill WB7GR
+53,7GX Price Wood Hill,147.2,+,0.6,Tone,88.5,88.5,23,23,NN,FM,5,49 10058 10563.00 UT Carbon Price Wood Hill K7GX
+54,7GX Price Wood Hill,448.3,-,5,,100,100,23,23,NN,FM,5,49 10061 10563.00 UT Carbon Price Wood Hill K7GX
+55,7RF Fort Collins,447.725,-,5,Tone,131.8,131.8,23,23,NN,FM,5,8 8194 10683.00 CO Larimer Fort Collins W7RF
+56,7TA Logan Sedgwick Peak,449.375,-,5,,100,100,23,23,NN,FM,5,49 18470 10581.00 UT Cache Logan Sedgwick Peak AE7TA
+57,7YI Castle Dale Horn Mountain,447.625,-,5,Tone,100,100,23,23,NN,FM,5,49 73 10590.00 UT Emery Castle Dale Horn Mountain K7YI
+58,7ZW Altamont,147.28,+,0.6,TSQL,107.2,107.2,23,23,NN,FM,5,49 14977 10510.00 UT Duchesne Altamont AD7ZW
+59,9SL Aurora,449.95,-,5,TSQL,77,77,23,23,NN,FM,5,8 8743 10770.00 CO Arapahoe Aurora W9SL
+60,AEN Idaho Springs Squaw Mountain,449,-,5,TSQL,136.5,136.5,23,23,NN,FM,5,8 8250 10754.00 CO Clear Creek Idaho Springs Squaw Mountain WR0AEN
+61,AFO Vail,224.8,-,1.6,,100,100,23,23,NN,FM,5,8 242 10726.00 CO Eagle Vail N0AFO
+62,AFO Vail,449.9,-,5,TSQL,107.2,107.2,23,23,NN,FM,5,8 243 10726.00 CO Eagle Vail N0AFO
+63,ALC Cedaredge,147.36,+,0.6,Tone,100,100,23,23,NN,FM,5,8 3749 10744.00 CO Delta Cedaredge W0ALC
+64,ALC Cedaredge,449.825,-,5,Tone,100,100,23,23,NN,FM,5,8 3760 10744.00 CO Delta Cedaredge W0ALC
+65,ARA Critchell Critchell Mountain,147.12,+,0.6,TSQL,88.5,88.5,23,23,NN,FM,5,8 59 10774.00 CO Jefferson Critchell Critchell Mountain N0ARA
+66,ARV Grand Junction,447.5,-,5,Tone,114.8,114.8,23,23,NN,FM,5,8 3757 10705.00 CO Mesa Grand Junction KC0ARV
+67,BAR Vernal Blue Mountain,147.1,+,0.6,Tone,136.5,136.5,23,23,NN,FM,5,49 163 10553.00 UT Uintah Vernal Blue Mountain W7BAR
+68,BAR Vernal Grizzly Ridge,147.04,+,0.6,Tone,136.5,136.5,23,23,NN,FM,5,49 181 10502.00 UT Uintah Vernal Grizzly Ridge W7BAR
+69,BAR Vernal Uintah County EOC,449.9,-,5,Tone,136.5,136.5,23,23,NN,FM,5,49 13408 10569.00 UT Uintah Vernal Uintah County EOC W7BAR
+70,BQM Mitchell,445.1,,0,TSQL,100,100,23,23,NN,FM,5,31 11356 10575.00 NE Scotts Bluff Mitchell WD0BQM
+71,BQM Scottsbluff,145.475,-,0.6,,100,100,23,23,NN,FM,5,31 57 10586.00 NE Scotts Bluff Scottsbluff WD0BQM
+72,BTV Boulder,423,+,820,,100,100,23,23,NN,FM,5,8 18534 10729.00 CO Boulder Boulder W0BTV
+73,BYU Myton Flat Top,145.49,-,0.6,Tone,136.5,136.5,23,23,NN,FM,5,49 13041 10530.00 UT Duchesne Myton Flat Top W7BYU
+74,BYU Roosevelt,146.92,-,0.6,Tone,136.5,136.5,23,23,NN,FM,5,49 281 10553.00 UT Duchesne Roosevelt W7BYU
+75,BYU Vernal,449.7,-,5,Tone,136.5,136.5,23,23,NN,FM,5,49 182 10553.00 UT Uintah Vernal W7BYU
+76,C3W Grand Lake,449.425,-,5,TSQL,103.5,103.5,23,23,NN,FM,5,8 18131 10683.00 CO Clear Creek Grand Lake WC3W
+77,CBI Golden Guy Hill,147.15,+,0.6,TSQL,100,100,23,23,NN,FM,5,8 133 10748.00 CO Jefferson Golden Guy Hill W0CBI
+78,CBS Altamont,146.74,-,0.6,Tone,100,100,23,23,NN,FM,5,49 253 10510.00 UT Duchesne Altamont WB7CBS
+79,CCC Winter Park,447.45,-,5,Tone,103.5,103.5,23,23,NN,FM,5,8 3756 10715.00 CO Grand Winter Park WA4CCC
+80,CEU Price Wood Hill,145.43,-,0.6,Tone,88.5,88.5,23,23,NN,FM,5,49 78 10563.00 UT Carbon Price Wood Hill W7CEU
+81,CEU Price Wood Hill,224.5,-,1.6,Tone,88.5,88.5,23,23,NN,FM,5,49 2764 10563.00 UT Carbon Price Wood Hill W7CEU
+82,CEU Price Wood Hill,448.3,-,5,Tone,88.5,88.5,23,23,NN,FM,5,49 2765 10563.00 UT Carbon Price Wood Hill W7CEU
+83,CFI Idaho Springs Squaw Mountain,448.675,-,5,TSQL,100,100,23,23,NN,FM,5,8 94 10753.00 CO Denver Idaho Springs Squaw Mountain W0CFI
+84,CRA Boulder Eldorado Mountain,145.46,-,0.6,TSQL,107.2,107.2,23,23,NN,FM,5,8 8 10717.00 CO Boulder Boulder Eldorado Mountain W0CRA
+85,CRA Boulder Eldorado Mountain,447.975,-,5,TSQL,107.2,107.2,23,23,NN,FM,5,8 20 10717.00 CO Boulder Boulder Eldorado Mountain W0CRA
+86,CRA Idaho Springs Squaw Mountain,145.145,-,0.6,TSQL,107.2,107.2,23,23,NN,FM,5,8 107 10753.00 CO Clear Creek Idaho Springs Squaw Mountain W0CRA
+87,CRA Idaho Springs Squaw Mountain,447.575,-,5,TSQL,107.2,107.2,23,23,NN,FM,5,8 264 10753.00 CO Clear Creek Idaho Springs Squaw Mountain W0CRA
+88,Cedaredge Grand Mesa,447.35,-,5,Tone,107.2,107.2,23,23,NN,FM,5,8 3755 10733.00 CO Delta Cedaredge Grand Mesa
+89,D0H Steamboat Springs,147.21,+,0.6,TSQL,107.2,107.2,23,23,NN,FM,5,8 237 10624.00 CO Routt Steamboat Springs KD0H
+90,DUN Idaho Springs Squaw Mountain,449.45,-,5,Cross,103.5,127.3,23,23,NN,FM,5,8 99 10752.00 CO Clear Creek Idaho Springs Squaw Mountain K1DUN
+91,EHP Denver,448.075,-,5,Tone,123,123,23,23,NN,FM,5,8 91 10764.00 CO Denver Denver N5EHP
+92,ELK Carbondale Four Mile Ridge,449.725,-,5,Tone,179.9,179.9,23,23,NN,FM,5,8 35 10717.00 CO Garfield Carbondale Four Mile Ridge K0ELK
+93,ELY Lakewood,448.75,-,5,TSQL,100,100,23,23,NN,FM,5,8 8204 10763.00 CO Jefferson Lakewood N0ELY
+94,ENO Longmont,147.27,+,0.6,TSQL,100,100,23,23,NN,FM,5,8 175 10716.00 CO Boulder Longmont W0ENO
+95,ENO Longmont,448.8,-,5,TSQL,88.5,88.5,23,23,NN,FM,5,8 177 10716.00 CO Boulder Longmont W0ENO
+96,EPA Longmont,448.525,-,5,Tone,151.4,151.4,23,23,NN,FM,5,8 176 10716.00 CO Boulder Longmont N0EPA
+97,FEZ Denver,447.925,-,5,TSQL,100,100,23,23,NN,FM,5,8 8196 10764.00 CO Denver Denver K0FEZ
+98,FEZ Golden Centennial Cone,146.985,-,0.6,TSQL,100,100,23,23,NN,FM,5,8 82 10750.00 CO Denver Golden Centennial Cone K0FEZ
+99,FUN Denver Green Valley Ranch,448.15,-,5,TSQL,141.3,141.3,23,23,NN,FM,5,8 9765 10766.00 CO Denver Denver Green Valley Ranch WE0FUN
+100,G0N Idaho Springs Squaw Mountain,449.05,-,5,TSQL,107.2,107.2,23,23,NN,FM,5,8 95 10745.00 CO Denver Idaho Springs Squaw Mountain WG0N
+101,G0N Scottsbluff,146.445,,0,TSQL,88.5,88.5,23,23,NN,FM,5,31 11355 10588.00 NE Scotts Bluff Scottsbluff AG0N
+102,GCR Rawlins Elk Mountain,147.24,+,0.6,Tone,100,100,23,23,NN,FM,5,56 29 10519.00 WY Carbon Rawlins Elk Mountain N7GCR
+103,GJT Grand Junction,448.15,-,5,Tone,100,100,23,23,NN,FM,5,8 153 10723.00 CO Mesa Grand Junction W0GJT
+104,GJT Grand Junction 9 Mile Hwy 14,146.82,-,0.6,Tone,107.2,107.2,23,23,NN,FM,5,8 261 10705.00 CO Mesa Grand Junction 9 Mile Hwy 141 Unaweep W0GJT
+105,GUQ Evergreen,145.34,-,0.6,Cross,103.5,127.3,23,23,NN,FM,5,8 73 10763.00 CO Jefferson Evergreen KE4GUQ
+106,Glade Park,449.2,-,5,Tone,107.2,107.2,23,23,NN,FM,5,8 18392 10706.00 CO Mesa Glade Park
+107,HAM Craig,145.265,-,0.6,Tone,107.2,107.2,23,23,NN,FM,5,8 3740 10596.00 CO Moffat Craig WD0HAM
+108,HEN Vernal Grizzly Ridge,145.49,-,0.6,Tone,136.5,136.5,23,23,NN,FM,5,49 24 10501.00 UT Uintah Vernal Grizzly Ridge K7HEN
+109,HND Glenwood Springs Lookout Mou,449.85,-,5,TSQL,131.8,131.8,23,23,NN,FM,5,8 13637 10701.00 CO Garfield Glenwood Springs Lookout Mountain WA4HND
+110,HND Grand Junction Black Ridge,449.575,-,5,TSQL,131.8,131.8,23,23,NN,FM,5,8 155 10697.00 CO Mesa Grand Junction Black Ridge WA4HND
+111,HND Grand Junction Grand Mesa,449.3,-,5,TSQL,107.2,107.2,23,23,NN,FM,5,8 154 10717.00 CO Mesa Grand Junction Grand Mesa WA4HND
+112,HND Parachute Mount Callahan,449.8,-,5,Tone,107.2,107.2,23,23,NN,FM,5,8 253 10684.00 CO Garfield Parachute Mount Callahan WA4HND
+113,I0G Glenwood Springs Sunlight Pe,146.88,-,0.6,Tone,107.2,107.2,23,23,NN,FM,5,8 130 10712.00 CO Garfield Glenwood Springs Sunlight Peak KI0G
+114,I0G Glenwood Springs Sunlight Pe,447.1,-,5,Tone,107.2,107.2,23,23,NN,FM,5,8 132 10712.00 CO Garfield Glenwood Springs Sunlight Peak KI0G
+115,IBM Golden Guy Hill,448.85,-,5,TSQL,88.5,88.5,23,23,NN,FM,5,8 136 10748.00 CO Jefferson Golden Guy Hill K0IBM
+116,JRL Denver Broadway Plaza Lofts,447.175,-,5,TSQL,100,100,23,23,NN,FM,5,8 12216 10762.00 CO Denver Denver Broadway Plaza Lofts W0JRL
+117,JTB Sterling CO,145.295,-,0.6,Tone,100,100,23,23,NN,FM,5,8 238 10731.00 CO Logan Sterling CO WA0JTB
+118,JUN Holyoke,146.955,-,0.6,,100,100,23,23,NN,FM,5,8 163 10763.00 CO Phillips Holyoke N0JUN
+119,JXN Denver,146.715,-,0.6,TSQL,123,123,23,23,NN,FM,5,8 79 10764.00 CO Denver Denver N0JXN
+120,KAV Scottsbluff,444.825,+,5,Tone,100,100,23,23,NN,FM,5,31 111 10586.00 NE Scotts Bluff Scottsbluff W0KAV
+121,KIZ Denver,448.55,-,5,Tone,82.5,82.5,23,23,NN,FM,5,8 93 10764.00 CO Denver Denver W0KIZ
+122,KWD Greeley,448.475,-,5,Tone,100,100,23,23,NN,FM,5,8 158 10720.00 CO Weld Greeley KC0KWD
+123,LMA Broomfield,448.925,-,5,Tone,131.8,131.8,23,23,NN,FM,5,8 26 10742.00 CO Boulder Broomfield W0LMA
+124,LRA Loveland Namaqua Hill,147.195,+,0.6,Tone,100,100,23,23,NN,FM,5,8 179 10692.00 CO Larimer Loveland Namaqua Hill W0LRA
+125,LRA Loveland Namaqua Hill,449.575,-,5,Tone,100,100,23,23,NN,FM,5,8 181 10693.00 CO Larimer Loveland Namaqua Hill W0LRA
+126,LXX Morrison Mt. Morrison,447.875,-,5,TSQL,107.2,107.2,23,23,NN,FM,5,8 10513 10762.00 CO Jefferson Morrison Mt. Morrison N6LXX
+127,MHU Golden Guy Hill,224,-,1.6,TSQL,103.5,103.5,23,23,NN,FM,5,8 86 10748.00 CO Jefferson Golden Guy Hill N0MHU
+128,NEB Harrisburg,147,-,0.6,Tone,103.5,103.5,23,23,NN,FM,5,31 58 10624.00 NE Banner Harrisburg N0NEB
+129,NEB Scottsbluff,147.075,+,0.6,,100,100,23,23,NN,FM,5,31 59 10581.00 NE Scotts Bluff Scottsbluff N0NEB
+130,OZU Rawlins,146.76,-,0.6,Tone,100,100,23,23,NN,FM,5,56 43 10478.00 WY Carbon Rawlins KC7OZU
+131,POH Golden Guy Hill,224.74,-,1.6,TSQL,88.5,88.5,23,23,NN,FM,5,8 134 10748.00 CO Jefferson Golden Guy Hill N0POH
+132,PQD Duchense,147.26,+,0.6,,100,100,23,23,NN,FM,5,49 152 10526.00 UT Duchesne Duchense N7PQD
+133,PUF Golden Centennial Cone,146.64,-,0.6,Tone,100,100,23,23,NN,FM,5,8 77 10750.00 CO Jefferson Golden Centennial Cone N0PUF
+134,PYY Evergreen Squaw Mountain,147.3,+,0.6,TSQL,103.5,103.5,23,23,NN,FM,5,8 84 10753.00 CO Clear Creek Evergreen Squaw Mountain N0PYY
+135,PYY Golden,448.125,-,5,Tone,107.2,107.2,23,23,NN,FM,5,8 143 10754.00 CO Jefferson Golden N0PYY
+136,QEQ Moab,146.9,-,0.6,Tone,88.5,88.5,23,23,NN,FM,5,49 48 10715.00 UT Grand Moab K7QEQ
+137,QEQ Moab Bald Mesa,146.76,-,0.6,Tone,88.5,88.5,23,23,NN,FM,5,49 13042 10729.00 UT Grand Moab Bald Mesa K7QEQ
+138,QEQ Moab Bald Mesa,449.1,-,5,TSQL,107.2,107.2,23,23,NN,FM,5,49 52 10729.00 UT Grand Moab Bald Mesa K7QEQ
+139,QEY Fort Collins CSU Durward Hal,147.36,+,0.6,TSQL,100,100,23,23,NN,FM,5,8 125 10676.00 CO Larimer Fort Collins CSU Durward Hall W0QEY
+140,QEY Fort Collins CSU Durward Hal,449.85,-,5,TSQL,100,100,23,23,NN,FM,5,8 124 10674.00 CO Larimer Fort Collins CSU Durward Hall W0QEY
+141,QMR Breckenridge,146.7,-,0.6,Tone,107.2,107.2,23,23,NN,FM,5,8 23 10754.00 CO Summit Breckenridge WB0QMR
+142,QXX Cedaredge Cedar Mesa,147.195,+,0.6,Tone,107.2,107.2,23,23,NN,FM,5,8 3745 10744.00 CO Delta Cedaredge Cedar Mesa KC0QXX
+143,RBT Fort Collins,447.45,-,5,TSQL,123,123,23,23,NN,FM,5,8 276 10679.00 CO Larimer Fort Collins KC0RBT
+144,RFI Severance Cactus Hill,447.2,-,5,Tone,82.5,82.5,23,23,NN,FM,5,8 8188 10680.00 CO Weld Severance Cactus Hill N6RFI
+145,RON Rawlins,146.7,-,0.6,Tone,162.2,162.2,23,23,NN,FM,5,56 5791 10478.00 WY Carbon Rawlins N7RON
+146,RRZ Grand Junction Black Ridge (,146.94,-,0.6,TSQL,107.2,107.2,23,23,NN,FM,5,8 151 10697.00 CO Mesa Grand Junction Black Ridge (Above Colorado Ntl Monument) W0RRZ
+147,RRZ Grand Junction GJT,145.175,-,0.6,Tone,107.2,107.2,23,23,NN,FM,5,8 147 10700.00 CO Mesa Grand Junction GJT W0RRZ
+148,SDC Castle Dale Cedar Mountain,147.14,+,0.6,Tone,88.5,88.5,23,23,NN,FM,5,49 57 10614.00 UT Emery Castle Dale Cedar Mountain K7SDC
+149,SDC Castle Dale Cedar Mountain,448.55,-,5,Tone,88.5,88.5,23,23,NN,FM,5,49 274 10614.00 UT Emery Castle Dale Cedar Mountain K7SDC
+150,SDC Castle Dale Horn Mountain,147.06,+,0.6,Tone,88.5,88.5,23,23,NN,FM,5,49 54 10590.00 UT Emery Castle Dale Horn Mountain K7SDC
+151,SDC Hanksville Ellen Peak,147.08,+,0.6,Tone,136.5,136.5,23,23,NN,FM,5,49 56 10716.00 UT Wayne Hanksville Ellen Peak K7SDC
+152,SDC Scofield Ford Ridge,145.31,-,0.6,Tone,88.5,88.5,23,23,NN,FM,5,49 55 10542.00 UT Carbon Scofield Ford Ridge K7SDC
+153,SDC Sunnyside Bruin Point,147.32,+,0.6,Tone,88.5,88.5,23,23,NN,FM,5,49 58 10579.00 UT Carbon Sunnyside Bruin Point K7SDC
+154,SDC Sunnyside Bruin Point,449.05,-,5,Tone,88.5,88.5,23,23,NN,FM,5,49 59 10579.00 UT Carbon Sunnyside Bruin Point K7SDC
+155,SMZ Grand Junction,449.775,-,5,Cross,173.8,88.5,23,23,NN,FM,5,8 11793 10705.00 CO Mesa Grand Junction KD0SMZ
+156,SNO Albin,147.165,+,0.6,Tone,114.8,114.8,23,23,NN,FM,5,56 28 10621.00 WY Laramie Albin KC7SNO
+157,SNO Carbondale Four Mile Ridge,147.39,+,0.6,Tone,107.2,107.2,23,23,NN,FM,5,8 259 10717.00 CO Garfield Carbondale Four Mile Ridge K0SNO
+158,SNO Cheyenne Denver Hill,146.775,-,0.6,Tone,114.8,114.8,23,23,NN,FM,5,56 27 10628.00 WY Laramie Cheyenne Denver Hill KC7SNO
+159,SNO Cheyenne North Park,147.105,+,0.6,TSQL,91.5,91.5,23,23,NN,FM,5,56 26 10626.00 WY Laramie Cheyenne North Park KC7SNO
+160,SNO Laramie Beacon Hill,146.82,-,0.6,Tone,114.8,114.8,23,23,NN,FM,5,56 9 10583.00 WY Albany Laramie Beacon Hill KC7SNO
+161,SNU Wheatland,146.88,-,0.6,,100,100,23,23,NN,FM,5,56 47 10528.00 WY Platte Wheatland WA7SNU
+162,SSI Grand Junction,147.105,+,0.6,,100,100,23,23,NN,FM,5,8 8175 10705.00 CO Mesa Grand Junction K0SSI
+163,SSP Lakewood Moffat Treatment Pl,147.21,+,0.6,TSQL,100,100,23,23,NN,FM,5,8 9775 10758.00 CO Jefferson Lakewood Moffat Treatment Plant KD0SSP
+164,SWE Rifle,146.76,-,0.6,Tone,107.2,107.2,23,23,NN,FM,5,8 200 10692.00 CO Garfield Rifle N0SWE
+165,SWR Cheyenne,448.15,-,5,Tone,100,100,23,23,NN,FM,5,56 20 10611.00 WY Laramie Cheyenne KB7SWR
+166,TPT Denver,447.9,-,5,,100,100,23,23,NN,FM,5,8 8195 10764.00 CO Denver Denver WB0TPT
+167,UDD Aurora Smokey Hill,448.5,-,5,Tone,100,100,23,23,NN,FM,5,8 92 10770.00 CO Denver Aurora Smokey Hill KB0UDD
+168,UDD Idaho Springs Squaw Mountain,146.67,-,0.6,TSQL,100,100,23,23,NN,FM,5,8 78 10753.00 CO Clear Creek Idaho Springs Squaw Mountain KB0UDD
+169,UGO Ogallala,146.76,-,0.6,Tone,123,123,23,23,NN,FM,5,31 11025 10724.00 NE Keith Ogallala N0UGO
+170,UPS Fort Collins Buckhorn Mounta,146.625,-,0.6,TSQL,100,100,23,23,NN,FM,5,8 246 10663.00 CO Larimer Fort Collins Buckhorn Mountain W0UPS
+171,UPS Fort Collins Buckhorn Mounta,224.84,-,1.6,TSQL,100,100,23,23,NN,FM,5,8 3660 10663.00 CO Larimer Fort Collins Buckhorn Mountain W0UPS
+172,UPS Fort Collins Buckhorn Mounta,447.7,-,5,TSQL,100,100,23,23,NN,FM,5,8 5853 10663.00 CO Larimer Fort Collins Buckhorn Mountain W0UPS
+173,UPS Fort Collins Horsetooth Moun,145.115,-,0.6,TSQL,100,100,23,23,NN,FM,5,8 123 10675.00 CO Larimer Fort Collins Horsetooth Mountain W0UPS
+174,UPS Fort Collins Horsetooth Moun,224.52,-,1.6,TSQL,100,100,23,23,NN,FM,5,8 275 10675.00 CO Larimer Fort Collins Horsetooth Mountain W0UPS
+175,UPS Fort Collins Horsetooth Moun,447.275,-,5,TSQL,100,100,23,23,NN,FM,5,8 126 10675.00 CO Larimer Fort Collins Horsetooth Mountain W0UPS
+176,UPS Greeley UNC,146.85,-,0.6,TSQL,100,100,23,23,NN,FM,5,8 156 10705.00 CO Weld Greeley UNC W0UPS
+177,UPS Wellington,448.325,-,5,Tone,110.9,110.9,23,23,NN,FM,5,8 8251 10664.00 CO Larimer Wellington WB7UPS
+178,UPS Westminster,449.3,-,5,Tone,100,100,23,23,NN,FM,5,8 8208 10752.00 CO Adams Westminster N1UPS
+179,VHZ Alliance,147.015,+,0.6,,100,100,23,23,NN,FM,5,31 10450 10590.00 NE Box Butte Alliance N2VHZ
+180,VJJ Akron,145.4,-,0.6,Cross,88.5,123,23,23,NN,FM,5,8 2 10778.00 CO Washington Akron KB0VJJ
+181,VJJ Boulder Thorodin Mountain,145.31,-,0.6,Cross,88.5,123,23,23,NN,FM,5,8 72 10734.00 CO Gilpin Boulder Thorodin Mountain KB0VJJ
+182,VJJ Breckenridge Bald Mountain,147.39,+,0.6,Cross,88.5,123,23,23,NN,FM,5,8 24 10760.00 CO Summit Breckenridge Bald Mountain KB0VJJ
+183,VJJ Glenwood Springs Sunlight Pe,146.85,-,0.6,Cross,88.5,123,23,23,NN,FM,5,8 129 10712.00 CO Garfield Glenwood Springs Sunlight Peak KB0VJJ
+184,VJJ Grand Junction Grand Mesa,145.355,-,0.6,Cross,88.5,123,23,23,NN,FM,5,8 149 10727.00 CO Mesa Grand Junction Grand Mesa KB0VJJ
+185,VJJ Kremmling Santoy Peak,147.075,+,0.6,Cross,88.5,123,23,23,NN,FM,5,8 166 10683.00 CO Grand Kremmling Santoy Peak KB0VJJ
+186,VJJ Leadville Mosquito Pass,145.445,-,0.6,Tone,88.5,88.5,23,23,NN,FM,5,8 172 10769.00 CO Lake Leadville Mosquito Pass KB0VJJ
+187,VJJ Steamboat Springs,449.625,-,5,TSQL,123,123,23,23,NN,FM,5,8 9770 10624.00 CO Routt Steamboat Springs KB0VJJ
+188,VJJ Vail,147.345,+,0.6,Cross,88.5,123,23,23,NN,FM,5,8 241 10721.00 CO Eagle Vail KB0VJJ
+189,VJJ Walden Peterson Ridge,145.16,-,0.6,Cross,88.5,123,23,23,NN,FM,5,8 244 10623.00 CO Jackson Walden Peterson Ridge KB0VJJ
+190,WYX Broomfield,449.825,-,5,Tone,103.5,103.5,23,23,NN,FM,5,8 266 10742.00 CO Boulder Broomfield W0WYX
+191,WYX Idaho Springs Squaw Mountain,146.94,-,0.6,TSQL,103.5,103.5,23,23,NN,FM,5,8 81 10752.00 CO Clear Creek Idaho Springs Squaw Mountain W0WYX
+192,X7Y Castle Dale Horn Mountain,447.7,-,5,Tone,123,123,23,23,NN,FM,5,49 272 10590.00 UT Emery Castle Dale Horn Mountain WX7Y
+193,X7Y Huntington Skyline Dr,223.92,-,1.6,Tone,88.5,88.5,23,23,NN,FM,5,49 273 10590.00 UT Emery Huntington Skyline Dr WX7Y
+194,XLI Glenwood Springs Sunlight Pe,449.6,-,5,Tone,107.2,107.2,23,23,NN,FM,5,8 255 10712.00 CO Garfield Glenwood Springs Sunlight Peak N0XLI
+195,YDW Granby,146.82,-,0.6,Tone,123,123,23,23,NN,FM,5,8 145 10696.00 CO Grand Granby KA0YDW
+196,YNA Delta Uncompahgre Butte,449.4,-,5,TSQL,131.8,131.8,23,23,NN,FM,5,8 127 10750.00 CO Mesa Delta Uncompahgre Butte KB0YNA
+197,YNA Grand Junction Grand Mesa,449.65,-,5,TSQL,151.4,151.4,23,23,NN,FM,5,8 8763 10727.00 CO Mesa Grand Junction Grand Mesa KB0YNA
+198,ZSN Leadville Quail Mountain,147.24,+,0.6,TSQL,156.7,156.7,23,23,NN,FM,5,8 10827 10768.00 CO Lake Leadville Quail Mountain N0ZSN
+199,ZUQ Aurora,448.4,-,5,Tone,94.8,94.8,23,23,NN,FM,5,8 8202 10770.00 CO Arapahoe Aurora N0ZUQ
