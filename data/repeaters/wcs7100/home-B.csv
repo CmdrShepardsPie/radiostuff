@@ -1,98 +1,98 @@
 Channel Number,Receive Frequency,Transmit Frequency,Offset Frequency,Offset Direction,Operating Mode,Name,Tone Mode,CTCSS,Rx CTCSS,DCS,DCS Polarity,Select Scan,Comment,Digital Squelch,Digital Code,Your Callsign,Rpt-1 CallSign,Rpt-2 CallSign,Filter,Tx Data Mode,Data Mode,Split Tone Mode,Split CTCSS,Split Rx CTCSS,Split DCS,Split DCS Polarity,Tx Filter,Tx Operating Mode
-1,7.285,7.285,,Simplex,DV,D-Star US Simplex,None,100.0 Hz,100.0 Hz,023,Both N,Off,D-Star US Simplex,,,CQCQCQ,,,Filter 1,,,None,88.5 Hz,88.5 Hz,023,Both N,Filter 1,FM
-2,14.28,14.28,,Simplex,DV,D-Star US Simplex,None,100.0 Hz,100.0 Hz,023,Both N,Off,D-Star US Simplex,,,CQCQCQ,,,Filter 1,,,None,88.5 Hz,88.5 Hz,023,Both N,Filter 1,FM
-3,14.32,14.32,,Simplex,DV,D-Star US Simplex,None,100.0 Hz,100.0 Hz,023,Both N,Off,D-Star US Simplex,,,CQCQCQ,,,Filter 1,,,None,88.5 Hz,88.5 Hz,023,Both N,Filter 1,FM
-4,18.148,18.148,,Simplex,DV,D-Star US Simplex,None,100.0 Hz,100.0 Hz,023,Both N,Off,D-Star US Simplex,,,CQCQCQ,,,Filter 1,,,None,88.5 Hz,88.5 Hz,023,Both N,Filter 1,FM
-5,18.15,18.15,,Simplex,DV,D-Star UK Simplex,None,100.0 Hz,100.0 Hz,023,Both N,Off,D-Star UK Simplex,,,CQCQCQ,,,Filter 1,,,None,88.5 Hz,88.5 Hz,023,Both N,Filter 1,FM
-6,21.38,21.38,,Simplex,DV,D-Star Simplex,None,100.0 Hz,100.0 Hz,023,Both N,Off,D-Star Simplex,,,CQCQCQ,,,Filter 1,,,None,88.5 Hz,88.5 Hz,023,Both N,Filter 1,FM
-7,24.932,24.932,,Simplex,DV,D-Star Simplex,None,100.0 Hz,100.0 Hz,023,Both N,Off,D-Star Simplex,,,CQCQCQ,,,Filter 1,,,None,88.5 Hz,88.5 Hz,023,Both N,Filter 1,FM
-8,24.938,24.938,,Simplex,DV,D-Star Simplex,None,100.0 Hz,100.0 Hz,023,Both N,Off,D-Star Simplex,,,CQCQCQ,,,Filter 1,,,None,88.5 Hz,88.5 Hz,023,Both N,Filter 1,FM
-9,24.96,24.96,,Simplex,DV,D-Star UK Simplex,None,100.0 Hz,100.0 Hz,023,Both N,Off,D-Star UK Simplex,,,CQCQCQ,,,Filter 1,,,None,88.5 Hz,88.5 Hz,023,Both N,Filter 1,FM
-10,28.33,28.33,,Simplex,DV,D-Star UK Simplex,None,100.0 Hz,100.0 Hz,023,Both N,Off,D-Star UK Simplex,,,CQCQCQ,,,Filter 1,,,None,88.5 Hz,88.5 Hz,023,Both N,Filter 1,FM
-11,29.48,29.48,,Simplex,DV,D-Star US Simplex,None,100.0 Hz,100.0 Hz,023,Both N,Off,D-Star US Simplex,,,CQCQCQ,,,Filter 1,,,None,88.5 Hz,88.5 Hz,023,Both N,Filter 1,FM
-12,29.6,29.6,,Simplex,FM,FM Calling,None,100.0 Hz,100.0 Hz,023,Both N,Off,FM Calling,,,,,,Filter 1,,,None,88.5 Hz,88.5 Hz,023,Both N,Filter 1,FM
-13,50.63,50.63,,Simplex,DV,D-Star UK Simplex,None,100.0 Hz,100.0 Hz,023,Both N,Off,D-Star UK Simplex,,,CQCQCQ,,,Filter 1,,,None,88.5 Hz,88.5 Hz,023,Both N,Filter 1,FM
-14,51.18,51.18,,Simplex,DV,D-Star US Simplex,None,100.0 Hz,100.0 Hz,023,Both N,Off,D-Star US Simplex,,,CQCQCQ,,,Filter 1,,,None,88.5 Hz,88.5 Hz,023,Both N,Filter 1,FM
-15,51.5125,51.5125,,Simplex,FM,FM Simplex,None,100.0 Hz,100.0 Hz,023,Both N,Off,FM Simplex,,,,,,Filter 1,,,None,88.5 Hz,88.5 Hz,023,Both N,Filter 1,FM
-16,51.525,51.525,,Simplex,FM,FM Simplex,None,100.0 Hz,100.0 Hz,023,Both N,Off,FM Simplex,,,,,,Filter 1,,,None,88.5 Hz,88.5 Hz,023,Both N,Filter 1,FM
-17,51.5375,51.5375,,Simplex,FM,FM Simplex,None,100.0 Hz,100.0 Hz,023,Both N,Off,FM Simplex,,,,,,Filter 1,,,None,88.5 Hz,88.5 Hz,023,Both N,Filter 1,FM
-18,51.55,51.55,,Simplex,FM,FM Simplex,None,100.0 Hz,100.0 Hz,023,Both N,Off,FM Simplex,,,,,,Filter 1,,,None,88.5 Hz,88.5 Hz,023,Both N,Filter 1,FM
-19,51.5625,51.5625,,Simplex,FM,FM Simplex,None,100.0 Hz,100.0 Hz,023,Both N,Off,FM Simplex,,,,,,Filter 1,,,None,88.5 Hz,88.5 Hz,023,Both N,Filter 1,FM
-20,51.575,51.575,,Simplex,FM,FM Simplex,None,100.0 Hz,100.0 Hz,023,Both N,Off,FM Simplex,,,,,,Filter 1,,,None,88.5 Hz,88.5 Hz,023,Both N,Filter 1,FM
-21,51.5875,51.5875,,Simplex,FM,FM Simplex,None,100.0 Hz,100.0 Hz,023,Both N,Off,FM Simplex,,,,,,Filter 1,,,None,88.5 Hz,88.5 Hz,023,Both N,Filter 1,FM
-22,52.02,52.02,,Simplex,FM,FM Simplex,None,100.0 Hz,100.0 Hz,023,Both N,Off,FM Simplex,,,,,,Filter 1,,,None,88.5 Hz,88.5 Hz,023,Both N,Filter 1,FM
-23,52.04,52.04,,Simplex,FM,FM Simplex,None,100.0 Hz,100.0 Hz,023,Both N,Off,FM Simplex,,,,,,Filter 1,,,None,88.5 Hz,88.5 Hz,023,Both N,Filter 1,FM
-24,52.525,52.525,,Simplex,FM,FM Calling Primary,None,100.0 Hz,100.0 Hz,023,Both N,Off,FM Calling Primary,,,,,,Filter 1,,,None,88.5 Hz,88.5 Hz,023,Both N,Filter 1,FM
-25,52.53,52.53,,Simplex,FM,FM SOTA,None,100.0 Hz,100.0 Hz,023,Both N,Off,FM SOTA,,,,,,Filter 1,,,None,88.5 Hz,88.5 Hz,023,Both N,Filter 1,FM
-26,52.54,52.54,,Simplex,FM,FM Calling Secondary,None,100.0 Hz,100.0 Hz,023,Both N,Off,FM Calling Secondary,,,,,,Filter 1,,,None,88.5 Hz,88.5 Hz,023,Both N,Filter 1,FM
-27,53.02,53.02,,Simplex,FM,FM Simplex,None,100.0 Hz,100.0 Hz,023,Both N,Off,FM Simplex,,,,,,Filter 1,,,None,88.5 Hz,88.5 Hz,023,Both N,Filter 1,FM
-28,53.52,53.52,,Simplex,FM,FM Simplex,None,100.0 Hz,100.0 Hz,023,Both N,Off,FM Simplex,,,,,,Filter 1,,,None,88.5 Hz,88.5 Hz,023,Both N,Filter 1,FM
-29,53.9,53.9,,Simplex,FM,FM Simplex,None,100.0 Hz,100.0 Hz,023,Both N,Off,FM Simplex,,,,,,Filter 1,,,None,88.5 Hz,88.5 Hz,023,Both N,Filter 1,FM
-30,144.585,144.585,,Simplex,FM,FM SOTA,None,100.0 Hz,100.0 Hz,023,Both N,Off,FM SOTA,,,,,,Filter 1,,,None,88.5 Hz,88.5 Hz,023,Both N,Filter 1,FM
-31,145.67,145.67,,Simplex,DV,D-Star Simplex,None,100.0 Hz,100.0 Hz,023,Both N,Off,D-Star Simplex,,,CQCQCQ,,,Filter 1,,,None,88.5 Hz,88.5 Hz,023,Both N,Filter 1,FM
-32,145.8,144.49,,-DUP,FM,FM ISS VOICE for ITU Region 2&3,None,100.0 Hz,100.0 Hz,023,Both N,Off,FM ISS VOICE for ITU Region 2&3,,,,,,Filter 1,,,None,88.5 Hz,88.5 Hz,023,Both N,Filter 1,FM
-33,145.8,437.8,,+DUP,FM,FM ISS U/v VOICE Repeater (World,None,100.0 Hz,100.0 Hz,023,Both N,Off,FM ISS U/v VOICE Repeater (Worldwide),,,,,,Filter 1,,,None,88.5 Hz,88.5 Hz,023,Both N,Filter 1,FM
-34,145.825,145.825,,Simplex,FM,FM ISS AX.25 1200 Bd AFSK Packet,None,100.0 Hz,100.0 Hz,023,Both N,Off,FM ISS AX.25 1200 Bd AFSK Packet Radio (Worldwide),,,,,,Filter 1,,,None,88.5 Hz,88.5 Hz,023,Both N,Filter 1,FM
-35,145.85,436,,+DUP,FM,FM SAT Swiatowid,None,100.0 Hz,100.0 Hz,023,Both N,Off,FM SAT Swiatowid,,,,,,Filter 1,,,None,88.5 Hz,88.5 Hz,023,Both N,Filter 1,FM
-36,145.88,435.35,,+DUP,FM,FM SAT AO-92 (Fox-1D),Tone,67.0 Hz,67.0 Hz,023,Both N,Off,FM SAT AO-92 (Fox-1D),,,,,,Filter 1,,,None,88.5 Hz,88.5 Hz,023,Both N,Filter 1,FM
-37,145.9,437.5,,+DUP,FM,FM SAT PO-101 (Diwata-2),Tone,141.3 Hz,141.3 Hz,023,Both N,Off,FM SAT PO-101 (Diwata-2),,,,,,Filter 1,,,None,88.5 Hz,88.5 Hz,023,Both N,Filter 1,FM
-38,145.96,435.25,,+DUP,FM,FM SAT AO-91 (RadFxSat / Fox-1B),Tone,67.0 Hz,67.0 Hz,023,Both N,Off,FM SAT AO-91 (RadFxSat / Fox-1B),,,,,,Filter 1,,,None,88.5 Hz,88.5 Hz,023,Both N,Filter 1,FM
-39,146.4,146.4,,Simplex,FM,FM Simplex,None,100.0 Hz,100.0 Hz,023,Both N,Off,FM Simplex,,,,,,Filter 1,,,None,88.5 Hz,88.5 Hz,023,Both N,Filter 1,FM
-40,146.415,146.415,,Simplex,FM,FM Simplex,None,100.0 Hz,100.0 Hz,023,Both N,Off,FM Simplex,,,,,,Filter 1,,,None,88.5 Hz,88.5 Hz,023,Both N,Filter 1,FM
-41,146.43,146.43,,Simplex,FM,FM Simplex,None,100.0 Hz,100.0 Hz,023,Both N,Off,FM Simplex,,,,,,Filter 1,,,None,88.5 Hz,88.5 Hz,023,Both N,Filter 1,FM
-42,146.445,146.445,,Simplex,FM,FM Simplex,None,100.0 Hz,100.0 Hz,023,Both N,Off,FM Simplex,,,,,,Filter 1,,,None,88.5 Hz,88.5 Hz,023,Both N,Filter 1,FM
-43,146.46,146.46,,Simplex,FM,FM Simplex,None,100.0 Hz,100.0 Hz,023,Both N,Off,FM Simplex,,,,,,Filter 1,,,None,88.5 Hz,88.5 Hz,023,Both N,Filter 1,FM
-44,146.475,146.475,,Simplex,FM,FM Simplex,None,100.0 Hz,100.0 Hz,023,Both N,Off,FM Simplex,,,,,,Filter 1,,,None,88.5 Hz,88.5 Hz,023,Both N,Filter 1,FM
-45,146.49,146.49,,Simplex,FM,FM Simplex,None,100.0 Hz,100.0 Hz,023,Both N,Off,FM Simplex,,,,,,Filter 1,,,None,88.5 Hz,88.5 Hz,023,Both N,Filter 1,FM
-46,146.5,146.5,,Simplex,FM,FM SOTA,None,100.0 Hz,100.0 Hz,023,Both N,Off,FM SOTA,,,,,,Filter 1,,,None,88.5 Hz,88.5 Hz,023,Both N,Filter 1,FM
-47,146.505,146.505,,Simplex,FM,FM Simplex,None,100.0 Hz,100.0 Hz,023,Both N,Off,FM Simplex,,,,,,Filter 1,,,None,88.5 Hz,88.5 Hz,023,Both N,Filter 1,FM
-48,146.52,146.52,,Simplex,FM,FM Calling,None,100.0 Hz,100.0 Hz,023,Both N,Off,FM Calling,,,,,,Filter 1,,,None,88.5 Hz,88.5 Hz,023,Both N,Filter 1,FM
-49,146.525,146.525,,Simplex,FM,FM SOTA,None,100.0 Hz,100.0 Hz,023,Both N,Off,FM SOTA,,,,,,Filter 1,,,None,88.5 Hz,88.5 Hz,023,Both N,Filter 1,FM
-50,146.535,146.535,,Simplex,FM,FM Simplex,None,100.0 Hz,100.0 Hz,023,Both N,Off,FM Simplex,,,,,,Filter 1,,,None,88.5 Hz,88.5 Hz,023,Both N,Filter 1,FM
-51,146.55,146.55,,Simplex,FM,FM Simplex,None,100.0 Hz,100.0 Hz,023,Both N,Off,FM Simplex,,,,,,Filter 1,,,None,88.5 Hz,88.5 Hz,023,Both N,Filter 1,FM
-52,146.565,146.565,,Simplex,FM,FM Simplex,None,100.0 Hz,100.0 Hz,023,Both N,Off,FM Simplex,,,,,,Filter 1,,,None,88.5 Hz,88.5 Hz,023,Both N,Filter 1,FM
-53,146.58,146.58,,Simplex,FM,FM Simplex,None,100.0 Hz,100.0 Hz,023,Both N,Off,FM Simplex,,,,,,Filter 1,,,None,88.5 Hz,88.5 Hz,023,Both N,Filter 1,FM
-54,146.595,146.595,,Simplex,FM,FM Simplex,None,100.0 Hz,100.0 Hz,023,Both N,Off,FM Simplex,,,,,,Filter 1,,,None,88.5 Hz,88.5 Hz,023,Both N,Filter 1,FM
-55,147.42,147.42,,Simplex,FM,FM Simplex,None,100.0 Hz,100.0 Hz,023,Both N,Off,FM Simplex,,,,,,Filter 1,,,None,88.5 Hz,88.5 Hz,023,Both N,Filter 1,FM
-56,147.435,147.435,,Simplex,FM,FM Simplex,None,100.0 Hz,100.0 Hz,023,Both N,Off,FM Simplex,,,,,,Filter 1,,,None,88.5 Hz,88.5 Hz,023,Both N,Filter 1,FM
-57,147.45,147.45,,Simplex,FM,FM Simplex,None,100.0 Hz,100.0 Hz,023,Both N,Off,FM Simplex,,,,,,Filter 1,,,None,88.5 Hz,88.5 Hz,023,Both N,Filter 1,FM
-58,147.465,147.465,,Simplex,FM,FM Simplex,None,100.0 Hz,100.0 Hz,023,Both N,Off,FM Simplex,,,,,,Filter 1,,,None,88.5 Hz,88.5 Hz,023,Both N,Filter 1,FM
-59,147.48,147.48,,Simplex,FM,FM Simplex,None,100.0 Hz,100.0 Hz,023,Both N,Off,FM Simplex,,,,,,Filter 1,,,None,88.5 Hz,88.5 Hz,023,Both N,Filter 1,FM
-60,147.495,147.495,,Simplex,FM,FM Simplex,None,100.0 Hz,100.0 Hz,023,Both N,Off,FM Simplex,,,,,,Filter 1,,,None,88.5 Hz,88.5 Hz,023,Both N,Filter 1,FM
-61,147.51,147.51,,Simplex,FM,FM Simplex,None,100.0 Hz,100.0 Hz,023,Both N,Off,FM Simplex,,,,,,Filter 1,,,None,88.5 Hz,88.5 Hz,023,Both N,Filter 1,FM
-62,147.525,147.525,,Simplex,FM,FM Simplex,None,100.0 Hz,100.0 Hz,023,Both N,Off,FM Simplex,,,,,,Filter 1,,,None,88.5 Hz,88.5 Hz,023,Both N,Filter 1,FM
-63,147.54,147.54,,Simplex,FM,FM Simplex,None,100.0 Hz,100.0 Hz,023,Both N,Off,FM Simplex,,,,,,Filter 1,,,None,88.5 Hz,88.5 Hz,023,Both N,Filter 1,FM
-64,147.555,147.555,,Simplex,FM,FM Simplex,None,100.0 Hz,100.0 Hz,023,Both N,Off,FM Simplex,,,,,,Filter 1,,,None,88.5 Hz,88.5 Hz,023,Both N,Filter 1,FM
-65,147.57,147.57,,Simplex,FM,FM Simplex,None,100.0 Hz,100.0 Hz,023,Both N,Off,FM Simplex,,,,,,Filter 1,,,None,88.5 Hz,88.5 Hz,023,Both N,Filter 1,FM
-66,147.585,147.585,,Simplex,FM,FM Simplex,None,100.0 Hz,100.0 Hz,023,Both N,Off,FM Simplex,,,,,,Filter 1,,,None,88.5 Hz,88.5 Hz,023,Both N,Filter 1,FM
-67,435.455,145.95,,-DUP,FM,FM SAT CAS-7A,None,100.0 Hz,100.0 Hz,023,Both N,Off,FM SAT CAS-7A,,,,,,Filter 1,,,None,88.5 Hz,88.5 Hz,023,Both N,Filter 1,FM
-68,435.6,145.925,,-DUP,FM,FM SAT CAS-5A,None,100.0 Hz,100.0 Hz,023,Both N,Off,FM SAT CAS-5A,,,,,,Filter 1,,,None,88.5 Hz,88.5 Hz,023,Both N,Filter 1,FM
-69,435.69,145.9,,-DUP,FM,FM SAT CAS-7C,None,100.0 Hz,100.0 Hz,023,Both N,Off,FM SAT CAS-7C,,,,,,Filter 1,,,None,88.5 Hz,88.5 Hz,023,Both N,Filter 1,FM
-70,435.88,145.88,,-DUP,FM,FM SAT IO-86 (LAPAN-A2),Tone,88.5 Hz,88.5 Hz,023,Both N,Off,FM SAT IO-86 (LAPAN-A2),,,,,,Filter 1,,,None,88.5 Hz,88.5 Hz,023,Both N,Filter 1,FM
-71,436.4,145.97,,-DUP,FM,FM SAT Duchifat3,None,100.0 Hz,100.0 Hz,023,Both N,Off,FM SAT Duchifat3,,,,,,Filter 1,,,None,88.5 Hz,88.5 Hz,023,Both N,Filter 1,FM
-72,436.795,145.85,,-DUP,FM,FM SAT AO-27,None,100.0 Hz,100.0 Hz,023,Both N,Off,FM SAT AO-27,,,,,,Filter 1,,,None,88.5 Hz,88.5 Hz,023,Both N,Filter 1,FM
-73,437.2,144.35,,-DUP,FM,FM SAT CAS-3H (LilacSat-2),None,100.0 Hz,100.0 Hz,023,Both N,Off,FM SAT CAS-3H (LilacSat-2),,,,,,Filter 1,,,None,88.5 Hz,88.5 Hz,023,Both N,Filter 1,FM
-74,437.55,437.55,,Simplex,FM,FM ISS UHF Simplex (rarely used),None,100.0 Hz,100.0 Hz,023,Both N,Off,FM ISS UHF Simplex (rarely used),,,,,,Filter 1,,,None,88.5 Hz,88.5 Hz,023,Both N,Filter 1,FM
-75,437.8,145.99,,-DUP,FM,FM ISS V/u with PL VOICE Repeate,Tone,67.0 Hz,67.0 Hz,023,Both N,Off,FM ISS V/u with PL VOICE Repeater (Worldwide),,,,,,Filter 1,,,None,88.5 Hz,88.5 Hz,023,Both N,Filter 1,FM
-76,439,439,,Simplex,FM,FM SOTA,None,100.0 Hz,100.0 Hz,023,Both N,Off,FM SOTA,,,,,,Filter 1,,,None,88.5 Hz,88.5 Hz,023,Both N,Filter 1,FM
-77,445.7,445.7,,Simplex,FM,FM Simplex,None,100.0 Hz,100.0 Hz,023,Both N,Off,FM Simplex,,,,,,Filter 1,,,None,88.5 Hz,88.5 Hz,023,Both N,Filter 1,FM
-78,445.75,445.75,,Simplex,FM,FM Simplex,None,100.0 Hz,100.0 Hz,023,Both N,Off,FM Simplex,,,,,,Filter 1,,,None,88.5 Hz,88.5 Hz,023,Both N,Filter 1,FM
-79,445.8,445.8,,Simplex,FM,FM Simplex,None,100.0 Hz,100.0 Hz,023,Both N,Off,FM Simplex,,,,,,Filter 1,,,None,88.5 Hz,88.5 Hz,023,Both N,Filter 1,FM
-80,445.825,445.825,,Simplex,FM,FM Simplex,None,100.0 Hz,100.0 Hz,023,Both N,Off,FM Simplex,,,,,,Filter 1,,,None,88.5 Hz,88.5 Hz,023,Both N,Filter 1,FM
-81,445.875,445.875,,Simplex,FM,FM Simplex,None,100.0 Hz,100.0 Hz,023,Both N,Off,FM Simplex,,,,,,Filter 1,,,None,88.5 Hz,88.5 Hz,023,Both N,Filter 1,FM
-82,445.9,445.9,,Simplex,FM,FM Simplex,None,100.0 Hz,100.0 Hz,023,Both N,Off,FM Simplex,,,,,,Filter 1,,,None,88.5 Hz,88.5 Hz,023,Both N,Filter 1,FM
-83,445.95,445.95,,Simplex,FM,FM Simplex,None,100.0 Hz,100.0 Hz,023,Both N,Off,FM Simplex,,,,,,Filter 1,,,None,88.5 Hz,88.5 Hz,023,Both N,Filter 1,FM
-84,445.975,445.975,,Simplex,FM,FM Simplex,None,100.0 Hz,100.0 Hz,023,Both N,Off,FM Simplex,,,,,,Filter 1,,,None,88.5 Hz,88.5 Hz,023,Both N,Filter 1,FM
-85,446,446,,Simplex,FM,FM Calling,None,100.0 Hz,100.0 Hz,023,Both N,Off,FM Calling,,,,,,Filter 1,,,None,88.5 Hz,88.5 Hz,023,Both N,Filter 1,FM
-86,446.025,446.025,,Simplex,FM,FM Simplex,None,100.0 Hz,100.0 Hz,023,Both N,Off,FM Simplex,,,,,,Filter 1,,,None,88.5 Hz,88.5 Hz,023,Both N,Filter 1,FM
-87,446.05,446.05,,Simplex,FM,FM Simplex,None,100.0 Hz,100.0 Hz,023,Both N,Off,FM Simplex,,,,,,Filter 1,,,None,88.5 Hz,88.5 Hz,023,Both N,Filter 1,FM
-88,446.075,446.075,,Simplex,FM,FM Simplex,None,100.0 Hz,100.0 Hz,023,Both N,Off,FM Simplex,,,,,,Filter 1,,,None,88.5 Hz,88.5 Hz,023,Both N,Filter 1,FM
-89,446.1,446.1,,Simplex,FM,FM Simplex,None,100.0 Hz,100.0 Hz,023,Both N,Off,FM Simplex,,,,,,Filter 1,,,None,88.5 Hz,88.5 Hz,023,Both N,Filter 1,FM
-90,446.125,446.125,,Simplex,FM,FM Simplex,None,100.0 Hz,100.0 Hz,023,Both N,Off,FM Simplex,,,,,,Filter 1,,,None,88.5 Hz,88.5 Hz,023,Both N,Filter 1,FM
-91,446.15,446.15,,Simplex,FM,FM Simplex,None,100.0 Hz,100.0 Hz,023,Both N,Off,FM Simplex,,,,,,Filter 1,,,None,88.5 Hz,88.5 Hz,023,Both N,Filter 1,FM
-92,446.175,446.175,,Simplex,FM,FM Simplex,None,100.0 Hz,100.0 Hz,023,Both N,Off,FM Simplex,,,,,,Filter 1,,,None,88.5 Hz,88.5 Hz,023,Both N,Filter 1,FM
-93,446.2,446.2,,Simplex,FM,FM Simplex,None,100.0 Hz,100.0 Hz,023,Both N,Off,FM Simplex,,,,,,Filter 1,,,None,88.5 Hz,88.5 Hz,023,Both N,Filter 1,FM
-94,446.225,446.225,,Simplex,DV,D-Star Simplex,None,100.0 Hz,100.0 Hz,023,Both N,Off,D-Star Simplex,,,CQCQCQ,,,Filter 1,,,None,88.5 Hz,88.5 Hz,023,Both N,Filter 1,FM
-95,446.225,446.225,,Simplex,FM,FM Simplex,None,100.0 Hz,100.0 Hz,023,Both N,Off,FM Simplex,,,,,,Filter 1,,,None,88.5 Hz,88.5 Hz,023,Both N,Filter 1,FM
-96,446.25,446.25,,Simplex,FM,FM Simplex,None,100.0 Hz,100.0 Hz,023,Both N,Off,FM Simplex,,,,,,Filter 1,,,None,88.5 Hz,88.5 Hz,023,Both N,Filter 1,FM
-97,446.275,446.275,,Simplex,FM,FM Simplex,None,100.0 Hz,100.0 Hz,023,Both N,Off,FM Simplex,,,,,,Filter 1,,,None,88.5 Hz,88.5 Hz,023,Both N,Filter 1,FM
+1,7.28500,7.28500,,Simplex,DV,D-Star US Simplex,None,100.0 Hz,100.0 Hz,023,Both N,Off,D-Star US Simplex,,,CQCQCQ,,,Filter 1,,,None,88.5 Hz,88.5 Hz,023,Both N,Filter 1,FM
+2,14.28000,14.28000,,Simplex,DV,D-Star US Simplex,None,100.0 Hz,100.0 Hz,023,Both N,Off,D-Star US Simplex,,,CQCQCQ,,,Filter 1,,,None,88.5 Hz,88.5 Hz,023,Both N,Filter 1,FM
+3,14.32000,14.32000,,Simplex,DV,D-Star US Simplex,None,100.0 Hz,100.0 Hz,023,Both N,Off,D-Star US Simplex,,,CQCQCQ,,,Filter 1,,,None,88.5 Hz,88.5 Hz,023,Both N,Filter 1,FM
+4,18.14800,18.14800,,Simplex,DV,D-Star US Simplex,None,100.0 Hz,100.0 Hz,023,Both N,Off,D-Star US Simplex,,,CQCQCQ,,,Filter 1,,,None,88.5 Hz,88.5 Hz,023,Both N,Filter 1,FM
+5,18.15000,18.15000,,Simplex,DV,D-Star UK Simplex,None,100.0 Hz,100.0 Hz,023,Both N,Off,D-Star UK Simplex,,,CQCQCQ,,,Filter 1,,,None,88.5 Hz,88.5 Hz,023,Both N,Filter 1,FM
+6,21.38000,21.38000,,Simplex,DV,D-Star Simplex,None,100.0 Hz,100.0 Hz,023,Both N,Off,D-Star Simplex,,,CQCQCQ,,,Filter 1,,,None,88.5 Hz,88.5 Hz,023,Both N,Filter 1,FM
+7,24.93200,24.93200,,Simplex,DV,D-Star Simplex,None,100.0 Hz,100.0 Hz,023,Both N,Off,D-Star Simplex,,,CQCQCQ,,,Filter 1,,,None,88.5 Hz,88.5 Hz,023,Both N,Filter 1,FM
+8,24.93800,24.93800,,Simplex,DV,D-Star Simplex,None,100.0 Hz,100.0 Hz,023,Both N,Off,D-Star Simplex,,,CQCQCQ,,,Filter 1,,,None,88.5 Hz,88.5 Hz,023,Both N,Filter 1,FM
+9,24.96000,24.96000,,Simplex,DV,D-Star UK Simplex,None,100.0 Hz,100.0 Hz,023,Both N,Off,D-Star UK Simplex,,,CQCQCQ,,,Filter 1,,,None,88.5 Hz,88.5 Hz,023,Both N,Filter 1,FM
+10,28.33000,28.33000,,Simplex,DV,D-Star UK Simplex,None,100.0 Hz,100.0 Hz,023,Both N,Off,D-Star UK Simplex,,,CQCQCQ,,,Filter 1,,,None,88.5 Hz,88.5 Hz,023,Both N,Filter 1,FM
+11,29.48000,29.48000,,Simplex,DV,D-Star US Simplex,None,100.0 Hz,100.0 Hz,023,Both N,Off,D-Star US Simplex,,,CQCQCQ,,,Filter 1,,,None,88.5 Hz,88.5 Hz,023,Both N,Filter 1,FM
+12,29.60000,29.60000,,Simplex,FM,FM Calling,None,100.0 Hz,100.0 Hz,023,Both N,Off,FM Calling,,,,,,Filter 1,,,None,88.5 Hz,88.5 Hz,023,Both N,Filter 1,FM
+13,50.63000,50.63000,,Simplex,DV,D-Star UK Simplex,None,100.0 Hz,100.0 Hz,023,Both N,Off,D-Star UK Simplex,,,CQCQCQ,,,Filter 1,,,None,88.5 Hz,88.5 Hz,023,Both N,Filter 1,FM
+14,51.18000,51.18000,,Simplex,DV,D-Star US Simplex,None,100.0 Hz,100.0 Hz,023,Both N,Off,D-Star US Simplex,,,CQCQCQ,,,Filter 1,,,None,88.5 Hz,88.5 Hz,023,Both N,Filter 1,FM
+15,51.51250,51.51250,,Simplex,FM,FM Simplex,None,100.0 Hz,100.0 Hz,023,Both N,Off,FM Simplex,,,,,,Filter 1,,,None,88.5 Hz,88.5 Hz,023,Both N,Filter 1,FM
+16,51.52500,51.52500,,Simplex,FM,FM Simplex,None,100.0 Hz,100.0 Hz,023,Both N,Off,FM Simplex,,,,,,Filter 1,,,None,88.5 Hz,88.5 Hz,023,Both N,Filter 1,FM
+17,51.53750,51.53750,,Simplex,FM,FM Simplex,None,100.0 Hz,100.0 Hz,023,Both N,Off,FM Simplex,,,,,,Filter 1,,,None,88.5 Hz,88.5 Hz,023,Both N,Filter 1,FM
+18,51.55000,51.55000,,Simplex,FM,FM Simplex,None,100.0 Hz,100.0 Hz,023,Both N,Off,FM Simplex,,,,,,Filter 1,,,None,88.5 Hz,88.5 Hz,023,Both N,Filter 1,FM
+19,51.56250,51.56250,,Simplex,FM,FM Simplex,None,100.0 Hz,100.0 Hz,023,Both N,Off,FM Simplex,,,,,,Filter 1,,,None,88.5 Hz,88.5 Hz,023,Both N,Filter 1,FM
+20,51.57500,51.57500,,Simplex,FM,FM Simplex,None,100.0 Hz,100.0 Hz,023,Both N,Off,FM Simplex,,,,,,Filter 1,,,None,88.5 Hz,88.5 Hz,023,Both N,Filter 1,FM
+21,51.58750,51.58750,,Simplex,FM,FM Simplex,None,100.0 Hz,100.0 Hz,023,Both N,Off,FM Simplex,,,,,,Filter 1,,,None,88.5 Hz,88.5 Hz,023,Both N,Filter 1,FM
+22,52.02000,52.02000,,Simplex,FM,FM Simplex,None,100.0 Hz,100.0 Hz,023,Both N,Off,FM Simplex,,,,,,Filter 1,,,None,88.5 Hz,88.5 Hz,023,Both N,Filter 1,FM
+23,52.04000,52.04000,,Simplex,FM,FM Simplex,None,100.0 Hz,100.0 Hz,023,Both N,Off,FM Simplex,,,,,,Filter 1,,,None,88.5 Hz,88.5 Hz,023,Both N,Filter 1,FM
+24,52.52500,52.52500,,Simplex,FM,FM Calling Primary,None,100.0 Hz,100.0 Hz,023,Both N,Off,FM Calling Primary,,,,,,Filter 1,,,None,88.5 Hz,88.5 Hz,023,Both N,Filter 1,FM
+25,52.53000,52.53000,,Simplex,FM,FM SOTA,None,100.0 Hz,100.0 Hz,023,Both N,Off,FM SOTA,,,,,,Filter 1,,,None,88.5 Hz,88.5 Hz,023,Both N,Filter 1,FM
+26,52.54000,52.54000,,Simplex,FM,FM Calling Secondary,None,100.0 Hz,100.0 Hz,023,Both N,Off,FM Calling Secondary,,,,,,Filter 1,,,None,88.5 Hz,88.5 Hz,023,Both N,Filter 1,FM
+27,53.02000,53.02000,,Simplex,FM,FM Simplex,None,100.0 Hz,100.0 Hz,023,Both N,Off,FM Simplex,,,,,,Filter 1,,,None,88.5 Hz,88.5 Hz,023,Both N,Filter 1,FM
+28,53.52000,53.52000,,Simplex,FM,FM Simplex,None,100.0 Hz,100.0 Hz,023,Both N,Off,FM Simplex,,,,,,Filter 1,,,None,88.5 Hz,88.5 Hz,023,Both N,Filter 1,FM
+29,53.90000,53.90000,,Simplex,FM,FM Simplex,None,100.0 Hz,100.0 Hz,023,Both N,Off,FM Simplex,,,,,,Filter 1,,,None,88.5 Hz,88.5 Hz,023,Both N,Filter 1,FM
+30,144.58500,144.58500,,Simplex,FM,FM SOTA,None,100.0 Hz,100.0 Hz,023,Both N,Off,FM SOTA,,,,,,Filter 1,,,None,88.5 Hz,88.5 Hz,023,Both N,Filter 1,FM
+31,145.67000,145.67000,,Simplex,DV,D-Star Simplex,None,100.0 Hz,100.0 Hz,023,Both N,Off,D-Star Simplex,,,CQCQCQ,,,Filter 1,,,None,88.5 Hz,88.5 Hz,023,Both N,Filter 1,FM
+32,145.80000,144.49000,,-DUP,FM,FM ISS VOICE for ITU Region 2&3,None,100.0 Hz,100.0 Hz,023,Both N,Off,FM ISS VOICE for ITU Region 2&3,,,,,,Filter 1,,,None,88.5 Hz,88.5 Hz,023,Both N,Filter 1,FM
+33,145.80000,437.80000,,+DUP,FM,FM ISS U/v VOICE Repeater (World,None,100.0 Hz,100.0 Hz,023,Both N,Off,FM ISS U/v VOICE Repeater (Worldwide),,,,,,Filter 1,,,None,88.5 Hz,88.5 Hz,023,Both N,Filter 1,FM
+34,145.82500,145.82500,,Simplex,FM,FM ISS AX.25 1200 Bd AFSK Packet,None,100.0 Hz,100.0 Hz,023,Both N,Off,FM ISS AX.25 1200 Bd AFSK Packet Radio (Worldwide),,,,,,Filter 1,,,None,88.5 Hz,88.5 Hz,023,Both N,Filter 1,FM
+35,145.85000,436.00000,,+DUP,FM,FM SAT Swiatowid,None,100.0 Hz,100.0 Hz,023,Both N,Off,FM SAT Swiatowid,,,,,,Filter 1,,,None,88.5 Hz,88.5 Hz,023,Both N,Filter 1,FM
+36,145.88000,435.35000,,+DUP,FM,FM SAT AO-92 (Fox-1D),Tone,67.0 Hz,67.0 Hz,023,Both N,Off,FM SAT AO-92 (Fox-1D),,,,,,Filter 1,,,None,88.5 Hz,88.5 Hz,023,Both N,Filter 1,FM
+37,145.90000,437.50000,,+DUP,FM,FM SAT PO-101 (Diwata-2),Tone,141.3 Hz,141.3 Hz,023,Both N,Off,FM SAT PO-101 (Diwata-2),,,,,,Filter 1,,,None,88.5 Hz,88.5 Hz,023,Both N,Filter 1,FM
+38,145.96000,435.25000,,+DUP,FM,FM SAT AO-91 (RadFxSat / Fox-1B),Tone,67.0 Hz,67.0 Hz,023,Both N,Off,FM SAT AO-91 (RadFxSat / Fox-1B),,,,,,Filter 1,,,None,88.5 Hz,88.5 Hz,023,Both N,Filter 1,FM
+39,146.40000,146.40000,,Simplex,FM,FM Simplex,None,100.0 Hz,100.0 Hz,023,Both N,Off,FM Simplex,,,,,,Filter 1,,,None,88.5 Hz,88.5 Hz,023,Both N,Filter 1,FM
+40,146.41500,146.41500,,Simplex,FM,FM Simplex,None,100.0 Hz,100.0 Hz,023,Both N,Off,FM Simplex,,,,,,Filter 1,,,None,88.5 Hz,88.5 Hz,023,Both N,Filter 1,FM
+41,146.43000,146.43000,,Simplex,FM,FM Simplex,None,100.0 Hz,100.0 Hz,023,Both N,Off,FM Simplex,,,,,,Filter 1,,,None,88.5 Hz,88.5 Hz,023,Both N,Filter 1,FM
+42,146.44500,146.44500,,Simplex,FM,FM Simplex,None,100.0 Hz,100.0 Hz,023,Both N,Off,FM Simplex,,,,,,Filter 1,,,None,88.5 Hz,88.5 Hz,023,Both N,Filter 1,FM
+43,146.46000,146.46000,,Simplex,FM,FM Simplex,None,100.0 Hz,100.0 Hz,023,Both N,Off,FM Simplex,,,,,,Filter 1,,,None,88.5 Hz,88.5 Hz,023,Both N,Filter 1,FM
+44,146.47500,146.47500,,Simplex,FM,FM Simplex,None,100.0 Hz,100.0 Hz,023,Both N,Off,FM Simplex,,,,,,Filter 1,,,None,88.5 Hz,88.5 Hz,023,Both N,Filter 1,FM
+45,146.49000,146.49000,,Simplex,FM,FM Simplex,None,100.0 Hz,100.0 Hz,023,Both N,Off,FM Simplex,,,,,,Filter 1,,,None,88.5 Hz,88.5 Hz,023,Both N,Filter 1,FM
+46,146.50000,146.50000,,Simplex,FM,FM SOTA,None,100.0 Hz,100.0 Hz,023,Both N,Off,FM SOTA,,,,,,Filter 1,,,None,88.5 Hz,88.5 Hz,023,Both N,Filter 1,FM
+47,146.50500,146.50500,,Simplex,FM,FM Simplex,None,100.0 Hz,100.0 Hz,023,Both N,Off,FM Simplex,,,,,,Filter 1,,,None,88.5 Hz,88.5 Hz,023,Both N,Filter 1,FM
+48,146.52000,146.52000,,Simplex,FM,FM Calling,None,100.0 Hz,100.0 Hz,023,Both N,Off,FM Calling,,,,,,Filter 1,,,None,88.5 Hz,88.5 Hz,023,Both N,Filter 1,FM
+49,146.52500,146.52500,,Simplex,FM,FM SOTA,None,100.0 Hz,100.0 Hz,023,Both N,Off,FM SOTA,,,,,,Filter 1,,,None,88.5 Hz,88.5 Hz,023,Both N,Filter 1,FM
+50,146.53500,146.53500,,Simplex,FM,FM Simplex,None,100.0 Hz,100.0 Hz,023,Both N,Off,FM Simplex,,,,,,Filter 1,,,None,88.5 Hz,88.5 Hz,023,Both N,Filter 1,FM
+51,146.55000,146.55000,,Simplex,FM,FM Simplex,None,100.0 Hz,100.0 Hz,023,Both N,Off,FM Simplex,,,,,,Filter 1,,,None,88.5 Hz,88.5 Hz,023,Both N,Filter 1,FM
+52,146.56500,146.56500,,Simplex,FM,FM Simplex,None,100.0 Hz,100.0 Hz,023,Both N,Off,FM Simplex,,,,,,Filter 1,,,None,88.5 Hz,88.5 Hz,023,Both N,Filter 1,FM
+53,146.58000,146.58000,,Simplex,FM,FM Simplex,None,100.0 Hz,100.0 Hz,023,Both N,Off,FM Simplex,,,,,,Filter 1,,,None,88.5 Hz,88.5 Hz,023,Both N,Filter 1,FM
+54,146.59500,146.59500,,Simplex,FM,FM Simplex,None,100.0 Hz,100.0 Hz,023,Both N,Off,FM Simplex,,,,,,Filter 1,,,None,88.5 Hz,88.5 Hz,023,Both N,Filter 1,FM
+55,147.42000,147.42000,,Simplex,FM,FM Simplex,None,100.0 Hz,100.0 Hz,023,Both N,Off,FM Simplex,,,,,,Filter 1,,,None,88.5 Hz,88.5 Hz,023,Both N,Filter 1,FM
+56,147.43500,147.43500,,Simplex,FM,FM Simplex,None,100.0 Hz,100.0 Hz,023,Both N,Off,FM Simplex,,,,,,Filter 1,,,None,88.5 Hz,88.5 Hz,023,Both N,Filter 1,FM
+57,147.45000,147.45000,,Simplex,FM,FM Simplex,None,100.0 Hz,100.0 Hz,023,Both N,Off,FM Simplex,,,,,,Filter 1,,,None,88.5 Hz,88.5 Hz,023,Both N,Filter 1,FM
+58,147.46500,147.46500,,Simplex,FM,FM Simplex,None,100.0 Hz,100.0 Hz,023,Both N,Off,FM Simplex,,,,,,Filter 1,,,None,88.5 Hz,88.5 Hz,023,Both N,Filter 1,FM
+59,147.48000,147.48000,,Simplex,FM,FM Simplex,None,100.0 Hz,100.0 Hz,023,Both N,Off,FM Simplex,,,,,,Filter 1,,,None,88.5 Hz,88.5 Hz,023,Both N,Filter 1,FM
+60,147.49500,147.49500,,Simplex,FM,FM Simplex,None,100.0 Hz,100.0 Hz,023,Both N,Off,FM Simplex,,,,,,Filter 1,,,None,88.5 Hz,88.5 Hz,023,Both N,Filter 1,FM
+61,147.51000,147.51000,,Simplex,FM,FM Simplex,None,100.0 Hz,100.0 Hz,023,Both N,Off,FM Simplex,,,,,,Filter 1,,,None,88.5 Hz,88.5 Hz,023,Both N,Filter 1,FM
+62,147.52500,147.52500,,Simplex,FM,FM Simplex,None,100.0 Hz,100.0 Hz,023,Both N,Off,FM Simplex,,,,,,Filter 1,,,None,88.5 Hz,88.5 Hz,023,Both N,Filter 1,FM
+63,147.54000,147.54000,,Simplex,FM,FM Simplex,None,100.0 Hz,100.0 Hz,023,Both N,Off,FM Simplex,,,,,,Filter 1,,,None,88.5 Hz,88.5 Hz,023,Both N,Filter 1,FM
+64,147.55500,147.55500,,Simplex,FM,FM Simplex,None,100.0 Hz,100.0 Hz,023,Both N,Off,FM Simplex,,,,,,Filter 1,,,None,88.5 Hz,88.5 Hz,023,Both N,Filter 1,FM
+65,147.57000,147.57000,,Simplex,FM,FM Simplex,None,100.0 Hz,100.0 Hz,023,Both N,Off,FM Simplex,,,,,,Filter 1,,,None,88.5 Hz,88.5 Hz,023,Both N,Filter 1,FM
+66,147.58500,147.58500,,Simplex,FM,FM Simplex,None,100.0 Hz,100.0 Hz,023,Both N,Off,FM Simplex,,,,,,Filter 1,,,None,88.5 Hz,88.5 Hz,023,Both N,Filter 1,FM
+67,435.45500,145.95000,,-DUP,FM,FM SAT CAS-7A,None,100.0 Hz,100.0 Hz,023,Both N,Off,FM SAT CAS-7A,,,,,,Filter 1,,,None,88.5 Hz,88.5 Hz,023,Both N,Filter 1,FM
+68,435.60000,145.92500,,-DUP,FM,FM SAT CAS-5A,None,100.0 Hz,100.0 Hz,023,Both N,Off,FM SAT CAS-5A,,,,,,Filter 1,,,None,88.5 Hz,88.5 Hz,023,Both N,Filter 1,FM
+69,435.69000,145.90000,,-DUP,FM,FM SAT CAS-7C,None,100.0 Hz,100.0 Hz,023,Both N,Off,FM SAT CAS-7C,,,,,,Filter 1,,,None,88.5 Hz,88.5 Hz,023,Both N,Filter 1,FM
+70,435.88000,145.88000,,-DUP,FM,FM SAT IO-86 (LAPAN-A2),Tone,88.5 Hz,88.5 Hz,023,Both N,Off,FM SAT IO-86 (LAPAN-A2),,,,,,Filter 1,,,None,88.5 Hz,88.5 Hz,023,Both N,Filter 1,FM
+71,436.40000,145.97000,,-DUP,FM,FM SAT Duchifat3,None,100.0 Hz,100.0 Hz,023,Both N,Off,FM SAT Duchifat3,,,,,,Filter 1,,,None,88.5 Hz,88.5 Hz,023,Both N,Filter 1,FM
+72,436.79500,145.85000,,-DUP,FM,FM SAT AO-27,None,100.0 Hz,100.0 Hz,023,Both N,Off,FM SAT AO-27,,,,,,Filter 1,,,None,88.5 Hz,88.5 Hz,023,Both N,Filter 1,FM
+73,437.20000,144.35000,,-DUP,FM,FM SAT CAS-3H (LilacSat-2),None,100.0 Hz,100.0 Hz,023,Both N,Off,FM SAT CAS-3H (LilacSat-2),,,,,,Filter 1,,,None,88.5 Hz,88.5 Hz,023,Both N,Filter 1,FM
+74,437.55000,437.55000,,Simplex,FM,FM ISS UHF Simplex (rarely used),None,100.0 Hz,100.0 Hz,023,Both N,Off,FM ISS UHF Simplex (rarely used),,,,,,Filter 1,,,None,88.5 Hz,88.5 Hz,023,Both N,Filter 1,FM
+75,437.80000,145.99000,,-DUP,FM,FM ISS V/u with PL VOICE Repeate,Tone,67.0 Hz,67.0 Hz,023,Both N,Off,FM ISS V/u with PL VOICE Repeater (Worldwide),,,,,,Filter 1,,,None,88.5 Hz,88.5 Hz,023,Both N,Filter 1,FM
+76,439.00000,439.00000,,Simplex,FM,FM SOTA,None,100.0 Hz,100.0 Hz,023,Both N,Off,FM SOTA,,,,,,Filter 1,,,None,88.5 Hz,88.5 Hz,023,Both N,Filter 1,FM
+77,445.70000,445.70000,,Simplex,FM,FM Simplex,None,100.0 Hz,100.0 Hz,023,Both N,Off,FM Simplex,,,,,,Filter 1,,,None,88.5 Hz,88.5 Hz,023,Both N,Filter 1,FM
+78,445.75000,445.75000,,Simplex,FM,FM Simplex,None,100.0 Hz,100.0 Hz,023,Both N,Off,FM Simplex,,,,,,Filter 1,,,None,88.5 Hz,88.5 Hz,023,Both N,Filter 1,FM
+79,445.80000,445.80000,,Simplex,FM,FM Simplex,None,100.0 Hz,100.0 Hz,023,Both N,Off,FM Simplex,,,,,,Filter 1,,,None,88.5 Hz,88.5 Hz,023,Both N,Filter 1,FM
+80,445.82500,445.82500,,Simplex,FM,FM Simplex,None,100.0 Hz,100.0 Hz,023,Both N,Off,FM Simplex,,,,,,Filter 1,,,None,88.5 Hz,88.5 Hz,023,Both N,Filter 1,FM
+81,445.87500,445.87500,,Simplex,FM,FM Simplex,None,100.0 Hz,100.0 Hz,023,Both N,Off,FM Simplex,,,,,,Filter 1,,,None,88.5 Hz,88.5 Hz,023,Both N,Filter 1,FM
+82,445.90000,445.90000,,Simplex,FM,FM Simplex,None,100.0 Hz,100.0 Hz,023,Both N,Off,FM Simplex,,,,,,Filter 1,,,None,88.5 Hz,88.5 Hz,023,Both N,Filter 1,FM
+83,445.95000,445.95000,,Simplex,FM,FM Simplex,None,100.0 Hz,100.0 Hz,023,Both N,Off,FM Simplex,,,,,,Filter 1,,,None,88.5 Hz,88.5 Hz,023,Both N,Filter 1,FM
+84,445.97500,445.97500,,Simplex,FM,FM Simplex,None,100.0 Hz,100.0 Hz,023,Both N,Off,FM Simplex,,,,,,Filter 1,,,None,88.5 Hz,88.5 Hz,023,Both N,Filter 1,FM
+85,446.00000,446.00000,,Simplex,FM,FM Calling,None,100.0 Hz,100.0 Hz,023,Both N,Off,FM Calling,,,,,,Filter 1,,,None,88.5 Hz,88.5 Hz,023,Both N,Filter 1,FM
+86,446.02500,446.02500,,Simplex,FM,FM Simplex,None,100.0 Hz,100.0 Hz,023,Both N,Off,FM Simplex,,,,,,Filter 1,,,None,88.5 Hz,88.5 Hz,023,Both N,Filter 1,FM
+87,446.05000,446.05000,,Simplex,FM,FM Simplex,None,100.0 Hz,100.0 Hz,023,Both N,Off,FM Simplex,,,,,,Filter 1,,,None,88.5 Hz,88.5 Hz,023,Both N,Filter 1,FM
+88,446.07500,446.07500,,Simplex,FM,FM Simplex,None,100.0 Hz,100.0 Hz,023,Both N,Off,FM Simplex,,,,,,Filter 1,,,None,88.5 Hz,88.5 Hz,023,Both N,Filter 1,FM
+89,446.10000,446.10000,,Simplex,FM,FM Simplex,None,100.0 Hz,100.0 Hz,023,Both N,Off,FM Simplex,,,,,,Filter 1,,,None,88.5 Hz,88.5 Hz,023,Both N,Filter 1,FM
+90,446.12500,446.12500,,Simplex,FM,FM Simplex,None,100.0 Hz,100.0 Hz,023,Both N,Off,FM Simplex,,,,,,Filter 1,,,None,88.5 Hz,88.5 Hz,023,Both N,Filter 1,FM
+91,446.15000,446.15000,,Simplex,FM,FM Simplex,None,100.0 Hz,100.0 Hz,023,Both N,Off,FM Simplex,,,,,,Filter 1,,,None,88.5 Hz,88.5 Hz,023,Both N,Filter 1,FM
+92,446.17500,446.17500,,Simplex,FM,FM Simplex,None,100.0 Hz,100.0 Hz,023,Both N,Off,FM Simplex,,,,,,Filter 1,,,None,88.5 Hz,88.5 Hz,023,Both N,Filter 1,FM
+93,446.20000,446.20000,,Simplex,FM,FM Simplex,None,100.0 Hz,100.0 Hz,023,Both N,Off,FM Simplex,,,,,,Filter 1,,,None,88.5 Hz,88.5 Hz,023,Both N,Filter 1,FM
+94,446.22500,446.22500,,Simplex,DV,D-Star Simplex,None,100.0 Hz,100.0 Hz,023,Both N,Off,D-Star Simplex,,,CQCQCQ,,,Filter 1,,,None,88.5 Hz,88.5 Hz,023,Both N,Filter 1,FM
+95,446.22500,446.22500,,Simplex,FM,FM Simplex,None,100.0 Hz,100.0 Hz,023,Both N,Off,FM Simplex,,,,,,Filter 1,,,None,88.5 Hz,88.5 Hz,023,Both N,Filter 1,FM
+96,446.25000,446.25000,,Simplex,FM,FM Simplex,None,100.0 Hz,100.0 Hz,023,Both N,Off,FM Simplex,,,,,,Filter 1,,,None,88.5 Hz,88.5 Hz,023,Both N,Filter 1,FM
+97,446.27500,446.27500,,Simplex,FM,FM Simplex,None,100.0 Hz,100.0 Hz,023,Both N,Off,FM Simplex,,,,,,Filter 1,,,None,88.5 Hz,88.5 Hz,023,Both N,Filter 1,FM

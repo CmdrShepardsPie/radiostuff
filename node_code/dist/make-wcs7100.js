@@ -91,41 +91,47 @@ var __importDefault = (this && this.__importDefault) || function (mod) {
         const fmOrDVFilter = (filter) => filter['Operating Mode'] === wcs7100_1.Wcs7100OperatingMode.FM || filter['Operating Mode'] === wcs7100_1.Wcs7100OperatingMode.DV;
         const issOrSatFilter = (filter) => /^[A-Z]* ISS/.test(filter.Name) || /^[A-Z]* SAT/.test(filter.Name);
         const sotaOrWarcFilter = (filter) => /^[A-Z]* SOTA/.test(filter.Name) || /^[A-Z]* WARC/.test(filter.Name);
+        const finalProcess = (map, index) => ({
+            ...map,
+            'Channel Number': index + 1,
+            'Receive Frequency': map['Receive Frequency'].toFixed(5),
+            'Transmit Frequency': map['Transmit Frequency'].toFixed(5)
+        });
         const A = filtered
             .filter((filter) => !fmOrDVFilter(filter))
             .sort((a, b) => a.Name > b.Name ? 1 : a.Name < b.Name ? -1 : 0)
             .sort((a, b) => a['Transmit Frequency'] - b['Transmit Frequency'])
             .sort((a, b) => a['Receive Frequency'] - b['Receive Frequency'])
-            // .slice(0, 99)
-            .map((map, index) => ({ ...map, 'Channel Number': index + 1 }));
+            .slice(0, 99)
+            .map(finalProcess);
         const B = filtered
             .filter((filter) => (!duplexFilter(filter) || issOrSatFilter(filter) || sotaOrWarcFilter(filter)) && fmOrDVFilter(filter))
             .sort((a, b) => a.Name > b.Name ? 1 : a.Name < b.Name ? -1 : 0)
             .sort((a, b) => a['Transmit Frequency'] - b['Transmit Frequency'])
             .sort((a, b) => a['Receive Frequency'] - b['Receive Frequency'])
-            // .slice(0, 99)
-            .map((map, index) => ({ ...map, 'Channel Number': index + 1 }));
+            .slice(0, 99)
+            .map(finalProcess);
         const C = filtered
             .filter((filter) => duplexFilter(filter) && !issOrSatFilter(filter) && !sotaOrWarcFilter(filter))
             .slice(0, 99)
             .sort((a, b) => a['Transmit Frequency'] - b['Transmit Frequency'])
             .sort((a, b) => a['Receive Frequency'] - b['Receive Frequency'])
             .sort((a, b) => a.Name > b.Name ? 1 : a.Name < b.Name ? -1 : 0)
-            .map((map, index) => ({ ...map, 'Channel Number': index + 1 }));
+            .map(finalProcess);
         const D = filtered
             .filter((filter) => duplexFilter(filter) && !issOrSatFilter(filter) && !sotaOrWarcFilter(filter))
             .slice(99, 198)
             .sort((a, b) => a['Transmit Frequency'] - b['Transmit Frequency'])
             .sort((a, b) => a['Receive Frequency'] - b['Receive Frequency'])
             .sort((a, b) => a.Name > b.Name ? 1 : a.Name < b.Name ? -1 : 0)
-            .map((map, index) => ({ ...map, 'Channel Number': index + 1 }));
+            .map(finalProcess);
         const E = filtered
             .filter((filter) => duplexFilter(filter) && !issOrSatFilter(filter) && !sotaOrWarcFilter(filter))
             .slice(198, 297)
             .sort((a, b) => a['Transmit Frequency'] - b['Transmit Frequency'])
             .sort((a, b) => a['Receive Frequency'] - b['Receive Frequency'])
             .sort((a, b) => a.Name > b.Name ? 1 : a.Name < b.Name ? -1 : 0)
-            .map((map, index) => ({ ...map, 'Channel Number': index + 1 }));
+            .map(finalProcess);
         promises.push(fs_helpers_1.writeToCsv(`${outFileName}-A`, A));
         promises.push(fs_helpers_1.writeToCsv(`${outFileName}-B`, B));
         promises.push(fs_helpers_1.writeToCsv(`${outFileName}-C`, C));

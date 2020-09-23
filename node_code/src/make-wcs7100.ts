@@ -97,11 +97,11 @@ async function doIt(location: gpsDistance.Point, outFileName: string): Promise<v
       .filter(filterMode(Mode.FM, Mode.DStar)),
   ]
     .map((map: RepeaterStructured, index: number): Wcs7100 => convertToRadio(map))
-    // The lower frequencies are very noisy and have to turn the SQL up high which cuts out low signals in the higher frequencies
-    // .filter((filter: Wcs7100): boolean =>
-    //   filter['Operating Mode'] === Wcs7100OperatingMode.FM ||
-    //   filter['Operating Mode'] === Wcs7100OperatingMode.DV ||
-    //   filter['Receive Frequency'] >= 10);
+  // The lower frequencies are very noisy and have to turn the SQL up high which cuts out low signals in the higher frequencies
+  // .filter((filter: Wcs7100): boolean =>
+  //   filter['Operating Mode'] === Wcs7100OperatingMode.FM ||
+  //   filter['Operating Mode'] === Wcs7100OperatingMode.DV ||
+  //   filter['Receive Frequency'] >= 10);
 
   const rfiFrequencies = [445.725, 445.775, 445.850, 445.925];
   const rfiFilter = (filter: Wcs7100): boolean => rfiFrequencies.includes(filter['Receive Frequency']);
@@ -114,22 +114,28 @@ async function doIt(location: gpsDistance.Point, outFileName: string): Promise<v
   const fmOrDVFilter = (filter: Wcs7100): boolean => filter['Operating Mode'] === Wcs7100OperatingMode.FM || filter['Operating Mode'] === Wcs7100OperatingMode.DV;
   const issOrSatFilter = (filter: Wcs7100): boolean => /^[A-Z]* ISS/.test(filter.Name) || /^[A-Z]* SAT/.test(filter.Name);
   const sotaOrWarcFilter = (filter: Wcs7100): boolean => /^[A-Z]* SOTA/.test(filter.Name) || /^[A-Z]* WARC/.test(filter.Name);
+  const finalProcess = (map: Wcs7100, index: number): Wcs7100 => ({
+    ...map,
+    'Channel Number': index + 1,
+    'Receive Frequency': map['Receive Frequency'].toFixed(5) as any,
+    'Transmit Frequency': map['Transmit Frequency'].toFixed(5) as any
+  });
 
   const A: Wcs7100[] = filtered
     .filter((filter: Wcs7100): boolean => !fmOrDVFilter(filter))
     .sort((a: Wcs7100, b: Wcs7100): number => a.Name > b.Name ? 1 : a.Name < b.Name ? - 1 : 0)
     .sort((a: Wcs7100, b: Wcs7100): number => a['Transmit Frequency'] - b['Transmit Frequency'])
     .sort((a: Wcs7100, b: Wcs7100): number => a['Receive Frequency'] - b['Receive Frequency'])
-    // .slice(0, 99)
-    .map((map: Wcs7100, index: number): Wcs7100 => ({ ...map, 'Channel Number': index + 1 }));
+    .slice(0, 99)
+    .map(finalProcess);
 
   const B: Wcs7100[] = filtered
     .filter((filter: Wcs7100): boolean => (!duplexFilter(filter) || issOrSatFilter(filter) || sotaOrWarcFilter(filter)) && fmOrDVFilter(filter))
     .sort((a: Wcs7100, b: Wcs7100): number => a.Name > b.Name ? 1 : a.Name < b.Name ? - 1 : 0)
     .sort((a: Wcs7100, b: Wcs7100): number => a['Transmit Frequency'] - b['Transmit Frequency'])
     .sort((a: Wcs7100, b: Wcs7100): number => a['Receive Frequency'] - b['Receive Frequency'])
-    // .slice(0, 99)
-    .map((map: Wcs7100, index: number): Wcs7100 => ({ ...map, 'Channel Number': index + 1 }));
+    .slice(0, 99)
+    .map(finalProcess);
 
   const C: Wcs7100[] = filtered
     .filter((filter: Wcs7100): boolean => duplexFilter(filter) && !issOrSatFilter(filter) && !sotaOrWarcFilter(filter))
@@ -137,7 +143,7 @@ async function doIt(location: gpsDistance.Point, outFileName: string): Promise<v
     .sort((a: Wcs7100, b: Wcs7100): number => a['Transmit Frequency'] - b['Transmit Frequency'])
     .sort((a: Wcs7100, b: Wcs7100): number => a['Receive Frequency'] - b['Receive Frequency'])
     .sort((a: Wcs7100, b: Wcs7100): number => a.Name > b.Name ? 1 : a.Name < b.Name ? - 1 : 0)
-    .map((map: Wcs7100, index: number): Wcs7100 => ({ ...map, 'Channel Number': index + 1 }));
+    .map(finalProcess);
 
   const D: Wcs7100[] = filtered
     .filter((filter: Wcs7100): boolean => duplexFilter(filter) && !issOrSatFilter(filter) && !sotaOrWarcFilter(filter))
@@ -145,7 +151,7 @@ async function doIt(location: gpsDistance.Point, outFileName: string): Promise<v
     .sort((a: Wcs7100, b: Wcs7100): number => a['Transmit Frequency'] - b['Transmit Frequency'])
     .sort((a: Wcs7100, b: Wcs7100): number => a['Receive Frequency'] - b['Receive Frequency'])
     .sort((a: Wcs7100, b: Wcs7100): number => a.Name > b.Name ? 1 : a.Name < b.Name ? - 1 : 0)
-    .map((map: Wcs7100, index: number): Wcs7100 => ({ ...map, 'Channel Number': index + 1 }));
+    .map(finalProcess);
 
   const E: Wcs7100[] = filtered
     .filter((filter: Wcs7100): boolean => duplexFilter(filter) && !issOrSatFilter(filter) && !sotaOrWarcFilter(filter))
@@ -153,7 +159,7 @@ async function doIt(location: gpsDistance.Point, outFileName: string): Promise<v
     .sort((a: Wcs7100, b: Wcs7100): number => a['Transmit Frequency'] - b['Transmit Frequency'])
     .sort((a: Wcs7100, b: Wcs7100): number => a['Receive Frequency'] - b['Receive Frequency'])
     .sort((a: Wcs7100, b: Wcs7100): number => a.Name > b.Name ? 1 : a.Name < b.Name ? - 1 : 0)
-    .map((map: Wcs7100, index: number): Wcs7100 => ({ ...map, 'Channel Number': index + 1 }));
+    .map(finalProcess);
 
   promises.push(writeToCsv(`${outFileName}-A`, A));
   promises.push(writeToCsv(`${outFileName}-B`, B));
