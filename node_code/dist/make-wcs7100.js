@@ -42,9 +42,9 @@ var __importDefault = (this && this.__importDefault) || function (mod) {
     async function doIt(location, outFileName) {
         const promises = [];
         const bands = [
-            radio_helpers_1.FrequencyBand.$160_m,
-            radio_helpers_1.FrequencyBand.$80_m,
-            radio_helpers_1.FrequencyBand.$60_m,
+            // FrequencyBand.$160_m,
+            // FrequencyBand.$80_m,
+            // FrequencyBand.$60_m,
             radio_helpers_1.FrequencyBand.$40_m,
             radio_helpers_1.FrequencyBand.$30_m,
             radio_helpers_1.FrequencyBand.$20_m,

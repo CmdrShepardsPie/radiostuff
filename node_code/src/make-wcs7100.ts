@@ -57,9 +57,9 @@ async function doIt(location: gpsDistance.Point, outFileName: string): Promise<v
   const promises: Promise<void>[] = [];
 
   const bands = [
-    FrequencyBand.$160_m,
-    FrequencyBand.$80_m,
-    FrequencyBand.$60_m,
+    // FrequencyBand.$160_m,
+    // FrequencyBand.$80_m,
+    // FrequencyBand.$60_m,
     FrequencyBand.$40_m,
     FrequencyBand.$30_m,
     FrequencyBand.$20_m,
