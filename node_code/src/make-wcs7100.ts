@@ -103,7 +103,16 @@ async function doIt(location: gpsDistance.Point, outFileName: string): Promise<v
   //   filter['Operating Mode'] === Wcs7100OperatingMode.DV ||
   //   filter['Receive Frequency'] >= 10);
 
-  const rfiFrequencies = [445.725, 445.775, 445.850, 445.925];
+  const rfiFrequencies = [
+    144.585,
+    445.725,
+    445.775,
+    445.850,
+    445.925,
+    445.975,
+    446.175,
+    446.250
+  ];
   const rfiFilter = (filter: Wcs7100): boolean => rfiFrequencies.includes(filter['Receive Frequency']);
 
   const filtered = mapped
