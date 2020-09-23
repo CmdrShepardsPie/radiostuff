@@ -41,55 +41,86 @@ var __importDefault = (this && this.__importDefault) || function (mod) {
     commander_1.program.parse(process.argv);
     async function doIt(location, outFileName) {
         const promises = [];
-        const simplex = await radio_helpers_1.loadSimplex(/^((?!(Fusion|Mixed|CW|RTTY)).)*$/i);
+        const bands = [
+            radio_helpers_1.FrequencyBand.$160_m,
+            radio_helpers_1.FrequencyBand.$80_m,
+            radio_helpers_1.FrequencyBand.$60_m,
+            radio_helpers_1.FrequencyBand.$40_m,
+            radio_helpers_1.FrequencyBand.$30_m,
+            radio_helpers_1.FrequencyBand.$20_m,
+            radio_helpers_1.FrequencyBand.$17_m,
+            radio_helpers_1.FrequencyBand.$15_m,
+            radio_helpers_1.FrequencyBand.$12_m,
+            radio_helpers_1.FrequencyBand.$10_m,
+            radio_helpers_1.FrequencyBand.$6_m,
+            radio_helpers_1.FrequencyBand.$2_m,
+            radio_helpers_1.FrequencyBand.$70_cm
+        ];
+        const dedupe = new Set();
+        const simplex = (await radio_helpers_1.loadSimplex(/^((?!(Fusion|Mixed|CW|RTTY|(Digital Simplex))).)*$/i))
+            .filter(radio_helpers_1.filterOutputFrequencies(...bands))
+            .filter(radio_helpers_1.filterInputFrequencies(...bands))
+            .filter((filter) => {
+            const fingerprint = `${filter.Frequency.Input}${filter.Frequency.Output}${filter.Callsign.substring(0, 3)}`;
+            if (!dedupe.has(fingerprint)) {
+                dedupe.add(fingerprint);
+                return true;
+            }
+            return false;
+        });
         const repeaters = await radio_helpers_1.loadRepeaters(location);
         const mapped = [
-            ...simplex
-                .filter(radio_helpers_1.filterFrequencies(radio_helpers_1.FrequencyBand.$160_m, radio_helpers_1.FrequencyBand.$80_m, radio_helpers_1.FrequencyBand.$60_m, radio_helpers_1.FrequencyBand.$40_m, radio_helpers_1.FrequencyBand.$30_m, radio_helpers_1.FrequencyBand.$20_m, radio_helpers_1.FrequencyBand.$17_m, radio_helpers_1.FrequencyBand.$15_m, radio_helpers_1.FrequencyBand.$12_m, radio_helpers_1.FrequencyBand.$10_m, radio_helpers_1.FrequencyBand.$6_m, radio_helpers_1.FrequencyBand.$2_m, radio_helpers_1.FrequencyBand.$70_cm)),
+            ...simplex,
             ...repeaters
-                .filter(radio_helpers_1.filterFrequencies(radio_helpers_1.FrequencyBand.$160_m, radio_helpers_1.FrequencyBand.$80_m, radio_helpers_1.FrequencyBand.$60_m, radio_helpers_1.FrequencyBand.$40_m, radio_helpers_1.FrequencyBand.$30_m, radio_helpers_1.FrequencyBand.$20_m, radio_helpers_1.FrequencyBand.$17_m, radio_helpers_1.FrequencyBand.$15_m, radio_helpers_1.FrequencyBand.$12_m, radio_helpers_1.FrequencyBand.$10_m, radio_helpers_1.FrequencyBand.$6_m, radio_helpers_1.FrequencyBand.$2_m, radio_helpers_1.FrequencyBand.$70_cm))
+                .filter(radio_helpers_1.filterOutputFrequencies(...bands))
+                .filter(radio_helpers_1.filterInputFrequencies(...bands))
                 .filter(radio_helpers_1.filterMode(radio_helpers_1.Mode.FM, radio_helpers_1.Mode.DStar)),
         ]
-            .map((map, index) => convertToRadio(map))
-            // The lower frequencies are very noisy and have to turn the SQL up high which cuts out low signals in the higher frequencies
-            .filter((filter) => filter['Operating Mode'] === wcs7100_1.Wcs7100OperatingMode.FM ||
-            filter['Operating Mode'] === wcs7100_1.Wcs7100OperatingMode.DV ||
-            filter['Receive Frequency'] >= 10);
+            .map((map, index) => convertToRadio(map));
+        // The lower frequencies are very noisy and have to turn the SQL up high which cuts out low signals in the higher frequencies
+        // .filter((filter: Wcs7100): boolean =>
+        //   filter['Operating Mode'] === Wcs7100OperatingMode.FM ||
+        //   filter['Operating Mode'] === Wcs7100OperatingMode.DV ||
+        //   filter['Receive Frequency'] >= 10);
+        const rfiFrequencies = [445.725, 445.775, 445.850, 445.925];
+        const rfiFilter = (filter) => rfiFrequencies.includes(filter['Receive Frequency']);
+        const filtered = mapped
+            .filter((filter) => !rfiFilter(filter));
         // const simplexFilter = (filter: Wcs7100): boolean => filter['Offset Direction'] === Wcs7100OffsetDirection.Simplex && filter['Tone Mode'] === Wcs7100ToneMode.None;
         const duplexFilter = (filter) => filter['Offset Direction'] !== wcs7100_1.Wcs7100OffsetDirection.Simplex || filter['Tone Mode'] !== wcs7100_1.Wcs7100ToneMode.None;
         const fmOrDVFilter = (filter) => filter['Operating Mode'] === wcs7100_1.Wcs7100OperatingMode.FM || filter['Operating Mode'] === wcs7100_1.Wcs7100OperatingMode.DV;
         const issOrSatFilter = (filter) => /^[A-Z]* ISS/.test(filter.Name) || /^[A-Z]* SAT/.test(filter.Name);
         const sotaOrWarcFilter = (filter) => /^[A-Z]* SOTA/.test(filter.Name) || /^[A-Z]* WARC/.test(filter.Name);
-        const A = mapped
-            .filter((filter) => (issOrSatFilter(filter) || sotaOrWarcFilter(filter) || !fmOrDVFilter(filter)))
+        const A = filtered
+            .filter((filter) => !fmOrDVFilter(filter))
             .sort((a, b) => a.Name > b.Name ? 1 : a.Name < b.Name ? -1 : 0)
             .sort((a, b) => a['Transmit Frequency'] - b['Transmit Frequency'])
             .sort((a, b) => a['Receive Frequency'] - b['Receive Frequency'])
-            .slice(0, 99)
+            // .slice(0, 99)
             .map((map, index) => ({ ...map, 'Channel Number': index + 1 }));
-        const B = mapped
-            .filter((filter) => !duplexFilter(filter) && !issOrSatFilter(filter) && !sotaOrWarcFilter(filter) && fmOrDVFilter(filter))
+        const B = filtered
+            .filter((filter) => (!duplexFilter(filter) || issOrSatFilter(filter) || sotaOrWarcFilter(filter)) && fmOrDVFilter(filter))
             .sort((a, b) => a.Name > b.Name ? 1 : a.Name < b.Name ? -1 : 0)
             .sort((a, b) => a['Transmit Frequency'] - b['Transmit Frequency'])
             .sort((a, b) => a['Receive Frequency'] - b['Receive Frequency'])
-            .slice(0, 99)
+            // .slice(0, 99)
             .map((map, index) => ({ ...map, 'Channel Number': index + 1 }));
-        const C = mapped
-            .filter((filter) => duplexFilter(filter) && !issOrSatFilter(filter))
+        const C = filtered
+            .filter((filter) => duplexFilter(filter) && !issOrSatFilter(filter) && !sotaOrWarcFilter(filter))
             .slice(0, 99)
             .sort((a, b) => a['Transmit Frequency'] - b['Transmit Frequency'])
             .sort((a, b) => a['Receive Frequency'] - b['Receive Frequency'])
             .sort((a, b) => a.Name > b.Name ? 1 : a.Name < b.Name ? -1 : 0)
             .map((map, index) => ({ ...map, 'Channel Number': index + 1 }));
-        const D = mapped
-            .filter((filter) => duplexFilter(filter) && !issOrSatFilter(filter))
+        const D = filtered
+            .filter((filter) => duplexFilter(filter) && !issOrSatFilter(filter) && !sotaOrWarcFilter(filter))
             .slice(99, 198)
             .sort((a, b) => a['Transmit Frequency'] - b['Transmit Frequency'])
             .sort((a, b) => a['Receive Frequency'] - b['Receive Frequency'])
             .sort((a, b) => a.Name > b.Name ? 1 : a.Name < b.Name ? -1 : 0)
             .map((map, index) => ({ ...map, 'Channel Number': index + 1 }));
-        const E = mapped
-            .filter((filter) => duplexFilter(filter) && !issOrSatFilter(filter))
+        const E = filtered
+            .filter((filter) => duplexFilter(filter) && !issOrSatFilter(filter) && !sotaOrWarcFilter(filter))
             .slice(198, 297)
             .sort((a, b) => a['Transmit Frequency'] - b['Transmit Frequency'])
             .sort((a, b) => a['Receive Frequency'] - b['Receive Frequency'])
@@ -157,8 +188,8 @@ var __importDefault = (this && this.__importDefault) || function (mod) {
         const Rx_CTCSS = ((ReceiveSquelchTone || TransmitSquelchTone || 100).toFixed(1) + ' Hz');
         const DCS = radio_helpers_1.buildDCS(TransmitDigitalTone);
         return new wcs7100_1.Wcs7100({
-            'Receive Frequency': Receive.toFixed(5),
-            'Transmit Frequency': Transmit.toFixed(5),
+            'Receive Frequency': Receive,
+            'Transmit Frequency': Transmit,
             'Offset Frequency': radio_helpers_1.convertOffsetFrequency(OffsetFrequency),
             'Offset Direction': convertOffsetDirection(OffsetFrequency),
             'Operating Mode': OperatingMode,

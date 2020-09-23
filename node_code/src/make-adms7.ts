@@ -6,7 +6,7 @@ import { RepeaterStructured } from '@interfaces/repeater-structured';
 import gpsDistance from 'gps-distance';
 import {
   buildDCS,
-  filterFrequencies,
+  filterOutputFrequencies,
   filterMode,
   FrequencyBand,
   RadioCommon, loadRepeaters, loadSimplex,
@@ -55,12 +55,12 @@ async function doIt(location: gpsDistance.Point, outFileName: string): Promise<v
 
   const mapped: Adms7[] = [
     ...simplex
-      .filter(filterFrequencies(
+      .filter(filterOutputFrequencies(
         FrequencyBand.$2_m,
         FrequencyBand.$70_cm,
       )),
     ...repeaters
-      .filter(filterFrequencies(
+      .filter(filterOutputFrequencies(
         FrequencyBand.$2_m,
         FrequencyBand.$70_cm,
       ))

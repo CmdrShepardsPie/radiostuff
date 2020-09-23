@@ -14,14 +14,14 @@ import chalk from 'chalk';
 import {
   buildDCS,
   convertOffsetFrequency,
-  filterFrequencies,
+  filterOutputFrequencies,
   filterMode,
   FrequencyBand,
   loadRepeaters,
   loadSimplex,
   Mode,
   RadioCommon,
-  radioCommon
+  radioCommon, filterInputFrequencies
 } from '@helpers/radio-helpers';
 import { program } from 'commander';
 import gpsDistance from 'gps-distance';
@@ -56,50 +56,58 @@ program.parse(process.argv);
 async function doIt(location: gpsDistance.Point, outFileName: string): Promise<void> {
   const promises: Promise<void>[] = [];
 
-  const simplex: RepeaterStructured[] = await loadSimplex(/^((?!(Fusion|Mixed|CW|RTTY)).)*$/i);
+  const bands = [
+    FrequencyBand.$160_m,
+    FrequencyBand.$80_m,
+    FrequencyBand.$60_m,
+    FrequencyBand.$40_m,
+    FrequencyBand.$30_m,
+    FrequencyBand.$20_m,
+    FrequencyBand.$17_m,
+    FrequencyBand.$15_m,
+    FrequencyBand.$12_m,
+    FrequencyBand.$10_m,
+    FrequencyBand.$6_m,
+    FrequencyBand.$2_m,
+    FrequencyBand.$70_cm
+  ];
+
+  const dedupe = new Set();
+
+  const simplex: RepeaterStructured[] =
+    (await loadSimplex(/^((?!(Fusion|Mixed|CW|RTTY|(Digital Simplex))).)*$/i))
+      .filter(filterOutputFrequencies(...bands))
+      .filter(filterInputFrequencies(...bands))
+      .filter((filter: RepeaterStructured) => {
+        const fingerprint = `${filter.Frequency.Input}${filter.Frequency.Output}${filter.Callsign.substring(0, 3)}`;
+        if (!dedupe.has(fingerprint)) {
+          dedupe.add(fingerprint);
+          return true;
+        }
+        return false;
+      });
+
   const repeaters: RepeaterStructured[] = await loadRepeaters(location);
 
   const mapped: Wcs7100[] = [
-    ...simplex
-      .filter(filterFrequencies(
-        FrequencyBand.$160_m,
-        FrequencyBand.$80_m,
-        FrequencyBand.$60_m,
-        FrequencyBand.$40_m,
-        FrequencyBand.$30_m,
-        FrequencyBand.$20_m,
-        FrequencyBand.$17_m,
-        FrequencyBand.$15_m,
-        FrequencyBand.$12_m,
-        FrequencyBand.$10_m,
-        FrequencyBand.$6_m,
-        FrequencyBand.$2_m,
-        FrequencyBand.$70_cm,
-      )),
+    ...simplex,
     ...repeaters
-      .filter(filterFrequencies(
-        FrequencyBand.$160_m,
-        FrequencyBand.$80_m,
-        FrequencyBand.$60_m,
-        FrequencyBand.$40_m,
-        FrequencyBand.$30_m,
-        FrequencyBand.$20_m,
-        FrequencyBand.$17_m,
-        FrequencyBand.$15_m,
-        FrequencyBand.$12_m,
-        FrequencyBand.$10_m,
-        FrequencyBand.$6_m,
-        FrequencyBand.$2_m,
-        FrequencyBand.$70_cm,
-      ))
+      .filter(filterOutputFrequencies(...bands))
+      .filter(filterInputFrequencies(...bands))
       .filter(filterMode(Mode.FM, Mode.DStar)),
   ]
     .map((map: RepeaterStructured, index: number): Wcs7100 => convertToRadio(map))
     // The lower frequencies are very noisy and have to turn the SQL up high which cuts out low signals in the higher frequencies
-    .filter((filter: Wcs7100): boolean =>
-      filter['Operating Mode'] === Wcs7100OperatingMode.FM ||
-      filter['Operating Mode'] === Wcs7100OperatingMode.DV ||
-      filter['Receive Frequency'] >= 10);
+    // .filter((filter: Wcs7100): boolean =>
+    //   filter['Operating Mode'] === Wcs7100OperatingMode.FM ||
+    //   filter['Operating Mode'] === Wcs7100OperatingMode.DV ||
+    //   filter['Receive Frequency'] >= 10);
+
+  const rfiFrequencies = [445.725, 445.775, 445.850, 445.925];
+  const rfiFilter = (filter: Wcs7100): boolean => rfiFrequencies.includes(filter['Receive Frequency']);
+
+  const filtered = mapped
+    .filter((filter: Wcs7100): boolean => !rfiFilter(filter));
 
   // const simplexFilter = (filter: Wcs7100): boolean => filter['Offset Direction'] === Wcs7100OffsetDirection.Simplex && filter['Tone Mode'] === Wcs7100ToneMode.None;
   const duplexFilter = (filter: Wcs7100): boolean => filter['Offset Direction'] !== Wcs7100OffsetDirection.Simplex || filter['Tone Mode'] !== Wcs7100ToneMode.None;
@@ -107,40 +115,40 @@ async function doIt(location: gpsDistance.Point, outFileName: string): Promise<v
   const issOrSatFilter = (filter: Wcs7100): boolean => /^[A-Z]* ISS/.test(filter.Name) || /^[A-Z]* SAT/.test(filter.Name);
   const sotaOrWarcFilter = (filter: Wcs7100): boolean => /^[A-Z]* SOTA/.test(filter.Name) || /^[A-Z]* WARC/.test(filter.Name);
 
-  const A: Wcs7100[] = mapped
-    .filter((filter: Wcs7100): boolean => (issOrSatFilter(filter) || sotaOrWarcFilter(filter) || !fmOrDVFilter(filter)))
+  const A: Wcs7100[] = filtered
+    .filter((filter: Wcs7100): boolean => !fmOrDVFilter(filter))
     .sort((a: Wcs7100, b: Wcs7100): number => a.Name > b.Name ? 1 : a.Name < b.Name ? - 1 : 0)
     .sort((a: Wcs7100, b: Wcs7100): number => a['Transmit Frequency'] - b['Transmit Frequency'])
     .sort((a: Wcs7100, b: Wcs7100): number => a['Receive Frequency'] - b['Receive Frequency'])
-    .slice(0, 99)
+    // .slice(0, 99)
     .map((map: Wcs7100, index: number): Wcs7100 => ({ ...map, 'Channel Number': index + 1 }));
 
-  const B: Wcs7100[] = mapped
-    .filter((filter: Wcs7100): boolean => !duplexFilter(filter) && !issOrSatFilter(filter) && !sotaOrWarcFilter(filter) && fmOrDVFilter(filter) )
+  const B: Wcs7100[] = filtered
+    .filter((filter: Wcs7100): boolean => (!duplexFilter(filter) || issOrSatFilter(filter) || sotaOrWarcFilter(filter)) && fmOrDVFilter(filter))
     .sort((a: Wcs7100, b: Wcs7100): number => a.Name > b.Name ? 1 : a.Name < b.Name ? - 1 : 0)
     .sort((a: Wcs7100, b: Wcs7100): number => a['Transmit Frequency'] - b['Transmit Frequency'])
     .sort((a: Wcs7100, b: Wcs7100): number => a['Receive Frequency'] - b['Receive Frequency'])
-    .slice(0, 99)
+    // .slice(0, 99)
     .map((map: Wcs7100, index: number): Wcs7100 => ({ ...map, 'Channel Number': index + 1 }));
 
-  const C: Wcs7100[] = mapped
-    .filter((filter: Wcs7100): boolean => duplexFilter(filter) && !issOrSatFilter(filter))
+  const C: Wcs7100[] = filtered
+    .filter((filter: Wcs7100): boolean => duplexFilter(filter) && !issOrSatFilter(filter) && !sotaOrWarcFilter(filter))
     .slice(0, 99)
     .sort((a: Wcs7100, b: Wcs7100): number => a['Transmit Frequency'] - b['Transmit Frequency'])
     .sort((a: Wcs7100, b: Wcs7100): number => a['Receive Frequency'] - b['Receive Frequency'])
     .sort((a: Wcs7100, b: Wcs7100): number => a.Name > b.Name ? 1 : a.Name < b.Name ? - 1 : 0)
     .map((map: Wcs7100, index: number): Wcs7100 => ({ ...map, 'Channel Number': index + 1 }));
 
-  const D: Wcs7100[] = mapped
-    .filter((filter: Wcs7100): boolean => duplexFilter(filter) && !issOrSatFilter(filter))
+  const D: Wcs7100[] = filtered
+    .filter((filter: Wcs7100): boolean => duplexFilter(filter) && !issOrSatFilter(filter) && !sotaOrWarcFilter(filter))
     .slice(99, 198)
     .sort((a: Wcs7100, b: Wcs7100): number => a['Transmit Frequency'] - b['Transmit Frequency'])
     .sort((a: Wcs7100, b: Wcs7100): number => a['Receive Frequency'] - b['Receive Frequency'])
     .sort((a: Wcs7100, b: Wcs7100): number => a.Name > b.Name ? 1 : a.Name < b.Name ? - 1 : 0)
     .map((map: Wcs7100, index: number): Wcs7100 => ({ ...map, 'Channel Number': index + 1 }));
 
-  const E: Wcs7100[] = mapped
-    .filter((filter: Wcs7100): boolean => duplexFilter(filter) && !issOrSatFilter(filter))
+  const E: Wcs7100[] = filtered
+    .filter((filter: Wcs7100): boolean => duplexFilter(filter) && !issOrSatFilter(filter) && !sotaOrWarcFilter(filter))
     .slice(198, 297)
     .sort((a: Wcs7100, b: Wcs7100): number => a['Transmit Frequency'] - b['Transmit Frequency'])
     .sort((a: Wcs7100, b: Wcs7100): number => a['Receive Frequency'] - b['Receive Frequency'])
@@ -219,8 +227,8 @@ function convertToRadio(repeater: RepeaterStructured): Wcs7100 {
   const DCS: RtSystemsDcsTone = buildDCS(TransmitDigitalTone) as RtSystemsDcsTone;
 
   return new Wcs7100({
-    'Receive Frequency': Receive.toFixed(5) as any,
-    'Transmit Frequency': Transmit.toFixed(5) as any,
+    'Receive Frequency': Receive, // .toFixed(5) as any,
+    'Transmit Frequency': Transmit, // .toFixed(5) as any,
     'Offset Frequency': convertOffsetFrequency(OffsetFrequency),
     'Offset Direction': convertOffsetDirection(OffsetFrequency),
     'Operating Mode': OperatingMode,

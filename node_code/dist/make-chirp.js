@@ -44,9 +44,9 @@ var __importDefault = (this && this.__importDefault) || function (mod) {
         const repeaters = await radio_helpers_1.loadRepeaters(location);
         const mapped = [
             ...simplex
-                .filter(radio_helpers_1.filterFrequencies(radio_helpers_1.FrequencyBand.$2_m, radio_helpers_1.FrequencyBand.$1_25_m, radio_helpers_1.FrequencyBand.$70_cm)),
+                .filter(radio_helpers_1.filterOutputFrequencies(radio_helpers_1.FrequencyBand.$2_m, radio_helpers_1.FrequencyBand.$1_25_m, radio_helpers_1.FrequencyBand.$70_cm)),
             ...repeaters
-                .filter(radio_helpers_1.filterFrequencies(radio_helpers_1.FrequencyBand.$2_m, radio_helpers_1.FrequencyBand.$1_25_m, radio_helpers_1.FrequencyBand.$70_cm))
+                .filter(radio_helpers_1.filterOutputFrequencies(radio_helpers_1.FrequencyBand.$2_m, radio_helpers_1.FrequencyBand.$1_25_m, radio_helpers_1.FrequencyBand.$70_cm))
                 .filter(radio_helpers_1.filterMode(radio_helpers_1.Mode.FM)),
         ]
             .map((map) => convertToRadio(map));

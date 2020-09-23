@@ -9,7 +9,7 @@ import {
 } from '@interfaces/chirp';
 import chalk from 'chalk';
 import {
-  buildDCS, filterFrequencies,
+  buildDCS, filterOutputFrequencies,
   filterMode,
   FrequencyBand, RadioCommon, loadRepeaters, loadSimplex, Mode, radioCommon,
 } from '@helpers/radio-helpers';
@@ -48,13 +48,13 @@ async function doIt(location: gpsDistance.Point, outFileName: string): Promise<v
 
   const mapped: Chirp[] = [
     ...simplex
-      .filter(filterFrequencies(
+      .filter(filterOutputFrequencies(
         FrequencyBand.$2_m,
         FrequencyBand.$1_25_m,
         FrequencyBand.$70_cm,
       )),
     ...repeaters
-      .filter(filterFrequencies(
+      .filter(filterOutputFrequencies(
         FrequencyBand.$2_m,
         FrequencyBand.$1_25_m,
         FrequencyBand.$70_cm,
