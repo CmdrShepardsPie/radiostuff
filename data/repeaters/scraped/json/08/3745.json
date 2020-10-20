@@ -1,7 +1,7 @@
 {
   "Frequency": 147.195,
   "Offset": 0.6,
-  "Tone": 107.2,
+  "Tone": 118.8,
   "Call": "KC0QXX",
   "Location": "Cedaredge, Cedar Mesa",
   "ST/PR": "CO",
@@ -17,12 +17,12 @@
   "Longitude": -107.9260025,
   "Downlink": 147.195,
   "Uplink": 147.795,
-  "Uplink Tone": 107.2,
+  "Uplink Tone": 118.8,
   "County": "Delta",
   "On-air": "Unknown",
   "Coverage": "Local.",
   "Affiliate": "Colorado District 25 ARES",
   "FM": "Yes; analog capable.",
   "Analog Bandwidth": "",
-  "Last update": "2018-04-04"
+  "Last update": "2020-10-17"
 }

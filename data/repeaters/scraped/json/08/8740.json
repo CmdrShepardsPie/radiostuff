@@ -18,7 +18,7 @@
   "Downlink": 147.075,
   "Uplink": 147.675,
   "Uplink Tone": 131.8,
-  "Downlink Tone": 131.8,
+  "Downlink Tone": 69.3,
   "County": "Douglas",
   "Grid": "DM79MD",
   "Op Status": "On-Air",
@@ -28,5 +28,5 @@
   "Analog Bandwidth": "",
   "EchoLink": 10079,
   "Nets": "Tri Lakes Net: Mon at 19:30 (except third Monday of the month which is the regular radio club meeting).",
-  "Last update": "2020-04-26"
+  "Last update": "2020-10-19"
 }

@@ -2,7 +2,7 @@
   "Frequency": 447.6,
   "Offset": -5,
   "Tone": 103.5,
-  "Call": "KC0VJD",
+  "Call": "KD0OXW",
   "Location": "Firstview",
   "ST/PR": "CO",
   "Use": "OPEN",
@@ -23,9 +23,9 @@
   "County": "Cheyenne",
   "Grid": "DM88RT",
   "Op Status": "On-Air",
-  "Coverage": "US-40, US-287, US-385, CO-94, CO-96 Kit Carson, Cheyenne Wells, Firstview, Eads, Aroya, Sheridan Lake",
+  "Coverage": "US-40, US-287, US-385, CO-94, CO-96 Kit Carson, Cheyenne Wells, Firstview, Eads, Aroya, Sheridan Lake 75 radius.",
   "Sponsor": "Delbert Noakes (KC0VJD)",
   "Features": "APRS Digireater &amp; iGate, Weather Station",
   "Coordination": "CCARC",
-  "Last update": "2020-07-06"
+  "Last update": "2020-09-11"
 }

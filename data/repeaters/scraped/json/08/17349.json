@@ -6,7 +6,7 @@
   "Location": "Lakewood, Moffat Treatment Plant",
   "ST/PR": "CO",
   "Use": "OPEN",
-  "VOIP": "",
+  "VOIP": "W",
   "DGTL": "Y",
   "Mi": 90.08,
   "Dir": "N",
@@ -19,13 +19,16 @@
   "Uplink": 443.35,
   "YSF Digital Enabled": true,
   "DG-ID": "Open ↑ / Open ↓",
+  "WIRES-X": 60777,
   "County": "Jefferson",
   "Op Status": "On-Air",
-  "Coverage": "Denver Metro and surrounding",
+  "Coverage": "Denver Metro and surrounding 50 mi radius.",
   "Sponsor": "Denver Water Amateur Radio Club (DWARC)",
   "Affiliate": "https://www.skyhublink.com",
-  "Nets": "SBE SKYHUBLINK NET: Monday 19:00 MTN",
+  "Features": "Linked to SKYHUBLINK",
+  "Notes": "Linked to multiple repeaters around CO and the West US",
+  "Nets": "SBE SKYHUBLINK NET: Monday 19:00 MTN DWARC Weekly NET: Sunday 19:30 MTN",
   "Web links": "http://www.DWARC.com",
   "Coordination": "CCARC",
-  "Last update": "2020-06-20"
+  "Last update": "2020-10-19"
 }

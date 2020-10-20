@@ -6,7 +6,7 @@
   "Location": "Lakewood, Moffat Treatment Plant",
   "ST/PR": "CO",
   "Use": "OPEN",
-  "VOIP": "I",
+  "VOIP": "W",
   "DGTL": "",
   "Mi": 90.07,
   "Dir": "N",
@@ -19,13 +19,14 @@
   "Uplink": 147.81,
   "Uplink Tone": 100,
   "Downlink Tone": 100,
+  "WIRES-X": 46694,
   "County": "Jefferson",
   "Grid": "DM79KS",
   "Op Status": "On-Air",
+  "Coverage": 50,
   "Sponsor": "Denver Water Amateur Radio Club",
   "FM": "Yes; analog capable.",
   "Analog Bandwidth": "",
-  "IRLP": 3241,
   "Web links": "http://www.dwarc.com",
-  "Last update": "2020-01-23"
+  "Last update": "2020-10-19"
 }

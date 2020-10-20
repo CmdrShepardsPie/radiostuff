@@ -21,10 +21,11 @@
   "County": "Torrance",
   "Grid": "DM64TQ",
   "Op Status": "On-Air",
-  "Coverage": "Excellent coverage in Albuquerque, up to Santa Fe.",
-  "Sponsor": "W5NES",
+  "Coverage": "Excellent coverage in Albuquerque, up to Santa Fe. 70 mi radius.",
+  "Sponsor": "WB5NES",
   "FM": "Yes; analog capable.",
   "Analog Bandwidth": "",
+  "Notes": "Connected to the the Amigo Link system. K5BEN/N5IA 145.230 on Benson Ridge at Cloudcroft, NM and K5ELP 146.70 on South Comanche Peak at El Paso, TX and N5IA 147.040 on Little Floridas mountain at Deming, NM and W5AAM/K5ELP 442.825 at Canutillo, TX",
   "Coordination": "NMFCC",
-  "Last update": "2018-11-22"
+  "Last update": "2020-09-20"
 }

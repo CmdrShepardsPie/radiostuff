@@ -21,13 +21,14 @@
   "Downlink Tone": 88.5,
   "County": "Torrance",
   "Grid": "DM64TQ",
-  "Op Status": "On-Air",
+  "Op Status": "Off-Air",
   "Coverage": "Wide area.",
   "Sponsor": "Upper Rio FM Society",
   "Features": 9,
   "FM": "Yes; analog capable.",
   "Analog Bandwidth": "",
+  "Notes": "Down since 9/8 due to tower collapse",
   "Web links": "http://www.urfmsi.org/",
   "Coordination": "NMFCC",
-  "Last update": "2018-11-19"
+  "Last update": "2020-09-20"
 }

@@ -1,2 +1,2 @@
-Frequency,Offset,Tone,Call,Location,ST/PR,Use,VOIP,DGTL,Mi,Dir,,state_id,ID,Latitude,Longitude,Downlink,Uplink,Uplink Tone,County,Op Status,Sponsor,FM,Analog Bandwidth,Web links,Coordination,Last update
-224.4,-1.6,225.7,KF5PFO,"Taos, Picuris Peak",NM,OPEN,,,154,S,,35,15605,36.24700165,-105.65499878,224.4,222.8,225.7,Taos,On-Air,Taos ARC,Yes; analog capable.,,http://taosarc.org,NMFCC,2020-07-06
+Frequency,Offset,Tone,Call,Location,ST/PR,Use,VOIP,DGTL,Mi,Dir,,state_id,ID,Latitude,Longitude,Downlink,Uplink,Uplink Tone,County,Op Status,Sponsor,FM,Analog Bandwidth,Notes,Web links,Coordination,Last update
+224.4,-1.6,225.7,KF5PFO,"Taos, Picuris Peak",NM,OPEN,,,154,S,,35,15605,36.24700165,-105.65499878,224.4,222.8,225.7,Taos,On-Air,Taos ARC,Yes; analog capable.,,Linked to the Colorado Connection via Methodist Mountain,http://taosarc.org,NMFCC,2020-09-20

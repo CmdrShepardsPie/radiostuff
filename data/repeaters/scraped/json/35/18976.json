@@ -7,7 +7,7 @@
   "ST/PR": "NM",
   "Use": "OPEN",
   "VOIP": "",
-  "DGTL": "",
+  "DGTL": "S",
   "Mi": 118.11,
   "Dir": "SSW",
   "": "",
@@ -17,12 +17,16 @@
   "Longitude": -106.0189076,
   "Downlink": 442.075,
   "Uplink": 447.075,
+  "D-STAR Enabled": true,
+  "Node": "KF5PFO (B) Gateway Repeater",
+  "Sources": "jfindu lookup / dstar-users lookup",
   "County": "Rio Arriba",
   "Op Status": "On-Air",
   "Coverage": "Wide",
   "Sponsor": "Taos ARC",
   "FM": "Yes; analog capable.",
   "Analog Bandwidth": "",
+  "Notes": "KF5PFO-B",
   "Web links": "https://www.taosarc.org",
-  "Last update": "2020-08-22"
+  "Last update": "2020-08-28"
 }
