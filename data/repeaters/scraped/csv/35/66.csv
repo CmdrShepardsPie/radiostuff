@@ -1,2 +1,2 @@
-Frequency,Offset,Tone,Call,Location,ST/PR,Use,VOIP,DGTL,Mi,Dir,,state_id,ID,Latitude,Longitude,Downlink,Uplink,Uplink Tone,County,Grid,Op Status,Coverage,Sponsor,Features,FM,Analog Bandwidth,Links,Coordination,Last update
-147.24,0.6,67,NM5ML,"Cuba, Eureka Mesa",NM,OPEN,,,190.41,SSW,,35,66,36.0135994,-106.84400177,147.24,147.84,67,Sandoval,DM66NA,On-Air,Wide area.,,9,Yes; analog capable.,,Full-time to the Mega-Link System .,NMFCC,2018-01-07
+Frequency,Offset,Tone,Call,Location,ST/PR,Use,Mode,Mi,Dir,,state_id,ID,Latitude,Longitude,Downlink,Uplink,Uplink Tone,County,Grid,Op Status,Coverage,Sponsor,Features,FM,Analog Bandwidth,Links,Coordination,Last update
+147.24,0.6,67,NM5ML,"Cuba, Eureka Mesa",NM,OPEN,FM,190.41,SSW,,35,66,36.0135994,-106.84400177,147.24,147.84,67,Sandoval,DM66NA,On-Air,Wide area.,,9,Yes; analog capable.,,Full-time to the Mega-Link System .,NMFCC,2018-01-07

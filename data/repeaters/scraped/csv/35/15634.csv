@@ -1,2 +1,2 @@
-Frequency,Offset,Tone,Call,Location,ST/PR,Use,VOIP,DGTL,Mi,Dir,,state_id,ID,Latitude,Longitude,Downlink,Uplink,Uplink Tone,County,Op Status,Sponsor,FM,Analog Bandwidth,Coordination,Last update
-147.04,0.6,141.3,NM5EM,"Santa Rosa, Moon Ranch",NM,OPEN,,,186.99,SSE,,35,15634,34.93870163,-104.68199921,147.04,147.64,141.3,Guadalupe,On-Air,NMEMA ARC,Yes; analog capable.,,NMFCC,2017-08-25
+Frequency,Offset,Tone,Call,Location,ST/PR,Use,Mode,Mi,Dir,,state_id,ID,Latitude,Longitude,Downlink,Uplink,Uplink Tone,County,Op Status,Sponsor,FM,Analog Bandwidth,Coordination,Last update
+147.04,0.6,141.3,NM5EM,"Santa Rosa, Moon Ranch",NM,OPEN,FM,186.99,SSE,,35,15634,34.93870163,-104.68199921,147.04,147.64,141.3,Guadalupe,On-Air,NMEMA ARC,Yes; analog capable.,,NMFCC,2017-08-25

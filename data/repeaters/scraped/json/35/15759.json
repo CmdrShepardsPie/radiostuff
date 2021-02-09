@@ -2,12 +2,11 @@
   "Frequency": 442.05,
   "Offset": 5,
   "Tone": 100,
-  "Call": "K5BIQ",
+  "Call": "NM5BC",
   "Location": "Albuquerque, West Mesa",
   "ST/PR": "NM",
   "Use": "OPEN",
-  "VOIP": "A",
-  "DGTL": "",
+  "Mode": "FM AllStar",
   "Mi": 153.16,
   "Dir": "S",
   "": "",
@@ -25,7 +24,8 @@
   "FM": "Yes; analog capable.",
   "Analog Bandwidth": "",
   "AllStar": 28828,
+  "Nets": "BCARES NET, Thursday, 1900 MST/MDT",
   "Web links": "http://bc-ares.org/wordpress/",
   "Coordination": "NMFCC",
-  "Last update": "2018-06-16"
+  "Last update": "2021-01-29"
 }

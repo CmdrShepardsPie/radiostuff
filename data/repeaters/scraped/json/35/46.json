@@ -6,8 +6,7 @@
   "Location": "Belen, Capilla Peak",
   "ST/PR": "NM",
   "Use": "OPEN",
-  "VOIP": "",
-  "DGTL": "",
+  "Mode": "FM",
   "Mi": 180.69,
   "Dir": "S",
   "": "",
@@ -21,14 +20,14 @@
   "Downlink Tone": 88.5,
   "County": "Torrance",
   "Grid": "DM64TQ",
-  "Op Status": "Off-Air",
-  "Coverage": "Wide area.",
+  "Op Status": "On-Air",
+  "Coverage": "Wide area. (Limited temporarily)",
   "Sponsor": "Upper Rio FM Society",
   "Features": 9,
   "FM": "Yes; analog capable.",
   "Analog Bandwidth": "",
-  "Notes": "Down since 9/8 due to tower collapse",
+  "Notes": "Restored with temporary antenna after tower collapse, reduced range.",
   "Web links": "http://www.urfmsi.org/",
   "Coordination": "NMFCC",
-  "Last update": "2020-09-20"
+  "Last update": "2021-01-02"
 }

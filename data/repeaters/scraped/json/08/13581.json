@@ -1,13 +1,12 @@
 {
   "Frequency": 446.7375,
   "Offset": -5,
-  "Tone": "CC",
+  "Tone": "CC8",
   "Call": "K0RTS",
   "Location": "Genoa, Limon",
   "ST/PR": "CO",
   "Use": "OPEN",
-  "VOIP": "",
-  "DGTL": "D",
+  "Mode": "DMR",
   "Mi": 99.7,
   "Dir": "NE",
   "": "",
@@ -27,11 +26,11 @@
   "Central Regional": 2,
   "County": "Lincoln",
   "Grid": "DM89CI",
-  "Op Status": "On-Air",
+  "Op Status": "Off-Air",
   "Coverage": "I-70 H-40 H-287 Arriba, Genoa, Hugo, Limon 50 mile radius 50 mi radius.",
   "Sponsor": "K0RTS KC0VJD",
   "Affiliate": "RMHam",
   "Notes": "Colorado on TG700 Slot 1 Denver on TG720 Slot 2",
   "Coordination": "CCARC",
-  "Last update": "2020-06-21"
+  "Last update": "2021-02-09"
 }

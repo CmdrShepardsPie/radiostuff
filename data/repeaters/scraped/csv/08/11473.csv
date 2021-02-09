@@ -1,2 +1,2 @@
-Frequency,Offset,Tone,Call,Location,ST/PR,Use,VOIP,DGTL,Mi,Dir,,state_id,ID,Latitude,Longitude,Downlink,Uplink,D-STAR Enabled,Node,Sources,County,Grid,Op Status,Coverage,Sponsor,Features,Web links,Coordination,Last update
-446.85,-5,,K0PRA,Franktown,CO,OPEN,,S,71.62,NNE,,08,11473,39.39350128,-104.67500305,446.85,441.85,1,K0PRA (B) Repeater,jfindu lookup / dstar-users lookup,Douglas,DM79PJ,On-Air,,Parker Radio Association,D-Star B module,http://parkerradio.org,CCARC,2018-03-18
+Frequency,Offset,Tone,Call,Location,ST/PR,Use,Mode,Mi,Dir,,state_id,ID,Latitude,Longitude,Downlink,Uplink,D-STAR Enabled,Node,Sources,County,Grid,Op Status,Coverage,Sponsor,Features,Web links,Coordination,Last update
+446.85,-5,,K0PRA,Franktown,CO,OPEN,DSTAR,71.62,NNE,,08,11473,39.39350128,-104.67500305,446.85,441.85,1,K0PRA (B) Repeater,jfindu lookup / dstar-users lookup,Douglas,DM79PJ,On-Air,,Parker Radio Association,D-Star B module,http://parkerradio.org,CCARC,2018-03-18

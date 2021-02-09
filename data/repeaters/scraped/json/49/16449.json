@@ -6,8 +6,7 @@
   "Location": "Orem, Lake Mountain",
   "ST/PR": "UT",
   "Use": "OPEN",
-  "VOIP": "E",
-  "DGTL": "",
+  "Mode": "FM EchoLink",
   "Mi": 198.79,
   "Dir": "WNW",
   "": "ON - IDLE",
@@ -26,10 +25,10 @@
   "Features": 10,
   "FM": "Yes; analog capable.",
   "Analog Bandwidth": "",
-  "Links": "Full-time to 448.20000 (K7UVA) at Orem, Lake Mountain, UT . Full-time to 146.78000 (K7UVA) at Orem, Lake Mountain, UT .",
+  "Links": "Full-time to 146.78000 (K7UVA) at Orem, Lake Mountain, UT . Full-time to 448.20000 (K7UVA) at Orem, Lake Mountain, UT .",
   "EchoLink": 762028,
   "Nets": "Ladies Net: Tue 19:00 Youth Net: Thu 18:30 New Ham Net: Thu 19:00 Family History Net: Sat 20:0",
   "Web links": "http://uvarc.club",
   "Coordination": "UVHFS",
-  "Last update": "2017-09-30"
+  "Last update": "2020-11-23"
 }

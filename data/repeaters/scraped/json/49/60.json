@@ -6,8 +6,7 @@
   "Location": "Monticello, Abajo Peak",
   "ST/PR": "UT",
   "Use": "OPEN",
-  "VOIP": "EI",
-  "DGTL": "",
+  "Mode": "FM EchoLink IRLP",
   "Mi": 139.96,
   "Dir": "WNW",
   "": "ON - IDLE",
@@ -21,7 +20,7 @@
   "County": "San Juan",
   "Grid": "DM57GU",
   "Op Status": "On-Air",
-  "Coverage": "Wide area: Southeastern Utah, Southwest Colorado, Northwest New Mexico and extreme Northeastern Arizona, including Monticello, Blanding, and much of Canyonlands National Park.",
+  "Coverage": "Wide area: Southeastern Utah, Southwest Colorado, Northwest New Mexico and extreme Northeastern Arizona, including Monticello, Blanding, and much of Canyonlands National Park. 100 mi radius.",
   "Sponsor": "Sinbad Desert ARC",
   "Features": "Remote base.",
   "FM": "Yes; analog capable.",
@@ -32,5 +31,5 @@
   "Notes": 11.36,
   "Web links": "http://www.sdarc.us/repeaters/abajo.html",
   "Coordination": "UVHFS",
-  "Last update": "2017-04-07"
+  "Last update": "2020-12-27"
 }

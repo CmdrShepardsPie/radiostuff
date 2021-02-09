@@ -1,2 +1,2 @@
-Frequency,Offset,Tone,Call,Location,ST/PR,Use,VOIP,DGTL,Mi,Dir,,state_id,ID,Latitude,Longitude,Downlink,Uplink,Uplink Tone,Downlink Tone,County,Op Status,Coverage,Sponsor,FM,Analog Bandwidth,Web links,Last update
-146.73,-0.6,88.5,KB0VJJ,"Fort Collins, Buckhorn",CO,OPEN,,,149.48,N,,08,18995,40.611346,-105.324233,146.73,146.13,88.5,123,Larimer,On-Air,Wide Area. Coverage West less due to terrain.,Colorado Connection,Yes; analog capable.,,https://www.colcon.org,2020-10-14
+Frequency,Offset,Tone,Call,Location,ST/PR,Use,Mode,Mi,Dir,,state_id,ID,Latitude,Longitude,Downlink,Uplink,Uplink Tone,Downlink Tone,County,Op Status,Coverage,Sponsor,FM,Analog Bandwidth,Web links,Last update
+146.73,-0.6,88.5,KB0VJJ,"Fort Collins, Buckhorn",CO,OPEN,FM,149.48,N,,08,18995,40.611346,-105.324233,146.73,146.13,88.5,123,Larimer,On-Air,Wide Area. Coverage West less due to terrain.,Colorado Connection,Yes; analog capable.,,https://www.colcon.org,2020-10-14

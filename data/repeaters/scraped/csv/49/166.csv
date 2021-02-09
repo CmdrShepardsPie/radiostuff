@@ -1,2 +1,2 @@
-Frequency,Offset,Tone,Call,Location,ST/PR,Use,VOIP,DGTL,Mi,Dir,,state_id,ID,Latitude,Longitude,Downlink,Uplink,Uplink Tone,County,On-air,Coverage,Features,FM,Analog Bandwidth,Coordination,Last update
-449.75,-5,131.8,N7YFZ,Manti,UT,OPEN,,,180.42,NW,,49,166,39.2682991,-111.63600159,449.75,444.75,131.8,Sanpete,Unknown,"Manti and surroundings, as well as Nephi and Fairview to the north and Richfield to the south.",Closed autopatch.,Yes; analog capable.,,UVHFS,
+Frequency,Offset,Tone,Call,Location,ST/PR,Use,Mode,Mi,Dir,,state_id,ID,Latitude,Longitude,Downlink,Uplink,Uplink Tone,County,On-air,Coverage,Features,FM,Analog Bandwidth,Coordination,Last update
+449.75,-5,131.8,N7YFZ,Manti,UT,OPEN,FM,180.42,NW,,49,166,39.2682991,-111.63600159,449.75,444.75,131.8,Sanpete,Unknown,"Manti and surroundings, as well as Nephi and Fairview to the north and Richfield to the south.",Closed autopatch.,Yes; analog capable.,,UVHFS,

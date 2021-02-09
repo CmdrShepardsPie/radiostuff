@@ -6,8 +6,7 @@
   "Location": "Albuquerque",
   "ST/PR": "NM",
   "Use": "OPEN",
-  "VOIP": "",
-  "DGTL": "",
+  "Mode": "FM",
   "Mi": 152.61,
   "Dir": "S",
   "": "",
@@ -23,5 +22,5 @@
   "Sponsor": "KA5BIW",
   "FM": "Yes; analog capable.",
   "Analog Bandwidth": "",
-  "Last update": "2020-05-14"
+  "Last update": "2020-11-29"
 }

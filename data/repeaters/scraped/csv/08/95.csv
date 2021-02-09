@@ -1,2 +1,2 @@
-Frequency,Offset,Tone,Call,Location,ST/PR,Use,VOIP,DGTL,Mi,Dir,,state_id,ID,Latitude,Longitude,Downlink,Uplink,Uplink Tone,Downlink Tone,County,Grid,Op Status,Coverage,Sponsor,Features,FM,Analog Bandwidth,Coordination,Last update
-449.05,-5,107.2,WG0N,"Idaho Springs, Squaw Mountain",CO,OPEN,,,90.68,N,,08,95,39.74250031,-105.51399994,449.05,444.05,107.2,107.2,Denver,DM79FR,On-Air,Wide area.,WG0N,E-power.,Yes; analog capable.,,CCARC,2020-05-17
+Frequency,Offset,Tone,Call,Location,ST/PR,Use,Mode,Mi,Dir,,state_id,ID,Latitude,Longitude,Downlink,Uplink,Uplink Tone,Downlink Tone,County,Grid,Op Status,Coverage,Sponsor,Features,FM,Analog Bandwidth,Coordination,Last update
+449.05,-5,107.2,WG0N,"Idaho Springs, Squaw Mountain",CO,OPEN,FM,90.68,N,,08,95,39.74250031,-105.51399994,449.05,444.05,107.2,107.2,Denver,DM79FR,On-Air,Wide area.,WG0N,E-power.,Yes; analog capable.,,CCARC,2020-05-17

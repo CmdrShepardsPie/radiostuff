@@ -1,2 +1,2 @@
-Frequency,Offset,Tone,Call,Location,ST/PR,Use,VOIP,DGTL,Mi,Dir,,state_id,ID,Latitude,Longitude,Downlink,Uplink,Uplink Tone,County,Op Status,Coverage,Sponsor,Features,FM,Analog Bandwidth,Coordination,Last update
-146.67,-0.6,107.2,K0CL,Snowmass Village,CO,OPEN,,,106.19,WNW,,08,211,39.21310043,-106.93699646,146.67,146.07,107.2,Pitkin,On-Air,Wide area.,Ski Country ARC,Linked.,Yes; analog capable.,,CCARC,2012-11-10
+Frequency,Offset,Tone,Call,Location,ST/PR,Use,Mode,Mi,Dir,,state_id,ID,Latitude,Longitude,Downlink,Uplink,Uplink Tone,County,Op Status,Coverage,Sponsor,Features,FM,Analog Bandwidth,Coordination,Last update
+146.67,-0.6,107.2,K0CL,Snowmass Village,CO,OPEN,FM,106.19,WNW,,08,211,39.21310043,-106.93699646,146.67,146.07,107.2,Pitkin,On-Air,Wide area.,Ski Country ARC,Linked.,Yes; analog capable.,,CCARC,2012-11-10

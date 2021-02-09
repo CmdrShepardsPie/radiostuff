@@ -6,8 +6,7 @@
   "Location": "Vernal, Uintah County EOC",
   "ST/PR": "UT",
   "Use": "OPEN",
-  "VOIP": "I",
-  "DGTL": "",
+  "Mode": "FM IRLP",
   "Mi": 182.5,
   "Dir": "WNW",
   "": "",
@@ -19,11 +18,11 @@
   "Uplink": 444.9,
   "Uplink Tone": 136.5,
   "County": "Uintah",
-  "On-air": "Unknown",
+  "Op Status": "On-Air",
   "Coverage": "Vernal, Roosevelt, Duchesne and other Uintah basin communities.",
   "Sponsor": "Borderline Amateur Radio Club",
   "FM": "Yes; analog capable.",
   "Analog Bandwidth": "",
   "IRLP": 7705,
-  "Last update": "2015-07-04"
+  "Last update": "2020-11-14"
 }

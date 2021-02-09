@@ -1,2 +1,2 @@
-Frequency,Offset,Tone,Call,Location,ST/PR,Use,VOIP,DGTL,Mi,Dir,,state_id,ID,Latitude,Longitude,Downlink,Uplink,County,Op Status,Coverage,Sponsor,FM,Analog Bandwidth,Links,IRLP,Coordination,Last update
-442.725,5,,KD0ARW,Phillipsburg,KS,OPEN,I,,167.32,SE,,20,6210,39.7560997,-99.3239975,442.725,447.725,Phillips,On-Air,Local.,KD0ARW,Yes; analog capable.,,"Full-time to 147.12000 (AA0HJ) at Phillipsburg, KS .",3682,Kansas Repeater Council,2020-03-07
+Frequency,Offset,Tone,Call,Location,ST/PR,Use,Mode,Mi,Dir,,state_id,ID,Latitude,Longitude,Downlink,Uplink,County,Op Status,Coverage,Sponsor,FM,Analog Bandwidth,Links,IRLP,Coordination,Last update
+442.725,5,,KD0ARW,Phillipsburg,KS,OPEN,FM IRLP,167.32,SE,,20,6210,39.7560997,-99.3239975,442.725,447.725,Phillips,On-Air,Local.,KD0ARW,Yes; analog capable.,,"Full-time to 147.12000 (AA0HJ) at Phillipsburg, KS .",3682,Kansas Repeater Council,2020-03-07

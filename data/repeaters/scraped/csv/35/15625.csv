@@ -1,2 +1,2 @@
-Frequency,Offset,Tone,Call,Location,ST/PR,Use,VOIP,DGTL,Mi,Dir,,state_id,ID,Latitude,Longitude,Downlink,Uplink,Uplink Tone,Downlink Tone,County,Grid,Op Status,Coverage,Sponsor,FM,Analog Bandwidth,Web links,Coordination,Last update
-146.64,-0.6,67,K5URR,"Grants, MW Ridge",NM,OPEN,,,147.48,SSW,,35,15625,35.18880081,-107.59999847,146.64,146.04,67,67,Bernalillo,DM65EE,On-Air,Wide Area,URFMSI,Yes; analog capable.,,http://www.urfmsi.org,NMFCC,2018-05-03
+Frequency,Offset,Tone,Call,Location,ST/PR,Use,Mode,Mi,Dir,,state_id,ID,Latitude,Longitude,Downlink,Uplink,Uplink Tone,Downlink Tone,County,Grid,Op Status,Coverage,Sponsor,FM,Analog Bandwidth,Web links,Coordination,Last update
+146.64,-0.6,67,K5URR,"Grants, MW Ridge",NM,OPEN,FM,147.48,SSW,,35,15625,35.18880081,-107.59999847,146.64,146.04,67,67,Bernalillo,DM65EE,On-Air,Wide Area,URFMSI,Yes; analog capable.,,http://www.urfmsi.org,NMFCC,2018-05-03

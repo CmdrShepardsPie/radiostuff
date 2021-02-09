@@ -1,2 +1,2 @@
-Frequency,Offset,Tone,Call,Location,ST/PR,Use,VOIP,DGTL,Mi,Dir,,state_id,ID,Latitude,Longitude,Downlink,Uplink,Uplink Tone,County,Grid,Op Status,Sponsor,Features,FM,Analog Bandwidth,Coordination,Last update
-449.8,-5,67,K5FIQ,"Albuquerque, Op Ctr",NM,OPEN,,,154.63,S,,35,40,35.05780029,-106.58699799,449.8,444.8,67,Bernalillo,DM65QB,On-Air,Upper Rio FM Soc,5,Yes; analog capable.,,NMFCC,2017-07-16
+Frequency,Offset,Tone,Call,Location,ST/PR,Use,Mode,Mi,Dir,,state_id,ID,Latitude,Longitude,Downlink,Uplink,Uplink Tone,County,Grid,Op Status,Sponsor,Features,FM,Analog Bandwidth,Coordination,Last update
+449.8,-5,67,K5FIQ,"Albuquerque, Op Ctr",NM,OPEN,FM,154.63,S,,35,40,35.05780029,-106.58699799,449.8,444.8,67,Bernalillo,DM65QB,On-Air,Upper Rio FM Soc,5,Yes; analog capable.,,NMFCC,2017-07-16

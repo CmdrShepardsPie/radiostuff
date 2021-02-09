@@ -1,2 +1,2 @@
-Frequency,Offset,Tone,Call,Location,ST/PR,Use,VOIP,DGTL,Mi,Dir,,state_id,ID,Latitude,Longitude,Downlink,Uplink,Uplink Tone,County,Grid,Op Status,Coverage,Sponsor,Affiliate,FM,Analog Bandwidth,Web links,Coordination,Last update
-147.38,0.6,91.5,N7RDZ,Winslow,AZ,OPEN,,,199.14,SW,,04,176,35.02420044,-110.6969986,147.38,147.98,91.5,Navajo,DM45pa,On-Air,I-40 15 mi radius.,N7RDZ,Arizona Traffic And Emergency Net,Yes; analog capable.,,N7RDZ,ARCA,2019-08-28
+Frequency,Offset,Tone,Call,Location,ST/PR,Use,Mode,Mi,Dir,,state_id,ID,Latitude,Longitude,Downlink,Uplink,Uplink Tone,County,Grid,Op Status,Coverage,Sponsor,Affiliate,FM,Analog Bandwidth,Web links,Coordination,Last update
+147.38,0.6,91.5,N7RDZ,Winslow,AZ,OPEN,FM,199.14,SW,,04,176,35.02420044,-110.6969986,147.38,147.98,91.5,Navajo,DM45pa,Off-Air,I-40 15 mi radius.,N7RDZ,Arizona Traffic And Emergency Net,Yes; analog capable.,,N7RDZ,ARCA,2021-01-08

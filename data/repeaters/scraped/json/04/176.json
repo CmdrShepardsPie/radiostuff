@@ -6,8 +6,7 @@
   "Location": "Winslow",
   "ST/PR": "AZ",
   "Use": "OPEN",
-  "VOIP": "",
-  "DGTL": "",
+  "Mode": "FM",
   "Mi": 199.14,
   "Dir": "SW",
   "": "",
@@ -20,7 +19,7 @@
   "Uplink Tone": 91.5,
   "County": "Navajo",
   "Grid": "DM45pa",
-  "Op Status": "On-Air",
+  "Op Status": "Off-Air",
   "Coverage": "I-40 15 mi radius.",
   "Sponsor": "N7RDZ",
   "Affiliate": "Arizona Traffic And Emergency Net",
@@ -28,5 +27,5 @@
   "Analog Bandwidth": "",
   "Web links": "N7RDZ",
   "Coordination": "ARCA",
-  "Last update": "2019-08-28"
+  "Last update": "2021-01-08"
 }

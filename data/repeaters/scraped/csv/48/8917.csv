@@ -1,2 +1,2 @@
-Frequency,Offset,Tone,Call,Location,ST/PR,Use,VOIP,DGTL,Mi,Dir,,state_id,ID,Latitude,Longitude,Downlink,Uplink,Uplink Tone,County,Grid,Op Status,Coverage,FM,Analog Bandwidth,Last update
-444.275,5,127.3,KE5NCA,Clarendon,TX,OPEN,,,187.5,SSE,,48,8917,35.07640076,-100.89299774,444.275,449.275,127.3,Donley,DM95NB,On-Air,100,Yes; analog capable.,,2013-04-29
+Frequency,Offset,Tone,Call,Location,ST/PR,Use,Mode,Mi,Dir,,state_id,ID,Latitude,Longitude,Downlink,Uplink,Uplink Tone,County,Grid,Op Status,Coverage,FM,Analog Bandwidth,Last update
+444.275,5,127.3,KE5NCA,Clarendon,TX,OPEN,FM,187.5,SSE,,48,8917,35.07640076,-100.89299774,444.275,449.275,127.3,Donley,DM95NB,On-Air,100,Yes; analog capable.,,2013-04-29

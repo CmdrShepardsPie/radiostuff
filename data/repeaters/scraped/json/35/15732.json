@@ -1,13 +1,12 @@
 {
   "Frequency": 442.25,
   "Offset": 5,
-  "Tone": "CC",
+  "Tone": "CC1",
   "Call": "WA5IHL",
-  "Location": "Albuquerque",
+  "Location": "Albuquerque, Sandia Crest",
   "ST/PR": "NM",
   "Use": "OPEN",
-  "VOIP": "",
-  "DGTL": "D",
+  "Mode": "DMR",
   "Mi": 153.26,
   "Dir": "S",
   "": 2,
@@ -33,8 +32,10 @@
   "Southwest USA": 2,
   "County": "Bernalillo",
   "Op Status": "On-Air",
-  "Coverage": "Albuquerque",
+  "Coverage": "Albuquerque I-25, I-40, US-550, NM-41, US-285 100 mi radius.",
+  "Sponsor": "AZ TRBO",
+  "Features": "TS TG Name 1 1 World Wide (PTT), 1 13 World Wide English, 1 3 North America (PTT), 2 2 NM-AZ-ELP all repeaters - also called Local 2, 2 9 Alamogordo, El Paso, Roswell, T or C - also called Local 9, 2 3100 Bridge (PTT), 2 3104 Arizona, 2 3135 New Mexico, 2",
   "Web links": "http://www.aztrbonet.com/MinimalNetwatch",
   "Coordination": "NMFCC",
-  "Last update": "2019-12-08"
+  "Last update": "2020-12-26"
 }

@@ -6,8 +6,7 @@
   "Location": "Gilcrest",
   "ST/PR": "CO",
   "Use": "OPEN",
-  "VOIP": "I",
-  "DGTL": "",
+  "Mode": "FM IRLP",
   "Mi": 128.22,
   "Dir": "NNE",
   "": "",
@@ -28,5 +27,5 @@
   "IRLP": 3839,
   "Web links": "http://www.weldamateurradio.org/",
   "Coordination": "CCARC",
-  "Last update": "2020-07-08"
+  "Last update": "2021-01-30"
 }

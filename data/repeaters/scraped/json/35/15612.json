@@ -6,8 +6,7 @@
   "Location": "Taos, Picuris Peak",
   "ST/PR": "NM",
   "Use": "OPEN",
-  "VOIP": "",
-  "DGTL": "",
+  "Mode": "FM",
   "Mi": 154.05,
   "Dir": "S",
   "": "",
@@ -20,11 +19,11 @@
   "Uplink Tone": 123,
   "County": "Taos",
   "Grid": "DM76EF",
-  "Op Status": "On-Air",
+  "Op Status": "Off-Air",
   "Sponsor": "Taos ARC",
   "Features": "Linked to 147.34, E-Power.",
   "FM": "Yes; analog capable.",
   "Analog Bandwidth": "",
   "Coordination": "NMFCC",
-  "Last update": "2018-05-21"
+  "Last update": "2020-12-29"
 }

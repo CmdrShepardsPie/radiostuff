@@ -6,8 +6,7 @@
   "Location": "Fort Collins, CSU Durward Hall",
   "ST/PR": "CO",
   "Use": "OPEN",
-  "VOIP": "",
-  "DGTL": "S",
+  "Mode": "DSTAR",
   "Mi": 147.23,
   "Dir": "N",
   "": "",
@@ -22,11 +21,11 @@
   "Sources": "jfindu lookup / dstar-users lookup",
   "County": "Larimer",
   "Grid": "DN70KN",
-  "Op Status": "On-Air",
+  "Op Status": "Off-Air",
   "Coverage": "Fort Collins Local Area",
   "Sponsor": "W0QEY CSU",
   "Features": "D-Star Gateway",
   "Notes": "Free Star",
   "Coordination": "CCARC",
-  "Last update": "2017-05-31"
+  "Last update": "2020-10-27"
 }

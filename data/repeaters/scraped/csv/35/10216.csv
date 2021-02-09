@@ -1,2 +1,2 @@
-Frequency,Offset,Tone,Call,Location,ST/PR,Use,VOIP,DGTL,Mi,Dir,,state_id,ID,Latitude,Longitude,Downlink,Uplink,Uplink Tone,County,Grid,Op Status,Sponsor,FM,Analog Bandwidth,IRLP,Last update
-449.275,-5,146.2,K9GAJ,Santa Fe,NM,OPEN,I,,197.93,SSW,,35,10216,35.65100098,-105.99199677,449.275,444.275,146.2,Santa Fe,DM75AP,On-Air,Fred Homuth,Yes; analog capable.,,3939,2020-05-14
+Frequency,Offset,Tone,Call,Location,ST/PR,Use,Mode,Mi,Dir,,state_id,ID,Latitude,Longitude,Downlink,Uplink,Uplink Tone,County,Grid,Op Status,Sponsor,FM,Analog Bandwidth,IRLP,Last update
+449.275,-5,146.2,K9GAJ,Santa Fe,NM,OPEN,FM IRLP,197.93,SSW,,35,10216,35.65100098,-105.99199677,449.275,444.275,146.2,Santa Fe,DM75AP,On-Air,Fred Homuth,Yes; analog capable.,,3939,2020-05-14

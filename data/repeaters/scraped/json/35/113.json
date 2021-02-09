@@ -6,8 +6,7 @@
   "Location": "Las Vegas",
   "ST/PR": "NM",
   "Use": "OPEN",
-  "VOIP": "",
-  "DGTL": "",
+  "Mode": "FM",
   "Mi": 197.31,
   "Dir": "S",
   "": "",
@@ -18,12 +17,12 @@
   "Downlink": 145.45,
   "Uplink": 144.85,
   "County": "San Miguel",
-  "Op Status": "On-Air",
+  "Op Status": "Off-Air",
   "Coverage": "Wide area.",
   "Sponsor": "KB5WEZ",
   "Features": "E-power, linked.",
   "FM": "Yes; analog capable.",
   "Analog Bandwidth": "",
   "Coordination": "NMFCC",
-  "Last update": "2017-08-22"
+  "Last update": "2021-02-09"
 }

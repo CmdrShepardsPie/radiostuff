@@ -1,2 +1,2 @@
-Frequency,Offset,Tone,Call,Location,ST/PR,Use,VOIP,DGTL,Mi,Dir,,state_id,ID,Latitude,Longitude,Downlink,Uplink,Uplink Tone,County,Op Status,Coverage,Features,FM,Analog Bandwidth,Coordination,Last update
-442.375,5,123,K0ECT,Dodge City,KS,OPEN,,,176.11,ESE,,20,4041,37.75279999,-100.01699829,442.375,447.375,123,Ford,On-Air,US-50,Autopatch.,Yes; analog capable.,,Kansas Repeater Council,2019-09-02
+Frequency,Offset,Tone,Call,Location,ST/PR,Use,Mode,Mi,Dir,,state_id,ID,Latitude,Longitude,Downlink,Uplink,Uplink Tone,County,Op Status,Coverage,Features,FM,Analog Bandwidth,Coordination,Last update
+442.375,5,123,K0ECT,Dodge City,KS,OPEN,FM,176.11,ESE,,20,4041,37.75279999,-100.01699829,442.375,447.375,123,Ford,On-Air,US-50,Autopatch.,Yes; analog capable.,,Kansas Repeater Council,2019-09-02

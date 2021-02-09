@@ -1,2 +1,2 @@
-Frequency,Offset,Tone,Call,Location,ST/PR,Use,VOIP,DGTL,Mi,Dir,,state_id,ID,Latitude,Longitude,Downlink,Uplink,Uplink Tone,County,Grid,Op Status,Sponsor,Features,FM,Analog Bandwidth,Last update
-444.825,5,100,W0KAV,Scottsbluff,NE,OPEN,,,114.5,NW,,31,111,41.88710022,-103.66400146,444.825,449.825,100,Scotts Bluff,DN81EV,On-Air,W0KAV/KW0R,"Autopatch, e-power.",Yes; analog capable.,,2020-01-05
+Frequency,Offset,Tone,Call,Location,ST/PR,Use,Mode,Mi,Dir,,state_id,ID,Latitude,Longitude,Downlink,Uplink,Uplink Tone,County,Grid,Op Status,Sponsor,Features,FM,Analog Bandwidth,Last update
+444.825,5,100,W0KAV,Scottsbluff,NE,OPEN,FM,114.5,NW,,31,111,41.88710022,-103.66400146,444.825,449.825,100,Scotts Bluff,DN81EV,On-Air,W0KAV/KW0R,"Autopatch, e-power.",Yes; analog capable.,,2020-01-05

@@ -6,8 +6,7 @@
   "Location": "Santa Fe, Tesuque Peak",
   "ST/PR": "NM",
   "Use": "OPEN",
-  "VOIP": "",
-  "DGTL": "",
+  "Mode": "FM",
   "Mi": 186.63,
   "Dir": "S",
   "": "",
@@ -20,7 +19,7 @@
   "Uplink Tone": 162.2,
   "County": "Santa Fe",
   "Grid": "DM75CS",
-  "Op Status": "Off-Air",
+  "Op Status": "On-Air",
   "Coverage": "Wide area.",
   "Sponsor": "Santa Fe ARC",
   "Features": "Autopatch, e-power.",
@@ -29,5 +28,5 @@
   "Links": "Full-time to 442.82500 (KB5ZQE) at Santa Fe, Tesuque Peak, NM .",
   "Web links": "SFARC Repeaters",
   "Coordination": "NMFCC",
-  "Last update": "2020-05-14"
+  "Last update": "2021-01-02"
 }

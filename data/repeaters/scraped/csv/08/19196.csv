@@ -1,2 +1,2 @@
-Frequency,Offset,Tone,Call,Location,ST/PR,Use,VOIP,DGTL,Mi,Dir,,state_id,ID,Latitude,Longitude,Downlink,Uplink,Uplink Tone,County,Grid,Op Status,Coverage,Sponsor,Affiliate,FM,Analog Bandwidth,Last update
-447.9,-5,100,N0HQD,South Fork,CO,OPEN,,,93.94,SW,,08,19196,37.6700041,-106.6397638,447.9,442.9,100,Rio Grande,DM67rq,On-Air,San Luis Valley 25 mi radius.,N0HQD,South Fork,Yes; analog capable.,25,2020-10-11
+Frequency,Offset,Tone,Call,Location,ST/PR,Use,Mode,Mi,Dir,,state_id,ID,Latitude,Longitude,Downlink,Uplink,Uplink Tone,County,Grid,Op Status,Coverage,Sponsor,Affiliate,FM,Analog Bandwidth,Last update
+447.9,-5,100,N0HQD,South Fork,CO,OPEN,FM,93.94,SW,,08,19196,37.6700041,-106.6397638,447.9,442.9,100,Rio Grande,DM67rq,On-Air,San Luis Valley 25 mi radius.,N0HQD,South Fork,Yes; analog capable.,25,2020-10-11

@@ -1,2 +1,2 @@
-Frequency,Offset,Tone,Call,Location,ST/PR,Use,VOIP,DGTL,Mi,Dir,,state_id,ID,Latitude,Longitude,Downlink,Uplink,Uplink Tone,County,Op Status,Sponsor,Features,FM,Analog Bandwidth,IRLP,Last update
-147.24,0.6,123,W0CUO,Elba,NE,OPEN,I,,193.4,ESE,,31,16,41.28499985,-98.56829834,147.24,147.84,123,Howard,On-Air,Grand Island Amateur Radio Society (GIARS),"E-power, linked.",Yes; analog capable.,,7479,2019-05-04
+Frequency,Offset,Tone,Call,Location,ST/PR,Use,Mode,Mi,Dir,,state_id,ID,Latitude,Longitude,Downlink,Uplink,Uplink Tone,County,Op Status,Sponsor,Features,FM,Analog Bandwidth,IRLP,Last update
+147.24,0.6,123,W0CUO,Elba,NE,OPEN,FM IRLP,193.4,ESE,,31,16,41.28499985,-98.56829834,147.24,147.84,123,Howard,On-Air,Grand Island Amateur Radio Society (GIARS),"E-power, linked.",Yes; analog capable.,,7479,2019-05-04

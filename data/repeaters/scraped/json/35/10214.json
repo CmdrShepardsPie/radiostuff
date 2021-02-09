@@ -6,8 +6,7 @@
   "Location": "Rio Rancho",
   "ST/PR": "NM",
   "Use": "OPEN",
-  "VOIP": "I",
-  "DGTL": "",
+  "Mode": "FM IRLP",
   "Mi": 144.1,
   "Dir": "S",
   "": "",
@@ -20,10 +19,10 @@
   "Uplink Tone": 162.2,
   "County": "Sandoval",
   "Grid": "DM65PE",
-  "Op Status": "On-Air",
+  "Op Status": "Off-Air",
   "Sponsor": "Adrian Miura",
   "FM": "Yes; analog capable.",
   "Analog Bandwidth": "",
   "IRLP": 7706,
-  "Last update": "2014-11-23"
+  "Last update": "2021-01-21"
 }

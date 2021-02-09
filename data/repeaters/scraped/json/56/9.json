@@ -6,8 +6,7 @@
   "Location": "Laramie, Beacon Hill",
   "ST/PR": "WY",
   "Use": "OPEN",
-  "VOIP": "",
-  "DGTL": "",
+  "Mode": "FM",
   "Mi": 198.71,
   "Dir": "N",
   "": "",
@@ -18,13 +17,14 @@
   "Downlink": 146.82,
   "Uplink": 146.22,
   "Uplink Tone": 114.8,
+  "Downlink Tone": 114.8,
   "County": "Albany",
   "Op Status": "On-Air",
-  "Coverage": "Wide area.",
+  "Coverage": "Wide area. Eastern Albany County, Laramie County, Parts of Southern Platte and Goshen County. 50 mi radius.",
   "Sponsor": "Shy-Wy Amateur Radio Club",
   "FM": "Yes; analog capable.",
   "Analog Bandwidth": "",
-  "Nets": "Shy-WY ARC: Thu at 19:00.",
+  "Links": "Full-time to 146.77500 (KC7SNO) at Cheyenne, Denver Hill, WY . Full-time to 147.16500 (KC7SNO) at Albin, Peterson Hill, WY .",
   "Coordination": "WRCG",
-  "Last update": "2019-06-13"
+  "Last update": "2021-02-01"
 }

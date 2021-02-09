@@ -1,2 +1,2 @@
-Frequency,Offset,Tone,Call,Location,ST/PR,Use,VOIP,DGTL,Mi,Dir,,state_id,ID
-145.01,0,,W5SCA,"Albuquerque, Sandia Crest",NM,OPEN,,,152.31,S,,35,16939
+Frequency,Offset,Tone,Call,Location,ST/PR,Use,Mode,Mi,Dir,,state_id,ID
+145.01,0,,W5SCA,"Albuquerque, Sandia Crest",NM,OPEN,FM,152.31,S,,35,16939

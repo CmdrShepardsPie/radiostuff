@@ -6,8 +6,7 @@
   "Location": "Tijeras, Raven Road",
   "ST/PR": "NM",
   "Use": "OPEN",
-  "VOIP": "E",
-  "DGTL": "",
+  "Mode": "FM EchoLink",
   "Mi": 162.16,
   "Dir": "SSE",
   "": "ON - IDLE",
@@ -30,5 +29,5 @@
   "Links": "Full-time to 147.30000 (W5TWY) at Ora Vista, NM .",
   "EchoLink": 880130,
   "Coordination": "NMFCC",
-  "Last update": "2017-05-25"
+  "Last update": "2020-12-27"
 }

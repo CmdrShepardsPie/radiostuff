@@ -1,2 +1,2 @@
-Frequency,Offset,Tone,Call,Location,ST/PR,Use,VOIP,DGTL,Mi,Dir,,state_id,ID,Latitude,Longitude,Downlink,Uplink,Uplink Tone,County,Op Status,Affiliate,Features,FM,Analog Bandwidth,Links,Web links,Last update
-147.14,0.6,67,NM5ML,"Taos, Ski Valley",NM,OPEN,,,128.51,S,,35,11288,36.59780121,-105.44499969,147.14,147.74,67,Taos,On-Air,TaosARC,11,Yes; analog capable.,,Full-time to the Mega-Link System .,http://www.taosarc.com/,2017-07-25
+Frequency,Offset,Tone,Call,Location,ST/PR,Use,Mode,Mi,Dir,,state_id,ID,Latitude,Longitude,Downlink,Uplink,Uplink Tone,County,Op Status,Affiliate,Features,FM,Analog Bandwidth,Links,Web links,Last update
+147.14,0.6,67,NM5ML,"Taos, Ski Valley",NM,OPEN,FM,128.51,S,,35,11288,36.59780121,-105.44499969,147.14,147.74,67,Taos,On-Air,TaosARC,11,Yes; analog capable.,,Full-time to the Mega-Link System .,http://www.taosarc.com/,2017-07-25

@@ -6,8 +6,7 @@
   "Location": "Fort Collins, Buckhorn Mountain",
   "ST/PR": "CO",
   "Use": "OPEN",
-  "VOIP": "",
-  "DGTL": "",
+  "Mode": "FM",
   "Mi": 149.46,
   "Dir": "N",
   "": "",
@@ -25,7 +24,7 @@
   "Sponsor": "Northern Colorado Amateur Radio Club",
   "FM": "Yes; analog capable.",
   "Analog Bandwidth": "",
-  "Links": "Linkable to 146.85000 (W0UPS) at Greeley, UNC, CO . Linkable to 146.62500 (W0UPS) at Fort Collins, Buckhorn Mountain, CO . Full-time to 224.84000 (W0UPS) at Fort Collins, Buckhorn Mountain, CO .",
+  "Links": "Linkable to 146.62500 (W0UPS) at Fort Collins, Buckhorn Mountain, CO . Linkable to 146.85000 (W0UPS) at Greeley, UNC, CO . Full-time to 224.84000 (W0UPS) at Fort Collins, Buckhorn Mountain, CO .",
   "Web links": "http://ncarc.net/",
   "Last update": "2020-06-14"
 }

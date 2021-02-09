@@ -1,2 +1,2 @@
-Frequency,Offset,Tone,Call,Location,ST/PR,Use,VOIP,DGTL,Mi,Dir,,state_id,ID,Latitude,Longitude,Downlink,Uplink,Uplink Tone,Downlink Tone,County,Op Status,Coverage,Sponsor,Features,FM,Analog Bandwidth,IRLP,Web links,Coordination,Last update
-145.34,-0.6,103.5,KE4GUQ,Evergreen,CO,OPEN,I,,81.95,N,,08,73,39.63330078,-105.31700134,145.34,144.74,103.5,127.3,Jefferson,On-Air,Wide area.,Rocky Mtn Radio League,E-power.,Yes; analog capable.,,3350,Repeater,CCARC,2019-08-15
+Frequency,Offset,Tone,Call,Location,ST/PR,Use,Mode,Mi,Dir,,state_id,ID,Latitude,Longitude,Downlink,Uplink,Uplink Tone,Downlink Tone,County,Op Status,Coverage,Sponsor,Features,FM,Analog Bandwidth,IRLP,Web links,Coordination,Last update
+145.34,-0.6,103.5,KE4GUQ,Evergreen,CO,OPEN,FM IRLP,81.95,N,,08,73,39.63330078,-105.31700134,145.34,144.74,103.5,127.3,Jefferson,On-Air,Wide area.,Rocky Mtn Radio League,E-power.,Yes; analog capable.,,3350,Repeater,CCARC,2019-08-15

@@ -1,2 +1,2 @@
-Frequency,Offset,Tone,Call,Location,ST/PR,Use,VOIP,DGTL,Mi,Dir,,state_id,ID,Latitude,Longitude,Downlink,Uplink,Uplink Tone,County,Op Status,Sponsor,FM,Analog Bandwidth,Last update
-224.38,-1.6,100,KA5BIW,Albuquerque,NM,OPEN,,,152.61,S,,35,17679,35.09590149,-106.52500153,224.38,222.78,100,Bernalillo,On-Air,KA5BIW,Yes; analog capable.,,2020-05-14
+Frequency,Offset,Tone,Call,Location,ST/PR,Use,Mode,Mi,Dir,,state_id,ID,Latitude,Longitude,Downlink,Uplink,Uplink Tone,County,Op Status,Sponsor,FM,Analog Bandwidth,Last update
+224.38,-1.6,100,KA5BIW,Albuquerque,NM,OPEN,FM,152.61,S,,35,17679,35.09590149,-106.52500153,224.38,222.78,100,Bernalillo,On-Air,KA5BIW,Yes; analog capable.,,2020-11-29

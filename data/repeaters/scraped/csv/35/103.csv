@@ -1,2 +1,2 @@
-Frequency,Offset,Tone,Call,Location,ST/PR,Use,VOIP,DGTL,Mi,Dir,,state_id,ID,Latitude,Longitude,Downlink,Uplink,Uplink Tone,County,On-air,FM,Analog Bandwidth,Coordination,Last update
-442.125,5,107.2,N9PGQ,La Cueva,NM,OPEN,,,199.47,S,,35,103,35.59109879,-105.73200226,442.125,447.125,107.2,Santa Fe,Unknown,Yes; analog capable.,,NMFCC,
+Frequency,Offset,Tone,Call,Location,ST/PR,Use,Mode,Mi,Dir,,state_id,ID,Latitude,Longitude,Downlink,Uplink,Uplink Tone,County,On-air,FM,Analog Bandwidth,Coordination,Last update
+442.125,5,107.2,N9PGQ,La Cueva,NM,OPEN,FM,199.47,S,,35,103,35.59109879,-105.73200226,442.125,447.125,107.2,Santa Fe,Unknown,Yes; analog capable.,,NMFCC,

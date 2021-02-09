@@ -6,8 +6,7 @@
   "Location": "Santa Fe, Food Depot",
   "ST/PR": "NM",
   "Use": "OPEN",
-  "VOIP": "",
-  "DGTL": "S",
+  "Mode": "DSTAR",
   "Mi": 197.5,
   "Dir": "SSW",
   "": "",
@@ -22,12 +21,12 @@
   "Sources": "jfindu lookup / dstar-users lookup",
   "County": "Santa Fe",
   "Grid": "DM75AP",
-  "Op Status": "On-Air",
+  "Op Status": "Off-Air",
   "Coverage": "Local Santa Fe",
   "Sponsor": "W5SF",
   "Affiliate": "Santa Fe Amateur Radio CLub",
   "Nets": "New Mexico D-Star net on Thursday @ 2000 MST D* REF05 A",
   "Web links": "https://dstar.sfares.org/",
   "Coordination": "NMFCC",
-  "Last update": "2020-05-14"
+  "Last update": "2021-01-02"
 }

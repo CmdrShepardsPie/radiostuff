@@ -6,8 +6,7 @@
   "Location": "Hugoton",
   "ST/PR": "KS",
   "Use": "OPEN",
-  "VOIP": "",
-  "DGTL": "",
+  "Mode": "FM",
   "Mi": 193.12,
   "Dir": "SE",
   "": "",
@@ -19,9 +18,9 @@
   "Uplink": 146.01,
   "Uplink Tone": 123,
   "Downlink Tone": 123,
-  "County": "Graham",
+  "County": "Stevens",
   "Op Status": "On-Air",
   "FM": "Yes; analog capable.",
   "Analog Bandwidth": "",
-  "Last update": "2020-03-01"
+  "Last update": "2021-01-04"
 }

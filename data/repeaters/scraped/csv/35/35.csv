@@ -1,2 +1,2 @@
-Frequency,Offset,Tone,Call,Location,ST/PR,Use,VOIP,DGTL,Mi,Dir,,state_id,ID,Latitude,Longitude,Downlink,Uplink,Uplink Tone,County,Grid,Op Status,Sponsor,FM,Analog Bandwidth,Links,EchoLink,Coordination,Last update
-444.15,5,100,W5AOX,Sandia park,NM,OPEN,E,,150.15,SSE,Node Offline,35,35,35.1631012,-106.34799957,444.15,449.15,100,Bernalillo,DM65TD,On-Air,W5AOX,Yes; analog capable.,,"Full-time to 224.94000 (W5AOX) at Sandia Park, NM .",3061,NMFCC,2017-07-16
+Frequency,Offset,Tone,Call,Location,ST/PR,Use,Mode,Mi,Dir,,state_id,ID,Latitude,Longitude,Downlink,Uplink,Uplink Tone,County,Grid,Op Status,Sponsor,FM,Analog Bandwidth,Links,EchoLink,Coordination,Last update
+444.15,5,100,W5AOX,Sandia park,NM,OPEN,FM EchoLink,150.15,SSE,Node Offline,35,35,35.1631012,-106.34799957,444.15,449.15,100,Bernalillo,DM65TD,On-Air,W5AOX,Yes; analog capable.,,"Full-time to 224.94000 (W5AOX) at Sandia Park, NM .",3061,NMFCC,2017-07-16

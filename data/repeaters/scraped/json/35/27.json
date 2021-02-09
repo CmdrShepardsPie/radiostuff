@@ -6,8 +6,7 @@
   "Location": "Albuquerque",
   "ST/PR": "NM",
   "Use": "OPEN",
-  "VOIP": "",
-  "DGTL": "",
+  "Mode": "FM",
   "Mi": 150.04,
   "Dir": "S",
   "": "",
@@ -26,5 +25,5 @@
   "FM": "Yes; analog capable.",
   "Analog Bandwidth": "",
   "Coordination": "NMFCC",
-  "Last update": "2020-09-19"
+  "Last update": "2020-11-29"
 }

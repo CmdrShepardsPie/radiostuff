@@ -1,2 +1,2 @@
-Frequency,Offset,Tone,Call,Location,ST/PR,Use,VOIP,DGTL,Mi,Dir,,state_id,ID,Latitude,Longitude,Downlink,Uplink,YSF Digital Enabled,DG-ID,County,Op Status,Sponsor,EchoLink,IRLP,Web links,Coordination,Last update
-449.6,-5,100,N0PUF,"Centennial, Warren Mountain",CO,OPEN,EI,Y,73.07,N,Node Offline,08,273,39.50419998,-105.12799835,449.6,444.6,1,Open ↑ / Open ↓,Jefferson,On-Air,Denver Radio League,690473,3345,DRL Repeaters,CCARC,2020-03-13
+Frequency,Offset,Tone,Call,Location,ST/PR,Use,Mode,Mi,Dir,,state_id,ID,Latitude,Longitude,Downlink,Uplink,YSF Digital Enabled,DG-ID,County,Op Status,Sponsor,EchoLink,IRLP,Web links,Coordination,Last update
+449.6,-5,100,N0PUF,"Centennial, Warren Mountain",CO,OPEN,EchoLink IRLP Fusion,73.07,N,Node Offline,08,273,39.50419998,-105.12799835,449.6,444.6,1,Open ↑ / Open ↓,Jefferson,On-Air,Denver Radio League,690473,3345,DRL Repeaters,CCARC,2020-03-13

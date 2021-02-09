@@ -1,2 +1,2 @@
-Frequency,Offset,Tone,Call,Location,ST/PR,Use,VOIP,DGTL,Mi,Dir,,state_id,ID,Latitude,Longitude,Downlink,Uplink,Uplink Tone,County,Op Status,Coverage,Sponsor,FM,Analog Bandwidth,Coordination,Last update
-447.85,-5,131.8,WB7REL,Sterling,UT,OPEN,,,180.12,NW,,49,257,39.19419861,-111.69200134,447.85,442.85,131.8,Sanpete,On-Air,Fairview North to Richfield to the South.,wb7rel,Yes; analog capable.,,UVHFS,2014-01-20
+Frequency,Offset,Tone,Call,Location,ST/PR,Use,Mode,Mi,Dir,,state_id,ID,Latitude,Longitude,Downlink,Uplink,Uplink Tone,County,Op Status,Coverage,Sponsor,FM,Analog Bandwidth,Coordination,Last update
+447.85,-5,131.8,WB7REL,Sterling,UT,OPEN,FM,180.12,NW,,49,257,39.19419861,-111.69200134,447.85,442.85,131.8,Sanpete,On-Air,Fairview North to Richfield to the South.,wb7rel,Yes; analog capable.,,UVHFS,2014-01-20

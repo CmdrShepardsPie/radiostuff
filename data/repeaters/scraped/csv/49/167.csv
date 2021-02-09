@@ -1,2 +1,2 @@
-Frequency,Offset,Tone,Call,Location,ST/PR,Use,VOIP,DGTL,Mi,Dir,,state_id,ID,Latitude,Longitude,Downlink,Uplink,County,Op Status,Coverage,FM,Analog Bandwidth,Coordination,Last update
-449.95,-5,,N7ZOI,Midway,UT,OPEN,,,190.9,W,,49,167,40.5,-111.48300171,449.95,444.95,Wasatch,On-Air,Heber city and surrounding communities.,Yes; analog capable.,,UVHFS,2008-07-10
+Frequency,Offset,Tone,Call,Location,ST/PR,Use,Mode,Mi,Dir,,state_id,ID,Latitude,Longitude,Downlink,Uplink,County,Op Status,Coverage,FM,Analog Bandwidth,Coordination,Last update
+449.95,-5,,N7ZOI,Midway,UT,OPEN,FM,184.61,WNW,,49,167,40.5,-111.48300171,449.95,444.95,Wasatch,On-Air,Heber city and surrounding communities.,Yes; analog capable.,,UVHFS,2008-07-10

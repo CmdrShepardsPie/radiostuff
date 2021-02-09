@@ -1,2 +1,2 @@
-Frequency,Offset,Tone,Call,Location,ST/PR,Use,VOIP,DGTL,Mi,Dir,,state_id,ID,Latitude,Longitude,Downlink,Uplink,Uplink Tone,County,Grid,Op Status,Coverage,Sponsor,FM,Analog Bandwidth,Web links,Coordination,Last update
-145.295,-0.6,107.2,KC0CVU,"Salida, Methodist Mountain",CO,OPEN,,,42.54,W,,08,203,38.45959854,-106.01100159,145.295,144.695,107.2,Chaffee,DM78ik,On-Air,Wide area.,Cheyenne Mtn Repeater Group,Yes; analog capable.,,CMRG Repeaters,CCARC,2019-08-15
+Frequency,Offset,Tone,Call,Location,ST/PR,Use,Mode,Mi,Dir,,state_id,ID,Latitude,Longitude,Downlink,Uplink,Uplink Tone,County,Grid,Op Status,Coverage,Sponsor,FM,Analog Bandwidth,Web links,Coordination,Last update
+145.295,-0.6,107.2,KC0CVU,"Salida, Methodist Mountain",CO,OPEN,FM,42.54,W,,08,203,38.45959854,-106.01100159,145.295,144.695,107.2,Chaffee,DM78ik,On-Air,Wide area.,Cheyenne Mtn Repeater Group,Yes; analog capable.,,CMRG Repeaters,CCARC,2019-08-15

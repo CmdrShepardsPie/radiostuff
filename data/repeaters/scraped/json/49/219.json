@@ -6,8 +6,7 @@
   "Location": "Provo, Lake Mountain",
   "ST/PR": "UT",
   "Use": "OPEN",
-  "VOIP": "",
-  "DGTL": "",
+  "Mode": "FM",
   "Mi": 198.78,
   "Dir": "WNW",
   "": "",
@@ -25,5 +24,5 @@
   "FM": "Yes; analog capable.",
   "Analog Bandwidth": "",
   "Coordination": "UVHFS",
-  "Last update": "2017-05-14"
+  "Last update": "2021-02-04"
 }

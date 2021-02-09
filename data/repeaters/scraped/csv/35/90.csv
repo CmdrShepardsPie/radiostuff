@@ -1,2 +1,2 @@
-Frequency,Offset,Tone,Call,Location,ST/PR,Use,VOIP,DGTL,Mi,Dir,,state_id,ID,Latitude,Longitude,Downlink,Uplink,Uplink Tone,County,Grid,Op Status,Sponsor,Features,FM,Analog Bandwidth,Coordination,Last update
-147.26,0.6,100,KC5WDV,"Gallup, Gibson Peak",NM,OPEN,,,147.97,SW,,35,90,35.60509872,-108.68499756,147.26,147.86,100,McKinley,DM55PO,On-Air,KC5WDV,VHF/UHF Remote Bases,Yes; analog capable.,,NMFCC,2020-08-18
+Frequency,Offset,Tone,Call,Location,ST/PR,Use,Mode,Mi,Dir,,state_id,ID,Latitude,Longitude,Downlink,Uplink,Uplink Tone,County,Grid,Op Status,Sponsor,Features,FM,Analog Bandwidth,Coordination,Last update
+147.26,0.6,100,KC5WDV,"Gallup, Gibson Peak",NM,OPEN,FM,147.97,SW,,35,90,35.60509872,-108.68499756,147.26,147.86,100,McKinley,DM55PO,On-Air,KC5WDV,VHF/UHF Remote Bases,Yes; analog capable.,,NMFCC,2020-08-18

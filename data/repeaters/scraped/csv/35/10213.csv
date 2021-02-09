@@ -1,2 +1,2 @@
-Frequency,Offset,Tone,Call,Location,ST/PR,Use,VOIP,DGTL,Mi,Dir,,state_id,ID,Latitude,Longitude,Downlink,Uplink,Uplink Tone,County,Grid,Op Status,Sponsor,Affiliate,FM,Analog Bandwidth,Web links,Last update
-145.515,-0.6,141.3,NM5EM,"Corona, Gallinas Peak",NM,OPEN,,,196.93,S,,35,10213,34.24440002,-105.79100037,145.515,144.915,141.3,Lincoln,DM74CF,On-Air,New Mexico Emergency Services,NMEMA ARC,Yes; analog capable.,,http://NMEMA.org,2017-08-25
+Frequency,Offset,Tone,Call,Location,ST/PR,Use,Mode,Mi,Dir,,state_id,ID,Latitude,Longitude,Downlink,Uplink,Uplink Tone,County,Grid,Op Status,Sponsor,Affiliate,FM,Analog Bandwidth,Web links,Last update
+145.515,-0.6,141.3,NM5EM,"Corona, Gallinas Peak",NM,OPEN,FM,196.93,S,,35,10213,34.24440002,-105.79100037,145.515,144.915,141.3,Lincoln,DM74CF,On-Air,New Mexico Emergency Services,NMEMA ARC,Yes; analog capable.,,http://NMEMA.org,2017-08-25

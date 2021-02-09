@@ -1,2 +1,2 @@
-Frequency,Offset,Tone,Call,Location,ST/PR,Use,VOIP,DGTL,Mi,Dir,,state_id,ID,Latitude,Longitude,Downlink,Uplink,Uplink Tone,County,Op Status,Sponsor,FM,Analog Bandwidth,Last update
-443.2,5,88.5,KC5WBK,Spearman,TX,OPEN,,,170.82,SE,,48,11484,36.19839859,-101.19200134,443.2,448.2,88.5,Hansford,On-Air,KY5C,Yes; analog capable.,,2014-05-20
+Frequency,Offset,Tone,Call,Location,ST/PR,Use,Mode,Mi,Dir,,state_id,ID,Latitude,Longitude,Downlink,Uplink,Uplink Tone,County,Op Status,Sponsor,FM,Analog Bandwidth,Last update
+443.2,5,88.5,KC5WBK,Spearman,TX,OPEN,FM,170.82,SE,,48,11484,36.19839859,-101.19200134,443.2,448.2,88.5,Hansford,On-Air,KY5C,Yes; analog capable.,,2014-05-20

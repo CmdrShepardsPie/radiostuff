@@ -1,2 +1,2 @@
-Frequency,Offset,Tone,Call,Location,ST/PR,Use,VOIP,DGTL,Mi,Dir,,state_id,ID,Latitude,Longitude,Downlink,Uplink,Uplink Tone,County,On-air,Sponsor,FM,Analog Bandwidth,Coordination,Last update
-224.6,-1.6,100,W0RM,Rollinsville,CO,OPEN,,,102.49,N,,08,201,39.91719818,-105.50099945,224.6,223,100,Gilpin,Unknown,W0RM,Yes; analog capable.,,CCARC,2012-11-10
+Frequency,Offset,Tone,Call,Location,ST/PR,Use,Mode,Mi,Dir,,state_id,ID,Latitude,Longitude,Downlink,Uplink,Uplink Tone,County,On-air,Sponsor,FM,Analog Bandwidth,Coordination,Last update
+224.6,-1.6,100,W0RM,Rollinsville,CO,OPEN,FM,102.49,N,,08,201,39.91719818,-105.50099945,224.6,223,100,Gilpin,Unknown,W0RM,Yes; analog capable.,,CCARC,2012-11-10

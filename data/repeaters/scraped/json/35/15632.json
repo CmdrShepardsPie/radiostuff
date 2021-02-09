@@ -6,8 +6,7 @@
   "Location": "Abiquiu, Cerro Pelon",
   "ST/PR": "NM",
   "Use": "OPEN",
-  "VOIP": "",
-  "DGTL": "",
+  "Mode": "FM",
   "Mi": 173.09,
   "Dir": "SSW",
   "": "",
@@ -20,10 +19,10 @@
   "Uplink Tone": 141.3,
   "County": "Rio Arriba",
   "Grid": "DM66TC",
-  "Op Status": "On-Air",
+  "Op Status": "Off-Air",
   "Sponsor": "NMEMA ARC",
   "FM": "Yes; analog capable.",
   "Analog Bandwidth": "",
   "Coordination": "NMFCC",
-  "Last update": "2020-05-14"
+  "Last update": "2021-02-08"
 }

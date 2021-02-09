@@ -1,2 +1,2 @@
-Frequency,Offset,Tone,Call,Location,ST/PR,Use,VOIP,DGTL,Mi,Dir,,state_id,ID,Latitude,Longitude,Downlink,Uplink,Uplink Tone,County,Op Status,Sponsor,FM,Analog Bandwidth,Links,Web links,Last update
-447.275,-5,100,KB5ITS,"Monticello, Abajo Peak",UT,OPEN,,,140.02,WNW,,49,18460,37.83940125,-109.46299744,447.275,442.275,100,San Juan,On-Air,San Juan Connection,Yes; analog capable.,,Full-time to the SAN JUAN CONNECTION System .,http://www.sjcham.com,2020-07-07
+Frequency,Offset,Tone,Call,Location,ST/PR,Use,Mode,Mi,Dir,,state_id,ID,Latitude,Longitude,Downlink,Uplink,Uplink Tone,County,Op Status,Sponsor,FM,Analog Bandwidth,Links,Web links,Last update
+447.275,-5,100,KB5ITS,"Monticello, Abajo Peak",UT,OPEN,FM,140.02,WNW,,49,18460,37.83940125,-109.46299744,447.275,442.275,100,San Juan,On-Air,San Juan Connection,Yes; analog capable.,,Full-time to the SAN JUAN CONNECTION System .,http://www.sjcham.com,2020-07-07

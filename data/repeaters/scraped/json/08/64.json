@@ -6,8 +6,7 @@
   "Location": "Cripple Creek",
   "ST/PR": "CO",
   "Use": "OPEN",
-  "VOIP": "",
-  "DGTL": "",
+  "Mode": "FM",
   "Mi": 20.69,
   "Dir": "N",
   "": "",
@@ -19,12 +18,12 @@
   "Uplink": 144.86,
   "Uplink Tone": 67,
   "County": "Teller",
-  "Op Status": "On-Air",
+  "Op Status": "Off-Air",
   "Sponsor": "WB0WDF",
   "Affiliate": "RGARC",
   "Features": "E-power, 100% Solar",
   "FM": "Yes; analog capable.",
   "Analog Bandwidth": "",
   "Coordination": "CCARC",
-  "Last update": "2012-06-15"
+  "Last update": "2021-01-19"
 }

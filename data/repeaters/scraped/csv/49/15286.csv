@@ -1,2 +1,2 @@
-Frequency,Offset,Tone,Call,Location,ST/PR,Use,VOIP,DGTL,Mi,Dir,,state_id,ID,Latitude,Longitude,Downlink,Uplink,Uplink Tone,County,On-air,FM,Analog Bandwidth,Coordination,Last update
-447.35,-5,88.5,N7RVS,"Gunnison, N7RVS QTH",UT,OPEN,,,184.48,WNW,,49,15286,39.15520096,-111.81800079,447.35,442.35,88.5,Sanpete,Unknown,Yes; analog capable.,,UVHFS,2016-07-05
+Frequency,Offset,Tone,Call,Location,ST/PR,Use,Mode,Mi,Dir,,state_id,ID,Latitude,Longitude,Downlink,Uplink,Uplink Tone,County,On-air,FM,Analog Bandwidth,Coordination,Last update
+447.35,-5,88.5,N7RVS,"Gunnison, N7RVS QTH",UT,OPEN,FM,184.48,WNW,,49,15286,39.15520096,-111.81800079,447.35,442.35,88.5,Sanpete,Unknown,Yes; analog capable.,,UVHFS,2016-07-05

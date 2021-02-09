@@ -1,2 +1,2 @@
-Frequency,Offset,Tone,Call,Location,ST/PR,Use,VOIP,DGTL,Mi,Dir,,state_id,ID,Latitude,Longitude,Downlink,Uplink,D-STAR Enabled,Node,Sources,County,Grid,On-air,Sponsor,Coordination,Last update
-147.315,0.6,,K5GUD,Sharon,OK,OPEN,,S,197.32,SE,,40,4538,36.27600098,-99.33789825,147.315,147.915,1,K5GUD (C) Repeater,jfindu lookup / dstar-users lookup,Woodward,EM06HG,Unknown,K5GUD,ORSI,2012-09-03
+Frequency,Offset,Tone,Call,Location,ST/PR,Use,Mode,Mi,Dir,,state_id,ID,Latitude,Longitude,Downlink,Uplink,D-STAR Enabled,Node,Sources,County,Grid,On-air,Sponsor,Coordination,Last update
+147.315,0.6,,K5GUD,Sharon,OK,OPEN,DSTAR,197.32,SE,,40,4538,36.27600098,-99.33789825,147.315,147.915,1,K5GUD (C) Repeater,jfindu lookup / dstar-users lookup,Woodward,EM06HG,Unknown,K5GUD,ORSI,2012-09-03

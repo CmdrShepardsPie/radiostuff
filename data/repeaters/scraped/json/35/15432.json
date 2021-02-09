@@ -6,8 +6,7 @@
   "Location": "Albuquerque",
   "ST/PR": "NM",
   "Use": "OPEN",
-  "VOIP": "E",
-  "DGTL": "",
+  "Mode": "FM EchoLink",
   "Mi": 146.51,
   "Dir": "S",
   "": "Node Offline",
@@ -25,5 +24,5 @@
   "Analog Bandwidth": "",
   "EchoLink": 87120,
   "Commands": "United States",
-  "Last update": "2020-09-19"
+  "Last update": "2020-11-29"
 }

@@ -1,13 +1,12 @@
 {
   "Frequency": 442.175,
   "Offset": 5,
-  "Tone": "CC",
+  "Tone": "CC5",
   "Call": "KF5PFO",
   "Location": "Taos, Picuris Peak",
   "ST/PR": "NM",
   "Use": "OPEN",
-  "VOIP": "",
-  "DGTL": "D",
+  "Mode": "DMR",
   "Mi": 154,
   "Dir": "S",
   "": "",
@@ -25,9 +24,10 @@
   "County": "Taos",
   "Grid": "DM76EF",
   "Op Status": "On-Air",
+  "Coverage": "NM-75, NM-518, NM-68, US-64, NM-522 100 mi radius.",
   "Sponsor": "Rocky Mountain Ham Radio",
   "Affiliate": "Taos ARC",
-  "Notes": "TS1 TG 700 Wide TS2 TG 719 South TS2 TG 505 New Mexico TS2 TG 715 Taos Local",
+  "Features": "TG 700 Wide TS1, TG 719 South TS2, TG 715 Taos Local TS2, TG 505 New Mexico TS2,",
   "Web links": "https://www.rmham.org/dmr-site-information/",
-  "Last update": "2020-08-28"
+  "Last update": "2020-12-26"
 }

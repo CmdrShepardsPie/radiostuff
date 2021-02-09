@@ -1,2 +1,2 @@
-Frequency,Offset,Tone,Call,Location,ST/PR,Use,VOIP,DGTL,Mi,Dir,,state_id,ID,Latitude,Longitude,Downlink,Uplink,Uplink Tone,County,Op Status,Sponsor,FM,Analog Bandwidth,Links,Web links,Coordination,Last update
-442.05,5,103.5,W5ALZ,Woodward,OK,OPEN,,,190.38,SE,,40,4356,36.43399811,-99.38999939,442.05,447.05,103.5,Woodward,On-Air,GBARG,Yes; analog capable.,,Full-time to the Kan-Okla Intertie System .,http://kanoklaintertiesystem.org/,ORSI,2016-11-19
+Frequency,Offset,Tone,Call,Location,ST/PR,Use,Mode,Mi,Dir,,state_id,ID,Latitude,Longitude,Downlink,Uplink,Uplink Tone,County,Op Status,Sponsor,FM,Analog Bandwidth,Links,Web links,Coordination,Last update
+442.05,5,103.5,W5ALZ,Woodward,OK,OPEN,FM,190.38,SE,,40,4356,36.43399811,-99.38999939,442.05,447.05,103.5,Woodward,On-Air,GBARG,Yes; analog capable.,,Full-time to the Kan-Okla Intertie System .,http://kanoklaintertiesystem.org/,ORSI,2016-11-19

@@ -2,12 +2,11 @@
   "Frequency": 145.13,
   "Offset": -0.6,
   "Tone": 100,
-  "Call": "K5BIQ",
+  "Call": "NM5BC",
   "Location": "Albuquerque, BCFD Fire Station 35",
   "ST/PR": "NM",
   "Use": "OPEN",
-  "VOIP": "",
-  "DGTL": "",
+  "Mode": "FM",
   "Mi": 147.49,
   "Dir": "S",
   "": "",
@@ -25,8 +24,9 @@
   "Sponsor": "BERNCO OEM",
   "FM": "Yes; analog capable.",
   "Analog Bandwidth": "",
-  "Links": "Full-time to 145.15000 (K5BIQ) at Tijeras, Cedro Peak, NM .",
+  "Links": "Full-time to 145.15000 (NM5BC) at Tijeras, Cedro Peak, NM .",
+  "Nets": "BCARES NET Thursday, 1900 MST/MDT",
   "Web links": "http://bc-ares.org/wordpress/",
   "Coordination": "NMFCC",
-  "Last update": "2018-06-16"
+  "Last update": "2021-01-29"
 }

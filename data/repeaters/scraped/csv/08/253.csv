@@ -1,2 +1,2 @@
-Frequency,Offset,Tone,Call,Location,ST/PR,Use,VOIP,DGTL,Mi,Dir,,state_id,ID,Latitude,Longitude,Downlink,Uplink,Uplink Tone,County,Op Status,Features,FM,Analog Bandwidth,Web links,Coordination,Last update
-449.8,-5,107.2,WA4HND,"Parachute, Mount Callahan",CO,OPEN,,,166.95,WNW,,08,253,39.45190048,-108.05200195,449.8,444.8,107.2,Garfield,On-Air,8,Yes; analog capable.,,GMRA Repeaters,CCARC,2018-01-15
+Frequency,Offset,Tone,Call,Location,ST/PR,Use,Mode,Mi,Dir,,state_id,ID,Latitude,Longitude,Downlink,Uplink,Uplink Tone,County,Op Status,Features,FM,Analog Bandwidth,Web links,Coordination,Last update
+449.8,-5,107.2,WA4HND,"Parachute, Mount Callahan",CO,OPEN,FM,166.95,WNW,,08,253,39.45190048,-108.05200195,449.8,444.8,107.2,Garfield,On-Air,8,Yes; analog capable.,,GMRA Repeaters,CCARC,2018-01-15

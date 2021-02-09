@@ -6,8 +6,7 @@
   "Location": "Albuquerque, Northeast Heights area",
   "ST/PR": "NM",
   "Use": "OPEN",
-  "VOIP": "I",
-  "DGTL": "",
+  "Mode": "FM IRLP",
   "Mi": 145.91,
   "Dir": "S",
   "": "",
@@ -29,5 +28,5 @@
   "IRLP": 3285,
   "Notes": "Moved to new location and added PL",
   "Coordination": "NMFCC",
-  "Last update": "2020-09-19"
+  "Last update": "2020-11-29"
 }

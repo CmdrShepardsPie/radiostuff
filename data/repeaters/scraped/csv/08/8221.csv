@@ -1,2 +1,2 @@
-Frequency,Offset,Tone,Call,Location,ST/PR,Use,VOIP,DGTL,Mi,Dir,,state_id,ID,Latitude,Longitude,Downlink,Uplink,D-STAR Enabled,Node,Sources,County,Op Status,Sponsor,Features,Coordination,Last update
-1299.5,-20,,W0DK,Boulder,CO,OPEN,,S,108.21,N,,08,8221,40.01499939,-105.27100372,1299.5,1279.5,1,W0DK (A) DVAP 24/7,jfindu lookup / dstar-users lookup,Boulder,On-Air,Boulder County ARES,E-power.,CCARC,2012-11-12
+Frequency,Offset,Tone,Call,Location,ST/PR,Use,Mode,Mi,Dir,,state_id,ID,Latitude,Longitude,Downlink,Uplink,D-STAR Enabled,Node,Sources,County,Op Status,Sponsor,Features,Coordination,Last update
+1299.5,-20,,W0DK,Boulder,CO,OPEN,DSTAR,108.21,N,,08,8221,40.01499939,-105.27100372,1299.5,1279.5,1,W0DK (A) DVAP 24/7,jfindu lookup / dstar-users lookup,Boulder,On-Air,Boulder County ARES,E-power.,CCARC,2012-11-12

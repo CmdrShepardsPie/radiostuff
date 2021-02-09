@@ -1,2 +1,2 @@
-Frequency,Offset,Tone,Call,Location,ST/PR,Use,VOIP,DGTL,Mi,Dir,,state_id,ID,Latitude,Longitude,Downlink,Uplink,Uplink Tone,County,Grid,Op Status,Affiliate,FM,Analog Bandwidth,Coordination,Last update
-449.9,-5,107.2,N1FSX,Punkin Center,CO,OPEN,,,86.87,E,,08,7395,38.85200119,-103.69999695,449.9,444.9,107.2,Lincoln,DM88DU,On-Air,BSAR,Yes; analog capable.,,CCARC,2012-07-20
+Frequency,Offset,Tone,Call,Location,ST/PR,Use,Mode,Mi,Dir,,state_id,ID,Latitude,Longitude,Downlink,Uplink,Uplink Tone,County,Grid,Op Status,Affiliate,FM,Analog Bandwidth,Coordination,Last update
+449.9,-5,107.2,N1FSX,Punkin Center,CO,OPEN,FM,86.87,E,,08,7395,38.85200119,-103.69999695,449.9,444.9,107.2,Lincoln,DM88DU,On-Air,BSAR,Yes; analog capable.,,CCARC,2012-07-20

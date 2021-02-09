@@ -1,2 +1,2 @@
-Frequency,Offset,Tone,Call,Location,ST/PR,Use,VOIP,DGTL,Mi,Dir,,state_id,ID,Latitude,Longitude,Downlink,Uplink,Uplink Tone,County,Op Status,FM,Analog Bandwidth,Coordination,Last update
-447.3,-5,77,WB7RPF,Woodland Hills,UT,OPEN,,,197.61,W,,49,155,40.01789856,-111.64800262,447.3,442.3,77,Utah,On-Air,Yes; analog capable.,,UVHFS,2017-12-29
+Frequency,Offset,Tone,Call,Location,ST/PR,Use,Mode,Mi,Dir,,state_id,ID,Latitude,Longitude,Downlink,Uplink,Uplink Tone,County,Op Status,FM,Analog Bandwidth,Coordination,Last update
+447.3,-5,77,WB7RPF,Woodland Hills,UT,OPEN,FM,177.69,WNW,,49,155,40.01789856,-111.64800262,447.3,442.3,77,Utah,On-Air,Yes; analog capable.,,UVHFS,2017-12-29

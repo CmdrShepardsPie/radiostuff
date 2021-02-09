@@ -1,2 +1,2 @@
-Frequency,Offset,Tone,Call,Location,ST/PR,Use,VOIP,DGTL,Mi,Dir,,state_id,ID,Latitude,Longitude,Downlink,Uplink,County,Op Status,Sponsor,FM,Analog Bandwidth,Notes,Coordination,Last update
-146.925,-0.6,,WA0JS,Creede,CO,OPEN,,,101.31,WSW,,08,63,37.8492012,-106.9260025,146.925,146.325,Mineral,On-Air,Creede ARC,Yes; analog capable.,,WA0JS license expired,CCARC,2012-11-12
+Frequency,Offset,Tone,Call,Location,ST/PR,Use,Mode,Mi,Dir,,state_id,ID,Latitude,Longitude,Downlink,Uplink,County,Op Status,Sponsor,FM,Analog Bandwidth,Notes,Coordination,Last update
+146.925,-0.6,,WA0JS,Creede,CO,OPEN,FM,101.31,WSW,,08,63,37.8492012,-106.9260025,146.925,146.325,Mineral,On-Air,Creede ARC,Yes; analog capable.,,WA0JS license expired,CCARC,2012-11-12

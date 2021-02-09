@@ -1,2 +1,2 @@
-Frequency,Offset,Tone,Call,Location,ST/PR,Use,VOIP,DGTL,Mi,Dir,,state_id,ID,Latitude,Longitude,Downlink,Uplink,Uplink Tone,County,Grid,Op Status,FM,Analog Bandwidth,Last update
-146.73,-0.6,100,KF7BR,Torrington,WY,OPEN,,,141.3,NW,,56,42,42.0625,-104.18399811,146.73,146.13,100,Goshen,DN72VB,On-Air,Yes; analog capable.,,2020-08-10
+Frequency,Offset,Tone,Call,Location,ST/PR,Use,Mode,Mi,Dir,,state_id,ID,Latitude,Longitude,Downlink,Uplink,Uplink Tone,County,Grid,Op Status,FM,Analog Bandwidth,Last update
+146.73,-0.6,100,KF7BR,Torrington,WY,OPEN,FM,141.3,NW,,56,42,42.0625,-104.18399811,146.73,146.13,100,Goshen,DN72VB,On-Air,Yes; analog capable.,,2020-08-10

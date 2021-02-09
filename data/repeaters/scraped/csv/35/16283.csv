@@ -1,2 +1,2 @@
-Frequency,Offset,Tone,Call,Location,ST/PR,Use,VOIP,DGTL,Mi,Dir,,state_id,ID,Latitude,Longitude,Downlink,Uplink,Uplink Tone,County,Grid,Op Status,Sponsor,FM,Analog Bandwidth,EchoLink,IRLP,Coordination,Last update
-443.85,5,103.5,KC0QIZ,Albuquerque,NM,OPEN,EI,,147.65,S,Node Offline,35,16283,35.16609955,-106.54299927,443.85,448.85,103.5,Bernalillo,DM65RD,On-Air,KC0QIZ,Yes; analog capable.,,881226,3818,NMFCC,2017-09-05
+Frequency,Offset,Tone,Call,Location,ST/PR,Use,Mode,Mi,Dir,,state_id,ID,Latitude,Longitude,Downlink,Uplink,Uplink Tone,County,Grid,Op Status,Sponsor,FM,Analog Bandwidth,EchoLink,IRLP,Coordination,Last update
+443.85,5,103.5,KC0QIZ,Albuquerque,NM,OPEN,FM EchoLink IRLP,147.65,S,Node Offline,35,16283,35.16609955,-106.54299927,443.85,448.85,103.5,Bernalillo,DM65RD,On-Air,KC0QIZ,Yes; analog capable.,,881226,3818,NMFCC,2017-09-05

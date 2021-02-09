@@ -1,2 +1,2 @@
-Frequency,Offset,Tone,Call,Location,ST/PR,Use,VOIP,DGTL,Mi,Dir,,state_id,ID,Latitude,Longitude,Downlink,Uplink,Uplink Tone,Downlink Tone,County,Grid,Op Status,FM,Analog Bandwidth,Web links,Coordination,Last update
-147.135,0.6,100,KB5ITS,"Durango, Smelter Mountain",CO,OPEN,,,167.69,WSW,,08,11545,37.2621994,-107.90599823,147.135,147.735,100,100,La Plata,DM67BG,On-Air,Yes; analog capable.,,http://www.sjcham.com,CCARC,2018-01-15
+Frequency,Offset,Tone,Call,Location,ST/PR,Use,Mode,Mi,Dir,,state_id,ID,Latitude,Longitude,Downlink,Uplink,Uplink Tone,Downlink Tone,County,Grid,Op Status,FM,Analog Bandwidth,Web links,Coordination,Last update
+147.135,0.6,100,KB5ITS,"Durango, Smelter Mountain",CO,OPEN,FM,167.69,WSW,,08,11545,37.2621994,-107.90599823,147.135,147.735,100,100,La Plata,DM67BG,On-Air,Yes; analog capable.,,http://www.sjcham.com,CCARC,2018-01-15

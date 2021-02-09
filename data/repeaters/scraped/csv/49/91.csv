@@ -1,2 +1,2 @@
-Frequency,Offset,Tone,Call,Location,ST/PR,Use,VOIP,DGTL,Mi,Dir,,state_id,ID,Latitude,Longitude,Downlink,Uplink,County,Grid,On-air,Coverage,FM,Analog Bandwidth,Coordination,Last update
-447.875,-5,,KC7KRY,"Eureka, Eureka Peak",UT,OPEN,,,199.52,WNW,,49,91,39.94060135,-112.11699677,447.875,442.875,Juab,DM39WW,Unknown,Wide area.,Yes; analog capable.,,UVHFS,
+Frequency,Offset,Tone,Call,Location,ST/PR,Use,Mode,Mi,Dir,,state_id,ID,Latitude,Longitude,Downlink,Uplink,County,Grid,On-air,Coverage,FM,Analog Bandwidth,Coordination,Last update
+447.875,-5,,KC7KRY,"Eureka, Eureka Peak",UT,OPEN,FM,199.52,WNW,,49,91,39.94060135,-112.11699677,447.875,442.875,Juab,DM39WW,Unknown,Wide area.,Yes; analog capable.,,UVHFS,

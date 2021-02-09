@@ -1,2 +1,2 @@
-Frequency,Offset,Tone,Call,Location,ST/PR,Use,VOIP,DGTL,Mi,Dir,,state_id,ID,Latitude,Longitude,Downlink,Uplink,Uplink Tone,County,Op Status,Coverage,Sponsor,Affiliate,Features,FM,Analog Bandwidth,Notes,Last update
-444.8,5,162.2,N7UVW,McCook,NE,OPEN,,,92.23,SE,,31,15136,40.19670105,-100.625,444.8,449.8,162.2,Red Willow,On-Air,50,N7UVW,Dirt Truckin,Link Com RLC-1 Controller,Yes; analog capable.,,180,2017-12-26
+Frequency,Offset,Tone,Call,Location,ST/PR,Use,Mode,Mi,Dir,,state_id,ID,Latitude,Longitude,Downlink,Uplink,Uplink Tone,County,Op Status,Coverage,Sponsor,Affiliate,Features,FM,Analog Bandwidth,Notes,Last update
+444.8,5,162.2,N7UVW,McCook,NE,OPEN,FM,92.23,SE,,31,15136,40.19670105,-100.625,444.8,449.8,162.2,Red Willow,On-Air,50,N7UVW,Dirt Truckin,Link Com RLC-1 Controller,Yes; analog capable.,,180,2017-12-26

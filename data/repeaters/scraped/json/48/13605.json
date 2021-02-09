@@ -6,8 +6,7 @@
   "Location": "Amarillo",
   "ST/PR": "TX",
   "Use": "OPEN",
-  "VOIP": "W",
-  "DGTL": "Y",
+  "Mode": "WIRES-X",
   "Mi": 157.23,
   "Dir": "SSE",
   "": "",
@@ -17,14 +16,12 @@
   "Longitude": -101.83100128,
   "Downlink": 444.3,
   "Uplink": 449.3,
-  "YSF Digital Enabled": true,
-  "DG-ID": "Open ↑ / Open ↓",
   "WIRES-X": 21379,
   "County": "Potter",
-  "Op Status": "Off-Air",
+  "Op Status": "On-Air",
+  "Coverage": 45,
   "Features": "Linked",
   "Links": "Full-time to 147.00000 (W5WDR) at Borger, TX . Full-time to 444.80000 (W5WDR) at Stinnett, TX .",
-  "Notes": "Normally linked to Borger (147.000) and Stinnett (444.800) Repeaters.",
-  "Nets": "Golden Spread Amateur Information Net. Tuesdays @ 6:30 PM Central",
-  "Last update": "2020-10-19"
+  "Notes": "Normally linked to Stinnett (444.800) Repeater.",
+  "Last update": "2020-12-06"
 }

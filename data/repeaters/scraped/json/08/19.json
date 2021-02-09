@@ -6,8 +6,7 @@
   "Location": "Boulder, Lee Hill",
   "ST/PR": "CO",
   "Use": "OPEN",
-  "VOIP": "I",
-  "DGTL": "",
+  "Mode": "FM IRLP",
   "Mi": 112.34,
   "Dir": "N",
   "": "",
@@ -20,12 +19,12 @@
   "Uplink Tone": 141.3,
   "Downlink Tone": 141.3,
   "County": "Boulder",
-  "Op Status": "Off-Air",
+  "Op Status": "On-Air",
   "Sponsor": "Rocky Mountain Ham Radio",
   "FM": "Yes; analog capable.",
   "Analog Bandwidth": "",
   "Links": "",
   "IRLP": 3450,
   "Coordination": "CCARC",
-  "Last update": "2020-10-17"
+  "Last update": "2020-11-26"
 }

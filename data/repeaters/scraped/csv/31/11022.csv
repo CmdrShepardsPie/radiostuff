@@ -1,2 +1,2 @@
-Frequency,Offset,Tone,Call,Location,ST/PR,Use,VOIP,DGTL,Mi,Dir,,state_id,ID,Latitude,Longitude,Downlink,Uplink,Uplink Tone,County,Op Status,Coverage,Sponsor,FM,Analog Bandwidth,EchoLink,IRLP,Last update
-444.4,5,123,N0IQ,North Platte,NE,OPEN,EI,,89.27,E,Node Offline,31,11022,41.14030075,-100.76000214,444.4,449.4,123,Lincoln,On-Air,Maxwell to Sutherland across I-80.,Randy Allen,Yes; analog capable.,,857936,7627,2014-05-04
+Frequency,Offset,Tone,Call,Location,ST/PR,Use,Mode,Mi,Dir,,state_id,ID,Latitude,Longitude,Downlink,Uplink,Uplink Tone,County,Op Status,Coverage,Sponsor,FM,Analog Bandwidth,EchoLink,IRLP,Last update
+444.4,5,123,N0IQ,North Platte,NE,OPEN,FM EchoLink IRLP,89.27,E,Node Offline,31,11022,41.14030075,-100.76000214,444.4,449.4,123,Lincoln,On-Air,Maxwell to Sutherland across I-80.,Randy Allen,Yes; analog capable.,,857936,7627,2014-05-04

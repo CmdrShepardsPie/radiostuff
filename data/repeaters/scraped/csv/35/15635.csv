@@ -1,2 +1,2 @@
-Frequency,Offset,Tone,Call,Location,ST/PR,Use,VOIP,DGTL,Mi,Dir,,state_id,ID,Latitude,Longitude,Downlink,Uplink,Uplink Tone,County,Grid,Op Status,Sponsor,FM,Analog Bandwidth,Coordination,Last update
-147.04,0.6,141.3,NM5EM,"Eagle Nest, Touch Me Not",NM,OPEN,,,129.32,S,,35,15635,36.57799911,-105.19799805,147.04,147.64,141.3,Colfax,DM76JN,On-Air,NMEMA ARC,Yes; analog capable.,,NMFCC,2017-01-24
+Frequency,Offset,Tone,Call,Location,ST/PR,Use,Mode,Mi,Dir,,state_id,ID,Latitude,Longitude,Downlink,Uplink,Uplink Tone,County,Grid,Op Status,Sponsor,FM,Analog Bandwidth,Coordination,Last update
+147.04,0.6,141.3,NM5EM,"Eagle Nest, Touch Me Not",NM,OPEN,FM,129.32,S,,35,15635,36.57799911,-105.19799805,147.04,147.64,141.3,Colfax,DM76JN,On-Air,NMEMA ARC,Yes; analog capable.,,NMFCC,2017-01-24

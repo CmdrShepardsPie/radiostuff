@@ -1,2 +1,2 @@
-Frequency,Offset,Tone,Call,Location,ST/PR,Use,VOIP,DGTL,Mi,Dir,,state_id,ID,Latitude,Longitude,Downlink,Uplink,County,On-air,Sponsor,Features,FM,Analog Bandwidth,Coordination,Last update
-146.92,-0.6,,N5LTZ,Amarillo,TX,OPEN,,,157.38,SSE,,48,534,35.22000122,-101.83000183,146.92,146.32,Randall,Unknown,CRII,"E-power, linked.",Yes; analog capable.,,TVHFS,
+Frequency,Offset,Tone,Call,Location,ST/PR,Use,Mode,Mi,Dir,,state_id,ID,Latitude,Longitude,Downlink,Uplink,County,On-air,Sponsor,Features,FM,Analog Bandwidth,Coordination,Last update
+146.92,-0.6,,N5LTZ,Amarillo,TX,OPEN,FM,157.38,SSE,,48,534,35.22000122,-101.83000183,146.92,146.32,Randall,Unknown,CRII,"E-power, linked.",Yes; analog capable.,,TVHFS,

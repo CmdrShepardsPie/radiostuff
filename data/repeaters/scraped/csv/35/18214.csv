@@ -1,2 +1,2 @@
-Frequency,Offset,Tone,Call,Location,ST/PR,Use,VOIP,DGTL,Mi,Dir,,state_id,ID,Latitude,Longitude,Downlink,Uplink,Uplink Tone,County,Op Status,FM,Analog Bandwidth,Notes,Last update
-147.39,0.6,88.5,WB5NJU,Kenton,NM,OPEN,,,161.9,SE,,35,18214,36.90100098,-103.00299835,147.39,147.99,88.5,Union,On-Air,Yes; analog capable.,,Repeater on the New Mexico - Oklahoma border,2019-10-30
+Frequency,Offset,Tone,Call,Location,ST/PR,Use,Mode,Mi,Dir,,state_id,ID,Latitude,Longitude,Downlink,Uplink,Uplink Tone,County,Op Status,FM,Analog Bandwidth,Notes,Last update
+147.39,0.6,88.5,WB5NJU,Kenton,NM,OPEN,FM,161.9,SE,,35,18214,36.90100098,-103.00299835,147.39,147.99,88.5,Union,On-Air,Yes; analog capable.,,Repeater on the New Mexico - Oklahoma border,2019-10-30

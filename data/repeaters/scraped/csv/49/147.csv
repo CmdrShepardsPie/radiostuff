@@ -1,2 +1,2 @@
-Frequency,Offset,Tone,Call,Location,ST/PR,Use,VOIP,DGTL,Mi,Dir,,state_id,ID,Latitude,Longitude,Downlink,Uplink,Uplink Tone,County,Grid,Op Status,Coverage,Features,FM,Analog Bandwidth,Coordination,Last update
-447.325,-5,114.8,N7KYY,Springville,UT,OPEN,,,193.94,W,,49,147,40.1609993,-111.57900238,447.325,442.325,114.8,Utah,DN40FD,On-Air,Utah County from Alpine to Payson.,4,Yes; analog capable.,,UVHFS,2015-03-25
+Frequency,Offset,Tone,Call,Location,ST/PR,Use,Mode,Mi,Dir,,state_id,ID,Latitude,Longitude,Downlink,Uplink,Uplink Tone,County,Grid,Op Status,Coverage,Features,FM,Analog Bandwidth,Coordination,Last update
+447.325,-5,114.8,N7KYY,Springville,UT,OPEN,FM,178.11,WNW,,49,147,40.1609993,-111.57900238,447.325,442.325,114.8,Utah,DN40FD,On-Air,Utah County from Alpine to Payson.,4,Yes; analog capable.,,UVHFS,2015-03-25

@@ -1,2 +1,2 @@
-Frequency,Offset,Tone,Call,Location,ST/PR,Use,VOIP,DGTL,Mi,Dir,,state_id,ID,Latitude,Longitude,Downlink,Uplink,County,On-air,Coverage,Sponsor,Features,FM,Analog Bandwidth,Links,Notes,Coordination,Last update
-447.6,-5,,KI0G,Glenwood Springs,CO,CLOSED,,,136.03,NW,,08,8192,39.55049896,-107.32499695,447.6,442.6,Garfield,Unknown,40,Ski Country ARC (SCARC),50,Yes; analog capable.,,"Full-time to 146.88000 (KI0G) at Glenwood Springs, Sunlight Peak, CO .",Link Hub for 146.880.,CCARC,2012-11-12
+Frequency,Offset,Tone,Call,Location,ST/PR,Use,Mode,Mi,Dir,,state_id,ID,Latitude,Longitude,Downlink,Uplink,County,On-air,Coverage,Sponsor,Features,FM,Analog Bandwidth,Links,Notes,Coordination,Last update
+447.6,-5,,KI0G,Glenwood Springs,CO,CLOSED,FM,136.03,NW,,08,8192,39.55049896,-107.32499695,447.6,442.6,Garfield,Unknown,40,Ski Country ARC (SCARC),50,Yes; analog capable.,,"Full-time to 146.88000 (KI0G) at Glenwood Springs, Sunlight Peak, CO .",Link Hub for 146.880.,CCARC,2012-11-12

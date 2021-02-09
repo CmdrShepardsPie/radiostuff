@@ -1,13 +1,12 @@
 {
   "Frequency": 447.05,
   "Offset": -5,
-  "Tone": 136.5,
-  "Call": "K0VQ",
+  "Tone": 179.9,
+  "Call": "KD0NU",
   "Location": "Aspen, Aspen Mountain",
   "ST/PR": "CO",
   "Use": "OPEN",
-  "VOIP": "",
-  "DGTL": "",
+  "Mode": "FM",
   "Mi": 99.9,
   "Dir": "WNW",
   "": "",
@@ -17,8 +16,8 @@
   "Longitude": -106.82900238,
   "Downlink": 447.05,
   "Uplink": 442.05,
-  "Uplink Tone": 136.5,
-  "Downlink Tone": 136.5,
+  "Uplink Tone": 179.9,
+  "Downlink Tone": 179.9,
   "County": "Pitkin",
   "Op Status": "On-Air",
   "Coverage": "Aspen-Snowmass areas.",
@@ -26,5 +25,5 @@
   "FM": "Yes; analog capable.",
   "Analog Bandwidth": "",
   "Coordination": "CCARC",
-  "Last update": "2012-11-10"
+  "Last update": "2021-01-01"
 }

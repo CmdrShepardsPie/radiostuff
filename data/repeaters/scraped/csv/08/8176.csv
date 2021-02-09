@@ -1,2 +1,2 @@
-Frequency,Offset,Tone,Call,Location,ST/PR,Use,VOIP,DGTL,Mi,Dir,,state_id,ID,Latitude,Longitude,Downlink,Uplink,Uplink Tone,County,Grid,Op Status,Sponsor,Features,FM,Analog Bandwidth,Coordination,Last update
-147.135,0.6,100,AA0L,Colorado Springs,CO,OPEN,,,35.4,NE,,08,8176,38.83969879,-104.80000305,147.135,147.735,100,El Paso,DM78OU,On-Air,AA0L,6,Yes; analog capable.,,CCARC,2016-04-08
+Frequency,Offset,Tone,Call,Location,ST/PR,Use,Mode,Mi,Dir,,state_id,ID,Latitude,Longitude,Downlink,Uplink,Uplink Tone,County,Grid,Op Status,Sponsor,Features,FM,Analog Bandwidth,Coordination,Last update
+147.135,0.6,100,AA0L,Colorado Springs,CO,OPEN,FM,35.4,NE,,08,8176,38.83969879,-104.80000305,147.135,147.735,100,El Paso,DM78OU,On-Air,AA0L,6,Yes; analog capable.,,CCARC,2016-04-08

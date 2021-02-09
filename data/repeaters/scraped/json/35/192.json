@@ -6,8 +6,7 @@
   "Location": "Albuquerque",
   "ST/PR": "NM",
   "Use": "OPEN",
-  "VOIP": "",
-  "DGTL": "",
+  "Mode": "FM",
   "Mi": 154.48,
   "Dir": "S",
   "": "",
@@ -20,10 +19,10 @@
   "Uplink Tone": 210.7,
   "County": "Bernalillo",
   "Grid": "DM65RB",
-  "Op Status": "On-Air",
+  "Op Status": "Off-Air",
   "Coverage": "Wide area.",
   "Features": "Closed autopatch, linked.",
   "FM": "Yes; analog capable.",
   "Analog Bandwidth": "",
-  "Last update": "2017-07-21"
+  "Last update": "2020-10-22"
 }

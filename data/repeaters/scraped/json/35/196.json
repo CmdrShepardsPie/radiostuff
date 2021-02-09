@@ -1,13 +1,12 @@
 {
   "Frequency": 223.94,
   "Offset": -1.6,
-  "Tone": "CSQ",
+  "Tone": "CSQ / CSQ",
   "Call": "KB5RX",
   "Location": "Los Alamos, Pajarito Mountain",
   "ST/PR": "NM",
   "Use": "OPEN",
-  "VOIP": "",
-  "DGTL": "",
+  "Mode": "FM",
   "Mi": 188.36,
   "Dir": "SSW",
   "": "",
@@ -26,5 +25,5 @@
   "Analog Bandwidth": "",
   "Commands": "Wide area.",
   "Coordination": "NMFCC",
-  "Last update": "2020-09-28"
+  "Last update": "2020-11-29"
 }

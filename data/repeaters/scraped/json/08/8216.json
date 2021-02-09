@@ -6,11 +6,10 @@
   "Location": "Hudson",
   "ST/PR": "CO",
   "Use": "OPEN",
-  "VOIP": "EI",
-  "DGTL": "",
+  "Mode": "FM EchoLink IRLP",
   "Mi": 112.93,
   "Dir": "NNE",
-  "": "Node Offline",
+  "": "ON - IDLE",
   "state_id": "08",
   "ID": "8216",
   "Latitude": 40.02019882,
@@ -20,7 +19,7 @@
   "Uplink Tone": 114.8,
   "Downlink Tone": 114.8,
   "County": "Weld",
-  "Grid": "DN70",
+  "Grid": "DN70QA",
   "Op Status": "On-Air",
   "Sponsor": "K0EB",
   "Affiliate": "K0UPS Club",
@@ -28,6 +27,7 @@
   "Analog Bandwidth": "",
   "EchoLink": 448035,
   "IRLP": 8035,
+  "Commands": 33,
   "Coordination": "CCARC",
-  "Last update": "2018-12-01"
+  "Last update": "2021-01-30"
 }

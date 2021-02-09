@@ -6,8 +6,7 @@
   "Location": "Gilcrest",
   "ST/PR": "CO",
   "Use": "OPEN",
-  "VOIP": "I",
-  "DGTL": "Y",
+  "Mode": "FM IRLP Fusion",
   "Mi": 128.22,
   "Dir": "NNE",
   "": "",
@@ -33,5 +32,5 @@
   "Nets": "W.A.R.S. Club Net: Tuesday at 19:00",
   "Web links": "http://www.weldamateurradio.org",
   "Coordination": "CCARC",
-  "Last update": "2020-06-29"
+  "Last update": "2021-01-30"
 }

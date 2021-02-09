@@ -1,2 +1,2 @@
-Frequency,Offset,Tone,Call,Location,ST/PR,Use,VOIP,DGTL,Mi,Dir,,state_id,ID,Latitude,Longitude,Downlink,Uplink,Uplink Tone,County,Grid,On-air,Coverage,Sponsor,FM,Analog Bandwidth,Coordination,Last update
-448.3,-5,88.5,W7CEU,"Price, Wood Hill",UT,OPEN,,,198.73,NW,,49,2765,39.61190033,-110.81199646,448.3,443.3,88.5,Carbon,DM49OO,Unknown,Price.,College of Eastern Utah ARC,Yes; analog capable.,,UVHFS,
+Frequency,Offset,Tone,Call,Location,ST/PR,Use,Mode,Mi,Dir,,state_id,ID,Latitude,Longitude,Downlink,Uplink,Uplink Tone,County,Grid,On-air,Coverage,Sponsor,FM,Analog Bandwidth,Coordination,Last update
+448.3,-5,88.5,W7CEU,"Price, Wood Hill",UT,OPEN,FM,198.73,NW,,49,2765,39.61190033,-110.81199646,448.3,443.3,88.5,Carbon,DM49OO,Unknown,Price.,College of Eastern Utah ARC,Yes; analog capable.,,UVHFS,

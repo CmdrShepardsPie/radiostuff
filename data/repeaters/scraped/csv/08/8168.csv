@@ -1,2 +1,2 @@
-Frequency,Offset,Tone,Call,Location,ST/PR,Use,VOIP,DGTL,Mi,Dir,,state_id,ID,Latitude,Longitude,Downlink,Uplink,Uplink Tone,County,Grid,Op Status,Coverage,Features,FM,Analog Bandwidth,Notes,Web links,Coordination,Last update
-145.325,-0.6,100,KB5ITS,"Mancos, Caviness Mountain",CO,OPEN,,,176.03,WSW,,08,8168,37.365,-108.147,145.325,144.725,100,Montezuma,DM57WI,On-Air,Wide area.,E-power.,Yes; analog capable.,,Full time to the San Juan Connection,http://www.sjcham.com,CCARC,2020-07-23
+Frequency,Offset,Tone,Call,Location,ST/PR,Use,Mode,Mi,Dir,,state_id,ID,Latitude,Longitude,Downlink,Uplink,Uplink Tone,County,Grid,Op Status,Coverage,Features,FM,Analog Bandwidth,Notes,Web links,Coordination,Last update
+145.325,-0.6,100,KB5ITS,"Mancos, Caviness Mountain",CO,OPEN,FM,176.03,WSW,,08,8168,37.365,-108.147,145.325,144.725,100,Montezuma,DM57WI,On-Air,Wide area.,E-power.,Yes; analog capable.,,Full time to the San Juan Connection,http://www.sjcham.com,CCARC,2020-07-23

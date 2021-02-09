@@ -6,8 +6,7 @@
   "Location": "Axtell, NTV Studio",
   "ST/PR": "NE",
   "Use": "OPEN",
-  "VOIP": "",
-  "DGTL": "",
+  "Mode": "FM",
   "Mi": 169.12,
   "Dir": "ESE",
   "": "",
@@ -25,5 +24,5 @@
   "FM": "Yes; analog capable.",
   "Analog Bandwidth": "",
   "Coordination": "WB0CMC",
-  "Last update": "2017-07-04"
+  "Last update": "2021-01-16"
 }

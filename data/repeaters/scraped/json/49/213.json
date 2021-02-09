@@ -6,8 +6,7 @@
   "Location": "Provo, Lake Mountain",
   "ST/PR": "UT",
   "Use": "OPEN",
-  "VOIP": "EI",
-  "DGTL": "",
+  "Mode": "FM EchoLink IRLP",
   "Mi": 198.72,
   "Dir": "WNW",
   "": "ON - IDLE",
@@ -31,5 +30,5 @@
   "Nets": "Wednesday at 19:00",
   "Web links": "http://utaharc.org/rptr/76rpt.html",
   "Coordination": "UVHFS",
-  "Last update": "2020-09-24"
+  "Last update": "2021-01-26"
 }

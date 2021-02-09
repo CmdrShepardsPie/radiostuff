@@ -1,2 +1,2 @@
-Frequency,Offset,Tone,Call,Location,ST/PR,Use,VOIP,DGTL,Mi,Dir,,state_id,ID,Latitude,Longitude,Downlink,Uplink,Uplink Tone,Downlink Tone,County,Op Status,Sponsor,FM,Analog Bandwidth,Coordination,Last update
-447.925,-5,100,K0FEZ,Denver,CO,OPEN,,,89.94,N,,08,8196,39.73759842,-104.98500061,447.925,442.925,100,100,Denver,On-Air,RADOPS El Jebel Shriners,Yes; analog capable.,,CCARC,2020-10-19
+Frequency,Offset,Tone,Call,Location,ST/PR,Use,Mode,Mi,Dir,,state_id,ID,Latitude,Longitude,Downlink,Uplink,Uplink Tone,Downlink Tone,County,Op Status,Sponsor,FM,Analog Bandwidth,Coordination,Last update
+447.925,-5,100,K0FEZ,Denver,CO,OPEN,FM,89.94,N,,08,8196,39.73759842,-104.98500061,447.925,442.925,100,100,Denver,On-Air,RADOPS El Jebel Shriners,Yes; analog capable.,,CCARC,2020-10-19

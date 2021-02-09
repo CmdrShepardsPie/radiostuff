@@ -1,2 +1,2 @@
-Frequency,Offset,Tone,Call,Location,ST/PR,Use,VOIP,DGTL,Mi,Dir,,state_id,ID,Latitude,Longitude,Downlink,Uplink,YSF Digital Enabled,DG-ID,County,Grid,Op Status,Sponsor,Affiliate,Nets,Coordination,Last update
-147.34,0.6,88.5,W5WX,Amarillo,TX,OPEN,,Y,158.71,SSE,,48,395,35.1739006,-101.95400238,147.34,147.94,1,Open ↑ / Open ↓,Randall,DM95AE,On-Air,Panhandle Amateur Radio Club,ARRL,PARC Before Dark Net: Weekdays 17:30.,TVHFS,2019-11-30
+Frequency,Offset,Tone,Call,Location,ST/PR,Use,Mode,Mi,Dir,,state_id,ID,Latitude,Longitude,Downlink,Uplink,YSF Digital Enabled,DG-ID,County,Grid,Op Status,Sponsor,Affiliate,Nets,Coordination,Last update
+147.34,0.6,88.5,W5WX,Amarillo,TX,OPEN,Fusion,158.71,SSE,,48,395,35.1739006,-101.95400238,147.34,147.94,1,Open ↑ / Open ↓,Randall,DM95AE,On-Air,Panhandle Amateur Radio Club,ARRL,PARC Before Dark Net: Weekdays 17:30.,TVHFS,2019-11-30

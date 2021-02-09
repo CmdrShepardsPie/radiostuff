@@ -3,11 +3,10 @@
   "Offset": -0.6,
   "Tone": 162.2,
   "Call": "KD5SAR",
-  "Location": "Zuni, Black rock mes",
+  "Location": "Zuni, Black rock",
   "ST/PR": "NM",
   "Use": "OPEN",
-  "VOIP": "",
-  "DGTL": "",
+  "Mode": "FM",
   "Mi": 177.36,
   "Dir": "SSW",
   "": "",
@@ -21,12 +20,12 @@
   "County": "McKinley",
   "Grid": "DM55PC",
   "Op Status": "On-Air",
-  "Coverage": "Wide are: Southern McKinley County.",
+  "Coverage": "Wide area: Southern McKinley County.",
   "Sponsor": "MCARES",
   "Features": "Closed autopatch.",
   "FM": "Yes; analog capable.",
   "Analog Bandwidth": "",
   "Notes": "Links to 448.2 Deza Bluffs",
   "Coordination": "NMFCC",
-  "Last update": "2020-08-24"
+  "Last update": "2021-02-08"
 }

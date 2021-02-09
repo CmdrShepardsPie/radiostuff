@@ -6,8 +6,7 @@
   "Location": "Haviland",
   "ST/PR": "KS",
   "Use": "OPEN",
-  "VOIP": "",
-  "DGTL": "",
+  "Mode": "FM",
   "Mi": 194.7,
   "Dir": "ESE",
   "": "",
@@ -23,12 +22,9 @@
   "Grid": "EM07KO",
   "Op Status": "On-Air",
   "Sponsor": "N0FEK",
-  "Affiliate": "Kan-Okla, Stateline Skywarn",
   "Features": "Closed autopatch.",
   "FM": "Yes; analog capable.",
   "Analog Bandwidth": "",
-  "Links": "Full-time to the Kan-Okla Intertie System .",
-  "Web links": "http://kanoklaintertiesystem.org/",
   "Coordination": "Kansas Repeater Council",
-  "Last update": "2019-05-17"
+  "Last update": "2020-11-26"
 }

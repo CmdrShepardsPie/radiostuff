@@ -6,8 +6,7 @@
   "Location": "Window Rock",
   "ST/PR": "NM",
   "Use": "OPEN",
-  "VOIP": "",
-  "DGTL": "",
+  "Mode": "FM",
   "Mi": 157.91,
   "Dir": "SW",
   "": "",
@@ -19,9 +18,9 @@
   "Uplink": 144.69,
   "Uplink Tone": 123,
   "County": "McKinley",
-  "Op Status": "On-Air",
+  "Op Status": "Off-Air",
   "Sponsor": "NARC",
   "FM": "Yes; analog capable.",
   "Analog Bandwidth": "",
-  "Last update": "2018-09-05"
+  "Last update": "2021-02-08"
 }

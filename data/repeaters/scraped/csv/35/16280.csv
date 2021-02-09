@@ -1,2 +1,2 @@
-Frequency,Offset,Tone,Call,Location,ST/PR,Use,VOIP,DGTL,Mi,Dir,,state_id,ID,Latitude,Longitude,Downlink,Uplink,D-STAR Enabled,Node,Sources,County,Grid,Op Status,Sponsor,Features,Coordination,Last update
-1291.1,-20,,KF5VBE,Aztec,NM,CLOSED,,S,190.09,SW,,35,16280,36.78229904,-107.98799896,1291.1,1271.1,1,KF5VBE (A) Repeater,jfindu lookup / dstar-users lookup,San Juan,DM66AS,On-Air,San Juan County,DV only,NMFCC,2019-05-12
+Frequency,Offset,Tone,Call,Location,ST/PR,Use,Mode,Mi,Dir,,state_id,ID,Latitude,Longitude,Downlink,Uplink,D-STAR Enabled,Node,Sources,County,Grid,Op Status,Sponsor,Features,Coordination,Last update
+1291.1,-20,,KF5VBE,Aztec,NM,CLOSED,DSTAR,190.09,SW,,35,16280,36.78229904,-107.98799896,1291.1,1271.1,1,KF5VBE (A) Repeater,jfindu lookup / dstar-users lookup,San Juan,DM66AS,On-Air,San Juan County,DV only,NMFCC,2019-05-12

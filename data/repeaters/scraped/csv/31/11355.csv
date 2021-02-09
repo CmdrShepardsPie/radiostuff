@@ -1,2 +1,2 @@
-Frequency,Offset,Tone,Call,Location,ST/PR,Use,VOIP,DGTL,Mi,Dir,,state_id,ID
-146.445,0,88.5,AG0N,Scottsbluff,NE,OPEN,I,,112.12,NW,,31,11355
+Frequency,Offset,Tone,Call,Location,ST/PR,Use,Mode,Mi,Dir,,state_id,ID
+146.445,0,88.5,AG0N,Scottsbluff,NE,OPEN,FM IRLP,112.12,NW,,31,11355

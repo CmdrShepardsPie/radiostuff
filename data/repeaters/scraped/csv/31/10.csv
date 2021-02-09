@@ -1,2 +1,2 @@
-Frequency,Offset,Tone,Call,Location,ST/PR,Use,VOIP,DGTL,Mi,Dir,,state_id,ID,Latitude,Longitude,Downlink,Uplink,County,Op Status,Sponsor,FM,Analog Bandwidth,Last update
-146.865,-0.6,,KR0A,Broken Bow,NE,OPEN,,,149.82,E,,31,10,41.40179825,-99.6411972,146.865,146.265,Custer,On-Air,KR0A,Yes; analog capable.,,2013-12-13
+Frequency,Offset,Tone,Call,Location,ST/PR,Use,Mode,Mi,Dir,,state_id,ID,Latitude,Longitude,Downlink,Uplink,County,Op Status,Sponsor,FM,Analog Bandwidth,Last update
+146.865,-0.6,,KR0A,Broken Bow,NE,OPEN,FM,149.82,E,,31,10,41.40179825,-99.6411972,146.865,146.265,Custer,On-Air,KR0A,Yes; analog capable.,,2013-12-13

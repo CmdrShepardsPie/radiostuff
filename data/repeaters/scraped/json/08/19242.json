@@ -6,8 +6,7 @@
   "Location": "Dillon, Dillon Res.",
   "ST/PR": "CO",
   "Use": "OPEN",
-  "VOIP": "W",
-  "DGTL": "Y",
+  "Mode": "Fusion WIRES-X",
   "Mi": 91.85,
   "Dir": "NNW",
   "": "",
@@ -20,7 +19,7 @@
   "YSF Digital Enabled": true,
   "DG-ID": "Open ↑ / Open ↓",
   "WIRES-X": 68959,
-  "County": "",
+  "County": "Summit",
   "Op Status": "On-Air",
   "Coverage": "Dillon, Silverthorne, Keystone, Breckenridge and the surrounding summit county",
   "Sponsor": "Denver Water Amateur Radio Club",
@@ -28,5 +27,5 @@
   "Features": "Fusion Repeater - Linked to 448.350 in Denver",
   "Nets": "SBC Net Monday at 19:00 and DWARC NET: Sunday at 19:30 Mountain Time",
   "Web links": "http://www.dwarc.com",
-  "Last update": "2020-10-19"
+  "Last update": "2020-11-30"
 }

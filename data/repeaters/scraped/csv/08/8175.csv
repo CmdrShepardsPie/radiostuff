@@ -1,2 +1,2 @@
-Frequency,Offset,Tone,Call,Location,ST/PR,Use,VOIP,DGTL,Mi,Dir,,state_id,ID,Latitude,Longitude,Downlink,Uplink,County,Grid,Op Status,Sponsor,FM,Analog Bandwidth,Coordination,Last update
-147.105,0.6,,K0SSI,Grand Junction,CO,OPEN,,,184.16,WNW,,08,8175,39.06389999,-108.5510025,147.105,147.705,Mesa,DM59RB,On-Air,K0SSI,Yes; analog capable.,,CCARC,2013-04-20
+Frequency,Offset,Tone,Call,Location,ST/PR,Use,Mode,Mi,Dir,,state_id,ID,Latitude,Longitude,Downlink,Uplink,County,Grid,Op Status,Sponsor,FM,Analog Bandwidth,Coordination,Last update
+147.105,0.6,,K0SSI,Grand Junction,CO,OPEN,FM,184.16,WNW,,08,8175,39.06389999,-108.5510025,147.105,147.705,Mesa,DM59RB,On-Air,K0SSI,Yes; analog capable.,,CCARC,2013-04-20

@@ -1,2 +1,2 @@
-Frequency,Offset,Tone,Call,Location,ST/PR,Use,VOIP,DGTL,Mi,Dir,,state_id,ID,Latitude,Longitude,Downlink,Uplink,Uplink Tone,County,Grid,Op Status,Coverage,Sponsor,Features,FM,Analog Bandwidth,Coordination,Last update
-444.375,5,100,WA5IHL,"Las Vegas, Mesa Apache",NM,CLOSED,,,163.83,SE,,35,117,35.40399933,-105.19300079,444.375,449.375,100,San Miguel,DM75JJ,On-Air,Wide area.,JPARA,"Closed autopatch, e-power.",Yes; analog capable.,,NMFCC,2017-08-22
+Frequency,Offset,Tone,Call,Location,ST/PR,Use,Mode,Mi,Dir,,state_id,ID,Latitude,Longitude,Downlink,Uplink,Uplink Tone,County,Grid,Op Status,Coverage,Sponsor,Features,FM,Analog Bandwidth,Coordination,Last update
+444.375,5,100,WA5IHL,"Las Vegas, Mesa Apache",NM,CLOSED,FM,163.83,SE,,35,117,35.40399933,-105.19300079,444.375,449.375,100,San Miguel,DM75JJ,On-Air,Wide area.,JPARA,"Closed autopatch, e-power.",Yes; analog capable.,,NMFCC,2017-08-22

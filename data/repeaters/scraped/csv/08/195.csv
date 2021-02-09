@@ -1,2 +1,2 @@
-Frequency,Offset,Tone,Call,Location,ST/PR,Use,VOIP,DGTL,Mi,Dir,,state_id,ID,Latitude,Longitude,Downlink,Uplink,Uplink Tone,County,Op Status,Coverage,Sponsor,Features,FM,Analog Bandwidth,Web links,Coordination,Last update
-224.26,-1.6,88.5,W0PHC,"Pueblo, Baculite Mesa",CO,OPEN,,,36.48,ESE,,08,195,38.39250183,-104.55500031,224.26,222.66,88.5,Pueblo,On-Air,Wide area.,Pueblo Ham Club,E-power.,Yes; analog capable.,,PHC repeaters,CCARC,2020-07-19
+Frequency,Offset,Tone,Call,Location,ST/PR,Use,Mode,Mi,Dir,,state_id,ID,Latitude,Longitude,Downlink,Uplink,Uplink Tone,County,Op Status,Coverage,Sponsor,Features,FM,Analog Bandwidth,Web links,Coordination,Last update
+224.26,-1.6,88.5,W0PHC,"Pueblo, Baculite Mesa",CO,OPEN,FM,36.48,ESE,,08,195,38.39250183,-104.55500031,224.26,222.66,88.5,Pueblo,On-Air,Wide area.,Pueblo Ham Club,E-power.,Yes; analog capable.,,PHC repeaters,CCARC,2020-07-19

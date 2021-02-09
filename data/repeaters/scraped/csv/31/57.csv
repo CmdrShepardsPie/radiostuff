@@ -1,2 +1,2 @@
-Frequency,Offset,Tone,Call,Location,ST/PR,Use,VOIP,DGTL,Mi,Dir,,state_id,ID,Latitude,Longitude,Downlink,Uplink,Uplink Tone,County,Grid,Op Status,Coverage,Sponsor,Features,FM,Analog Bandwidth,Last update
-145.475,-0.6,CSQ,WD0BQM,Scottsbluff,NE,OPEN,,,114.5,NW,,31,57,41.88710022,-103.66400146,145.475,144.875,CSQ,Scotts Bluff,DN81EV,On-Air,,RWMC,e-power.,Yes; analog capable.,,2018-12-02
+Frequency,Offset,Tone,Call,Location,ST/PR,Use,Mode,Mi,Dir,,state_id,ID,Latitude,Longitude,Downlink,Uplink,Uplink Tone,County,Grid,Op Status,Coverage,Sponsor,Features,FM,Analog Bandwidth,Last update
+145.475,-0.6,CSQ / CSQ,WD0BQM,Scottsbluff,NE,OPEN,FM,114.5,NW,,31,57,41.88710022,-103.66400146,145.475,144.875,CSQ,Scotts Bluff,DN81EV,On-Air,,RWMC,e-power.,Yes; analog capable.,,2018-12-02

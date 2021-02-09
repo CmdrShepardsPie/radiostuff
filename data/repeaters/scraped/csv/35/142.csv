@@ -1,2 +1,2 @@
-Frequency,Offset,Tone,Call,Location,ST/PR,Use,VOIP,DGTL,Mi,Dir,,state_id,ID,Latitude,Longitude,Downlink,Uplink,Uplink Tone,County,Grid,Op Status,Coverage,Sponsor,Features,FM,Analog Bandwidth,Coordination,Last update
-444.7,5,100,K5CPU,"Rio Rancho, Intel Corp",NM,OPEN,,,142.61,S,,35,142,35.22499847,-106.66000366,444.7,449.7,100,Sandoval,DM65QF,On-Air,Albuquerque and vicinity,New Mexico Intel Emergency Amateur Service,E-power.,Yes; analog capable.,,NMFCC,2017-07-21
+Frequency,Offset,Tone,Call,Location,ST/PR,Use,Mode,Mi,Dir,,state_id,ID,Latitude,Longitude,Downlink,Uplink,Uplink Tone,County,Grid,Op Status,Coverage,Sponsor,Features,FM,Analog Bandwidth,Coordination,Last update
+444.7,5,100,K5CPU,"Rio Rancho, Intel Corp",NM,OPEN,FM,142.61,S,,35,142,35.22499847,-106.66000366,444.7,449.7,100,Sandoval,DM65QF,On-Air,Albuquerque and vicinity,New Mexico Intel Emergency Amateur Service,E-power.,Yes; analog capable.,,NMFCC,2017-07-21

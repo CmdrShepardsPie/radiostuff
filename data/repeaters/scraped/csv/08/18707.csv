@@ -1,2 +1,2 @@
-Frequency,Offset,Tone,Call,Location,ST/PR,Use,VOIP,DGTL,Mi,Dir,,state_id,ID,Latitude,Longitude,Downlink,Uplink,Uplink Tone,Downlink Tone,County,Op Status,Sponsor,FM,Analog Bandwidth,Last update
-145.28,-0.6,100,WB0SLW,Pueblo,CO,OPEN,,,35.99,SE,,08,18707,38.2544472,-104.6091409,145.28,144.68,100,100,Pueblo,On-Air,Steve Worley,Yes; analog capable.,,2020-04-26
+Frequency,Offset,Tone,Call,Location,ST/PR,Use,Mode,Mi,Dir,,state_id,ID,Latitude,Longitude,Downlink,Uplink,Uplink Tone,Downlink Tone,County,Op Status,Sponsor,FM,Analog Bandwidth,Last update
+145.28,-0.6,100,WB0SLW,Pueblo,CO,OPEN,FM,35.99,SE,,08,18707,38.2544472,-104.6091409,145.28,144.68,100,100,Pueblo,On-Air,Steve Worley,Yes; analog capable.,,2020-04-26

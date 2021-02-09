@@ -1,2 +1,2 @@
-Frequency,Offset,Tone,Call,Location,ST/PR,Use,VOIP,DGTL,Mi,Dir,,state_id,ID,Latitude,Longitude,Downlink,Uplink,Uplink Tone,Downlink Tone,County,Op Status,Sponsor,FM,Analog Bandwidth,AllStar,Web links,Coordination,Last update
-442.05,5,100,K5BIQ,"Albuquerque, West Mesa",NM,OPEN,A,,153.16,S,,35,15759,35.06700134,-106.7009964,442.05,447.05,100,100,Bernalillo,On-Air,BERNCO OEM,Yes; analog capable.,,28828,http://bc-ares.org/wordpress/,NMFCC,2018-06-16
+Frequency,Offset,Tone,Call,Location,ST/PR,Use,Mode,Mi,Dir,,state_id,ID,Latitude,Longitude,Downlink,Uplink,Uplink Tone,Downlink Tone,County,Op Status,Sponsor,FM,Analog Bandwidth,AllStar,Nets,Web links,Coordination,Last update
+442.05,5,100,NM5BC,"Albuquerque, West Mesa",NM,OPEN,FM AllStar,153.16,S,,35,15759,35.06700134,-106.7009964,442.05,447.05,100,100,Bernalillo,On-Air,BERNCO OEM,Yes; analog capable.,,28828,"BCARES NET, Thursday, 1900 MST/MDT",http://bc-ares.org/wordpress/,NMFCC,2021-01-29

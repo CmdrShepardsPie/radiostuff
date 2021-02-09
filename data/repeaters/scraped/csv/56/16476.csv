@@ -1,2 +1,2 @@
-Frequency,Offset,Tone,Call,Location,ST/PR,Use,VOIP,DGTL,Mi,Dir,,state_id,ID,Latitude,Longitude,Downlink,Uplink,Uplink Tone,County,Op Status,FM,Analog Bandwidth,Last update
-449.625,-5,151.4,WA7SNU,Wheatland,WY,OPEN,,,186.61,NNE,,56,16476,42.0544014,-104.95300293,449.625,444.625,151.4,Platte,On-Air,Yes; analog capable.,,2017-10-12
+Frequency,Offset,Tone,Call,Location,ST/PR,Use,Mode,Mi,Dir,,state_id,ID,Latitude,Longitude,Downlink,Uplink,Uplink Tone,County,Op Status,FM,Analog Bandwidth,Last update
+449.625,-5,151.4,WA7SNU,Wheatland,WY,OPEN,FM,186.61,NNE,,56,16476,42.0544014,-104.95300293,449.625,444.625,151.4,Platte,On-Air,Yes; analog capable.,,2017-10-12

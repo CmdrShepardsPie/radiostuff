@@ -1,13 +1,12 @@
 {
   "Frequency": 147.135,
   "Offset": 0.6,
-  "Tone": "",
+  "Tone": 123,
   "Call": "W0SOK",
   "Location": "Cozad",
   "ST/PR": "NE",
   "Use": "OPEN",
-  "VOIP": "",
-  "DGTL": "",
+  "Mode": "FM",
   "Mi": 125.6,
   "Dir": "ESE",
   "": "",
@@ -17,13 +16,14 @@
   "Longitude": -99.91300201,
   "Downlink": 147.135,
   "Uplink": 147.735,
+  "Uplink Tone": 123,
   "County": "Dawson",
   "Grid": "EN00BR",
   "Op Status": "On-Air",
   "Sponsor": "Heartland Amateur Radio Association",
   "Features": "E-power.",
   "FM": "Yes; analog capable.",
-  "Analog Bandwidth": "",
+  "Analog Bandwidth": 25,
   "Nets": "Wed 2030",
-  "Last update": "2017-06-29"
+  "Last update": "2021-01-02"
 }

@@ -3,11 +3,10 @@
   "Offset": -5,
   "Tone": 100,
   "Call": "K0NR",
-  "Location": "Monument, Monument Hill",
+  "Location": "Monument, Colorado Springs, Monument Hill",
   "ST/PR": "CO",
   "Use": "OPEN",
-  "VOIP": "",
-  "DGTL": "",
+  "Mode": "FM",
   "Mi": 48.28,
   "Dir": "NNE",
   "": "",
@@ -28,5 +27,5 @@
   "Analog Bandwidth": "",
   "Web links": "http://www.k0nr.com/wordpress/k0nr-repeater/",
   "Coordination": "CCARC",
-  "Last update": "2020-09-27"
+  "Last update": "2020-12-19"
 }

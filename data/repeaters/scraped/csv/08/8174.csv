@@ -1,2 +1,2 @@
-Frequency,Offset,Tone,Call,Location,ST/PR,Use,VOIP,DGTL,Mi,Dir,,state_id,ID,Latitude,Longitude,Downlink,Uplink,Uplink Tone,Downlink Tone,County,On-air,Sponsor,FM,Analog Bandwidth,Coordination,Last update
-147.09,0.6,118.8,KZ0DEM,Springfield,CO,OPEN,,,159.45,SE,,08,8174,37.40829849,-102.61399841,147.09,147.69,118.8,118.8,Baca,Unknown,BCDEARC,Yes; analog capable.,,CCARC,2012-11-12
+Frequency,Offset,Tone,Call,Location,ST/PR,Use,Mode,Mi,Dir,,state_id,ID,Latitude,Longitude,Downlink,Uplink,Uplink Tone,Downlink Tone,County,On-air,Sponsor,FM,Analog Bandwidth,Coordination,Last update
+147.09,0.6,118.8,KZ0DEM,Springfield,CO,OPEN,FM,159.45,SE,,08,8174,37.40829849,-102.61399841,147.09,147.69,118.8,118.8,Baca,Unknown,BCDEARC,Yes; analog capable.,,CCARC,2012-11-12

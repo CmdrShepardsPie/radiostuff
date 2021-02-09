@@ -6,8 +6,7 @@
   "Location": "Salida, Methodist Mountain",
   "ST/PR": "CO",
   "Use": "OPEN",
-  "VOIP": "EIA",
-  "DGTL": "",
+  "Mode": "FM AllStar EchoLink IRLP",
   "Mi": 42.54,
   "Dir": "W",
   "": "ON - IDLE",
@@ -20,8 +19,8 @@
   "Uplink Tone": 100,
   "Downlink Tone": 100,
   "County": "Chaffee",
-  "Grid": "DM68xk",
-  "Op Status": "On-Air",
+  "Grid": "DM68XK",
+  "Op Status": "Off-Air",
   "Coverage": "I-25 from Walsenburg to Wyoming and US-50 from La junta to Monarch Pass",
   "Features": 2,
   "FM": "Yes; analog capable.",
@@ -34,5 +33,5 @@
   "Nets": "APRS Net: Sun at 19:00. Region 5 District 2 ARES Net: Sun at 19:30. Statewide ARES Net: Sun at 20:00. Region 5 District 1 ARES Net: Mon at 19:00. RGARC Net: Wed at 19:00.",
   "Web links": "K0JSC.COM",
   "Coordination": "CCARC",
-  "Last update": "2020-07-16"
+  "Last update": "2021-02-09"
 }

@@ -1,2 +1,2 @@
-Frequency,Offset,Tone,Call,Location,ST/PR,Use,VOIP,DGTL,Mi,Dir,,state_id,ID,Latitude,Longitude,Downlink,Uplink,Uplink Tone,County,Op Status,FM,Analog Bandwidth,EchoLink,AllStar,Coordination,Last update
-443.7,5,100,NM5F,Rio Rancho,NM,OPEN,EA,,142.05,S,Node Offline,35,18120,35.23279953,-106.66300201,443.7,448.7,100,Sandoval,On-Air,Yes; analog capable.,,27580,27578,NMFCC,2019-12-02
+Frequency,Offset,Tone,Call,Location,ST/PR,Use,Mode,Mi,Dir,,state_id,ID,Latitude,Longitude,Downlink,Uplink,Uplink Tone,County,Op Status,FM,Analog Bandwidth,EchoLink,AllStar,Coordination,Last update
+443.7,5,100,NM5F,Rio Rancho,NM,OPEN,FM AllStar EchoLink,142.05,S,ON - IDLE,35,18120,35.23279953,-106.66300201,443.7,448.7,100,Sandoval,On-Air,Yes; analog capable.,,27580,27578,NMFCC,2019-12-02

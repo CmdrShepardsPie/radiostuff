@@ -6,8 +6,7 @@
   "Location": "Payson",
   "ST/PR": "UT",
   "Use": "OPEN",
-  "VOIP": "",
-  "DGTL": "",
+  "Mode": "FM",
   "Mi": 181.77,
   "Dir": "WNW",
   "": "",
@@ -32,5 +31,5 @@
   "Nets": "Mountain View Stake net: Sun at 20:00.",
   "Web links": "http://nv7v.org",
   "Coordination": "UVHFS",
-  "Last update": "2018-02-19"
+  "Last update": "2021-01-17"
 }

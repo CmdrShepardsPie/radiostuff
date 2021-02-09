@@ -1,2 +1,2 @@
-Frequency,Offset,Tone,Call,Location,ST/PR,Use,VOIP,DGTL,Mi,Dir,,state_id,ID,Latitude,Longitude,Downlink,Uplink,Uplink Tone,County,Grid,Op Status,Sponsor,FM,Analog Bandwidth,Nets,Coordination,Last update
-443.75,5,100,WA6CCB,"Albuquerque, Sandia Peak",NM,CLOSED,,,145.12,SSE,,35,11724,35.21829987,-106.4509964,443.75,448.75,100,Bernalillo,DM65SF,On-Air,"WA6CCB, K5RKE",Yes; analog capable.,,Bosque Youth Amateur Radio Net: M-F at 17:00.,NMFCC,2017-07-21
+Frequency,Offset,Tone,Call,Location,ST/PR,Use,Mode,Mi,Dir,,state_id,ID,Latitude,Longitude,Downlink,Uplink,Uplink Tone,County,Grid,Op Status,Sponsor,FM,Analog Bandwidth,Nets,Coordination,Last update
+443.75,5,100,WA6CCB,"Albuquerque, Sandia Peak",NM,CLOSED,FM,145.12,SSE,,35,11724,35.21829987,-106.4509964,443.75,448.75,100,Bernalillo,DM65SF,On-Air,"WA6CCB, K5RKE",Yes; analog capable.,,Bosque Youth Amateur Radio Net: M-F at 17:00.,NMFCC,2017-07-21

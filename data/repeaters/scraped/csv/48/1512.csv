@@ -1,2 +1,2 @@
-Frequency,Offset,Tone,Call,Location,ST/PR,Use,VOIP,DGTL,Mi,Dir,,state_id,ID,Latitude,Longitude,Downlink,Uplink,County,On-air,FM,Analog Bandwidth,Coordination,Last update
-444.425,5,,N5LTZ,Black,TX,CLOSED,,,188.34,S,,48,1512,34.68259811,-102.60900116,444.425,449.425,Parmer,Unknown,Yes; analog capable.,,TVHFS,2018-09-03
+Frequency,Offset,Tone,Call,Location,ST/PR,Use,Mode,Mi,Dir,,state_id,ID,Latitude,Longitude,Downlink,Uplink,County,On-air,FM,Analog Bandwidth,Coordination,Last update
+444.425,5,,N5LTZ,Black,TX,CLOSED,FM,188.34,S,,48,1512,34.68259811,-102.60900116,444.425,449.425,Parmer,Unknown,Yes; analog capable.,,TVHFS,2018-09-03

@@ -1,2 +1,2 @@
-Frequency,Offset,Tone,Call,Location,ST/PR,Use,VOIP,DGTL,Mi,Dir,,state_id,ID,Latitude,Longitude,Downlink,Uplink,Uplink Tone,County,Op Status,Coverage,Sponsor,Features,FM,Analog Bandwidth,Coordination,Last update
-447.525,-5,127.3,KB5ITS,Silverton,CO,OPEN,,,139.69,WSW,,08,210,37.81190109,-107.66400146,447.525,442.525,127.3,San Juan,On-Air,Wide area.,KB5ITS,E-power.,Yes; analog capable.,,CCARC,2014-06-30
+Frequency,Offset,Tone,Call,Location,ST/PR,Use,Mode,Mi,Dir,,state_id,ID,Latitude,Longitude,Downlink,Uplink,Uplink Tone,County,Op Status,Coverage,Sponsor,Features,FM,Analog Bandwidth,Coordination,Last update
+447.525,-5,127.3,KB5ITS,Silverton,CO,OPEN,FM,139.69,WSW,,08,210,37.81190109,-107.66400146,447.525,442.525,127.3,San Juan,On-Air,Wide area.,KB5ITS,E-power.,Yes; analog capable.,,CCARC,2014-06-30

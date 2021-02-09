@@ -6,8 +6,7 @@
   "Location": "Albuquerque, Sandia Crest",
   "ST/PR": "NM",
   "Use": "OPEN",
-  "VOIP": "",
-  "DGTL": "",
+  "Mode": "FM",
   "Mi": 145.8,
   "Dir": "SSE",
   "": "",
@@ -30,5 +29,5 @@
   "Nets": "AACC: Sun at 0900.",
   "Web links": "http://www.caravanradio.org",
   "Coordination": "NMFCC",
-  "Last update": "2017-07-16"
+  "Last update": "2020-11-07"
 }

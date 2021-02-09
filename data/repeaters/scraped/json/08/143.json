@@ -6,8 +6,7 @@
   "Location": "Golden",
   "ST/PR": "CO",
   "Use": "OPEN",
-  "VOIP": "",
-  "DGTL": "",
+  "Mode": "FM",
   "Mi": 90.26,
   "Dir": "N",
   "": "",
@@ -24,5 +23,5 @@
   "FM": "Yes; analog capable.",
   "Analog Bandwidth": "",
   "Coordination": "CCARC",
-  "Last update": "2014-04-28"
+  "Last update": "2020-12-28"
 }

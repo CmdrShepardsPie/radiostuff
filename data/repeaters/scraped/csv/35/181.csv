@@ -1,2 +1,2 @@
-Frequency,Offset,Tone,Call,Location,ST/PR,Use,VOIP,DGTL,Mi,Dir,,state_id,ID,Latitude,Longitude,Downlink,Uplink,Uplink Tone,County,Op Status,Sponsor,FM,Analog Bandwidth,Coordination,Last update
-444.4,5,100,N7JNI,Wagon Mound,NM,OPEN,,,171.03,S,,35,181,36.00889969,-104.70600128,444.4,449.4,100,Mora,On-Air,Mora ARC,Yes; analog capable.,,NMFCC,2017-10-24
+Frequency,Offset,Tone,Call,Location,ST/PR,Use,Mode,Mi,Dir,,state_id,ID,Latitude,Longitude,Downlink,Uplink,Uplink Tone,County,Op Status,Sponsor,FM,Analog Bandwidth,Coordination,Last update
+444.4,5,100,N7JNI,Wagon Mound,NM,OPEN,FM,171.03,S,,35,181,36.00889969,-104.70600128,444.4,449.4,100,Mora,On-Air,Mora ARC,Yes; analog capable.,,NMFCC,2017-10-24

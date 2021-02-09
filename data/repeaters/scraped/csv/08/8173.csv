@@ -1,2 +1,2 @@
-Frequency,Offset,Tone,Call,Location,ST/PR,Use,VOIP,DGTL,Mi,Dir,,state_id,ID,Latitude,Longitude,Downlink,Uplink,County,Grid,Op Status,Sponsor,FM,Analog Bandwidth,Coordination,Last update
-147,0.6,,NE0Z,"Pueblo, CSU",CO,PRIVATE,,,34.22,SE,,08,8173,38.30690002,-104.62000275,147,147.6,Pueblo,DM78QH,On-Air,Carl Higbee,Yes; analog capable.,,CCARC,2014-02-26
+Frequency,Offset,Tone,Call,Location,ST/PR,Use,Mode,Mi,Dir,,state_id,ID,Latitude,Longitude,Downlink,Uplink,County,Grid,Op Status,Sponsor,FM,Analog Bandwidth,Coordination,Last update
+147,0.6,,NE0Z,"Pueblo, CSU",CO,PRIVATE,FM,34.22,SE,,08,8173,38.30690002,-104.62000275,147,147.6,Pueblo,DM78QH,On-Air,Carl Higbee,Yes; analog capable.,,CCARC,2014-02-26

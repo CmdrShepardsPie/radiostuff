@@ -1,2 +1,2 @@
-Frequency,Offset,Tone,Call,Location,ST/PR,Use,VOIP,DGTL,Mi,Dir,,state_id,ID,Latitude,Longitude,Downlink,Uplink,Uplink Tone,County,Op Status,Coverage,FM,Analog Bandwidth,Coordination,Last update
-146.74,-0.6,88.5,N5ZLU,Amarillo,TX,OPEN,,,157.38,SSE,,48,438,35.22000122,-101.83000183,146.74,146.14,88.5,Randall,On-Air,Wide area.,Yes; analog capable.,,TVHFS,2019-09-22
+Frequency,Offset,Tone,Call,Location,ST/PR,Use,Mode,Mi,Dir,,state_id,ID,Latitude,Longitude,Downlink,Uplink,Uplink Tone,County,Op Status,Coverage,FM,Analog Bandwidth,Coordination,Last update
+146.74,-0.6,88.5,N5ZLU,Amarillo,TX,OPEN,FM,157.38,SSE,,48,438,35.22000122,-101.83000183,146.74,146.14,88.5,Randall,On-Air,Wide area.,Yes; analog capable.,,TVHFS,2019-09-22
