@@ -6,11 +6,11 @@ import {RepeaterStructured} from '@interfaces/repeater-structured';
 import {Chirp, ChirpDuplex, ChirpToneMode,} from '@interfaces/chirp';
 import chalk from 'chalk';
 import {
-  buildDCS,
+  buildDCS, filterMode,
   filterOutputFrequencies,
   FrequencyBand,
   loadRepeaters,
-  loadSimplex,
+  loadSimplex, Mode,
   RadioCommon,
   radioCommon,
 } from '@helpers/radio-helpers';
@@ -61,7 +61,7 @@ async function doIt(location: gpsDistance.Point, outFileName: string): Promise<v
         FrequencyBand.$1_25_m,
         FrequencyBand.$70_cm,
       ))
-      // .filter(filterMode(Mode.FM)),
+      .filter(filterMode(Mode.FM)),
   ]
     .map((map: RepeaterStructured): Chirp => convertToRadio(map));
 

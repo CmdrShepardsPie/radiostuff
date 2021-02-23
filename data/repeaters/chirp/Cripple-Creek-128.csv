@@ -28,97 +28,97 @@ Location,Name,Frequency,Duplex,Offset,Tone,rToneFreq,cToneFreq,DtcsCode,DtcsRxCo
 26,SO-50 (SaudiSat-1C),436.795,split,145.85,Tone,67,67,23,23,NN,FM,5,FM SAT SO-50 (SaudiSat-1C)
 27,Swiatowid,145.85,split,436,,100,100,23,23,NN,FM,5,FM SAT Swiatowid
 28,Tevel Mission,436.4,split,145.97,,100,100,23,23,NN,FM,5,FM SAT Tevel Mission
-29,0KG Colorado Springs Broadmoor A,448.25,split,443.25,Tone,123,123,23,23,NN,FM,5,8 8198 32.00 CO El Paso Colorado Springs Broadmoor Area N0KG
-30,0KR Pueblo Pueblo,447.7,split,442.7,TSQL,210.7,210.7,23,23,NN,FM,5,8 8530 74.00 CO Pueblo Pueblo Pueblo KF0KR
-31,0NR Monument Monument Hill,447.725,split,442.725,TSQL,100,100,23,23,NN,FM,5,8 183 47.00 CO El Paso Monument Monument Hill K0NR
-32,0PC Bailey Dick Mountain,146.895,split,146.295,TSQL,100,100,23,23,NN,FM,5,8 7 78.00 CO Park Bailey Dick Mountain AB0PC
-33,0PW Pueblo West Liberty Point,447.45,split,442.45,TSQL,123,123,23,23,NN,FM,5,8 18346 61.00 CO Pueblo Pueblo West Liberty Point NA0PW
-34,0SP Colorado Springs Almagre Mou,147.18,split,147.78,Tone,100,100,23,23,NN,FM,5,8 8178 16.00 CO El Paso Colorado Springs Almagre Mountain AA0SP
+29,0BF Fairplay Sacramento Mountain,447.125,split,442.125,TSQL,103.5,103.5,23,23,NN,FM,5,8 5336 94.00 CO Park Fairplay Sacramento Mountain AA0BF
+30,0DE Simla,147.105,split,147.705,TSQL,107.2,107.2,23,23,NN,FM,5,8 12167 108.00 CO Elbert Simla WA0DE
+31,0KG Colorado Springs Broadmoor A,448.25,split,443.25,Tone,123,123,23,23,NN,FM,5,8 8198 32.00 CO El Paso Colorado Springs Broadmoor Area N0KG
+32,0NR Monument Monument Hill,447.725,split,442.725,TSQL,100,100,23,23,NN,FM,5,8 183 47.00 CO El Paso Monument Monument Hill K0NR
+33,0PC Bailey Dick Mountain,146.895,split,146.295,TSQL,100,100,23,23,NN,FM,5,8 7 78.00 CO Park Bailey Dick Mountain AB0PC
+34,0PW Pueblo West Liberty Point,447.45,split,442.45,TSQL,123,123,23,23,NN,FM,5,8 18346 61.00 CO Pueblo Pueblo West Liberty Point NA0PW
 35,0ST Pueblo Pueblo,146.655,split,146.055,Tone,123,123,23,23,NN,FM,5,8 192 74.00 CO Pueblo Pueblo Pueblo K0ST
-36,0SZ Colorado Springs Almagre Mou,145.235,split,144.635,,100,100,23,23,NN,FM,5,8 17250 16.00 CO El Paso Colorado Springs Almagre Mountain N0SZ
-37,0SZ Colorado Springs Cheyenne Mo,445.0625,split,440.0625,,100,100,23,23,NN,FM,5,8 12355 27.00 CO El Paso Colorado Springs Cheyenne Mountain N0SZ
-38,0SZ Fairplay Badger,446.7625,split,441.7625,,100,100,23,23,NN,FM,5,8 12698 69.00 CO Park Fairplay Badger N0SZ
-39,0SZ Salida Methodist Mountain,446.8125,split,441.8125,,100,100,23,23,NN,FM,5,8 12697 75.00 CO Chaffee Salida Methodist Mountain N0SZ
-40,0SZ Westcreek,446.875,split,441.875,,100,100,23,23,NN,FM,5,8 15900 45.00 CO Douglas Westcreek N0SZ
-41,0TP Colorado Springs,146.85,split,146.25,Cross,156.7,103.5,23,23,NN,FM,5,8 42 39.00 CO El Paso Colorado Springs AD0TP
-42,0WF Colorado Springs,447.025,split,442.025,Tone,123,123,23,23,NN,FM,5,8 49 32.00 CO El Paso Colorado Springs KF0WF
-43,A0L Colorado Springs,147.135,split,147.735,Tone,100,100,23,23,NN,FM,5,8 8176 34.00 CO El Paso Colorado Springs AA0L
-44,A0L Colorado Springs,448.3,split,443.3,Tone,100,100,23,23,NN,FM,5,8 8200 32.00 CO El Paso Colorado Springs AA0L
-45,ARA Critchell Critchell Mountain,147.12,split,147.72,TSQL,88.5,88.5,23,23,NN,FM,5,8 59 87.00 CO Jefferson Critchell Critchell Mountain N0ARA
-46,Black Forest,448.95,split,443.95,,100,100,23,23,NN,FM,5,8 17551 53.00 CO El Paso Black Forest
-47,CGQ Querida,449.675,split,444.675,Tone,88.5,88.5,23,23,NN,FM,5,8 18872 71.00 CO Custer Querida K0CGQ
-48,CRA Colorado Springs Cheyenne Mo,145.16,split,144.56,TSQL,107.2,107.2,23,23,NN,FM,5,8 38 26.00 CO El Paso Colorado Springs Cheyenne Mountain W0CRA
-49,CRA Larkspur Westcreek,147.225,split,147.825,TSQL,107.2,107.2,23,23,NN,FM,5,8 83 49.00 CO Douglas Larkspur Westcreek W0CRA
-50,CRA Larkspur Westcreek,448.425,split,443.425,TSQL,107.2,107.2,23,23,NN,FM,5,8 16547 49.00 CO Douglas Larkspur Westcreek W0CRA
-51,CVU Colorado Springs Cheyenne Mo,145.385,split,144.785,,100,100,23,23,NN,FM,5,8 8088 27.00 CO El Paso Colorado Springs Cheyenne Mountain KC0CVU
-52,CVU Colorado Springs Cheyenne Mo,146.76,split,146.16,TSQL,107.2,107.2,23,23,NN,FM,5,8 41 26.00 CO El Paso Colorado Springs Cheyenne Mountain KC0CVU
-53,CVU Colorado Springs Cheyenne Mo,147.345,split,147.945,TSQL,107.2,107.2,23,23,NN,FM,5,8 47 26.00 CO El Paso Colorado Springs Cheyenne Mountain KC0CVU
-54,CVU Colorado Springs Cheyenne Mo,446.9125,split,441.9125,,100,100,23,23,NN,FM,5,8 8087 27.00 CO El Paso Colorado Springs Cheyenne Mountain KC0CVU
-55,CVU Colorado Springs Cheyenne Mo,448,split,443,Tone,107.2,107.2,23,23,NN,FM,5,8 269 26.00 CO El Paso Colorado Springs Cheyenne Mountain KC0CVU
-56,CVU Colorado Springs Cheyenne Mo,448.1,split,443.1,TSQL,107.2,107.2,23,23,NN,FM,5,8 53 26.00 CO El Paso Colorado Springs Cheyenne Mountain KC0CVU
-57,CVU Lake George Badger Mountain,147.36,split,147.96,TSQL,107.2,107.2,23,23,NN,FM,5,8 170 44.00 CO Park Lake George Badger Mountain KC0CVU
-58,CVU Salida Methodist Mountain,145.295,split,144.695,Tone,107.2,107.2,23,23,NN,FM,5,8 203 79.00 CO Chaffee Salida Methodist Mountain KC0CVU
-59,CVU Salida Methodist Mountain,449.65,split,444.65,Tone,107.2,107.2,23,23,NN,FM,5,8 205 80.00 CO Chaffee Salida Methodist Mountain KC0CVU
-60,Colorado Springs,147.27,split,147.87,,100,100,23,23,NN,FM,5,8 46 33.00 CO El Paso Colorado Springs
-61,Colorado Springs,449.575,split,444.575,,100,100,23,23,NN,FM,5,8 8211 32.00 CO El Paso Colorado Springs
-62,D0Q Pueblo Baculite Mesa,224.26,split,222.66,Tone,88.5,88.5,23,23,NN,FM,5,8 195 67.00 CO Pueblo Pueblo Baculite Mesa ND0Q
-63,D0Q Walsenburg Deer Peak,224.32,split,222.72,Tone,88.5,88.5,23,23,NN,FM,5,8 245 78.00 CO Custer Walsenburg Deer Peak ND0Q
-64,E0Z Pueblo CSU,147,split,147.6,,100,100,23,23,NN,FM,5,8 8173 69.00 CO Pueblo Pueblo CSU NE0Z
-65,EKR Canon City Fremont Peak,145.49,split,144.89,TSQL,103.5,103.5,23,23,NN,FM,5,8 30 34.00 CO Fremont Canon City Fremont Peak WD0EKR
-66,EKR Canon City Fremont Peak,223.96,split,222.36,TSQL,103.5,103.5,23,23,NN,FM,5,8 31 34.00 CO Fremont Canon City Fremont Peak WD0EKR
-67,EKR Canon City Fremont Peak,447.75,split,442.75,TSQL,103.5,103.5,23,23,NN,FM,5,8 32 34.00 CO Fremont Canon City Fremont Peak WD0EKR
-68,EPS Woodland Park Paradise Pines,449.325,split,444.325,TSQL,103.5,103.5,23,23,NN,FM,5,8 9503 29.00 CO Teller Woodland Park Paradise Pines KA4EPS
-69,ESQ Castle Rock Devils Head,446.925,split,441.925,,100,100,23,23,NN,FM,5,8 7193 58.00 CO Douglas Castle Rock Devils Head N0ESQ
-70,ESQ Castle Rock Devils Head (Pik,447.525,split,442.525,TSQL,146.2,146.2,23,23,NN,FM,5,8 8190 58.00 CO Douglas Castle Rock Devils Head (Pike National Forest) N0ESQ
-71,ESQ Parker Hess Reservoir,447.525,split,442.525,Cross,203.5,146.2,23,23,NN,FM,5,8 8189 88.00 CO Douglas Parker Hess Reservoir N0ESQ
-72,IFI Colorado Springs,447.55,split,442.55,Tone,123,123,23,23,NN,FM,5,8 8191 32.00 CO El Paso Colorado Springs WA6IFI
-73,IRP Colorado Springs,146.91,split,146.31,TSQL,151.4,151.4,23,23,NN,FM,5,8 43 33.00 CO El Paso Colorado Springs K0IRP
-74,IRP Colorado Springs,447.35,split,442.35,Tone,151.4,151.4,23,23,NN,FM,5,8 50 32.00 CO El Paso Colorado Springs K0IRP
-75,J0T Pueblo,147.24,split,147.84,Tone,103.5,103.5,23,23,NN,FM,5,8 3747 76.00 CO Pueblo Pueblo KJ0T
-76,JSC Canon City Colorado,447.975,split,442.975,TSQL,100,100,23,23,NN,FM,5,8 7185 36.00 CO Fremont Canon City Colorado K0JSC
-77,JSC Canon City Fremont Peak,446.7375,split,441.7375,,100,100,23,23,NN,FM,5,8 7184 34.00 CO Fremont Canon City Fremont Peak K0JSC
-78,JSC Canon City Fremont Peak,447.25,split,442.25,TSQL,100,100,23,23,NN,FM,5,8 8879 34.00 CO Fremont Canon City Fremont Peak K0JSC
-79,JSC Pueblo,446.9875,split,441.9875,,100,100,23,23,NN,FM,5,8 10785 76.00 CO Pueblo Pueblo K0JSC
-80,JSC Pueblo Metro,447.275,split,442.275,TSQL,100,100,23,23,NN,FM,5,8 9527 76.00 CO Pueblo Pueblo Metro K0JSC
-81,JSC Pueblo West,448.975,split,443.975,TSQL,100,100,23,23,NN,FM,5,8 7994 63.00 CO Pueblo Pueblo West K0JSC
-82,JSC Salida Methodist Mountain,449.975,split,444.975,TSQL,100,100,23,23,NN,FM,5,8 13510 80.00 CO Chaffee Salida Methodist Mountain K0JSC
-83,LSD Nathrop,146.745,split,146.145,Tone,100,100,23,23,NN,FM,5,8 184 89.00 CO Chaffee Nathrop W0LSD
-84,Lake George,449.7,split,444.7,Tone,107.2,107.2,23,23,NN,FM,5,8 8214 30.00 CO Park Lake George
-85,MDP Falcon Black Forest,447.625,split,442.625,TSQL,100,100,23,23,NN,FM,5,8 13294 59.00 CO El Paso Falcon Black Forest KD0MDP
-86,MOG Colorado Springs,147.39,split,147.99,Tone,103.5,103.5,23,23,NN,FM,5,8 48 33.00 CO El Paso Colorado Springs W0MOG
-87,MOG Colorado Springs,448.6,split,443.6,Tone,114.8,114.8,23,23,NN,FM,5,8 55 32.00 CO El Paso Colorado Springs W0MOG
-88,OWY Conifer Critchell Mountain,447.5,split,442.5,TSQL,88.5,88.5,23,23,NN,FM,5,8 60 80.00 CO Jefferson Conifer Critchell Mountain N0OWY
-89,PFJ Colorado Springs Almagre Mou,446.95,split,441.95,,100,100,23,23,NN,FM,5,8 5220 16.00 CO Teller Colorado Springs Almagre Mountain K7PFJ
-90,PHC Pueblo,145.115,split,144.515,Tone,88.5,88.5,23,23,NN,FM,5,8 191 71.00 CO Pueblo Pueblo W0PHC
-91,PHC Pueblo 12 Mile,447.95,split,442.95,Tone,88.5,88.5,23,23,NN,FM,5,8 198 69.00 CO Pueblo Pueblo 12 Mile W0PHC
-92,PHC Pueblo 12 Mile Hill,146.88,split,146.28,Tone,88.5,88.5,23,23,NN,FM,5,8 194 73.00 CO Pueblo Pueblo 12 Mile Hill W0PHC
-93,PHC Pueblo Baculite Mesa,146.79,split,146.19,Tone,88.5,88.5,23,23,NN,FM,5,8 193 69.00 CO Pueblo Pueblo Baculite Mesa W0PHC
-94,PHC Pueblo Jackson Hill,447.175,split,442.175,Tone,88.5,88.5,23,23,NN,FM,5,8 197 78.00 CO Pueblo Pueblo Jackson Hill W0PHC
-95,PRA Franktown,446.85,split,441.85,,100,100,23,23,NN,FM,5,8 11473 84.00 CO Douglas Franktown K0PRA
-96,PRA Parker,445.075,split,440.075,,100,100,23,23,NN,FM,5,8 17292 88.00 CO Douglas Parker K0PRA
-97,PRA Parker,447.225,split,442.225,,100,100,23,23,NN,FM,5,8 18248 93.00 CO Arapahoe Parker K0PRA
-98,PUF Centennial Warren Mountain,146.88,split,146.28,Tone,100,100,23,23,NN,FM,5,8 80 84.00 CO Jefferson Centennial Warren Mountain N0PUF
-99,PUF Centennial Warren Mountain,449.6,split,444.6,Tone,100,100,23,23,NN,FM,5,8 273 84.00 CO Jefferson Centennial Warren Mountain N0PUF
-100,PWZ Palmer Divide,449.725,split,444.725,Tone,100,100,23,23,NN,FM,5,8 189 74.00 CO El Paso Palmer Divide N0PWZ
-101,QPG Salida Methodist Mountain,446.975,split,441.975,,100,100,23,23,NN,FM,5,8 9844 75.00 CO Chaffee Salida Methodist Mountain KD0QPG
-102,SLW Pueblo,145.28,split,144.68,TSQL,100,100,23,23,NN,FM,5,8 18707 74.00 CO Pueblo Pueblo WB0SLW
-103,SRJ Colorado Springs,224.06,split,222.46,,100,100,23,23,NN,FM,5,8 8182 32.00 CO El Paso Colorado Springs KB0SRJ
-104,SRJ Colorado Springs Pikes Peak,146.97,split,146.37,Tone,100,100,23,23,NN,FM,5,8 44 16.00 CO El Paso Colorado Springs Pikes Peak KB0SRJ
-105,SRJ Colorado Springs Pikes Peak,448.45,split,443.45,Tone,100,100,23,23,NN,FM,5,8 54 16.00 CO El Paso Colorado Springs Pikes Peak KB0SRJ
-106,SRJ Colorado Springs ~2 mi ENE U,145.265,split,144.665,Tone,100,100,23,23,NN,FM,5,8 39 25.00 CO El Paso Colorado Springs ~2 mi ENE USAFA North Gate KB0SRJ
-107,SRJ Colorado Springs ~2 mi ENE U,448.8,split,443.8,Tone,100,100,23,23,NN,FM,5,8 57 46.00 CO El Paso Colorado Springs ~2 mi ENE USAFA North Gate KB0SRJ
-108,TTF Colorado Springs Fillmore Hi,448.725,split,443.725,Tone,123,123,23,23,NN,FM,5,8 56 29.00 CO El Paso Colorado Springs Fillmore Hill KA0TTF
-109,TUC Westcliffe,147.06,split,147.66,TSQL,77,77,23,23,NN,FM,5,8 7189 72.00 CO Custer Westcliffe KB0TUC
-110,TUC Westcliffe,448.15,split,443.15,TSQL,103.5,103.5,23,23,NN,FM,5,8 248 72.00 CO Custer Westcliffe KB0TUC
-111,VJJ Colorado Springs Cheyenne Mo,145.13,split,144.53,Cross,88.5,123,23,23,NN,FM,5,8 37 27.00 CO El Paso Colorado Springs Cheyenne Mountain KB0VJJ
+36,0SZ Idaho Springs Squaw Mountain,448.225,split,443.225,TSQL,141.3,141.3,23,23,NN,FM,5,8 8197 107.00 CO Clear Creek Idaho Springs Squaw Mountain N0SZ
+37,0TP Colorado Springs,146.85,split,146.25,Cross,156.7,103.5,23,23,NN,FM,5,8 42 39.00 CO El Paso Colorado Springs AD0TP
+38,0TX Idaho Springs Centennial Con,145.49,split,144.89,TSQL,100,100,23,23,NN,FM,5,8 76 107.00 CO Jefferson Idaho Springs Centennial Cone W0TX
+39,0TX Idaho Springs Squaw Mountain,449.35,split,444.35,TSQL,100,100,23,23,NN,FM,5,8 98 107.00 CO Clear Creek Idaho Springs Squaw Mountain W0TX
+40,0TX Lakewood Green Mountain,147.33,split,147.93,Tone,100,100,23,23,NN,FM,5,8 85 104.00 CO Jefferson Lakewood Green Mountain W0TX
+41,0TX Lakewood Green Mountain,224.38,split,222.78,TSQL,100,100,23,23,NN,FM,5,8 267 104.00 CO Jefferson Lakewood Green Mountain W0TX
+42,0VH Aurora 225 and Parker Road,448.4,split,443.4,,100,100,23,23,NN,FM,5,8 18892 105.00 CO Arapahoe Aurora 225 and Parker Road KE0VH
+43,0WF Colorado Springs,447.025,split,442.025,Tone,123,123,23,23,NN,FM,5,8 49 32.00 CO El Paso Colorado Springs KF0WF
+44,A0L Colorado Springs,147.135,split,147.735,Tone,100,100,23,23,NN,FM,5,8 8176 34.00 CO El Paso Colorado Springs AA0L
+45,A0L Colorado Springs,448.3,split,443.3,Tone,100,100,23,23,NN,FM,5,8 8200 32.00 CO El Paso Colorado Springs AA0L
+46,AEN Idaho Springs Squaw Mountain,449,split,444,TSQL,136.5,136.5,23,23,NN,FM,5,8 8250 106.00 CO Clear Creek Idaho Springs Squaw Mountain WR0AEN
+47,ARA Critchell Critchell Mountain,147.12,split,147.72,TSQL,88.5,88.5,23,23,NN,FM,5,8 59 87.00 CO Jefferson Critchell Critchell Mountain N0ARA
+48,CFI Idaho Springs Squaw Mountain,448.675,split,443.675,TSQL,100,100,23,23,NN,FM,5,8 94 107.00 CO Denver Idaho Springs Squaw Mountain W0CFI
+49,CGQ Querida,449.675,split,444.675,Tone,88.5,88.5,23,23,NN,FM,5,8 18872 71.00 CO Custer Querida K0CGQ
+50,CRA Colorado Springs Cheyenne Mo,145.16,split,144.56,TSQL,107.2,107.2,23,23,NN,FM,5,8 38 26.00 CO El Paso Colorado Springs Cheyenne Mountain W0CRA
+51,CRA Idaho Springs Squaw Mountain,145.145,split,144.545,TSQL,107.2,107.2,23,23,NN,FM,5,8 107 107.00 CO Clear Creek Idaho Springs Squaw Mountain W0CRA
+52,CRA Idaho Springs Squaw Mountain,447.575,split,442.575,TSQL,107.2,107.2,23,23,NN,FM,5,8 264 107.00 CO Clear Creek Idaho Springs Squaw Mountain W0CRA
+53,CRA Larkspur Westcreek,147.225,split,147.825,TSQL,107.2,107.2,23,23,NN,FM,5,8 83 49.00 CO Douglas Larkspur Westcreek W0CRA
+54,CRA Larkspur Westcreek,448.425,split,443.425,TSQL,107.2,107.2,23,23,NN,FM,5,8 16547 49.00 CO Douglas Larkspur Westcreek W0CRA
+55,CVU Colorado Springs Cheyenne Mo,146.76,split,146.16,TSQL,107.2,107.2,23,23,NN,FM,5,8 41 26.00 CO El Paso Colorado Springs Cheyenne Mountain KC0CVU
+56,CVU Colorado Springs Cheyenne Mo,147.345,split,147.945,TSQL,107.2,107.2,23,23,NN,FM,5,8 47 26.00 CO El Paso Colorado Springs Cheyenne Mountain KC0CVU
+57,CVU Colorado Springs Cheyenne Mo,448,split,443,Tone,107.2,107.2,23,23,NN,FM,5,8 269 26.00 CO El Paso Colorado Springs Cheyenne Mountain KC0CVU
+58,CVU Colorado Springs Cheyenne Mo,448.1,split,443.1,TSQL,107.2,107.2,23,23,NN,FM,5,8 53 26.00 CO El Paso Colorado Springs Cheyenne Mountain KC0CVU
+59,CVU Lake George Badger Mountain,147.36,split,147.96,TSQL,107.2,107.2,23,23,NN,FM,5,8 170 44.00 CO Park Lake George Badger Mountain KC0CVU
+60,CVU Salida Methodist Mountain,145.295,split,144.695,Tone,107.2,107.2,23,23,NN,FM,5,8 203 79.00 CO Chaffee Salida Methodist Mountain KC0CVU
+61,CVU Salida Methodist Mountain,449.65,split,444.65,Tone,107.2,107.2,23,23,NN,FM,5,8 205 80.00 CO Chaffee Salida Methodist Mountain KC0CVU
+62,Colorado Springs,147.27,split,147.87,,100,100,23,23,NN,FM,5,8 46 33.00 CO El Paso Colorado Springs
+63,D0Q Pueblo Baculite Mesa,224.26,split,222.66,Tone,88.5,88.5,23,23,NN,FM,5,8 195 67.00 CO Pueblo Pueblo Baculite Mesa ND0Q
+64,D0Q Walsenburg Deer Peak,224.32,split,222.72,Tone,88.5,88.5,23,23,NN,FM,5,8 245 78.00 CO Custer Walsenburg Deer Peak ND0Q
+65,DUN Idaho Springs Squaw Mountain,449.45,split,444.45,Cross,103.5,127.3,23,23,NN,FM,5,8 99 107.00 CO Clear Creek Idaho Springs Squaw Mountain K1DUN
+66,EKR Canon City Fremont Peak,145.49,split,144.89,TSQL,103.5,103.5,23,23,NN,FM,5,8 30 34.00 CO Fremont Canon City Fremont Peak WD0EKR
+67,EKR Canon City Fremont Peak,223.96,split,222.36,TSQL,103.5,103.5,23,23,NN,FM,5,8 31 34.00 CO Fremont Canon City Fremont Peak WD0EKR
+68,EKR Canon City Fremont Peak,447.75,split,442.75,TSQL,103.5,103.5,23,23,NN,FM,5,8 32 34.00 CO Fremont Canon City Fremont Peak WD0EKR
+69,ELY Lakewood,448.75,split,443.75,TSQL,100,100,23,23,NN,FM,5,8 8204 107.00 CO Jefferson Lakewood N0ELY
+70,EPS Woodland Park Paradise Pines,449.325,split,444.325,TSQL,103.5,103.5,23,23,NN,FM,5,8 9503 29.00 CO Teller Woodland Park Paradise Pines KA4EPS
+71,ESQ Castle Rock Devils Head (Pik,447.525,split,442.525,TSQL,146.2,146.2,23,23,NN,FM,5,8 8190 58.00 CO Douglas Castle Rock Devils Head (Pike National Forest) N0ESQ
+72,ESQ Parker Hess Reservoir,447.525,split,442.525,Cross,203.5,146.2,23,23,NN,FM,5,8 8189 88.00 CO Douglas Parker Hess Reservoir N0ESQ
+73,GUQ Evergreen,145.34,split,144.74,Cross,103.5,127.3,23,23,NN,FM,5,8 73 99.00 CO Jefferson Evergreen KE4GUQ
+74,IFI Colorado Springs,447.55,split,442.55,Tone,123,123,23,23,NN,FM,5,8 8191 32.00 CO El Paso Colorado Springs WA6IFI
+75,IRP Colorado Springs,146.91,split,146.31,TSQL,151.4,151.4,23,23,NN,FM,5,8 43 33.00 CO El Paso Colorado Springs K0IRP
+76,IRP Colorado Springs,447.35,split,442.35,Tone,151.4,151.4,23,23,NN,FM,5,8 50 32.00 CO El Paso Colorado Springs K0IRP
+77,J0T Pueblo,147.24,split,147.84,Tone,103.5,103.5,23,23,NN,FM,5,8 3747 76.00 CO Pueblo Pueblo KJ0T
+78,JSC Canon City Colorado,447.975,split,442.975,TSQL,100,100,23,23,NN,FM,5,8 7185 36.00 CO Fremont Canon City Colorado K0JSC
+79,JSC Canon City Fremont Peak,447.25,split,442.25,TSQL,100,100,23,23,NN,FM,5,8 8879 34.00 CO Fremont Canon City Fremont Peak K0JSC
+80,JSC Pueblo Cedarwood,449.975,split,444.975,TSQL,100,100,23,23,NN,FM,5,8 5369 99.00 CO Pueblo Pueblo Cedarwood K0JSC
+81,JSC Pueblo Metro,447.275,split,442.275,TSQL,100,100,23,23,NN,FM,5,8 9527 76.00 CO Pueblo Pueblo Metro K0JSC
+82,JSC Pueblo West,448.975,split,443.975,TSQL,100,100,23,23,NN,FM,5,8 7994 63.00 CO Pueblo Pueblo West K0JSC
+83,JSC Salida Methodist Mountain,449.975,split,444.975,TSQL,100,100,23,23,NN,FM,5,8 13510 80.00 CO Chaffee Salida Methodist Mountain K0JSC
+84,LSD Nathrop,146.745,split,146.145,Tone,100,100,23,23,NN,FM,5,8 184 89.00 CO Chaffee Nathrop W0LSD
+85,LXX Morrison Mt. Morrison,447.875,split,442.875,TSQL,107.2,107.2,23,23,NN,FM,5,8 10513 103.00 CO Jefferson Morrison Mt. Morrison N6LXX
+86,Lake George,449.7,split,444.7,Tone,107.2,107.2,23,23,NN,FM,5,8 8214 30.00 CO Park Lake George
+87,MDP Falcon Black Forest,447.625,split,442.625,TSQL,100,100,23,23,NN,FM,5,8 13294 59.00 CO El Paso Falcon Black Forest KD0MDP
+88,MOG Colorado Springs,147.39,split,147.99,Tone,103.5,103.5,23,23,NN,FM,5,8 48 33.00 CO El Paso Colorado Springs W0MOG
+89,MOG Colorado Springs,448.6,split,443.6,Tone,114.8,114.8,23,23,NN,FM,5,8 55 32.00 CO El Paso Colorado Springs W0MOG
+90,MRC Maysville,145.325,split,144.725,Tone,100,100,23,23,NN,FM,5,8 16739 105.00 CO Chaffee Maysville KD0MRC
+91,OBA Aurora,145.19,split,144.59,TSQL,131.8,131.8,23,23,NN,FM,5,8 8741 104.00 CO Arapahoe Aurora N0OBA
+92,OWY Conifer Critchell Mountain,447.5,split,442.5,TSQL,88.5,88.5,23,23,NN,FM,5,8 60 80.00 CO Jefferson Conifer Critchell Mountain N0OWY
+93,PHC Pueblo,145.115,split,144.515,Tone,88.5,88.5,23,23,NN,FM,5,8 191 71.00 CO Pueblo Pueblo W0PHC
+94,PHC Pueblo Baculite Mesa,146.79,split,146.19,Tone,88.5,88.5,23,23,NN,FM,5,8 193 69.00 CO Pueblo Pueblo Baculite Mesa W0PHC
+95,PHC Pueblo Jackson Hill,447.175,split,442.175,Tone,88.5,88.5,23,23,NN,FM,5,8 197 78.00 CO Pueblo Pueblo Jackson Hill W0PHC
+96,PUF Centennial Warren Mountain,146.88,split,146.28,Tone,100,100,23,23,NN,FM,5,8 80 84.00 CO Jefferson Centennial Warren Mountain N0PUF
+97,PWZ Palmer Divide,449.725,split,444.725,Tone,100,100,23,23,NN,FM,5,8 189 74.00 CO El Paso Palmer Divide N0PWZ
+98,PYY Evergreen Squaw Mountain,147.3,split,147.9,TSQL,103.5,103.5,23,23,NN,FM,5,8 84 107.00 CO Clear Creek Evergreen Squaw Mountain N0PYY
+99,Q8M Parker,448.7,split,443.7,Tone,146.2,146.2,23,23,NN,FM,5,8 274 96.00 CO Douglas Parker WQ8M
+100,SLW Pueblo,145.28,split,144.68,TSQL,100,100,23,23,NN,FM,5,8 18707 74.00 CO Pueblo Pueblo WB0SLW
+101,SRJ Colorado Springs Pikes Peak,146.97,split,146.37,Tone,100,100,23,23,NN,FM,5,8 44 16.00 CO El Paso Colorado Springs Pikes Peak KB0SRJ
+102,SRJ Colorado Springs Pikes Peak,448.45,split,443.45,Tone,100,100,23,23,NN,FM,5,8 54 16.00 CO El Paso Colorado Springs Pikes Peak KB0SRJ
+103,SRJ Colorado Springs ~2 mi ENE U,448.8,split,443.8,Tone,100,100,23,23,NN,FM,5,8 57 46.00 CO El Paso Colorado Springs ~2 mi ENE USAFA North Gate KB0SRJ
+104,TTF Colorado Springs Fillmore Hi,448.725,split,443.725,Tone,123,123,23,23,NN,FM,5,8 56 29.00 CO El Paso Colorado Springs Fillmore Hill KA0TTF
+105,TUC Westcliffe,147.06,split,147.66,TSQL,77,77,23,23,NN,FM,5,8 7189 72.00 CO Custer Westcliffe KB0TUC
+106,TUC Westcliffe,448.15,split,443.15,TSQL,103.5,103.5,23,23,NN,FM,5,8 248 72.00 CO Custer Westcliffe KB0TUC
+107,UDD Aurora Smoky Hill,145.4,split,144.8,Tone,100,100,23,23,NN,FM,5,8 5 103.00 CO Arapahoe Aurora Smoky Hill KB0UDD
+108,UDD Idaho Springs Squaw Mountain,146.67,split,146.07,TSQL,100,100,23,23,NN,FM,5,8 78 107.00 CO Clear Creek Idaho Springs Squaw Mountain KB0UDD
+109,VJJ Breckenridge Bald Mountain,147.39,split,147.99,Cross,88.5,123,23,23,NN,FM,5,8 24 103.00 CO Summit Breckenridge Bald Mountain KB0VJJ
+110,VJJ Colorado Springs Cheyenne Mo,145.13,split,144.53,Cross,88.5,123,23,23,NN,FM,5,8 37 27.00 CO El Paso Colorado Springs Cheyenne Mountain KB0VJJ
+111,VJJ Leadville Mosquito Pass,145.445,split,144.845,Tone,88.5,88.5,23,23,NN,FM,5,8 172 105.00 CO Lake Leadville Mosquito Pass KB0VJJ
 112,VJJ Salida Methodist Mountain,147.285,split,147.885,Cross,88.5,123,23,23,NN,FM,5,8 204 79.00 CO Chaffee Salida Methodist Mountain KB0VJJ
-113,VUW Colorado Springs Sun Hills S,446.8875,split,441.8875,,100,100,23,23,NN,FM,5,8 18710 46.00 CO El Paso Colorado Springs Sun Hills Subdivision KE0VUW
-114,WDF Canon City eightmile Mountai,449,split,444,TSQL,67,67,23,23,NN,FM,5,8 33 27.00 CO Fremont Canon City eightmile Mountain WB0WDF
-115,WDF Cripple Creek,145.46,split,144.86,Tone,67,67,23,23,NN,FM,5,8 64 0.00 CO Teller Cripple Creek WB0WDF
-116,WDF Cripple Creek,447.4,split,442.4,Tone,67,67,23,23,NN,FM,5,8 66 0.00 CO Teller Cripple Creek WB0WDF
-117,WUC Woodland Park,145.415,split,144.815,Tone,179.9,179.9,23,23,NN,FM,5,8 249 29.00 CO Teller Woodland Park KA0WUC
-118,WUC Woodland Park,447.675,split,442.675,TSQL,179.9,179.9,23,23,NN,FM,5,8 8193 29.00 CO Teller Woodland Park KA0WUC
-119,WUC Woodland Park,449.025,split,444.025,Tone,141.3,141.3,23,23,NN,FM,5,8 252 29.00 CO Teller Woodland Park KA0WUC
+113,WDF Canon City eightmile Mountai,449,split,444,TSQL,67,67,23,23,NN,FM,5,8 33 27.00 CO Fremont Canon City eightmile Mountain WB0WDF
+114,WDF Cripple Creek,145.46,split,144.86,Tone,67,67,23,23,NN,FM,5,8 64 0.00 CO Teller Cripple Creek WB0WDF
+115,WDF Cripple Creek,447.4,split,442.4,Tone,67,67,23,23,NN,FM,5,8 66 0.00 CO Teller Cripple Creek WB0WDF
+116,WUC Woodland Park,145.415,split,144.815,Tone,179.9,179.9,23,23,NN,FM,5,8 249 29.00 CO Teller Woodland Park KA0WUC
+117,WUC Woodland Park,447.675,split,442.675,TSQL,179.9,179.9,23,23,NN,FM,5,8 8193 29.00 CO Teller Woodland Park KA0WUC
+118,WUC Woodland Park,449.025,split,444.025,Tone,141.3,141.3,23,23,NN,FM,5,8 252 29.00 CO Teller Woodland Park KA0WUC
+119,WYX Idaho Springs Squaw Mountain,146.94,split,146.34,TSQL,103.5,103.5,23,23,NN,FM,5,8 81 107.00 CO Clear Creek Idaho Springs Squaw Mountain W0WYX
 120,X0G Colorado Springs,447.475,split,442.475,Tone,107.2,107.2,23,23,NN,FM,5,8 51 32.00 CO El Paso Colorado Springs NX0G
 121,X0G Cripple Creek,147.015,split,147.615,Tone,107.2,107.2,23,23,NN,FM,5,8 65 0.00 CO Teller Cripple Creek NX0G
 122,X0G Lake George Badger Mountain,146.685,split,146.085,TSQL,107.2,107.2,23,23,NN,FM,5,8 169 44.00 CO Park Lake George Badger Mountain NX0G
