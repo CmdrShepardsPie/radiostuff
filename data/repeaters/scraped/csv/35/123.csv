@@ -1,2 +1,2 @@
 Frequency,Offset,Tone,Call,Location,ST/PR,Use,Mode,Mi,Dir,,state_id,ID,Latitude,Longitude,Downlink,Uplink,P-25 Digital Enabled,NAC,Default Reflector,County,Op Status,Coverage,Sponsor,Features,Notes,Coordination,Last update
-444.775,5,NAC 293,WD9CMS,Los Alamos,NM,OPEN,P-25,186.72,SSW,,35,123,35.88809967,-106.30599976,444.775,449.775,1,293,1,Los Alamos,On-Air,Los Alamos and surrounding areas,WD9CMS,E-power.,"Mixed mode analog and digital P25 system, linked with 927.9 WD9CMS",NMFCC,2017-03-19
+444.775,5,NAC 293,WD9CMS,Los Alamos,NM,OPEN,P-25,165.64,SSE,,35,123,35.88809967,-106.30599976,444.775,449.775,1,293,1,Los Alamos,On-Air,Los Alamos and surrounding areas,WD9CMS,E-power.,"Mixed mode analog and digital P25 system, linked with 927.9 WD9CMS",NMFCC,2017-03-19

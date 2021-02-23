@@ -6,7 +6,7 @@ import {RepeaterStructured} from '@interfaces/repeater-structured';
 import {Chirp, ChirpDuplex, ChirpToneMode,} from '@interfaces/chirp';
 import chalk from 'chalk';
 import {
-  buildDCS, filterMode,
+  buildDCS, filterInputFrequencies, filterMode,
   filterOutputFrequencies,
   FrequencyBand,
   loadRepeaters,
@@ -54,9 +54,19 @@ async function doIt(location: gpsDistance.Point, outFileName: string): Promise<v
         FrequencyBand.$1_25_m,
         FrequencyBand.$70_cm,
       ))
+      .filter(filterInputFrequencies(
+        FrequencyBand.$2_m,
+        FrequencyBand.$1_25_m,
+        FrequencyBand.$70_cm,
+      ))
       .filter((filter) => filter.Callsign !== 'FM Simplex'),
     ...repeaters
       .filter(filterOutputFrequencies(
+        FrequencyBand.$2_m,
+        FrequencyBand.$1_25_m,
+        FrequencyBand.$70_cm,
+      ))
+      .filter(filterInputFrequencies(
         FrequencyBand.$2_m,
         FrequencyBand.$1_25_m,
         FrequencyBand.$70_cm,

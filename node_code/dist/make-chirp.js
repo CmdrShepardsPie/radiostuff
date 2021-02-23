@@ -45,9 +45,11 @@ var __importDefault = (this && this.__importDefault) || function (mod) {
         const mapped = [
             ...simplex
                 .filter(radio_helpers_1.filterOutputFrequencies(radio_helpers_1.FrequencyBand.$2_m, radio_helpers_1.FrequencyBand.$1_25_m, radio_helpers_1.FrequencyBand.$70_cm))
+                .filter(radio_helpers_1.filterInputFrequencies(radio_helpers_1.FrequencyBand.$2_m, radio_helpers_1.FrequencyBand.$1_25_m, radio_helpers_1.FrequencyBand.$70_cm))
                 .filter((filter) => filter.Callsign !== 'FM Simplex'),
             ...repeaters
                 .filter(radio_helpers_1.filterOutputFrequencies(radio_helpers_1.FrequencyBand.$2_m, radio_helpers_1.FrequencyBand.$1_25_m, radio_helpers_1.FrequencyBand.$70_cm))
+                .filter(radio_helpers_1.filterInputFrequencies(radio_helpers_1.FrequencyBand.$2_m, radio_helpers_1.FrequencyBand.$1_25_m, radio_helpers_1.FrequencyBand.$70_cm))
                 .filter(radio_helpers_1.filterMode(radio_helpers_1.Mode.FM)),
         ]
             .map((map) => convertToRadio(map));
