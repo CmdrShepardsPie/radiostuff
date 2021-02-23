@@ -1,0 +1,22 @@
+{
+  "ID": 6211,
+  "StateID": 20,
+  "Callsign": "KB0VFV",
+  "Location": {
+    "Latitude": 37.61399841,
+    "Longitude": -99.10299683,
+    "County": "Kiowa",
+    "State": "KS",
+    "Local": "Haviland"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 449.125,
+    "Output": 444.125
+  },
+  "SquelchTone": {
+    "Input": 156.7,
+    "Output": 156.7
+  }
+}

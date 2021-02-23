@@ -1,0 +1,18 @@
+{
+  "ID": 18124,
+  "StateID": 6,
+  "Callsign": "N6AJB",
+  "Location": {
+    "Latitude": 34.0379982,
+    "Longitude": -116.81400299,
+    "County": "San Bernardino",
+    "State": "CA",
+    "Local": "Banning, Snow Peak"
+  },
+  "Use": "Private",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 443.4,
+    "Output": 448.4
+  }
+}

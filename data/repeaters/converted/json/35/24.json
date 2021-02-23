@@ -1,0 +1,18 @@
+{
+  "ID": 24,
+  "StateID": 35,
+  "Callsign": "N5GU",
+  "Location": {
+    "Latitude": 35.07910156,
+    "Longitude": -106.49700165,
+    "County": "Bernalillo",
+    "State": "NM",
+    "Local": "Albuquerque"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 147.98,
+    "Output": 147.38
+  }
+}

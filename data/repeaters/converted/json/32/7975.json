@@ -1,0 +1,21 @@
+{
+  "ID": 7975,
+  "StateID": 32,
+  "Callsign": "NV7AV",
+  "Location": {
+    "Latitude": 36.64189911,
+    "Longitude": -116.39800262,
+    "County": "Nye",
+    "State": "NV",
+    "Local": "Amargosa Valley"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 146.16,
+    "Output": 146.76
+  },
+  "SquelchTone": {
+    "Input": 123
+  }
+}

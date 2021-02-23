@@ -1,0 +1,2 @@
+ID,StateID,Callsign,Use,Status,SquelchTone,DigitalTone,Digital,VOIP,Location.Latitude,Location.Longitude,Location.County,Location.State,Location.Local,Frequency.Input,Frequency.Output
+50,56,KK7BA,Open,On-Air,,,,,42.95999908,-105.43000031,Converse,WY,Douglas,147.75,147.15

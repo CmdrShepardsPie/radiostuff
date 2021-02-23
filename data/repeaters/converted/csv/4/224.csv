@@ -1,0 +1,2 @@
+ID,StateID,Callsign,Use,Status,DigitalTone,Digital,VOIP,Location.Latitude,Location.Longitude,Location.County,Location.State,Location.Local,Frequency.Input,Frequency.Output,SquelchTone.Input,SquelchTone.Output
+224,4,K9FUN,Open,On-Air,,,,34.77109909,-112.05699921,Yavapai,AZ,Clarkdale,446.775,441.775,156.7,

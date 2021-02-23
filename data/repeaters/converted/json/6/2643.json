@@ -1,0 +1,26 @@
+{
+  "ID": 2643,
+  "StateID": 6,
+  "Callsign": "W6IY",
+  "Location": {
+    "Latitude": 36.14810181,
+    "Longitude": -117.70600128,
+    "County": "Inyo",
+    "State": "CA",
+    "Local": "Bishop, Silver Peak"
+  },
+  "Use": "Open",
+  "Status": "Off-Air",
+  "Frequency": {
+    "Input": 449.6,
+    "Output": 444.6
+  },
+  "SquelchTone": {
+    "Input": 100
+  },
+  "VOIP": {
+    "IRLP": {
+      "NodeID": 3734
+    }
+  }
+}

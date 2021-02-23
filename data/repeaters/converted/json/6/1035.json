@@ -1,0 +1,21 @@
+{
+  "ID": 1035,
+  "StateID": 6,
+  "Callsign": "KC6OPU",
+  "Location": {
+    "Latitude": 34.4090004,
+    "Longitude": -117.32299805,
+    "County": "San Bernardino",
+    "State": "CA",
+    "Local": "Hesperia"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 442,
+    "Output": 447
+  },
+  "SquelchTone": {
+    "Input": 136.5
+  }
+}

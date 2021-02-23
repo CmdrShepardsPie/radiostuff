@@ -1,0 +1,21 @@
+{
+  "ID": 44,
+  "StateID": 32,
+  "Callsign": "WB7WTS",
+  "Location": {
+    "Latitude": 39.1609993,
+    "Longitude": -114.61499786,
+    "County": "White Pine",
+    "State": "NV",
+    "Local": "Ely, Cave Mountain"
+  },
+  "Use": "Open",
+  "Status": "Off-Air",
+  "Frequency": {
+    "Input": 146.01,
+    "Output": 146.61
+  },
+  "SquelchTone": {
+    "Input": 114.8
+  }
+}

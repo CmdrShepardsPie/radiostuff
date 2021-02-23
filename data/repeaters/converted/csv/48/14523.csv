@@ -1,0 +1,2 @@
+ID,StateID,Callsign,Use,Status,SquelchTone,DigitalTone,VOIP,Location.Latitude,Location.Longitude,Location.County,Location.State,Location.Local,Frequency.Input,Frequency.Output,Digital.P25,Digital.DStar,Digital.YSF,Digital.DMR.ColorCode,Digital.DMR.ID
+14523,48,KD5ROK,Open,On-Air,,,,35.86539841,-101.97299957,Moore,TX,Dumas,448.0125,443.0125,,,,14,314844

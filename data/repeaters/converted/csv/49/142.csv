@@ -1,0 +1,2 @@
+ID,StateID,Callsign,Use,Status,DigitalTone,Digital,VOIP,Location.Latitude,Location.Longitude,Location.County,Location.State,Location.Local,Frequency.Input,Frequency.Output,SquelchTone.Input,SquelchTone.Output
+142,49,N7IMF,Open,On-Air,,,,40.27809906,-111.93399811,Salt Lake,UT,"Lehi, Lake Mountain",443.7,448.7,114.8,

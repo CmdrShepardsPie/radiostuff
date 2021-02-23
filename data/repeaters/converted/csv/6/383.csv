@@ -1,0 +1,2 @@
+ID,StateID,Callsign,Use,Status,DigitalTone,Digital,VOIP,Location.Latitude,Location.Longitude,Location.County,Location.State,Location.Local,Frequency.Input,Frequency.Output,SquelchTone.Input,SquelchTone.Output
+383,6,K9KAO,Open,On-Air,,,,33.96020126,-117.27999878,Riverside,CA,"Riverside, Box Springs Mountain",144.76,145.36,91.5,91.5

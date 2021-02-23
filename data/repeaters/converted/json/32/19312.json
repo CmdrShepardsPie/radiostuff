@@ -1,0 +1,21 @@
+{
+  "ID": 19312,
+  "StateID": 32,
+  "Callsign": "NX7R",
+  "Location": {
+    "Latitude": 35.992932,
+    "Longitude": -114.947676,
+    "County": "Clark",
+    "State": "NV",
+    "Local": "Henderson"
+  },
+  "Use": "Open",
+  "Status": "Testing",
+  "Frequency": {
+    "Input": 427.625,
+    "Output": 422.625
+  },
+  "DigitalTone": {
+    "Input": 754
+  }
+}

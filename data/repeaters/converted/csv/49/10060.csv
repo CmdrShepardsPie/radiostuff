@@ -1,0 +1,2 @@
+ID,StateID,Callsign,Use,Status,DigitalTone,Digital,VOIP,Location.Latitude,Location.Longitude,Location.County,Location.State,Location.Local,Frequency.Input,Frequency.Output,SquelchTone.Input,SquelchTone.Output
+10060,49,KG7EGM,Open,On-Air,,,,40.52470016,-111.86399841,Salt Lake,UT,"Draper, Fire Station",442.1,447.1,100,

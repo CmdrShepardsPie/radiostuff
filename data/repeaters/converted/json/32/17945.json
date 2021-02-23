@@ -1,0 +1,28 @@
+{
+  "ID": 17945,
+  "StateID": 32,
+  "Callsign": "N4NJJ",
+  "Location": {
+    "Latitude": 36.00780106,
+    "Longitude": -114.96499634,
+    "County": "Clark",
+    "State": "NV",
+    "Local": "Henderson, CSN Henderson"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 425.85,
+    "Output": 420.85
+  },
+  "Digital": {
+    "P25": {
+      "NAC": 293
+    }
+  },
+  "VOIP": {
+    "AllStar": {
+      "NodeID": 42631
+    }
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "ID": 11083,
+  "StateID": 49,
+  "Callsign": "AC7O",
+  "Location": {
+    "Latitude": 41.72230148,
+    "Longitude": -111.84999847,
+    "County": "Cache",
+    "State": "UT",
+    "Local": "Logan, WA7KMF QTH"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 144.55,
+    "Output": 145.15
+  },
+  "Digital": {
+    "DStar": {
+      "Node": "AC7O (C) Hot Spot &lt;24/7"
+    }
+  }
+}

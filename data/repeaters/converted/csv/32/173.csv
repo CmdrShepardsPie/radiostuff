@@ -1,0 +1,2 @@
+ID,StateID,Callsign,Use,Status,DigitalTone,Digital,VOIP,Location.Latitude,Location.Longitude,Location.County,Location.State,Location.Local,Frequency.Input,Frequency.Output,SquelchTone.Input,SquelchTone.Output
+173,32,WA6TLW,Closed,Other,,,,41.31420135,-116.22100067,Elko,NV,Tuscarora,449.65,444.65,94.8,

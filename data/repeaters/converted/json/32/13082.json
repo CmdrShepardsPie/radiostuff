@@ -1,0 +1,27 @@
+{
+  "ID": 13082,
+  "StateID": 32,
+  "Callsign": "NX7R",
+  "Location": {
+    "Latitude": 36.03950119,
+    "Longitude": -114.98200226,
+    "County": "Clark",
+    "State": "NV",
+    "Local": "Henderson, Red Mountain"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 444.625,
+    "Output": 449.625
+  },
+  "DigitalTone": {
+    "Input": 754
+  },
+  "Digital": {
+    "DMR": {
+      "ColorCode": 15,
+      "ID": 310422
+    }
+  }
+}

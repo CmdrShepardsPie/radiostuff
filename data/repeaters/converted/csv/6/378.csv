@@ -1,0 +1,2 @@
+ID,StateID,Callsign,Use,Status,DigitalTone,Digital,Location.Latitude,Location.Longitude,Location.County,Location.State,Location.Local,Frequency.Input,Frequency.Output,SquelchTone.Input,SquelchTone.Output,VOIP.AllStar,VOIP.EchoLink,VOIP.Wires,VOIP.IRLP.NodeID
+378,6,W6DRA,Open,On-Air,,,33.8132019,-116.63899994,Riverside,CA,"Palm Springs, Tram 1",144.88,145.48,107.2,,,,,3180

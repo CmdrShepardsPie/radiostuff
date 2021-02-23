@@ -1,0 +1,2 @@
+ID,StateID,Callsign,Use,Status,DigitalTone,Digital,VOIP,Location.Latitude,Location.Longitude,Location.County,Location.State,Location.Local,Frequency.Input,Frequency.Output,SquelchTone.Input,SquelchTone.Output
+6706,49,N7HRC,Open,On-Air,,,,40.53509903,-112.03099823,Salt Lake,UT,"Herriman, High School",444.25,449.25,118.8,

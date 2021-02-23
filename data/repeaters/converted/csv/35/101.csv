@@ -1,0 +1,2 @@
+ID,StateID,Callsign,Use,Status,DigitalTone,Digital,VOIP,Location.Latitude,Location.Longitude,Location.County,Location.State,Location.Local,Frequency.Input,Frequency.Output,SquelchTone.Input,SquelchTone.Output
+101,35,N9PGQ,Open,On-Air,,,,35.59109879,-105.73200226,Santa Fe,NM,La Cueva,52.2,53.2,107.2,

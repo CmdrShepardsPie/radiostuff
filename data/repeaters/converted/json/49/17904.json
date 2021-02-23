@@ -1,0 +1,21 @@
+{
+  "ID": 17904,
+  "StateID": 49,
+  "Callsign": "K2WVC",
+  "Location": {
+    "Latitude": 40.65359879,
+    "Longitude": -112.03700256,
+    "County": "Utah",
+    "State": "UT",
+    "Local": "West Valley City, WVCFD station 76"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 448.3,
+    "Output": 448.8
+  },
+  "SquelchTone": {
+    "Input": 100
+  }
+}

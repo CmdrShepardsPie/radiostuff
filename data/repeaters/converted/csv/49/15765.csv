@@ -1,0 +1,2 @@
+ID,StateID,Callsign,Use,Status,DigitalTone,Digital,VOIP,Location.Latitude,Location.Longitude,Location.County,Location.State,Location.Local,Frequency.Input,Frequency.Output,SquelchTone.Input,SquelchTone.Output
+15765,49,KA7OEI,Open,Other,,,,40.76079941,-111.89099884,Salt Lake,UT,Salt Lake City,444.75,449.75,151.4,

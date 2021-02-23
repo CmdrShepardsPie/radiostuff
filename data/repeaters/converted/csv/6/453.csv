@@ -1,0 +1,2 @@
+ID,StateID,Callsign,Use,Status,DigitalTone,Digital,Location.Latitude,Location.Longitude,Location.County,Location.State,Location.Local,Frequency.Input,Frequency.Output,SquelchTone.Input,SquelchTone.Output,VOIP.AllStar,VOIP.IRLP,VOIP.Wires,VOIP.EchoLink.NodeID
+453,6,KE6TZG,Open,On-Air,,,34.19580078,-117.04799652,San Bernardino,CA,"Running Springs, Keller Peak",146.985,146.385,146.2,,,,,262484

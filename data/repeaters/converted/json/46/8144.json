@@ -1,0 +1,17 @@
+{
+  "ID": 8144,
+  "StateID": 46,
+  "Callsign": "W0FUI",
+  "Location": {
+    "State": "SD",
+    "Local": "Hot Springs"
+  },
+  "Use": "Open",
+  "Status": "Other",
+  "Frequency": {
+    "Input": null
+  },
+  "SquelchTone": {
+    "Input": 146.2
+  }
+}

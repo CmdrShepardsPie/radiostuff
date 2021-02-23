@@ -1,0 +1,18 @@
+{
+  "ID": 125,
+  "StateID": 32,
+  "Callsign": "WR7RED",
+  "Location": {
+    "Latitude": 35.25149918,
+    "Longitude": -114.7480011,
+    "County": "Clark",
+    "State": "NV",
+    "Local": "Bullhead City, Spirit Mountain"
+  },
+  "Use": "Closed",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 443.2,
+    "Output": 448.2
+  }
+}

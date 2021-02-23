@@ -1,0 +1,18 @@
+{
+  "ID": 41,
+  "StateID": 32,
+  "Callsign": "WB7WTS",
+  "Location": {
+    "Latitude": 37.69469833,
+    "Longitude": -117.36100006,
+    "County": "Esmeralda",
+    "State": "NV",
+    "Local": "Goldfield, Montezuma Peak"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 146.04,
+    "Output": 146.64
+  }
+}

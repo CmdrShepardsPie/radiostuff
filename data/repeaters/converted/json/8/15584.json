@@ -1,0 +1,22 @@
+{
+  "ID": 15584,
+  "StateID": 8,
+  "Callsign": "K0JSC",
+  "Location": {
+    "Latitude": 38.13470078,
+    "Longitude": -105.46600342,
+    "County": "Custer",
+    "State": "CO",
+    "Local": "Westcliffe"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 443.325,
+    "Output": 448.325
+  },
+  "SquelchTone": {
+    "Input": 100,
+    "Output": 100
+  }
+}

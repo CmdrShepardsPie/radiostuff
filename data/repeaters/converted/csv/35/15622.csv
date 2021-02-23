@@ -1,0 +1,2 @@
+ID,StateID,Callsign,Use,Status,DigitalTone,Digital,VOIP,Location.Latitude,Location.Longitude,Location.County,Location.State,Location.Local,Frequency.Input,Frequency.Output,SquelchTone.Input,SquelchTone.Output
+15622,35,W5HO,Open,On-Air,,,,35.86729813,-106.63800049,Santa Fe,NM,La Cueva,144.81,145.41,100,

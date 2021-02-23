@@ -1,0 +1,2 @@
+ID,StateID,Callsign,Use,Status,DigitalTone,Digital,VOIP,Location.Latitude,Location.Longitude,Location.County,Location.State,Location.Local,Frequency.Input,Frequency.Output,SquelchTone.Input,SquelchTone.Output
+354,32,KE7LKO,Open,Other,,,,40.90679932,-115.87000275,Elko,NV,"Elko, Adobe Smt",902.4875,927.4875,100,

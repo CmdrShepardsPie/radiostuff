@@ -1,0 +1,22 @@
+{
+  "ID": 4075,
+  "StateID": 20,
+  "Callsign": "K0HAM",
+  "Location": {
+    "Latitude": 38.63100052,
+    "Longitude": -99.98999786,
+    "County": "Ness",
+    "State": "KS",
+    "Local": "Ransom, K-Link"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 448.575,
+    "Output": 443.575
+  },
+  "SquelchTone": {
+    "Input": 162.2,
+    "Output": 162.2
+  }
+}

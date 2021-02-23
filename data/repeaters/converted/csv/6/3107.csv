@@ -1,0 +1,2 @@
+ID,StateID,Callsign,Use,Status,DigitalTone,Digital,VOIP,Location.Latitude,Location.Longitude,Location.County,Location.State,Location.Local,Frequency.Input,Frequency.Output,SquelchTone.Input,SquelchTone.Output
+3107,6,N6MRN,Open,On-Air,,,,33.76089859,-116.73799896,Riverside,CA,Pine Cove,442.48,447.48,156.7,156.7

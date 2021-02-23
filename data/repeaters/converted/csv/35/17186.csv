@@ -1,0 +1,2 @@
+ID,StateID,Callsign,Use,Status,DigitalTone,Digital,VOIP,Location.Latitude,Location.Longitude,Location.County,Location.State,Location.Local,Frequency.Input,Frequency.Output,SquelchTone.Input,SquelchTone.Output
+17186,35,K5FIQ,Open,On-Air,,,,35.08440018,-106.65000153,Bernalillo,NM,"Albuquerque, Northern Sandia Mountain Top",447.45,442.45,67,67

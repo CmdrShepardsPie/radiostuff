@@ -1,0 +1,21 @@
+{
+  "ID": 168,
+  "StateID": 49,
+  "Callsign": "N7ZOI",
+  "Location": {
+    "Latitude": 40.56219864,
+    "Longitude": -111.47599792,
+    "County": "Wasatch",
+    "State": "UT",
+    "Local": "Midway, Wilson Peak"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 147.8,
+    "Output": 147.2
+  },
+  "SquelchTone": {
+    "Input": 88.5
+  }
+}

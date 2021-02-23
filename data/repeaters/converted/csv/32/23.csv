@@ -1,0 +1,2 @@
+ID,StateID,Callsign,Use,Status,SquelchTone,DigitalTone,VOIP,Location.Latitude,Location.Longitude,Location.County,Location.State,Location.Local,Frequency.Input,Frequency.Output,Digital.P25,Digital.DStar,Digital.YSF,Digital.DMR.ColorCode,Digital.DMR.ID
+23,32,KB6XN,Open,On-Air,,,,35.96519852,-115.5,Clark,NV,"Las Vegas, Hi Potosi Mountain",146.19,146.79,,,,15,313240

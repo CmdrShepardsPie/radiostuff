@@ -1,0 +1,2 @@
+ID,StateID,Callsign,Use,Status,SquelchTone,DigitalTone,Digital,VOIP,Location.Latitude,Location.Longitude,Location.County,Location.State,Location.Local,Frequency.Input,Frequency.Output
+143,49,N7IMF,Open,Other,,,,,39.33670044,-111.4509964,Sanpete,UT,"Ephraim, Horseshoe",223.04,224.64

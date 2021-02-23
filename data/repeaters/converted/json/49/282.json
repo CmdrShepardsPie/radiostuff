@@ -1,0 +1,21 @@
+{
+  "ID": 282,
+  "StateID": 49,
+  "Callsign": "N7IMF",
+  "Location": {
+    "Latitude": 40.31510162,
+    "Longitude": -111.69599915,
+    "County": "Utah",
+    "State": "UT",
+    "Local": "Orem"
+  },
+  "Use": "Closed",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 223.28,
+    "Output": 224.88
+  },
+  "SquelchTone": {
+    "Input": 156.7
+  }
+}

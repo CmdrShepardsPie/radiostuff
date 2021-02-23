@@ -1,0 +1,2 @@
+ID,StateID,Callsign,Use,Status,DigitalTone,Digital,VOIP,Location.Latitude,Location.Longitude,Location.County,Location.State,Location.Local,Frequency.Input,Frequency.Output,SquelchTone.Input,SquelchTone.Output
+292,32,N7OK,Open,On-Air,,,,36.22470093,-114.97599792,Clark,NV,"Las Vegas, Sunrise Mountain",902.1875,927.1875,151.4,

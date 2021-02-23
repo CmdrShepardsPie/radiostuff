@@ -1,0 +1,18 @@
+{
+  "ID": 11426,
+  "StateID": 49,
+  "Callsign": "N7SGV",
+  "Location": {
+    "Latitude": 37.52360153,
+    "Longitude": -112.66300201,
+    "County": "Kane",
+    "State": "UT",
+    "Local": "Duck Creek Village"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 902.6625,
+    "Output": 927.6625
+  }
+}

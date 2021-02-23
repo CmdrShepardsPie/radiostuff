@@ -1,0 +1,21 @@
+{
+  "ID": 242,
+  "StateID": 49,
+  "Callsign": "WA7KMF",
+  "Location": {
+    "Latitude": 41.6114006,
+    "Longitude": -111.95200348,
+    "County": "Cache",
+    "State": "UT",
+    "Local": "Mantua, Murrays Hill"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 444.8,
+    "Output": 449.8
+  },
+  "SquelchTone": {
+    "Input": 103.5
+  }
+}

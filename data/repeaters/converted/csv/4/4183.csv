@@ -1,0 +1,2 @@
+ID,StateID,Callsign,Use,Status,DigitalTone,Digital,VOIP,Location.Latitude,Location.Longitude,Location.County,Location.State,Location.Local,Frequency.Input,Frequency.Output,SquelchTone.Input,SquelchTone.Output
+4183,4,KF6BM,Open,On-Air,,,,33.66719818,-114.05899811,La Paz,AZ,"Quartzite, Guadalupe Peak",223.28,224.88,156.7,

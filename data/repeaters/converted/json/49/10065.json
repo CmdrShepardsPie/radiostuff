@@ -1,0 +1,21 @@
+{
+  "ID": 10065,
+  "StateID": 49,
+  "Callsign": "AF7FH",
+  "Location": {
+    "Latitude": 41.63850021,
+    "Longitude": -111.93399811,
+    "County": "Cache",
+    "State": "UT",
+    "Local": "Wellsville"
+  },
+  "Use": "Open",
+  "Status": "Other",
+  "Frequency": {
+    "Input": 902.5125,
+    "Output": 927.5125
+  },
+  "SquelchTone": {
+    "Input": 103.5
+  }
+}

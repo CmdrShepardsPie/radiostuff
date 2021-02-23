@@ -1,0 +1,23 @@
+{
+  "ID": 14688,
+  "StateID": 31,
+  "Callsign": "KD0PBW",
+  "Location": {
+    "Latitude": 40.69929886,
+    "Longitude": -99.08170319,
+    "County": "Buffalo",
+    "State": "NE",
+    "Local": "Kearney, County Courthouse"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 147.63,
+    "Output": 147.03
+  },
+  "Digital": {
+    "DStar": {
+      "Node": "KD0PBW (C) Repeater"
+    }
+  }
+}

@@ -1,0 +1,2 @@
+ID,StateID,Callsign,Use,Status,SquelchTone,Digital,VOIP,Location.Latitude,Location.Longitude,Location.County,Location.State,Location.Local,Frequency.Input,Frequency.Output,DigitalTone.Input,DigitalTone.Output
+1,56,N7HYF,Open,On-Air,,,,42.83309937,-108.73000336,Fremont,WY,Lander,52.03,53.03,261,

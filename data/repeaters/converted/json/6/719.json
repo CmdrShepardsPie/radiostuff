@@ -1,0 +1,21 @@
+{
+  "ID": 719,
+  "StateID": 6,
+  "Callsign": "KK6KU",
+  "Location": {
+    "Latitude": 34.86880112,
+    "Longitude": -118.20999908,
+    "County": "Kern",
+    "State": "CA",
+    "Local": "Rosamond"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 223.06,
+    "Output": 224.66
+  },
+  "SquelchTone": {
+    "Input": 110.9
+  }
+}

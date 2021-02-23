@@ -1,0 +1,2 @@
+ID,StateID,Callsign,Use,Status,DigitalTone,Digital,VOIP,Location.Latitude,Location.Longitude,Location.County,Location.State,Location.Local,Frequency.Input,Frequency.Output,SquelchTone.Input,SquelchTone.Output
+4107,20,K0ECT,Open,On-Air,,,,38.05329895,-99.89959717,Hodgeman,KS,Jetmore,449.5,444.5,141.3,141.3

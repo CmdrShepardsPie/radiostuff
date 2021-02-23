@@ -1,0 +1,26 @@
+{
+  "ID": 5550,
+  "StateID": 6,
+  "Callsign": "W6CTR",
+  "Location": {
+    "Latitude": 34.03779984,
+    "Longitude": -116.81400299,
+    "County": "San Bernardino",
+    "State": "CA",
+    "Local": "Banning, Snow Peak"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 440.16,
+    "Output": 445.16
+  },
+  "SquelchTone": {
+    "Input": 67
+  },
+  "VOIP": {
+    "EchoLink": {
+      "NodeID": 379885
+    }
+  }
+}

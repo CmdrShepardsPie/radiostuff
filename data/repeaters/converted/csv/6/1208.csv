@@ -1,0 +1,2 @@
+ID,StateID,Callsign,Use,Status,DigitalTone,Digital,VOIP,Location.Latitude,Location.Longitude,Location.County,Location.State,Location.Local,Frequency.Input,Frequency.Output,SquelchTone.Input,SquelchTone.Output
+1208,6,WR6CM,Closed,On-Air,,,,34.94889832,-116.86399841,San Bernardino,CA,Calico,441.3,446.3,136.5,

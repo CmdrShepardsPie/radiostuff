@@ -1,0 +1,26 @@
+{
+  "ID": 192,
+  "StateID": 49,
+  "Callsign": "W7DRC",
+  "Location": {
+    "Latitude": 37.28969955,
+    "Longitude": -113.27700043,
+    "County": "Washington",
+    "State": "UT",
+    "Local": "Toquerville, Toquerville Hill"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 144.85,
+    "Output": 145.45
+  },
+  "SquelchTone": {
+    "Input": 100
+  },
+  "VOIP": {
+    "EchoLink": {
+      "NodeID": 678741
+    }
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "ID": 3764,
+  "StateID": 6,
+  "Callsign": "W7DOD",
+  "Location": {
+    "Latitude": 35.43600082,
+    "Longitude": -115.9240036,
+    "County": "San Bernardino",
+    "State": "CA",
+    "Local": "Baker, Turquoise Mountain"
+  },
+  "Use": "Closed",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 443.16,
+    "Output": 448.16
+  },
+  "SquelchTone": {
+    "Input": 141.3
+  }
+}

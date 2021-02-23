@@ -1,0 +1,2 @@
+ID,StateID,Callsign,Use,Status,DigitalTone,Digital,VOIP,Location.Latitude,Location.Longitude,Location.County,Location.State,Location.Local,Frequency.Input,Frequency.Output,SquelchTone.Input,SquelchTone.Output
+89,49,KB7YOT,Open,On-Air,,,,40.23609924,-111.6289978,Utah,UT,Provo,444.825,449.825,167.9,

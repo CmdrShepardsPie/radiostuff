@@ -1,0 +1,21 @@
+{
+  "ID": 236,
+  "StateID": 49,
+  "Callsign": "WA7GTU",
+  "Location": {
+    "Latitude": 37.6446991,
+    "Longitude": -113.37400055,
+    "County": "Iron",
+    "State": "UT",
+    "Local": "Cedar City, Iron Mountain"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 444.5,
+    "Output": 449.5
+  },
+  "SquelchTone": {
+    "Input": 100
+  }
+}

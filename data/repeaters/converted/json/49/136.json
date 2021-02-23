@@ -1,0 +1,21 @@
+{
+  "ID": 136,
+  "StateID": 49,
+  "Callsign": "N7FQ",
+  "Location": {
+    "Latitude": 40.0530014,
+    "Longitude": -111.6740036,
+    "County": "Utah",
+    "State": "UT",
+    "Local": "Salem"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 442.075,
+    "Output": 447.075
+  },
+  "SquelchTone": {
+    "Input": 131.8
+  }
+}

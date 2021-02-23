@@ -1,2 +1,2 @@
-Frequency,Offset,Tone Up / Down,Location,County,Call,Use,,state_id,ID,Latitude,Longitude,Downlink,Uplink,Grid,Op Status,Coverage,Affiliate,Web links,Coordination,Last update
-448.725,-5,,"St George, Scrub Peak",Washington,WB6TNP,PRIVATE,,49,252,37.05329895,-113.82299805,448.725,443.725,DM37CB,On-Air,St. George and the neighboring communities.,Tri-State ARC,www.TSNV.org,UVHFS,2013-03-30
+Frequency,Offset,Tone,Call,Location,ST/PR,Use,Mode,Mi,Dir,,state_id,ID,Latitude,Longitude,Downlink,Uplink,County,Grid,Op Status,Coverage,Affiliate,FM,Analog Bandwidth,Web links,Coordination,Last update
+448.725,-5,,WB6TNP,"St George, Scrub Peak",UT,PRIVATE,FM,95.19,NE,,49,252,37.05329895,-113.82299805,448.725,443.725,Washington,DM37CB,On-Air,St. George and the neighboring communities.,Tri-State ARC,Yes; analog capable.,,www.TSNV.org,UVHFS,2013-03-30

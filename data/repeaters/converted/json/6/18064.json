@@ -1,0 +1,26 @@
+{
+  "ID": 18064,
+  "StateID": 6,
+  "Callsign": "W6CTR",
+  "Location": {
+    "Latitude": 34.34329987,
+    "Longitude": -116.40699768,
+    "County": "Los Angeles",
+    "State": "CA",
+    "Local": "Sylmar, Contractor's Point"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 440.16,
+    "Output": 445.16
+  },
+  "SquelchTone": {
+    "Input": 100
+  },
+  "VOIP": {
+    "EchoLink": {
+      "NodeID": 379885
+    }
+  }
+}

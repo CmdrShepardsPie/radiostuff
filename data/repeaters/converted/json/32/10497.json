@@ -1,0 +1,21 @@
+{
+  "ID": 10497,
+  "StateID": 32,
+  "Callsign": "K7RRC",
+  "Location": {
+    "Latitude": 36.11460114,
+    "Longitude": -115.17299652,
+    "County": "Clark",
+    "State": "NV",
+    "Local": "Las Vegas, The Stratosphere"
+  },
+  "Use": "Open",
+  "Status": "Testing",
+  "Frequency": {
+    "Input": 902.7125,
+    "Output": 927.7125
+  },
+  "SquelchTone": {
+    "Input": 127.3
+  }
+}

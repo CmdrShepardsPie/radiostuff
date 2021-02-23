@@ -1,0 +1,27 @@
+{
+  "ID": 123,
+  "StateID": 32,
+  "Callsign": "NX7R",
+  "Location": {
+    "Latitude": 36.00730133,
+    "Longitude": -115.00700378,
+    "County": "Clark",
+    "State": "NV",
+    "Local": "Henderson, Black Mtn"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 443.625,
+    "Output": 448.625
+  },
+  "DigitalTone": {
+    "Input": 754
+  },
+  "Digital": {
+    "DMR": {
+      "ColorCode": 15,
+      "ID": 313204
+    }
+  }
+}

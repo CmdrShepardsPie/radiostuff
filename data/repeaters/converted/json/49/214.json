@@ -1,0 +1,29 @@
+{
+  "ID": 214,
+  "StateID": 49,
+  "Callsign": "W7SU",
+  "Location": {
+    "Latitude": 41.19990158,
+    "Longitude": -111.88200378,
+    "County": "Weber",
+    "State": "UT",
+    "Local": "Ogden, Mt Ogden"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 146.3,
+    "Output": 146.9
+  },
+  "DigitalTone": {
+    "Input": 125
+  },
+  "Digital": {
+    "YSF": {
+      "GroupID": {
+        "Input": "Open ↑",
+        "Output": "Open ↓"
+      }
+    }
+  }
+}

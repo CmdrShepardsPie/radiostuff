@@ -14,5 +14,8 @@
   "Frequency": {
     "Input": 146.13,
     "Output": 146.73
+  },
+  "SquelchTone": {
+    "Input": 100
   }
 }

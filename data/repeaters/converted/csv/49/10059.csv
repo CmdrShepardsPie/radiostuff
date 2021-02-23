@@ -1,0 +1,2 @@
+ID,StateID,Callsign,Use,Status,SquelchTone,DigitalTone,Location.Latitude,Location.Longitude,Location.County,Location.State,Location.Local,Frequency.Input,Frequency.Output,Digital.P25,Digital.DStar,Digital.YSF,VOIP.EchoLink,VOIP.Wires,Digital.DMR.ColorCode,Digital.DMR.ID,VOIP.AllStar.NodeID,VOIP.IRLP.NodeID
+10059,49,KR1P,Open,On-Air,,,41.05519867,-111.97699738,Davis,UT,Layton,442.05,447.05,,,,,,1,,28463,3515

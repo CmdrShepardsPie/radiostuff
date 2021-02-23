@@ -1,0 +1,22 @@
+{
+  "ID": 15579,
+  "StateID": 8,
+  "Callsign": "KB0VJJ",
+  "Location": {
+    "Latitude": 40.48500061,
+    "Longitude": -106.83200073,
+    "County": "Routt",
+    "State": "CO",
+    "Local": "Steamboat Springs"
+  },
+  "Use": "Open",
+  "Status": "Off-Air",
+  "Frequency": {
+    "Input": 147.765,
+    "Output": 147.165
+  },
+  "SquelchTone": {
+    "Input": 88.5,
+    "Output": 123
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "ID": 76,
+  "StateID": 49,
+  "Callsign": "KA7EGC",
+  "Location": {
+    "Latitude": 40.39889908,
+    "Longitude": -111.7990036,
+    "County": "Utah",
+    "State": "UT",
+    "Local": "American Fork, Utah Lake"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 444.175,
+    "Output": 449.175
+  },
+  "SquelchTone": {
+    "Input": 131.8
+  }
+}

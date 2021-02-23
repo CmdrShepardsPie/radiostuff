@@ -1,0 +1,21 @@
+{
+  "ID": 82,
+  "StateID": 49,
+  "Callsign": "KA7STK",
+  "Location": {
+    "Latitude": 37.22079849,
+    "Longitude": -113.62799835,
+    "County": "Washington",
+    "State": "UT",
+    "Local": "St George, Winchester Hills"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 444.525,
+    "Output": 449.525
+  },
+  "SquelchTone": {
+    "Input": 100
+  }
+}

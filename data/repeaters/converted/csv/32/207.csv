@@ -1,0 +1,2 @@
+ID,StateID,Callsign,Use,Status,SquelchTone,DigitalTone,Digital,VOIP,Location.Latitude,Location.Longitude,Location.County,Location.State,Location.Local,Frequency.Input,Frequency.Output
+207,32,W0JAY,Closed,Other,,,,,36.20330048,-115.0719986,Clark,NV,"Las Vegas, QTH",147.705,147.105

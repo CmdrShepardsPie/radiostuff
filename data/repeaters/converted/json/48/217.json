@@ -1,0 +1,21 @@
+{
+  "ID": 217,
+  "StateID": 48,
+  "Callsign": "KA5KQH",
+  "Location": {
+    "Latitude": 35.62950134,
+    "Longitude": -100.54699707,
+    "County": "Roberts",
+    "State": "TX",
+    "Local": "Miami"
+  },
+  "Use": "Open",
+  "Status": "Other",
+  "Frequency": {
+    "Input": 144.51,
+    "Output": 145.11
+  },
+  "SquelchTone": {
+    "Input": 88.5
+  }
+}

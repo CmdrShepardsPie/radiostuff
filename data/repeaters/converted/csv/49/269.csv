@@ -1,0 +1,2 @@
+ID,StateID,Callsign,Use,Status,DigitalTone,Digital,VOIP,Location.Latitude,Location.Longitude,Location.County,Location.State,Location.Local,Frequency.Input,Frequency.Output,SquelchTone.Input,SquelchTone.Output
+269,49,WV7H,Open,On-Air,,,,37.59209824,-112.86399841,Iron,UT,"Cedar City, Blowhard Mountain",146.2,146.8,100,

@@ -1,0 +1,21 @@
+{
+  "ID": 19782,
+  "StateID": 49,
+  "Callsign": "N7TAG",
+  "Location": {
+    "Latitude": 39.3209801,
+    "Longitude": -111.0937311,
+    "County": "Carbon",
+    "State": "UT",
+    "Local": "Price"
+  },
+  "Use": "Open",
+  "Status": "Other",
+  "Frequency": {
+    "Input": 442.025,
+    "Output": 447.025
+  },
+  "SquelchTone": {
+    "Input": 88.5
+  }
+}

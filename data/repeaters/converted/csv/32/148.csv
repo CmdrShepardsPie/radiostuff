@@ -1,0 +1,2 @@
+ID,StateID,Callsign,Use,Status,DigitalTone,Digital,VOIP,Location.Latitude,Location.Longitude,Location.County,Location.State,Location.Local,Frequency.Input,Frequency.Output,SquelchTone.Input,SquelchTone.Output
+148,32,W7NYE,Open,On-Air,,,,36.21409988,-116.02500153,Nye,NV,"Pahrump, Desert View Reg Med Ctr",442.7,447.7,123,

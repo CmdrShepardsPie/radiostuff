@@ -1,0 +1,2 @@
+ID,StateID,Callsign,Use,Status,DigitalTone,Digital,VOIP,Location.Latitude,Location.Longitude,Location.County,Location.State,Location.Local,Frequency.Input,Frequency.Output,SquelchTone.Input,SquelchTone.Output
+16603,35,K5YEJ,Open,Off-Air,,,,35.59930038,-107.09600067,Sandoval,NM,"San Luis, Cabezon",448,443,100,

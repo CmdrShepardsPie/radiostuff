@@ -1,0 +1,22 @@
+{
+  "ID": 282,
+  "StateID": 32,
+  "Callsign": "WB6TNP",
+  "Location": {
+    "Latitude": 36.16910172,
+    "Longitude": -115.29100037,
+    "County": "Clark",
+    "State": "NV",
+    "Local": "Las Vegas, Summerlin"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 902.675,
+    "Output": 927.675
+  },
+  "SquelchTone": {
+    "Input": 82.5,
+    "Output": 82.5
+  }
+}

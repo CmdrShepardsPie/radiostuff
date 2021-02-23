@@ -1,0 +1,18 @@
+{
+  "ID": 9513,
+  "StateID": 32,
+  "Callsign": "K7RRC",
+  "Location": {
+    "Latitude": 36.11460114,
+    "Longitude": -115.17299652,
+    "County": "Clark",
+    "State": "NV",
+    "Local": "Las Vegas"
+  },
+  "Use": "Open",
+  "Status": "Off-Air",
+  "Frequency": {
+    "Input": 442.125,
+    "Output": 447.125
+  }
+}

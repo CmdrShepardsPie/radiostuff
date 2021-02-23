@@ -1,0 +1,21 @@
+{
+  "ID": 30,
+  "StateID": 31,
+  "Callsign": "W0SOK",
+  "Location": {
+    "Latitude": 40.72399902,
+    "Longitude": -99.91300201,
+    "County": "Dawson",
+    "State": "NE",
+    "Local": "Cozad"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 147.735,
+    "Output": 147.135
+  },
+  "SquelchTone": {
+    "Input": 123
+  }
+}

@@ -1,0 +1,2 @@
+ID,StateID,Callsign,Use,Status,SquelchTone,DigitalTone,Digital,VOIP,Location.Latitude,Location.Longitude,Location.County,Location.State,Location.Local,Frequency.Input,Frequency.Output
+307,4,WR7RAM,Closed,On-Air,,,,,34.48519897,-114.32900238,Mohave,AZ,"Lake Havasu City, Ram Peak",443.02,448.02

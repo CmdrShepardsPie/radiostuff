@@ -1,0 +1,26 @@
+{
+  "ID": 8281,
+  "StateID": 32,
+  "Callsign": "K6JSI",
+  "Location": {
+    "Latitude": 36.10250092,
+    "Longitude": -115.39499664,
+    "County": "Clark",
+    "State": "NV",
+    "Local": "Las Vegas, Blue Diamond Hill"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 442.95,
+    "Output": 447.95
+  },
+  "SquelchTone": {
+    "Input": 100
+  },
+  "VOIP": {
+    "AllStar": {
+      "NodeID": 1980
+    }
+  }
+}

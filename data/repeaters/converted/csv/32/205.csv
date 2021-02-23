@@ -1,0 +1,2 @@
+ID,StateID,Callsign,Use,Status,DigitalTone,Digital,VOIP,Location.Latitude,Location.Longitude,Location.County,Location.State,Location.Local,Frequency.Input,Frequency.Output,SquelchTone.Input,SquelchTone.Output
+205,32,KE7ZHN,Open,On-Air,,,,36.19900131,-115.1190033,Clark,NV,North Las Vegas,144.86,145.46,100,

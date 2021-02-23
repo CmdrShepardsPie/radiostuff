@@ -1,0 +1,2 @@
+ID,StateID,Callsign,Use,Status,DigitalTone,Digital,Location.Latitude,Location.Longitude,Location.County,Location.State,Location.Local,Frequency.Input,Frequency.Output,SquelchTone.Input,SquelchTone.Output,VOIP.AllStar,VOIP.EchoLink,VOIP.Wires,VOIP.IRLP.NodeID
+2412,6,KA6WIN,Open,On-Air,,,35.45289993,-118.59200287,Kern,CA,"Bakersfield, Breckenridge Mountain",442.64,447.64,100,,,,,3847

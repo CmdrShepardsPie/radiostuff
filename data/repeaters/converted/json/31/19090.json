@@ -1,0 +1,38 @@
+{
+  "ID": 19090,
+  "StateID": 31,
+  "Callsign": "WM0L",
+  "Location": {
+    "Latitude": 42.5858337,
+    "Longitude": -99.5378941,
+    "County": "Rock",
+    "State": "NE",
+    "Local": "Bassett, On Fire/Rescue tower"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 146.31,
+    "Output": 146.91
+  },
+  "SquelchTone": {
+    "Input": 131.8,
+    "Output": 131.8
+  },
+  "Digital": {
+    "YSF": {
+      "GroupID": {
+        "Input": "Open ↑",
+        "Output": "Open ↓"
+      }
+    }
+  },
+  "VOIP": {
+    "AllStar": {
+      "NodeID": 53056
+    },
+    "Wires": {
+      "ID": 35574
+    }
+  }
+}

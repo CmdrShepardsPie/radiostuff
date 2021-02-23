@@ -1,0 +1,2 @@
+ID,StateID,Callsign,Use,Status,DigitalTone,Digital,VOIP,Location.Latitude,Location.Longitude,Location.County,Location.State,Location.Local,Frequency.Input,Frequency.Output,SquelchTone.Input,SquelchTone.Output
+11673,20,AA0HJ,Open,On-Air,,,,39.90800095,-99.39700317,Phillips,KS,Phillipsburg,448.275,443.275,100,

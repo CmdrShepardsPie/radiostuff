@@ -1,0 +1,21 @@
+{
+  "ID": 219,
+  "StateID": 49,
+  "Callsign": "W7WJC",
+  "Location": {
+    "Latitude": 40.28250122,
+    "Longitude": -111.93699646,
+    "County": "Utah",
+    "State": "UT",
+    "Local": "Provo, Lake Mountain"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 222.82,
+    "Output": 224.42
+  },
+  "SquelchTone": {
+    "Input": 156.7
+  }
+}

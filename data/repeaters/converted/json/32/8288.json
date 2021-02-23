@@ -1,0 +1,21 @@
+{
+  "ID": 8288,
+  "StateID": 32,
+  "Callsign": "KB6XN",
+  "Location": {
+    "Latitude": 36.03950119,
+    "Longitude": -114.98200226,
+    "County": "Clark",
+    "State": "NV",
+    "Local": "Las Vegas"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 146.37,
+    "Output": 146.97
+  },
+  "SquelchTone": {
+    "Input": 100
+  }
+}

@@ -3,14 +3,14 @@
   "StateID": 8,
   "Callsign": "K0RTS",
   "Location": {
-    "Latitude": 39.27830124,
-    "Longitude": -103.5,
+    "Latitude": 39.374653,
+    "Longitude": -103.8021,
     "County": "Lincoln",
     "State": "CO",
     "Local": "Genoa, Limon"
   },
   "Use": "Open",
-  "Status": "On-Air",
+  "Status": "Off-Air",
   "Frequency": {
     "Input": 441.7375,
     "Output": 446.7375

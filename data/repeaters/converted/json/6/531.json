@@ -1,0 +1,21 @@
+{
+  "ID": 531,
+  "StateID": 6,
+  "Callsign": "W6LI",
+  "Location": {
+    "Latitude": 35.70690155,
+    "Longitude": -118.55999756,
+    "County": "Kern",
+    "State": "CA",
+    "Local": "Bakersfield, Shirley Peak"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 144.81,
+    "Output": 145.41
+  },
+  "SquelchTone": {
+    "Input": 103.5
+  }
+}

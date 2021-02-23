@@ -1,0 +1,21 @@
+{
+  "ID": 2,
+  "StateID": 4,
+  "Callsign": "N7YSE",
+  "Location": {
+    "Latitude": 36.73749924,
+    "Longitude": -112.21299744,
+    "County": "Coconino",
+    "State": "AZ",
+    "Local": "Jacob Lake, Jacob Lake Inn"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 147.9,
+    "Output": 147.3
+  },
+  "SquelchTone": {
+    "Input": 100
+  }
+}

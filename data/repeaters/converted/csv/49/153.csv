@@ -1,0 +1,2 @@
+ID,StateID,Callsign,Use,Status,DigitalTone,Digital,VOIP,Location.Latitude,Location.Longitude,Location.County,Location.State,Location.Local,Frequency.Input,Frequency.Output,SquelchTone.Input,SquelchTone.Output
+153,49,N7RRZ,Open,On-Air,,,,41.76860046,-111.80400085,Cache,UT,Logan,147.84,147.24,79.7,

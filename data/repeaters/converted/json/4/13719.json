@@ -1,0 +1,21 @@
+{
+  "ID": 13719,
+  "StateID": 4,
+  "Callsign": "WA6GDF",
+  "Location": {
+    "Latitude": 35.32559967,
+    "Longitude": -112.8769989,
+    "County": "Yavapai",
+    "State": "AZ",
+    "Local": "Seligman, SV Ranch"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 147.72,
+    "Output": 147.12
+  },
+  "SquelchTone": {
+    "Input": 192.8
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "ID": 1242,
+  "StateID": 6,
+  "Callsign": "N6SIM",
+  "Location": {
+    "Latitude": 34.18799973,
+    "Longitude": -117.6989975,
+    "County": "Los Angeles",
+    "State": "CA",
+    "Local": "Claremont, Sunset Ridge"
+  },
+  "Use": "Closed",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 441.3,
+    "Output": 446.3
+  },
+  "SquelchTone": {
+    "Input": 127.3,
+    "Output": 127.3
+  }
+}

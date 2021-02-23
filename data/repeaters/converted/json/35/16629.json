@@ -3,24 +3,15 @@
   "StateID": 35,
   "Callsign": "KC2HSO",
   "Location": {
-    "Latitude": 35.88000107,
-    "Longitude": -106.3030014,
-    "County": "Los Alamos",
     "State": "NM",
     "Local": "Los Alamos"
   },
   "Use": "Open",
-  "Status": "On-Air",
+  "Status": "Other",
   "Frequency": {
-    "Input": 144.265,
-    "Output": 144.265
+    "Input": null
   },
   "SquelchTone": {
     "Input": 203.5
-  },
-  "VOIP": {
-    "IRLP": {
-      "NodeID": 8039
-    }
   }
 }

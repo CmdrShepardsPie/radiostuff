@@ -1,0 +1,21 @@
+{
+  "ID": 15643,
+  "StateID": 35,
+  "Callsign": "K5DST",
+  "Location": {
+    "Latitude": 35.36529922,
+    "Longitude": -103.41100311,
+    "County": "Quay",
+    "State": "NM",
+    "Local": "Logan, Ute Lake"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 147.94,
+    "Output": 147.34
+  },
+  "SquelchTone": {
+    "Input": 131.8
+  }
+}

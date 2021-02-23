@@ -1,0 +1,22 @@
+{
+  "ID": 96,
+  "StateID": 35,
+  "Callsign": "KE5FYL",
+  "Location": {
+    "Latitude": 35.25299835,
+    "Longitude": -107.59700012,
+    "County": "Cibola",
+    "State": "NM",
+    "Local": "Grants, La Mosca Peak"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 449.95,
+    "Output": 444.95
+  },
+  "SquelchTone": {
+    "Input": 100,
+    "Output": 88.5
+  }
+}

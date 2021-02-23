@@ -1,0 +1,21 @@
+{
+  "ID": 235,
+  "StateID": 49,
+  "Callsign": "WA7GIE",
+  "Location": {
+    "Latitude": 40.70560074,
+    "Longitude": -110.88300323,
+    "County": "Duchesne",
+    "State": "UT",
+    "Local": "Roosevelt, Mirror Lake"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 147.98,
+    "Output": 147.38
+  },
+  "SquelchTone": {
+    "Input": 100
+  }
+}

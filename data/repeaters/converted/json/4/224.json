@@ -1,0 +1,21 @@
+{
+  "ID": 224,
+  "StateID": 4,
+  "Callsign": "K9FUN",
+  "Location": {
+    "Latitude": 34.77109909,
+    "Longitude": -112.05699921,
+    "County": "Yavapai",
+    "State": "AZ",
+    "Local": "Clarkdale"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 446.775,
+    "Output": 441.775
+  },
+  "SquelchTone": {
+    "Input": 156.7
+  }
+}

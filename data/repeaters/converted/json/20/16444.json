@@ -1,0 +1,27 @@
+{
+  "ID": 16444,
+  "StateID": 20,
+  "Callsign": "N7JYS",
+  "Location": {
+    "Latitude": 38.60559845,
+    "Longitude": -98.69750214,
+    "County": "Barton",
+    "State": "KS",
+    "Local": "Hoisington"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 222.44,
+    "Output": 224.04
+  },
+  "SquelchTone": {
+    "Input": 131.8,
+    "Output": 131.8
+  },
+  "VOIP": {
+    "AllStar": {
+      "NodeID": 45989
+    }
+  }
+}

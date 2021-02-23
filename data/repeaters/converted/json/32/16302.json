@@ -1,0 +1,18 @@
+{
+  "ID": 16302,
+  "StateID": 32,
+  "Callsign": "K6DLP",
+  "Location": {
+    "Latitude": 36.93479919,
+    "Longitude": -116.85099792,
+    "County": "Nye",
+    "State": "NV",
+    "Local": "Beatty, Sawtooth Mtn"
+  },
+  "Use": "Closed",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 444.86,
+    "Output": 449.86
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "ID": 47,
+  "StateID": 35,
+  "Callsign": "W5URD",
+  "Location": {
+    "Latitude": 34.70140076,
+    "Longitude": -106.40100098,
+    "County": "Torrance",
+    "State": "NM",
+    "Local": "Belen, Capilla Peak"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 449.525,
+    "Output": 444.525
+  },
+  "Digital": {
+    "DStar": {
+      "Node": "W5URD (B) Repeater"
+    }
+  }
+}

@@ -1,2 +1,2 @@
-Frequency,Offset,Tone Up / Down,Location,County,Call,Use,,state_id,ID,Latitude,Longitude,Downlink,Uplink,D-STAR Enabled,Node,Sources,Grid,Op Status,Coordination,Last update
-447.95,-5,DSTR,"Torquerville, Hurricane Mesa",Washington,KF7YIX,OPEN,,49,11158,37.23320007,-113.23100281,447.95,442.95,1,KF7YIX (B) Gateway Repeater,jfindu lookup / dstar-users lookup,DM37JF,On-Air,UVHFS,2015-08-04
+Frequency,Offset,Tone,Call,Location,ST/PR,Use,Mode,Mi,Dir,,state_id,ID,Latitude,Longitude,Downlink,Uplink,D-STAR Enabled,Node,Sources,County,Grid,Op Status,Coordination,Last update
+447.95,-5,,KF7YIX,"Torquerville, Hurricane Mesa",UT,OPEN,DSTAR,128.77,NE,,49,11158,37.23320007,-113.23100281,447.95,442.95,1,KF7YIX (B) Gateway Repeater,jfindu lookup / dstar-users lookup,Washington,DM37JF,On-Air,UVHFS,2015-08-04

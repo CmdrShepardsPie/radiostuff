@@ -1,0 +1,21 @@
+{
+  "ID": 995,
+  "StateID": 6,
+  "Callsign": "K6ONT",
+  "Location": {
+    "Latitude": 34.10639954,
+    "Longitude": -117.59200287,
+    "County": "San Bernardino",
+    "State": "CA",
+    "Local": "Rancho Cucamonga"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 442.2,
+    "Output": 447.2
+  },
+  "SquelchTone": {
+    "Input": 114.8
+  }
+}

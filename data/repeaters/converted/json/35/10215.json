@@ -1,0 +1,29 @@
+{
+  "ID": 10215,
+  "StateID": 35,
+  "Callsign": "KE5FYL",
+  "Location": {
+    "Latitude": 35.119,
+    "Longitude": -107.9013,
+    "County": "Cibola",
+    "State": "NM",
+    "Local": "Grants, Rogers rock"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 147.78,
+    "Output": 147.18
+  },
+  "SquelchTone": {
+    "Input": 100
+  },
+  "Digital": {
+    "YSF": {
+      "GroupID": {
+        "Input": "Open ↑",
+        "Output": "Open ↓"
+      }
+    }
+  }
+}

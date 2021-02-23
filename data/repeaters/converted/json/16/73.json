@@ -1,0 +1,21 @@
+{
+  "ID": 73,
+  "StateID": 16,
+  "Callsign": "N7PI",
+  "Location": {
+    "Latitude": 42.80680084,
+    "Longitude": -112.48799896,
+    "County": "Bannock",
+    "State": "ID",
+    "Local": "Pocatello, Kinport Peak"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 147.96,
+    "Output": 147.36
+  },
+  "SquelchTone": {
+    "Input": 100
+  }
+}

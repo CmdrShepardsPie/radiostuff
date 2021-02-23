@@ -1,0 +1,21 @@
+{
+  "ID": 46,
+  "StateID": 32,
+  "Callsign": "N7ELY",
+  "Location": {
+    "Latitude": 39.30830002,
+    "Longitude": -115.08599854,
+    "County": "White Pine",
+    "State": "NV",
+    "Local": "Ely, Kimberly Mountain"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 147.78,
+    "Output": 147.18
+  },
+  "SquelchTone": {
+    "Input": 114.8
+  }
+}

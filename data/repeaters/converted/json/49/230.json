@@ -1,0 +1,18 @@
+{
+  "ID": 230,
+  "StateID": 49,
+  "Callsign": "WA7GIE",
+  "Location": {
+    "Latitude": 40.43529892,
+    "Longitude": -112.0059967,
+    "County": "Salt Lake",
+    "State": "UT",
+    "Local": "Riverton, Flat Top"
+  },
+  "Use": "Closed",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 443.625,
+    "Output": 448.625
+  }
+}

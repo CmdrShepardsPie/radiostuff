@@ -1,0 +1,2 @@
+ID,StateID,Callsign,Use,Status,DigitalTone,Digital,VOIP,Location.Latitude,Location.Longitude,Location.County,Location.State,Location.Local,Frequency.Input,Frequency.Output,SquelchTone.Input,SquelchTone.Output
+447,6,K6JTH,Open,Off-Air,,,,34.23500061,-117.14099884,San Bernardino,CA,Crestline,147.345,147.945,156.7,

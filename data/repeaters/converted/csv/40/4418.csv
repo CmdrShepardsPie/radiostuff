@@ -1,0 +1,2 @@
+ID,StateID,Callsign,Use,Status,DigitalTone,Digital,VOIP,Location.Latitude,Location.Longitude,Location.County,Location.State,Location.Local,Frequency.Input,Frequency.Output,SquelchTone.Input,SquelchTone.Output
+4418,40,N5DFQ,Open,On-Air,,,,36.68280029,-101.48200226,Texas,OK,Guymon,147.75,147.15,88.5,

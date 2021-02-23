@@ -1,0 +1,21 @@
+{
+  "ID": 27,
+  "StateID": 35,
+  "Callsign": "KH6JTM",
+  "Location": {
+    "Latitude": 35.13769913,
+    "Longitude": -106.4980011,
+    "County": "Bernalillo",
+    "State": "NM",
+    "Local": "Albuquerque"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 222.98,
+    "Output": 224.58
+  },
+  "SquelchTone": {
+    "Input": 100
+  }
+}

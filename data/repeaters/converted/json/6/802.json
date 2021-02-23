@@ -1,0 +1,21 @@
+{
+  "ID": 802,
+  "StateID": 6,
+  "Callsign": "K6AFN",
+  "Location": {
+    "Latitude": 33.89659882,
+    "Longitude": -117.25900269,
+    "County": "Riverside",
+    "State": "CA",
+    "Local": "Moreno Valley, March AFB"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 222.36,
+    "Output": 223.96
+  },
+  "SquelchTone": {
+    "Input": 100
+  }
+}

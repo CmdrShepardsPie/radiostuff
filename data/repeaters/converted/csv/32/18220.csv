@@ -1,0 +1,2 @@
+ID,StateID,Callsign,Use,Status,DigitalTone,Digital,VOIP,Location.Latitude,Location.Longitude,Location.County,Location.State,Location.Local,Frequency.Input,Frequency.Output,SquelchTone.Input,SquelchTone.Output
+18220,32,W7HEN,Open,On-Air,,,,36.08459854,-115.38600159,Clark,NV,Las Vegas,441.475,446.475,156.7,

@@ -1,0 +1,2 @@
+ID,StateID,Callsign,Use,Status,SquelchTone,VOIP,Location.Latitude,Location.Longitude,Location.County,Location.State,Location.Local,Frequency.Input,Frequency.Output,DigitalTone.Input,DigitalTone.Output,Digital.DMR,Digital.P25,Digital.DStar,Digital.YSF.GroupID.Input,Digital.YSF.GroupID.Output
+969,6,WB6CDF,Open,On-Air,,,34.12599945,-116.38999939,San Bernardino,CA,"Yucca Valley, Paxton Hill",442,447,565,,,,,Open ↑,Open ↓

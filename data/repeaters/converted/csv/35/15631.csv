@@ -1,0 +1,2 @@
+ID,StateID,Callsign,Use,Status,DigitalTone,Digital,VOIP,Location.Latitude,Location.Longitude,Location.County,Location.State,Location.Local,Frequency.Input,Frequency.Output,SquelchTone.Input,SquelchTone.Output
+15631,35,NM5EM,Open,On-Air,,,,35.78530121,-105.78199768,Santa Fe,NM,"Santa Fe, Tesuque Peak",147.62,147.02,141.3,

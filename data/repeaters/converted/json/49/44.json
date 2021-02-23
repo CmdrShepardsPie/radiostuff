@@ -1,0 +1,21 @@
+{
+  "ID": 44,
+  "StateID": 49,
+  "Callsign": "K7OGM",
+  "Location": {
+    "Latitude": 41.88249969,
+    "Longitude": -111.26899719,
+    "County": "Rich",
+    "State": "UT",
+    "Local": "Laketown, Bear Lake"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 444.7,
+    "Output": 449.7
+  },
+  "SquelchTone": {
+    "Input": 100
+  }
+}

@@ -1,0 +1,2 @@
+ID,StateID,Callsign,Use,Status,SquelchTone,DigitalTone,Digital,Location.Latitude,Location.Longitude,Location.County,Location.State,Location.Local,Frequency.Input,Frequency.Output,VOIP.AllStar,VOIP.IRLP,VOIP.Wires,VOIP.EchoLink.NodeID
+329,32,WH6CYB,Closed,On-Air,,,,36.25059891,-115.15000153,Clark,NV,North Las Vegas,443.775,448.775,,,,236464

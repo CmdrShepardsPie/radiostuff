@@ -1,2 +1,2 @@
 ID,StateID,Callsign,Use,Status,DigitalTone,Digital,VOIP,Location.Latitude,Location.Longitude,Location.County,Location.State,Location.Local,Frequency.Input,Frequency.Output,SquelchTone.Input,SquelchTone.Output
-204,8,KB0VJJ,Open,On-Air,,,,38.45959854,-106.01100159,Chaffee,CO,"Salida, Methodist Mountain",147.885,147.285,88.5,123
+204,8,KB0VJJ,Open,Off-Air,,,,38.45959854,-106.01100159,Chaffee,CO,"Salida, Methodist Mountain",147.885,147.285,88.5,123

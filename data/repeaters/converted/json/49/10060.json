@@ -1,0 +1,21 @@
+{
+  "ID": 10060,
+  "StateID": 49,
+  "Callsign": "KG7EGM",
+  "Location": {
+    "Latitude": 40.52470016,
+    "Longitude": -111.86399841,
+    "County": "Salt Lake",
+    "State": "UT",
+    "Local": "Draper, Fire Station"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 442.1,
+    "Output": 447.1
+  },
+  "SquelchTone": {
+    "Input": 100
+  }
+}

@@ -1,0 +1,2 @@
+ID,StateID,Callsign,Use,Status,DigitalTone,Digital,VOIP,Location.Latitude,Location.Longitude,Location.County,Location.State,Location.Local,Frequency.Input,Frequency.Output,SquelchTone.Input,SquelchTone.Output
+34,49,K7JL,Open,On-Air,,,,40.56079865,-111.64399719,Utah,UT,"Snowbird, Hidden Peak",147.78,147.18,100,

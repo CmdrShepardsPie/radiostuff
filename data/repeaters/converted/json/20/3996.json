@@ -1,0 +1,18 @@
+{
+  "ID": 3996,
+  "StateID": 20,
+  "Callsign": "WK0DX",
+  "Location": {
+    "Latitude": 37.29330063,
+    "Longitude": -100.63999939,
+    "County": "Meade",
+    "State": "KS",
+    "Local": "Plains"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 147.78,
+    "Output": 147.18
+  }
+}

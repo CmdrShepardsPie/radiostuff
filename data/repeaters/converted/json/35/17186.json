@@ -1,0 +1,22 @@
+{
+  "ID": 17186,
+  "StateID": 35,
+  "Callsign": "K5FIQ",
+  "Location": {
+    "Latitude": 35.08440018,
+    "Longitude": -106.65000153,
+    "County": "Bernalillo",
+    "State": "NM",
+    "Local": "Albuquerque, Northern Sandia Mountain Top"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 447.45,
+    "Output": 442.45
+  },
+  "SquelchTone": {
+    "Input": 67,
+    "Output": 67
+  }
+}

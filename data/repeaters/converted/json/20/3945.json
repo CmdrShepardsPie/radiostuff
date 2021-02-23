@@ -1,0 +1,22 @@
+{
+  "ID": 3945,
+  "StateID": 20,
+  "Callsign": "KI0NN",
+  "Location": {
+    "Latitude": 38.40599823,
+    "Longitude": -98.72200012,
+    "County": "Barton",
+    "State": "KS",
+    "Local": "Great Bend"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 146.16,
+    "Output": 146.76
+  },
+  "SquelchTone": {
+    "Input": 103.5,
+    "Output": 103.5
+  }
+}

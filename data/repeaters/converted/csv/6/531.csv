@@ -1,0 +1,2 @@
+ID,StateID,Callsign,Use,Status,DigitalTone,Digital,VOIP,Location.Latitude,Location.Longitude,Location.County,Location.State,Location.Local,Frequency.Input,Frequency.Output,SquelchTone.Input,SquelchTone.Output
+531,6,W6LI,Open,On-Air,,,,35.70690155,-118.55999756,Kern,CA,"Bakersfield, Shirley Peak",144.81,145.41,103.5,

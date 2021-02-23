@@ -1,0 +1,21 @@
+{
+  "ID": 134,
+  "StateID": 32,
+  "Callsign": "KB6CRE",
+  "Location": {
+    "Latitude": 35.96519852,
+    "Longitude": -115.5,
+    "County": "Clark",
+    "State": "NV",
+    "Local": "Las Vegas, Hi Potosi Mountain"
+  },
+  "Use": "Closed",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 444.95,
+    "Output": 449.95
+  },
+  "SquelchTone": {
+    "Input": 136.5
+  }
+}

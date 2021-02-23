@@ -1,0 +1,2 @@
+ID,StateID,Callsign,Use,Status,SquelchTone,DigitalTone,VOIP,Location.Latitude,Location.Longitude,Location.County,Location.State,Location.Local,Frequency.Input,Frequency.Output,Digital.DMR,Digital.P25,Digital.YSF,Digital.DStar.Node
+9295,35,W5MPZ,Open,On-Air,,,,35.21030045,-106.44999695,Bernalillo,NM,"Albuquerque, Sandia Crest",448.825,443.8,,,,W5MPZ (B) Repeater

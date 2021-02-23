@@ -1,0 +1,21 @@
+{
+  "ID": 1016,
+  "StateID": 6,
+  "Callsign": "K6LLU",
+  "Location": {
+    "Latitude": 34.0489006,
+    "Longitude": -117.2480011,
+    "County": "San Bernardino",
+    "State": "CA",
+    "Local": "Loma Linda, LLUMC"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 440.6,
+    "Output": 445.6
+  },
+  "SquelchTone": {
+    "Input": 118.8
+  }
+}

@@ -1,0 +1,2 @@
+ID,StateID,Callsign,Use,Status,DigitalTone,Digital,VOIP,Location.Latitude,Location.Longitude,Location.County,Location.State,Location.Local,Frequency.Input,Frequency.Output,SquelchTone.Input,SquelchTone.Output
+15638,35,NM5EM,Open,On-Air,,,,36.76110077,-103.83399963,Union,NM,"Des Moines, Sierra Grande",147.775,147.175,141.3,

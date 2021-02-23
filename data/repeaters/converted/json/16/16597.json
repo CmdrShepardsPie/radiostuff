@@ -1,0 +1,21 @@
+{
+  "ID": 16597,
+  "StateID": 16,
+  "Callsign": "K7ECI",
+  "Location": {
+    "Latitude": 43.12950134,
+    "Longitude": -115.69599915,
+    "County": "Elmore",
+    "State": "ID",
+    "Local": "Mountain Home"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 447.825,
+    "Output": 442.825
+  },
+  "SquelchTone": {
+    "Input": 110.9
+  }
+}

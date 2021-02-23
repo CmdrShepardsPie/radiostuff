@@ -1,0 +1,18 @@
+{
+  "ID": 172,
+  "StateID": 49,
+  "Callsign": "NR7K",
+  "Location": {
+    "Latitude": 37.15510178,
+    "Longitude": -113.88400269,
+    "County": "Washington",
+    "State": "UT",
+    "Local": "St George"
+  },
+  "Use": "Open",
+  "Status": "Other",
+  "Frequency": {
+    "Input": 444.325,
+    "Output": 449.325
+  }
+}

@@ -15,8 +15,10 @@
     "Input": 444.75,
     "Output": 449.75
   },
-  "SquelchTone": {
-    "Input": 103.5,
-    "Output": 103.5
+  "Digital": {
+    "DMR": {
+      "ColorCode": 1,
+      "ID": 310847
+    }
   }
 }

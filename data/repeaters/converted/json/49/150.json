@@ -1,0 +1,21 @@
+{
+  "ID": 150,
+  "StateID": 49,
+  "Callsign": "W0HU",
+  "Location": {
+    "Latitude": 40.78229904,
+    "Longitude": -111.9469986,
+    "County": "Salt Lake",
+    "State": "UT",
+    "Local": "Salt Lake City"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 442.025,
+    "Output": 447.025
+  },
+  "SquelchTone": {
+    "Input": 100
+  }
+}

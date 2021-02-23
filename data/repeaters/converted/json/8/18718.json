@@ -1,7 +1,7 @@
 {
   "ID": 18718,
   "StateID": 8,
-  "Callsign": "KC0VJD",
+  "Callsign": "KD0OXW",
   "Location": {
     "Latitude": 39.374653,
     "Longitude": -103.8021,
@@ -10,12 +10,17 @@
     "Local": "Limon, Cedar Point"
   },
   "Use": "Open",
-  "Status": "Testing",
+  "Status": "On-Air",
   "Frequency": {
-    "Input": 442.6,
+    "Input": 442.65,
     "Output": 447.65
   },
   "SquelchTone": {
     "Input": 103.5
+  },
+  "VOIP": {
+    "Wires": {
+      "ID": 36702
+    }
   }
 }

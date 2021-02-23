@@ -1,0 +1,21 @@
+{
+  "ID": 2079,
+  "StateID": 6,
+  "Callsign": "N6LXX",
+  "Location": {
+    "Latitude": 34.42610168,
+    "Longitude": -117.57099915,
+    "County": "San Bernardino",
+    "State": "CA",
+    "Local": "Phelan"
+  },
+  "Use": "Open",
+  "Status": "Other",
+  "Frequency": {
+    "Input": 902.475,
+    "Output": 927.475
+  },
+  "DigitalTone": {
+    "Input": 532
+  }
+}

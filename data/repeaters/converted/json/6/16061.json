@@ -1,0 +1,23 @@
+{
+  "ID": 16061,
+  "StateID": 6,
+  "Callsign": "N6GGS",
+  "Location": {
+    "Latitude": 34.38639832,
+    "Longitude": -117.68900299,
+    "County": "Riverside",
+    "State": "CA",
+    "Local": "Victorville, Table Mtn"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 441.0625,
+    "Output": 446.0625
+  },
+  "Digital": {
+    "DMR": {
+      "ColorCode": 0
+    }
+  }
+}

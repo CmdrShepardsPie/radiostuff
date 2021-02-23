@@ -1,0 +1,22 @@
+{
+  "ID": 10121,
+  "StateID": 6,
+  "Callsign": "N6BKL",
+  "Location": {
+    "Latitude": 35.36859894,
+    "Longitude": -117.65799713,
+    "County": "Kern",
+    "State": "CA",
+    "Local": "Randsburg"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 52.18,
+    "Output": 52.68
+  },
+  "SquelchTone": {
+    "Input": 82.5,
+    "Output": 141.3
+  }
+}

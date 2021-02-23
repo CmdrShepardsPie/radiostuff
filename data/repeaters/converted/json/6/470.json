@@ -1,0 +1,21 @@
+{
+  "ID": 470,
+  "StateID": 6,
+  "Callsign": "K7GIL",
+  "Location": {
+    "Latitude": 34.6114006,
+    "Longitude": -117.29000092,
+    "County": "San Bernardino",
+    "State": "CA",
+    "Local": "Victorville, Quartzite Mtn."
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 147.72,
+    "Output": 147.12
+  },
+  "SquelchTone": {
+    "Input": 91.5
+  }
+}

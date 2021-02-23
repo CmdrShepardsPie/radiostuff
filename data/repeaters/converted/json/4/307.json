@@ -1,0 +1,18 @@
+{
+  "ID": 307,
+  "StateID": 4,
+  "Callsign": "WR7RAM",
+  "Location": {
+    "Latitude": 34.48519897,
+    "Longitude": -114.32900238,
+    "County": "Mohave",
+    "State": "AZ",
+    "Local": "Lake Havasu City, Ram Peak"
+  },
+  "Use": "Closed",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 443.02,
+    "Output": 448.02
+  }
+}

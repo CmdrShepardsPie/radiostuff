@@ -1,0 +1,2 @@
+ID,StateID,Callsign,Use,Status,DigitalTone,Digital,VOIP,Location.Latitude,Location.Longitude,Location.County,Location.State,Location.Local,Frequency.Input,Frequency.Output,SquelchTone.Input,SquelchTone.Output
+800,6,W6COH,Open,On-Air,,,,33.70849991,-116.91999817,Riverside,CA,"Hemet, Simpson Park",222.52,224.12,97.4,

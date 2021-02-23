@@ -1,0 +1,18 @@
+{
+  "ID": 330,
+  "StateID": 32,
+  "Callsign": "WA6TLW",
+  "Location": {
+    "Latitude": 35.96519852,
+    "Longitude": -115.5,
+    "County": "Clark",
+    "State": "NV",
+    "Local": "Las Vegas, Hi Potosi Mountain"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 442.175,
+    "Output": 447.175
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "ID": 14285,
+  "StateID": 32,
+  "Callsign": "KB6XN",
+  "Location": {
+    "Latitude": 36.16989899,
+    "Longitude": -115.13999939,
+    "County": "Clark",
+    "State": "NV",
+    "Local": "Las Vegas"
+  },
+  "Use": "Open",
+  "Status": "Other",
+  "Frequency": {
+    "Input": 440.7,
+    "Output": 445.7
+  },
+  "Digital": {
+    "DMR": {
+      "ColorCode": 2,
+      "ID": 313219
+    }
+  }
+}

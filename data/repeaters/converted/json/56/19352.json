@@ -1,0 +1,17 @@
+{
+  "ID": 19352,
+  "StateID": 56,
+  "Callsign": "W0MUD",
+  "Location": {
+    "State": "WY",
+    "Local": "Lander"
+  },
+  "Use": "Open",
+  "Status": "Other",
+  "Frequency": {
+    "Input": null
+  },
+  "SquelchTone": {
+    "Input": 77
+  }
+}

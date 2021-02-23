@@ -1,0 +1,21 @@
+{
+  "ID": 185,
+  "StateID": 35,
+  "Callsign": "KD5SAR",
+  "Location": {
+    "Latitude": 35.115,
+    "Longitude": -108.7392,
+    "County": "McKinley",
+    "State": "NM",
+    "Local": "Zuni, Black rock"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 144.83,
+    "Output": 145.43
+  },
+  "SquelchTone": {
+    "Input": 162.2
+  }
+}

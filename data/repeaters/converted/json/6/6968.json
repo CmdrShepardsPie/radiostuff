@@ -1,0 +1,21 @@
+{
+  "ID": 6968,
+  "StateID": 6,
+  "Callsign": "K6DK",
+  "Location": {
+    "Latitude": 34.89580154,
+    "Longitude": -117.01699829,
+    "County": "San Bernardino",
+    "State": "CA",
+    "Local": "Barstow"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 146.16,
+    "Output": 146.76
+  },
+  "SquelchTone": {
+    "Input": 136.5
+  }
+}

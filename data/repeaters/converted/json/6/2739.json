@@ -1,0 +1,21 @@
+{
+  "ID": 2739,
+  "StateID": 6,
+  "Callsign": "N6AJB",
+  "Location": {
+    "Latitude": 34.07220078,
+    "Longitude": -116.93900299,
+    "County": "San Bernardino",
+    "State": "CA",
+    "Local": "Oak Glen, Oak Glen Div"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 902.375,
+    "Output": 927.375
+  },
+  "DigitalTone": {
+    "Input": 23
+  }
+}

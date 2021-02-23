@@ -1,0 +1,21 @@
+{
+  "ID": 18273,
+  "StateID": 6,
+  "Callsign": "N6UDT",
+  "Location": {
+    "Latitude": 34.34790039,
+    "Longitude": -117.66999817,
+    "County": "Los Angeles",
+    "State": "CA",
+    "Local": "Wrightwood, Blue Ridge"
+  },
+  "Use": "Private",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 1274.4,
+    "Output": 1286.4
+  },
+  "SquelchTone": {
+    "Input": 103.5
+  }
+}

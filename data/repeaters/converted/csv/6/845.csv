@@ -1,0 +1,2 @@
+ID,StateID,Callsign,Use,Status,DigitalTone,Digital,VOIP,Location.Latitude,Location.Longitude,Location.County,Location.State,Location.Local,Frequency.Input,Frequency.Output,SquelchTone.Input,SquelchTone.Output
+845,6,W6SCE,Private,On-Air,,,,34.67490005,-116.81500244,San Bernardino,CA,"Barstow, Ord Mountain",222.72,224.32,100,

@@ -1,0 +1,21 @@
+{
+  "ID": 38,
+  "StateID": 35,
+  "Callsign": "K5FIQ",
+  "Location": {
+    "Latitude": 35.05780029,
+    "Longitude": -106.58699799,
+    "County": "Bernalillo",
+    "State": "NM",
+    "Local": "Albuquerque, Op Ctr"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 146.3,
+    "Output": 146.9
+  },
+  "SquelchTone": {
+    "Input": 67
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "ID": 8529,
+  "StateID": 32,
+  "Callsign": "KB7SJZ",
+  "Location": {
+    "Latitude": 40.83240128,
+    "Longitude": -115.76300049,
+    "County": "Elko",
+    "State": "NV",
+    "Local": "Elko"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 447.4,
+    "Output": 442.4
+  },
+  "Digital": {
+    "DMR": {
+      "ColorCode": 1,
+      "ID": 313202
+    }
+  }
+}

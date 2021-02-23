@@ -1,0 +1,2 @@
+ID,StateID,Callsign,Use,Status,SquelchTone,DigitalTone,Digital,VOIP,Location.Latitude,Location.Longitude,Location.County,Location.State,Location.Local,Frequency.Input,Frequency.Output
+320,32,KI6V,Open,Other,,,,,40.83599854,-115.76699829,Elko,NV,Elko,445.325,440.325

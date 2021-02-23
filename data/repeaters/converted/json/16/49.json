@@ -1,0 +1,22 @@
+{
+  "ID": 49,
+  "StateID": 16,
+  "Callsign": "K7MVA",
+  "Location": {
+    "Latitude": 42.50030136,
+    "Longitude": -114.23500061,
+    "County": "Twin Falls",
+    "State": "ID",
+    "Local": "Kimberly, Hansen Butte"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 146.16,
+    "Output": 146.76
+  },
+  "SquelchTone": {
+    "Input": 100,
+    "Output": 100
+  }
+}

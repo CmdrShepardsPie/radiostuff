@@ -1,0 +1,18 @@
+{
+  "ID": 147,
+  "StateID": 32,
+  "Callsign": "WB6RTH",
+  "Location": {
+    "Latitude": 36.20830154,
+    "Longitude": -115.98300171,
+    "County": "Nye",
+    "State": "NV",
+    "Local": "Pahrump"
+  },
+  "Use": "Open",
+  "Status": "Off-Air",
+  "Frequency": {
+    "Input": 442.65,
+    "Output": 447.65
+  }
+}

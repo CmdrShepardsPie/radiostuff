@@ -1,0 +1,21 @@
+{
+  "ID": 17,
+  "StateID": 4,
+  "Callsign": "WB7FIK",
+  "Location": {
+    "Latitude": 33.66730118,
+    "Longitude": -114.06199646,
+    "County": "La Paz",
+    "State": "AZ",
+    "Local": "Quartzsite, Guadalupe Peak"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 144.71,
+    "Output": 145.31
+  },
+  "SquelchTone": {
+    "Input": 107.2
+  }
+}

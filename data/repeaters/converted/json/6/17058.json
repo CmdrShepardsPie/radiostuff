@@ -1,0 +1,18 @@
+{
+  "ID": 17058,
+  "StateID": 6,
+  "Callsign": "KK6MOS",
+  "Location": {
+    "Latitude": 34.26509857,
+    "Longitude": -116.78600311,
+    "County": "San Bernardino",
+    "State": "CA",
+    "Local": "Big Bear City, Baldwin Lake"
+  },
+  "Use": "Private",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 223.32,
+    "Output": 224.92
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "ID": 18164,
+  "StateID": 6,
+  "Callsign": "WB6TZC",
+  "Location": {
+    "Latitude": 34.0379982,
+    "Longitude": -116.81400299,
+    "County": "San Bernardino",
+    "State": "CA",
+    "Local": "Banning, Snow Peak"
+  },
+  "Use": "Private",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 443.66,
+    "Output": 448.66
+  }
+}

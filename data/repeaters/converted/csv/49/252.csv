@@ -1,0 +1,2 @@
+ID,StateID,Callsign,Use,Status,SquelchTone,DigitalTone,Digital,VOIP,Location.Latitude,Location.Longitude,Location.County,Location.State,Location.Local,Frequency.Input,Frequency.Output
+252,49,WB6TNP,Private,On-Air,,,,,37.05329895,-113.82299805,Washington,UT,"St George, Scrub Peak",443.725,448.725

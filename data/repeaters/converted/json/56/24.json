@@ -1,0 +1,21 @@
+{
+  "ID": 24,
+  "StateID": 56,
+  "Callsign": "KC7BJY",
+  "Location": {
+    "Latitude": 42.55360031,
+    "Longitude": -110.10900116,
+    "County": "Sublette",
+    "State": "WY",
+    "Local": "Marbleton"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 144.545,
+    "Output": 145.145
+  },
+  "SquelchTone": {
+    "Input": 100
+  }
+}

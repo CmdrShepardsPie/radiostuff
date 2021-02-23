@@ -1,0 +1,18 @@
+{
+  "ID": 796,
+  "StateID": 6,
+  "Callsign": "W6YQY",
+  "Location": {
+    "Latitude": 33.71250153,
+    "Longitude": -115.40100098,
+    "County": "Riverside",
+    "State": "CA",
+    "Local": "Desert Center, Chuckwalla Mountain"
+  },
+  "Use": "Closed",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 223.1,
+    "Output": 224.7
+  }
+}

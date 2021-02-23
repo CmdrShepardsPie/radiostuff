@@ -1,0 +1,21 @@
+{
+  "ID": 204,
+  "StateID": 32,
+  "Callsign": "N7RMB",
+  "Location": {
+    "Latitude": 36.10169983,
+    "Longitude": -115.16899872,
+    "County": "Clark",
+    "State": "NV",
+    "Local": "Las Vegas, MGM Grand"
+  },
+  "Use": "Closed",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 144.7,
+    "Output": 145.3
+  },
+  "SquelchTone": {
+    "Input": 100
+  }
+}

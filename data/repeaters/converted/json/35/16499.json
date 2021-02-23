@@ -1,0 +1,23 @@
+{
+  "ID": 16499,
+  "StateID": 35,
+  "Callsign": "KG5SLG",
+  "Location": {
+    "Latitude": 35.23279953,
+    "Longitude": -106.66300201,
+    "County": "Sandoval",
+    "State": "NM",
+    "Local": "Rio Rancho, NM 528 and Corrales Rd"
+  },
+  "Use": "Open",
+  "Status": "Off-Air",
+  "Frequency": {
+    "Input": 447.4,
+    "Output": 442.4
+  },
+  "Digital": {
+    "DMR": {
+      "ColorCode": 4
+    }
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "ID": 7949,
+  "StateID": 6,
+  "Callsign": "WA6ITC",
+  "Location": {
+    "Latitude": 34.23189926,
+    "Longitude": -116.78299713,
+    "County": "San Bernardino",
+    "State": "CA",
+    "Local": "Big Bear Lake"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 147.825,
+    "Output": 147.225
+  },
+  "SquelchTone": {
+    "Input": 162.2
+  }
+}

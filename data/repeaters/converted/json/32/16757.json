@@ -1,0 +1,22 @@
+{
+  "ID": 16757,
+  "StateID": 32,
+  "Callsign": "W7HEN",
+  "Location": {
+    "Latitude": 36.33359909,
+    "Longitude": -114.97499847,
+    "County": "Clark",
+    "State": "NV",
+    "Local": "North Las Vegas, Apex Mountain"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 444.925,
+    "Output": 449.925
+  },
+  "SquelchTone": {
+    "Input": 131.8,
+    "Output": 203.5
+  }
+}

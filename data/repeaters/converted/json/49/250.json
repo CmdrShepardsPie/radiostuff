@@ -1,0 +1,21 @@
+{
+  "ID": 250,
+  "StateID": 49,
+  "Callsign": "WB6CDN",
+  "Location": {
+    "Latitude": 41.19720078,
+    "Longitude": -111.97000122,
+    "County": "Weber",
+    "State": "UT",
+    "Local": "Ogden, downtown"
+  },
+  "Use": "Open",
+  "Status": "Other",
+  "Frequency": {
+    "Input": 222.9,
+    "Output": 224.5
+  },
+  "SquelchTone": {
+    "Input": 167.9
+  }
+}

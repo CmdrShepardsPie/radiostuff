@@ -1,0 +1,22 @@
+{
+  "ID": 117,
+  "StateID": 32,
+  "Callsign": "N7TND",
+  "Location": {
+    "Latitude": 36.31919861,
+    "Longitude": -115.5739975,
+    "County": "Clark",
+    "State": "NV",
+    "Local": "Las Vegas, Angel Peak"
+  },
+  "Use": "Closed",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 444.5,
+    "Output": 449.5
+  },
+  "SquelchTone": {
+    "Input": 146.2,
+    "Output": 146.2
+  }
+}

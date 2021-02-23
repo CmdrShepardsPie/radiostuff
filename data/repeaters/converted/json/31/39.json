@@ -1,0 +1,18 @@
+{
+  "ID": 39,
+  "StateID": 31,
+  "Callsign": "K0TAJ",
+  "Location": {
+    "Latitude": 40.20529938,
+    "Longitude": -100.62599945,
+    "County": "Red Willow",
+    "State": "NE",
+    "Local": "McCook, 180' tower S. of McCook"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 147.87,
+    "Output": 147.27
+  }
+}

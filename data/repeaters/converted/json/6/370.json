@@ -1,0 +1,21 @@
+{
+  "ID": 370,
+  "StateID": 6,
+  "Callsign": "KA6GBJ",
+  "Location": {
+    "Latitude": 33.71250153,
+    "Longitude": -115.40100098,
+    "County": "Riverside",
+    "State": "CA",
+    "Local": "Desert Center"
+  },
+  "Use": "Open",
+  "Status": "Other",
+  "Frequency": {
+    "Input": 147.63,
+    "Output": 147.03
+  },
+  "SquelchTone": {
+    "Input": 107.2
+  }
+}

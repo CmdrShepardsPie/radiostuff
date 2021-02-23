@@ -1,0 +1,2 @@
+ID,StateID,Callsign,Use,Status,DigitalTone,Digital,VOIP,Location.Latitude,Location.Longitude,Location.County,Location.State,Location.Local,Frequency.Input,Frequency.Output,SquelchTone.Input,SquelchTone.Output
+290,32,KA3IDN,Open,Other,,,,36.2140007,-115.99099731,Clark,NV,Pahrump,902.8125,927.8125,151.4,

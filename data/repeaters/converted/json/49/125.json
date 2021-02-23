@@ -1,0 +1,26 @@
+{
+  "ID": 125,
+  "StateID": 49,
+  "Callsign": "N6QWU",
+  "Location": {
+    "Latitude": 40.09059906,
+    "Longitude": -111.82099915,
+    "County": "Utah",
+    "State": "UT",
+    "Local": "Payson, West Mountain"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 443.25,
+    "Output": 448.25
+  },
+  "SquelchTone": {
+    "Input": 100
+  },
+  "VOIP": {
+    "EchoLink": {
+      "NodeID": 355674
+    }
+  }
+}

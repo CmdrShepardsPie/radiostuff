@@ -1,0 +1,26 @@
+{
+  "ID": 12241,
+  "StateID": 4,
+  "Callsign": "KI6FH",
+  "Location": {
+    "Latitude": 34.69390106,
+    "Longitude": -112.12799835,
+    "County": "Yavapai",
+    "State": "AZ",
+    "Local": "Cottonwood, Mingus Mountain"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 222.48,
+    "Output": 224.08
+  },
+  "SquelchTone": {
+    "Input": 156.7
+  },
+  "VOIP": {
+    "EchoLink": {
+      "NodeID": 877991
+    }
+  }
+}

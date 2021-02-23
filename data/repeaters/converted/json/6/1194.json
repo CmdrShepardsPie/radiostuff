@@ -1,0 +1,28 @@
+{
+  "ID": 1194,
+  "StateID": 6,
+  "Callsign": "WD6AWP",
+  "Location": {
+    "Latitude": 34.35440063,
+    "Longitude": -117.67900085,
+    "County": "Los Angeles",
+    "State": "CA",
+    "Local": "Wrightwood, Blue Ridge"
+  },
+  "Use": "Private",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 443.38,
+    "Output": 448.38
+  },
+  "Digital": {
+    "P25": {
+      "NAC": 927
+    }
+  },
+  "VOIP": {
+    "AllStar": {
+      "NodeID": 2528
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "ID": 1394,
+  "StateID": 6,
+  "Callsign": "WB6SLR",
+  "Location": {
+    "Latitude": 34.35189819,
+    "Longitude": -117.67500305,
+    "County": "Los Angeles",
+    "State": "CA",
+    "Local": "Wrightwood, Blue Ridge"
+  },
+  "Use": "Private",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 444.74,
+    "Output": 449.74
+  }
+}

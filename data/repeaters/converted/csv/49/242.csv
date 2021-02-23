@@ -1,0 +1,2 @@
+ID,StateID,Callsign,Use,Status,DigitalTone,Digital,VOIP,Location.Latitude,Location.Longitude,Location.County,Location.State,Location.Local,Frequency.Input,Frequency.Output,SquelchTone.Input,SquelchTone.Output
+242,49,WA7KMF,Open,On-Air,,,,41.6114006,-111.95200348,Cache,UT,"Mantua, Murrays Hill",444.8,449.8,103.5,

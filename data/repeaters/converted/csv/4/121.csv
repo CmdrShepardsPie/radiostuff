@@ -1,0 +1,2 @@
+ID,StateID,Callsign,Use,Status,DigitalTone,Digital,Location.Latitude,Location.Longitude,Location.County,Location.State,Location.Local,Frequency.Input,Frequency.Output,SquelchTone.Input,SquelchTone.Output,VOIP.IRLP,VOIP.Wires,VOIP.AllStar.NodeID,VOIP.EchoLink.NodeID
+121,4,W7EI,Open,On-Air,,,34.69390106,-112.1269989,Yavapai,AZ,"Cottonwood, Mingus Mountain",147.82,147.22,162.2,,,,46005,511632

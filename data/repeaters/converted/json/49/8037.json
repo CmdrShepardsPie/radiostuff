@@ -1,0 +1,21 @@
+{
+  "ID": 8037,
+  "StateID": 49,
+  "Callsign": "KD0J",
+  "Location": {
+    "Latitude": 40.73540115,
+    "Longitude": -111.88600159,
+    "County": "Salt Lake",
+    "State": "UT",
+    "Local": "Salt Lake City, SLCC"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 146.28,
+    "Output": 146.88
+  },
+  "SquelchTone": {
+    "Input": 88.5
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "ID": 1166,
+  "StateID": 6,
+  "Callsign": "N6DKA",
+  "Location": {
+    "Latitude": 34.18700027,
+    "Longitude": -117.69999695,
+    "County": "Los Angeles",
+    "State": "CA",
+    "Local": "Claremont, Sunset Ridge"
+  },
+  "Use": "Private",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 442.72,
+    "Output": 447.72
+  },
+  "VOIP": {
+    "IRLP": {
+      "NodeID": 3651
+    }
+  }
+}

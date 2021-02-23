@@ -1,0 +1,21 @@
+{
+  "ID": 52,
+  "StateID": 32,
+  "Callsign": "W7LKO",
+  "Location": {
+    "Latitude": 40.82899857,
+    "Longitude": -115.72699738,
+    "County": "Elko",
+    "State": "NV",
+    "Local": "Elko, Lamoille Summit"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 147.81,
+    "Output": 147.21
+  },
+  "SquelchTone": {
+    "Input": 100
+  }
+}

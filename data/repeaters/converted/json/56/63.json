@@ -1,0 +1,18 @@
+{
+  "ID": 63,
+  "StateID": 56,
+  "Callsign": "NG7T",
+  "Location": {
+    "Latitude": 42.86669922,
+    "Longitude": -106.31199646,
+    "County": "Natrona",
+    "State": "WY",
+    "Local": "Casper"
+  },
+  "Use": "Open",
+  "Status": "Other",
+  "Frequency": {
+    "Input": 444.1,
+    "Output": 449.1
+  }
+}

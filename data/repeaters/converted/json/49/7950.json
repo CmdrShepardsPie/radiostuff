@@ -1,0 +1,21 @@
+{
+  "ID": 7950,
+  "StateID": 49,
+  "Callsign": "KD7RBR",
+  "Location": {
+    "Latitude": 40.2983017,
+    "Longitude": -111.71900177,
+    "County": "Utah",
+    "State": "UT",
+    "Local": "Orem, Point of the Mountain"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 442.6,
+    "Output": 447.6
+  },
+  "SquelchTone": {
+    "Input": 162.2
+  }
+}

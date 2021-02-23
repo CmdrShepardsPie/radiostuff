@@ -1,0 +1,21 @@
+{
+  "ID": 11403,
+  "StateID": 6,
+  "Callsign": "WA6AV",
+  "Location": {
+    "Latitude": 34.42639923,
+    "Longitude": -117.3010025,
+    "County": "San Bernardino",
+    "State": "CA",
+    "Local": "Hesperia"
+  },
+  "Use": "Open",
+  "Status": "Other",
+  "Frequency": {
+    "Input": 146.775,
+    "Output": 146.175
+  },
+  "SquelchTone": {
+    "Input": 97.4
+  }
+}

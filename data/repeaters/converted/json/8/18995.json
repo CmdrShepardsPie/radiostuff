@@ -1,0 +1,22 @@
+{
+  "ID": 18995,
+  "StateID": 8,
+  "Callsign": "KB0VJJ",
+  "Location": {
+    "Latitude": 40.611346,
+    "Longitude": -105.324233,
+    "County": "Larimer",
+    "State": "CO",
+    "Local": "Fort Collins, Buckhorn"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 146.13,
+    "Output": 146.73
+  },
+  "SquelchTone": {
+    "Input": 88.5,
+    "Output": 123
+  }
+}

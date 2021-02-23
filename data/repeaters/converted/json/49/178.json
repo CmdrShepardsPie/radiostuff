@@ -1,0 +1,21 @@
+{
+  "ID": 178,
+  "StateID": 49,
+  "Callsign": "NZ6Z",
+  "Location": {
+    "Latitude": 40.74250031,
+    "Longitude": -111.51200104,
+    "County": "Summit",
+    "State": "UT",
+    "Local": "Park City"
+  },
+  "Use": "Open",
+  "Status": "Other",
+  "Frequency": {
+    "Input": 144.63,
+    "Output": 145.23
+  },
+  "SquelchTone": {
+    "Input": 100
+  }
+}

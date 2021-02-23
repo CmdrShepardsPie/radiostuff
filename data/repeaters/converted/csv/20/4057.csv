@@ -1,0 +1,2 @@
+ID,StateID,Callsign,Use,Status,DigitalTone,Digital,VOIP,Location.Latitude,Location.Longitude,Location.County,Location.State,Location.Local,Frequency.Input,Frequency.Output,SquelchTone.Input,SquelchTone.Output
+4057,20,KC0HFA,Open,On-Air,,,,38.89530182,-98.85980225,Russell,KS,Russell,447.85,442.85,141.3,141.3

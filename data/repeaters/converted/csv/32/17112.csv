@@ -1,0 +1,2 @@
+ID,StateID,Callsign,Use,Status,DigitalTone,VOIP,Location.Latitude,Location.Longitude,Location.County,Location.State,Location.Local,Frequency.Input,Frequency.Output,SquelchTone.Input,SquelchTone.Output,Digital.P25,Digital.DStar,Digital.YSF,Digital.DMR.ColorCode,Digital.DMR.ID
+17112,32,AA4Z,Open,On-Air,,,36.58050156,-114.47000122,Lincoln,NV,"Moapa Valley, Overton",442.05,447.05,114.8,114.8,,,,15,

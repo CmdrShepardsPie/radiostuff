@@ -1,0 +1,2 @@
+ID,StateID,Callsign,Use,Status,DigitalTone,Digital,VOIP,Location.Latitude,Location.Longitude,Location.County,Location.State,Location.Local,Frequency.Input,Frequency.Output,SquelchTone.Input,SquelchTone.Output
+6,49,WA7KMF,Open,On-Air,,,,41.7132988,-111.71800232,Cache,UT,"Logan, Mt Logan",146.12,146.72,103.5,

@@ -1,0 +1,2 @@
+ID,StateID,Callsign,Use,Status,SquelchTone,VOIP,Location.Latitude,Location.Longitude,Location.County,Location.State,Location.Local,Frequency.Input,Frequency.Output,DigitalTone.Input,DigitalTone.Output,Digital.DMR,Digital.P25,Digital.DStar,Digital.YSF.GroupID.Input,Digital.YSF.GroupID.Output
+16355,49,W7WPC,Open,On-Air,,,41.11830139,-112.08399963,Davis,UT,"West Point, West Point City Building",442.075,447.075,51,,,,,Open ↑,Open ↓

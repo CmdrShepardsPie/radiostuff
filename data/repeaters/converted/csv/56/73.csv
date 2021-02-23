@@ -1,0 +1,2 @@
+ID,StateID,Callsign,Use,Status,DigitalTone,Digital,Location.Latitude,Location.Longitude,Location.County,Location.State,Location.Local,Frequency.Input,Frequency.Output,SquelchTone.Input,SquelchTone.Output,VOIP.AllStar,VOIP.EchoLink,VOIP.Wires,VOIP.IRLP.NodeID
+73,56,W7VNJ,Open,On-Air,,,42.84820175,-106.30799866,Natrona,WY,"Casper, Wyoming Med Center",444.575,449.575,173.8,173.8,,,,7707

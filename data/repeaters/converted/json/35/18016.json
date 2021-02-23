@@ -1,0 +1,28 @@
+{
+  "ID": 18016,
+  "StateID": 35,
+  "Callsign": "WR7HLN",
+  "Location": {
+    "Latitude": 35.252926,
+    "Longitude": -107.596664,
+    "County": "Cibola",
+    "State": "NM",
+    "Local": "Grants, La Mosca Peak (Mount Taylor)"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 448.35,
+    "Output": 443.35
+  },
+  "SquelchTone": {
+    "Input": 131.8,
+    "Output": 131.8
+  },
+  "Digital": {
+    "DMR": {
+      "ColorCode": 1,
+      "ID": 310793
+    }
+  }
+}

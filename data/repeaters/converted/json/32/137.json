@@ -1,0 +1,26 @@
+{
+  "ID": 137,
+  "StateID": 32,
+  "Callsign": "KG6ALU",
+  "Location": {
+    "Latitude": 35.95600128,
+    "Longitude": -115.4940033,
+    "County": "Clark",
+    "State": "NV",
+    "Local": "Las Vegas, Lo Potosi Mountain"
+  },
+  "Use": "Closed",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 443.825,
+    "Output": 448.825
+  },
+  "SquelchTone": {
+    "Input": 146.2
+  },
+  "VOIP": {
+    "EchoLink": {
+      "NodeID": 391730
+    }
+  }
+}

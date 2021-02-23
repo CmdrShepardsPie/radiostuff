@@ -1,0 +1,2 @@
+ID,StateID,Callsign,Use,Status,DigitalTone,Digital,VOIP,Location.Latitude,Location.Longitude,Location.County,Location.State,Location.Local,Frequency.Input,Frequency.Output,SquelchTone.Input,SquelchTone.Output
+16624,8,KB5ITS,Open,On-Air,,,,37.81190109,-107.66500092,San Juan,CO,"Silverton, Hazelton",449,444,67,

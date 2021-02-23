@@ -1,2 +1,2 @@
-Frequency,Offset,Tone Up / Down,Location,County,Call,Use,,state_id,ID,Latitude,Longitude,Downlink,Uplink,Grid,Op Status,Coverage,Features,Coordination,Last update
-448.5,-5,,"Hurricane, Kolob Peak",Washington,K7WS,OPEN,,49,72,37.42079926,-113.06700134,448.5,443.5,DM37LK,On-Air,St. George and the neighboring communities.,9,UVHFS,2015-08-07
+Frequency,Offset,Tone,Call,Location,ST/PR,Use,Mode,Mi,Dir,,state_id,ID,Latitude,Longitude,Downlink,Uplink,County,Grid,Op Status,Coverage,Features,FM,Analog Bandwidth,Coordination,Last update
+448.5,-5,,K7WS,"Hurricane, Kolob Peak",UT,OPEN,FM,143.62,NE,,49,72,37.42079926,-113.06700134,448.5,443.5,Washington,DM37LK,On-Air,St. George and the neighboring communities.,9,Yes; analog capable.,,UVHFS,2015-08-07

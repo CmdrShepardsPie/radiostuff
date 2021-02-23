@@ -1,0 +1,21 @@
+{
+  "ID": 115,
+  "StateID": 35,
+  "Callsign": "W5SF",
+  "Location": {
+    "Latitude": 35.76670074,
+    "Longitude": -105.5530014,
+    "County": "San Miguel",
+    "State": "NM",
+    "Local": "Las Vegas, Elk Mountain"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 147.9,
+    "Output": 147.3
+  },
+  "SquelchTone": {
+    "Input": 162.2
+  }
+}

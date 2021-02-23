@@ -1,0 +1,29 @@
+{
+  "ID": 4,
+  "StateID": 49,
+  "Callsign": "AC7O",
+  "Location": {
+    "Latitude": 41.72230148,
+    "Longitude": -111.84999847,
+    "County": "Cache",
+    "State": "UT",
+    "Local": "Logan, WA7KMF QTH"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 147.8,
+    "Output": 147.2
+  },
+  "SquelchTone": {
+    "Input": 103.5
+  },
+  "VOIP": {
+    "EchoLink": {
+      "NodeID": 495125
+    },
+    "IRLP": {
+      "NodeID": 3381
+    }
+  }
+}

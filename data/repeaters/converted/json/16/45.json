@@ -1,0 +1,22 @@
+{
+  "ID": 45,
+  "StateID": 16,
+  "Callsign": "K7MVA",
+  "Location": {
+    "Latitude": 42.73509979,
+    "Longitude": -114.43900299,
+    "County": "Jerome",
+    "State": "ID",
+    "Local": "Jerome, Flat Top Butte"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 146.06,
+    "Output": 146.66
+  },
+  "SquelchTone": {
+    "Input": 100,
+    "Output": 100
+  }
+}

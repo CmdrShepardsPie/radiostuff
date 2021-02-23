@@ -1,0 +1,18 @@
+{
+  "ID": 16969,
+  "StateID": 6,
+  "Callsign": "KJ6QFS",
+  "Location": {
+    "Latitude": 33.98939896,
+    "Longitude": -117.24700165,
+    "County": "Riverside",
+    "State": "CA",
+    "Local": "Moreno Valley, Reche Peak"
+  },
+  "Use": "Private",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 440.18,
+    "Output": 445.18
+  }
+}

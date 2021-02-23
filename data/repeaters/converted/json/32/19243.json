@@ -1,0 +1,27 @@
+{
+  "ID": 19243,
+  "StateID": 32,
+  "Callsign": "NX7R",
+  "Location": {
+    "Latitude": 36.014774,
+    "Longitude": -115.260273,
+    "County": "Clark",
+    "State": "NV",
+    "Local": "Las Vegas, Exploration Peak Park"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 425.625,
+    "Output": 420.625
+  },
+  "DigitalTone": {
+    "Input": 754
+  },
+  "Digital": {
+    "DMR": {
+      "ColorCode": 15,
+      "ID": 310990
+    }
+  }
+}

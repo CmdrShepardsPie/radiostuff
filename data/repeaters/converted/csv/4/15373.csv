@@ -1,0 +1,2 @@
+ID,StateID,Callsign,Use,Status,DigitalTone,Digital,Location.Latitude,Location.Longitude,Location.County,Location.State,Location.Local,Frequency.Input,Frequency.Output,SquelchTone.Input,SquelchTone.Output,VOIP.EchoLink,VOIP.IRLP,VOIP.Wires,VOIP.AllStar.NodeID
+15373,4,W7AZQ,Open,On-Air,,,33.670927,-114.2264521,La Paz,AZ,"Quartzsite, West Park",442,447,123,123,,,,50892

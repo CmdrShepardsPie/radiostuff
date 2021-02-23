@@ -1,0 +1,2 @@
+ID,StateID,Callsign,Use,Status,SquelchTone,Digital,VOIP,Location.Latitude,Location.Longitude,Location.County,Location.State,Location.Local,Frequency.Input,Frequency.Output,DigitalTone.Input,DigitalTone.Output
+120,32,NX7R,Open,On-Air,,,,35.989368,-114.946404,Clark,NV,"Las Vegas, Mission Hills Henderson",442.625,447.625,754,

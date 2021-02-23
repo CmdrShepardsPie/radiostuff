@@ -1,0 +1,30 @@
+{
+  "ID": 216,
+  "StateID": 49,
+  "Callsign": "W7SU",
+  "Location": {
+    "Latitude": 41.25469971,
+    "Longitude": -112.23699951,
+    "County": "Weber",
+    "State": "UT",
+    "Local": "Ogden, Little Mountain"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 146.22,
+    "Output": 146.82
+  },
+  "SquelchTone": {
+    "Input": 123,
+    "Output": 123
+  },
+  "Digital": {
+    "YSF": {
+      "GroupID": {
+        "Input": "Open ↑",
+        "Output": "Open ↓"
+      }
+    }
+  }
+}

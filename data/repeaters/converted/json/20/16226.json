@@ -1,0 +1,38 @@
+{
+  "ID": 16226,
+  "StateID": 20,
+  "Callsign": "KE0PTS",
+  "Location": {
+    "Latitude": 38.51810074,
+    "Longitude": -98.77809906,
+    "County": "Barton",
+    "State": "KS",
+    "Local": "Hoisington, Beaver"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 449.925,
+    "Output": 444.925
+  },
+  "SquelchTone": {
+    "Input": 100,
+    "Output": 100
+  },
+  "Digital": {
+    "YSF": {
+      "GroupID": {
+        "Input": "Open ↑",
+        "Output": "Open ↓"
+      }
+    }
+  },
+  "VOIP": {
+    "AllStar": {
+      "NodeID": 46495
+    },
+    "EchoLink": {
+      "NodeID": 771574
+    }
+  }
+}

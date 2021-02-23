@@ -1,0 +1,21 @@
+{
+  "ID": 119,
+  "StateID": 49,
+  "Callsign": "K7UB",
+  "Location": {
+    "Latitude": 41.64580154,
+    "Longitude": -112.375,
+    "County": "Box Elder",
+    "State": "UT",
+    "Local": "Howell, Blue Springs Hill"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 144.83,
+    "Output": 145.43
+  },
+  "SquelchTone": {
+    "Input": 123
+  }
+}

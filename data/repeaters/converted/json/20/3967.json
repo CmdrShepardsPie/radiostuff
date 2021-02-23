@@ -1,0 +1,22 @@
+{
+  "ID": 3967,
+  "StateID": 20,
+  "Callsign": "N0OMC",
+  "Location": {
+    "Latitude": 37.93579865,
+    "Longitude": -101.26399994,
+    "County": "Kearney",
+    "State": "KS",
+    "Local": "Lakin"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 146.385,
+    "Output": 146.985
+  },
+  "SquelchTone": {
+    "Input": 156.7,
+    "Output": 156.7
+  }
+}

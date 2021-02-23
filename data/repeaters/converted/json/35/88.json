@@ -1,0 +1,21 @@
+{
+  "ID": 88,
+  "StateID": 35,
+  "Callsign": "KB5ZFA",
+  "Location": {
+    "Latitude": 34.47169876,
+    "Longitude": -104.24500275,
+    "County": "Debaca",
+    "State": "NM",
+    "Local": "Fort Sumner"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 147.74,
+    "Output": 147.14
+  },
+  "SquelchTone": {
+    "Input": 100
+  }
+}

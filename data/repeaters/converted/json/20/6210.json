@@ -1,0 +1,23 @@
+{
+  "ID": 6210,
+  "StateID": 20,
+  "Callsign": "KD0ARW",
+  "Location": {
+    "Latitude": 39.7560997,
+    "Longitude": -99.3239975,
+    "County": "Phillips",
+    "State": "KS",
+    "Local": "Phillipsburg"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 447.725,
+    "Output": 442.725
+  },
+  "VOIP": {
+    "IRLP": {
+      "NodeID": 3682
+    }
+  }
+}

@@ -1,0 +1,2 @@
+ID,StateID,Callsign,Use,Status,DigitalTone,Digital,VOIP,Location.Latitude,Location.Longitude,Location.County,Location.State,Location.Local,Frequency.Input,Frequency.Output,SquelchTone.Input,SquelchTone.Output
+13719,4,WA6GDF,Open,On-Air,,,,35.32559967,-112.8769989,Yavapai,AZ,"Seligman, SV Ranch",147.72,147.12,192.8,

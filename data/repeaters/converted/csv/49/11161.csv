@@ -1,0 +1,2 @@
+ID,StateID,Callsign,Use,Status,SquelchTone,DigitalTone,VOIP,Location.Latitude,Location.Longitude,Location.County,Location.State,Location.Local,Frequency.Input,Frequency.Output,Digital.DMR,Digital.P25,Digital.YSF,Digital.DStar.Node
+11161,49,KO7SLC,Open,On-Air,,,,40.66130066,-111.88999939,Salt Lake,UT,"Murray, Intermountain Med Ctr",1278.75,1298.75,,,,KO7SLC (A) Repeater

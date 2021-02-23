@@ -1,0 +1,2 @@
+ID,StateID,Callsign,Use,Status,DigitalTone,Digital,Location.Latitude,Location.Longitude,Location.County,Location.State,Location.Local,Frequency.Input,Frequency.Output,SquelchTone.Input,SquelchTone.Output,VOIP.EchoLink,VOIP.Wires,VOIP.AllStar.NodeID,VOIP.IRLP.NodeID
+2415,6,K6PNG,Closed,Other,,,34.61059952,-117.28700256,San Bernardino,CA,"Victorville, Quartzite Mountain",443.9,448.9,67,,,,2353,3358

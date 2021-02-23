@@ -1,0 +1,21 @@
+{
+  "ID": 463,
+  "StateID": 6,
+  "Callsign": "K6YYJ",
+  "Location": {
+    "Latitude": 35.76279831,
+    "Longitude": -117.37200165,
+    "County": "San Bernardino",
+    "State": "CA",
+    "Local": "Trona"
+  },
+  "Use": "Closed",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 146.37,
+    "Output": 146.97
+  },
+  "SquelchTone": {
+    "Input": 123
+  }
+}

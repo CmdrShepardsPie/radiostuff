@@ -1,0 +1,21 @@
+{
+  "ID": 284,
+  "StateID": 32,
+  "Callsign": "WB6TNP",
+  "Location": {
+    "Latitude": 35.25149918,
+    "Longitude": -114.7480011,
+    "County": "Clark",
+    "State": "NV",
+    "Local": "Bullhead City, Spirit Mountain"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 902.8875,
+    "Output": 927.8875
+  },
+  "DigitalTone": {
+    "Input": 606
+  }
+}

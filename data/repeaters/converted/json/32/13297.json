@@ -1,0 +1,27 @@
+{
+  "ID": 13297,
+  "StateID": 32,
+  "Callsign": "N4NJJ",
+  "Location": {
+    "Latitude": 36.29190063,
+    "Longitude": -115.18099976,
+    "County": "Clark",
+    "State": "NV",
+    "Local": "North Las Vegas, Aliante Casino and Resort"
+  },
+  "Use": "Private",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 440.975,
+    "Output": 445.975
+  },
+  "SquelchTone": {
+    "Input": 107.2,
+    "Output": 107.2
+  },
+  "VOIP": {
+    "AllStar": {
+      "NodeID": 42230
+    }
+  }
+}

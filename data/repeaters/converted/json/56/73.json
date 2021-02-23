@@ -1,0 +1,27 @@
+{
+  "ID": 73,
+  "StateID": 56,
+  "Callsign": "W7VNJ",
+  "Location": {
+    "Latitude": 42.84820175,
+    "Longitude": -106.30799866,
+    "County": "Natrona",
+    "State": "WY",
+    "Local": "Casper, Wyoming Med Center"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 444.575,
+    "Output": 449.575
+  },
+  "SquelchTone": {
+    "Input": 173.8,
+    "Output": 173.8
+  },
+  "VOIP": {
+    "IRLP": {
+      "NodeID": 7707
+    }
+  }
+}

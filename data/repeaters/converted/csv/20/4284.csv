@@ -1,0 +1,2 @@
+ID,StateID,Callsign,Use,Status,DigitalTone,Digital,VOIP,Location.Latitude,Location.Longitude,Location.County,Location.State,Location.Local,Frequency.Input,Frequency.Output,SquelchTone.Input,SquelchTone.Output
+4284,20,K0HAM,Open,Off-Air,,,,38.60599899,-98.6969986,Barton,KS,"Hoisington, K-Link",147.735,147.135,88.5,88.5

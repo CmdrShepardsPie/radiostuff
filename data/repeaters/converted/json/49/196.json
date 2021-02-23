@@ -1,0 +1,21 @@
+{
+  "ID": 196,
+  "StateID": 49,
+  "Callsign": "W7EO",
+  "Location": {
+    "Latitude": 39.9844017,
+    "Longitude": -112.54000092,
+    "County": "Tooele",
+    "State": "UT",
+    "Local": "Vernon, Black Crook Peak"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 144.79,
+    "Output": 145.39
+  },
+  "SquelchTone": {
+    "Input": 100
+  }
+}

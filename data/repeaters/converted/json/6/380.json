@@ -1,0 +1,21 @@
+{
+  "ID": 380,
+  "StateID": 6,
+  "Callsign": "WA6HYQ",
+  "Location": {
+    "Latitude": 33.91559982,
+    "Longitude": -117.26300049,
+    "County": "Riverside",
+    "State": "CA",
+    "Local": "Moreno Valley, Civic Center"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 146.07,
+    "Output": 146.67
+  },
+  "SquelchTone": {
+    "Input": 123
+  }
+}

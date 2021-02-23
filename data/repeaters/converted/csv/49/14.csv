@@ -1,0 +1,2 @@
+ID,StateID,Callsign,Use,Status,DigitalTone,Digital,VOIP,Location.Latitude,Location.Longitude,Location.County,Location.State,Location.Local,Frequency.Input,Frequency.Output,SquelchTone.Input,SquelchTone.Output
+14,49,K7CSW,Open,On-Air,,,,40.77590179,-111.95300293,Salt Lake,UT,"Salt Lake City, SLC",443.05,448.05,100,

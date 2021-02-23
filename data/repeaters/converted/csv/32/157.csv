@@ -1,0 +1,2 @@
+ID,StateID,Callsign,Use,Status,DigitalTone,Digital,Location.Latitude,Location.Longitude,Location.County,Location.State,Location.Local,Frequency.Input,Frequency.Output,SquelchTone.Input,SquelchTone.Output,VOIP.AllStar,VOIP.Wires,VOIP.EchoLink.NodeID,VOIP.IRLP.NodeID
+157,32,N7ARR,Open,On-Air,,,36.08499908,-115.38600159,Clark,NV,"Las Vegas, Blue Diamond Mountain",442,447,123,,,,206682,3641

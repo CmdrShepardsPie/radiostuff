@@ -1,0 +1,26 @@
+{
+  "ID": 210,
+  "StateID": 49,
+  "Callsign": "W7RSS",
+  "Location": {
+    "Latitude": 41.17050171,
+    "Longitude": -112.00299835,
+    "County": "Weber",
+    "State": "UT",
+    "Local": "Riverdale"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 444.075,
+    "Output": 449.075
+  },
+  "SquelchTone": {
+    "Input": 123
+  },
+  "VOIP": {
+    "EchoLink": {
+      "NodeID": 273460
+    }
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "ID": 144,
+  "StateID": 32,
+  "Callsign": "W7NYE",
+  "Location": {
+    "Latitude": 36.20830154,
+    "Longitude": -115.98300171,
+    "County": "Nye",
+    "State": "NV",
+    "Local": "Pahrump"
+  },
+  "Use": "Open",
+  "Status": "Off-Air",
+  "Frequency": {
+    "Input": 442.5,
+    "Output": 447.5
+  },
+  "SquelchTone": {
+    "Input": 123
+  }
+}

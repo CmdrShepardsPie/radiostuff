@@ -1,0 +1,28 @@
+{
+  "ID": 18015,
+  "StateID": 35,
+  "Callsign": "WR7HLN",
+  "Location": {
+    "Latitude": 35.678711,
+    "Longitude": -105.991646,
+    "County": "Santa Fe",
+    "State": "NM",
+    "Local": "Santa Fe"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 448.15,
+    "Output": 443.15
+  },
+  "SquelchTone": {
+    "Input": 131.8,
+    "Output": 131.8
+  },
+  "Digital": {
+    "DMR": {
+      "ColorCode": 1,
+      "ID": 310992
+    }
+  }
+}

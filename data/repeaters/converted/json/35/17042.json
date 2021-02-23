@@ -1,0 +1,27 @@
+{
+  "ID": 17042,
+  "StateID": 35,
+  "Callsign": "K5EMO",
+  "Location": {
+    "Latitude": 35.15420151,
+    "Longitude": -107.85399628,
+    "County": "Cibola",
+    "State": "NM",
+    "Local": "Grants, 515 West High Street"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 449.975,
+    "Output": 444.975
+  },
+  "SquelchTone": {
+    "Input": 67,
+    "Output": 67
+  },
+  "VOIP": {
+    "EchoLink": {
+      "NodeID": 707790
+    }
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "ID": 440,
+  "StateID": 6,
+  "Callsign": "WA6TST",
+  "Location": {
+    "Latitude": 34.89860153,
+    "Longitude": -117.02200317,
+    "County": "San Bernardino",
+    "State": "CA",
+    "Local": "Barstow, Flash II"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 147.78,
+    "Output": 147.18
+  },
+  "SquelchTone": {
+    "Input": 151.4,
+    "Output": 151.4
+  }
+}

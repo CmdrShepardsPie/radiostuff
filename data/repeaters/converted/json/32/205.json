@@ -1,0 +1,21 @@
+{
+  "ID": 205,
+  "StateID": 32,
+  "Callsign": "KE7ZHN",
+  "Location": {
+    "Latitude": 36.19900131,
+    "Longitude": -115.1190033,
+    "County": "Clark",
+    "State": "NV",
+    "Local": "North Las Vegas"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 144.86,
+    "Output": 145.46
+  },
+  "SquelchTone": {
+    "Input": 100
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "ID": 402,
+  "StateID": 4,
+  "Callsign": "K6DLP",
+  "Location": {
+    "Latitude": 34.69390106,
+    "Longitude": -112.1269989,
+    "County": "Yavapai",
+    "State": "AZ",
+    "Local": "Cottonwood, Mingus Mountain"
+  },
+  "Use": "Closed",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 444.725,
+    "Output": 449.725
+  }
+}

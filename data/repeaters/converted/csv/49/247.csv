@@ -1,0 +1,2 @@
+ID,StateID,Callsign,Use,Status,DigitalTone,Digital,VOIP,Location.Latitude,Location.Longitude,Location.County,Location.State,Location.Local,Frequency.Input,Frequency.Output,SquelchTone.Input,SquelchTone.Output
+247,49,WA7UAH,Open,On-Air,,,,40.09059906,-111.82099915,Utah,UT,"Goshen, West Mountain",147.62,147.02,100,

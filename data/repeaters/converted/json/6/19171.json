@@ -1,0 +1,22 @@
+{
+  "ID": 19171,
+  "StateID": 6,
+  "Callsign": "N6MRN",
+  "Location": {
+    "Latitude": 33.833291,
+    "Longitude": -116.792656,
+    "County": "Riverside",
+    "State": "CA",
+    "Local": "Banning, Skyland Ridge"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 222.54,
+    "Output": 224.14
+  },
+  "SquelchTone": {
+    "Input": 107.2,
+    "Output": 107.2
+  }
+}

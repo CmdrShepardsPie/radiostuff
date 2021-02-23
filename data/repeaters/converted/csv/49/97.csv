@@ -1,0 +1,2 @@
+ID,StateID,Callsign,Use,Status,DigitalTone,Digital,VOIP,Location.Latitude,Location.Longitude,Location.County,Location.State,Location.Local,Frequency.Input,Frequency.Output,SquelchTone.Input,SquelchTone.Output
+97,49,KD0J,Open,On-Air,,,,40.59049988,-111.97499847,Salt Lake,UT,"Salt Lake City, Jordan Vly Hospital",223.18,224.78,100,

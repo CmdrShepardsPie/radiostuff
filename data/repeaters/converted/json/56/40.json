@@ -1,0 +1,21 @@
+{
+  "ID": 40,
+  "StateID": 56,
+  "Callsign": "KD7PPP",
+  "Location": {
+    "Latitude": 42.5,
+    "Longitude": -108.65000153,
+    "County": "Fremont",
+    "State": "WY",
+    "Local": "Lander, airport"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 144.845,
+    "Output": 145.445
+  },
+  "SquelchTone": {
+    "Input": 110.9
+  }
+}

@@ -1,0 +1,2 @@
+ID,StateID,Callsign,Use,Status,DigitalTone,Digital,VOIP,Location.Latitude,Location.Longitude,Location.County,Location.State,Location.Local,Frequency.Input,Frequency.Output,SquelchTone.Input,SquelchTone.Output
+188,49,W7DES,Open,On-Air,,,,40.77750015,-111.88800049,Salt Lake,UT,"Salt Lake City, Capitol",443,448,100,

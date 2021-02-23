@@ -1,0 +1,22 @@
+{
+  "ID": 17851,
+  "StateID": 6,
+  "Callsign": "K6RIA",
+  "Location": {
+    "Latitude": 34.09960175,
+    "Longitude": -117.37400055,
+    "County": "San Bernardino",
+    "State": "CA",
+    "Local": "Rialto, Fire station"
+  },
+  "Use": "Open",
+  "Status": "Off-Air",
+  "Frequency": {
+    "Input": 440.52,
+    "Output": 445.52
+  },
+  "SquelchTone": {
+    "Input": 127.3,
+    "Output": 127.3
+  }
+}

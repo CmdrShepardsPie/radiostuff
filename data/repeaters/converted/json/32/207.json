@@ -1,0 +1,18 @@
+{
+  "ID": 207,
+  "StateID": 32,
+  "Callsign": "W0JAY",
+  "Location": {
+    "Latitude": 36.20330048,
+    "Longitude": -115.0719986,
+    "County": "Clark",
+    "State": "NV",
+    "Local": "Las Vegas, QTH"
+  },
+  "Use": "Closed",
+  "Status": "Other",
+  "Frequency": {
+    "Input": 147.705,
+    "Output": 147.105
+  }
+}

@@ -1,0 +1,2 @@
+ID,StateID,Callsign,Use,Status,SquelchTone,DigitalTone,Digital,VOIP,Location.Latitude,Location.Longitude,Location.County,Location.State,Location.Local,Frequency.Input,Frequency.Output
+171,32,W7LKO,Open,On-Air,,,,,40.40259933,-116.86399841,Lander,NV,"Battle Mountain, Mount Lewis",448.9,443.9

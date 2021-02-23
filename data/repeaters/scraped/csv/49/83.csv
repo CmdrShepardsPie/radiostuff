@@ -1,2 +1,2 @@
-Frequency,Offset,Tone Up / Down,Location,County,Call,Use,,state_id,ID,Latitude,Longitude,Downlink,Uplink,Uplink Tone,Op Status,Coverage,Features,IRLP,Coordination,Last update
-449.425,-5,203.5,St George,Washington,KA7STK,OPEN,,49,83,37.10689926,-113.58100128,449.425,444.425,203.5,On-Air,St. George and the neighboring communities.,"Closed autopatch, 2,754'.",3310,UVHFS,
+Frequency,Offset,Tone,Call,Location,ST/PR,Use,Mode,Mi,Dir,,state_id,ID,Latitude,Longitude,Downlink,Uplink,Uplink Tone,County,Op Status,Coverage,Features,FM,Analog Bandwidth,IRLP,Coordination,Last update
+449.425,-5,203.5,KA7STK,St George,UT,OPEN,FM IRLP,107.99,NE,,49,83,37.10689926,-113.58100128,449.425,444.425,203.5,Washington,On-Air,St. George and the neighboring communities.,"Closed autopatch, 2,754'.",Yes; analog capable.,,3310,UVHFS,

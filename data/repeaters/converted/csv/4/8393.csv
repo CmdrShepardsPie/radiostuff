@@ -1,0 +1,2 @@
+ID,StateID,Callsign,Use,Status,DigitalTone,Digital,Location.Latitude,Location.Longitude,Location.County,Location.State,Location.Local,Frequency.Input,Frequency.Output,SquelchTone.Input,SquelchTone.Output,VOIP.EchoLink,VOIP.IRLP,VOIP.Wires,VOIP.AllStar.NodeID
+8393,4,K6JSI,Open,On-Air,,,35.19950104,-112.20500183,Coconino,AZ,"Williams, Bill Williams Mountain",444.75,449.75,123,,,,,1940

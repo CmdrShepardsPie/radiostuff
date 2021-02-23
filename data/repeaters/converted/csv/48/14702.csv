@@ -1,0 +1,2 @@
+ID,StateID,Callsign,Use,Status,DigitalTone,Digital,VOIP,Location.Latitude,Location.Longitude,Location.County,Location.State,Location.Local,Frequency.Input,Frequency.Output,SquelchTone.Input,SquelchTone.Output
+14702,48,N5LUL,Open,On-Air,,,,35.22200012,-101.83100128,Potter,TX,Amarillo,446.65,441.65,127.3,

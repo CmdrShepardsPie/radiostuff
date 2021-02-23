@@ -1,0 +1,21 @@
+{
+  "ID": 45,
+  "StateID": 35,
+  "Callsign": "KC5OUR",
+  "Location": {
+    "Latitude": 34.66279984,
+    "Longitude": -106.77600098,
+    "County": "Valencia",
+    "State": "NM",
+    "Local": "Los Lunas"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 144.83,
+    "Output": 145.43
+  },
+  "SquelchTone": {
+    "Input": 100
+  }
+}

@@ -1,0 +1,2 @@
+ID,StateID,Callsign,Use,Status,DigitalTone,Digital,VOIP,Location.Latitude,Location.Longitude,Location.County,Location.State,Location.Local,Frequency.Input,Frequency.Output,SquelchTone.Input,SquelchTone.Output
+204,32,N7RMB,Closed,On-Air,,,,36.10169983,-115.16899872,Clark,NV,"Las Vegas, MGM Grand",144.7,145.3,100,

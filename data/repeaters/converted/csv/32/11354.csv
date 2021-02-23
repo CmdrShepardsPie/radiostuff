@@ -1,0 +1,2 @@
+ID,StateID,Callsign,Use,Status,DigitalTone,Digital,VOIP,Location.Latitude,Location.Longitude,Location.County,Location.State,Location.Local,Frequency.Input,Frequency.Output,SquelchTone.Input,SquelchTone.Output
+11354,32,KE7CCH,Open,On-Air,,,,36.14960098,-115.05999756,Clark,NV,Las Vegas,444.6,449.6,107.2,107.2

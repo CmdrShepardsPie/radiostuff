@@ -1,0 +1,18 @@
+{
+  "ID": 2730,
+  "StateID": 6,
+  "Callsign": "N6AJB",
+  "Location": {
+    "Latitude": 34.0626,
+    "Longitude": -116.8935,
+    "County": "San Bernardino",
+    "State": "CA",
+    "Local": "Little San Gorgonio Peak"
+  },
+  "Use": "Private",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 442.02,
+    "Output": 447.02
+  }
+}

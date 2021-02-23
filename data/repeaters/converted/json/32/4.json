@@ -1,0 +1,22 @@
+{
+  "ID": 4,
+  "StateID": 32,
+  "Callsign": "WB6TNP",
+  "Location": {
+    "Latitude": 35.98920059,
+    "Longitude": -115.52300262,
+    "County": "Clark",
+    "State": "NV",
+    "Local": "Las Vegas, Mt Potosi"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 52.01,
+    "Output": 53.01
+  },
+  "SquelchTone": {
+    "Input": 141.3,
+    "Output": 141.3
+  }
+}

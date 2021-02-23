@@ -1,0 +1,21 @@
+{
+  "ID": 10935,
+  "StateID": 32,
+  "Callsign": "WB6TNP",
+  "Location": {
+    "Latitude": 36.68519974,
+    "Longitude": -114.51999664,
+    "County": "Clark",
+    "State": "NV",
+    "Local": "Logandale, Beacon Hill"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 902.4625,
+    "Output": 927.4625
+  },
+  "SquelchTone": {
+    "Input": 151.4
+  }
+}

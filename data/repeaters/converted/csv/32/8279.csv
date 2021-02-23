@@ -1,0 +1,2 @@
+ID,StateID,Callsign,Use,Status,DigitalTone,Digital,VOIP,Location.Latitude,Location.Longitude,Location.County,Location.State,Location.Local,Frequency.Input,Frequency.Output,SquelchTone.Input,SquelchTone.Output
+8279,32,KF6FM,Closed,On-Air,,,,35.248813,-114.743556,Clark,NV,"Bullhead City, Spirit Mountain",442.525,447.525,141.3,

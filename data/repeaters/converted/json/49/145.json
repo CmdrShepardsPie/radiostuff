@@ -1,0 +1,21 @@
+{
+  "ID": 145,
+  "StateID": 49,
+  "Callsign": "N7JSQ",
+  "Location": {
+    "Latitude": 41.22280121,
+    "Longitude": -111.59799957,
+    "County": "Morgan",
+    "State": "UT",
+    "Local": "Huntsville, Herd Mountain"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 146.08,
+    "Output": 146.68
+  },
+  "SquelchTone": {
+    "Input": 123
+  }
+}

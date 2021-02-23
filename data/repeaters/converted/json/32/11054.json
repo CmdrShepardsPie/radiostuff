@@ -1,0 +1,22 @@
+{
+  "ID": 11054,
+  "StateID": 32,
+  "Callsign": "K7MPR",
+  "Location": {
+    "Latitude": 35.25159836,
+    "Longitude": -114.74700165,
+    "County": "Clark",
+    "State": "NV",
+    "Local": "Laughlin, Spirit Mountain"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 146.22,
+    "Output": 146.82
+  },
+  "SquelchTone": {
+    "Input": 123,
+    "Output": 123
+  }
+}

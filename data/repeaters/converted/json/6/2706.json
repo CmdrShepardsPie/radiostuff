@@ -1,0 +1,21 @@
+{
+  "ID": 2706,
+  "StateID": 6,
+  "Callsign": "N6OV",
+  "Location": {
+    "Latitude": 37.37540054,
+    "Longitude": -118.18900299,
+    "County": "Inyo",
+    "State": "CA",
+    "Local": "Bishop, Silver Peak"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 146.34,
+    "Output": 146.94
+  },
+  "SquelchTone": {
+    "Input": 103.5
+  }
+}

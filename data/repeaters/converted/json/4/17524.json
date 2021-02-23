@@ -1,0 +1,21 @@
+{
+  "ID": 17524,
+  "StateID": 4,
+  "Callsign": "KC0CAT",
+  "Location": {
+    "Latitude": 33.65969849,
+    "Longitude": -114.21600342,
+    "County": "La Paz",
+    "State": "AZ",
+    "Local": "Quartzsite, Rice Ranch"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 144.59,
+    "Output": 145.19
+  },
+  "SquelchTone": {
+    "Input": 103.5
+  }
+}

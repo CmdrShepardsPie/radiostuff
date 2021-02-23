@@ -1,0 +1,2 @@
+ID,StateID,Callsign,Use,Status,DigitalTone,Digital,VOIP,Location.Latitude,Location.Longitude,Location.County,Location.State,Location.Local,Frequency.Input,Frequency.Output,SquelchTone.Input,SquelchTone.Output
+14341,4,KD7MIA,Open,On-Air,,,,35.20230103,-114.00299835,Mohave,AZ,Kingman,223.36,224.96,123,

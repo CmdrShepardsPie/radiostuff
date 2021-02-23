@@ -1,0 +1,24 @@
+{
+  "ID": 2687,
+  "StateID": 6,
+  "Callsign": "N6WZK",
+  "Location": {
+    "Latitude": 34.18669891,
+    "Longitude": -117.70200348,
+    "County": "San Bernardino",
+    "State": "CA",
+    "Local": "San Antonio Heights, Sunset Ridge"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 444.36,
+    "Output": 449.36
+  },
+  "Digital": {
+    "DMR": {
+      "ColorCode": 1,
+      "ID": 310681
+    }
+  }
+}

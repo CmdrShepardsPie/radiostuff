@@ -1,0 +1,21 @@
+{
+  "ID": 252,
+  "StateID": 4,
+  "Callsign": "W7ARA",
+  "Location": {
+    "Latitude": 34.06499863,
+    "Longitude": -113.35500336,
+    "County": "La Paz",
+    "State": "AZ",
+    "Local": "Aguila, Smith Peak"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 448.775,
+    "Output": 443.775
+  },
+  "SquelchTone": {
+    "Input": 100
+  }
+}

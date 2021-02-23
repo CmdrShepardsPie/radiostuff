@@ -1,0 +1,21 @@
+{
+  "ID": 15551,
+  "StateID": 56,
+  "Callsign": "N7RON",
+  "Location": {
+    "Latitude": 41.79109955,
+    "Longitude": -107.23899841,
+    "County": "Carbon",
+    "State": "WY",
+    "Local": "Rawlins"
+  },
+  "Use": "Open",
+  "Status": "Other",
+  "Frequency": {
+    "Input": 444.8,
+    "Output": 449.8
+  },
+  "SquelchTone": {
+    "Input": 146.2
+  }
+}

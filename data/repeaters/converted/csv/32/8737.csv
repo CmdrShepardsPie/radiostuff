@@ -1,0 +1,2 @@
+ID,StateID,Callsign,Use,Status,DigitalTone,Digital,VOIP,Location.Latitude,Location.Longitude,Location.County,Location.State,Location.Local,Frequency.Input,Frequency.Output,SquelchTone.Input,SquelchTone.Output
+8737,32,N7MRN,Open,Off-Air,,,,36.20830154,-115.98400116,Nye,NV,Pahrump,443.35,448.35,103.5,

@@ -1,0 +1,22 @@
+{
+  "ID": 278,
+  "StateID": 49,
+  "Callsign": "K7DAV",
+  "Location": {
+    "Latitude": 41.02560043,
+    "Longitude": -111.83799744,
+    "County": "Davis",
+    "State": "UT",
+    "Local": "Farmington, Shepard Peak"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 52.01,
+    "Output": 53.01
+  },
+  "SquelchTone": {
+    "Input": 141.3,
+    "Output": 141.3
+  }
+}

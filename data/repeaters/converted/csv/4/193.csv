@@ -1,0 +1,2 @@
+ID,StateID,Callsign,Use,Status,DigitalTone,Digital,VOIP,Location.Latitude,Location.Longitude,Location.County,Location.State,Location.Local,Frequency.Input,Frequency.Output,SquelchTone.Input,SquelchTone.Output
+193,4,KF7X,Open,On-Air,,,,34.49089813,-114.31199646,Mohave,AZ,Lake Havasu City,222.64,224.24,156.7,

@@ -1,2 +1,2 @@
-Frequency,Offset,Tone Up / Down,Location,County,Call,Use,,state_id,ID,Latitude,Longitude,Downlink,Uplink,Uplink Tone,Downlink Tone,Grid,Op Status,Coverage,Sponsor,Affiliate,EchoLink,Last update
-447.45,-5,151.4,Saint George,Washington,N6RTR,OPEN,Node Offline,49,16206,37.1269989,-113.6190033,447.45,442.45,151.4,151.4,DM37ED,On-Air,Covers the west side of Saint George,N6RTR Repeater Group,Pacific Intertie Network,305082,2018-09-16
+Frequency,Offset,Tone,Call,Location,ST/PR,Use,Mode,Mi,Dir,,state_id,ID,Latitude,Longitude,Downlink,Uplink,Uplink Tone,Downlink Tone,County,Grid,Op Status,Coverage,Sponsor,Affiliate,FM,Analog Bandwidth,EchoLink,Last update
+447.45,-5,151.4,N6RTR,Saint George,UT,OPEN,FM EchoLink,107.16,NE,Node Offline,49,16206,37.1269989,-113.6190033,447.45,442.45,151.4,151.4,Washington,DM37ED,On-Air,Covers the west side of Saint George,N6RTR Repeater Group,Pacific Intertie Network,Yes; analog capable.,,305082,2018-09-16

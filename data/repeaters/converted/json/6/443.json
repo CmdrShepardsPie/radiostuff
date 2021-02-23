@@ -1,0 +1,26 @@
+{
+  "ID": 443,
+  "StateID": 6,
+  "Callsign": "K6BB",
+  "Location": {
+    "Latitude": 34.21250153,
+    "Longitude": -116.86699677,
+    "County": "San Bernardino",
+    "State": "CA",
+    "Local": "Big Bear Lake"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 147.93,
+    "Output": 147.33
+  },
+  "SquelchTone": {
+    "Input": 131.8
+  },
+  "VOIP": {
+    "EchoLink": {
+      "NodeID": 335272
+    }
+  }
+}

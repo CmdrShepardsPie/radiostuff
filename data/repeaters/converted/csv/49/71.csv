@@ -1,0 +1,2 @@
+ID,StateID,Callsign,Use,Status,DigitalTone,Digital,VOIP,Location.Latitude,Location.Longitude,Location.County,Location.State,Location.Local,Frequency.Input,Frequency.Output,SquelchTone.Input,SquelchTone.Output
+71,49,K7UCS,Open,On-Air,,,,40.08909988,-111.82299805,Utah,UT,"Goshen, West Mountain",147.94,147.34,100,

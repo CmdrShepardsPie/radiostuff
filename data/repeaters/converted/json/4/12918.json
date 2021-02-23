@@ -1,0 +1,21 @@
+{
+  "ID": 12918,
+  "StateID": 4,
+  "Callsign": "KA6NLS",
+  "Location": {
+    "Latitude": 35.08449936,
+    "Longitude": -113.90499878,
+    "County": "Mohave",
+    "State": "AZ",
+    "Local": "Kingman, Hualapai Peak"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 442.1,
+    "Output": 447.1
+  },
+  "SquelchTone": {
+    "Input": 100
+  }
+}

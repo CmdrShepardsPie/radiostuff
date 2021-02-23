@@ -1,0 +1,2 @@
+ID,StateID,Callsign,Use,Status,DigitalTone,Digital,VOIP,Location.Latitude,Location.Longitude,Location.County,Location.State,Location.Local,Frequency.Input,Frequency.Output,SquelchTone.Input,SquelchTone.Output
+79,16,AG7BL,Open,On-Air,,,,42.31999969,-111.28900146,Bear Lake,ID,"Montpelier, M-Hill",147.72,147.12,123,

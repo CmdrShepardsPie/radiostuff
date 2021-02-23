@@ -1,0 +1,21 @@
+{
+  "ID": 447,
+  "StateID": 6,
+  "Callsign": "K6JTH",
+  "Location": {
+    "Latitude": 34.23500061,
+    "Longitude": -117.14099884,
+    "County": "San Bernardino",
+    "State": "CA",
+    "Local": "Crestline"
+  },
+  "Use": "Open",
+  "Status": "Off-Air",
+  "Frequency": {
+    "Input": 147.345,
+    "Output": 147.945
+  },
+  "SquelchTone": {
+    "Input": 156.7
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "ID": 298,
+  "StateID": 32,
+  "Callsign": "W7EB",
+  "Location": {
+    "Latitude": 35.8932991,
+    "Longitude": -115.49500275,
+    "County": "Clark",
+    "State": "NV",
+    "Local": "Las Vegas, Lo Potosi Mountain"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 222.88,
+    "Output": 224.48
+  },
+  "SquelchTone": {
+    "Input": 110.9
+  }
+}

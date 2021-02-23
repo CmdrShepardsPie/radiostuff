@@ -1,0 +1,2 @@
+ID,StateID,Callsign,Use,Status,DigitalTone,Location.Latitude,Location.Longitude,Location.County,Location.State,Location.Local,Frequency.Input,Frequency.Output,SquelchTone.Input,SquelchTone.Output,Digital.DMR,Digital.P25,Digital.DStar,VOIP.EchoLink,VOIP.IRLP,VOIP.Wires,VOIP.AllStar.NodeID,Digital.YSF.GroupID.Input,Digital.YSF.GroupID.Output
+15671,32,W7JCA,Open,On-Air,,36.22859955,-115.27999878,Clark,NV,Las Vegas,440.875,445.875,100,100,,,,,,,48467,Open ↑,Open ↓

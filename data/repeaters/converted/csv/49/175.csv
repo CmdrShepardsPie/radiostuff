@@ -1,0 +1,2 @@
+ID,StateID,Callsign,Use,Status,DigitalTone,Digital,VOIP,Location.Latitude,Location.Longitude,Location.County,Location.State,Location.Local,Frequency.Input,Frequency.Output,SquelchTone.Input,SquelchTone.Output
+175,49,NR7K,Open,On-Air,,,,36.846842,-113.49207,Washington,UT,"St George, Seegmiller Peak",146.31,146.91,100,

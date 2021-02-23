@@ -1,0 +1,18 @@
+{
+  "ID": 152,
+  "StateID": 32,
+  "Callsign": "AA7C",
+  "Location": {
+    "Latitude": 36,
+    "Longitude": -115.90000153,
+    "County": "Nye",
+    "State": "NV",
+    "Local": "Pahrump"
+  },
+  "Use": "Open",
+  "Status": "Off-Air",
+  "Frequency": {
+    "Input": 443.975,
+    "Output": 448.975
+  }
+}

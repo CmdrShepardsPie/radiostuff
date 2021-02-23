@@ -1,0 +1,2 @@
+ID,StateID,Callsign,Use,Status,DigitalTone,Digital,VOIP,Location.Latitude,Location.Longitude,Location.County,Location.State,Location.Local,Frequency.Input,Frequency.Output,SquelchTone.Input,SquelchTone.Output
+9494,6,K6RET,Open,On-Air,,,,35.0155983,-118.29100037,Kern,CA,"Tehachapi, Double Mt",223.18,224.78,100,100

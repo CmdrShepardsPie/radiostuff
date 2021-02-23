@@ -1,0 +1,21 @@
+{
+  "ID": 335,
+  "StateID": 6,
+  "Callsign": "WB6RHQ",
+  "Location": {
+    "Latitude": 35.70729828,
+    "Longitude": -118.56099701,
+    "County": "Kern",
+    "State": "CA",
+    "Local": "Lake Isabella, Shirley Peak"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 223.04,
+    "Output": 224.64
+  },
+  "SquelchTone": {
+    "Input": 156.7
+  }
+}

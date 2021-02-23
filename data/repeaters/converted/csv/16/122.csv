@@ -1,0 +1,2 @@
+ID,StateID,Callsign,Use,Status,SquelchTone,DigitalTone,Digital,VOIP,Location.Latitude,Location.Longitude,Location.County,Location.State,Location.Local,Frequency.Input,Frequency.Output
+122,16,,Open,Off-Air,,,,,42.87139893,-112.44499969,Bannock,ID,Pocatello,444.675,449.675

@@ -1,0 +1,18 @@
+{
+  "ID": 170,
+  "StateID": 49,
+  "Callsign": "NJ7J",
+  "Location": {
+    "Latitude": 41.08750153,
+    "Longitude": -112.04199982,
+    "County": "Davis",
+    "State": "UT",
+    "Local": "Syracuse"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 223.36,
+    "Output": 224.96
+  }
+}

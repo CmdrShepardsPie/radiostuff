@@ -1,0 +1,2 @@
+ID,StateID,Callsign,Use,Status,DigitalTone,Digital,VOIP,Location.Latitude,Location.Longitude,Location.County,Location.State,Location.Local,Frequency.Input,Frequency.Output,SquelchTone.Input,SquelchTone.Output
+3949,20,W0KKS,Open,On-Air,,,,37.05970001,-100.93000031,Seward,KS,Liberal,146.205,146.805,103.5,103.5

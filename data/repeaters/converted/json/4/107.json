@@ -1,0 +1,21 @@
+{
+  "ID": 107,
+  "StateID": 4,
+  "Callsign": "KR7AZ",
+  "Location": {
+    "Latitude": 33.56999969,
+    "Longitude": -114.34899902,
+    "County": "La Paz",
+    "State": "AZ",
+    "Local": "Blythe, Cunningham Mtn"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 147.66,
+    "Output": 147.06
+  },
+  "SquelchTone": {
+    "Input": 203.5
+  }
+}

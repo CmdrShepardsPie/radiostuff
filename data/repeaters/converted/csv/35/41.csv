@@ -1,0 +1,2 @@
+ID,StateID,Callsign,Use,Status,DigitalTone,Digital,VOIP,Location.Latitude,Location.Longitude,Location.County,Location.State,Location.Local,Frequency.Input,Frequency.Output,SquelchTone.Input,SquelchTone.Output
+41,35,N5LEM,Open,On-Air,,,,36.36000061,-105.20999908,Colfax,NM,"Angel Fire, Agua Fria Peak",147.94,147.34,100,

@@ -1,0 +1,2 @@
+ID,StateID,Callsign,Use,Status,DigitalTone,Digital,Location.Latitude,Location.Longitude,Location.County,Location.State,Location.Local,Frequency.Input,Frequency.Output,SquelchTone.Input,SquelchTone.Output,VOIP.EchoLink,VOIP.IRLP,VOIP.Wires,VOIP.AllStar.NodeID
+364,6,WA6ZRC,Open,Testing,,,33.68889999,-114.84400177,Riverside,CA,"Blythe, McCoy Mountains",147.6,147,203.5,203.5,,,,46249

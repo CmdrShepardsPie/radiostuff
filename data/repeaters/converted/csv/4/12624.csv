@@ -1,0 +1,2 @@
+ID,StateID,Callsign,Use,Status,DigitalTone,VOIP,Location.Latitude,Location.Longitude,Location.County,Location.State,Location.Local,Frequency.Input,Frequency.Output,SquelchTone.Input,SquelchTone.Output,Digital.DMR,Digital.P25,Digital.DStar,Digital.YSF.GroupID.Input,Digital.YSF.GroupID.Output
+12624,4,K7LHC,Open,On-Air,,,34.50579834,-114.30000305,Mohave,AZ,"Lake Havasu City, Fire Station 4",146.1,146.7,131.8,,,,,Open ↑,Open ↓

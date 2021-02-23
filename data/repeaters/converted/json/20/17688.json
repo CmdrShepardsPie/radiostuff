@@ -1,0 +1,30 @@
+{
+  "ID": 17688,
+  "StateID": 20,
+  "Callsign": "KY0J",
+  "Location": {
+    "Latitude": 37.75239944,
+    "Longitude": -100.07700348,
+    "County": "Ford",
+    "State": "KS",
+    "Local": "Dodge City"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 448.35,
+    "Output": 443.35
+  },
+  "SquelchTone": {
+    "Input": 123,
+    "Output": 123
+  },
+  "VOIP": {
+    "AllStar": {
+      "NodeID": 27140
+    },
+    "EchoLink": {
+      "NodeID": 6891
+    }
+  }
+}

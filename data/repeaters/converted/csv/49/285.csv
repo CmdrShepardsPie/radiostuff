@@ -1,0 +1,2 @@
+ID,StateID,Callsign,Use,Status,SquelchTone,Digital,VOIP,Location.Latitude,Location.Longitude,Location.County,Location.State,Location.Local,Frequency.Input,Frequency.Output,DigitalTone.Input,DigitalTone.Output
+285,49,W7XDX,Open,Other,,,,40.46720123,-112.17099762,Salt Lake,UT,"West Jordan, Butterfield Peak",902.1125,927.1125,432,

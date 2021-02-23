@@ -1,0 +1,2 @@
+ID,StateID,Callsign,Use,Status,SquelchTone,DigitalTone,Digital,VOIP,Location.Latitude,Location.Longitude,Location.County,Location.State,Location.Local,Frequency.Input,Frequency.Output
+220,49,WA7FFM,Open,Other,,,,,40.08919907,-111.8219986,Utah,UT,"Goshen, West Mountain",443.95,448.95

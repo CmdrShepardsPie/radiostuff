@@ -1,0 +1,2 @@
+ID,StateID,Callsign,Use,Status,DigitalTone,Digital,Location.Latitude,Location.Longitude,Location.County,Location.State,Location.Local,Frequency.Input,Frequency.Output,SquelchTone.Input,SquelchTone.Output,VOIP.AllStar,VOIP.EchoLink,VOIP.Wires,VOIP.IRLP.NodeID
+10216,35,K9GAJ,Open,On-Air,,,35.65100098,-105.99199677,Santa Fe,NM,Santa Fe,444.275,449.275,146.2,,,,,3939

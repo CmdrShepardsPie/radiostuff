@@ -1,0 +1,21 @@
+{
+  "ID": 15885,
+  "StateID": 35,
+  "Callsign": "NM5ML",
+  "Location": {
+    "Latitude": 35.2526,
+    "Longitude": -107.5966,
+    "County": "Cibola",
+    "State": "NM",
+    "Local": "Grants, La Mosca"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 449.8,
+    "Output": 444.8
+  },
+  "SquelchTone": {
+    "Input": 67
+  }
+}

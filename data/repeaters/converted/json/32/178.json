@@ -1,0 +1,21 @@
+{
+  "ID": 178,
+  "StateID": 32,
+  "Callsign": "W7LKO",
+  "Location": {
+    "Latitude": 40.71390152,
+    "Longitude": -116.10299683,
+    "County": "Elko",
+    "State": "NV",
+    "Local": "Carlin"
+  },
+  "Use": "Open",
+  "Status": "Other",
+  "Frequency": {
+    "Input": 449.2,
+    "Output": 444.2
+  },
+  "SquelchTone": {
+    "Input": 100
+  }
+}

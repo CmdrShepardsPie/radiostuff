@@ -1,0 +1,26 @@
+{
+  "ID": 10214,
+  "StateID": 35,
+  "Callsign": "NM5HD",
+  "Location": {
+    "Latitude": 35.19760132,
+    "Longitude": -106.71499634,
+    "County": "Sandoval",
+    "State": "NM",
+    "Local": "Rio Rancho"
+  },
+  "Use": "Open",
+  "Status": "Off-Air",
+  "Frequency": {
+    "Input": 144.77,
+    "Output": 145.37
+  },
+  "SquelchTone": {
+    "Input": 162.2
+  },
+  "VOIP": {
+    "IRLP": {
+      "NodeID": 7706
+    }
+  }
+}

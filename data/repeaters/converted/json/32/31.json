@@ -1,0 +1,21 @@
+{
+  "ID": 31,
+  "StateID": 32,
+  "Callsign": "WA7HXO",
+  "Location": {
+    "Latitude": 35.99580002,
+    "Longitude": -114.86399841,
+    "County": "Clark",
+    "State": "NV",
+    "Local": "Las Vegas, Red Mountain"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 147.345,
+    "Output": 147.945
+  },
+  "SquelchTone": {
+    "Input": 100
+  }
+}

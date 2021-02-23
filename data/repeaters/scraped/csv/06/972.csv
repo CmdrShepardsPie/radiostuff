@@ -1,0 +1,2 @@
+Frequency,Offset,Tone,Call,Location,ST/PR,Use,Mode,Mi,Dir,,state_id,ID,Latitude,Longitude,Downlink,Uplink,Uplink Tone,County,Op Status,Features,FM,Analog Bandwidth,Links,Notes,Coordination,Last update
+447.02,-447.02,123,W5HMV,Trona,CA,OPEN,FM,128.01,WSW,,06,972,35.7627371,-117.37309,447.02,0,123,San Bernardino,Off-Air,10,Yes; analog capable.,25,"Full-time to 146.97000 (K6YYJ) at Trona, CA .","Input is off by about -4 kHz, Use an odd split TX to .015.",SCRRBA,2020-11-02

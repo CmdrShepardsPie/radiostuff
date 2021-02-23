@@ -1,0 +1,21 @@
+{
+  "ID": 15287,
+  "StateID": 49,
+  "Callsign": "AC7DU",
+  "Location": {
+    "Latitude": 40.39139938,
+    "Longitude": -111.92900085,
+    "County": "Utah",
+    "State": "UT",
+    "Local": "Saratoga Springs"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 442.675,
+    "Output": 447.675
+  },
+  "SquelchTone": {
+    "Input": 100
+  }
+}

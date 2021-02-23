@@ -1,0 +1,21 @@
+{
+  "ID": 261,
+  "StateID": 49,
+  "Callsign": "WB7TSQ",
+  "Location": {
+    "Latitude": 41.21020126,
+    "Longitude": -111.97100067,
+    "County": "Weber",
+    "State": "UT",
+    "Local": "Ogden"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 443.275,
+    "Output": 448.275
+  },
+  "SquelchTone": {
+    "Input": 107.2
+  }
+}

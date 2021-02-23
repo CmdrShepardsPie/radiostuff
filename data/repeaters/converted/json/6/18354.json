@@ -1,0 +1,21 @@
+{
+  "ID": 18354,
+  "StateID": 6,
+  "Callsign": "WW6Y",
+  "Location": {
+    "Latitude": 34.53620148,
+    "Longitude": -117.29299927,
+    "County": "San Bernardino",
+    "State": "CA",
+    "Local": "Victorville"
+  },
+  "Use": "Open",
+  "Status": "Other",
+  "Frequency": {
+    "Input": 147.255,
+    "Output": 147.855
+  },
+  "SquelchTone": {
+    "Input": 186.2
+  }
+}

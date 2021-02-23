@@ -1,0 +1,18 @@
+{
+  "ID": 14677,
+  "StateID": 4,
+  "Callsign": "KD7HVE",
+  "Location": {
+    "Latitude": 35.18939972,
+    "Longitude": -114.0530014,
+    "County": "Mohave",
+    "State": "AZ",
+    "Local": "Kingman"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 444.95,
+    "Output": 449.95
+  }
+}

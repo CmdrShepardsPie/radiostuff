@@ -1,0 +1,18 @@
+{
+  "ID": 332,
+  "StateID": 32,
+  "Callsign": "N6IMS",
+  "Location": {
+    "Latitude": 35.95600128,
+    "Longitude": -115.4940033,
+    "County": "Clark",
+    "State": "NV",
+    "Local": "Las Vegas, Lo Potosi Mountain"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 442.75,
+    "Output": 447.75
+  }
+}

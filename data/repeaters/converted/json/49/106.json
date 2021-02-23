@@ -1,0 +1,21 @@
+{
+  "ID": 106,
+  "StateID": 49,
+  "Callsign": "WB7REL",
+  "Location": {
+    "Latitude": 38.5367012,
+    "Longitude": -112.07299805,
+    "County": "Sevier",
+    "State": "UT",
+    "Local": "Monroe, Monroe Peak"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 146.26,
+    "Output": 146.86
+  },
+  "SquelchTone": {
+    "Input": 100
+  }
+}

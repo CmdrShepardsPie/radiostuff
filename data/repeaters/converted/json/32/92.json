@@ -1,0 +1,21 @@
+{
+  "ID": 92,
+  "StateID": 32,
+  "Callsign": "WA6MNM",
+  "Location": {
+    "Latitude": 38.15190125,
+    "Longitude": -116.89700317,
+    "County": "Washoe",
+    "State": "NV",
+    "Local": "Tonopah, Red Peak"
+  },
+  "Use": "Open",
+  "Status": "Off-Air",
+  "Frequency": {
+    "Input": 144.73,
+    "Output": 145.33
+  },
+  "SquelchTone": {
+    "Input": 151.4
+  }
+}

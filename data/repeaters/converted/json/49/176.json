@@ -1,0 +1,21 @@
+{
+  "ID": 176,
+  "StateID": 49,
+  "Callsign": "NU7X",
+  "Location": {
+    "Latitude": 40.84740067,
+    "Longitude": -111.90899658,
+    "County": "Davis",
+    "State": "UT",
+    "Local": "North Salt Lake"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 902.3125,
+    "Output": 927.3125
+  },
+  "SquelchTone": {
+    "Input": 127.3
+  }
+}

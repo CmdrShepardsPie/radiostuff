@@ -1,0 +1,24 @@
+{
+  "ID": 19029,
+  "StateID": 4,
+  "Callsign": "KF7LRD",
+  "Location": {
+    "Latitude": 34.415166,
+    "Longitude": -112.404683,
+    "County": "Yavapai",
+    "State": "AZ",
+    "Local": "Prescott, Mt. Union"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 444.875,
+    "Output": 449.875
+  },
+  "Digital": {
+    "DMR": {
+      "ColorCode": 1,
+      "ID": 311019
+    }
+  }
+}

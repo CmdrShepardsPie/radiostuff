@@ -1,0 +1,22 @@
+{
+  "ID": 807,
+  "StateID": 6,
+  "Callsign": "WA6HYQ",
+  "Location": {
+    "Latitude": 33.54510117,
+    "Longitude": -116.46900177,
+    "County": "Riverside",
+    "State": "CA",
+    "Local": "La Quinta, Santa Rosa Mountain"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 222.28,
+    "Output": 223.88
+  },
+  "SquelchTone": {
+    "Input": 110.9,
+    "Output": 110.9
+  }
+}

@@ -1,0 +1,2 @@
+ID,StateID,Callsign,Use,Status,DigitalTone,Digital,VOIP,Location.Latitude,Location.Longitude,Location.County,Location.State,Location.Local,Frequency.Input,Frequency.Output,SquelchTone.Input,SquelchTone.Output
+15079,35,W5SF,Open,On-Air,,,,36.90999985,-106.58000183,Rio Arriba,NM,"Chama, Overlook Mtn",147.68,147.08,162.2,

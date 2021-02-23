@@ -1,0 +1,29 @@
+{
+  "ID": 270,
+  "StateID": 49,
+  "Callsign": "WX7Y",
+  "Location": {
+    "Latitude": 40.28239822,
+    "Longitude": -111.9489975,
+    "County": "Salt Lake",
+    "State": "UT",
+    "Local": "Draper, Lake Mountain"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 147.68,
+    "Output": 147.08
+  },
+  "SquelchTone": {
+    "Input": 77
+  },
+  "VOIP": {
+    "EchoLink": {
+      "NodeID": 64264
+    },
+    "IRLP": {
+      "NodeID": 3270
+    }
+  }
+}

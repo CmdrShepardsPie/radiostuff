@@ -1,0 +1,2 @@
+ID,StateID,Callsign,Use,Status,DigitalTone,Digital,Location.Latitude,Location.Longitude,Location.County,Location.State,Location.Local,Frequency.Input,Frequency.Output,SquelchTone.Input,SquelchTone.Output,VOIP.AllStar,VOIP.EchoLink,VOIP.Wires,VOIP.IRLP.NodeID
+265,49,WD7SL,Open,On-Air,,,40.77109909,-111.88899994,Salt Lake,UT,"Salt Lake City, LDS HQ",443.425,448.425,100,,,,,3837

@@ -1,0 +1,21 @@
+{
+  "ID": 140,
+  "StateID": 35,
+  "Callsign": "WA5OLD",
+  "Location": {
+    "Latitude": 35.27550125,
+    "Longitude": -106.61799622,
+    "County": "Sandoval",
+    "State": "NM",
+    "Local": "Rio Rancho"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 447.35,
+    "Output": 442.35
+  },
+  "SquelchTone": {
+    "Input": 100
+  }
+}

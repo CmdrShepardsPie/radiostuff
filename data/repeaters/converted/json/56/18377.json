@@ -1,0 +1,24 @@
+{
+  "ID": 18377,
+  "StateID": 56,
+  "Callsign": "W7BEQ",
+  "Location": {
+    "Latitude": 43.2358017,
+    "Longitude": -108.11000061,
+    "County": "Fremont",
+    "State": "WY",
+    "Local": "Shoshoni"
+  },
+  "Use": "Open",
+  "Status": "Other",
+  "Frequency": {
+    "Input": 441.825,
+    "Output": 446.825
+  },
+  "Digital": {
+    "DMR": {
+      "ColorCode": 11,
+      "ID": 311109
+    }
+  }
+}

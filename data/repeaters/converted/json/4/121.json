@@ -1,0 +1,29 @@
+{
+  "ID": 121,
+  "StateID": 4,
+  "Callsign": "W7EI",
+  "Location": {
+    "Latitude": 34.69390106,
+    "Longitude": -112.1269989,
+    "County": "Yavapai",
+    "State": "AZ",
+    "Local": "Cottonwood, Mingus Mountain"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 147.82,
+    "Output": 147.22
+  },
+  "SquelchTone": {
+    "Input": 162.2
+  },
+  "VOIP": {
+    "AllStar": {
+      "NodeID": 46005
+    },
+    "EchoLink": {
+      "NodeID": 511632
+    }
+  }
+}

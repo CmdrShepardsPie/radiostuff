@@ -1,0 +1,18 @@
+{
+  "ID": 93,
+  "StateID": 49,
+  "Callsign": "KC7OXI",
+  "Location": {
+    "Latitude": 40.46390152,
+    "Longitude": -111.89299774,
+    "County": "Salt Lake",
+    "State": "UT",
+    "Local": "Draper, South Mountain"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 443.35,
+    "Output": 448.35
+  }
+}

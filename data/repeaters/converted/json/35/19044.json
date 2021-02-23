@@ -1,0 +1,21 @@
+{
+  "ID": 19044,
+  "StateID": 35,
+  "Callsign": "N0DRC",
+  "Location": {
+    "Latitude": 36.76,
+    "Longitude": -104.405,
+    "County": "Colfax",
+    "State": "NM",
+    "Local": "Raton"
+  },
+  "Use": "Open",
+  "Status": "Other",
+  "Frequency": {
+    "Input": 144.89,
+    "Output": 145.49
+  },
+  "SquelchTone": {
+    "Input": 100
+  }
+}

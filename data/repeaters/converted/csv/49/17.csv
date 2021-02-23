@@ -1,0 +1,2 @@
+ID,StateID,Callsign,Use,Status,DigitalTone,VOIP,Location.Latitude,Location.Longitude,Location.County,Location.State,Location.Local,Frequency.Input,Frequency.Output,SquelchTone.Input,SquelchTone.Output,Digital.DMR,Digital.P25,Digital.DStar,Digital.YSF.GroupID.Input,Digital.YSF.GroupID.Output
+17,49,K7DAV,Open,On-Air,,,40.86209869,-111.85500336,Davis,UT,"Bountiful, golf course",444.925,449.925,100,100,,,,Open ↑,Open ↓

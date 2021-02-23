@@ -1,0 +1,2 @@
+ID,StateID,Callsign,Use,Status,DigitalTone,Digital,VOIP,Location.Latitude,Location.Longitude,Location.County,Location.State,Location.Local,Frequency.Input,Frequency.Output,SquelchTone.Input,SquelchTone.Output
+160,49,N7TOP,Open,On-Air,,,,41.37060165,-111.76599884,Weber,UT,"Ogden, Powder Mountain",442.775,447.775,123,

@@ -1,0 +1,21 @@
+{
+  "ID": 756,
+  "StateID": 6,
+  "Callsign": "WR6AZN",
+  "Location": {
+    "Latitude": 34.36059952,
+    "Longitude": -117.59500122,
+    "County": "Los Angeles",
+    "State": "CA",
+    "Local": "Wrightwood, Table Mountain"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 222.36,
+    "Output": 223.96
+  },
+  "SquelchTone": {
+    "Input": 156.7
+  }
+}

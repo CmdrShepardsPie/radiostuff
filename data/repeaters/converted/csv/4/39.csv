@@ -1,0 +1,2 @@
+ID,StateID,Callsign,Use,Status,SquelchTone,DigitalTone,Digital,VOIP,Location.Latitude,Location.Longitude,Location.County,Location.State,Location.Local,Frequency.Input,Frequency.Output
+39,4,K7RLW,Private,On-Air,,,,,35.26509857,-113.97799683,Mohave,AZ,"Kingman, Kingman Airport",146.02,146.62

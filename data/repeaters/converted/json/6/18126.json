@@ -1,0 +1,18 @@
+{
+  "ID": 18126,
+  "StateID": 6,
+  "Callsign": "WH6NZ",
+  "Location": {
+    "Latitude": 34.18799973,
+    "Longitude": -117.69999695,
+    "County": "Los Angeles",
+    "State": "CA",
+    "Local": "Claremont, Sunset Ridge"
+  },
+  "Use": "Private",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 443.78,
+    "Output": 448.78
+  }
+}

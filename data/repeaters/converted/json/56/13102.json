@@ -1,0 +1,21 @@
+{
+  "ID": 13102,
+  "StateID": 56,
+  "Callsign": "N7HYF",
+  "Location": {
+    "Latitude": 43.02500153,
+    "Longitude": -108.37999725,
+    "County": "Fremont",
+    "State": "WY",
+    "Local": "Riverton, Griffy Hill"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 444.975,
+    "Output": 449.975
+  },
+  "SquelchTone": {
+    "Input": 127.3
+  }
+}

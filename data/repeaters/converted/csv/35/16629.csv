@@ -1,2 +1,2 @@
-ID,StateID,Callsign,Use,Status,DigitalTone,Digital,Location.Latitude,Location.Longitude,Location.County,Location.State,Location.Local,Frequency.Input,Frequency.Output,SquelchTone.Input,SquelchTone.Output,VOIP.AllStar,VOIP.EchoLink,VOIP.Wires,VOIP.IRLP.NodeID
-16629,35,KC2HSO,Open,On-Air,,,35.88000107,-106.3030014,Los Alamos,NM,Los Alamos,144.265,144.265,203.5,,,,,8039
+ID,StateID,Callsign,Use,Status,DigitalTone,Digital,VOIP,Location.Latitude,Location.Longitude,Location.County,Location.State,Location.Local,Frequency.Input,Frequency.Output,SquelchTone.Input,SquelchTone.Output
+16629,35,KC2HSO,Open,Other,,,,,,,NM,Los Alamos,NaN,,203.5,

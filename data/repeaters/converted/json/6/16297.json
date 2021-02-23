@@ -1,0 +1,21 @@
+{
+  "ID": 16297,
+  "StateID": 6,
+  "Callsign": "W6SCE",
+  "Location": {
+    "Latitude": 37.3614006,
+    "Longitude": -118.40000153,
+    "County": "Inyo",
+    "State": "CA",
+    "Local": "Bishop"
+  },
+  "Use": "Private",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 223.16,
+    "Output": 224.76
+  },
+  "SquelchTone": {
+    "Input": 100
+  }
+}

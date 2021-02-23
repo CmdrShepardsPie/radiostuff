@@ -1,0 +1,21 @@
+{
+  "ID": 79,
+  "StateID": 16,
+  "Callsign": "AG7BL",
+  "Location": {
+    "Latitude": 42.31999969,
+    "Longitude": -111.28900146,
+    "County": "Bear Lake",
+    "State": "ID",
+    "Local": "Montpelier, M-Hill"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 147.72,
+    "Output": 147.12
+  },
+  "SquelchTone": {
+    "Input": 123
+  }
+}

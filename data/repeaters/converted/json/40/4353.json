@@ -1,0 +1,21 @@
+{
+  "ID": 4353,
+  "StateID": 40,
+  "Callsign": "W5GPR",
+  "Location": {
+    "Latitude": 36.77740097,
+    "Longitude": -99.626297,
+    "County": "Harper",
+    "State": "OK",
+    "Local": "Buffalo"
+  },
+  "Use": "Open",
+  "Status": "Other",
+  "Frequency": {
+    "Input": 147.72,
+    "Output": 147.12
+  },
+  "SquelchTone": {
+    "Input": 203.5
+  }
+}

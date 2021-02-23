@@ -1,0 +1,21 @@
+{
+  "ID": 67,
+  "StateID": 56,
+  "Callsign": "NB7I",
+  "Location": {
+    "Latitude": 42.7779007,
+    "Longitude": -106.32900238,
+    "County": "Natrona",
+    "State": "WY",
+    "Local": "Casper, Casper Mtn."
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 444.5,
+    "Output": 449.5
+  },
+  "SquelchTone": {
+    "Input": 100
+  }
+}

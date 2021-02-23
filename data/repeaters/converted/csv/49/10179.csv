@@ -1,0 +1,2 @@
+ID,StateID,Callsign,Use,Status,DigitalTone,Digital,VOIP,Location.Latitude,Location.Longitude,Location.County,Location.State,Location.Local,Frequency.Input,Frequency.Output,SquelchTone.Input,SquelchTone.Output
+10179,49,WD7N,Open,On-Air,,,,40.31409836,-112.00700378,Utah,UT,Eagle Mountain,444.25,449.25,110.9,

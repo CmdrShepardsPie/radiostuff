@@ -1,0 +1,2 @@
+ID,StateID,Callsign,Use,Status,DigitalTone,Location.Latitude,Location.Longitude,Location.County,Location.State,Location.Local,Frequency.Input,Frequency.Output,SquelchTone.Input,SquelchTone.Output,Digital.DMR,Digital.P25,Digital.DStar,VOIP.AllStar,VOIP.EchoLink,VOIP.IRLP,VOIP.Wires.ID,Digital.YSF.GroupID.Input,Digital.YSF.GroupID.Output
+17411,16,K7MVA,Open,On-Air,,42.7336998,-114.43599701,Jerome,ID,"Jerome, Flat Top Butte",447.3,442.3,100,100,,,,,,,43210,Open ↑,Open ↓

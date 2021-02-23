@@ -1,0 +1,18 @@
+{
+  "ID": 15894,
+  "StateID": 32,
+  "Callsign": "KA7CVV",
+  "Location": {
+    "Latitude": 41.87490082,
+    "Longitude": -115.43099976,
+    "County": "Elko",
+    "State": "NV",
+    "Local": "Jarbridge, Deer Mountain"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 147.76,
+    "Output": 147.16
+  }
+}

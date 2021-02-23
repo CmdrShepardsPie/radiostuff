@@ -1,0 +1,21 @@
+{
+  "ID": 379,
+  "StateID": 6,
+  "Callsign": "KD6QLT",
+  "Location": {
+    "Latitude": 33.83029938,
+    "Longitude": -116.54399872,
+    "County": "Riverside",
+    "State": "CA",
+    "Local": "Palm Springs"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 147.585,
+    "Output": 144.93
+  },
+  "SquelchTone": {
+    "Input": 107.2
+  }
+}

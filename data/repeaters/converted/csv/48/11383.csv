@@ -1,0 +1,2 @@
+ID,StateID,Callsign,Use,Status,SquelchTone,DigitalTone,VOIP,Location.Latitude,Location.Longitude,Location.County,Location.State,Location.Local,Frequency.Input,Frequency.Output,Digital.P25,Digital.DStar,Digital.YSF,Digital.DMR.ColorCode,Digital.DMR.ID
+11383,48,KA3IDN,Open,On-Air,,,,35.22200012,-101.83100128,Potter,TX,Amarillo,449.9625,444.9625,,,,14,314812

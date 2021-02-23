@@ -1,0 +1,2 @@
+ID,StateID,Callsign,Use,Status,DigitalTone,Digital,VOIP,Location.Latitude,Location.Longitude,Location.County,Location.State,Location.Local,Frequency.Input,Frequency.Output,SquelchTone.Input,SquelchTone.Output
+5325,16,K7ACA,Open,On-Air,,,,42.31470108,-113.65799713,Cassia,ID,"Burley, Mt Harrison",144.73,145.33,123,

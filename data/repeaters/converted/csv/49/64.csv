@@ -1,0 +1,2 @@
+ID,StateID,Callsign,Use,Status,DigitalTone,Digital,VOIP,Location.Latitude,Location.Longitude,Location.County,Location.State,Location.Local,Frequency.Input,Frequency.Output,SquelchTone.Input,SquelchTone.Output
+64,49,K7UCA,Open,On-Air,,,,40.04389954,-111.71399689,Utah,UT,"Payson, Mountain View Hospital",442.125,447.125,100,

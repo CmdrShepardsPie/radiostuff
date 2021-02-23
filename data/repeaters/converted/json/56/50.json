@@ -1,0 +1,18 @@
+{
+  "ID": 50,
+  "StateID": 56,
+  "Callsign": "KK7BA",
+  "Location": {
+    "Latitude": 42.95999908,
+    "Longitude": -105.43000031,
+    "County": "Converse",
+    "State": "WY",
+    "Local": "Douglas"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 147.75,
+    "Output": 147.15
+  }
+}

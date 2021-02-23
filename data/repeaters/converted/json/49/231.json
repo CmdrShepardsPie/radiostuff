@@ -1,0 +1,26 @@
+{
+  "ID": 231,
+  "StateID": 49,
+  "Callsign": "WA7GIE",
+  "Location": {
+    "Latitude": 40.26169968,
+    "Longitude": -111.9280014,
+    "County": "Utah",
+    "State": "UT",
+    "Local": "Provo, Lake Mountain"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 444.475,
+    "Output": 449.475
+  },
+  "SquelchTone": {
+    "Input": 100
+  },
+  "VOIP": {
+    "IRLP": {
+      "NodeID": 5620
+    }
+  }
+}

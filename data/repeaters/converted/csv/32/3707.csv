@@ -1,0 +1,2 @@
+ID,StateID,Callsign,Use,Status,SquelchTone,Digital,VOIP,Location.Latitude,Location.Longitude,Location.County,Location.State,Location.Local,Frequency.Input,Frequency.Output,DigitalTone.Input,DigitalTone.Output
+3707,32,WB6EGR,Open,Other,,,,36.16439819,-115.08499908,Clark,NV,"Las Vegas, The Ogden",440.0125,445.0125,411,

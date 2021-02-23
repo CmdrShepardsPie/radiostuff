@@ -1,0 +1,26 @@
+{
+  "ID": 1409,
+  "StateID": 6,
+  "Callsign": "AI6BX",
+  "Location": {
+    "Latitude": 34.05559921,
+    "Longitude": -117.18199921,
+    "County": "San Bernardino",
+    "State": "CA",
+    "Local": "Redlands, Sunset Drive"
+  },
+  "Use": "Closed",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 440.34,
+    "Output": 445.34
+  },
+  "SquelchTone": {
+    "Input": 88.5
+  },
+  "VOIP": {
+    "IRLP": {
+      "NodeID": 7490
+    }
+  }
+}

@@ -1,0 +1,2 @@
+ID,StateID,Callsign,Use,Status,DigitalTone,Digital,VOIP,Location.Latitude,Location.Longitude,Location.County,Location.State,Location.Local,Frequency.Input,Frequency.Output,SquelchTone.Input,SquelchTone.Output
+440,6,WA6TST,Open,On-Air,,,,34.89860153,-117.02200317,San Bernardino,CA,"Barstow, Flash II",147.78,147.18,151.4,151.4

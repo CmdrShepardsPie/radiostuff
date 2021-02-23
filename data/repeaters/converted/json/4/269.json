@@ -1,0 +1,18 @@
+{
+  "ID": 269,
+  "StateID": 4,
+  "Callsign": "K7RLW",
+  "Location": {
+    "Latitude": 35.18939972,
+    "Longitude": -114.05200195,
+    "County": "Mohave",
+    "State": "AZ",
+    "Local": "Kingman"
+  },
+  "Use": "Closed",
+  "Status": "Off-Air",
+  "Frequency": {
+    "Input": 441.225,
+    "Output": 446.225
+  }
+}

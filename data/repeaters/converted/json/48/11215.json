@@ -1,0 +1,24 @@
+{
+  "ID": 11215,
+  "StateID": 48,
+  "Callsign": "KD5ROK",
+  "Location": {
+    "Latitude": 35.46780014,
+    "Longitude": -101.34799957,
+    "County": "Hutchinson",
+    "State": "TX",
+    "Local": "Borger, NW Well Field"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 145.53125,
+    "Output": 146.13125
+  },
+  "Digital": {
+    "DMR": {
+      "ColorCode": 14,
+      "ID": 314848
+    }
+  }
+}

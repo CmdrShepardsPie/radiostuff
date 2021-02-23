@@ -1,2 +1,2 @@
-Frequency,Offset,Tone Up / Down,Location,County,Call,Use,,state_id,ID,Latitude,Longitude,Downlink,Uplink,Uplink Tone,Grid,Op Status,Coverage,Features,Coordination,Last update
-146.74,-0.6,100,"St George, Webb Hill",Washington,NR7K,OPEN,,49,174,37.06359863,-113.5739975,146.74,146.14,100,DM37FB,On-Air,Wide area: St. George and the neighboring communities.,8,UVHFS,2015-08-07
+Frequency,Offset,Tone,Call,Location,ST/PR,Use,Mode,Mi,Dir,,state_id,ID,Latitude,Longitude,Downlink,Uplink,Uplink Tone,County,Grid,Op Status,Coverage,Features,FM,Analog Bandwidth,Coordination,Last update
+146.74,-0.6,100,NR7K,"St George, Webb Hill",UT,OPEN,FM,106.56,NE,,49,174,37.06359863,-113.5739975,146.74,146.14,100,Washington,DM37FB,On-Air,Wide area: St. George and the neighboring communities.,8,Yes; analog capable.,,UVHFS,2015-08-07

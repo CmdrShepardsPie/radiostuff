@@ -1,0 +1,21 @@
+{
+  "ID": 71,
+  "StateID": 49,
+  "Callsign": "K7UCS",
+  "Location": {
+    "Latitude": 40.08909988,
+    "Longitude": -111.82299805,
+    "County": "Utah",
+    "State": "UT",
+    "Local": "Goshen, West Mountain"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 147.94,
+    "Output": 147.34
+  },
+  "SquelchTone": {
+    "Input": 100
+  }
+}

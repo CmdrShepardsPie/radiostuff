@@ -1,0 +1,2 @@
+ID,StateID,Callsign,Use,Status,DigitalTone,Digital,VOIP,Location.Latitude,Location.Longitude,Location.County,Location.State,Location.Local,Frequency.Input,Frequency.Output,SquelchTone.Input,SquelchTone.Output
+14669,31,KC0WZL,Open,On-Air,,,,40.72159958,-99.09320068,Buffalo,NE,"Kearney, Kearney Water Tower",146.4,147,123,

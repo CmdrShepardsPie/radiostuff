@@ -1,0 +1,2 @@
+ID,StateID,Callsign,Use,Status,DigitalTone,Digital,VOIP,Location.Latitude,Location.Longitude,Location.County,Location.State,Location.Local,Frequency.Input,Frequency.Output,SquelchTone.Input,SquelchTone.Output
+218,6,K6SRT,Open,Other,,,,34.52109909,-117.98300171,Los Angeles,CA,Littlerock,144.78,145.38,151.4,

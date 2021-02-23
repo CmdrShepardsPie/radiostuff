@@ -1,0 +1,2 @@
+ID,StateID,Callsign,Use,Status,DigitalTone,Digital,VOIP,Location.Latitude,Location.Longitude,Location.County,Location.State,Location.Local,Frequency.Input,Frequency.Output,SquelchTone.Input,SquelchTone.Output
+1316,6,K6ZXZ,Closed,On-Air,,,,34.23479843,-117.14099884,San Bernardino,CA,"Lake Arrowhead, Heaps Peak",442.08,447.08,136.5,

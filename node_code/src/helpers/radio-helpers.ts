@@ -28,6 +28,7 @@ export enum Mode {
   P25,
   DStar,
   YSF,
+  Any,
 }
 
 export interface RadioCommon {
@@ -168,6 +169,7 @@ export function filterMode(...modes: Mode[]): (filter: RepeaterStructured) => bo
     filter.Status !== RepeaterStatus.OffAir &&
     filter.Use === RepeaterUse.Open &&
     (
+      (modes.includes(Mode.Any)) ||
       (modes.includes(Mode.FM) && !filter.Digital) ||
       (modes.includes(Mode.ATV) && filter.Digital != null && filter.Digital.ATV != null) ||
       (modes.includes(Mode.DMR) && filter.Digital != null && filter.Digital.DMR != null) ||

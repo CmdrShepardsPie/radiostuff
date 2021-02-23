@@ -1,0 +1,21 @@
+{
+  "ID": 136,
+  "StateID": 32,
+  "Callsign": "WR7BLU",
+  "Location": {
+    "Latitude": 35.8932991,
+    "Longitude": -115.49500275,
+    "County": "Clark",
+    "State": "NV",
+    "Local": "Las Vegas, Lo Potosi Mountain"
+  },
+  "Use": "Closed",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 443.525,
+    "Output": 448.525
+  },
+  "SquelchTone": {
+    "Input": 156.7
+  }
+}

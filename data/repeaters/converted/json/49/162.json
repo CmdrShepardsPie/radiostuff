@@ -1,0 +1,21 @@
+{
+  "ID": 162,
+  "StateID": 49,
+  "Callsign": "N7UEO",
+  "Location": {
+    "Latitude": 40.2484765,
+    "Longitude": -111.6653293,
+    "County": "Utah",
+    "State": "UT",
+    "Local": "Provo, UVMC"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 444.325,
+    "Output": 449.325
+  },
+  "SquelchTone": {
+    "Input": 100
+  }
+}

@@ -1,0 +1,2 @@
+ID,StateID,Callsign,Use,Status,DigitalTone,Digital,Location.Latitude,Location.Longitude,Location.County,Location.State,Location.Local,Frequency.Input,Frequency.Output,SquelchTone.Input,SquelchTone.Output,VOIP.IRLP,VOIP.Wires,VOIP.AllStar.NodeID,VOIP.EchoLink.NodeID
+8286,32,W7NYE,Open,On-Air,,,36.20439911,-116.12799835,Nye,NV,Pahrump,144.53,145.13,100,,,,28660,350144

@@ -1,0 +1,21 @@
+{
+  "ID": 15763,
+  "StateID": 49,
+  "Callsign": "KE7LMG",
+  "Location": {
+    "Latitude": 40.65999985,
+    "Longitude": -111.89199829,
+    "County": "Salt Lake",
+    "State": "UT",
+    "Local": "Murray, Intermountain Medical Center"
+  },
+  "Use": "Open",
+  "Status": "Other",
+  "Frequency": {
+    "Input": 442.25,
+    "Output": 447.25
+  },
+  "SquelchTone": {
+    "Input": 100
+  }
+}

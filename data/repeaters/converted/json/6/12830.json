@@ -1,0 +1,24 @@
+{
+  "ID": 12830,
+  "StateID": 6,
+  "Callsign": "KC7NP",
+  "Location": {
+    "Latitude": 33.94250107,
+    "Longitude": -117.23000336,
+    "County": "Riverside",
+    "State": "CA",
+    "Local": "Moreno Valley"
+  },
+  "Use": "Open",
+  "Status": "Other",
+  "Frequency": {
+    "Input": 444.4625,
+    "Output": 449.4625
+  },
+  "Digital": {
+    "DMR": {
+      "ColorCode": 1,
+      "ID": 310682
+    }
+  }
+}

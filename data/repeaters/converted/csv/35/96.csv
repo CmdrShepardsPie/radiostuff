@@ -1,0 +1,2 @@
+ID,StateID,Callsign,Use,Status,DigitalTone,Digital,VOIP,Location.Latitude,Location.Longitude,Location.County,Location.State,Location.Local,Frequency.Input,Frequency.Output,SquelchTone.Input,SquelchTone.Output
+96,35,KE5FYL,Open,On-Air,,,,35.25299835,-107.59700012,Cibola,NM,"Grants, La Mosca Peak",449.95,444.95,100,88.5

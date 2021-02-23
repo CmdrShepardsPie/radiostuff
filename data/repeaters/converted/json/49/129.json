@@ -1,0 +1,26 @@
+{
+  "ID": 129,
+  "StateID": 49,
+  "Callsign": "N7BYU",
+  "Location": {
+    "Latitude": 40.24850082,
+    "Longitude": -111.64700317,
+    "County": "Utah",
+    "State": "UT",
+    "Local": "Provo, BYU"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 444.075,
+    "Output": 449.075
+  },
+  "SquelchTone": {
+    "Input": 167.9
+  },
+  "VOIP": {
+    "EchoLink": {
+      "NodeID": 96806
+    }
+  }
+}

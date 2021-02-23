@@ -1,0 +1,29 @@
+{
+  "ID": 237,
+  "StateID": 49,
+  "Callsign": "WA7GTU",
+  "Location": {
+    "Latitude": 37.7256012,
+    "Longitude": -113.06800079,
+    "County": "Iron",
+    "State": "UT",
+    "Local": "Cedar City"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 444.9,
+    "Output": 449.9
+  },
+  "SquelchTone": {
+    "Input": 100
+  },
+  "VOIP": {
+    "EchoLink": {
+      "NodeID": 193065
+    },
+    "IRLP": {
+      "NodeID": 3574
+    }
+  }
+}

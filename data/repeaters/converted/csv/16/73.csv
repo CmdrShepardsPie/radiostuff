@@ -1,0 +1,2 @@
+ID,StateID,Callsign,Use,Status,DigitalTone,Digital,VOIP,Location.Latitude,Location.Longitude,Location.County,Location.State,Location.Local,Frequency.Input,Frequency.Output,SquelchTone.Input,SquelchTone.Output
+73,16,N7PI,Open,On-Air,,,,42.80680084,-112.48799896,Bannock,ID,"Pocatello, Kinport Peak",147.96,147.36,100,

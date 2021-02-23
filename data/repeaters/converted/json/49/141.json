@@ -1,0 +1,26 @@
+{
+  "ID": 141,
+  "StateID": 49,
+  "Callsign": "KB7M",
+  "Location": {
+    "Latitude": 40.3,
+    "Longitude": -111.67,
+    "County": "Utah",
+    "State": "UT",
+    "Local": "Orem"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 443.025,
+    "Output": 448.025
+  },
+  "SquelchTone": {
+    "Input": 100
+  },
+  "VOIP": {
+    "IRLP": {
+      "NodeID": 4482
+    }
+  }
+}

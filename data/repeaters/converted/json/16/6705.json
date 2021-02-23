@@ -1,0 +1,21 @@
+{
+  "ID": 6705,
+  "StateID": 16,
+  "Callsign": "AC7TJ",
+  "Location": {
+    "Latitude": 42.32220078,
+    "Longitude": -111.29799652,
+    "County": "Bear Lake",
+    "State": "ID",
+    "Local": "Montpelier"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 147.98,
+    "Output": 147.38
+  },
+  "SquelchTone": {
+    "Input": 88.5
+  }
+}

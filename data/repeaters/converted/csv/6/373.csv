@@ -1,0 +1,2 @@
+ID,StateID,Callsign,Use,Status,DigitalTone,Digital,VOIP,Location.Latitude,Location.Longitude,Location.County,Location.State,Location.Local,Frequency.Input,Frequency.Output,SquelchTone.Input,SquelchTone.Output
+373,6,KD6OI,Open,On-Air,,,,33.74000168,-116.71800232,Riverside,CA,Idyllwild,146.295,146.895,118.8,118.8

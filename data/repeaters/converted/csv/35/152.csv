@@ -1,0 +1,2 @@
+ID,StateID,Callsign,Use,Status,SquelchTone,DigitalTone,Digital,Location.Latitude,Location.Longitude,Location.County,Location.State,Location.Local,Frequency.Input,Frequency.Output,VOIP.AllStar,VOIP.IRLP,VOIP.Wires,VOIP.EchoLink.NodeID
+152,35,W5AOX,Open,On-Air,,,,35.1631012,-106.34799957,Bernalillo,NM,Sandia Park,223.34,224.94,,,,3061

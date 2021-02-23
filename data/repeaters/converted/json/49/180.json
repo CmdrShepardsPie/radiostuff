@@ -1,0 +1,21 @@
+{
+  "ID": 180,
+  "StateID": 49,
+  "Callsign": "W7AOR",
+  "Location": {
+    "Latitude": 37.15520096,
+    "Longitude": -113.88300323,
+    "County": "Washington",
+    "State": "UT",
+    "Local": "St George, Utah Hill"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 444.75,
+    "Output": 449.75
+  },
+  "SquelchTone": {
+    "Input": 123
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "ID": 12237,
+  "StateID": 4,
+  "Callsign": "W7KDS",
+  "Location": {
+    "State": "AZ",
+    "Local": "Kingman"
+  },
+  "Use": "Open",
+  "Status": "Other",
+  "Frequency": {
+    "Input": null
+  }
+}

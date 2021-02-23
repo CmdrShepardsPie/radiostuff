@@ -1,0 +1,2 @@
+ID,StateID,Callsign,Use,Status,DigitalTone,Digital,Location.Latitude,Location.Longitude,Location.County,Location.State,Location.Local,Frequency.Input,Frequency.Output,SquelchTone.Input,SquelchTone.Output,VOIP.AllStar,VOIP.EchoLink,VOIP.IRLP,VOIP.Wires.ID
+10988,48,W5WDR,Open,Off-Air,,,35.64250183,-101.39499664,Hutchinson,TX,Borger,147.6,147,88.5,88.5,,,,21339

@@ -1,0 +1,29 @@
+{
+  "ID": 371,
+  "StateID": 6,
+  "Callsign": "N7OD",
+  "Location": {
+    "Latitude": 33.75230026,
+    "Longitude": -116.96099854,
+    "County": "Riverside",
+    "State": "CA",
+    "Local": "Hemet, Hemet Valley Med Ctr"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 144.82,
+    "Output": 145.42
+  },
+  "SquelchTone": {
+    "Input": 88.5
+  },
+  "VOIP": {
+    "EchoLink": {
+      "NodeID": 3341
+    },
+    "IRLP": {
+      "NodeID": 3341
+    }
+  }
+}

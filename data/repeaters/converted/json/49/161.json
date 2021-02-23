@@ -1,0 +1,21 @@
+{
+  "ID": 161,
+  "StateID": 49,
+  "Callsign": "N7TOP",
+  "Location": {
+    "Latitude": 41.20420074,
+    "Longitude": -112.0510025,
+    "County": "Weber",
+    "State": "UT",
+    "Local": "West Haven"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 443.775,
+    "Output": 448.775
+  },
+  "SquelchTone": {
+    "Input": 123
+  }
+}

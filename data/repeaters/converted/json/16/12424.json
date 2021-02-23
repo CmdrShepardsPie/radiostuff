@@ -1,0 +1,21 @@
+{
+  "ID": 12424,
+  "StateID": 16,
+  "Callsign": "K7OGM",
+  "Location": {
+    "Latitude": 42.03720093,
+    "Longitude": -111.39600372,
+    "County": "Bear Lake",
+    "State": "ID",
+    "Local": "Fish Haven, Laketown Radio Site"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 147.62,
+    "Output": 147.02
+  },
+  "SquelchTone": {
+    "Input": 100
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "ID": 3765,
+  "StateID": 6,
+  "Callsign": "K6JR",
+  "Location": {
+    "Latitude": 33.86899948,
+    "Longitude": -116.43399811,
+    "County": "Riverside",
+    "State": "CA",
+    "Local": "Cathedral City, Edom Hill"
+  },
+  "Use": "Closed",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 444.24,
+    "Output": 449.24
+  },
+  "SquelchTone": {
+    "Input": 131.8
+  }
+}

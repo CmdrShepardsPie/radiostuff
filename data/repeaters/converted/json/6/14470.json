@@ -1,0 +1,18 @@
+{
+  "ID": 14470,
+  "StateID": 6,
+  "Callsign": "AF6HP",
+  "Location": {
+    "Latitude": 34.23479843,
+    "Longitude": -117.14099884,
+    "County": "San Bernardino",
+    "State": "CA",
+    "Local": "Lake Arrowhead, Heaps Peak"
+  },
+  "Use": "Open",
+  "Status": "Other",
+  "Frequency": {
+    "Input": 1275.35,
+    "Output": 1287.35
+  }
+}

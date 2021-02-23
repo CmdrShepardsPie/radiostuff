@@ -1,0 +1,2 @@
+ID,StateID,Callsign,Use,Status,DigitalTone,Digital,VOIP,Location.Latitude,Location.Longitude,Location.County,Location.State,Location.Local,Frequency.Input,Frequency.Output,SquelchTone.Input,SquelchTone.Output
+4100,20,K0ECT,Open,On-Air,,,,38.78499985,-100.92099762,Logan,KS,Elkader,449.3,444.3,141.3,141.3

@@ -1,0 +1,29 @@
+{
+  "ID": 200,
+  "StateID": 32,
+  "Callsign": "N7ARR",
+  "Location": {
+    "Latitude": 36.31919861,
+    "Longitude": -115.5739975,
+    "County": "Clark",
+    "State": "NV",
+    "Local": "Las Vegas, Angel Peak"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 144.77,
+    "Output": 145.37
+  },
+  "SquelchTone": {
+    "Input": 123
+  },
+  "VOIP": {
+    "EchoLink": {
+      "NodeID": 102884
+    },
+    "IRLP": {
+      "NodeID": 3290
+    }
+  }
+}

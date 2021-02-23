@@ -1,0 +1,2 @@
+ID,StateID,Callsign,Use,Status,DigitalTone,Digital,VOIP,Location.Latitude,Location.Longitude,Location.County,Location.State,Location.Local,Frequency.Input,Frequency.Output,SquelchTone.Input,SquelchTone.Output
+4578,40,W5GPR,Open,Other,,,,36.43450165,-99.51609802,Woodward,OK,"Woodward, airport",146.13,146.73,203.5,

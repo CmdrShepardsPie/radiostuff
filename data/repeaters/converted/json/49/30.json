@@ -1,0 +1,21 @@
+{
+  "ID": 30,
+  "StateID": 49,
+  "Callsign": "K7JL",
+  "Location": {
+    "Latitude": 40.65919876,
+    "Longitude": -112.20200348,
+    "County": "Salt Lake",
+    "State": "UT",
+    "Local": "Salt Lake City, Farnsworth Peak"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 444.5,
+    "Output": 449.5
+  },
+  "SquelchTone": {
+    "Input": 100
+  }
+}

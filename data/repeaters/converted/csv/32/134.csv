@@ -1,0 +1,2 @@
+ID,StateID,Callsign,Use,Status,DigitalTone,Digital,VOIP,Location.Latitude,Location.Longitude,Location.County,Location.State,Location.Local,Frequency.Input,Frequency.Output,SquelchTone.Input,SquelchTone.Output
+134,32,KB6CRE,Closed,On-Air,,,,35.96519852,-115.5,Clark,NV,"Las Vegas, Hi Potosi Mountain",444.95,449.95,136.5,

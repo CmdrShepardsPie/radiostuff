@@ -1,0 +1,21 @@
+{
+  "ID": 1009,
+  "StateID": 6,
+  "Callsign": "KA6GBJ",
+  "Location": {
+    "Latitude": 33.82400131,
+    "Longitude": -116.38700104,
+    "County": "Riverside",
+    "State": "CA",
+    "Local": "Thousand Palms"
+  },
+  "Use": "Open",
+  "Status": "Other",
+  "Frequency": {
+    "Input": 442.2,
+    "Output": 447.2
+  },
+  "SquelchTone": {
+    "Input": 107.2
+  }
+}

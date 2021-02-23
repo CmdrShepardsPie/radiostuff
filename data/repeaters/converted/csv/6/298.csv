@@ -1,0 +1,2 @@
+ID,StateID,Callsign,Use,Status,DigitalTone,Digital,VOIP,Location.Latitude,Location.Longitude,Location.County,Location.State,Location.Local,Frequency.Input,Frequency.Output,SquelchTone.Input,SquelchTone.Output
+298,6,N6SR,Open,On-Air,,,,35.67689896,-118.48799896,Kern,CA,"Lake Isabella, Sawmill Road",144.85,145.45,156.7,

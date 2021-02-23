@@ -1,0 +1,2 @@
+ID,StateID,Callsign,Use,Status,DigitalTone,Digital,VOIP,Location.Latitude,Location.Longitude,Location.County,Location.State,Location.Local,Frequency.Input,Frequency.Output,SquelchTone.Input,SquelchTone.Output
+127,35,WA5TSV,Open,On-Air,,,,34.80609894,-106.73300171,Valencia,NM,Los Lunas,449.125,444.125,100,

@@ -1,0 +1,18 @@
+{
+  "ID": 9955,
+  "StateID": 6,
+  "Callsign": "K6DLP",
+  "Location": {
+    "Latitude": 34.44380188,
+    "Longitude": -116.96800232,
+    "County": "San Bernardino",
+    "State": "CA",
+    "Local": "Lucerne Valley"
+  },
+  "Use": "Closed",
+  "Status": "Other",
+  "Frequency": {
+    "Input": 222.92,
+    "Output": 224.52
+  }
+}

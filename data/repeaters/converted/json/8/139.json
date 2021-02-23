@@ -3,11 +3,11 @@
   "StateID": 8,
   "Callsign": "KE0VH",
   "Location": {
-    "Latitude": 39.73300171,
-    "Longitude": -105.23899841,
+    "Latitude": 39.669208,
+    "Longitude": -105.220348,
     "County": "Jefferson",
     "State": "CO",
-    "Local": "Golden, Lookout Mountain"
+    "Local": "Morrison, Mt. Morrison"
   },
   "Use": "Open",
   "Status": "On-Air",
@@ -15,16 +15,17 @@
     "Input": 444.625,
     "Output": 449.625
   },
-  "SquelchTone": {
-    "Input": 141.3,
-    "Output": 141.3
-  },
   "Digital": {
     "YSF": {
       "GroupID": {
         "Input": "Open ↑",
         "Output": "Open ↓"
       }
+    }
+  },
+  "VOIP": {
+    "Wires": {
+      "ID": 60777
     }
   }
 }

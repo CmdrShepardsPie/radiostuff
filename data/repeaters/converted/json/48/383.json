@@ -1,0 +1,21 @@
+{
+  "ID": 383,
+  "StateID": 48,
+  "Callsign": "K5IS",
+  "Location": {
+    "Latitude": 36.40000153,
+    "Longitude": -100.8030014,
+    "County": "Ochiltree",
+    "State": "TX",
+    "Local": "Perryton"
+  },
+  "Use": "Open",
+  "Status": "Other",
+  "Frequency": {
+    "Input": 146.04,
+    "Output": 146.64
+  },
+  "SquelchTone": {
+    "Input": 88.5
+  }
+}

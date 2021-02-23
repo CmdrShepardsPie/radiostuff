@@ -1,0 +1,21 @@
+{
+  "ID": 199,
+  "StateID": 49,
+  "Callsign": "W7EO",
+  "Location": {
+    "Latitude": 40.13079834,
+    "Longitude": -112.3809967,
+    "County": "Tooele",
+    "State": "UT",
+    "Local": "Vernon, Vernon Hills"
+  },
+  "Use": "Open",
+  "Status": "Other",
+  "Frequency": {
+    "Input": 444.95,
+    "Output": 449.95
+  },
+  "SquelchTone": {
+    "Input": 100
+  }
+}

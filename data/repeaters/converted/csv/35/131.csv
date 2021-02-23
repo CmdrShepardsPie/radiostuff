@@ -1,0 +1,2 @@
+ID,StateID,Callsign,Use,Status,DigitalTone,Digital,VOIP,Location.Latitude,Location.Longitude,Location.County,Location.State,Location.Local,Frequency.Input,Frequency.Output,SquelchTone.Input,SquelchTone.Output
+131,35,W5NES,Open,On-Air,,,,34.70100021,-106.40200043,Torrance,NM,"Mountainair, Capilla Peak",449.075,444.075,100,

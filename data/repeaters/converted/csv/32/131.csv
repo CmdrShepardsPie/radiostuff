@@ -1,0 +1,2 @@
+ID,StateID,Callsign,Use,Status,DigitalTone,Digital,VOIP,Location.Latitude,Location.Longitude,Location.County,Location.State,Location.Local,Frequency.Input,Frequency.Output,SquelchTone.Input,SquelchTone.Output
+131,32,N7YOR,Open,Off-Air,,,,36.00730133,-115.00700378,Clark,NV,"Henderson, Black Mountain",444.625,449.625,103.5,

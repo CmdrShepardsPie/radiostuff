@@ -1,0 +1,2 @@
+ID,StateID,Callsign,Use,Status,SquelchTone,VOIP,Location.Latitude,Location.Longitude,Location.County,Location.State,Location.Local,Frequency.Input,Frequency.Output,DigitalTone.Input,DigitalTone.Output,Digital.DMR,Digital.P25,Digital.DStar,Digital.YSF.GroupID.Input,Digital.YSF.GroupID.Output
+214,49,W7SU,Open,On-Air,,,41.19990158,-111.88200378,Weber,UT,"Ogden, Mt Ogden",146.3,146.9,125,,,,,Open ↑,Open ↓

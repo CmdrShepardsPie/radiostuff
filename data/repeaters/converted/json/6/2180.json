@@ -1,0 +1,18 @@
+{
+  "ID": 2180,
+  "StateID": 6,
+  "Callsign": "N6GMS",
+  "Location": {
+    "Latitude": 34.35440063,
+    "Longitude": -117.67900085,
+    "County": "Los Angeles",
+    "State": "CA",
+    "Local": "Valyermo, Blue Ridge"
+  },
+  "Use": "Closed",
+  "Status": "Other",
+  "Frequency": {
+    "Input": 1273.125,
+    "Output": 1285.125
+  }
+}

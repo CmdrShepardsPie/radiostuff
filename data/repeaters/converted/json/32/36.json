@@ -1,0 +1,21 @@
+{
+  "ID": 36,
+  "StateID": 32,
+  "Callsign": "W7IVK",
+  "Location": {
+    "Latitude": 36.17499924,
+    "Longitude": -115.13600159,
+    "County": "Clark",
+    "State": "NV",
+    "Local": "Las Vegas, Downtown"
+  },
+  "Use": "Open",
+  "Status": "Off-Air",
+  "Frequency": {
+    "Input": 146.1,
+    "Output": 146.7
+  },
+  "SquelchTone": {
+    "Input": 136.5
+  }
+}

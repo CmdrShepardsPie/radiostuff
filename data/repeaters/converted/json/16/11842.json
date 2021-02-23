@@ -1,0 +1,23 @@
+{
+  "ID": 11842,
+  "StateID": 16,
+  "Callsign": "KF7VTM",
+  "Location": {
+    "Latitude": 42.72470093,
+    "Longitude": -114.51799774,
+    "County": "Jerome",
+    "State": "ID",
+    "Local": "Jerome"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 449.8,
+    "Output": 444.8
+  },
+  "Digital": {
+    "DStar": {
+      "Node": "KF7VTM (B) Repeater"
+    }
+  }
+}

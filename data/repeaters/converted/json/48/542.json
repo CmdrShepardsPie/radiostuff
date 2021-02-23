@@ -1,0 +1,29 @@
+{
+  "ID": 542,
+  "StateID": 48,
+  "Callsign": "W5WX",
+  "Location": {
+    "Latitude": 35.37480164,
+    "Longitude": -101.88300323,
+    "County": "Potter",
+    "State": "TX",
+    "Local": "Amarillo, KVII Tower (ABC 7)"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 146.34,
+    "Output": 146.94
+  },
+  "SquelchTone": {
+    "Input": 88.5
+  },
+  "Digital": {
+    "YSF": {
+      "GroupID": {
+        "Input": "Open ↑",
+        "Output": "Open ↓"
+      }
+    }
+  }
+}

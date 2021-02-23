@@ -1,0 +1,21 @@
+{
+  "ID": 40,
+  "StateID": 6,
+  "Callsign": "KA6GBJ",
+  "Location": {
+    "Latitude": 33.8382988,
+    "Longitude": -116.31800079,
+    "County": "Riverside",
+    "State": "CA",
+    "Local": "Thousand Palms, Indio Hills"
+  },
+  "Use": "Open",
+  "Status": "Other",
+  "Frequency": {
+    "Input": 51.34,
+    "Output": 51.84
+  },
+  "SquelchTone": {
+    "Input": 107.2
+  }
+}

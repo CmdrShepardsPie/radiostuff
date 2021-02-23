@@ -1,0 +1,2 @@
+ID,StateID,Callsign,Use,Status,SquelchTone,DigitalTone,VOIP,Location.Latitude,Location.Longitude,Location.County,Location.State,Location.Local,Frequency.Input,Frequency.Output,Digital.DMR,Digital.DStar,Digital.YSF,Digital.P25.NAC
+19562,8,WA6IFI,Open,Other,,,,37.1651118,-104.5091889,Las Animas,CO,"Trinidad, Raton Pass",902.025,927.875,,,,

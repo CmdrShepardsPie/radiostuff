@@ -1,0 +1,23 @@
+{
+  "ID": 14749,
+  "StateID": 49,
+  "Callsign": "KB7BSK",
+  "Location": {
+    "Latitude": 39.1935997,
+    "Longitude": -111.69200134,
+    "County": "Utah",
+    "State": "UT",
+    "Local": "Sterling"
+  },
+  "Use": "Open",
+  "Status": "Other",
+  "Frequency": {
+    "Input": 442.95,
+    "Output": 447.95
+  },
+  "Digital": {
+    "DStar": {
+      "Node": "KB7BSK (B)"
+    }
+  }
+}

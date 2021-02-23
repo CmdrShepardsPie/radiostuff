@@ -1,0 +1,26 @@
+{
+  "ID": 234,
+  "StateID": 4,
+  "Callsign": "K7MRG",
+  "Location": {
+    "Latitude": 34.70100021,
+    "Longitude": -112.11799622,
+    "County": "Yavapai",
+    "State": "AZ",
+    "Local": "Prescott, Mingus Mountain"
+  },
+  "Use": "Open",
+  "Status": "Off-Air",
+  "Frequency": {
+    "Input": 447.15,
+    "Output": 442.15
+  },
+  "SquelchTone": {
+    "Input": 100
+  },
+  "VOIP": {
+    "IRLP": {
+      "NodeID": 3600
+    }
+  }
+}

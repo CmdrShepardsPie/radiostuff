@@ -1,0 +1,21 @@
+{
+  "ID": 171,
+  "StateID": 4,
+  "Callsign": "K6TQM",
+  "Location": {
+    "Latitude": 33.66719818,
+    "Longitude": -114.05899811,
+    "County": "La Paz",
+    "State": "AZ",
+    "Local": "Quartzsite, Guadalupe Peak"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 147.96,
+    "Output": 147.36
+  },
+  "SquelchTone": {
+    "Input": 107.2
+  }
+}

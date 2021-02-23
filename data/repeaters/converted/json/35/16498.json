@@ -1,0 +1,24 @@
+{
+  "ID": 16498,
+  "StateID": 35,
+  "Callsign": "N5QD",
+  "Location": {
+    "Latitude": 35.2378006,
+    "Longitude": -106.60700226,
+    "County": "Sandoval",
+    "State": "NM",
+    "Local": "Corrales"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 448.2,
+    "Output": 443.2
+  },
+  "Digital": {
+    "DMR": {
+      "ColorCode": 1,
+      "ID": 313513
+    }
+  }
+}

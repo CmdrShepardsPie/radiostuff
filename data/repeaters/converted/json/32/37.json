@@ -1,0 +1,21 @@
+{
+  "ID": 37,
+  "StateID": 32,
+  "Callsign": "N7OK",
+  "Location": {
+    "Latitude": 36.00730133,
+    "Longitude": -115.00700378,
+    "County": "Clark",
+    "State": "NV",
+    "Local": "Henderson, Black Mountain"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 147.69,
+    "Output": 147.09
+  },
+  "SquelchTone": {
+    "Input": 100
+  }
+}

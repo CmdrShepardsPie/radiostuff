@@ -1,0 +1,23 @@
+{
+  "ID": 3527,
+  "StateID": 49,
+  "Callsign": "KF6RAL",
+  "Location": {
+    "Latitude": 40.65919876,
+    "Longitude": -112.20200348,
+    "County": "Salt Lake",
+    "State": "UT",
+    "Local": "Salt Lake City, Farnsworth Peak"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 1267,
+    "Output": 1287
+  },
+  "Digital": {
+    "DStar": {
+      "Node": "KF6RAL (A) Gateway"
+    }
+  }
+}

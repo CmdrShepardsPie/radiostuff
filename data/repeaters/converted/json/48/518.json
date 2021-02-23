@@ -1,0 +1,18 @@
+{
+  "ID": 518,
+  "StateID": 48,
+  "Callsign": "W5TSV",
+  "Location": {
+    "Latitude": 35.50830078,
+    "Longitude": -101.02700043,
+    "County": "Gray",
+    "State": "TX",
+    "Local": "Pampa"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 146.3,
+    "Output": 146.9
+  }
+}

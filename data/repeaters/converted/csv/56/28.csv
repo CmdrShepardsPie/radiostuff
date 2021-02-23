@@ -1,2 +1,2 @@
 ID,StateID,Callsign,Use,Status,DigitalTone,Digital,VOIP,Location.Latitude,Location.Longitude,Location.County,Location.State,Location.Local,Frequency.Input,Frequency.Output,SquelchTone.Input,SquelchTone.Output
-28,56,KC7SNO,Open,On-Air,,,,41.4178009,-104.09799957,Laramie,WY,Albin,147.765,147.165,114.8,
+28,56,KC7SNO,Open,On-Air,,,,41.4178009,-104.09799957,Laramie,WY,"Albin, Peterson Hill",147.765,147.165,114.8,114.8

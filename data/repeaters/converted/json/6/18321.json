@@ -1,0 +1,18 @@
+{
+  "ID": 18321,
+  "StateID": 6,
+  "Callsign": "W7BF",
+  "Location": {
+    "Latitude": 34.18809891,
+    "Longitude": -117.70500183,
+    "County": "Los Angeles",
+    "State": "CA",
+    "Local": "Claremont, Sunset Ridge"
+  },
+  "Use": "Private",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 443.36,
+    "Output": 448.36
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "ID": 3113,
+  "StateID": 35,
+  "Callsign": "K6LIE",
+  "Location": {
+    "Latitude": 35.19670105,
+    "Longitude": -106.51000214,
+    "County": "Bernalillo",
+    "State": "NM",
+    "Local": "Albuquerque, Northeast Heights area"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 222.88,
+    "Output": 224.48
+  },
+  "SquelchTone": {
+    "Input": 100
+  },
+  "VOIP": {
+    "IRLP": {
+      "NodeID": 3285
+    }
+  }
+}

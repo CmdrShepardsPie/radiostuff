@@ -1,0 +1,18 @@
+{
+  "ID": 146,
+  "StateID": 32,
+  "Callsign": "KC7DKC",
+  "Location": {
+    "Latitude": 36.2140007,
+    "Longitude": -115.99099731,
+    "County": "Clark",
+    "State": "NV",
+    "Local": "Pahrump"
+  },
+  "Use": "Open",
+  "Status": "Off-Air",
+  "Frequency": {
+    "Input": 442.55,
+    "Output": 447.55
+  }
+}

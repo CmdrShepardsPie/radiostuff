@@ -1,0 +1,21 @@
+{
+  "ID": 12320,
+  "StateID": 4,
+  "Callsign": "K7YCA",
+  "Location": {
+    "Latitude": 34.48889923,
+    "Longitude": -112.53500366,
+    "County": "Yavapai",
+    "State": "AZ",
+    "Local": "Prescott, Mt Francis"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 144.77,
+    "Output": 145.37
+  },
+  "SquelchTone": {
+    "Input": 127.3
+  }
+}

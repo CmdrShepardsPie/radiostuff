@@ -1,0 +1,2 @@
+ID,StateID,Callsign,Use,Status,DigitalTone,Digital,VOIP,Location.Latitude,Location.Longitude,Location.County,Location.State,Location.Local,Frequency.Input,Frequency.Output,SquelchTone.Input,SquelchTone.Output
+13102,56,N7HYF,Open,On-Air,,,,43.02500153,-108.37999725,Fremont,WY,"Riverton, Griffy Hill",444.975,449.975,127.3,

@@ -1,0 +1,22 @@
+{
+  "ID": 4100,
+  "StateID": 20,
+  "Callsign": "K0ECT",
+  "Location": {
+    "Latitude": 38.78499985,
+    "Longitude": -100.92099762,
+    "County": "Logan",
+    "State": "KS",
+    "Local": "Elkader"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 449.3,
+    "Output": 444.3
+  },
+  "SquelchTone": {
+    "Input": 141.3,
+    "Output": 141.3
+  }
+}

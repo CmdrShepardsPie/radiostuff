@@ -1,0 +1,21 @@
+{
+  "ID": 120,
+  "StateID": 32,
+  "Callsign": "NX7R",
+  "Location": {
+    "Latitude": 35.989368,
+    "Longitude": -114.946404,
+    "County": "Clark",
+    "State": "NV",
+    "Local": "Las Vegas, Mission Hills Henderson"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 442.625,
+    "Output": 447.625
+  },
+  "DigitalTone": {
+    "Input": 754
+  }
+}

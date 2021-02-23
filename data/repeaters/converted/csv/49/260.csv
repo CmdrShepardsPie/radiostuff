@@ -1,0 +1,2 @@
+ID,StateID,Callsign,Use,Status,SquelchTone,DigitalTone,Digital,VOIP,Location.Latitude,Location.Longitude,Location.County,Location.State,Location.Local,Frequency.Input,Frequency.Output
+260,49,WB7TSQ,Open,Other,,,,,41.19329834,-112.00900269,Weber,UT,Ogden,147.98,147.38

@@ -1,0 +1,21 @@
+{
+  "ID": 289,
+  "StateID": 32,
+  "Callsign": "WB6TNP",
+  "Location": {
+    "Latitude": 35.70159912,
+    "Longitude": -114.89099884,
+    "County": "Clark",
+    "State": "NV",
+    "Local": "Boulder City, Opal Mountain"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 902.3125,
+    "Output": 927.3125
+  },
+  "DigitalTone": {
+    "Input": 606
+  }
+}

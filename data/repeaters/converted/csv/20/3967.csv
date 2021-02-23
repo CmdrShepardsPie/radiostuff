@@ -1,0 +1,2 @@
+ID,StateID,Callsign,Use,Status,DigitalTone,Digital,VOIP,Location.Latitude,Location.Longitude,Location.County,Location.State,Location.Local,Frequency.Input,Frequency.Output,SquelchTone.Input,SquelchTone.Output
+3967,20,N0OMC,Open,On-Air,,,,37.93579865,-101.26399994,Kearney,KS,Lakin,146.385,146.985,156.7,156.7

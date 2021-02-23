@@ -1,0 +1,18 @@
+{
+  "ID": 249,
+  "StateID": 49,
+  "Callsign": "WA7YZR",
+  "Location": {
+    "Latitude": 40.28969955,
+    "Longitude": -111.65499878,
+    "County": "Utah",
+    "State": "UT",
+    "Local": "Provo, Edgemont SC"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 147.82,
+    "Output": 147.22
+  }
+}

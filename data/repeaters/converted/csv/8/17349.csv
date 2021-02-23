@@ -1,2 +1,2 @@
-ID,StateID,Callsign,Use,Status,DigitalTone,VOIP,Location.Latitude,Location.Longitude,Location.County,Location.State,Location.Local,Frequency.Input,Frequency.Output,SquelchTone.Input,SquelchTone.Output,Digital.DMR,Digital.P25,Digital.DStar,Digital.YSF.GroupID.Input,Digital.YSF.GroupID.Output
-17349,8,KD0SSP,Open,On-Air,,,39.75059891,-105.1230011,Jefferson,CO,"Lakewood, Moffat Treatment Plant",443.35,448.35,225.7,,,,,Open ↑,Open ↓
+ID,StateID,Callsign,Use,Status,DigitalTone,Location.Latitude,Location.Longitude,Location.County,Location.State,Location.Local,Frequency.Input,Frequency.Output,SquelchTone.Input,SquelchTone.Output,Digital.DMR,Digital.P25,Digital.DStar,VOIP.AllStar,VOIP.EchoLink,VOIP.IRLP,VOIP.Wires.ID,Digital.YSF.GroupID.Input,Digital.YSF.GroupID.Output
+17349,8,KD0SSP,Open,On-Air,,39.75059891,-105.1230011,Jefferson,CO,"Lakewood, Moffat Treatment Plant",443.35,448.35,225.7,,,,,,,,60777,Open ↑,Open ↓

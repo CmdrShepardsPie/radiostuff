@@ -1,0 +1,29 @@
+{
+  "ID": 351,
+  "StateID": 32,
+  "Callsign": "N7ARR",
+  "Location": {
+    "Latitude": 38.06719971,
+    "Longitude": -117.22899628,
+    "County": "Nye",
+    "State": "NV",
+    "Local": "Tonopah"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 146.04,
+    "Output": 146.64
+  },
+  "SquelchTone": {
+    "Input": 123
+  },
+  "VOIP": {
+    "EchoLink": {
+      "NodeID": 289028
+    },
+    "IRLP": {
+      "NodeID": 3396
+    }
+  }
+}

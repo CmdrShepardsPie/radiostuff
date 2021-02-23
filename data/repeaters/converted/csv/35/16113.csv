@@ -1,0 +1,2 @@
+ID,StateID,Callsign,Use,Status,DigitalTone,Digital,Location.Latitude,Location.Longitude,Location.County,Location.State,Location.Local,Frequency.Input,Frequency.Output,SquelchTone.Input,SquelchTone.Output,VOIP.EchoLink,VOIP.IRLP,VOIP.Wires,VOIP.AllStar.NodeID
+16113,35,N5GDR,Open,On-Air,,,36.683,-104.415,Colfax,NM,"Maxwell, Eagle Tail Mountain",144.61,145.21,110.9,110.9,,,,46298

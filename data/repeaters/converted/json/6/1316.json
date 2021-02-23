@@ -1,0 +1,21 @@
+{
+  "ID": 1316,
+  "StateID": 6,
+  "Callsign": "K6ZXZ",
+  "Location": {
+    "Latitude": 34.23479843,
+    "Longitude": -117.14099884,
+    "County": "San Bernardino",
+    "State": "CA",
+    "Local": "Lake Arrowhead, Heaps Peak"
+  },
+  "Use": "Closed",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 442.08,
+    "Output": 447.08
+  },
+  "SquelchTone": {
+    "Input": 136.5
+  }
+}

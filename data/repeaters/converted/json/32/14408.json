@@ -1,0 +1,27 @@
+{
+  "ID": 14408,
+  "StateID": 32,
+  "Callsign": "NX7R",
+  "Location": {
+    "Latitude": 36.03950119,
+    "Longitude": -114.98200226,
+    "County": "Clark",
+    "State": "NV",
+    "Local": "Henderson, Votech Mesa"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 440.625,
+    "Output": 445.625
+  },
+  "DigitalTone": {
+    "Input": 754
+  },
+  "Digital": {
+    "DMR": {
+      "ColorCode": 15,
+      "ID": 313216
+    }
+  }
+}

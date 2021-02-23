@@ -1,0 +1,24 @@
+{
+  "ID": 14414,
+  "StateID": 48,
+  "Callsign": "KE5CJ",
+  "Location": {
+    "Latitude": 35.82699966,
+    "Longitude": -101.44300079,
+    "County": "Hutchinson",
+    "State": "TX",
+    "Local": "Stinnett"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 448.4375,
+    "Output": 443.4375
+  },
+  "Digital": {
+    "DMR": {
+      "ColorCode": 14,
+      "ID": 314840
+    }
+  }
+}

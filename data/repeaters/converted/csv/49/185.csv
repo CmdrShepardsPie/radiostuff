@@ -1,0 +1,2 @@
+ID,StateID,Callsign,Use,Status,DigitalTone,Digital,VOIP,Location.Latitude,Location.Longitude,Location.County,Location.State,Location.Local,Frequency.Input,Frequency.Output,SquelchTone.Input,SquelchTone.Output
+185,49,W7CWK,Open,On-Air,,,,40.89149857,-111.88500214,Davis,UT,Bountiful,444.35,449.35,123,

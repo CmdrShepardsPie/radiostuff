@@ -1,0 +1,21 @@
+{
+  "ID": 15289,
+  "StateID": 49,
+  "Callsign": "WD7P",
+  "Location": {
+    "Latitude": 40.60969925,
+    "Longitude": -111.93900299,
+    "County": "Salt Lake",
+    "State": "UT",
+    "Local": "West Jordan"
+  },
+  "Use": "Open",
+  "Status": "Other",
+  "Frequency": {
+    "Input": 442.75,
+    "Output": 447.75
+  },
+  "SquelchTone": {
+    "Input": 100
+  }
+}

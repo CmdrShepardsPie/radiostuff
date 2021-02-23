@@ -1,0 +1,2 @@
+ID,StateID,Callsign,Use,Status,SquelchTone,DigitalTone,Digital,VOIP,Location.Latitude,Location.Longitude,Location.County,Location.State,Location.Local,Frequency.Input,Frequency.Output
+3925,20,N0LL,Open,On-Air,,,,,39.79899979,-98.67299652,Smith,KS,Smith Center,146.01,146.61

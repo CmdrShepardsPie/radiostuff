@@ -1,0 +1,21 @@
+{
+  "ID": 59,
+  "StateID": 32,
+  "Callsign": "KD7CWA",
+  "Location": {
+    "Latitude": 41.31420135,
+    "Longitude": -116.22100067,
+    "County": "Elko",
+    "State": "NV",
+    "Local": "Tuscarora"
+  },
+  "Use": "Open",
+  "Status": "Other",
+  "Frequency": {
+    "Input": 147.9,
+    "Output": 147.3
+  },
+  "SquelchTone": {
+    "Input": 100
+  }
+}

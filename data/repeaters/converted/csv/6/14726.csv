@@ -1,0 +1,2 @@
+ID,StateID,Callsign,Use,Status,DigitalTone,Digital,VOIP,Location.Latitude,Location.Longitude,Location.County,Location.State,Location.Local,Frequency.Input,Frequency.Output,SquelchTone.Input,SquelchTone.Output
+14726,6,WA6CAM,Open,On-Air,,,,34.86410141,-118.16300201,Kern,CA,"Rosamond, Taco Bell",449.575,444.575,173.8,173.8

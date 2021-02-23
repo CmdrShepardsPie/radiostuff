@@ -1,2 +1,2 @@
-ID,StateID,Callsign,Use,Status,SquelchTone,DigitalTone,VOIP,Location.Latitude,Location.Longitude,Location.County,Location.State,Location.Local,Frequency.Input,Frequency.Output,Digital.P25,Digital.YSF,Digital.DMR.ColorCode,Digital.DMR.ID,Digital.DStar.Node
-17676,8,N0KEG,Open,Other,,,,39.58069992,-104.8769989,Arapahoe,CO,Centennial,147.915,147.315,,,1,310759,N0KEG (C) Repeater
+ID,StateID,Callsign,Use,Status,SquelchTone,DigitalTone,VOIP,Location.Latitude,Location.Longitude,Location.County,Location.State,Location.Local,Frequency.Input,Frequency.Output,Digital.P25,Digital.DStar,Digital.YSF,Digital.DMR.ColorCode,Digital.DMR.ID
+17676,8,N0KEG,Open,Other,,,,39.58069992,-104.8769989,Arapahoe,CO,Centennial,147.915,147.315,,,,1,310759

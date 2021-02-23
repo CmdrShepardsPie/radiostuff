@@ -1,0 +1,21 @@
+{
+  "ID": 845,
+  "StateID": 6,
+  "Callsign": "W6SCE",
+  "Location": {
+    "Latitude": 34.67490005,
+    "Longitude": -116.81500244,
+    "County": "San Bernardino",
+    "State": "CA",
+    "Local": "Barstow, Ord Mountain"
+  },
+  "Use": "Private",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 222.72,
+    "Output": 224.32
+  },
+  "SquelchTone": {
+    "Input": 100
+  }
+}

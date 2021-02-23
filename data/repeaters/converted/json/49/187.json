@@ -1,0 +1,21 @@
+{
+  "ID": 187,
+  "StateID": 49,
+  "Callsign": "W7DBA",
+  "Location": {
+    "Latitude": 41.25899887,
+    "Longitude": -111.76300049,
+    "County": "Weber",
+    "State": "UT",
+    "Local": "Huntsville"
+  },
+  "Use": "Open",
+  "Status": "Other",
+  "Frequency": {
+    "Input": 144.61,
+    "Output": 145.21
+  },
+  "SquelchTone": {
+    "Input": 123
+  }
+}

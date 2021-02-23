@@ -1,0 +1,2 @@
+ID,StateID,Callsign,Use,Status,DigitalTone,Digital,Location.Latitude,Location.Longitude,Location.County,Location.State,Location.Local,Frequency.Input,Frequency.Output,SquelchTone.Input,SquelchTone.Output,VOIP.EchoLink,VOIP.IRLP,VOIP.Wires,VOIP.AllStar.NodeID
+13687,20,N0KOM,Open,Off-Air,,,39.44800186,-99.27459717,Rooks,KS,"Stockton, K-Link",146.19,146.79,162.2,,,,,45746

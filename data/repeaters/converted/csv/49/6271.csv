@@ -1,0 +1,2 @@
+ID,StateID,Callsign,Use,Status,DigitalTone,Digital,VOIP,Location.Latitude,Location.Longitude,Location.County,Location.State,Location.Local,Frequency.Input,Frequency.Output,SquelchTone.Input,SquelchTone.Output
+6271,49,NM7P,Open,On-Air,,,,40.66690063,-111.88800049,Salt Lake,UT,Murray,144.75,145.35,100,

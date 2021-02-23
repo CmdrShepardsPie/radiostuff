@@ -1,0 +1,2 @@
+ID,StateID,Callsign,Use,Status,DigitalTone,Digital,VOIP,Location.Latitude,Location.Longitude,Location.County,Location.State,Location.Local,Frequency.Input,Frequency.Output,SquelchTone.Input,SquelchTone.Output
+40,49,K7MLA,Open,On-Air,,,,41.02560043,-111.83699799,Davis,UT,"Layton, Francis Peak",146.36,146.96,100,

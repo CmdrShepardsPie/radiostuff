@@ -1,0 +1,34 @@
+{
+  "ID": 15093,
+  "StateID": 6,
+  "Callsign": "KK6SMA",
+  "Location": {
+    "Latitude": 33.74560165,
+    "Longitude": -116.97200012,
+    "County": "Riverside",
+    "State": "CA",
+    "Local": "Hemet, Highway 74"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 441.42,
+    "Output": 446.42
+  },
+  "DigitalTone": {
+    "Input": 432
+  },
+  "Digital": {
+    "YSF": {
+      "GroupID": {
+        "Input": "Open ↑",
+        "Output": "Open ↓"
+      }
+    }
+  },
+  "VOIP": {
+    "Wires": {
+      "ID": 33519
+    }
+  }
+}

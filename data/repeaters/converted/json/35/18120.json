@@ -1,0 +1,29 @@
+{
+  "ID": 18120,
+  "StateID": 35,
+  "Callsign": "NM5F",
+  "Location": {
+    "Latitude": 35.23279953,
+    "Longitude": -106.66300201,
+    "County": "Sandoval",
+    "State": "NM",
+    "Local": "Rio Rancho"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 448.7,
+    "Output": 443.7
+  },
+  "SquelchTone": {
+    "Input": 100
+  },
+  "VOIP": {
+    "AllStar": {
+      "NodeID": 27578
+    },
+    "EchoLink": {
+      "NodeID": 27580
+    }
+  }
+}

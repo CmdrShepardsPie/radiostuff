@@ -1,0 +1,18 @@
+{
+  "ID": 18267,
+  "StateID": 6,
+  "Callsign": "K6UHF",
+  "Location": {
+    "Latitude": 34.35179901,
+    "Longitude": -117.67500305,
+    "County": "Los Angeles",
+    "State": "CA",
+    "Local": "Phelan, Blue Ridge"
+  },
+  "Use": "Private",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 444.02,
+    "Output": 449.02
+  }
+}

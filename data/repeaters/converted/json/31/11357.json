@@ -1,0 +1,17 @@
+{
+  "ID": 11357,
+  "StateID": 31,
+  "Callsign": "W0FLO",
+  "Location": {
+    "State": "NE",
+    "Local": "Chadron"
+  },
+  "Use": "Open",
+  "Status": "Other",
+  "Frequency": {
+    "Input": null
+  },
+  "SquelchTone": {
+    "Input": 100
+  }
+}

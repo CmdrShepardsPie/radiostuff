@@ -1,0 +1,2 @@
+ID,StateID,Callsign,Use,Status,DigitalTone,Digital,VOIP,Location.Latitude,Location.Longitude,Location.County,Location.State,Location.Local,Frequency.Input,Frequency.Output,SquelchTone.Input,SquelchTone.Output
+17899,32,W7NYE,Open,On-Air,,,,36.42250061,-116.05899811,Nye,NV,Pahrump,144.89,145.49,123,

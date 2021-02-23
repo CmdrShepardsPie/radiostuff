@@ -1,0 +1,34 @@
+{
+  "ID": 205,
+  "StateID": 49,
+  "Callsign": "W7NRC",
+  "Location": {
+    "Latitude": 37.06060028,
+    "Longitude": -112.51899719,
+    "County": "Kane",
+    "State": "UT",
+    "Local": "Kanab, TV Site"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 146.28,
+    "Output": 146.88
+  },
+  "SquelchTone": {
+    "Input": 123
+  },
+  "Digital": {
+    "YSF": {
+      "GroupID": {
+        "Input": "Open ↑",
+        "Output": "Open ↓"
+      }
+    }
+  },
+  "VOIP": {
+    "EchoLink": {
+      "NodeID": 892361
+    }
+  }
+}

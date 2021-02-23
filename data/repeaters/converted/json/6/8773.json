@@ -1,0 +1,21 @@
+{
+  "ID": 8773,
+  "StateID": 6,
+  "Callsign": "KJ6NLG",
+  "Location": {
+    "Latitude": 34.53609848,
+    "Longitude": -117.29100037,
+    "County": "San Bernardino",
+    "State": "CA",
+    "Local": "Victorville"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 147.165,
+    "Output": 147.765
+  },
+  "SquelchTone": {
+    "Input": 97.4
+  }
+}

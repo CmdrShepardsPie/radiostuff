@@ -1,2 +1,2 @@
-Frequency,Offset,Tone Up / Down,Location,County,Call,Use,,state_id,ID,Latitude,Longitude,Downlink,Uplink,Uplink Tone,Op Status,Coverage,Features,Coordination,Last update
-449.525,-5,100,"St George, Winchester Hills",Washington,KA7STK,OPEN,,49,82,37.22079849,-113.62799835,449.525,444.525,100,On-Air,St. George and the neighboring communities.,Closed autopatch.,UVHFS,2015-11-05
+Frequency,Offset,Tone,Call,Location,ST/PR,Use,Mode,Mi,Dir,,state_id,ID,Latitude,Longitude,Downlink,Uplink,Uplink Tone,County,Op Status,Coverage,Features,FM,Analog Bandwidth,Coordination,Last update
+449.525,-5,100,KA7STK,"St George, Winchester Hills",UT,OPEN,FM,110.86,NE,,49,82,37.22079849,-113.62799835,449.525,444.525,100,Washington,On-Air,St. George and the neighboring communities.,Closed autopatch.,Yes; analog capable.,,UVHFS,2015-11-05

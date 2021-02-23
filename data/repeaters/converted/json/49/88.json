@@ -1,0 +1,21 @@
+{
+  "ID": 88,
+  "StateID": 49,
+  "Callsign": "KB7WQD",
+  "Location": {
+    "Latitude": 39.35219955,
+    "Longitude": -112.57700348,
+    "County": "Millard",
+    "State": "UT",
+    "Local": "Delta, Notch Peak"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 147.98,
+    "Output": 147.38
+  },
+  "SquelchTone": {
+    "Input": 203.5
+  }
+}

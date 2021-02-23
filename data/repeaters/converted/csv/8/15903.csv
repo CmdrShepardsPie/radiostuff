@@ -1,0 +1,2 @@
+ID,StateID,Callsign,Use,Status,DigitalTone,Digital,VOIP,Location.Latitude,Location.Longitude,Location.County,Location.State,Location.Local,Frequency.Input,Frequency.Output,SquelchTone.Input,SquelchTone.Output
+15903,8,K0JSC,Open,On-Air,,,,39.17490005,-105.03399658,Douglas,CO,"Larkspur, Westcreek",444.975,449.975,100,100

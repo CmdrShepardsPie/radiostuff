@@ -1,0 +1,24 @@
+{
+  "ID": 16627,
+  "StateID": 20,
+  "Callsign": "KB0SJR",
+  "Location": {
+    "Latitude": 38.88270187,
+    "Longitude": -98.85949707,
+    "County": "Russell",
+    "State": "KS",
+    "Local": "Russell"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 447,
+    "Output": 442
+  },
+  "Digital": {
+    "DMR": {
+      "ColorCode": 1,
+      "ID": 312025
+    }
+  }
+}

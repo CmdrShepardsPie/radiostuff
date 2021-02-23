@@ -1,0 +1,2 @@
+ID,StateID,Callsign,Use,Status,DigitalTone,Digital,VOIP,Location.Latitude,Location.Longitude,Location.County,Location.State,Location.Local,Frequency.Input,Frequency.Output,SquelchTone.Input,SquelchTone.Output
+15896,8,KB5ITS,Open,On-Air,,,,37.36000061,-108.15000153,Montezuma,CO,"Mancos, Caviness Mountain",447.375,442.375,100,

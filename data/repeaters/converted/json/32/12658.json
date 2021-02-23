@@ -1,0 +1,22 @@
+{
+  "ID": 12658,
+  "StateID": 32,
+  "Callsign": "KF7DXU",
+  "Location": {
+    "Latitude": 36.20830154,
+    "Longitude": -115.98400116,
+    "County": "Nye",
+    "State": "NV",
+    "Local": "Pahrump"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 441.325,
+    "Output": 446.325
+  },
+  "SquelchTone": {
+    "Input": 141.3,
+    "Output": 141.3
+  }
+}

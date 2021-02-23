@@ -1,0 +1,26 @@
+{
+  "ID": 83,
+  "StateID": 49,
+  "Callsign": "KA7STK",
+  "Location": {
+    "Latitude": 37.10689926,
+    "Longitude": -113.58100128,
+    "County": "Washington",
+    "State": "UT",
+    "Local": "St George"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 444.425,
+    "Output": 449.425
+  },
+  "SquelchTone": {
+    "Input": 203.5
+  },
+  "VOIP": {
+    "IRLP": {
+      "NodeID": 3310
+    }
+  }
+}

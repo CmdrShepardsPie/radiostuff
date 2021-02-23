@@ -1,0 +1,21 @@
+{
+  "ID": 74,
+  "StateID": 35,
+  "Callsign": "N5BOP",
+  "Location": {
+    "Latitude": 36.76110077,
+    "Longitude": -103.83399963,
+    "County": "Union",
+    "State": "NM",
+    "Local": "Des Moines"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 449.8,
+    "Output": 444.8
+  },
+  "SquelchTone": {
+    "Input": 77
+  }
+}

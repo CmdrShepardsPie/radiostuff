@@ -1,0 +1,2 @@
+ID,StateID,Callsign,Use,Status,DigitalTone,Digital,VOIP,Location.Latitude,Location.Longitude,Location.County,Location.State,Location.Local,Frequency.Input,Frequency.Output,SquelchTone.Input,SquelchTone.Output
+12643,31,W0FLO,Open,On-Air,,,,42.72890091,-103.11100006,Dawes,NE,"Chadron, Nebraska National Forest",147.96,147.36,123,123

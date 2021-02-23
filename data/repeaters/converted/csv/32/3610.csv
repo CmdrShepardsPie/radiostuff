@@ -1,0 +1,2 @@
+ID,StateID,Callsign,Use,Status,DigitalTone,Digital,VOIP,Location.Latitude,Location.Longitude,Location.County,Location.State,Location.Local,Frequency.Input,Frequency.Output,SquelchTone.Input,SquelchTone.Output
+3610,32,W7MVR,Open,On-Air,,,,36.68510056,-114.51899719,Clark,NV,"Logandale, Beacon Hill",147.99,147.39,100,100

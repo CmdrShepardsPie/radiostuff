@@ -1,0 +1,29 @@
+{
+  "ID": 2415,
+  "StateID": 6,
+  "Callsign": "K6PNG",
+  "Location": {
+    "Latitude": 34.61059952,
+    "Longitude": -117.28700256,
+    "County": "San Bernardino",
+    "State": "CA",
+    "Local": "Victorville, Quartzite Mountain"
+  },
+  "Use": "Closed",
+  "Status": "Other",
+  "Frequency": {
+    "Input": 443.9,
+    "Output": 448.9
+  },
+  "SquelchTone": {
+    "Input": 67
+  },
+  "VOIP": {
+    "AllStar": {
+      "NodeID": 2353
+    },
+    "IRLP": {
+      "NodeID": 3358
+    }
+  }
+}

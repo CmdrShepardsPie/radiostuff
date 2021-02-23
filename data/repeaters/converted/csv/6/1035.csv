@@ -1,0 +1,2 @@
+ID,StateID,Callsign,Use,Status,DigitalTone,Digital,VOIP,Location.Latitude,Location.Longitude,Location.County,Location.State,Location.Local,Frequency.Input,Frequency.Output,SquelchTone.Input,SquelchTone.Output
+1035,6,KC6OPU,Open,On-Air,,,,34.4090004,-117.32299805,San Bernardino,CA,Hesperia,442,447,136.5,

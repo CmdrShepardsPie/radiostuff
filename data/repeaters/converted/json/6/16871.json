@@ -1,0 +1,24 @@
+{
+  "ID": 16871,
+  "StateID": 6,
+  "Callsign": "AI6BX",
+  "Location": {
+    "Latitude": 34.05559921,
+    "Longitude": -117.18299866,
+    "County": "San Bernardino",
+    "State": "CA",
+    "Local": "Redlands"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 440.3,
+    "Output": 445.3
+  },
+  "Digital": {
+    "DMR": {
+      "ColorCode": 3,
+      "ID": 310013
+    }
+  }
+}

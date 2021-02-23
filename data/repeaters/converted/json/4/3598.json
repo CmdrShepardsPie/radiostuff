@@ -1,0 +1,21 @@
+{
+  "ID": 3598,
+  "StateID": 4,
+  "Callsign": "KA6NLS",
+  "Location": {
+    "Latitude": 35.18939972,
+    "Longitude": -114.0530014,
+    "County": "Mohave",
+    "State": "AZ",
+    "Local": "Kingman"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 51.44,
+    "Output": 51.94
+  },
+  "SquelchTone": {
+    "Input": 100
+  }
+}

@@ -1,0 +1,2 @@
+ID,StateID,Callsign,Use,Status,DigitalTone,Digital,VOIP,Location.Latitude,Location.Longitude,Location.County,Location.State,Location.Local,Frequency.Input,Frequency.Output,SquelchTone.Input,SquelchTone.Output
+12824,6,W6DRA,Open,Other,,,,33.72219849,-116.37400055,Riverside,CA,Palm Desert,442.32,447.32,107.2,

@@ -1,0 +1,2 @@
+ID,StateID,Callsign,Use,Status,SquelchTone,DigitalTone,VOIP,Location.Latitude,Location.Longitude,Location.County,Location.State,Location.Local,Frequency.Input,Frequency.Output,Digital.DMR,Digital.P25,Digital.YSF,Digital.DStar.Node
+11162,49,KE7EGG,Open,Other,,,,41.22299957,-111.97399902,Weber,UT,"Ogden, Sheriff's Office",1278.75,1298.75,,,,KE7EGG (A)

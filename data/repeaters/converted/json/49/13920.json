@@ -1,0 +1,22 @@
+{
+  "ID": 13920,
+  "StateID": 49,
+  "Callsign": "KX7VC",
+  "Location": {
+    "Latitude": 40.43349838,
+    "Longitude": -111.79000092,
+    "County": "Utah",
+    "State": "UT",
+    "Local": "Highland, KX7VC QTH"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 442.725,
+    "Output": 447.725
+  },
+  "SquelchTone": {
+    "Input": 167.9,
+    "Output": 167.9
+  }
+}

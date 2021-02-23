@@ -1,0 +1,29 @@
+{
+  "ID": 13090,
+  "StateID": 49,
+  "Callsign": "KG7QWU",
+  "Location": {
+    "Latitude": 40.39160156,
+    "Longitude": -111.85099792,
+    "County": "Utah",
+    "State": "UT",
+    "Local": "Lehi"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 443.875,
+    "Output": 448.875
+  },
+  "SquelchTone": {
+    "Input": 100
+  },
+  "Digital": {
+    "YSF": {
+      "GroupID": {
+        "Input": "Open ↑",
+        "Output": "Open ↓"
+      }
+    }
+  }
+}

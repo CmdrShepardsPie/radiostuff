@@ -1,0 +1,21 @@
+{
+  "ID": 2,
+  "StateID": 56,
+  "Callsign": "K7JL",
+  "Location": {
+    "Latitude": 41.34859848,
+    "Longitude": -110.90200043,
+    "County": "Uinta",
+    "State": "WY",
+    "Local": "Evanston, Medicine Butte"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 146.26,
+    "Output": 146.86
+  },
+  "SquelchTone": {
+    "Input": 100
+  }
+}

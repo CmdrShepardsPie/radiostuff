@@ -1,0 +1,17 @@
+{
+  "ID": 19723,
+  "StateID": 8,
+  "Callsign": "W5ALC",
+  "Location": {
+    "State": "CO",
+    "Local": "Pueblo"
+  },
+  "Use": "Open",
+  "Status": "Other",
+  "Frequency": {
+    "Input": null
+  },
+  "SquelchTone": {
+    "Input": 100
+  }
+}

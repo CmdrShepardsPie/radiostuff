@@ -1,0 +1,21 @@
+{
+  "ID": 314,
+  "StateID": 4,
+  "Callsign": "N7SKO",
+  "Location": {
+    "Latitude": 35.07500076,
+    "Longitude": -113.90000153,
+    "County": "Mohave",
+    "State": "AZ",
+    "Local": "Kingman, Hualapai Mtn"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 443.25,
+    "Output": 448.25
+  },
+  "SquelchTone": {
+    "Input": 131.8
+  }
+}

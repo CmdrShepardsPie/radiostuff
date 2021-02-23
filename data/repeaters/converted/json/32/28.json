@@ -1,0 +1,21 @@
+{
+  "ID": 28,
+  "StateID": 32,
+  "Callsign": "AD7DP",
+  "Location": {
+    "Latitude": 36.2140007,
+    "Longitude": -115.99099731,
+    "County": "Nye",
+    "State": "NV",
+    "Local": "Pahrump"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 147.72,
+    "Output": 147.12
+  },
+  "SquelchTone": {
+    "Input": 94.8
+  }
+}

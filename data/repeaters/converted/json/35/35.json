@@ -1,0 +1,26 @@
+{
+  "ID": 35,
+  "StateID": 35,
+  "Callsign": "W5AOX",
+  "Location": {
+    "Latitude": 35.1631012,
+    "Longitude": -106.34799957,
+    "County": "Bernalillo",
+    "State": "NM",
+    "Local": "Sandia park"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 449.15,
+    "Output": 444.15
+  },
+  "SquelchTone": {
+    "Input": 100
+  },
+  "VOIP": {
+    "EchoLink": {
+      "NodeID": 3061
+    }
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "ID": 451,
+  "StateID": 6,
+  "Callsign": "KA6OLD",
+  "Location": {
+    "Latitude": 34.42639923,
+    "Longitude": -117.30000305,
+    "County": "San Bernardino",
+    "State": "CA",
+    "Local": "Hesperia"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 147.9,
+    "Output": 147.3
+  },
+  "SquelchTone": {
+    "Input": 91.5
+  }
+}

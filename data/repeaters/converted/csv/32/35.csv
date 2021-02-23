@@ -1,0 +1,2 @@
+ID,StateID,Callsign,Use,Status,DigitalTone,Digital,VOIP,Location.Latitude,Location.Longitude,Location.County,Location.State,Location.Local,Frequency.Input,Frequency.Output,SquelchTone.Input,SquelchTone.Output
+35,32,WA7CYC,Open,On-Air,,,,36.21910095,-115.11100006,Clark,NV,North Las Vegas,146.07,146.67,136.5,

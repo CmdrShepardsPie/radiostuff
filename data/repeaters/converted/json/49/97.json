@@ -1,0 +1,21 @@
+{
+  "ID": 97,
+  "StateID": 49,
+  "Callsign": "KD0J",
+  "Location": {
+    "Latitude": 40.59049988,
+    "Longitude": -111.97499847,
+    "County": "Salt Lake",
+    "State": "UT",
+    "Local": "Salt Lake City, Jordan Vly Hospital"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 223.18,
+    "Output": 224.78
+  },
+  "SquelchTone": {
+    "Input": 100
+  }
+}

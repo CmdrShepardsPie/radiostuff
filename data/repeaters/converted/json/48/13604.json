@@ -1,0 +1,23 @@
+{
+  "ID": 13604,
+  "StateID": 48,
+  "Callsign": "W5WDR",
+  "Location": {
+    "Latitude": 35.82699966,
+    "Longitude": -101.44300079,
+    "County": "Hutchinson",
+    "State": "TX",
+    "Local": "Stinnett"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 449.8,
+    "Output": 444.8
+  },
+  "VOIP": {
+    "Wires": {
+      "ID": 21379
+    }
+  }
+}

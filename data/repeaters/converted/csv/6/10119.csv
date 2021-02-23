@@ -1,0 +1,2 @@
+ID,StateID,Callsign,Use,Status,DigitalTone,Digital,VOIP,Location.Latitude,Location.Longitude,Location.County,Location.State,Location.Local,Frequency.Input,Frequency.Output,SquelchTone.Input,SquelchTone.Output
+10119,6,W6TD,Open,On-Air,,,,36.97719955,-118.12200165,Inyo,CA,"Bishop, Mazourka Peak",52.08,52.58,103.5,

@@ -1,0 +1,29 @@
+{
+  "ID": 90,
+  "StateID": 49,
+  "Callsign": "KB7ZCL",
+  "Location": {
+    "Latitude": 41.09780121,
+    "Longitude": -111.64600372,
+    "County": "Morgan",
+    "State": "UT",
+    "Local": "Morgan, TV Site."
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 147.7,
+    "Output": 147.1
+  },
+  "SquelchTone": {
+    "Input": 123
+  },
+  "Digital": {
+    "YSF": {
+      "GroupID": {
+        "Input": "Open ↑",
+        "Output": "Open ↓"
+      }
+    }
+  }
+}

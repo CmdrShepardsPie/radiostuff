@@ -1,0 +1,2 @@
+ID,StateID,Callsign,Use,Status,DigitalTone,Digital,VOIP,Location.Latitude,Location.Longitude,Location.County,Location.State,Location.Local,Frequency.Input,Frequency.Output,SquelchTone.Input,SquelchTone.Output
+6211,20,KB0VFV,Open,On-Air,,,,37.61399841,-99.10299683,Kiowa,KS,Haviland,449.125,444.125,156.7,156.7

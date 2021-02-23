@@ -1,0 +1,26 @@
+{
+  "ID": 19247,
+  "StateID": 35,
+  "Callsign": "N5UBJ",
+  "Location": {
+    "Latitude": 36.762,
+    "Longitude": -108.182,
+    "County": "San Juan",
+    "State": "NM",
+    "Local": "Farmington, College Hill"
+  },
+  "Use": "Open",
+  "Status": "Other",
+  "Frequency": {
+    "Input": 902.8875,
+    "Output": 927.8875
+  },
+  "SquelchTone": {
+    "Input": 131.8
+  },
+  "Digital": {
+    "P25": {
+      "NAC": 293
+    }
+  }
+}

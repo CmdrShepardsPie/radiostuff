@@ -1,0 +1,2 @@
+ID,StateID,Callsign,Use,Status,DigitalTone,Digital,VOIP,Location.Latitude,Location.Longitude,Location.County,Location.State,Location.Local,Frequency.Input,Frequency.Output,SquelchTone.Input,SquelchTone.Output
+377,6,W6DRA,Open,On-Air,,,,33.8132019,-116.63899994,Riverside,CA,"Palm Springs, Tram 2",144.6,145.2,131.8,

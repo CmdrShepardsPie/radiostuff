@@ -1,0 +1,29 @@
+{
+  "ID": 117,
+  "StateID": 49,
+  "Callsign": "K7UB",
+  "Location": {
+    "Latitude": 41.77949905,
+    "Longitude": -112.17900085,
+    "County": "Box Elder",
+    "State": "UT",
+    "Local": "Riverside"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 147.82,
+    "Output": 147.22
+  },
+  "SquelchTone": {
+    "Input": 123
+  },
+  "VOIP": {
+    "EchoLink": {
+      "NodeID": 645522
+    },
+    "IRLP": {
+      "NodeID": 7172
+    }
+  }
+}

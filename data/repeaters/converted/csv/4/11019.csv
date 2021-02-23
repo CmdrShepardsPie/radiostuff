@@ -1,0 +1,2 @@
+ID,StateID,Callsign,Use,Status,DigitalTone,Digital,VOIP,Location.Latitude,Location.Longitude,Location.County,Location.State,Location.Local,Frequency.Input,Frequency.Output,SquelchTone.Input,SquelchTone.Output
+11019,4,K6PNG,Open,Off-Air,,,,34.48389816,-114.3219986,Mohave,AZ,Lake Havasu City,444.125,449.125,67,

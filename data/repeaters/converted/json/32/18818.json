@@ -1,0 +1,23 @@
+{
+  "ID": 18818,
+  "StateID": 32,
+  "Callsign": "W7DEM",
+  "Location": {
+    "Latitude": 36.318217,
+    "Longitude": -115.574933,
+    "County": "Clark",
+    "State": "NV",
+    "Local": "North Las Vegas, Angel pk."
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 444.55,
+    "Output": 449.55
+  },
+  "VOIP": {
+    "Wires": {
+      "ID": 21676
+    }
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "ID": 15373,
+  "StateID": 4,
+  "Callsign": "W7AZQ",
+  "Location": {
+    "Latitude": 33.670927,
+    "Longitude": -114.2264521,
+    "County": "La Paz",
+    "State": "AZ",
+    "Local": "Quartzsite, West Park"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 442,
+    "Output": 447
+  },
+  "SquelchTone": {
+    "Input": 123,
+    "Output": 123
+  },
+  "VOIP": {
+    "AllStar": {
+      "NodeID": 50892
+    }
+  }
+}

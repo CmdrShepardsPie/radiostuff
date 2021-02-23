@@ -1,0 +1,21 @@
+{
+  "ID": 112,
+  "StateID": 49,
+  "Callsign": "KE7GHK",
+  "Location": {
+    "Latitude": 40.56980133,
+    "Longitude": -111.89499664,
+    "County": "Salt Lake",
+    "State": "UT",
+    "Local": "Salt Lake, Carrigan Ridge"
+  },
+  "Use": "Open",
+  "Status": "Other",
+  "Frequency": {
+    "Input": 144.81,
+    "Output": 145.41
+  },
+  "DigitalTone": {
+    "Input": 125
+  }
+}

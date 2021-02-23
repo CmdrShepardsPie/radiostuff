@@ -1,0 +1,18 @@
+{
+  "ID": 1260,
+  "StateID": 48,
+  "Callsign": "N5LTZ",
+  "Location": {
+    "Latitude": 35.22000122,
+    "Longitude": -101.83000183,
+    "County": "Potter",
+    "State": "TX",
+    "Local": "Amarillo"
+  },
+  "Use": "Closed",
+  "Status": "Other",
+  "Frequency": {
+    "Input": 448.5,
+    "Output": 443.5
+  }
+}

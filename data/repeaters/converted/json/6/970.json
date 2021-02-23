@@ -1,0 +1,21 @@
+{
+  "ID": 970,
+  "StateID": 6,
+  "Callsign": "WA6ITC",
+  "Location": {
+    "Latitude": 34.23189926,
+    "Longitude": -116.78299713,
+    "County": "San Bernardino",
+    "State": "CA",
+    "Local": "Big Bear City"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 441.4,
+    "Output": 446.4
+  },
+  "SquelchTone": {
+    "Input": 162.2
+  }
+}

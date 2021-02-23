@@ -1,0 +1,18 @@
+{
+  "ID": 252,
+  "StateID": 49,
+  "Callsign": "WB6TNP",
+  "Location": {
+    "Latitude": 37.05329895,
+    "Longitude": -113.82299805,
+    "County": "Washington",
+    "State": "UT",
+    "Local": "St George, Scrub Peak"
+  },
+  "Use": "Private",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 443.725,
+    "Output": 448.725
+  }
+}

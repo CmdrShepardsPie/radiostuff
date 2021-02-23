@@ -1,0 +1,21 @@
+{
+  "ID": 132,
+  "StateID": 32,
+  "Callsign": "N6DD",
+  "Location": {
+    "Latitude": 35.96519852,
+    "Longitude": -115.5,
+    "County": "Clark",
+    "State": "NV",
+    "Local": "Las Vegas, Hi Potosi Mountain"
+  },
+  "Use": "Private",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 444,
+    "Output": 449
+  },
+  "SquelchTone": {
+    "Input": 131.8
+  }
+}

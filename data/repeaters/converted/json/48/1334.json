@@ -1,0 +1,18 @@
+{
+  "ID": 1334,
+  "StateID": 48,
+  "Callsign": "N5LTZ",
+  "Location": {
+    "Latitude": 35.91279984,
+    "Longitude": -100.38200378,
+    "County": "Hemphill",
+    "State": "TX",
+    "Local": "Canadian"
+  },
+  "Use": "Closed",
+  "Status": "Other",
+  "Frequency": {
+    "Input": 448.75,
+    "Output": 443.75
+  }
+}

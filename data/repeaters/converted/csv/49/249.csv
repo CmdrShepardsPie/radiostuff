@@ -1,0 +1,2 @@
+ID,StateID,Callsign,Use,Status,SquelchTone,DigitalTone,Digital,VOIP,Location.Latitude,Location.Longitude,Location.County,Location.State,Location.Local,Frequency.Input,Frequency.Output
+249,49,WA7YZR,Open,On-Air,,,,,40.28969955,-111.65499878,Utah,UT,"Provo, Edgemont SC",147.82,147.22

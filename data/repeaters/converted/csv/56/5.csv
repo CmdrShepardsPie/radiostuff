@@ -1,0 +1,2 @@
+ID,StateID,Callsign,Use,Status,DigitalTone,Digital,VOIP,Location.Latitude,Location.Longitude,Location.County,Location.State,Location.Local,Frequency.Input,Frequency.Output,SquelchTone.Input,SquelchTone.Output
+5,56,W7VNJ,Open,On-Air,,,,42.74290085,-106.30799866,Natrona,WY,"Casper, Casper Mountain",144.635,145.235,100,100

@@ -1,0 +1,2 @@
+ID,StateID,Callsign,Use,Status,DigitalTone,VOIP,Location.Latitude,Location.Longitude,Location.County,Location.State,Location.Local,Frequency.Input,Frequency.Output,SquelchTone.Input,SquelchTone.Output,Digital.DMR,Digital.P25,Digital.DStar,Digital.YSF.GroupID.Input,Digital.YSF.GroupID.Output
+28,49,WA7VHF,Open,On-Air,,,40.65829849,-112.20300293,Salt Lake,UT,"Salt Lake City, Farnsworth Peak",146.34,146.94,88.5,,,,,Open ↑,Open ↓

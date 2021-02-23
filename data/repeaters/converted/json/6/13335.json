@@ -1,0 +1,21 @@
+{
+  "ID": 13335,
+  "StateID": 6,
+  "Callsign": "W6ECS",
+  "Location": {
+    "Latitude": 34.42639923,
+    "Longitude": -117.3010025,
+    "County": "San Bernardino",
+    "State": "CA",
+    "Local": "Hesperia"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 146.625,
+    "Output": 146.025
+  },
+  "DigitalTone": {
+    "Input": 205
+  }
+}

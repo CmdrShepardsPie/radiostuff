@@ -1,0 +1,2 @@
+ID,StateID,Callsign,Use,Status,DigitalTone,Digital,VOIP,Location.Latitude,Location.Longitude,Location.County,Location.State,Location.Local,Frequency.Input,Frequency.Output,SquelchTone.Input,SquelchTone.Output
+26,32,K7UGE,Open,On-Air,,,,36.13489914,-115.16000366,Clark,NV,"Las Vegas, Westgate Hotel and Casino",146.34,146.94,100,

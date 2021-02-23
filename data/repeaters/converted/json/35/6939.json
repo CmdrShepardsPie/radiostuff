@@ -1,0 +1,26 @@
+{
+  "ID": 6939,
+  "StateID": 35,
+  "Callsign": "KF5ERC",
+  "Location": {
+    "Latitude": 34.98099899,
+    "Longitude": -106.3259964,
+    "County": "Bernalillo",
+    "State": "NM",
+    "Local": "Albuquerque"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 146.32,
+    "Output": 146.92
+  },
+  "SquelchTone": {
+    "Input": 67
+  },
+  "VOIP": {
+    "EchoLink": {
+      "NodeID": 714941
+    }
+  }
+}

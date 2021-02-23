@@ -1,0 +1,2 @@
+ID,StateID,Callsign,Use,Status,SquelchTone,Digital,VOIP,Location.Latitude,Location.Longitude,Location.County,Location.State,Location.Local,Frequency.Input,Frequency.Output,DigitalTone.Input,DigitalTone.Output
+2666,6,N6CA,Open,On-Air,,,,34.1881,-117.705,Los Angeles,CA,Sunset Ridge,902.65,927.65,411,

@@ -1,0 +1,2 @@
+ID,StateID,Callsign,Use,Status,DigitalTone,Digital,VOIP,Location.Latitude,Location.Longitude,Location.County,Location.State,Location.Local,Frequency.Input,Frequency.Output,SquelchTone.Input,SquelchTone.Output
+16750,35,K7LEN,Open,Off-Air,,,,35.68059921,-109.0530014,McKinley,NM,Window Rock,144.69,145.29,123,

@@ -1,0 +1,2 @@
+ID,StateID,Callsign,Use,Status,DigitalTone,Digital,VOIP,Location.Latitude,Location.Longitude,Location.County,Location.State,Location.Local,Frequency.Input,Frequency.Output,SquelchTone.Input,SquelchTone.Output
+45,32,N7ELY,Open,On-Air,,,,39.26599884,-114.89399719,White Pine,NV,"Ely, Squaw Peak",146.28,146.88,114.8,

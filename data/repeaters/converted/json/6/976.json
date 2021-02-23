@@ -1,0 +1,26 @@
+{
+  "ID": 976,
+  "StateID": 6,
+  "Callsign": "KD6AFA",
+  "Location": {
+    "Latitude": 34.18809891,
+    "Longitude": -117.70500183,
+    "County": "Los Angeles",
+    "State": "CA",
+    "Local": "Claremont, Sunset Ridge"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 440.92,
+    "Output": 445.92
+  },
+  "SquelchTone": {
+    "Input": 186.2
+  },
+  "VOIP": {
+    "EchoLink": {
+      "NodeID": 138314
+    }
+  }
+}

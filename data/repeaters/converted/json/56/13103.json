@@ -1,0 +1,34 @@
+{
+  "ID": 13103,
+  "StateID": 56,
+  "Callsign": "N7DMO",
+  "Location": {
+    "Latitude": 43.0387001,
+    "Longitude": -108.43800354,
+    "County": "Fremont",
+    "State": "WY",
+    "Local": "Riverton, Griffy Hill"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 446.67,
+    "Output": 441.67
+  },
+  "Digital": {
+    "DStar": {
+      "Node": "N7DMO (B)"
+    },
+    "YSF": {
+      "GroupID": {
+        "Input": "Open ↑",
+        "Output": "Open ↓"
+      }
+    }
+  },
+  "VOIP": {
+    "EchoLink": {
+      "NodeID": 161145
+    }
+  }
+}

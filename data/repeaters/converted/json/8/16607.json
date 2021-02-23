@@ -1,0 +1,21 @@
+{
+  "ID": 16607,
+  "StateID": 8,
+  "Callsign": "KB5ITS",
+  "Location": {
+    "Latitude": 38.02999878,
+    "Longitude": -107.31500244,
+    "County": "Hinsdale",
+    "State": "CO",
+    "Local": "Lake City, Hill 71"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 147.735,
+    "Output": 147.135
+  },
+  "SquelchTone": {
+    "Input": 123
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "ID": 300,
+  "StateID": 32,
+  "Callsign": "KC7DKC",
+  "Location": {
+    "Latitude": 36.21360016,
+    "Longitude": -115.99099731,
+    "County": "Nye",
+    "State": "NV",
+    "Local": "Pahrump Valley"
+  },
+  "Use": "Open",
+  "Status": "Off-Air",
+  "Frequency": {
+    "Input": 223.12,
+    "Output": 224.72
+  }
+}

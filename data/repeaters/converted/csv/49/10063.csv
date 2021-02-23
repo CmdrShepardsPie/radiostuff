@@ -1,0 +1,2 @@
+ID,StateID,Callsign,Use,Status,SquelchTone,DigitalTone,Digital,VOIP,Location.Latitude,Location.Longitude,Location.County,Location.State,Location.Local,Frequency.Input,Frequency.Output
+10063,49,K5JCA,Open,On-Air,,,,,37.1753006,-113.29000092,Washington,UT,"Hurricane, Hurricane Mesa",444.275,449.275

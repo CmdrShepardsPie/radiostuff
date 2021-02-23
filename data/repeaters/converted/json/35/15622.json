@@ -1,0 +1,21 @@
+{
+  "ID": 15622,
+  "StateID": 35,
+  "Callsign": "W5HO",
+  "Location": {
+    "Latitude": 35.86729813,
+    "Longitude": -106.63800049,
+    "County": "Santa Fe",
+    "State": "NM",
+    "Local": "La Cueva"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 144.81,
+    "Output": 145.41
+  },
+  "SquelchTone": {
+    "Input": 100
+  }
+}

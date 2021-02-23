@@ -1,0 +1,26 @@
+{
+  "ID": 1006,
+  "StateID": 6,
+  "Callsign": "K6IFR",
+  "Location": {
+    "Latitude": 33.8382988,
+    "Longitude": -116.31800079,
+    "County": "Riverside",
+    "State": "CA",
+    "Local": "Palm Springs, Indio Hills"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 440.64,
+    "Output": 445.64
+  },
+  "SquelchTone": {
+    "Input": 131.8
+  },
+  "VOIP": {
+    "IRLP": {
+      "NodeID": 3540
+    }
+  }
+}

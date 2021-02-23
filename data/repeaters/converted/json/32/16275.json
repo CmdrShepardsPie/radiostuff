@@ -1,0 +1,18 @@
+{
+  "ID": 16275,
+  "StateID": 32,
+  "Callsign": "ND7M",
+  "Location": {
+    "Latitude": 36.20830154,
+    "Longitude": -115.98400116,
+    "County": "Nye",
+    "State": "NV",
+    "Local": "Pahrump"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 147.96,
+    "Output": 147.36
+  }
+}

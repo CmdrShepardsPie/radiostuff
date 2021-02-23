@@ -71,7 +71,7 @@ async function doIt(location: gpsDistance.Point, outFileName: string): Promise<v
         FrequencyBand.$1_25_m,
         FrequencyBand.$70_cm,
       ))
-      .filter(filterMode(Mode.FM)),
+      .filter(filterMode(Mode.Any)),
   ]
     .map((map: RepeaterStructured): Chirp => convertToRadio(map));
 

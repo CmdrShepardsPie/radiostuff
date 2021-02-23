@@ -1,0 +1,21 @@
+{
+  "ID": 146,
+  "StateID": 49,
+  "Callsign": "N7KM",
+  "Location": {
+    "Latitude": 37.64500046,
+    "Longitude": -113.3730011,
+    "County": "Iron",
+    "State": "UT",
+    "Local": "Cedar City, Iron Mountain"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 146.38,
+    "Output": 146.98
+  },
+  "SquelchTone": {
+    "Input": 100
+  }
+}

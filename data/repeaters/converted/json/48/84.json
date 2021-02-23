@@ -1,0 +1,21 @@
+{
+  "ID": 84,
+  "StateID": 48,
+  "Callsign": "N5LTZ",
+  "Location": {
+    "Latitude": 35.69139862,
+    "Longitude": -100.63800049,
+    "County": "Roberts",
+    "State": "TX",
+    "Local": "Miami"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 449.85,
+    "Output": 444.85
+  },
+  "SquelchTone": {
+    "Input": 88.5
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "ID": 7085,
+  "StateID": 6,
+  "Callsign": "KC6NKK",
+  "Location": {
+    "Latitude": 34.89580154,
+    "Longitude": -117.01699829,
+    "County": "San Bernardino",
+    "State": "CA",
+    "Local": "Barstow"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 902.55,
+    "Output": 927.55
+  },
+  "SquelchTone": {
+    "Input": 100,
+    "Output": 100
+  },
+  "VOIP": {
+    "AllStar": {
+      "NodeID": 40926
+    }
+  }
+}

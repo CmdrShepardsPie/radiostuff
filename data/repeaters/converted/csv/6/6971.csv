@@ -1,0 +1,2 @@
+ID,StateID,Callsign,Use,Status,DigitalTone,Digital,VOIP,Location.Latitude,Location.Longitude,Location.County,Location.State,Location.Local,Frequency.Input,Frequency.Output,SquelchTone.Input,SquelchTone.Output
+6971,6,K6DK,Open,On-Air,,,,35.1385994,-116.22699738,San Bernardino,CA,"Baker, Shamrock Peak",147.75,147.15,131.8,131.8

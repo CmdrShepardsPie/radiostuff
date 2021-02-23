@@ -1,0 +1,29 @@
+{
+  "ID": 13937,
+  "StateID": 4,
+  "Callsign": "K7LHC",
+  "Location": {
+    "Latitude": 34.55139923,
+    "Longitude": -114.19499969,
+    "County": "Mohave",
+    "State": "AZ",
+    "Local": "Lake Havasu City, Crossman Peak"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 146.02,
+    "Output": 146.62
+  },
+  "SquelchTone": {
+    "Input": 131.8
+  },
+  "Digital": {
+    "YSF": {
+      "GroupID": {
+        "Input": "Open ↑",
+        "Output": "Open ↓"
+      }
+    }
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "ID": 49,
+  "StateID": 56,
+  "Callsign": "KG7VVQ",
+  "Location": {
+    "Latitude": 41.83860016,
+    "Longitude": -110.5039978,
+    "County": "Lincoln",
+    "State": "WY",
+    "Local": "Kemmerer, Quealy Peak"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 147.69,
+    "Output": 147.09
+  },
+  "SquelchTone": {
+    "Input": 100
+  }
+}

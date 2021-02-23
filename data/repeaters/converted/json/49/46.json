@@ -1,0 +1,23 @@
+{
+  "ID": 46,
+  "StateID": 49,
+  "Callsign": "W7IHC",
+  "Location": {
+    "Latitude": 40.65309906,
+    "Longitude": -112.20200348,
+    "County": "Salt Lake",
+    "State": "UT",
+    "Local": "Salt Lake City, Intermountain Ridge"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 443.4,
+    "Output": 448.4
+  },
+  "VOIP": {
+    "IRLP": {
+      "NodeID": 3407
+    }
+  }
+}

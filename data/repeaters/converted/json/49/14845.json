@@ -1,0 +1,22 @@
+{
+  "ID": 14845,
+  "StateID": 49,
+  "Callsign": "AC7II",
+  "Location": {
+    "Latitude": 41.55089951,
+    "Longitude": -111.93699646,
+    "County": "Cache",
+    "State": "UT",
+    "Local": "Logan, Mt Pisgah"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 444.65,
+    "Output": 449.65
+  },
+  "SquelchTone": {
+    "Input": 100,
+    "Output": 100
+  }
+}

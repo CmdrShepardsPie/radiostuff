@@ -1,0 +1,2 @@
+ID,StateID,Callsign,Use,Status,DigitalTone,Digital,VOIP,Location.Latitude,Location.Longitude,Location.County,Location.State,Location.Local,Frequency.Input,Frequency.Output,SquelchTone.Input,SquelchTone.Output
+1440,6,KI6REC,Open,On-Air,,,,33.96149826,-117.27999878,Riverside,CA,"Moreno Valley, Box Springs Mtn.",444.3,449.3,103.5,103.5

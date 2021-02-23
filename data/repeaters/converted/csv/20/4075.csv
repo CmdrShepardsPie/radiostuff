@@ -1,0 +1,2 @@
+ID,StateID,Callsign,Use,Status,DigitalTone,Digital,VOIP,Location.Latitude,Location.Longitude,Location.County,Location.State,Location.Local,Frequency.Input,Frequency.Output,SquelchTone.Input,SquelchTone.Output
+4075,20,K0HAM,Open,On-Air,,,,38.63100052,-99.98999786,Ness,KS,"Ransom, K-Link",448.575,443.575,162.2,162.2

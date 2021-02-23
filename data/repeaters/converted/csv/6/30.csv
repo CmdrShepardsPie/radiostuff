@@ -1,0 +1,2 @@
+ID,StateID,Callsign,Use,Status,DigitalTone,Digital,VOIP,Location.Latitude,Location.Longitude,Location.County,Location.State,Location.Local,Frequency.Input,Frequency.Output,SquelchTone.Input,SquelchTone.Output
+30,6,WA6MDJ,Open,Other,,,,33.89419937,-116.2009964,Riverside,CA,"Indio, Indio Hills",51.42,51.92,82.5,

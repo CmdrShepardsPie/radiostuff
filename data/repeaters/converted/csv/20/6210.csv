@@ -1,0 +1,2 @@
+ID,StateID,Callsign,Use,Status,SquelchTone,DigitalTone,Digital,Location.Latitude,Location.Longitude,Location.County,Location.State,Location.Local,Frequency.Input,Frequency.Output,VOIP.AllStar,VOIP.EchoLink,VOIP.Wires,VOIP.IRLP.NodeID
+6210,20,KD0ARW,Open,On-Air,,,,39.7560997,-99.3239975,Phillips,KS,Phillipsburg,447.725,442.725,,,,3682

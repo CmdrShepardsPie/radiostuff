@@ -1,0 +1,2 @@
+ID,StateID,Callsign,Use,Status,SquelchTone,DigitalTone,VOIP,Location.Latitude,Location.Longitude,Location.County,Location.State,Location.Local,Frequency.Input,Frequency.Output,Digital.P25,Digital.DStar,Digital.YSF,Digital.DMR.ColorCode,Digital.DMR.ID
+17220,20,K0USY,Open,On-Air,,,,38.89820099,-99.27200317,Ellis,KS,"Hays, KS-DMR",449.9875,444.9875,,,,1,312034

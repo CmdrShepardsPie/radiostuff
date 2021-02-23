@@ -1,0 +1,18 @@
+{
+  "ID": 2746,
+  "StateID": 6,
+  "Callsign": "KE6PCV",
+  "Location": {
+    "Latitude": 34.23469925,
+    "Longitude": -117.14099884,
+    "County": "San Bernardino",
+    "State": "CA",
+    "Local": "Running Springs, Heaps Peak"
+  },
+  "Use": "Private",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 442.74,
+    "Output": 447.74
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "ID": 468,
+  "StateID": 6,
+  "Callsign": "K7GIL",
+  "Location": {
+    "Latitude": 34.51900101,
+    "Longitude": -117.31099701,
+    "County": "San Bernardino",
+    "State": "CA",
+    "Local": "Victorville, Fairgrounds"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 146.715,
+    "Output": 146.115
+  },
+  "SquelchTone": {
+    "Input": 91.5
+  }
+}

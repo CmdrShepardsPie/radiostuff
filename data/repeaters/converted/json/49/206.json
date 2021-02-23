@@ -1,0 +1,26 @@
+{
+  "ID": 206,
+  "StateID": 49,
+  "Callsign": "K7BSK",
+  "Location": {
+    "Latitude": 37.37379837,
+    "Longitude": -112.53600311,
+    "County": "Kane",
+    "State": "UT",
+    "Local": "Glendale, Spencer Bench"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 146.12,
+    "Output": 146.72
+  },
+  "SquelchTone": {
+    "Input": 100
+  },
+  "VOIP": {
+    "IRLP": {
+      "NodeID": 3576
+    }
+  }
+}

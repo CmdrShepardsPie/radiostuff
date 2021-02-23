@@ -1,0 +1,21 @@
+{
+  "ID": 117,
+  "StateID": 35,
+  "Callsign": "WA5IHL",
+  "Location": {
+    "Latitude": 35.40399933,
+    "Longitude": -105.19300079,
+    "County": "San Miguel",
+    "State": "NM",
+    "Local": "Las Vegas, Mesa Apache"
+  },
+  "Use": "Closed",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 449.375,
+    "Output": 444.375
+  },
+  "SquelchTone": {
+    "Input": 100
+  }
+}

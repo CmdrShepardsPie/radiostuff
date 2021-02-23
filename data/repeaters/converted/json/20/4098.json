@@ -1,0 +1,22 @@
+{
+  "ID": 4098,
+  "StateID": 20,
+  "Callsign": "K0ECT",
+  "Location": {
+    "Latitude": 37.6344986,
+    "Longitude": -100.46399689,
+    "County": "Gray",
+    "State": "KS",
+    "Local": "Montezuma"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 449.25,
+    "Output": 444.25
+  },
+  "SquelchTone": {
+    "Input": 141.3,
+    "Output": 141.3
+  }
+}

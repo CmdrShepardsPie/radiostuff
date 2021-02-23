@@ -1,0 +1,2 @@
+ID,StateID,Callsign,Use,Status,DigitalTone,Digital,Location.Latitude,Location.Longitude,Location.County,Location.State,Location.Local,Frequency.Input,Frequency.Output,SquelchTone.Input,SquelchTone.Output,VOIP.AllStar,VOIP.Wires,VOIP.EchoLink.NodeID,VOIP.IRLP.NodeID
+16283,35,KC0QIZ,Open,On-Air,,,35.16609955,-106.54299927,Bernalillo,NM,Albuquerque,448.85,443.85,103.5,,,,881226,3818

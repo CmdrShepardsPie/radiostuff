@@ -1,0 +1,2 @@
+ID,StateID,Callsign,Use,Status,DigitalTone,Digital,VOIP,Location.Latitude,Location.Longitude,Location.County,Location.State,Location.Local,Frequency.Input,Frequency.Output,SquelchTone.Input,SquelchTone.Output
+20,49,K7DSN,Open,On-Air,,,,40.02809906,-111.37000275,Utah,UT,"Spanish Fork, Teat Mountain",442.4,447.4,100,

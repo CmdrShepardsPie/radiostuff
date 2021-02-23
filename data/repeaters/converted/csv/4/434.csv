@@ -1,0 +1,2 @@
+ID,StateID,Callsign,Use,Status,DigitalTone,Digital,Location.Latitude,Location.Longitude,Location.County,Location.State,Location.Local,Frequency.Input,Frequency.Output,SquelchTone.Input,SquelchTone.Output,VOIP.IRLP,VOIP.Wires,VOIP.AllStar.NodeID,VOIP.EchoLink.NodeID
+434,4,WB7BYV,Open,On-Air,,,34.54000092,-112.46800232,Yavapai,AZ,Prescott,902.3875,927.3875,151.4,151.4,,,41510,204752

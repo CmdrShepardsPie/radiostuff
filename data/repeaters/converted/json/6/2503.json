@@ -1,0 +1,21 @@
+{
+  "ID": 2503,
+  "StateID": 6,
+  "Callsign": "KF6FM",
+  "Location": {
+    "Latitude": 34.18759918,
+    "Longitude": -117.69999695,
+    "County": "Los Angeles",
+    "State": "CA",
+    "Local": "Pomona, Sunset Ridge"
+  },
+  "Use": "Private",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 441.04,
+    "Output": 446.04
+  },
+  "SquelchTone": {
+    "Input": 131.8
+  }
+}

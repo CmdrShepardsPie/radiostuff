@@ -1,0 +1,18 @@
+{
+  "ID": 18306,
+  "StateID": 6,
+  "Callsign": "KI6CHH",
+  "Location": {
+    "Latitude": 34.6867981,
+    "Longitude": -118.15399933,
+    "County": "Los Angeles",
+    "State": "CA",
+    "Local": "Lancaster"
+  },
+  "Use": "Other",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 440.22,
+    "Output": 445.22
+  }
+}

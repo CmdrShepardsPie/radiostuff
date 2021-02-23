@@ -1,0 +1,2 @@
+ID,StateID,Callsign,Use,Status,DigitalTone,Digital,VOIP,Location.Latitude,Location.Longitude,Location.County,Location.State,Location.Local,Frequency.Input,Frequency.Output,SquelchTone.Input,SquelchTone.Output
+5465,6,N6BKL,Open,On-Air,,,,36.60599899,-118.06300354,Inyo,CA,"Lone Pine, Owens Valley",52.4,52.9,100,141.3

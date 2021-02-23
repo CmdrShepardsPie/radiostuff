@@ -1,0 +1,27 @@
+{
+  "ID": 123,
+  "StateID": 49,
+  "Callsign": "KR7K",
+  "Location": {
+    "Latitude": 41.1108017,
+    "Longitude": -112.02500153,
+    "County": "Davis",
+    "State": "UT",
+    "Local": "Clearfield"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 442.15,
+    "Output": 447.15
+  },
+  "SquelchTone": {
+    "Input": 114.8,
+    "Output": 114.8
+  },
+  "VOIP": {
+    "IRLP": {
+      "NodeID": 3607
+    }
+  }
+}

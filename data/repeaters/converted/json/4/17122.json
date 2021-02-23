@@ -1,0 +1,23 @@
+{
+  "ID": 17122,
+  "StateID": 4,
+  "Callsign": "KX7P",
+  "Location": {
+    "Latitude": 34.50090027,
+    "Longitude": -114.31900024,
+    "County": "Mohave",
+    "State": "AZ",
+    "Local": "Lake Havasu City"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 443.35,
+    "Output": 448.35
+  },
+  "VOIP": {
+    "Wires": {
+      "ID": 43197
+    }
+  }
+}

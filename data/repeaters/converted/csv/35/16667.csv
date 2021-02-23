@@ -1,0 +1,2 @@
+ID,StateID,Callsign,Use,Status,DigitalTone,Digital,VOIP,Location.Latitude,Location.Longitude,Location.County,Location.State,Location.Local,Frequency.Input,Frequency.Output,SquelchTone.Input,SquelchTone.Output
+16667,35,NM5SJ,Open,On-Air,,,,36.95000076,-107.84999847,San Juan,NM,"Nebo, Cedar Hill",147.66,147.06,100,

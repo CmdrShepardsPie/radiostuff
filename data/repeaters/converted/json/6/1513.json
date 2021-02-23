@@ -1,0 +1,21 @@
+{
+  "ID": 1513,
+  "StateID": 6,
+  "Callsign": "W7DOD",
+  "Location": {
+    "Latitude": 34.03779984,
+    "Longitude": -116.81300354,
+    "County": "San Bernardino",
+    "State": "CA",
+    "Local": "Yucaipa, Snow Peak"
+  },
+  "Use": "Private",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 443.16,
+    "Output": 448.16
+  },
+  "SquelchTone": {
+    "Input": 131.8
+  }
+}

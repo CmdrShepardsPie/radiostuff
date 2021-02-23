@@ -1,0 +1,18 @@
+{
+  "ID": 138,
+  "StateID": 32,
+  "Callsign": "WB6TNP",
+  "Location": {
+    "Latitude": 35.96519852,
+    "Longitude": -115.5,
+    "County": "Clark",
+    "State": "NV",
+    "Local": "Las Vegas, Hi Potosi Mountain"
+  },
+  "Use": "Closed",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 443.925,
+    "Output": 448.925
+  }
+}

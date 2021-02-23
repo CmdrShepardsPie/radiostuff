@@ -1,0 +1,21 @@
+{
+  "ID": 801,
+  "StateID": 6,
+  "Callsign": "W6SCE",
+  "Location": {
+    "Latitude": 33.65800095,
+    "Longitude": -115.98600006,
+    "County": "Riverside",
+    "State": "CA",
+    "Local": "Cactus City"
+  },
+  "Use": "Private",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 222.72,
+    "Output": 224.32
+  },
+  "SquelchTone": {
+    "Input": 131.8
+  }
+}

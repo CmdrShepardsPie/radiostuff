@@ -1,0 +1,2 @@
+ID,StateID,Callsign,Use,Status,SquelchTone,DigitalTone,Digital,VOIP,Location.Latitude,Location.Longitude,Location.County,Location.State,Location.Local,Frequency.Input,Frequency.Output
+341,4,W6PNM,Closed,On-Air,,,,,35.08119965,-113.90399933,Mohave,AZ,"Kingman, Hualapai Mtn",443.68,448.68

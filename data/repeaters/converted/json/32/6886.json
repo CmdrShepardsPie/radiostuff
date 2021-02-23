@@ -1,0 +1,21 @@
+{
+  "ID": 6886,
+  "StateID": 32,
+  "Callsign": "KE7LKO",
+  "Location": {
+    "Latitude": 40.93629837,
+    "Longitude": -116.0530014,
+    "County": "Elko",
+    "State": "NV",
+    "Local": "Elko, Swales Mountain"
+  },
+  "Use": "Open",
+  "Status": "Other",
+  "Frequency": {
+    "Input": 29.58,
+    "Output": 29.68
+  },
+  "SquelchTone": {
+    "Input": 100
+  }
+}

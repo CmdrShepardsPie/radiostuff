@@ -1,0 +1,2 @@
+ID,StateID,Callsign,Use,Status,DigitalTone,Digital,VOIP,Location.Latitude,Location.Longitude,Location.County,Location.State,Location.Local,Frequency.Input,Frequency.Output,SquelchTone.Input,SquelchTone.Output
+126,16,AD7UI,Open,On-Air,,,,42.92070007,-112.34600067,Bannock,ID,Pocatello,146.22,146.82,100,

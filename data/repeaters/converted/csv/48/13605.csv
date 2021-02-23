@@ -1,0 +1,2 @@
+ID,StateID,Callsign,Use,Status,SquelchTone,DigitalTone,Digital,Location.Latitude,Location.Longitude,Location.County,Location.State,Location.Local,Frequency.Input,Frequency.Output,VOIP.AllStar,VOIP.EchoLink,VOIP.IRLP,VOIP.Wires.ID
+13605,48,W5JTC,Open,On-Air,,,,35.22200012,-101.83100128,Potter,TX,Amarillo,449.3,444.3,,,,21379

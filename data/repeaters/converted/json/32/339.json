@@ -1,0 +1,18 @@
+{
+  "ID": 339,
+  "StateID": 32,
+  "Callsign": "W9RU",
+  "Location": {
+    "Latitude": 36.19490051,
+    "Longitude": -115.19799805,
+    "County": "Clark",
+    "State": "NV",
+    "Local": "Las Vegas, QTH"
+  },
+  "Use": "Open",
+  "Status": "Off-Air",
+  "Frequency": {
+    "Input": 444.05,
+    "Output": 449.05
+  }
+}

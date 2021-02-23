@@ -1,0 +1,2 @@
+ID,StateID,Callsign,Use,Status,DigitalTone,Digital,VOIP,Location.Latitude,Location.Longitude,Location.County,Location.State,Location.Local,Frequency.Input,Frequency.Output,SquelchTone.Input,SquelchTone.Output
+40,35,K5FIQ,Open,On-Air,,,,35.05780029,-106.58699799,Bernalillo,NM,"Albuquerque, Op Ctr",444.8,449.8,67,

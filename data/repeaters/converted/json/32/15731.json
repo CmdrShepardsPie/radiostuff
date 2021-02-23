@@ -1,0 +1,18 @@
+{
+  "ID": 15731,
+  "StateID": 32,
+  "Callsign": "",
+  "Location": {
+    "Latitude": 36.93479919,
+    "Longitude": -116.85099792,
+    "County": "Nye",
+    "State": "NV",
+    "Local": "Beatty"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 144.83,
+    "Output": 145.43
+  }
+}

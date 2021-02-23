@@ -1,0 +1,2 @@
+ID,StateID,Callsign,Use,Status,DigitalTone,Digital,VOIP,Location.Latitude,Location.Longitude,Location.County,Location.State,Location.Local,Frequency.Input,Frequency.Output,SquelchTone.Input,SquelchTone.Output
+283,49,WD7N,Open,On-Air,,,,40.16189957,-111.60299683,Utah,UT,Springville,442.475,447.475,186.2,

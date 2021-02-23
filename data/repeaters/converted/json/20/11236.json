@@ -1,0 +1,26 @@
+{
+  "ID": 11236,
+  "StateID": 20,
+  "Callsign": "N0NM",
+  "Location": {
+    "Latitude": 39.26570129,
+    "Longitude": -99.83360291,
+    "County": "Graham",
+    "State": "KS",
+    "Local": "Hill City, K-Link"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 448.7,
+    "Output": 443.7
+  },
+  "SquelchTone": {
+    "Input": 162.2
+  },
+  "VOIP": {
+    "AllStar": {
+      "NodeID": 46425
+    }
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "ID": 180,
+  "StateID": 32,
+  "Callsign": "WB7BTS",
+  "Location": {
+    "Latitude": 40.93769836,
+    "Longitude": -116.04199982,
+    "County": "Elko",
+    "State": "NV",
+    "Local": "Carlin, Swales Mountain"
+  },
+  "Use": "Open",
+  "Status": "Other",
+  "Frequency": {
+    "Input": 444.35,
+    "Output": 449.35
+  },
+  "SquelchTone": {
+    "Input": 186.2
+  }
+}

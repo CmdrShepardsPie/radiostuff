@@ -1,0 +1,2 @@
+ID,StateID,Callsign,Use,Status,DigitalTone,Digital,VOIP,Location.Latitude,Location.Longitude,Location.County,Location.State,Location.Local,Frequency.Input,Frequency.Output,SquelchTone.Input,SquelchTone.Output
+29,31,KA0DBK,Open,On-Air,,,,40.69929886,-99.08170319,Buffalo,NE,Kearney,147.99,147.39,123,123

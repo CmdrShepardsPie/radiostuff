@@ -1,0 +1,17 @@
+{
+  "ID": 15944,
+  "StateID": 35,
+  "Callsign": "W5MHG",
+  "Location": {
+    "State": "NM",
+    "Local": "Albuquerque"
+  },
+  "Use": "Open",
+  "Status": "Other",
+  "Frequency": {
+    "Input": null
+  },
+  "SquelchTone": {
+    "Input": 88.5
+  }
+}

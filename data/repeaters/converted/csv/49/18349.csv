@@ -1,0 +1,2 @@
+ID,StateID,Callsign,Use,Status,SquelchTone,DigitalTone,Digital,Location.Latitude,Location.Longitude,Location.County,Location.State,Location.Local,Frequency.Input,Frequency.Output,VOIP.AllStar,VOIP.EchoLink,VOIP.IRLP,VOIP.Wires.ID
+18349,49,N6RBV,Open,On-Air,,,,40.57479858,-112.29199982,Tooele,UT,"Tooele, Home QTH",442.3625,447.3625,,,,40714

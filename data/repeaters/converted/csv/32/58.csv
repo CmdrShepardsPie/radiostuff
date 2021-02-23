@@ -1,0 +1,2 @@
+ID,StateID,Callsign,Use,Status,DigitalTone,Digital,VOIP,Location.Latitude,Location.Longitude,Location.County,Location.State,Location.Local,Frequency.Input,Frequency.Output,SquelchTone.Input,SquelchTone.Output
+58,32,W7GK,Open,On-Air,,,,41.97999954,-114.66999817,Elko,NV,Jackpot,147.87,147.27,100,

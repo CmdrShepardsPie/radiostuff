@@ -1,0 +1,27 @@
+{
+  "ID": 17112,
+  "StateID": 32,
+  "Callsign": "AA4Z",
+  "Location": {
+    "Latitude": 36.58050156,
+    "Longitude": -114.47000122,
+    "County": "Lincoln",
+    "State": "NV",
+    "Local": "Moapa Valley, Overton"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 442.05,
+    "Output": 447.05
+  },
+  "SquelchTone": {
+    "Input": 114.8,
+    "Output": 114.8
+  },
+  "Digital": {
+    "DMR": {
+      "ColorCode": 15
+    }
+  }
+}

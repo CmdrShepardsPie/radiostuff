@@ -1,0 +1,18 @@
+{
+  "ID": 167,
+  "StateID": 32,
+  "Callsign": "WC6MRA",
+  "Location": {
+    "Latitude": 35.95600128,
+    "Longitude": -115.4940033,
+    "County": "Clark",
+    "State": "NV",
+    "Local": "Las Vegas, Lo Potosi Mountain"
+  },
+  "Use": "Closed",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 1264.05,
+    "Output": 1284.05
+  }
+}

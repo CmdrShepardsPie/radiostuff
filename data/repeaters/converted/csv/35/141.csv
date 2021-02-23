@@ -1,0 +1,2 @@
+ID,StateID,Callsign,Use,Status,DigitalTone,Digital,Location.Latitude,Location.Longitude,Location.County,Location.State,Location.Local,Frequency.Input,Frequency.Output,SquelchTone.Input,SquelchTone.Output,VOIP.EchoLink,VOIP.IRLP,VOIP.Wires,VOIP.AllStar.NodeID
+141,35,NM5RR,Open,On-Air,,,35.2743988,-106.73699951,Sandoval,NM,"Rio Rancho, Rainbow",448,443,100,,,,,27750

@@ -1,0 +1,21 @@
+{
+  "ID": 131,
+  "StateID": 35,
+  "Callsign": "W5NES",
+  "Location": {
+    "Latitude": 34.70100021,
+    "Longitude": -106.40200043,
+    "County": "Torrance",
+    "State": "NM",
+    "Local": "Mountainair, Capilla Peak"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 449.075,
+    "Output": 444.075
+  },
+  "SquelchTone": {
+    "Input": 100
+  }
+}

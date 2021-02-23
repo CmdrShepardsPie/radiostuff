@@ -1,0 +1,21 @@
+{
+  "ID": 16404,
+  "StateID": 56,
+  "Callsign": "KG7OMT",
+  "Location": {
+    "Latitude": 42.84999847,
+    "Longitude": -104.61699677,
+    "County": "Niobrara",
+    "State": "WY",
+    "Local": "Lusk, 77 Hill"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 147.93,
+    "Output": 147.33
+  },
+  "SquelchTone": {
+    "Input": 103.5
+  }
+}

@@ -1,0 +1,2 @@
+ID,StateID,Callsign,Use,Status,DigitalTone,Digital,VOIP,Location.Latitude,Location.Longitude,Location.County,Location.State,Location.Local,Frequency.Input,Frequency.Output,SquelchTone.Input,SquelchTone.Output
+46,35,K5URR,Open,On-Air,,,,34.70140076,-106.40100098,Torrance,NM,"Belen, Capilla Peak",146.36,146.96,100,88.5

@@ -1,0 +1,21 @@
+{
+  "ID": 154,
+  "StateID": 35,
+  "Callsign": "W5SF",
+  "Location": {
+    "Latitude": 35.65930176,
+    "Longitude": -105.94499969,
+    "County": "Santa Fe",
+    "State": "NM",
+    "Local": "Santa Fe, St Vincent Hospital"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 147.8,
+    "Output": 147.2
+  },
+  "SquelchTone": {
+    "Input": 162.2
+  }
+}

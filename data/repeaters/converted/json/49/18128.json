@@ -1,0 +1,30 @@
+{
+  "ID": 18128,
+  "StateID": 49,
+  "Callsign": "KG7FOT",
+  "Location": {
+    "Latitude": 37.09579849,
+    "Longitude": -113.18699646,
+    "County": "Washington",
+    "State": "UT",
+    "Local": "Hurricane, Little Creek Mesa"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 444.55,
+    "Output": 449.55
+  },
+  "SquelchTone": {
+    "Input": 100,
+    "Output": 100
+  },
+  "Digital": {
+    "YSF": {
+      "GroupID": {
+        "Input": "Open ↑",
+        "Output": "Open ↓"
+      }
+    }
+  }
+}

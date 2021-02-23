@@ -1,0 +1,21 @@
+{
+  "ID": 16953,
+  "StateID": 35,
+  "Callsign": "KE5XE",
+  "Location": {
+    "Latitude": 35.08440018,
+    "Longitude": -106.65000153,
+    "County": "Bernalillo",
+    "State": "NM",
+    "Local": "Albuquerque"
+  },
+  "Use": "Open",
+  "Status": "Other",
+  "Frequency": {
+    "Input": 438.5,
+    "Output": 443.5
+  },
+  "SquelchTone": {
+    "Input": 123
+  }
+}

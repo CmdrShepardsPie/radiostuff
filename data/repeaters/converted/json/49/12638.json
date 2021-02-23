@@ -1,0 +1,29 @@
+{
+  "ID": 12638,
+  "StateID": 49,
+  "Callsign": "K7XRD",
+  "Location": {
+    "Latitude": 40.80720139,
+    "Longitude": -111.8809967,
+    "County": "Salt Lake",
+    "State": "UT",
+    "Local": "Salt Lake City, Ensign Peak"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 443.5255,
+    "Output": 448.525
+  },
+  "SquelchTone": {
+    "Input": 100
+  },
+  "Digital": {
+    "YSF": {
+      "GroupID": {
+        "Input": "Open ↑",
+        "Output": "Open ↓"
+      }
+    }
+  }
+}

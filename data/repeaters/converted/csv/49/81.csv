@@ -1,0 +1,2 @@
+ID,StateID,Callsign,Use,Status,DigitalTone,Digital,VOIP,Location.Latitude,Location.Longitude,Location.County,Location.State,Location.Local,Frequency.Input,Frequency.Output,SquelchTone.Input,SquelchTone.Output
+81,49,KA7SLC,Closed,On-Air,,,,40.45700073,-111.90499878,Davis,UT,Bountiful,443.8,448.8,88.5,

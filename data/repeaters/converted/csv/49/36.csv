@@ -1,0 +1,2 @@
+ID,StateID,Callsign,Use,Status,DigitalTone,Digital,VOIP,Location.Latitude,Location.Longitude,Location.County,Location.State,Location.Local,Frequency.Input,Frequency.Output,SquelchTone.Input,SquelchTone.Output
+36,49,K7JL,Open,On-Air,,,,40.62440109,-111.56600189,Salt Lake,UT,"Brighton, Scott's Peak",444.525,449.525,131.8,131.8

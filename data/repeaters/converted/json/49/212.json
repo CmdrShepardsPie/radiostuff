@@ -1,0 +1,18 @@
+{
+  "ID": 212,
+  "StateID": 49,
+  "Callsign": "W7SP",
+  "Location": {
+    "Latitude": 40.65969849,
+    "Longitude": -112.2009964,
+    "County": "Salt Lake",
+    "State": "UT",
+    "Local": "Salt Lake City, Farnsworth Peak"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 146.02,
+    "Output": 146.62
+  }
+}

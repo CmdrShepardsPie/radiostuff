@@ -1,0 +1,2 @@
+ID,StateID,Callsign,Use,Status,DigitalTone,Digital,Location.Latitude,Location.Longitude,Location.County,Location.State,Location.Local,Frequency.Input,Frequency.Output,SquelchTone.Input,SquelchTone.Output,VOIP.AllStar,VOIP.EchoLink,VOIP.Wires,VOIP.IRLP.NodeID
+223,49,WA7GIE,Open,Other,,,40.75379944,-114.01999664,Tooele,UT,"Wendover, Wendover Peak",444.55,449.55,123,,,,,5620

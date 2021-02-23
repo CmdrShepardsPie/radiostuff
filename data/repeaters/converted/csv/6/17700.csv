@@ -1,0 +1,2 @@
+ID,StateID,Callsign,Use,Status,DigitalTone,Location.Latitude,Location.Longitude,Location.County,Location.State,Location.Local,Frequency.Input,Frequency.Output,SquelchTone.Input,SquelchTone.Output,VOIP.EchoLink,VOIP.IRLP,VOIP.Wires,Digital.DMR.ColorCode,Digital.DMR.ID,Digital.P25.NAC,Digital.DStar.Node,VOIP.AllStar.NodeID,Digital.YSF.GroupID.Input,Digital.YSF.GroupID.Output
+17700,6,AD5MT,Open,On-Air,,34.02099991,-117.1309967,San Bernardino,CA,Redlands,444.08,449.08,141.3,141.3,,,,7,310566,293,AD5MT (B),502530,1,1

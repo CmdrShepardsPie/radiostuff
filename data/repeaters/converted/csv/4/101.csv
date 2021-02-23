@@ -1,0 +1,2 @@
+ID,StateID,Callsign,Use,Status,DigitalTone,Digital,VOIP,Location.Latitude,Location.Longitude,Location.County,Location.State,Location.Local,Frequency.Input,Frequency.Output,SquelchTone.Input,SquelchTone.Output
+101,4,K7MRG,Open,On-Air,,,,34.69390106,-112.1269989,Yavapai,AZ,"Cottonwood, Mingus Mountain",147.6,147,162.2,162.2

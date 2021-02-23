@@ -1,0 +1,21 @@
+{
+  "ID": 3623,
+  "StateID": 56,
+  "Callsign": "N7HYF",
+  "Location": {
+    "Latitude": 42.5760994,
+    "Longitude": -108.72599792,
+    "County": "Fremont",
+    "State": "WY",
+    "Local": "Lander, Limestone Mountain"
+  },
+  "Use": "Private",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 444.9,
+    "Output": 449.9
+  },
+  "DigitalTone": {
+    "Input": 261
+  }
+}

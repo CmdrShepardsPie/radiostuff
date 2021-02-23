@@ -1,0 +1,2 @@
+ID,StateID,Callsign,Use,Status,DigitalTone,Digital,VOIP,Location.Latitude,Location.Longitude,Location.County,Location.State,Location.Local,Frequency.Input,Frequency.Output,SquelchTone.Input,SquelchTone.Output
+217,6,KD6KTQ,Open,On-Air,,,,34.44419861,-117.93399811,Los Angeles,CA,Juniper Hills,144.6,145.2,114.8,

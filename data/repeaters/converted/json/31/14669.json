@@ -1,0 +1,21 @@
+{
+  "ID": 14669,
+  "StateID": 31,
+  "Callsign": "KC0WZL",
+  "Location": {
+    "Latitude": 40.72159958,
+    "Longitude": -99.09320068,
+    "County": "Buffalo",
+    "State": "NE",
+    "Local": "Kearney, Kearney Water Tower"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 146.4,
+    "Output": 147
+  },
+  "SquelchTone": {
+    "Input": 123
+  }
+}

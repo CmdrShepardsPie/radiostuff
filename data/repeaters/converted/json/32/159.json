@@ -1,0 +1,28 @@
+{
+  "ID": 159,
+  "StateID": 32,
+  "Callsign": "KG7SS",
+  "Location": {
+    "Latitude": 36.21549988,
+    "Longitude": -115.24900055,
+    "County": "Clark",
+    "State": "NV",
+    "Local": "Las Vegas, Mountain View Hospital"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 442.3,
+    "Output": 447.3
+  },
+  "SquelchTone": {
+    "Input": 100,
+    "Output": 100
+  },
+  "Digital": {
+    "DMR": {
+      "ColorCode": 15,
+      "ID": 313207
+    }
+  }
+}

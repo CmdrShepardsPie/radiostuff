@@ -1,0 +1,18 @@
+{
+  "ID": 12981,
+  "StateID": 31,
+  "Callsign": "W0EJL",
+  "Location": {
+    "Latitude": 41.78170013,
+    "Longitude": -99.1332016,
+    "County": "Garfield",
+    "State": "NE",
+    "Local": "Burwell"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 147.69,
+    "Output": 147.09
+  }
+}

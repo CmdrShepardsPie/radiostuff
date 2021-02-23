@@ -1,0 +1,22 @@
+{
+  "ID": 46,
+  "StateID": 35,
+  "Callsign": "K5URR",
+  "Location": {
+    "Latitude": 34.70140076,
+    "Longitude": -106.40100098,
+    "County": "Torrance",
+    "State": "NM",
+    "Local": "Belen, Capilla Peak"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 146.36,
+    "Output": 146.96
+  },
+  "SquelchTone": {
+    "Input": 100,
+    "Output": 88.5
+  }
+}

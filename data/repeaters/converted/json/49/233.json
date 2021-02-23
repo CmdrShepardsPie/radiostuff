@@ -1,0 +1,18 @@
+{
+  "ID": 233,
+  "StateID": 49,
+  "Callsign": "WA7GIE",
+  "Location": {
+    "Latitude": 40.85499954,
+    "Longitude": -111.48000336,
+    "County": "Summit",
+    "State": "UT",
+    "Local": "Coalville, Lewis Peak"
+  },
+  "Use": "Closed",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 443.65,
+    "Output": 448.65
+  }
+}

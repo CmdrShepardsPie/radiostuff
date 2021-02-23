@@ -1,0 +1,21 @@
+{
+  "ID": 1014,
+  "StateID": 6,
+  "Callsign": "N6RPG",
+  "Location": {
+    "Latitude": 34.42610168,
+    "Longitude": -117.5719986,
+    "County": "San Bernardino",
+    "State": "CA",
+    "Local": "Phelan"
+  },
+  "Use": "Open",
+  "Status": "Other",
+  "Frequency": {
+    "Input": 440.9,
+    "Output": 445.9
+  },
+  "SquelchTone": {
+    "Input": 146.2
+  }
+}

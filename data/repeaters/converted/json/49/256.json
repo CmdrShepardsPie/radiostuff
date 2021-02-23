@@ -1,0 +1,21 @@
+{
+  "ID": 256,
+  "StateID": 49,
+  "Callsign": "WB7REL",
+  "Location": {
+    "Latitude": 39.20159912,
+    "Longitude": -111.72799683,
+    "County": "Sevier",
+    "State": "UT",
+    "Local": "Sterling, Salina Canyon"
+  },
+  "Use": "Open",
+  "Status": "Other",
+  "Frequency": {
+    "Input": 444.25,
+    "Output": 449.25
+  },
+  "SquelchTone": {
+    "Input": 131.8
+  }
+}

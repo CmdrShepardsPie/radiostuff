@@ -1,0 +1,18 @@
+{
+  "ID": 1218,
+  "StateID": 6,
+  "Callsign": "N6DD",
+  "Location": {
+    "Latitude": 34.18759918,
+    "Longitude": -117.69999695,
+    "County": "San Bernardino",
+    "State": "CA",
+    "Local": "Pomona, Sunset Ridge"
+  },
+  "Use": "Private",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 442.62,
+    "Output": 447.62
+  }
+}

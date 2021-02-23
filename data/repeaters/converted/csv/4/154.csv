@@ -1,0 +1,2 @@
+ID,StateID,Callsign,Use,Status,DigitalTone,Digital,Location.Latitude,Location.Longitude,Location.County,Location.State,Location.Local,Frequency.Input,Frequency.Output,SquelchTone.Input,SquelchTone.Output,VOIP.AllStar,VOIP.IRLP,VOIP.EchoLink.NodeID,VOIP.Wires.ID
+154,4,W7GAA,Open,On-Air,,,35.14780045,-114.56700134,Mohave,AZ,Bullhead City,144.57,145.17,131.8,131.8,,,846070,43489

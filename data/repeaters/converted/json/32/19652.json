@@ -1,0 +1,21 @@
+{
+  "ID": 19652,
+  "StateID": 32,
+  "Callsign": "N7OKD",
+  "Location": {
+    "Latitude": 36.800877,
+    "Longitude": -114.085207,
+    "County": "Clark",
+    "State": "NV",
+    "Local": "Mesquite"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 441.5,
+    "Output": 446.5
+  },
+  "SquelchTone": {
+    "Input": 136.5
+  }
+}

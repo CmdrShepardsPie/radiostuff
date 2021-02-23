@@ -1,0 +1,2 @@
+ID,StateID,Callsign,Use,Status,DigitalTone,Digital,Location.Latitude,Location.Longitude,Location.County,Location.State,Location.Local,Frequency.Input,Frequency.Output,SquelchTone.Input,SquelchTone.Output,VOIP.EchoLink,VOIP.IRLP,VOIP.Wires,VOIP.AllStar.NodeID
+118,32,N6JFO,Open,On-Air,,,36.31790161,-115.5739975,Clark,NV,"Las Vegas, Angel Peak",444.8,449.8,131.8,,,,,28557

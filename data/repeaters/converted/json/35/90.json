@@ -1,0 +1,21 @@
+{
+  "ID": 90,
+  "StateID": 35,
+  "Callsign": "KC5WDV",
+  "Location": {
+    "Latitude": 35.60509872,
+    "Longitude": -108.68499756,
+    "County": "McKinley",
+    "State": "NM",
+    "Local": "Gallup, Gibson Peak"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 147.86,
+    "Output": 147.26
+  },
+  "SquelchTone": {
+    "Input": 100
+  }
+}

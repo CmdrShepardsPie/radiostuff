@@ -1,0 +1,2 @@
+ID,StateID,Callsign,Use,Status,DigitalTone,Digital,VOIP,Location.Latitude,Location.Longitude,Location.County,Location.State,Location.Local,Frequency.Input,Frequency.Output,SquelchTone.Input,SquelchTone.Output
+16297,6,W6SCE,Private,On-Air,,,,37.3614006,-118.40000153,Inyo,CA,Bishop,223.16,224.76,100,

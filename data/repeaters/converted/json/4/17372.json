@@ -1,0 +1,26 @@
+{
+  "ID": 17372,
+  "StateID": 4,
+  "Callsign": "W7BNW",
+  "Location": {
+    "Latitude": 34.85589981,
+    "Longitude": -112.4509964,
+    "County": "Yavapai",
+    "State": "AZ",
+    "Local": "Paulden, Paulden"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 441.55,
+    "Output": 446.55
+  },
+  "SquelchTone": {
+    "Input": 100
+  },
+  "VOIP": {
+    "AllStar": {
+      "NodeID": 41158
+    }
+  }
+}

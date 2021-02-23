@@ -1,0 +1,2 @@
+ID,StateID,Callsign,Use,Status,DigitalTone,Digital,VOIP,Location.Latitude,Location.Longitude,Location.County,Location.State,Location.Local,Frequency.Input,Frequency.Output,SquelchTone.Input,SquelchTone.Output
+6495,49,W6DZL,Open,On-Air,,,,37.40050125,-112.30000305,Garfield,UT,Bryce Canyon,144.75,145.35,123,

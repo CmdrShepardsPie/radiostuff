@@ -1,0 +1,21 @@
+{
+  "ID": 9796,
+  "StateID": 4,
+  "Callsign": "K7POF",
+  "Location": {
+    "Latitude": 34.74300003,
+    "Longitude": -112.47200012,
+    "County": "Yavapai",
+    "State": "AZ",
+    "Local": "Chino Valley"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 444.25,
+    "Output": 449.25
+  },
+  "SquelchTone": {
+    "Input": 192.8
+  }
+}

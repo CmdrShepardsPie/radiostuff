@@ -1,0 +1,18 @@
+{
+  "ID": 33,
+  "StateID": 32,
+  "Callsign": "KA7BCP",
+  "Location": {
+    "Latitude": 36.09989929,
+    "Longitude": -115.17199707,
+    "County": "Clark",
+    "State": "NV",
+    "Local": "Las Vegas, Tropicana"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 144.59,
+    "Output": 145.19
+  }
+}

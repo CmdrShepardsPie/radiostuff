@@ -1,0 +1,24 @@
+{
+  "ID": 12414,
+  "StateID": 35,
+  "Callsign": "KA8JMW",
+  "Location": {
+    "Latitude": 35.21350098,
+    "Longitude": -106.44999695,
+    "County": "Bernalillo",
+    "State": "NM",
+    "Local": "Albuquerque, Sandia Crest"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 447.9,
+    "Output": 442.9
+  },
+  "Digital": {
+    "DMR": {
+      "ColorCode": 7,
+      "ID": 313503
+    }
+  }
+}

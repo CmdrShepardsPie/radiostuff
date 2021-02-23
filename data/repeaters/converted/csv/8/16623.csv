@@ -1,0 +1,2 @@
+ID,StateID,Callsign,Use,Status,DigitalTone,Digital,VOIP,Location.Latitude,Location.Longitude,Location.County,Location.State,Location.Local,Frequency.Input,Frequency.Output,SquelchTone.Input,SquelchTone.Output
+16623,8,KB5ITS,Open,On-Air,,,,37.47389984,-108.50499725,Montezuma,CO,"Dolores, Summit Ridge",442.275,447.275,100,

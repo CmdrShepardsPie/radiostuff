@@ -1,0 +1,2 @@
+ID,StateID,Callsign,Use,Status,DigitalTone,Digital,VOIP,Location.Latitude,Location.Longitude,Location.County,Location.State,Location.Local,Frequency.Input,Frequency.Output,SquelchTone.Input,SquelchTone.Output
+243,49,WA7MXZ,Open,On-Air,,,,41.63240051,-111.86799622,Cache,UT,"Logan, Cache CSO",146.04,146.64,103.5,

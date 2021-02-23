@@ -1,0 +1,2 @@
+ID,StateID,Callsign,Use,Status,DigitalTone,Digital,VOIP,Location.Latitude,Location.Longitude,Location.County,Location.State,Location.Local,Frequency.Input,Frequency.Output,SquelchTone.Input,SquelchTone.Output
+379,6,KD6QLT,Open,On-Air,,,,33.83029938,-116.54399872,Riverside,CA,Palm Springs,147.585,144.93,107.2,

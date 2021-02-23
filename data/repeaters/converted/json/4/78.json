@@ -1,0 +1,21 @@
+{
+  "ID": 78,
+  "StateID": 4,
+  "Callsign": "WA7RAT",
+  "Location": {
+    "Latitude": 34.12490082,
+    "Longitude": -114.21099854,
+    "County": "La Paz",
+    "State": "AZ",
+    "Local": "Parker, Black Peak"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 146.25,
+    "Output": 146.85
+  },
+  "SquelchTone": {
+    "Input": 162.2
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "ID": 65,
+  "StateID": 35,
+  "Callsign": "NM5ML",
+  "Location": {
+    "Latitude": 34.24440002,
+    "Longitude": -105.79100037,
+    "County": "Lincoln",
+    "State": "NM",
+    "Local": "Corona, Gallinas Peak"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 147.88,
+    "Output": 147.28
+  },
+  "SquelchTone": {
+    "Input": 100
+  }
+}

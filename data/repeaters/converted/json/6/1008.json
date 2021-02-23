@@ -1,0 +1,21 @@
+{
+  "ID": 1008,
+  "StateID": 6,
+  "Callsign": "W6DRA",
+  "Location": {
+    "Latitude": 33.8132019,
+    "Longitude": -116.63899994,
+    "County": "Riverside",
+    "State": "CA",
+    "Local": "Palm Springs, Tram"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 444.7,
+    "Output": 449.7
+  },
+  "SquelchTone": {
+    "Input": 107.2
+  }
+}

@@ -1,0 +1,2 @@
+ID,StateID,Callsign,Use,Status,SquelchTone,DigitalTone,Digital,VOIP,Location.Latitude,Location.Longitude,Location.County,Location.State,Location.Local,Frequency.Input,Frequency.Output
+275,32,N7TR,Open,Other,,,,,40.75899887,-115.86000061,Elko,NV,Walker,448.275,443.275

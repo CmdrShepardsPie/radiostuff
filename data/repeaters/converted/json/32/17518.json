@@ -1,0 +1,22 @@
+{
+  "ID": 17518,
+  "StateID": 32,
+  "Callsign": "WB6AMT",
+  "Location": {
+    "Latitude": 36.20830154,
+    "Longitude": -115.98400116,
+    "County": "Nye",
+    "State": "NV",
+    "Local": "Pahrump"
+  },
+  "Use": "Open",
+  "Status": "Other",
+  "Frequency": {
+    "Input": 444.85,
+    "Output": 449.85
+  },
+  "SquelchTone": {
+    "Input": 156.7,
+    "Output": 156.7
+  }
+}

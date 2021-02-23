@@ -1,0 +1,2 @@
+ID,StateID,Callsign,Use,Status,DigitalTone,Digital,VOIP,Location.Latitude,Location.Longitude,Location.County,Location.State,Location.Local,Frequency.Input,Frequency.Output,SquelchTone.Input,SquelchTone.Output
+7970,6,KW6WW,Open,Other,,,,34.3608017,-117.63300323,San Bernardino,CA,Wrightwood,222.8,224.4,91.5,

@@ -1,0 +1,29 @@
+{
+  "ID": 11022,
+  "StateID": 31,
+  "Callsign": "N0IQ",
+  "Location": {
+    "Latitude": 41.14030075,
+    "Longitude": -100.76000214,
+    "County": "Lincoln",
+    "State": "NE",
+    "Local": "North Platte"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 449.4,
+    "Output": 444.4
+  },
+  "SquelchTone": {
+    "Input": 123
+  },
+  "VOIP": {
+    "EchoLink": {
+      "NodeID": 857936
+    },
+    "IRLP": {
+      "NodeID": 7627
+    }
+  }
+}

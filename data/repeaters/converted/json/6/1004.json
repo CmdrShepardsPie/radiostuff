@@ -1,0 +1,21 @@
+{
+  "ID": 1004,
+  "StateID": 6,
+  "Callsign": "WB6CDF",
+  "Location": {
+    "Latitude": 34.17850113,
+    "Longitude": -116.22100067,
+    "County": "San Bernardino",
+    "State": "CA",
+    "Local": "Landers, Goat Mountain"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 442.58,
+    "Output": 447.58
+  },
+  "SquelchTone": {
+    "Input": 173.8
+  }
+}

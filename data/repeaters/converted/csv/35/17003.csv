@@ -1,0 +1,2 @@
+ID,StateID,Callsign,Use,Status,SquelchTone,DigitalTone,VOIP,Location.Latitude,Location.Longitude,Location.County,Location.State,Location.Local,Frequency.Input,Frequency.Output,Digital.P25,Digital.YSF,Digital.DMR.ColorCode,Digital.DMR.ID,Digital.DStar.Node
+17003,35,KE5FYL,Open,On-Air,,,,35.119,-107.9013,Cibola,NM,"Grants, Rogers Rock",449.65,444.65,,,1,313508,KE5FYL (B) Repeater

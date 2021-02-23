@@ -1,0 +1,21 @@
+{
+  "ID": 18468,
+  "StateID": 31,
+  "Callsign": "KB0WYT",
+  "Location": {
+    "Latitude": 41.76279831,
+    "Longitude": -100.6740036,
+    "County": "Scotts Bluff",
+    "State": "NE",
+    "Local": "Scottsbluff"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 147.975,
+    "Output": 147.375
+  },
+  "SquelchTone": {
+    "Input": 123
+  }
+}

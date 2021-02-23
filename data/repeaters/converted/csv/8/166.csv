@@ -1,2 +1,2 @@
 ID,StateID,Callsign,Use,Status,DigitalTone,Digital,VOIP,Location.Latitude,Location.Longitude,Location.County,Location.State,Location.Local,Frequency.Input,Frequency.Output,SquelchTone.Input,SquelchTone.Output
-166,8,KB0VJJ,Open,On-Air,,,,40.05889893,-106.38800049,Grand,CO,"Kremmling, Santoy Peak",147.675,147.075,88.5,123
+166,8,KB0VJJ,Open,Off-Air,,,,40.05889893,-106.38800049,Grand,CO,"Kremmling, Santoy Peak",147.675,147.075,88.5,123

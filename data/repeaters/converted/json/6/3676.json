@@ -1,0 +1,23 @@
+{
+  "ID": 3676,
+  "StateID": 6,
+  "Callsign": "W6CPA",
+  "Location": {
+    "Latitude": 34.35219955,
+    "Longitude": -117.6740036,
+    "County": "Los Angeles",
+    "State": "CA",
+    "Local": "Wrightwood, Blue Ridge"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 144.985,
+    "Output": 147.54
+  },
+  "Digital": {
+    "DStar": {
+      "Node": "W6CPA (C)"
+    }
+  }
+}

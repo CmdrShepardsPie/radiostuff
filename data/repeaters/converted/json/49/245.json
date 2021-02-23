@@ -1,0 +1,21 @@
+{
+  "ID": 245,
+  "StateID": 49,
+  "Callsign": "WA7UAH",
+  "Location": {
+    "Latitude": 40.46699905,
+    "Longitude": -112.17299652,
+    "County": "Salt Lake",
+    "State": "UT",
+    "Local": "West Jordan, Butterfield Peak"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 144.85,
+    "Output": 145.45
+  },
+  "SquelchTone": {
+    "Input": 100
+  }
+}

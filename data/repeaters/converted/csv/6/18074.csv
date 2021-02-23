@@ -1,0 +1,2 @@
+ID,StateID,Callsign,Use,Status,DigitalTone,Digital,VOIP,Location.Latitude,Location.Longitude,Location.County,Location.State,Location.Local,Frequency.Input,Frequency.Output,SquelchTone.Input,SquelchTone.Output
+18074,6,W6VAH,Open,On-Air,,,,34.04999924,-117.25,San Bernardino,CA,Loma Linda,440.04,445.04,88.5,

@@ -1,0 +1,21 @@
+{
+  "ID": 11844,
+  "StateID": 6,
+  "Callsign": "WB6CDF",
+  "Location": {
+    "Latitude": 34.1913451,
+    "Longitude": -116.3878186,
+    "County": "San Bernardino",
+    "State": "CA",
+    "Local": "Yucca Valley, Yucca Mesa Area"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 147.105,
+    "Output": 147.705
+  },
+  "SquelchTone": {
+    "Input": 123
+  }
+}

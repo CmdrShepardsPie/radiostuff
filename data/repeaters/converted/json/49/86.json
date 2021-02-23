@@ -1,0 +1,18 @@
+{
+  "ID": 86,
+  "StateID": 49,
+  "Callsign": "KB7HAF",
+  "Location": {
+    "Latitude": 40.6935997,
+    "Longitude": -111.60500336,
+    "County": "Summit",
+    "State": "UT",
+    "Local": "Park City, Murdock Peak"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 443.475,
+    "Output": 448.475
+  }
+}

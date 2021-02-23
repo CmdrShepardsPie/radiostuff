@@ -1,0 +1,2 @@
+ID,StateID,Callsign,Use,Status,DigitalTone,Digital,VOIP,Location.Latitude,Location.Longitude,Location.County,Location.State,Location.Local,Frequency.Input,Frequency.Output,SquelchTone.Input,SquelchTone.Output
+10744,49,N7IMF,Closed,On-Air,,,,40.45360184,-111.91000366,Utah,UT,"Draper, Point of the Mountain",223.3,224.9,156.7,

@@ -1,0 +1,21 @@
+{
+  "ID": 8279,
+  "StateID": 32,
+  "Callsign": "KF6FM",
+  "Location": {
+    "Latitude": 35.248813,
+    "Longitude": -114.743556,
+    "County": "Clark",
+    "State": "NV",
+    "Local": "Bullhead City, Spirit Mountain"
+  },
+  "Use": "Closed",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 442.525,
+    "Output": 447.525
+  },
+  "SquelchTone": {
+    "Input": 141.3
+  }
+}

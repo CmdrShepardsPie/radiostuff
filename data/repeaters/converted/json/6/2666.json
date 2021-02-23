@@ -1,0 +1,21 @@
+{
+  "ID": 2666,
+  "StateID": 6,
+  "Callsign": "N6CA",
+  "Location": {
+    "Latitude": 34.1881,
+    "Longitude": -117.705,
+    "County": "Los Angeles",
+    "State": "CA",
+    "Local": "Sunset Ridge"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 902.65,
+    "Output": 927.65
+  },
+  "DigitalTone": {
+    "Input": 411
+  }
+}

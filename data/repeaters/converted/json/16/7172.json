@@ -1,0 +1,21 @@
+{
+  "ID": 7172,
+  "StateID": 16,
+  "Callsign": "K7ECI",
+  "Location": {
+    "Latitude": 43.13290024,
+    "Longitude": -115.69100189,
+    "County": "Elmore",
+    "State": "ID",
+    "Local": "Mountain Home, Rattlesnake Butte"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 147.94,
+    "Output": 147.34
+  },
+  "SquelchTone": {
+    "Input": 100
+  }
+}

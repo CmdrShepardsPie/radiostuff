@@ -1,0 +1,21 @@
+{
+  "ID": 10179,
+  "StateID": 49,
+  "Callsign": "WD7N",
+  "Location": {
+    "Latitude": 40.31409836,
+    "Longitude": -112.00700378,
+    "County": "Utah",
+    "State": "UT",
+    "Local": "Eagle Mountain"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 444.25,
+    "Output": 449.25
+  },
+  "SquelchTone": {
+    "Input": 110.9
+  }
+}

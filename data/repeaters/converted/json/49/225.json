@@ -1,0 +1,21 @@
+{
+  "ID": 225,
+  "StateID": 49,
+  "Callsign": "WA7GIE",
+  "Location": {
+    "Latitude": 40.61360168,
+    "Longitude": -112.18800354,
+    "County": "Tooele",
+    "State": "UT",
+    "Local": "Salt Lake City, Nelson Peak"
+  },
+  "Use": "Closed",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 428.6,
+    "Output": 433.6
+  },
+  "SquelchTone": {
+    "Input": 100
+  }
+}

@@ -1,0 +1,2 @@
+ID,StateID,Callsign,Use,Status,DigitalTone,Digital,VOIP,Location.Latitude,Location.Longitude,Location.County,Location.State,Location.Local,Frequency.Input,Frequency.Output,SquelchTone.Input,SquelchTone.Output
+16597,16,K7ECI,Open,On-Air,,,,43.12950134,-115.69599915,Elmore,ID,Mountain Home,447.825,442.825,110.9,

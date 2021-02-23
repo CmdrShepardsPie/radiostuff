@@ -1,0 +1,2 @@
+ID,StateID,Callsign,Use,Status,DigitalTone,Digital,VOIP,Location.Latitude,Location.Longitude,Location.County,Location.State,Location.Local,Frequency.Input,Frequency.Output,SquelchTone.Input,SquelchTone.Output
+76,49,KA7EGC,Open,On-Air,,,,40.39889908,-111.7990036,Utah,UT,"American Fork, Utah Lake",444.175,449.175,131.8,

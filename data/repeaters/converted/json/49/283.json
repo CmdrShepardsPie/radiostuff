@@ -1,0 +1,21 @@
+{
+  "ID": 283,
+  "StateID": 49,
+  "Callsign": "WD7N",
+  "Location": {
+    "Latitude": 40.16189957,
+    "Longitude": -111.60299683,
+    "County": "Utah",
+    "State": "UT",
+    "Local": "Springville"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 442.475,
+    "Output": 447.475
+  },
+  "SquelchTone": {
+    "Input": 186.2
+  }
+}

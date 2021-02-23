@@ -1,0 +1,23 @@
+{
+  "ID": 5178,
+  "StateID": 32,
+  "Callsign": "N7ARR",
+  "Location": {
+    "Latitude": 36.16619873,
+    "Longitude": -115.01799774,
+    "County": "Clark",
+    "State": "NV",
+    "Local": "Las Vegas"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 144.575,
+    "Output": 145.175
+  },
+  "Digital": {
+    "DStar": {
+      "Node": "N7ARR (C)"
+    }
+  }
+}

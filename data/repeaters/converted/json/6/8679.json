@@ -1,0 +1,22 @@
+{
+  "ID": 8679,
+  "StateID": 6,
+  "Callsign": "WW6Y",
+  "Location": {
+    "Latitude": 34.23469925,
+    "Longitude": -117.14099884,
+    "County": "San Bernardino",
+    "State": "CA",
+    "Local": "Lake Arrowhead, Heaps Peak"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 440.1,
+    "Output": 445.1
+  },
+  "SquelchTone": {
+    "Input": 136.5,
+    "Output": 136.5
+  }
+}

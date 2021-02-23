@@ -1,0 +1,2 @@
+ID,StateID,Callsign,Use,Status,DigitalTone,Digital,VOIP,Location.Latitude,Location.Longitude,Location.County,Location.State,Location.Local,Frequency.Input,Frequency.Output,SquelchTone.Input,SquelchTone.Output
+200,49,W7IHC,Open,On-Air,,,,40.4681015,-112.15399933,Salt Lake,UT,"Salt Lake City, Intermountain Ridge",144.59,145.19,123,

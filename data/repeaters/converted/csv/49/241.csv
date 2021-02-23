@@ -1,0 +1,2 @@
+ID,StateID,Callsign,Use,Status,DigitalTone,Digital,VOIP,Location.Latitude,Location.Longitude,Location.County,Location.State,Location.Local,Frequency.Input,Frequency.Output,SquelchTone.Input,SquelchTone.Output
+241,49,WA7KMF,Open,On-Air,,,,41.6371994,-111.41600037,Cache,UT,Red Spur,144.71,145.31,103.5,

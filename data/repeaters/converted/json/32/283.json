@@ -1,0 +1,21 @@
+{
+  "ID": 283,
+  "StateID": 32,
+  "Callsign": "KP4UZ",
+  "Location": {
+    "Latitude": 36.00730133,
+    "Longitude": -115.00700378,
+    "County": "Clark",
+    "State": "NV",
+    "Local": "Henderson, Black Mountain"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 902.475,
+    "Output": 927.475
+  },
+  "DigitalTone": {
+    "Input": 432
+  }
+}

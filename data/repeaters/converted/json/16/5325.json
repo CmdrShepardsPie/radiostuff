@@ -1,0 +1,21 @@
+{
+  "ID": 5325,
+  "StateID": 16,
+  "Callsign": "K7ACA",
+  "Location": {
+    "Latitude": 42.31470108,
+    "Longitude": -113.65799713,
+    "County": "Cassia",
+    "State": "ID",
+    "Local": "Burley, Mt Harrison"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 144.73,
+    "Output": 145.33
+  },
+  "SquelchTone": {
+    "Input": 123
+  }
+}

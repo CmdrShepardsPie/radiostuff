@@ -1,0 +1,23 @@
+{
+  "ID": 3108,
+  "StateID": 32,
+  "Callsign": "W7AES",
+  "Location": {
+    "Latitude": 35.9457016,
+    "Longitude": -115.04299927,
+    "County": "Clark",
+    "State": "NV",
+    "Local": "Las Vegas, Red Mountain"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 147.375,
+    "Output": 147.975
+  },
+  "Digital": {
+    "DStar": {
+      "Node": "W7AES (C)"
+    }
+  }
+}

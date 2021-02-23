@@ -1,0 +1,21 @@
+{
+  "ID": 35,
+  "StateID": 49,
+  "Callsign": "K7JL",
+  "Location": {
+    "Latitude": 40.62440109,
+    "Longitude": -111.56600189,
+    "County": "Salt Lake",
+    "State": "UT",
+    "Local": "Brighton, Scotts Peak"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 144.67,
+    "Output": 145.27
+  },
+  "SquelchTone": {
+    "Input": 100
+  }
+}

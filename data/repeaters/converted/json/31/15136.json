@@ -1,0 +1,21 @@
+{
+  "ID": 15136,
+  "StateID": 31,
+  "Callsign": "N7UVW",
+  "Location": {
+    "Latitude": 40.19670105,
+    "Longitude": -100.625,
+    "County": "Red Willow",
+    "State": "NE",
+    "Local": "McCook"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 449.8,
+    "Output": 444.8
+  },
+  "SquelchTone": {
+    "Input": 162.2
+  }
+}

@@ -1,0 +1,2 @@
+ID,StateID,Callsign,Use,Status,DigitalTone,Digital,VOIP,Location.Latitude,Location.Longitude,Location.County,Location.State,Location.Local,Frequency.Input,Frequency.Output,SquelchTone.Input,SquelchTone.Output
+9111,32,WB6TNP,Private,On-Air,,,,36.20420074,-116.12799835,Nye,NV,Pahrump,443.725,448.725,131.8,

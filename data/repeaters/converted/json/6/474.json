@@ -1,0 +1,22 @@
+{
+  "ID": 474,
+  "StateID": 6,
+  "Callsign": "W6BA",
+  "Location": {
+    "Latitude": 34.11420059,
+    "Longitude": -116.43099976,
+    "County": "San Bernardino",
+    "State": "CA",
+    "Local": "Yucca Valley"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 146.19,
+    "Output": 146.79
+  },
+  "SquelchTone": {
+    "Input": 136.5,
+    "Output": 136.5
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "ID": 16113,
+  "StateID": 35,
+  "Callsign": "N5GDR",
+  "Location": {
+    "Latitude": 36.683,
+    "Longitude": -104.415,
+    "County": "Colfax",
+    "State": "NM",
+    "Local": "Maxwell, Eagle Tail Mountain"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 144.61,
+    "Output": 145.21
+  },
+  "SquelchTone": {
+    "Input": 110.9,
+    "Output": 110.9
+  },
+  "VOIP": {
+    "AllStar": {
+      "NodeID": 46298
+    }
+  }
+}

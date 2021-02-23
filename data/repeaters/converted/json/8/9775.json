@@ -20,8 +20,8 @@
     "Output": 100
   },
   "VOIP": {
-    "IRLP": {
-      "NodeID": 3241
+    "Wires": {
+      "ID": 46694
     }
   }
 }

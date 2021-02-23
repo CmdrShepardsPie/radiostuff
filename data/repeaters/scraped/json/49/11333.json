@@ -1,11 +1,14 @@
 {
   "Frequency": 449.35,
   "Offset": -5,
-  "Tone Up / Down": "",
-  "Location": "St George, Utah Hill",
-  "County": "Washington",
+  "Tone": 100,
   "Call": "K7OET",
+  "Location": "St George, Utah Hill",
+  "ST/PR": "UT",
   "Use": "OPEN",
+  "Mode": "FM",
+  "Mi": 97.45,
+  "Dir": "NE",
   "": "",
   "state_id": "49",
   "ID": "11333",
@@ -14,9 +17,12 @@
   "Downlink": 449.35,
   "Uplink": 444.35,
   "Downlink Tone": 100,
+  "County": "Washington",
   "Grid": "DM37BD",
   "Op Status": "On-Air",
   "Coverage": "Wide area, I-15, Washington County, Clark County, Navajo County",
   "Features": "E-power (batt).",
-  "Last update": "2015-06-18"
+  "FM": "Yes; analog capable.",
+  "Analog Bandwidth": "",
+  "Last update": "2021-01-17"
 }

@@ -1,0 +1,22 @@
+{
+  "ID": 4057,
+  "StateID": 20,
+  "Callsign": "KC0HFA",
+  "Location": {
+    "Latitude": 38.89530182,
+    "Longitude": -98.85980225,
+    "County": "Russell",
+    "State": "KS",
+    "Local": "Russell"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 447.85,
+    "Output": 442.85
+  },
+  "SquelchTone": {
+    "Input": 141.3,
+    "Output": 141.3
+  }
+}

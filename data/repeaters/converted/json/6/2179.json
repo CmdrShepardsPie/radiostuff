@@ -1,0 +1,18 @@
+{
+  "ID": 2179,
+  "StateID": 6,
+  "Callsign": "WV6H",
+  "Location": {
+    "Latitude": 33.52330017,
+    "Longitude": -116.42500305,
+    "County": "Riverside",
+    "State": "CA",
+    "Local": "Anza, Toro Peak"
+  },
+  "Use": "Closed",
+  "Status": "Other",
+  "Frequency": {
+    "Input": 1272.85,
+    "Output": 1284.85
+  }
+}

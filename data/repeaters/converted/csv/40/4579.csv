@@ -1,0 +1,2 @@
+ID,StateID,Callsign,Use,Status,DigitalTone,Digital,VOIP,Location.Latitude,Location.Longitude,Location.County,Location.State,Location.Local,Frequency.Input,Frequency.Output,SquelchTone.Input,SquelchTone.Output
+4579,40,N5DFQ,Open,On-Air,,,,36.43360138,-99.39040375,Woodward,OK,Woodward,447.2,442.2,88.5,

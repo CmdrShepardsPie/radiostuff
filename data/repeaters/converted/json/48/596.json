@@ -1,0 +1,21 @@
+{
+  "ID": 596,
+  "StateID": 48,
+  "Callsign": "N5DFQ",
+  "Location": {
+    "Latitude": 36.19839859,
+    "Longitude": -101.19200134,
+    "County": "Hansford",
+    "State": "TX",
+    "Local": "Spearman"
+  },
+  "Use": "Open",
+  "Status": "Other",
+  "Frequency": {
+    "Input": 147.64,
+    "Output": 147.04
+  },
+  "SquelchTone": {
+    "Input": 88.5
+  }
+}

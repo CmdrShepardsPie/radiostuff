@@ -1,0 +1,2 @@
+ID,StateID,Callsign,Use,Status,SquelchTone,DigitalTone,VOIP,Location.Latitude,Location.Longitude,Location.County,Location.State,Location.Local,Frequency.Input,Frequency.Output,Digital.P25,Digital.DStar,Digital.YSF,Digital.DMR.ColorCode,Digital.DMR.ID
+19653,31,W0SSB,Open,On-Air,,,,41.8666341,-103.6671662,Scotts Bluff,NE,Scottsbluff,449.25,444.25,,,,,

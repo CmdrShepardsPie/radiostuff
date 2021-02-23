@@ -1,0 +1,2 @@
+ID,StateID,Callsign,Use,Status,DigitalTone,Digital,VOIP,Location.Latitude,Location.Longitude,Location.County,Location.State,Location.Local,Frequency.Input,Frequency.Output,SquelchTone.Input,SquelchTone.Output
+11724,35,WA6CCB,Closed,On-Air,,,,35.21829987,-106.4509964,Bernalillo,NM,"Albuquerque, Sandia Peak",448.75,443.75,100,

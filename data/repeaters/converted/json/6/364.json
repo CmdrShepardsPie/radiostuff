@@ -1,0 +1,27 @@
+{
+  "ID": 364,
+  "StateID": 6,
+  "Callsign": "WA6ZRC",
+  "Location": {
+    "Latitude": 33.68889999,
+    "Longitude": -114.84400177,
+    "County": "Riverside",
+    "State": "CA",
+    "Local": "Blythe, McCoy Mountains"
+  },
+  "Use": "Open",
+  "Status": "Testing",
+  "Frequency": {
+    "Input": 147.6,
+    "Output": 147
+  },
+  "SquelchTone": {
+    "Input": 203.5,
+    "Output": 203.5
+  },
+  "VOIP": {
+    "AllStar": {
+      "NodeID": 46249
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "ID": 13,
+  "StateID": 49,
+  "Callsign": "W7DES",
+  "Location": {
+    "Latitude": 40.77750015,
+    "Longitude": -111.88800049,
+    "County": "Salt Lake",
+    "State": "UT",
+    "Local": "Salt Lake City, Capitol"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 147.66,
+    "Output": 147.06
+  }
+}

@@ -1,0 +1,2 @@
+ID,StateID,Callsign,Use,Status,DigitalTone,Digital,VOIP,Location.Latitude,Location.Longitude,Location.County,Location.State,Location.Local,Frequency.Input,Frequency.Output,SquelchTone.Input,SquelchTone.Output
+3697,6,KC6JAR,Open,On-Air,,,,34.35440063,-117.67900085,Los Angeles,CA,"Wrightwood, Blue Ridge",222.42,224.02,110.9,

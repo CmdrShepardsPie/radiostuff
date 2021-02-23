@@ -1,0 +1,2 @@
+ID,StateID,Callsign,Use,Status,DigitalTone,Digital,VOIP,Location.Latitude,Location.Longitude,Location.County,Location.State,Location.Local,Frequency.Input,Frequency.Output,SquelchTone.Input,SquelchTone.Output
+44,49,K7OGM,Open,On-Air,,,,41.88249969,-111.26899719,Rich,UT,"Laketown, Bear Lake",444.7,449.7,100,

@@ -1,0 +1,21 @@
+{
+  "ID": 22,
+  "StateID": 56,
+  "Callsign": "KC7BJY",
+  "Location": {
+    "Latitude": 42.32929993,
+    "Longitude": -110.31999969,
+    "County": "Sublette",
+    "State": "WY",
+    "Local": "Big Piney, The Hogsback"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 146.28,
+    "Output": 146.88
+  },
+  "SquelchTone": {
+    "Input": 100
+  }
+}

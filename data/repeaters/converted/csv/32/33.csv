@@ -1,0 +1,2 @@
+ID,StateID,Callsign,Use,Status,SquelchTone,DigitalTone,Digital,VOIP,Location.Latitude,Location.Longitude,Location.County,Location.State,Location.Local,Frequency.Input,Frequency.Output
+33,32,KA7BCP,Open,On-Air,,,,,36.09989929,-115.17199707,Clark,NV,"Las Vegas, Tropicana",144.59,145.19

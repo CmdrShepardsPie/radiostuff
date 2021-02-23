@@ -1,0 +1,26 @@
+{
+  "ID": 39,
+  "StateID": 49,
+  "Callsign": "K7MLA",
+  "Location": {
+    "Latitude": 40.46720123,
+    "Longitude": -112.17099762,
+    "County": "Salt Lake",
+    "State": "UT",
+    "Local": "West Jordan, Butterfield Peak"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 147.74,
+    "Output": 147.14
+  },
+  "SquelchTone": {
+    "Input": 127.3
+  },
+  "VOIP": {
+    "IRLP": {
+      "NodeID": 3215
+    }
+  }
+}

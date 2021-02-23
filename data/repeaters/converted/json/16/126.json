@@ -1,0 +1,21 @@
+{
+  "ID": 126,
+  "StateID": 16,
+  "Callsign": "AD7UI",
+  "Location": {
+    "Latitude": 42.92070007,
+    "Longitude": -112.34600067,
+    "County": "Bannock",
+    "State": "ID",
+    "Local": "Pocatello"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 146.22,
+    "Output": 146.82
+  },
+  "SquelchTone": {
+    "Input": 100
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "ID": 26,
+  "StateID": 35,
+  "Callsign": "K5CQH",
+  "Location": {
+    "Latitude": 34.98500061,
+    "Longitude": -106.34400177,
+    "County": "Bernalillo",
+    "State": "NM",
+    "Local": "Tijeras, Raven Road"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 222.4,
+    "Output": 224
+  },
+  "SquelchTone": {
+    "Input": 100
+  }
+}

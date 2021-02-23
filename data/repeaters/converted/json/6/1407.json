@@ -1,0 +1,18 @@
+{
+  "ID": 1407,
+  "StateID": 6,
+  "Callsign": "W6DXX",
+  "Location": {
+    "Latitude": 34.06029892,
+    "Longitude": -116.88400269,
+    "County": "San Bernardino",
+    "State": "CA",
+    "Local": "Yucaipa, Little San Gorgonio Peak"
+  },
+  "Use": "Closed",
+  "Status": "Other",
+  "Frequency": {
+    "Input": 440.14,
+    "Output": 445.14
+  }
+}

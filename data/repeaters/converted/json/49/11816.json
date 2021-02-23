@@ -1,0 +1,21 @@
+{
+  "ID": 11816,
+  "StateID": 49,
+  "Callsign": "WA7VHF",
+  "Location": {
+    "Latitude": 38.77249908,
+    "Longitude": -112.08399963,
+    "County": "Sevier",
+    "State": "UT",
+    "Local": "Richfield, Monroe Peak"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 146.24,
+    "Output": 146.84
+  },
+  "SquelchTone": {
+    "Input": 100
+  }
+}

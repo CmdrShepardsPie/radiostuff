@@ -1,0 +1,30 @@
+{
+  "ID": 14394,
+  "StateID": 56,
+  "Callsign": "KF7EHE",
+  "Location": {
+    "Latitude": 41.79240036,
+    "Longitude": -110.53800201,
+    "County": "Lincoln",
+    "State": "WY",
+    "Local": "Kemmerer, Dempsey Ridge"
+  },
+  "Use": "Open",
+  "Status": "Testing",
+  "Frequency": {
+    "Input": 444.075,
+    "Output": 449.075
+  },
+  "SquelchTone": {
+    "Input": 123,
+    "Output": 123
+  },
+  "Digital": {
+    "YSF": {
+      "GroupID": {
+        "Input": "Open ↑",
+        "Output": "Open ↓"
+      }
+    }
+  }
+}

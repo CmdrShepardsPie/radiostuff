@@ -1,0 +1,21 @@
+{
+  "ID": 8,
+  "StateID": 49,
+  "Callsign": "AI7J",
+  "Location": {
+    "Latitude": 41.05400085,
+    "Longitude": -111.95200348,
+    "County": "Davis",
+    "State": "UT",
+    "Local": "Layton"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 444.25,
+    "Output": 449.25
+  },
+  "SquelchTone": {
+    "Input": 100
+  }
+}

@@ -1,0 +1,2 @@
+ID,StateID,Callsign,Use,Status,SquelchTone,DigitalTone,VOIP,Location.Latitude,Location.Longitude,Location.County,Location.State,Location.Local,Frequency.Input,Frequency.Output,Digital.DMR,Digital.P25,Digital.YSF,Digital.DStar.Node
+13331,6,KJ6KTV,Open,On-Air,,,,34.13560104,-116.05400085,San Bernardino,CA,Twentynine Palms,145.015,147.57,,,,KJ6KTV (C) Gateway Repeater

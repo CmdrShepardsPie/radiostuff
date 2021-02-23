@@ -1,0 +1,2 @@
+ID,StateID,Callsign,Use,Status,DigitalTone,Digital,VOIP,Location.Latitude,Location.Longitude,Location.County,Location.State,Location.Local,Frequency.Input,Frequency.Output,SquelchTone.Input,SquelchTone.Output
+18390,46,K0HS,Open,On-Air,,,,43.22800064,-103.47399902,Fall River,SD,"Hot Springs, City library/HSARC club house",449.7,444.7,146.2,146.2

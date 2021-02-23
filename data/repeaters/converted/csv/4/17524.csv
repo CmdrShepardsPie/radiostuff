@@ -1,0 +1,2 @@
+ID,StateID,Callsign,Use,Status,DigitalTone,Digital,VOIP,Location.Latitude,Location.Longitude,Location.County,Location.State,Location.Local,Frequency.Input,Frequency.Output,SquelchTone.Input,SquelchTone.Output
+17524,4,KC0CAT,Open,On-Air,,,,33.65969849,-114.21600342,La Paz,AZ,"Quartzsite, Rice Ranch",144.59,145.19,103.5,

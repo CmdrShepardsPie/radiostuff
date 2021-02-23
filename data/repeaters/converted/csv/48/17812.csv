@@ -1,0 +1,2 @@
+ID,StateID,Callsign,Use,Status,DigitalTone,Digital,Location.Latitude,Location.Longitude,Location.County,Location.State,Location.Local,Frequency.Input,Frequency.Output,SquelchTone.Input,SquelchTone.Output,VOIP.AllStar,VOIP.EchoLink,VOIP.IRLP,VOIP.Wires.ID
+17812,48,KW5KW,Open,On-Air,,,34.55089951,-102.31199646,Castro,TX,"Dimmitt, White house on east side of road",449.7,444.7,110.9,110.9,,,,28485

@@ -1,0 +1,31 @@
+{
+  "ID": 3708,
+  "StateID": 32,
+  "Callsign": "NO7BS",
+  "Location": {
+    "Latitude": 36.1169014,
+    "Longitude": -115.17299652,
+    "County": "Clark",
+    "State": "NV",
+    "Local": "Las Vegas"
+  },
+  "Use": "Open",
+  "Status": "Other",
+  "Frequency": {
+    "Input": 440,
+    "Output": 445
+  },
+  "DigitalTone": {
+    "Input": 606
+  },
+  "Digital": {
+    "DMR": {
+      "ColorCode": 0
+    }
+  },
+  "VOIP": {
+    "EchoLink": {
+      "NodeID": 284940
+    }
+  }
+}

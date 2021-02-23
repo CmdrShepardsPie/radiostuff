@@ -1,0 +1,21 @@
+{
+  "ID": 62,
+  "StateID": 35,
+  "Callsign": "NM5ML",
+  "Location": {
+    "Latitude": 34.43030167,
+    "Longitude": -103.63200378,
+    "County": "Curry",
+    "State": "NM",
+    "Local": "Melrose"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 147.88,
+    "Output": 147.28
+  },
+  "SquelchTone": {
+    "Input": 67
+  }
+}

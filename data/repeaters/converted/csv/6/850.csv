@@ -1,0 +1,2 @@
+ID,StateID,Callsign,Use,Status,DigitalTone,Digital,Location.Latitude,Location.Longitude,Location.County,Location.State,Location.Local,Frequency.Input,Frequency.Output,SquelchTone.Input,SquelchTone.Output,VOIP.EchoLink,VOIP.IRLP,VOIP.Wires,VOIP.AllStar.NodeID
+850,6,K6PQN,Open,On-Air,,,34.1332016,-117.64700317,San Bernardino,CA,Upland,222.98,224.58,88.5,88.5,,,,28612

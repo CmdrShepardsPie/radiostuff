@@ -1,0 +1,22 @@
+{
+  "ID": 18554,
+  "StateID": 20,
+  "Callsign": "W0QS",
+  "Location": {
+    "Latitude": 37.1753006,
+    "Longitude": -101.34960175,
+    "County": "Stevens",
+    "State": "KS",
+    "Local": "Hugoton"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 146.01,
+    "Output": 146.61
+  },
+  "SquelchTone": {
+    "Input": 123,
+    "Output": 123
+  }
+}

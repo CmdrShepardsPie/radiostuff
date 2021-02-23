@@ -1,0 +1,2 @@
+ID,StateID,Callsign,Use,Status,SquelchTone,DigitalTone,Digital,VOIP,Location.Latitude,Location.Longitude,Location.County,Location.State,Location.Local,Frequency.Input,Frequency.Output
+230,49,WA7GIE,Closed,On-Air,,,,,40.43529892,-112.0059967,Salt Lake,UT,"Riverton, Flat Top",443.625,448.625

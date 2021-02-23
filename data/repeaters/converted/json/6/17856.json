@@ -1,0 +1,18 @@
+{
+  "ID": 17856,
+  "StateID": 6,
+  "Callsign": "W6ATN",
+  "Location": {
+    "Latitude": 34.65779877,
+    "Longitude": -116.75299835,
+    "County": "San Bernardino",
+    "State": "CA",
+    "Local": "Barstow, Ord Mountain"
+  },
+  "Use": "Closed",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 443.42,
+    "Output": 448.42
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "ID": 466,
+  "StateID": 6,
+  "Callsign": "N6SLD",
+  "Location": {
+    "Latitude": 34.89580154,
+    "Longitude": -117.01699829,
+    "County": "San Bernardino",
+    "State": "CA",
+    "Local": "Barstow, Flash II"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 144.62,
+    "Output": 145.22
+  },
+  "SquelchTone": {
+    "Input": 114.8
+  }
+}

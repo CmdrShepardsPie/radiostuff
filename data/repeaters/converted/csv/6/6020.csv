@@ -1,0 +1,2 @@
+ID,StateID,Callsign,Use,Status,SquelchTone,DigitalTone,Digital,VOIP,Location.Latitude,Location.Longitude,Location.County,Location.State,Location.Local,Frequency.Input,Frequency.Output
+6020,6,,Open,Other,,,,,35.4355011,-115.92299652,San Bernardino,CA,"Baker, Turquoise Mountain",442.68,447.68

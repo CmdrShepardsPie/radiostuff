@@ -1,0 +1,23 @@
+{
+  "ID": 9295,
+  "StateID": 35,
+  "Callsign": "W5MPZ",
+  "Location": {
+    "Latitude": 35.21030045,
+    "Longitude": -106.44999695,
+    "County": "Bernalillo",
+    "State": "NM",
+    "Local": "Albuquerque, Sandia Crest"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 448.825,
+    "Output": 443.8
+  },
+  "Digital": {
+    "DStar": {
+      "Node": "W5MPZ (B) Repeater"
+    }
+  }
+}

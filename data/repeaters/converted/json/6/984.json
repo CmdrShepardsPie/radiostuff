@@ -1,0 +1,27 @@
+{
+  "ID": 984,
+  "StateID": 6,
+  "Callsign": "K9KAO",
+  "Location": {
+    "Latitude": 34.18759918,
+    "Longitude": -117.69999695,
+    "County": "Los Angeles",
+    "State": "CA",
+    "Local": "Pomona, Sunset Ridge"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 444.5,
+    "Output": 449.5
+  },
+  "SquelchTone": {
+    "Input": 100,
+    "Output": 100
+  },
+  "VOIP": {
+    "AllStar": {
+      "NodeID": 1350
+    }
+  }
+}

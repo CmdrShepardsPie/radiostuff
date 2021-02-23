@@ -1,0 +1,24 @@
+{
+  "ID": 12506,
+  "StateID": 6,
+  "Callsign": "N6GGS",
+  "Location": {
+    "Latitude": 34.3608017,
+    "Longitude": -117.63300323,
+    "County": "San Bernardino",
+    "State": "CA",
+    "Local": "Victorville, Quartzite Mtn"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 441.06,
+    "Output": 446.06
+  },
+  "Digital": {
+    "DMR": {
+      "ColorCode": 2,
+      "ID": 310661
+    }
+  }
+}

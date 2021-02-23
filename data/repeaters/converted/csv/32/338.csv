@@ -1,0 +1,2 @@
+ID,StateID,Callsign,Use,Status,DigitalTone,Digital,Location.Latitude,Location.Longitude,Location.County,Location.State,Location.Local,Frequency.Input,Frequency.Output,SquelchTone.Input,SquelchTone.Output,VOIP.AllStar,VOIP.Wires,VOIP.EchoLink.NodeID,VOIP.IRLP.NodeID
+338,32,K7IZA,Open,On-Air,,,36.22470093,-114.97599792,Clark,NV,"Las Vegas, Sunrise Mountain",443.9,448.9,100,,,,360534,3611

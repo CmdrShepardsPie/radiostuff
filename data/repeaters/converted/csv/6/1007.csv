@@ -1,0 +1,2 @@
+ID,StateID,Callsign,Use,Status,DigitalTone,Digital,VOIP,Location.Latitude,Location.Longitude,Location.County,Location.State,Location.Local,Frequency.Input,Frequency.Output,SquelchTone.Input,SquelchTone.Output
+1007,6,W6KSN,Open,Other,,,,33.66080093,-115.72100067,Riverside,CA,"Indio, Chiriaco Smt",442.58,447.58,100,

@@ -1,0 +1,2 @@
+ID,StateID,Callsign,Use,Status,DigitalTone,Digital,VOIP,Location.Latitude,Location.Longitude,Location.County,Location.State,Location.Local,Frequency.Input,Frequency.Output,SquelchTone.Input,SquelchTone.Output
+995,6,K6ONT,Open,On-Air,,,,34.10639954,-117.59200287,San Bernardino,CA,Rancho Cucamonga,442.2,447.2,114.8,

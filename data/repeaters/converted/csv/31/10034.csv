@@ -1,0 +1,2 @@
+ID,StateID,Callsign,Use,Status,DigitalTone,Digital,VOIP,Location.Latitude,Location.Longitude,Location.County,Location.State,Location.Local,Frequency.Input,Frequency.Output,SquelchTone.Input,SquelchTone.Output
+10034,31,N0NEB,Open,On-Air,,,,42.11700058,-102.87000275,Box Butte,NE,Alliance,146.115,146.715,103.5,103.5

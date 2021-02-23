@@ -1,0 +1,2 @@
+ID,StateID,Callsign,Use,Status,DigitalTone,Digital,VOIP,Location.Latitude,Location.Longitude,Location.County,Location.State,Location.Local,Frequency.Input,Frequency.Output,SquelchTone.Input,SquelchTone.Output
+802,6,K6AFN,Open,On-Air,,,,33.89659882,-117.25900269,Riverside,CA,"Moreno Valley, March AFB",222.36,223.96,100,

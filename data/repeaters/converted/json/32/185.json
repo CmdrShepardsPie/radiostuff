@@ -1,0 +1,18 @@
+{
+  "ID": 185,
+  "StateID": 32,
+  "Callsign": "W7LKO",
+  "Location": {
+    "Latitude": 40.8893013,
+    "Longitude": -115.87200165,
+    "County": "Elko",
+    "State": "NV",
+    "Local": "Elko, Adobe Summit"
+  },
+  "Use": "Open",
+  "Status": "Other",
+  "Frequency": {
+    "Input": 449.7,
+    "Output": 444.7
+  }
+}

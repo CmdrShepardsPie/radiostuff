@@ -1,0 +1,24 @@
+{
+  "ID": 15489,
+  "StateID": 56,
+  "Callsign": "WY7EOC",
+  "Location": {
+    "Latitude": 42.86660004,
+    "Longitude": -106.31300354,
+    "County": "Natrona",
+    "State": "WY",
+    "Local": "Casper, Casper Mountain"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 444.9875,
+    "Output": 449.9875
+  },
+  "Digital": {
+    "DMR": {
+      "ColorCode": 11,
+      "ID": 315606
+    }
+  }
+}

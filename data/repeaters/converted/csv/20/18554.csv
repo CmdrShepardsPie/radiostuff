@@ -1,0 +1,2 @@
+ID,StateID,Callsign,Use,Status,DigitalTone,Digital,VOIP,Location.Latitude,Location.Longitude,Location.County,Location.State,Location.Local,Frequency.Input,Frequency.Output,SquelchTone.Input,SquelchTone.Output
+18554,20,W0QS,Open,On-Air,,,,37.1753006,-101.34960175,Stevens,KS,Hugoton,146.01,146.61,123,123

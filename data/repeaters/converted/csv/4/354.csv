@@ -1,0 +1,2 @@
+ID,StateID,Callsign,Use,Status,SquelchTone,DigitalTone,Digital,VOIP,Location.Latitude,Location.Longitude,Location.County,Location.State,Location.Local,Frequency.Input,Frequency.Output
+354,4,WD6FM,Closed,On-Air,,,,,33.66719818,-114.05899811,La Paz,AZ,"Quartzsite, Guadalupe Peak",443.9,448.9

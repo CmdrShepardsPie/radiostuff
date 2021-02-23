@@ -1,0 +1,2 @@
+ID,StateID,Callsign,Use,Status,DigitalTone,Digital,VOIP,Location.Latitude,Location.Longitude,Location.County,Location.State,Location.Local,Frequency.Input,Frequency.Output,SquelchTone.Input,SquelchTone.Output
+1490,48,N5LTZ,Open,On-Air,,,,35.86560059,-101.97299957,Moore,TX,Dumas,449.35,444.35,88.5,

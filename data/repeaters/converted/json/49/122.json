@@ -1,0 +1,21 @@
+{
+  "ID": 122,
+  "StateID": 49,
+  "Callsign": "K7UVA",
+  "Location": {
+    "Latitude": 40.3844986,
+    "Longitude": -111.58399963,
+    "County": "Utah",
+    "State": "UT",
+    "Local": "Provo, Sundance"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 144.65,
+    "Output": 145.25
+  },
+  "SquelchTone": {
+    "Input": 100
+  }
+}

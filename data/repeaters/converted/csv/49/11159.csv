@@ -1,0 +1,2 @@
+ID,StateID,Callsign,Use,Status,DigitalTone,Digital,VOIP,Location.Latitude,Location.Longitude,Location.County,Location.State,Location.Local,Frequency.Input,Frequency.Output,SquelchTone.Input,SquelchTone.Output
+11159,49,KF7YXL,Open,On-Air,,,,40.69210052,-111.89399719,Salt Lake,UT,"South Salt Lake City, Fire Station 43",442.7,447.7,100,

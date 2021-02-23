@@ -1,0 +1,2 @@
+ID,StateID,Callsign,Use,Status,DigitalTone,Digital,VOIP,Location.Latitude,Location.Longitude,Location.County,Location.State,Location.Local,Frequency.Input,Frequency.Output,SquelchTone.Input,SquelchTone.Output
+11484,48,KC5WBK,Open,On-Air,,,,36.19839859,-101.19200134,Hansford,TX,Spearman,448.2,443.2,88.5,

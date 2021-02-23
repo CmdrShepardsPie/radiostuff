@@ -1,0 +1,21 @@
+{
+  "ID": 11019,
+  "StateID": 4,
+  "Callsign": "K6PNG",
+  "Location": {
+    "Latitude": 34.48389816,
+    "Longitude": -114.3219986,
+    "County": "Mohave",
+    "State": "AZ",
+    "Local": "Lake Havasu City"
+  },
+  "Use": "Open",
+  "Status": "Off-Air",
+  "Frequency": {
+    "Input": 444.125,
+    "Output": 449.125
+  },
+  "SquelchTone": {
+    "Input": 67
+  }
+}

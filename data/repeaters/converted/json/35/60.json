@@ -1,0 +1,21 @@
+{
+  "ID": 60,
+  "StateID": 35,
+  "Callsign": "K5FIQ",
+  "Location": {
+    "Latitude": 35.04779816,
+    "Longitude": -105.62999725,
+    "County": "San Miguel",
+    "State": "NM",
+    "Local": "Clines Corners, Tapia Mesa"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 147.66,
+    "Output": 147.06
+  },
+  "SquelchTone": {
+    "Input": 67
+  }
+}

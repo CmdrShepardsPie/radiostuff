@@ -1,0 +1,18 @@
+{
+  "ID": 13342,
+  "StateID": 6,
+  "Callsign": "AA7SQ",
+  "Location": {
+    "Latitude": 34.60219955,
+    "Longitude": -117.6309967,
+    "County": "San Bernardino",
+    "State": "CA",
+    "Local": "El Mirage"
+  },
+  "Use": "Open",
+  "Status": "Other",
+  "Frequency": {
+    "Input": 147.39,
+    "Output": 147.99
+  }
+}

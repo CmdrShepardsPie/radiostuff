@@ -1,0 +1,21 @@
+{
+  "ID": 15616,
+  "StateID": 35,
+  "Callsign": "NM5EM",
+  "Location": {
+    "Latitude": 36.64699936,
+    "Longitude": -105.96700287,
+    "County": "Taos",
+    "State": "NM",
+    "Local": "Tres Piedras, San Antonio Mtn."
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 144.575,
+    "Output": 145.175
+  },
+  "SquelchTone": {
+    "Input": 141.3
+  }
+}

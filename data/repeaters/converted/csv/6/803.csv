@@ -1,0 +1,2 @@
+ID,StateID,Callsign,Use,Status,DigitalTone,Digital,VOIP,Location.Latitude,Location.Longitude,Location.County,Location.State,Location.Local,Frequency.Input,Frequency.Output,SquelchTone.Input,SquelchTone.Output
+803,6,W6DRA,Open,On-Air,,,,33.77259827,-116.35900116,Riverside,CA,"Palm Desert, Marriott",223.32,224.92,156.7,

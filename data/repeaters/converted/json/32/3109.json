@@ -1,0 +1,23 @@
+{
+  "ID": 3109,
+  "StateID": 32,
+  "Callsign": "W7AES",
+  "Location": {
+    "Latitude": 35.99580002,
+    "Longitude": -114.86399841,
+    "County": "Clark",
+    "State": "NV",
+    "Local": "Las Vegas, Red Mountain"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 444.575,
+    "Output": 449.575
+  },
+  "Digital": {
+    "DStar": {
+      "Node": "W7AES (B) Gateway Repeater"
+    }
+  }
+}

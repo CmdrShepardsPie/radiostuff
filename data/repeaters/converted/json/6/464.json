@@ -1,0 +1,22 @@
+{
+  "ID": 464,
+  "StateID": 6,
+  "Callsign": "W6BA",
+  "Location": {
+    "Latitude": 34.13560104,
+    "Longitude": -116.0530014,
+    "County": "San Bernardino",
+    "State": "CA",
+    "Local": "Twentynine Palms"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 147.66,
+    "Output": 147.06
+  },
+  "SquelchTone": {
+    "Input": 136.5,
+    "Output": 136.5
+  }
+}

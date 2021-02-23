@@ -1,0 +1,2 @@
+ID,StateID,Callsign,Use,Status,SquelchTone,DigitalTone,Digital,Location.Latitude,Location.Longitude,Location.County,Location.State,Location.Local,Frequency.Input,Frequency.Output,VOIP.AllStar,VOIP.EchoLink,VOIP.IRLP,VOIP.Wires.ID
+13604,48,W5WDR,Open,On-Air,,,,35.82699966,-101.44300079,Hutchinson,TX,Stinnett,449.8,444.8,,,,21379

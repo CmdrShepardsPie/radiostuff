@@ -1,0 +1,23 @@
+{
+  "ID": 133,
+  "StateID": 49,
+  "Callsign": "N7AKK",
+  "Location": {
+    "Latitude": 37.71060181,
+    "Longitude": -113.05599976,
+    "County": "Iron",
+    "State": "UT",
+    "Local": "Cedar City, Hospital"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 147.66,
+    "Output": 147.06
+  },
+  "VOIP": {
+    "EchoLink": {
+      "NodeID": 91510
+    }
+  }
+}

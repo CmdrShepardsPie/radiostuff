@@ -1,0 +1,21 @@
+{
+  "ID": 4539,
+  "StateID": 40,
+  "Callsign": "N5WO",
+  "Location": {
+    "Latitude": 36.27000046,
+    "Longitude": -99.33000183,
+    "County": "Woodward",
+    "State": "OK",
+    "Local": "Sharon"
+  },
+  "Use": "Open",
+  "Status": "Other",
+  "Frequency": {
+    "Input": 147.96,
+    "Output": 147.36
+  },
+  "SquelchTone": {
+    "Input": 88.5
+  }
+}

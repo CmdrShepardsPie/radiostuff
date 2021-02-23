@@ -1,0 +1,2 @@
+ID,StateID,Callsign,Use,Status,DigitalTone,Digital,VOIP,Location.Latitude,Location.Longitude,Location.County,Location.State,Location.Local,Frequency.Input,Frequency.Output,SquelchTone.Input,SquelchTone.Output
+17781,16,KD7RMB,Open,On-Air,,,,43.23929977,-115.85099792,Elmore,ID,Cleft,144.81,145.41,114.8,114.8

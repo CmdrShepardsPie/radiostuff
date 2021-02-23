@@ -1,0 +1,18 @@
+{
+  "ID": 103,
+  "StateID": 49,
+  "Callsign": "W7YDO",
+  "Location": {
+    "Latitude": 40.67559814,
+    "Longitude": -112.20200348,
+    "County": "Salt Lake",
+    "State": "UT",
+    "Local": "Magna, Kessler Peak"
+  },
+  "Use": "Closed",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 443.85,
+    "Output": 448.85
+  }
+}

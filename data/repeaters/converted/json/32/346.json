@@ -1,0 +1,27 @@
+{
+  "ID": 346,
+  "StateID": 32,
+  "Callsign": "N7ARR",
+  "Location": {
+    "Latitude": 36.80550003,
+    "Longitude": -114.06700134,
+    "County": "Clark",
+    "State": "NV",
+    "Local": "Mesquite"
+  },
+  "Use": "Open",
+  "Status": "Off-Air",
+  "Frequency": {
+    "Input": 444.825,
+    "Output": 449.825
+  },
+  "SquelchTone": {
+    "Input": 123,
+    "Output": 123
+  },
+  "VOIP": {
+    "IRLP": {
+      "NodeID": 3705
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "ID": 11,
+  "StateID": 31,
+  "Callsign": "KR0A",
+  "Location": {
+    "Latitude": 41.40179825,
+    "Longitude": -99.6411972,
+    "County": "Custer",
+    "State": "NE",
+    "Local": "Broken Bow"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 147.66,
+    "Output": 147.06
+  }
+}

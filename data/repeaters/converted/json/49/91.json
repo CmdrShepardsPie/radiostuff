@@ -1,0 +1,18 @@
+{
+  "ID": 91,
+  "StateID": 49,
+  "Callsign": "KC7KRY",
+  "Location": {
+    "Latitude": 39.94060135,
+    "Longitude": -112.11699677,
+    "County": "Juab",
+    "State": "UT",
+    "Local": "Eureka, Eureka Peak"
+  },
+  "Use": "Open",
+  "Status": "Other",
+  "Frequency": {
+    "Input": 442.875,
+    "Output": 447.875
+  }
+}

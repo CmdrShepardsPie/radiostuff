@@ -1,0 +1,22 @@
+{
+  "ID": 6,
+  "StateID": 56,
+  "Callsign": "W7VNJ",
+  "Location": {
+    "Latitude": 42.75249863,
+    "Longitude": -106.31400299,
+    "County": "Natrona",
+    "State": "WY",
+    "Local": "Casper, Casper Mountain"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 146.34,
+    "Output": 146.94
+  },
+  "SquelchTone": {
+    "Input": 123,
+    "Output": 123
+  }
+}

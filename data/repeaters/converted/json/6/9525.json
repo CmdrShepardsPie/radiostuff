@@ -1,0 +1,21 @@
+{
+  "ID": 9525,
+  "StateID": 6,
+  "Callsign": "KI6HHU",
+  "Location": {
+    "Latitude": 35.13219833,
+    "Longitude": -118.4489975,
+    "County": "Kern",
+    "State": "CA",
+    "Local": "Tehachapi"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 447.925,
+    "Output": 442.925
+  },
+  "SquelchTone": {
+    "Input": 141.3
+  }
+}

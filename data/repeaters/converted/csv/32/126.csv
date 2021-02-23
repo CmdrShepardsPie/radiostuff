@@ -1,0 +1,2 @@
+ID,StateID,Callsign,Use,Status,DigitalTone,Digital,VOIP,Location.Latitude,Location.Longitude,Location.County,Location.State,Location.Local,Frequency.Input,Frequency.Output,SquelchTone.Input,SquelchTone.Output
+126,32,WB6TNP,Closed,On-Air,,,,35.251605,-114.74875,Clark,NV,"Bullhead City, Spirit Mountain",443.7,448.7,141.3,

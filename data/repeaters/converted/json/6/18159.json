@@ -1,0 +1,18 @@
+{
+  "ID": 18159,
+  "StateID": 6,
+  "Callsign": "W6RRN",
+  "Location": {
+    "Latitude": 34.21250153,
+    "Longitude": -116.86699677,
+    "County": "San Bernardino",
+    "State": "CA",
+    "Local": "Big Bear City, Bear Mtn."
+  },
+  "Use": "Private",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 443.74,
+    "Output": 448.74
+  }
+}

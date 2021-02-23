@@ -1,0 +1,22 @@
+{
+  "ID": 8126,
+  "StateID": 6,
+  "Callsign": "WA6LSE",
+  "Location": {
+    "Latitude": 33.97370148,
+    "Longitude": -117.28500366,
+    "County": "Riverside",
+    "State": "CA",
+    "Local": "Moreno Valley, Box Springs"
+  },
+  "Use": "Closed",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 440.38,
+    "Output": 445.38
+  },
+  "SquelchTone": {
+    "Input": 127.3,
+    "Output": 127.3
+  }
+}

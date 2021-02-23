@@ -1,0 +1,2 @@
+ID,StateID,Callsign,Use,Status,DigitalTone,Digital,VOIP,Location.Latitude,Location.Longitude,Location.County,Location.State,Location.Local,Frequency.Input,Frequency.Output,SquelchTone.Input,SquelchTone.Output
+282,49,N7IMF,Closed,On-Air,,,,40.31510162,-111.69599915,Utah,UT,Orem,223.28,224.88,156.7,

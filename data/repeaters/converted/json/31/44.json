@@ -1,0 +1,18 @@
+{
+  "ID": 44,
+  "StateID": 31,
+  "Callsign": "K0KDC",
+  "Location": {
+    "Latitude": 41.12390137,
+    "Longitude": -100.76499939,
+    "County": "Lincoln",
+    "State": "NE",
+    "Local": "North Platte"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 146.235,
+    "Output": 146.835
+  }
+}

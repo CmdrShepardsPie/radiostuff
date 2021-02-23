@@ -25,105 +25,105 @@ Location,Name,Frequency,Duplex,Offset,Tone,rToneFreq,cToneFreq,DtcsCode,DtcsRxCo
 23,SO-50 (SaudiSat-1C),436.795,split,145.85,Tone,67,67,23,23,NN,FM,5,FM SAT SO-50 (SaudiSat-1C)
 24,Swiatowid,145.85,split,436,,100,100,23,23,NN,FM,5,FM SAT Swiatowid
 25,Tevel Mission,436.4,split,145.97,,100,100,23,23,NN,FM,5,FM SAT Tevel Mission
-26,0EP Durango,449.85,split,444.85,TSQL,100,100,23,23,NN,FM,5,8 11546 663.00 CO La Plata Durango K0EP
-27,0EP Durango Eagle Pass,146.67,split,146.07,TSQL,100,100,23,23,NN,FM,5,8 113 654.00 CO La Plata Durango Eagle Pass K0EP
-28,0EP Durango Missionary Ridge,146.7,split,146.1,TSQL,100,100,23,23,NN,FM,5,8 116 674.00 CO La Plata Durango Missionary Ridge K0EP
-29,0JS Creede,146.925,split,146.325,,100,100,23,23,NN,FM,5,8 63 757.00 CO Mineral Creede WA0JS
-30,0MR Paonia,147.33,split,147.93,Tone,107.2,107.2,23,23,NN,FM,5,8 8179 735.00 CO Delta Paonia KI0MR
-31,0SW Collbran,449.5,split,444.5,Tone,107.2,107.2,23,23,NN,FM,5,8 36 723.00 CO Mesa Collbran KB0SW
-32,0SW Loma Baxter Pass,447,split,442,Tone,107.2,107.2,23,23,NN,FM,5,8 174 668.00 CO Garfield Loma Baxter Pass KB0SW
-33,0TY Grand Junction,145.22,split,144.62,Tone,107.2,107.2,23,23,NN,FM,5,8 8167 669.00 CO Mesa Grand Junction KE0TY
-34,0TY Grand Junction,147.39,split,147.99,Tone,107.2,107.2,23,23,NN,FM,5,8 152 669.00 CO Mesa Grand Junction KE0TY
-35,5EM Cuba Eureka Mesa,145.175,split,144.575,TSQL,156.7,156.7,23,23,NN,FM,5,35 15615 748.00 NM Sandoval Cuba Eureka Mesa NM5EM
-36,5ML Bloomfield Harris Mesa,147.28,split,147.88,Tone,67,67,23,23,NN,FM,5,35 51 662.00 NM San Juan Bloomfield Harris Mesa NM5ML
-37,5ML Cuba Eureka Mesa,147.24,split,147.84,Tone,67,67,23,23,NN,FM,5,35 66 748.00 NM Sandoval Cuba Eureka Mesa NM5ML
-38,5ML Gallup Deza Bluffs,147.22,split,147.82,Tone,67,67,23,23,NN,FM,5,35 89 576.00 NM McKinley Gallup Deza Bluffs NM5ML
-39,5SC San Ysidro Pajarito Peak,443.1,split,448.1,Tone,100,100,23,23,NN,FM,5,35 9767 750.00 NM Sandoval San Ysidro Pajarito Peak NM5SC
-40,5SJ Aztec,146.74,split,146.14,Tone,100,100,23,23,NN,FM,5,35 43 647.00 NM San Juan Aztec NM5SJ
-41,5SJ Dulce,145.43,split,144.83,Tone,136.5,136.5,23,23,NN,FM,5,35 15624 736.00 NM Rio Arriba Dulce NM5SJ
-42,5SJ Lybrook,145.49,split,144.89,Tone,100,100,23,23,NN,FM,5,35 128 683.00 NM Rio Arriba Lybrook NM5SJ
-43,5SJ Red Rock Roof Butte,146.82,split,146.22,Tone,100,100,23,23,NN,FM,5,4 72 546.00 AZ Apache Red Rock Roof Butte NM5SJ
-44,5WY Farmington,449,split,444,Tone,100,100,23,23,NN,FM,5,35 87 626.00 NM San Juan Farmington K5WY
-45,7DB Page (az) Navajo Mountain,448.75,split,443.75,Tone,100,100,23,23,NN,FM,5,49 169 398.00 UT San Juan Page (az) Navajo Mountain NA7DB
-46,7GX Price Wood Hill,147.2,split,147.8,Tone,88.5,88.5,23,23,NN,FM,5,49 10058 545.00 UT Carbon Price Wood Hill K7GX
-47,7GX Price Wood Hill,448.3,split,443.3,,100,100,23,23,NN,FM,5,49 10061 545.00 UT Carbon Price Wood Hill K7GX
-48,7TA Logan Sedgwick Peak,449.375,split,444.375,,100,100,23,23,NN,FM,5,49 18470 506.00 UT Cache Logan Sedgwick Peak AE7TA
-49,7YI Castle Dale Horn Mountain,447.625,split,442.625,Tone,100,100,23,23,NN,FM,5,49 73 494.00 UT Emery Castle Dale Horn Mountain K7YI
-50,7ZW Altamont,147.28,split,147.88,TSQL,107.2,107.2,23,23,NN,FM,5,49 14977 636.00 UT Duchesne Altamont AD7ZW
-51,ALC Cedaredge,147.36,split,147.96,Tone,100,100,23,23,NN,FM,5,8 3749 710.00 CO Delta Cedaredge W0ALC
-52,ALC Cedaredge,449.825,split,444.825,Tone,100,100,23,23,NN,FM,5,8 3760 710.00 CO Delta Cedaredge W0ALC
-53,ARV Grand Junction,447.5,split,442.5,Tone,114.8,114.8,23,23,NN,FM,5,8 3757 669.00 CO Mesa Grand Junction KC0ARV
-54,BAR Vernal Blue Mountain,147.1,split,147.7,Tone,136.5,136.5,23,23,NN,FM,5,49 163 706.00 UT Uintah Vernal Blue Mountain W7BAR
-55,BAR Vernal Grizzly Ridge,147.04,split,147.64,Tone,136.5,136.5,23,23,NN,FM,5,49 181 714.00 UT Uintah Vernal Grizzly Ridge W7BAR
-56,BAR Vernal Uintah County EOC,449.9,split,444.9,Tone,136.5,136.5,23,23,NN,FM,5,49 13408 674.00 UT Uintah Vernal Uintah County EOC W7BAR
-57,BYU Myton Flat Top,145.49,split,144.89,Tone,136.5,136.5,23,23,NN,FM,5,49 13041 636.00 UT Duchesne Myton Flat Top W7BYU
-58,BYU Roosevelt,146.92,split,146.32,Tone,136.5,136.5,23,23,NN,FM,5,49 281 706.00 UT Duchesne Roosevelt W7BYU
-59,BYU Vernal,449.7,split,444.7,Tone,136.5,136.5,23,23,NN,FM,5,49 182 706.00 UT Uintah Vernal W7BYU
-60,CBS Altamont,146.74,split,146.14,Tone,100,100,23,23,NN,FM,5,49 253 636.00 UT Duchesne Altamont WB7CBS
-61,CEU Price Wood Hill,145.43,split,144.83,Tone,88.5,88.5,23,23,NN,FM,5,49 78 546.00 UT Carbon Price Wood Hill W7CEU
-62,CEU Price Wood Hill,224.5,split,222.9,Tone,88.5,88.5,23,23,NN,FM,5,49 2764 546.00 UT Carbon Price Wood Hill W7CEU
-63,CEU Price Wood Hill,448.3,split,443.3,Tone,88.5,88.5,23,23,NN,FM,5,49 2765 546.00 UT Carbon Price Wood Hill W7CEU
-64,CWI Page (AZ) Navajo Mountain,449.925,split,444.925,Tone,100,100,23,23,NN,FM,5,49 183 398.00 UT San Juan Page (AZ) Navajo Mountain W7CWI
-65,Cedaredge Grand Mesa,447.35,split,442.35,Tone,107.2,107.2,23,23,NN,FM,5,8 3755 711.00 CO Delta Cedaredge Grand Mesa
-66,EVE Durango,448.625,split,443.625,TSQL,131.8,131.8,23,23,NN,FM,5,8 115 663.00 CO La Plata Durango KC5EVE
-67,GJT Grand Junction,448.15,split,443.15,Tone,100,100,23,23,NN,FM,5,8 153 665.00 CO Mesa Grand Junction W0GJT
-68,GJT Grand Junction 9 Mile Hwy 14,146.82,split,146.22,Tone,107.2,107.2,23,23,NN,FM,5,8 261 669.00 CO Mesa Grand Junction 9 Mile Hwy 141 Unaweep W0GJT
-69,Glade Park,449.2,split,444.2,Tone,107.2,107.2,23,23,NN,FM,5,8 18392 650.00 CO Mesa Glade Park
-70,HEN Vernal Grizzly Ridge,145.49,split,144.89,Tone,136.5,136.5,23,23,NN,FM,5,49 24 715.00 UT Uintah Vernal Grizzly Ridge K7HEN
-71,HLL Mexican Hat,449.9,split,444.9,Tone,123,123,23,23,NN,FM,5,49 100 482.00 UT San Juan Mexican Hat KD7HLL
-72,HND Grand Junction Black Ridge,449.575,split,444.575,TSQL,131.8,131.8,23,23,NN,FM,5,8 155 654.00 CO Mesa Grand Junction Black Ridge WA4HND
-73,HND Grand Junction Grand Mesa,449.3,split,444.3,TSQL,107.2,107.2,23,23,NN,FM,5,8 154 691.00 CO Mesa Grand Junction Grand Mesa WA4HND
-74,HND Montrose Waterdog Peak,447.2,split,442.2,TSQL,107.2,107.2,23,23,NN,FM,5,8 69 710.00 CO Montrose Montrose Waterdog Peak WA4HND
-75,HND Parachute Mount Callahan,449.8,split,444.8,Tone,107.2,107.2,23,23,NN,FM,5,8 253 727.00 CO Garfield Parachute Mount Callahan WA4HND
-76,ITS Aztec,447.45,split,442.45,Tone,107.2,107.2,23,23,NN,FM,5,35 44 647.00 NM San Juan Aztec KB5ITS
-77,ITS Aztec Hottel Hill,146.61,split,146.01,Tone,100,100,23,23,NN,FM,5,35 18461 646.00 NM San Juan Aztec Hottel Hill KB5ITS
-78,ITS Bloomfield Harris mesa,147.1,split,147.7,Tone,100,100,23,23,NN,FM,5,35 49 661.00 NM San Juan Bloomfield Harris mesa KB5ITS
-79,ITS Cortez Goodman,145.19,split,144.59,Tone,100,100,23,23,NN,FM,5,8 16606 613.00 CO Montezuma Cortez Goodman KB5ITS
-80,ITS Durango Smelter Mountain,147.135,split,147.735,TSQL,100,100,23,23,NN,FM,5,8 11545 660.00 CO La Plata Durango Smelter Mountain KB5ITS
-81,ITS Farmington,146.76,split,146.16,TSQL,100,100,23,23,NN,FM,5,35 84 626.00 NM San Juan Farmington KB5ITS
-82,ITS Farmington College Hill,147,split,147.6,Tone,100,100,23,23,NN,FM,5,35 86 626.00 NM San Juan Farmington College Hill KB5ITS
-83,ITS Ignacio Spring Creek,147.15,split,147.75,Tone,100,100,23,23,NN,FM,5,8 8177 682.00 CO La Plata Ignacio Spring Creek KB5ITS
-84,ITS Lukachukai Roof Butte,145.25,split,144.65,Tone,100,100,23,23,NN,FM,5,4 163 546.00 AZ Apache Lukachukai Roof Butte KB5ITS
-85,ITS Mancos Caviness,145.325,split,144.725,,100,100,23,23,NN,FM,5,8 18459 641.00 CO Montezuma Mancos Caviness KB5ITS
-86,ITS Mancos Menefee Mountain,145.325,split,144.725,Tone,100,100,23,23,NN,FM,5,8 8168 632.00 CO Montezuma Mancos Menefee Mountain KB5ITS
-87,ITS Monticello Abajo Peak,447.275,split,442.275,Tone,100,100,23,23,NN,FM,5,49 18460 542.00 UT Wayne Monticello Abajo Peak KB5ITS
-88,ITS Montrose Raspberry,448.825,split,443.825,Tone,100,100,23,23,NN,FM,5,8 18465 697.00 CO Montrose Montrose Raspberry KB5ITS
-89,ITS Silverton,447.525,split,442.525,Tone,127.3,127.3,23,23,NN,FM,5,8 210 693.00 CO San Juan Silverton KB5ITS
-90,ITS Silverton Kendall Mountain,147.375,split,147.975,Tone,156.7,156.7,23,23,NN,FM,5,8 209 696.00 CO San Juan Silverton Kendall Mountain KB5ITS
-91,ITT Silverton Engineer Mountain,147.27,split,147.87,Tone,127.3,127.3,23,23,NN,FM,5,8 208 678.00 CO San Juan Silverton Engineer Mountain KB5ITT
-92,JSP Pagosa Springs Oakbrush Hill,146.61,split,146.01,Tone,123,123,23,23,NN,FM,5,8 188 730.00 CO Archuleta Pagosa Springs Oakbrush Hill N0JSP
-93,OPD Montrose,146.79,split,146.19,TSQL,107.2,107.2,23,23,NN,FM,5,8 7953 697.00 CO Montrose Montrose KD5OPD
-94,PKT Creede Bristol Head,449.525,split,444.525,TSQL,100,100,23,23,NN,FM,5,8 14923 745.00 CO Mineral Creede Bristol Head N0PKT
-95,PQD Duchense,147.26,split,147.86,,100,100,23,23,NN,FM,5,49 152 614.00 UT Duchesne Duchense N7PQD
-96,QEQ Moab,146.9,split,146.3,Tone,88.5,88.5,23,23,NN,FM,5,49 48 567.00 UT Grand Moab K7QEQ
-97,QEQ Moab Bald Mesa,146.76,split,146.16,Tone,88.5,88.5,23,23,NN,FM,5,49 13042 583.00 UT Grand Moab Bald Mesa K7QEQ
-98,QEQ Moab Bald Mesa,449.1,split,444.1,TSQL,107.2,107.2,23,23,NN,FM,5,49 52 582.00 UT Grand Moab Bald Mesa K7QEQ
-99,QEQ Monticello Abajo Peak,447.1,split,442.1,TSQL,107.2,107.2,23,23,NN,FM,5,49 124 542.00 UT San Juan Monticello Abajo Peak K7QEQ
-100,QXX Cedaredge Cedar Mesa,147.195,split,147.795,Tone,107.2,107.2,23,23,NN,FM,5,8 3745 710.00 CO Delta Cedaredge Cedar Mesa KC0QXX
-101,RRZ Grand Junction Black Ridge (,146.94,split,146.34,TSQL,107.2,107.2,23,23,NN,FM,5,8 151 654.00 CO Mesa Grand Junction Black Ridge (Above Colorado Ntl Monument) W0RRZ
-102,RRZ Grand Junction GJT,145.175,split,144.575,Tone,107.2,107.2,23,23,NN,FM,5,8 147 674.00 CO Mesa Grand Junction GJT W0RRZ
-103,SDC Castle Dale Cedar Mountain,147.14,split,147.74,Tone,88.5,88.5,23,23,NN,FM,5,49 57 525.00 UT Emery Castle Dale Cedar Mountain K7SDC
-104,SDC Castle Dale Cedar Mountain,448.55,split,443.55,Tone,88.5,88.5,23,23,NN,FM,5,49 274 526.00 UT Emery Castle Dale Cedar Mountain K7SDC
-105,SDC Castle Dale Horn Mountain,147.06,split,147.66,Tone,88.5,88.5,23,23,NN,FM,5,49 54 494.00 UT Emery Castle Dale Horn Mountain K7SDC
-106,SDC Hanksville Ellen Peak,147.08,split,147.68,Tone,136.5,136.5,23,23,NN,FM,5,49 56 445.00 UT Wayne Hanksville Ellen Peak K7SDC
-107,SDC Monticello Abajo Peak,146.61,split,146.01,Tone,88.5,88.5,23,23,NN,FM,5,49 60 542.00 UT San Juan Monticello Abajo Peak K7SDC
-108,SDC Scofield Ford Ridge,145.31,split,144.71,Tone,88.5,88.5,23,23,NN,FM,5,49 55 546.00 UT Carbon Scofield Ford Ridge K7SDC
-109,SDC Sunnyside Bruin Point,147.32,split,147.92,Tone,88.5,88.5,23,23,NN,FM,5,49 58 577.00 UT Carbon Sunnyside Bruin Point K7SDC
-110,SDC Sunnyside Bruin Point,449.05,split,444.05,Tone,88.5,88.5,23,23,NN,FM,5,49 59 577.00 UT Carbon Sunnyside Bruin Point K7SDC
-111,SMZ Grand Junction,449.775,split,444.775,Cross,173.8,88.5,23,23,NN,FM,5,8 11793 669.00 CO Mesa Grand Junction KD0SMZ
-112,SSI Grand Junction,147.105,split,147.705,,100,100,23,23,NN,FM,5,8 8175 669.00 CO Mesa Grand Junction K0SSI
-113,SWE Rifle,146.76,split,146.16,Tone,107.2,107.2,23,23,NN,FM,5,8 200 750.00 CO Garfield Rifle N0SWE
-114,UUX Montrose,146.91,split,146.31,TSQL,107.2,107.2,23,23,NN,FM,5,8 12442 697.00 CO Montrose Montrose KC0UUX
-115,VHF Page Navajo Mountain,448.6,split,443.6,Tone,100,100,23,23,NN,FM,5,49 11827 398.00 UT San Juan Page Navajo Mountain WA7VHF
-116,VIU Hesperus,145.37,split,144.77,TSQL,100,100,23,23,NN,FM,5,8 8169 650.00 CO La Plata Hesperus KB0VIU
-117,VJJ Durango Missionary Ridge,147.345,split,147.945,Cross,88.5,123,23,23,NN,FM,5,8 114 674.00 CO La Plata Durango Missionary Ridge KB0VJJ
-118,VJJ Grand Junction Grand Mesa,145.355,split,144.755,Cross,88.5,123,23,23,NN,FM,5,8 149 717.00 CO Mesa Grand Junction Grand Mesa KB0VJJ
-119,WAC Page (AZ) Navajo Mountain,146.96,split,146.36,Tone,100,100,23,23,NN,FM,5,49 218 398.00 UT San Juan Page (AZ) Navajo Mountain W7WAC
-120,WDV Gallup Deza Bluffs,448.2,split,443.2,Tone,100,100,23,23,NN,FM,5,35 13539 576.00 NM McKinley Gallup Deza Bluffs KC5WDV
-121,WXI Bloomfield,146.92,split,146.32,Tone,100,100,23,23,NN,FM,5,35 50 647.00 NM San Juan Bloomfield K5WXI
-122,WXI Farmington,146.85,split,146.25,TSQL,100,100,23,23,NN,FM,5,35 85 626.00 NM San Juan Farmington K5WXI
-123,X7Y Castle Dale Horn Mountain,447.7,split,442.7,Tone,123,123,23,23,NN,FM,5,49 272 494.00 UT Emery Castle Dale Horn Mountain WX7Y
-124,X7Y Huntington Skyline Dr,223.92,split,222.32,Tone,88.5,88.5,23,23,NN,FM,5,49 273 494.00 UT Emery Huntington Skyline Dr WX7Y
-125,YNA Delta Uncompahgre Butte,449.4,split,444.4,TSQL,131.8,131.8,23,23,NN,FM,5,8 127 638.00 CO Mesa Delta Uncompahgre Butte KB0YNA
-126,YNA Grand Junction Grand Mesa,449.65,split,444.65,TSQL,151.4,151.4,23,23,NN,FM,5,8 8763 717.00 CO Mesa Grand Junction Grand Mesa KB0YNA
-127,YNA Telluride Gray Head,449.7,split,444.7,TSQL,107.2,107.2,23,23,NN,FM,5,8 254 672.00 CO San Miguel Telluride Gray Head KB0YNA
+26,4UZ North Las Vegas  Nellis AFB,447.775,split,442.775,Cross,114.8,118.8,23,23,NN,FM,5,32 197 18.00 NV Clark North Las Vegas Nellis AFB KP4UZ
+27,6XN Las Vegas,146.97,split,146.37,Tone,100,100,23,23,NN,FM,5,32 8288 19.00 NV Clark Las Vegas KB6XN
+28,6XN Las Vegas,445.7,split,440.7,,100,100,23,23,NN,FM,5,32 14285 7.00 NV Clark Las Vegas KB6XN
+29,6XN Las Vegas Hi Potosi Mountain,146.79,split,146.19,,100,100,23,23,NN,FM,5,32 23 34.00 NV Clark Las Vegas Hi Potosi Mountain KB6XN
+30,6XN Las Vegas Hi Potosi Mountain,449.975,split,444.975,,100,100,23,23,NN,FM,5,32 135 34.00 NV Clark Las Vegas Hi Potosi Mountain KB6XN
+31,7AV Las Vegas,449.475,split,444.475,Tone,114.8,114.8,23,23,NN,FM,5,32 2820 7.00 NV Clark Las Vegas KK7AV
+32,7BS Las Vegas,445,split,440,DTCS,100,100,606,606,NN,FM,5,32 3708 0.00 NV Clark Las Vegas NO7BS
+33,7BS Las Vegas,448.475,split,443.475,Tone,100,100,23,23,NN,FM,5,32 356 11.00 NV Clark Las Vegas NO7BS
+34,7DB Las Vegas Sunrise Hospital,147.27,split,147.87,Tone,100,100,23,23,NN,FM,5,32 40 14.00 NV Clark Las Vegas Sunrise Hospital KC7DB
+35,7DP Pahrump,147.12,split,147.72,Tone,94.8,94.8,23,23,NN,FM,5,32 28 74.00 NV Nye Pahrump AD7DP
+36,7EB Las Vegas Lo Potosi Mountain,224.48,split,222.88,Tone,110.9,110.9,23,23,NN,FM,5,32 298 38.00 NV Clark Las Vegas Lo Potosi Mountain W7EB
+37,7KD Las Vegas QTH,448.3,split,443.3,Tone,118.8,118.8,23,23,NN,FM,5,32 334 10.00 NV Clark Las Vegas QTH KE7KD
+38,7OK Henderson Black Mountain,147.09,split,147.69,Tone,100,100,23,23,NN,FM,5,32 37 19.00 NV Clark Henderson Black Mountain N7OK
+39,7OK Las Vegas Angel Peak,447.475,split,442.475,Tone,110.9,110.9,23,23,NN,FM,5,32 113 43.00 NV Clark Las Vegas Angel Peak N7OK
+40,7SS Las Vegas Mountain View Hosp,447.3,split,442.3,TSQL,100,100,23,23,NN,FM,5,32 159 13.00 NV Clark Las Vegas Mountain View Hospital KG7SS
+41,A4Z Moapa Valley Overton,447.05,split,442.05,TSQL,114.8,114.8,23,23,NN,FM,5,32 17112 82.00 NV Lincoln Moapa Valley Overton AA4Z
+42,AES Las Vegas Red Mountain,147.975,split,147.375,,100,100,23,23,NN,FM,5,32 3108 22.00 NV Clark Las Vegas Red Mountain W7AES
+43,AES Las Vegas Red Mountain,449.575,split,444.575,,100,100,23,23,NN,FM,5,32 3109 31.00 NV Clark Las Vegas Red Mountain W7AES
+44,AMT Pahrump,449.85,split,444.85,TSQL,156.7,156.7,23,23,NN,FM,5,32 17518 74.00 NV Nye Pahrump WB6AMT
+45,ANF Las Vegas Fitzgeralds Hotel,448.075,split,443.075,Tone,127.3,127.3,23,23,NN,FM,5,32 161 7.00 NV Clark Las Vegas Fitzgeralds Hotel WN9ANF
+46,AOR Las Vegas Sunrise Mountain,449.725,split,444.725,Tone,97.4,97.4,23,23,NN,FM,5,32 344 21.00 NV Clark Las Vegas Sunrise Mountain W7AOR
+47,ARR Henderson Black Mountain,449.75,split,444.75,Tone,123,123,23,23,NN,FM,5,32 124 19.00 NV Clark Henderson Black Mountain N7ARR
+48,ARR Las Vegas,145.175,split,144.575,,100,100,23,23,NN,FM,5,32 5178 15.00 NV Clark Las Vegas N7ARR
+49,ARR Las Vegas,446.8,split,441.8,,100,100,23,23,NN,FM,5,32 5179 15.00 NV Clark Las Vegas N7ARR
+50,ARR Las Vegas Angel Peak,145.37,split,144.77,Tone,123,123,23,23,NN,FM,5,32 200 43.00 NV Clark Las Vegas Angel Peak N7ARR
+51,ARR Las Vegas Blue Diamond Mount,447,split,442,Tone,123,123,23,23,NN,FM,5,32 157 19.00 NV Clark Las Vegas Blue Diamond Mountain N7ARR
+52,ARR Las Vegas Frenchman Mtn,446.45,split,441.45,,100,100,23,23,NN,FM,5,32 13298 17.00 NV Clark Las Vegas Frenchman Mtn N7ARR
+53,ARR Las Vegas QTH,147,split,146.4,Tone,123,123,23,23,NN,FM,5,32 311 15.00 NV Clark Las Vegas QTH N7ARR
+54,ARR Las Vegas strip,446.7,split,441.7,Tone,118.8,118.8,23,23,NN,FM,5,32 331 7.00 NV Clark Las Vegas strip N7ARR
+55,ARR Pahrump,449.75,split,444.75,Tone,123,123,23,23,NN,FM,5,32 3544 75.00 NV Nye Pahrump N7ARR
+56,BCP Las Vegas Tropicana,145.19,split,144.59,,100,100,23,23,NN,FM,5,32 33 2.00 NV Clark Las Vegas Tropicana KA7BCP
+57,Baker Turquoise Mountain,447.68,split,442.68,,100,100,23,23,NN,FM,5,6 6020 101.00 CA San Bernardino Baker Turquoise Mountain
+58,CCH Las Vegas,449.6,split,444.6,TSQL,107.2,107.2,23,23,NN,FM,5,32 11354 11.00 NV Clark Las Vegas KE7CCH
+59,CYC Las Vegas Sunrise Mountain,449.675,split,444.675,Tone,192.8,192.8,23,23,NN,FM,5,32 166 21.00 NV Clark Las Vegas Sunrise Mountain WA7CYC
+60,CYC North Las Vegas,146.67,split,146.07,Tone,136.5,136.5,23,23,NN,FM,5,32 35 13.00 NV Clark North Las Vegas WA7CYC
+61,D7M Pahrump,147.36,split,147.96,,100,100,23,23,NN,FM,5,32 16275 74.00 NV Nye Pahrump ND7M
+62,D8S Henderson Black Mountain,146.73,split,146.13,Tone,131.8,131.8,23,23,NN,FM,5,32 15 19.00 NV Clark Henderson Black Mountain KD8S
+63,D8S Henderson Black Mountain,448,split,443,,100,100,23,23,NN,FM,5,32 122 19.00 NV Clark Henderson Black Mountain KD8S
+64,DBM Las Vegas QTH,448.675,split,443.675,Tone,77,77,23,23,NN,FM,5,32 164 11.00 NV Clark Las Vegas QTH N8DBM
+65,DEM North Las Vegas Angel pk.,449.55,split,444.55,,100,100,23,23,NN,FM,5,32 18818 43.00 NV Clark North Las Vegas Angel pk. W7DEM
+66,DTL Las Vegas,446.3,split,441.3,,100,100,23,23,NN,FM,5,32 14545 7.00 NV Clark Las Vegas KG6DTL
+67,DXU Pahrump,446.325,split,441.325,TSQL,141.3,141.3,23,23,NN,FM,5,32 12658 74.00 NV Nye Pahrump KF7DXU
+68,EGR Las Vegas The Ogden,445.0125,split,440.0125,DTCS,100,100,411,411,NN,FM,5,32 3707 10.00 NV Clark Las Vegas The Ogden WB6EGR
+69,GVA Henderson,146.61,split,146.01,,100,100,23,23,NN,FM,5,32 206 20.00 NV Clark Henderson W7GVA
+70,HEN Henderson Seven Hills,447.925,split,442.925,TSQL,156.7,156.7,23,23,NN,FM,5,32 15223 17.00 NV Clark Henderson Seven Hills W7HEN
+71,HEN Las Vegas,446.475,split,441.475,Tone,156.7,156.7,23,23,NN,FM,5,32 18220 19.00 NV Clark Las Vegas W7HEN
+72,HEN North Las Vegas Apex Mountai,449.925,split,444.925,Cross,131.8,203.5,23,23,NN,FM,5,32 16757 30.00 NV Clark North Las Vegas Apex Mountain W7HEN
+73,HTL Las Vegas Blue Diamond Hill,446.2,split,441.2,Tone,77,77,23,23,NN,FM,5,32 145 20.00 NV Clark Las Vegas Blue Diamond Hill W7HTL
+74,HTL Las Vegas Blue Diamond Hill,446.225,split,441.225,Tone,85.4,85.4,23,23,NN,FM,5,32 8278 20.00 NV Clark Las Vegas Blue Diamond Hill W7HTL
+75,HTL Las Vegas Blue Diamond Hill,447.975,split,442.975,TSQL,82.5,82.5,23,23,NN,FM,5,32 9514 20.00 NV Clark Las Vegas Blue Diamond Hill W7HTL
+76,HXO Las Vegas Hi Potosi Mountain,146.88,split,146.28,Tone,100,100,23,23,NN,FM,5,32 24 34.00 NV Clark Las Vegas Hi Potosi Mountain WA7HXO
+77,HXO Las Vegas Red Mountain,147.945,split,147.345,Tone,100,100,23,23,NN,FM,5,32 31 31.00 NV Clark Las Vegas Red Mountain WA7HXO
+78,HYV Pahrump,223.84,split,222.24,,100,100,23,23,NN,FM,5,32 312 78.00 NV Nye Pahrump N7HYV
+79,HYV Pahrump,448.85,split,443.85,Tone,127.3,127.3,23,23,NN,FM,5,32 143 81.00 NV Nye Pahrump N7HYV
+80,I7D Las Vegas Angel Peak,449.2,split,444.2,Tone,114.8,114.8,23,23,NN,FM,5,32 116 43.00 NV Clark Las Vegas Angel Peak KI7D
+81,I7D Las Vegas Angel Peak,449.85,split,444.85,,100,100,23,23,NN,FM,5,32 119 43.00 NV Clark Las Vegas Angel Peak KI7D
+82,IMS Las Vegas Lo Potosi Mountain,447.75,split,442.75,,100,100,23,23,NN,FM,5,32 332 34.00 NV Clark Las Vegas Lo Potosi Mountain N6IMS
+83,IZA Las Vegas Sunrise Mountain,448.9,split,443.9,Tone,100,100,23,23,NN,FM,5,32 338 21.00 NV Clark Las Vegas Sunrise Mountain K7IZA
+84,JCA Las Vegas,445.875,split,440.875,TSQL,100,100,23,23,NN,FM,5,32 15671 16.00 NV Clark Las Vegas W7JCA
+85,JCY Henderson QTH,447.2,split,442.2,,100,100,23,23,NN,FM,5,32 128 17.00 NV Clark Henderson QTH W6JCY
+86,JFO Las Vegas Angel Peak,449.8,split,444.8,Tone,131.8,131.8,23,23,NN,FM,5,32 118 42.00 NV Clark Las Vegas Angel Peak N6JFO
+87,JSI Las Vegas Blue Diamond Hill,447.95,split,442.95,Tone,100,100,23,23,NN,FM,5,32 8281 20.00 NV Clark Las Vegas Blue Diamond Hill K6JSI
+88,JSI Pahrump,447.4,split,442.4,Tone,100,100,23,23,NN,FM,5,32 3624 74.00 NV Nye Pahrump K6JSI
+89,MSS Las Vegas Apex Mountain,447.85,split,442.85,Tone,127.3,127.3,23,23,NN,FM,5,32 141 32.00 NV Clark Las Vegas Apex Mountain KD5MSS
+90,MVR Logandale Beacon Hill,147.39,split,147.99,TSQL,100,100,23,23,NN,FM,5,32 3610 86.00 NV Clark Logandale Beacon Hill W7MVR
+91,NDI Las Vegas QTH,448.25,split,443.25,,100,100,23,23,NN,FM,5,32 162 11.00 NV Clark Las Vegas QTH N8NDI
+92,NJJ Henderson CSN Henderson,420.85,split,425.85,,100,100,23,23,NN,FM,5,32 17945 22.00 NV Clark Henderson CSN Henderson N4NJJ
+93,NJJ Las Vegas CSN Henderson,445.375,split,440.375,TSQL,107.2,107.2,23,23,NN,FM,5,32 13959 22.00 NV Clark Las Vegas CSN Henderson N4NJJ
+94,NYE Pahrump,145.13,split,144.53,Tone,100,100,23,23,NN,FM,5,32 8286 86.00 NV Nye Pahrump W7NYE
+95,NYE Pahrump,145.49,split,144.89,Tone,123,123,23,23,NN,FM,5,32 17899 87.00 NV Nye Pahrump W7NYE
+96,NYE Pahrump Desert View Reg Med,447.7,split,442.7,Tone,123,123,23,23,NN,FM,5,32 148 77.00 NV Nye Pahrump Desert View Reg Med Ctr W7NYE
+97,NYK Pahrump,147.03,split,147.63,Tone,100,100,23,23,NN,FM,5,32 30 74.00 NV Nye Pahrump W6NYK
+98,O3B Las Vegas,449.45,split,444.45,Tone,100,100,23,23,NN,FM,5,32 10820 0.00 NV Clark Las Vegas WO3B
+99,OPJ Henderson,447.65,split,442.65,Tone,123,123,23,23,NN,FM,5,32 3554 19.00 NV Clark Henderson KE7OPJ
+100,QYX Las Vegas,448.05,split,443.05,Tone,123,123,23,23,NN,FM,5,32 8423 11.00 NV Clark Las Vegas KF6QYX
+101,RAA Las Vegas,449.35,split,444.35,,100,100,23,23,NN,FM,5,32 165 7.00 NV Clark Las Vegas WB7RAA
+102,RLW Bullhead City Spirit Mountai,446.225,split,441.225,,100,100,23,23,NN,FM,5,32 347 102.00 NV Clark Bullhead City Spirit Mountain K7RLW
+103,RSW Henderson Downtown,448.875,split,443.875,TSQL,114.8,114.8,23,23,NN,FM,5,32 130 20.00 NV Clark Henderson Downtown K7RSW
+104,SCA Henderson Sun City Anthem,445.68,split,440.68,TSQL,123,123,23,23,NN,FM,5,32 12875 19.00 NV Clark Henderson Sun City Anthem WA7SCA
+105,SCA Henderson Sun City Anthem In,145.28,split,144.68,TSQL,123,123,23,23,NN,FM,5,32 13780 19.00 NV Clark Henderson Sun City Anthem Independence Center WA7SCA
+106,SGV Glendale Beacon Hill,145.3,split,144.7,DTCS,100,100,244,244,NN,FM,5,32 3810 82.00 NV Clark Glendale Beacon Hill N7SGV
+107,SGV Las Vegas Angel Peak,147.3,split,147.9,Tone,127.3,127.3,23,23,NN,FM,5,32 11 43.00 NV Clark Las Vegas Angel Peak N7SGV
+108,SGV Las Vegas Angel Pk,147.18,split,147.78,DTCS,100,100,244,244,NN,FM,5,32 11559 43.00 NV Clark Las Vegas Angel Pk N7SGV
+109,SKO Bullhead City Spirit Mountai,145.27,split,144.67,Tone,131.8,131.8,23,23,NN,FM,5,32 17 102.00 NV Clark Bullhead City Spirit Mountain N7SKO
+110,STH Las Vegas Lo Potosi Mountain,449.425,split,444.425,,100,100,23,23,NN,FM,5,32 12659 38.00 NV Clark Las Vegas Lo Potosi Mountain WB9STH
+111,STH Las Vegas Southern Hills Hos,448.45,split,443.45,,100,100,23,23,NN,FM,5,32 11494 17.00 NV Clark Las Vegas Southern Hills Hospital WB9STH
+112,STH Spring Valley,447.425,split,442.425,TSQL,173.8,173.8,23,23,NN,FM,5,32 5518 7.00 NV Clark Spring Valley WB9STH
+113,TLW Las Vegas Hi Potosi Mountain,447.175,split,442.175,,100,100,23,23,NN,FM,5,32 330 34.00 NV Clark Las Vegas Hi Potosi Mountain WA6TLW
+114,TMC Las Vegas Apex Mountain,147.06,split,147.66,TSQL,100,100,23,23,NN,FM,5,32 13 30.00 NV Clark Las Vegas Apex Mountain KC7TMC
+115,TMC Las Vegas Apex Mountain,449.875,split,444.875,TSQL,127.3,127.3,23,23,NN,FM,5,32 121 32.00 NV Clark Las Vegas Apex Mountain KC7TMC
+116,TNP Bolder City,449.05,split,444.05,,100,100,23,23,NN,FM,5,32 13864 52.00 NV Clark Bolder City WB6TNP
+117,TNP Las Vegas Angel Peak,224.5,split,222.9,Tone,131.8,131.8,23,23,NN,FM,5,32 301 43.00 NV Clark Las Vegas Angel Peak WB6TNP
+118,UGE Las Vegas Southern Hills Hos,448.5,split,443.5,Tone,100,100,23,23,NN,FM,5,32 163 12.00 NV Clark Las Vegas Southern Hills Hospital K7UGE
+119,UGE Las Vegas Westgate Hotel and,146.94,split,146.34,Tone,100,100,23,23,NN,FM,5,32 26 3.00 NV Clark Las Vegas Westgate Hotel and Casino K7UGE
+120,WTS Las Vegas Hi Potosi Mountain,449.125,split,444.125,,100,100,23,23,NN,FM,5,32 340 34.00 NV Clark Las Vegas Hi Potosi Mountain WB7WTS
+121,X7R Henderson,422.625,split,427.625,DTCS,100,100,754,754,NN,FM,5,32 19312 24.00 NV Clark Henderson NX7R
+122,X7R Henderson Black Mtn,448.625,split,443.625,DTCS,100,100,754,754,NN,FM,5,32 123 19.00 NV Clark Henderson Black Mtn NX7R
+123,X7R Henderson Red Mountain,449.625,split,444.625,DTCS,100,100,754,754,NN,FM,5,32 13082 19.00 NV Clark Henderson Red Mountain NX7R
+124,X7R Henderson Votech Mesa,445.625,split,440.625,DTCS,100,100,754,754,NN,FM,5,32 14408 19.00 NV Clark Henderson Votech Mesa NX7R
+125,X7R Las Vegas Exploration Peak P,420.625,split,425.625,DTCS,100,100,754,754,NN,FM,5,32 19243 14.00 NV Clark Las Vegas Exploration Peak Park NX7R
+126,X7R Las Vegas Mission Hills Hend,447.625,split,442.625,DTCS,100,100,754,754,NN,FM,5,32 120 25.00 NV Clark Las Vegas Mission Hills Henderson NX7R
+127,ZHN North Las Vegas,145.46,split,144.86,Tone,100,100,23,23,NN,FM,5,32 205 11.00 NV Clark North Las Vegas KE7ZHN

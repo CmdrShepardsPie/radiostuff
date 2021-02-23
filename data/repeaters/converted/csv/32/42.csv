@@ -1,0 +1,2 @@
+ID,StateID,Callsign,Use,Status,DigitalTone,Digital,VOIP,Location.Latitude,Location.Longitude,Location.County,Location.State,Location.Local,Frequency.Input,Frequency.Output,SquelchTone.Input,SquelchTone.Output
+42,32,KB7PPG,Open,Off-Air,,,,38.06610107,-117.22799683,Nye,NV,Tonopah,147.72,147.12,114.8,

@@ -1,0 +1,21 @@
+{
+  "ID": 18499,
+  "StateID": 4,
+  "Callsign": "N7DGL",
+  "Location": {
+    "Latitude": 36.91513443,
+    "Longitude": -113.87041473,
+    "County": "Mohave",
+    "State": "AZ",
+    "Local": "Desert Springs"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 441.525,
+    "Output": 446.525
+  },
+  "SquelchTone": {
+    "Input": 177.3
+  }
+}

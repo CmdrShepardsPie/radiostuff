@@ -1,0 +1,2 @@
+ID,StateID,Callsign,Use,Status,DigitalTone,Digital,VOIP,Location.Latitude,Location.Longitude,Location.County,Location.State,Location.Local,Frequency.Input,Frequency.Output,SquelchTone.Input,SquelchTone.Output
+15213,8,KB0YNA,Open,On-Air,,,,38.38750076,-107.6740036,Montrose,CO,"Montrose, Waterdog Peak",443.65,448.65,151.4,151.4

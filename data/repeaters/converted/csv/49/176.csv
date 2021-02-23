@@ -1,0 +1,2 @@
+ID,StateID,Callsign,Use,Status,DigitalTone,Digital,VOIP,Location.Latitude,Location.Longitude,Location.County,Location.State,Location.Local,Frequency.Input,Frequency.Output,SquelchTone.Input,SquelchTone.Output
+176,49,NU7X,Open,On-Air,,,,40.84740067,-111.90899658,Davis,UT,North Salt Lake,902.3125,927.3125,127.3,

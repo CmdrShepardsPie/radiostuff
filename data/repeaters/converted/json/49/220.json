@@ -1,0 +1,18 @@
+{
+  "ID": 220,
+  "StateID": 49,
+  "Callsign": "WA7FFM",
+  "Location": {
+    "Latitude": 40.08919907,
+    "Longitude": -111.8219986,
+    "County": "Utah",
+    "State": "UT",
+    "Local": "Goshen, West Mountain"
+  },
+  "Use": "Open",
+  "Status": "Other",
+  "Frequency": {
+    "Input": 443.95,
+    "Output": 448.95
+  }
+}

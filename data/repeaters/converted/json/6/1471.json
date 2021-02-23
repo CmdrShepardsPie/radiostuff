@@ -1,0 +1,18 @@
+{
+  "ID": 1471,
+  "StateID": 6,
+  "Callsign": "WD6FZA",
+  "Location": {
+    "Latitude": 33.52330017,
+    "Longitude": -116.42500305,
+    "County": "Riverside",
+    "State": "CA",
+    "Local": "Anza, Toro Peak"
+  },
+  "Use": "Closed",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 441.38,
+    "Output": 446.38
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "ID": 19248,
+  "StateID": 35,
+  "Callsign": "N5UBJ",
+  "Location": {
+    "Latitude": 36.4223,
+    "Longitude": -107.8455,
+    "County": "San Juan",
+    "State": "NM",
+    "Local": "Bloomfield, Huerfano Mesa"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 902.5375,
+    "Output": 927.5375
+  },
+  "Digital": {
+    "P25": {}
+  }
+}

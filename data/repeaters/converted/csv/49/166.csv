@@ -1,0 +1,2 @@
+ID,StateID,Callsign,Use,Status,DigitalTone,Digital,VOIP,Location.Latitude,Location.Longitude,Location.County,Location.State,Location.Local,Frequency.Input,Frequency.Output,SquelchTone.Input,SquelchTone.Output
+166,49,N7YFZ,Open,Other,,,,39.2682991,-111.63600159,Sanpete,UT,Manti,444.75,449.75,131.8,

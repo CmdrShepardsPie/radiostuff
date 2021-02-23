@@ -1,0 +1,23 @@
+{
+  "ID": 18349,
+  "StateID": 49,
+  "Callsign": "N6RBV",
+  "Location": {
+    "Latitude": 40.57479858,
+    "Longitude": -112.29199982,
+    "County": "Tooele",
+    "State": "UT",
+    "Local": "Tooele, Home QTH"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 442.3625,
+    "Output": 447.3625
+  },
+  "VOIP": {
+    "Wires": {
+      "ID": 40714
+    }
+  }
+}

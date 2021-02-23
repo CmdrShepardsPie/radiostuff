@@ -1,0 +1,2 @@
+ID,StateID,Callsign,Use,Status,DigitalTone,Digital,VOIP,Location.Latitude,Location.Longitude,Location.County,Location.State,Location.Local,Frequency.Input,Frequency.Output,SquelchTone.Input,SquelchTone.Output
+250,49,WB6CDN,Open,Other,,,,41.19720078,-111.97000122,Weber,UT,"Ogden, downtown",222.9,224.5,167.9,

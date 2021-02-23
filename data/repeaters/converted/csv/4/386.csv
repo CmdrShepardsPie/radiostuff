@@ -1,0 +1,2 @@
+ID,StateID,Callsign,Use,Status,SquelchTone,DigitalTone,Digital,VOIP,Location.Latitude,Location.Longitude,Location.County,Location.State,Location.Local,Frequency.Input,Frequency.Output
+386,4,K7RLW,Closed,Other,,,,,35.14839935,-114.07299805,Mohave,AZ,"Kingman, Wind Turbine Site",444.475,449.475

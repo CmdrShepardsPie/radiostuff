@@ -1,0 +1,35 @@
+{
+  "ID": 13500,
+  "StateID": 6,
+  "Callsign": "KK6SMA",
+  "Location": {
+    "Latitude": 33.94250107,
+    "Longitude": -117.23000336,
+    "County": "Riverside",
+    "State": "CA",
+    "Local": "Moreno Valley"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 441.42,
+    "Output": 446.42
+  },
+  "SquelchTone": {
+    "Input": 79.7,
+    "Output": 79.7
+  },
+  "Digital": {
+    "YSF": {
+      "GroupID": {
+        "Input": 7,
+        "Output": 7
+      }
+    }
+  },
+  "VOIP": {
+    "Wires": {
+      "ID": 21829
+    }
+  }
+}

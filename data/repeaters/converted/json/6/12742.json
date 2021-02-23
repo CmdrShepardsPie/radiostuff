@@ -1,0 +1,27 @@
+{
+  "ID": 12742,
+  "StateID": 6,
+  "Callsign": "KI6HHU",
+  "Location": {
+    "Latitude": 35.13219833,
+    "Longitude": -118.4489975,
+    "County": "Kern",
+    "State": "CA",
+    "Local": "Tehachapi, Double Mtn."
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 442.92,
+    "Output": 447.92
+  },
+  "SquelchTone": {
+    "Input": 141.3,
+    "Output": 141.3
+  },
+  "VOIP": {
+    "EchoLink": {
+      "NodeID": 663524
+    }
+  }
+}

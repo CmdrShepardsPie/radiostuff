@@ -1,0 +1,26 @@
+{
+  "ID": 183,
+  "StateID": 32,
+  "Callsign": "KI6V",
+  "Location": {
+    "Latitude": 40.9095993,
+    "Longitude": -115.81900024,
+    "County": "Elko",
+    "State": "NV",
+    "Local": "Elko, SnoBowl"
+  },
+  "Use": "Open",
+  "Status": "Other",
+  "Frequency": {
+    "Input": 448.375,
+    "Output": 443.375
+  },
+  "SquelchTone": {
+    "Input": 100
+  },
+  "VOIP": {
+    "IRLP": {
+      "NodeID": 3723
+    }
+  }
+}

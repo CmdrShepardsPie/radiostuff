@@ -1,0 +1,21 @@
+{
+  "ID": 315,
+  "StateID": 32,
+  "Callsign": "K7NKH",
+  "Location": {
+    "Latitude": 37.9219017,
+    "Longitude": -114.44999695,
+    "County": "Lincoln",
+    "State": "NV",
+    "Local": "Pioche, Treasure Hill"
+  },
+  "Use": "Open",
+  "Status": "Off-Air",
+  "Frequency": {
+    "Input": 147.84,
+    "Output": 147.24
+  },
+  "SquelchTone": {
+    "Input": 100
+  }
+}

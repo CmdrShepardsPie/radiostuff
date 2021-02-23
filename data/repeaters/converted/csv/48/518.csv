@@ -1,0 +1,2 @@
+ID,StateID,Callsign,Use,Status,SquelchTone,DigitalTone,Digital,VOIP,Location.Latitude,Location.Longitude,Location.County,Location.State,Location.Local,Frequency.Input,Frequency.Output
+518,48,W5TSV,Open,On-Air,,,,,35.50830078,-101.02700043,Gray,TX,Pampa,146.3,146.9

@@ -1,0 +1,17 @@
+{
+  "ID": 16315,
+  "StateID": 16,
+  "Callsign": "KF7FY",
+  "Location": {
+    "State": "ID",
+    "Local": "Pocatello"
+  },
+  "Use": "Open",
+  "Status": "Other",
+  "Frequency": {
+    "Input": null
+  },
+  "SquelchTone": {
+    "Input": 123
+  }
+}

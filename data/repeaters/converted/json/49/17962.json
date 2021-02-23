@@ -1,0 +1,24 @@
+{
+  "ID": 17962,
+  "StateID": 49,
+  "Callsign": "K7BBR",
+  "Location": {
+    "Latitude": 40.83750153,
+    "Longitude": -111.87799835,
+    "County": "Davis",
+    "State": "UT",
+    "Local": "Bountiful"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 442.375,
+    "Output": 447.375
+  },
+  "Digital": {
+    "DMR": {
+      "ColorCode": 1,
+      "ID": 314915
+    }
+  }
+}

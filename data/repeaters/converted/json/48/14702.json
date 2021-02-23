@@ -1,0 +1,21 @@
+{
+  "ID": 14702,
+  "StateID": 48,
+  "Callsign": "N5LUL",
+  "Location": {
+    "Latitude": 35.22200012,
+    "Longitude": -101.83100128,
+    "County": "Potter",
+    "State": "TX",
+    "Local": "Amarillo"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 446.65,
+    "Output": 441.65
+  },
+  "SquelchTone": {
+    "Input": 127.3
+  }
+}

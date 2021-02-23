@@ -1,0 +1,21 @@
+{
+  "ID": 34,
+  "StateID": 49,
+  "Callsign": "K7JL",
+  "Location": {
+    "Latitude": 40.56079865,
+    "Longitude": -111.64399719,
+    "County": "Utah",
+    "State": "UT",
+    "Local": "Snowbird, Hidden Peak"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 147.78,
+    "Output": 147.18
+  },
+  "SquelchTone": {
+    "Input": 100
+  }
+}

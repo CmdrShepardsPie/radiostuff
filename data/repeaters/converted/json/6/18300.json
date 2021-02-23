@@ -1,0 +1,21 @@
+{
+  "ID": 18300,
+  "StateID": 6,
+  "Callsign": "WA1IRS",
+  "Location": {
+    "Latitude": 34.18809891,
+    "Longitude": -117.70500183,
+    "County": "Los Angeles",
+    "State": "CA",
+    "Local": "Claremont, Sunset Ridge"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 223.3,
+    "Output": 224.9
+  },
+  "SquelchTone": {
+    "Input": 103.5
+  }
+}

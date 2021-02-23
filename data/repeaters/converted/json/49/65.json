@@ -1,0 +1,21 @@
+{
+  "ID": 65,
+  "StateID": 49,
+  "Callsign": "K7UCA",
+  "Location": {
+    "Latitude": 40.31389999,
+    "Longitude": -111.71299744,
+    "County": "Utah",
+    "State": "UT",
+    "Local": "Orem, Timpanogos Hospital"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 442.275,
+    "Output": 447.275
+  },
+  "SquelchTone": {
+    "Input": 100
+  }
+}

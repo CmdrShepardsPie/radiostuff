@@ -1,0 +1,26 @@
+{
+  "ID": 19288,
+  "StateID": 16,
+  "Callsign": "K7WIR",
+  "Location": {
+    "Latitude": 42.7199873,
+    "Longitude": -114.5240341,
+    "County": "Jerome",
+    "State": "ID",
+    "Local": "Jerome"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 147.8,
+    "Output": 147.2
+  },
+  "Digital": {
+    "YSF": {
+      "GroupID": {
+        "Input": "Open ↑",
+        "Output": "Open ↓"
+      }
+    }
+  }
+}

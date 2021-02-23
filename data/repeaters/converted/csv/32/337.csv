@@ -1,0 +1,2 @@
+ID,StateID,Callsign,Use,Status,SquelchTone,DigitalTone,Digital,VOIP,Location.Latitude,Location.Longitude,Location.County,Location.State,Location.Local,Frequency.Input,Frequency.Output
+337,32,WR6AVM,Closed,Off-Air,,,,,35.97449875,-115.11799622,Clark,NV,Henderson,443.75,448.75

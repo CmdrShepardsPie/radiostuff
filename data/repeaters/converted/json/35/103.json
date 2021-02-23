@@ -1,0 +1,21 @@
+{
+  "ID": 103,
+  "StateID": 35,
+  "Callsign": "N9PGQ",
+  "Location": {
+    "Latitude": 35.59109879,
+    "Longitude": -105.73200226,
+    "County": "Santa Fe",
+    "State": "NM",
+    "Local": "La Cueva"
+  },
+  "Use": "Open",
+  "Status": "Other",
+  "Frequency": {
+    "Input": 447.125,
+    "Output": 442.125
+  },
+  "SquelchTone": {
+    "Input": 107.2
+  }
+}

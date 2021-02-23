@@ -1,0 +1,18 @@
+{
+  "ID": 126,
+  "StateID": 35,
+  "Callsign": "N5CUL",
+  "Location": {
+    "Latitude": 34.80609894,
+    "Longitude": -106.73300171,
+    "County": "Valencia",
+    "State": "NM",
+    "Local": "Los Lunas"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 447.275,
+    "Output": 442.225
+  }
+}

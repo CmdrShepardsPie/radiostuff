@@ -1,0 +1,2 @@
+ID,StateID,Callsign,Use,Status,DigitalTone,Digital,VOIP,Location.Latitude,Location.Longitude,Location.County,Location.State,Location.Local,Frequency.Input,Frequency.Output,SquelchTone.Input,SquelchTone.Output
+319,4,N7FK,Open,Off-Air,,,,35.22330093,-114.22200012,Mohave,AZ,Golden Valley,443.4,448.4,123,

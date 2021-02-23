@@ -1,0 +1,21 @@
+{
+  "ID": 11289,
+  "StateID": 35,
+  "Callsign": "NM5ML",
+  "Location": {
+    "Latitude": 35.98429871,
+    "Longitude": -104.90100098,
+    "County": "Mora",
+    "State": "NM",
+    "Local": "Wagon Mound, Turkey Mountain"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 147.8,
+    "Output": 147.2
+  },
+  "SquelchTone": {
+    "Input": 67
+  }
+}

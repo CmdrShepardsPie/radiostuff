@@ -1,0 +1,2 @@
+ID,StateID,Callsign,Use,Status,DigitalTone,Digital,VOIP,Location.Latitude,Location.Longitude,Location.County,Location.State,Location.Local,Frequency.Input,Frequency.Output,SquelchTone.Input,SquelchTone.Output
+267,49,WR7AAA,Open,On-Air,,,,38.52030182,-113.28700256,Beaver,UT,"Milford, Frisco Peak",146.34,146.94,100,

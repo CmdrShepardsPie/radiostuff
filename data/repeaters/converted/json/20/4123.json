@@ -1,0 +1,22 @@
+{
+  "ID": 4123,
+  "StateID": 20,
+  "Callsign": "N0ECQ",
+  "Location": {
+    "Latitude": 38.87919998,
+    "Longitude": -99.32679749,
+    "County": "Ellis",
+    "State": "KS",
+    "Local": "Hays"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 449.825,
+    "Output": 444.825
+  },
+  "SquelchTone": {
+    "Input": 114.8,
+    "Output": 114.8
+  }
+}

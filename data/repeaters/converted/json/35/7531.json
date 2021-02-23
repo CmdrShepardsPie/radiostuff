@@ -1,0 +1,23 @@
+{
+  "ID": 7531,
+  "StateID": 35,
+  "Callsign": "W5URR",
+  "Location": {
+    "Latitude": 35.05780029,
+    "Longitude": -106.58699799,
+    "County": "Bernalillo",
+    "State": "NM",
+    "Local": "Albuquerque, Op Center"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 444.45,
+    "Output": 449.45
+  },
+  "Digital": {
+    "DStar": {
+      "Node": "W5URR (B)"
+    }
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "ID": 1011,
+  "StateID": 6,
+  "Callsign": "WA6GDF",
+  "Location": {
+    "Latitude": 34.44419861,
+    "Longitude": -117.93399811,
+    "County": "Los Angeles",
+    "State": "CA",
+    "Local": "Juniper Hills"
+  },
+  "Use": "Open",
+  "Status": "Other",
+  "Frequency": {
+    "Input": 444.5,
+    "Output": 449.5
+  },
+  "SquelchTone": {
+    "Input": 192.8
+  }
+}

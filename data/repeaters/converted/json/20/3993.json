@@ -1,0 +1,22 @@
+{
+  "ID": 3993,
+  "StateID": 20,
+  "Callsign": "KE0KIY",
+  "Location": {
+    "Latitude": 38.84109879,
+    "Longitude": -99.38279724,
+    "County": "Ellis",
+    "State": "KS",
+    "Local": "Hays"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 147.78,
+    "Output": 147.18
+  },
+  "SquelchTone": {
+    "Input": 100,
+    "Output": 100
+  }
+}

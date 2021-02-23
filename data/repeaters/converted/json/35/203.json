@@ -1,0 +1,26 @@
+{
+  "ID": 203,
+  "StateID": 35,
+  "Callsign": "KC5IPK",
+  "Location": {
+    "Latitude": 35.20890045,
+    "Longitude": -106.4469986,
+    "County": "Bernalillo",
+    "State": "NM",
+    "Local": "Albuquerque, Sandia Crest"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 447.75,
+    "Output": 442.75
+  },
+  "SquelchTone": {
+    "Input": 162.2
+  },
+  "VOIP": {
+    "IRLP": {
+      "NodeID": 7855
+    }
+  }
+}

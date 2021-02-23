@@ -1,0 +1,21 @@
+{
+  "ID": 12301,
+  "StateID": 4,
+  "Callsign": "K7MPR",
+  "Location": {
+    "Latitude": 34.48389816,
+    "Longitude": -114.3219986,
+    "County": "Mohave",
+    "State": "AZ",
+    "Local": "Lake Havasu City, Lake Havasu"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 443.6,
+    "Output": 448.6
+  },
+  "SquelchTone": {
+    "Input": 123
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "ID": 101,
+  "StateID": 4,
+  "Callsign": "K7MRG",
+  "Location": {
+    "Latitude": 34.69390106,
+    "Longitude": -112.1269989,
+    "County": "Yavapai",
+    "State": "AZ",
+    "Local": "Cottonwood, Mingus Mountain"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 147.6,
+    "Output": 147
+  },
+  "SquelchTone": {
+    "Input": 162.2,
+    "Output": 162.2
+  }
+}

@@ -1,0 +1,2 @@
+ID,StateID,Callsign,Use,Status,DigitalTone,Digital,VOIP,Location.Latitude,Location.Longitude,Location.County,Location.State,Location.Local,Frequency.Input,Frequency.Output,SquelchTone.Input,SquelchTone.Output
+60,32,W7LKO,Open,On-Air,,,,41.09999847,-114.95999908,Elko,NV,Wells,146.36,146.96,100,

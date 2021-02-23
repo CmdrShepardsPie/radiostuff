@@ -1,0 +1,2 @@
+ID,StateID,Callsign,Use,Status,SquelchTone,DigitalTone,Digital,Location.Latitude,Location.Longitude,Location.County,Location.State,Location.Local,Frequency.Input,Frequency.Output,VOIP.AllStar,VOIP.EchoLink,VOIP.Wires,VOIP.IRLP.NodeID
+2757,6,W6YJ,Private,On-Air,,,,34.23479843,-117.14099884,San Bernardino,CA,"Lake Arrowhead, Heaps Peak",444.66,449.66,,,,3150

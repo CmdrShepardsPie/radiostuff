@@ -1,0 +1,2 @@
+ID,StateID,Callsign,Use,Status,DigitalTone,Digital,VOIP,Location.Latitude,Location.Longitude,Location.County,Location.State,Location.Local,Frequency.Input,Frequency.Output,SquelchTone.Input,SquelchTone.Output
+22,49,K7HEN,Open,On-Air,,,,40.85449982,-111.48200226,Summit,UT,"Coalville, Lewis Peak",147.84,147.24,136.5,

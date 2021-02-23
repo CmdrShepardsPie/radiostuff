@@ -1,0 +1,34 @@
+{
+  "ID": 17078,
+  "StateID": 16,
+  "Callsign": "KB7SQS",
+  "Location": {
+    "Latitude": 42.52280045,
+    "Longitude": -114.54499817,
+    "County": "Twin Falls",
+    "State": "ID",
+    "Local": "Twin Falls"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 448.75,
+    "Output": 443.75
+  },
+  "SquelchTone": {
+    "Input": 100
+  },
+  "Digital": {
+    "YSF": {
+      "GroupID": {
+        "Input": "Open ↑",
+        "Output": "Open ↓"
+      }
+    }
+  },
+  "VOIP": {
+    "Wires": {
+      "ID": 33668
+    }
+  }
+}

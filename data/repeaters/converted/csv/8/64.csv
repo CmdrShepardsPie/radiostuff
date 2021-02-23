@@ -1,2 +1,2 @@
 ID,StateID,Callsign,Use,Status,DigitalTone,Digital,VOIP,Location.Latitude,Location.Longitude,Location.County,Location.State,Location.Local,Frequency.Input,Frequency.Output,SquelchTone.Input,SquelchTone.Output
-64,8,WB0WDF,Open,On-Air,,,,38.7466011,-105.1780014,Teller,CO,Cripple Creek,144.86,145.46,67,
+64,8,WB0WDF,Open,Off-Air,,,,38.7466011,-105.1780014,Teller,CO,Cripple Creek,144.86,145.46,67,

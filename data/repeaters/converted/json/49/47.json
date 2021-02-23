@@ -1,0 +1,26 @@
+{
+  "ID": 47,
+  "StateID": 49,
+  "Callsign": "WA7VHF",
+  "Location": {
+    "Latitude": 40.80810165,
+    "Longitude": -111.88999939,
+    "County": "Salt Lake",
+    "State": "UT",
+    "Local": "Salt Lake City, Ensign Peak"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 444.275,
+    "Output": 449.275
+  },
+  "SquelchTone": {
+    "Input": 88.5
+  },
+  "VOIP": {
+    "IRLP": {
+      "NodeID": 3407
+    }
+  }
+}

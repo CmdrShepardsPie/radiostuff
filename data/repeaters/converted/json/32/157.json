@@ -1,0 +1,29 @@
+{
+  "ID": 157,
+  "StateID": 32,
+  "Callsign": "N7ARR",
+  "Location": {
+    "Latitude": 36.08499908,
+    "Longitude": -115.38600159,
+    "County": "Clark",
+    "State": "NV",
+    "Local": "Las Vegas, Blue Diamond Mountain"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 442,
+    "Output": 447
+  },
+  "SquelchTone": {
+    "Input": 123
+  },
+  "VOIP": {
+    "EchoLink": {
+      "NodeID": 206682
+    },
+    "IRLP": {
+      "NodeID": 3641
+    }
+  }
+}

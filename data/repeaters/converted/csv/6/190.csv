@@ -1,0 +1,2 @@
+ID,StateID,Callsign,Use,Status,SquelchTone,DigitalTone,Digital,VOIP,Location.Latitude,Location.Longitude,Location.County,Location.State,Location.Local,Frequency.Input,Frequency.Output
+190,6,W6PVG,Open,Other,,,,,35.13219833,-118.44799805,Kern,CA,Tehachapi,147.66,147.06

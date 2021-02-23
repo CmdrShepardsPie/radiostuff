@@ -1,0 +1,2 @@
+ID,StateID,Callsign,Use,Status,DigitalTone,Digital,VOIP,Location.Latitude,Location.Longitude,Location.County,Location.State,Location.Local,Frequency.Input,Frequency.Output,SquelchTone.Input,SquelchTone.Output
+17742,49,KA7EGC,Open,On-Air,,,,40.5802002,-111.8219986,Salt Lake,UT,Sandy,223.04,224.64,156.7,

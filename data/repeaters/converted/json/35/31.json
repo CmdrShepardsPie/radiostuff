@@ -1,0 +1,21 @@
+{
+  "ID": 31,
+  "StateID": 35,
+  "Callsign": "K5FSB",
+  "Location": {
+    "Latitude": 35.20890045,
+    "Longitude": -106.4469986,
+    "County": "Bernalillo",
+    "State": "NM",
+    "Local": "Albuquerque, Sandia Peak"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 447.6,
+    "Output": 442.6
+  },
+  "SquelchTone": {
+    "Input": 100
+  }
+}

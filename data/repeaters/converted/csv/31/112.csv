@@ -1,0 +1,2 @@
+ID,StateID,Callsign,Use,Status,DigitalTone,Digital,VOIP,Location.Latitude,Location.Longitude,Location.County,Location.State,Location.Local,Frequency.Input,Frequency.Output,SquelchTone.Input,SquelchTone.Output
+112,31,NI0P,Open,On-Air,,,,41.10589981,-98.45639801,Howard,NE,"St Libory, Microwave Tower",449.925,444.925,100,

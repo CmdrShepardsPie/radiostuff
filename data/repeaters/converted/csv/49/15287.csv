@@ -1,0 +1,2 @@
+ID,StateID,Callsign,Use,Status,DigitalTone,Digital,VOIP,Location.Latitude,Location.Longitude,Location.County,Location.State,Location.Local,Frequency.Input,Frequency.Output,SquelchTone.Input,SquelchTone.Output
+15287,49,AC7DU,Open,On-Air,,,,40.39139938,-111.92900085,Utah,UT,Saratoga Springs,442.675,447.675,100,

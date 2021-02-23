@@ -1,0 +1,2 @@
+ID,StateID,Callsign,Use,Status,DigitalTone,Digital,VOIP,Location.Latitude,Location.Longitude,Location.County,Location.State,Location.Local,Frequency.Input,Frequency.Output,SquelchTone.Input,SquelchTone.Output
+15518,56,N7JJY,Open,On-Air,,,,41.13999939,-104.81999969,Laramie,WY,Cheyenne,444.9,449.9,100,100

@@ -1,0 +1,21 @@
+{
+  "ID": 2766,
+  "StateID": 49,
+  "Callsign": "KD7RTO",
+  "Location": {
+    "Latitude": 40.90470123,
+    "Longitude": -111.88899994,
+    "County": "Davis",
+    "State": "UT",
+    "Local": "Bountiful, QTH"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 452.425,
+    "Output": 447.425
+  },
+  "SquelchTone": {
+    "Input": 192.8
+  }
+}

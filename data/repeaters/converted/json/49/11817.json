@@ -1,0 +1,18 @@
+{
+  "ID": 11817,
+  "StateID": 49,
+  "Callsign": "K8BKT",
+  "Location": {
+    "Latitude": 40.36410141,
+    "Longitude": -111.73899841,
+    "County": "Utah",
+    "State": "UT",
+    "Local": "Pleasant Grove"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 444.775,
+    "Output": 449.775
+  }
+}

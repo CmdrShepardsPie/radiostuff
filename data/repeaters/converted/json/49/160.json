@@ -1,0 +1,21 @@
+{
+  "ID": 160,
+  "StateID": 49,
+  "Callsign": "N7TOP",
+  "Location": {
+    "Latitude": 41.37060165,
+    "Longitude": -111.76599884,
+    "County": "Weber",
+    "State": "UT",
+    "Local": "Ogden, Powder Mountain"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 442.775,
+    "Output": 447.775
+  },
+  "SquelchTone": {
+    "Input": 123
+  }
+}

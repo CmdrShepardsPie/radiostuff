@@ -1,0 +1,2 @@
+ID,StateID,Callsign,Use,Status,DigitalTone,Digital,VOIP,Location.Latitude,Location.Longitude,Location.County,Location.State,Location.Local,Frequency.Input,Frequency.Output,SquelchTone.Input,SquelchTone.Output
+474,6,W6BA,Open,On-Air,,,,34.11420059,-116.43099976,San Bernardino,CA,Yucca Valley,146.19,146.79,136.5,136.5

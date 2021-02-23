@@ -1,0 +1,18 @@
+{
+  "ID": 320,
+  "StateID": 32,
+  "Callsign": "KI6V",
+  "Location": {
+    "Latitude": 40.83599854,
+    "Longitude": -115.76699829,
+    "County": "Elko",
+    "State": "NV",
+    "Local": "Elko"
+  },
+  "Use": "Open",
+  "Status": "Other",
+  "Frequency": {
+    "Input": 445.325,
+    "Output": 440.325
+  }
+}

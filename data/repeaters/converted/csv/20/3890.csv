@@ -1,0 +1,2 @@
+ID,StateID,Callsign,Use,Status,DigitalTone,Digital,VOIP,Location.Latitude,Location.Longitude,Location.County,Location.State,Location.Local,Frequency.Input,Frequency.Output,SquelchTone.Input,SquelchTone.Output
+3890,20,AB0UO,Open,On-Air,,,,38.95100021,-98.76100159,Russell,KS,"Russell, K-Link",449.95,444.95,162.2,162.2

@@ -1,0 +1,26 @@
+{
+  "ID": 9574,
+  "StateID": 4,
+  "Callsign": "W6NSA",
+  "Location": {
+    "Latitude": 34.77099991,
+    "Longitude": -112.05799866,
+    "County": "Yavapai",
+    "State": "AZ",
+    "Local": "Clarkdale"
+  },
+  "Use": "Open",
+  "Status": "Off-Air",
+  "Frequency": {
+    "Input": 448.9,
+    "Output": 443.9
+  },
+  "SquelchTone": {
+    "Input": 100
+  },
+  "VOIP": {
+    "EchoLink": {
+      "NodeID": 67113
+    }
+  }
+}

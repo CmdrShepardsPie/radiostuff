@@ -1,0 +1,29 @@
+{
+  "ID": 3112,
+  "StateID": 35,
+  "Callsign": "KC5IPK",
+  "Location": {
+    "Latitude": 35.2743988,
+    "Longitude": -106.73699951,
+    "County": "Sandoval",
+    "State": "NM",
+    "Local": "Rio Rancho"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 447.75,
+    "Output": 442.75
+  },
+  "SquelchTone": {
+    "Input": 162.2
+  },
+  "VOIP": {
+    "EchoLink": {
+      "NodeID": 214956
+    },
+    "IRLP": {
+      "NodeID": 7855
+    }
+  }
+}

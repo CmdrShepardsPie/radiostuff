@@ -1,0 +1,21 @@
+{
+  "ID": 6598,
+  "StateID": 6,
+  "Callsign": "K6JR",
+  "Location": {
+    "Latitude": 33.86970139,
+    "Longitude": -116.43099976,
+    "County": "Riverside",
+    "State": "CA",
+    "Local": "Palm Springs, Edom Hill"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 442.32,
+    "Output": 447.32
+  },
+  "SquelchTone": {
+    "Input": 131.8
+  }
+}

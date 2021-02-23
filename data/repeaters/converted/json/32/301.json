@@ -1,0 +1,21 @@
+{
+  "ID": 301,
+  "StateID": 32,
+  "Callsign": "WB6TNP",
+  "Location": {
+    "Latitude": 36.31919861,
+    "Longitude": -115.5739975,
+    "County": "Clark",
+    "State": "NV",
+    "Local": "Las Vegas, Angel Peak"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 222.9,
+    "Output": 224.5
+  },
+  "SquelchTone": {
+    "Input": 131.8
+  }
+}

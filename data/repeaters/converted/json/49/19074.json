@@ -1,0 +1,21 @@
+{
+  "ID": 19074,
+  "StateID": 49,
+  "Callsign": "N7FOC",
+  "Location": {
+    "Latitude": 40.3103,
+    "Longitude": -111.67,
+    "County": "Utah",
+    "State": "UT",
+    "Local": "Orem"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 444.575,
+    "Output": 449.575
+  },
+  "SquelchTone": {
+    "Input": 100
+  }
+}

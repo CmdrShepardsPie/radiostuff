@@ -1,0 +1,2 @@
+ID,StateID,Callsign,Use,Status,DigitalTone,Digital,Location.Latitude,Location.Longitude,Location.County,Location.State,Location.Local,Frequency.Input,Frequency.Output,SquelchTone.Input,SquelchTone.Output,VOIP.AllStar,VOIP.Wires,VOIP.EchoLink.NodeID,VOIP.IRLP.NodeID
+270,49,WX7Y,Open,On-Air,,,40.28239822,-111.9489975,Salt Lake,UT,"Draper, Lake Mountain",147.68,147.08,77,,,,64264,3270

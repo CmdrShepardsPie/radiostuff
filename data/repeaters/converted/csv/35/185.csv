@@ -1,0 +1,2 @@
+ID,StateID,Callsign,Use,Status,DigitalTone,Digital,VOIP,Location.Latitude,Location.Longitude,Location.County,Location.State,Location.Local,Frequency.Input,Frequency.Output,SquelchTone.Input,SquelchTone.Output
+185,35,KD5SAR,Open,On-Air,,,,35.115,-108.7392,McKinley,NM,"Zuni, Black rock",144.83,145.43,162.2,

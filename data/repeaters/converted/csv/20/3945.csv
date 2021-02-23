@@ -1,0 +1,2 @@
+ID,StateID,Callsign,Use,Status,DigitalTone,Digital,VOIP,Location.Latitude,Location.Longitude,Location.County,Location.State,Location.Local,Frequency.Input,Frequency.Output,SquelchTone.Input,SquelchTone.Output
+3945,20,KI0NN,Open,On-Air,,,,38.40599823,-98.72200012,Barton,KS,Great Bend,146.16,146.76,103.5,103.5

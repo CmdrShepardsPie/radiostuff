@@ -1,0 +1,21 @@
+{
+  "ID": 251,
+  "StateID": 49,
+  "Callsign": "WB6CDN",
+  "Location": {
+    "Latitude": 40.81309891,
+    "Longitude": -111.89099884,
+    "County": "Salt Lake",
+    "State": "UT",
+    "Local": "Salt Lake City, Meridian Peak"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 223.22,
+    "Output": 224.82
+  },
+  "SquelchTone": {
+    "Input": 167.9
+  }
+}

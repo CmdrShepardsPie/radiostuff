@@ -1,0 +1,21 @@
+{
+  "ID": 4351,
+  "StateID": 40,
+  "Callsign": "W5HFZ",
+  "Location": {
+    "Latitude": 36.83560181,
+    "Longitude": -99.63040161,
+    "County": "Harper",
+    "State": "OK",
+    "Local": "Buffalo"
+  },
+  "Use": "Open",
+  "Status": "Other",
+  "Frequency": {
+    "Input": 51.11,
+    "Output": 52.81
+  },
+  "SquelchTone": {
+    "Input": 131.8
+  }
+}

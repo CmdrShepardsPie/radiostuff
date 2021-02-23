@@ -18,23 +18,33 @@
         const files = await fs_helpers_1.getAllFilesInDirectory('../data/repeaters/scraped/json', 'json', 1);
         log('Got', files.length, 'files');
         const promises = [];
-        await Promise.all(files.map(async (file) => {
+        await Promise.all(files.map(async (file, fileIndex) => {
             const fileBuffer = await fs_helpers_1.readFileAsync(file);
             const fileString = fileBuffer.toString();
             const fileData = JSON.parse(fileString);
-            if (typeof fileData === 'object' && Array.isArray(fileData)) {
-                const converted = fileData
-                    .reduce((output, input, index) => {
-                    log(`converting repeater ${input.Call} (${index + 1}/${fileData.length}) from ${file}`);
-                    const repeater = convertRepeater(input);
+            // log('File', file, typeof fileData, Array.isArray(fileData), fileData);
+            if (typeof fileData === 'object') {
+                if (Array.isArray(fileData)) {
+                    const converted = fileData
+                        .reduce((output, input, rowIndex) => {
+                        log(`converting repeater ${input.Call} (${rowIndex + 1}/${fileData.length}) from ${file} (${fileIndex + 1}/${files.length})`);
+                        const repeater = convertRepeater(input);
+                        // Don't care when the fs write promises return, they do not affect the outcome and node won't terminate until the handles are closed
+                        promises.push(fs_helpers_1.writeToJson(`../data/repeaters/converted/json/${repeater.StateID}/${repeater.ID}`, repeater));
+                        promises.push(fs_helpers_1.writeToCsv(`../data/repeaters/converted/csv/${repeater.StateID}/${repeater.ID}`, repeater));
+                        return [...output, repeater];
+                    }, []);
+                    // Don't care when the fs write promises return, they do not affect the outcome and node won't terminate until the handles are closed
+                    promises.push(fs_helpers_1.writeToJson(`../data/repeaters/converted/json/${fs_helpers_1.splitExtension(file).name}`, converted));
+                    promises.push(fs_helpers_1.writeToCsv(`../data/repeaters/converted/csv/${fs_helpers_1.splitExtension(file).name}`, converted));
+                }
+                else {
+                    log(`converting repeater ${fileData.Call} from ${file} (${fileIndex + 1}/${files.length})`);
+                    const repeater = convertRepeater(fileData);
                     // Don't care when the fs write promises return, they do not affect the outcome and node won't terminate until the handles are closed
                     promises.push(fs_helpers_1.writeToJson(`../data/repeaters/converted/json/${repeater.StateID}/${repeater.ID}`, repeater));
                     promises.push(fs_helpers_1.writeToCsv(`../data/repeaters/converted/csv/${repeater.StateID}/${repeater.ID}`, repeater));
-                    return [...output, repeater];
-                }, []);
-                // Don't care when the fs write promises return, they do not affect the outcome and node won't terminate until the handles are closed
-                // promises.push(writeToJson(`../data/repeaters/converted/json/${ splitExtension(file).name }`, converted));
-                // promises.push(writeToCsv(`../data/repeaters/converted/csv/${ splitExtension(file).name }`, converted));
+                }
             }
         }));
         await Promise.all(promises);
@@ -134,14 +144,14 @@
     function convertRepeaterDigitalData(raw) {
         const converted = {
             // TODO: ATV?: boolean;
-            DMR: (raw.DGTL.includes('D') || raw['DMR Enabled']) ? {
+            DMR: ((raw.DGTL && raw.DGTL.includes('D')) || raw['DMR Enabled']) ? {
                 ColorCode: convertNumber(raw['Color Code']),
                 ID: convertNumber(raw['DMR ID']),
             } : undefined,
-            P25: (raw.DGTL.includes('P') || raw['P-25 Digital Enabled']) ? { NAC: convertNumber(raw.NAC) } : undefined,
+            P25: ((raw.DGTL && raw.DGTL.includes('P')) || raw['P-25 Digital Enabled']) ? { NAC: convertNumber(raw.NAC) } : undefined,
             // TODO: Convert D-Star nodes to programmable format
-            DStar: (raw.DGTL.includes('S') || raw['D-STAR Enabled']) ? { Node: raw.Node } : undefined,
-            YSF: (raw.DGTL.includes('Y') || raw['YSF Digital Enabled']) ? {
+            DStar: ((raw.DGTL && raw.DGTL.includes('S')) || raw['D-STAR Enabled']) ? { Node: raw.Node } : undefined,
+            YSF: ((raw.DGTL && raw.DGTL.includes('Y')) || raw['YSF Digital Enabled']) ? {
                 GroupID: {
                     // TODO: Convert "Open" to 0 (confirm this is correct?)
                     Input: typeof raw['DG-ID'] === 'number' ? raw['DG-ID'] : typeof raw['DG-ID'] === 'string' ? raw['DG-ID'].split('/')[0].trim() : undefined,
@@ -155,12 +165,12 @@
     }
     function convertRepeaterVOIP(raw) {
         const converted = {
-            AllStar: (raw.VOIP.includes('A') || raw.AllStar) ? { NodeID: convertNumber(raw.AllStar) } : undefined,
-            EchoLink: (raw.VOIP.includes('E') || raw.EchoLink) ? {
+            AllStar: ((raw.VOIP && raw.VOIP.includes('A')) || raw.AllStar) ? { NodeID: convertNumber(raw.AllStar) } : undefined,
+            EchoLink: ((raw.VOIP && raw.VOIP.includes('E')) || raw.EchoLink) ? {
                 NodeID: raw.EchoLink,
             } : undefined,
-            IRLP: (raw.VOIP.includes('I') || raw.IRLP) ? { NodeID: convertNumber(raw.IRLP) } : undefined,
-            Wires: (raw.VOIP.includes('W') || raw['WIRES-X']) ? { ID: convertNumber(raw['WIRES-X']) } : undefined,
+            IRLP: ((raw.VOIP && raw.VOIP.includes('I')) || raw.IRLP) ? { NodeID: convertNumber(raw.IRLP) } : undefined,
+            Wires: ((raw.VOIP && raw.VOIP.includes('W')) || raw['WIRES-X']) ? { ID: convertNumber(raw['WIRES-X']) } : undefined,
         };
         if (converted.AllStar || converted.EchoLink || converted.IRLP || converted.Wires) {
             return converted;

@@ -1,0 +1,21 @@
+{
+  "ID": 17742,
+  "StateID": 49,
+  "Callsign": "KA7EGC",
+  "Location": {
+    "Latitude": 40.5802002,
+    "Longitude": -111.8219986,
+    "County": "Salt Lake",
+    "State": "UT",
+    "Local": "Sandy"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 223.04,
+    "Output": 224.64
+  },
+  "SquelchTone": {
+    "Input": 156.7
+  }
+}

@@ -1,0 +1,2 @@
+ID,StateID,Callsign,Use,Status,DigitalTone,Digital,VOIP,Location.Latitude,Location.Longitude,Location.County,Location.State,Location.Local,Frequency.Input,Frequency.Output,SquelchTone.Input,SquelchTone.Output
+18084,6,N6BKL,Open,On-Air,,,,35.26750183,-116.0739975,San Bernardino,CA,Baker,53.44,53.94,82.5,

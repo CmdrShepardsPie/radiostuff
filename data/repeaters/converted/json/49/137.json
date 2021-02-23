@@ -1,0 +1,21 @@
+{
+  "ID": 137,
+  "StateID": 49,
+  "Callsign": "N7GGN",
+  "Location": {
+    "Latitude": 39.04169846,
+    "Longitude": -112.14199829,
+    "County": "Sevier",
+    "State": "UT",
+    "Local": "Holden, Beesting Peak"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 147.7,
+    "Output": 147.1
+  },
+  "SquelchTone": {
+    "Input": 100
+  }
+}

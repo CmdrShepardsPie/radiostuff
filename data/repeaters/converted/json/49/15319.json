@@ -1,0 +1,18 @@
+{
+  "ID": 15319,
+  "StateID": 49,
+  "Callsign": "WX7Y",
+  "Location": {
+    "Latitude": 39.6446991,
+    "Longitude": -110.34799957,
+    "County": "Carbon",
+    "State": "UT",
+    "Local": "Sunny Side, Bruin Peak"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 144.575,
+    "Output": 145.175
+  }
+}

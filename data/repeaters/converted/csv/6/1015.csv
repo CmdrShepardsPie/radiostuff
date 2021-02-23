@@ -1,0 +1,2 @@
+ID,StateID,Callsign,Use,Status,DigitalTone,Digital,VOIP,Location.Latitude,Location.Longitude,Location.County,Location.State,Location.Local,Frequency.Input,Frequency.Output,SquelchTone.Input,SquelchTone.Output
+1015,6,KA6GRF,Open,On-Air,,,,34.07590103,-117.46099854,San Bernardino,CA,Fontana,442.32,447.32,136.5,

@@ -1,0 +1,21 @@
+{
+  "ID": 15638,
+  "StateID": 35,
+  "Callsign": "NM5EM",
+  "Location": {
+    "Latitude": 36.76110077,
+    "Longitude": -103.83399963,
+    "County": "Union",
+    "State": "NM",
+    "Local": "Des Moines, Sierra Grande"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 147.775,
+    "Output": 147.175
+  },
+  "SquelchTone": {
+    "Input": 141.3
+  }
+}

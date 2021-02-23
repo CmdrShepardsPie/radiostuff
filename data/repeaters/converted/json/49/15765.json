@@ -1,0 +1,21 @@
+{
+  "ID": 15765,
+  "StateID": 49,
+  "Callsign": "KA7OEI",
+  "Location": {
+    "Latitude": 40.76079941,
+    "Longitude": -111.89099884,
+    "County": "Salt Lake",
+    "State": "UT",
+    "Local": "Salt Lake City"
+  },
+  "Use": "Open",
+  "Status": "Other",
+  "Frequency": {
+    "Input": 444.75,
+    "Output": 449.75
+  },
+  "SquelchTone": {
+    "Input": 151.4
+  }
+}

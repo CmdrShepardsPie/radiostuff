@@ -1,0 +1,21 @@
+{
+  "ID": 58,
+  "StateID": 56,
+  "Callsign": "N7ABC",
+  "Location": {
+    "Latitude": 41.58639908,
+    "Longitude": -109.22399902,
+    "County": "Sweetwater",
+    "State": "WY",
+    "Local": "Rock Springs"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 449.5,
+    "Output": 444.5
+  },
+  "SquelchTone": {
+    "Input": 123
+  }
+}

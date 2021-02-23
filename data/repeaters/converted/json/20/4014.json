@@ -1,0 +1,21 @@
+{
+  "ID": 4014,
+  "StateID": 20,
+  "Callsign": "NZ0M",
+  "Location": {
+    "Latitude": 39.4679985,
+    "Longitude": -98.69300079,
+    "County": "Osborne",
+    "State": "KS",
+    "Local": "Osborne, K-Link"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 147.975,
+    "Output": 147.375
+  },
+  "SquelchTone": {
+    "Input": 162.2
+  }
+}

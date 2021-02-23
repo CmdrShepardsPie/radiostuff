@@ -1,0 +1,2 @@
+ID,StateID,Callsign,Use,Status,DigitalTone,Digital,VOIP,Location.Latitude,Location.Longitude,Location.County,Location.State,Location.Local,Frequency.Input,Frequency.Output,SquelchTone.Input,SquelchTone.Output
+72,16,N7PI,Open,On-Air,,,,42.6780014,-112.34600067,Bannock,ID,"Pocatello, Scout Montain",147.66,147.06,100,

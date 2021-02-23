@@ -1,0 +1,18 @@
+{
+  "ID": 18081,
+  "StateID": 6,
+  "Callsign": "WA6MTN",
+  "Location": {
+    "Latitude": 34.19680023,
+    "Longitude": -117.0490036,
+    "County": "San Bernardino",
+    "State": "CA",
+    "Local": "Running Springs, Keller Peak"
+  },
+  "Use": "Closed",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 222.4,
+    "Output": 224
+  }
+}

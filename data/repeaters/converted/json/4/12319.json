@@ -1,0 +1,21 @@
+{
+  "ID": 12319,
+  "StateID": 4,
+  "Callsign": "K7MPR",
+  "Location": {
+    "Latitude": 35.07699966,
+    "Longitude": -113.88300323,
+    "County": "Mohave",
+    "State": "AZ",
+    "Local": "Kingman, Hualapai Mtn"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 147.84,
+    "Output": 147.24
+  },
+  "SquelchTone": {
+    "Input": 123
+  }
+}

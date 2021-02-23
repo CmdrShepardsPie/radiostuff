@@ -1,0 +1,2 @@
+ID,StateID,Callsign,Use,Status,DigitalTone,Digital,VOIP,Location.Latitude,Location.Longitude,Location.County,Location.State,Location.Local,Frequency.Input,Frequency.Output,SquelchTone.Input,SquelchTone.Output
+30,31,W0SOK,Open,On-Air,,,,40.72399902,-99.91300201,Dawson,NE,Cozad,147.735,147.135,123,

@@ -1,0 +1,21 @@
+{
+  "ID": 184,
+  "StateID": 32,
+  "Callsign": "KC7YNS",
+  "Location": {
+    "Latitude": 40.83250046,
+    "Longitude": -115.76200104,
+    "County": "Elko",
+    "State": "NV",
+    "Local": "Elko"
+  },
+  "Use": "Open",
+  "Status": "Other",
+  "Frequency": {
+    "Input": 449.1,
+    "Output": 444.1
+  },
+  "SquelchTone": {
+    "Input": 100
+  }
+}

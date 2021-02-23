@@ -1,0 +1,2 @@
+ID,StateID,Callsign,Use,Status,DigitalTone,Digital,VOIP,Location.Latitude,Location.Longitude,Location.County,Location.State,Location.Local,Frequency.Input,Frequency.Output,SquelchTone.Input,SquelchTone.Output
+744,6,WA6YVL,Open,On-Air,,,,34.6576004,-118.15499878,Los Angeles,CA,Lancaster,222.32,223.92,100,

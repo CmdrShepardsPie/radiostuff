@@ -1,0 +1,22 @@
+{
+  "ID": 111,
+  "StateID": 49,
+  "Callsign": "KD7FDH",
+  "Location": {
+    "Latitude": 41.19070053,
+    "Longitude": -111.94000244,
+    "County": "Weber",
+    "State": "UT",
+    "Local": "Ogden, Weber State University"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 144.65,
+    "Output": 145.25
+  },
+  "SquelchTone": {
+    "Input": 123,
+    "Output": 123
+  }
+}

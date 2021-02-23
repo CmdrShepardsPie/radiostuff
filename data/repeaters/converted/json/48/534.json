@@ -1,0 +1,18 @@
+{
+  "ID": 534,
+  "StateID": 48,
+  "Callsign": "N5LTZ",
+  "Location": {
+    "Latitude": 35.22000122,
+    "Longitude": -101.83000183,
+    "County": "Randall",
+    "State": "TX",
+    "Local": "Amarillo"
+  },
+  "Use": "Open",
+  "Status": "Other",
+  "Frequency": {
+    "Input": 146.32,
+    "Output": 146.92
+  }
+}

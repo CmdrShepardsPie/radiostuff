@@ -1,0 +1,21 @@
+{
+  "ID": 243,
+  "StateID": 49,
+  "Callsign": "WA7MXZ",
+  "Location": {
+    "Latitude": 41.63240051,
+    "Longitude": -111.86799622,
+    "County": "Cache",
+    "State": "UT",
+    "Local": "Logan, Cache CSO"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 146.04,
+    "Output": 146.64
+  },
+  "SquelchTone": {
+    "Input": 103.5
+  }
+}

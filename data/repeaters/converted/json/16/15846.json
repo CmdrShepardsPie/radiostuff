@@ -1,0 +1,30 @@
+{
+  "ID": 15846,
+  "StateID": 16,
+  "Callsign": "W7CTH",
+  "Location": {
+    "Latitude": 42.56299973,
+    "Longitude": -114.46099854,
+    "County": "Twin Falls",
+    "State": "ID",
+    "Local": "Twin Falls"
+  },
+  "Use": "Closed",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 447.6,
+    "Output": 442.6
+  },
+  "SquelchTone": {
+    "Input": 100,
+    "Output": 100
+  },
+  "VOIP": {
+    "IRLP": {
+      "NodeID": 3541
+    },
+    "Wires": {
+      "ID": 43206
+    }
+  }
+}

@@ -1,0 +1,2 @@
+ID,StateID,Callsign,Use,Status,DigitalTone,Digital,VOIP,Location.Latitude,Location.Longitude,Location.County,Location.State,Location.Local,Frequency.Input,Frequency.Output,SquelchTone.Input,SquelchTone.Output
+217,48,KA5KQH,Open,Other,,,,35.62950134,-100.54699707,Roberts,TX,Miami,144.51,145.11,88.5,

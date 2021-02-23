@@ -1,2 +1,2 @@
-Frequency,Offset,Tone Up / Down,Location,County,Call,Use,,state_id,ID,Latitude,Longitude,Downlink,Uplink,Uplink Tone,Grid,Op Status,Coverage,Features,Notes,Coordination,Last update
-146.76,-0.6,123,"Cedar City, Iron Mountain",Iron,K7JH,OPEN,,49,26,37.6446991,-113.37400055,146.76,146.16,123,DM37HP,On-Air,Wide area: Cedar City and nearby communities.,"Closed autopatch, 7,680'.",KBRE tower.,UVHFS,2014-02-02
+Frequency,Offset,Tone,Call,Location,ST/PR,Use,Mode,Mi,Dir,,state_id,ID,Latitude,Longitude,Downlink,Uplink,Uplink Tone,County,Grid,Op Status,Coverage,Features,FM,Analog Bandwidth,Notes,Coordination,Last update
+146.76,-0.6,123,K7JH,"Cedar City, Iron Mountain",UT,OPEN,FM,141.08,NE,,49,26,37.6446991,-113.37400055,146.76,146.16,123,Iron,DM37HP,On-Air,Wide area: Cedar City and nearby communities.,"Closed autopatch, 7,680'.",Yes; analog capable.,,KBRE tower.,UVHFS,2014-02-02

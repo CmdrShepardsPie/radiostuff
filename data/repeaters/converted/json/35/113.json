@@ -1,0 +1,18 @@
+{
+  "ID": 113,
+  "StateID": 35,
+  "Callsign": "KB5WEZ",
+  "Location": {
+    "Latitude": 35.59389877,
+    "Longitude": -105.22299957,
+    "County": "San Miguel",
+    "State": "NM",
+    "Local": "Las Vegas"
+  },
+  "Use": "Open",
+  "Status": "Off-Air",
+  "Frequency": {
+    "Input": 144.85,
+    "Output": 145.45
+  }
+}

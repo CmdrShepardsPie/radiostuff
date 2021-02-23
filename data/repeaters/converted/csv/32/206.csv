@@ -1,0 +1,2 @@
+ID,StateID,Callsign,Use,Status,SquelchTone,DigitalTone,Digital,VOIP,Location.Latitude,Location.Longitude,Location.County,Location.State,Location.Local,Frequency.Input,Frequency.Output
+206,32,W7GVA,Open,On-Air,,,,,36.03099823,-114.98100281,Clark,NV,Henderson,146.01,146.61

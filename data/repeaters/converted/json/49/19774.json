@@ -1,0 +1,23 @@
+{
+  "ID": 19774,
+  "StateID": 49,
+  "Callsign": "N7RDS",
+  "Location": {
+    "Latitude": 41.7888158,
+    "Longitude": -112.1488425,
+    "County": "Box Elder",
+    "State": "UT",
+    "Local": "Riverside"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 144.575,
+    "Output": 145.175
+  },
+  "Digital": {
+    "DStar": {
+      "Node": "N7RDS (C) Gateway Repeater"
+    }
+  }
+}

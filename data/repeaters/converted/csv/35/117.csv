@@ -1,0 +1,2 @@
+ID,StateID,Callsign,Use,Status,DigitalTone,Digital,VOIP,Location.Latitude,Location.Longitude,Location.County,Location.State,Location.Local,Frequency.Input,Frequency.Output,SquelchTone.Input,SquelchTone.Output
+117,35,WA5IHL,Closed,On-Air,,,,35.40399933,-105.19300079,San Miguel,NM,"Las Vegas, Mesa Apache",449.375,444.375,100,

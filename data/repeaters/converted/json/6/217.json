@@ -1,0 +1,21 @@
+{
+  "ID": 217,
+  "StateID": 6,
+  "Callsign": "KD6KTQ",
+  "Location": {
+    "Latitude": 34.44419861,
+    "Longitude": -117.93399811,
+    "County": "Los Angeles",
+    "State": "CA",
+    "Local": "Juniper Hills"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 144.6,
+    "Output": 145.2
+  },
+  "SquelchTone": {
+    "Input": 114.8
+  }
+}

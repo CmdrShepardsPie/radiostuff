@@ -1,0 +1,21 @@
+{
+  "ID": 11559,
+  "StateID": 32,
+  "Callsign": "N7SGV",
+  "Location": {
+    "Latitude": 36.31919861,
+    "Longitude": -115.5739975,
+    "County": "Clark",
+    "State": "NV",
+    "Local": "Las Vegas, Angel Pk"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 147.78,
+    "Output": 147.18
+  },
+  "DigitalTone": {
+    "Input": 244
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "ID": 181,
+  "StateID": 35,
+  "Callsign": "N7JNI",
+  "Location": {
+    "Latitude": 36.00889969,
+    "Longitude": -104.70600128,
+    "County": "Mora",
+    "State": "NM",
+    "Local": "Wagon Mound"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 449.4,
+    "Output": 444.4
+  },
+  "SquelchTone": {
+    "Input": 100
+  }
+}

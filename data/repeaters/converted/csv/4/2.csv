@@ -1,0 +1,2 @@
+ID,StateID,Callsign,Use,Status,DigitalTone,Digital,VOIP,Location.Latitude,Location.Longitude,Location.County,Location.State,Location.Local,Frequency.Input,Frequency.Output,SquelchTone.Input,SquelchTone.Output
+2,4,N7YSE,Open,On-Air,,,,36.73749924,-112.21299744,Coconino,AZ,"Jacob Lake, Jacob Lake Inn",147.9,147.3,100,

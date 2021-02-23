@@ -1,0 +1,21 @@
+{
+  "ID": 18084,
+  "StateID": 6,
+  "Callsign": "N6BKL",
+  "Location": {
+    "Latitude": 35.26750183,
+    "Longitude": -116.0739975,
+    "County": "San Bernardino",
+    "State": "CA",
+    "Local": "Baker"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 53.44,
+    "Output": 53.94
+  },
+  "SquelchTone": {
+    "Input": 82.5
+  }
+}

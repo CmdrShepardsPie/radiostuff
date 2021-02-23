@@ -1,0 +1,21 @@
+{
+  "ID": 37,
+  "StateID": 35,
+  "Callsign": "NM5ML",
+  "Location": {
+    "Latitude": 35.20890045,
+    "Longitude": -106.4469986,
+    "County": "Bernalillo",
+    "State": "NM",
+    "Local": "Albuquerque, Sandia Crest"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 449.325,
+    "Output": 444.325
+  },
+  "SquelchTone": {
+    "Input": 100
+  }
+}

@@ -1,0 +1,2 @@
+ID,StateID,Callsign,Use,Status,DigitalTone,Digital,VOIP,Location.Latitude,Location.Longitude,Location.County,Location.State,Location.Local,Frequency.Input,Frequency.Output,SquelchTone.Input,SquelchTone.Output
+6882,4,K7MPR,Open,On-Air,,,,35.07699966,-113.88300323,Mohave,AZ,"Kingman, Hualapai Mtn",443.55,448.55,123,

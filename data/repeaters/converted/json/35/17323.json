@@ -1,0 +1,21 @@
+{
+  "ID": 17323,
+  "StateID": 35,
+  "Callsign": "",
+  "Location": {
+    "Latitude": 35.68700027,
+    "Longitude": -105.93800354,
+    "County": "Bernalillo",
+    "State": "NM",
+    "Local": "Santa Fe"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 144.59,
+    "Output": 145.19
+  },
+  "SquelchTone": {
+    "Input": 162.2
+  }
+}

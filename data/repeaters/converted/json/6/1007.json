@@ -1,0 +1,21 @@
+{
+  "ID": 1007,
+  "StateID": 6,
+  "Callsign": "W6KSN",
+  "Location": {
+    "Latitude": 33.66080093,
+    "Longitude": -115.72100067,
+    "County": "Riverside",
+    "State": "CA",
+    "Local": "Indio, Chiriaco Smt"
+  },
+  "Use": "Open",
+  "Status": "Other",
+  "Frequency": {
+    "Input": 442.58,
+    "Output": 447.58
+  },
+  "SquelchTone": {
+    "Input": 100
+  }
+}

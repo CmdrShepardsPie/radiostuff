@@ -1,0 +1,22 @@
+{
+  "ID": 9514,
+  "StateID": 32,
+  "Callsign": "W7HTL",
+  "Location": {
+    "Latitude": 36.10250092,
+    "Longitude": -115.39399719,
+    "County": "Clark",
+    "State": "NV",
+    "Local": "Las Vegas, Blue Diamond Hill"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 442.975,
+    "Output": 447.975
+  },
+  "SquelchTone": {
+    "Input": 82.5,
+    "Output": 82.5
+  }
+}

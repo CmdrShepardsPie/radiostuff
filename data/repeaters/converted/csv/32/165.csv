@@ -1,0 +1,2 @@
+ID,StateID,Callsign,Use,Status,SquelchTone,DigitalTone,Digital,VOIP,Location.Latitude,Location.Longitude,Location.County,Location.State,Location.Local,Frequency.Input,Frequency.Output
+165,32,WB7RAA,Open,Other,,,,,36.17499924,-115.13600159,Clark,NV,Las Vegas,444.35,449.35

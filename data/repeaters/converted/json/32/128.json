@@ -1,0 +1,18 @@
+{
+  "ID": 128,
+  "StateID": 32,
+  "Callsign": "W6JCY",
+  "Location": {
+    "Latitude": 36.0279007,
+    "Longitude": -115.01300049,
+    "County": "Clark",
+    "State": "NV",
+    "Local": "Henderson, QTH"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 442.2,
+    "Output": 447.2
+  }
+}

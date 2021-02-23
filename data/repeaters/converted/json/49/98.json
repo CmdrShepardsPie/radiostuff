@@ -1,0 +1,21 @@
+{
+  "ID": 98,
+  "StateID": 49,
+  "Callsign": "KC7IIB",
+  "Location": {
+    "Latitude": 40.80810165,
+    "Longitude": -111.88999939,
+    "County": "Salt Lake",
+    "State": "UT",
+    "Local": "Salt Lake City, Ensign Peak"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 146.1,
+    "Output": 146.7
+  },
+  "SquelchTone": {
+    "Input": 100
+  }
+}

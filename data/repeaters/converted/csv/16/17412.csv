@@ -1,0 +1,2 @@
+ID,StateID,Callsign,Use,Status,DigitalTone,Digital,VOIP,Location.Latitude,Location.Longitude,Location.County,Location.State,Location.Local,Frequency.Input,Frequency.Output,SquelchTone.Input,SquelchTone.Output
+17412,16,K7ECI,Open,On-Air,,,,43.13290024,-115.69100189,Idaho,ID,Mountain Home,144.59,145.19,110.9,

@@ -1,0 +1,23 @@
+{
+  "ID": 18004,
+  "StateID": 48,
+  "Callsign": "",
+  "Location": {
+    "Latitude": 35.1733017,
+    "Longitude": -101.86299896,
+    "County": "Randall",
+    "State": "TX",
+    "Local": "Amarillo"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 446.25,
+    "Output": 441.25
+  },
+  "VOIP": {
+    "EchoLink": {
+      "NodeID": 343516
+    }
+  }
+}

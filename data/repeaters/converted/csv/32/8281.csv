@@ -1,0 +1,2 @@
+ID,StateID,Callsign,Use,Status,DigitalTone,Digital,Location.Latitude,Location.Longitude,Location.County,Location.State,Location.Local,Frequency.Input,Frequency.Output,SquelchTone.Input,SquelchTone.Output,VOIP.EchoLink,VOIP.IRLP,VOIP.Wires,VOIP.AllStar.NodeID
+8281,32,K6JSI,Open,On-Air,,,36.10250092,-115.39499664,Clark,NV,"Las Vegas, Blue Diamond Hill",442.95,447.95,100,,,,,1980

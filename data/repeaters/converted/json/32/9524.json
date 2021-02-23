@@ -1,0 +1,18 @@
+{
+  "ID": 9524,
+  "StateID": 32,
+  "Callsign": "W7LKO",
+  "Location": {
+    "Latitude": 40.83240128,
+    "Longitude": -115.76300049,
+    "County": "Elko",
+    "State": "NV",
+    "Local": "Elko"
+  },
+  "Use": "Open",
+  "Status": "Other",
+  "Frequency": {
+    "Input": 449.8,
+    "Output": 444.8
+  }
+}

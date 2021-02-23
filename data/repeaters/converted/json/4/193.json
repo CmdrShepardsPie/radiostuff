@@ -1,0 +1,21 @@
+{
+  "ID": 193,
+  "StateID": 4,
+  "Callsign": "KF7X",
+  "Location": {
+    "Latitude": 34.49089813,
+    "Longitude": -114.31199646,
+    "County": "Mohave",
+    "State": "AZ",
+    "Local": "Lake Havasu City"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 222.64,
+    "Output": 224.24
+  },
+  "SquelchTone": {
+    "Input": 156.7
+  }
+}

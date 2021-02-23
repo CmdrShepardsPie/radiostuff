@@ -1,0 +1,18 @@
+{
+  "ID": 85,
+  "StateID": 49,
+  "Callsign": "KB6BOB",
+  "Location": {
+    "Latitude": 37.59209824,
+    "Longitude": -112.86399841,
+    "County": "Iron",
+    "State": "UT",
+    "Local": "Cedar City, Blowhard Mountain"
+  },
+  "Use": "Closed",
+  "Status": "Other",
+  "Frequency": {
+    "Input": 443.65,
+    "Output": 448.65
+  }
+}

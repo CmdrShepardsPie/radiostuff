@@ -1,0 +1,2 @@
+ID,StateID,Callsign,Use,Status,DigitalTone,Digital,Location.Latitude,Location.Longitude,Location.County,Location.State,Location.Local,Frequency.Input,Frequency.Output,SquelchTone.Input,SquelchTone.Output,VOIP.AllStar,VOIP.EchoLink,VOIP.Wires,VOIP.IRLP.NodeID
+50,6,K6JSI,Open,On-Air,,,34.18759918,-117.69999695,Los Angeles,CA,"Pomona, Sunset Ridge",222.56,224.16,71.9,,,,,3500

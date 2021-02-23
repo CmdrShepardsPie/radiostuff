@@ -1,2 +1,2 @@
-Frequency,Offset,Tone Up / Down,Location,County,Call,Use,,state_id,ID,Latitude,Longitude,Downlink,Uplink,Grid,On-air,Notes,Coordination,Last update
-447.575,5,,Cedar City,Iron,WA7GTU,OPEN,,49,277,37.6446991,-113.37400055,447.575,452.575,DM37HP,Unknown,Portable repeater is coordinated for the entire state.,UVHFS,2012-06-08
+Frequency,Offset,Tone,Call,Location,ST/PR,Use,Mode,Mi,Dir,,state_id,ID,Latitude,Longitude,Downlink,Uplink,County,Grid,On-air,FM,Analog Bandwidth,Notes,Coordination,Last update
+447.575,5,,WA7GTU,Cedar City,UT,OPEN,FM,141.08,NE,,49,277,37.6446991,-113.37400055,447.575,452.575,Iron,DM37HP,Unknown,Yes; analog capable.,,Portable repeater is coordinated for the entire state.,UVHFS,2012-06-08

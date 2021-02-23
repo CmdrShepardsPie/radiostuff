@@ -1,0 +1,2 @@
+ID,StateID,Callsign,Use,Status,DigitalTone,VOIP,Location.Latitude,Location.Longitude,Location.County,Location.State,Location.Local,Frequency.Input,Frequency.Output,SquelchTone.Input,SquelchTone.Output,Digital.DMR,Digital.P25,Digital.DStar,Digital.YSF.GroupID.Input,Digital.YSF.GroupID.Output
+20,31,W0CUO,Open,On-Air,,,40.90990067,-98.46230316,Hall,NE,"Grand Island, Nebraska State Fair",144.815,145.415,123,,,,,23,23

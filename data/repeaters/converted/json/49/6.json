@@ -1,0 +1,21 @@
+{
+  "ID": 6,
+  "StateID": 49,
+  "Callsign": "WA7KMF",
+  "Location": {
+    "Latitude": 41.7132988,
+    "Longitude": -111.71800232,
+    "County": "Cache",
+    "State": "UT",
+    "Local": "Logan, Mt Logan"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 146.12,
+    "Output": 146.72
+  },
+  "SquelchTone": {
+    "Input": 103.5
+  }
+}

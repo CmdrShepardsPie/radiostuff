@@ -1,0 +1,2 @@
+ID,StateID,Callsign,Use,Status,DigitalTone,Digital,VOIP,Location.Latitude,Location.Longitude,Location.County,Location.State,Location.Local,Frequency.Input,Frequency.Output,SquelchTone.Input,SquelchTone.Output
+848,6,WA6TJQ,Open,On-Air,,,,34.23889923,-117.23300171,San Bernardino,CA,"San Bernardino, Twin Peaks",222.96,224.56,100,

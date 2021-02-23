@@ -1,0 +1,2 @@
+ID,StateID,Callsign,Use,Status,DigitalTone,Digital,VOIP,Location.Latitude,Location.Longitude,Location.County,Location.State,Location.Local,Frequency.Input,Frequency.Output,SquelchTone.Input,SquelchTone.Output
+15643,35,K5DST,Open,On-Air,,,,35.36529922,-103.41100311,Quay,NM,"Logan, Ute Lake",147.94,147.34,131.8,

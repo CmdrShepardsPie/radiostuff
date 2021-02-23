@@ -1,0 +1,21 @@
+{
+  "ID": 31,
+  "StateID": 16,
+  "Callsign": "N7ORY",
+  "Location": {
+    "Latitude": 42.31470108,
+    "Longitude": -113.65799713,
+    "County": "Cassia",
+    "State": "ID",
+    "Local": "Burley, Mt Harrison"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 223.32,
+    "Output": 224.92
+  },
+  "SquelchTone": {
+    "Input": 100
+  }
+}

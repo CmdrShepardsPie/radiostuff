@@ -1,0 +1,22 @@
+{
+  "ID": 3975,
+  "StateID": 20,
+  "Callsign": "N7JYS",
+  "Location": {
+    "Latitude": 38.93439865,
+    "Longitude": -99.31549835,
+    "County": "Ellis",
+    "State": "KS",
+    "Local": "Hays"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 147.645,
+    "Output": 147.045
+  },
+  "SquelchTone": {
+    "Input": 131.8,
+    "Output": 131.8
+  }
+}

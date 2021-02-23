@@ -1,0 +1,26 @@
+{
+  "ID": 127,
+  "StateID": 49,
+  "Callsign": "K7UCS",
+  "Location": {
+    "Latitude": 40.2484765,
+    "Longitude": -111.6653293,
+    "County": "Utah",
+    "State": "UT",
+    "Local": "Provo, UVMC"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 144.87,
+    "Output": 145.47
+  },
+  "SquelchTone": {
+    "Input": 100
+  },
+  "VOIP": {
+    "EchoLink": {
+      "NodeID": 46049
+    }
+  }
+}

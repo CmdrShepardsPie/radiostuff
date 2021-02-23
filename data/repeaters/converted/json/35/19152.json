@@ -1,0 +1,21 @@
+{
+  "ID": 19152,
+  "StateID": 35,
+  "Callsign": "WA6IFI",
+  "Location": {
+    "Latitude": 36.9100484,
+    "Longitude": -104.4420126,
+    "County": "Colfax",
+    "State": "NM",
+    "Local": "Raton, Raton Pass"
+  },
+  "Use": "Open",
+  "Status": "Other",
+  "Frequency": {
+    "Input": 902.025,
+    "Output": 927.875
+  },
+  "Digital": {
+    "P25": {}
+  }
+}

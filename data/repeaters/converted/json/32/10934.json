@@ -1,0 +1,21 @@
+{
+  "ID": 10934,
+  "StateID": 32,
+  "Callsign": "KG7SS",
+  "Location": {
+    "Latitude": 36.33369827,
+    "Longitude": -114.97599792,
+    "County": "Clark",
+    "State": "NV",
+    "Local": "Las Vegas, Apex"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 902.05,
+    "Output": 927.05
+  },
+  "DigitalTone": {
+    "Input": 411
+  }
+}

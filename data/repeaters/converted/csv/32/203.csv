@@ -1,0 +1,2 @@
+ID,StateID,Callsign,Use,Status,DigitalTone,Digital,VOIP,Location.Latitude,Location.Longitude,Location.County,Location.State,Location.Local,Frequency.Input,Frequency.Output,SquelchTone.Input,SquelchTone.Output
+203,32,KB6XN,Open,Off-Air,,,,35.95600128,-115.4940033,Clark,NV,"Las Vegas, Lo Potosi Mountain",1270,1290,100,

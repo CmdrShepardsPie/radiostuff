@@ -1,0 +1,29 @@
+{
+  "ID": 6198,
+  "StateID": 49,
+  "Callsign": "W7BOZ",
+  "Location": {
+    "Latitude": 41.71110153,
+    "Longitude": -111.85900116,
+    "County": "Cache",
+    "State": "UT",
+    "Local": "Logan"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 444.3,
+    "Output": 449.3
+  },
+  "SquelchTone": {
+    "Input": 103.5
+  },
+  "VOIP": {
+    "EchoLink": {
+      "NodeID": 558836
+    },
+    "IRLP": {
+      "NodeID": 7576
+    }
+  }
+}

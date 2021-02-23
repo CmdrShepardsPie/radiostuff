@@ -1,0 +1,2 @@
+ID,StateID,Callsign,Use,Status,DigitalTone,Digital,VOIP,Location.Latitude,Location.Longitude,Location.County,Location.State,Location.Local,Frequency.Input,Frequency.Output,SquelchTone.Input,SquelchTone.Output
+161,49,N7TOP,Open,On-Air,,,,41.20420074,-112.0510025,Weber,UT,West Haven,443.775,448.775,123,

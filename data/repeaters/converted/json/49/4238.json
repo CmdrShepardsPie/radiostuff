@@ -1,0 +1,23 @@
+{
+  "ID": 4238,
+  "StateID": 49,
+  "Callsign": "NU7TS",
+  "Location": {
+    "Latitude": 41.6114006,
+    "Longitude": -111.95200348,
+    "County": "Cache",
+    "State": "UT",
+    "Local": "Wellsville"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 444.575,
+    "Output": 449.575
+  },
+  "Digital": {
+    "DStar": {
+      "Node": "NU7TS (B)"
+    }
+  }
+}

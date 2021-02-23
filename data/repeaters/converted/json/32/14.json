@@ -1,0 +1,21 @@
+{
+  "ID": 14,
+  "StateID": 32,
+  "Callsign": "KT7JOE",
+  "Location": {
+    "Latitude": 36.00730133,
+    "Longitude": -115.00700378,
+    "County": "Clark",
+    "State": "NV",
+    "Local": "Henderson, Black Mountain"
+  },
+  "Use": "Open",
+  "Status": "Off-Air",
+  "Frequency": {
+    "Input": 144.79,
+    "Output": 145.39
+  },
+  "SquelchTone": {
+    "Input": 100
+  }
+}

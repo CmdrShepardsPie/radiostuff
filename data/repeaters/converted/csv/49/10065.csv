@@ -1,0 +1,2 @@
+ID,StateID,Callsign,Use,Status,DigitalTone,Digital,VOIP,Location.Latitude,Location.Longitude,Location.County,Location.State,Location.Local,Frequency.Input,Frequency.Output,SquelchTone.Input,SquelchTone.Output
+10065,49,AF7FH,Open,Other,,,,41.63850021,-111.93399811,Cache,UT,Wellsville,902.5125,927.5125,103.5,

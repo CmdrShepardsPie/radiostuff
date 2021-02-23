@@ -1,0 +1,30 @@
+{
+  "ID": 434,
+  "StateID": 4,
+  "Callsign": "WB7BYV",
+  "Location": {
+    "Latitude": 34.54000092,
+    "Longitude": -112.46800232,
+    "County": "Yavapai",
+    "State": "AZ",
+    "Local": "Prescott"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 902.3875,
+    "Output": 927.3875
+  },
+  "SquelchTone": {
+    "Input": 151.4,
+    "Output": 151.4
+  },
+  "VOIP": {
+    "AllStar": {
+      "NodeID": 41510
+    },
+    "EchoLink": {
+      "NodeID": 204752
+    }
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "ID": 311,
+  "StateID": 32,
+  "Callsign": "N7ARR",
+  "Location": {
+    "Latitude": 36.16619873,
+    "Longitude": -115.01799774,
+    "County": "Clark",
+    "State": "NV",
+    "Local": "Las Vegas, QTH"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 146.4,
+    "Output": 147
+  },
+  "SquelchTone": {
+    "Input": 123
+  },
+  "VOIP": {
+    "EchoLink": {
+      "NodeID": 155103
+    },
+    "IRLP": {
+      "NodeID": 3260
+    }
+  }
+}

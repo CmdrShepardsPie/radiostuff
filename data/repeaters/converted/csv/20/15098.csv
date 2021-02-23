@@ -1,0 +1,2 @@
+ID,StateID,Callsign,Use,Status,DigitalTone,Digital,VOIP,Location.Latitude,Location.Longitude,Location.County,Location.State,Location.Local,Frequency.Input,Frequency.Output,SquelchTone.Input,SquelchTone.Output
+15098,20,K0WPM,Open,On-Air,,,,38.46969986,-101.75299835,Greeley,KS,Tribune,447.175,442.175,156.7,

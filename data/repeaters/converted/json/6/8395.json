@@ -1,0 +1,26 @@
+{
+  "ID": 8395,
+  "StateID": 6,
+  "Callsign": "K6JRM",
+  "Location": {
+    "Latitude": 33.60419846,
+    "Longitude": -114.52500153,
+    "County": "Riverside",
+    "State": "CA",
+    "Local": "Blythe"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 441.86,
+    "Output": 446.86
+  },
+  "SquelchTone": {
+    "Input": 100
+  },
+  "VOIP": {
+    "AllStar": {
+      "NodeID": 524721
+    }
+  }
+}

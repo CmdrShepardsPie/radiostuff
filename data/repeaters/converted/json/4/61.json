@@ -1,0 +1,21 @@
+{
+  "ID": 61,
+  "StateID": 4,
+  "Callsign": "N7SKO",
+  "Location": {
+    "Latitude": 35.08110046,
+    "Longitude": -113.90399933,
+    "County": "Mohave",
+    "State": "AZ",
+    "Local": "Kingman, Hayden Peak"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 146.16,
+    "Output": 146.76
+  },
+  "SquelchTone": {
+    "Input": 131.8
+  }
+}

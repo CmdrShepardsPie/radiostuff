@@ -1,2 +1,2 @@
-Frequency,Offset,Tone Up / Down,Location,County,Call,Use,,state_id,ID,Latitude,Longitude,Downlink,Uplink,Uplink Tone,Grid,Op Status,Coverage,Sponsor,Features,Commands,Notes,Coordination,Last update
-449.5,-5,100,"Cedar City, Iron Mountain",Iron,WA7GTU,OPEN,,49,236,37.6446991,-113.37400055,449.5,444.5,100,DM37HP,On-Air,Cedar City and surrounding communities,WA7GTU,2,"Contact sponsor, WA7GTU",KCIN tower.,UVHFS,2013-03-27
+Frequency,Offset,Tone,Call,Location,ST/PR,Use,Mode,Mi,Dir,,state_id,ID,Latitude,Longitude,Downlink,Uplink,Uplink Tone,County,Grid,Op Status,Coverage,Sponsor,Features,FM,Analog Bandwidth,Commands,Notes,Coordination,Last update
+449.5,-5,100,WA7GTU,"Cedar City, Iron Mountain",UT,OPEN,FM,141.08,NE,,49,236,37.6446991,-113.37400055,449.5,444.5,100,Iron,DM37HP,On-Air,Cedar City and surrounding communities,WA7GTU,2,Yes; analog capable.,,"Contact sponsor, WA7GTU",KCIN tower.,UVHFS,2013-03-27

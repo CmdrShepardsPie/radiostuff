@@ -1,0 +1,21 @@
+{
+  "ID": 442,
+  "StateID": 6,
+  "Callsign": "KC6JTN",
+  "Location": {
+    "Latitude": 34.44380188,
+    "Longitude": -116.96800232,
+    "County": "San Bernardino",
+    "State": "CA",
+    "Local": "Lucerne Valley"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 144.58,
+    "Output": 145.18
+  },
+  "SquelchTone": {
+    "Input": 123
+  }
+}

@@ -1,0 +1,2 @@
+ID,StateID,Callsign,Use,Status,DigitalTone,Digital,VOIP,Location.Latitude,Location.Longitude,Location.County,Location.State,Location.Local,Frequency.Input,Frequency.Output,SquelchTone.Input,SquelchTone.Output
+107,4,KR7AZ,Open,On-Air,,,,33.56999969,-114.34899902,La Paz,AZ,"Blythe, Cunningham Mtn",147.66,147.06,203.5,

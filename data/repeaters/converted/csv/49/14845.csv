@@ -1,0 +1,2 @@
+ID,StateID,Callsign,Use,Status,DigitalTone,Digital,VOIP,Location.Latitude,Location.Longitude,Location.County,Location.State,Location.Local,Frequency.Input,Frequency.Output,SquelchTone.Input,SquelchTone.Output
+14845,49,AC7II,Open,On-Air,,,,41.55089951,-111.93699646,Cache,UT,"Logan, Mt Pisgah",444.65,449.65,100,100

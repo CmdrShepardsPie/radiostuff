@@ -1,0 +1,23 @@
+{
+  "ID": 12304,
+  "StateID": 4,
+  "Callsign": "W7KDS",
+  "Location": {
+    "Latitude": 35.18939972,
+    "Longitude": -114.0530014,
+    "County": "Mohave",
+    "State": "AZ",
+    "Local": "Kingman"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 144.535,
+    "Output": 145.135
+  },
+  "Digital": {
+    "DStar": {
+      "Node": "W7KDS (C) Repeater"
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "ID": 39,
+  "StateID": 4,
+  "Callsign": "K7RLW",
+  "Location": {
+    "Latitude": 35.26509857,
+    "Longitude": -113.97799683,
+    "County": "Mohave",
+    "State": "AZ",
+    "Local": "Kingman, Kingman Airport"
+  },
+  "Use": "Private",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 146.02,
+    "Output": 146.62
+  }
+}

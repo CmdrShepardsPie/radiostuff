@@ -1,0 +1,21 @@
+{
+  "ID": 257,
+  "StateID": 49,
+  "Callsign": "WB7REL",
+  "Location": {
+    "Latitude": 39.19419861,
+    "Longitude": -111.69200134,
+    "County": "Sanpete",
+    "State": "UT",
+    "Local": "Sterling"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 442.85,
+    "Output": 447.85
+  },
+  "SquelchTone": {
+    "Input": 131.8
+  }
+}

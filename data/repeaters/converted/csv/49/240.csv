@@ -1,0 +1,2 @@
+ID,StateID,Callsign,Use,Status,SquelchTone,DigitalTone,VOIP,Location.Latitude,Location.Longitude,Location.County,Location.State,Location.Local,Frequency.Input,Frequency.Output,Digital.DMR,Digital.P25,Digital.YSF,Digital.DStar.Node
+240,49,WA7KMF,Open,On-Air,,,,41.77939987,-112.17700195,Box Elder,UT,Riverside,444.575,449.575,,,,WA7KMF (B) Repeater

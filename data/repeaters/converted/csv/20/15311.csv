@@ -1,0 +1,2 @@
+ID,StateID,Callsign,Use,Status,DigitalTone,Digital,VOIP,Location.Latitude,Location.Longitude,Location.County,Location.State,Location.Local,Frequency.Input,Frequency.Output,SquelchTone.Input,SquelchTone.Output
+15311,20,WA0OQA,Open,On-Air,,,,38.10279846,-100.46399689,Finney,KS,Garden City,51.17,52.87,141.3,141.3

@@ -1,0 +1,24 @@
+{
+  "ID": 17522,
+  "StateID": 8,
+  "Callsign": "KZ0DEM",
+  "Location": {
+    "Latitude": 37.37469864,
+    "Longitude": -102.4469986,
+    "County": "Baca",
+    "State": "CO",
+    "Local": "Vilas"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 441.7625,
+    "Output": 446.7625
+  },
+  "Digital": {
+    "DMR": {
+      "ColorCode": 7,
+      "ID": 310841
+    }
+  }
+}

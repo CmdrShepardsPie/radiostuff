@@ -1,0 +1,2 @@
+ID,StateID,Callsign,Use,Status,DigitalTone,Digital,VOIP,Location.Latitude,Location.Longitude,Location.County,Location.State,Location.Local,Frequency.Input,Frequency.Output,SquelchTone.Input,SquelchTone.Output
+15548,56,KD7SU,Open,Other,,,,41.79109955,-107.23899841,Carbon,WY,Rawlins,443.3,448.3,100,

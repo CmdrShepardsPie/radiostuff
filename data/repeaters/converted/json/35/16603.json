@@ -1,0 +1,21 @@
+{
+  "ID": 16603,
+  "StateID": 35,
+  "Callsign": "K5YEJ",
+  "Location": {
+    "Latitude": 35.59930038,
+    "Longitude": -107.09600067,
+    "County": "Sandoval",
+    "State": "NM",
+    "Local": "San Luis, Cabezon"
+  },
+  "Use": "Open",
+  "Status": "Off-Air",
+  "Frequency": {
+    "Input": 448,
+    "Output": 443
+  },
+  "SquelchTone": {
+    "Input": 100
+  }
+}

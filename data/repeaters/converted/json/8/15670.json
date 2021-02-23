@@ -1,0 +1,21 @@
+{
+  "ID": 15670,
+  "StateID": 8,
+  "Callsign": "KI0HG",
+  "Location": {
+    "Latitude": 40.17269897,
+    "Longitude": -105.46800232,
+    "County": "Boulder",
+    "State": "CO",
+    "Local": "Allenspark, AFPD Station #5"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 147.63,
+    "Output": 147.03
+  },
+  "SquelchTone": {
+    "Input": 100
+  }
+}

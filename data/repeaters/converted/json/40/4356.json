@@ -1,0 +1,21 @@
+{
+  "ID": 4356,
+  "StateID": 40,
+  "Callsign": "W5ALZ",
+  "Location": {
+    "Latitude": 36.43399811,
+    "Longitude": -99.38999939,
+    "County": "Woodward",
+    "State": "OK",
+    "Local": "Woodward"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 447.05,
+    "Output": 442.05
+  },
+  "SquelchTone": {
+    "Input": 103.5
+  }
+}

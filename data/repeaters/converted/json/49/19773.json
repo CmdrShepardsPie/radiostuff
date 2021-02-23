@@ -1,0 +1,23 @@
+{
+  "ID": 19773,
+  "StateID": 49,
+  "Callsign": "KJ7CTZ",
+  "Location": {
+    "Latitude": 39.3209801,
+    "Longitude": -111.0937311,
+    "County": "Davis",
+    "State": "UT",
+    "Local": "Davis County"
+  },
+  "Use": "Open",
+  "Status": "Other",
+  "Frequency": {
+    "Input": 144.5375,
+    "Output": 145.1375
+  },
+  "Digital": {
+    "DStar": {
+      "Node": "KJ7CTZ (C)"
+    }
+  }
+}

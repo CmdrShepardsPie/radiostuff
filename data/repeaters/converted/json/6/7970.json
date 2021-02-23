@@ -1,0 +1,21 @@
+{
+  "ID": 7970,
+  "StateID": 6,
+  "Callsign": "KW6WW",
+  "Location": {
+    "Latitude": 34.3608017,
+    "Longitude": -117.63300323,
+    "County": "San Bernardino",
+    "State": "CA",
+    "Local": "Wrightwood"
+  },
+  "Use": "Open",
+  "Status": "Other",
+  "Frequency": {
+    "Input": 222.8,
+    "Output": 224.4
+  },
+  "SquelchTone": {
+    "Input": 91.5
+  }
+}

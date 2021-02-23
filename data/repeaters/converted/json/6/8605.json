@@ -1,0 +1,18 @@
+{
+  "ID": 8605,
+  "StateID": 6,
+  "Callsign": "KE6TZF",
+  "Location": {
+    "Latitude": 34.18759918,
+    "Longitude": -117.69999695,
+    "County": "Los Angeles",
+    "State": "CA",
+    "Local": "Pomona, Sunset Ridge"
+  },
+  "Use": "Private",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 444.42,
+    "Output": 449.42
+  }
+}

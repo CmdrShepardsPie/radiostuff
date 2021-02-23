@@ -1,0 +1,2 @@
+ID,StateID,Callsign,Use,Status,DigitalTone,Digital,Location.Latitude,Location.Longitude,Location.County,Location.State,Location.Local,Frequency.Input,Frequency.Output,SquelchTone.Input,SquelchTone.Output,VOIP.AllStar,VOIP.EchoLink,VOIP.Wires,VOIP.IRLP.NodeID
+28,35,KB5GAS,Open,On-Air,,,35.20890045,-106.4469986,Bernalillo,NM,"Albuquerque, Sandia Crest",447.1,442.1,162.2,,,,,3676

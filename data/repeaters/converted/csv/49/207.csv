@@ -1,0 +1,2 @@
+ID,StateID,Callsign,Use,Status,SquelchTone,DigitalTone,Digital,VOIP,Location.Latitude,Location.Longitude,Location.County,Location.State,Location.Local,Frequency.Input,Frequency.Output
+207,49,W7NRC,Open,On-Air,,,,,37.04800034,-112.52700043,Kane,UT,Kanab,444.85,449.85

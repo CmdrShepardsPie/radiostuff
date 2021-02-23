@@ -1,0 +1,2 @@
+ID,StateID,Callsign,Use,Status,DigitalTone,Digital,VOIP,Location.Latitude,Location.Longitude,Location.County,Location.State,Location.Local,Frequency.Input,Frequency.Output,SquelchTone.Input,SquelchTone.Output
+366,6,NR6P,Open,On-Air,,,,33.67829895,-115.96299744,Riverside,CA,Cactus City,146.625,146.025,107.2,

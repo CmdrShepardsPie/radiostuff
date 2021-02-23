@@ -1,0 +1,21 @@
+{
+  "ID": 269,
+  "StateID": 49,
+  "Callsign": "WV7H",
+  "Location": {
+    "Latitude": 37.59209824,
+    "Longitude": -112.86399841,
+    "County": "Iron",
+    "State": "UT",
+    "Local": "Cedar City, Blowhard Mountain"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 146.2,
+    "Output": 146.8
+  },
+  "SquelchTone": {
+    "Input": 100
+  }
+}

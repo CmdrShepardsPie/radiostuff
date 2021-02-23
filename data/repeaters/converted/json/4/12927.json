@@ -1,0 +1,18 @@
+{
+  "ID": 12927,
+  "StateID": 4,
+  "Callsign": "K6DLP",
+  "Location": {
+    "Latitude": 34.12490082,
+    "Longitude": -114.21099854,
+    "County": "La Paz",
+    "State": "AZ",
+    "Local": "Parker, Black Peak"
+  },
+  "Use": "Closed",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 443.275,
+    "Output": 448.275
+  }
+}

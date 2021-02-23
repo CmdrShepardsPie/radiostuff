@@ -1,0 +1,2 @@
+ID,StateID,Callsign,Use,Status,DigitalTone,Digital,VOIP,Location.Latitude,Location.Longitude,Location.County,Location.State,Location.Local,Frequency.Input,Frequency.Output,SquelchTone.Input,SquelchTone.Output
+11403,6,WA6AV,Open,Other,,,,34.42639923,-117.3010025,San Bernardino,CA,Hesperia,146.775,146.175,97.4,

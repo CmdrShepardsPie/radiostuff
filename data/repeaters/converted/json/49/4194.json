@@ -1,0 +1,21 @@
+{
+  "ID": 4194,
+  "StateID": 49,
+  "Callsign": "W7ROY",
+  "Location": {
+    "Latitude": 40.56829834,
+    "Longitude": -111.85800171,
+    "County": "Salt Lake",
+    "State": "UT",
+    "Local": "Sandy"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 443.375,
+    "Output": 448.375
+  },
+  "SquelchTone": {
+    "Input": 100
+  }
+}

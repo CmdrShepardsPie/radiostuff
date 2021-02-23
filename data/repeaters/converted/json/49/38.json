@@ -1,0 +1,21 @@
+{
+  "ID": 38,
+  "StateID": 49,
+  "Callsign": "K7MLA",
+  "Location": {
+    "Latitude": 40.84809875,
+    "Longitude": -112.80000305,
+    "County": "Tooele",
+    "State": "UT",
+    "Local": "Tooele, Black Mountain"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 444.225,
+    "Output": 449.225
+  },
+  "SquelchTone": {
+    "Input": 100
+  }
+}

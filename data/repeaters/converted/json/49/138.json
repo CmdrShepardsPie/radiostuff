@@ -1,0 +1,21 @@
+{
+  "ID": 138,
+  "StateID": 49,
+  "Callsign": "N7HIW",
+  "Location": {
+    "Latitude": 40.65579987,
+    "Longitude": -111.91500092,
+    "County": "Salt Lake",
+    "State": "UT",
+    "Local": "Murray"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 443.125,
+    "Output": 448.125
+  },
+  "SquelchTone": {
+    "Input": 100
+  }
+}

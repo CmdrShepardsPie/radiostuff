@@ -1,0 +1,2 @@
+ID,StateID,Callsign,Use,Status,DigitalTone,Digital,Location.Latitude,Location.Longitude,Location.County,Location.State,Location.Local,Frequency.Input,Frequency.Output,SquelchTone.Input,SquelchTone.Output,VOIP.AllStar,VOIP.EchoLink,VOIP.Wires,VOIP.IRLP.NodeID
+190,49,W7DHH,Open,On-Air,,,39.33670044,-111.4509964,Sanpete,UT,"Ephraim, Horseshoe",146.06,146.66,100,,,,,3576

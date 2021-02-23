@@ -1,0 +1,2 @@
+ID,StateID,Callsign,Use,Status,DigitalTone,Digital,Location.Latitude,Location.Longitude,Location.County,Location.State,Location.Local,Frequency.Input,Frequency.Output,SquelchTone.Input,SquelchTone.Output,VOIP.AllStar,VOIP.EchoLink,VOIP.Wires,VOIP.IRLP.NodeID
+1409,6,AI6BX,Closed,On-Air,,,34.05559921,-117.18199921,San Bernardino,CA,"Redlands, Sunset Drive",440.34,445.34,88.5,,,,,7490

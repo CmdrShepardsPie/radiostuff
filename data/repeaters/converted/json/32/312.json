@@ -1,0 +1,18 @@
+{
+  "ID": 312,
+  "StateID": 32,
+  "Callsign": "N7HYV",
+  "Location": {
+    "Latitude": 36.26729965,
+    "Longitude": -116.02600098,
+    "County": "Nye",
+    "State": "NV",
+    "Local": "Pahrump"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 222.24,
+    "Output": 223.84
+  }
+}

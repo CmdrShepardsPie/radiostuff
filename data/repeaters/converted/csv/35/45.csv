@@ -1,0 +1,2 @@
+ID,StateID,Callsign,Use,Status,DigitalTone,Digital,VOIP,Location.Latitude,Location.Longitude,Location.County,Location.State,Location.Local,Frequency.Input,Frequency.Output,SquelchTone.Input,SquelchTone.Output
+45,35,KC5OUR,Open,On-Air,,,,34.66279984,-106.77600098,Valencia,NM,Los Lunas,144.83,145.43,100,

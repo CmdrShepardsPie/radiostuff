@@ -1,0 +1,21 @@
+{
+  "ID": 292,
+  "StateID": 32,
+  "Callsign": "N7OK",
+  "Location": {
+    "Latitude": 36.22470093,
+    "Longitude": -114.97599792,
+    "County": "Clark",
+    "State": "NV",
+    "Local": "Las Vegas, Sunrise Mountain"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 902.1875,
+    "Output": 927.1875
+  },
+  "SquelchTone": {
+    "Input": 151.4
+  }
+}

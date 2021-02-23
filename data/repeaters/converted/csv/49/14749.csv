@@ -1,0 +1,2 @@
+ID,StateID,Callsign,Use,Status,SquelchTone,DigitalTone,VOIP,Location.Latitude,Location.Longitude,Location.County,Location.State,Location.Local,Frequency.Input,Frequency.Output,Digital.DMR,Digital.P25,Digital.YSF,Digital.DStar.Node
+14749,49,KB7BSK,Open,Other,,,,39.1935997,-111.69200134,Utah,UT,Sterling,442.95,447.95,,,,KB7BSK (B)

@@ -1,0 +1,2 @@
+ID,StateID,Callsign,Use,Status,DigitalTone,Digital,VOIP,Location.Latitude,Location.Longitude,Location.County,Location.State,Location.Local,Frequency.Input,Frequency.Output,SquelchTone.Input,SquelchTone.Output
+442,6,KC6JTN,Open,On-Air,,,,34.44380188,-116.96800232,San Bernardino,CA,Lucerne Valley,144.58,145.18,123,

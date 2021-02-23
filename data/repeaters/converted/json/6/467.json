@@ -1,0 +1,21 @@
+{
+  "ID": 467,
+  "StateID": 6,
+  "Callsign": "WW6Y",
+  "Location": {
+    "Latitude": 34.61059952,
+    "Longitude": -117.28700256,
+    "County": "San Bernardino",
+    "State": "CA",
+    "Local": "Victorville, Quartzite Mountain"
+  },
+  "Use": "Closed",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 144.82,
+    "Output": 145.42
+  },
+  "SquelchTone": {
+    "Input": 136.5
+  }
+}

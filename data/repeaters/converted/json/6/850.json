@@ -1,0 +1,27 @@
+{
+  "ID": 850,
+  "StateID": 6,
+  "Callsign": "K6PQN",
+  "Location": {
+    "Latitude": 34.1332016,
+    "Longitude": -117.64700317,
+    "County": "San Bernardino",
+    "State": "CA",
+    "Local": "Upland"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 222.98,
+    "Output": 224.58
+  },
+  "SquelchTone": {
+    "Input": 88.5,
+    "Output": 88.5
+  },
+  "VOIP": {
+    "AllStar": {
+      "NodeID": 28612
+    }
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "ID": 240,
+  "StateID": 49,
+  "Callsign": "WA7KMF",
+  "Location": {
+    "Latitude": 41.77939987,
+    "Longitude": -112.17700195,
+    "County": "Box Elder",
+    "State": "UT",
+    "Local": "Riverside"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 444.575,
+    "Output": 449.575
+  },
+  "Digital": {
+    "DStar": {
+      "Node": "WA7KMF (B) Repeater"
+    }
+  }
+}

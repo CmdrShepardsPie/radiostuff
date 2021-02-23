@@ -1,0 +1,21 @@
+{
+  "ID": 290,
+  "StateID": 32,
+  "Callsign": "KA3IDN",
+  "Location": {
+    "Latitude": 36.2140007,
+    "Longitude": -115.99099731,
+    "County": "Clark",
+    "State": "NV",
+    "Local": "Pahrump"
+  },
+  "Use": "Open",
+  "Status": "Other",
+  "Frequency": {
+    "Input": 902.8125,
+    "Output": 927.8125
+  },
+  "SquelchTone": {
+    "Input": 151.4
+  }
+}

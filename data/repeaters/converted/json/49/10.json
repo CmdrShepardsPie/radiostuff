@@ -1,0 +1,29 @@
+{
+  "ID": 10,
+  "StateID": 49,
+  "Callsign": "K0NOD",
+  "Location": {
+    "Latitude": 41.11299896,
+    "Longitude": -112.02500153,
+    "County": "Davis",
+    "State": "UT",
+    "Local": "Clearfield, city office"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 443.825,
+    "Output": 448.825
+  },
+  "SquelchTone": {
+    "Input": 123
+  },
+  "VOIP": {
+    "EchoLink": {
+      "NodeID": 332144
+    },
+    "IRLP": {
+      "NodeID": 4654
+    }
+  }
+}

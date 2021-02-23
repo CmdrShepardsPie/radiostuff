@@ -1,0 +1,30 @@
+{
+  "ID": 130,
+  "StateID": 32,
+  "Callsign": "K7RSW",
+  "Location": {
+    "Latitude": 36.02669907,
+    "Longitude": -114.97399902,
+    "County": "Clark",
+    "State": "NV",
+    "Local": "Henderson, Downtown"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 443.875,
+    "Output": 448.875
+  },
+  "SquelchTone": {
+    "Input": 114.8,
+    "Output": 114.8
+  },
+  "VOIP": {
+    "AllStar": {
+      "NodeID": 29342
+    },
+    "EchoLink": {
+      "NodeID": 7745
+    }
+  }
+}

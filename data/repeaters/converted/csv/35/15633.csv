@@ -1,0 +1,2 @@
+ID,StateID,Callsign,Use,Status,DigitalTone,Digital,VOIP,Location.Latitude,Location.Longitude,Location.County,Location.State,Location.Local,Frequency.Input,Frequency.Output,SquelchTone.Input,SquelchTone.Output
+15633,35,AB1Q,Open,On-Air,,,,34.90499878,-106.70600128,Bernalillo,NM,"Isleta Pueblo, 1505 Hwy 314",147.64,147.04,100,

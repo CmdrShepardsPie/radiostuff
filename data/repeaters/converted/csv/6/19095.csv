@@ -1,0 +1,2 @@
+ID,StateID,Callsign,Use,Status,SquelchTone,Location.Latitude,Location.Longitude,Location.County,Location.State,Location.Local,Frequency.Input,Frequency.Output,DigitalTone.Input,DigitalTone.Output,Digital.DStar,VOIP.IRLP,VOIP.Wires,Digital.DMR.ColorCode,Digital.DMR.ID,Digital.P25.NAC,VOIP.AllStar.NodeID,VOIP.EchoLink.NodeID,Digital.YSF.GroupID.Input,Digital.YSF.GroupID.Output
+19095,6,N6LKA,Open,On-Air,,34.0494584,-117.203731,San Bernardino,CA,Redlands,441.88,446.88,131,,,,,10,311161,,501260,393611,Open ↑,Open ↓

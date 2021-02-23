@@ -1,0 +1,2 @@
+ID,StateID,Callsign,Use,Status,SquelchTone,DigitalTone,Digital,VOIP,Location.Latitude,Location.Longitude,Location.County,Location.State,Location.Local,Frequency.Input,Frequency.Output
+11,31,KR0A,Open,On-Air,,,,,41.40179825,-99.6411972,Custer,NE,Broken Bow,147.66,147.06

@@ -1,0 +1,18 @@
+{
+  "ID": 275,
+  "StateID": 32,
+  "Callsign": "N7TR",
+  "Location": {
+    "Latitude": 40.75899887,
+    "Longitude": -115.86000061,
+    "County": "Elko",
+    "State": "NV",
+    "Local": "Walker"
+  },
+  "Use": "Open",
+  "Status": "Other",
+  "Frequency": {
+    "Input": 448.275,
+    "Output": 443.275
+  }
+}

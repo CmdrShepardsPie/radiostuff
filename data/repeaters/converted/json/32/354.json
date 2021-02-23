@@ -1,0 +1,21 @@
+{
+  "ID": 354,
+  "StateID": 32,
+  "Callsign": "KE7LKO",
+  "Location": {
+    "Latitude": 40.90679932,
+    "Longitude": -115.87000275,
+    "County": "Elko",
+    "State": "NV",
+    "Local": "Elko, Adobe Smt"
+  },
+  "Use": "Open",
+  "Status": "Other",
+  "Frequency": {
+    "Input": 902.4875,
+    "Output": 927.4875
+  },
+  "SquelchTone": {
+    "Input": 100
+  }
+}

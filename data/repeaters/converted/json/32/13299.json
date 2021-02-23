@@ -1,0 +1,18 @@
+{
+  "ID": 13299,
+  "StateID": 32,
+  "Callsign": "KG7FKJ",
+  "Location": {
+    "Latitude": 36.19889832,
+    "Longitude": -115.11799622,
+    "County": "Clark",
+    "State": "NV",
+    "Local": "North Las Vegas"
+  },
+  "Use": "Open",
+  "Status": "Off-Air",
+  "Frequency": {
+    "Input": 446.825,
+    "Output": 441.825
+  }
+}

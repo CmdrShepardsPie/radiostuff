@@ -1,0 +1,21 @@
+{
+  "ID": 797,
+  "StateID": 6,
+  "Callsign": "W6SCE",
+  "Location": {
+    "Latitude": 33.71250153,
+    "Longitude": -115.40100098,
+    "County": "Riverside",
+    "State": "CA",
+    "Local": "Desert Center, Chuckwalla Mountains"
+  },
+  "Use": "Private",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 223.16,
+    "Output": 224.76
+  },
+  "SquelchTone": {
+    "Input": 131.8
+  }
+}

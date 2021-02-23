@@ -1,0 +1,2 @@
+ID,StateID,Callsign,Use,Status,DigitalTone,Digital,VOIP,Location.Latitude,Location.Longitude,Location.County,Location.State,Location.Local,Frequency.Input,Frequency.Output,SquelchTone.Input,SquelchTone.Output
+252,4,W7ARA,Open,On-Air,,,,34.06499863,-113.35500336,La Paz,AZ,"Aguila, Smith Peak",448.775,443.775,100,

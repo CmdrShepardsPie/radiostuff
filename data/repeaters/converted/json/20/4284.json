@@ -1,0 +1,22 @@
+{
+  "ID": 4284,
+  "StateID": 20,
+  "Callsign": "K0HAM",
+  "Location": {
+    "Latitude": 38.60599899,
+    "Longitude": -98.6969986,
+    "County": "Barton",
+    "State": "KS",
+    "Local": "Hoisington, K-Link"
+  },
+  "Use": "Open",
+  "Status": "Off-Air",
+  "Frequency": {
+    "Input": 147.735,
+    "Output": 147.135
+  },
+  "SquelchTone": {
+    "Input": 88.5,
+    "Output": 88.5
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "ID": 18083,
+  "StateID": 6,
+  "Callsign": "N6BKL",
+  "Location": {
+    "Latitude": 33.72060013,
+    "Longitude": -116.21600342,
+    "County": "Riverside",
+    "State": "CA",
+    "Local": "Indio"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 52.5,
+    "Output": 52.9
+  },
+  "SquelchTone": {
+    "Input": 82.5
+  }
+}

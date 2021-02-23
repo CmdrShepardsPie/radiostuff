@@ -1,0 +1,22 @@
+{
+  "ID": 9635,
+  "StateID": 6,
+  "Callsign": "K6BB",
+  "Location": {
+    "Latitude": 34.21250153,
+    "Longitude": -116.86699677,
+    "County": "San Bernardino",
+    "State": "CA",
+    "Local": "Big Bear, E. of Snow Summit"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 441.2,
+    "Output": 446.2
+  },
+  "SquelchTone": {
+    "Input": 103.5,
+    "Output": 103.5
+  }
+}

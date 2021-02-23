@@ -1,0 +1,21 @@
+{
+  "ID": 203,
+  "StateID": 32,
+  "Callsign": "KB6XN",
+  "Location": {
+    "Latitude": 35.95600128,
+    "Longitude": -115.4940033,
+    "County": "Clark",
+    "State": "NV",
+    "Local": "Las Vegas, Lo Potosi Mountain"
+  },
+  "Use": "Open",
+  "Status": "Off-Air",
+  "Frequency": {
+    "Input": 1270,
+    "Output": 1290
+  },
+  "SquelchTone": {
+    "Input": 100
+  }
+}

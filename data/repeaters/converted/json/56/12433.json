@@ -1,0 +1,22 @@
+{
+  "ID": 12433,
+  "StateID": 56,
+  "Callsign": "K7PLA",
+  "Location": {
+    "Latitude": 42.73600006,
+    "Longitude": -106.30899811,
+    "County": "Natrona",
+    "State": "WY",
+    "Local": "Casper, Casper Mountain"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 144.86,
+    "Output": 145.46
+  },
+  "SquelchTone": {
+    "Input": 110.9,
+    "Output": 110.9
+  }
+}

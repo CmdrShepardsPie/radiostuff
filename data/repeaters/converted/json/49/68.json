@@ -1,0 +1,21 @@
+{
+  "ID": 68,
+  "StateID": 49,
+  "Callsign": "K7UCS",
+  "Location": {
+    "Latitude": 40.28310013,
+    "Longitude": -111.93800354,
+    "County": "Utah",
+    "State": "UT",
+    "Local": "Provo, Lake Mountain"
+  },
+  "Use": "Closed",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 443.325,
+    "Output": 448.325
+  },
+  "SquelchTone": {
+    "Input": 103.5
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "ID": 19205,
+  "StateID": 56,
+  "Callsign": "KB3EQN",
+  "Location": {
+    "State": "WY",
+    "Local": "Cheyenne, Ranchettes"
+  },
+  "Use": "Open",
+  "Status": "Other",
+  "Frequency": {
+    "Input": null
+  },
+  "SquelchTone": {
+    "Input": 85.4
+  }
+}

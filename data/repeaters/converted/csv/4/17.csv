@@ -1,0 +1,2 @@
+ID,StateID,Callsign,Use,Status,DigitalTone,Digital,VOIP,Location.Latitude,Location.Longitude,Location.County,Location.State,Location.Local,Frequency.Input,Frequency.Output,SquelchTone.Input,SquelchTone.Output
+17,4,WB7FIK,Open,On-Air,,,,33.66730118,-114.06199646,La Paz,AZ,"Quartzsite, Guadalupe Peak",144.71,145.31,107.2,

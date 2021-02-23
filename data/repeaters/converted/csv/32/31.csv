@@ -1,0 +1,2 @@
+ID,StateID,Callsign,Use,Status,DigitalTone,Digital,VOIP,Location.Latitude,Location.Longitude,Location.County,Location.State,Location.Local,Frequency.Input,Frequency.Output,SquelchTone.Input,SquelchTone.Output
+31,32,WA7HXO,Open,On-Air,,,,35.99580002,-114.86399841,Clark,NV,"Las Vegas, Red Mountain",147.345,147.945,100,

@@ -1,0 +1,21 @@
+{
+  "ID": 848,
+  "StateID": 6,
+  "Callsign": "WA6TJQ",
+  "Location": {
+    "Latitude": 34.23889923,
+    "Longitude": -117.23300171,
+    "County": "San Bernardino",
+    "State": "CA",
+    "Local": "San Bernardino, Twin Peaks"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 222.96,
+    "Output": 224.56
+  },
+  "SquelchTone": {
+    "Input": 100
+  }
+}

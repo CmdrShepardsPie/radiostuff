@@ -1,0 +1,29 @@
+{
+  "ID": 83,
+  "StateID": 4,
+  "Callsign": "W7YRC",
+  "Location": {
+    "Latitude": 34.54000092,
+    "Longitude": -112.46800232,
+    "County": "Yavapai",
+    "State": "AZ",
+    "Local": "Prescott"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 146.28,
+    "Output": 146.88
+  },
+  "SquelchTone": {
+    "Input": 100
+  },
+  "VOIP": {
+    "AllStar": {
+      "NodeID": 502372
+    },
+    "EchoLink": {
+      "NodeID": 558204
+    }
+  }
+}

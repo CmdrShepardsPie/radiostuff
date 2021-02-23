@@ -1,0 +1,23 @@
+{
+  "ID": 13605,
+  "StateID": 48,
+  "Callsign": "W5JTC",
+  "Location": {
+    "Latitude": 35.22200012,
+    "Longitude": -101.83100128,
+    "County": "Potter",
+    "State": "TX",
+    "Local": "Amarillo"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 449.3,
+    "Output": 444.3
+  },
+  "VOIP": {
+    "Wires": {
+      "ID": 21379
+    }
+  }
+}

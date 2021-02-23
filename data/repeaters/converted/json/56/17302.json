@@ -1,0 +1,29 @@
+{
+  "ID": 17302,
+  "StateID": 56,
+  "Callsign": "KG7LRK",
+  "Location": {
+    "Latitude": 43.02470016,
+    "Longitude": -108.3809967,
+    "County": "Washakie",
+    "State": "WY",
+    "Local": "Riverton, Griffy site"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 446.67,
+    "Output": 147.555
+  },
+  "Digital": {
+    "P25": {},
+    "DStar": {
+      "Node": "KG7LRK (C) Hot Spot 24/7"
+    }
+  },
+  "VOIP": {
+    "EchoLink": {
+      "NodeID": 161145
+    }
+  }
+}

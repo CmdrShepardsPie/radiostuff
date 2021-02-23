@@ -1,0 +1,23 @@
+{
+  "ID": 18976,
+  "StateID": 35,
+  "Callsign": "KF5PFO",
+  "Location": {
+    "Latitude": 36.8597379,
+    "Longitude": -106.0189076,
+    "County": "Rio Arriba",
+    "State": "NM",
+    "Local": "Tres Piedras, San Antonio Mountain"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 447.075,
+    "Output": 442.075
+  },
+  "Digital": {
+    "DStar": {
+      "Node": "KF5PFO (B) Gateway Repeater"
+    }
+  }
+}

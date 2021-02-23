@@ -1,0 +1,21 @@
+{
+  "ID": 68,
+  "StateID": 16,
+  "Callsign": "KC7SNN",
+  "Location": {
+    "Latitude": 42.32580185,
+    "Longitude": -113.65599823,
+    "County": "Cassia",
+    "State": "ID",
+    "Local": "Burley, Mt Harrison"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 146.4,
+    "Output": 147
+  },
+  "SquelchTone": {
+    "Input": 100
+  }
+}

@@ -1,0 +1,2 @@
+ID,StateID,Callsign,Use,Status,DigitalTone,Digital,VOIP,Location.Latitude,Location.Longitude,Location.County,Location.State,Location.Local,Frequency.Input,Frequency.Output,SquelchTone.Input,SquelchTone.Output
+49,16,K7MVA,Open,On-Air,,,,42.50030136,-114.23500061,Twin Falls,ID,"Kimberly, Hansen Butte",146.16,146.76,100,100

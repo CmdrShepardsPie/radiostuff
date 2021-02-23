@@ -1,0 +1,21 @@
+{
+  "ID": 116,
+  "StateID": 4,
+  "Callsign": "WB6RER",
+  "Location": {
+    "Latitude": 35.07500076,
+    "Longitude": -113.90000153,
+    "County": "Mohave",
+    "State": "AZ",
+    "Local": "Kingman, Hualapai Mtn"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 147.76,
+    "Output": 145.19
+  },
+  "SquelchTone": {
+    "Input": 131.8
+  }
+}

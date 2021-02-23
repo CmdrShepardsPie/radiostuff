@@ -1,0 +1,2 @@
+ID,StateID,Callsign,Use,Status,DigitalTone,Digital,VOIP,Location.Latitude,Location.Longitude,Location.County,Location.State,Location.Local,Frequency.Input,Frequency.Output,SquelchTone.Input,SquelchTone.Output
+147,49,N7KYY,Open,On-Air,,,,40.1609993,-111.57900238,Utah,UT,Springville,442.325,447.325,114.8,

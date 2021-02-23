@@ -1,0 +1,21 @@
+{
+  "ID": 15548,
+  "StateID": 56,
+  "Callsign": "KD7SU",
+  "Location": {
+    "Latitude": 41.79109955,
+    "Longitude": -107.23899841,
+    "County": "Carbon",
+    "State": "WY",
+    "Local": "Rawlins"
+  },
+  "Use": "Open",
+  "Status": "Other",
+  "Frequency": {
+    "Input": 443.3,
+    "Output": 448.3
+  },
+  "SquelchTone": {
+    "Input": 100
+  }
+}

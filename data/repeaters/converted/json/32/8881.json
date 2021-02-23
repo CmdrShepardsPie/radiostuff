@@ -1,0 +1,18 @@
+{
+  "ID": 8881,
+  "StateID": 32,
+  "Callsign": "KH7R",
+  "Location": {
+    "Latitude": 36.03950119,
+    "Longitude": -114.98200226,
+    "County": "Clark",
+    "State": "NV",
+    "Local": "Henderson"
+  },
+  "Use": "Closed",
+  "Status": "Other",
+  "Frequency": {
+    "Input": 442.375,
+    "Output": 447.375
+  }
+}

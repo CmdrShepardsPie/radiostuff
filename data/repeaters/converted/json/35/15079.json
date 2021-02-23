@@ -1,0 +1,21 @@
+{
+  "ID": 15079,
+  "StateID": 35,
+  "Callsign": "W5SF",
+  "Location": {
+    "Latitude": 36.90999985,
+    "Longitude": -106.58000183,
+    "County": "Rio Arriba",
+    "State": "NM",
+    "Local": "Chama, Overlook Mtn"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 147.68,
+    "Output": 147.08
+  },
+  "SquelchTone": {
+    "Input": 162.2
+  }
+}

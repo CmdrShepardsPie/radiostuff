@@ -1,0 +1,2 @@
+ID,StateID,Callsign,Use,Status,DigitalTone,Digital,Location.Latitude,Location.Longitude,Location.County,Location.State,Location.Local,Frequency.Input,Frequency.Output,SquelchTone.Input,SquelchTone.Output,VOIP.AllStar,VOIP.EchoLink,VOIP.Wires,VOIP.IRLP.NodeID
+13566,35,KF5SGT,Open,On-Air,,,35.64799881,-105.98500061,Santa Fe,NM,Santa Fe,442.775,447.775,100,,,,,7326

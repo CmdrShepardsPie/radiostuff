@@ -1,0 +1,18 @@
+{
+  "ID": 108,
+  "StateID": 49,
+  "Callsign": "KD7YK",
+  "Location": {
+    "Latitude": 37.50500107,
+    "Longitude": -113.7519989,
+    "County": "Washington",
+    "State": "UT",
+    "Local": "Enterprise, Black Hills"
+  },
+  "Use": "Open",
+  "Status": "Other",
+  "Frequency": {
+    "Input": 444.725,
+    "Output": 449.725
+  }
+}

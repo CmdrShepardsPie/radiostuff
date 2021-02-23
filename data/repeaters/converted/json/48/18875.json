@@ -1,0 +1,27 @@
+{
+  "ID": 18875,
+  "StateID": 48,
+  "Callsign": "WB5QLI",
+  "Location": {
+    "Latitude": 35.0904,
+    "Longitude": -101.801,
+    "County": "Randall",
+    "State": "TX",
+    "Local": "Amarillo"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 446.575,
+    "Output": 441.575
+  },
+  "SquelchTone": {
+    "Input": 88.5,
+    "Output": 88.5
+  },
+  "VOIP": {
+    "EchoLink": {
+      "NodeID": 246172
+    }
+  }
+}

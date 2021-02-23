@@ -1,0 +1,21 @@
+{
+  "ID": 15696,
+  "StateID": 35,
+  "Callsign": "AB1Q",
+  "Location": {
+    "Latitude": 34.90999985,
+    "Longitude": -106.69999695,
+    "County": "Bernalillo",
+    "State": "NM",
+    "Local": "Albuquerque, Isleta Pueblo"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 447.15,
+    "Output": 442.15
+  },
+  "SquelchTone": {
+    "Input": 100
+  }
+}

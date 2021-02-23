@@ -1,0 +1,21 @@
+{
+  "ID": 166,
+  "StateID": 49,
+  "Callsign": "N7YFZ",
+  "Location": {
+    "Latitude": 39.2682991,
+    "Longitude": -111.63600159,
+    "County": "Sanpete",
+    "State": "UT",
+    "Local": "Manti"
+  },
+  "Use": "Open",
+  "Status": "Other",
+  "Frequency": {
+    "Input": 444.75,
+    "Output": 449.75
+  },
+  "SquelchTone": {
+    "Input": 131.8
+  }
+}

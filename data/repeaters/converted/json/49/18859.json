@@ -1,0 +1,21 @@
+{
+  "ID": 18859,
+  "StateID": 49,
+  "Callsign": "N7IOD",
+  "Location": {
+    "Latitude": 38.3853,
+    "Longitude": -112.3331,
+    "County": "Piute",
+    "State": "UT",
+    "Local": "Marysvale, Mt. Edna"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 443.575,
+    "Output": 448.575
+  },
+  "SquelchTone": {
+    "Input": 131.8
+  }
+}

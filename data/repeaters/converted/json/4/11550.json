@@ -1,0 +1,21 @@
+{
+  "ID": 11550,
+  "StateID": 4,
+  "Callsign": "N7YSE",
+  "Location": {
+    "Latitude": 37.04750061,
+    "Longitude": -112.52600098,
+    "County": "Coconino",
+    "State": "AZ",
+    "Local": "Kanab, TV Hill"
+  },
+  "Use": "Open",
+  "Status": "Other",
+  "Frequency": {
+    "Input": 444.1,
+    "Output": 449.1
+  },
+  "SquelchTone": {
+    "Input": 100
+  }
+}

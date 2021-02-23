@@ -1,0 +1,18 @@
+{
+  "ID": 129,
+  "StateID": 32,
+  "Callsign": "W7VOA",
+  "Location": {
+    "Latitude": 36.03099823,
+    "Longitude": -114.98100281,
+    "County": "Clark",
+    "State": "NV",
+    "Local": "Henderson"
+  },
+  "Use": "Open",
+  "Status": "Off-Air",
+  "Frequency": {
+    "Input": 443.275,
+    "Output": 448.275
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "ID": 3763,
+  "StateID": 6,
+  "Callsign": "KF6FM",
+  "Location": {
+    "Latitude": 34.64400101,
+    "Longitude": -116.62599945,
+    "County": "San Bernardino",
+    "State": "CA",
+    "Local": "Yermo, Mt. Rodman"
+  },
+  "Use": "Closed",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 443.14,
+    "Output": 448.14
+  },
+  "SquelchTone": {
+    "Input": 123,
+    "Output": 123
+  }
+}

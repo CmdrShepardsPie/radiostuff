@@ -1,0 +1,18 @@
+{
+  "ID": 2,
+  "StateID": 49,
+  "Callsign": "AA7JR",
+  "Location": {
+    "Latitude": 40.77859879,
+    "Longitude": -111.88800049,
+    "County": "Salt Lake",
+    "State": "UT",
+    "Local": "Salt Lake City, Capitol"
+  },
+  "Use": "Open",
+  "Status": "Other",
+  "Frequency": {
+    "Input": 144.61,
+    "Output": 145.21
+  }
+}

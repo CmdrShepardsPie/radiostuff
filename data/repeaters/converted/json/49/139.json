@@ -1,0 +1,26 @@
+{
+  "ID": 139,
+  "StateID": 49,
+  "Callsign": "K7UVA",
+  "Location": {
+    "Latitude": 40.28290176,
+    "Longitude": -111.93699646,
+    "County": "Utah",
+    "State": "UT",
+    "Local": "Orem, Lake Mountain"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 443.2,
+    "Output": 448.2
+  },
+  "SquelchTone": {
+    "Input": 100
+  },
+  "VOIP": {
+    "EchoLink": {
+      "NodeID": 762028
+    }
+  }
+}

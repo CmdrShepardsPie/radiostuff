@@ -1,0 +1,2 @@
+ID,StateID,Callsign,Use,Status,DigitalTone,Digital,VOIP,Location.Latitude,Location.Longitude,Location.County,Location.State,Location.Local,Frequency.Input,Frequency.Output,SquelchTone.Input,SquelchTone.Output
+12983,31,N0VL,Open,On-Air,,,,40.78070068,-99.74210358,Dawson,NE,Lexington,146.25,146.85,123,123

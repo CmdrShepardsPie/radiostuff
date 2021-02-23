@@ -1,0 +1,23 @@
+{
+  "ID": 12302,
+  "StateID": 4,
+  "Callsign": "K7NAZ",
+  "Location": {
+    "Latitude": 35.19940186,
+    "Longitude": -112.20400238,
+    "County": "Coconino",
+    "State": "AZ",
+    "Local": "Williams, Bill Williams Mountain"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 144.515,
+    "Output": 145.115
+  },
+  "Digital": {
+    "DStar": {
+      "Node": "K7NAZ (C) Gateway Repeater"
+    }
+  }
+}

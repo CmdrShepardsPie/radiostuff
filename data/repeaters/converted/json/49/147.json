@@ -1,0 +1,21 @@
+{
+  "ID": 147,
+  "StateID": 49,
+  "Callsign": "N7KYY",
+  "Location": {
+    "Latitude": 40.1609993,
+    "Longitude": -111.57900238,
+    "County": "Utah",
+    "State": "UT",
+    "Local": "Springville"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 442.325,
+    "Output": 447.325
+  },
+  "SquelchTone": {
+    "Input": 114.8
+  }
+}

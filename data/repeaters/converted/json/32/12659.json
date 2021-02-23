@@ -1,0 +1,23 @@
+{
+  "ID": 12659,
+  "StateID": 32,
+  "Callsign": "WB9STH",
+  "Location": {
+    "Latitude": 35.8932991,
+    "Longitude": -115.49500275,
+    "County": "Clark",
+    "State": "NV",
+    "Local": "Las Vegas, Lo Potosi Mountain"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 444.425,
+    "Output": 449.425
+  },
+  "Digital": {
+    "DMR": {
+      "ColorCode": 0
+    }
+  }
+}

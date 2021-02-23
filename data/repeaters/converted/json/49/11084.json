@@ -1,0 +1,23 @@
+{
+  "ID": 11084,
+  "StateID": 49,
+  "Callsign": "AC7O",
+  "Location": {
+    "Latitude": 41.72460175,
+    "Longitude": -111.8010025,
+    "County": "Cache",
+    "State": "UT",
+    "Local": "Logan, Mt Logan"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 1279.75,
+    "Output": 1299.75
+  },
+  "Digital": {
+    "DStar": {
+      "Node": "AC7O (A)"
+    }
+  }
+}

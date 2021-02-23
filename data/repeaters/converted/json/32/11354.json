@@ -1,0 +1,22 @@
+{
+  "ID": 11354,
+  "StateID": 32,
+  "Callsign": "KE7CCH",
+  "Location": {
+    "Latitude": 36.14960098,
+    "Longitude": -115.05999756,
+    "County": "Clark",
+    "State": "NV",
+    "Local": "Las Vegas"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 444.6,
+    "Output": 449.6
+  },
+  "SquelchTone": {
+    "Input": 107.2,
+    "Output": 107.2
+  }
+}

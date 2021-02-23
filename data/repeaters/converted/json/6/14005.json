@@ -1,0 +1,26 @@
+{
+  "ID": 14005,
+  "StateID": 6,
+  "Callsign": "NC9RS",
+  "Location": {
+    "Latitude": 35.62250137,
+    "Longitude": -117.67099762,
+    "County": "Kern",
+    "State": "CA",
+    "Local": "Ridgecrest"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 902.0125,
+    "Output": 927.0125
+  },
+  "SquelchTone": {
+    "Input": 88.5
+  },
+  "VOIP": {
+    "EchoLink": {
+      "NodeID": 487039
+    }
+  }
+}

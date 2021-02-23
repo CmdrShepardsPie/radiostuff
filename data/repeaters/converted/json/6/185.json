@@ -1,0 +1,21 @@
+{
+  "ID": 185,
+  "StateID": 6,
+  "Callsign": "KF6FM",
+  "Location": {
+    "Latitude": 35.53620148,
+    "Longitude": -118.13999939,
+    "County": "Kern",
+    "State": "CA",
+    "Local": "Indian Wells, Bird Spring Pass"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 146.685,
+    "Output": 146.085
+  },
+  "SquelchTone": {
+    "Input": 141.3
+  }
+}

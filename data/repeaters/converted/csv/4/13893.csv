@@ -1,0 +1,2 @@
+ID,StateID,Callsign,Use,Status,DigitalTone,Digital,Location.Latitude,Location.Longitude,Location.County,Location.State,Location.Local,Frequency.Input,Frequency.Output,SquelchTone.Input,SquelchTone.Output,VOIP.IRLP,VOIP.Wires,VOIP.AllStar.NodeID,VOIP.EchoLink.NodeID
+13893,4,K7YCA,Open,On-Air,,,34.41500092,-112.40399933,Yavapai,AZ,"Prescott, Mt Union",442.65,447.65,100,,,,502370,558204

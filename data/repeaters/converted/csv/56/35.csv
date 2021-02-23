@@ -1,0 +1,2 @@
+ID,StateID,Callsign,Use,Status,DigitalTone,Digital,Location.Latitude,Location.Longitude,Location.County,Location.State,Location.Local,Frequency.Input,Frequency.Output,SquelchTone.Input,SquelchTone.Output,VOIP.AllStar,VOIP.IRLP,VOIP.Wires,VOIP.EchoLink.NodeID
+35,56,K0FOP,Open,On-Air,,,43.02500153,-108.3789978,Fremont,WY,"Riverton, Griffey Hill",144.515,145.115,100,,,,,161145

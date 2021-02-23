@@ -1,0 +1,2 @@
+ID,StateID,Callsign,Use,Status,DigitalTone,Digital,VOIP,Location.Latitude,Location.Longitude,Location.County,Location.State,Location.Local,Frequency.Input,Frequency.Output,SquelchTone.Input,SquelchTone.Output
+5503,6,WA6ITC,Closed,On-Air,,,,34.23189926,-116.78299713,San Bernardino,CA,Big Bear City,441.42,446.42,162.2,162.2

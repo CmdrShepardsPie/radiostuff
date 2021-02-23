@@ -1,0 +1,26 @@
+{
+  "ID": 16145,
+  "StateID": 31,
+  "Callsign": "NI0P",
+  "Location": {
+    "Latitude": 40.8205986,
+    "Longitude": -98.60009766,
+    "County": "Hall",
+    "State": "NE",
+    "Local": "Wood River"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 449.7,
+    "Output": 444.7
+  },
+  "SquelchTone": {
+    "Input": 167.9
+  },
+  "Digital": {
+    "DStar": {
+      "Node": "NI0P (B) Repeater"
+    }
+  }
+}

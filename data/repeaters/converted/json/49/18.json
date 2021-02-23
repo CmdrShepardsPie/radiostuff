@@ -1,0 +1,30 @@
+{
+  "ID": 18,
+  "StateID": 49,
+  "Callsign": "K7DOU",
+  "Location": {
+    "Latitude": 41.03879929,
+    "Longitude": -111.93299866,
+    "County": "Davis",
+    "State": "UT",
+    "Local": "West Kaysville, sewer plant"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 444.7,
+    "Output": 449.7
+  },
+  "SquelchTone": {
+    "Input": 100,
+    "Output": 100
+  },
+  "Digital": {
+    "YSF": {
+      "GroupID": {
+        "Input": "Open ↑",
+        "Output": "Open ↓"
+      }
+    }
+  }
+}

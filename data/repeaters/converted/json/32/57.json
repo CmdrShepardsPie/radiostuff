@@ -1,0 +1,18 @@
+{
+  "ID": 57,
+  "StateID": 32,
+  "Callsign": "K9VX",
+  "Location": {
+    "Latitude": 40.84000015,
+    "Longitude": -115.76999664,
+    "County": "Elko",
+    "State": "NV",
+    "Local": "Elko"
+  },
+  "Use": "Open",
+  "Status": "Other",
+  "Frequency": {
+    "Input": 147.99,
+    "Output": 147.39
+  }
+}

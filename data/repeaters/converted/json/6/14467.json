@@ -1,0 +1,24 @@
+{
+  "ID": 14467,
+  "StateID": 6,
+  "Callsign": "KA6P",
+  "Location": {
+    "Latitude": 34.3608017,
+    "Longitude": -117.63300323,
+    "County": "San Bernardino",
+    "State": "CA",
+    "Local": "Wrightwood"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 444.0375,
+    "Output": 449.0375
+  },
+  "Digital": {
+    "DMR": {
+      "ColorCode": 2,
+      "ID": 310636
+    }
+  }
+}

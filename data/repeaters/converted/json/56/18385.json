@@ -1,0 +1,24 @@
+{
+  "ID": 18385,
+  "StateID": 56,
+  "Callsign": "KA0NDS",
+  "Location": {
+    "Latitude": 43.02470016,
+    "Longitude": -108.3809967,
+    "County": "Fremont",
+    "State": "WY",
+    "Local": "Riverton"
+  },
+  "Use": "Open",
+  "Status": "Other",
+  "Frequency": {
+    "Input": 147.34,
+    "Output": 147.94
+  },
+  "Digital": {
+    "DMR": {
+      "ColorCode": 1,
+      "ID": 315614
+    }
+  }
+}

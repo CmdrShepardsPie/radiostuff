@@ -1,0 +1,2 @@
+ID,StateID,Callsign,Use,Status,DigitalTone,Digital,VOIP,Location.Latitude,Location.Longitude,Location.County,Location.State,Location.Local,Frequency.Input,Frequency.Output,SquelchTone.Input,SquelchTone.Output
+282,32,WB6TNP,Open,On-Air,,,,36.16910172,-115.29100037,Clark,NV,"Las Vegas, Summerlin",902.675,927.675,82.5,82.5

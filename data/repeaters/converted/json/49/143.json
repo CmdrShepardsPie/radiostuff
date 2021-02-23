@@ -1,0 +1,18 @@
+{
+  "ID": 143,
+  "StateID": 49,
+  "Callsign": "N7IMF",
+  "Location": {
+    "Latitude": 39.33670044,
+    "Longitude": -111.4509964,
+    "County": "Sanpete",
+    "State": "UT",
+    "Local": "Ephraim, Horseshoe"
+  },
+  "Use": "Open",
+  "Status": "Other",
+  "Frequency": {
+    "Input": 223.04,
+    "Output": 224.64
+  }
+}

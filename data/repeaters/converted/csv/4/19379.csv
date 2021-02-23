@@ -1,0 +1,2 @@
+ID,StateID,Callsign,Use,Status,DigitalTone,VOIP,Location.Latitude,Location.Longitude,Location.County,Location.State,Location.Local,Frequency.Input,Frequency.Output,SquelchTone.Input,SquelchTone.Output,Digital.P25,Digital.DStar,Digital.YSF,Digital.DMR.ColorCode,Digital.DMR.ID
+19379,4,N6TKA,Open,On-Air,,,35.5097081,-112.168513,Coconino,AZ,"Williams, Howard Mesa Ranch",445.7625,440.7625,107.2,,,,,1,312057

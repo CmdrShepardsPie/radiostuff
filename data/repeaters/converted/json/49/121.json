@@ -1,0 +1,21 @@
+{
+  "ID": 121,
+  "StateID": 49,
+  "Callsign": "KG7DSO",
+  "Location": {
+    "Latitude": 40.35490036,
+    "Longitude": -110.7990036,
+    "County": "Uintah",
+    "State": "UT",
+    "Local": "Vernal, Tabby Mountain"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 147.94,
+    "Output": 147.34
+  },
+  "SquelchTone": {
+    "Input": 136.5
+  }
+}

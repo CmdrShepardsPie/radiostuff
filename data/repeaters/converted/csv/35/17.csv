@@ -1,0 +1,2 @@
+ID,StateID,Callsign,Use,Status,DigitalTone,Digital,Location.Latitude,Location.Longitude,Location.County,Location.State,Location.Local,Frequency.Input,Frequency.Output,SquelchTone.Input,SquelchTone.Output,VOIP.AllStar,VOIP.IRLP,VOIP.Wires,VOIP.EchoLink.NodeID
+17,35,K5CQH,Open,On-Air,,,34.98500061,-106.34500122,Bernalillo,NM,"Tijeras, Raven Road",146.12,146.72,100,127.3,,,,880130

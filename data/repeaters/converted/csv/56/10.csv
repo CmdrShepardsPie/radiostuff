@@ -1,0 +1,2 @@
+ID,StateID,Callsign,Use,Status,DigitalTone,Digital,VOIP,Location.Latitude,Location.Longitude,Location.County,Location.State,Location.Local,Frequency.Input,Frequency.Output,SquelchTone.Input,SquelchTone.Output
+10,56,KE7UUJ,Open,On-Air,,,,41.4333992,-109.11599731,Sweetwater,WY,"Rock Springs, Aspen Mountain",146.34,146.94,100,

@@ -1,0 +1,2 @@
+ID,StateID,Callsign,Use,Status,SquelchTone,DigitalTone,Digital,VOIP,Location.Latitude,Location.Longitude,Location.County,Location.State,Location.Local,Frequency.Input,Frequency.Output
+456,6,WA6MTZ,Open,On-Air,,,,,34.82720184,-116.68800354,San Bernardino,CA,Newberry Springs,146.1,146.7

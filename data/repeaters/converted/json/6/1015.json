@@ -1,0 +1,21 @@
+{
+  "ID": 1015,
+  "StateID": 6,
+  "Callsign": "KA6GRF",
+  "Location": {
+    "Latitude": 34.07590103,
+    "Longitude": -117.46099854,
+    "County": "San Bernardino",
+    "State": "CA",
+    "Local": "Fontana"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 442.32,
+    "Output": 447.32
+  },
+  "SquelchTone": {
+    "Input": 136.5
+  }
+}

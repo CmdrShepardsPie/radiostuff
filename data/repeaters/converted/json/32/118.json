@@ -1,0 +1,26 @@
+{
+  "ID": 118,
+  "StateID": 32,
+  "Callsign": "N6JFO",
+  "Location": {
+    "Latitude": 36.31790161,
+    "Longitude": -115.5739975,
+    "County": "Clark",
+    "State": "NV",
+    "Local": "Las Vegas, Angel Peak"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 444.8,
+    "Output": 449.8
+  },
+  "SquelchTone": {
+    "Input": 131.8
+  },
+  "VOIP": {
+    "AllStar": {
+      "NodeID": 28557
+    }
+  }
+}

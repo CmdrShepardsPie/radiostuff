@@ -1,0 +1,21 @@
+{
+  "ID": 81,
+  "StateID": 49,
+  "Callsign": "KA7SLC",
+  "Location": {
+    "Latitude": 40.45700073,
+    "Longitude": -111.90499878,
+    "County": "Davis",
+    "State": "UT",
+    "Local": "Bountiful"
+  },
+  "Use": "Closed",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 443.8,
+    "Output": 448.8
+  },
+  "SquelchTone": {
+    "Input": 88.5
+  }
+}

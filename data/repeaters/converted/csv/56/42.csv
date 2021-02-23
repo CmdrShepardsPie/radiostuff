@@ -1,2 +1,2 @@
-ID,StateID,Callsign,Use,Status,SquelchTone,DigitalTone,Digital,VOIP,Location.Latitude,Location.Longitude,Location.County,Location.State,Location.Local,Frequency.Input,Frequency.Output
-42,56,KF7BR,Open,On-Air,,,,,42.0625,-104.18399811,Goshen,WY,Torrington,146.13,146.73
+ID,StateID,Callsign,Use,Status,DigitalTone,Digital,VOIP,Location.Latitude,Location.Longitude,Location.County,Location.State,Location.Local,Frequency.Input,Frequency.Output,SquelchTone.Input,SquelchTone.Output
+42,56,KF7BR,Open,On-Air,,,,42.0625,-104.18399811,Goshen,WY,Torrington,146.13,146.73,100,

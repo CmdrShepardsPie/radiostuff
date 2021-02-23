@@ -1,0 +1,26 @@
+{
+  "ID": 107,
+  "StateID": 49,
+  "Callsign": "KD7YE",
+  "Location": {
+    "Latitude": 39.32249832,
+    "Longitude": -111.77100372,
+    "County": "Sanpete",
+    "State": "UT",
+    "Local": "Manti, Barton Peak"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 443.275,
+    "Output": 448.275
+  },
+  "SquelchTone": {
+    "Input": 107.2
+  },
+  "VOIP": {
+    "IRLP": {
+      "NodeID": 3576
+    }
+  }
+}

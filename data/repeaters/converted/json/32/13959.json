@@ -1,0 +1,22 @@
+{
+  "ID": 13959,
+  "StateID": 32,
+  "Callsign": "N4NJJ",
+  "Location": {
+    "Latitude": 36.00780106,
+    "Longitude": -114.96600342,
+    "County": "Clark",
+    "State": "NV",
+    "Local": "Las Vegas, CSN Henderson"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 440.375,
+    "Output": 445.375
+  },
+  "SquelchTone": {
+    "Input": 107.2,
+    "Output": 107.2
+  }
+}

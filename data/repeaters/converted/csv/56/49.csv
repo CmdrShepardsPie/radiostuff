@@ -1,0 +1,2 @@
+ID,StateID,Callsign,Use,Status,DigitalTone,Digital,VOIP,Location.Latitude,Location.Longitude,Location.County,Location.State,Location.Local,Frequency.Input,Frequency.Output,SquelchTone.Input,SquelchTone.Output
+49,56,KG7VVQ,Open,On-Air,,,,41.83860016,-110.5039978,Lincoln,WY,"Kemmerer, Quealy Peak",147.69,147.09,100,

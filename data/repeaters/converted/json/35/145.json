@@ -1,0 +1,21 @@
+{
+  "ID": 145,
+  "StateID": 35,
+  "Callsign": "NM5ML",
+  "Location": {
+    "Latitude": 35.76720047,
+    "Longitude": -105.55400085,
+    "County": "San Miguel",
+    "State": "NM",
+    "Local": "Pecos, Elk Mountain"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 147.86,
+    "Output": 147.26
+  },
+  "SquelchTone": {
+    "Input": 67
+  }
+}

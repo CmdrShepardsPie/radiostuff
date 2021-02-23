@@ -1,0 +1,27 @@
+{
+  "ID": 15759,
+  "StateID": 35,
+  "Callsign": "NM5BC",
+  "Location": {
+    "Latitude": 35.06700134,
+    "Longitude": -106.7009964,
+    "County": "Bernalillo",
+    "State": "NM",
+    "Local": "Albuquerque, West Mesa"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 447.05,
+    "Output": 442.05
+  },
+  "SquelchTone": {
+    "Input": 100,
+    "Output": 100
+  },
+  "VOIP": {
+    "AllStar": {
+      "NodeID": 28828
+    }
+  }
+}

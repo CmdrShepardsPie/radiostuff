@@ -1,0 +1,2 @@
+ID,StateID,Callsign,Use,Status,DigitalTone,Digital,VOIP,Location.Latitude,Location.Longitude,Location.County,Location.State,Location.Local,Frequency.Input,Frequency.Output,SquelchTone.Input,SquelchTone.Output
+1209,6,WR6TM,Closed,On-Air,,,,35.38750076,-115.79199982,San Bernardino,CA,"Baker, Halloran Summit",441.38,446.38,136.5,

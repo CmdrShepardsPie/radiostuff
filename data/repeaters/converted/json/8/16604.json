@@ -1,0 +1,21 @@
+{
+  "ID": 16604,
+  "StateID": 8,
+  "Callsign": "KB5ITS",
+  "Location": {
+    "Latitude": 38.02280045,
+    "Longitude": -107.67099762,
+    "County": "Ouray",
+    "State": "CO",
+    "Local": "Ouray, Engineer Mountain"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 147.87,
+    "Output": 147.27
+  },
+  "SquelchTone": {
+    "Input": 127.3
+  }
+}

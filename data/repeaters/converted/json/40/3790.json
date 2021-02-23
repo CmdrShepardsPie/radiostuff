@@ -1,0 +1,22 @@
+{
+  "ID": 3790,
+  "StateID": 40,
+  "Callsign": "",
+  "Location": {
+    "Latitude": 36.72940063,
+    "Longitude": -102.51300049,
+    "County": "Cimarron",
+    "State": "OK",
+    "Local": "Boise City"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 147.95,
+    "Output": 147.35
+  },
+  "SquelchTone": {
+    "Input": 88.5,
+    "Output": 88.5
+  }
+}

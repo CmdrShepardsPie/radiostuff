@@ -1,0 +1,21 @@
+{
+  "ID": 24,
+  "StateID": 32,
+  "Callsign": "WA7HXO",
+  "Location": {
+    "Latitude": 35.95610046,
+    "Longitude": -115.4960022,
+    "County": "Clark",
+    "State": "NV",
+    "Local": "Las Vegas, Hi Potosi Mountain"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 146.28,
+    "Output": 146.88
+  },
+  "SquelchTone": {
+    "Input": 100
+  }
+}

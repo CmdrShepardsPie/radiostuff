@@ -1,0 +1,18 @@
+{
+  "ID": 89,
+  "StateID": 16,
+  "Callsign": "KA7MLM",
+  "Location": {
+    "Latitude": 42.87129974,
+    "Longitude": -112.44499969,
+    "County": "Bannock",
+    "State": "ID",
+    "Local": "Pocatello"
+  },
+  "Use": "Open",
+  "Status": "Off-Air",
+  "Frequency": {
+    "Input": 147.9,
+    "Output": 147.3
+  }
+}

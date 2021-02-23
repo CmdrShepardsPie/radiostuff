@@ -1,0 +1,18 @@
+{
+  "ID": 43,
+  "StateID": 32,
+  "Callsign": "WB7WTS",
+  "Location": {
+    "Latitude": 38.16609955,
+    "Longitude": -116.44400024,
+    "County": "Nye",
+    "State": "NV",
+    "Local": "Warm Springs, Warm Springs Summit"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 146.25,
+    "Output": 146.85
+  }
+}

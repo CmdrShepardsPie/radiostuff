@@ -1,0 +1,23 @@
+{
+  "ID": 5965,
+  "StateID": 6,
+  "Callsign": "KI6WZX",
+  "Location": {
+    "Latitude": 34.19599915,
+    "Longitude": -117.0490036,
+    "County": "San Bernardino",
+    "State": "CA",
+    "Local": "Running Springs , Keller Peak"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 441.34,
+    "Output": 446.34
+  },
+  "Digital": {
+    "DStar": {
+      "Node": "KI6WZX (B)"
+    }
+  }
+}

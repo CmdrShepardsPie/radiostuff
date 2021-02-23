@@ -1,0 +1,18 @@
+{
+  "ID": 438,
+  "StateID": 6,
+  "Callsign": "WA6TST",
+  "Location": {
+    "Latitude": 34.89860153,
+    "Longitude": -117.02200317,
+    "County": "San Bernardino",
+    "State": "CA",
+    "Local": "Barstow"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 146.37,
+    "Output": 146.97
+  }
+}

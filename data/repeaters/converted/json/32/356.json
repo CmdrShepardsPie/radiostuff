@@ -1,0 +1,29 @@
+{
+  "ID": 356,
+  "StateID": 32,
+  "Callsign": "NO7BS",
+  "Location": {
+    "Latitude": 36.1733017,
+    "Longitude": -115.07299805,
+    "County": "Clark",
+    "State": "NV",
+    "Local": "Las Vegas"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 443.475,
+    "Output": 448.475
+  },
+  "SquelchTone": {
+    "Input": 100
+  },
+  "VOIP": {
+    "AllStar": {
+      "NodeID": 2221
+    },
+    "IRLP": {
+      "NodeID": 3520
+    }
+  }
+}

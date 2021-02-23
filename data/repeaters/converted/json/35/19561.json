@@ -1,0 +1,21 @@
+{
+  "ID": 19561,
+  "StateID": 35,
+  "Callsign": "W0ZW",
+  "Location": {
+    "Latitude": 35.0614358,
+    "Longitude": -106.1914141,
+    "County": "Santa Fe",
+    "State": "NM",
+    "Local": "Edgewood"
+  },
+  "Use": "Open",
+  "Status": "Other",
+  "Frequency": {
+    "Input": 449.35,
+    "Output": 444.35
+  },
+  "SquelchTone": {
+    "Input": 123
+  }
+}

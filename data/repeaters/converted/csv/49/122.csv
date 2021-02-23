@@ -1,0 +1,2 @@
+ID,StateID,Callsign,Use,Status,DigitalTone,Digital,VOIP,Location.Latitude,Location.Longitude,Location.County,Location.State,Location.Local,Frequency.Input,Frequency.Output,SquelchTone.Input,SquelchTone.Output
+122,49,K7UVA,Open,On-Air,,,,40.3844986,-111.58399963,Utah,UT,"Provo, Sundance",144.65,145.25,100,

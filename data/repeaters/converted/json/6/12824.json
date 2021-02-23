@@ -1,0 +1,21 @@
+{
+  "ID": 12824,
+  "StateID": 6,
+  "Callsign": "W6DRA",
+  "Location": {
+    "Latitude": 33.72219849,
+    "Longitude": -116.37400055,
+    "County": "Riverside",
+    "State": "CA",
+    "Local": "Palm Desert"
+  },
+  "Use": "Open",
+  "Status": "Other",
+  "Frequency": {
+    "Input": 442.32,
+    "Output": 447.32
+  },
+  "SquelchTone": {
+    "Input": 107.2
+  }
+}

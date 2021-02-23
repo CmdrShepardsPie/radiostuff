@@ -1,0 +1,2 @@
+ID,StateID,Callsign,Use,Status,DigitalTone,Digital,Location.Latitude,Location.Longitude,Location.County,Location.State,Location.Local,Frequency.Input,Frequency.Output,SquelchTone.Input,SquelchTone.Output,VOIP.EchoLink,VOIP.IRLP,VOIP.Wires,VOIP.AllStar.NodeID
+11236,20,N0NM,Open,On-Air,,,39.26570129,-99.83360291,Graham,KS,"Hill City, K-Link",448.7,443.7,162.2,,,,,46425

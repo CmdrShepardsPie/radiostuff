@@ -1,0 +1,21 @@
+{
+  "ID": 16300,
+  "StateID": 32,
+  "Callsign": "WB6TNP",
+  "Location": {
+    "Latitude": 36.93479919,
+    "Longitude": -116.85099792,
+    "County": "Nye",
+    "State": "NV",
+    "Local": "Beatty, Sawtooth Mtn"
+  },
+  "Use": "Closed",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 444.225,
+    "Output": 449.225
+  },
+  "SquelchTone": {
+    "Input": 141.3
+  }
+}

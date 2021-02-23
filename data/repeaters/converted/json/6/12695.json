@@ -1,0 +1,21 @@
+{
+  "ID": 12695,
+  "StateID": 6,
+  "Callsign": "AA7SQ",
+  "Location": {
+    "Latitude": 34.59730148,
+    "Longitude": -117.51599884,
+    "County": "San Bernardino",
+    "State": "CA",
+    "Local": "Victorville"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 147.99,
+    "Output": 147.39
+  },
+  "SquelchTone": {
+    "Input": 100
+  }
+}

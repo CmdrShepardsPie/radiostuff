@@ -1,0 +1,2 @@
+ID,StateID,Callsign,Use,Status,DigitalTone,Digital,VOIP,Location.Latitude,Location.Longitude,Location.County,Location.State,Location.Local,Frequency.Input,Frequency.Output,SquelchTone.Input,SquelchTone.Output
+137,49,N7GGN,Open,On-Air,,,,39.04169846,-112.14199829,Sevier,UT,"Holden, Beesting Peak",147.7,147.1,100,

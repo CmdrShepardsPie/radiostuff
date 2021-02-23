@@ -1,0 +1,18 @@
+{
+  "ID": 18122,
+  "StateID": 6,
+  "Callsign": "WA6VAW",
+  "Location": {
+    "Latitude": 34.23500061,
+    "Longitude": -117.14099884,
+    "County": "San Bernardino",
+    "State": "CA",
+    "Local": "Running Springs, Heaps Peak"
+  },
+  "Use": "Private",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 443.86,
+    "Output": 448.86
+  }
+}

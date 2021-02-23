@@ -1,0 +1,18 @@
+{
+  "ID": 127,
+  "StateID": 32,
+  "Callsign": "KI7D",
+  "Location": {
+    "Latitude": 35.27500153,
+    "Longitude": -114.72299957,
+    "County": "Clark",
+    "State": "NV",
+    "Local": "Bullhead City, Spirit Mountain"
+  },
+  "Use": "Open",
+  "Status": "Other",
+  "Frequency": {
+    "Input": 444.325,
+    "Output": 449.325
+  }
+}

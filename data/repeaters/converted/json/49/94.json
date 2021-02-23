@@ -1,0 +1,21 @@
+{
+  "ID": 94,
+  "StateID": 49,
+  "Callsign": "KC7SUM",
+  "Location": {
+    "Latitude": 41.37060165,
+    "Longitude": -111.76599884,
+    "County": "Weber",
+    "State": "UT",
+    "Local": "Ogden, Powder Mountain"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 144.87,
+    "Output": 145.47
+  },
+  "SquelchTone": {
+    "Input": 123
+  }
+}

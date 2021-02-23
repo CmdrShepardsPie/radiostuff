@@ -1,0 +1,22 @@
+{
+  "ID": 794,
+  "StateID": 6,
+  "Callsign": "W6CDF",
+  "Location": {
+    "Latitude": 33.94670105,
+    "Longitude": -117.29599762,
+    "County": "Riverside",
+    "State": "CA",
+    "Local": "Riverside, Box Springs Mountain"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 222.86,
+    "Output": 224.46
+  },
+  "SquelchTone": {
+    "Input": 110.9,
+    "Output": 110.9
+  }
+}

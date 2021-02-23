@@ -1,0 +1,2 @@
+ID,StateID,Callsign,Use,Status,DigitalTone,Digital,VOIP,Location.Latitude,Location.Longitude,Location.County,Location.State,Location.Local,Frequency.Input,Frequency.Output,SquelchTone.Input,SquelchTone.Output
+1500,48,N5LTZ,Open,On-Air,,,,35.53620148,-100.95999908,Gray,TX,Pampa,449.4,444.4,88.5,

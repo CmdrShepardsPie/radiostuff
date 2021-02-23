@@ -1,0 +1,29 @@
+{
+  "ID": 338,
+  "StateID": 32,
+  "Callsign": "K7IZA",
+  "Location": {
+    "Latitude": 36.22470093,
+    "Longitude": -114.97599792,
+    "County": "Clark",
+    "State": "NV",
+    "Local": "Las Vegas, Sunrise Mountain"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 443.9,
+    "Output": 448.9
+  },
+  "SquelchTone": {
+    "Input": 100
+  },
+  "VOIP": {
+    "EchoLink": {
+      "NodeID": 360534
+    },
+    "IRLP": {
+      "NodeID": 3611
+    }
+  }
+}

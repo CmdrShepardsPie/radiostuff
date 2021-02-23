@@ -1,0 +1,21 @@
+{
+  "ID": 89,
+  "StateID": 49,
+  "Callsign": "KB7YOT",
+  "Location": {
+    "Latitude": 40.23609924,
+    "Longitude": -111.6289978,
+    "County": "Utah",
+    "State": "UT",
+    "Local": "Provo"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 444.825,
+    "Output": 449.825
+  },
+  "SquelchTone": {
+    "Input": 167.9
+  }
+}

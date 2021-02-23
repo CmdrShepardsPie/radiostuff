@@ -1,0 +1,18 @@
+{
+  "ID": 18275,
+  "StateID": 6,
+  "Callsign": "WA6KXK",
+  "Location": {
+    "Latitude": 34.35179901,
+    "Longitude": -117.67500305,
+    "County": "Los Angeles",
+    "State": "CA",
+    "Local": "Phelan, Blue Ridge"
+  },
+  "Use": "Private",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 443.98,
+    "Output": 448.98
+  }
+}

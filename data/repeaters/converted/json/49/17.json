@@ -1,0 +1,30 @@
+{
+  "ID": 17,
+  "StateID": 49,
+  "Callsign": "K7DAV",
+  "Location": {
+    "Latitude": 40.86209869,
+    "Longitude": -111.85500336,
+    "County": "Davis",
+    "State": "UT",
+    "Local": "Bountiful, golf course"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 444.925,
+    "Output": 449.925
+  },
+  "SquelchTone": {
+    "Input": 100,
+    "Output": 100
+  },
+  "Digital": {
+    "YSF": {
+      "GroupID": {
+        "Input": "Open ↑",
+        "Output": "Open ↓"
+      }
+    }
+  }
+}

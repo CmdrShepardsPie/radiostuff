@@ -1,0 +1,2 @@
+ID,StateID,Callsign,Use,Status,SquelchTone,DigitalTone,VOIP,Location.Latitude,Location.Longitude,Location.County,Location.State,Location.Local,Frequency.Input,Frequency.Output,Digital.P25,Digital.DStar,Digital.YSF,Digital.DMR.ColorCode,Digital.DMR.ID
+2687,6,N6WZK,Open,On-Air,,,,34.18669891,-117.70200348,San Bernardino,CA,"San Antonio Heights, Sunset Ridge",444.36,449.36,,,,1,310681

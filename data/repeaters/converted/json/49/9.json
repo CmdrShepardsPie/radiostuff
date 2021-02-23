@@ -1,0 +1,21 @@
+{
+  "ID": 9,
+  "StateID": 49,
+  "Callsign": "AI7J",
+  "Location": {
+    "Latitude": 41.0503006,
+    "Longitude": -111.84400177,
+    "County": "Weber",
+    "State": "UT",
+    "Local": "Layton, Kaysville Peak"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 444.6,
+    "Output": 449.6
+  },
+  "SquelchTone": {
+    "Input": 136.5
+  }
+}

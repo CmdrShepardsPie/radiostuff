@@ -1,0 +1,22 @@
+{
+  "ID": 6971,
+  "StateID": 6,
+  "Callsign": "K6DK",
+  "Location": {
+    "Latitude": 35.1385994,
+    "Longitude": -116.22699738,
+    "County": "San Bernardino",
+    "State": "CA",
+    "Local": "Baker, Shamrock Peak"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 147.75,
+    "Output": 147.15
+  },
+  "SquelchTone": {
+    "Input": 131.8,
+    "Output": 131.8
+  }
+}

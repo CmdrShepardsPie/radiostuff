@@ -1,0 +1,29 @@
+{
+  "ID": 3554,
+  "StateID": 32,
+  "Callsign": "KE7OPJ",
+  "Location": {
+    "Latitude": 36.01940155,
+    "Longitude": -114.99500275,
+    "County": "Clark",
+    "State": "NV",
+    "Local": "Henderson"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 442.65,
+    "Output": 447.65
+  },
+  "SquelchTone": {
+    "Input": 123
+  },
+  "VOIP": {
+    "EchoLink": {
+      "NodeID": 8774
+    },
+    "IRLP": {
+      "NodeID": 3336
+    }
+  }
+}

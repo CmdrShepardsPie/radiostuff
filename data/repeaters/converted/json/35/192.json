@@ -1,0 +1,21 @@
+{
+  "ID": 192,
+  "StateID": 35,
+  "Callsign": "WB5EZO",
+  "Location": {
+    "Latitude": 35.06719971,
+    "Longitude": -106.53299713,
+    "County": "Bernalillo",
+    "State": "NM",
+    "Local": "Albuquerque"
+  },
+  "Use": "Open",
+  "Status": "Off-Air",
+  "Frequency": {
+    "Input": 902.7,
+    "Output": 927.7
+  },
+  "SquelchTone": {
+    "Input": 210.7
+  }
+}

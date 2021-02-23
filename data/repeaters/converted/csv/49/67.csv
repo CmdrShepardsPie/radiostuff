@@ -1,0 +1,2 @@
+ID,StateID,Callsign,Use,Status,DigitalTone,Digital,VOIP,Location.Latitude,Location.Longitude,Location.County,Location.State,Location.Local,Frequency.Input,Frequency.Output,SquelchTone.Input,SquelchTone.Output
+67,49,K7UCS,Open,On-Air,,,,40.2826004,-111.93699646,Utah,UT,"Provo, Lake Mountain",144.63,145.23,131.8,

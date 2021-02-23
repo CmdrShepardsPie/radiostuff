@@ -1,0 +1,2 @@
+ID,StateID,Callsign,Use,Status,DigitalTone,Digital,VOIP,Location.Latitude,Location.Longitude,Location.County,Location.State,Location.Local,Frequency.Input,Frequency.Output,SquelchTone.Input,SquelchTone.Output
+15618,35,KF5PFO,Open,Off-Air,,,,36.75999832,-105.30999756,Taos,NM,"Red River, Valle Vidal",144.65,145.25,123,

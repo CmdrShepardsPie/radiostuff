@@ -1,0 +1,2 @@
+ID,StateID,Callsign,Use,Status,DigitalTone,Digital,VOIP,Location.Latitude,Location.Longitude,Location.County,Location.State,Location.Local,Frequency.Input,Frequency.Output,SquelchTone.Input,SquelchTone.Output
+3764,6,W7DOD,Closed,On-Air,,,,35.43600082,-115.9240036,San Bernardino,CA,"Baker, Turquoise Mountain",443.16,448.16,141.3,

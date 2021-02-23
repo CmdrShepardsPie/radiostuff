@@ -1,0 +1,18 @@
+{
+  "ID": 2585,
+  "StateID": 6,
+  "Callsign": "W6XC",
+  "Location": {
+    "Latitude": 36.18700027,
+    "Longitude": -118.59700012,
+    "County": "Tulare",
+    "State": "CA",
+    "Local": "Camp Nelson, Jordan Peak"
+  },
+  "Use": "Private",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 448.75,
+    "Output": 443.75
+  }
+}

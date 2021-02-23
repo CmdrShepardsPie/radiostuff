@@ -1,0 +1,21 @@
+{
+  "ID": 15293,
+  "StateID": 49,
+  "Callsign": "W7RSS",
+  "Location": {
+    "Latitude": 41.2279834,
+    "Longitude": -111.9420453,
+    "County": "Weber",
+    "State": "UT",
+    "Local": "Ogden"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 444.075,
+    "Output": 449.075
+  },
+  "DigitalTone": {
+    "Input": 114
+  }
+}

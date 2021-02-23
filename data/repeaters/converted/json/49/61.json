@@ -1,0 +1,18 @@
+{
+  "ID": 61,
+  "StateID": 49,
+  "Callsign": "K7SG",
+  "Location": {
+    "Latitude": 37.10639954,
+    "Longitude": -113.59700012,
+    "County": "Washington",
+    "State": "UT",
+    "Local": "St George"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 147.86,
+    "Output": 147.26
+  }
+}

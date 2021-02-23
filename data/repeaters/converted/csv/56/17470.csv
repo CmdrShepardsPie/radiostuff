@@ -1,0 +1,2 @@
+ID,StateID,Callsign,Use,Status,DigitalTone,Digital,VOIP,Location.Latitude,Location.Longitude,Location.County,Location.State,Location.Local,Frequency.Input,Frequency.Output,SquelchTone.Input,SquelchTone.Output
+17470,56,N7ERH,Open,On-Air,,,,41.79249954,-110.53700256,Albany,WY,"Kemmerer, Qualey Ridge",444.3,449.3,127.3,

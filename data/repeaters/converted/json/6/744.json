@@ -1,0 +1,21 @@
+{
+  "ID": 744,
+  "StateID": 6,
+  "Callsign": "WA6YVL",
+  "Location": {
+    "Latitude": 34.6576004,
+    "Longitude": -118.15499878,
+    "County": "Los Angeles",
+    "State": "CA",
+    "Local": "Lancaster"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 222.32,
+    "Output": 223.92
+  },
+  "SquelchTone": {
+    "Input": 100
+  }
+}

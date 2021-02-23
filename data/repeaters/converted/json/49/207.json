@@ -1,0 +1,18 @@
+{
+  "ID": 207,
+  "StateID": 49,
+  "Callsign": "W7NRC",
+  "Location": {
+    "Latitude": 37.04800034,
+    "Longitude": -112.52700043,
+    "County": "Kane",
+    "State": "UT",
+    "Local": "Kanab"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 444.85,
+    "Output": 449.85
+  }
+}

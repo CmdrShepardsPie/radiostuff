@@ -1,0 +1,21 @@
+{
+  "ID": 18220,
+  "StateID": 32,
+  "Callsign": "W7HEN",
+  "Location": {
+    "Latitude": 36.08459854,
+    "Longitude": -115.38600159,
+    "County": "Clark",
+    "State": "NV",
+    "Local": "Las Vegas"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 441.475,
+    "Output": 446.475
+  },
+  "SquelchTone": {
+    "Input": 156.7
+  }
+}

@@ -1,0 +1,2 @@
+ID,StateID,Callsign,Use,Status,DigitalTone,Digital,VOIP,Location.Latitude,Location.Longitude,Location.County,Location.State,Location.Local,Frequency.Input,Frequency.Output,SquelchTone.Input,SquelchTone.Output
+1513,6,W7DOD,Private,On-Air,,,,34.03779984,-116.81300354,San Bernardino,CA,"Yucaipa, Snow Peak",443.16,448.16,131.8,

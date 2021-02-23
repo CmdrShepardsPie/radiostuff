@@ -1,0 +1,21 @@
+{
+  "ID": 366,
+  "StateID": 6,
+  "Callsign": "NR6P",
+  "Location": {
+    "Latitude": 33.67829895,
+    "Longitude": -115.96299744,
+    "County": "Riverside",
+    "State": "CA",
+    "Local": "Cactus City"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 146.625,
+    "Output": 146.025
+  },
+  "SquelchTone": {
+    "Input": 107.2
+  }
+}

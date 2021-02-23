@@ -1,0 +1,2 @@
+ID,StateID,Callsign,Use,Status,DigitalTone,Digital,Location.Latitude,Location.Longitude,Location.County,Location.State,Location.Local,Frequency.Input,Frequency.Output,SquelchTone.Input,SquelchTone.Output,VOIP.AllStar,VOIP.EchoLink,VOIP.Wires,VOIP.IRLP.NodeID
+2643,6,W6IY,Open,Off-Air,,,36.14810181,-117.70600128,Inyo,CA,"Bishop, Silver Peak",449.6,444.6,100,,,,,3734

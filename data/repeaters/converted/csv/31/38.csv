@@ -1,0 +1,2 @@
+ID,StateID,Callsign,Use,Status,DigitalTone,Digital,VOIP,Location.Latitude,Location.Longitude,Location.County,Location.State,Location.Local,Frequency.Input,Frequency.Output,SquelchTone.Input,SquelchTone.Output
+38,31,K0PCA,Open,On-Air,,,,40.47829819,-99.50700378,Phelps,NE,Loomis,146.295,146.895,123,123

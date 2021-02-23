@@ -1,0 +1,21 @@
+{
+  "ID": 8737,
+  "StateID": 32,
+  "Callsign": "N7MRN",
+  "Location": {
+    "Latitude": 36.20830154,
+    "Longitude": -115.98400116,
+    "County": "Nye",
+    "State": "NV",
+    "Local": "Pahrump"
+  },
+  "Use": "Open",
+  "Status": "Off-Air",
+  "Frequency": {
+    "Input": 443.35,
+    "Output": 448.35
+  },
+  "SquelchTone": {
+    "Input": 103.5
+  }
+}

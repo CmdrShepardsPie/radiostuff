@@ -1,0 +1,2 @@
+ID,StateID,Callsign,Use,Status,SquelchTone,DigitalTone,VOIP,Location.Latitude,Location.Longitude,Location.County,Location.State,Location.Local,Frequency.Input,Frequency.Output,Digital.DMR,Digital.P25,Digital.YSF,Digital.DStar.Node
+11157,49,KF7YIX,Open,On-Air,,,,37.25749969,-113.26499939,Washington,UT,"Torquerville, Hurricane Mesa",144.55,145.15,,,,KF7YIX (C) Gateway Repeater

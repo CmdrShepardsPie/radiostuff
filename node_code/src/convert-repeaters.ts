@@ -20,23 +20,32 @@ export default (async (): Promise<void> => {
 
   const promises: Promise<void>[] = [];
 
-  await Promise.all(files.map(async (file: string): Promise<void> => {
+  await Promise.all(files.map(async (file: string, fileIndex: number): Promise<void> => {
     const fileBuffer: Buffer = await readFileAsync(file);
     const fileString: string = fileBuffer.toString();
     const fileData: RepeaterRaw | RepeaterRaw[] = JSON.parse(fileString);
-    if (typeof fileData === 'object' && Array.isArray(fileData)) {
-      const converted: RepeaterStructured[] = fileData
-        .reduce((output: RepeaterStructured[], input: RepeaterRaw, index: number): RepeaterStructured[] => {
-          log(`converting repeater ${ input.Call } (${ index + 1 }/${ fileData.length }) from ${ file }`);
-          const repeater: RepeaterStructured = convertRepeater(input);
-          // Don't care when the fs write promises return, they do not affect the outcome and node won't terminate until the handles are closed
-          promises.push(writeToJson(`../data/repeaters/converted/json/${ repeater.StateID }/${ repeater.ID }`, repeater));
-          promises.push(writeToCsv(`../data/repeaters/converted/csv/${ repeater.StateID }/${ repeater.ID }`, repeater));
-          return [...output, repeater];
-        }, [] as RepeaterStructured[]);
-      // Don't care when the fs write promises return, they do not affect the outcome and node won't terminate until the handles are closed
-      // promises.push(writeToJson(`../data/repeaters/converted/json/${ splitExtension(file).name }`, converted));
-      // promises.push(writeToCsv(`../data/repeaters/converted/csv/${ splitExtension(file).name }`, converted));
+    // log('File', file, typeof fileData, Array.isArray(fileData), fileData);
+    if (typeof fileData === 'object') {
+      if (Array.isArray(fileData)) {
+        const converted: RepeaterStructured[] = fileData
+          .reduce((output: RepeaterStructured[], input: RepeaterRaw, rowIndex: number): RepeaterStructured[] => {
+            log(`converting repeater ${ input.Call } (${ rowIndex + 1 }/${ fileData.length }) from ${ file } (${ fileIndex + 1 }/${ files.length })`);
+            const repeater: RepeaterStructured = convertRepeater(input);
+            // Don't care when the fs write promises return, they do not affect the outcome and node won't terminate until the handles are closed
+            promises.push(writeToJson(`../data/repeaters/converted/json/${ repeater.StateID }/${ repeater.ID }`, repeater));
+            promises.push(writeToCsv(`../data/repeaters/converted/csv/${ repeater.StateID }/${ repeater.ID }`, repeater));
+            return [...output, repeater];
+          }, [] as RepeaterStructured[]);
+        // Don't care when the fs write promises return, they do not affect the outcome and node won't terminate until the handles are closed
+        promises.push(writeToJson(`../data/repeaters/converted/json/${ splitExtension(file).name }`, converted));
+        promises.push(writeToCsv(`../data/repeaters/converted/csv/${ splitExtension(file).name }`, converted));
+      } else {
+        log(`converting repeater ${ fileData.Call } from ${ file } (${ fileIndex + 1 }/${ files.length })`);
+        const repeater: RepeaterStructured = convertRepeater(fileData);
+        // Don't care when the fs write promises return, they do not affect the outcome and node won't terminate until the handles are closed
+        promises.push(writeToJson(`../data/repeaters/converted/json/${ repeater.StateID }/${ repeater.ID }`, repeater));
+        promises.push(writeToCsv(`../data/repeaters/converted/csv/${ repeater.StateID }/${ repeater.ID }`, repeater));
+      }
     }
   }));
 
@@ -142,14 +151,14 @@ function convertNumber(input: string | number | undefined, numberFilter: RegExp 
 function convertRepeaterDigitalData(raw: RepeaterRaw): RepeaterDigitalModes | undefined {
   const converted: RepeaterDigitalModes = {
     // TODO: ATV?: boolean;
-    DMR: (raw.DGTL.includes('D') || raw['DMR Enabled']) ? {
+    DMR: ((raw.DGTL && raw.DGTL.includes('D')) || raw['DMR Enabled']) ? {
       ColorCode: convertNumber(raw['Color Code']),
       ID: convertNumber(raw['DMR ID']),
     } : undefined,
-    P25: (raw.DGTL.includes('P') || raw['P-25 Digital Enabled']) ? { NAC: convertNumber(raw.NAC) } : undefined,
+    P25: ((raw.DGTL && raw.DGTL.includes('P')) || raw['P-25 Digital Enabled']) ? { NAC: convertNumber(raw.NAC) } : undefined,
     // TODO: Convert D-Star nodes to programmable format
-    DStar: (raw.DGTL.includes('S') || raw['D-STAR Enabled']) ? { Node: raw.Node } : undefined,
-    YSF: (raw.DGTL.includes('Y') || raw['YSF Digital Enabled']) ? {
+    DStar: ((raw.DGTL && raw.DGTL.includes('S')) || raw['D-STAR Enabled']) ? { Node: raw.Node } : undefined,
+    YSF: ((raw.DGTL && raw.DGTL.includes('Y')) || raw['YSF Digital Enabled']) ? {
       GroupID: {
         // TODO: Convert "Open" to 0 (confirm this is correct?)
         Input: typeof raw['DG-ID'] === 'number' ? raw['DG-ID'] : typeof raw['DG-ID'] === 'string' ? raw['DG-ID'].split('/')[0].trim() : undefined,
@@ -164,12 +173,12 @@ function convertRepeaterDigitalData(raw: RepeaterRaw): RepeaterDigitalModes | un
 
 function convertRepeaterVOIP(raw: RepeaterRaw): RepeaterVOIPModes | undefined {
   const converted: RepeaterVOIPModes = {
-    AllStar: (raw.VOIP.includes('A') || raw.AllStar) ? { NodeID: convertNumber(raw.AllStar) } : undefined,
-    EchoLink: (raw.VOIP.includes('E') || raw.EchoLink) ? {
+    AllStar: ((raw.VOIP && raw.VOIP.includes('A')) || raw.AllStar) ? { NodeID: convertNumber(raw.AllStar) } : undefined,
+    EchoLink: ((raw.VOIP && raw.VOIP.includes('E')) || raw.EchoLink) ? {
       NodeID: raw.EchoLink,
     } : undefined, // TODO: Status?: EchoLinkNodeStatus
-    IRLP: (raw.VOIP.includes('I') || raw.IRLP) ? { NodeID: convertNumber(raw.IRLP) } : undefined,
-    Wires: (raw.VOIP.includes('W') || raw['WIRES-X']) ? { ID: convertNumber(raw['WIRES-X']) } : undefined,
+    IRLP: ((raw.VOIP && raw.VOIP.includes('I')) || raw.IRLP) ? { NodeID: convertNumber(raw.IRLP) } : undefined,
+    Wires: ((raw.VOIP && raw.VOIP.includes('W')) || raw['WIRES-X']) ? { ID: convertNumber(raw['WIRES-X']) } : undefined,
   };
   if (converted.AllStar || converted.EchoLink || converted.IRLP || converted.Wires) {
     return converted;

@@ -1,0 +1,2 @@
+ID,StateID,Callsign,Use,Status,SquelchTone,DigitalTone,Digital,VOIP,Location.Latitude,Location.Longitude,Location.County,Location.State,Location.Local,Frequency.Input,Frequency.Output
+39,31,K0TAJ,Open,On-Air,,,,,40.20529938,-100.62599945,Red Willow,NE,"McCook, 180' tower S. of McCook",147.87,147.27

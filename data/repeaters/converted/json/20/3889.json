@@ -1,0 +1,27 @@
+{
+  "ID": 3889,
+  "StateID": 20,
+  "Callsign": "NW0K",
+  "Location": {
+    "Latitude": 39.39149857,
+    "Longitude": -101.0739975,
+    "County": "Thomas",
+    "State": "KS",
+    "Local": "Colby"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 146.22,
+    "Output": 146.82
+  },
+  "SquelchTone": {
+    "Input": 156.7,
+    "Output": 156.7
+  },
+  "VOIP": {
+    "IRLP": {
+      "NodeID": 7552
+    }
+  }
+}

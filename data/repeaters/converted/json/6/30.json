@@ -1,0 +1,21 @@
+{
+  "ID": 30,
+  "StateID": 6,
+  "Callsign": "WA6MDJ",
+  "Location": {
+    "Latitude": 33.89419937,
+    "Longitude": -116.2009964,
+    "County": "Riverside",
+    "State": "CA",
+    "Local": "Indio, Indio Hills"
+  },
+  "Use": "Open",
+  "Status": "Other",
+  "Frequency": {
+    "Input": 51.42,
+    "Output": 51.92
+  },
+  "SquelchTone": {
+    "Input": 82.5
+  }
+}

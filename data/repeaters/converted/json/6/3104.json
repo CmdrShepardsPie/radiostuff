@@ -1,0 +1,26 @@
+{
+  "ID": 3104,
+  "StateID": 6,
+  "Callsign": "K6PIN",
+  "Location": {
+    "Latitude": 34.23410034,
+    "Longitude": -117.14199829,
+    "County": "Riverside",
+    "State": "CA",
+    "Local": "Riverside, Box Springs"
+  },
+  "Use": "Closed",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 442.22,
+    "Output": 447.22
+  },
+  "Digital": {
+    "YSF": {
+      "GroupID": {
+        "Input": "Open ↑",
+        "Output": "Open ↓"
+      }
+    }
+  }
+}

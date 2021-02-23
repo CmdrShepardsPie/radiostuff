@@ -1,0 +1,18 @@
+{
+  "ID": 2727,
+  "StateID": 6,
+  "Callsign": "N6AJB",
+  "Location": {
+    "Latitude": 34.01869965,
+    "Longitude": -117.18900299,
+    "County": "San Bernardino",
+    "State": "CA",
+    "Local": "Redlands, Tremont Ranch"
+  },
+  "Use": "Closed",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 442.02,
+    "Output": 447.02
+  }
+}

@@ -1,0 +1,2 @@
+ID,StateID,Callsign,Use,Status,DigitalTone,Digital,VOIP,Location.Latitude,Location.Longitude,Location.County,Location.State,Location.Local,Frequency.Input,Frequency.Output,SquelchTone.Input,SquelchTone.Output
+1301,48,N5LTZ,Open,On-Air,,,,35.00009918,-101.9509964,Randall,TX,Canyon,448.65,443.65,88.5,

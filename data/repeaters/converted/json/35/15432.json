@@ -1,0 +1,23 @@
+{
+  "ID": 15432,
+  "StateID": 35,
+  "Callsign": "KB5UGU",
+  "Location": {
+    "Latitude": 35.1629982,
+    "Longitude": -106.70999908,
+    "County": "Bernalillo",
+    "State": "NM",
+    "Local": "Albuquerque"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 222.3,
+    "Output": 223.9
+  },
+  "VOIP": {
+    "EchoLink": {
+      "NodeID": 87120
+    }
+  }
+}

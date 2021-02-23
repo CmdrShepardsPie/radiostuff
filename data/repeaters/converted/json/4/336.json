@@ -1,0 +1,18 @@
+{
+  "ID": 336,
+  "StateID": 4,
+  "Callsign": "K7FAY",
+  "Location": {
+    "Latitude": 34.12490082,
+    "Longitude": -114.21099854,
+    "County": "La Paz",
+    "State": "AZ",
+    "Local": "Parker, Black Peak"
+  },
+  "Use": "Closed",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 443.65,
+    "Output": 448.65
+  }
+}

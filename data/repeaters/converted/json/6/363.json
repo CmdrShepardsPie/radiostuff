@@ -1,0 +1,21 @@
+{
+  "ID": 363,
+  "StateID": 6,
+  "Callsign": "W6CDF",
+  "Location": {
+    "Latitude": 33.87889862,
+    "Longitude": -116.8809967,
+    "County": "Riverside",
+    "State": "CA",
+    "Local": "Banning, Mt Edna"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 147.315,
+    "Output": 147.915
+  },
+  "SquelchTone": {
+    "Input": 123
+  }
+}

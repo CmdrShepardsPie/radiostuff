@@ -1,0 +1,2 @@
+ID,StateID,Callsign,Use,Status,SquelchTone,DigitalTone,Digital,VOIP,Location.Latitude,Location.Longitude,Location.County,Location.State,Location.Local,Frequency.Input,Frequency.Output
+339,32,W9RU,Open,Off-Air,,,,,36.19490051,-115.19799805,Clark,NV,"Las Vegas, QTH",444.05,449.05

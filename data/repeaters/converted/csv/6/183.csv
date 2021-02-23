@@ -1,0 +1,2 @@
+ID,StateID,Callsign,Use,Status,DigitalTone,Digital,VOIP,Location.Latitude,Location.Longitude,Location.County,Location.State,Location.Local,Frequency.Input,Frequency.Output,SquelchTone.Input,SquelchTone.Output
+183,6,W6IY,Open,On-Air,,,,36.14810181,-117.70600128,Inyo,CA,"Bishop, Silver Peak",146.31,146.91,103.5,

@@ -1,0 +1,21 @@
+{
+  "ID": 65,
+  "StateID": 4,
+  "Callsign": "K7NAZ",
+  "Location": {
+    "Latitude": 35.19940186,
+    "Longitude": -112.20400238,
+    "County": "Coconino",
+    "State": "AZ",
+    "Local": "Williams, Bill Williams Mountain"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 146.18,
+    "Output": 146.78
+  },
+  "SquelchTone": {
+    "Input": 91.5
+  }
+}

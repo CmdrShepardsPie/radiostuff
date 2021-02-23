@@ -1,0 +1,29 @@
+{
+  "ID": 11026,
+  "StateID": 31,
+  "Callsign": "N0UGO",
+  "Location": {
+    "Latitude": 41.14030075,
+    "Longitude": -100.76000214,
+    "County": "Lincoln",
+    "State": "NE",
+    "Local": "North Platte"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 146.34,
+    "Output": 146.94
+  },
+  "SquelchTone": {
+    "Input": 100
+  },
+  "VOIP": {
+    "EchoLink": {
+      "NodeID": 751985
+    },
+    "IRLP": {
+      "NodeID": 7349
+    }
+  }
+}

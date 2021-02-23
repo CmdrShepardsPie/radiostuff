@@ -1,0 +1,26 @@
+{
+  "ID": 171,
+  "StateID": 49,
+  "Callsign": "NJ7J",
+  "Location": {
+    "Latitude": 41.11330032,
+    "Longitude": -112.02300262,
+    "County": "Davis",
+    "State": "UT",
+    "Local": "Clearfield, civic center"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 444.95,
+    "Output": 449.95
+  },
+  "SquelchTone": {
+    "Input": 123
+  },
+  "VOIP": {
+    "IRLP": {
+      "NodeID": 3876
+    }
+  }
+}

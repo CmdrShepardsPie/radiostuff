@@ -1,0 +1,21 @@
+{
+  "ID": 326,
+  "StateID": 32,
+  "Callsign": "W7LKO",
+  "Location": {
+    "Latitude": 41.10599899,
+    "Longitude": -114.95200348,
+    "County": "Elko",
+    "State": "NV",
+    "Local": "Wells"
+  },
+  "Use": "Private",
+  "Status": "Other",
+  "Frequency": {
+    "Input": 441.975,
+    "Output": 446.975
+  },
+  "SquelchTone": {
+    "Input": 186.2
+  }
+}

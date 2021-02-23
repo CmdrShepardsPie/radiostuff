@@ -1,0 +1,2 @@
+ID,StateID,Callsign,Use,Status,DigitalTone,Digital,Location.Latitude,Location.Longitude,Location.County,Location.State,Location.Local,Frequency.Input,Frequency.Output,SquelchTone.Input,SquelchTone.Output,VOIP.EchoLink,VOIP.Wires,VOIP.AllStar.NodeID,VOIP.IRLP.NodeID
+3085,6,K6ECS,Open,On-Air,,,34.23469925,-117.14099884,San Bernardino,CA,"Running Springs, Heaps Peak",147.105,147.705,167.9,167.9,,,41660,7493

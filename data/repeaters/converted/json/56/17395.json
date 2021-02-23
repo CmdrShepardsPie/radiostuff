@@ -1,0 +1,21 @@
+{
+  "ID": 17395,
+  "StateID": 56,
+  "Callsign": "KD7JNQ",
+  "Location": {
+    "Latitude": 42.0625,
+    "Longitude": -104.18399811,
+    "County": "Goshen",
+    "State": "WY",
+    "Local": "Torrington"
+  },
+  "Use": "Open",
+  "Status": "Other",
+  "Frequency": {
+    "Input": 443.325,
+    "Output": 448.325
+  },
+  "SquelchTone": {
+    "Input": 151.4
+  }
+}

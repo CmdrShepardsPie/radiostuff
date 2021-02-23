@@ -1,0 +1,2 @@
+ID,StateID,Callsign,Use,Status,SquelchTone,Digital,VOIP,Location.Latitude,Location.Longitude,Location.County,Location.State,Location.Local,Frequency.Input,Frequency.Output,DigitalTone.Input,DigitalTone.Output
+19312,32,NX7R,Open,Testing,,,,35.992932,-114.947676,Clark,NV,Henderson,427.625,422.625,754,

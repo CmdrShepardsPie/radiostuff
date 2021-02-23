@@ -1,0 +1,18 @@
+{
+  "ID": 3925,
+  "StateID": 20,
+  "Callsign": "N0LL",
+  "Location": {
+    "Latitude": 39.79899979,
+    "Longitude": -98.67299652,
+    "County": "Smith",
+    "State": "KS",
+    "Local": "Smith Center"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 146.01,
+    "Output": 146.61
+  }
+}

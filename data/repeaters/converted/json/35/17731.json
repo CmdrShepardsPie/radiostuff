@@ -1,0 +1,21 @@
+{
+  "ID": 17731,
+  "StateID": 35,
+  "Callsign": "KD7LEN",
+  "Location": {
+    "Latitude": 35.68059921,
+    "Longitude": -109.0530014,
+    "County": "McKinley",
+    "State": "NM",
+    "Local": "Window Rock"
+  },
+  "Use": "Open",
+  "Status": "Other",
+  "Frequency": {
+    "Input": 447,
+    "Output": 442
+  },
+  "SquelchTone": {
+    "Input": 100
+  }
+}

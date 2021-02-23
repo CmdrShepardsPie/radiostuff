@@ -1,0 +1,21 @@
+{
+  "ID": 16899,
+  "StateID": 32,
+  "Callsign": "KC6ZTB",
+  "Location": {
+    "Latitude": 35.15000153,
+    "Longitude": -114.69999695,
+    "County": "Clark",
+    "State": "NV",
+    "Local": "Laughlin"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 147.9,
+    "Output": 147.3
+  },
+  "SquelchTone": {
+    "Input": 156.7
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "ID": 11328,
+  "StateID": 48,
+  "Callsign": "WR9B",
+  "Location": {
+    "Latitude": 35.22200012,
+    "Longitude": -101.83100128,
+    "County": "Randall",
+    "State": "TX",
+    "Local": "Amarillo"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 446.375,
+    "Output": 441.375
+  },
+  "SquelchTone": {
+    "Input": 88.5
+  }
+}

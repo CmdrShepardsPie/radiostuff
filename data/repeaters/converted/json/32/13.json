@@ -1,0 +1,30 @@
+{
+  "ID": 13,
+  "StateID": 32,
+  "Callsign": "KC7TMC",
+  "Location": {
+    "Latitude": 36.33369827,
+    "Longitude": -114.97599792,
+    "County": "Clark",
+    "State": "NV",
+    "Local": "Las Vegas, Apex Mountain"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 147.66,
+    "Output": 147.06
+  },
+  "SquelchTone": {
+    "Input": 100,
+    "Output": 100
+  },
+  "Digital": {
+    "YSF": {
+      "GroupID": {
+        "Input": "Open ↑",
+        "Output": "Open ↓"
+      }
+    }
+  }
+}

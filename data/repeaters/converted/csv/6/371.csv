@@ -1,0 +1,2 @@
+ID,StateID,Callsign,Use,Status,DigitalTone,Digital,Location.Latitude,Location.Longitude,Location.County,Location.State,Location.Local,Frequency.Input,Frequency.Output,SquelchTone.Input,SquelchTone.Output,VOIP.AllStar,VOIP.Wires,VOIP.EchoLink.NodeID,VOIP.IRLP.NodeID
+371,6,N7OD,Open,On-Air,,,33.75230026,-116.96099854,Riverside,CA,"Hemet, Hemet Valley Med Ctr",144.82,145.42,88.5,,,,3341,3341

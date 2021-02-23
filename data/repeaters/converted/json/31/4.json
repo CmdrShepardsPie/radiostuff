@@ -1,0 +1,38 @@
+{
+  "ID": 4,
+  "StateID": 31,
+  "Callsign": "WM0L",
+  "Location": {
+    "Latitude": 42.49200058,
+    "Longitude": -99.88269806,
+    "County": "Brown",
+    "State": "NE",
+    "Local": "Ainsworth"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 147.96,
+    "Output": 147.36
+  },
+  "SquelchTone": {
+    "Input": 225.7,
+    "Output": 225.7
+  },
+  "Digital": {
+    "YSF": {
+      "GroupID": {
+        "Input": "Open ↑",
+        "Output": "Open ↓"
+      }
+    }
+  },
+  "VOIP": {
+    "IRLP": {
+      "NodeID": 3142
+    },
+    "Wires": {
+      "ID": 11451
+    }
+  }
+}

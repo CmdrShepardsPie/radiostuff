@@ -1,0 +1,26 @@
+{
+  "ID": 19607,
+  "StateID": 35,
+  "Callsign": "WD9CMS",
+  "Location": {
+    "Latitude": 35.2102777,
+    "Longitude": -106.4497222,
+    "County": "Bernalillo",
+    "State": "NM",
+    "Local": "Albuquerque, Sandia Crest"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 902.3375,
+    "Output": 927.3375
+  },
+  "SquelchTone": {
+    "Input": 131.8
+  },
+  "Digital": {
+    "P25": {
+      "NAC": 293
+    }
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "ID": 15222,
+  "StateID": 32,
+  "Callsign": "N6LXX",
+  "Location": {
+    "Latitude": 38.80260086,
+    "Longitude": -116.41899872,
+    "County": "Clark",
+    "State": "NV",
+    "Local": "Las Vegas, Low Potosi"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 442.225,
+    "Output": 447.225
+  },
+  "SquelchTone": {
+    "Input": 110.9,
+    "Output": 110.9
+  },
+  "VOIP": {
+    "AllStar": {
+      "NodeID": 29883
+    }
+  }
+}

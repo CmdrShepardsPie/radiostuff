@@ -1,0 +1,2 @@
+ID,StateID,Callsign,Use,Status,DigitalTone,Digital,VOIP,Location.Latitude,Location.Longitude,Location.County,Location.State,Location.Local,Frequency.Input,Frequency.Output,SquelchTone.Input,SquelchTone.Output
+88,49,KB7WQD,Open,On-Air,,,,39.35219955,-112.57700348,Millard,UT,"Delta, Notch Peak",147.98,147.38,203.5,

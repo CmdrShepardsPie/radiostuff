@@ -1,0 +1,2 @@
+ID,StateID,Callsign,Use,Status,DigitalTone,Digital,VOIP,Location.Latitude,Location.Longitude,Location.County,Location.State,Location.Local,Frequency.Input,Frequency.Output,SquelchTone.Input,SquelchTone.Output
+11622,4,N7LOQ,Open,On-Air,,,,34.19189835,-112.7539978,Yavapai,AZ,"Yarnell, Yarnell Hill",146.02,146.62,162.2,162.2

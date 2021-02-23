@@ -1,0 +1,21 @@
+{
+  "ID": 16667,
+  "StateID": 35,
+  "Callsign": "NM5SJ",
+  "Location": {
+    "Latitude": 36.95000076,
+    "Longitude": -107.84999847,
+    "County": "San Juan",
+    "State": "NM",
+    "Local": "Nebo, Cedar Hill"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 147.66,
+    "Output": 147.06
+  },
+  "SquelchTone": {
+    "Input": 100
+  }
+}

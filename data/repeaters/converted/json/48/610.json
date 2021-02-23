@@ -1,0 +1,23 @@
+{
+  "ID": 610,
+  "StateID": 48,
+  "Callsign": "WA5CSF",
+  "Location": {
+    "Latitude": 35.66699982,
+    "Longitude": -101.39700317,
+    "County": "Hutchinson",
+    "State": "TX",
+    "Local": "Borger"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 147.66,
+    "Output": 147.06
+  },
+  "VOIP": {
+    "EchoLink": {
+      "NodeID": 387265
+    }
+  }
+}

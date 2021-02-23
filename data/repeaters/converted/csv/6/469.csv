@@ -1,0 +1,2 @@
+ID,StateID,Callsign,Use,Status,DigitalTone,Digital,VOIP,Location.Latitude,Location.Longitude,Location.County,Location.State,Location.Local,Frequency.Input,Frequency.Output,SquelchTone.Input,SquelchTone.Output
+469,6,WA6EFW,Open,On-Air,,,,34.53609848,-117.29000092,San Bernardino,CA,Victorville,146.34,146.94,91.5,

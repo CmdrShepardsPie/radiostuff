@@ -1,0 +1,2 @@
+ID,StateID,Callsign,Use,Status,SquelchTone,DigitalTone,Digital,VOIP,Location.Latitude,Location.Longitude,Location.County,Location.State,Location.Local,Frequency.Input,Frequency.Output
+41,32,WB7WTS,Open,On-Air,,,,,37.69469833,-117.36100006,Esmeralda,NV,"Goldfield, Montezuma Peak",146.04,146.64

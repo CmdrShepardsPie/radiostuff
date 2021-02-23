@@ -1,0 +1,2 @@
+ID,StateID,Callsign,Use,Status,DigitalTone,Digital,VOIP,Location.Latitude,Location.Longitude,Location.County,Location.State,Location.Local,Frequency.Input,Frequency.Output,SquelchTone.Input,SquelchTone.Output
+23,35,KB5XE,Open,On-Air,,,,35.10919952,-106.49700165,Bernalillo,NM,Albuquerque,147.96,147.36,100,

@@ -1,0 +1,2 @@
+ID,StateID,Callsign,Use,Status,DigitalTone,Digital,VOIP,Location.Latitude,Location.Longitude,Location.County,Location.State,Location.Local,Frequency.Input,Frequency.Output,SquelchTone.Input,SquelchTone.Output
+44,32,WB7WTS,Open,Off-Air,,,,39.1609993,-114.61499786,White Pine,NV,"Ely, Cave Mountain",146.01,146.61,114.8,

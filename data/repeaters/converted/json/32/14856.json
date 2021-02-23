@@ -1,0 +1,18 @@
+{
+  "ID": 14856,
+  "StateID": 32,
+  "Callsign": "KB7IWQ",
+  "Location": {
+    "Latitude": 40.72660065,
+    "Longitude": -115.58599854,
+    "County": "Elko",
+    "State": "NV",
+    "Local": "Spring Creek"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 449.2,
+    "Output": 444.2
+  }
+}

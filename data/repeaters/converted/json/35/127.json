@@ -1,0 +1,21 @@
+{
+  "ID": 127,
+  "StateID": 35,
+  "Callsign": "WA5TSV",
+  "Location": {
+    "Latitude": 34.80609894,
+    "Longitude": -106.73300171,
+    "County": "Valencia",
+    "State": "NM",
+    "Local": "Los Lunas"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 449.125,
+    "Output": 444.125
+  },
+  "SquelchTone": {
+    "Input": 100
+  }
+}

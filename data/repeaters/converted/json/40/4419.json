@@ -1,0 +1,21 @@
+{
+  "ID": 4419,
+  "StateID": 40,
+  "Callsign": "N5DFQ",
+  "Location": {
+    "Latitude": 36.67580032,
+    "Longitude": -101.54699707,
+    "County": "Texas",
+    "State": "OK",
+    "Local": "Guymon"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 449.975,
+    "Output": 444.975
+  },
+  "SquelchTone": {
+    "Input": 88.5
+  }
+}

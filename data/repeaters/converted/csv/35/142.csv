@@ -1,0 +1,2 @@
+ID,StateID,Callsign,Use,Status,DigitalTone,Digital,VOIP,Location.Latitude,Location.Longitude,Location.County,Location.State,Location.Local,Frequency.Input,Frequency.Output,SquelchTone.Input,SquelchTone.Output
+142,35,K5CPU,Open,On-Air,,,,35.22499847,-106.66000366,Sandoval,NM,"Rio Rancho, Intel Corp",449.7,444.7,100,

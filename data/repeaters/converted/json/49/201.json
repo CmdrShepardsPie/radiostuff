@@ -1,0 +1,26 @@
+{
+  "ID": 201,
+  "StateID": 49,
+  "Callsign": "W7IHC",
+  "Location": {
+    "Latitude": 40.71229935,
+    "Longitude": -112.0019989,
+    "County": "Salt Lake",
+    "State": "UT",
+    "Local": "Salt Lake City, IHC"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 443.55,
+    "Output": 448.55
+  },
+  "SquelchTone": {
+    "Input": 100
+  },
+  "VOIP": {
+    "IRLP": {
+      "NodeID": 3078
+    }
+  }
+}

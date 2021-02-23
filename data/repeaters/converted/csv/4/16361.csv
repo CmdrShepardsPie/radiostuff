@@ -1,0 +1,2 @@
+ID,StateID,Callsign,Use,Status,SquelchTone,DigitalTone,VOIP,Location.Latitude,Location.Longitude,Location.County,Location.State,Location.Local,Frequency.Input,Frequency.Output,Digital.P25,Digital.DStar,Digital.YSF,Digital.DMR.ColorCode,Digital.DMR.ID
+16361,4,KB6BOB,Open,On-Air,,,,34.63299942,-112.51699829,Yavapai,AZ,Prescott,442.875,447.875,,,,1,310408

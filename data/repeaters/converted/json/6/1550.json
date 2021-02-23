@@ -1,0 +1,21 @@
+{
+  "ID": 1550,
+  "StateID": 6,
+  "Callsign": "W6MTA",
+  "Location": {
+    "Latitude": 34.20780182,
+    "Longitude": -117.10800171,
+    "County": "San Bernardino",
+    "State": "CA",
+    "Local": "Running Springs"
+  },
+  "Use": "Private",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 444.98,
+    "Output": 449.98
+  },
+  "SquelchTone": {
+    "Input": 141.3
+  }
+}

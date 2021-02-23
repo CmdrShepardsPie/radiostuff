@@ -1,0 +1,2 @@
+ID,StateID,Callsign,Use,Status,DigitalTone,Digital,VOIP,Location.Latitude,Location.Longitude,Location.County,Location.State,Location.Local,Frequency.Input,Frequency.Output,SquelchTone.Input,SquelchTone.Output
+457,6,K6SBC,Closed,On-Air,,,,34.19210052,-116.70899963,San Bernardino,CA,"Onyx, Onyx Peak",144.52,145.12,156.7,

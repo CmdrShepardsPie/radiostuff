@@ -1,0 +1,21 @@
+{
+  "ID": 287,
+  "StateID": 32,
+  "Callsign": "WB6TNP",
+  "Location": {
+    "Latitude": 35.8932991,
+    "Longitude": -115.49500275,
+    "County": "Clark",
+    "State": "NV",
+    "Local": "Las Vegas, Lo Potosi Mountain"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 902.0375,
+    "Output": 927.0375
+  },
+  "SquelchTone": {
+    "Input": 141.3
+  }
+}

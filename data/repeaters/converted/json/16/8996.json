@@ -1,0 +1,18 @@
+{
+  "ID": 8996,
+  "StateID": 16,
+  "Callsign": "WB6EVM",
+  "Location": {
+    "Latitude": 42.87129974,
+    "Longitude": -112.44599915,
+    "County": "Bannock",
+    "State": "ID",
+    "Local": "Pocatello"
+  },
+  "Use": "Private",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 444.125,
+    "Output": 449.125
+  }
+}

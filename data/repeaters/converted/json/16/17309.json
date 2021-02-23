@@ -1,0 +1,34 @@
+{
+  "ID": 17309,
+  "StateID": 16,
+  "Callsign": "KB7SQS",
+  "Location": {
+    "Latitude": 42.5727005,
+    "Longitude": -114.61199951,
+    "County": "Twin Falls",
+    "State": "ID",
+    "Local": "Filer, Everton Building"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 449.6,
+    "Output": 444.6
+  },
+  "SquelchTone": {
+    "Input": 100
+  },
+  "Digital": {
+    "YSF": {
+      "GroupID": {
+        "Input": "Open ↑",
+        "Output": "Open ↓"
+      }
+    }
+  },
+  "VOIP": {
+    "Wires": {
+      "ID": 43210
+    }
+  }
+}

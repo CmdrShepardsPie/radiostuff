@@ -1,0 +1,21 @@
+{
+  "ID": 21,
+  "StateID": 32,
+  "Callsign": "WB7DRJ",
+  "Location": {
+    "Latitude": 36.03099823,
+    "Longitude": -114.98100281,
+    "County": "Clark",
+    "State": "NV",
+    "Local": "Henderson"
+  },
+  "Use": "Open",
+  "Status": "Off-Air",
+  "Frequency": {
+    "Input": 147.81,
+    "Output": 147.21
+  },
+  "SquelchTone": {
+    "Input": 100
+  }
+}

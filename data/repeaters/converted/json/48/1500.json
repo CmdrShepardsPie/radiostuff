@@ -1,0 +1,21 @@
+{
+  "ID": 1500,
+  "StateID": 48,
+  "Callsign": "N5LTZ",
+  "Location": {
+    "Latitude": 35.53620148,
+    "Longitude": -100.95999908,
+    "County": "Gray",
+    "State": "TX",
+    "Local": "Pampa"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 449.4,
+    "Output": 444.4
+  },
+  "SquelchTone": {
+    "Input": 88.5
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "ID": 27,
+  "StateID": 49,
+  "Callsign": "K7JL",
+  "Location": {
+    "Latitude": 38.52030182,
+    "Longitude": -113.28700256,
+    "County": "Beaver",
+    "State": "UT",
+    "Local": "Milford, Frisco Peak"
+  },
+  "Use": "Closed",
+  "Status": "Other",
+  "Frequency": {
+    "Input": 443.675,
+    "Output": 448.675
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "ID": 14,
+  "StateID": 49,
+  "Callsign": "K7CSW",
+  "Location": {
+    "Latitude": 40.77590179,
+    "Longitude": -111.95300293,
+    "County": "Salt Lake",
+    "State": "UT",
+    "Local": "Salt Lake City, SLC"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 443.05,
+    "Output": 448.05
+  },
+  "SquelchTone": {
+    "Input": 100
+  }
+}

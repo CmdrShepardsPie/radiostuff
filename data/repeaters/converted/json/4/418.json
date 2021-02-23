@@ -1,0 +1,21 @@
+{
+  "ID": 418,
+  "StateID": 4,
+  "Callsign": "W7DXJ",
+  "Location": {
+    "Latitude": 34.49890137,
+    "Longitude": -114.27600098,
+    "County": "Mohave",
+    "State": "AZ",
+    "Local": "Lake Havasu City"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 444.95,
+    "Output": 449.95
+  },
+  "SquelchTone": {
+    "Input": 141.3
+  }
+}

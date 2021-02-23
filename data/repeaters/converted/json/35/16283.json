@@ -1,0 +1,29 @@
+{
+  "ID": 16283,
+  "StateID": 35,
+  "Callsign": "KC0QIZ",
+  "Location": {
+    "Latitude": 35.16609955,
+    "Longitude": -106.54299927,
+    "County": "Bernalillo",
+    "State": "NM",
+    "Local": "Albuquerque"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 448.85,
+    "Output": 443.85
+  },
+  "SquelchTone": {
+    "Input": 103.5
+  },
+  "VOIP": {
+    "EchoLink": {
+      "NodeID": 881226
+    },
+    "IRLP": {
+      "NodeID": 3818
+    }
+  }
+}

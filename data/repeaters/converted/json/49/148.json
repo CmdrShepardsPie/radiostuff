@@ -1,0 +1,21 @@
+{
+  "ID": 148,
+  "StateID": 49,
+  "Callsign": "N7NKK",
+  "Location": {
+    "Latitude": 38.02019882,
+    "Longitude": -112.21700287,
+    "County": "Garfield",
+    "State": "UT",
+    "Local": "Panguitch, Mount Dutton"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 147.76,
+    "Output": 147.16
+  },
+  "SquelchTone": {
+    "Input": 100
+  }
+}

@@ -1,0 +1,2 @@
+ID,StateID,Callsign,Use,Status,SquelchTone,DigitalTone,Digital,VOIP,Location.Latitude,Location.Longitude,Location.County,Location.State,Location.Local,Frequency.Input,Frequency.Output
+172,49,NR7K,Open,Other,,,,,37.15510178,-113.88400269,Washington,UT,St George,444.325,449.325

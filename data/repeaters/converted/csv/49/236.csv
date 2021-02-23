@@ -1,0 +1,2 @@
+ID,StateID,Callsign,Use,Status,DigitalTone,Digital,VOIP,Location.Latitude,Location.Longitude,Location.County,Location.State,Location.Local,Frequency.Input,Frequency.Output,SquelchTone.Input,SquelchTone.Output
+236,49,WA7GTU,Open,On-Air,,,,37.6446991,-113.37400055,Iron,UT,"Cedar City, Iron Mountain",444.5,449.5,100,

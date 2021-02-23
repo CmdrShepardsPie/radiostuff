@@ -42,6 +42,7 @@ var __importDefault = (this && this.__importDefault) || function (mod) {
         Mode[Mode["P25"] = 3] = "P25";
         Mode[Mode["DStar"] = 4] = "DStar";
         Mode[Mode["YSF"] = 5] = "YSF";
+        Mode[Mode["Any"] = 6] = "Any";
     })(Mode = exports.Mode || (exports.Mode = {}));
     // SEMI-LIMITED BANDS - GENERAL CLASS
     function filterOutputFrequencies(...bands) {
@@ -140,7 +141,8 @@ var __importDefault = (this && this.__importDefault) || function (mod) {
     function filterMode(...modes) {
         return (filter) => filter.Status !== repeater_structured_1.RepeaterStatus.OffAir &&
             filter.Use === repeater_structured_1.RepeaterUse.Open &&
-            ((modes.includes(Mode.FM) && !filter.Digital) ||
+            ((modes.includes(Mode.Any)) ||
+                (modes.includes(Mode.FM) && !filter.Digital) ||
                 (modes.includes(Mode.ATV) && filter.Digital != null && filter.Digital.ATV != null) ||
                 (modes.includes(Mode.DMR) && filter.Digital != null && filter.Digital.DMR != null) ||
                 (modes.includes(Mode.P25) && filter.Digital != null && filter.Digital.P25 != null) ||

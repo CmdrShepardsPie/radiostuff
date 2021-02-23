@@ -1,0 +1,24 @@
+{
+  "ID": 16208,
+  "StateID": 6,
+  "Callsign": "WD6AML",
+  "Location": {
+    "Latitude": 33.75279999,
+    "Longitude": -115.31700134,
+    "County": "Riverside",
+    "State": "CA",
+    "Local": "Desert Center, Chuckwalla Mountains"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 442.9,
+    "Output": 447.9
+  },
+  "Digital": {
+    "DMR": {
+      "ColorCode": 1,
+      "ID": 110617
+    }
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "ID": 8551,
+  "StateID": 20,
+  "Callsign": "K0USY",
+  "Location": {
+    "Latitude": 38.90340042,
+    "Longitude": -99.34359741,
+    "County": "Ellis",
+    "State": "KS",
+    "Local": "Hays, KS-DMR"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 449.75,
+    "Output": 444.75
+  },
+  "Digital": {
+    "DMR": {
+      "ColorCode": 1,
+      "ID": 312003
+    }
+  }
+}

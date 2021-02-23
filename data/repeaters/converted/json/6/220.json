@@ -1,0 +1,21 @@
+{
+  "ID": 220,
+  "StateID": 6,
+  "Callsign": "KE6GUC",
+  "Location": {
+    "Latitude": 34.44419861,
+    "Longitude": -117.93399811,
+    "County": "Los Angeles",
+    "State": "CA",
+    "Local": "Juniper Hills"
+  },
+  "Use": "Open",
+  "Status": "Off-Air",
+  "Frequency": {
+    "Input": 147.315,
+    "Output": 147.915
+  },
+  "SquelchTone": {
+    "Input": 67
+  }
+}

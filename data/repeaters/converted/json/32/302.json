@@ -1,0 +1,18 @@
+{
+  "ID": 302,
+  "StateID": 32,
+  "Callsign": "WB7WTS",
+  "Location": {
+    "Latitude": 37.70800018,
+    "Longitude": -117.23300171,
+    "County": "Esmeralda",
+    "State": "NV",
+    "Local": "Goldfield"
+  },
+  "Use": "Open",
+  "Status": "Other",
+  "Frequency": {
+    "Input": 222.1,
+    "Output": 223.7
+  }
+}

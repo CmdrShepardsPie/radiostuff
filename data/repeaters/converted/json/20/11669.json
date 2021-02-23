@@ -1,0 +1,27 @@
+{
+  "ID": 11669,
+  "StateID": 20,
+  "Callsign": "K0HAM",
+  "Location": {
+    "Latitude": 37.76599884,
+    "Longitude": -100.03500366,
+    "County": "Ford",
+    "State": "KS",
+    "Local": "Dodge City, K-Link"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 448.675,
+    "Output": 443.675
+  },
+  "SquelchTone": {
+    "Input": 162.2,
+    "Output": 162.2
+  },
+  "VOIP": {
+    "AllStar": {
+      "NodeID": 46012
+    }
+  }
+}

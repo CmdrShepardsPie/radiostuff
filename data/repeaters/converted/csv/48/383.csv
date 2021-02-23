@@ -1,0 +1,2 @@
+ID,StateID,Callsign,Use,Status,DigitalTone,Digital,VOIP,Location.Latitude,Location.Longitude,Location.County,Location.State,Location.Local,Frequency.Input,Frequency.Output,SquelchTone.Input,SquelchTone.Output
+383,48,K5IS,Open,Other,,,,36.40000153,-100.8030014,Ochiltree,TX,Perryton,146.04,146.64,88.5,

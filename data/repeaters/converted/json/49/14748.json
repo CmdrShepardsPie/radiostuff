@@ -1,0 +1,23 @@
+{
+  "ID": 14748,
+  "StateID": 49,
+  "Callsign": "KB7BSK",
+  "Location": {
+    "Latitude": 39.1935997,
+    "Longitude": -111.69200134,
+    "County": "Sanpete",
+    "State": "UT",
+    "Local": "Sterling"
+  },
+  "Use": "Open",
+  "Status": "Other",
+  "Frequency": {
+    "Input": 144.55,
+    "Output": 145.15
+  },
+  "Digital": {
+    "DStar": {
+      "Node": "KB7BSK (C)"
+    }
+  }
+}

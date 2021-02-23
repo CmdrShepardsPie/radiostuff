@@ -1,0 +1,2 @@
+ID,StateID,Callsign,Use,Status,DigitalTone,Digital,VOIP,Location.Latitude,Location.Longitude,Location.County,Location.State,Location.Local,Frequency.Input,Frequency.Output,SquelchTone.Input,SquelchTone.Output
+6968,6,K6DK,Open,On-Air,,,,34.89580154,-117.01699829,San Bernardino,CA,Barstow,146.16,146.76,136.5,

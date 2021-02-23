@@ -1,0 +1,2 @@
+ID,StateID,Callsign,Use,Status,DigitalTone,Digital,VOIP,Location.Latitude,Location.Longitude,Location.County,Location.State,Location.Local,Frequency.Input,Frequency.Output,SquelchTone.Input,SquelchTone.Output
+199,49,W7EO,Open,Other,,,,40.13079834,-112.3809967,Tooele,UT,"Vernon, Vernon Hills",444.95,449.95,100,

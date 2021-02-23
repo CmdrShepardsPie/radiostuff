@@ -1,0 +1,2 @@
+ID,StateID,Callsign,Use,Status,DigitalTone,Digital,Location.Latitude,Location.Longitude,Location.County,Location.State,Location.Local,Frequency.Input,Frequency.Output,SquelchTone.Input,SquelchTone.Output,VOIP.AllStar,VOIP.EchoLink,VOIP.Wires,VOIP.IRLP.NodeID
+231,49,WA7GIE,Open,On-Air,,,40.26169968,-111.9280014,Utah,UT,"Provo, Lake Mountain",444.475,449.475,100,,,,,5620

@@ -1,0 +1,2 @@
+ID,StateID,Callsign,Use,Status,DigitalTone,Digital,VOIP,Location.Latitude,Location.Longitude,Location.County,Location.State,Location.Local,Frequency.Input,Frequency.Output,SquelchTone.Input,SquelchTone.Output
+8126,6,WA6LSE,Closed,On-Air,,,,33.97370148,-117.28500366,Riverside,CA,"Moreno Valley, Box Springs",440.38,445.38,127.3,127.3

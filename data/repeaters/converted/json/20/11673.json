@@ -1,0 +1,21 @@
+{
+  "ID": 11673,
+  "StateID": 20,
+  "Callsign": "AA0HJ",
+  "Location": {
+    "Latitude": 39.90800095,
+    "Longitude": -99.39700317,
+    "County": "Phillips",
+    "State": "KS",
+    "Local": "Phillipsburg"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 448.275,
+    "Output": 443.275
+  },
+  "SquelchTone": {
+    "Input": 100
+  }
+}

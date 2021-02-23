@@ -1,0 +1,23 @@
+{
+  "ID": 2461,
+  "StateID": 6,
+  "Callsign": "K6IFR",
+  "Location": {
+    "Latitude": 33.83029938,
+    "Longitude": -116.54399872,
+    "County": "Riverside",
+    "State": "CA",
+    "Local": "Palm Springs"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 442.14,
+    "Output": 447.14
+  },
+  "Digital": {
+    "DStar": {
+      "Node": "K6IFR (B)"
+    }
+  }
+}

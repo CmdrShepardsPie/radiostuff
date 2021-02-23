@@ -1,0 +1,2 @@
+ID,StateID,Callsign,Use,Status,DigitalTone,Digital,VOIP,Location.Latitude,Location.Longitude,Location.County,Location.State,Location.Local,Frequency.Input,Frequency.Output,SquelchTone.Input,SquelchTone.Output
+972,6,W5HMV,Open,Off-Air,,,,35.7627371,-117.37309,San Bernardino,CA,Trona,0,447.02,123,

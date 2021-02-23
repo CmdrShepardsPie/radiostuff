@@ -1,0 +1,21 @@
+{
+  "ID": 19653,
+  "StateID": 31,
+  "Callsign": "W0SSB",
+  "Location": {
+    "Latitude": 41.8666341,
+    "Longitude": -103.6671662,
+    "County": "Scotts Bluff",
+    "State": "NE",
+    "Local": "Scottsbluff"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 449.25,
+    "Output": 444.25
+  },
+  "Digital": {
+    "DMR": {}
+  }
+}

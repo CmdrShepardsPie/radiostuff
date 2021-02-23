@@ -1,0 +1,2 @@
+ID,StateID,Callsign,Use,Status,DigitalTone,Digital,VOIP,Location.Latitude,Location.Longitude,Location.County,Location.State,Location.Local,Frequency.Input,Frequency.Output,SquelchTone.Input,SquelchTone.Output
+15670,8,KI0HG,Open,On-Air,,,,40.17269897,-105.46800232,Boulder,CO,"Allenspark, AFPD Station #5",147.63,147.03,100,

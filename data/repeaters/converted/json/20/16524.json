@@ -1,0 +1,24 @@
+{
+  "ID": 16524,
+  "StateID": 20,
+  "Callsign": "KE0PTS",
+  "Location": {
+    "Latitude": 38.40359879,
+    "Longitude": -98.72920227,
+    "County": "Barton",
+    "State": "KS",
+    "Local": "Great Bend"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 447.075,
+    "Output": 442.075
+  },
+  "Digital": {
+    "DMR": {
+      "ColorCode": 1,
+      "ID": 312021
+    }
+  }
+}

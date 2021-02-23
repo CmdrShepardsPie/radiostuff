@@ -1,0 +1,21 @@
+{
+  "ID": 5,
+  "StateID": 49,
+  "Callsign": "AC7O",
+  "Location": {
+    "Latitude": 41.25780106,
+    "Longitude": -112.44100189,
+    "County": "Salt Lake",
+    "State": "UT",
+    "Local": "Ogden, Promontory Pt"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 147.86,
+    "Output": 147.26
+  },
+  "SquelchTone": {
+    "Input": 103.5
+  }
+}

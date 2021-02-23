@@ -1,0 +1,2 @@
+ID,StateID,Callsign,Use,Status,DigitalTone,Digital,VOIP,Location.Latitude,Location.Longitude,Location.County,Location.State,Location.Local,Frequency.Input,Frequency.Output,SquelchTone.Input,SquelchTone.Output
+46,32,N7ELY,Open,On-Air,,,,39.30830002,-115.08599854,White Pine,NV,"Ely, Kimberly Mountain",147.78,147.18,114.8,

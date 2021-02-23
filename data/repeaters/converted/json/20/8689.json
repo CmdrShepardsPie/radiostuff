@@ -1,0 +1,22 @@
+{
+  "ID": 8689,
+  "StateID": 20,
+  "Callsign": "NV8Q",
+  "Location": {
+    "Latitude": 39.40119934,
+    "Longitude": -101.10099792,
+    "County": "Thomas",
+    "State": "KS",
+    "Local": "Colby, K-Link"
+  },
+  "Use": "Open",
+  "Status": "Other",
+  "Frequency": {
+    "Input": 449.75,
+    "Output": 444.75
+  },
+  "SquelchTone": {
+    "Input": 162.2,
+    "Output": 162.2
+  }
+}

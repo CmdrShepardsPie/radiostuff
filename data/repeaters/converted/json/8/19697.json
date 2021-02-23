@@ -1,0 +1,23 @@
+{
+  "ID": 19697,
+  "StateID": 8,
+  "Callsign": "K6TDX",
+  "Location": {
+    "Latitude": 37.0666,
+    "Longitude": -104.56138,
+    "County": "Las Animas",
+    "State": "CO",
+    "Local": "Trinidad"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 444.825,
+    "Output": 449.825
+  },
+  "VOIP": {
+    "Wires": {
+      "ID": 80209
+    }
+  }
+}

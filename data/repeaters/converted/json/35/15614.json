@@ -1,0 +1,22 @@
+{
+  "ID": 15614,
+  "StateID": 35,
+  "Callsign": "NM5BC",
+  "Location": {
+    "Latitude": 35.0530014,
+    "Longitude": -106.35199738,
+    "County": "Bernalillo",
+    "State": "NM",
+    "Local": "Tijeras, Cedro Peak"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 144.55,
+    "Output": 145.15
+  },
+  "SquelchTone": {
+    "Input": 100,
+    "Output": 100
+  }
+}

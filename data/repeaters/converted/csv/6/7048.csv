@@ -1,0 +1,2 @@
+ID,StateID,Callsign,Use,Status,DigitalTone,Digital,Location.Latitude,Location.Longitude,Location.County,Location.State,Location.Local,Frequency.Input,Frequency.Output,SquelchTone.Input,SquelchTone.Output,VOIP.IRLP,VOIP.Wires,VOIP.AllStar.NodeID,VOIP.EchoLink.NodeID
+7048,6,KJ6KTV,Open,On-Air,,,34.13700104,-117.59799957,San Bernardino,CA,Alta Loma,441.88,446.88,103.5,,,,28817,362175

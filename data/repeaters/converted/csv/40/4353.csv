@@ -1,0 +1,2 @@
+ID,StateID,Callsign,Use,Status,DigitalTone,Digital,VOIP,Location.Latitude,Location.Longitude,Location.County,Location.State,Location.Local,Frequency.Input,Frequency.Output,SquelchTone.Input,SquelchTone.Output
+4353,40,W5GPR,Open,Other,,,,36.77740097,-99.626297,Harper,OK,Buffalo,147.72,147.12,203.5,

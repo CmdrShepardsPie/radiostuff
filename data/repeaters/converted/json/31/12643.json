@@ -1,0 +1,22 @@
+{
+  "ID": 12643,
+  "StateID": 31,
+  "Callsign": "W0FLO",
+  "Location": {
+    "Latitude": 42.72890091,
+    "Longitude": -103.11100006,
+    "County": "Dawes",
+    "State": "NE",
+    "Local": "Chadron, Nebraska National Forest"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 147.96,
+    "Output": 147.36
+  },
+  "SquelchTone": {
+    "Input": 123,
+    "Output": 123
+  }
+}

@@ -1,0 +1,2 @@
+ID,StateID,Callsign,Use,Status,DigitalTone,Digital,VOIP,Location.Latitude,Location.Longitude,Location.County,Location.State,Location.Local,Frequency.Input,Frequency.Output,SquelchTone.Input,SquelchTone.Output
+2134,6,K6TEM,Open,On-Air,,,,34.18759918,-117.69999695,Los Angeles,CA,"Pomona, Sunset Ridge",1270.825,1282.825,88.5,

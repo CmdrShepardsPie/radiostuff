@@ -1,0 +1,2 @@
+ID,StateID,Callsign,Use,Status,SquelchTone,DigitalTone,Digital,VOIP,Location.Latitude,Location.Longitude,Location.County,Location.State,Location.Local,Frequency.Input,Frequency.Output
+27,49,K7JL,Closed,Other,,,,,38.52030182,-113.28700256,Beaver,UT,"Milford, Frisco Peak",443.675,448.675

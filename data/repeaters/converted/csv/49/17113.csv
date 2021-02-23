@@ -1,0 +1,2 @@
+ID,StateID,Callsign,Use,Status,DigitalTone,Digital,VOIP,Location.Latitude,Location.Longitude,Location.County,Location.State,Location.Local,Frequency.Input,Frequency.Output,SquelchTone.Input,SquelchTone.Output
+17113,49,K7UVA,Open,On-Air,,,,40.53290176,-111.64099884,Utah,UT,"Alpine, Silver Lake Flat",443.225,448.225,100,

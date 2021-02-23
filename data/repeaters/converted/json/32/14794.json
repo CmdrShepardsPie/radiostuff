@@ -1,0 +1,18 @@
+{
+  "ID": 14794,
+  "StateID": 32,
+  "Callsign": "WB6ORK",
+  "Location": {
+    "Latitude": 35.8932991,
+    "Longitude": -115.49500275,
+    "County": "Clark",
+    "State": "NV",
+    "Local": "Las Vegas, Lo Potosi Mtn"
+  },
+  "Use": "Open",
+  "Status": "Off-Air",
+  "Frequency": {
+    "Input": 52.1,
+    "Output": 53.1
+  }
+}

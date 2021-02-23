@@ -1,0 +1,21 @@
+{
+  "ID": 218,
+  "StateID": 6,
+  "Callsign": "K6SRT",
+  "Location": {
+    "Latitude": 34.52109909,
+    "Longitude": -117.98300171,
+    "County": "Los Angeles",
+    "State": "CA",
+    "Local": "Littlerock"
+  },
+  "Use": "Open",
+  "Status": "Other",
+  "Frequency": {
+    "Input": 144.78,
+    "Output": 145.38
+  },
+  "SquelchTone": {
+    "Input": 151.4
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "ID": 16206,
+  "StateID": 49,
+  "Callsign": "N6RTR",
+  "Location": {
+    "Latitude": 37.1269989,
+    "Longitude": -113.6190033,
+    "County": "Washington",
+    "State": "UT",
+    "Local": "Saint George"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 442.45,
+    "Output": 447.45
+  },
+  "SquelchTone": {
+    "Input": 151.4,
+    "Output": 151.4
+  },
+  "VOIP": {
+    "EchoLink": {
+      "NodeID": 305082
+    }
+  }
+}

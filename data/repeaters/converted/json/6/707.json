@@ -1,0 +1,21 @@
+{
+  "ID": 707,
+  "StateID": 6,
+  "Callsign": "W6COH",
+  "Location": {
+    "Latitude": 33.70849991,
+    "Longitude": -116.91999817,
+    "County": "Riverside",
+    "State": "CA",
+    "Local": "Hemet, Simpson Park"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 145.105,
+    "Output": 144.505
+  },
+  "SquelchTone": {
+    "Input": 100
+  }
+}

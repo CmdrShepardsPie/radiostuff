@@ -1,0 +1,18 @@
+{
+  "ID": 15538,
+  "StateID": 56,
+  "Callsign": "AE7AF",
+  "Location": {
+    "Latitude": 42.0544014,
+    "Longitude": -104.95300293,
+    "County": "Platte",
+    "State": "WY",
+    "Local": "Wheatland"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 223.08,
+    "Output": 224.68
+  }
+}

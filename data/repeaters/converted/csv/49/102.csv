@@ -1,0 +1,2 @@
+ID,StateID,Callsign,Use,Status,DigitalTone,Digital,VOIP,Location.Latitude,Location.Longitude,Location.County,Location.State,Location.Local,Frequency.Input,Frequency.Output,SquelchTone.Input,SquelchTone.Output
+102,49,KD7NX,Open,On-Air,,,,40.77190018,-111.83699799,Salt Lake,UT,"Salt Lake City, U of U Hospital",443.1,448.1,114.8,

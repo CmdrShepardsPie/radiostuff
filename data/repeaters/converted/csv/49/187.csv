@@ -1,0 +1,2 @@
+ID,StateID,Callsign,Use,Status,DigitalTone,Digital,VOIP,Location.Latitude,Location.Longitude,Location.County,Location.State,Location.Local,Frequency.Input,Frequency.Output,SquelchTone.Input,SquelchTone.Output
+187,49,W7DBA,Open,Other,,,,41.25899887,-111.76300049,Weber,UT,Huntsville,144.61,145.21,123,

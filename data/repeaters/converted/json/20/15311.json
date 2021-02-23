@@ -1,0 +1,22 @@
+{
+  "ID": 15311,
+  "StateID": 20,
+  "Callsign": "WA0OQA",
+  "Location": {
+    "Latitude": 38.10279846,
+    "Longitude": -100.46399689,
+    "County": "Finney",
+    "State": "KS",
+    "Local": "Garden City"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 51.17,
+    "Output": 52.87
+  },
+  "SquelchTone": {
+    "Input": 141.3,
+    "Output": 141.3
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "ID": 2741,
+  "StateID": 6,
+  "Callsign": "N6LXX",
+  "Location": {
+    "Latitude": 34.35440063,
+    "Longitude": -117.67900085,
+    "County": "Los Angeles",
+    "State": "CA",
+    "Local": "Wrightwood, Blue Ridge"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 441.86,
+    "Output": 446.86
+  },
+  "SquelchTone": {
+    "Input": 110.9
+  },
+  "VOIP": {
+    "AllStar": {
+      "NodeID": 29883
+    }
+  }
+}

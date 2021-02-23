@@ -1,0 +1,21 @@
+{
+  "ID": 5556,
+  "StateID": 49,
+  "Callsign": "W7XDX",
+  "Location": {
+    "Latitude": 40.76079941,
+    "Longitude": -111.89099884,
+    "County": "Salt Lake",
+    "State": "UT",
+    "Local": "Salt Lake City"
+  },
+  "Use": "Open",
+  "Status": "Other",
+  "Frequency": {
+    "Input": 902.5875,
+    "Output": 927.5875
+  },
+  "DigitalTone": {
+    "Input": 432
+  }
+}

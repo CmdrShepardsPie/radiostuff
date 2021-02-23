@@ -1,0 +1,27 @@
+{
+  "ID": 17812,
+  "StateID": 48,
+  "Callsign": "KW5KW",
+  "Location": {
+    "Latitude": 34.55089951,
+    "Longitude": -102.31199646,
+    "County": "Castro",
+    "State": "TX",
+    "Local": "Dimmitt, White house on east side of road"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 449.7,
+    "Output": 444.7
+  },
+  "SquelchTone": {
+    "Input": 110.9,
+    "Output": 110.9
+  },
+  "VOIP": {
+    "Wires": {
+      "ID": 28485
+    }
+  }
+}

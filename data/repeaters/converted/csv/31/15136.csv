@@ -1,0 +1,2 @@
+ID,StateID,Callsign,Use,Status,DigitalTone,Digital,VOIP,Location.Latitude,Location.Longitude,Location.County,Location.State,Location.Local,Frequency.Input,Frequency.Output,SquelchTone.Input,SquelchTone.Output
+15136,31,N7UVW,Open,On-Air,,,,40.19670105,-100.625,Red Willow,NE,McCook,449.8,444.8,162.2,

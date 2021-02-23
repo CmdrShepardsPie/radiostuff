@@ -1,0 +1,2 @@
+ID,StateID,Callsign,Use,Status,DigitalTone,Digital,VOIP,Location.Latitude,Location.Longitude,Location.County,Location.State,Location.Local,Frequency.Input,Frequency.Output,SquelchTone.Input,SquelchTone.Output
+32,49,K7JL,Open,On-Air,,,,39.4919014,-111.82900238,Juab,UT,"Levan, Levan Peak",144.67,145.27,103.5,

@@ -1,0 +1,18 @@
+{
+  "ID": 2207,
+  "StateID": 6,
+  "Callsign": "KA6RWW",
+  "Location": {
+    "Latitude": 34.20780182,
+    "Longitude": -117.10800171,
+    "County": "San Bernardino",
+    "State": "CA",
+    "Local": "Running Springs"
+  },
+  "Use": "Closed",
+  "Status": "Other",
+  "Frequency": {
+    "Input": 1274,
+    "Output": 1286
+  }
+}

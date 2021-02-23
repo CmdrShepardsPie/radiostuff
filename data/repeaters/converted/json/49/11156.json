@@ -1,0 +1,23 @@
+{
+  "ID": 11156,
+  "StateID": 49,
+  "Callsign": "WR7AAA",
+  "Location": {
+    "Latitude": 37.72570038,
+    "Longitude": -113.06800079,
+    "County": "Iron",
+    "State": "UT",
+    "Local": "Cedar City"
+  },
+  "Use": "Open",
+  "Status": "Other",
+  "Frequency": {
+    "Input": 1279.25,
+    "Output": 1299.25
+  },
+  "Digital": {
+    "DStar": {
+      "Node": "WR7AAA (A) Gateway Repeater"
+    }
+  }
+}

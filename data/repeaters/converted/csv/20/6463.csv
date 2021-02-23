@@ -1,0 +1,2 @@
+ID,StateID,Callsign,Use,Status,DigitalTone,Digital,VOIP,Location.Latitude,Location.Longitude,Location.County,Location.State,Location.Local,Frequency.Input,Frequency.Output,SquelchTone.Input,SquelchTone.Output
+6463,20,W0MI,Open,Off-Air,,,,38.48089981,-100.9240036,Scott,KS,"Scott City, K-Link",449.95,444.95,100,100

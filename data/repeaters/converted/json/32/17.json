@@ -1,0 +1,21 @@
+{
+  "ID": 17,
+  "StateID": 32,
+  "Callsign": "N7SKO",
+  "Location": {
+    "Latitude": 35.27500153,
+    "Longitude": -114.72299957,
+    "County": "Clark",
+    "State": "NV",
+    "Local": "Bullhead City, Spirit Mountain"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 144.67,
+    "Output": 145.27
+  },
+  "SquelchTone": {
+    "Input": 131.8
+  }
+}

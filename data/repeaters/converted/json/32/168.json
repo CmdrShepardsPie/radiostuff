@@ -1,0 +1,21 @@
+{
+  "ID": 168,
+  "StateID": 32,
+  "Callsign": "WA6TLW",
+  "Location": {
+    "Latitude": 37.69469833,
+    "Longitude": -117.36100006,
+    "County": "Esmeralda",
+    "State": "NV",
+    "Local": "Goldfield, Montezuma Peak"
+  },
+  "Use": "Closed",
+  "Status": "Other",
+  "Frequency": {
+    "Input": 449.85,
+    "Output": 444.85
+  },
+  "SquelchTone": {
+    "Input": 94.8
+  }
+}

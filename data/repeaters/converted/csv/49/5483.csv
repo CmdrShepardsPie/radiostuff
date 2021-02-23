@@ -1,0 +1,2 @@
+ID,StateID,Callsign,Use,Status,DigitalTone,Digital,VOIP,Location.Latitude,Location.Longitude,Location.County,Location.State,Location.Local,Frequency.Input,Frequency.Output,SquelchTone.Input,SquelchTone.Output
+5483,49,N6EZO,Open,On-Air,,,,40.13019943,-111.57900238,Utah,UT,Mapleton,146.2,146.8,100,

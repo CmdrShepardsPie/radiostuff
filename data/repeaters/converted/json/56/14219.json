@@ -1,0 +1,21 @@
+{
+  "ID": 14219,
+  "StateID": 56,
+  "Callsign": "WY7BV",
+  "Location": {
+    "Latitude": 41.08269882,
+    "Longitude": -110.23300171,
+    "County": "Uinta",
+    "State": "WY",
+    "Local": "Mountain View, Hickey Mtn"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 145.235,
+    "Output": 144.635
+  },
+  "SquelchTone": {
+    "Input": 100
+  }
+}

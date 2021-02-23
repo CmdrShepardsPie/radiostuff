@@ -1,0 +1,2 @@
+ID,StateID,Callsign,Use,Status,DigitalTone,Digital,Location.Latitude,Location.Longitude,Location.County,Location.State,Location.Local,Frequency.Input,Frequency.Output,SquelchTone.Input,SquelchTone.Output,VOIP.EchoLink,VOIP.IRLP,VOIP.Wires,VOIP.AllStar.NodeID
+12362,6,WA6CAM,Open,On-Air,,,35.05250168,-118.1740036,Kern,CA,Tehachapi,902.025,927.025,146.2,146.2,,,,47070

@@ -1,0 +1,21 @@
+{
+  "ID": 15631,
+  "StateID": 35,
+  "Callsign": "NM5EM",
+  "Location": {
+    "Latitude": 35.78530121,
+    "Longitude": -105.78199768,
+    "County": "Santa Fe",
+    "State": "NM",
+    "Local": "Santa Fe, Tesuque Peak"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 147.62,
+    "Output": 147.02
+  },
+  "SquelchTone": {
+    "Input": 141.3
+  }
+}

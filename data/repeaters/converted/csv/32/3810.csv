@@ -1,0 +1,2 @@
+ID,StateID,Callsign,Use,Status,SquelchTone,Digital,Location.Latitude,Location.Longitude,Location.County,Location.State,Location.Local,Frequency.Input,Frequency.Output,DigitalTone.Input,DigitalTone.Output,VOIP.AllStar,VOIP.EchoLink,VOIP.Wires,VOIP.IRLP.NodeID
+3810,32,N7SGV,Open,On-Air,,,36.66500092,-114.56800079,Clark,NV,"Glendale, Beacon Hill",144.7,145.3,244,,,,,3376

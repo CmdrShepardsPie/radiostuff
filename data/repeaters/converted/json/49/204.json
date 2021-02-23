@@ -1,0 +1,34 @@
+{
+  "ID": 204,
+  "StateID": 49,
+  "Callsign": "K7DAV",
+  "Location": {
+    "Latitude": 41.02560043,
+    "Longitude": -111.83699799,
+    "County": "Davis",
+    "State": "UT",
+    "Local": "Layton, Shepherd Peak"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 444.875,
+    "Output": 449.875
+  },
+  "DigitalTone": {
+    "Input": 51
+  },
+  "Digital": {
+    "YSF": {
+      "GroupID": {
+        "Input": "Open ↑",
+        "Output": "Open ↓"
+      }
+    }
+  },
+  "VOIP": {
+    "Wires": {
+      "ID": 30115
+    }
+  }
+}

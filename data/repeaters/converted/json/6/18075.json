@@ -1,0 +1,18 @@
+{
+  "ID": 18075,
+  "StateID": 6,
+  "Callsign": "W6JJR",
+  "Location": {
+    "Latitude": 34.24000168,
+    "Longitude": -117.27999878,
+    "County": "San Bernardino",
+    "State": "CA",
+    "Local": "Crestline"
+  },
+  "Use": "Closed",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 440.36,
+    "Output": 445.36
+  }
+}

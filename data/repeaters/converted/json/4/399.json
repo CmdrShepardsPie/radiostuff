@@ -1,0 +1,24 @@
+{
+  "ID": 399,
+  "StateID": 4,
+  "Callsign": "WB7BYV",
+  "Location": {
+    "Latitude": 34.54000092,
+    "Longitude": -112.46800232,
+    "County": "Yavapai",
+    "State": "AZ",
+    "Local": "Prescott"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 444.675,
+    "Output": 449.675
+  },
+  "Digital": {
+    "DMR": {
+      "ColorCode": 1,
+      "ID": 312089
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "ID": 228,
+  "StateID": 49,
+  "Callsign": "WA7GIE",
+  "Location": {
+    "Latitude": 40.61360168,
+    "Longitude": -112.18699646,
+    "County": "Salt Lake",
+    "State": "UT",
+    "Local": "Salt Lake City, Nelson Peak"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 444,
+    "Output": 449
+  }
+}

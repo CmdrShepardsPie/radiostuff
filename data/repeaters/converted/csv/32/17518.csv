@@ -1,0 +1,2 @@
+ID,StateID,Callsign,Use,Status,DigitalTone,Digital,VOIP,Location.Latitude,Location.Longitude,Location.County,Location.State,Location.Local,Frequency.Input,Frequency.Output,SquelchTone.Input,SquelchTone.Output
+17518,32,WB6AMT,Open,Other,,,,36.20830154,-115.98400116,Nye,NV,Pahrump,444.85,449.85,156.7,156.7

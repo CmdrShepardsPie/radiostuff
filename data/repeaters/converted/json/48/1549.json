@@ -1,0 +1,21 @@
+{
+  "ID": 1549,
+  "StateID": 48,
+  "Callsign": "N5LTZ",
+  "Location": {
+    "Latitude": 34.7928009,
+    "Longitude": -101.54699707,
+    "County": "Armstrong",
+    "State": "TX",
+    "Local": "Wayside"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 449.575,
+    "Output": 444.575
+  },
+  "SquelchTone": {
+    "Input": 88.5
+  }
+}

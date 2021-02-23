@@ -1,0 +1,18 @@
+{
+  "ID": 1457,
+  "StateID": 6,
+  "Callsign": "NO6B",
+  "Location": {
+    "Latitude": 34.24829865,
+    "Longitude": -117.18800354,
+    "County": "San Bernardino",
+    "State": "CA",
+    "Local": "Lake Arrowhead"
+  },
+  "Use": "Private",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 440.46,
+    "Output": 445.46
+  }
+}

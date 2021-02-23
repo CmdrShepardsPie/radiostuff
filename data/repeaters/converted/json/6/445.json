@@ -1,0 +1,18 @@
+{
+  "ID": 445,
+  "StateID": 6,
+  "Callsign": "W5WH",
+  "Location": {
+    "Latitude": 35.47809982,
+    "Longitude": -117.6989975,
+    "County": "Kern",
+    "State": "CA",
+    "Local": "Ridgecrest, El Paso Peak"
+  },
+  "Use": "Closed",
+  "Status": "Other",
+  "Frequency": {
+    "Input": 223.3,
+    "Output": 224.9
+  }
+}

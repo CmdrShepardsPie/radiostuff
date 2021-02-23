@@ -1,0 +1,2 @@
+ID,StateID,Callsign,Use,Status,DigitalTone,Digital,VOIP,Location.Latitude,Location.Longitude,Location.County,Location.State,Location.Local,Frequency.Input,Frequency.Output,SquelchTone.Input,SquelchTone.Output
+234,49,WA7GIE,Open,On-Air,,,,40.85499954,-111.48000336,Summit,UT,"Coalville, Lewis Peak",444.55,449.55,100,

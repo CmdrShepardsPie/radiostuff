@@ -1,0 +1,21 @@
+{
+  "ID": 15667,
+  "StateID": 16,
+  "Callsign": "KA7CVV",
+  "Location": {
+    "Latitude": 41.84199905,
+    "Longitude": -115.47100067,
+    "County": "Twin Falls",
+    "State": "ID",
+    "Local": "Twin Falls, Deer Mtn"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 147.76,
+    "Output": 147.16
+  },
+  "SquelchTone": {
+    "Input": 100
+  }
+}

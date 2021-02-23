@@ -1,0 +1,21 @@
+{
+  "ID": 41,
+  "StateID": 35,
+  "Callsign": "N5LEM",
+  "Location": {
+    "Latitude": 36.36000061,
+    "Longitude": -105.20999908,
+    "County": "Colfax",
+    "State": "NM",
+    "Local": "Angel Fire, Agua Fria Peak"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 147.94,
+    "Output": 147.34
+  },
+  "SquelchTone": {
+    "Input": 100
+  }
+}

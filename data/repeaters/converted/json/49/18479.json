@@ -1,0 +1,28 @@
+{
+  "ID": 18479,
+  "StateID": 49,
+  "Callsign": "KE7NHU",
+  "Location": {
+    "Latitude": 40.29299927,
+    "Longitude": -111.88400269,
+    "County": "Utah",
+    "State": "UT",
+    "Local": "Saratoga, Lake Mountain"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 442.425,
+    "Output": 447.425
+  },
+  "SquelchTone": {
+    "Input": 100,
+    "Output": 100
+  },
+  "Digital": {
+    "DMR": {
+      "ColorCode": 1,
+      "ID": 310237
+    }
+  }
+}

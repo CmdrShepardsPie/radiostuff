@@ -1,0 +1,23 @@
+{
+  "ID": 439,
+  "StateID": 6,
+  "Callsign": "WD6BNG",
+  "Location": {
+    "Latitude": 34.89860153,
+    "Longitude": -117.02200317,
+    "County": "San Bernardino",
+    "State": "CA",
+    "Local": "Barstow"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 147.63,
+    "Output": 147.03
+  },
+  "VOIP": {
+    "IRLP": {
+      "NodeID": 7190
+    }
+  }
+}

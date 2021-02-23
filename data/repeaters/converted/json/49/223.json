@@ -1,0 +1,26 @@
+{
+  "ID": 223,
+  "StateID": 49,
+  "Callsign": "WA7GIE",
+  "Location": {
+    "Latitude": 40.75379944,
+    "Longitude": -114.01999664,
+    "County": "Tooele",
+    "State": "UT",
+    "Local": "Wendover, Wendover Peak"
+  },
+  "Use": "Open",
+  "Status": "Other",
+  "Frequency": {
+    "Input": 444.55,
+    "Output": 449.55
+  },
+  "SquelchTone": {
+    "Input": 123
+  },
+  "VOIP": {
+    "IRLP": {
+      "NodeID": 5620
+    }
+  }
+}

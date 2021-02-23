@@ -1,0 +1,18 @@
+{
+  "ID": 1190,
+  "StateID": 6,
+  "Callsign": "KD6OFD",
+  "Location": {
+    "Latitude": 34.35440063,
+    "Longitude": -117.67900085,
+    "County": "Los Angeles",
+    "State": "CA",
+    "Local": "Wrightwood, Blue Ridge"
+  },
+  "Use": "Closed",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 442.44,
+    "Output": 447.44
+  }
+}

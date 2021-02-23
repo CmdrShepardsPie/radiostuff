@@ -1,2 +1,2 @@
 ID,StateID,Callsign,Use,Status,DigitalTone,Digital,VOIP,Location.Latitude,Location.Longitude,Location.County,Location.State,Location.Local,Frequency.Input,Frequency.Output,SquelchTone.Input,SquelchTone.Output
-27,56,KC7SNO,Open,On-Air,,,,41.12390137,-104.81900024,Laramie,WY,"Cheyenne, Denver Hill",146.175,146.775,114.8,
+27,56,KC7SNO,Open,On-Air,,,,41.12390137,-104.81900024,Laramie,WY,"Cheyenne, Denver Hill",146.175,146.775,114.8,114.8

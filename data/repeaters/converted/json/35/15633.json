@@ -1,0 +1,21 @@
+{
+  "ID": 15633,
+  "StateID": 35,
+  "Callsign": "AB1Q",
+  "Location": {
+    "Latitude": 34.90499878,
+    "Longitude": -106.70600128,
+    "County": "Bernalillo",
+    "State": "NM",
+    "Local": "Isleta Pueblo, 1505 Hwy 314"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 147.64,
+    "Output": 147.04
+  },
+  "SquelchTone": {
+    "Input": 100
+  }
+}

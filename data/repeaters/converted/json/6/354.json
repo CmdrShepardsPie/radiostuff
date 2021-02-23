@@ -1,0 +1,21 @@
+{
+  "ID": 354,
+  "StateID": 6,
+  "Callsign": "W6SCE",
+  "Location": {
+    "Latitude": 35.13219833,
+    "Longitude": -118.44799805,
+    "County": "Kern",
+    "State": "CA",
+    "Local": "Tehachapi, Oak Peak"
+  },
+  "Use": "Private",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 223.1,
+    "Output": 224.7
+  },
+  "SquelchTone": {
+    "Input": 100
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "ID": 161,
+  "StateID": 32,
+  "Callsign": "WN9ANF",
+  "Location": {
+    "Latitude": 36.17020035,
+    "Longitude": -115.14299774,
+    "County": "Clark",
+    "State": "NV",
+    "Local": "Las Vegas, Fitzgeralds Hotel"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 443.075,
+    "Output": 448.075
+  },
+  "SquelchTone": {
+    "Input": 127.3
+  }
+}

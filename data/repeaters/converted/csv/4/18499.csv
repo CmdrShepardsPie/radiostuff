@@ -1,0 +1,2 @@
+ID,StateID,Callsign,Use,Status,DigitalTone,Digital,VOIP,Location.Latitude,Location.Longitude,Location.County,Location.State,Location.Local,Frequency.Input,Frequency.Output,SquelchTone.Input,SquelchTone.Output
+18499,4,N7DGL,Open,On-Air,,,,36.91513443,-113.87041473,Mohave,AZ,Desert Springs,441.525,446.525,177.3,

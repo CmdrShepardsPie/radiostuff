@@ -1,0 +1,2 @@
+ID,StateID,Callsign,Use,Status,DigitalTone,Digital,Location.Latitude,Location.Longitude,Location.County,Location.State,Location.Local,Frequency.Input,Frequency.Output,SquelchTone.Input,SquelchTone.Output,VOIP.EchoLink,VOIP.IRLP,VOIP.Wires,VOIP.AllStar.NodeID
+15222,32,N6LXX,Open,On-Air,,,38.80260086,-116.41899872,Clark,NV,"Las Vegas, Low Potosi",442.225,447.225,110.9,110.9,,,,29883

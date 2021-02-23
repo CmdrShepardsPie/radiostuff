@@ -1,0 +1,18 @@
+{
+  "ID": 211,
+  "StateID": 49,
+  "Callsign": "W7SAR",
+  "Location": {
+    "Latitude": 40.7594986,
+    "Longitude": -111.88800049,
+    "County": "Salt Lake",
+    "State": "UT",
+    "Local": "Salt Lake City"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 442.175,
+    "Output": 447.175
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "ID": 4537,
+  "StateID": 40,
+  "Callsign": "K5GSM",
+  "Location": {
+    "Latitude": 36.27000046,
+    "Longitude": -99.33000183,
+    "County": "Woodward",
+    "State": "OK",
+    "Local": "Woodward"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 147.6,
+    "Output": 147
+  },
+  "SquelchTone": {
+    "Input": 103.5
+  }
+}

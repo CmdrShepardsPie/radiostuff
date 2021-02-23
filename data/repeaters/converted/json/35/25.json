@@ -1,0 +1,18 @@
+{
+  "ID": 25,
+  "StateID": 35,
+  "Callsign": "WA5VJY",
+  "Location": {
+    "Latitude": 34.80609894,
+    "Longitude": -106.53500366,
+    "County": "Bernalillo",
+    "State": "NM",
+    "Local": "Albuquerque"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 222.22,
+    "Output": 223.82
+  }
+}

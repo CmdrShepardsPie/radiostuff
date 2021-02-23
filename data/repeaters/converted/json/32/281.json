@@ -1,0 +1,22 @@
+{
+  "ID": 281,
+  "StateID": 32,
+  "Callsign": "KG7SS",
+  "Location": {
+    "Latitude": 36.32109833,
+    "Longitude": -114.93000031,
+    "County": "Clark",
+    "State": "NV",
+    "Local": "Las Vegas, Apex Mountain"
+  },
+  "Use": "Open",
+  "Status": "Off-Air",
+  "Frequency": {
+    "Input": 902.5875,
+    "Output": 927.5875
+  },
+  "SquelchTone": {
+    "Input": 131.8,
+    "Output": 131.8
+  }
+}

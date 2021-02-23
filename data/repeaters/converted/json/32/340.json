@@ -1,0 +1,18 @@
+{
+  "ID": 340,
+  "StateID": 32,
+  "Callsign": "WB7WTS",
+  "Location": {
+    "Latitude": 35.96519852,
+    "Longitude": -115.5,
+    "County": "Clark",
+    "State": "NV",
+    "Local": "Las Vegas, Hi Potosi Mountain"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 444.125,
+    "Output": 449.125
+  }
+}

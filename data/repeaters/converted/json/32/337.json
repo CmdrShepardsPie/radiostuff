@@ -1,0 +1,18 @@
+{
+  "ID": 337,
+  "StateID": 32,
+  "Callsign": "WR6AVM",
+  "Location": {
+    "Latitude": 35.97449875,
+    "Longitude": -115.11799622,
+    "County": "Clark",
+    "State": "NV",
+    "Local": "Henderson"
+  },
+  "Use": "Closed",
+  "Status": "Off-Air",
+  "Frequency": {
+    "Input": 443.75,
+    "Output": 448.75
+  }
+}

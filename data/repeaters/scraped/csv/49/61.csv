@@ -1,2 +1,2 @@
-Frequency,Offset,Tone Up / Down,Location,County,Call,Use,,state_id,ID,Latitude,Longitude,Downlink,Uplink,Op Status,Coverage,Features,Coordination,Last update
-147.26,0.6,,St George,Washington,K7SG,OPEN,,49,61,37.10639954,-113.59700012,147.26,147.86,On-Air,St. George and neighboring communities.,3,UVHFS,2014-06-11
+Frequency,Offset,Tone,Call,Location,ST/PR,Use,Mode,Mi,Dir,,state_id,ID,Latitude,Longitude,Downlink,Uplink,County,Op Status,Coverage,Features,FM,Analog Bandwidth,Coordination,Last update
+147.26,0.6,,K7SG,St George,UT,OPEN,FM,107.27,NE,,49,61,37.10639954,-113.59700012,147.26,147.86,Washington,On-Air,St. George and neighboring communities.,3,Yes; analog capable.,,UVHFS,2014-06-11

@@ -1,0 +1,21 @@
+{
+  "ID": 62,
+  "StateID": 32,
+  "Callsign": "",
+  "Location": {
+    "Latitude": 40.63999939,
+    "Longitude": -116.94000244,
+    "County": "Lander",
+    "State": "NV",
+    "Local": "Battle Mountain"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 443.9,
+    "Output": 448.9
+  },
+  "SquelchTone": {
+    "Input": 100
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "ID": 4578,
+  "StateID": 40,
+  "Callsign": "W5GPR",
+  "Location": {
+    "Latitude": 36.43450165,
+    "Longitude": -99.51609802,
+    "County": "Woodward",
+    "State": "OK",
+    "Local": "Woodward, airport"
+  },
+  "Use": "Open",
+  "Status": "Other",
+  "Frequency": {
+    "Input": 146.13,
+    "Output": 146.73
+  },
+  "SquelchTone": {
+    "Input": 203.5
+  }
+}

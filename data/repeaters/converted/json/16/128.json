@@ -1,0 +1,21 @@
+{
+  "ID": 128,
+  "StateID": 16,
+  "Callsign": "AE7TA",
+  "Location": {
+    "Latitude": 42.51589966,
+    "Longitude": -111.92299652,
+    "County": "Bannock",
+    "State": "ID",
+    "Local": "Grace, Sedgwick Peak"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 146.2,
+    "Output": 146.8
+  },
+  "SquelchTone": {
+    "Input": 88.5
+  }
+}

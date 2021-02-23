@@ -1,0 +1,27 @@
+{
+  "ID": 6324,
+  "StateID": 4,
+  "Callsign": "WB7BYV",
+  "Location": {
+    "Latitude": 35.19950104,
+    "Longitude": -112.20500183,
+    "County": "Coconino",
+    "State": "AZ",
+    "Local": "Williams, Bill Williams Mountain"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 902.075,
+    "Output": 927.075
+  },
+  "SquelchTone": {
+    "Input": 218.1,
+    "Output": 218.1
+  },
+  "VOIP": {
+    "AllStar": {
+      "NodeID": 41510
+    }
+  }
+}

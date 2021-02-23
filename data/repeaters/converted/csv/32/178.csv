@@ -1,0 +1,2 @@
+ID,StateID,Callsign,Use,Status,DigitalTone,Digital,VOIP,Location.Latitude,Location.Longitude,Location.County,Location.State,Location.Local,Frequency.Input,Frequency.Output,SquelchTone.Input,SquelchTone.Output
+178,32,W7LKO,Open,Other,,,,40.71390152,-116.10299683,Elko,NV,Carlin,449.2,444.2,100,

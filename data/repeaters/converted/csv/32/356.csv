@@ -1,0 +1,2 @@
+ID,StateID,Callsign,Use,Status,DigitalTone,Digital,Location.Latitude,Location.Longitude,Location.County,Location.State,Location.Local,Frequency.Input,Frequency.Output,SquelchTone.Input,SquelchTone.Output,VOIP.EchoLink,VOIP.Wires,VOIP.AllStar.NodeID,VOIP.IRLP.NodeID
+356,32,NO7BS,Open,On-Air,,,36.1733017,-115.07299805,Clark,NV,Las Vegas,443.475,448.475,100,,,,2221,3520

@@ -1,0 +1,2 @@
+ID,StateID,Callsign,Use,Status,DigitalTone,VOIP,Location.Latitude,Location.Longitude,Location.County,Location.State,Location.Local,Frequency.Input,Frequency.Output,SquelchTone.Input,SquelchTone.Output,Digital.DMR,Digital.P25,Digital.DStar,Digital.YSF.GroupID.Input,Digital.YSF.GroupID.Output
+10215,35,KE5FYL,Open,On-Air,,,35.119,-107.9013,Cibola,NM,"Grants, Rogers rock",147.78,147.18,100,,,,,Open ↑,Open ↓

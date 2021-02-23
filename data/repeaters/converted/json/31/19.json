@@ -1,0 +1,18 @@
+{
+  "ID": 19,
+  "StateID": 31,
+  "Callsign": "N0UVP",
+  "Location": {
+    "Latitude": 42.80690002,
+    "Longitude": -102.20400238,
+    "County": "Sheridan",
+    "State": "NE",
+    "Local": "Gordon"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 146.07,
+    "Output": 146.67
+  }
+}

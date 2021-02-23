@@ -1,0 +1,31 @@
+{
+  "ID": 75,
+  "StateID": 56,
+  "Callsign": "N7RRB",
+  "Location": {
+    "Latitude": 42.75249863,
+    "Longitude": -106.31400299,
+    "County": "Natrona",
+    "State": "WY",
+    "Local": "Casper, Casper Mountain"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 444.9,
+    "Output": 449.9
+  },
+  "Digital": {
+    "YSF": {
+      "GroupID": {
+        "Input": "Open ↑",
+        "Output": "Open ↓"
+      }
+    }
+  },
+  "VOIP": {
+    "Wires": {
+      "ID": 11941
+    }
+  }
+}

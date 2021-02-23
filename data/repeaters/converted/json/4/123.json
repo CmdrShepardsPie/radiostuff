@@ -1,0 +1,21 @@
+{
+  "ID": 123,
+  "StateID": 4,
+  "Callsign": "K7YCA",
+  "Location": {
+    "Latitude": 34.41500092,
+    "Longitude": -112.40399933,
+    "County": "Yavapai",
+    "State": "AZ",
+    "Local": "Prescott, Mt Union"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 147.86,
+    "Output": 147.26
+  },
+  "SquelchTone": {
+    "Input": 103.5
+  }
+}

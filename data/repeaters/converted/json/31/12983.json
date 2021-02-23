@@ -1,0 +1,22 @@
+{
+  "ID": 12983,
+  "StateID": 31,
+  "Callsign": "N0VL",
+  "Location": {
+    "Latitude": 40.78070068,
+    "Longitude": -99.74210358,
+    "County": "Dawson",
+    "State": "NE",
+    "Local": "Lexington"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 146.25,
+    "Output": 146.85
+  },
+  "SquelchTone": {
+    "Input": 123,
+    "Output": 123
+  }
+}

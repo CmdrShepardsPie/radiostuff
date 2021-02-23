@@ -1,0 +1,22 @@
+{
+  "ID": 17781,
+  "StateID": 16,
+  "Callsign": "KD7RMB",
+  "Location": {
+    "Latitude": 43.23929977,
+    "Longitude": -115.85099792,
+    "County": "Elmore",
+    "State": "ID",
+    "Local": "Cleft"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 144.81,
+    "Output": 145.41
+  },
+  "SquelchTone": {
+    "Input": 114.8,
+    "Output": 114.8
+  }
+}

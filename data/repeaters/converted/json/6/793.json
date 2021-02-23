@@ -1,0 +1,21 @@
+{
+  "ID": 793,
+  "StateID": 6,
+  "Callsign": "W6SCE",
+  "Location": {
+    "Latitude": 33.61029816,
+    "Longitude": -114.59600067,
+    "County": "Riverside",
+    "State": "CA",
+    "Local": "Blythe, Big Maria"
+  },
+  "Use": "Private",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 222.72,
+    "Output": 224.32
+  },
+  "SquelchTone": {
+    "Input": 131.8
+  }
+}

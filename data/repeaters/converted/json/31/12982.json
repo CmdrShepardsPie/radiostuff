@@ -1,0 +1,23 @@
+{
+  "ID": 12982,
+  "StateID": 31,
+  "Callsign": "KD0AN",
+  "Location": {
+    "Latitude": 40.27709961,
+    "Longitude": -99.77670288,
+    "County": "Furnas",
+    "State": "NE",
+    "Local": "Edison"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 146.145,
+    "Output": 146.745
+  },
+  "VOIP": {
+    "EchoLink": {
+      "NodeID": 882742
+    }
+  }
+}

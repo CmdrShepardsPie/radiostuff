@@ -1,0 +1,21 @@
+{
+  "ID": 17869,
+  "StateID": 6,
+  "Callsign": "WA6DVG",
+  "Location": {
+    "Latitude": 34.21357727,
+    "Longitude": -117.11883545,
+    "County": "San Bernardino",
+    "State": "CA",
+    "Local": "Running Springs"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 222.46,
+    "Output": 224.06
+  },
+  "SquelchTone": {
+    "Input": 94.8
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "ID": 55,
+  "StateID": 32,
+  "Callsign": "WB7BTS",
+  "Location": {
+    "Latitude": 40.84000015,
+    "Longitude": -115.76999664,
+    "County": "Elko",
+    "State": "NV",
+    "Local": "Elko"
+  },
+  "Use": "Open",
+  "Status": "Other",
+  "Frequency": {
+    "Input": 146.34,
+    "Output": 146.94
+  },
+  "SquelchTone": {
+    "Input": 100
+  }
+}

@@ -1,0 +1,2 @@
+ID,StateID,Callsign,Use,Status,DigitalTone,Location.Latitude,Location.Longitude,Location.County,Location.State,Location.Local,Frequency.Input,Frequency.Output,SquelchTone.Input,SquelchTone.Output,Digital.DMR,Digital.P25,Digital.DStar,VOIP.EchoLink,VOIP.IRLP,VOIP.Wires,VOIP.AllStar.NodeID,Digital.YSF.GroupID.Input,Digital.YSF.GroupID.Output
+3940,20,WA0OQA,Open,On-Air,,38.48460007,-100.97899628,Scott,KS,Scott City,146.1,146.7,141.3,141.3,,,,,,,48589,Open ↑,Open ↓

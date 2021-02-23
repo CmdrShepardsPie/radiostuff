@@ -1,0 +1,26 @@
+{
+  "ID": 2820,
+  "StateID": 32,
+  "Callsign": "KK7AV",
+  "Location": {
+    "Latitude": 36.17499924,
+    "Longitude": -115.13600159,
+    "County": "Clark",
+    "State": "NV",
+    "Local": "Las Vegas"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 444.475,
+    "Output": 449.475
+  },
+  "SquelchTone": {
+    "Input": 114.8
+  },
+  "VOIP": {
+    "EchoLink": {
+      "NodeID": 201723
+    }
+  }
+}

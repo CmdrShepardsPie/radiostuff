@@ -1,0 +1,26 @@
+{
+  "ID": 135,
+  "StateID": 6,
+  "Callsign": "W6LIE",
+  "Location": {
+    "Latitude": 35.4510994,
+    "Longitude": -118.58300018,
+    "County": "Kern",
+    "State": "CA",
+    "Local": "Bakersfield, Breckenridge Mountain"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 144.55,
+    "Output": 145.15
+  },
+  "SquelchTone": {
+    "Input": 100
+  },
+  "VOIP": {
+    "AllStar": {
+      "NodeID": 2029
+    }
+  }
+}

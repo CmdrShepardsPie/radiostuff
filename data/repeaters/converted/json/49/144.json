@@ -1,0 +1,21 @@
+{
+  "ID": 144,
+  "StateID": 49,
+  "Callsign": "KD7NX",
+  "Location": {
+    "Latitude": 40.77190018,
+    "Longitude": -111.83699799,
+    "County": "Salt Lake",
+    "State": "UT",
+    "Local": "Salt Lake City, U of U Hospital"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 146.14,
+    "Output": 146.74
+  },
+  "SquelchTone": {
+    "Input": 114.8
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "ID": 17679,
+  "StateID": 35,
+  "Callsign": "KA5BIW",
+  "Location": {
+    "Latitude": 35.09590149,
+    "Longitude": -106.52500153,
+    "County": "Bernalillo",
+    "State": "NM",
+    "Local": "Albuquerque"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 222.78,
+    "Output": 224.38
+  },
+  "SquelchTone": {
+    "Input": 100
+  }
+}

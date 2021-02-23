@@ -1,0 +1,2 @@
+ID,StateID,Callsign,Use,Status,SquelchTone,DigitalTone,VOIP,Location.Latitude,Location.Longitude,Location.County,Location.State,Location.Local,Frequency.Input,Frequency.Output,Digital.DMR,Digital.P25,Digital.YSF,Digital.DStar.Node
+13769,35,W5SF,Open,On-Air,,,,35.659,-105.996,Santa Fe,NM,"Santa Fe, Food Depot",144.61,145.21,,,,W5SF (C) Gateway Repeater

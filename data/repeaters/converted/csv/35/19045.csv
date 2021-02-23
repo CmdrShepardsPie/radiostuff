@@ -1,0 +1,2 @@
+ID,StateID,Callsign,Use,Status,SquelchTone,DigitalTone,VOIP,Location.Latitude,Location.Longitude,Location.County,Location.State,Location.Local,Frequency.Input,Frequency.Output,Digital.P25,Digital.DStar,Digital.YSF,Digital.DMR.ColorCode,Digital.DMR.ID
+19045,35,KF5PFO,Open,On-Air,,,,36.247,-105.655,Taos,NM,"Taos, Picuris Peak",447.175,442.175,,,,5,312033

@@ -1,0 +1,2 @@
+ID,StateID,Callsign,Use,Status,DigitalTone,Digital,VOIP,Location.Latitude,Location.Longitude,Location.County,Location.State,Location.Local,Frequency.Input,Frequency.Output,SquelchTone.Input,SquelchTone.Output
+115,35,W5SF,Open,On-Air,,,,35.76670074,-105.5530014,San Miguel,NM,"Las Vegas, Elk Mountain",147.9,147.3,162.2,

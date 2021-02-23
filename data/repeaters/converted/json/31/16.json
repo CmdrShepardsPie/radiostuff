@@ -1,0 +1,26 @@
+{
+  "ID": 16,
+  "StateID": 31,
+  "Callsign": "W0CUO",
+  "Location": {
+    "Latitude": 41.28499985,
+    "Longitude": -98.56829834,
+    "County": "Howard",
+    "State": "NE",
+    "Local": "Elba"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 147.84,
+    "Output": 147.24
+  },
+  "SquelchTone": {
+    "Input": 123
+  },
+  "VOIP": {
+    "IRLP": {
+      "NodeID": 7479
+    }
+  }
+}

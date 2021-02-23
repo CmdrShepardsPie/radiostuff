@@ -1,0 +1,26 @@
+{
+  "ID": 341,
+  "StateID": 32,
+  "Callsign": "N6JFO",
+  "Location": {
+    "Latitude": 35.25149918,
+    "Longitude": -114.7480011,
+    "County": "Clark",
+    "State": "NV",
+    "Local": "Bullhead City, Spirit Mountain"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 444.3,
+    "Output": 449.3
+  },
+  "SquelchTone": {
+    "Input": 131.8
+  },
+  "VOIP": {
+    "AllStar": {
+      "NodeID": 29668
+    }
+  }
+}

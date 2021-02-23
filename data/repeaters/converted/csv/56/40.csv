@@ -1,0 +1,2 @@
+ID,StateID,Callsign,Use,Status,DigitalTone,Digital,VOIP,Location.Latitude,Location.Longitude,Location.County,Location.State,Location.Local,Frequency.Input,Frequency.Output,SquelchTone.Input,SquelchTone.Output
+40,56,KD7PPP,Open,On-Air,,,,42.5,-108.65000153,Fremont,WY,"Lander, airport",144.845,145.445,110.9,

@@ -1,0 +1,21 @@
+{
+  "ID": 176,
+  "StateID": 4,
+  "Callsign": "N7RDZ",
+  "Location": {
+    "Latitude": 35.02420044,
+    "Longitude": -110.6969986,
+    "County": "Navajo",
+    "State": "AZ",
+    "Local": "Winslow"
+  },
+  "Use": "Open",
+  "Status": "Off-Air",
+  "Frequency": {
+    "Input": 147.98,
+    "Output": 147.38
+  },
+  "SquelchTone": {
+    "Input": 91.5
+  }
+}

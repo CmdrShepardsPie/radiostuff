@@ -1,0 +1,18 @@
+{
+  "ID": 342,
+  "StateID": 32,
+  "Callsign": "WA7GIC",
+  "Location": {
+    "Latitude": 36.17499924,
+    "Longitude": -115.13600159,
+    "County": "Clark",
+    "State": "NV",
+    "Local": "Las Vegas"
+  },
+  "Use": "Closed",
+  "Status": "Other",
+  "Frequency": {
+    "Input": 444.525,
+    "Output": 449.525
+  }
+}

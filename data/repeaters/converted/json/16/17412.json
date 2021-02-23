@@ -1,0 +1,21 @@
+{
+  "ID": 17412,
+  "StateID": 16,
+  "Callsign": "K7ECI",
+  "Location": {
+    "Latitude": 43.13290024,
+    "Longitude": -115.69100189,
+    "County": "Idaho",
+    "State": "ID",
+    "Local": "Mountain Home"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 144.59,
+    "Output": 145.19
+  },
+  "SquelchTone": {
+    "Input": 110.9
+  }
+}

@@ -1,0 +1,2 @@
+ID,StateID,Callsign,Use,Status,SquelchTone,Digital,VOIP,Location.Latitude,Location.Longitude,Location.County,Location.State,Location.Local,Frequency.Input,Frequency.Output,DigitalTone.Input,DigitalTone.Output
+5556,49,W7XDX,Open,Other,,,,40.76079941,-111.89099884,Salt Lake,UT,Salt Lake City,902.5875,927.5875,432,

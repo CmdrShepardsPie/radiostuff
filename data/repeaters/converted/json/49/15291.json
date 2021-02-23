@@ -1,0 +1,23 @@
+{
+  "ID": 15291,
+  "StateID": 49,
+  "Callsign": "NT3ST",
+  "Location": {
+    "Latitude": 40.38589859,
+    "Longitude": -111.78299713,
+    "County": "Utah",
+    "State": "UT",
+    "Local": "American Fork, KD7BBC QTH"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 442.975,
+    "Output": 447.975
+  },
+  "Digital": {
+    "DStar": {
+      "Node": "NT3ST (B)"
+    }
+  }
+}

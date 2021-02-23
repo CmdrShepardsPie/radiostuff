@@ -1,0 +1,21 @@
+{
+  "ID": 247,
+  "StateID": 49,
+  "Callsign": "WA7UAH",
+  "Location": {
+    "Latitude": 40.09059906,
+    "Longitude": -111.82099915,
+    "County": "Utah",
+    "State": "UT",
+    "Local": "Goshen, West Mountain"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 147.62,
+    "Output": 147.02
+  },
+  "SquelchTone": {
+    "Input": 100
+  }
+}

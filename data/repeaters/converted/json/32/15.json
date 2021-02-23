@@ -1,0 +1,21 @@
+{
+  "ID": 15,
+  "StateID": 32,
+  "Callsign": "KD8S",
+  "Location": {
+    "Latitude": 36.00730133,
+    "Longitude": -115.00700378,
+    "County": "Clark",
+    "State": "NV",
+    "Local": "Henderson, Black Mountain"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 146.13,
+    "Output": 146.73
+  },
+  "SquelchTone": {
+    "Input": 131.8
+  }
+}

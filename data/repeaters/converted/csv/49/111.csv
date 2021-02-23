@@ -1,0 +1,2 @@
+ID,StateID,Callsign,Use,Status,DigitalTone,Digital,VOIP,Location.Latitude,Location.Longitude,Location.County,Location.State,Location.Local,Frequency.Input,Frequency.Output,SquelchTone.Input,SquelchTone.Output
+111,49,KD7FDH,Open,On-Air,,,,41.19070053,-111.94000244,Weber,UT,"Ogden, Weber State University",144.65,145.25,123,123

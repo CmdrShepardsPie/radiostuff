@@ -1,0 +1,2 @@
+ID,StateID,Callsign,Use,Status,DigitalTone,VOIP,Location.Latitude,Location.Longitude,Location.County,Location.State,Location.Local,Frequency.Input,Frequency.Output,SquelchTone.Input,SquelchTone.Output,Digital.P25,Digital.DStar,Digital.YSF,Digital.DMR.ColorCode,Digital.DMR.ID
+18479,49,KE7NHU,Open,On-Air,,,40.29299927,-111.88400269,Utah,UT,"Saratoga, Lake Mountain",442.425,447.425,100,100,,,,1,310237

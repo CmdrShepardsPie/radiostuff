@@ -1,0 +1,21 @@
+{
+  "ID": 271,
+  "StateID": 49,
+  "Callsign": "WX7Y",
+  "Location": {
+    "Latitude": 39.65670013,
+    "Longitude": -111.1989975,
+    "County": "Carbon",
+    "State": "UT",
+    "Local": "Scofield, Boardinghouse Rdge"
+  },
+  "Use": "Open",
+  "Status": "Other",
+  "Frequency": {
+    "Input": 223.38,
+    "Output": 224.98
+  },
+  "SquelchTone": {
+    "Input": 88.5
+  }
+}

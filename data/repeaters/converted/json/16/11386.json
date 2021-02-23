@@ -1,0 +1,18 @@
+{
+  "ID": 11386,
+  "StateID": 16,
+  "Callsign": "WB6EVM",
+  "Location": {
+    "Latitude": 43.19049835,
+    "Longitude": -112.34500122,
+    "County": "Bingham",
+    "State": "ID",
+    "Local": "Blackfoot"
+  },
+  "Use": "Private",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 442.95,
+    "Output": 447.95
+  }
+}

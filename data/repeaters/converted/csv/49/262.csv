@@ -1,0 +1,2 @@
+ID,StateID,Callsign,Use,Status,DigitalTone,Digital,VOIP,Location.Latitude,Location.Longitude,Location.County,Location.State,Location.Local,Frequency.Input,Frequency.Output,SquelchTone.Input,SquelchTone.Output
+262,49,WB7TSQ,Open,On-Air,,,,41.20800018,-111.91899872,Weber,UT,"Ogden, foothills",144.81,145.41,123,

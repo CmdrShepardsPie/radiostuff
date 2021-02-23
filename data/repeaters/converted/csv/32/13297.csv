@@ -1,0 +1,2 @@
+ID,StateID,Callsign,Use,Status,DigitalTone,Digital,Location.Latitude,Location.Longitude,Location.County,Location.State,Location.Local,Frequency.Input,Frequency.Output,SquelchTone.Input,SquelchTone.Output,VOIP.EchoLink,VOIP.IRLP,VOIP.Wires,VOIP.AllStar.NodeID
+13297,32,N4NJJ,Private,On-Air,,,36.29190063,-115.18099976,Clark,NV,"North Las Vegas, Aliante Casino and Resort",440.975,445.975,107.2,107.2,,,,42230

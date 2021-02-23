@@ -1,0 +1,21 @@
+{
+  "ID": 6271,
+  "StateID": 49,
+  "Callsign": "NM7P",
+  "Location": {
+    "Latitude": 40.66690063,
+    "Longitude": -111.88800049,
+    "County": "Salt Lake",
+    "State": "UT",
+    "Local": "Murray"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 144.75,
+    "Output": 145.35
+  },
+  "SquelchTone": {
+    "Input": 100
+  }
+}

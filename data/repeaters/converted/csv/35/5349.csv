@@ -1,0 +1,2 @@
+ID,StateID,Callsign,Use,Status,DigitalTone,Digital,VOIP,Location.Latitude,Location.Longitude,Location.County,Location.State,Location.Local,Frequency.Input,Frequency.Output,SquelchTone.Input,SquelchTone.Output
+5349,35,NM5EM,Open,On-Air,,,,35.25249863,-107.59700012,Cibola,NM,"Grants, Mt Taylor",146.38,146.98,141.3,141.3

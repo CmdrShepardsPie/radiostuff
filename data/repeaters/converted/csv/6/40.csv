@@ -1,0 +1,2 @@
+ID,StateID,Callsign,Use,Status,DigitalTone,Digital,VOIP,Location.Latitude,Location.Longitude,Location.County,Location.State,Location.Local,Frequency.Input,Frequency.Output,SquelchTone.Input,SquelchTone.Output
+40,6,KA6GBJ,Open,Other,,,,33.8382988,-116.31800079,Riverside,CA,"Thousand Palms, Indio Hills",51.34,51.84,107.2,

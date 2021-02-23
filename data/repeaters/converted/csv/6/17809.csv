@@ -1,0 +1,2 @@
+ID,StateID,Callsign,Use,Status,DigitalTone,Digital,VOIP,Location.Latitude,Location.Longitude,Location.County,Location.State,Location.Local,Frequency.Input,Frequency.Output,SquelchTone.Input,SquelchTone.Output
+17809,6,W6CDF,Open,Testing,,,,34.25749969,-117.33100128,San Bernardino,CA,"Cedarpines Park, Jobs Peak",440.02,445.02,107.2,

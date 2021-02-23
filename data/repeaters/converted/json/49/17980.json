@@ -1,0 +1,21 @@
+{
+  "ID": 17980,
+  "StateID": 49,
+  "Callsign": "KI7USB",
+  "Location": {
+    "Latitude": 40.38940048,
+    "Longitude": -111.84899902,
+    "County": "Utah",
+    "State": "UT",
+    "Local": "Lehi, City Offices"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 443.925,
+    "Output": 448.925
+  },
+  "SquelchTone": {
+    "Input": 100
+  }
+}

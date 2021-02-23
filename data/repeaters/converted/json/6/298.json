@@ -1,0 +1,21 @@
+{
+  "ID": 298,
+  "StateID": 6,
+  "Callsign": "N6SR",
+  "Location": {
+    "Latitude": 35.67689896,
+    "Longitude": -118.48799896,
+    "County": "Kern",
+    "State": "CA",
+    "Local": "Lake Isabella, Sawmill Road"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 144.85,
+    "Output": 145.45
+  },
+  "SquelchTone": {
+    "Input": 156.7
+  }
+}

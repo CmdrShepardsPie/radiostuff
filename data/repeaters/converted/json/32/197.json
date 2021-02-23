@@ -1,0 +1,30 @@
+{
+  "ID": 197,
+  "StateID": 32,
+  "Callsign": "KP4UZ",
+  "Location": {
+    "Latitude": 36.24140167,
+    "Longitude": -115.0510025,
+    "County": "Clark",
+    "State": "NV",
+    "Local": "North Las Vegas , Nellis AFB"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 442.775,
+    "Output": 447.775
+  },
+  "SquelchTone": {
+    "Input": 114.8,
+    "Output": 118.8
+  },
+  "VOIP": {
+    "EchoLink": {
+      "NodeID": 9212
+    },
+    "IRLP": {
+      "NodeID": 3395
+    }
+  }
+}

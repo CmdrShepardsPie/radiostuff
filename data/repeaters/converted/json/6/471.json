@@ -1,0 +1,21 @@
+{
+  "ID": 471,
+  "StateID": 6,
+  "Callsign": "K6ECS",
+  "Location": {
+    "Latitude": 34.3863889,
+    "Longitude": -117.6894444,
+    "County": "San Bernardino",
+    "State": "CA",
+    "Local": "Victorville, Table Mtn"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 147.105,
+    "Output": 147.705
+  },
+  "SquelchTone": {
+    "Input": 131.8
+  }
+}

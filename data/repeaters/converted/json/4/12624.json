@@ -1,0 +1,29 @@
+{
+  "ID": 12624,
+  "StateID": 4,
+  "Callsign": "K7LHC",
+  "Location": {
+    "Latitude": 34.50579834,
+    "Longitude": -114.30000305,
+    "County": "Mohave",
+    "State": "AZ",
+    "Local": "Lake Havasu City, Fire Station 4"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 146.1,
+    "Output": 146.7
+  },
+  "SquelchTone": {
+    "Input": 131.8
+  },
+  "Digital": {
+    "YSF": {
+      "GroupID": {
+        "Input": "Open ↑",
+        "Output": "Open ↓"
+      }
+    }
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "ID": 16778,
+  "StateID": 16,
+  "Callsign": "",
+  "Location": {
+    "Latitude": 42.1916008,
+    "Longitude": -112.25099945,
+    "County": "Oneida",
+    "State": "ID",
+    "Local": "Malad City , North side of Samaria Mountain"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 443.95,
+    "Output": 448.95
+  },
+  "SquelchTone": {
+    "Input": 77
+  }
+}

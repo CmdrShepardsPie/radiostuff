@@ -1,0 +1,2 @@
+ID,StateID,Callsign,Use,Status,DigitalTone,Digital,VOIP,Location.Latitude,Location.Longitude,Location.County,Location.State,Location.Local,Frequency.Input,Frequency.Output,SquelchTone.Input,SquelchTone.Output
+18277,6,W6OY,Open,On-Air,,,,34.18799973,-117.70500183,Los Angeles,CA,"Claremont, Sunset Ridge",444.14,449.14,100,100

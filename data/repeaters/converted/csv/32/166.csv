@@ -1,0 +1,2 @@
+ID,StateID,Callsign,Use,Status,DigitalTone,Digital,VOIP,Location.Latitude,Location.Longitude,Location.County,Location.State,Location.Local,Frequency.Input,Frequency.Output,SquelchTone.Input,SquelchTone.Output
+166,32,WA7CYC,Open,On-Air,,,,36.22470093,-114.97599792,Clark,NV,"Las Vegas, Sunrise Mountain",444.675,449.675,192.8,

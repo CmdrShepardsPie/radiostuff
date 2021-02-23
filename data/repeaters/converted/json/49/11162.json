@@ -1,0 +1,23 @@
+{
+  "ID": 11162,
+  "StateID": 49,
+  "Callsign": "KE7EGG",
+  "Location": {
+    "Latitude": 41.22299957,
+    "Longitude": -111.97399902,
+    "County": "Weber",
+    "State": "UT",
+    "Local": "Ogden, Sheriff's Office"
+  },
+  "Use": "Open",
+  "Status": "Other",
+  "Frequency": {
+    "Input": 1278.75,
+    "Output": 1298.75
+  },
+  "Digital": {
+    "DStar": {
+      "Node": "KE7EGG (A)"
+    }
+  }
+}

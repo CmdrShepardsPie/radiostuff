@@ -1,0 +1,21 @@
+{
+  "ID": 6706,
+  "StateID": 49,
+  "Callsign": "N7HRC",
+  "Location": {
+    "Latitude": 40.53509903,
+    "Longitude": -112.03099823,
+    "County": "Salt Lake",
+    "State": "UT",
+    "Local": "Herriman, High School"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 444.25,
+    "Output": 449.25
+  },
+  "SquelchTone": {
+    "Input": 118.8
+  }
+}

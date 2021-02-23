@@ -1,0 +1,21 @@
+{
+  "ID": 26,
+  "StateID": 32,
+  "Callsign": "K7UGE",
+  "Location": {
+    "Latitude": 36.13489914,
+    "Longitude": -115.16000366,
+    "County": "Clark",
+    "State": "NV",
+    "Local": "Las Vegas, Westgate Hotel and Casino"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 146.34,
+    "Output": 146.94
+  },
+  "SquelchTone": {
+    "Input": 100
+  }
+}

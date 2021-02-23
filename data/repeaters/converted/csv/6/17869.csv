@@ -1,0 +1,2 @@
+ID,StateID,Callsign,Use,Status,DigitalTone,Digital,VOIP,Location.Latitude,Location.Longitude,Location.County,Location.State,Location.Local,Frequency.Input,Frequency.Output,SquelchTone.Input,SquelchTone.Output
+17869,6,WA6DVG,Open,On-Air,,,,34.21357727,-117.11883545,San Bernardino,CA,Running Springs,222.46,224.06,94.8,

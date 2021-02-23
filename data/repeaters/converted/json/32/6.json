@@ -1,0 +1,17 @@
+{
+  "ID": 6,
+  "StateID": 32,
+  "Callsign": "W7LKO",
+  "Location": {
+    "State": "NV",
+    "Local": "Elko, Grindstone Mountain"
+  },
+  "Use": "Open",
+  "Status": "Other",
+  "Frequency": {
+    "Input": null
+  },
+  "SquelchTone": {
+    "Input": 100
+  }
+}

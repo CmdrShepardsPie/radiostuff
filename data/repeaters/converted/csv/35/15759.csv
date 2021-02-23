@@ -1,0 +1,2 @@
+ID,StateID,Callsign,Use,Status,DigitalTone,Digital,Location.Latitude,Location.Longitude,Location.County,Location.State,Location.Local,Frequency.Input,Frequency.Output,SquelchTone.Input,SquelchTone.Output,VOIP.EchoLink,VOIP.IRLP,VOIP.Wires,VOIP.AllStar.NodeID
+15759,35,NM5BC,Open,On-Air,,,35.06700134,-106.7009964,Bernalillo,NM,"Albuquerque, West Mesa",447.05,442.05,100,100,,,,28828

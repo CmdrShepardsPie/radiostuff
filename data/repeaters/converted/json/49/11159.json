@@ -1,0 +1,21 @@
+{
+  "ID": 11159,
+  "StateID": 49,
+  "Callsign": "KF7YXL",
+  "Location": {
+    "Latitude": 40.69210052,
+    "Longitude": -111.89399719,
+    "County": "Salt Lake",
+    "State": "UT",
+    "Local": "South Salt Lake City, Fire Station 43"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 442.7,
+    "Output": 447.7
+  },
+  "SquelchTone": {
+    "Input": 100
+  }
+}

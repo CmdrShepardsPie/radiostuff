@@ -1,0 +1,21 @@
+{
+  "ID": 15285,
+  "StateID": 49,
+  "Callsign": "KB7YOT",
+  "Location": {
+    "Latitude": 40.36410141,
+    "Longitude": -111.73899841,
+    "County": "Utah",
+    "State": "UT",
+    "Local": "Pleasant Grove"
+  },
+  "Use": "Open",
+  "Status": "Other",
+  "Frequency": {
+    "Input": 222.28,
+    "Output": 223.88
+  },
+  "SquelchTone": {
+    "Input": 156.7
+  }
+}

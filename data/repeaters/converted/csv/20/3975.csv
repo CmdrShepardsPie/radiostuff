@@ -1,0 +1,2 @@
+ID,StateID,Callsign,Use,Status,DigitalTone,Digital,VOIP,Location.Latitude,Location.Longitude,Location.County,Location.State,Location.Local,Frequency.Input,Frequency.Output,SquelchTone.Input,SquelchTone.Output
+3975,20,N7JYS,Open,On-Air,,,,38.93439865,-99.31549835,Ellis,KS,Hays,147.645,147.045,131.8,131.8

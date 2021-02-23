@@ -1,0 +1,27 @@
+{
+  "ID": 19379,
+  "StateID": 4,
+  "Callsign": "N6TKA",
+  "Location": {
+    "Latitude": 35.5097081,
+    "Longitude": -112.168513,
+    "County": "Coconino",
+    "State": "AZ",
+    "Local": "Williams, Howard Mesa Ranch"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 445.7625,
+    "Output": 440.7625
+  },
+  "SquelchTone": {
+    "Input": 107.2
+  },
+  "Digital": {
+    "DMR": {
+      "ColorCode": 1,
+      "ID": 312057
+    }
+  }
+}

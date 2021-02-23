@@ -1,0 +1,21 @@
+{
+  "ID": 110,
+  "StateID": 49,
+  "Callsign": "KE7AU",
+  "Location": {
+    "Latitude": 40.28310013,
+    "Longitude": -111.93800354,
+    "County": "Utah",
+    "State": "UT",
+    "Local": "Provo, Lake Mountain"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 223.1,
+    "Output": 224.7
+  },
+  "SquelchTone": {
+    "Input": 107.2
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "ID": 15635,
+  "StateID": 35,
+  "Callsign": "NM5EM",
+  "Location": {
+    "Latitude": 36.57799911,
+    "Longitude": -105.19799805,
+    "County": "Colfax",
+    "State": "NM",
+    "Local": "Eagle Nest, Touch Me Not"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 147.64,
+    "Output": 147.04
+  },
+  "SquelchTone": {
+    "Input": 141.3
+  }
+}

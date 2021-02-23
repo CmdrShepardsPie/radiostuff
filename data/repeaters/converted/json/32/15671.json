@@ -1,0 +1,35 @@
+{
+  "ID": 15671,
+  "StateID": 32,
+  "Callsign": "W7JCA",
+  "Location": {
+    "Latitude": 36.22859955,
+    "Longitude": -115.27999878,
+    "County": "Clark",
+    "State": "NV",
+    "Local": "Las Vegas"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 440.875,
+    "Output": 445.875
+  },
+  "SquelchTone": {
+    "Input": 100,
+    "Output": 100
+  },
+  "Digital": {
+    "YSF": {
+      "GroupID": {
+        "Input": "Open ↑",
+        "Output": "Open ↓"
+      }
+    }
+  },
+  "VOIP": {
+    "AllStar": {
+      "NodeID": 48467
+    }
+  }
+}

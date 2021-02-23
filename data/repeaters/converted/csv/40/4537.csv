@@ -1,0 +1,2 @@
+ID,StateID,Callsign,Use,Status,DigitalTone,Digital,VOIP,Location.Latitude,Location.Longitude,Location.County,Location.State,Location.Local,Frequency.Input,Frequency.Output,SquelchTone.Input,SquelchTone.Output
+4537,40,K5GSM,Open,On-Air,,,,36.27000046,-99.33000183,Woodward,OK,Woodward,147.6,147,103.5,

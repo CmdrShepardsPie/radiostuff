@@ -1,0 +1,21 @@
+{
+  "ID": 10119,
+  "StateID": 6,
+  "Callsign": "W6TD",
+  "Location": {
+    "Latitude": 36.97719955,
+    "Longitude": -118.12200165,
+    "County": "Inyo",
+    "State": "CA",
+    "Local": "Bishop, Mazourka Peak"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 52.08,
+    "Output": 52.58
+  },
+  "SquelchTone": {
+    "Input": 103.5
+  }
+}

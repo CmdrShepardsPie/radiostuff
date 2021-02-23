@@ -1,0 +1,23 @@
+{
+  "ID": 329,
+  "StateID": 32,
+  "Callsign": "WH6CYB",
+  "Location": {
+    "Latitude": 36.25059891,
+    "Longitude": -115.15000153,
+    "County": "Clark",
+    "State": "NV",
+    "Local": "North Las Vegas"
+  },
+  "Use": "Closed",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 443.775,
+    "Output": 448.775
+  },
+  "VOIP": {
+    "EchoLink": {
+      "NodeID": 236464
+    }
+  }
+}

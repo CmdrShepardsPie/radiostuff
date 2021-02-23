@@ -1,0 +1,2 @@
+ID,StateID,Callsign,Use,Status,SquelchTone,DigitalTone,Digital,VOIP,Location.Latitude,Location.Longitude,Location.County,Location.State,Location.Local,Frequency.Input,Frequency.Output
+8996,16,WB6EVM,Private,On-Air,,,,,42.87129974,-112.44599915,Bannock,ID,Pocatello,444.125,449.125

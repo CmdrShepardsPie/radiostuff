@@ -1,0 +1,2 @@
+ID,StateID,Callsign,Use,Status,DigitalTone,Digital,Location.Latitude,Location.Longitude,Location.County,Location.State,Location.Local,Frequency.Input,Frequency.Output,SquelchTone.Input,SquelchTone.Output,VOIP.AllStar,VOIP.EchoLink,VOIP.Wires,VOIP.IRLP.NodeID
+201,49,W7IHC,Open,On-Air,,,40.71229935,-112.0019989,Salt Lake,UT,"Salt Lake City, IHC",443.55,448.55,100,,,,,3078

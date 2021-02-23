@@ -1,2 +1,2 @@
-Frequency,Offset,Tone Up / Down,Location,County,Call,Use,,state_id,ID,Latitude,Longitude,Downlink,Uplink,Grid,On-air,Coverage,Coordination,Last update
-449.325,-5,,St George,Washington,NR7K,OPEN,,49,172,37.15510178,-113.88400269,449.325,444.325,DM37BD,Unknown,Wide area: St. George and the neighboring communities.,UVHFS,2015-06-18
+Frequency,Offset,Tone,Call,Location,ST/PR,Use,Mode,Mi,Dir,,state_id,ID,Latitude,Longitude,Downlink,Uplink,County,Grid,On-air,Coverage,FM,Analog Bandwidth,Coordination,Last update
+449.325,-5,,NR7K,St George,UT,OPEN,FM,97.37,NE,,49,172,37.15510178,-113.88400269,449.325,444.325,Washington,DM37BD,Unknown,Wide area: St. George and the neighboring communities.,Yes; analog capable.,,UVHFS,2015-06-18

@@ -1,0 +1,18 @@
+{
+  "ID": 190,
+  "StateID": 6,
+  "Callsign": "W6PVG",
+  "Location": {
+    "Latitude": 35.13219833,
+    "Longitude": -118.44799805,
+    "County": "Kern",
+    "State": "CA",
+    "Local": "Tehachapi"
+  },
+  "Use": "Open",
+  "Status": "Other",
+  "Frequency": {
+    "Input": 147.66,
+    "Output": 147.06
+  }
+}

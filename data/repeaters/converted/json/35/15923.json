@@ -1,0 +1,22 @@
+{
+  "ID": 15923,
+  "StateID": 35,
+  "Callsign": "KD5PX",
+  "Location": {
+    "Latitude": 36.19889832,
+    "Longitude": -105.88899994,
+    "County": "Rio Arriba",
+    "State": "NM",
+    "Local": "Dixon, Cerro Abajo"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 147.78,
+    "Output": 147.18
+  },
+  "SquelchTone": {
+    "Input": 100,
+    "Output": 100
+  }
+}

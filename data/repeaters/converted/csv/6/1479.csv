@@ -1,0 +1,2 @@
+ID,StateID,Callsign,Use,Status,DigitalTone,Digital,VOIP,Location.Latitude,Location.Longitude,Location.County,Location.State,Location.Local,Frequency.Input,Frequency.Output,SquelchTone.Input,SquelchTone.Output
+1479,6,WD6DIH,Private,On-Air,,,,35.43560028,-115.92299652,San Bernardino,CA,"Baker, Turquoise Mountain",441.96,446.96,136.5,136.5

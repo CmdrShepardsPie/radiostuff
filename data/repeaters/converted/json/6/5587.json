@@ -1,0 +1,22 @@
+{
+  "ID": 5587,
+  "StateID": 6,
+  "Callsign": "K6AMS",
+  "Location": {
+    "Latitude": 34.20780182,
+    "Longitude": -117.10900116,
+    "County": "San Bernardino",
+    "State": "CA",
+    "Local": "Running Springs"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 440.7,
+    "Output": 445.7
+  },
+  "SquelchTone": {
+    "Input": 151.4,
+    "Output": 151.4
+  }
+}

@@ -1,0 +1,2 @@
+ID,StateID,Callsign,Use,Status,DigitalTone,Digital,Location.Latitude,Location.Longitude,Location.County,Location.State,Location.Local,Frequency.Input,Frequency.Output,SquelchTone.Input,SquelchTone.Output,VOIP.IRLP,VOIP.Wires,VOIP.AllStar.NodeID,VOIP.EchoLink.NodeID
+5518,32,WB9STH,Open,On-Air,,,36.10800171,-115.24500275,Clark,NV,Spring Valley,442.425,447.425,173.8,173.8,,,2400,428275

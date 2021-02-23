@@ -1,0 +1,30 @@
+{
+  "ID": 3085,
+  "StateID": 6,
+  "Callsign": "K6ECS",
+  "Location": {
+    "Latitude": 34.23469925,
+    "Longitude": -117.14099884,
+    "County": "San Bernardino",
+    "State": "CA",
+    "Local": "Running Springs, Heaps Peak"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 147.105,
+    "Output": 147.705
+  },
+  "SquelchTone": {
+    "Input": 167.9,
+    "Output": 167.9
+  },
+  "VOIP": {
+    "AllStar": {
+      "NodeID": 41660
+    },
+    "IRLP": {
+      "NodeID": 7493
+    }
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "ID": 18277,
+  "StateID": 6,
+  "Callsign": "W6OY",
+  "Location": {
+    "Latitude": 34.18799973,
+    "Longitude": -117.70500183,
+    "County": "Los Angeles",
+    "State": "CA",
+    "Local": "Claremont, Sunset Ridge"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 444.14,
+    "Output": 449.14
+  },
+  "SquelchTone": {
+    "Input": 100,
+    "Output": 100
+  }
+}

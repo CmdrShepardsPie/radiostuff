@@ -1,0 +1,18 @@
+{
+  "ID": 132,
+  "StateID": 49,
+  "Callsign": "N7DZP",
+  "Location": {
+    "Latitude": 37.72750092,
+    "Longitude": -113.06900024,
+    "County": "Iron",
+    "State": "UT",
+    "Local": "Cedar City"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 443.1,
+    "Output": 448.1
+  }
+}

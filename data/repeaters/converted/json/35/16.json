@@ -1,0 +1,21 @@
+{
+  "ID": 16,
+  "StateID": 35,
+  "Callsign": "W5CSY",
+  "Location": {
+    "Latitude": 35.20890045,
+    "Longitude": -106.4469986,
+    "County": "Bernalillo",
+    "State": "NM",
+    "Local": "Albuquerque, Sandia Crest"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 144.73,
+    "Output": 145.33
+  },
+  "SquelchTone": {
+    "Input": 100
+  }
+}

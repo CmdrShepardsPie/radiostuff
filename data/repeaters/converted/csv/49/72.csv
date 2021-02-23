@@ -1,0 +1,2 @@
+ID,StateID,Callsign,Use,Status,SquelchTone,DigitalTone,Digital,VOIP,Location.Latitude,Location.Longitude,Location.County,Location.State,Location.Local,Frequency.Input,Frequency.Output
+72,49,K7WS,Open,On-Air,,,,,37.42079926,-113.06700134,Washington,UT,"Hurricane, Kolob Peak",443.5,448.5

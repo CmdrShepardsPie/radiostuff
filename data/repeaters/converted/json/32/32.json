@@ -1,0 +1,18 @@
+{
+  "ID": 32,
+  "StateID": 32,
+  "Callsign": "KE6DV",
+  "Location": {
+    "Latitude": 36.04700089,
+    "Longitude": -115.16799927,
+    "County": "Clark",
+    "State": "NV",
+    "Local": "Las Vegas"
+  },
+  "Use": "Closed",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 144.56,
+    "Output": 145.16
+  }
+}

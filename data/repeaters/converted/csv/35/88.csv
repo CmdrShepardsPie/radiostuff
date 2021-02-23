@@ -1,0 +1,2 @@
+ID,StateID,Callsign,Use,Status,DigitalTone,Digital,VOIP,Location.Latitude,Location.Longitude,Location.County,Location.State,Location.Local,Frequency.Input,Frequency.Output,SquelchTone.Input,SquelchTone.Output
+88,35,KB5ZFA,Open,On-Air,,,,34.47169876,-104.24500275,Debaca,NM,Fort Sumner,147.74,147.14,100,

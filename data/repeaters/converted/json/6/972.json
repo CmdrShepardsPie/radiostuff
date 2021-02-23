@@ -1,0 +1,21 @@
+{
+  "ID": 972,
+  "StateID": 6,
+  "Callsign": "W5HMV",
+  "Location": {
+    "Latitude": 35.7627371,
+    "Longitude": -117.37309,
+    "County": "San Bernardino",
+    "State": "CA",
+    "Local": "Trona"
+  },
+  "Use": "Open",
+  "Status": "Off-Air",
+  "Frequency": {
+    "Input": 0,
+    "Output": 447.02
+  },
+  "SquelchTone": {
+    "Input": 123
+  }
+}

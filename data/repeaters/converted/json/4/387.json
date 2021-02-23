@@ -1,0 +1,18 @@
+{
+  "ID": 387,
+  "StateID": 4,
+  "Callsign": "N7URK",
+  "Location": {
+    "Latitude": 35.14780045,
+    "Longitude": -114.56700134,
+    "County": "Mohave",
+    "State": "AZ",
+    "Local": "Bullhead City"
+  },
+  "Use": "Closed",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 444.5,
+    "Output": 449.5
+  }
+}

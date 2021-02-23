@@ -1,0 +1,2 @@
+ID,StateID,Callsign,Use,Status,DigitalTone,Digital,VOIP,Location.Latitude,Location.Longitude,Location.County,Location.State,Location.Local,Frequency.Input,Frequency.Output,SquelchTone.Input,SquelchTone.Output
+24,56,KC7BJY,Open,On-Air,,,,42.55360031,-110.10900116,Sublette,WY,Marbleton,144.545,145.145,100,

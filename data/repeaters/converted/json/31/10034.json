@@ -1,0 +1,22 @@
+{
+  "ID": 10034,
+  "StateID": 31,
+  "Callsign": "N0NEB",
+  "Location": {
+    "Latitude": 42.11700058,
+    "Longitude": -102.87000275,
+    "County": "Box Butte",
+    "State": "NE",
+    "Local": "Alliance"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 146.115,
+    "Output": 146.715
+  },
+  "SquelchTone": {
+    "Input": 103.5,
+    "Output": 103.5
+  }
+}

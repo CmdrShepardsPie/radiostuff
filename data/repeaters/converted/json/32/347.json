@@ -1,0 +1,23 @@
+{
+  "ID": 347,
+  "StateID": 32,
+  "Callsign": "K7RLW",
+  "Location": {
+    "Latitude": 35.27500153,
+    "Longitude": -114.72299957,
+    "County": "Clark",
+    "State": "NV",
+    "Local": "Bullhead City, Spirit Mountain"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 441.225,
+    "Output": 446.225
+  },
+  "Digital": {
+    "DStar": {
+      "Node": "K7RLW (B)"
+    }
+  }
+}

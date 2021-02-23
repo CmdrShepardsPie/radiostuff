@@ -1,11 +1,14 @@
 {
   "Frequency": 449.275,
   "Offset": -5,
-  "Tone Up / Down": "",
-  "Location": "Hurricane, Hurricane Mesa",
-  "County": "Washington",
+  "Tone": "",
   "Call": "K5JCA",
+  "Location": "Hurricane, Hurricane Mesa",
+  "ST/PR": "UT",
   "Use": "OPEN",
+  "Mode": "FM",
+  "Mi": 123.84,
+  "Dir": "NE",
   "": "",
   "state_id": "49",
   "ID": "10063",
@@ -13,7 +16,10 @@
   "Longitude": -113.29000092,
   "Downlink": 449.275,
   "Uplink": 444.275,
+  "County": "Washington",
   "Op Status": "On-Air",
+  "FM": "Yes; analog capable.",
+  "Analog Bandwidth": "",
   "Coordination": "UVHFS",
   "Last update": "2015-03-06"
 }

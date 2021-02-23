@@ -1,0 +1,21 @@
+{
+  "ID": 173,
+  "StateID": 32,
+  "Callsign": "WA6TLW",
+  "Location": {
+    "Latitude": 41.31420135,
+    "Longitude": -116.22100067,
+    "County": "Elko",
+    "State": "NV",
+    "Local": "Tuscarora"
+  },
+  "Use": "Closed",
+  "Status": "Other",
+  "Frequency": {
+    "Input": 449.65,
+    "Output": 444.65
+  },
+  "SquelchTone": {
+    "Input": 94.8
+  }
+}

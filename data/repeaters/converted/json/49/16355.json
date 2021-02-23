@@ -1,0 +1,29 @@
+{
+  "ID": 16355,
+  "StateID": 49,
+  "Callsign": "W7WPC",
+  "Location": {
+    "Latitude": 41.11830139,
+    "Longitude": -112.08399963,
+    "County": "Davis",
+    "State": "UT",
+    "Local": "West Point, West Point City Building"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 442.075,
+    "Output": 447.075
+  },
+  "DigitalTone": {
+    "Input": 51
+  },
+  "Digital": {
+    "YSF": {
+      "GroupID": {
+        "Input": "Open ↑",
+        "Output": "Open ↓"
+      }
+    }
+  }
+}

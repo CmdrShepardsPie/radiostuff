@@ -1,0 +1,22 @@
+{
+  "ID": 18390,
+  "StateID": 46,
+  "Callsign": "K0HS",
+  "Location": {
+    "Latitude": 43.22800064,
+    "Longitude": -103.47399902,
+    "County": "Fall River",
+    "State": "SD",
+    "Local": "Hot Springs, City library/HSARC club house"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 449.7,
+    "Output": 444.7
+  },
+  "SquelchTone": {
+    "Input": 146.2,
+    "Output": 146.2
+  }
+}

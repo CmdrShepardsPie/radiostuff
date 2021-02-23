@@ -1,0 +1,2 @@
+ID,StateID,Callsign,Use,Status,SquelchTone,DigitalTone,VOIP,Location.Latitude,Location.Longitude,Location.County,Location.State,Location.Local,Frequency.Input,Frequency.Output,Digital.DMR,Digital.P25,Digital.YSF,Digital.DStar.Node
+5178,32,N7ARR,Open,On-Air,,,,36.16619873,-115.01799774,Clark,NV,Las Vegas,144.575,145.175,,,,N7ARR (C)

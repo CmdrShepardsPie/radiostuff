@@ -1,0 +1,24 @@
+{
+  "ID": 135,
+  "StateID": 32,
+  "Callsign": "KB6XN",
+  "Location": {
+    "Latitude": 35.96519852,
+    "Longitude": -115.5,
+    "County": "Clark",
+    "State": "NV",
+    "Local": "Las Vegas, Hi Potosi Mountain"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 444.975,
+    "Output": 449.975
+  },
+  "Digital": {
+    "DMR": {
+      "ColorCode": 15,
+      "ID": 313239
+    }
+  }
+}

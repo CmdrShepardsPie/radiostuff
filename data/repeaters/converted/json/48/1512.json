@@ -1,0 +1,18 @@
+{
+  "ID": 1512,
+  "StateID": 48,
+  "Callsign": "N5LTZ",
+  "Location": {
+    "Latitude": 34.68259811,
+    "Longitude": -102.60900116,
+    "County": "Parmer",
+    "State": "TX",
+    "Local": "Black"
+  },
+  "Use": "Closed",
+  "Status": "Other",
+  "Frequency": {
+    "Input": 449.425,
+    "Output": 444.425
+  }
+}

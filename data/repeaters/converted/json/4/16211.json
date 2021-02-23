@@ -1,0 +1,24 @@
+{
+  "ID": 16211,
+  "StateID": 4,
+  "Callsign": "WD6AML",
+  "Location": {
+    "Latitude": 33.66389847,
+    "Longitude": -114.23000336,
+    "County": "La Paz",
+    "State": "AZ",
+    "Local": "Quartzsite, Guadalupe Pk"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 443.9,
+    "Output": 448.9
+  },
+  "Digital": {
+    "DMR": {
+      "ColorCode": 1,
+      "ID": 310717
+    }
+  }
+}

@@ -1,0 +1,2 @@
+ID,StateID,Callsign,Use,Status,DigitalTone,Digital,VOIP,Location.Latitude,Location.Longitude,Location.County,Location.State,Location.Local,Frequency.Input,Frequency.Output,SquelchTone.Input,SquelchTone.Output
+15582,8,KB0VJJ,Open,On-Air,,,,39.88650131,-105.76300049,Grand,CO,"Winter Park, Winter Park",147.885,147.285,88.5,123

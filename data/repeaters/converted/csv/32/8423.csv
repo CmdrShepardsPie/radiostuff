@@ -1,0 +1,2 @@
+ID,StateID,Callsign,Use,Status,DigitalTone,Digital,VOIP,Location.Latitude,Location.Longitude,Location.County,Location.State,Location.Local,Frequency.Input,Frequency.Output,SquelchTone.Input,SquelchTone.Output
+8423,32,KF6QYX,Open,On-Air,,,,36.01860046,-115.13800049,Clark,NV,Las Vegas,443.05,448.05,123,

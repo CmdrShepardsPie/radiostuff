@@ -1,0 +1,26 @@
+{
+  "ID": 3052,
+  "StateID": 48,
+  "Callsign": "KA3IDN",
+  "Location": {
+    "Latitude": 35.2417984,
+    "Longitude": -101.81300354,
+    "County": "Potter",
+    "State": "TX",
+    "Local": "Amarillo"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 902.1625,
+    "Output": 927.1625
+  },
+  "SquelchTone": {
+    "Input": 151.4
+  },
+  "VOIP": {
+    "EchoLink": {
+      "NodeID": 361016
+    }
+  }
+}

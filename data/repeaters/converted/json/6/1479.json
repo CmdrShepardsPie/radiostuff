@@ -1,0 +1,22 @@
+{
+  "ID": 1479,
+  "StateID": 6,
+  "Callsign": "WD6DIH",
+  "Location": {
+    "Latitude": 35.43560028,
+    "Longitude": -115.92299652,
+    "County": "San Bernardino",
+    "State": "CA",
+    "Local": "Baker, Turquoise Mountain"
+  },
+  "Use": "Private",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 441.96,
+    "Output": 446.96
+  },
+  "SquelchTone": {
+    "Input": 136.5,
+    "Output": 136.5
+  }
+}

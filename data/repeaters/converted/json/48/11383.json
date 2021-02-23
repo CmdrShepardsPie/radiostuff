@@ -1,0 +1,24 @@
+{
+  "ID": 11383,
+  "StateID": 48,
+  "Callsign": "KA3IDN",
+  "Location": {
+    "Latitude": 35.22200012,
+    "Longitude": -101.83100128,
+    "County": "Potter",
+    "State": "TX",
+    "Local": "Amarillo"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 449.9625,
+    "Output": 444.9625
+  },
+  "Digital": {
+    "DMR": {
+      "ColorCode": 14,
+      "ID": 314812
+    }
+  }
+}

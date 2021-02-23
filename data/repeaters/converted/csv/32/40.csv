@@ -1,0 +1,2 @@
+ID,StateID,Callsign,Use,Status,DigitalTone,Digital,VOIP,Location.Latitude,Location.Longitude,Location.County,Location.State,Location.Local,Frequency.Input,Frequency.Output,SquelchTone.Input,SquelchTone.Output
+40,32,KC7DB,Open,On-Air,,,,36.21969986,-115.08399963,Clark,NV,"Las Vegas, Sunrise Hospital",147.87,147.27,100,

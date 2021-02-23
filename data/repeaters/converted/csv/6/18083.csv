@@ -1,0 +1,2 @@
+ID,StateID,Callsign,Use,Status,DigitalTone,Digital,VOIP,Location.Latitude,Location.Longitude,Location.County,Location.State,Location.Local,Frequency.Input,Frequency.Output,SquelchTone.Input,SquelchTone.Output
+18083,6,N6BKL,Open,On-Air,,,,33.72060013,-116.21600342,Riverside,CA,Indio,52.5,52.9,82.5,

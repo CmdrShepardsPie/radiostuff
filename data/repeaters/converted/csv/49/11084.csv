@@ -1,0 +1,2 @@
+ID,StateID,Callsign,Use,Status,SquelchTone,DigitalTone,VOIP,Location.Latitude,Location.Longitude,Location.County,Location.State,Location.Local,Frequency.Input,Frequency.Output,Digital.DMR,Digital.P25,Digital.YSF,Digital.DStar.Node
+11084,49,AC7O,Open,On-Air,,,,41.72460175,-111.8010025,Cache,UT,"Logan, Mt Logan",1279.75,1299.75,,,,AC7O (A)

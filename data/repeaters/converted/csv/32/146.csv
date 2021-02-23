@@ -1,0 +1,2 @@
+ID,StateID,Callsign,Use,Status,SquelchTone,DigitalTone,Digital,VOIP,Location.Latitude,Location.Longitude,Location.County,Location.State,Location.Local,Frequency.Input,Frequency.Output
+146,32,KC7DKC,Open,Off-Air,,,,,36.2140007,-115.99099731,Clark,NV,Pahrump,442.55,447.55

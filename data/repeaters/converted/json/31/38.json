@@ -1,0 +1,22 @@
+{
+  "ID": 38,
+  "StateID": 31,
+  "Callsign": "K0PCA",
+  "Location": {
+    "Latitude": 40.47829819,
+    "Longitude": -99.50700378,
+    "County": "Phelps",
+    "State": "NE",
+    "Local": "Loomis"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 146.295,
+    "Output": 146.895
+  },
+  "SquelchTone": {
+    "Input": 123,
+    "Output": 123
+  }
+}

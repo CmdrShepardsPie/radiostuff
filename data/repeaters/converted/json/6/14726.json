@@ -1,0 +1,22 @@
+{
+  "ID": 14726,
+  "StateID": 6,
+  "Callsign": "WA6CAM",
+  "Location": {
+    "Latitude": 34.86410141,
+    "Longitude": -118.16300201,
+    "County": "Kern",
+    "State": "CA",
+    "Local": "Rosamond, Taco Bell"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 449.575,
+    "Output": 444.575
+  },
+  "SquelchTone": {
+    "Input": 173.8,
+    "Output": 173.8
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "ID": 17927,
+  "StateID": 6,
+  "Callsign": "W6CDF",
+  "Location": {
+    "Latitude": 33.67829895,
+    "Longitude": -115.96399689,
+    "County": "Riverside",
+    "State": "CA",
+    "Local": "Cactus City"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 440.02,
+    "Output": 445.02
+  },
+  "SquelchTone": {
+    "Input": 186.2
+  }
+}

@@ -1,0 +1,2 @@
+ID,StateID,Callsign,Use,Status,DigitalTone,Digital,Location.Latitude,Location.Longitude,Location.County,Location.State,Location.Local,Frequency.Input,Frequency.Output,SquelchTone.Input,SquelchTone.Output,VOIP.EchoLink,VOIP.IRLP,VOIP.Wires,VOIP.AllStar.NodeID
+341,32,N6JFO,Open,On-Air,,,35.25149918,-114.7480011,Clark,NV,"Bullhead City, Spirit Mountain",444.3,449.3,131.8,,,,,29668

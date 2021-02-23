@@ -1,0 +1,26 @@
+{
+  "ID": 14857,
+  "StateID": 32,
+  "Callsign": "KO7G",
+  "Location": {
+    "Latitude": 40.71379852,
+    "Longitude": -116.10399628,
+    "County": "Elko",
+    "State": "NV",
+    "Local": "Carlin, Mary's Mountain"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 448.85,
+    "Output": 443.85
+  },
+  "Digital": {
+    "YSF": {
+      "GroupID": {
+        "Input": "Open ↑",
+        "Output": "Open ↓"
+      }
+    }
+  }
+}

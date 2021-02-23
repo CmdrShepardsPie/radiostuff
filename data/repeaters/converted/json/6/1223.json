@@ -1,0 +1,18 @@
+{
+  "ID": 1223,
+  "StateID": 6,
+  "Callsign": "K6IOJ",
+  "Location": {
+    "Latitude": 34.23189926,
+    "Longitude": -117.23400116,
+    "County": "San Bernardino",
+    "State": "CA",
+    "Local": "Crestline, Strawberry Peak"
+  },
+  "Use": "Closed",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 443.42,
+    "Output": 448.42
+  }
+}

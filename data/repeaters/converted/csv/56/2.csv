@@ -1,0 +1,2 @@
+ID,StateID,Callsign,Use,Status,DigitalTone,Digital,VOIP,Location.Latitude,Location.Longitude,Location.County,Location.State,Location.Local,Frequency.Input,Frequency.Output,SquelchTone.Input,SquelchTone.Output
+2,56,K7JL,Open,On-Air,,,,41.34859848,-110.90200043,Uinta,WY,"Evanston, Medicine Butte",146.26,146.86,100,

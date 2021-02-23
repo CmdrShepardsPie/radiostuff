@@ -1,0 +1,21 @@
+{
+  "ID": 115,
+  "StateID": 32,
+  "Callsign": "WR7WHT",
+  "Location": {
+    "Latitude": 36.31919861,
+    "Longitude": -115.5739975,
+    "County": "Clark",
+    "State": "NV",
+    "Local": "Las Vegas, Angel Peak"
+  },
+  "Use": "Closed",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 444.025,
+    "Output": 449.025
+  },
+  "SquelchTone": {
+    "Input": 156.7
+  }
+}

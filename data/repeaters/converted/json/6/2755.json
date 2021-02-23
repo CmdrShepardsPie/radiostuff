@@ -1,0 +1,26 @@
+{
+  "ID": 2755,
+  "StateID": 6,
+  "Callsign": "K6PIN",
+  "Location": {
+    "Latitude": 34.2419014,
+    "Longitude": -117.28500366,
+    "County": "San Bernardino",
+    "State": "CA",
+    "Local": "Crestline"
+  },
+  "Use": "Closed",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 440.78,
+    "Output": 445.78
+  },
+  "Digital": {
+    "YSF": {
+      "GroupID": {
+        "Input": "Open ↑",
+        "Output": "Open ↓"
+      }
+    }
+  }
+}

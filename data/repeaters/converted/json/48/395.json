@@ -1,0 +1,29 @@
+{
+  "ID": 395,
+  "StateID": 48,
+  "Callsign": "W5WX",
+  "Location": {
+    "Latitude": 35.1739006,
+    "Longitude": -101.95400238,
+    "County": "Randall",
+    "State": "TX",
+    "Local": "Amarillo"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 147.94,
+    "Output": 147.34
+  },
+  "SquelchTone": {
+    "Input": 88.5
+  },
+  "Digital": {
+    "YSF": {
+      "GroupID": {
+        "Input": "Open ↑",
+        "Output": "Open ↓"
+      }
+    }
+  }
+}

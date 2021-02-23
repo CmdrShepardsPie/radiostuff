@@ -1,0 +1,24 @@
+{
+  "ID": 13298,
+  "StateID": 32,
+  "Callsign": "N7ARR",
+  "Location": {
+    "Latitude": 36.17890167,
+    "Longitude": -114.9980011,
+    "County": "Clark",
+    "State": "NV",
+    "Local": "Las Vegas, Frenchman Mtn"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 441.45,
+    "Output": 446.45
+  },
+  "Digital": {
+    "DMR": {
+      "ColorCode": 1,
+      "ID": 313213
+    }
+  }
+}

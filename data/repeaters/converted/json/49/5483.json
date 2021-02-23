@@ -1,0 +1,21 @@
+{
+  "ID": 5483,
+  "StateID": 49,
+  "Callsign": "N6EZO",
+  "Location": {
+    "Latitude": 40.13019943,
+    "Longitude": -111.57900238,
+    "County": "Utah",
+    "State": "UT",
+    "Local": "Mapleton"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 146.2,
+    "Output": 146.8
+  },
+  "SquelchTone": {
+    "Input": 100
+  }
+}

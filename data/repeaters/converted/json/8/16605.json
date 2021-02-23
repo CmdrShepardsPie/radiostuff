@@ -1,0 +1,21 @@
+{
+  "ID": 16605,
+  "StateID": 8,
+  "Callsign": "KB5ITS",
+  "Location": {
+    "Latitude": 37.81190109,
+    "Longitude": -107.66500092,
+    "County": "San Juan",
+    "State": "CO",
+    "Local": "Silverton, Buffalo Boy"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 144.725,
+    "Output": 145.325
+  },
+  "SquelchTone": {
+    "Input": 127.3
+  }
+}

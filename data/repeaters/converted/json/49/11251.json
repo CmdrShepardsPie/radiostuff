@@ -1,0 +1,23 @@
+{
+  "ID": 11251,
+  "StateID": 49,
+  "Callsign": "N7RDS",
+  "Location": {
+    "Latitude": 41.77959824,
+    "Longitude": -112.17900085,
+    "County": "Box Elder",
+    "State": "UT",
+    "Local": "Riverside"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 442.925,
+    "Output": 447.925
+  },
+  "Digital": {
+    "DStar": {
+      "Node": "N7RDS (B)"
+    }
+  }
+}

@@ -1,0 +1,2 @@
+ID,StateID,Callsign,Use,Status,DigitalTone,VOIP,Location.Latitude,Location.Longitude,Location.County,Location.State,Location.Local,Frequency.Input,Frequency.Output,SquelchTone.Input,SquelchTone.Output,Digital.DMR,Digital.P25,Digital.DStar,Digital.YSF.GroupID.Input,Digital.YSF.GroupID.Output
+18932,8,K0SLV,Open,On-Air,,,37.5791696,-106.1480842,Rio Grande,CO,Monte Vista,146.34,146.94,94.8,,,,,Open ↑,Open ↓

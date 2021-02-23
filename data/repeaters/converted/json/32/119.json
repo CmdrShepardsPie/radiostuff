@@ -1,0 +1,18 @@
+{
+  "ID": 119,
+  "StateID": 32,
+  "Callsign": "KI7D",
+  "Location": {
+    "Latitude": 36.31919861,
+    "Longitude": -115.5739975,
+    "County": "Clark",
+    "State": "NV",
+    "Local": "Las Vegas, Angel Peak"
+  },
+  "Use": "Open",
+  "Status": "Other",
+  "Frequency": {
+    "Input": 444.85,
+    "Output": 449.85
+  }
+}

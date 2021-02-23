@@ -1,0 +1,45 @@
+{
+  "ID": 17700,
+  "StateID": 6,
+  "Callsign": "AD5MT",
+  "Location": {
+    "Latitude": 34.02099991,
+    "Longitude": -117.1309967,
+    "County": "San Bernardino",
+    "State": "CA",
+    "Local": "Redlands"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 444.08,
+    "Output": 449.08
+  },
+  "SquelchTone": {
+    "Input": 141.3,
+    "Output": 141.3
+  },
+  "Digital": {
+    "DMR": {
+      "ColorCode": 7,
+      "ID": 310566
+    },
+    "P25": {
+      "NAC": 293
+    },
+    "DStar": {
+      "Node": "AD5MT (B)"
+    },
+    "YSF": {
+      "GroupID": {
+        "Input": 1,
+        "Output": 1
+      }
+    }
+  },
+  "VOIP": {
+    "AllStar": {
+      "NodeID": 502530
+    }
+  }
+}

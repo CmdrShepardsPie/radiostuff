@@ -1,0 +1,2 @@
+ID,StateID,Callsign,Use,Status,DigitalTone,Digital,Location.Latitude,Location.Longitude,Location.County,Location.State,Location.Local,Frequency.Input,Frequency.Output,SquelchTone.Input,SquelchTone.Output,VOIP.AllStar,VOIP.EchoLink,VOIP.Wires,VOIP.IRLP.NodeID
+107,49,KD7YE,Open,On-Air,,,39.32249832,-111.77100372,Sanpete,UT,"Manti, Barton Peak",443.275,448.275,107.2,,,,,3576

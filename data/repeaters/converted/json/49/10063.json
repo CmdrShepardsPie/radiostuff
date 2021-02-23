@@ -1,0 +1,18 @@
+{
+  "ID": 10063,
+  "StateID": 49,
+  "Callsign": "K5JCA",
+  "Location": {
+    "Latitude": 37.1753006,
+    "Longitude": -113.29000092,
+    "County": "Washington",
+    "State": "UT",
+    "Local": "Hurricane, Hurricane Mesa"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 444.275,
+    "Output": 449.275
+  }
+}

@@ -1,2 +1,2 @@
 ID,StateID,Callsign,Use,Status,SquelchTone,DigitalTone,VOIP,Location.Latitude,Location.Longitude,Location.County,Location.State,Location.Local,Frequency.Input,Frequency.Output,Digital.P25,Digital.DStar,Digital.YSF,Digital.DMR.ColorCode,Digital.DMR.ID
-60,56,WY7EOC,Closed,On-Air,,,,41.26660156,-105.43299866,Albany,WY,"Laramie, Pilot Hill",442.225,447.225,,,,11,315608
+60,56,WY7EOC,Open,On-Air,,,,41.26660156,-105.43299866,Albany,WY,"Laramie, Pilot Hill",442.225,447.225,,,,11,315608

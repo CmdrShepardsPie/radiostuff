@@ -1,0 +1,21 @@
+{
+  "ID": 187,
+  "StateID": 6,
+  "Callsign": "W6IY",
+  "Location": {
+    "Latitude": 35.47809982,
+    "Longitude": -117.6989975,
+    "County": "Kern",
+    "State": "CA",
+    "Local": "Ridgecrest, El Paso Peak"
+  },
+  "Use": "Open",
+  "Status": "Off-Air",
+  "Frequency": {
+    "Input": 147.66,
+    "Output": 147.06
+  },
+  "SquelchTone": {
+    "Input": 107.2
+  }
+}

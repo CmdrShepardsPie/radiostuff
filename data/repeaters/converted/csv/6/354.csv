@@ -1,0 +1,2 @@
+ID,StateID,Callsign,Use,Status,DigitalTone,Digital,VOIP,Location.Latitude,Location.Longitude,Location.County,Location.State,Location.Local,Frequency.Input,Frequency.Output,SquelchTone.Input,SquelchTone.Output
+354,6,W6SCE,Private,On-Air,,,,35.13219833,-118.44799805,Kern,CA,"Tehachapi, Oak Peak",223.1,224.7,100,

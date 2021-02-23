@@ -1,0 +1,26 @@
+{
+  "ID": 186,
+  "StateID": 6,
+  "Callsign": "WA6YBN",
+  "Location": {
+    "Latitude": 35.61999893,
+    "Longitude": -117.67099762,
+    "County": "Kern",
+    "State": "CA",
+    "Local": "Ridgecrest"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 147.6,
+    "Output": 147
+  },
+  "SquelchTone": {
+    "Input": 107.2
+  },
+  "VOIP": {
+    "AllStar": {
+      "NodeID": 27178
+    }
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "ID": 23,
+  "StateID": 49,
+  "Callsign": "K7HEN",
+  "Location": {
+    "Latitude": 40.28760147,
+    "Longitude": -111.31500244,
+    "County": "Wasatch",
+    "State": "UT",
+    "Local": "Heber City, Strawberry Peak"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 147.76,
+    "Output": 147.16
+  },
+  "SquelchTone": {
+    "Input": 136.5
+  }
+}

@@ -1,0 +1,2 @@
+ID,StateID,Callsign,Use,Status,DigitalTone,Digital,VOIP,Location.Latitude,Location.Longitude,Location.County,Location.State,Location.Local,Frequency.Input,Frequency.Output,SquelchTone.Input,SquelchTone.Output
+12320,4,K7YCA,Open,On-Air,,,,34.48889923,-112.53500366,Yavapai,AZ,"Prescott, Mt Francis",144.77,145.37,127.3,

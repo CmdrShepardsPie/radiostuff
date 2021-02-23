@@ -1,0 +1,2 @@
+ID,StateID,Callsign,Use,Status,SquelchTone,DigitalTone,Location.Latitude,Location.Longitude,Location.County,Location.State,Location.Local,Frequency.Input,Frequency.Output,Digital.DMR,Digital.DStar,Digital.YSF,VOIP.EchoLink,VOIP.IRLP,VOIP.Wires,Digital.P25.NAC,VOIP.AllStar.NodeID
+1194,6,WD6AWP,Private,On-Air,,,34.35440063,-117.67900085,Los Angeles,CA,"Wrightwood, Blue Ridge",443.38,448.38,,,,,,,927,2528

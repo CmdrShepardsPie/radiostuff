@@ -1,0 +1,24 @@
+{
+  "ID": 14523,
+  "StateID": 48,
+  "Callsign": "KD5ROK",
+  "Location": {
+    "Latitude": 35.86539841,
+    "Longitude": -101.97299957,
+    "County": "Moore",
+    "State": "TX",
+    "Local": "Dumas"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 448.0125,
+    "Output": 443.0125
+  },
+  "Digital": {
+    "DMR": {
+      "ColorCode": 14,
+      "ID": 314844
+    }
+  }
+}

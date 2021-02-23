@@ -1,0 +1,2 @@
+ID,StateID,Callsign,Use,Status,SquelchTone,Digital,VOIP,Location.Latitude,Location.Longitude,Location.County,Location.State,Location.Local,Frequency.Input,Frequency.Output,DigitalTone.Input,DigitalTone.Output
+2079,6,N6LXX,Open,Other,,,,34.42610168,-117.57099915,San Bernardino,CA,Phelan,902.475,927.475,532,

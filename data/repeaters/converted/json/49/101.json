@@ -1,0 +1,21 @@
+{
+  "ID": 101,
+  "StateID": 49,
+  "Callsign": "KD7IMS",
+  "Location": {
+    "Latitude": 40.80469894,
+    "Longitude": -111.89600372,
+    "County": "Salt Lake",
+    "State": "UT",
+    "Local": "Salt Lake City, Ensign Peak"
+  },
+  "Use": "Open",
+  "Status": "Other",
+  "Frequency": {
+    "Input": 443.175,
+    "Output": 448.175
+  },
+  "SquelchTone": {
+    "Input": 203.5
+  }
+}

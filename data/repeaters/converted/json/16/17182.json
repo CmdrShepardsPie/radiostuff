@@ -1,0 +1,21 @@
+{
+  "ID": 17182,
+  "StateID": 16,
+  "Callsign": "KE7EYY",
+  "Location": {
+    "Latitude": 42.09629822,
+    "Longitude": -111.8769989,
+    "County": "Franklin",
+    "State": "ID",
+    "Local": "Preston, P Hill"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 443.75,
+    "Output": 448.75
+  },
+  "SquelchTone": {
+    "Input": 88.5
+  }
+}

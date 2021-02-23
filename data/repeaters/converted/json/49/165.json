@@ -1,0 +1,18 @@
+{
+  "ID": 165,
+  "StateID": 49,
+  "Callsign": "N7WPF",
+  "Location": {
+    "Latitude": 39.31669998,
+    "Longitude": -112.66699982,
+    "County": "Millard",
+    "State": "UT",
+    "Local": "Hinckley"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 147.86,
+    "Output": 147.26
+  }
+}

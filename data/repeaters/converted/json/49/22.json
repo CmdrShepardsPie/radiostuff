@@ -1,0 +1,21 @@
+{
+  "ID": 22,
+  "StateID": 49,
+  "Callsign": "K7HEN",
+  "Location": {
+    "Latitude": 40.85449982,
+    "Longitude": -111.48200226,
+    "County": "Summit",
+    "State": "UT",
+    "Local": "Coalville, Lewis Peak"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 147.84,
+    "Output": 147.24
+  },
+  "SquelchTone": {
+    "Input": 136.5
+  }
+}

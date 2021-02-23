@@ -1,0 +1,2 @@
+ID,StateID,Callsign,Use,Status,SquelchTone,DigitalTone,VOIP,Location.Latitude,Location.Longitude,Location.County,Location.State,Location.Local,Frequency.Input,Frequency.Output,Digital.P25,Digital.DStar,Digital.YSF,Digital.DMR.ColorCode,Digital.DMR.ID
+16060,6,K6TMD,Open,On-Air,,,,33.76060104,-116.73799896,Riverside,CA,Pine Cove,441.0625,446.0625,,,,1,310724

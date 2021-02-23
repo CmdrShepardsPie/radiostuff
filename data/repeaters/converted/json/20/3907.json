@@ -1,0 +1,18 @@
+{
+  "ID": 3907,
+  "StateID": 20,
+  "Callsign": "KB0DZB",
+  "Location": {
+    "Latitude": 39.8321991,
+    "Longitude": -100.53399658,
+    "County": "Decatur",
+    "State": "KS",
+    "Local": "Oberlin"
+  },
+  "Use": "Open",
+  "Status": "Off-Air",
+  "Frequency": {
+    "Input": 144.59,
+    "Output": 145.19
+  }
+}

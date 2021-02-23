@@ -1,0 +1,21 @@
+{
+  "ID": 803,
+  "StateID": 6,
+  "Callsign": "W6DRA",
+  "Location": {
+    "Latitude": 33.77259827,
+    "Longitude": -116.35900116,
+    "County": "Riverside",
+    "State": "CA",
+    "Local": "Palm Desert, Marriott"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 223.32,
+    "Output": 224.92
+  },
+  "SquelchTone": {
+    "Input": 156.7
+  }
+}

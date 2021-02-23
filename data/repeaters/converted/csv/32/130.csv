@@ -1,0 +1,2 @@
+ID,StateID,Callsign,Use,Status,DigitalTone,Digital,Location.Latitude,Location.Longitude,Location.County,Location.State,Location.Local,Frequency.Input,Frequency.Output,SquelchTone.Input,SquelchTone.Output,VOIP.IRLP,VOIP.Wires,VOIP.AllStar.NodeID,VOIP.EchoLink.NodeID
+130,32,K7RSW,Open,On-Air,,,36.02669907,-114.97399902,Clark,NV,"Henderson, Downtown",443.875,448.875,114.8,114.8,,,29342,7745

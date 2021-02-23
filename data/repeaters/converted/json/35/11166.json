@@ -1,0 +1,27 @@
+{
+  "ID": 11166,
+  "StateID": 35,
+  "Callsign": "KB5VPZ",
+  "Location": {
+    "Latitude": 34.84149933,
+    "Longitude": -106.1309967,
+    "County": "Torrance",
+    "State": "NM",
+    "Local": "McIntosh, McIntosh Post office west"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 442.275,
+    "Output": 447.275
+  },
+  "SquelchTone": {
+    "Input": 71.9,
+    "Output": 71.9
+  },
+  "VOIP": {
+    "EchoLink": {
+      "NodeID": 943044
+    }
+  }
+}

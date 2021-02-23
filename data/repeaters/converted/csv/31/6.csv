@@ -1,0 +1,2 @@
+ID,StateID,Callsign,Use,Status,SquelchTone,DigitalTone,Digital,VOIP,Location.Latitude,Location.Longitude,Location.County,Location.State,Location.Local,Frequency.Input,Frequency.Output
+6,31,KA0RCZ,Open,On-Air,,,,,40.10079956,-99.36250305,Harlan,NE,Alma,144.605,145.205

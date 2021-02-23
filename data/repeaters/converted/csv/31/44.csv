@@ -1,0 +1,2 @@
+ID,StateID,Callsign,Use,Status,SquelchTone,DigitalTone,Digital,VOIP,Location.Latitude,Location.Longitude,Location.County,Location.State,Location.Local,Frequency.Input,Frequency.Output
+44,31,K0KDC,Open,On-Air,,,,,41.12390137,-100.76499939,Lincoln,NE,North Platte,146.235,146.835

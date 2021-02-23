@@ -1,0 +1,2 @@
+ID,StateID,Callsign,Use,Status,SquelchTone,DigitalTone,Digital,VOIP,Location.Latitude,Location.Longitude,Location.County,Location.State,Location.Local,Frequency.Input,Frequency.Output
+93,49,KC7OXI,Open,On-Air,,,,,40.46390152,-111.89299774,Salt Lake,UT,"Draper, South Mountain",443.35,448.35

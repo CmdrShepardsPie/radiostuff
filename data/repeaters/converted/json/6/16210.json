@@ -1,0 +1,24 @@
+{
+  "ID": 16210,
+  "StateID": 6,
+  "Callsign": "WD6AML",
+  "Location": {
+    "Latitude": 33.67639923,
+    "Longitude": -115.95999908,
+    "County": "Riverside",
+    "State": "CA",
+    "Local": "Cactus City"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 441.0625,
+    "Output": 446.0625
+  },
+  "Digital": {
+    "DMR": {
+      "ColorCode": 2,
+      "ID": 310725
+    }
+  }
+}

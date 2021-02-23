@@ -1,0 +1,18 @@
+{
+  "ID": 17857,
+  "StateID": 6,
+  "Callsign": "W6ATN",
+  "Location": {
+    "Latitude": 34.25740051,
+    "Longitude": -117.33000183,
+    "County": "San Bernardino",
+    "State": "CA",
+    "Local": "Crestline, Jobs Peak"
+  },
+  "Use": "Open",
+  "Status": "Other",
+  "Frequency": {
+    "Input": 1241.25,
+    "Output": 1253.25
+  }
+}

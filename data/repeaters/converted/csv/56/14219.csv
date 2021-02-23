@@ -1,0 +1,2 @@
+ID,StateID,Callsign,Use,Status,DigitalTone,Digital,VOIP,Location.Latitude,Location.Longitude,Location.County,Location.State,Location.Local,Frequency.Input,Frequency.Output,SquelchTone.Input,SquelchTone.Output
+14219,56,WY7BV,Open,On-Air,,,,41.08269882,-110.23300171,Uinta,WY,"Mountain View, Hickey Mtn",145.235,144.635,100,

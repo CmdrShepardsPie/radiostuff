@@ -1,0 +1,29 @@
+{
+  "ID": 2405,
+  "StateID": 6,
+  "Callsign": "KB6JAG",
+  "Location": {
+    "Latitude": 33.74750137,
+    "Longitude": -116.97100067,
+    "County": "Riverside",
+    "State": "CA",
+    "Local": "Hemet"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 441.88,
+    "Output": 446.88
+  },
+  "SquelchTone": {
+    "Input": 88.5
+  },
+  "VOIP": {
+    "EchoLink": {
+      "NodeID": 416226
+    },
+    "IRLP": {
+      "NodeID": 3204
+    }
+  }
+}

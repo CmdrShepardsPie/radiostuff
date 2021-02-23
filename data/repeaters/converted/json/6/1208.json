@@ -1,0 +1,21 @@
+{
+  "ID": 1208,
+  "StateID": 6,
+  "Callsign": "WR6CM",
+  "Location": {
+    "Latitude": 34.94889832,
+    "Longitude": -116.86399841,
+    "County": "San Bernardino",
+    "State": "CA",
+    "Local": "Calico"
+  },
+  "Use": "Closed",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 441.3,
+    "Output": 446.3
+  },
+  "SquelchTone": {
+    "Input": 136.5
+  }
+}

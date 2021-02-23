@@ -1,0 +1,2 @@
+ID,StateID,Callsign,Use,Status,SquelchTone,Digital,VOIP,Location.Latitude,Location.Longitude,Location.County,Location.State,Location.Local,Frequency.Input,Frequency.Output,DigitalTone.Input,DigitalTone.Output
+289,32,WB6TNP,Open,On-Air,,,,35.70159912,-114.89099884,Clark,NV,"Boulder City, Opal Mountain",902.3125,927.3125,606,

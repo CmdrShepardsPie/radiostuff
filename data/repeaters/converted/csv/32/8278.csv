@@ -1,0 +1,2 @@
+ID,StateID,Callsign,Use,Status,DigitalTone,Digital,VOIP,Location.Latitude,Location.Longitude,Location.County,Location.State,Location.Local,Frequency.Input,Frequency.Output,SquelchTone.Input,SquelchTone.Output
+8278,32,W7HTL,Open,On-Air,,,,36.10250092,-115.39399719,Clark,NV,"Las Vegas, Blue Diamond Hill",441.225,446.225,85.4,

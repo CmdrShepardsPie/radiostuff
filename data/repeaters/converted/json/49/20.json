@@ -1,0 +1,21 @@
+{
+  "ID": 20,
+  "StateID": 49,
+  "Callsign": "K7DSN",
+  "Location": {
+    "Latitude": 40.02809906,
+    "Longitude": -111.37000275,
+    "County": "Utah",
+    "State": "UT",
+    "Local": "Spanish Fork, Teat Mountain"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 442.4,
+    "Output": 447.4
+  },
+  "SquelchTone": {
+    "Input": 100
+  }
+}

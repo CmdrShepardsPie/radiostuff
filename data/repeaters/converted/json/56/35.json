@@ -1,0 +1,26 @@
+{
+  "ID": 35,
+  "StateID": 56,
+  "Callsign": "K0FOP",
+  "Location": {
+    "Latitude": 43.02500153,
+    "Longitude": -108.3789978,
+    "County": "Fremont",
+    "State": "WY",
+    "Local": "Riverton, Griffey Hill"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 144.515,
+    "Output": 145.115
+  },
+  "SquelchTone": {
+    "Input": 100
+  },
+  "VOIP": {
+    "EchoLink": {
+      "NodeID": 161145
+    }
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "ID": 112,
+  "StateID": 31,
+  "Callsign": "NI0P",
+  "Location": {
+    "Latitude": 41.10589981,
+    "Longitude": -98.45639801,
+    "County": "Howard",
+    "State": "NE",
+    "Local": "St Libory, Microwave Tower"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 449.925,
+    "Output": 444.925
+  },
+  "SquelchTone": {
+    "Input": 100
+  }
+}

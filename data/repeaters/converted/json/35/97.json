@@ -1,0 +1,21 @@
+{
+  "ID": 97,
+  "StateID": 35,
+  "Callsign": "K5URR",
+  "Location": {
+    "Latitude": 35.23860168,
+    "Longitude": -107.60800171,
+    "County": "Cibola",
+    "State": "NM",
+    "Local": "Grants, Mt Taylor"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 146.34,
+    "Output": 146.94
+  },
+  "SquelchTone": {
+    "Input": 100
+  }
+}

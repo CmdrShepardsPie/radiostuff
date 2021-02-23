@@ -1,0 +1,27 @@
+{
+  "ID": 139,
+  "StateID": 35,
+  "Callsign": "NM5RR",
+  "Location": {
+    "Latitude": 35.2743988,
+    "Longitude": -106.73699951,
+    "County": "Sandoval",
+    "State": "NM",
+    "Local": "Rio Rancho, Rainbow"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 147.7,
+    "Output": 147.1
+  },
+  "SquelchTone": {
+    "Input": 100,
+    "Output": 100
+  },
+  "VOIP": {
+    "AllStar": {
+      "NodeID": 27749
+    }
+  }
+}

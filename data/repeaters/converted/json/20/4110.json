@@ -1,0 +1,22 @@
+{
+  "ID": 4110,
+  "StateID": 20,
+  "Callsign": "K0ECT",
+  "Location": {
+    "Latitude": 37.40299988,
+    "Longitude": -101.33300018,
+    "County": "Grant",
+    "State": "KS",
+    "Local": "Ulysses, Wagon Bed Springs"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 449.525,
+    "Output": 444.525
+  },
+  "SquelchTone": {
+    "Input": 141.3,
+    "Output": 141.3
+  }
+}

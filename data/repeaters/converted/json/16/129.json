@@ -1,0 +1,21 @@
+{
+  "ID": 129,
+  "StateID": 16,
+  "Callsign": "WA7FDR",
+  "Location": {
+    "Latitude": 42.31470108,
+    "Longitude": -113.65799713,
+    "County": "Cassia",
+    "State": "ID",
+    "Local": "Burley, Mt Harrison"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 144.67,
+    "Output": 145.27
+  },
+  "SquelchTone": {
+    "Input": 100
+  }
+}

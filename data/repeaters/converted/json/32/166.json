@@ -1,0 +1,21 @@
+{
+  "ID": 166,
+  "StateID": 32,
+  "Callsign": "WA7CYC",
+  "Location": {
+    "Latitude": 36.22470093,
+    "Longitude": -114.97599792,
+    "County": "Clark",
+    "State": "NV",
+    "Local": "Las Vegas, Sunrise Mountain"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 444.675,
+    "Output": 449.675
+  },
+  "SquelchTone": {
+    "Input": 192.8
+  }
+}

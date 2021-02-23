@@ -1,0 +1,35 @@
+{
+  "ID": 16,
+  "StateID": 49,
+  "Callsign": "K7DAV",
+  "Location": {
+    "Latitude": 40.9618988,
+    "Longitude": -112.21499634,
+    "County": "Davis",
+    "State": "UT",
+    "Local": "Antelope Island, Frary Peak"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 442.2,
+    "Output": 447.2
+  },
+  "SquelchTone": {
+    "Input": 127.3,
+    "Output": 127.3
+  },
+  "Digital": {
+    "YSF": {
+      "GroupID": {
+        "Input": "Open ↑",
+        "Output": "Open ↓"
+      }
+    }
+  },
+  "VOIP": {
+    "Wires": {
+      "ID": 35437
+    }
+  }
+}

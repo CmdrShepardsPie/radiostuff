@@ -1,0 +1,21 @@
+{
+  "ID": 140,
+  "StateID": 32,
+  "Callsign": "W7OQF",
+  "Location": {
+    "Latitude": 35.8932991,
+    "Longitude": -115.49500275,
+    "County": "Clark",
+    "State": "NV",
+    "Local": "Las Vegas, Lo Potosi Mountain"
+  },
+  "Use": "Closed",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 444.4,
+    "Output": 449.4
+  },
+  "SquelchTone": {
+    "Input": 136.5
+  }
+}

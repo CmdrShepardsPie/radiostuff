@@ -1,0 +1,29 @@
+{
+  "ID": 53,
+  "StateID": 49,
+  "Callsign": "K7SDC",
+  "Location": {
+    "Latitude": 39.65679932,
+    "Longitude": -111.18599701,
+    "County": "Carbon",
+    "State": "UT",
+    "Local": "Scofield, Boardinghouse Ridge"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 147.68,
+    "Output": 147.08
+  },
+  "SquelchTone": {
+    "Input": 88.5
+  },
+  "VOIP": {
+    "EchoLink": {
+      "NodeID": 64264
+    },
+    "IRLP": {
+      "NodeID": 3270
+    }
+  }
+}

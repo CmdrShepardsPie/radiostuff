@@ -1,0 +1,2 @@
+ID,StateID,Callsign,Use,Status,SquelchTone,DigitalTone,Digital,VOIP,Location.Latitude,Location.Longitude,Location.County,Location.State,Location.Local,Frequency.Input,Frequency.Output
+84,49,KA7STK,Open,On-Air,,,,,37.10689926,-113.58100128,Washington,UT,St George,146.1,146.7

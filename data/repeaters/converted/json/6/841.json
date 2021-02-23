@@ -1,0 +1,18 @@
+{
+  "ID": 841,
+  "StateID": 6,
+  "Callsign": "N6QCU",
+  "Location": {
+    "Latitude": 34.2419014,
+    "Longitude": -117.28500366,
+    "County": "San Bernardino",
+    "State": "CA",
+    "Local": "Crestline"
+  },
+  "Use": "Private",
+  "Status": "Other",
+  "Frequency": {
+    "Input": 222.6,
+    "Output": 224.2
+  }
+}

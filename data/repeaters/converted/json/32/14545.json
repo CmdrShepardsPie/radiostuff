@@ -1,0 +1,23 @@
+{
+  "ID": 14545,
+  "StateID": 32,
+  "Callsign": "KG6DTL",
+  "Location": {
+    "Latitude": 36.16989899,
+    "Longitude": -115.13999939,
+    "County": "Clark",
+    "State": "NV",
+    "Local": "Las Vegas"
+  },
+  "Use": "Open",
+  "Status": "Other",
+  "Frequency": {
+    "Input": 441.3,
+    "Output": 446.3
+  },
+  "Digital": {
+    "DMR": {
+      "ColorCode": 15
+    }
+  }
+}

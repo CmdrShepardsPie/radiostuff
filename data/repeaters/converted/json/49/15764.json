@@ -1,0 +1,21 @@
+{
+  "ID": 15764,
+  "StateID": 49,
+  "Callsign": "N7PKI",
+  "Location": {
+    "Latitude": 41.7098999,
+    "Longitude": -111.97799683,
+    "County": "Cache",
+    "State": "UT",
+    "Local": "Mendon"
+  },
+  "Use": "Open",
+  "Status": "Other",
+  "Frequency": {
+    "Input": 443.925,
+    "Output": 448.925
+  },
+  "SquelchTone": {
+    "Input": 100
+  }
+}

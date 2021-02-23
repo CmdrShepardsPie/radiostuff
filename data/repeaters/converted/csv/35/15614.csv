@@ -1,0 +1,2 @@
+ID,StateID,Callsign,Use,Status,DigitalTone,Digital,VOIP,Location.Latitude,Location.Longitude,Location.County,Location.State,Location.Local,Frequency.Input,Frequency.Output,SquelchTone.Input,SquelchTone.Output
+15614,35,NM5BC,Open,On-Air,,,,35.0530014,-106.35199738,Bernalillo,NM,"Tijeras, Cedro Peak",144.55,145.15,100,100

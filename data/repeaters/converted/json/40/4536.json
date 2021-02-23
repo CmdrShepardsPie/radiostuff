@@ -1,0 +1,21 @@
+{
+  "ID": 4536,
+  "StateID": 40,
+  "Callsign": "K5GUD",
+  "Location": {
+    "Latitude": 36.27000046,
+    "Longitude": -99.33000183,
+    "County": "Woodward",
+    "State": "OK",
+    "Local": "Sharon"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 146.025,
+    "Output": 146.625
+  },
+  "SquelchTone": {
+    "Input": 88.5
+  }
+}

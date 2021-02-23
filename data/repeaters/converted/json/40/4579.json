@@ -1,0 +1,21 @@
+{
+  "ID": 4579,
+  "StateID": 40,
+  "Callsign": "N5DFQ",
+  "Location": {
+    "Latitude": 36.43360138,
+    "Longitude": -99.39040375,
+    "County": "Woodward",
+    "State": "OK",
+    "Local": "Woodward"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 447.2,
+    "Output": 442.2
+  },
+  "SquelchTone": {
+    "Input": 88.5
+  }
+}

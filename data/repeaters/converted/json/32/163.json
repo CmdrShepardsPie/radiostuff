@@ -1,0 +1,21 @@
+{
+  "ID": 163,
+  "StateID": 32,
+  "Callsign": "K7UGE",
+  "Location": {
+    "Latitude": 36.07260132,
+    "Longitude": -115.29499817,
+    "County": "Clark",
+    "State": "NV",
+    "Local": "Las Vegas, Southern Hills Hospital"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 443.5,
+    "Output": 448.5
+  },
+  "SquelchTone": {
+    "Input": 100
+  }
+}

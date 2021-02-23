@@ -1,0 +1,30 @@
+{
+  "ID": 154,
+  "StateID": 4,
+  "Callsign": "W7GAA",
+  "Location": {
+    "Latitude": 35.14780045,
+    "Longitude": -114.56700134,
+    "County": "Mohave",
+    "State": "AZ",
+    "Local": "Bullhead City"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 144.57,
+    "Output": 145.17
+  },
+  "SquelchTone": {
+    "Input": 131.8,
+    "Output": 131.8
+  },
+  "VOIP": {
+    "EchoLink": {
+      "NodeID": 846070
+    },
+    "Wires": {
+      "ID": 43489
+    }
+  }
+}

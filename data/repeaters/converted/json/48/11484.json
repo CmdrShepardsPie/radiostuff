@@ -1,0 +1,21 @@
+{
+  "ID": 11484,
+  "StateID": 48,
+  "Callsign": "KC5WBK",
+  "Location": {
+    "Latitude": 36.19839859,
+    "Longitude": -101.19200134,
+    "County": "Hansford",
+    "State": "TX",
+    "Local": "Spearman"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 448.2,
+    "Output": 443.2
+  },
+  "SquelchTone": {
+    "Input": 88.5
+  }
+}

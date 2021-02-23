@@ -1,0 +1,2 @@
+ID,StateID,Callsign,Use,Status,DigitalTone,VOIP,Location.Latitude,Location.Longitude,Location.County,Location.State,Location.Local,Frequency.Input,Frequency.Output,SquelchTone.Input,SquelchTone.Output,Digital.DMR,Digital.P25,Digital.DStar,Digital.YSF.GroupID.Input,Digital.YSF.GroupID.Output
+216,49,W7SU,Open,On-Air,,,41.25469971,-112.23699951,Weber,UT,"Ogden, Little Mountain",146.22,146.82,123,123,,,,Open ↑,Open ↓

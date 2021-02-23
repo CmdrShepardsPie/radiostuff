@@ -1,0 +1,2 @@
+ID,StateID,Callsign,Use,Status,SquelchTone,DigitalTone,Digital,VOIP,Location.Latitude,Location.Longitude,Location.County,Location.State,Location.Local,Frequency.Input,Frequency.Output
+32,32,KE6DV,Closed,On-Air,,,,,36.04700089,-115.16799927,Clark,NV,Las Vegas,144.56,145.16

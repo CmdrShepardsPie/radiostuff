@@ -1,0 +1,18 @@
+{
+  "ID": 118,
+  "StateID": 49,
+  "Callsign": "KJ7YE",
+  "Location": {
+    "Latitude": 41.29790115,
+    "Longitude": -111.81500244,
+    "County": "Weber",
+    "State": "UT",
+    "Local": "Eden"
+  },
+  "Use": "Open",
+  "Status": "Other",
+  "Frequency": {
+    "Input": 442.6,
+    "Output": 447.6
+  }
+}

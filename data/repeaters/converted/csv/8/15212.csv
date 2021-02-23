@@ -1,0 +1,2 @@
+ID,StateID,Callsign,Use,Status,DigitalTone,Digital,VOIP,Location.Latitude,Location.Longitude,Location.County,Location.State,Location.Local,Frequency.Input,Frequency.Output,SquelchTone.Input,SquelchTone.Output
+15212,8,KB0YNA,Open,On-Air,,,,38.61249924,-106.54299927,Gunnison,CO,"Gunnison, W Mountain or Tenderfoot Mountain",442.65,447.65,151.4,151.4

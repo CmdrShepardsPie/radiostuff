@@ -1,0 +1,21 @@
+{
+  "ID": 21,
+  "StateID": 49,
+  "Callsign": "K7JL",
+  "Location": {
+    "Latitude": 41.25699997,
+    "Longitude": -112.44100189,
+    "County": "Weber",
+    "State": "UT",
+    "Local": "Ogden, Promontory Pt"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 144.89,
+    "Output": 145.49
+  },
+  "SquelchTone": {
+    "Input": 123
+  }
+}

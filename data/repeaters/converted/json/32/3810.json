@@ -1,0 +1,26 @@
+{
+  "ID": 3810,
+  "StateID": 32,
+  "Callsign": "N7SGV",
+  "Location": {
+    "Latitude": 36.66500092,
+    "Longitude": -114.56800079,
+    "County": "Clark",
+    "State": "NV",
+    "Local": "Glendale, Beacon Hill"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 144.7,
+    "Output": 145.3
+  },
+  "DigitalTone": {
+    "Input": 244
+  },
+  "VOIP": {
+    "IRLP": {
+      "NodeID": 3376
+    }
+  }
+}

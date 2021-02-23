@@ -1,0 +1,21 @@
+{
+  "ID": 127,
+  "StateID": 16,
+  "Callsign": "W7RSR",
+  "Location": {
+    "Latitude": 42.87139893,
+    "Longitude": -112.44499969,
+    "County": "Bannock",
+    "State": "ID",
+    "Local": "Pocatello"
+  },
+  "Use": "Open",
+  "Status": "Off-Air",
+  "Frequency": {
+    "Input": 442.75,
+    "Output": 447.75
+  },
+  "SquelchTone": {
+    "Input": 100
+  }
+}

@@ -1,0 +1,2 @@
+ID,StateID,Callsign,Use,Status,SquelchTone,DigitalTone,Digital,VOIP,Location.Latitude,Location.Longitude,Location.County,Location.State,Location.Local,Frequency.Input,Frequency.Output
+91,49,KC7KRY,Open,Other,,,,,39.94060135,-112.11699677,Juab,UT,"Eureka, Eureka Peak",442.875,447.875

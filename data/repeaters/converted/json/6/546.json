@@ -1,0 +1,29 @@
+{
+  "ID": 546,
+  "StateID": 6,
+  "Callsign": "N6BYH",
+  "Location": {
+    "Latitude": 35.29000092,
+    "Longitude": -118.52999878,
+    "County": "Kern",
+    "State": "CA",
+    "Local": "Bakersfield"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 146.175,
+    "Output": 146.775
+  },
+  "SquelchTone": {
+    "Input": 141.3
+  },
+  "VOIP": {
+    "EchoLink": {
+      "NodeID": 314202
+    },
+    "IRLP": {
+      "NodeID": 8340
+    }
+  }
+}

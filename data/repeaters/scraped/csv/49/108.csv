@@ -1,2 +1,2 @@
-Frequency,Offset,Tone Up / Down,Location,County,Call,Use,,state_id,ID,Latitude,Longitude,Downlink,Uplink,Grid,On-air,Coverage,Features,Coordination,Last update
-449.725,-5,,"Enterprise, Black Hills",Washington,KD7YK,OPEN,,49,108,37.50500107,-113.7519989,449.725,444.725,DM37CM,Unknown,St. George and the neighboring communities.,Autopatch.,UVHFS,
+Frequency,Offset,Tone,Call,Location,ST/PR,Use,Mode,Mi,Dir,,state_id,ID,Latitude,Longitude,Downlink,Uplink,County,Grid,On-air,Coverage,Features,FM,Analog Bandwidth,Coordination,Last update
+449.725,-5,,KD7YK,"Enterprise, Black Hills",UT,OPEN,FM,120.01,NE,,49,108,37.50500107,-113.7519989,449.725,444.725,Washington,DM37CM,Unknown,St. George and the neighboring communities.,Autopatch.,Yes; analog capable.,,UVHFS,

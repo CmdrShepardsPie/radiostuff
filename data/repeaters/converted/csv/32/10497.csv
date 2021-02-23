@@ -1,0 +1,2 @@
+ID,StateID,Callsign,Use,Status,DigitalTone,Digital,VOIP,Location.Latitude,Location.Longitude,Location.County,Location.State,Location.Local,Frequency.Input,Frequency.Output,SquelchTone.Input,SquelchTone.Output
+10497,32,K7RRC,Open,Testing,,,,36.11460114,-115.17299652,Clark,NV,"Las Vegas, The Stratosphere",902.7125,927.7125,127.3,

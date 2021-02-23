@@ -1,0 +1,26 @@
+{
+  "ID": 188,
+  "StateID": 6,
+  "Callsign": "WA6YBN",
+  "Location": {
+    "Latitude": 35.47809982,
+    "Longitude": -117.6989975,
+    "County": "Kern",
+    "State": "CA",
+    "Local": "Ridgecrest, Randsburg Peak"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 144.74,
+    "Output": 145.34
+  },
+  "SquelchTone": {
+    "Input": 100
+  },
+  "VOIP": {
+    "AllStar": {
+      "NodeID": 27179
+    }
+  }
+}

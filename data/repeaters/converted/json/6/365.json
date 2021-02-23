@@ -1,0 +1,21 @@
+{
+  "ID": 365,
+  "StateID": 6,
+  "Callsign": "W6CDF",
+  "Location": {
+    "Latitude": 33.61029816,
+    "Longitude": -114.76000214,
+    "County": "Riverside",
+    "State": "CA",
+    "Local": "Blythe, Black Rock"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 147.69,
+    "Output": 147.09
+  },
+  "SquelchTone": {
+    "Input": 123
+  }
+}

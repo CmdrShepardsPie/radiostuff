@@ -1,0 +1,24 @@
+{
+  "ID": 13864,
+  "StateID": 32,
+  "Callsign": "WB6TNP",
+  "Location": {
+    "Latitude": 35.70159912,
+    "Longitude": -114.89099884,
+    "County": "Clark",
+    "State": "NV",
+    "Local": "Bolder City"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 444.05,
+    "Output": 449.05
+  },
+  "Digital": {
+    "DMR": {
+      "ColorCode": 15,
+      "ID": 313217
+    }
+  }
+}

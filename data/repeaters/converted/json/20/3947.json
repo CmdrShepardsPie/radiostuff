@@ -1,0 +1,18 @@
+{
+  "ID": 3947,
+  "StateID": 20,
+  "Callsign": "KB0CKE",
+  "Location": {
+    "Latitude": 37.98059845,
+    "Longitude": -101.75299835,
+    "County": "Hamilton",
+    "State": "KS",
+    "Local": "Syracuse"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 146.175,
+    "Output": 146.775
+  }
+}

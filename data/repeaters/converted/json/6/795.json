@@ -1,0 +1,18 @@
+{
+  "ID": 795,
+  "StateID": 6,
+  "Callsign": "WC6MRA",
+  "Location": {
+    "Latitude": 33.71250153,
+    "Longitude": -115.40100098,
+    "County": "Riverside",
+    "State": "CA",
+    "Local": "Desert Center, Chuckwalla Mountains"
+  },
+  "Use": "Closed",
+  "Status": "Other",
+  "Frequency": {
+    "Input": 222.44,
+    "Output": 224.04
+  }
+}

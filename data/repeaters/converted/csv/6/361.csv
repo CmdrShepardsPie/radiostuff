@@ -1,0 +1,2 @@
+ID,StateID,Callsign,Use,Status,DigitalTone,Digital,VOIP,Location.Latitude,Location.Longitude,Location.County,Location.State,Location.Local,Frequency.Input,Frequency.Output,SquelchTone.Input,SquelchTone.Output
+361,6,N6MRN,Open,On-Air,,,,33.54560089,-116.46900177,Riverside,CA,"Palm Desert, Santa Rosa Peak",144.74,145.34,107.2,

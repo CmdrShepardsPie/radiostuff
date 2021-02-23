@@ -1,0 +1,21 @@
+{
+  "ID": 844,
+  "StateID": 6,
+  "Callsign": "KC6KUY",
+  "Location": {
+    "Latitude": 34.64379883,
+    "Longitude": -116.6269989,
+    "County": "San Bernardino",
+    "State": "CA",
+    "Local": "Victorville, Mt Rodman"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 222.48,
+    "Output": 224.08
+  },
+  "SquelchTone": {
+    "Input": 131.8
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "ID": 16092,
+  "StateID": 32,
+  "Callsign": "N7ELY",
+  "Location": {
+    "Latitude": 39.24739838,
+    "Longitude": -114.88899994,
+    "County": "White Pine",
+    "State": "NV",
+    "Local": "Ely, Squaw Peak"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 447.1,
+    "Output": 442.1
+  }
+}

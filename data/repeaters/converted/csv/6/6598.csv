@@ -1,0 +1,2 @@
+ID,StateID,Callsign,Use,Status,DigitalTone,Digital,VOIP,Location.Latitude,Location.Longitude,Location.County,Location.State,Location.Local,Frequency.Input,Frequency.Output,SquelchTone.Input,SquelchTone.Output
+6598,6,K6JR,Open,On-Air,,,,33.86970139,-116.43099976,Riverside,CA,"Palm Springs, Edom Hill",442.32,447.32,131.8,

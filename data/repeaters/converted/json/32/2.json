@@ -1,0 +1,21 @@
+{
+  "ID": 2,
+  "StateID": 32,
+  "Callsign": "N9CZV",
+  "Location": {
+    "Latitude": 36.31919861,
+    "Longitude": -115.5739975,
+    "County": "Clark",
+    "State": "NV",
+    "Local": "Las Vegas, Angel Peak"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 52.19,
+    "Output": 53.19
+  },
+  "SquelchTone": {
+    "Input": 110.9
+  }
+}

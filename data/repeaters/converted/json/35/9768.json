@@ -1,0 +1,26 @@
+{
+  "ID": 9768,
+  "StateID": 35,
+  "Callsign": "NM5SC",
+  "Location": {
+    "Latitude": 35.30749893,
+    "Longitude": -106.45700073,
+    "County": "Sandoval",
+    "State": "NM",
+    "Local": "Placitas, La Madera"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 147.68,
+    "Output": 147.08
+  },
+  "SquelchTone": {
+    "Input": 100
+  },
+  "VOIP": {
+    "AllStar": {
+      "NodeID": 28176
+    }
+  }
+}

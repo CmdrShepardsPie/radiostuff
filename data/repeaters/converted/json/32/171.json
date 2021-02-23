@@ -1,0 +1,18 @@
+{
+  "ID": 171,
+  "StateID": 32,
+  "Callsign": "W7LKO",
+  "Location": {
+    "Latitude": 40.40259933,
+    "Longitude": -116.86399841,
+    "County": "Lander",
+    "State": "NV",
+    "Local": "Battle Mountain, Mount Lewis"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 448.9,
+    "Output": 443.9
+  }
+}

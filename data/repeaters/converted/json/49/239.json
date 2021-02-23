@@ -1,0 +1,21 @@
+{
+  "ID": 239,
+  "StateID": 49,
+  "Callsign": "WA7HSW",
+  "Location": {
+    "Latitude": 38.5367012,
+    "Longitude": -112.07299805,
+    "County": "Sevier",
+    "State": "UT",
+    "Local": "Monroe, Monroe Peak"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 146.04,
+    "Output": 146.64
+  },
+  "SquelchTone": {
+    "Input": 100
+  }
+}

@@ -1,0 +1,2 @@
+ID,StateID,Callsign,Use,Status,DigitalTone,Digital,VOIP,Location.Latitude,Location.Longitude,Location.County,Location.State,Location.Local,Frequency.Input,Frequency.Output,SquelchTone.Input,SquelchTone.Output
+181,6,W6PH,Open,On-Air,,,,36.34030151,-118.05200195,Inyo,CA,"Lone Pine, Alabama Hills",147.81,147.21,103.5,

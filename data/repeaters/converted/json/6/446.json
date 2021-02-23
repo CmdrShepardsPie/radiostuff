@@ -1,0 +1,21 @@
+{
+  "ID": 446,
+  "StateID": 6,
+  "Callsign": "W6JBT",
+  "Location": {
+    "Latitude": 34.2419014,
+    "Longitude": -117.28500366,
+    "County": "San Bernardino",
+    "State": "CA",
+    "Local": "Crestline, Skyland Peak"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 146.25,
+    "Output": 146.85
+  },
+  "SquelchTone": {
+    "Input": 146.2
+  }
+}

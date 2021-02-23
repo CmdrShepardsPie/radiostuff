@@ -1,0 +1,26 @@
+{
+  "ID": 141,
+  "StateID": 32,
+  "Callsign": "KD5MSS",
+  "Location": {
+    "Latitude": 36.32109833,
+    "Longitude": -114.93000031,
+    "County": "Clark",
+    "State": "NV",
+    "Local": "Las Vegas, Apex Mountain"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 442.85,
+    "Output": 447.85
+  },
+  "SquelchTone": {
+    "Input": 127.3
+  },
+  "VOIP": {
+    "EchoLink": {
+      "NodeID": 241000
+    }
+  }
+}

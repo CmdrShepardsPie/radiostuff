@@ -1,0 +1,22 @@
+{
+  "ID": 3890,
+  "StateID": 20,
+  "Callsign": "AB0UO",
+  "Location": {
+    "Latitude": 38.95100021,
+    "Longitude": -98.76100159,
+    "County": "Russell",
+    "State": "KS",
+    "Local": "Russell, K-Link"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 449.95,
+    "Output": 444.95
+  },
+  "SquelchTone": {
+    "Input": 162.2,
+    "Output": 162.2
+  }
+}

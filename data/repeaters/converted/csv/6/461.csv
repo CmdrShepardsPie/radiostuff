@@ -1,0 +1,2 @@
+ID,StateID,Callsign,Use,Status,DigitalTone,Digital,VOIP,Location.Latitude,Location.Longitude,Location.County,Location.State,Location.Local,Frequency.Input,Frequency.Output,SquelchTone.Input,SquelchTone.Output
+461,6,W6CTR,Open,On-Air,,,,34.24720001,-117.33799744,San Bernardino,CA,"Crestline, Jobs Peak",146.31,146.91,151.4,

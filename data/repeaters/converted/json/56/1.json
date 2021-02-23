@@ -1,0 +1,21 @@
+{
+  "ID": 1,
+  "StateID": 56,
+  "Callsign": "N7HYF",
+  "Location": {
+    "Latitude": 42.83309937,
+    "Longitude": -108.73000336,
+    "County": "Fremont",
+    "State": "WY",
+    "Local": "Lander"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 52.03,
+    "Output": 53.03
+  },
+  "DigitalTone": {
+    "Input": 261
+  }
+}

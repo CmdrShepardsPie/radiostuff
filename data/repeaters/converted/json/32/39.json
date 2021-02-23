@@ -1,0 +1,21 @@
+{
+  "ID": 39,
+  "StateID": 32,
+  "Callsign": "KB7RSI",
+  "Location": {
+    "Latitude": 36.2179985,
+    "Longitude": -115.25900269,
+    "County": "Clark",
+    "State": "NV",
+    "Local": "Las Vegas, QTH"
+  },
+  "Use": "Open",
+  "Status": "Off-Air",
+  "Frequency": {
+    "Input": 147.75,
+    "Output": 147.15
+  },
+  "SquelchTone": {
+    "Input": 100
+  }
+}

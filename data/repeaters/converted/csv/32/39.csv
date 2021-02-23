@@ -1,0 +1,2 @@
+ID,StateID,Callsign,Use,Status,DigitalTone,Digital,VOIP,Location.Latitude,Location.Longitude,Location.County,Location.State,Location.Local,Frequency.Input,Frequency.Output,SquelchTone.Input,SquelchTone.Output
+39,32,KB7RSI,Open,Off-Air,,,,36.2179985,-115.25900269,Clark,NV,"Las Vegas, QTH",147.75,147.15,100,

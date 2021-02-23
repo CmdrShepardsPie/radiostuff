@@ -1,0 +1,2 @@
+ID,StateID,Callsign,Use,Status,DigitalTone,Digital,VOIP,Location.Latitude,Location.Longitude,Location.County,Location.State,Location.Local,Frequency.Input,Frequency.Output,SquelchTone.Input,SquelchTone.Output
+271,49,WX7Y,Open,Other,,,,39.65670013,-111.1989975,Carbon,UT,"Scofield, Boardinghouse Rdge",223.38,224.98,88.5,

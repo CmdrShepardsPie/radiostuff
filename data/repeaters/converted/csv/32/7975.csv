@@ -1,0 +1,2 @@
+ID,StateID,Callsign,Use,Status,DigitalTone,Digital,VOIP,Location.Latitude,Location.Longitude,Location.County,Location.State,Location.Local,Frequency.Input,Frequency.Output,SquelchTone.Input,SquelchTone.Output
+7975,32,NV7AV,Open,On-Air,,,,36.64189911,-116.39800262,Nye,NV,Amargosa Valley,146.16,146.76,123,

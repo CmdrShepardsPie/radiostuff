@@ -1,0 +1,2 @@
+ID,StateID,Callsign,Use,Status,DigitalTone,Digital,VOIP,Location.Latitude,Location.Longitude,Location.County,Location.State,Location.Local,Frequency.Input,Frequency.Output,SquelchTone.Input,SquelchTone.Output
+121,49,KG7DSO,Open,On-Air,,,,40.35490036,-110.7990036,Uintah,UT,"Vernal, Tabby Mountain",147.94,147.34,136.5,

@@ -1,0 +1,2 @@
+ID,StateID,Callsign,Use,Status,DigitalTone,Digital,Location.Latitude,Location.Longitude,Location.County,Location.State,Location.Local,Frequency.Input,Frequency.Output,SquelchTone.Input,SquelchTone.Output,VOIP.AllStar,VOIP.EchoLink,VOIP.Wires,VOIP.IRLP.NodeID
+3113,35,K6LIE,Open,On-Air,,,35.19670105,-106.51000214,Bernalillo,NM,"Albuquerque, Northeast Heights area",222.88,224.48,100,,,,,3285

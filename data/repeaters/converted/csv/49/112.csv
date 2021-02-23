@@ -1,0 +1,2 @@
+ID,StateID,Callsign,Use,Status,SquelchTone,Digital,VOIP,Location.Latitude,Location.Longitude,Location.County,Location.State,Location.Local,Frequency.Input,Frequency.Output,DigitalTone.Input,DigitalTone.Output
+112,49,KE7GHK,Open,Other,,,,40.56980133,-111.89499664,Salt Lake,UT,"Salt Lake, Carrigan Ridge",144.81,145.41,125,

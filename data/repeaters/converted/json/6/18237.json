@@ -1,0 +1,21 @@
+{
+  "ID": 18237,
+  "StateID": 6,
+  "Callsign": "K6UFX",
+  "Location": {
+    "Latitude": 34.18600082,
+    "Longitude": -117.70300293,
+    "County": "Los Angeles",
+    "State": "CA",
+    "Local": "Claremont, Sunset Ridge"
+  },
+  "Use": "Open",
+  "Status": "Testing",
+  "Frequency": {
+    "Input": 444.52,
+    "Output": 449.52
+  },
+  "SquelchTone": {
+    "Input": 100
+  }
+}

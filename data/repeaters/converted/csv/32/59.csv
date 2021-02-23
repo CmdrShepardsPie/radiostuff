@@ -1,0 +1,2 @@
+ID,StateID,Callsign,Use,Status,DigitalTone,Digital,VOIP,Location.Latitude,Location.Longitude,Location.County,Location.State,Location.Local,Frequency.Input,Frequency.Output,SquelchTone.Input,SquelchTone.Output
+59,32,KD7CWA,Open,Other,,,,41.31420135,-116.22100067,Elko,NV,Tuscarora,147.9,147.3,100,

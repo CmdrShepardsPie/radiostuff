@@ -1,0 +1,18 @@
+{
+  "ID": 6020,
+  "StateID": 6,
+  "Callsign": "",
+  "Location": {
+    "Latitude": 35.4355011,
+    "Longitude": -115.92299652,
+    "County": "San Bernardino",
+    "State": "CA",
+    "Local": "Baker, Turquoise Mountain"
+  },
+  "Use": "Open",
+  "Status": "Other",
+  "Frequency": {
+    "Input": 442.68,
+    "Output": 447.68
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "ID": 464,
+  "StateID": 4,
+  "Callsign": "WB6TNP",
+  "Location": {
+    "Latitude": 35.18939972,
+    "Longitude": -114.05200195,
+    "County": "Mohave",
+    "State": "AZ",
+    "Local": "Kingman"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 902.475,
+    "Output": 927.475
+  },
+  "DigitalTone": {
+    "Input": 532
+  }
+}

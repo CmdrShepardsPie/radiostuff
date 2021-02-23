@@ -1,0 +1,21 @@
+{
+  "ID": 173,
+  "StateID": 49,
+  "Callsign": "NR7K",
+  "Location": {
+    "Latitude": 37.15570068,
+    "Longitude": -113.88400269,
+    "County": "Washington",
+    "State": "UT",
+    "Local": "St George, Utah Hill"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 146.22,
+    "Output": 146.82
+  },
+  "SquelchTone": {
+    "Input": 100
+  }
+}

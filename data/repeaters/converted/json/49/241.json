@@ -1,0 +1,21 @@
+{
+  "ID": 241,
+  "StateID": 49,
+  "Callsign": "WA7KMF",
+  "Location": {
+    "Latitude": 41.6371994,
+    "Longitude": -111.41600037,
+    "County": "Cache",
+    "State": "UT",
+    "Local": "Red Spur"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 144.71,
+    "Output": 145.31
+  },
+  "SquelchTone": {
+    "Input": 103.5
+  }
+}

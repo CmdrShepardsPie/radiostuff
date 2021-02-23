@@ -1,0 +1,26 @@
+{
+  "ID": 19687,
+  "StateID": 56,
+  "Callsign": "N7JJY",
+  "Location": {
+    "Latitude": 41.02740097,
+    "Longitude": -104.78399658,
+    "County": "Laramie",
+    "State": "WY",
+    "Local": "Cheyenne, Chalk Bluffs"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 442.55,
+    "Output": 447.55
+  },
+  "Digital": {
+    "YSF": {
+      "GroupID": {
+        "Input": "Open ↑",
+        "Output": "Open ↓"
+      }
+    }
+  }
+}

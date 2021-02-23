@@ -1,0 +1,2 @@
+ID,StateID,Callsign,Use,Status,DigitalTone,Digital,VOIP,Location.Latitude,Location.Longitude,Location.County,Location.State,Location.Local,Frequency.Input,Frequency.Output,SquelchTone.Input,SquelchTone.Output
+17323,35,,Open,On-Air,,,,35.68700027,-105.93800354,Bernalillo,NM,Santa Fe,144.59,145.19,162.2,

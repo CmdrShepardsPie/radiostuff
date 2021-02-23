@@ -1,0 +1,18 @@
+{
+  "ID": 18189,
+  "StateID": 6,
+  "Callsign": "K6DLP",
+  "Location": {
+    "Latitude": 34.23199844,
+    "Longitude": -117.28399658,
+    "County": "San Bernardino",
+    "State": "CA",
+    "Local": "Crestline"
+  },
+  "Use": "Private",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 444.92,
+    "Output": 449.92
+  }
+}

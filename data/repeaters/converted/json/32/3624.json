@@ -1,0 +1,21 @@
+{
+  "ID": 3624,
+  "StateID": 32,
+  "Callsign": "K6JSI",
+  "Location": {
+    "Latitude": 36.20830154,
+    "Longitude": -115.98400116,
+    "County": "Nye",
+    "State": "NV",
+    "Local": "Pahrump"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 442.4,
+    "Output": 447.4
+  },
+  "SquelchTone": {
+    "Input": 100
+  }
+}

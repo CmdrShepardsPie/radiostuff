@@ -1,0 +1,22 @@
+{
+  "ID": 847,
+  "StateID": 6,
+  "Callsign": "W6CDF",
+  "Location": {
+    "Latitude": 34.25749969,
+    "Longitude": -117.33100128,
+    "County": "San Bernardino",
+    "State": "CA",
+    "Local": "Cedarpines Park, Jobs Peak"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 222.66,
+    "Output": 224.26
+  },
+  "SquelchTone": {
+    "Input": 110.9,
+    "Output": 110.9
+  }
+}

@@ -1,0 +1,2 @@
+ID,StateID,Callsign,Use,Status,DigitalTone,Digital,Location.Latitude,Location.Longitude,Location.County,Location.State,Location.Local,Frequency.Input,Frequency.Output,SquelchTone.Input,SquelchTone.Output,VOIP.AllStar,VOIP.EchoLink,VOIP.Wires,VOIP.IRLP.NodeID
+80,31,W0WWV,Open,On-Air,,,40.29290009,-98.72910309,Franklin,NE,"Campbell, Mid-Rivers E911 Dispatch Center",449.475,444.475,136.5,136.5,,,,7438

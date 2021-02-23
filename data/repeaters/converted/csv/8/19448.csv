@@ -1,0 +1,2 @@
+ID,StateID,Callsign,Use,Status,SquelchTone,DigitalTone,Digital,Location.Latitude,Location.Longitude,Location.County,Location.State,Location.Local,Frequency.Input,Frequency.Output,VOIP.AllStar,VOIP.EchoLink,VOIP.IRLP,VOIP.Wires.ID
+19448,8,K0SVT,Open,On-Air,,,,40.493542,-105.181743,Larimer,CO,"Loveland, Milner Mtn.",442.8,447.8,,,,40027

@@ -1,0 +1,21 @@
+{
+  "ID": 238,
+  "StateID": 4,
+  "Callsign": "W6PAT",
+  "Location": {
+    "Latitude": 34.6223,
+    "Longitude": -112.4577,
+    "County": "Yavapai",
+    "State": "AZ",
+    "Local": "Prescott"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 447.525,
+    "Output": 442.525
+  },
+  "SquelchTone": {
+    "Input": 114.8
+  }
+}

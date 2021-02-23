@@ -1,0 +1,18 @@
+{
+  "ID": 4411,
+  "StateID": 40,
+  "Callsign": "N5AKN",
+  "Location": {
+    "Latitude": 36.9070015,
+    "Longitude": -100.53900146,
+    "County": "Beaver",
+    "State": "OK",
+    "Local": "Forgan"
+  },
+  "Use": "Open",
+  "Status": "Other",
+  "Frequency": {
+    "Input": 147.99,
+    "Output": 147.39
+  }
+}

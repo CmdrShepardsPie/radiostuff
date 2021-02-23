@@ -1,0 +1,2 @@
+ID,StateID,Callsign,Use,Status,DigitalTone,Location.Latitude,Location.Longitude,Location.County,Location.State,Location.Local,Frequency.Input,Frequency.Output,SquelchTone.Input,SquelchTone.Output,Digital.DMR,Digital.P25,Digital.DStar,VOIP.IRLP,VOIP.Wires,VOIP.AllStar.NodeID,VOIP.EchoLink.NodeID,Digital.YSF.GroupID.Input,Digital.YSF.GroupID.Output
+16226,20,KE0PTS,Open,On-Air,,38.51810074,-98.77809906,Barton,KS,"Hoisington, Beaver",449.925,444.925,100,100,,,,,,46495,771574,Open ↑,Open ↓

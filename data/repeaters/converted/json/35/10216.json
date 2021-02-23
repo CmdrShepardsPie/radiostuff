@@ -1,0 +1,26 @@
+{
+  "ID": 10216,
+  "StateID": 35,
+  "Callsign": "K9GAJ",
+  "Location": {
+    "Latitude": 35.65100098,
+    "Longitude": -105.99199677,
+    "County": "Santa Fe",
+    "State": "NM",
+    "Local": "Santa Fe"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 444.275,
+    "Output": 449.275
+  },
+  "SquelchTone": {
+    "Input": 146.2
+  },
+  "VOIP": {
+    "IRLP": {
+      "NodeID": 3939
+    }
+  }
+}

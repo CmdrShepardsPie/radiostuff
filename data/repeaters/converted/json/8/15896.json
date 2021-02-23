@@ -1,0 +1,21 @@
+{
+  "ID": 15896,
+  "StateID": 8,
+  "Callsign": "KB5ITS",
+  "Location": {
+    "Latitude": 37.36000061,
+    "Longitude": -108.15000153,
+    "County": "Montezuma",
+    "State": "CO",
+    "Local": "Mancos, Caviness Mountain"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 447.375,
+    "Output": 442.375
+  },
+  "SquelchTone": {
+    "Input": 100
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "ID": 15213,
+  "StateID": 8,
+  "Callsign": "KB0YNA",
+  "Location": {
+    "Latitude": 38.38750076,
+    "Longitude": -107.6740036,
+    "County": "Montrose",
+    "State": "CO",
+    "Local": "Montrose, Waterdog Peak"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 443.65,
+    "Output": 448.65
+  },
+  "SquelchTone": {
+    "Input": 151.4,
+    "Output": 151.4
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "ID": 40,
+  "StateID": 32,
+  "Callsign": "KC7DB",
+  "Location": {
+    "Latitude": 36.21969986,
+    "Longitude": -115.08399963,
+    "County": "Clark",
+    "State": "NV",
+    "Local": "Las Vegas, Sunrise Hospital"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 147.87,
+    "Output": 147.27
+  },
+  "SquelchTone": {
+    "Input": 100
+  }
+}

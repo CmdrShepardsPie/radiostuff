@@ -1,0 +1,21 @@
+{
+  "ID": 164,
+  "StateID": 32,
+  "Callsign": "N8DBM",
+  "Location": {
+    "Latitude": 36.20479965,
+    "Longitude": -115.22299957,
+    "County": "Clark",
+    "State": "NV",
+    "Local": "Las Vegas, QTH"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 443.675,
+    "Output": 448.675
+  },
+  "SquelchTone": {
+    "Input": 77
+  }
+}

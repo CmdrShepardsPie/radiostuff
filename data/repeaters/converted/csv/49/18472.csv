@@ -1,0 +1,2 @@
+ID,StateID,Callsign,Use,Status,DigitalTone,Digital,VOIP,Location.Latitude,Location.Longitude,Location.County,Location.State,Location.Local,Frequency.Input,Frequency.Output,SquelchTone.Input,SquelchTone.Output
+18472,49,AE7TA,Open,On-Air,,,,41.63240051,-111.86799622,Cache,UT,"Logan, Sedgwick Peak",146.2,146.8,88.5,

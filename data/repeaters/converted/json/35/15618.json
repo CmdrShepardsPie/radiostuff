@@ -1,0 +1,21 @@
+{
+  "ID": 15618,
+  "StateID": 35,
+  "Callsign": "KF5PFO",
+  "Location": {
+    "Latitude": 36.75999832,
+    "Longitude": -105.30999756,
+    "County": "Taos",
+    "State": "NM",
+    "Local": "Red River, Valle Vidal"
+  },
+  "Use": "Open",
+  "Status": "Off-Air",
+  "Frequency": {
+    "Input": 144.65,
+    "Output": 145.25
+  },
+  "SquelchTone": {
+    "Input": 123
+  }
+}

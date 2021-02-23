@@ -1,0 +1,21 @@
+{
+  "ID": 8917,
+  "StateID": 48,
+  "Callsign": "KE5NCA",
+  "Location": {
+    "Latitude": 35.07640076,
+    "Longitude": -100.89299774,
+    "County": "Donley",
+    "State": "TX",
+    "Local": "Clarendon"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 449.275,
+    "Output": 444.275
+  },
+  "SquelchTone": {
+    "Input": 127.3
+  }
+}

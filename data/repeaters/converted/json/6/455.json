@@ -1,0 +1,21 @@
+{
+  "ID": 455,
+  "StateID": 6,
+  "Callsign": "WA6TST",
+  "Location": {
+    "Latitude": 34.72109985,
+    "Longitude": -116.15899658,
+    "County": "San Bernardino",
+    "State": "CA",
+    "Local": "Ludlow"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 147.285,
+    "Output": 147.885
+  },
+  "SquelchTone": {
+    "Input": 151.4
+  }
+}

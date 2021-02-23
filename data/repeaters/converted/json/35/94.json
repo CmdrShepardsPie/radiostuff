@@ -1,0 +1,21 @@
+{
+  "ID": 94,
+  "StateID": 35,
+  "Callsign": "NM5ML",
+  "Location": {
+    "Latitude": 35.1891,
+    "Longitude": -107.5996,
+    "County": "Cibola",
+    "State": "NM",
+    "Local": "Grants, Microwave Ridge"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 146.06,
+    "Output": 146.66
+  },
+  "SquelchTone": {
+    "Input": 100
+  }
+}

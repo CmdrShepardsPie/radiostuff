@@ -1,0 +1,2 @@
+ID,StateID,Callsign,Use,Status,SquelchTone,Digital,VOIP,Location.Latitude,Location.Longitude,Location.County,Location.State,Location.Local,Frequency.Input,Frequency.Output,DigitalTone.Input,DigitalTone.Output
+2739,6,N6AJB,Open,On-Air,,,,34.07220078,-116.93900299,San Bernardino,CA,"Oak Glen, Oak Glen Div",902.375,927.375,23,

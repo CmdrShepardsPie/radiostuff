@@ -1,2 +1,2 @@
 ID,StateID,Callsign,Use,Status,DigitalTone,Digital,Location.Latitude,Location.Longitude,Location.County,Location.State,Location.Local,Frequency.Input,Frequency.Output,SquelchTone.Input,SquelchTone.Output,VOIP.AllStar,VOIP.EchoLink,VOIP.Wires,VOIP.IRLP.NodeID
-13408,49,W7BAR,Open,Other,,,40.10689926,-109.37799835,Uintah,UT,"Vernal, Uintah County EOC",444.9,449.9,136.5,,,,,7705
+13408,49,W7BAR,Open,On-Air,,,40.10689926,-109.37799835,Uintah,UT,"Vernal, Uintah County EOC",444.9,449.9,136.5,,,,,7705

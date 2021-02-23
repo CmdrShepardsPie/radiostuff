@@ -1,0 +1,21 @@
+{
+  "ID": 19780,
+  "StateID": 49,
+  "Callsign": "KF7KGN",
+  "Location": {
+    "Latitude": 39.3209801,
+    "Longitude": -111.0937311,
+    "County": "Utah",
+    "State": "UT",
+    "Local": "Lehi, QTH"
+  },
+  "Use": "Open",
+  "Status": "Other",
+  "Frequency": {
+    "Input": 223.14,
+    "Output": 224.74
+  },
+  "SquelchTone": {
+    "Input": 186.2
+  }
+}

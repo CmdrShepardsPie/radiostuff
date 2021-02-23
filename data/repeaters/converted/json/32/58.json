@@ -1,0 +1,21 @@
+{
+  "ID": 58,
+  "StateID": 32,
+  "Callsign": "W7GK",
+  "Location": {
+    "Latitude": 41.97999954,
+    "Longitude": -114.66999817,
+    "County": "Elko",
+    "State": "NV",
+    "Local": "Jackpot"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 147.87,
+    "Output": 147.27
+  },
+  "SquelchTone": {
+    "Input": 100
+  }
+}

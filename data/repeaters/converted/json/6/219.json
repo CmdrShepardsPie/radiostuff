@@ -1,0 +1,21 @@
+{
+  "ID": 219,
+  "StateID": 6,
+  "Callsign": "KN6RW",
+  "Location": {
+    "Latitude": 34.52109909,
+    "Longitude": -117.98300171,
+    "County": "Los Angeles",
+    "State": "CA",
+    "Local": "Littlerock"
+  },
+  "Use": "Private",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 147.675,
+    "Output": 147.075
+  },
+  "SquelchTone": {
+    "Input": 100
+  }
+}

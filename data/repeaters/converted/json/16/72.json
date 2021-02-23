@@ -1,0 +1,21 @@
+{
+  "ID": 72,
+  "StateID": 16,
+  "Callsign": "N7PI",
+  "Location": {
+    "Latitude": 42.6780014,
+    "Longitude": -112.34600067,
+    "County": "Bannock",
+    "State": "ID",
+    "Local": "Pocatello, Scout Montain"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 147.66,
+    "Output": 147.06
+  },
+  "SquelchTone": {
+    "Input": 100
+  }
+}

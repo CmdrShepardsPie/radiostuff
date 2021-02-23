@@ -1,0 +1,42 @@
+{
+  "ID": 19095,
+  "StateID": 6,
+  "Callsign": "N6LKA",
+  "Location": {
+    "Latitude": 34.0494584,
+    "Longitude": -117.203731,
+    "County": "San Bernardino",
+    "State": "CA",
+    "Local": "Redlands"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 441.88,
+    "Output": 446.88
+  },
+  "DigitalTone": {
+    "Input": 131
+  },
+  "Digital": {
+    "DMR": {
+      "ColorCode": 10,
+      "ID": 311161
+    },
+    "P25": {},
+    "YSF": {
+      "GroupID": {
+        "Input": "Open ↑",
+        "Output": "Open ↓"
+      }
+    }
+  },
+  "VOIP": {
+    "AllStar": {
+      "NodeID": 501260
+    },
+    "EchoLink": {
+      "NodeID": 393611
+    }
+  }
+}

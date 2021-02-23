@@ -1,0 +1,21 @@
+{
+  "ID": 35,
+  "StateID": 32,
+  "Callsign": "WA7CYC",
+  "Location": {
+    "Latitude": 36.21910095,
+    "Longitude": -115.11100006,
+    "County": "Clark",
+    "State": "NV",
+    "Local": "North Las Vegas"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 146.07,
+    "Output": 146.67
+  },
+  "SquelchTone": {
+    "Input": 136.5
+  }
+}

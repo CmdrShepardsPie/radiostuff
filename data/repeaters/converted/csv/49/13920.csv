@@ -1,0 +1,2 @@
+ID,StateID,Callsign,Use,Status,DigitalTone,Digital,VOIP,Location.Latitude,Location.Longitude,Location.County,Location.State,Location.Local,Frequency.Input,Frequency.Output,SquelchTone.Input,SquelchTone.Output
+13920,49,KX7VC,Open,On-Air,,,,40.43349838,-111.79000092,Utah,UT,"Highland, KX7VC QTH",442.725,447.725,167.9,167.9

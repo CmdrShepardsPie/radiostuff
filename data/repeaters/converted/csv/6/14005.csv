@@ -1,0 +1,2 @@
+ID,StateID,Callsign,Use,Status,DigitalTone,Digital,Location.Latitude,Location.Longitude,Location.County,Location.State,Location.Local,Frequency.Input,Frequency.Output,SquelchTone.Input,SquelchTone.Output,VOIP.AllStar,VOIP.IRLP,VOIP.Wires,VOIP.EchoLink.NodeID
+14005,6,NC9RS,Open,On-Air,,,35.62250137,-117.67099762,Kern,CA,Ridgecrest,902.0125,927.0125,88.5,,,,,487039

@@ -1,0 +1,2 @@
+ID,StateID,Callsign,Use,Status,DigitalTone,Digital,Location.Latitude,Location.Longitude,Location.County,Location.State,Location.Local,Frequency.Input,Frequency.Output,SquelchTone.Input,SquelchTone.Output,VOIP.AllStar,VOIP.EchoLink,VOIP.Wires,VOIP.IRLP.NodeID
+206,49,K7BSK,Open,On-Air,,,37.37379837,-112.53600311,Kane,UT,"Glendale, Spencer Bench",146.12,146.72,100,,,,,3576

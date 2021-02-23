@@ -1,0 +1,2 @@
+ID,StateID,Callsign,Use,Status,DigitalTone,Digital,VOIP,Location.Latitude,Location.Longitude,Location.County,Location.State,Location.Local,Frequency.Input,Frequency.Output,SquelchTone.Input,SquelchTone.Output
+84,48,N5LTZ,Open,On-Air,,,,35.69139862,-100.63800049,Roberts,TX,Miami,449.85,444.85,88.5,

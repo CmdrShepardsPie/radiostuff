@@ -1,0 +1,18 @@
+{
+  "ID": 87,
+  "StateID": 16,
+  "Callsign": "",
+  "Location": {
+    "Latitude": 42.87139893,
+    "Longitude": -112.44499969,
+    "County": "Bannock",
+    "State": "ID",
+    "Local": "Pocatello"
+  },
+  "Use": "Open",
+  "Status": "Off-Air",
+  "Frequency": {
+    "Input": 147.84,
+    "Output": 147.24
+  }
+}

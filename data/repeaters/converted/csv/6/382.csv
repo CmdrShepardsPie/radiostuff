@@ -1,0 +1,2 @@
+ID,StateID,Callsign,Use,Status,DigitalTone,Digital,VOIP,Location.Latitude,Location.Longitude,Location.County,Location.State,Location.Local,Frequency.Input,Frequency.Output,SquelchTone.Input,SquelchTone.Output
+382,6,AI6BX,Open,On-Air,,,,34.05559921,-117.18199921,San Bernardino,CA,Redlands,147.78,147.18,88.5,

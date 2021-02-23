@@ -1,0 +1,22 @@
+{
+  "ID": 18268,
+  "StateID": 6,
+  "Callsign": "AE6TV",
+  "Location": {
+    "Latitude": 34.18700027,
+    "Longitude": -117.70300293,
+    "County": "Los Angeles",
+    "State": "CA",
+    "Local": "Claremont, Sunset Ridge"
+  },
+  "Use": "Open",
+  "Status": "Off-Air",
+  "Frequency": {
+    "Input": 444.16,
+    "Output": 449.16
+  },
+  "SquelchTone": {
+    "Input": 77,
+    "Output": 77
+  }
+}

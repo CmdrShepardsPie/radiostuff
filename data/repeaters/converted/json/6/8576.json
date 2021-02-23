@@ -1,0 +1,18 @@
+{
+  "ID": 8576,
+  "StateID": 6,
+  "Callsign": "WB6TNP",
+  "Location": {
+    "Latitude": 34.64410019,
+    "Longitude": -116.6269989,
+    "County": "San Bernardino",
+    "State": "CA",
+    "Local": "Yermo, Mount Rodman"
+  },
+  "Use": "Closed",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 443.26,
+    "Output": 448.26
+  }
+}

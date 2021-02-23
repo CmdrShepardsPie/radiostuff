@@ -1,0 +1,26 @@
+{
+  "ID": 44,
+  "StateID": 4,
+  "Callsign": "K3MK",
+  "Location": {
+    "Latitude": 35.14780045,
+    "Longitude": -114.56700134,
+    "County": "Mohave",
+    "State": "AZ",
+    "Local": "Bullhead City"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 146.04,
+    "Output": 146.64
+  },
+  "SquelchTone": {
+    "Input": 123
+  },
+  "VOIP": {
+    "EchoLink": {
+      "NodeID": 146640
+    }
+  }
+}

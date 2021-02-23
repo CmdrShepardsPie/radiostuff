@@ -1,0 +1,26 @@
+{
+  "ID": 8393,
+  "StateID": 4,
+  "Callsign": "K6JSI",
+  "Location": {
+    "Latitude": 35.19950104,
+    "Longitude": -112.20500183,
+    "County": "Coconino",
+    "State": "AZ",
+    "Local": "Williams, Bill Williams Mountain"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 444.75,
+    "Output": 449.75
+  },
+  "SquelchTone": {
+    "Input": 123
+  },
+  "VOIP": {
+    "AllStar": {
+      "NodeID": 1940
+    }
+  }
+}

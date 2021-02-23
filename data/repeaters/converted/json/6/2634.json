@@ -1,0 +1,26 @@
+{
+  "ID": 2634,
+  "StateID": 6,
+  "Callsign": "WI6RE",
+  "Location": {
+    "Latitude": 35.47800064,
+    "Longitude": -117.69999695,
+    "County": "Kern",
+    "State": "CA",
+    "Local": "Ridgecrest, El Paso Peak"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 443.8,
+    "Output": 448.8
+  },
+  "SquelchTone": {
+    "Input": 100
+  },
+  "VOIP": {
+    "AllStar": {
+      "NodeID": 1801
+    }
+  }
+}

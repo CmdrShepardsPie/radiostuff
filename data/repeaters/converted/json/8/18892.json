@@ -1,13 +1,13 @@
 {
   "ID": 18892,
   "StateID": 8,
-  "Callsign": "KE0VH",
+  "Callsign": "N2SKY",
   "Location": {
-    "Latitude": 39.661294,
-    "Longitude": -104.860203,
-    "County": "Arapahoe",
+    "Latitude": 40.493613,
+    "Longitude": -105.181661,
+    "County": "Larimer",
     "State": "CO",
-    "Local": "Aurora, 225 and Parker Road"
+    "Local": "Loveland, Milner Mtn."
   },
   "Use": "Open",
   "Status": "On-Air",
@@ -15,7 +15,14 @@
     "Input": 443.4,
     "Output": 448.4
   },
+  "SquelchTone": {
+    "Input": 94.8,
+    "Output": 94.8
+  },
   "VOIP": {
+    "AllStar": {
+      "NodeID": 506064
+    },
     "Wires": {
       "ID": 46361
     }

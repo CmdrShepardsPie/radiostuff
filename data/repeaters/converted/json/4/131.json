@@ -1,0 +1,29 @@
+{
+  "ID": 131,
+  "StateID": 4,
+  "Callsign": "N7NGM",
+  "Location": {
+    "Latitude": 34.41519928,
+    "Longitude": -112.40499878,
+    "County": "Yavapai",
+    "State": "AZ",
+    "Local": "Prescott, Mt Union"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 52.06,
+    "Output": 52.56
+  },
+  "SquelchTone": {
+    "Input": 100
+  },
+  "VOIP": {
+    "EchoLink": {
+      "NodeID": 266090
+    },
+    "IRLP": {
+      "NodeID": 3301
+    }
+  }
+}

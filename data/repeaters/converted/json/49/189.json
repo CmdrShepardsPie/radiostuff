@@ -1,0 +1,21 @@
+{
+  "ID": 189,
+  "StateID": 49,
+  "Callsign": "W7DHH",
+  "Location": {
+    "Latitude": 38.53620148,
+    "Longitude": -112.07299805,
+    "County": "Sevier",
+    "State": "UT",
+    "Local": "Salina, Monroe Peak"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 442.45,
+    "Output": 447.45
+  },
+  "SquelchTone": {
+    "Input": 114.8
+  }
+}

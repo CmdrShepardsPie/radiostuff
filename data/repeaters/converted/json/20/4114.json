@@ -1,0 +1,21 @@
+{
+  "ID": 4114,
+  "StateID": 20,
+  "Callsign": "K0ECT",
+  "Location": {
+    "Latitude": 37.53120041,
+    "Longitude": -100.01699829,
+    "County": "Ford",
+    "State": "KS",
+    "Local": "Dodge City"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 449.55,
+    "Output": 444.55
+  },
+  "SquelchTone": {
+    "Input": 141.3
+  }
+}

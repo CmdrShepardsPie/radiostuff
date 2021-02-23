@@ -1,0 +1,22 @@
+{
+  "ID": 11077,
+  "StateID": 6,
+  "Callsign": "WR7NV",
+  "Location": {
+    "Latitude": 33.65639877,
+    "Longitude": -116.26799774,
+    "County": "Riverside",
+    "State": "CA",
+    "Local": "La Quinta"
+  },
+  "Use": "Open",
+  "Status": "Off-Air",
+  "Frequency": {
+    "Input": 144.76,
+    "Output": 145.36
+  },
+  "SquelchTone": {
+    "Input": 100,
+    "Output": 100
+  }
+}

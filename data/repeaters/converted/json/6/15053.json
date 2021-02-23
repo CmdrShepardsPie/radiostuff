@@ -1,0 +1,27 @@
+{
+  "ID": 15053,
+  "StateID": 6,
+  "Callsign": "N6LXX",
+  "Location": {
+    "Latitude": 34.90679932,
+    "Longitude": -116.83799744,
+    "County": "San Bernardino",
+    "State": "CA",
+    "Local": "Yermo"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 53.34,
+    "Output": 53.84
+  },
+  "SquelchTone": {
+    "Input": 107.2,
+    "Output": 100
+  },
+  "VOIP": {
+    "AllStar": {
+      "NodeID": 28993
+    }
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "ID": 197,
+  "StateID": 49,
+  "Callsign": "W7EO",
+  "Location": {
+    "Latitude": 40.45999908,
+    "Longitude": -112.40899658,
+    "County": "Tooele",
+    "State": "UT",
+    "Local": "Tooele, South Mountain"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 147.9,
+    "Output": 147.3
+  },
+  "SquelchTone": {
+    "Input": 100
+  }
+}

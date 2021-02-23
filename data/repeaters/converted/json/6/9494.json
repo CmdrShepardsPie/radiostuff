@@ -1,0 +1,22 @@
+{
+  "ID": 9494,
+  "StateID": 6,
+  "Callsign": "K6RET",
+  "Location": {
+    "Latitude": 35.0155983,
+    "Longitude": -118.29100037,
+    "County": "Kern",
+    "State": "CA",
+    "Local": "Tehachapi, Double Mt"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 223.18,
+    "Output": 224.78
+  },
+  "SquelchTone": {
+    "Input": 100,
+    "Output": 100
+  }
+}

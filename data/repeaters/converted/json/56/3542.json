@@ -1,0 +1,29 @@
+{
+  "ID": 3542,
+  "StateID": 56,
+  "Callsign": "W7VNJ",
+  "Location": {
+    "Latitude": 42.84859848,
+    "Longitude": -106.30799866,
+    "County": "Natrona",
+    "State": "WY",
+    "Local": "Casper"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 147.88,
+    "Output": 147.28
+  },
+  "DigitalTone": {
+    "Input": 32
+  },
+  "Digital": {
+    "YSF": {
+      "GroupID": {
+        "Input": "Open ↑",
+        "Output": "Open ↓"
+      }
+    }
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "ID": 11783,
+  "StateID": 6,
+  "Callsign": "WB6FYR",
+  "Location": {
+    "Latitude": 35.06060028,
+    "Longitude": -118.38999939,
+    "County": "Kern",
+    "State": "CA",
+    "Local": "Tehachapi, Oak Creek Pass"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 223.32,
+    "Output": 224.92
+  },
+  "SquelchTone": {
+    "Input": 94.8
+  },
+  "VOIP": {
+    "AllStar": {
+      "NodeID": 29883
+    }
+  }
+}

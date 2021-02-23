@@ -1,0 +1,26 @@
+{
+  "ID": 257,
+  "StateID": 6,
+  "Callsign": "N6USO",
+  "Location": {
+    "Latitude": 34.18629837,
+    "Longitude": -117.70300293,
+    "County": "Los Angeles",
+    "State": "CA",
+    "Local": "Pomona, Sunset Ridge"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 144.84,
+    "Output": 145.44
+  },
+  "SquelchTone": {
+    "Input": 136.5
+  },
+  "VOIP": {
+    "IRLP": {
+      "NodeID": 7304
+    }
+  }
+}

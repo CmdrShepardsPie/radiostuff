@@ -1,0 +1,2 @@
+ID,StateID,Callsign,Use,Status,DigitalTone,Digital,VOIP,Location.Latitude,Location.Longitude,Location.County,Location.State,Location.Local,Frequency.Input,Frequency.Output,SquelchTone.Input,SquelchTone.Output
+19,32,W6JCY,Open,Off-Air,,,,36.0279007,-115.01300049,Clark,NV,Henderson,146.04,146.64,100,

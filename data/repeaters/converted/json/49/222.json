@@ -1,0 +1,21 @@
+{
+  "ID": 222,
+  "StateID": 49,
+  "Callsign": "WA7FFM",
+  "Location": {
+    "Latitude": 40.2480011,
+    "Longitude": -111.66600037,
+    "County": "Utah",
+    "State": "UT",
+    "Local": "Provo, UVRMC"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 444.85,
+    "Output": 449.85
+  },
+  "SquelchTone": {
+    "Input": 146.2
+  }
+}

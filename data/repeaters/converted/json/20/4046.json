@@ -1,0 +1,27 @@
+{
+  "ID": 4046,
+  "StateID": 20,
+  "Callsign": "K0ECT",
+  "Location": {
+    "Latitude": 38.16400146,
+    "Longitude": -100.8010025,
+    "County": "Finney",
+    "State": "KS",
+    "Local": "Garden City, Tennis"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 447.5,
+    "Output": 442.5
+  },
+  "SquelchTone": {
+    "Input": 141.3,
+    "Output": 141.3
+  },
+  "VOIP": {
+    "IRLP": {
+      "NodeID": 3885
+    }
+  }
+}

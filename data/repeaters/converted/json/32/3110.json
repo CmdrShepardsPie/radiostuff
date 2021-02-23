@@ -1,0 +1,23 @@
+{
+  "ID": 3110,
+  "StateID": 32,
+  "Callsign": "W7AES",
+  "Location": {
+    "Latitude": 35.99580002,
+    "Longitude": -114.86399841,
+    "County": "Clark",
+    "State": "NV",
+    "Local": "Boulder City"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 1262.39,
+    "Output": 1282.39
+  },
+  "Digital": {
+    "DStar": {
+      "Node": "W7AES (A) Gateway Repeater"
+    }
+  }
+}

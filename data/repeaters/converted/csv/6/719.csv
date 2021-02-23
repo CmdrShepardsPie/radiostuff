@@ -1,0 +1,2 @@
+ID,StateID,Callsign,Use,Status,DigitalTone,Digital,VOIP,Location.Latitude,Location.Longitude,Location.County,Location.State,Location.Local,Frequency.Input,Frequency.Output,SquelchTone.Input,SquelchTone.Output
+719,6,KK6KU,Open,On-Air,,,,34.86880112,-118.20999908,Kern,CA,Rosamond,223.06,224.66,110.9,

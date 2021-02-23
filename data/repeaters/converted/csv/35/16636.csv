@@ -1,0 +1,2 @@
+ID,StateID,Callsign,Use,Status,DigitalTone,Digital,VOIP,Location.Latitude,Location.Longitude,Location.County,Location.State,Location.Local,Frequency.Input,Frequency.Output,SquelchTone.Input,SquelchTone.Output
+16636,35,KB5ITS,Open,On-Air,,,,36.71110153,-107.98500061,San Juan,NM,Bloomfield,443.65,448.65,127.3,

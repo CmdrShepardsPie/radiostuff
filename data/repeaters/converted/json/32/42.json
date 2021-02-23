@@ -1,0 +1,21 @@
+{
+  "ID": 42,
+  "StateID": 32,
+  "Callsign": "KB7PPG",
+  "Location": {
+    "Latitude": 38.06610107,
+    "Longitude": -117.22799683,
+    "County": "Nye",
+    "State": "NV",
+    "Local": "Tonopah"
+  },
+  "Use": "Open",
+  "Status": "Off-Air",
+  "Frequency": {
+    "Input": 147.72,
+    "Output": 147.12
+  },
+  "SquelchTone": {
+    "Input": 114.8
+  }
+}

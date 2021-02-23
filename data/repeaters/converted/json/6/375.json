@@ -1,0 +1,29 @@
+{
+  "ID": 375,
+  "StateID": 6,
+  "Callsign": "AB6MV",
+  "Location": {
+    "Latitude": 33.95709991,
+    "Longitude": -117.21700287,
+    "County": "Riverside",
+    "State": "CA",
+    "Local": "Moreno Valley, Moreno Valley"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 146.055,
+    "Output": 146.655
+  },
+  "SquelchTone": {
+    "Input": 103.5
+  },
+  "Digital": {
+    "YSF": {
+      "GroupID": {
+        "Input": "Open ↑",
+        "Output": "Open ↓"
+      }
+    }
+  }
+}

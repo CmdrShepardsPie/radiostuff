@@ -1,0 +1,18 @@
+{
+  "ID": 167,
+  "StateID": 49,
+  "Callsign": "N7ZOI",
+  "Location": {
+    "Latitude": 40.5,
+    "Longitude": -111.48300171,
+    "County": "Wasatch",
+    "State": "UT",
+    "Local": "Midway"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 444.95,
+    "Output": 449.95
+  }
+}

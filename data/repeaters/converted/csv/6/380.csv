@@ -1,0 +1,2 @@
+ID,StateID,Callsign,Use,Status,DigitalTone,Digital,VOIP,Location.Latitude,Location.Longitude,Location.County,Location.State,Location.Local,Frequency.Input,Frequency.Output,SquelchTone.Input,SquelchTone.Output
+380,6,WA6HYQ,Open,On-Air,,,,33.91559982,-117.26300049,Riverside,CA,"Moreno Valley, Civic Center",146.07,146.67,123,

@@ -1,0 +1,22 @@
+{
+  "ID": 6463,
+  "StateID": 20,
+  "Callsign": "W0MI",
+  "Location": {
+    "Latitude": 38.48089981,
+    "Longitude": -100.9240036,
+    "County": "Scott",
+    "State": "KS",
+    "Local": "Scott City, K-Link"
+  },
+  "Use": "Open",
+  "Status": "Off-Air",
+  "Frequency": {
+    "Input": 449.95,
+    "Output": 444.95
+  },
+  "SquelchTone": {
+    "Input": 100,
+    "Output": 100
+  }
+}

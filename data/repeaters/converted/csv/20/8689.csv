@@ -1,0 +1,2 @@
+ID,StateID,Callsign,Use,Status,DigitalTone,Digital,VOIP,Location.Latitude,Location.Longitude,Location.County,Location.State,Location.Local,Frequency.Input,Frequency.Output,SquelchTone.Input,SquelchTone.Output
+8689,20,NV8Q,Open,Other,,,,39.40119934,-101.10099792,Thomas,KS,"Colby, K-Link",449.75,444.75,162.2,162.2

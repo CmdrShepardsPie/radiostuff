@@ -1,0 +1,37 @@
+{
+  "ID": 8731,
+  "StateID": 20,
+  "Callsign": "N7JYS",
+  "Location": {
+    "Latitude": 38.875,
+    "Longitude": -98.86699677,
+    "County": "Russell",
+    "State": "KS",
+    "Local": "Russell"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 447.475,
+    "Output": 442.475
+  },
+  "SquelchTone": {
+    "Input": 131.8,
+    "Output": 131.8
+  },
+  "Digital": {
+    "DMR": {
+      "ColorCode": 7,
+      "ID": 312023
+    },
+    "P25": {
+      "NAC": 293
+    },
+    "YSF": {
+      "GroupID": {
+        "Input": "Open ↑",
+        "Output": "Open ↓"
+      }
+    }
+  }
+}

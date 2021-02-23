@@ -1,0 +1,24 @@
+{
+  "ID": 16060,
+  "StateID": 6,
+  "Callsign": "K6TMD",
+  "Location": {
+    "Latitude": 33.76060104,
+    "Longitude": -116.73799896,
+    "County": "Riverside",
+    "State": "CA",
+    "Local": "Pine Cove"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 441.0625,
+    "Output": 446.0625
+  },
+  "Digital": {
+    "DMR": {
+      "ColorCode": 1,
+      "ID": 310724
+    }
+  }
+}

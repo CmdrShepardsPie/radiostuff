@@ -1,0 +1,2 @@
+ID,StateID,Callsign,Use,Status,SquelchTone,DigitalTone,VOIP,Location.Latitude,Location.Longitude,Location.County,Location.State,Location.Local,Frequency.Input,Frequency.Output,Digital.P25,Digital.DStar,Digital.YSF,Digital.DMR.ColorCode,Digital.DMR.ID
+16499,35,KG5SLG,Open,Off-Air,,,,35.23279953,-106.66300201,Sandoval,NM,"Rio Rancho, NM 528 and Corrales Rd",447.4,442.4,,,,4,

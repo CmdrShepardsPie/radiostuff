@@ -1,0 +1,2 @@
+ID,StateID,Callsign,Use,Status,DigitalTone,Digital,VOIP,Location.Latitude,Location.Longitude,Location.County,Location.State,Location.Local,Frequency.Input,Frequency.Output,SquelchTone.Input,SquelchTone.Output
+454,6,K6LLU,Open,On-Air,,,,34.04949951,-117.26399994,San Bernardino,CA,"Loma Linda, LLUMC",147.135,147.735,118.8,

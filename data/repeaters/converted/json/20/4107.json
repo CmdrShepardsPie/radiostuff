@@ -1,0 +1,22 @@
+{
+  "ID": 4107,
+  "StateID": 20,
+  "Callsign": "K0ECT",
+  "Location": {
+    "Latitude": 38.05329895,
+    "Longitude": -99.89959717,
+    "County": "Hodgeman",
+    "State": "KS",
+    "Local": "Jetmore"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 449.5,
+    "Output": 444.5
+  },
+  "SquelchTone": {
+    "Input": 141.3,
+    "Output": 141.3
+  }
+}

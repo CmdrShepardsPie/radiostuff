@@ -1,0 +1,21 @@
+{
+  "ID": 25,
+  "StateID": 32,
+  "Callsign": "WA7HXO",
+  "Location": {
+    "Latitude": 37.89379883,
+    "Longitude": -114.57900238,
+    "County": "Lincoln",
+    "State": "NV",
+    "Local": "Lincoln, Highland Peak"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 144.62,
+    "Output": 145.22
+  },
+  "SquelchTone": {
+    "Input": 100
+  }
+}

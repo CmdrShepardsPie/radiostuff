@@ -1,0 +1,2 @@
+ID,StateID,Callsign,Use,Status,DigitalTone,Digital,VOIP,Location.Latitude,Location.Longitude,Location.County,Location.State,Location.Local,Frequency.Input,Frequency.Output,SquelchTone.Input,SquelchTone.Output
+168,49,N7ZOI,Open,On-Air,,,,40.56219864,-111.47599792,Wasatch,UT,"Midway, Wilson Peak",147.8,147.2,88.5,

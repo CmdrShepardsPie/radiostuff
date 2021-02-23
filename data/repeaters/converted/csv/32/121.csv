@@ -1,0 +1,2 @@
+ID,StateID,Callsign,Use,Status,DigitalTone,Digital,VOIP,Location.Latitude,Location.Longitude,Location.County,Location.State,Location.Local,Frequency.Input,Frequency.Output,SquelchTone.Input,SquelchTone.Output
+121,32,KC7TMC,Open,On-Air,,,,36.32109833,-114.93000031,Clark,NV,"Las Vegas, Apex Mountain",444.875,449.875,127.3,127.3

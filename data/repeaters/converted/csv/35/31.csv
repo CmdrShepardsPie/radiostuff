@@ -1,0 +1,2 @@
+ID,StateID,Callsign,Use,Status,DigitalTone,Digital,VOIP,Location.Latitude,Location.Longitude,Location.County,Location.State,Location.Local,Frequency.Input,Frequency.Output,SquelchTone.Input,SquelchTone.Output
+31,35,K5FSB,Open,On-Air,,,,35.20890045,-106.4469986,Bernalillo,NM,"Albuquerque, Sandia Peak",447.6,442.6,100,

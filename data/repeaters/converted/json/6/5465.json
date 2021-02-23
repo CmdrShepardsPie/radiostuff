@@ -1,0 +1,22 @@
+{
+  "ID": 5465,
+  "StateID": 6,
+  "Callsign": "N6BKL",
+  "Location": {
+    "Latitude": 36.60599899,
+    "Longitude": -118.06300354,
+    "County": "Inyo",
+    "State": "CA",
+    "Local": "Lone Pine, Owens Valley"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 52.4,
+    "Output": 52.9
+  },
+  "SquelchTone": {
+    "Input": 100,
+    "Output": 141.3
+  }
+}

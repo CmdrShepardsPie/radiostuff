@@ -1,0 +1,2 @@
+ID,StateID,Callsign,Use,Status,SquelchTone,DigitalTone,VOIP,Location.Latitude,Location.Longitude,Location.County,Location.State,Location.Local,Frequency.Input,Frequency.Output,Digital.P25,Digital.DStar,Digital.YSF,Digital.DMR.ColorCode,Digital.DMR.ID
+17184,16,KI7WQR,Open,On-Air,,,,42.1916008,-112.25099945,Oneida,ID,"Malad City, Hess Pumice Plant",442.9875,447.9875,,,,1,310024

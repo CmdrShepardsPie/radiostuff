@@ -1,0 +1,2 @@
+ID,StateID,Callsign,Use,Status,DigitalTone,Digital,VOIP,Location.Latitude,Location.Longitude,Location.County,Location.State,Location.Local,Frequency.Input,Frequency.Output,SquelchTone.Input,SquelchTone.Output
+244,49,WA7SNS,Open,On-Air,,,,40.80810165,-111.88999939,Salt Lake,UT,"Salt Lake City, Ensign Peak",147.76,147.16,127.3,

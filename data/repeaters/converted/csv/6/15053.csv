@@ -1,0 +1,2 @@
+ID,StateID,Callsign,Use,Status,DigitalTone,Digital,Location.Latitude,Location.Longitude,Location.County,Location.State,Location.Local,Frequency.Input,Frequency.Output,SquelchTone.Input,SquelchTone.Output,VOIP.EchoLink,VOIP.IRLP,VOIP.Wires,VOIP.AllStar.NodeID
+15053,6,N6LXX,Open,On-Air,,,34.90679932,-116.83799744,San Bernardino,CA,Yermo,53.34,53.84,107.2,100,,,,28993

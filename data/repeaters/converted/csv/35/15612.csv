@@ -1,0 +1,2 @@
+ID,StateID,Callsign,Use,Status,DigitalTone,Digital,VOIP,Location.Latitude,Location.Longitude,Location.County,Location.State,Location.Local,Frequency.Input,Frequency.Output,SquelchTone.Input,SquelchTone.Output
+15612,35,KF5PFO,Open,Off-Air,,,,36.24620056,-105.65399933,Taos,NM,"Taos, Picuris Peak",444.875,449.875,123,

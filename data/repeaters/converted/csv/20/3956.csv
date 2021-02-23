@@ -1,0 +1,2 @@
+ID,StateID,Callsign,Use,Status,DigitalTone,Digital,Location.Latitude,Location.Longitude,Location.County,Location.State,Location.Local,Frequency.Input,Frequency.Output,SquelchTone.Input,SquelchTone.Output,VOIP.EchoLink,VOIP.IRLP,VOIP.Wires,VOIP.AllStar.NodeID
+3956,20,N0KOM,Open,On-Air,,,39.57300186,-99.98600006,Norton,KS,"Lenora, K-Link",146.28,146.88,162.2,162.2,,,,49527

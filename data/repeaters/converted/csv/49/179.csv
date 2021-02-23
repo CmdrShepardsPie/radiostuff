@@ -1,0 +1,2 @@
+ID,StateID,Callsign,Use,Status,SquelchTone,DigitalTone,Digital,VOIP,Location.Latitude,Location.Longitude,Location.County,Location.State,Location.Local,Frequency.Input,Frequency.Output
+179,49,NZ6Z,Open,On-Air,,,,,40.74250031,-111.51200104,Summit,UT,Park City,442.5,447.5

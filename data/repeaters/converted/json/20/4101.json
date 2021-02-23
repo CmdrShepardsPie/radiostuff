@@ -1,0 +1,30 @@
+{
+  "ID": 4101,
+  "StateID": 20,
+  "Callsign": "KE0PTS",
+  "Location": {
+    "Latitude": 38.30519867,
+    "Longitude": -99.0243988,
+    "County": "Barton",
+    "State": "KS",
+    "Local": "Pawnee Rock"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 146.235,
+    "Output": 146.835
+  },
+  "SquelchTone": {
+    "Input": 100,
+    "Output": 100
+  },
+  "Digital": {
+    "YSF": {
+      "GroupID": {
+        "Input": "Open ↑",
+        "Output": "Open ↓"
+      }
+    }
+  }
+}

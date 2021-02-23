@@ -1,0 +1,2 @@
+ID,StateID,Callsign,Use,Status,DigitalTone,Digital,VOIP,Location.Latitude,Location.Longitude,Location.County,Location.State,Location.Local,Frequency.Input,Frequency.Output,SquelchTone.Input,SquelchTone.Output
+2503,6,KF6FM,Private,On-Air,,,,34.18759918,-117.69999695,Los Angeles,CA,"Pomona, Sunset Ridge",441.04,446.04,131.8,

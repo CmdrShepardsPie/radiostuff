@@ -1,0 +1,29 @@
+{
+  "ID": 291,
+  "StateID": 32,
+  "Callsign": "N3TOY",
+  "Location": {
+    "Latitude": 36.17890167,
+    "Longitude": -114.99700165,
+    "County": "Clark",
+    "State": "NV",
+    "Local": "Las Vegas, Frenchman Mountain"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 902.1125,
+    "Output": 927.1125
+  },
+  "DigitalTone": {
+    "Input": 432
+  },
+  "VOIP": {
+    "EchoLink": {
+      "NodeID": 234957
+    },
+    "IRLP": {
+      "NodeID": 3418
+    }
+  }
+}

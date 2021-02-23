@@ -1,0 +1,18 @@
+{
+  "ID": 263,
+  "StateID": 49,
+  "Callsign": "WB7TSQ",
+  "Location": {
+    "Latitude": 40.85499954,
+    "Longitude": -111.48000336,
+    "County": "Summit",
+    "State": "UT",
+    "Local": "Coalville, Lewis Peak"
+  },
+  "Use": "Open",
+  "Status": "Other",
+  "Frequency": {
+    "Input": 443.9,
+    "Output": 448.9
+  }
+}

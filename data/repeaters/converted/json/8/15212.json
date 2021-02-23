@@ -1,0 +1,22 @@
+{
+  "ID": 15212,
+  "StateID": 8,
+  "Callsign": "KB0YNA",
+  "Location": {
+    "Latitude": 38.61249924,
+    "Longitude": -106.54299927,
+    "County": "Gunnison",
+    "State": "CO",
+    "Local": "Gunnison, W Mountain or Tenderfoot Mountain"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 442.65,
+    "Output": 447.65
+  },
+  "SquelchTone": {
+    "Input": 151.4,
+    "Output": 151.4
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "ID": 333,
+  "StateID": 32,
+  "Callsign": "WA7HXO",
+  "Location": {
+    "Latitude": 36.83520126,
+    "Longitude": -114.05699921,
+    "County": "Clark",
+    "State": "NV",
+    "Local": "Mesquite"
+  },
+  "Use": "Closed",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 443.02,
+    "Output": 448.02
+  },
+  "SquelchTone": {
+    "Input": 136.5
+  }
+}

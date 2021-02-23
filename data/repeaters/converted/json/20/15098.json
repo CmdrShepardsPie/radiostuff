@@ -1,0 +1,21 @@
+{
+  "ID": 15098,
+  "StateID": 20,
+  "Callsign": "K0WPM",
+  "Location": {
+    "Latitude": 38.46969986,
+    "Longitude": -101.75299835,
+    "County": "Greeley",
+    "State": "KS",
+    "Local": "Tribune"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 447.175,
+    "Output": 442.175
+  },
+  "SquelchTone": {
+    "Input": 156.7
+  }
+}

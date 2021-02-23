@@ -1,0 +1,21 @@
+{
+  "ID": 172,
+  "StateID": 32,
+  "Callsign": "WA6TLW",
+  "Location": {
+    "Latitude": 40.40390015,
+    "Longitude": -116.86199951,
+    "County": "Lander",
+    "State": "NV",
+    "Local": "Battle Mountain, Mt Lewis"
+  },
+  "Use": "Closed",
+  "Status": "Other",
+  "Frequency": {
+    "Input": 449.85,
+    "Output": 444.85
+  },
+  "SquelchTone": {
+    "Input": 94.8
+  }
+}

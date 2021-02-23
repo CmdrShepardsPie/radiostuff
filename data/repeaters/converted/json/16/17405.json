@@ -1,0 +1,34 @@
+{
+  "ID": 17405,
+  "StateID": 16,
+  "Callsign": "K8MPW",
+  "Location": {
+    "Latitude": 42.7757988,
+    "Longitude": -114.70400238,
+    "County": "Gooding",
+    "State": "ID",
+    "Local": "Wendell"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 448.95,
+    "Output": 443.95
+  },
+  "SquelchTone": {
+    "Input": 100
+  },
+  "Digital": {
+    "YSF": {
+      "GroupID": {
+        "Input": "Open ↑",
+        "Output": "Open ↓"
+      }
+    }
+  },
+  "VOIP": {
+    "Wires": {
+      "ID": 33728
+    }
+  }
+}

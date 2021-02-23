@@ -1,0 +1,2 @@
+ID,StateID,Callsign,Use,Status,DigitalTone,Digital,VOIP,Location.Latitude,Location.Longitude,Location.County,Location.State,Location.Local,Frequency.Input,Frequency.Output,SquelchTone.Input,SquelchTone.Output
+128,16,AE7TA,Open,On-Air,,,,42.51589966,-111.92299652,Bannock,ID,"Grace, Sedgwick Peak",146.2,146.8,88.5,

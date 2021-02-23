@@ -1,0 +1,2 @@
+ID,StateID,Callsign,Use,Status,DigitalTone,Digital,Location.Latitude,Location.Longitude,Location.County,Location.State,Location.Local,Frequency.Input,Frequency.Output,SquelchTone.Input,SquelchTone.Output,VOIP.EchoLink,VOIP.IRLP,VOIP.Wires,VOIP.AllStar.NodeID
+16444,20,N7JYS,Open,On-Air,,,38.60559845,-98.69750214,Barton,KS,Hoisington,222.44,224.04,131.8,131.8,,,,45989

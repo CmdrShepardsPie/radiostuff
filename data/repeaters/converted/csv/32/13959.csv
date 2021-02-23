@@ -1,0 +1,2 @@
+ID,StateID,Callsign,Use,Status,DigitalTone,Digital,VOIP,Location.Latitude,Location.Longitude,Location.County,Location.State,Location.Local,Frequency.Input,Frequency.Output,SquelchTone.Input,SquelchTone.Output
+13959,32,N4NJJ,Open,On-Air,,,,36.00780106,-114.96600342,Clark,NV,"Las Vegas, CSN Henderson",440.375,445.375,107.2,107.2

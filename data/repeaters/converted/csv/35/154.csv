@@ -1,0 +1,2 @@
+ID,StateID,Callsign,Use,Status,DigitalTone,Digital,VOIP,Location.Latitude,Location.Longitude,Location.County,Location.State,Location.Local,Frequency.Input,Frequency.Output,SquelchTone.Input,SquelchTone.Output
+154,35,W5SF,Open,On-Air,,,,35.65930176,-105.94499969,Santa Fe,NM,"Santa Fe, St Vincent Hospital",147.8,147.2,162.2,

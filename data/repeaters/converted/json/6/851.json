@@ -1,0 +1,21 @@
+{
+  "ID": 851,
+  "StateID": 6,
+  "Callsign": "K7GIL",
+  "Location": {
+    "Latitude": 34.61059952,
+    "Longitude": -117.28700256,
+    "County": "San Bernardino",
+    "State": "CA",
+    "Local": "Victorville, Quartzite Mountain"
+  },
+  "Use": "Open",
+  "Status": "Other",
+  "Frequency": {
+    "Input": 222.24,
+    "Output": 223.84
+  },
+  "SquelchTone": {
+    "Input": 156.7
+  }
+}

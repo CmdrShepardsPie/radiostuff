@@ -1,0 +1,2 @@
+ID,StateID,Callsign,Use,Status,DigitalTone,Digital,VOIP,Location.Latitude,Location.Longitude,Location.County,Location.State,Location.Local,Frequency.Input,Frequency.Output,SquelchTone.Input,SquelchTone.Output
+136,49,N7FQ,Open,On-Air,,,,40.0530014,-111.6740036,Utah,UT,Salem,442.075,447.075,131.8,

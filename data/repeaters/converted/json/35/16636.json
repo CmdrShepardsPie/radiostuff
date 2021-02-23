@@ -1,0 +1,21 @@
+{
+  "ID": 16636,
+  "StateID": 35,
+  "Callsign": "KB5ITS",
+  "Location": {
+    "Latitude": 36.71110153,
+    "Longitude": -107.98500061,
+    "County": "San Juan",
+    "State": "NM",
+    "Local": "Bloomfield"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 443.65,
+    "Output": 448.65
+  },
+  "SquelchTone": {
+    "Input": 127.3
+  }
+}

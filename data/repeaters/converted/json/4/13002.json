@@ -1,0 +1,21 @@
+{
+  "ID": 13002,
+  "StateID": 4,
+  "Callsign": "K7PFK",
+  "Location": {
+    "Latitude": 35.14780045,
+    "Longitude": -114.56700134,
+    "County": "Mohave",
+    "State": "AZ",
+    "Local": "Bullhead City"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 443.95,
+    "Output": 448.95
+  },
+  "SquelchTone": {
+    "Input": 123
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "ID": 15122,
+  "StateID": 31,
+  "Callsign": "N7UVW",
+  "Location": {
+    "Latitude": 40.19670105,
+    "Longitude": -100.625,
+    "County": "Frontier",
+    "State": "NE",
+    "Local": "McCook"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 449.5,
+    "Output": 444.5
+  },
+  "SquelchTone": {
+    "Input": 151.4
+  }
+}

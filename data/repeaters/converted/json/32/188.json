@@ -1,0 +1,21 @@
+{
+  "ID": 188,
+  "StateID": 32,
+  "Callsign": "W7LKO",
+  "Location": {
+    "Latitude": 41.31420135,
+    "Longitude": -116.22100067,
+    "County": "Elko",
+    "State": "NV",
+    "Local": "Tuscarora"
+  },
+  "Use": "Open",
+  "Status": "Other",
+  "Frequency": {
+    "Input": 449.5,
+    "Output": 444.5
+  },
+  "SquelchTone": {
+    "Input": 100
+  }
+}

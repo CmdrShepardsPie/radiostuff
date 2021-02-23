@@ -1,0 +1,22 @@
+{
+  "ID": 11333,
+  "StateID": 49,
+  "Callsign": "K7OET",
+  "Location": {
+    "Latitude": 37.15589905,
+    "Longitude": -113.88300323,
+    "County": "Washington",
+    "State": "UT",
+    "Local": "St George, Utah Hill"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 444.35,
+    "Output": 449.35
+  },
+  "SquelchTone": {
+    "Input": 100,
+    "Output": 100
+  }
+}

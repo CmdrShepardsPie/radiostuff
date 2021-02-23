@@ -1,0 +1,23 @@
+{
+  "ID": 13331,
+  "StateID": 6,
+  "Callsign": "KJ6KTV",
+  "Location": {
+    "Latitude": 34.13560104,
+    "Longitude": -116.05400085,
+    "County": "San Bernardino",
+    "State": "CA",
+    "Local": "Twentynine Palms"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 145.015,
+    "Output": 147.57
+  },
+  "Digital": {
+    "DStar": {
+      "Node": "KJ6KTV (C) Gateway Repeater"
+    }
+  }
+}

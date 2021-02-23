@@ -1,0 +1,18 @@
+{
+  "ID": 3979,
+  "StateID": 20,
+  "Callsign": "K0ECT",
+  "Location": {
+    "Latitude": 37.24000168,
+    "Longitude": -101.1989975,
+    "County": "Grant",
+    "State": "KS",
+    "Local": "Ulysses"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 147.66,
+    "Output": 147.06
+  }
+}

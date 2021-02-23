@@ -1,0 +1,2 @@
+ID,StateID,Callsign,Use,Status,SquelchTone,DigitalTone,Digital,Location.Latitude,Location.Longitude,Location.County,Location.State,Location.Local,Frequency.Input,Frequency.Output,VOIP.AllStar,VOIP.EchoLink,VOIP.Wires,VOIP.IRLP.NodeID
+439,6,WD6BNG,Open,On-Air,,,,34.89860153,-117.02200317,San Bernardino,CA,Barstow,147.63,147.03,,,,7190

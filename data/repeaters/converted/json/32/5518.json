@@ -1,0 +1,30 @@
+{
+  "ID": 5518,
+  "StateID": 32,
+  "Callsign": "WB9STH",
+  "Location": {
+    "Latitude": 36.10800171,
+    "Longitude": -115.24500275,
+    "County": "Clark",
+    "State": "NV",
+    "Local": "Spring Valley"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 442.425,
+    "Output": 447.425
+  },
+  "SquelchTone": {
+    "Input": 173.8,
+    "Output": 173.8
+  },
+  "VOIP": {
+    "AllStar": {
+      "NodeID": 2400
+    },
+    "EchoLink": {
+      "NodeID": 428275
+    }
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "ID": 22,
+  "StateID": 35,
+  "Callsign": "K5LXP",
+  "Location": {
+    "Latitude": 35.13059998,
+    "Longitude": -106.4980011,
+    "County": "Bernalillo",
+    "State": "NM",
+    "Local": "Albuquerque"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 147.92,
+    "Output": 147.32
+  },
+  "SquelchTone": {
+    "Input": 100
+  }
+}

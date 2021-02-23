@@ -1,0 +1,21 @@
+{
+  "ID": 64,
+  "StateID": 35,
+  "Callsign": "NM5ML",
+  "Location": {
+    "Latitude": 35.23279953,
+    "Longitude": -104.22299957,
+    "County": "San Miguel",
+    "State": "NM",
+    "Local": "Conchas Dam, Mesa Rica"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 147.96,
+    "Output": 147.36
+  },
+  "SquelchTone": {
+    "Input": 100
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "ID": 4064,
+  "StateID": 20,
+  "Callsign": "K0ECT",
+  "Location": {
+    "Latitude": 37.05899811,
+    "Longitude": -100.93000031,
+    "County": "Seward",
+    "State": "KS",
+    "Local": "Liberal"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 448.1,
+    "Output": 443.1
+  },
+  "SquelchTone": {
+    "Input": 141.3
+  }
+}

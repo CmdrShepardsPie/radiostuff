@@ -1,0 +1,2 @@
+ID,StateID,Callsign,Use,Status,DigitalTone,Digital,VOIP,Location.Latitude,Location.Longitude,Location.County,Location.State,Location.Local,Frequency.Input,Frequency.Output,SquelchTone.Input,SquelchTone.Output
+1549,48,N5LTZ,Open,On-Air,,,,34.7928009,-101.54699707,Armstrong,TX,Wayside,449.575,444.575,88.5,

@@ -1,0 +1,27 @@
+{
+  "ID": 80,
+  "StateID": 31,
+  "Callsign": "W0WWV",
+  "Location": {
+    "Latitude": 40.29290009,
+    "Longitude": -98.72910309,
+    "County": "Franklin",
+    "State": "NE",
+    "Local": "Campbell, Mid-Rivers E911 Dispatch Center"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 449.475,
+    "Output": 444.475
+  },
+  "SquelchTone": {
+    "Input": 136.5,
+    "Output": 136.5
+  },
+  "VOIP": {
+    "IRLP": {
+      "NodeID": 7438
+    }
+  }
+}

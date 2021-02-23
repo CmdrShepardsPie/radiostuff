@@ -1,0 +1,2 @@
+ID,StateID,Callsign,Use,Status,SquelchTone,Digital,VOIP,Location.Latitude,Location.Longitude,Location.County,Location.State,Location.Local,Frequency.Input,Frequency.Output,DigitalTone.Input,DigitalTone.Output
+15293,49,W7RSS,Open,On-Air,,,,41.2279834,-111.9420453,Weber,UT,Ogden,444.075,449.075,114,

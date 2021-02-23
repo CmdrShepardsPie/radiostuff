@@ -1,0 +1,30 @@
+{
+  "ID": 12875,
+  "StateID": 32,
+  "Callsign": "WA7SCA",
+  "Location": {
+    "Latitude": 35.95500183,
+    "Longitude": -115.09400177,
+    "County": "Clark",
+    "State": "NV",
+    "Local": "Henderson, Sun City Anthem"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 440.68,
+    "Output": 445.68
+  },
+  "SquelchTone": {
+    "Input": 123,
+    "Output": 123
+  },
+  "Digital": {
+    "YSF": {
+      "GroupID": {
+        "Input": "Open ↑",
+        "Output": "Open ↓"
+      }
+    }
+  }
+}

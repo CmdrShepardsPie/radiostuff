@@ -1,0 +1,2 @@
+ID,StateID,Callsign,Use,Status,DigitalTone,Digital,VOIP,Location.Latitude,Location.Longitude,Location.County,Location.State,Location.Local,Frequency.Input,Frequency.Output,SquelchTone.Input,SquelchTone.Output
+16757,32,W7HEN,Open,On-Air,,,,36.33359909,-114.97499847,Clark,NV,"North Las Vegas, Apex Mountain",444.925,449.925,131.8,203.5

@@ -1,0 +1,22 @@
+{
+  "ID": 15582,
+  "StateID": 8,
+  "Callsign": "KB0VJJ",
+  "Location": {
+    "Latitude": 39.88650131,
+    "Longitude": -105.76300049,
+    "County": "Grand",
+    "State": "CO",
+    "Local": "Winter Park, Winter Park"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 147.885,
+    "Output": 147.285
+  },
+  "SquelchTone": {
+    "Input": 88.5,
+    "Output": 123
+  }
+}

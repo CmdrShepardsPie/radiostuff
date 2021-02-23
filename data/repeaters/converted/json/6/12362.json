@@ -1,0 +1,27 @@
+{
+  "ID": 12362,
+  "StateID": 6,
+  "Callsign": "WA6CAM",
+  "Location": {
+    "Latitude": 35.05250168,
+    "Longitude": -118.1740036,
+    "County": "Kern",
+    "State": "CA",
+    "Local": "Tehachapi"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 902.025,
+    "Output": 927.025
+  },
+  "SquelchTone": {
+    "Input": 146.2,
+    "Output": 146.2
+  },
+  "VOIP": {
+    "AllStar": {
+      "NodeID": 47070
+    }
+  }
+}

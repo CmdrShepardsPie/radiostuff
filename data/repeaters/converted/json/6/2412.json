@@ -1,0 +1,26 @@
+{
+  "ID": 2412,
+  "StateID": 6,
+  "Callsign": "KA6WIN",
+  "Location": {
+    "Latitude": 35.45289993,
+    "Longitude": -118.59200287,
+    "County": "Kern",
+    "State": "CA",
+    "Local": "Bakersfield, Breckenridge Mountain"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 442.64,
+    "Output": 447.64
+  },
+  "SquelchTone": {
+    "Input": 100
+  },
+  "VOIP": {
+    "IRLP": {
+      "NodeID": 3847
+    }
+  }
+}

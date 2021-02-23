@@ -1,0 +1,18 @@
+{
+  "ID": 19006,
+  "StateID": 6,
+  "Callsign": "K4ELE",
+  "Location": {
+    "Latitude": 34.1881,
+    "Longitude": -117,
+    "County": "Los Angeles",
+    "State": "CA",
+    "Local": "Sunset Ridge"
+  },
+  "Use": "Private",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 902.2375,
+    "Output": 927.2375
+  }
+}

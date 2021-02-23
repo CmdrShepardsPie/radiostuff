@@ -1,0 +1,22 @@
+{
+  "ID": 17780,
+  "StateID": 16,
+  "Callsign": "WA7ZAF",
+  "Location": {
+    "Latitude": 43.2052002,
+    "Longitude": -115.20500183,
+    "County": "Elmore",
+    "State": "ID",
+    "Local": "Mountain Home"
+  },
+  "Use": "Open",
+  "Status": "Off-Air",
+  "Frequency": {
+    "Input": 222.74,
+    "Output": 224.34
+  },
+  "SquelchTone": {
+    "Input": 123,
+    "Output": 123
+  }
+}

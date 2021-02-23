@@ -1,0 +1,22 @@
+{
+  "ID": 24,
+  "StateID": 31,
+  "Callsign": "W0WWV",
+  "Location": {
+    "Latitude": 40.58720016,
+    "Longitude": -98.80269623,
+    "County": "Kearney",
+    "State": "NE",
+    "Local": "Heartwell, KGIN TV Tower"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 146.22,
+    "Output": 146.82
+  },
+  "SquelchTone": {
+    "Input": 123,
+    "Output": 123
+  }
+}

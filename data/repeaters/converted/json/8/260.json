@@ -1,7 +1,7 @@
 {
   "ID": 260,
   "StateID": 8,
-  "Callsign": "K0VQ",
+  "Callsign": "KD0NU",
   "Location": {
     "Latitude": 39.17610168,
     "Longitude": -106.82900238,
@@ -16,7 +16,7 @@
     "Output": 447.05
   },
   "SquelchTone": {
-    "Input": 136.5,
-    "Output": 136.5
+    "Input": 179.9,
+    "Output": 179.9
   }
 }

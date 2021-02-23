@@ -1,0 +1,18 @@
+{
+  "ID": 6,
+  "StateID": 31,
+  "Callsign": "KA0RCZ",
+  "Location": {
+    "Latitude": 40.10079956,
+    "Longitude": -99.36250305,
+    "County": "Harlan",
+    "State": "NE",
+    "Local": "Alma"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 144.605,
+    "Output": 145.205
+  }
+}

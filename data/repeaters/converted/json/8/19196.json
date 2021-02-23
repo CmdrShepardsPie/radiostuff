@@ -1,0 +1,21 @@
+{
+  "ID": 19196,
+  "StateID": 8,
+  "Callsign": "N0HQD",
+  "Location": {
+    "Latitude": 37.6700041,
+    "Longitude": -106.6397638,
+    "County": "Rio Grande",
+    "State": "CO",
+    "Local": "South Fork"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 442.9,
+    "Output": 447.9
+  },
+  "SquelchTone": {
+    "Input": 100
+  }
+}

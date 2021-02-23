@@ -1,0 +1,2 @@
+ID,StateID,Callsign,Use,Status,DigitalTone,Digital,Location.Latitude,Location.Longitude,Location.County,Location.State,Location.Local,Frequency.Input,Frequency.Output,SquelchTone.Input,SquelchTone.Output,VOIP.EchoLink,VOIP.IRLP,VOIP.Wires,VOIP.AllStar.NodeID
+11783,6,WB6FYR,Open,On-Air,,,35.06060028,-118.38999939,Kern,CA,"Tehachapi, Oak Creek Pass",223.32,224.92,94.8,,,,,29883

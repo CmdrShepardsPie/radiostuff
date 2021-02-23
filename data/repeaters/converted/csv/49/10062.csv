@@ -1,0 +1,2 @@
+ID,StateID,Callsign,Use,Status,DigitalTone,Digital,VOIP,Location.Latitude,Location.Longitude,Location.County,Location.State,Location.Local,Frequency.Input,Frequency.Output,SquelchTone.Input,SquelchTone.Output
+10062,49,K7JH,Open,On-Air,,,,37.6446991,-113.37400055,Iron,UT,"Cedar City, Iron Mountain",443.8,448.8,100,

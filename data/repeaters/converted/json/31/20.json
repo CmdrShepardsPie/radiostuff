@@ -1,0 +1,29 @@
+{
+  "ID": 20,
+  "StateID": 31,
+  "Callsign": "W0CUO",
+  "Location": {
+    "Latitude": 40.90990067,
+    "Longitude": -98.46230316,
+    "County": "Hall",
+    "State": "NE",
+    "Local": "Grand Island, Nebraska State Fair"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 144.815,
+    "Output": 145.415
+  },
+  "SquelchTone": {
+    "Input": 123
+  },
+  "Digital": {
+    "YSF": {
+      "GroupID": {
+        "Input": 23,
+        "Output": 23
+      }
+    }
+  }
+}

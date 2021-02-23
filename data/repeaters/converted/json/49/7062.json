@@ -1,0 +1,23 @@
+{
+  "ID": 7062,
+  "StateID": 49,
+  "Callsign": "KO7SLC",
+  "Location": {
+    "Latitude": 40.66130066,
+    "Longitude": -111.88999939,
+    "County": "Salt Lake",
+    "State": "UT",
+    "Local": "Murray, Intermountain Med Ctr"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 144.55,
+    "Output": 145.15
+  },
+  "Digital": {
+    "DStar": {
+      "Node": "KO7SLC (C) Repeater"
+    }
+  }
+}

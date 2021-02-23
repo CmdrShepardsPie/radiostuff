@@ -1,0 +1,27 @@
+{
+  "ID": 13278,
+  "StateID": 20,
+  "Callsign": "N7JYS",
+  "Location": {
+    "Latitude": 38.93429947,
+    "Longitude": -99.31549835,
+    "County": "Ellis",
+    "State": "KS",
+    "Local": "Hays"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 222.68,
+    "Output": 224.28
+  },
+  "SquelchTone": {
+    "Input": 131.8,
+    "Output": 131.8
+  },
+  "VOIP": {
+    "AllStar": {
+      "NodeID": 2351
+    }
+  }
+}

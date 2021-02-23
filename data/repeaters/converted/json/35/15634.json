@@ -1,0 +1,21 @@
+{
+  "ID": 15634,
+  "StateID": 35,
+  "Callsign": "NM5EM",
+  "Location": {
+    "Latitude": 34.93870163,
+    "Longitude": -104.68199921,
+    "County": "Guadalupe",
+    "State": "NM",
+    "Local": "Santa Rosa, Moon Ranch"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 147.64,
+    "Output": 147.04
+  },
+  "SquelchTone": {
+    "Input": 141.3
+  }
+}

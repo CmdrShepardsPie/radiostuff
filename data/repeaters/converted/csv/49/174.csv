@@ -1,0 +1,2 @@
+ID,StateID,Callsign,Use,Status,DigitalTone,Digital,VOIP,Location.Latitude,Location.Longitude,Location.County,Location.State,Location.Local,Frequency.Input,Frequency.Output,SquelchTone.Input,SquelchTone.Output
+174,49,NR7K,Open,On-Air,,,,37.06359863,-113.5739975,Washington,UT,"St George, Webb Hill",146.14,146.74,100,

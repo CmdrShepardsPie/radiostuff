@@ -1,0 +1,2 @@
+ID,StateID,Callsign,Use,Status,DigitalTone,Digital,VOIP,Location.Latitude,Location.Longitude,Location.County,Location.State,Location.Local,Frequency.Input,Frequency.Output,SquelchTone.Input,SquelchTone.Output
+12821,6,KB6BZZ,Open,On-Air,,,,34.50080109,-117.18599701,San Bernardino,CA,Apple Valley,440.68,445.68,141.3,

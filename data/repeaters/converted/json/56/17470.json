@@ -1,0 +1,21 @@
+{
+  "ID": 17470,
+  "StateID": 56,
+  "Callsign": "N7ERH",
+  "Location": {
+    "Latitude": 41.79249954,
+    "Longitude": -110.53700256,
+    "County": "Albany",
+    "State": "WY",
+    "Local": "Kemmerer, Qualey Ridge"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 444.3,
+    "Output": 449.3
+  },
+  "SquelchTone": {
+    "Input": 127.3
+  }
+}

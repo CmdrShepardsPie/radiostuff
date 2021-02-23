@@ -1,0 +1,2 @@
+ID,StateID,Callsign,Use,Status,SquelchTone,DigitalTone,Digital,Location.Latitude,Location.Longitude,Location.County,Location.State,Location.Local,Frequency.Input,Frequency.Output,VOIP.AllStar,VOIP.EchoLink,VOIP.IRLP,VOIP.Wires.ID
+17122,4,KX7P,Open,On-Air,,,,34.50090027,-114.31900024,Mohave,AZ,Lake Havasu City,443.35,448.35,,,,43197

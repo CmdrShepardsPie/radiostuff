@@ -1,0 +1,21 @@
+{
+  "ID": 3707,
+  "StateID": 32,
+  "Callsign": "WB6EGR",
+  "Location": {
+    "Latitude": 36.16439819,
+    "Longitude": -115.08499908,
+    "County": "Clark",
+    "State": "NV",
+    "Local": "Las Vegas, The Ogden"
+  },
+  "Use": "Open",
+  "Status": "Other",
+  "Frequency": {
+    "Input": 440.0125,
+    "Output": 445.0125
+  },
+  "DigitalTone": {
+    "Input": 411
+  }
+}

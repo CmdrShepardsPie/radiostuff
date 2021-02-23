@@ -1,0 +1,2 @@
+ID,StateID,Callsign,Use,Status,SquelchTone,DigitalTone,Digital,VOIP,Location.Latitude,Location.Longitude,Location.County,Location.State,Location.Local,Frequency.Input,Frequency.Output
+1495,6,K6CF,Closed,Off-Air,,,,,34.18759918,-117.69999695,San Bernardino,CA,"Pomona, Sunset Ridge",442.52,447.52

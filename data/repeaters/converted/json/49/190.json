@@ -1,0 +1,26 @@
+{
+  "ID": 190,
+  "StateID": 49,
+  "Callsign": "W7DHH",
+  "Location": {
+    "Latitude": 39.33670044,
+    "Longitude": -111.4509964,
+    "County": "Sanpete",
+    "State": "UT",
+    "Local": "Ephraim, Horseshoe"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 146.06,
+    "Output": 146.66
+  },
+  "SquelchTone": {
+    "Input": 100
+  },
+  "VOIP": {
+    "IRLP": {
+      "NodeID": 3576
+    }
+  }
+}

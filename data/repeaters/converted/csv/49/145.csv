@@ -1,0 +1,2 @@
+ID,StateID,Callsign,Use,Status,DigitalTone,Digital,VOIP,Location.Latitude,Location.Longitude,Location.County,Location.State,Location.Local,Frequency.Input,Frequency.Output,SquelchTone.Input,SquelchTone.Output
+145,49,N7JSQ,Open,On-Air,,,,41.22280121,-111.59799957,Morgan,UT,"Huntsville, Herd Mountain",146.08,146.68,123,

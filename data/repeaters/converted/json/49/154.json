@@ -1,0 +1,21 @@
+{
+  "ID": 154,
+  "StateID": 49,
+  "Callsign": "N7RRZ",
+  "Location": {
+    "Latitude": 41.76860046,
+    "Longitude": -111.80400085,
+    "County": "Cache",
+    "State": "UT",
+    "Local": "Logan"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 444.325,
+    "Output": 449.325
+  },
+  "SquelchTone": {
+    "Input": 156.7
+  }
+}

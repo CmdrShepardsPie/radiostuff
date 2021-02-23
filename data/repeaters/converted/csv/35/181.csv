@@ -1,0 +1,2 @@
+ID,StateID,Callsign,Use,Status,DigitalTone,Digital,VOIP,Location.Latitude,Location.Longitude,Location.County,Location.State,Location.Local,Frequency.Input,Frequency.Output,SquelchTone.Input,SquelchTone.Output
+181,35,N7JNI,Open,On-Air,,,,36.00889969,-104.70600128,Mora,NM,Wagon Mound,449.4,444.4,100,

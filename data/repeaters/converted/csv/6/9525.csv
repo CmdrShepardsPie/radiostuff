@@ -1,0 +1,2 @@
+ID,StateID,Callsign,Use,Status,DigitalTone,Digital,VOIP,Location.Latitude,Location.Longitude,Location.County,Location.State,Location.Local,Frequency.Input,Frequency.Output,SquelchTone.Input,SquelchTone.Output
+9525,6,KI6HHU,Open,On-Air,,,,35.13219833,-118.4489975,Kern,CA,Tehachapi,447.925,442.925,141.3,

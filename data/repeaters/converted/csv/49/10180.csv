@@ -1,0 +1,2 @@
+ID,StateID,Callsign,Use,Status,DigitalTone,Digital,VOIP,Location.Latitude,Location.Longitude,Location.County,Location.State,Location.Local,Frequency.Input,Frequency.Output,SquelchTone.Input,SquelchTone.Output
+10180,49,KO7R,Open,On-Air,,,,40.32720184,-112.10399628,Utah,UT,"Cedar Fort, Internet Mountain",444.7,449.7,127.3,

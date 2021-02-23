@@ -1,0 +1,29 @@
+{
+  "ID": 969,
+  "StateID": 6,
+  "Callsign": "WB6CDF",
+  "Location": {
+    "Latitude": 34.12599945,
+    "Longitude": -116.38999939,
+    "County": "San Bernardino",
+    "State": "CA",
+    "Local": "Yucca Valley, Paxton Hill"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 442,
+    "Output": 447
+  },
+  "DigitalTone": {
+    "Input": 565
+  },
+  "Digital": {
+    "YSF": {
+      "GroupID": {
+        "Input": "Open ↑",
+        "Output": "Open ↓"
+      }
+    }
+  }
+}

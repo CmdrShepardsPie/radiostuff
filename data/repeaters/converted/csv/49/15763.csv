@@ -1,0 +1,2 @@
+ID,StateID,Callsign,Use,Status,DigitalTone,Digital,VOIP,Location.Latitude,Location.Longitude,Location.County,Location.State,Location.Local,Frequency.Input,Frequency.Output,SquelchTone.Input,SquelchTone.Output
+15763,49,KE7LMG,Open,Other,,,,40.65999985,-111.89199829,Salt Lake,UT,"Murray, Intermountain Medical Center",442.25,447.25,100,

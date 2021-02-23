@@ -1,0 +1,2 @@
+ID,StateID,Callsign,Use,Status,DigitalTone,Digital,VOIP,Location.Latitude,Location.Longitude,Location.County,Location.State,Location.Local,Frequency.Input,Frequency.Output,SquelchTone.Input,SquelchTone.Output
+315,32,K7NKH,Open,Off-Air,,,,37.9219017,-114.44999695,Lincoln,NV,"Pioche, Treasure Hill",147.84,147.24,100,

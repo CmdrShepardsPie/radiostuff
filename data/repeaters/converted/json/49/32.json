@@ -1,0 +1,21 @@
+{
+  "ID": 32,
+  "StateID": 49,
+  "Callsign": "K7JL",
+  "Location": {
+    "Latitude": 39.4919014,
+    "Longitude": -111.82900238,
+    "County": "Juab",
+    "State": "UT",
+    "Local": "Levan, Levan Peak"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 144.67,
+    "Output": 145.27
+  },
+  "SquelchTone": {
+    "Input": 103.5
+  }
+}

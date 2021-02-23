@@ -1,0 +1,2 @@
+ID,StateID,Callsign,Use,Status,DigitalTone,Digital,VOIP,Location.Latitude,Location.Longitude,Location.County,Location.State,Location.Local,Frequency.Input,Frequency.Output,SquelchTone.Input,SquelchTone.Output
+168,32,WA6TLW,Closed,Other,,,,37.69469833,-117.36100006,Esmeralda,NV,"Goldfield, Montezuma Peak",449.85,444.85,94.8,

@@ -1,0 +1,21 @@
+{
+  "ID": 907,
+  "StateID": 6,
+  "Callsign": "KB6DJT",
+  "Location": {
+    "Latitude": 35.70690155,
+    "Longitude": -118.45500183,
+    "County": "Kern",
+    "State": "CA",
+    "Local": "Wofford Heights"
+  },
+  "Use": "Open",
+  "Status": "Other",
+  "Frequency": {
+    "Input": 222.94,
+    "Output": 224.54
+  },
+  "SquelchTone": {
+    "Input": 77
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "ID": 178,
+  "StateID": 35,
+  "Callsign": "WA5EMA",
+  "Location": {
+    "Latitude": 35.17169952,
+    "Longitude": -103.72399902,
+    "County": "Quay",
+    "State": "NM",
+    "Local": "Tucumcari"
+  },
+  "Use": "Open",
+  "Status": "Other",
+  "Frequency": {
+    "Input": 223.38,
+    "Output": 224.98
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "ID": 15173,
+  "StateID": 6,
+  "Callsign": "N6LXX",
+  "Location": {
+    "Latitude": 34.19200134,
+    "Longitude": -116.70899963,
+    "County": "San Bernardino",
+    "State": "CA",
+    "Local": "Onyx, Onyx Peak"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 441.88,
+    "Output": 446.88
+  },
+  "SquelchTone": {
+    "Input": 110.9,
+    "Output": 110.9
+  },
+  "VOIP": {
+    "AllStar": {
+      "NodeID": 29883
+    }
+  }
+}

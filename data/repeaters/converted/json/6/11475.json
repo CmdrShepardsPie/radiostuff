@@ -1,0 +1,18 @@
+{
+  "ID": 11475,
+  "StateID": 6,
+  "Callsign": "KB6BZZ",
+  "Location": {
+    "Latitude": 34.3608017,
+    "Longitude": -117.63300323,
+    "County": "San Bernardino",
+    "State": "CA",
+    "Local": "Wrightwood"
+  },
+  "Use": "Private",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 902.225,
+    "Output": 927.225
+  }
+}

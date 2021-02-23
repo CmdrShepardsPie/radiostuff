@@ -1,0 +1,2 @@
+ID,StateID,Callsign,Use,Status,DigitalTone,Digital,VOIP,Location.Latitude,Location.Longitude,Location.County,Location.State,Location.Local,Frequency.Input,Frequency.Output,SquelchTone.Input,SquelchTone.Output
+468,6,K7GIL,Open,On-Air,,,,34.51900101,-117.31099701,San Bernardino,CA,"Victorville, Fairgrounds",146.715,146.115,91.5,

@@ -1,0 +1,21 @@
+{
+  "ID": 16623,
+  "StateID": 8,
+  "Callsign": "KB5ITS",
+  "Location": {
+    "Latitude": 37.47389984,
+    "Longitude": -108.50499725,
+    "County": "Montezuma",
+    "State": "CO",
+    "Local": "Dolores, Summit Ridge"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 442.275,
+    "Output": 447.275
+  },
+  "SquelchTone": {
+    "Input": 100
+  }
+}

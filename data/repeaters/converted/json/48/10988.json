@@ -1,0 +1,27 @@
+{
+  "ID": 10988,
+  "StateID": 48,
+  "Callsign": "W5WDR",
+  "Location": {
+    "Latitude": 35.64250183,
+    "Longitude": -101.39499664,
+    "County": "Hutchinson",
+    "State": "TX",
+    "Local": "Borger"
+  },
+  "Use": "Open",
+  "Status": "Off-Air",
+  "Frequency": {
+    "Input": 147.6,
+    "Output": 147
+  },
+  "SquelchTone": {
+    "Input": 88.5,
+    "Output": 88.5
+  },
+  "VOIP": {
+    "Wires": {
+      "ID": 21339
+    }
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "ID": 13028,
+  "StateID": 56,
+  "Callsign": "KF7OBL",
+  "Location": {
+    "Latitude": 41.58750153,
+    "Longitude": -109.20300293,
+    "County": "Sweetwater",
+    "State": "WY",
+    "Local": "Rock Springs"
+  },
+  "Use": "Open",
+  "Status": "Off-Air",
+  "Frequency": {
+    "Input": 443.875,
+    "Output": 448.875
+  },
+  "SquelchTone": {
+    "Input": 123
+  },
+  "Digital": {
+    "DMR": {
+      "ColorCode": 1,
+      "ID": 315602
+    }
+  }
+}

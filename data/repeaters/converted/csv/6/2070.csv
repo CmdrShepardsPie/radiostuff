@@ -1,0 +1,2 @@
+ID,StateID,Callsign,Use,Status,SquelchTone,DigitalTone,Location.Latitude,Location.Longitude,Location.County,Location.State,Location.Local,Frequency.Input,Frequency.Output,Digital.DMR,Digital.DStar,Digital.YSF,VOIP.EchoLink,VOIP.IRLP,VOIP.Wires,Digital.P25.NAC,VOIP.AllStar.NodeID
+2070,6,N6LXX,Open,On-Air,,,34.18759918,-117.69999695,Los Angeles,CA,"Claremont, Sunset Ridge",902.025,927.55,,,,,,,293,29883

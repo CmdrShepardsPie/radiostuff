@@ -1,0 +1,2 @@
+ID,StateID,Callsign,Use,Status,DigitalTone,Digital,VOIP,Location.Latitude,Location.Longitude,Location.County,Location.State,Location.Local,Frequency.Input,Frequency.Output,SquelchTone.Input,SquelchTone.Output
+17904,49,K2WVC,Open,On-Air,,,,40.65359879,-112.03700256,Utah,UT,"West Valley City, WVCFD station 76",448.3,448.8,100,

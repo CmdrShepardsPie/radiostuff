@@ -1,0 +1,2 @@
+ID,StateID,Callsign,Use,Status,DigitalTone,Digital,VOIP,Location.Latitude,Location.Longitude,Location.County,Location.State,Location.Local,Frequency.Input,Frequency.Output,SquelchTone.Input,SquelchTone.Output
+3628,6,KW6WW,Open,On-Air,,,,34.35329819,-117.61699677,San Bernardino,CA,Wrightwood,147.84,147.24,91.5,91.5

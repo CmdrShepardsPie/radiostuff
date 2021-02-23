@@ -1,0 +1,2 @@
+ID,StateID,Callsign,Use,Status,DigitalTone,Digital,VOIP,Location.Latitude,Location.Longitude,Location.County,Location.State,Location.Local,Frequency.Input,Frequency.Output,SquelchTone.Input,SquelchTone.Output
+184,32,KC7YNS,Open,Other,,,,40.83250046,-115.76200104,Elko,NV,Elko,449.1,444.1,100,

@@ -1,0 +1,22 @@
+{
+  "ID": 1440,
+  "StateID": 6,
+  "Callsign": "KI6REC",
+  "Location": {
+    "Latitude": 33.96149826,
+    "Longitude": -117.27999878,
+    "County": "Riverside",
+    "State": "CA",
+    "Local": "Moreno Valley, Box Springs Mtn."
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 444.3,
+    "Output": 449.3
+  },
+  "SquelchTone": {
+    "Input": 103.5,
+    "Output": 103.5
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "ID": 15732,
+  "StateID": 35,
+  "Callsign": "WA5IHL",
+  "Location": {
+    "Latitude": 35.06000137,
+    "Longitude": -106.76999664,
+    "County": "Bernalillo",
+    "State": "NM",
+    "Local": "Albuquerque, Sandia Crest"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 447.25,
+    "Output": 442.25
+  },
+  "Digital": {
+    "DMR": {
+      "ColorCode": 1,
+      "ID": 313506
+    }
+  }
+}

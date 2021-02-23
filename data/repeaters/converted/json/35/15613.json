@@ -1,0 +1,22 @@
+{
+  "ID": 15613,
+  "StateID": 35,
+  "Callsign": "NM5BC",
+  "Location": {
+    "Latitude": 35.17350006,
+    "Longitude": -106.51000214,
+    "County": "Bernalillo",
+    "State": "NM",
+    "Local": "Albuquerque, BCFD Fire Station 35"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 144.53,
+    "Output": 145.13
+  },
+  "SquelchTone": {
+    "Input": 100,
+    "Output": 100
+  }
+}

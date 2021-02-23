@@ -1,0 +1,2 @@
+ID,StateID,Callsign,Use,Status,DigitalTone,Digital,VOIP,Location.Latitude,Location.Longitude,Location.County,Location.State,Location.Local,Frequency.Input,Frequency.Output,SquelchTone.Input,SquelchTone.Output
+2731,6,W6NVY,Open,On-Air,,,,34.61050034,-117.28800201,San Bernardino,CA,"Victorville, Quartzite Mountain",444.7,449.7,141.3,

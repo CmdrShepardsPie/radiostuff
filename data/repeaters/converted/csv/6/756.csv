@@ -1,0 +1,2 @@
+ID,StateID,Callsign,Use,Status,DigitalTone,Digital,VOIP,Location.Latitude,Location.Longitude,Location.County,Location.State,Location.Local,Frequency.Input,Frequency.Output,SquelchTone.Input,SquelchTone.Output
+756,6,WR6AZN,Open,On-Air,,,,34.36059952,-117.59500122,Los Angeles,CA,"Wrightwood, Table Mountain",222.36,223.96,156.7,

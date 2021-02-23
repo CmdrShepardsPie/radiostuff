@@ -1,0 +1,2 @@
+ID,StateID,Callsign,Use,Status,DigitalTone,Digital,VOIP,Location.Latitude,Location.Longitude,Location.County,Location.State,Location.Local,Frequency.Input,Frequency.Output,SquelchTone.Input,SquelchTone.Output
+13341,6,K6RIA,Open,On-Air,,,,34.10639954,-117.37000275,San Bernardino,CA,"Rialto, Fire station",147.045,147.645,127.3,127.3

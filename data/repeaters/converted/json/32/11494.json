@@ -1,0 +1,18 @@
+{
+  "ID": 11494,
+  "StateID": 32,
+  "Callsign": "WB9STH",
+  "Location": {
+    "Latitude": 36.25510025,
+    "Longitude": -115.23799896,
+    "County": "Clark",
+    "State": "NV",
+    "Local": "Las Vegas, Southern Hills Hospital"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 443.45,
+    "Output": 448.45
+  }
+}

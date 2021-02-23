@@ -1,0 +1,22 @@
+{
+  "ID": 10133,
+  "StateID": 6,
+  "Callsign": "N6LIZ",
+  "Location": {
+    "Latitude": 34.04949951,
+    "Longitude": -116.94799805,
+    "County": "San Bernardino",
+    "State": "CA",
+    "Local": "Oak Glen"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 53.06,
+    "Output": 53.56
+  },
+  "SquelchTone": {
+    "Input": 107.2,
+    "Output": 123
+  }
+}

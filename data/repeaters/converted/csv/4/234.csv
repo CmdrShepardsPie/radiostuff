@@ -1,0 +1,2 @@
+ID,StateID,Callsign,Use,Status,DigitalTone,Digital,Location.Latitude,Location.Longitude,Location.County,Location.State,Location.Local,Frequency.Input,Frequency.Output,SquelchTone.Input,SquelchTone.Output,VOIP.AllStar,VOIP.EchoLink,VOIP.Wires,VOIP.IRLP.NodeID
+234,4,K7MRG,Open,Off-Air,,,34.70100021,-112.11799622,Yavapai,AZ,"Prescott, Mingus Mountain",447.15,442.15,100,,,,,3600

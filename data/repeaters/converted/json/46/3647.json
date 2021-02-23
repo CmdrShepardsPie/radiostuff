@@ -1,0 +1,22 @@
+{
+  "ID": 3647,
+  "StateID": 46,
+  "Callsign": "K0HS",
+  "Location": {
+    "Latitude": 43.228,
+    "Longitude": -103.47402,
+    "County": "Fall River",
+    "State": "SD",
+    "Local": "Hot Springs"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 147.81,
+    "Output": 147.21
+  },
+  "SquelchTone": {
+    "Input": 146.2,
+    "Output": 146.2
+  }
+}

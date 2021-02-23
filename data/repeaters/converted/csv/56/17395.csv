@@ -1,0 +1,2 @@
+ID,StateID,Callsign,Use,Status,DigitalTone,Digital,VOIP,Location.Latitude,Location.Longitude,Location.County,Location.State,Location.Local,Frequency.Input,Frequency.Output,SquelchTone.Input,SquelchTone.Output
+17395,56,KD7JNQ,Open,Other,,,,42.0625,-104.18399811,Goshen,WY,Torrington,443.325,448.325,151.4,

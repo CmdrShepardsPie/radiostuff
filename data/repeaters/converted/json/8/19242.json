@@ -1,0 +1,31 @@
+{
+  "ID": 19242,
+  "StateID": 8,
+  "Callsign": "KD0SSP",
+  "Location": {
+    "Latitude": 39.6092256,
+    "Longitude": -106.0610787,
+    "County": "Summit",
+    "State": "CO",
+    "Local": "Dillon, Dillon Res."
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 442.95,
+    "Output": 447.95
+  },
+  "Digital": {
+    "YSF": {
+      "GroupID": {
+        "Input": "Open ↑",
+        "Output": "Open ↓"
+      }
+    }
+  },
+  "VOIP": {
+    "Wires": {
+      "ID": 68959
+    }
+  }
+}

@@ -1,0 +1,2 @@
+ID,StateID,Callsign,Use,Status,SquelchTone,DigitalTone,VOIP,Location.Latitude,Location.Longitude,Location.County,Location.State,Location.Local,Frequency.Input,Frequency.Output,Digital.P25,Digital.DStar,Digital.YSF,Digital.DMR.ColorCode,Digital.DMR.ID
+19029,4,KF7LRD,Open,On-Air,,,,34.415166,-112.404683,Yavapai,AZ,"Prescott, Mt. Union",444.875,449.875,,,,1,311019

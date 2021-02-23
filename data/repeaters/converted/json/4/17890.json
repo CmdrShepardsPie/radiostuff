@@ -1,0 +1,21 @@
+{
+  "ID": 17890,
+  "StateID": 4,
+  "Callsign": "K7RLW",
+  "Location": {
+    "Latitude": 34.52130127,
+    "Longitude": -114.33999634,
+    "County": "Mohave",
+    "State": "AZ",
+    "Local": "Lake Havasu City, Near Dick Samp Memorial Park"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 146.12,
+    "Output": 146.72
+  },
+  "SquelchTone": {
+    "Input": 123
+  }
+}

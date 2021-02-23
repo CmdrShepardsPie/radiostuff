@@ -1,0 +1,21 @@
+{
+  "ID": 18204,
+  "StateID": 4,
+  "Callsign": "NR7G",
+  "Location": {
+    "Latitude": 34.90999985,
+    "Longitude": -109.33200073,
+    "County": "Apache",
+    "State": "AZ",
+    "Local": "St Johns, Red Sky Ranch"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 444.625,
+    "Output": 449.625
+  },
+  "SquelchTone": {
+    "Input": 136.5
+  }
+}

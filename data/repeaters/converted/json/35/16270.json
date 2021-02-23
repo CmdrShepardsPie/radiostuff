@@ -1,0 +1,21 @@
+{
+  "ID": 16270,
+  "StateID": 35,
+  "Callsign": "K5PRN",
+  "Location": {
+    "Latitude": 35.08890152,
+    "Longitude": -106.61799622,
+    "County": "Bernalillo",
+    "State": "NM",
+    "Local": "Albuquerque, UNM Campus"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 447.525,
+    "Output": 442.525
+  },
+  "SquelchTone": {
+    "Input": 100
+  }
+}

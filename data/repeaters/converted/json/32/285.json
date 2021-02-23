@@ -1,0 +1,21 @@
+{
+  "ID": 285,
+  "StateID": 32,
+  "Callsign": "WB6TNP",
+  "Location": {
+    "Latitude": 36.24969864,
+    "Longitude": -115.96099854,
+    "County": "Nye",
+    "State": "NV",
+    "Local": "Pahrump"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 902.525,
+    "Output": 927.525
+  },
+  "SquelchTone": {
+    "Input": 127.3
+  }
+}

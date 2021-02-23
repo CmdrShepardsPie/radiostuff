@@ -1,0 +1,2 @@
+ID,StateID,Callsign,Use,Status,DigitalTone,Digital,VOIP,Location.Latitude,Location.Longitude,Location.County,Location.State,Location.Local,Frequency.Input,Frequency.Output,SquelchTone.Input,SquelchTone.Output
+185,6,KF6FM,Open,On-Air,,,,35.53620148,-118.13999939,Kern,CA,"Indian Wells, Bird Spring Pass",146.685,146.085,141.3,

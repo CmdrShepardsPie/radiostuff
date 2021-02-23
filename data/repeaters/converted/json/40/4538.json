@@ -1,0 +1,23 @@
+{
+  "ID": 4538,
+  "StateID": 40,
+  "Callsign": "K5GUD",
+  "Location": {
+    "Latitude": 36.27600098,
+    "Longitude": -99.33789825,
+    "County": "Woodward",
+    "State": "OK",
+    "Local": "Sharon"
+  },
+  "Use": "Open",
+  "Status": "Other",
+  "Frequency": {
+    "Input": 147.915,
+    "Output": 147.315
+  },
+  "Digital": {
+    "DStar": {
+      "Node": "K5GUD (C) Repeater"
+    }
+  }
+}

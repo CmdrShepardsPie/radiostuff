@@ -1,0 +1,21 @@
+{
+  "ID": 187,
+  "StateID": 32,
+  "Callsign": "WA6TLW",
+  "Location": {
+    "Latitude": 41.07720184,
+    "Longitude": -114.56700134,
+    "County": "Elko",
+    "State": "NV",
+    "Local": "Pequop, Pequop Summit"
+  },
+  "Use": "Closed",
+  "Status": "Other",
+  "Frequency": {
+    "Input": 449.85,
+    "Output": 444.85
+  },
+  "SquelchTone": {
+    "Input": 94.8
+  }
+}

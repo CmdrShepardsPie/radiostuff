@@ -1,0 +1,21 @@
+{
+  "ID": 12821,
+  "StateID": 6,
+  "Callsign": "KB6BZZ",
+  "Location": {
+    "Latitude": 34.50080109,
+    "Longitude": -117.18599701,
+    "County": "San Bernardino",
+    "State": "CA",
+    "Local": "Apple Valley"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 440.68,
+    "Output": 445.68
+  },
+  "SquelchTone": {
+    "Input": 141.3
+  }
+}

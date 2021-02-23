@@ -1,0 +1,24 @@
+{
+  "ID": 33,
+  "StateID": 35,
+  "Callsign": "NM5SH",
+  "Location": {
+    "Latitude": 35.16189957,
+    "Longitude": -106.72499847,
+    "County": "Bernalillo",
+    "State": "NM",
+    "Local": "Albuquerque"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 448.65,
+    "Output": 443.65
+  },
+  "Digital": {
+    "DMR": {
+      "ColorCode": 1,
+      "ID": 313517
+    }
+  }
+}

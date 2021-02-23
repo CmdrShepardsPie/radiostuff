@@ -1,0 +1,2 @@
+ID,StateID,Callsign,Use,Status,DigitalTone,Digital,VOIP,Location.Latitude,Location.Longitude,Location.County,Location.State,Location.Local,Frequency.Input,Frequency.Output,SquelchTone.Input,SquelchTone.Output
+150,49,W0HU,Open,On-Air,,,,40.78229904,-111.9469986,Salt Lake,UT,Salt Lake City,442.025,447.025,100,

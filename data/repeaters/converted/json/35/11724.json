@@ -1,0 +1,21 @@
+{
+  "ID": 11724,
+  "StateID": 35,
+  "Callsign": "WA6CCB",
+  "Location": {
+    "Latitude": 35.21829987,
+    "Longitude": -106.4509964,
+    "County": "Bernalillo",
+    "State": "NM",
+    "Local": "Albuquerque, Sandia Peak"
+  },
+  "Use": "Closed",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 448.75,
+    "Output": 443.75
+  },
+  "SquelchTone": {
+    "Input": 100
+  }
+}

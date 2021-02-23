@@ -1,0 +1,2 @@
+ID,StateID,Callsign,Use,Status,SquelchTone,DigitalTone,Digital,VOIP,Location.Latitude,Location.Longitude,Location.County,Location.State,Location.Local,Frequency.Input,Frequency.Output
+167,32,WC6MRA,Closed,On-Air,,,,,35.95600128,-115.4940033,Clark,NV,"Las Vegas, Lo Potosi Mountain",1264.05,1284.05

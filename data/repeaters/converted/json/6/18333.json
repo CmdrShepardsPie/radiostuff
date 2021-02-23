@@ -1,0 +1,18 @@
+{
+  "ID": 18333,
+  "StateID": 6,
+  "Callsign": "WA6TTL",
+  "Location": {
+    "Latitude": 34.1863224,
+    "Longitude": -117.70338088,
+    "County": "Los Angeles",
+    "State": "CA",
+    "Local": "Pomona, Sunset Ridge"
+  },
+  "Use": "Private",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 222.44,
+    "Output": 224.04
+  }
+}

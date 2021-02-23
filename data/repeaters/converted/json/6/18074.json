@@ -1,0 +1,21 @@
+{
+  "ID": 18074,
+  "StateID": 6,
+  "Callsign": "W6VAH",
+  "Location": {
+    "Latitude": 34.04999924,
+    "Longitude": -117.25,
+    "County": "San Bernardino",
+    "State": "CA",
+    "Local": "Loma Linda"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 440.04,
+    "Output": 445.04
+  },
+  "SquelchTone": {
+    "Input": 88.5
+  }
+}

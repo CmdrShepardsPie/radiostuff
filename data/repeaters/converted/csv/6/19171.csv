@@ -1,0 +1,2 @@
+ID,StateID,Callsign,Use,Status,DigitalTone,Digital,VOIP,Location.Latitude,Location.Longitude,Location.County,Location.State,Location.Local,Frequency.Input,Frequency.Output,SquelchTone.Input,SquelchTone.Output
+19171,6,N6MRN,Open,On-Air,,,,33.833291,-116.792656,Riverside,CA,"Banning, Skyland Ridge",222.54,224.14,107.2,107.2

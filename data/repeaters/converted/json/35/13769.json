@@ -1,0 +1,23 @@
+{
+  "ID": 13769,
+  "StateID": 35,
+  "Callsign": "W5SF",
+  "Location": {
+    "Latitude": 35.659,
+    "Longitude": -105.996,
+    "County": "Santa Fe",
+    "State": "NM",
+    "Local": "Santa Fe, Food Depot"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 144.61,
+    "Output": 145.21
+  },
+  "Digital": {
+    "DStar": {
+      "Node": "W5SF (C) Gateway Repeater"
+    }
+  }
+}

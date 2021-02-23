@@ -1,0 +1,2 @@
+ID,StateID,Callsign,Use,Status,DigitalTone,Digital,VOIP,Location.Latitude,Location.Longitude,Location.County,Location.State,Location.Local,Frequency.Input,Frequency.Output,SquelchTone.Input,SquelchTone.Output
+246,49,WA7UAH,Open,On-Air,,,,40.46699905,-112.17299652,Salt Lake,UT,"West Jordan, Butterfield Pk",444.725,449.725,151.4,

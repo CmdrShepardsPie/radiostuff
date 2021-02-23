@@ -1,0 +1,21 @@
+{
+  "ID": 258,
+  "StateID": 49,
+  "Callsign": "WB7REL",
+  "Location": {
+    "Latitude": 40.0530014,
+    "Longitude": -111.6740036,
+    "County": "Sevier",
+    "State": "UT",
+    "Local": "Salina, Beesting Peak"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 444.3,
+    "Output": 449.3
+  },
+  "SquelchTone": {
+    "Input": 88.5
+  }
+}

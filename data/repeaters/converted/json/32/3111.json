@@ -1,0 +1,29 @@
+{
+  "ID": 3111,
+  "StateID": 32,
+  "Callsign": "WR7NV",
+  "Location": {
+    "Latitude": 36.23830032,
+    "Longitude": -115.3010025,
+    "County": "Clark",
+    "State": "NV",
+    "Local": "Las Vegas"
+  },
+  "Use": "Open",
+  "Status": "Off-Air",
+  "Frequency": {
+    "Input": 144.75,
+    "Output": 145.35
+  },
+  "SquelchTone": {
+    "Input": 100
+  },
+  "VOIP": {
+    "AllStar": {
+      "NodeID": 2233
+    },
+    "EchoLink": {
+      "NodeID": 5069
+    }
+  }
+}

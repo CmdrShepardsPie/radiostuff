@@ -1,0 +1,21 @@
+{
+  "ID": 10180,
+  "StateID": 49,
+  "Callsign": "KO7R",
+  "Location": {
+    "Latitude": 40.32720184,
+    "Longitude": -112.10399628,
+    "County": "Utah",
+    "State": "UT",
+    "Local": "Cedar Fort, Internet Mountain"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 444.7,
+    "Output": 449.7
+  },
+  "SquelchTone": {
+    "Input": 127.3
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "ID": 194,
+  "StateID": 49,
+  "Callsign": "W7EO",
+  "Location": {
+    "Latitude": 40.75379944,
+    "Longitude": -114.01999664,
+    "County": "Tooele",
+    "State": "UT",
+    "Local": "Wendover, Wendover Peak"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 147.8,
+    "Output": 147.2
+  },
+  "SquelchTone": {
+    "Input": 100
+  }
+}

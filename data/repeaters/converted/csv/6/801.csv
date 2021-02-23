@@ -1,0 +1,2 @@
+ID,StateID,Callsign,Use,Status,DigitalTone,Digital,VOIP,Location.Latitude,Location.Longitude,Location.County,Location.State,Location.Local,Frequency.Input,Frequency.Output,SquelchTone.Input,SquelchTone.Output
+801,6,W6SCE,Private,On-Air,,,,33.65800095,-115.98600006,Riverside,CA,Cactus City,222.72,224.32,131.8,

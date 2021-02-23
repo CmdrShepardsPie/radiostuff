@@ -1,0 +1,18 @@
+{
+  "ID": 268,
+  "StateID": 49,
+  "Callsign": "WV7H",
+  "Location": {
+    "Latitude": 37.71060181,
+    "Longitude": -113.05599976,
+    "County": "Iron",
+    "State": "UT",
+    "Local": "Cedar City"
+  },
+  "Use": "Open",
+  "Status": "Other",
+  "Frequency": {
+    "Input": 144.87,
+    "Output": 145.47
+  }
+}

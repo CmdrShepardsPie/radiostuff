@@ -1,0 +1,21 @@
+{
+  "ID": 361,
+  "StateID": 6,
+  "Callsign": "N6MRN",
+  "Location": {
+    "Latitude": 33.54560089,
+    "Longitude": -116.46900177,
+    "County": "Riverside",
+    "State": "CA",
+    "Local": "Palm Desert, Santa Rosa Peak"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 144.74,
+    "Output": 145.34
+  },
+  "SquelchTone": {
+    "Input": 107.2
+  }
+}

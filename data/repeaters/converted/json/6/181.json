@@ -1,0 +1,21 @@
+{
+  "ID": 181,
+  "StateID": 6,
+  "Callsign": "W6PH",
+  "Location": {
+    "Latitude": 36.34030151,
+    "Longitude": -118.05200195,
+    "County": "Inyo",
+    "State": "CA",
+    "Local": "Lone Pine, Alabama Hills"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 147.81,
+    "Output": 147.21
+  },
+  "SquelchTone": {
+    "Input": 103.5
+  }
+}

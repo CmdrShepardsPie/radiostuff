@@ -1,0 +1,21 @@
+{
+  "ID": 1209,
+  "StateID": 6,
+  "Callsign": "WR6TM",
+  "Location": {
+    "Latitude": 35.38750076,
+    "Longitude": -115.79199982,
+    "County": "San Bernardino",
+    "State": "CA",
+    "Local": "Baker, Halloran Summit"
+  },
+  "Use": "Closed",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 441.38,
+    "Output": 446.38
+  },
+  "SquelchTone": {
+    "Input": 136.5
+  }
+}

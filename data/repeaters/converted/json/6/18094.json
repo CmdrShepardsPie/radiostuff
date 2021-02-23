@@ -1,0 +1,18 @@
+{
+  "ID": 18094,
+  "StateID": 6,
+  "Callsign": "K4ELE",
+  "Location": {
+    "Latitude": 34.18759918,
+    "Longitude": -117.69999695,
+    "County": "Los Angeles",
+    "State": "CA",
+    "Local": "Claremont, Sunset Ridge"
+  },
+  "Use": "Private",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 441.48,
+    "Output": 446.48
+  }
+}

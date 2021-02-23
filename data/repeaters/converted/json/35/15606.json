@@ -1,0 +1,17 @@
+{
+  "ID": 15606,
+  "StateID": 35,
+  "Callsign": "KF5PFO",
+  "Location": {
+    "State": "NM",
+    "Local": "Taos, Picuris Peak"
+  },
+  "Use": "Open",
+  "Status": "Other",
+  "Frequency": {
+    "Input": null
+  },
+  "SquelchTone": {
+    "Input": 100
+  }
+}

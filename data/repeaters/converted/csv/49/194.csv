@@ -1,0 +1,2 @@
+ID,StateID,Callsign,Use,Status,DigitalTone,Digital,VOIP,Location.Latitude,Location.Longitude,Location.County,Location.State,Location.Local,Frequency.Input,Frequency.Output,SquelchTone.Input,SquelchTone.Output
+194,49,W7EO,Open,On-Air,,,,40.75379944,-114.01999664,Tooele,UT,"Wendover, Wendover Peak",147.8,147.2,100,

@@ -1,0 +1,32 @@
+{
+  "ID": 2646,
+  "StateID": 6,
+  "Callsign": "W6SLZ",
+  "Location": {
+    "Latitude": 35.06060028,
+    "Longitude": -118.38999939,
+    "County": "Kern",
+    "State": "CA",
+    "Local": "Tehachapi, Tehachapi Mountains"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 445.625,
+    "Output": 440.625
+  },
+  "SquelchTone": {
+    "Input": 100
+  },
+  "VOIP": {
+    "AllStar": {
+      "NodeID": 28481
+    },
+    "EchoLink": {
+      "NodeID": 404790
+    },
+    "IRLP": {
+      "NodeID": 3500
+    }
+  }
+}

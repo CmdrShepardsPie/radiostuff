@@ -1,0 +1,21 @@
+{
+  "ID": 10744,
+  "StateID": 49,
+  "Callsign": "N7IMF",
+  "Location": {
+    "Latitude": 40.45360184,
+    "Longitude": -111.91000366,
+    "County": "Utah",
+    "State": "UT",
+    "Local": "Draper, Point of the Mountain"
+  },
+  "Use": "Closed",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 223.3,
+    "Output": 224.9
+  },
+  "SquelchTone": {
+    "Input": 156.7
+  }
+}

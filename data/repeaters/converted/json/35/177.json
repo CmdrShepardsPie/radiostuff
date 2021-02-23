@@ -1,0 +1,21 @@
+{
+  "ID": 177,
+  "StateID": 35,
+  "Callsign": "NM5ML",
+  "Location": {
+    "Latitude": 35.13420105,
+    "Longitude": -103.6989975,
+    "County": "Quay",
+    "State": "NM",
+    "Local": "Tucumcari, Tucumcari Mountain"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 147.82,
+    "Output": 147.22
+  },
+  "SquelchTone": {
+    "Input": 100
+  }
+}

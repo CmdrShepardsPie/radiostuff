@@ -1,0 +1,26 @@
+{
+  "ID": 13566,
+  "StateID": 35,
+  "Callsign": "KF5SGT",
+  "Location": {
+    "Latitude": 35.64799881,
+    "Longitude": -105.98500061,
+    "County": "Santa Fe",
+    "State": "NM",
+    "Local": "Santa Fe"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 442.775,
+    "Output": 447.775
+  },
+  "SquelchTone": {
+    "Input": 100
+  },
+  "VOIP": {
+    "IRLP": {
+      "NodeID": 7326
+    }
+  }
+}

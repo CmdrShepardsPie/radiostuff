@@ -1,0 +1,2 @@
+ID,StateID,Callsign,Use,Status,DigitalTone,Digital,VOIP,Location.Latitude,Location.Longitude,Location.County,Location.State,Location.Local,Frequency.Input,Frequency.Output,SquelchTone.Input,SquelchTone.Output
+61,4,N7SKO,Open,On-Air,,,,35.08110046,-113.90399933,Mohave,AZ,"Kingman, Hayden Peak",146.16,146.76,131.8,

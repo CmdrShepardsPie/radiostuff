@@ -1,0 +1,2 @@
+ID,StateID,Callsign,Use,Status,DigitalTone,Digital,VOIP,Location.Latitude,Location.Longitude,Location.County,Location.State,Location.Local,Frequency.Input,Frequency.Output,SquelchTone.Input,SquelchTone.Output
+17322,35,WA5IHL,Open,On-Air,,,,35.08440018,-106.65000153,Bernalillo,NM,"Albuquerque, Sandia Mnts",144.69,145.29,100,

@@ -1,0 +1,21 @@
+{
+  "ID": 15644,
+  "StateID": 35,
+  "Callsign": "KB5ITS",
+  "Location": {
+    "Latitude": 36.79999924,
+    "Longitude": -107.62000275,
+    "County": "San Juan",
+    "State": "NM",
+    "Local": "Navajo Dam, Navajo Lake"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 147.96,
+    "Output": 147.36
+  },
+  "SquelchTone": {
+    "Input": 100
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "ID": 18658,
+  "StateID": 6,
+  "Callsign": "WA6TZF",
+  "Location": {
+    "Latitude": 37.411273,
+    "Longitude": -118.186118,
+    "County": "Inyo",
+    "State": "CA",
+    "Local": "Bishop, Sliver Peak"
+  },
+  "Use": "Private",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 448.4,
+    "Output": 443.4
+  }
+}

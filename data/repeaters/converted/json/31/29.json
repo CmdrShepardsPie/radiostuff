@@ -1,0 +1,22 @@
+{
+  "ID": 29,
+  "StateID": 31,
+  "Callsign": "KA0DBK",
+  "Location": {
+    "Latitude": 40.69929886,
+    "Longitude": -99.08170319,
+    "County": "Buffalo",
+    "State": "NE",
+    "Local": "Kearney"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 147.99,
+    "Output": 147.39
+  },
+  "SquelchTone": {
+    "Input": 123,
+    "Output": 123
+  }
+}

@@ -1,0 +1,2 @@
+ID,StateID,Callsign,Use,Status,DigitalTone,Digital,Location.Latitude,Location.Longitude,Location.County,Location.State,Location.Local,Frequency.Input,Frequency.Output,SquelchTone.Input,SquelchTone.Output,VOIP.AllStar,VOIP.EchoLink,VOIP.Wires,VOIP.IRLP.NodeID
+10229,49,WB7REL,Open,On-Air,,,39.33670044,-111.4509964,Sanpete,UT,"Indianola, Indianola Peak",146.12,146.72,100,,,,,3576

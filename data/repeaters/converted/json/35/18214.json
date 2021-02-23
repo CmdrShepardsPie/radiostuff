@@ -1,0 +1,21 @@
+{
+  "ID": 18214,
+  "StateID": 35,
+  "Callsign": "WB5NJU",
+  "Location": {
+    "Latitude": 36.90100098,
+    "Longitude": -103.00299835,
+    "County": "Union",
+    "State": "NM",
+    "Local": "Kenton"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 147.99,
+    "Output": 147.39
+  },
+  "SquelchTone": {
+    "Input": 88.5
+  }
+}

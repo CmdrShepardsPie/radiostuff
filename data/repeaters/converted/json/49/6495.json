@@ -1,0 +1,21 @@
+{
+  "ID": 6495,
+  "StateID": 49,
+  "Callsign": "W6DZL",
+  "Location": {
+    "Latitude": 37.40050125,
+    "Longitude": -112.30000305,
+    "County": "Garfield",
+    "State": "UT",
+    "Local": "Bryce Canyon"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 144.75,
+    "Output": 145.35
+  },
+  "SquelchTone": {
+    "Input": 123
+  }
+}

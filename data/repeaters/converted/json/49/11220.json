@@ -1,0 +1,23 @@
+{
+  "ID": 11220,
+  "StateID": 49,
+  "Callsign": "N7RDS",
+  "Location": {
+    "Latitude": 41.7118988,
+    "Longitude": -112.16600037,
+    "County": "Box Elder",
+    "State": "UT",
+    "Local": "Tremonton"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 147.325,
+    "Output": 147.925
+  },
+  "Digital": {
+    "DStar": {
+      "Node": "N7RDS (C)"
+    }
+  }
+}

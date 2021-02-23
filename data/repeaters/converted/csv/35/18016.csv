@@ -1,0 +1,2 @@
+ID,StateID,Callsign,Use,Status,DigitalTone,VOIP,Location.Latitude,Location.Longitude,Location.County,Location.State,Location.Local,Frequency.Input,Frequency.Output,SquelchTone.Input,SquelchTone.Output,Digital.P25,Digital.DStar,Digital.YSF,Digital.DMR.ColorCode,Digital.DMR.ID
+18016,35,WR7HLN,Open,On-Air,,,35.252926,-107.596664,Cibola,NM,"Grants, La Mosca Peak (Mount Taylor)",448.35,443.35,131.8,131.8,,,,1,310793

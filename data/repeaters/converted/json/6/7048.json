@@ -1,0 +1,29 @@
+{
+  "ID": 7048,
+  "StateID": 6,
+  "Callsign": "KJ6KTV",
+  "Location": {
+    "Latitude": 34.13700104,
+    "Longitude": -117.59799957,
+    "County": "San Bernardino",
+    "State": "CA",
+    "Local": "Alta Loma"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 441.88,
+    "Output": 446.88
+  },
+  "SquelchTone": {
+    "Input": 103.5
+  },
+  "VOIP": {
+    "AllStar": {
+      "NodeID": 28817
+    },
+    "EchoLink": {
+      "NodeID": 362175
+    }
+  }
+}

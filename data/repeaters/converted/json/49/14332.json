@@ -1,0 +1,24 @@
+{
+  "ID": 14332,
+  "StateID": 49,
+  "Callsign": "KC7WSU",
+  "Location": {
+    "Latitude": 40.39160156,
+    "Longitude": -111.85099792,
+    "County": "Utah",
+    "State": "UT",
+    "Local": "Lehi"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 442.05,
+    "Output": 447.05
+  },
+  "Digital": {
+    "DMR": {
+      "ColorCode": 1,
+      "ID": 314903
+    }
+  }
+}

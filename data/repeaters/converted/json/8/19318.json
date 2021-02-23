@@ -1,0 +1,24 @@
+{
+  "ID": 19318,
+  "StateID": 8,
+  "Callsign": "KB0YNA",
+  "Location": {
+    "Latitude": 39.089,
+    "Longitude": -108.225,
+    "County": "Mesa",
+    "State": "CO",
+    "Local": "Grand Junction, Grand Mesa"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 440.05,
+    "Output": 445.05
+  },
+  "Digital": {
+    "DMR": {
+      "ColorCode": 7,
+      "ID": 312125
+    }
+  }
+}

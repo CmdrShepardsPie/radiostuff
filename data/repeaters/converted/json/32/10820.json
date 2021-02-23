@@ -1,0 +1,21 @@
+{
+  "ID": 10820,
+  "StateID": 32,
+  "Callsign": "WO3B",
+  "Location": {
+    "Latitude": 36.11460114,
+    "Longitude": -115.17299652,
+    "County": "Clark",
+    "State": "NV",
+    "Local": "Las Vegas"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 444.45,
+    "Output": 449.45
+  },
+  "SquelchTone": {
+    "Input": 100
+  }
+}

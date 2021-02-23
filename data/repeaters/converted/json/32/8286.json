@@ -1,0 +1,29 @@
+{
+  "ID": 8286,
+  "StateID": 32,
+  "Callsign": "W7NYE",
+  "Location": {
+    "Latitude": 36.20439911,
+    "Longitude": -116.12799835,
+    "County": "Nye",
+    "State": "NV",
+    "Local": "Pahrump"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 144.53,
+    "Output": 145.13
+  },
+  "SquelchTone": {
+    "Input": 100
+  },
+  "VOIP": {
+    "AllStar": {
+      "NodeID": 28660
+    },
+    "EchoLink": {
+      "NodeID": 350144
+    }
+  }
+}

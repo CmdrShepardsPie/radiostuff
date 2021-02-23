@@ -1,0 +1,2 @@
+ID,StateID,Callsign,Use,Status,DigitalTone,Digital,VOIP,Location.Latitude,Location.Longitude,Location.County,Location.State,Location.Local,Frequency.Input,Frequency.Output,SquelchTone.Input,SquelchTone.Output
+11054,32,K7MPR,Open,On-Air,,,,35.25159836,-114.74700165,Clark,NV,"Laughlin, Spirit Mountain",146.22,146.82,123,123

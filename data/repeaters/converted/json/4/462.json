@@ -1,0 +1,29 @@
+{
+  "ID": 462,
+  "StateID": 4,
+  "Callsign": "WB7BYV",
+  "Location": {
+    "Latitude": 34.69390106,
+    "Longitude": -112.1269989,
+    "County": "Yavapai",
+    "State": "AZ",
+    "Local": "Cottonwood, Mingus Mountain"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 902.1125,
+    "Output": 927.1125
+  },
+  "DigitalTone": {
+    "Input": 432
+  },
+  "VOIP": {
+    "AllStar": {
+      "NodeID": 41510
+    },
+    "EchoLink": {
+      "NodeID": 204752
+    }
+  }
+}

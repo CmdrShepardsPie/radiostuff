@@ -1,0 +1,2 @@
+ID,StateID,Callsign,Use,Status,SquelchTone,DigitalTone,VOIP,Location.Latitude,Location.Longitude,Location.County,Location.State,Location.Local,Frequency.Input,Frequency.Output,Digital.DMR,Digital.P25,Digital.YSF,Digital.DStar.Node
+19773,49,KJ7CTZ,Open,Other,,,,39.3209801,-111.0937311,Davis,UT,Davis County,144.5375,145.1375,,,,KJ7CTZ (C)

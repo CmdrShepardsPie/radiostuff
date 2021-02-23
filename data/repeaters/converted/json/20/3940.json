@@ -1,0 +1,35 @@
+{
+  "ID": 3940,
+  "StateID": 20,
+  "Callsign": "WA0OQA",
+  "Location": {
+    "Latitude": 38.48460007,
+    "Longitude": -100.97899628,
+    "County": "Scott",
+    "State": "KS",
+    "Local": "Scott City"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 146.1,
+    "Output": 146.7
+  },
+  "SquelchTone": {
+    "Input": 141.3,
+    "Output": 141.3
+  },
+  "Digital": {
+    "YSF": {
+      "GroupID": {
+        "Input": "Open ↑",
+        "Output": "Open ↓"
+      }
+    }
+  },
+  "VOIP": {
+    "AllStar": {
+      "NodeID": 48589
+    }
+  }
+}

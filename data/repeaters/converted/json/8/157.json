@@ -3,11 +3,11 @@
   "StateID": 8,
   "Callsign": "KC0KWD",
   "Location": {
-    "Latitude": 40.26119995,
-    "Longitude": -104.70600128,
+    "Latitude": 40.261139,
+    "Longitude": -104.706306,
     "County": "Weld",
     "State": "CO",
-    "Local": "LaSalle"
+    "Local": "Gilcrest"
   },
   "Use": "Open",
   "Status": "On-Air",
@@ -16,7 +16,8 @@
     "Output": 147
   },
   "SquelchTone": {
-    "Input": 100
+    "Input": 100,
+    "Output": 100
   },
   "Digital": {
     "YSF": {

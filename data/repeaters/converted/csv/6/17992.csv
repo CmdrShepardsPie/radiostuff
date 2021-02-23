@@ -1,0 +1,2 @@
+ID,StateID,Callsign,Use,Status,DigitalTone,Digital,Location.Latitude,Location.Longitude,Location.County,Location.State,Location.Local,Frequency.Input,Frequency.Output,SquelchTone.Input,SquelchTone.Output,VOIP.AllStar,VOIP.EchoLink,VOIP.Wires,VOIP.IRLP.NodeID
+17992,6,N6AZY,Open,On-Air,,,36.56769943,-118.08999634,Inyo,CA,"Lone Pine, Alabama Hills",442.7,447.7,100,,,,,3545

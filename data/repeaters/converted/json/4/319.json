@@ -1,0 +1,21 @@
+{
+  "ID": 319,
+  "StateID": 4,
+  "Callsign": "N7FK",
+  "Location": {
+    "Latitude": 35.22330093,
+    "Longitude": -114.22200012,
+    "County": "Mohave",
+    "State": "AZ",
+    "Local": "Golden Valley"
+  },
+  "Use": "Open",
+  "Status": "Off-Air",
+  "Frequency": {
+    "Input": 443.4,
+    "Output": 448.4
+  },
+  "SquelchTone": {
+    "Input": 123
+  }
+}

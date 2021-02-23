@@ -1,0 +1,35 @@
+{
+  "ID": 13123,
+  "StateID": 56,
+  "Callsign": "KE7UUJ",
+  "Location": {
+    "Latitude": 41.58750153,
+    "Longitude": -109.20300293,
+    "County": "Sweetwater",
+    "State": "WY",
+    "Local": "Rock Springs, Aspen Mountain"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 146.055,
+    "Output": 146.655
+  },
+  "SquelchTone": {
+    "Input": 107.2,
+    "Output": 107.2
+  },
+  "Digital": {
+    "YSF": {
+      "GroupID": {
+        "Input": "Open ↑",
+        "Output": "Open ↓"
+      }
+    }
+  },
+  "VOIP": {
+    "EchoLink": {
+      "NodeID": 865361
+    }
+  }
+}

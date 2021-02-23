@@ -1,0 +1,24 @@
+{
+  "ID": 12195,
+  "StateID": 49,
+  "Callsign": "NU7TS",
+  "Location": {
+    "Latitude": 41.78879929,
+    "Longitude": -112.14900208,
+    "County": "Box Elder",
+    "State": "UT",
+    "Local": "Riverside"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 442.125,
+    "Output": 447.125
+  },
+  "Digital": {
+    "DMR": {
+      "ColorCode": 1,
+      "ID": 314904
+    }
+  }
+}

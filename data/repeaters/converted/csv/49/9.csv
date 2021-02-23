@@ -1,0 +1,2 @@
+ID,StateID,Callsign,Use,Status,DigitalTone,Digital,VOIP,Location.Latitude,Location.Longitude,Location.County,Location.State,Location.Local,Frequency.Input,Frequency.Output,SquelchTone.Input,SquelchTone.Output
+9,49,AI7J,Open,On-Air,,,,41.0503006,-111.84400177,Weber,UT,"Layton, Kaysville Peak",444.6,449.6,136.5,

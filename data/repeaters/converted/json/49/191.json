@@ -1,0 +1,26 @@
+{
+  "ID": 191,
+  "StateID": 49,
+  "Callsign": "W7DRC",
+  "Location": {
+    "Latitude": 37.125,
+    "Longitude": -113.875,
+    "County": "Washington",
+    "State": "UT",
+    "Local": "St George, Utah Hill"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 144.89,
+    "Output": 145.49
+  },
+  "SquelchTone": {
+    "Input": 100
+  },
+  "VOIP": {
+    "EchoLink": {
+      "NodeID": 678741
+    }
+  }
+}

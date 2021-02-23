@@ -1,0 +1,21 @@
+{
+  "ID": 15611,
+  "StateID": 35,
+  "Callsign": "KC5ZXW",
+  "Location": {
+    "Latitude": 35.06679916,
+    "Longitude": -106.51599884,
+    "County": "Bernalillo",
+    "State": "NM",
+    "Local": "Albuquerque"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 902.65,
+    "Output": 927.65
+  },
+  "SquelchTone": {
+    "Input": 151.4
+  }
+}

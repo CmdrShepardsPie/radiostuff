@@ -1,0 +1,2 @@
+ID,StateID,Callsign,Use,Status,SquelchTone,DigitalTone,Digital,Location.Latitude,Location.Longitude,Location.County,Location.State,Location.Local,Frequency.Input,Frequency.Output,VOIP.AllStar,VOIP.IRLP,VOIP.Wires,VOIP.EchoLink.NodeID
+133,49,N7AKK,Open,On-Air,,,,37.71060181,-113.05599976,Iron,UT,"Cedar City, Hospital",147.66,147.06,,,,91510

@@ -1,0 +1,18 @@
+{
+  "ID": 2750,
+  "StateID": 6,
+  "Callsign": "N6RMH",
+  "Location": {
+    "Latitude": 34.61059952,
+    "Longitude": -117.28700256,
+    "County": "Los Angeles",
+    "State": "CA",
+    "Local": "Victorville, Quartzite Mountain"
+  },
+  "Use": "Closed",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 443.46,
+    "Output": 448.46
+  }
+}

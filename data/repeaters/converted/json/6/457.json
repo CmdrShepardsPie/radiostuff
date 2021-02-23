@@ -1,0 +1,21 @@
+{
+  "ID": 457,
+  "StateID": 6,
+  "Callsign": "K6SBC",
+  "Location": {
+    "Latitude": 34.19210052,
+    "Longitude": -116.70899963,
+    "County": "San Bernardino",
+    "State": "CA",
+    "Local": "Onyx, Onyx Peak"
+  },
+  "Use": "Closed",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 144.52,
+    "Output": 145.12
+  },
+  "SquelchTone": {
+    "Input": 156.7
+  }
+}

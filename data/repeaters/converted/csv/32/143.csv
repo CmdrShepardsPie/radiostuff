@@ -1,0 +1,2 @@
+ID,StateID,Callsign,Use,Status,DigitalTone,Digital,VOIP,Location.Latitude,Location.Longitude,Location.County,Location.State,Location.Local,Frequency.Input,Frequency.Output,SquelchTone.Input,SquelchTone.Output
+143,32,N7HYV,Open,On-Air,,,,36.23690033,-116.06600189,Nye,NV,Pahrump,443.85,448.85,127.3,

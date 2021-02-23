@@ -1,0 +1,2 @@
+ID,StateID,Callsign,Use,Status,DigitalTone,Digital,VOIP,Location.Latitude,Location.Longitude,Location.County,Location.State,Location.Local,Frequency.Input,Frequency.Output,SquelchTone.Input,SquelchTone.Output
+464,6,W6BA,Open,On-Air,,,,34.13560104,-116.0530014,San Bernardino,CA,Twentynine Palms,147.66,147.06,136.5,136.5

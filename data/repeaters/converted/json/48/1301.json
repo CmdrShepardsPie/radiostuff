@@ -1,0 +1,21 @@
+{
+  "ID": 1301,
+  "StateID": 48,
+  "Callsign": "N5LTZ",
+  "Location": {
+    "Latitude": 35.00009918,
+    "Longitude": -101.9509964,
+    "County": "Randall",
+    "State": "TX",
+    "Local": "Canyon"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 448.65,
+    "Output": 443.65
+  },
+  "SquelchTone": {
+    "Input": 88.5
+  }
+}

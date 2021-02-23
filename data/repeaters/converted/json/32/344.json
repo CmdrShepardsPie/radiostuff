@@ -1,0 +1,21 @@
+{
+  "ID": 344,
+  "StateID": 32,
+  "Callsign": "W7AOR",
+  "Location": {
+    "Latitude": 36.22470093,
+    "Longitude": -114.97599792,
+    "County": "Clark",
+    "State": "NV",
+    "Local": "Las Vegas, Sunrise Mountain"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 444.725,
+    "Output": 449.725
+  },
+  "SquelchTone": {
+    "Input": 97.4
+  }
+}

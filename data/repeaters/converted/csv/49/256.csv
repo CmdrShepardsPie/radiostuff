@@ -1,0 +1,2 @@
+ID,StateID,Callsign,Use,Status,DigitalTone,Digital,VOIP,Location.Latitude,Location.Longitude,Location.County,Location.State,Location.Local,Frequency.Input,Frequency.Output,SquelchTone.Input,SquelchTone.Output
+256,49,WB7REL,Open,Other,,,,39.20159912,-111.72799683,Sevier,UT,"Sterling, Salina Canyon",444.25,449.25,131.8,
