@@ -45,41 +45,41 @@ export interface RadioCommon {
 // SEMI-LIMITED BANDS - GENERAL CLASS
 export function filterOutputFrequencies(...bands: FrequencyBand[]): (filter: RepeaterStructured) => boolean {
   return (filter: RepeaterStructured): boolean =>
-    (bands.includes(FrequencyBand.$160_m) && filter.Frequency.Output >= 1.8 && filter.Frequency.Output <= 2.0) ||
+    (bands.includes(FrequencyBand.$160_m) && ((filter.Frequency.Output >= 1.8 && filter.Frequency.Output <= 2.0) || (filter.Frequency.Input >= 1.8 && filter.Frequency.Input <= 2.0))) ||
 
-    (bands.includes(FrequencyBand.$80_m) && filter.Frequency.Output >= 3.525 && filter.Frequency.Output <= 3.6 && (filter.Callsign.includes('CW') || filter.Callsign.includes('RTTY'))) ||
-    (bands.includes(FrequencyBand.$80_m) && filter.Frequency.Output >= 3.8 && filter.Frequency.Output <= 4.0) ||
+    (bands.includes(FrequencyBand.$80_m) && ((filter.Frequency.Output >= 3.525 && filter.Frequency.Output <= 3.6) || (filter.Frequency.Input >= 3.525 && filter.Frequency.Input <= 3.6)) && (filter.Callsign.includes('CW') || filter.Callsign.includes('RTTY'))) ||
+    (bands.includes(FrequencyBand.$80_m) && ((filter.Frequency.Output >= 3.8 && filter.Frequency.Output <= 4.0) || (filter.Frequency.Input >= 3.8 && filter.Frequency.Input <= 4.0))) ||
 
-    (bands.includes(FrequencyBand.$60_m) && filter.Frequency.Output >= 5.3305 && filter.Frequency.Output <= 5.405 && !filter.Callsign.includes('FM') && !filter.Callsign.includes('D-Star')) ||
+    (bands.includes(FrequencyBand.$60_m) && ((filter.Frequency.Output >= 5.3305 && filter.Frequency.Output <= 5.405) || (filter.Frequency.Input >= 5.3305 && filter.Frequency.Input <= 5.405)) && !filter.Callsign.includes('FM') && !filter.Callsign.includes('D-Star')) ||
 
-    (bands.includes(FrequencyBand.$40_m) && filter.Frequency.Output >= 7.025 && filter.Frequency.Output <= 7.125 && (filter.Callsign.includes('CW') || filter.Callsign.includes('RTTY'))) ||
-    (bands.includes(FrequencyBand.$40_m) && filter.Frequency.Output >= 7.175 && filter.Frequency.Output <= 7.3) ||
+    (bands.includes(FrequencyBand.$40_m) && ((filter.Frequency.Output >= 7.025 && filter.Frequency.Output <= 7.125) || (filter.Frequency.Input >= 7.025 && filter.Frequency.Input <= 7.125)) && (filter.Callsign.includes('CW') || filter.Callsign.includes('RTTY'))) ||
+    (bands.includes(FrequencyBand.$40_m) && ((filter.Frequency.Output >= 7.175 && filter.Frequency.Output <= 7.3) || (filter.Frequency.Input >= 7.175 && filter.Frequency.Input <= 7.3))) ||
 
-    (bands.includes(FrequencyBand.$30_m) && filter.Frequency.Output >= 10.1 && filter.Frequency.Output <= 10.15 && (filter.Callsign.includes('CW') || filter.Callsign.includes('RTTY'))) ||
+    (bands.includes(FrequencyBand.$30_m) && ((filter.Frequency.Output >= 10.1 && filter.Frequency.Output <= 10.15) || (filter.Frequency.Input >= 10.1 && filter.Frequency.Input <= 10.15)) && (filter.Callsign.includes('CW') || filter.Callsign.includes('RTTY'))) ||
 
-    (bands.includes(FrequencyBand.$20_m) && filter.Frequency.Output >= 14.025 && filter.Frequency.Output <= 14.150 && (filter.Callsign.includes('CW') || filter.Callsign.includes('RTTY'))) ||
-    (bands.includes(FrequencyBand.$20_m) && filter.Frequency.Output >= 14.225 && filter.Frequency.Output <= 14.350) ||
+    (bands.includes(FrequencyBand.$20_m) && ((filter.Frequency.Output >= 14.025 && filter.Frequency.Output <= 14.150) || (filter.Frequency.Input >= 14.025 && filter.Frequency.Input <= 14.150)) && (filter.Callsign.includes('CW') || filter.Callsign.includes('RTTY'))) ||
+    (bands.includes(FrequencyBand.$20_m) && ((filter.Frequency.Output >= 14.225 && filter.Frequency.Output <= 14.350) || (filter.Frequency.Input >= 14.225 && filter.Frequency.Input <= 14.350))) ||
 
-    (bands.includes(FrequencyBand.$17_m) && filter.Frequency.Output >= 18.068 && filter.Frequency.Output <= 18.110 && (filter.Callsign.includes('CW') || filter.Callsign.includes('RTTY'))) ||
-    (bands.includes(FrequencyBand.$17_m) && filter.Frequency.Output >= 18.110 && filter.Frequency.Output <= 18.168) ||
+    (bands.includes(FrequencyBand.$17_m) && ((filter.Frequency.Output >= 18.068 && filter.Frequency.Output <= 18.110) || (filter.Frequency.Input >= 18.068 && filter.Frequency.Input <= 18.110)) && (filter.Callsign.includes('CW') || filter.Callsign.includes('RTTY'))) ||
+    (bands.includes(FrequencyBand.$17_m) && ((filter.Frequency.Output >= 18.110 && filter.Frequency.Output <= 18.168) || (filter.Frequency.Input >= 18.110 && filter.Frequency.Input <= 18.168))) ||
 
-    (bands.includes(FrequencyBand.$15_m) && filter.Frequency.Output >= 21.025 && filter.Frequency.Output <= 21.2 && (filter.Callsign.includes('CW') || filter.Callsign.includes('RTTY'))) ||
-    (bands.includes(FrequencyBand.$15_m) && filter.Frequency.Output >= 21.275 && filter.Frequency.Output <= 21.450) ||
+    (bands.includes(FrequencyBand.$15_m) && ((filter.Frequency.Output >= 21.025 && filter.Frequency.Output <= 21.2) || (filter.Frequency.Input >= 21.025 && filter.Frequency.Input <= 21.2)) && (filter.Callsign.includes('CW') || filter.Callsign.includes('RTTY'))) ||
+    (bands.includes(FrequencyBand.$15_m) && ((filter.Frequency.Output >= 21.275 && filter.Frequency.Output <= 21.450) || (filter.Frequency.Input >= 21.275 && filter.Frequency.Input <= 21.450))) ||
 
-    (bands.includes(FrequencyBand.$12_m) && filter.Frequency.Output >= 24.89 && filter.Frequency.Output <= 24.93 && (filter.Callsign.includes('CW') || filter.Callsign.includes('RTTY'))) ||
-    (bands.includes(FrequencyBand.$12_m) && filter.Frequency.Output >= 24.93 && filter.Frequency.Output <= 24.99) ||
+    (bands.includes(FrequencyBand.$12_m) && ((filter.Frequency.Output >= 24.89 && filter.Frequency.Output <= 24.93) || (filter.Frequency.Input >= 24.89 && filter.Frequency.Input <= 24.93)) && (filter.Callsign.includes('CW') || filter.Callsign.includes('RTTY'))) ||
+    (bands.includes(FrequencyBand.$12_m) && ((filter.Frequency.Output >= 24.93 && filter.Frequency.Output <= 24.99) || (filter.Frequency.Input >= 24.93 && filter.Frequency.Input <= 24.99))) ||
 
-    (bands.includes(FrequencyBand.$10_m) && filter.Frequency.Output >= 28 && filter.Frequency.Output <= 28.3 && (filter.Callsign.includes('CW') || filter.Callsign.includes('RTTY'))) ||
-    (bands.includes(FrequencyBand.$10_m) && filter.Frequency.Output >= 28.3 && filter.Frequency.Output <= 29.7) ||
+    (bands.includes(FrequencyBand.$10_m) && ((filter.Frequency.Output >= 28 && filter.Frequency.Output <= 28.3) || (filter.Frequency.Input >= 28 && filter.Frequency.Input <= 28.3)) && (filter.Callsign.includes('CW') || filter.Callsign.includes('RTTY'))) ||
+    (bands.includes(FrequencyBand.$10_m) && ((filter.Frequency.Output >= 28.3 && filter.Frequency.Output <= 29.7) || (filter.Frequency.Input >= 28.3 && filter.Frequency.Input <= 29.7))) ||
 
-    (bands.includes(FrequencyBand.$6_m) && filter.Frequency.Output >= 50 && filter.Frequency.Output <= 50.1 && filter.Callsign.includes('CW')) ||
-    (bands.includes(FrequencyBand.$6_m) && filter.Frequency.Output >= 50.1 && filter.Frequency.Output <= 54) ||
+    (bands.includes(FrequencyBand.$6_m) && ((filter.Frequency.Output >= 50 && filter.Frequency.Output <= 50.1) || (filter.Frequency.Input >= 50 && filter.Frequency.Input <= 50.1)) && filter.Callsign.includes('CW')) ||
+    (bands.includes(FrequencyBand.$6_m) && ((filter.Frequency.Output >= 50.1 && filter.Frequency.Output <= 54) || (filter.Frequency.Input >= 50.1 && filter.Frequency.Input <= 54))) ||
 
-    (bands.includes(FrequencyBand.$2_m) && filter.Frequency.Output >= 144 && filter.Frequency.Output <= 144.1 && filter.Callsign.includes('CW')) ||
-    (bands.includes(FrequencyBand.$2_m) && filter.Frequency.Output >= 144.1 && filter.Frequency.Output <= 148) ||
+    (bands.includes(FrequencyBand.$2_m) && ((filter.Frequency.Output >= 144 && filter.Frequency.Output <= 144.1) || (filter.Frequency.Input >= 144 && filter.Frequency.Input <= 144.1)) && filter.Callsign.includes('CW')) ||
+    (bands.includes(FrequencyBand.$2_m) && ((filter.Frequency.Output >= 144.1 && filter.Frequency.Output <= 148) || (filter.Frequency.Input >= 144.1 && filter.Frequency.Input <= 148))) ||
 
-    (bands.includes(FrequencyBand.$1_25_m) && filter.Frequency.Output >= 222 && filter.Frequency.Output <= 225) ||
-    (bands.includes(FrequencyBand.$70_cm) && filter.Frequency.Output >= 420 && filter.Frequency.Output <= 450);
+    (bands.includes(FrequencyBand.$1_25_m) && ((filter.Frequency.Output >= 222 && filter.Frequency.Output <= 225) || (filter.Frequency.Input >= 222 && filter.Frequency.Input <= 225))) ||
+    (bands.includes(FrequencyBand.$70_cm) && ((filter.Frequency.Output >= 420 && filter.Frequency.Output <= 450) || (filter.Frequency.Input >= 420 && filter.Frequency.Input <= 450)));
 }
 
 export function filterInputFrequencies(...bands: FrequencyBand[]): (filter: RepeaterStructured) => boolean {
@@ -116,20 +116,20 @@ export function filterInputFrequencies(...bands: FrequencyBand[]): (filter: Repe
 // FULL BANDS - EXTRA CLASS
 // export function filterOutputFrequencies(...bands: FrequencyBand[]): (filter: RepeaterStructured) => boolean {
 //   return (filter: RepeaterStructured): boolean =>
-//     (bands.includes(FrequencyBand.$160_m) && filter.Frequency.Output >= 1.8 && filter.Frequency.Output <= 2.0) ||
-//     (bands.includes(FrequencyBand.$80_m) && filter.Frequency.Output >= 3.5 && filter.Frequency.Output <= 4.0) ||
-//     (bands.includes(FrequencyBand.$60_m) && filter.Frequency.Output >= 5.3305 && filter.Frequency.Output <= 5.405) ||
-//     (bands.includes(FrequencyBand.$40_m) && filter.Frequency.Output >= 7.0 && filter.Frequency.Output <= 7.3) ||
-//     (bands.includes(FrequencyBand.$30_m) && filter.Frequency.Output >= 10.1 && filter.Frequency.Output <= 10.15) ||
-//     (bands.includes(FrequencyBand.$20_m) && filter.Frequency.Output >= 14.0 && filter.Frequency.Output <= 14.35) ||
-//     (bands.includes(FrequencyBand.$17_m) && filter.Frequency.Output >= 18.068 && filter.Frequency.Output <= 18.168) ||
-//     (bands.includes(FrequencyBand.$15_m) && filter.Frequency.Output >= 21.0 && filter.Frequency.Output <= 21.45) ||
-//     (bands.includes(FrequencyBand.$12_m) && filter.Frequency.Output >= 24.89 && filter.Frequency.Output <= 24.99) ||
-//     (bands.includes(FrequencyBand.$10_m) && filter.Frequency.Output >= 28 && filter.Frequency.Output <= 29.7) ||
-//     (bands.includes(FrequencyBand.$6_m) && filter.Frequency.Output >= 50 && filter.Frequency.Output <= 54) ||
-//     (bands.includes(FrequencyBand.$2_m) && filter.Frequency.Output >= 144 && filter.Frequency.Output <= 148) ||
-//     (bands.includes(FrequencyBand.$1_25_m) && filter.Frequency.Output >= 222 && filter.Frequency.Output <= 225) ||
-//     (bands.includes(FrequencyBand.$70_cm) && filter.Frequency.Output >= 420 && filter.Frequency.Output <= 450);
+//     (bands.includes(FrequencyBand.$160_m) && ((filter.Frequency.Output >= 1.8 && filter.Frequency.Output <= 2.0) || (filter.Frequency.Input >= 1.8 && filter.Frequency.Input <= 2.0))) ||
+//     (bands.includes(FrequencyBand.$80_m) && ((filter.Frequency.Output >= 3.5 && filter.Frequency.Output <= 4.0) || (filter.Frequency.Input >= 3.5 && filter.Frequency.Input <= 4.0))) ||
+//     (bands.includes(FrequencyBand.$60_m) && ((filter.Frequency.Output >= 5.3305 && filter.Frequency.Output <= 5.405) || (filter.Frequency.Input >= 5.3305 && filter.Frequency.Input <= 5.405))) ||
+//     (bands.includes(FrequencyBand.$40_m) && ((filter.Frequency.Output >= 7.0 && filter.Frequency.Output <= 7.3) || (filter.Frequency.Input >= 7.0 && filter.Frequency.Input <= 7.3))) ||
+//     (bands.includes(FrequencyBand.$30_m) && ((filter.Frequency.Output >= 10.1 && filter.Frequency.Output <= 10.15) || (filter.Frequency.Input >= 10.1 && filter.Frequency.Input <= 10.15))) ||
+//     (bands.includes(FrequencyBand.$20_m) && ((filter.Frequency.Output >= 14.0 && filter.Frequency.Output <= 14.35) || (filter.Frequency.Input >= 14.0 && filter.Frequency.Input <= 14.35))) ||
+//     (bands.includes(FrequencyBand.$17_m) && ((filter.Frequency.Output >= 18.068 && filter.Frequency.Output <= 18.168) || (filter.Frequency.Input >= 18.068 && filter.Frequency.Input <= 18.168))) ||
+//     (bands.includes(FrequencyBand.$15_m) && ((filter.Frequency.Output >= 21.0 && filter.Frequency.Output <= 21.45) || (filter.Frequency.Input >= 21.0 && filter.Frequency.Input <= 21.45))) ||
+//     (bands.includes(FrequencyBand.$12_m) && ((filter.Frequency.Output >= 24.89 && filter.Frequency.Output <= 24.99) || (filter.Frequency.Input >= 24.89 && filter.Frequency.Input <= 24.99))) ||
+//     (bands.includes(FrequencyBand.$10_m) && ((filter.Frequency.Output >= 28 && filter.Frequency.Output <= 29.7) || (filter.Frequency.Input >= 28 && filter.Frequency.Input <= 29.7))) ||
+//     (bands.includes(FrequencyBand.$6_m) && ((filter.Frequency.Output >= 50 && filter.Frequency.Output <= 54) || (filter.Frequency.Input >= 50 && filter.Frequency.Input <= 54))) ||
+//     (bands.includes(FrequencyBand.$2_m) && ((filter.Frequency.Output >= 144 && filter.Frequency.Output <= 148) || (filter.Frequency.Input >= 144 && filter.Frequency.Input <= 148))) ||
+//     (bands.includes(FrequencyBand.$1_25_m) && ((filter.Frequency.Output >= 222 && filter.Frequency.Output <= 225) || (filter.Frequency.Input >= 222 && filter.Frequency.Input <= 225))) ||
+//     (bands.includes(FrequencyBand.$70_cm) && ((filter.Frequency.Output >= 420 && filter.Frequency.Output <= 450) || (filter.Frequency.Input >= 420 && filter.Frequency.Input <= 450)));
 // }
 //
 // export function filterInputFrequencies(...bands: FrequencyBand[]): (filter: RepeaterStructured) => boolean {
