@@ -1,2 +1,2 @@
-Frequency,Offset,Tone,Call,Location,ST/PR,Use,VOIP,DGTL,Mi,Dir,,state_id,ID,Latitude,Longitude,Downlink,Uplink,County,Op Status,FM,Analog Bandwidth,Coordination,Last update
-927.6625,-25,,N7SGV,Duck Creek Village,UT,OPEN,,,184.25,WSW,,49,11426,37.52360153,-112.66300201,927.6625,902.6625,Kane,On-Air,Yes; analog capable.,,UVHFS,2015-03-04
+Frequency,Offset,Tone,Call,Location,ST/PR,Use,Mode,Mi,Dir,,state_id,ID,Latitude,Longitude,Downlink,Uplink,County,Op Status,FM,Analog Bandwidth,Coordination,Last update
+927.6625,-25,,N7SGV,Duck Creek Village,UT,OPEN,FM,184.25,WSW,,49,11426,37.52360153,-112.66300201,927.6625,902.6625,Kane,On-Air,Yes; analog capable.,,UVHFS,2015-03-04

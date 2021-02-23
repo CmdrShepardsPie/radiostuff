@@ -1,2 +1,2 @@
-Frequency,Offset,Tone,Call,Location,ST/PR,Use,VOIP,DGTL,Mi,Dir,,state_id,ID,Latitude,Longitude,Downlink,Uplink,Uplink Tone,Downlink Tone,County,On-air,Sponsor,Affiliate,FM,Analog Bandwidth,Web links,Last update
-147.1,0.6,100,K7MVA,"Kimberly, Hansen Butte",ID,OPEN,,,120.73,N,,16,16840,42.50019836,-114.23600006,147.1,147.7,100,100,Twin Falls,Unknown,KC7QR,- Magic Valley Amateur Radio Club,Yes; analog capable.,,http://www.k7mva.org/,2018-02-17
+Frequency,Offset,Tone,Call,Location,ST/PR,Use,Mode,Mi,Dir,,state_id,ID,Latitude,Longitude,Downlink,Uplink,Uplink Tone,Downlink Tone,County,On-air,Sponsor,Affiliate,FM,Analog Bandwidth,Web links,Last update
+147.1,0.6,100,K7MVA,"Kimberly, Hansen Butte",ID,OPEN,FM,120.73,N,,16,16840,42.50019836,-114.23600006,147.1,147.7,100,100,Twin Falls,Unknown,KC7QR,- Magic Valley Amateur Radio Club,Yes; analog capable.,,http://www.k7mva.org/,2018-02-17

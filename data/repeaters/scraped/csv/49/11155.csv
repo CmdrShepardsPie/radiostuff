@@ -1,2 +1,2 @@
-Frequency,Offset,Tone,Call,Location,ST/PR,Use,VOIP,DGTL,Mi,Dir,,state_id,ID,Latitude,Longitude,Downlink,Uplink,D-STAR Enabled,Node,Sources,County,Grid,On-air,Coverage,Coordination,Last update
-145.15,-0.6,,WR7AAA,Cedar City,UT,OPEN,,S,199.92,WSW,,49,11155,37.72570038,-113.06800079,145.15,144.55,1,WR7AAA (C) Gateway Repeater,jfindu lookup / dstar-users lookup,Iron,DM37LR,Unknown,50,UVHFS,2014-02-17
+Frequency,Offset,Tone,Call,Location,ST/PR,Use,Mode,Mi,Dir,,state_id,ID,Latitude,Longitude,Downlink,Uplink,D-STAR Enabled,Node,Sources,County,Grid,On-air,Coverage,Coordination,Last update
+145.15,-0.6,,WR7AAA,Cedar City,UT,OPEN,DSTAR,199.92,WSW,,49,11155,37.72570038,-113.06800079,145.15,144.55,1,WR7AAA (C) Gateway Repeater,jfindu lookup / dstar-users lookup,Iron,DM37LR,Unknown,50,UVHFS,2014-02-17

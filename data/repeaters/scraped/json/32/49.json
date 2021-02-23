@@ -6,8 +6,7 @@
   "Location": "Battle Mountain, Mount Lewis",
   "ST/PR": "NV",
   "Use": "OPEN",
-  "VOIP": "",
-  "DGTL": "",
+  "Mode": "FM",
   "Mi": 160.91,
   "Dir": "W",
   "": "",
@@ -25,6 +24,6 @@
   "Features": 9,
   "FM": "Yes; analog capable.",
   "Analog Bandwidth": "",
-  "Links": "Full-time to 146.61000 (WB7WTS) at Ely, Cave Mountain, NV . Full-time to 146.94000 (WB7BTS) at Elko, NV . Full-time to 146.79000 (WA6TLW) at Hawthorne, Corey Peak, NV .",
+  "Links": "Full-time to 146.61000 (WB7WTS) at Ely, Cave Mountain, NV . Full-time to 146.79000 (WA6TLW) at Hawthorne, Corey Peak, NV . Full-time to 146.94000 (WB7BTS) at Elko, NV .",
   "Last update": "2016-04-30"
 }

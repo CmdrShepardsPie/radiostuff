@@ -1,2 +1,2 @@
-Frequency,Offset,Tone,Call,Location,ST/PR,Use,VOIP,DGTL,Mi,Dir,,state_id,ID,Latitude,Longitude,Downlink,Uplink,Uplink Tone,County,On-air,Coverage,Sponsor,Features,FM,Analog Bandwidth,Coordination,Last update
-224.5,-1.6,167.9,WB6CDN,"Ogden, downtown",UT,OPEN,,,101.49,E,,49,250,41.19720078,-111.97000122,224.5,222.9,167.9,Weber,Unknown,Ogden and South Ogden area.,Intermountain Repeater Emergency Amateur Network,Autopatch.,Yes; analog capable.,,UVHFS,
+Frequency,Offset,Tone,Call,Location,ST/PR,Use,Mode,Mi,Dir,,state_id,ID,Latitude,Longitude,Downlink,Uplink,Uplink Tone,County,On-air,Coverage,Sponsor,Features,FM,Analog Bandwidth,Coordination,Last update
+224.5,-1.6,167.9,WB6CDN,"Ogden, downtown",UT,OPEN,FM,101.49,E,,49,250,41.19720078,-111.97000122,224.5,222.9,167.9,Weber,Unknown,Ogden and South Ogden area.,Intermountain Repeater Emergency Amateur Network,Autopatch.,Yes; analog capable.,,UVHFS,

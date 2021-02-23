@@ -2,12 +2,11 @@
   "Frequency": 146.72,
   "Offset": -0.6,
   "Tone": 100,
-  "Call": "WB7REL",
+  "Call": "K7BSK",
   "Location": "Glendale, Spencer Bench",
   "ST/PR": "UT",
   "Use": "OPEN",
-  "VOIP": "I",
-  "DGTL": "",
+  "Mode": "FM IRLP",
   "Mi": 182.53,
   "Dir": "WSW",
   "": "",
@@ -26,10 +25,9 @@
   "Features": "Autopatch, linked to (146.940).",
   "FM": "Yes; analog capable.",
   "Analog Bandwidth": "",
-  "Links": "Full-time to the Skyline Repeater System .",
   "IRLP": 3576,
   "Notes": "Provides a South-Central Utah link into the Skyline/Sinbad systems.",
   "Nets": "Skyline RC VHF Net: Sunday at 2000 hrs",
   "Coordination": "UVHFS",
-  "Last update": "2013-08-06"
+  "Last update": "2021-02-13"
 }

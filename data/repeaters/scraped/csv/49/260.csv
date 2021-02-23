@@ -1,2 +1,2 @@
-Frequency,Offset,Tone,Call,Location,ST/PR,Use,VOIP,DGTL,Mi,Dir,,state_id,ID,Latitude,Longitude,Downlink,Uplink,County,On-air,Coverage,Features,FM,Analog Bandwidth,Coordination,Last update
-147.38,0.6,,WB7TSQ,Ogden,UT,OPEN,,,99.47,E,,49,260,41.19329834,-112.00900269,147.38,147.98,Weber,Unknown,Wide area: Wasatch Front from Payson to Tremonton.,4,Yes; analog capable.,,UVHFS,2008-07-10
+Frequency,Offset,Tone,Call,Location,ST/PR,Use,Mode,Mi,Dir,,state_id,ID,Latitude,Longitude,Downlink,Uplink,County,On-air,Coverage,Features,FM,Analog Bandwidth,Coordination,Last update
+147.38,0.6,,WB7TSQ,Ogden,UT,OPEN,FM,99.47,E,,49,260,41.19329834,-112.00900269,147.38,147.98,Weber,Unknown,Wide area: Wasatch Front from Payson to Tremonton.,4,Yes; analog capable.,,UVHFS,2008-07-10

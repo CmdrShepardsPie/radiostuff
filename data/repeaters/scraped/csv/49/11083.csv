@@ -1,2 +1,2 @@
-Frequency,Offset,Tone,Call,Location,ST/PR,Use,VOIP,DGTL,Mi,Dir,,state_id,ID,Latitude,Longitude,Downlink,Uplink,D-STAR Enabled,Node,Sources,County,Grid,Op Status,Coordination,Last update
-145.15,-0.6,,AC7O,"Logan, WA7KMF QTH",UT,OPEN,,S,122.01,E,,49,11083,41.72230148,-111.84999847,145.15,144.55,1,AC7O (C) Hot Spot &lt;24/7,jfindu lookup / dstar-users lookup,Cache,DN41BR,On-Air,UVHFS,2019-02-19
+Frequency,Offset,Tone,Call,Location,ST/PR,Use,Mode,Mi,Dir,,state_id,ID,Latitude,Longitude,Downlink,Uplink,D-STAR Enabled,Node,Sources,County,Grid,Op Status,Coordination,Last update
+145.15,-0.6,,AC7O,"Logan, WA7KMF QTH",UT,OPEN,DSTAR,122.01,E,,49,11083,41.72230148,-111.84999847,145.15,144.55,1,AC7O (C) Hot Spot &lt;24/7,jfindu lookup / dstar-users lookup,Cache,DN41BR,On-Air,UVHFS,2019-02-19

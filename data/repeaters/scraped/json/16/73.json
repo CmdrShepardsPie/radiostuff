@@ -6,8 +6,7 @@
   "Location": "Pocatello, Kinport Peak",
   "ST/PR": "ID",
   "Use": "OPEN",
-  "VOIP": "",
-  "DGTL": "",
+  "Mode": "FM",
   "Mi": 156.37,
   "Dir": "NNE",
   "": "",
@@ -25,11 +24,10 @@
   "Sponsor": "Pocatello ARC",
   "FM": "Yes; analog capable.",
   "Analog Bandwidth": "",
-  "Links": 29.6,
   "Commands": 10,
   "Notes": 7,
   "Nets": "Pocatello ARC: Sunday at 20:00.",
   "Web links": "http://www.pocatelloarc.org/pages/static/pocatello_repeater_INTRO.htm",
   "Coordination": "UVHFS",
-  "Last update": "2017-07-29"
+  "Last update": "2020-12-30"
 }

@@ -6,8 +6,7 @@
   "Location": "Fish Haven, Laketown Radio Site",
   "ST/PR": "ID",
   "Use": "OPEN",
-  "VOIP": "",
-  "DGTL": "",
+  "Mode": "FM",
   "Mi": 153.42,
   "Dir": "NE",
   "": "",
@@ -24,7 +23,6 @@
   "Affiliate": "Intermountain Intertie",
   "FM": "Yes; analog capable.",
   "Analog Bandwidth": "",
-  "Links": "Full-time to the Intermountain Intertie System .",
   "Web links": "http://www.utahvhfs.org/snowlink.html",
   "Coordination": "UVHFS",
   "Last update": "2018-11-08"

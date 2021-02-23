@@ -6,8 +6,7 @@
   "Location": "Kanab",
   "ST/PR": "UT",
   "Use": "OPEN",
-  "VOIP": "",
-  "DGTL": "",
+  "Mode": "FM",
   "Mi": 193.68,
   "Dir": "WSW",
   "": "",
@@ -18,10 +17,10 @@
   "Downlink": 147.36,
   "Uplink": 147.96,
   "County": "Kane",
-  "Op Status": "On-Air",
+  "Op Status": "Off-Air",
   "Coverage": "Southern border of Utah including Kanab and surrounding areas.",
   "FM": "Yes; analog capable.",
   "Analog Bandwidth": "",
   "Coordination": "UVHFS",
-  "Last update": "2015-01-07"
+  "Last update": "2020-12-14"
 }

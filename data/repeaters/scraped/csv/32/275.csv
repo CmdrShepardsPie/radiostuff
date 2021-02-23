@@ -1,2 +1,2 @@
-Frequency,Offset,Tone,Call,Location,ST/PR,Use,VOIP,DGTL,Mi,Dir,,state_id,ID,Latitude,Longitude,Downlink,Uplink,County,On-air,Sponsor,Features,FM,Analog Bandwidth,Notes,Last update
-443.275,5,,N7TR,Walker,NV,OPEN,,,105.97,W,,32,275,40.75899887,-115.86000061,443.275,448.275,Elko,Unknown,N7TR,15,Yes; analog capable.,,Site is solar only.,
+Frequency,Offset,Tone,Call,Location,ST/PR,Use,Mode,Mi,Dir,,state_id,ID,Latitude,Longitude,Downlink,Uplink,County,On-air,Sponsor,Features,FM,Analog Bandwidth,Notes,Last update
+443.275,5,,N7TR,Walker,NV,OPEN,FM,105.97,W,,32,275,40.75899887,-115.86000061,443.275,448.275,Elko,Unknown,N7TR,15,Yes; analog capable.,,Site is solar only.,

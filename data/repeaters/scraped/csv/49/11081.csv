@@ -1,2 +1,2 @@
-Frequency,Offset,Tone,Call,Location,ST/PR,Use,VOIP,DGTL,Mi,Dir,,state_id,ID,Latitude,Longitude,Downlink,Uplink,D-STAR Enabled,Node,Sources,County,Op Status,Sponsor,Web links,Coordination,Last update
-447.95,-5,,KF7VJO,"Paradise, AC7II QTH",UT,OPEN,,S,117.54,E,,49,11081,41.57509995,-111.83799744,447.95,442.95,1,KF7VJO (B) Repeater,jfindu lookup / dstar-users lookup,Cache,On-Air,KF7VJO,http://barconline.org/repeaters/,UVHFS,2016-07-05
+Frequency,Offset,Tone,Call,Location,ST/PR,Use,Mode,Mi,Dir,,state_id,ID,Latitude,Longitude,Downlink,Uplink,D-STAR Enabled,Node,Sources,County,Op Status,Sponsor,Web links,Coordination,Last update
+447.95,-5,,KF7VJO,"Paradise, AC7II QTH",UT,OPEN,DSTAR,117.54,E,,49,11081,41.57509995,-111.83799744,447.95,442.95,1,KF7VJO (B) Repeater,jfindu lookup / dstar-users lookup,Cache,On-Air,KF7VJO,http://barconline.org/repeaters/,UVHFS,2016-07-05

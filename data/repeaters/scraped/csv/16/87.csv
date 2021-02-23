@@ -1,2 +1,2 @@
-Frequency,Offset,Tone,Call,Location,ST/PR,Use,VOIP,DGTL,Mi,Dir,,state_id,ID,Latitude,Longitude,Downlink,Uplink,County,On-air,FM,Analog Bandwidth,Coordination,Last update
-147.24,0.6,,,Pocatello,ID,OPEN,,,161.34,NNE,,16,87,42.87139893,-112.44499969,147.24,147.84,Bannock,Unknown,Yes; analog capable.,,UVHFS,2010-10-23
+Frequency,Offset,Tone,Call,Location,ST/PR,Use,Mode,Mi,Dir,,state_id,ID,Latitude,Longitude,Downlink,Uplink,County,Op Status,FM,Analog Bandwidth,Coordination,Last update
+147.24,0.6,,,Pocatello,ID,OPEN,FM,161.34,NNE,,16,87,42.87139893,-112.44499969,147.24,147.84,Bannock,Off-Air,Yes; analog capable.,,UVHFS,2020-12-30

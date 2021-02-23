@@ -1,2 +1,2 @@
-Frequency,Offset,Tone,Call,Location,ST/PR,Use,VOIP,DGTL,Mi,Dir,,state_id,ID,Latitude,Longitude,Downlink,Uplink,County,On-air,FM,Analog Bandwidth,Coordination,Last update
-444.8,5,,W7LKO,Elko,NV,OPEN,,,100.89,W,,32,9524,40.83240128,-115.76300049,444.8,449.8,Elko,Unknown,Yes; analog capable.,,CARCON,2012-10-07
+Frequency,Offset,Tone,Call,Location,ST/PR,Use,Mode,Mi,Dir,,state_id,ID,Latitude,Longitude,Downlink,Uplink,County,On-air,FM,Analog Bandwidth,Coordination,Last update
+444.8,5,,W7LKO,Elko,NV,OPEN,FM,100.89,W,,32,9524,40.83240128,-115.76300049,444.8,449.8,Elko,Unknown,Yes; analog capable.,,CARCON,2012-10-07

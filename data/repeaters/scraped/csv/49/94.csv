@@ -1,2 +1,2 @@
-Frequency,Offset,Tone,Call,Location,ST/PR,Use,VOIP,DGTL,Mi,Dir,,state_id,ID,Latitude,Longitude,Downlink,Uplink,Uplink Tone,County,Grid,Op Status,Coverage,FM,Analog Bandwidth,Coordination,Last update
-145.47,-0.6,123,KC7SUM,"Ogden, Powder Mountain",UT,OPEN,,,115.28,E,,49,94,41.37060165,-111.76599884,145.47,144.87,123,Weber,DN41CI,On-Air,Wide area: Cache and Morgan valleys.,Yes; analog capable.,,UVHFS,2019-02-19
+Frequency,Offset,Tone,Call,Location,ST/PR,Use,Mode,Mi,Dir,,state_id,ID,Latitude,Longitude,Downlink,Uplink,Uplink Tone,County,Grid,Op Status,Coverage,FM,Analog Bandwidth,Coordination,Last update
+145.47,-0.6,123,KC7SUM,"Ogden, Powder Mountain",UT,OPEN,FM,115.28,E,,49,94,41.37060165,-111.76599884,145.47,144.87,123,Weber,DN41CI,On-Air,Wide area: Cache and Morgan valleys.,Yes; analog capable.,,UVHFS,2019-02-19

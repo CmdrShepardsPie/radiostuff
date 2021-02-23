@@ -6,8 +6,7 @@
   "Location": "Jerome, Flat Top Butte",
   "ST/PR": "ID",
   "Use": "OPEN",
-  "VOIP": "W",
-  "DGTL": "Y",
+  "Mode": "FM Fusion WIRES-X",
   "Mi": 138.59,
   "Dir": "NNW",
   "": "",
@@ -33,5 +32,5 @@
   "Commands": "Normal WIRES X",
   "Nets": "MVARC Fusion net (Room 43210): Thu at 18:45.",
   "Web links": "http://www.k7mva.org",
-  "Last update": "2018-11-29"
+  "Last update": "2020-12-30"
 }

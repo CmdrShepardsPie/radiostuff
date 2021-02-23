@@ -1,2 +1,2 @@
-Frequency,Offset,Tone,Call,Location,ST/PR,Use,VOIP,DGTL,Mi,Dir,,state_id,ID,Latitude,Longitude,Downlink,Uplink,County,On-air,FM,Analog Bandwidth,Last update
-147.3,0.6,,KA7MLM,Pocatello,ID,OPEN,,,161.33,NNE,,16,89,42.87129974,-112.44499969,147.3,147.9,Bannock,Unknown,Yes; analog capable.,,
+Frequency,Offset,Tone,Call,Location,ST/PR,Use,Mode,Mi,Dir,,state_id,ID,Latitude,Longitude,Downlink,Uplink,County,Op Status,FM,Analog Bandwidth,Last update
+147.3,0.6,,KA7MLM,Pocatello,ID,OPEN,FM,161.33,NNE,,16,89,42.87129974,-112.44499969,147.3,147.9,Bannock,Off-Air,Yes; analog capable.,,2020-12-30

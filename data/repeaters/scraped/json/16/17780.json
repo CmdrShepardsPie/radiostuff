@@ -6,8 +6,7 @@
   "Location": "Mountain Home",
   "ST/PR": "ID",
   "Use": "OPEN",
-  "VOIP": "",
-  "DGTL": "",
+  "Mode": "FM",
   "Mi": 181.82,
   "Dir": "NNW",
   "": "",
@@ -21,7 +20,7 @@
   "Downlink Tone": 123,
   "County": "Elmore",
   "Grid": "DN23JE",
-  "Op Status": "On-Air",
+  "Op Status": "Off-Air",
   "Coverage": "Mountain Home, Elmore County Idaho, Portions of Interstate 84 100 mi radius.",
   "Sponsor": "WA7ZAF",
   "Affiliate": "Elmore County ARES, Stephensen Elementary School ARC",
@@ -30,5 +29,5 @@
   "Notes": "Hustler G7 9dBi omni",
   "Nets": "Stephensen Elementary School ARC: Wed at 3:15 local from Oct 1st thru May 15th.",
   "Coordination": "W7ZRQ",
-  "Last update": "2019-08-10"
+  "Last update": "2021-02-18"
 }

@@ -1,2 +1,2 @@
-Frequency,Offset,Tone,Call,Location,ST/PR,Use,VOIP,DGTL,Mi,Dir,,state_id,ID
-147.52,0,123,KF7FY,Pocatello,ID,OPEN,EI,,161.31,NNE,,16,16315
+Frequency,Offset,Tone,Call,Location,ST/PR,Use,Mode,Mi,Dir,,state_id,ID
+147.52,0,123,KF7FY,Pocatello,ID,OPEN,FM EchoLink IRLP,161.31,NNE,,16,16315

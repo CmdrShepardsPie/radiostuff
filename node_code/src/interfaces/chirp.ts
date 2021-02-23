@@ -67,5 +67,6 @@ export enum ChirpToneMode {
 export enum ChirpDuplex {
   Simplex = '',
   Minus = '-',
-  Plus = '+'
+  Plus = '+',
+  Split = 'split'
 }

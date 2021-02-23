@@ -6,8 +6,7 @@
   "Location": "Jerome, Flat Top Butte",
   "ST/PR": "ID",
   "Use": "OPEN",
-  "VOIP": "",
-  "DGTL": "",
+  "Mode": "FM",
   "Mi": 138.71,
   "Dir": "NNW",
   "": "",
@@ -27,5 +26,5 @@
   "Analog Bandwidth": "",
   "Web links": "http://www.k7mva.org/",
   "Coordination": "UVHFS",
-  "Last update": "2018-02-25"
+  "Last update": "2020-12-30"
 }

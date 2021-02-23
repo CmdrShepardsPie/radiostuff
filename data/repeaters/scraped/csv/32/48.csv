@@ -1,2 +1,2 @@
-Frequency,Offset,Tone,Call,Location,ST/PR,Use,VOIP,DGTL,Mi,Dir,,state_id,ID,Latitude,Longitude,Downlink,Uplink,County,On-air,Coverage,Sponsor,Features,FM,Analog Bandwidth,Last update
-146.79,-0.6,,WA7MOC,Wells,NV,OPEN,,,63.25,WNW,,32,48,41.11169815,-114.96399689,146.79,146.19,Elko,Unknown,Wide area.,WA7MOC,"Linked to Mt Lewis, 50 watts, 8,256'.",Yes; analog capable.,,
+Frequency,Offset,Tone,Call,Location,ST/PR,Use,Mode,Mi,Dir,,state_id,ID,Latitude,Longitude,Downlink,Uplink,County,On-air,Coverage,Sponsor,Features,FM,Analog Bandwidth,Last update
+146.79,-0.6,,WA7MOC,Wells,NV,OPEN,FM,63.25,WNW,,32,48,41.11169815,-114.96399689,146.79,146.19,Elko,Unknown,Wide area.,WA7MOC,"Linked to Mt Lewis, 50 watts, 8,256'.",Yes; analog capable.,,

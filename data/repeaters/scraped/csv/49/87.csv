@@ -1,2 +1,2 @@
-Frequency,Offset,Tone,Call,Location,ST/PR,Use,VOIP,DGTL,Mi,Dir,,state_id,ID,Latitude,Longitude,Downlink,Uplink,County,Grid,Op Status,Coverage,Sponsor,Affiliate,Features,FM,Analog Bandwidth,Coordination,Last update
-448.975,-5,,K7OGM,"Laketown, Bear Lake",UT,CLOSED,,,153.44,E,,49,87,41.88249969,-111.26899719,448.975,443.975,Rich,DN41IV,On-Air,Wide area: Bear Lake and surrounding communities.,Desert ARS,Cactus-Intertie,7,Yes; analog capable.,,UVHFS,2012-11-27
+Frequency,Offset,Tone,Call,Location,ST/PR,Use,Mode,Mi,Dir,,state_id,ID,Latitude,Longitude,Downlink,Uplink,County,Grid,Op Status,Coverage,Sponsor,Affiliate,Features,FM,Analog Bandwidth,Coordination,Last update
+448.975,-5,,K7OGM,"Laketown, Bear Lake",UT,CLOSED,FM,153.44,E,,49,87,41.88249969,-111.26899719,448.975,443.975,Rich,DN41IV,On-Air,Wide area: Bear Lake and surrounding communities.,Desert ARS,Cactus-Intertie,7,Yes; analog capable.,,UVHFS,2012-11-27

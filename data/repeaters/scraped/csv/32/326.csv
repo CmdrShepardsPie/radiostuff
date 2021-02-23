@@ -1,2 +1,2 @@
-Frequency,Offset,Tone,Call,Location,ST/PR,Use,VOIP,DGTL,Mi,Dir,,state_id,ID,Latitude,Longitude,Downlink,Uplink,Uplink Tone,County,On-air,Sponsor,Features,FM,Analog Bandwidth,Last update
-446.975,-5,186.2,W7LKO,Wells,NV,PRIVATE,,,62.52,WNW,,32,326,41.10599899,-114.95200348,446.975,441.975,186.2,Elko,Unknown,Elko ARC,10,Yes; analog capable.,,
+Frequency,Offset,Tone,Call,Location,ST/PR,Use,Mode,Mi,Dir,,state_id,ID,Latitude,Longitude,Downlink,Uplink,Uplink Tone,County,On-air,Sponsor,Features,FM,Analog Bandwidth,Last update
+446.975,-5,186.2,W7LKO,Wells,NV,PRIVATE,FM,62.52,WNW,,32,326,41.10599899,-114.95200348,446.975,441.975,186.2,Elko,Unknown,Elko ARC,10,Yes; analog capable.,,

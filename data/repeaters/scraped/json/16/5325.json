@@ -6,8 +6,7 @@
   "Location": "Burley, Mt Harrison",
   "ST/PR": "ID",
   "Use": "OPEN",
-  "VOIP": "",
-  "DGTL": "",
+  "Mode": "FM",
   "Mi": 106.53,
   "Dir": "N",
   "": "",
@@ -20,11 +19,12 @@
   "Uplink Tone": 123,
   "County": "Cassia",
   "Op Status": "On-Air",
+  "Coverage": "Burley area.",
   "Sponsor": "Idaho LDS ERC",
   "Affiliate": "LDS Emergency Response Communications service",
   "FM": "Yes; analog capable.",
-  "Analog Bandwidth": "",
+  "Analog Bandwidth": 25,
   "Nets": "Wed at 20:00.",
   "Coordination": "W7ZRQ",
-  "Last update": "2015-03-25"
+  "Last update": "2020-12-29"
 }

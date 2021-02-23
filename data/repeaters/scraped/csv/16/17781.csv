@@ -1,2 +1,2 @@
-Frequency,Offset,Tone,Call,Location,ST/PR,Use,VOIP,DGTL,Mi,Dir,,state_id,ID,Latitude,Longitude,Downlink,Uplink,Uplink Tone,Downlink Tone,County,Op Status,FM,Analog Bandwidth,Last update
-145.41,-0.6,114.8,KD7RMB,Cleft,ID,OPEN,,,199.03,NNW,,16,17781,43.23929977,-115.85099792,145.41,144.81,114.8,114.8,Elmore,On-Air,Yes; analog capable.,,2019-04-21
+Frequency,Offset,Tone,Call,Location,ST/PR,Use,Mode,Mi,Dir,,state_id,ID,Latitude,Longitude,Downlink,Uplink,Uplink Tone,Downlink Tone,County,Op Status,FM,Analog Bandwidth,Last update
+145.41,-0.6,114.8,KD7RMB,Cleft,ID,OPEN,FM,199.03,NNW,,16,17781,43.23929977,-115.85099792,145.41,144.81,114.8,114.8,Elmore,On-Air,Yes; analog capable.,,2019-04-21

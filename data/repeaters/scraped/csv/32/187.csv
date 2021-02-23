@@ -1,2 +1,2 @@
-Frequency,Offset,Tone,Call,Location,ST/PR,Use,VOIP,DGTL,Mi,Dir,,state_id,ID,Latitude,Longitude,Downlink,Uplink,Uplink Tone,County,Grid,On-air,Sponsor,FM,Analog Bandwidth,Last update
-444.85,5,94.8,WA6TLW,"Pequop, Pequop Summit",NV,CLOSED,,,43.41,WNW,,32,187,41.07720184,-114.56700134,444.85,449.85,94.8,Elko,DN21RB,Unknown,WA6TLW,Yes; analog capable.,,
+Frequency,Offset,Tone,Call,Location,ST/PR,Use,Mode,Mi,Dir,,state_id,ID,Latitude,Longitude,Downlink,Uplink,Uplink Tone,County,Grid,On-air,Sponsor,FM,Analog Bandwidth,Last update
+444.85,5,94.8,WA6TLW,"Pequop, Pequop Summit",NV,CLOSED,FM,43.41,WNW,,32,187,41.07720184,-114.56700134,444.85,449.85,94.8,Elko,DN21RB,Unknown,WA6TLW,Yes; analog capable.,,

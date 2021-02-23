@@ -1,2 +1,2 @@
-Frequency,Offset,Tone,Call,Location,ST/PR,Use,VOIP,DGTL,Mi,Dir,,state_id,ID,Latitude,Longitude,Downlink,Uplink,Uplink Tone,County,On-air,Sponsor,Features,FM,Analog Bandwidth,Last update
-444.65,5,94.8,WA6TLW,Tuscarora,NV,CLOSED,,,129.71,WNW,,32,173,41.31420135,-116.22100067,444.65,449.65,94.8,Elko,Unknown,WA6TLW,10,Yes; analog capable.,,
+Frequency,Offset,Tone,Call,Location,ST/PR,Use,Mode,Mi,Dir,,state_id,ID,Latitude,Longitude,Downlink,Uplink,Uplink Tone,County,On-air,Sponsor,Features,FM,Analog Bandwidth,Last update
+444.65,5,94.8,WA6TLW,Tuscarora,NV,CLOSED,FM,129.71,WNW,,32,173,41.31420135,-116.22100067,444.65,449.65,94.8,Elko,Unknown,WA6TLW,10,Yes; analog capable.,,

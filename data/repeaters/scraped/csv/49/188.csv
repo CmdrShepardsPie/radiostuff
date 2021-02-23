@@ -1,2 +1,2 @@
-Frequency,Offset,Tone,Call,Location,ST/PR,Use,VOIP,DGTL,Mi,Dir,,state_id,ID,Latitude,Longitude,Downlink,Uplink,Uplink Tone,County,Grid,Op Status,FM,Analog Bandwidth,Coordination,Last update
-448,-5,100,W7DES,"Salt Lake City, Capitol",UT,OPEN,,,101.88,ESE,,49,188,40.77750015,-111.88800049,448,443,100,Salt Lake,DN40BS,On-Air,Yes; analog capable.,,UVHFS,2008-07-10
+Frequency,Offset,Tone,Call,Location,ST/PR,Use,Mode,Mi,Dir,,state_id,ID,Latitude,Longitude,Downlink,Uplink,Uplink Tone,County,Grid,Op Status,FM,Analog Bandwidth,Coordination,Last update
+448,-5,100,W7DES,"Salt Lake City, Capitol",UT,OPEN,FM,101.88,ESE,,49,188,40.77750015,-111.88800049,448,443,100,Salt Lake,DN40BS,On-Air,Yes; analog capable.,,UVHFS,2008-07-10

@@ -1,2 +1,2 @@
-Frequency,Offset,Tone,Call,Location,ST/PR,Use,VOIP,DGTL,Mi,Dir,,state_id,ID,Latitude,Longitude,Downlink,Uplink,Uplink Tone,County,Grid,On-air,Coverage,FM,Analog Bandwidth,Coordination,Last update
-927.5875,-25,D432,W7XDX,Salt Lake City,UT,OPEN,,,101.75,ESE,,49,5556,40.76079941,-111.89099884,927.5875,902.5875,D432,Salt Lake,DN40BS,Unknown,Wasatch Front from Payson to Tremonton.,Yes; analog capable.,,UVHFS,2011-03-19
+Frequency,Offset,Tone,Call,Location,ST/PR,Use,Mode,Mi,Dir,,state_id,ID,Latitude,Longitude,Downlink,Uplink,Uplink Tone,County,Grid,On-air,Coverage,FM,Analog Bandwidth,Coordination,Last update
+927.5875,-25,D432,W7XDX,Salt Lake City,UT,OPEN,FM,101.75,ESE,,49,5556,40.76079941,-111.89099884,927.5875,902.5875,D432,Salt Lake,DN40BS,Unknown,Wasatch Front from Payson to Tremonton.,Yes; analog capable.,,UVHFS,2011-03-19

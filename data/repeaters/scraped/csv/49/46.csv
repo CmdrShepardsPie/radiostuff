@@ -1,2 +1,2 @@
-Frequency,Offset,Tone,Call,Location,ST/PR,Use,VOIP,DGTL,Mi,Dir,,state_id,ID,Latitude,Longitude,Downlink,Uplink,County,Grid,Op Status,Coverage,Sponsor,Features,FM,Analog Bandwidth,Links,IRLP,Coordination,Last update
-448.4,-5,,W7IHC,"Salt Lake City, Intermountain Ridge",UT,OPEN,I,,85.97,ESE,,49,46,40.65309906,-112.20200348,448.4,443.4,Salt Lake,DN30VP,On-Air,Wide area.,IHC.,9,Yes; analog capable.,,,3407,UVHFS,2015-06-11
+Frequency,Offset,Tone,Call,Location,ST/PR,Use,Mode,Mi,Dir,,state_id,ID,Latitude,Longitude,Downlink,Uplink,County,Grid,Op Status,Coverage,Sponsor,Features,FM,Analog Bandwidth,Links,IRLP,Coordination,Last update
+448.4,-5,,W7IHC,"Salt Lake City, Intermountain Ridge",UT,OPEN,FM IRLP,85.97,ESE,,49,46,40.65309906,-112.20200348,448.4,443.4,Salt Lake,DN30VP,On-Air,Wide area.,IHC.,9,Yes; analog capable.,,,3407,UVHFS,2015-06-11

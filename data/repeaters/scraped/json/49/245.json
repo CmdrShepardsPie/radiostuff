@@ -6,8 +6,7 @@
   "Location": "West Jordan, Butterfield Peak",
   "ST/PR": "UT",
   "Use": "OPEN",
-  "VOIP": "",
-  "DGTL": "",
+  "Mode": "FM",
   "Mi": 89.8,
   "Dir": "SE",
   "": "",
@@ -27,5 +26,5 @@
   "FM": "Yes; analog capable.",
   "Analog Bandwidth": "",
   "Coordination": "UVHFS",
-  "Last update": "2015-06-08"
+  "Last update": "2020-11-08"
 }

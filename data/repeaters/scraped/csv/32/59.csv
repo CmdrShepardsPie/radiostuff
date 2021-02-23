@@ -1,2 +1,2 @@
-Frequency,Offset,Tone,Call,Location,ST/PR,Use,VOIP,DGTL,Mi,Dir,,state_id,ID,Latitude,Longitude,Downlink,Uplink,Uplink Tone,County,On-air,Coverage,Sponsor,Features,FM,Analog Bandwidth,Last update
-147.3,0.6,100,KD7CWA,Tuscarora,NV,OPEN,,,129.71,WNW,,32,59,41.31420135,-116.22100067,147.3,147.9,100,Elko,Unknown,"West to Hwy 229, east to Hwy 93, north to the state lione, south to Spring Creek. Map",KD7CWA,400,Yes; analog capable.,,
+Frequency,Offset,Tone,Call,Location,ST/PR,Use,Mode,Mi,Dir,,state_id,ID,Latitude,Longitude,Downlink,Uplink,Uplink Tone,County,On-air,Coverage,Sponsor,Features,FM,Analog Bandwidth,Last update
+147.3,0.6,100,KD7CWA,Tuscarora,NV,OPEN,FM,129.71,WNW,,32,59,41.31420135,-116.22100067,147.3,147.9,100,Elko,Unknown,"West to Hwy 229, east to Hwy 93, north to the state lione, south to Spring Creek. Map",KD7CWA,400,Yes; analog capable.,,

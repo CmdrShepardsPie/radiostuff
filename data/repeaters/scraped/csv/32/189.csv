@@ -1,2 +1,2 @@
-Frequency,Offset,Tone,Call,Location,ST/PR,Use,VOIP,DGTL,Mi,Dir,,state_id,ID,Latitude,Longitude,Downlink,Uplink,County,On-air,Sponsor,Affiliate,Features,FM,Analog Bandwidth,Web links,Last update
-444.9,5,,W7LKO,Wells,NV,OPEN,,,63.25,WNW,,32,189,41.11169815,-114.96399689,444.9,449.9,Elko,Unknown,N7EV,Elko ARC,100,Yes; analog capable.,,http://www.qsl.net/w7lko/RESOURCES.HTML,
+Frequency,Offset,Tone,Call,Location,ST/PR,Use,Mode,Mi,Dir,,state_id,ID,Latitude,Longitude,Downlink,Uplink,County,On-air,Sponsor,Affiliate,Features,FM,Analog Bandwidth,Web links,Last update
+444.9,5,,W7LKO,Wells,NV,OPEN,FM,63.25,WNW,,32,189,41.11169815,-114.96399689,444.9,449.9,Elko,Unknown,N7EV,Elko ARC,100,Yes; analog capable.,,http://www.qsl.net/w7lko/RESOURCES.HTML,

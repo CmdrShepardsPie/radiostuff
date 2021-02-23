@@ -1,2 +1,2 @@
-Frequency,Offset,Tone,Call,Location,ST/PR,Use,VOIP,DGTL,Mi,Dir,,state_id,ID,Latitude,Longitude,Downlink,Uplink,County,Grid,On-air,Coverage,Features,FM,Analog Bandwidth,Coordination,Last update
-145.47,-0.6,,WV7H,Cedar City,UT,OPEN,,,199.62,WSW,,49,268,37.71060181,-113.05599976,145.47,144.87,Iron,DM37LR,Unknown,Cedar City and nearby communities.,5,Yes; analog capable.,,UVHFS,
+Frequency,Offset,Tone,Call,Location,ST/PR,Use,Mode,Mi,Dir,,state_id,ID,Latitude,Longitude,Downlink,Uplink,County,Grid,On-air,Coverage,Features,FM,Analog Bandwidth,Coordination,Last update
+145.47,-0.6,,WV7H,Cedar City,UT,OPEN,FM,199.62,WSW,,49,268,37.71060181,-113.05599976,145.47,144.87,Iron,DM37LR,Unknown,Cedar City and nearby communities.,5,Yes; analog capable.,,UVHFS,

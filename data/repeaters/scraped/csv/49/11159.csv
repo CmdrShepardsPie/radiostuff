@@ -1,2 +1,2 @@
-Frequency,Offset,Tone,Call,Location,ST/PR,Use,VOIP,DGTL,Mi,Dir,,state_id,ID,Latitude,Longitude,Downlink,Uplink,Uplink Tone,County,Grid,Op Status,FM,Analog Bandwidth,Coordination,Last update
-447.7,-5,100,KF7YXL,"South Salt Lake City, Fire Station 43",UT,OPEN,,,101.81,ESE,,49,11159,40.69210052,-111.89399719,447.7,442.7,100,Salt Lake,DN40BQ,On-Air,Yes; analog capable.,,UVHFS,2017-03-16
+Frequency,Offset,Tone,Call,Location,ST/PR,Use,Mode,Mi,Dir,,state_id,ID,Latitude,Longitude,Downlink,Uplink,Uplink Tone,County,Grid,Op Status,FM,Analog Bandwidth,Coordination,Last update
+447.7,-5,100,KF7YXL,"South Salt Lake City, Fire Station 43",UT,OPEN,FM,101.81,ESE,,49,11159,40.69210052,-111.89399719,447.7,442.7,100,Salt Lake,DN40BQ,On-Air,Yes; analog capable.,,UVHFS,2017-03-16

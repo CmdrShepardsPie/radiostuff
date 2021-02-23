@@ -1,2 +1,2 @@
-Frequency,Offset,Tone,Call,Location,ST/PR,Use,VOIP,DGTL,Mi,Dir,,state_id,ID,Latitude,Longitude,Downlink,Uplink,County,Op Status,Coverage,Features,FM,Analog Bandwidth,Coordination,Last update
-449.85,-5,,W7NRC,Kanab,UT,OPEN,,,193.68,WSW,,49,207,37.04800034,-112.52700043,449.85,444.85,Kane,On-Air,Southern border of Utah including Kanab and surrounding areas.,4,Yes; analog capable.,,UVHFS,2012-07-18
+Frequency,Offset,Tone,Call,Location,ST/PR,Use,Mode,Mi,Dir,,state_id,ID,Latitude,Longitude,Downlink,Uplink,County,Op Status,Coverage,Features,FM,Analog Bandwidth,Coordination,Last update
+449.85,-5,,W7NRC,Kanab,UT,OPEN,FM,193.68,WSW,,49,207,37.04800034,-112.52700043,449.85,444.85,Kane,On-Air,Southern border of Utah including Kanab and surrounding areas.,4,Yes; analog capable.,,UVHFS,2012-07-18

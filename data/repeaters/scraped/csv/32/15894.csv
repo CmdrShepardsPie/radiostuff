@@ -1,2 +1,2 @@
-Frequency,Offset,Tone,Call,Location,ST/PR,Use,VOIP,DGTL,Mi,Dir,,state_id,ID,Latitude,Longitude,Downlink,Uplink,County,Op Status,Features,FM,Analog Bandwidth,Notes,Last update
-147.16,0.6,,KA7CVV,"Jarbridge, Deer Mountain",NV,OPEN,,,112.22,NW,,32,15894,41.87490082,-115.43099976,147.16,147.76,Elko,On-Air,Solar power,Yes; analog capable.,,8972,2017-03-09
+Frequency,Offset,Tone,Call,Location,ST/PR,Use,Mode,Mi,Dir,,state_id,ID,Latitude,Longitude,Downlink,Uplink,County,Op Status,Features,FM,Analog Bandwidth,Notes,Last update
+147.16,0.6,,KA7CVV,"Jarbridge, Deer Mountain",NV,OPEN,FM,112.22,NW,,32,15894,41.87490082,-115.43099976,147.16,147.76,Elko,On-Air,Solar power,Yes; analog capable.,,8972,2017-03-09

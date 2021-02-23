@@ -1,2 +1,2 @@
-Frequency,Offset,Tone,Call,Location,ST/PR,Use,VOIP,DGTL,Mi,Dir,,state_id,ID,Latitude,Longitude,Downlink,Uplink,Uplink Tone,County,Grid,Op Status,Features,FM,Analog Bandwidth,Coordination,Last update
-447.425,5,192.8,KD7RTO,"Bountiful, QTH",UT,OPEN,,,102.1,ESE,,49,2766,40.90470123,-111.88899994,447.425,452.425,192.8,Davis,DN40BV,On-Air,4,Yes; analog capable.,,UVHFS,2011-04-03
+Frequency,Offset,Tone,Call,Location,ST/PR,Use,Mode,Mi,Dir,,state_id,ID,Latitude,Longitude,Downlink,Uplink,Uplink Tone,County,Grid,Op Status,Features,FM,Analog Bandwidth,Coordination,Last update
+447.425,5,192.8,KD7RTO,"Bountiful, QTH",UT,OPEN,FM,102.1,ESE,,49,2766,40.90470123,-111.88899994,447.425,452.425,192.8,Davis,DN40BV,On-Air,4,Yes; analog capable.,,UVHFS,2011-04-03

@@ -1,21 +1,22 @@
 import 'module-alias/register';
 
-import { writeToCsv } from '@helpers/fs-helpers';
-import { createLog } from '@helpers/log-helpers';
-import { RepeaterStructured } from '@interfaces/repeater-structured';
-import {
-  Chirp, ChirpDuplex,
-  ChirpToneMode,
-} from '@interfaces/chirp';
+import {writeToCsv} from '@helpers/fs-helpers';
+import {createLog} from '@helpers/log-helpers';
+import {RepeaterStructured} from '@interfaces/repeater-structured';
+import {Chirp, ChirpDuplex, ChirpToneMode,} from '@interfaces/chirp';
 import chalk from 'chalk';
 import {
-  buildDCS, filterOutputFrequencies,
-  filterMode,
-  FrequencyBand, RadioCommon, loadRepeaters, loadSimplex, Mode, radioCommon,
+  buildDCS,
+  filterOutputFrequencies,
+  FrequencyBand,
+  loadRepeaters,
+  loadSimplex,
+  RadioCommon,
+  radioCommon,
 } from '@helpers/radio-helpers';
-import { program } from 'commander';
+import {program} from 'commander';
 import gpsDistance from 'gps-distance';
-import { checkCoordinates, splitCoordinates } from '@helpers/helpers';
+import {checkCoordinates, splitCoordinates} from '@helpers/helpers';
 
 const log: (...msg: any[]) => void = createLog('Make Chirp');
 
@@ -43,7 +44,7 @@ log('Program Parse Args');
 program.parse(process.argv);
 
 async function doIt(location: gpsDistance.Point, outFileName: string): Promise<void> {
-  const simplex: RepeaterStructured[] = await loadSimplex(/FM Calling/i);
+  const simplex: RepeaterStructured[] = await loadSimplex(/FM|ISS|SAT/i);
   const repeaters: RepeaterStructured[] = await loadRepeaters(location);
 
   const mapped: Chirp[] = [
@@ -52,14 +53,15 @@ async function doIt(location: gpsDistance.Point, outFileName: string): Promise<v
         FrequencyBand.$2_m,
         FrequencyBand.$1_25_m,
         FrequencyBand.$70_cm,
-      )),
+      ))
+      .filter((filter) => filter.Callsign !== 'FM Simplex'),
     ...repeaters
       .filter(filterOutputFrequencies(
         FrequencyBand.$2_m,
         FrequencyBand.$1_25_m,
         FrequencyBand.$70_cm,
       ))
-      .filter(filterMode(Mode.FM)),
+      // .filter(filterMode(Mode.FM)),
   ]
     .map((map: RepeaterStructured): Chirp => convertToRadio(map));
 
@@ -70,16 +72,34 @@ async function doIt(location: gpsDistance.Point, outFileName: string): Promise<v
 async function saveSubset(mapped: Chirp[], length: number, fileName: string): Promise<void> {
   const subset: Chirp[] = mapped.slice(0, length);
 
-  const simplexChirp: Chirp[] = subset
-    .filter((filter: Chirp): boolean => filter.Duplex === ChirpDuplex.Simplex && filter.Tone === ChirpToneMode.None);
+  const duplexFilter = (filter: Chirp): boolean => filter.Duplex !== ChirpDuplex.Simplex || filter.Tone !== ChirpToneMode.None;
+  // const fmOrDVFilter = (filter: Chirp): boolean => filter['Operating Mode'] === ChirpOperatingMode.FM || filter['Operating Mode'] === ChirpOperatingMode.DV;
+  const issOrSatFilter = (filter: Chirp): boolean => /^[A-Z]* ISS/.test(filter.Name) || /^[A-Z]* SAT/.test(filter.Name);
+  const sotaOrWarcFilter = (filter: Chirp): boolean => /^[A-Z]* SOTA/.test(filter.Name) || /^[A-Z]* WARC/.test(filter.Name);
 
-  const duplexChirp: Chirp[] = subset
-    .filter((filter: Chirp): boolean => filter.Duplex !== ChirpDuplex.Simplex || filter.Tone !== ChirpToneMode.None)
+
+  const simplexChirp: Chirp[] = subset
+    .filter((filter: Chirp): boolean => !duplexFilter(filter) && !issOrSatFilter(filter) && !sotaOrWarcFilter(filter))
     .sort((a: Chirp, b: Chirp): number => a.Frequency - b.Frequency)
     .sort((a: Chirp, b: Chirp): number => a.Name > b.Name ? 1 : a.Name < b.Name ? - 1 : 0);
 
-  const recombine: Chirp[] = [...simplexChirp, ...duplexChirp]
-    .map((map: Chirp, index: number): Chirp => ({ ...map, Location: index }));
+  const sotaChirp: Chirp[] = subset
+    .filter((filter: Chirp): boolean => sotaOrWarcFilter(filter))
+    .sort((a: Chirp, b: Chirp): number => a.Frequency - b.Frequency)
+    .sort((a: Chirp, b: Chirp): number => a.Name > b.Name ? 1 : a.Name < b.Name ? - 1 : 0);
+
+  const issChirp: Chirp[] = subset
+    .filter((filter: Chirp): boolean => issOrSatFilter(filter))
+    .sort((a: Chirp, b: Chirp): number => a.Frequency - b.Frequency)
+    .sort((a: Chirp, b: Chirp): number => a.Name > b.Name ? 1 : a.Name < b.Name ? - 1 : 0);
+
+  const duplexChirp: Chirp[] = subset
+    .filter((filter: Chirp): boolean => duplexFilter(filter) && !issOrSatFilter(filter) && !sotaOrWarcFilter(filter))
+    .sort((a: Chirp, b: Chirp): number => a.Frequency - b.Frequency)
+    .sort((a: Chirp, b: Chirp): number => a.Name > b.Name ? 1 : a.Name < b.Name ? - 1 : 0);
+
+  const recombine: Chirp[] = [...simplexChirp, ...sotaChirp, ...issChirp, ...duplexChirp]
+    .map((map: Chirp, index: number): Chirp => ({ ...map, Name: map.Name.replace(/^FM /, '').trim().replace(/^SAT /, '').trim(), Location: index }));
 
   return writeToCsv(fileName, recombine);
 }
@@ -128,7 +148,7 @@ function convertToRadio(repeater: RepeaterStructured): Chirp {
     Name,
     Frequency: Receive,
     Duplex: convertOffsetDirection(OffsetFrequency),
-    Offset: Math.round(Math.abs(Transmit - Receive) * 10) / 10,
+    Offset: Transmit, // Math.round(Transmit - Receive * 10000) / 10000,
     Tone: ToneMode,
     rToneFreq: CTCSS,
     cToneFreq: Rx_CTCSS,
@@ -141,10 +161,12 @@ function convertToRadio(repeater: RepeaterStructured): Chirp {
 function convertOffsetDirection(OffsetFrequency: number): ChirpDuplex {
   if (OffsetFrequency === 0) {
     return ChirpDuplex.Simplex;
-  } else if (OffsetFrequency < 0) {
-    return ChirpDuplex.Minus;
-  } else if (OffsetFrequency > 0) {
-    return ChirpDuplex.Plus;
+  // } else if (OffsetFrequency < 0) {
+  //   return ChirpDuplex.Minus;
+  // } else if (OffsetFrequency > 0) {
+  //   return ChirpDuplex.Plus;
+  } else {
+    return ChirpDuplex.Split
   }
   log(chalk.red('ERROR'), 'convertOffsetDirection', 'unknown', OffsetFrequency);
   return ChirpDuplex.Simplex;

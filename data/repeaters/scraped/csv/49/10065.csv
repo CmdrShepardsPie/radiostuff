@@ -1,2 +1,2 @@
-Frequency,Offset,Tone,Call,Location,ST/PR,Use,VOIP,DGTL,Mi,Dir,,state_id,ID,Latitude,Longitude,Downlink,Uplink,Uplink Tone,County,On-air,Sponsor,FM,Analog Bandwidth,Coordination,Last update
-927.5125,-25,103.5,AF7FH,Wellsville,UT,OPEN,,,115.31,E,,49,10065,41.63850021,-111.93399811,927.5125,902.5125,103.5,Cache,Unknown,BARC,Yes; analog capable.,,UVHFS,2014-03-15
+Frequency,Offset,Tone,Call,Location,ST/PR,Use,Mode,Mi,Dir,,state_id,ID,Latitude,Longitude,Downlink,Uplink,Uplink Tone,County,On-air,Sponsor,FM,Analog Bandwidth,Coordination,Last update
+927.5125,-25,103.5,AF7FH,Wellsville,UT,OPEN,FM,115.31,E,,49,10065,41.63850021,-111.93399811,927.5125,902.5125,103.5,Cache,Unknown,BARC,Yes; analog capable.,,UVHFS,2014-03-15

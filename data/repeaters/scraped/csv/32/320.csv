@@ -1,2 +1,2 @@
-Frequency,Offset,Tone,Call,Location,ST/PR,Use,VOIP,DGTL,Mi,Dir,,state_id,ID,Latitude,Longitude,Downlink,Uplink,County,On-air,Features,FM,Analog Bandwidth,Last update
-440.325,5,,KI6V,Elko,NV,OPEN,,,101.11,W,,32,320,40.83599854,-115.76699829,440.325,445.325,Elko,Unknown,50,Yes; analog capable.,,
+Frequency,Offset,Tone,Call,Location,ST/PR,Use,Mode,Mi,Dir,,state_id,ID,Latitude,Longitude,Downlink,Uplink,County,On-air,Features,FM,Analog Bandwidth,Last update
+440.325,5,,KI6V,Elko,NV,OPEN,FM,101.11,W,,32,320,40.83599854,-115.76699829,440.325,445.325,Elko,Unknown,50,Yes; analog capable.,,

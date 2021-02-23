@@ -1,2 +1,2 @@
-Frequency,Offset,Tone,Call,Location,ST/PR,Use,VOIP,DGTL,Mi,Dir,,state_id,ID,Latitude,Longitude,Downlink,Uplink,Uplink Tone,County,Op Status,Coverage,Features,FM,Analog Bandwidth,Links,Coordination,Last update
-449.325,-5,156.7,N7RRZ,Logan,UT,OPEN,,,125.71,E,,49,154,41.76860046,-111.80400085,449.325,444.325,156.7,Cache,On-Air,Logan and immediately surrounding communities.,4,Yes; analog capable.,,"Full-time to 147.24000 (N7RRZ) at Logan, UT .",UVHFS,2014-02-02
+Frequency,Offset,Tone,Call,Location,ST/PR,Use,Mode,Mi,Dir,,state_id,ID,Latitude,Longitude,Downlink,Uplink,Uplink Tone,County,Op Status,Coverage,Features,FM,Analog Bandwidth,Links,Coordination,Last update
+449.325,-5,156.7,N7RRZ,Logan,UT,OPEN,FM,125.71,E,,49,154,41.76860046,-111.80400085,449.325,444.325,156.7,Cache,On-Air,Logan and immediately surrounding communities.,4,Yes; analog capable.,,"Full-time to 147.24000 (N7RRZ) at Logan, UT .",UVHFS,2014-02-02

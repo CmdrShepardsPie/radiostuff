@@ -6,8 +6,7 @@
   "Location": "Salt Lake City, Farnsworth Peak",
   "ST/PR": "UT",
   "Use": "OPEN",
-  "VOIP": "",
-  "DGTL": "",
+  "Mode": "FM",
   "Mi": 85.98,
   "Dir": "ESE",
   "": "",
@@ -28,5 +27,5 @@
   "Commands": "Synchroneous.",
   "Nets": "UARC: Sun at 21:00.",
   "Coordination": "UVHFS",
-  "Last update": "2018-08-08"
+  "Last update": "2020-11-08"
 }

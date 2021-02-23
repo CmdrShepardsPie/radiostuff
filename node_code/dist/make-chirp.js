@@ -40,14 +40,15 @@ var __importDefault = (this && this.__importDefault) || function (mod) {
     log('Program Parse Args');
     commander_1.program.parse(process.argv);
     async function doIt(location, outFileName) {
-        const simplex = await radio_helpers_1.loadSimplex(/FM Calling/i);
+        const simplex = await radio_helpers_1.loadSimplex(/FM|ISS|SAT/i);
         const repeaters = await radio_helpers_1.loadRepeaters(location);
         const mapped = [
             ...simplex
-                .filter(radio_helpers_1.filterOutputFrequencies(radio_helpers_1.FrequencyBand.$2_m, radio_helpers_1.FrequencyBand.$1_25_m, radio_helpers_1.FrequencyBand.$70_cm)),
+                .filter(radio_helpers_1.filterOutputFrequencies(radio_helpers_1.FrequencyBand.$2_m, radio_helpers_1.FrequencyBand.$1_25_m, radio_helpers_1.FrequencyBand.$70_cm))
+                .filter((filter) => filter.Callsign !== 'FM Simplex'),
             ...repeaters
                 .filter(radio_helpers_1.filterOutputFrequencies(radio_helpers_1.FrequencyBand.$2_m, radio_helpers_1.FrequencyBand.$1_25_m, radio_helpers_1.FrequencyBand.$70_cm))
-                .filter(radio_helpers_1.filterMode(radio_helpers_1.Mode.FM)),
+            // .filter(filterMode(Mode.FM)),
         ]
             .map((map) => convertToRadio(map));
         await saveSubset(mapped, 128, `${outFileName}-128`);
@@ -55,14 +56,28 @@ var __importDefault = (this && this.__importDefault) || function (mod) {
     }
     async function saveSubset(mapped, length, fileName) {
         const subset = mapped.slice(0, length);
+        const duplexFilter = (filter) => filter.Duplex !== chirp_1.ChirpDuplex.Simplex || filter.Tone !== chirp_1.ChirpToneMode.None;
+        // const fmOrDVFilter = (filter: Chirp): boolean => filter['Operating Mode'] === ChirpOperatingMode.FM || filter['Operating Mode'] === ChirpOperatingMode.DV;
+        const issOrSatFilter = (filter) => /^[A-Z]* ISS/.test(filter.Name) || /^[A-Z]* SAT/.test(filter.Name);
+        const sotaOrWarcFilter = (filter) => /^[A-Z]* SOTA/.test(filter.Name) || /^[A-Z]* WARC/.test(filter.Name);
         const simplexChirp = subset
-            .filter((filter) => filter.Duplex === chirp_1.ChirpDuplex.Simplex && filter.Tone === chirp_1.ChirpToneMode.None);
-        const duplexChirp = subset
-            .filter((filter) => filter.Duplex !== chirp_1.ChirpDuplex.Simplex || filter.Tone !== chirp_1.ChirpToneMode.None)
+            .filter((filter) => !duplexFilter(filter) && !issOrSatFilter(filter) && !sotaOrWarcFilter(filter))
             .sort((a, b) => a.Frequency - b.Frequency)
             .sort((a, b) => a.Name > b.Name ? 1 : a.Name < b.Name ? -1 : 0);
-        const recombine = [...simplexChirp, ...duplexChirp]
-            .map((map, index) => ({ ...map, Location: index }));
+        const sotaChirp = subset
+            .filter((filter) => sotaOrWarcFilter(filter))
+            .sort((a, b) => a.Frequency - b.Frequency)
+            .sort((a, b) => a.Name > b.Name ? 1 : a.Name < b.Name ? -1 : 0);
+        const issChirp = subset
+            .filter((filter) => issOrSatFilter(filter))
+            .sort((a, b) => a.Frequency - b.Frequency)
+            .sort((a, b) => a.Name > b.Name ? 1 : a.Name < b.Name ? -1 : 0);
+        const duplexChirp = subset
+            .filter((filter) => duplexFilter(filter) && !issOrSatFilter(filter) && !sotaOrWarcFilter(filter))
+            .sort((a, b) => a.Frequency - b.Frequency)
+            .sort((a, b) => a.Name > b.Name ? 1 : a.Name < b.Name ? -1 : 0);
+        const recombine = [...simplexChirp, ...sotaChirp, ...issChirp, ...duplexChirp]
+            .map((map, index) => ({ ...map, Name: map.Name.replace(/^FM /, '').trim().replace(/^SAT /, '').trim(), Location: index }));
         return fs_helpers_1.writeToCsv(fileName, recombine);
     }
     function convertToRadio(repeater) {
@@ -98,7 +113,7 @@ var __importDefault = (this && this.__importDefault) || function (mod) {
             Name,
             Frequency: Receive,
             Duplex: convertOffsetDirection(OffsetFrequency),
-            Offset: Math.round(Math.abs(Transmit - Receive) * 10) / 10,
+            Offset: Transmit,
             Tone: ToneMode,
             rToneFreq: CTCSS,
             cToneFreq: Rx_CTCSS,
@@ -110,12 +125,13 @@ var __importDefault = (this && this.__importDefault) || function (mod) {
     function convertOffsetDirection(OffsetFrequency) {
         if (OffsetFrequency === 0) {
             return chirp_1.ChirpDuplex.Simplex;
+            // } else if (OffsetFrequency < 0) {
+            //   return ChirpDuplex.Minus;
+            // } else if (OffsetFrequency > 0) {
+            //   return ChirpDuplex.Plus;
         }
-        else if (OffsetFrequency < 0) {
-            return chirp_1.ChirpDuplex.Minus;
-        }
-        else if (OffsetFrequency > 0) {
-            return chirp_1.ChirpDuplex.Plus;
+        else {
+            return chirp_1.ChirpDuplex.Split;
         }
         log(chalk_1.default.red('ERROR'), 'convertOffsetDirection', 'unknown', OffsetFrequency);
         return chirp_1.ChirpDuplex.Simplex;

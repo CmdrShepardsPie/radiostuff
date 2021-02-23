@@ -1,2 +1,2 @@
-Frequency,Offset,Tone,Call,Location,ST/PR,Use,VOIP,DGTL,Mi,Dir,,state_id,ID,Latitude,Longitude,Downlink,Uplink,Uplink Tone,County,Grid,Op Status,Coverage,Features,FM,Analog Bandwidth,Coordination,Last update
-224.78,-1.6,100,KD0J,"Salt Lake City, Jordan Vly Hospital",UT,OPEN,,,98.33,ESE,,49,97,40.59049988,-111.97499847,224.78,223.18,100,Salt Lake,DN40AO,On-Air,Salt Lake Valley communities from Salt Lake City to Draper.,5,Yes; analog capable.,,UVHFS,2013-11-12
+Frequency,Offset,Tone,Call,Location,ST/PR,Use,Mode,Mi,Dir,,state_id,ID,Latitude,Longitude,Downlink,Uplink,Uplink Tone,County,Grid,Op Status,Coverage,Features,FM,Analog Bandwidth,Coordination,Last update
+224.78,-1.6,100,KD0J,"Salt Lake City, Jordan Vly Hospital",UT,OPEN,FM,98.33,ESE,,49,97,40.59049988,-111.97499847,224.78,223.18,100,Salt Lake,DN40AO,On-Air,Salt Lake Valley communities from Salt Lake City to Draper.,5,Yes; analog capable.,,UVHFS,2013-11-12

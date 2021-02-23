@@ -1,2 +1,2 @@
-Frequency,Offset,Tone,Call,Location,ST/PR,Use,VOIP,DGTL,Mi,Dir,,state_id,ID,Latitude,Longitude,Downlink,Uplink,Uplink Tone,YSF Digital Enabled,DG-ID,County,Grid,Op Status,Coverage,FM,Analog Bandwidth,Notes,Coordination,Last update
-147.1,0.6,123,KB7ZCL,"Morgan, TV Site.",UT,OPEN,,Y,116.37,E,,49,90,41.09780121,-111.64600372,147.1,147.7,123,1,Open ↑ / Open ↓,Morgan,DN41EC,On-Air,City of Morgan and surrounding communities.,Yes; analog capable.,,5,UVHFS,2019-03-03
+Frequency,Offset,Tone,Call,Location,ST/PR,Use,Mode,Mi,Dir,,state_id,ID,Latitude,Longitude,Downlink,Uplink,Uplink Tone,YSF Digital Enabled,DG-ID,County,Grid,Op Status,Coverage,FM,Analog Bandwidth,Notes,Coordination,Last update
+147.1,0.6,123,KB7ZCL,"Morgan, TV Site.",UT,OPEN,FM Fusion,116.37,E,,49,90,41.09780121,-111.64600372,147.1,147.7,123,1,Open ↑ / Open ↓,Morgan,DN41EC,On-Air,City of Morgan and surrounding communities.,Yes; analog capable.,,5,UVHFS,2019-03-03

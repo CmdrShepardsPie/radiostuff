@@ -63,5 +63,6 @@
         ChirpDuplex["Simplex"] = "";
         ChirpDuplex["Minus"] = "-";
         ChirpDuplex["Plus"] = "+";
+        ChirpDuplex["Split"] = "split";
     })(ChirpDuplex = exports.ChirpDuplex || (exports.ChirpDuplex = {}));
 });

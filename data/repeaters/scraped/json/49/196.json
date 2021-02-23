@@ -6,8 +6,7 @@
   "Location": "Vernon, Black Crook Peak",
   "ST/PR": "UT",
   "Use": "OPEN",
-  "VOIP": "",
-  "DGTL": "",
+  "Mode": "FM",
   "Mi": 87.52,
   "Dir": "SE",
   "": "",
@@ -28,5 +27,5 @@
   "Analog Bandwidth": "",
   "Links": "Full-time to 146.98000 (W7EO) at Tooele, Black Mountain, UT .",
   "Coordination": "UVHFS",
-  "Last update": "2016-06-02"
+  "Last update": "2021-01-26"
 }

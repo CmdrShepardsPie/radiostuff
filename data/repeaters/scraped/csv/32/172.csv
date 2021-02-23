@@ -1,2 +1,2 @@
-Frequency,Offset,Tone,Call,Location,ST/PR,Use,VOIP,DGTL,Mi,Dir,,state_id,ID,Latitude,Longitude,Downlink,Uplink,Uplink Tone,County,Grid,On-air,Sponsor,Features,FM,Analog Bandwidth,Last update
-444.85,5,94.8,WA6TLW,"Battle Mountain, Mt Lewis",NV,CLOSED,,,160.91,W,,32,172,40.40390015,-116.86199951,444.85,449.85,94.8,Lander,DN10NJ,Unknown,WA6TLW,Linked.,Yes; analog capable.,,
+Frequency,Offset,Tone,Call,Location,ST/PR,Use,Mode,Mi,Dir,,state_id,ID,Latitude,Longitude,Downlink,Uplink,Uplink Tone,County,Grid,On-air,Sponsor,Features,FM,Analog Bandwidth,Last update
+444.85,5,94.8,WA6TLW,"Battle Mountain, Mt Lewis",NV,CLOSED,FM,160.91,W,,32,172,40.40390015,-116.86199951,444.85,449.85,94.8,Lander,DN10NJ,Unknown,WA6TLW,Linked.,Yes; analog capable.,,

@@ -1,2 +1,2 @@
-Frequency,Offset,Tone,Call,Location,ST/PR,Use,VOIP,DGTL,Mi,Dir,,state_id,ID,Latitude,Longitude,Downlink,Uplink,Uplink Tone,County,Grid,Op Status,Coverage,Sponsor,Features,FM,Analog Bandwidth,Coordination,Last update
-448.45,-5,131.8,K7OGM,"Laketown, Bear Lake",UT,CLOSED,,,153.44,E,,49,6638,41.88249969,-111.26899719,448.45,443.45,131.8,Rich,DN41IV,On-Air,Wide area: Bear Lake and surrounding communities.,Desert ARS,7,Yes; analog capable.,,UVHFS,2013-05-19
+Frequency,Offset,Tone,Call,Location,ST/PR,Use,Mode,Mi,Dir,,state_id,ID,Latitude,Longitude,Downlink,Uplink,Uplink Tone,County,Grid,Op Status,Coverage,Sponsor,Features,FM,Analog Bandwidth,Coordination,Last update
+448.45,-5,131.8,K7OGM,"Laketown, Bear Lake",UT,CLOSED,FM,153.44,E,,49,6638,41.88249969,-111.26899719,448.45,443.45,131.8,Rich,DN41IV,On-Air,Wide area: Bear Lake and surrounding communities.,Desert ARS,7,Yes; analog capable.,,UVHFS,2013-05-19

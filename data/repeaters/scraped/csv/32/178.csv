@@ -1,2 +1,2 @@
-Frequency,Offset,Tone,Call,Location,ST/PR,Use,VOIP,DGTL,Mi,Dir,,state_id,ID,Latitude,Longitude,Downlink,Uplink,Uplink Tone,County,On-air,Sponsor,Affiliate,Features,FM,Analog Bandwidth,Last update
-444.2,5,100,W7LKO,Carlin,NV,OPEN,,,118.8,W,,32,178,40.71390152,-116.10299683,444.2,449.2,100,Elko,Unknown,N7EV,Elko ARC,100,Yes; analog capable.,,
+Frequency,Offset,Tone,Call,Location,ST/PR,Use,Mode,Mi,Dir,,state_id,ID,Latitude,Longitude,Downlink,Uplink,Uplink Tone,County,On-air,Sponsor,Affiliate,Features,FM,Analog Bandwidth,Last update
+444.2,5,100,W7LKO,Carlin,NV,OPEN,FM,118.8,W,,32,178,40.71390152,-116.10299683,444.2,449.2,100,Elko,Unknown,N7EV,Elko ARC,100,Yes; analog capable.,,

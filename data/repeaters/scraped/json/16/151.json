@@ -6,8 +6,7 @@
   "Location": "Pocatello",
   "ST/PR": "ID",
   "Use": "OPEN",
-  "VOIP": "",
-  "DGTL": "",
+  "Mode": "FM",
   "Mi": 161.34,
   "Dir": "NNE",
   "": "",
@@ -18,9 +17,9 @@
   "Downlink": 147.34,
   "Uplink": 147.94,
   "County": "Bannock",
-  "On-air": "Unknown",
+  "Op Status": "Off-Air",
   "FM": "Yes; analog capable.",
   "Analog Bandwidth": "",
   "Coordination": "UVHFS",
-  "Last update": ""
+  "Last update": "2020-12-30"
 }

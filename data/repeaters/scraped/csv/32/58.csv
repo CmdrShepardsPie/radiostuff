@@ -1,2 +1,2 @@
-Frequency,Offset,Tone,Call,Location,ST/PR,Use,VOIP,DGTL,Mi,Dir,,state_id,ID,Latitude,Longitude,Downlink,Uplink,Uplink Tone,County,Op Status,Coverage,Sponsor,Features,FM,Analog Bandwidth,Last update
-147.27,0.6,100,W7GK,Jackpot,NV,OPEN,,,93.61,NNW,,32,58,41.97999954,-114.66999817,147.27,147.87,100,Elko,On-Air,"North to Twin Falls, south to I-80, east to Hwy 93, and west to Hwy 229. Map",W7GK,100,Yes; analog capable.,,2012-05-19
+Frequency,Offset,Tone,Call,Location,ST/PR,Use,Mode,Mi,Dir,,state_id,ID,Latitude,Longitude,Downlink,Uplink,Uplink Tone,County,Op Status,Coverage,Sponsor,Features,FM,Analog Bandwidth,Last update
+147.27,0.6,100,W7GK,Jackpot,NV,OPEN,FM,93.61,NNW,,32,58,41.97999954,-114.66999817,147.27,147.87,100,Elko,On-Air,"North to Twin Falls, south to I-80, east to Hwy 93, and west to Hwy 229. Map",W7GK,100,Yes; analog capable.,,2012-05-19

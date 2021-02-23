@@ -1,2 +1,2 @@
-Frequency,Offset,Tone,Call,Location,ST/PR,Use,VOIP,DGTL,Mi,Dir,,state_id,ID,Latitude,Longitude,Downlink,Uplink,Uplink Tone,County,Op Status,Sponsor,Affiliate,FM,Analog Bandwidth,Nets,Coordination,Last update
-145.33,-0.6,123,K7ACA,"Burley, Mt Harrison",ID,OPEN,,,106.53,N,,16,5325,42.31470108,-113.65799713,145.33,144.73,123,Cassia,On-Air,Idaho LDS ERC,LDS Emergency Response Communications service,Yes; analog capable.,,Wed at 20:00.,W7ZRQ,2015-03-25
+Frequency,Offset,Tone,Call,Location,ST/PR,Use,Mode,Mi,Dir,,state_id,ID,Latitude,Longitude,Downlink,Uplink,Uplink Tone,County,Op Status,Coverage,Sponsor,Affiliate,FM,Analog Bandwidth,Nets,Coordination,Last update
+145.33,-0.6,123,K7ACA,"Burley, Mt Harrison",ID,OPEN,FM,106.53,N,,16,5325,42.31470108,-113.65799713,145.33,144.73,123,Cassia,On-Air,Burley area.,Idaho LDS ERC,LDS Emergency Response Communications service,Yes; analog capable.,25,Wed at 20:00.,W7ZRQ,2020-12-29

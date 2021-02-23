@@ -1,0 +1,2 @@
+Frequency,Offset,Tone,Call,Location,ST/PR,Use,Mode,Mi,Dir,,state_id,ID,Latitude,Longitude,Downlink,Uplink,D-STAR Enabled,Node,Sources,County,Op Status,Coordination,Last update
+145.175,-0.6,,N7RDS,Riverside,UT,OPEN,DSTAR,111.97,NE,,49,19774,41.7888158,-112.1488425,145.175,144.575,1,N7RDS (C) Gateway Repeater,jfindu lookup / dstar-users lookup,Box Elder,On-Air,UVHFS,2021-02-13

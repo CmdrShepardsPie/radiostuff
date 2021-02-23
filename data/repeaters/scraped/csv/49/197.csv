@@ -1,2 +1,2 @@
-Frequency,Offset,Tone,Call,Location,ST/PR,Use,VOIP,DGTL,Mi,Dir,,state_id,ID,Latitude,Longitude,Downlink,Uplink,Uplink Tone,County,Grid,Op Status,Coverage,Sponsor,FM,Analog Bandwidth,Coordination,Last update
-147.3,0.6,100,W7EO,"Tooele, South Mountain",UT,OPEN,,,77.98,SE,,49,197,40.45999908,-112.40899658,147.3,147.9,100,Tooele,DN30TL,On-Air,Wasatch Front from Payson to the Utah/Idaho border.,West Desert ARC,Yes; analog capable.,,UVHFS,2014-01-20
+Frequency,Offset,Tone,Call,Location,ST/PR,Use,Mode,Mi,Dir,,state_id,ID,Latitude,Longitude,Downlink,Uplink,Uplink Tone,County,Grid,Op Status,Coverage,Sponsor,FM,Analog Bandwidth,Coordination,Last update
+147.3,0.6,100,W7EO,"Tooele, South Mountain",UT,OPEN,FM,77.98,SE,,49,197,40.45999908,-112.40899658,147.3,147.9,100,Tooele,DN30TL,On-Air,Wasatch Front from Payson to the Utah/Idaho border.,West Desert ARC,Yes; analog capable.,,UVHFS,2014-01-20

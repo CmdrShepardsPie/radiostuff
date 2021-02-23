@@ -1,2 +1,2 @@
-Frequency,Offset,Tone,Call,Location,ST/PR,Use,VOIP,DGTL,Mi,Dir,,state_id,ID,Latitude,Longitude,Downlink,Uplink,Uplink Tone,County,Grid,Op Status,Coverage,Sponsor,Features,FM,Analog Bandwidth,Coordination,Last update
-447.025,-5,100,W0HU,Salt Lake City,UT,OPEN,,,98.79,ESE,,49,150,40.78229904,-111.9469986,447.025,442.025,100,Salt Lake,DN40as,On-Air,Wide area.,Salt Lake Co ARES,4,Yes; analog capable.,,UVHFS,2018-01-11
+Frequency,Offset,Tone,Call,Location,ST/PR,Use,Mode,Mi,Dir,,state_id,ID,Latitude,Longitude,Downlink,Uplink,Uplink Tone,County,Grid,Op Status,Coverage,Sponsor,Features,FM,Analog Bandwidth,Coordination,Last update
+447.025,-5,100,W0HU,Salt Lake City,UT,OPEN,FM,98.79,ESE,,49,150,40.78229904,-111.9469986,447.025,442.025,100,Salt Lake,DN40as,On-Air,Wide area.,Salt Lake Co ARES,4,Yes; analog capable.,,UVHFS,2018-01-11

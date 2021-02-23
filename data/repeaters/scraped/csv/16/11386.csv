@@ -1,2 +1,2 @@
-Frequency,Offset,Tone,Call,Location,ST/PR,Use,VOIP,DGTL,Mi,Dir,,state_id,ID,Latitude,Longitude,Downlink,Uplink,County,Op Status,Coverage,FM,Analog Bandwidth,Last update
-447.95,-5,,WB6EVM,Blackfoot,ID,PRIVATE,,,183.37,NNE,,16,11386,43.19049835,-112.34500122,447.95,442.95,Bingham,On-Air,Bingham County,Yes; analog capable.,,2014-04-21
+Frequency,Offset,Tone,Call,Location,ST/PR,Use,Mode,Mi,Dir,,state_id,ID,Latitude,Longitude,Downlink,Uplink,County,Op Status,Coverage,FM,Analog Bandwidth,Last update
+447.95,-5,,WB6EVM,Blackfoot,ID,PRIVATE,FM,183.37,NNE,,16,11386,43.19049835,-112.34500122,447.95,442.95,Bingham,On-Air,Bingham County,Yes; analog capable.,,2014-04-21

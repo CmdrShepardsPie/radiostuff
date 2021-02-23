@@ -1,2 +1,2 @@
-Frequency,Offset,Tone,Call,Location,ST/PR,Use,VOIP,DGTL,Mi,Dir,,state_id,ID,Latitude,Longitude,Downlink,Uplink,Uplink Tone,Downlink Tone,County,Op Status,Sponsor,FM,Analog Bandwidth,Links,AllStar,Last update
-447.225,-5,110.9,N6LXX,"Las Vegas, Low Potosi",NV,OPEN,A,,193.54,SW,,32,15222,38.80260086,-116.41899872,447.225,442.225,110.9,110.9,Clark,On-Air,N6LXX,Yes; analog capable.,,Full-time to the N6LXX System .,29883,2016-10-23
+Frequency,Offset,Tone,Call,Location,ST/PR,Use,Mode,Mi,Dir,,state_id,ID,Latitude,Longitude,Downlink,Uplink,Uplink Tone,Downlink Tone,County,Op Status,Sponsor,FM,Analog Bandwidth,Links,AllStar,Last update
+447.225,-5,110.9,N6LXX,"Las Vegas, Low Potosi",NV,OPEN,FM AllStar,193.54,SW,,32,15222,38.80260086,-116.41899872,447.225,442.225,110.9,110.9,Clark,On-Air,N6LXX,Yes; analog capable.,,Full-time to the N6LXX System .,29883,2016-10-23

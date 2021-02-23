@@ -1,2 +1,2 @@
-Frequency,Offset,Tone,Call,Location,ST/PR,Use,VOIP,DGTL,Mi,Dir,,state_id,ID,Latitude,Longitude,Downlink,Uplink,D-STAR Enabled,Node,Sources,County,Grid,Op Status,Coverage,Last update
-449.575,-5,,NU7TS,Wellsville,UT,OPEN,,S,113.56,E,,49,4238,41.6114006,-111.95200348,449.575,444.575,1,NU7TS (B),jfindu lookup / dstar-users lookup,Cache,DN41AO,On-Air,,2015-06-06
+Frequency,Offset,Tone,Call,Location,ST/PR,Use,Mode,Mi,Dir,,state_id,ID,Latitude,Longitude,Downlink,Uplink,D-STAR Enabled,Node,Sources,County,Grid,Op Status,Coverage,Last update
+449.575,-5,,NU7TS,Wellsville,UT,OPEN,DSTAR,113.56,E,,49,4238,41.6114006,-111.95200348,449.575,444.575,1,NU7TS (B),jfindu lookup / dstar-users lookup,Cache,DN41AO,On-Air,,2015-06-06

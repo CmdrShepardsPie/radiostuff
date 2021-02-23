@@ -1,2 +1,2 @@
-Frequency,Offset,Tone,Call,Location,ST/PR,Use,VOIP,DGTL,Mi,Dir,,state_id,ID,Latitude,Longitude,Downlink,Uplink,Uplink Tone,County,Grid,On-air,Affiliate,Features,FM,Analog Bandwidth,Links,Last update
-927.4875,-25,100,KE7LKO,"Elko, Adobe Smt",NV,OPEN,,,106.73,W,,32,354,40.90679932,-115.87000275,927.4875,902.4875,100,Elko,DN20BV,Unknown,Elko County Ham Operators,15,Yes; analog capable.,,"Full-time to 53.01000 (KE7LKO) at Elko, Adobe, NV .",
+Frequency,Offset,Tone,Call,Location,ST/PR,Use,Mode,Mi,Dir,,state_id,ID,Latitude,Longitude,Downlink,Uplink,Uplink Tone,County,Grid,On-air,Affiliate,Features,FM,Analog Bandwidth,Links,Last update
+927.4875,-25,100,KE7LKO,"Elko, Adobe Smt",NV,OPEN,FM,106.73,W,,32,354,40.90679932,-115.87000275,927.4875,902.4875,100,Elko,DN20BV,Unknown,Elko County Ham Operators,15,Yes; analog capable.,,"Full-time to 53.01000 (KE7LKO) at Elko, Adobe, NV .",

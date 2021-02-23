@@ -1,2 +1,2 @@
-Frequency,Offset,Tone,Call,Location,ST/PR,Use,VOIP,DGTL,Mi,Dir,,state_id,ID,Latitude,Longitude,Downlink,Uplink,Uplink Tone,County,On-air,FM,Analog Bandwidth,Coordination,Last update
-448.925,-5,100,N7PKI,Mendon,UT,OPEN,,,115.97,NE,,49,15764,41.7098999,-111.97799683,448.925,443.925,100,Cache,Unknown,Yes; analog capable.,,UVHFS,2017-02-13
+Frequency,Offset,Tone,Call,Location,ST/PR,Use,Mode,Mi,Dir,,state_id,ID,Latitude,Longitude,Downlink,Uplink,Uplink Tone,County,On-air,FM,Analog Bandwidth,Coordination,Last update
+448.925,-5,100,N7PKI,Mendon,UT,OPEN,FM,115.97,NE,,49,15764,41.7098999,-111.97799683,448.925,443.925,100,Cache,Unknown,Yes; analog capable.,,UVHFS,2017-02-13

@@ -6,8 +6,7 @@
   "Location": "Burley, Mt Harrison",
   "ST/PR": "ID",
   "Use": "OPEN",
-  "VOIP": "W",
-  "DGTL": "Y",
+  "Mode": "Fusion WIRES-X",
   "Mi": 106.53,
   "Dir": "N",
   "": "",
@@ -30,5 +29,5 @@
   "Notes": 9,
   "Nets": "MVARC Room 43210: Thu at 18:45",
   "Coordination": "UVHFS",
-  "Last update": "2018-11-22"
+  "Last update": "2021-01-28"
 }

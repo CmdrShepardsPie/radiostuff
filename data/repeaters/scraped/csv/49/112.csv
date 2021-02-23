@@ -1,2 +1,2 @@
-Frequency,Offset,Tone,Call,Location,ST/PR,Use,VOIP,DGTL,Mi,Dir,,state_id,ID,Latitude,Longitude,Downlink,Uplink,Uplink Tone,County,On-air,Coverage,FM,Analog Bandwidth,Coordination,Last update
-145.41,-0.6,D125,KE7GHK,"Salt Lake, Carrigan Ridge",UT,OPEN,,,102.7,ESE,,49,112,40.56980133,-111.89499664,145.41,144.81,D125,Salt Lake,Unknown,Salt Lake Valley communities from Salt Lake City to Draper.,Yes; analog capable.,,UVHFS,2013-08-05
+Frequency,Offset,Tone,Call,Location,ST/PR,Use,Mode,Mi,Dir,,state_id,ID,Latitude,Longitude,Downlink,Uplink,Uplink Tone,County,On-air,Coverage,FM,Analog Bandwidth,Coordination,Last update
+145.41,-0.6,D125,KE7GHK,"Salt Lake, Carrigan Ridge",UT,OPEN,FM,102.7,ESE,,49,112,40.56980133,-111.89499664,145.41,144.81,D125,Salt Lake,Unknown,Salt Lake Valley communities from Salt Lake City to Draper.,Yes; analog capable.,,UVHFS,2013-08-05
