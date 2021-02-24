@@ -307,7 +307,7 @@ Channel Number,Receive Frequency,Transmit Frequency,Offset Frequency,Offset Dire
 306,147.27000,147.87000,600 kHz,Plus,Auto,ITT Silverton Engineer Mountain,Large,Tone,127.3 Hz,023,High,Off,Auto,Off,8 208 335.00 CO San Juan Silverton Engineer Mountain KB5ITT,1500 Hz
 307,147.24000,147.84000,600 kHz,Plus,Auto,J0T Pueblo,Large,Tone,103.5 Hz,023,High,Off,Auto,Off,8 3747 170.00 CO Pueblo Pueblo KJ0T,1500 Hz
 308,449.90000,444.90000,5.00 MHz,Minus,Auto,JJY Cheyenne,Large,T Sql,100.0 Hz,023,High,Off,Auto,Off,56 15518 157.00 WY Laramie Cheyenne N7JJY,1500 Hz
-309,447.55000,442.55000,5.00 MHz,Minus,Auto,JJY Cheyenne Chalk Bluffs,Large,None,100.0 Hz,023,High,Off,Auto,Off,56 19687 145.00 WY Laramie Cheyenne Chalk Bluffs N7JJY,1500 Hz
+309,447.55000,442.55000,5.00 MHz,Minus,Auto,JJY Cheyenne Chalk Bluffs,Large,Tone,114.8 Hz,023,High,Off,Auto,Off,56 19687 145.00 WY Laramie Cheyenne Chalk Bluffs N7JJY,1500 Hz
 310,449.30000,444.30000,5.00 MHz,Minus,Auto,JJY Cheyenne Chalk Bluffs,Large,T Sql,131.8 Hz,023,High,Off,Auto,Off,56 34 145.00 WY Laramie Cheyenne Chalk Bluffs N7JJY,1500 Hz
 311,444.40000,449.40000,5.00 MHz,Plus,Auto,JNI Wagon Mound,Large,Tone,100.0 Hz,023,High,Off,Auto,Off,35 181 415.00 NM Mora Wagon Mound N7JNI,1500 Hz
 312,448.32500,443.32500,5.00 MHz,Minus,Auto,JNQ Torrington,Large,Tone,151.4 Hz,023,High,Off,Auto,Off,56 17395 267.00 WY Goshen Torrington KD7JNQ,1500 Hz
@@ -356,7 +356,7 @@ Channel Number,Receive Frequency,Transmit Frequency,Offset Frequency,Offset Dire
 355,146.70000,146.10000,600 kHz,Minus,Auto,OQA Scott City,Large,T Sql,141.3 Hz,023,High,Off,Auto,Off,20 3940 371.00 KS Scott Scott City WA0OQA,1500 Hz
 356,447.50000,442.50000,5.00 MHz,Minus,Auto,OWY Conifer Critchell Mountain,Large,T Sql,88.5 Hz,023,High,Off,Auto,Off,8 60 36.00 CO Jefferson Conifer Critchell Mountain N0OWY,1500 Hz
 357,447.60000,442.60000,5.00 MHz,Minus,Auto,OXW Firstview,Large,Tone,103.5 Hz,023,High,Off,Auto,Off,8 17703 233.00 CO Cheyenne Firstview KD0OXW,1500 Hz
-358,447.15000,442.15000,5.00 MHz,Minus,Auto,OXW Hugo,Large,None,100.0 Hz,023,High,Off,Auto,Off,8 17059 148.00 CO Lincoln Hugo KD0OXW,1500 Hz
+358,447.15000,442.15000,5.00 MHz,Minus,Auto,OXW Hugo,Large,Tone,103.5 Hz,023,High,Off,Auto,Off,8 17059 148.00 CO Lincoln Hugo KD0OXW,1500 Hz
 359,447.65000,442.65000,5.00 MHz,Minus,Auto,OXW Limon Cedar Point,Large,Tone,103.5 Hz,023,High,Off,Auto,Off,8 18718 107.00 CO Lincoln Limon Cedar Point KD0OXW,1500 Hz
 360,146.76000,146.16000,600 kHz,Minus,Auto,OZU Rawlins,Large,Tone,100.0 Hz,023,High,Off,Auto,Off,56 43 298.00 WY Carbon Rawlins KC7OZU,1500 Hz
 361,146.88000,146.28000,600 kHz,Minus,Auto,PDO Los Alamos Barranca Mesa,Large,None,100.0 Hz,023,High,Off,Auto,Off,35 194 442.00 NM Los Alamos Los Alamos Barranca Mesa W5PDO,1500 Hz
@@ -409,7 +409,7 @@ Channel Number,Receive Frequency,Transmit Frequency,Offset Frequency,Offset Dire
 408,147.13500,147.73500,600 kHz,Plus,Auto,SOK Cozad,Large,Tone,123.0 Hz,023,High,Off,Auto,Off,31 30 443.00 NE Dawson Cozad W0SOK,1500 Hz
 409,146.97000,146.37000,600 kHz,Minus,Auto,SRJ Colorado Springs Pikes Peak,Large,Tone,100.0 Hz,023,High,Off,Auto,Off,8 44 100.00 CO El Paso Colorado Springs Pikes Peak KB0SRJ,1500 Hz
 410,448.45000,443.45000,5.00 MHz,Minus,Auto,SRJ Colorado Springs Pikes Peak,Large,Tone,100.0 Hz,023,High,Off,Auto,Off,8 54 100.00 CO El Paso Colorado Springs Pikes Peak KB0SRJ,1500 Hz
-411,145.26500,144.66500,600 kHz,Minus,Auto,SRJ Colorado Springs ~2 mi ENE U,Large,None,100.0 Hz,023,High,Off,Auto,Off,8 39 115.00 CO El Paso Colorado Springs ~2 mi ENE USAFA North Gate KB0SRJ,1500 Hz
+411,145.26500,144.66500,600 kHz,Minus,Auto,SRJ Colorado Springs ~2 mi ENE U,Large,Tone,100.0 Hz,023,High,Off,Auto,Off,8 39 115.00 CO El Paso Colorado Springs ~2 mi ENE USAFA North Gate KB0SRJ,1500 Hz
 412,448.80000,443.80000,5.00 MHz,Minus,Auto,SRJ Colorado Springs ~2 mi ENE U,Large,Tone,100.0 Hz,023,High,Off,Auto,Off,8 57 80.00 CO El Paso Colorado Springs ~2 mi ENE USAFA North Gate KB0SRJ,1500 Hz
 413,147.10500,147.70500,600 kHz,Plus,Auto,SSI Grand Junction,Large,None,100.0 Hz,023,High,Off,Auto,Off,8 8175 317.00 CO Mesa Grand Junction K0SSI,1500 Hz
 414,447.95000,442.95000,5.00 MHz,Minus,Auto,SSP Dillon Dillon Res.,Large,None,100.0 Hz,023,High,Off,Auto,Off,8 19242 95.00 CO Summit Dillon Dillon Res. KD0SSP,1500 Hz

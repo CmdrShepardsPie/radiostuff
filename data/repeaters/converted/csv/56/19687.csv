@@ -1,2 +1,2 @@
-ID,StateID,Callsign,Use,Status,SquelchTone,DigitalTone,VOIP,Location.Latitude,Location.Longitude,Location.County,Location.State,Location.Local,Frequency.Input,Frequency.Output,Digital.DMR,Digital.P25,Digital.DStar,Digital.NXDN,Digital.YSF.GroupID.Input,Digital.YSF.GroupID.Output
-19687,56,N7JJY,Open,On-Air,,,,41.02740097,-104.78399658,Laramie,WY,"Cheyenne, Chalk Bluffs",442.55,447.55,,,,,Open ↑,Open ↓
+ID,StateID,Callsign,Use,Status,DigitalTone,VOIP,Location.Latitude,Location.Longitude,Location.County,Location.State,Location.Local,Frequency.Input,Frequency.Output,SquelchTone.Input,SquelchTone.Output,Digital.DMR,Digital.P25,Digital.DStar,Digital.NXDN,Digital.YSF.GroupID.Input,Digital.YSF.GroupID.Output
+19687,56,N7JJY,Open,On-Air,,,41.02740097,-104.78399658,Laramie,WY,"Cheyenne, Chalk Bluffs",442.55,447.55,114.8,,,,,,Open ↑,Open ↓

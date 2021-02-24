@@ -15,6 +15,9 @@
     "Input": 144.665,
     "Output": 145.265
   },
+  "SquelchTone": {
+    "Input": 100
+  },
   "Digital": {
     "YSF": {
       "GroupID": {

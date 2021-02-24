@@ -1,2 +1,2 @@
-ID,StateID,Callsign,Use,Status,SquelchTone,DigitalTone,VOIP,Location.Latitude,Location.Longitude,Location.County,Location.State,Location.Local,Frequency.Input,Frequency.Output,Digital.DMR,Digital.P25,Digital.DStar,Digital.NXDN,Digital.YSF.GroupID.Input,Digital.YSF.GroupID.Output
-39,8,KB0SRJ,Open,On-Air,,,,38.70000076,-104.90000153,El Paso,CO,"Colorado Springs, ~2 mi ENE USAFA North Gate",144.665,145.265,,,,,Open ↑,Open ↓
+ID,StateID,Callsign,Use,Status,DigitalTone,VOIP,Location.Latitude,Location.Longitude,Location.County,Location.State,Location.Local,Frequency.Input,Frequency.Output,SquelchTone.Input,SquelchTone.Output,Digital.DMR,Digital.P25,Digital.DStar,Digital.NXDN,Digital.YSF.GroupID.Input,Digital.YSF.GroupID.Output
+39,8,KB0SRJ,Open,On-Air,,,38.70000076,-104.90000153,El Paso,CO,"Colorado Springs, ~2 mi ENE USAFA North Gate",144.665,145.265,100,,,,,,Open ↑,Open ↓
