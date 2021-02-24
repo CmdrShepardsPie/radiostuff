@@ -1,2 +1,2 @@
-ID,StateID,Callsign,Use,Status,SquelchTone,DigitalTone,VOIP,Location.Latitude,Location.Longitude,Location.County,Location.State,Location.Local,Frequency.Input,Frequency.Output,Digital.P25,Digital.DStar,Digital.YSF,Digital.DMR.ColorCode,Digital.DMR.ID
-16061,6,N6GGS,Open,On-Air,,,,34.38639832,-117.68900299,Riverside,CA,"Victorville, Table Mtn",441.0625,446.0625,,,,0,
+ID,StateID,Callsign,Use,Status,SquelchTone,DigitalTone,VOIP,Location.Latitude,Location.Longitude,Location.County,Location.State,Location.Local,Frequency.Input,Frequency.Output,Digital.P25,Digital.DStar,Digital.NXDN,Digital.YSF,Digital.DMR.ColorCode,Digital.DMR.ID
+16061,6,N6GGS,Open,On-Air,,,,34.38639832,-117.68900299,Riverside,CA,"Victorville, Table Mtn",441.0625,446.0625,,,,,0,

@@ -1,2 +1,2 @@
-ID,StateID,Callsign,Use,Status,SquelchTone,DigitalTone,VOIP,Location.Latitude,Location.Longitude,Location.County,Location.State,Location.Local,Frequency.Input,Frequency.Output,Digital.P25,Digital.DStar,Digital.YSF,Digital.DMR.ColorCode,Digital.DMR.ID
-16524,20,KE0PTS,Open,On-Air,,,,38.40359879,-98.72920227,Barton,KS,Great Bend,447.075,442.075,,,,1,312021
+ID,StateID,Callsign,Use,Status,SquelchTone,DigitalTone,VOIP,Location.Latitude,Location.Longitude,Location.County,Location.State,Location.Local,Frequency.Input,Frequency.Output,Digital.P25,Digital.DStar,Digital.NXDN,Digital.YSF,Digital.DMR.ColorCode,Digital.DMR.ID
+16524,20,KE0PTS,Open,On-Air,,,,38.40359879,-98.72920227,Barton,KS,Great Bend,447.075,442.075,,,,,1,312021

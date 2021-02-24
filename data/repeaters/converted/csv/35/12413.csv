@@ -1,2 +1,2 @@
-ID,StateID,Callsign,Use,Status,SquelchTone,DigitalTone,VOIP,Location.Latitude,Location.Longitude,Location.County,Location.State,Location.Local,Frequency.Input,Frequency.Output,Digital.P25,Digital.DStar,Digital.YSF,Digital.DMR.ColorCode,Digital.DMR.ID
-12413,35,N5UBJ,Open,On-Air,,,,36.82220078,-107.99299622,San Juan,NM,Aztec,447.25,442.25,,,,1,313502
+ID,StateID,Callsign,Use,Status,SquelchTone,DigitalTone,VOIP,Location.Latitude,Location.Longitude,Location.County,Location.State,Location.Local,Frequency.Input,Frequency.Output,Digital.P25,Digital.DStar,Digital.NXDN,Digital.YSF,Digital.DMR.ColorCode,Digital.DMR.ID
+12413,35,N5UBJ,Open,On-Air,,,,36.82220078,-107.99299622,San Juan,NM,Aztec,447.25,442.25,,,,,1,313502

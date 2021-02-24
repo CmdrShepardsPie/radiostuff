@@ -1,2 +1,2 @@
-ID,StateID,Callsign,Use,Status,SquelchTone,DigitalTone,VOIP,Location.Latitude,Location.Longitude,Location.County,Location.State,Location.Local,Frequency.Input,Frequency.Output,Digital.P25,Digital.DStar,Digital.YSF,Digital.DMR.ColorCode,Digital.DMR.ID
-13298,32,N7ARR,Open,On-Air,,,,36.17890167,-114.9980011,Clark,NV,"Las Vegas, Frenchman Mtn",441.45,446.45,,,,1,313213
+ID,StateID,Callsign,Use,Status,SquelchTone,DigitalTone,VOIP,Location.Latitude,Location.Longitude,Location.County,Location.State,Location.Local,Frequency.Input,Frequency.Output,Digital.P25,Digital.DStar,Digital.NXDN,Digital.YSF,Digital.DMR.ColorCode,Digital.DMR.ID
+13298,32,N7ARR,Open,On-Air,,,,36.17890167,-114.9980011,Clark,NV,"Las Vegas, Frenchman Mtn",441.45,446.45,,,,,1,313213

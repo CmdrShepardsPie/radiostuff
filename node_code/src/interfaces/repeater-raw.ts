@@ -1,4 +1,5 @@
 export interface RepeaterRaw {
+  Mode?: string;
   Frequency: number;
   Offset: number;
   Tone: any;

@@ -1,2 +1,2 @@
-ID,StateID,Callsign,Use,Status,SquelchTone,DigitalTone,VOIP,Location.Latitude,Location.Longitude,Location.County,Location.State,Location.Local,Frequency.Input,Frequency.Output,Digital.P25,Digital.DStar,Digital.YSF,Digital.DMR.ColorCode,Digital.DMR.ID
-12697,8,N0SZ,Open,On-Air,,,,38.53469849,-105.99900055,Chaffee,CO,"Salida, Methodist Mountain",441.8125,446.8125,,,,7,310825
+ID,StateID,Callsign,Use,Status,SquelchTone,DigitalTone,VOIP,Location.Latitude,Location.Longitude,Location.County,Location.State,Location.Local,Frequency.Input,Frequency.Output,Digital.P25,Digital.DStar,Digital.NXDN,Digital.YSF,Digital.DMR.ColorCode,Digital.DMR.ID
+12697,8,N0SZ,Open,On-Air,,,,38.53469849,-105.99900055,Chaffee,CO,"Salida, Methodist Mountain",441.8125,446.8125,,,,,7,310825

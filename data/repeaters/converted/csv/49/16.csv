@@ -1,2 +1,2 @@
-ID,StateID,Callsign,Use,Status,DigitalTone,Location.Latitude,Location.Longitude,Location.County,Location.State,Location.Local,Frequency.Input,Frequency.Output,SquelchTone.Input,SquelchTone.Output,Digital.DMR,Digital.P25,Digital.DStar,VOIP.AllStar,VOIP.EchoLink,VOIP.IRLP,VOIP.Wires.ID,Digital.YSF.GroupID.Input,Digital.YSF.GroupID.Output
-16,49,K7DAV,Open,On-Air,,40.9618988,-112.21499634,Davis,UT,"Antelope Island, Frary Peak",442.2,447.2,127.3,127.3,,,,,,,35437,Open ↑,Open ↓
+ID,StateID,Callsign,Use,Status,DigitalTone,Location.Latitude,Location.Longitude,Location.County,Location.State,Location.Local,Frequency.Input,Frequency.Output,SquelchTone.Input,SquelchTone.Output,Digital.DMR,Digital.P25,Digital.DStar,Digital.NXDN,VOIP.AllStar,VOIP.EchoLink,VOIP.IRLP,VOIP.Wires.ID,Digital.YSF.GroupID.Input,Digital.YSF.GroupID.Output
+16,49,K7DAV,Open,On-Air,,40.9618988,-112.21499634,Davis,UT,"Antelope Island, Frary Peak",442.2,447.2,127.3,127.3,,,,,,,,35437,Open ↑,Open ↓

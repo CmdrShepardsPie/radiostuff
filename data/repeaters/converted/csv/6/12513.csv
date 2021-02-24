@@ -1,2 +1,2 @@
-ID,StateID,Callsign,Use,Status,SquelchTone,DigitalTone,VOIP,Location.Latitude,Location.Longitude,Location.County,Location.State,Location.Local,Frequency.Input,Frequency.Output,Digital.P25,Digital.DStar,Digital.YSF,Digital.DMR.ColorCode,Digital.DMR.ID
-12513,6,K6IFR,Open,On-Air,,,,33.86660004,-116.43399811,Riverside,CA,"Palm Springs, Edom Hill",441.58,446.58,,,,1,310671
+ID,StateID,Callsign,Use,Status,SquelchTone,DigitalTone,VOIP,Location.Latitude,Location.Longitude,Location.County,Location.State,Location.Local,Frequency.Input,Frequency.Output,Digital.P25,Digital.DStar,Digital.NXDN,Digital.YSF,Digital.DMR.ColorCode,Digital.DMR.ID
+12513,6,K6IFR,Open,On-Air,,,,33.86660004,-116.43399811,Riverside,CA,"Palm Springs, Edom Hill",441.58,446.58,,,,,1,310671

@@ -1,2 +1,2 @@
-ID,StateID,Callsign,Use,Status,SquelchTone,DigitalTone,VOIP,Location.Latitude,Location.Longitude,Location.County,Location.State,Location.Local,Frequency.Input,Frequency.Output,Digital.P25,Digital.DStar,Digital.YSF,Digital.DMR.ColorCode,Digital.DMR.ID
-15733,35,NM5BB,Open,On-Air,,,,35.88669968,-106.39499664,Los Alamos,NM,"Los Alamos, Pajarito Mountain",447.225,442.225,,,,7,313505
+ID,StateID,Callsign,Use,Status,SquelchTone,DigitalTone,VOIP,Location.Latitude,Location.Longitude,Location.County,Location.State,Location.Local,Frequency.Input,Frequency.Output,Digital.P25,Digital.DStar,Digital.NXDN,Digital.YSF,Digital.DMR.ColorCode,Digital.DMR.ID
+15733,35,NM5BB,Open,On-Air,,,,35.88669968,-106.39499664,Los Alamos,NM,"Los Alamos, Pajarito Mountain",447.225,442.225,,,,,7,313505

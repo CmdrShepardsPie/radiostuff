@@ -1,2 +1,2 @@
-ID,StateID,Callsign,Use,Status,DigitalTone,VOIP,Location.Latitude,Location.Longitude,Location.County,Location.State,Location.Local,Frequency.Input,Frequency.Output,SquelchTone.Input,SquelchTone.Output,Digital.DMR,Digital.DStar,Digital.YSF,Digital.P25.NAC
-19247,35,N5UBJ,Open,Other,,,36.762,-108.182,San Juan,NM,"Farmington, College Hill",902.8875,927.8875,131.8,,,,,293
+ID,StateID,Callsign,Use,Status,DigitalTone,VOIP,Location.Latitude,Location.Longitude,Location.County,Location.State,Location.Local,Frequency.Input,Frequency.Output,SquelchTone.Input,SquelchTone.Output,Digital.DMR,Digital.DStar,Digital.NXDN,Digital.YSF,Digital.P25.NAC
+19247,35,N5UBJ,Open,Other,,,36.762,-108.182,San Juan,NM,"Farmington, College Hill",902.8875,927.8875,131.8,,,,,,293

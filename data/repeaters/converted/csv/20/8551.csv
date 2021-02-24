@@ -1,2 +1,2 @@
-ID,StateID,Callsign,Use,Status,SquelchTone,DigitalTone,VOIP,Location.Latitude,Location.Longitude,Location.County,Location.State,Location.Local,Frequency.Input,Frequency.Output,Digital.P25,Digital.DStar,Digital.YSF,Digital.DMR.ColorCode,Digital.DMR.ID
-8551,20,K0USY,Open,On-Air,,,,38.90340042,-99.34359741,Ellis,KS,"Hays, KS-DMR",449.75,444.75,,,,1,312003
+ID,StateID,Callsign,Use,Status,SquelchTone,DigitalTone,VOIP,Location.Latitude,Location.Longitude,Location.County,Location.State,Location.Local,Frequency.Input,Frequency.Output,Digital.P25,Digital.DStar,Digital.NXDN,Digital.YSF,Digital.DMR.ColorCode,Digital.DMR.ID
+8551,20,K0USY,Open,On-Air,,,,38.90340042,-99.34359741,Ellis,KS,"Hays, KS-DMR",449.75,444.75,,,,,1,312003

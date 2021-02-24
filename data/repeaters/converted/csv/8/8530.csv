@@ -1,2 +1,2 @@
-ID,StateID,Callsign,Use,Status,DigitalTone,Location.Latitude,Location.Longitude,Location.County,Location.State,Location.Local,Frequency.Input,Frequency.Output,SquelchTone.Input,SquelchTone.Output,Digital.P25,Digital.DStar,Digital.YSF,VOIP.EchoLink,VOIP.Wires,Digital.DMR.ColorCode,Digital.DMR.ID,VOIP.AllStar.NodeID,VOIP.IRLP.NodeID
-8530,8,KF0KR,Private,On-Air,,38.25439835,-104.60900116,Pueblo,CO,"Pueblo, Pueblo",442.7,447.7,210.7,210.7,,,,,,1,310805,29228,7389
+ID,StateID,Callsign,Use,Status,DigitalTone,Location.Latitude,Location.Longitude,Location.County,Location.State,Location.Local,Frequency.Input,Frequency.Output,SquelchTone.Input,SquelchTone.Output,Digital.P25,Digital.DStar,Digital.NXDN,Digital.YSF,VOIP.EchoLink,VOIP.Wires,Digital.DMR.ColorCode,Digital.DMR.ID,VOIP.AllStar.NodeID,VOIP.IRLP.NodeID
+8530,8,KF0KR,Private,On-Air,,38.25439835,-104.60900116,Pueblo,CO,"Pueblo, Pueblo",442.7,447.7,210.7,210.7,,,,,,,1,310805,29228,7389

@@ -1,2 +1,2 @@
-ID,StateID,Callsign,Use,Status,SquelchTone,DigitalTone,VOIP,Location.Latitude,Location.Longitude,Location.County,Location.State,Location.Local,Frequency.Input,Frequency.Output,Digital.P25,Digital.DStar,Digital.YSF,Digital.DMR.ColorCode,Digital.DMR.ID
-15732,35,WA5IHL,Open,On-Air,,,,35.06000137,-106.76999664,Bernalillo,NM,"Albuquerque, Sandia Crest",447.25,442.25,,,,1,313506
+ID,StateID,Callsign,Use,Status,SquelchTone,DigitalTone,VOIP,Location.Latitude,Location.Longitude,Location.County,Location.State,Location.Local,Frequency.Input,Frequency.Output,Digital.P25,Digital.DStar,Digital.NXDN,Digital.YSF,Digital.DMR.ColorCode,Digital.DMR.ID
+15732,35,WA5IHL,Open,On-Air,,,,35.06000137,-106.76999664,Bernalillo,NM,"Albuquerque, Sandia Crest",447.25,442.25,,,,,1,313506

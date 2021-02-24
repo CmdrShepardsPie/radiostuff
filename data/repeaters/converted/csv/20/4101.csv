@@ -1,2 +1,2 @@
-ID,StateID,Callsign,Use,Status,DigitalTone,VOIP,Location.Latitude,Location.Longitude,Location.County,Location.State,Location.Local,Frequency.Input,Frequency.Output,SquelchTone.Input,SquelchTone.Output,Digital.DMR,Digital.P25,Digital.DStar,Digital.YSF.GroupID.Input,Digital.YSF.GroupID.Output
-4101,20,KE0PTS,Open,On-Air,,,38.30519867,-99.0243988,Barton,KS,Pawnee Rock,146.235,146.835,100,100,,,,Open ↑,Open ↓
+ID,StateID,Callsign,Use,Status,DigitalTone,VOIP,Location.Latitude,Location.Longitude,Location.County,Location.State,Location.Local,Frequency.Input,Frequency.Output,SquelchTone.Input,SquelchTone.Output,Digital.DMR,Digital.P25,Digital.DStar,Digital.NXDN,Digital.YSF.GroupID.Input,Digital.YSF.GroupID.Output
+4101,20,KE0PTS,Open,On-Air,,,38.30519867,-99.0243988,Barton,KS,Pawnee Rock,146.235,146.835,100,100,,,,,Open ↑,Open ↓

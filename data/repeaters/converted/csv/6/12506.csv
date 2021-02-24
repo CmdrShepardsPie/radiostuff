@@ -1,2 +1,2 @@
-ID,StateID,Callsign,Use,Status,SquelchTone,DigitalTone,VOIP,Location.Latitude,Location.Longitude,Location.County,Location.State,Location.Local,Frequency.Input,Frequency.Output,Digital.P25,Digital.DStar,Digital.YSF,Digital.DMR.ColorCode,Digital.DMR.ID
-12506,6,N6GGS,Open,On-Air,,,,34.3608017,-117.63300323,San Bernardino,CA,"Victorville, Quartzite Mtn",441.06,446.06,,,,2,310661
+ID,StateID,Callsign,Use,Status,SquelchTone,DigitalTone,VOIP,Location.Latitude,Location.Longitude,Location.County,Location.State,Location.Local,Frequency.Input,Frequency.Output,Digital.P25,Digital.DStar,Digital.NXDN,Digital.YSF,Digital.DMR.ColorCode,Digital.DMR.ID
+12506,6,N6GGS,Open,On-Air,,,,34.3608017,-117.63300323,San Bernardino,CA,"Victorville, Quartzite Mtn",441.06,446.06,,,,,2,310661

@@ -1,2 +1,2 @@
-ID,StateID,Callsign,Use,Status,SquelchTone,DigitalTone,VOIP,Location.Latitude,Location.Longitude,Location.County,Location.State,Location.Local,Frequency.Input,Frequency.Output,Digital.P25,Digital.DStar,Digital.YSF,Digital.DMR.ColorCode,Digital.DMR.ID
-16210,6,WD6AML,Open,On-Air,,,,33.67639923,-115.95999908,Riverside,CA,Cactus City,441.0625,446.0625,,,,2,310725
+ID,StateID,Callsign,Use,Status,SquelchTone,DigitalTone,VOIP,Location.Latitude,Location.Longitude,Location.County,Location.State,Location.Local,Frequency.Input,Frequency.Output,Digital.P25,Digital.DStar,Digital.NXDN,Digital.YSF,Digital.DMR.ColorCode,Digital.DMR.ID
+16210,6,WD6AML,Open,On-Air,,,,33.67639923,-115.95999908,Riverside,CA,Cactus City,441.0625,446.0625,,,,,2,310725

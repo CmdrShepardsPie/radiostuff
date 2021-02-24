@@ -1,2 +1,2 @@
-ID,StateID,Callsign,Use,Status,SquelchTone,DigitalTone,VOIP,Location.Latitude,Location.Longitude,Location.County,Location.State,Location.Local,Frequency.Input,Frequency.Output,Digital.P25,Digital.DStar,Digital.YSF,Digital.DMR.ColorCode,Digital.DMR.ID
-15899,8,K7PFJ,Open,On-Air,,,,40.08610153,-105.93900299,Clear Creek,CO,"Granby, Mt Chauncey",441.875,446.875,,,,7,310838
+ID,StateID,Callsign,Use,Status,SquelchTone,DigitalTone,VOIP,Location.Latitude,Location.Longitude,Location.County,Location.State,Location.Local,Frequency.Input,Frequency.Output,Digital.P25,Digital.DStar,Digital.NXDN,Digital.YSF,Digital.DMR.ColorCode,Digital.DMR.ID
+15899,8,K7PFJ,Open,On-Air,,,,40.08610153,-105.93900299,Clear Creek,CO,"Granby, Mt Chauncey",441.875,446.875,,,,,7,310838

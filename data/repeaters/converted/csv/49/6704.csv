@@ -1,2 +1,2 @@
-ID,StateID,Callsign,Use,Status,DigitalTone,VOIP,Location.Latitude,Location.Longitude,Location.County,Location.State,Location.Local,Frequency.Input,Frequency.Output,SquelchTone.Input,SquelchTone.Output,Digital.DMR,Digital.P25,Digital.DStar,Digital.YSF.GroupID.Input,Digital.YSF.GroupID.Output
-6704,49,K7WWA,Open,On-Air,,,39.2011111,-111.7282222,Sanpete,UT,"Sterling, Sterling",144.69,145.29,131.8,131.8,,,,Open ↑,Open ↓
+ID,StateID,Callsign,Use,Status,DigitalTone,VOIP,Location.Latitude,Location.Longitude,Location.County,Location.State,Location.Local,Frequency.Input,Frequency.Output,SquelchTone.Input,SquelchTone.Output,Digital.DMR,Digital.P25,Digital.DStar,Digital.NXDN,Digital.YSF.GroupID.Input,Digital.YSF.GroupID.Output
+6704,49,K7WWA,Open,On-Air,,,39.2011111,-111.7282222,Sanpete,UT,"Sterling, Sterling",144.69,145.29,131.8,131.8,,,,,Open ↑,Open ↓

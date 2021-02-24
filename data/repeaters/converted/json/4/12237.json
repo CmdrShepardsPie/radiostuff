@@ -10,5 +10,8 @@
   "Status": "Other",
   "Frequency": {
     "Input": null
+  },
+  "Digital": {
+    "DStar": {}
   }
 }

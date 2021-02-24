@@ -1,2 +1,2 @@
-ID,StateID,Callsign,Use,Status,DigitalTone,VOIP,Location.Latitude,Location.Longitude,Location.County,Location.State,Location.Local,Frequency.Input,Frequency.Output,SquelchTone.Input,SquelchTone.Output,Digital.DMR,Digital.P25,Digital.DStar,Digital.YSF.GroupID.Input,Digital.YSF.GroupID.Output
-3621,8,W0UPS,Open,On-Air,,,40.44400024,-104.98899841,Larimer,CO,"Loveland, Budweiser Event Center",443.025,448.025,100,100,,,,Open ↑,Open ↓
+ID,StateID,Callsign,Use,Status,DigitalTone,VOIP,Location.Latitude,Location.Longitude,Location.County,Location.State,Location.Local,Frequency.Input,Frequency.Output,SquelchTone.Input,SquelchTone.Output,Digital.DMR,Digital.P25,Digital.DStar,Digital.NXDN,Digital.YSF.GroupID.Input,Digital.YSF.GroupID.Output
+3621,8,W0UPS,Open,On-Air,,,40.44400024,-104.98899841,Larimer,CO,"Loveland, Budweiser Event Center",443.025,448.025,100,100,,,,,Open ↑,Open ↓

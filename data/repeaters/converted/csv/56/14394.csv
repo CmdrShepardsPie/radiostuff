@@ -1,2 +1,2 @@
-ID,StateID,Callsign,Use,Status,DigitalTone,VOIP,Location.Latitude,Location.Longitude,Location.County,Location.State,Location.Local,Frequency.Input,Frequency.Output,SquelchTone.Input,SquelchTone.Output,Digital.DMR,Digital.P25,Digital.DStar,Digital.YSF.GroupID.Input,Digital.YSF.GroupID.Output
-14394,56,KF7EHE,Open,Testing,,,41.79240036,-110.53800201,Lincoln,WY,"Kemmerer, Dempsey Ridge",444.075,449.075,123,123,,,,Open ↑,Open ↓
+ID,StateID,Callsign,Use,Status,DigitalTone,VOIP,Location.Latitude,Location.Longitude,Location.County,Location.State,Location.Local,Frequency.Input,Frequency.Output,SquelchTone.Input,SquelchTone.Output,Digital.DMR,Digital.P25,Digital.DStar,Digital.NXDN,Digital.YSF.GroupID.Input,Digital.YSF.GroupID.Output
+14394,56,KF7EHE,Open,Testing,,,41.79240036,-110.53800201,Lincoln,WY,"Kemmerer, Dempsey Ridge",444.075,449.075,123,123,,,,,Open ↑,Open ↓

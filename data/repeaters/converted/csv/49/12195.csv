@@ -1,2 +1,2 @@
-ID,StateID,Callsign,Use,Status,SquelchTone,DigitalTone,VOIP,Location.Latitude,Location.Longitude,Location.County,Location.State,Location.Local,Frequency.Input,Frequency.Output,Digital.P25,Digital.DStar,Digital.YSF,Digital.DMR.ColorCode,Digital.DMR.ID
-12195,49,NU7TS,Open,On-Air,,,,41.78879929,-112.14900208,Box Elder,UT,Riverside,442.125,447.125,,,,1,314904
+ID,StateID,Callsign,Use,Status,SquelchTone,DigitalTone,VOIP,Location.Latitude,Location.Longitude,Location.County,Location.State,Location.Local,Frequency.Input,Frequency.Output,Digital.P25,Digital.DStar,Digital.NXDN,Digital.YSF,Digital.DMR.ColorCode,Digital.DMR.ID
+12195,49,NU7TS,Open,On-Air,,,,41.78879929,-112.14900208,Box Elder,UT,Riverside,442.125,447.125,,,,,1,314904

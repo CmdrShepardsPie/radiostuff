@@ -1,2 +1,2 @@
-ID,StateID,Callsign,Use,Status,SquelchTone,DigitalTone,VOIP,Location.Latitude,Location.Longitude,Location.County,Location.State,Location.Local,Frequency.Input,Frequency.Output,Digital.P25,Digital.DStar,Digital.YSF,Digital.DMR.ColorCode,Digital.DMR.ID
-1809,6,K6RET,Open,On-Air,,,,35.70690155,-118.55999756,Kern,CA,"Bakersfield, Shirley Peak",448,443,,,,1,110688
+ID,StateID,Callsign,Use,Status,SquelchTone,DigitalTone,VOIP,Location.Latitude,Location.Longitude,Location.County,Location.State,Location.Local,Frequency.Input,Frequency.Output,Digital.P25,Digital.DStar,Digital.NXDN,Digital.YSF,Digital.DMR.ColorCode,Digital.DMR.ID
+1809,6,K6RET,Open,On-Air,,,,35.70690155,-118.55999756,Kern,CA,"Bakersfield, Shirley Peak",448,443,,,,,1,110688

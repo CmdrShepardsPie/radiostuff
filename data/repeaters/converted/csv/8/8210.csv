@@ -1,2 +1,2 @@
-ID,StateID,Callsign,Use,Status,DigitalTone,VOIP,Location.Latitude,Location.Longitude,Location.County,Location.State,Location.Local,Frequency.Input,Frequency.Output,SquelchTone.Input,SquelchTone.Output,Digital.DMR,Digital.P25,Digital.YSF,Digital.DStar.Node
-8210,8,WR0AEN,Open,On-Air,,,40.4233017,-104.70899963,Weld,CO,Greeley,444.325,449.325,136.5,,,,,WR0AEN (B)
+ID,StateID,Callsign,Use,Status,DigitalTone,VOIP,Location.Latitude,Location.Longitude,Location.County,Location.State,Location.Local,Frequency.Input,Frequency.Output,SquelchTone.Input,SquelchTone.Output,Digital.DMR,Digital.P25,Digital.NXDN,Digital.YSF,Digital.DStar.Node
+8210,8,WR0AEN,Open,On-Air,,,40.4233017,-104.70899963,Weld,CO,Greeley,444.325,449.325,136.5,,,,,,WR0AEN (B)

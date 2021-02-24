@@ -1,2 +1,2 @@
-ID,StateID,Callsign,Use,Status,DigitalTone,VOIP,Location.Latitude,Location.Longitude,Location.County,Location.State,Location.Local,Frequency.Input,Frequency.Output,SquelchTone.Input,SquelchTone.Output,Digital.P25,Digital.DStar,Digital.YSF,Digital.DMR.ColorCode,Digital.DMR.ID
-18015,35,WR7HLN,Open,On-Air,,,35.678711,-105.991646,Santa Fe,NM,Santa Fe,448.15,443.15,131.8,131.8,,,,1,310992
+ID,StateID,Callsign,Use,Status,DigitalTone,VOIP,Location.Latitude,Location.Longitude,Location.County,Location.State,Location.Local,Frequency.Input,Frequency.Output,SquelchTone.Input,SquelchTone.Output,Digital.P25,Digital.DStar,Digital.NXDN,Digital.YSF,Digital.DMR.ColorCode,Digital.DMR.ID
+18015,35,WR7HLN,Open,On-Air,,,35.678711,-105.991646,Santa Fe,NM,Santa Fe,448.15,443.15,131.8,131.8,,,,,1,310992

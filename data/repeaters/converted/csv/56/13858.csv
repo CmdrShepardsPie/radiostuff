@@ -1,2 +1,2 @@
-ID,StateID,Callsign,Use,Status,SquelchTone,DigitalTone,VOIP,Location.Latitude,Location.Longitude,Location.County,Location.State,Location.Local,Frequency.Input,Frequency.Output,Digital.P25,Digital.DStar,Digital.YSF,Digital.DMR.ColorCode,Digital.DMR.ID
-13858,56,WY7EOC,Open,On-Air,,,,41.79109955,-107.23899841,Carbon,WY,Rawlins,440.05,445.05,,,,11,315609
+ID,StateID,Callsign,Use,Status,SquelchTone,DigitalTone,VOIP,Location.Latitude,Location.Longitude,Location.County,Location.State,Location.Local,Frequency.Input,Frequency.Output,Digital.P25,Digital.DStar,Digital.NXDN,Digital.YSF,Digital.DMR.ColorCode,Digital.DMR.ID
+13858,56,WY7EOC,Open,On-Air,,,,41.79109955,-107.23899841,Carbon,WY,Rawlins,440.05,445.05,,,,,11,315609

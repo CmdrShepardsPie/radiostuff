@@ -1,2 +1,2 @@
-ID,StateID,Callsign,Use,Status,DigitalTone,Digital,VOIP,Location.Latitude,Location.Longitude,Location.County,Location.State,Location.Local,Frequency.Input,Frequency.Output,SquelchTone.Input,SquelchTone.Output
-8144,46,W0FUI,Open,Other,,,,,,,SD,Hot Springs,NaN,,146.2,
+ID,StateID,Callsign,Use,Status,DigitalTone,Digital,Location.Latitude,Location.Longitude,Location.County,Location.State,Location.Local,Frequency.Input,Frequency.Output,SquelchTone.Input,SquelchTone.Output,VOIP.AllStar,VOIP.EchoLink,VOIP.Wires,VOIP.IRLP.NodeID
+8144,46,W0FUI,Open,Other,,,,,,SD,Hot Springs,NaN,,146.2,,,,,

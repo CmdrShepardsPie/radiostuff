@@ -1,2 +1,2 @@
-ID,StateID,Callsign,Use,Status,SquelchTone,DigitalTone,VOIP,Location.Latitude,Location.Longitude,Location.County,Location.State,Location.Local,Frequency.Input,Frequency.Output,Digital.P25,Digital.DStar,Digital.YSF,Digital.DMR.ColorCode,Digital.DMR.ID
-11215,48,KD5ROK,Open,On-Air,,,,35.46780014,-101.34799957,Hutchinson,TX,"Borger, NW Well Field",145.53125,146.13125,,,,14,314848
+ID,StateID,Callsign,Use,Status,SquelchTone,DigitalTone,VOIP,Location.Latitude,Location.Longitude,Location.County,Location.State,Location.Local,Frequency.Input,Frequency.Output,Digital.P25,Digital.DStar,Digital.NXDN,Digital.YSF,Digital.DMR.ColorCode,Digital.DMR.ID
+11215,48,KD5ROK,Open,On-Air,,,,35.46780014,-101.34799957,Hutchinson,TX,"Borger, NW Well Field",145.53125,146.13125,,,,,14,314848

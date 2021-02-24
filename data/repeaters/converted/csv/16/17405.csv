@@ -1,2 +1,2 @@
-ID,StateID,Callsign,Use,Status,DigitalTone,Location.Latitude,Location.Longitude,Location.County,Location.State,Location.Local,Frequency.Input,Frequency.Output,SquelchTone.Input,SquelchTone.Output,Digital.DMR,Digital.P25,Digital.DStar,VOIP.AllStar,VOIP.EchoLink,VOIP.IRLP,VOIP.Wires.ID,Digital.YSF.GroupID.Input,Digital.YSF.GroupID.Output
-17405,16,K8MPW,Open,On-Air,,42.7757988,-114.70400238,Gooding,ID,Wendell,448.95,443.95,100,,,,,,,,33728,Open ↑,Open ↓
+ID,StateID,Callsign,Use,Status,DigitalTone,Location.Latitude,Location.Longitude,Location.County,Location.State,Location.Local,Frequency.Input,Frequency.Output,SquelchTone.Input,SquelchTone.Output,Digital.DMR,Digital.P25,Digital.DStar,Digital.NXDN,VOIP.AllStar,VOIP.EchoLink,VOIP.IRLP,VOIP.Wires.ID,Digital.YSF.GroupID.Input,Digital.YSF.GroupID.Output
+17405,16,K8MPW,Open,On-Air,,42.7757988,-114.70400238,Gooding,ID,Wendell,448.95,443.95,100,,,,,,,,,33728,Open ↑,Open ↓

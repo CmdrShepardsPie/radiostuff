@@ -29,7 +29,7 @@ Channel Number,Receive Frequency,Transmit Frequency,Offset Frequency,Offset Dire
 28,50.40000,50.40000,,Simplex,AM,AM Simplex,None,100.0 Hz,100.0 Hz,023,Both N,Off,AM Simplex,,,,,,Filter 1,,,None,88.5 Hz,88.5 Hz,023,Both N,Filter 1,FM
 29,52.20000,52.20000,,Simplex,USB,SSB SOTA,None,100.0 Hz,100.0 Hz,023,Both N,Off,SSB SOTA,,,,,,Filter 1,,,None,88.5 Hz,88.5 Hz,023,Both N,Filter 1,FM
 30,144.15000,144.15000,,Simplex,USB,SSB SOTA,None,100.0 Hz,100.0 Hz,023,Both N,Off,SSB SOTA,,,,,,Filter 1,,,None,88.5 Hz,88.5 Hz,023,Both N,Filter 1,FM
-31,144.20000,144.20000,,Simplex,USB,SSB SOTA,None,100.0 Hz,100.0 Hz,023,Both N,Off,SSB SOTA,,,,,,Filter 1,,,None,88.5 Hz,88.5 Hz,023,Both N,Filter 1,FM
+31,144.20000,144.20000,,Simplex,USB,SSB Calling,None,100.0 Hz,100.0 Hz,023,Both N,Off,SSB Calling,,,,,,Filter 1,,,None,88.5 Hz,88.5 Hz,023,Both N,Filter 1,FM
 32,144.28000,144.28000,,Simplex,AM,AM Simplex,None,100.0 Hz,100.0 Hz,023,Both N,Off,AM Simplex,,,,,,Filter 1,,,None,88.5 Hz,88.5 Hz,023,Both N,Filter 1,FM
 33,144.28500,144.28500,,Simplex,USB,SSB SOTA,None,100.0 Hz,100.0 Hz,023,Both N,Off,SSB SOTA,,,,,,Filter 1,,,None,88.5 Hz,88.5 Hz,023,Both N,Filter 1,FM
 34,144.40000,144.40000,,Simplex,AM,AM Simplex,None,100.0 Hz,100.0 Hz,023,Both N,Off,AM Simplex,,,,,,Filter 1,,,None,88.5 Hz,88.5 Hz,023,Both N,Filter 1,FM

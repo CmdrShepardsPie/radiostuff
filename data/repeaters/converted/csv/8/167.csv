@@ -1,2 +1,2 @@
-ID,StateID,Callsign,Use,Status,DigitalTone,Location.Latitude,Location.Longitude,Location.County,Location.State,Location.Local,Frequency.Input,Frequency.Output,SquelchTone.Input,SquelchTone.Output,Digital.DMR,Digital.P25,Digital.DStar,VOIP.AllStar,VOIP.EchoLink,VOIP.IRLP,VOIP.Wires.ID,Digital.YSF.GroupID.Input,Digital.YSF.GroupID.Output
-167,8,KC0ITF,Private,On-Air,,37.99950027,-103.52899933,Otero,CO,"La Junta, North La Junta",147.96,147.36,123,123,,,,,,,11360,Open ↑,Open ↓
+ID,StateID,Callsign,Use,Status,DigitalTone,Location.Latitude,Location.Longitude,Location.County,Location.State,Location.Local,Frequency.Input,Frequency.Output,SquelchTone.Input,SquelchTone.Output,Digital.DMR,Digital.P25,Digital.DStar,Digital.NXDN,VOIP.AllStar,VOIP.EchoLink,VOIP.IRLP,VOIP.Wires.ID,Digital.YSF.GroupID.Input,Digital.YSF.GroupID.Output
+167,8,KC0ITF,Private,On-Air,,37.99950027,-103.52899933,Otero,CO,"La Junta, North La Junta",147.96,147.36,123,123,,,,,,,,11360,Open ↑,Open ↓

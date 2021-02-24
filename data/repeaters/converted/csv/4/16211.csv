@@ -1,2 +1,2 @@
-ID,StateID,Callsign,Use,Status,SquelchTone,DigitalTone,VOIP,Location.Latitude,Location.Longitude,Location.County,Location.State,Location.Local,Frequency.Input,Frequency.Output,Digital.P25,Digital.DStar,Digital.YSF,Digital.DMR.ColorCode,Digital.DMR.ID
-16211,4,WD6AML,Open,On-Air,,,,33.66389847,-114.23000336,La Paz,AZ,"Quartzsite, Guadalupe Pk",443.9,448.9,,,,1,310717
+ID,StateID,Callsign,Use,Status,SquelchTone,DigitalTone,VOIP,Location.Latitude,Location.Longitude,Location.County,Location.State,Location.Local,Frequency.Input,Frequency.Output,Digital.P25,Digital.DStar,Digital.NXDN,Digital.YSF,Digital.DMR.ColorCode,Digital.DMR.ID
+16211,4,WD6AML,Open,On-Air,,,,33.66389847,-114.23000336,La Paz,AZ,"Quartzsite, Guadalupe Pk",443.9,448.9,,,,,1,310717

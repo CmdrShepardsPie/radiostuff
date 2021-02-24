@@ -359,7 +359,7 @@ Channel Number,Receive Frequency,Transmit Frequency,Offset Frequency,Offset Dire
 358,146.70000,146.10000,600 kHz,Minus,Auto,OQA Scott City,Large,T Sql,141.3 Hz,023,High,Off,Auto,Off,20 3940 358.00 KS Scott Scott City WA0OQA,1500 Hz
 359,447.50000,442.50000,5.00 MHz,Minus,Auto,OWY Conifer Critchell Mountain,Large,T Sql,88.5 Hz,023,High,Off,Auto,Off,8 60 30.00 CO Jefferson Conifer Critchell Mountain N0OWY,1500 Hz
 360,447.60000,442.60000,5.00 MHz,Minus,Auto,OXW Firstview,Large,Tone,103.5 Hz,023,High,Off,Auto,Off,8 17703 219.00 CO Cheyenne Firstview KD0OXW,1500 Hz
-361,447.15000,442.15000,5.00 MHz,Minus,Auto,OXW Hugo,Large,Tone,103.5 Hz,023,High,Off,Auto,Off,8 17059 134.00 CO Lincoln Hugo KD0OXW,1500 Hz
+361,447.15000,442.15000,5.00 MHz,Minus,Auto,OXW Hugo,Large,None,100.0 Hz,023,High,Off,Auto,Off,8 17059 134.00 CO Lincoln Hugo KD0OXW,1500 Hz
 362,447.65000,442.65000,5.00 MHz,Minus,Auto,OXW Limon Cedar Point,Large,Tone,103.5 Hz,023,High,Off,Auto,Off,8 18718 95.00 CO Lincoln Limon Cedar Point KD0OXW,1500 Hz
 363,146.76000,146.16000,600 kHz,Minus,Auto,OZU Rawlins,Large,Tone,100.0 Hz,023,High,Off,Auto,Off,56 43 316.00 WY Carbon Rawlins KC7OZU,1500 Hz
 364,146.88000,146.28000,600 kHz,Minus,Auto,PDO Los Alamos Barranca Mesa,Large,None,100.0 Hz,023,High,Off,Auto,Off,35 194 427.00 NM Los Alamos Los Alamos Barranca Mesa W5PDO,1500 Hz
@@ -408,7 +408,7 @@ Channel Number,Receive Frequency,Transmit Frequency,Offset Frequency,Offset Dire
 407,449.62500,444.62500,5.00 MHz,Minus,Auto,SNU Wheatland,Large,Tone,151.4 Hz,023,High,Off,Auto,Off,56 16476 275.00 WY Platte Wheatland WA7SNU,1500 Hz
 408,146.97000,146.37000,600 kHz,Minus,Auto,SRJ Colorado Springs Pikes Peak,Large,Tone,100.0 Hz,023,High,Off,Auto,Off,8 44 84.00 CO El Paso Colorado Springs Pikes Peak KB0SRJ,1500 Hz
 409,448.45000,443.45000,5.00 MHz,Minus,Auto,SRJ Colorado Springs Pikes Peak,Large,Tone,100.0 Hz,023,High,Off,Auto,Off,8 54 84.00 CO El Paso Colorado Springs Pikes Peak KB0SRJ,1500 Hz
-410,145.26500,144.66500,600 kHz,Minus,Auto,SRJ Colorado Springs ~2 mi ENE U,Large,Tone,100.0 Hz,023,High,Off,Auto,Off,8 39 98.00 CO El Paso Colorado Springs ~2 mi ENE USAFA North Gate KB0SRJ,1500 Hz
+410,145.26500,144.66500,600 kHz,Minus,Auto,SRJ Colorado Springs ~2 mi ENE U,Large,None,100.0 Hz,023,High,Off,Auto,Off,8 39 98.00 CO El Paso Colorado Springs ~2 mi ENE USAFA North Gate KB0SRJ,1500 Hz
 411,448.80000,443.80000,5.00 MHz,Minus,Auto,SRJ Colorado Springs ~2 mi ENE U,Large,Tone,100.0 Hz,023,High,Off,Auto,Off,8 57 62.00 CO El Paso Colorado Springs ~2 mi ENE USAFA North Gate KB0SRJ,1500 Hz
 412,147.10500,147.70500,600 kHz,Plus,Auto,SSI Grand Junction,Large,None,100.0 Hz,023,High,Off,Auto,Off,8 8175 321.00 CO Mesa Grand Junction K0SSI,1500 Hz
 413,447.95000,442.95000,5.00 MHz,Minus,Auto,SSP Dillon Dillon Res.,Large,None,100.0 Hz,023,High,Off,Auto,Off,8 19242 101.00 CO Summit Dillon Dillon Res. KD0SSP,1500 Hz

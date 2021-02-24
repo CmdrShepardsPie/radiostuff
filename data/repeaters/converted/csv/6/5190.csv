@@ -1,2 +1,2 @@
-ID,StateID,Callsign,Use,Status,SquelchTone,DigitalTone,VOIP,Location.Latitude,Location.Longitude,Location.County,Location.State,Location.Local,Frequency.Input,Frequency.Output,Digital.DMR,Digital.P25,Digital.YSF,Digital.DStar.Node
-5190,6,W6CPA,Open,Other,,,,34.35440063,-117.67900085,Los Angeles,CA,"Wrightwood, Blue Ridge",441.87,446.87,,,,W6CPA (B)
+ID,StateID,Callsign,Use,Status,SquelchTone,DigitalTone,VOIP,Location.Latitude,Location.Longitude,Location.County,Location.State,Location.Local,Frequency.Input,Frequency.Output,Digital.DMR,Digital.P25,Digital.NXDN,Digital.YSF,Digital.DStar.Node
+5190,6,W6CPA,Open,Other,,,,34.35440063,-117.67900085,Los Angeles,CA,"Wrightwood, Blue Ridge",441.87,446.87,,,,,W6CPA (B)

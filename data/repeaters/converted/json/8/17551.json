@@ -19,6 +19,9 @@
     "DStar": {
       "Node": "(B) Repeater"
     },
+    "NXDN": {
+      "RAN": 1
+    },
     "YSF": {
       "GroupID": {
         "Input": "Open ↑",

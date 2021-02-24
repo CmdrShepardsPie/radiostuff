@@ -1,2 +1,2 @@
-ID,StateID,Callsign,Use,Status,SquelchTone,DigitalTone,VOIP,Location.Latitude,Location.Longitude,Location.County,Location.State,Location.Local,Frequency.Input,Frequency.Output,Digital.P25,Digital.DStar,Digital.YSF,Digital.DMR.ColorCode,Digital.DMR.ID
-8185,8,N0SZ,Open,On-Air,,,,40.01499939,-105.27100372,Boulder,CO,"Boulder, Mount Thorodin",441.8,446.8,,,,7,310800
+ID,StateID,Callsign,Use,Status,SquelchTone,DigitalTone,VOIP,Location.Latitude,Location.Longitude,Location.County,Location.State,Location.Local,Frequency.Input,Frequency.Output,Digital.P25,Digital.DStar,Digital.NXDN,Digital.YSF,Digital.DMR.ColorCode,Digital.DMR.ID
+8185,8,N0SZ,Open,On-Air,,,,40.01499939,-105.27100372,Boulder,CO,"Boulder, Mount Thorodin",441.8,446.8,,,,,7,310800

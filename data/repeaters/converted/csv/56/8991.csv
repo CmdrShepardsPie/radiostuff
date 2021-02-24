@@ -1,2 +1,2 @@
-ID,StateID,Callsign,Use,Status,SquelchTone,DigitalTone,VOIP,Location.Latitude,Location.Longitude,Location.County,Location.State,Location.Local,Frequency.Input,Frequency.Output,Digital.P25,Digital.DStar,Digital.YSF,Digital.DMR.ColorCode,Digital.DMR.ID
-8991,56,KC7DHF,Open,On-Air,,,,41.15299988,-104.81800079,Laramie,WY,"Cheyenne, Old airport control tower",443.95,448.95,,,,15,315615
+ID,StateID,Callsign,Use,Status,SquelchTone,DigitalTone,VOIP,Location.Latitude,Location.Longitude,Location.County,Location.State,Location.Local,Frequency.Input,Frequency.Output,Digital.P25,Digital.DStar,Digital.NXDN,Digital.YSF,Digital.DMR.ColorCode,Digital.DMR.ID
+8991,56,KC7DHF,Open,On-Air,,,,41.15299988,-104.81800079,Laramie,WY,"Cheyenne, Old airport control tower",443.95,448.95,,,,,15,315615

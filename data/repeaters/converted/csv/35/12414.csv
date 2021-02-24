@@ -1,2 +1,2 @@
-ID,StateID,Callsign,Use,Status,SquelchTone,DigitalTone,VOIP,Location.Latitude,Location.Longitude,Location.County,Location.State,Location.Local,Frequency.Input,Frequency.Output,Digital.P25,Digital.DStar,Digital.YSF,Digital.DMR.ColorCode,Digital.DMR.ID
-12414,35,KA8JMW,Open,On-Air,,,,35.21350098,-106.44999695,Bernalillo,NM,"Albuquerque, Sandia Crest",447.9,442.9,,,,7,313503
+ID,StateID,Callsign,Use,Status,SquelchTone,DigitalTone,VOIP,Location.Latitude,Location.Longitude,Location.County,Location.State,Location.Local,Frequency.Input,Frequency.Output,Digital.P25,Digital.DStar,Digital.NXDN,Digital.YSF,Digital.DMR.ColorCode,Digital.DMR.ID
+12414,35,KA8JMW,Open,On-Air,,,,35.21350098,-106.44999695,Bernalillo,NM,"Albuquerque, Sandia Crest",447.9,442.9,,,,,7,313503

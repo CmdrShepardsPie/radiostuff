@@ -1,2 +1,2 @@
-ID,StateID,Callsign,Use,Status,SquelchTone,Location.Latitude,Location.Longitude,Location.County,Location.State,Location.Local,Frequency.Input,Frequency.Output,DigitalTone.Input,DigitalTone.Output,Digital.DMR,Digital.P25,Digital.DStar,VOIP.AllStar,VOIP.EchoLink,VOIP.IRLP,VOIP.Wires.ID,Digital.YSF.GroupID.Input,Digital.YSF.GroupID.Output
-15093,6,KK6SMA,Open,On-Air,,33.74560165,-116.97200012,Riverside,CA,"Hemet, Highway 74",441.42,446.42,432,,,,,,,,33519,Open ↑,Open ↓
+ID,StateID,Callsign,Use,Status,SquelchTone,Location.Latitude,Location.Longitude,Location.County,Location.State,Location.Local,Frequency.Input,Frequency.Output,DigitalTone.Input,DigitalTone.Output,Digital.DMR,Digital.P25,Digital.DStar,Digital.NXDN,VOIP.AllStar,VOIP.EchoLink,VOIP.IRLP,VOIP.Wires.ID,Digital.YSF.GroupID.Input,Digital.YSF.GroupID.Output
+15093,6,KK6SMA,Open,On-Air,,33.74560165,-116.97200012,Riverside,CA,"Hemet, Highway 74",441.42,446.42,432,,,,,,,,,33519,Open ↑,Open ↓

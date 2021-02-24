@@ -1,2 +1,2 @@
-ID,StateID,Callsign,Use,Status,SquelchTone,DigitalTone,VOIP,Location.Latitude,Location.Longitude,Location.County,Location.State,Location.Local,Frequency.Input,Frequency.Output,Digital.DMR,Digital.P25,Digital.YSF,Digital.DStar.Node
-347,32,K7RLW,Open,On-Air,,,,35.27500153,-114.72299957,Clark,NV,"Bullhead City, Spirit Mountain",441.225,446.225,,,,K7RLW (B)
+ID,StateID,Callsign,Use,Status,SquelchTone,DigitalTone,VOIP,Location.Latitude,Location.Longitude,Location.County,Location.State,Location.Local,Frequency.Input,Frequency.Output,Digital.DMR,Digital.P25,Digital.NXDN,Digital.YSF,Digital.DStar.Node
+347,32,K7RLW,Open,On-Air,,,,35.27500153,-114.72299957,Clark,NV,"Bullhead City, Spirit Mountain",441.225,446.225,,,,,K7RLW (B)

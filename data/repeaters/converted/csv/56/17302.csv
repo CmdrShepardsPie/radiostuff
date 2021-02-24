@@ -1,2 +1,2 @@
-ID,StateID,Callsign,Use,Status,SquelchTone,DigitalTone,Location.Latitude,Location.Longitude,Location.County,Location.State,Location.Local,Frequency.Input,Frequency.Output,Digital.DMR,Digital.YSF,VOIP.AllStar,VOIP.IRLP,VOIP.Wires,Digital.P25.NAC,Digital.DStar.Node,VOIP.EchoLink.NodeID
-17302,56,KG7LRK,Open,On-Air,,,43.02470016,-108.3809967,Washakie,WY,"Riverton, Griffy site",446.67,147.555,,,,,,,KG7LRK (C) Hot Spot 24/7,161145
+ID,StateID,Callsign,Use,Status,SquelchTone,DigitalTone,Location.Latitude,Location.Longitude,Location.County,Location.State,Location.Local,Frequency.Input,Frequency.Output,Digital.DMR,Digital.NXDN,Digital.YSF,VOIP.AllStar,VOIP.IRLP,VOIP.Wires,Digital.P25.NAC,Digital.DStar.Node,VOIP.EchoLink.NodeID
+17302,56,KG7LRK,Open,On-Air,,,43.02470016,-108.3809967,Washakie,WY,"Riverton, Griffy site",446.67,147.555,,,,,,,,KG7LRK (C) Hot Spot 24/7,161145

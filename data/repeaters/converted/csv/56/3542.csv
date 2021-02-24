@@ -1,2 +1,2 @@
-ID,StateID,Callsign,Use,Status,SquelchTone,VOIP,Location.Latitude,Location.Longitude,Location.County,Location.State,Location.Local,Frequency.Input,Frequency.Output,DigitalTone.Input,DigitalTone.Output,Digital.DMR,Digital.P25,Digital.DStar,Digital.YSF.GroupID.Input,Digital.YSF.GroupID.Output
-3542,56,W7VNJ,Open,On-Air,,,42.84859848,-106.30799866,Natrona,WY,Casper,147.88,147.28,32,,,,,Open ↑,Open ↓
+ID,StateID,Callsign,Use,Status,SquelchTone,VOIP,Location.Latitude,Location.Longitude,Location.County,Location.State,Location.Local,Frequency.Input,Frequency.Output,DigitalTone.Input,DigitalTone.Output,Digital.DMR,Digital.P25,Digital.DStar,Digital.NXDN,Digital.YSF.GroupID.Input,Digital.YSF.GroupID.Output
+3542,56,W7VNJ,Open,On-Air,,,42.84859848,-106.30799866,Natrona,WY,Casper,147.88,147.28,32,,,,,,Open ↑,Open ↓

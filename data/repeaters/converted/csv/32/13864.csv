@@ -1,2 +1,2 @@
-ID,StateID,Callsign,Use,Status,SquelchTone,DigitalTone,VOIP,Location.Latitude,Location.Longitude,Location.County,Location.State,Location.Local,Frequency.Input,Frequency.Output,Digital.P25,Digital.DStar,Digital.YSF,Digital.DMR.ColorCode,Digital.DMR.ID
-13864,32,WB6TNP,Open,On-Air,,,,35.70159912,-114.89099884,Clark,NV,Bolder City,444.05,449.05,,,,15,313217
+ID,StateID,Callsign,Use,Status,SquelchTone,DigitalTone,VOIP,Location.Latitude,Location.Longitude,Location.County,Location.State,Location.Local,Frequency.Input,Frequency.Output,Digital.P25,Digital.DStar,Digital.NXDN,Digital.YSF,Digital.DMR.ColorCode,Digital.DMR.ID
+13864,32,WB6TNP,Open,On-Air,,,,35.70159912,-114.89099884,Clark,NV,Bolder City,444.05,449.05,,,,,15,313217

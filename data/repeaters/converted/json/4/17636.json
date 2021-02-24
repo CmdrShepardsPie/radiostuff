@@ -10,5 +10,9 @@
   "Status": "Other",
   "Frequency": {
     "Input": null
+  },
+  "VOIP": {
+    "EchoLink": {},
+    "IRLP": {}
   }
 }

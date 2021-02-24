@@ -40,7 +40,7 @@ var __importDefault = (this && this.__importDefault) || function (mod) {
     log('Program Parse Args');
     commander_1.program.parse(process.argv);
     async function doIt(location, outFileName) {
-        const simplex = await radio_helpers_1.loadSimplex(/FM|ISS|SAT/i);
+        const simplex = await radio_helpers_1.loadSimplex(/FM|SAT|ISS/i);
         const repeaters = await radio_helpers_1.loadRepeaters(location);
         const mapped = [
             ...simplex
@@ -50,7 +50,7 @@ var __importDefault = (this && this.__importDefault) || function (mod) {
             ...repeaters
                 .filter(radio_helpers_1.filterOutputFrequencies(radio_helpers_1.FrequencyBand.$2_m, radio_helpers_1.FrequencyBand.$1_25_m, radio_helpers_1.FrequencyBand.$70_cm))
                 .filter(radio_helpers_1.filterInputFrequencies(radio_helpers_1.FrequencyBand.$2_m, radio_helpers_1.FrequencyBand.$1_25_m, radio_helpers_1.FrequencyBand.$70_cm))
-                .filter(radio_helpers_1.filterMode(radio_helpers_1.Mode.Any)),
+                .filter(radio_helpers_1.filterMode(radio_helpers_1.Mode.FM)),
         ]
             .map((map) => convertToRadio(map));
         await saveSubset(mapped, 128, `${outFileName}-128`);

@@ -1,2 +1,2 @@
-ID,StateID,Callsign,Use,Status,DigitalTone,Location.Latitude,Location.Longitude,Location.County,Location.State,Location.Local,Frequency.Input,Frequency.Output,SquelchTone.Input,SquelchTone.Output,Digital.DMR,Digital.P25,Digital.DStar,VOIP.AllStar,VOIP.EchoLink,VOIP.IRLP,VOIP.Wires.ID,Digital.YSF.GroupID.Input,Digital.YSF.GroupID.Output
-17703,8,KD0OXW,Open,On-Air,,38.79579926,-102.54799652,Cheyenne,CO,Firstview,442.6,447.6,103.5,,,,,,,,35710,Open ↑,Open ↓
+ID,StateID,Callsign,Use,Status,DigitalTone,Location.Latitude,Location.Longitude,Location.County,Location.State,Location.Local,Frequency.Input,Frequency.Output,SquelchTone.Input,SquelchTone.Output,Digital.DMR,Digital.P25,Digital.DStar,Digital.NXDN,VOIP.AllStar,VOIP.EchoLink,VOIP.IRLP,VOIP.Wires.ID,Digital.YSF.GroupID.Input,Digital.YSF.GroupID.Output
+17703,8,KD0OXW,Open,On-Air,,38.79579926,-102.54799652,Cheyenne,CO,Firstview,442.6,447.6,103.5,,,,,,,,,35710,Open ↑,Open ↓

@@ -1,2 +1,2 @@
-ID,StateID,Callsign,Use,Status,SquelchTone,DigitalTone,VOIP,Location.Latitude,Location.Longitude,Location.County,Location.State,Location.Local,Frequency.Input,Frequency.Output,Digital.P25,Digital.DStar,Digital.YSF,Digital.DMR.ColorCode,Digital.DMR.ID
-16208,6,WD6AML,Open,On-Air,,,,33.75279999,-115.31700134,Riverside,CA,"Desert Center, Chuckwalla Mountains",442.9,447.9,,,,1,110617
+ID,StateID,Callsign,Use,Status,SquelchTone,DigitalTone,VOIP,Location.Latitude,Location.Longitude,Location.County,Location.State,Location.Local,Frequency.Input,Frequency.Output,Digital.P25,Digital.DStar,Digital.NXDN,Digital.YSF,Digital.DMR.ColorCode,Digital.DMR.ID
+16208,6,WD6AML,Open,On-Air,,,,33.75279999,-115.31700134,Riverside,CA,"Desert Center, Chuckwalla Mountains",442.9,447.9,,,,,1,110617

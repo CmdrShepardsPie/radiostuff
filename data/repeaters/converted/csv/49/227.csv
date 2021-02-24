@@ -1,2 +1,2 @@
-ID,StateID,Callsign,Use,Status,SquelchTone,DigitalTone,VOIP,Location.Latitude,Location.Longitude,Location.County,Location.State,Location.Local,Frequency.Input,Frequency.Output,Digital.DMR,Digital.P25,Digital.YSF,Digital.DStar.Node
-227,49,WA7GIE,Open,Other,,,,40.61360168,-112.18699646,Salt Lake,UT,"Salt Lake City, Nelson Peak",443.725,448.725,,,,WA7GIE (B)
+ID,StateID,Callsign,Use,Status,SquelchTone,DigitalTone,VOIP,Location.Latitude,Location.Longitude,Location.County,Location.State,Location.Local,Frequency.Input,Frequency.Output,Digital.DMR,Digital.P25,Digital.NXDN,Digital.YSF,Digital.DStar.Node
+227,49,WA7GIE,Open,Other,,,,40.61360168,-112.18699646,Salt Lake,UT,"Salt Lake City, Nelson Peak",443.725,448.725,,,,,WA7GIE (B)

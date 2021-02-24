@@ -1,2 +1,2 @@
-ID,StateID,Callsign,Use,Status,SquelchTone,DigitalTone,VOIP,Location.Latitude,Location.Longitude,Location.County,Location.State,Location.Local,Frequency.Input,Frequency.Output,Digital.P25,Digital.DStar,Digital.YSF,Digital.DMR.ColorCode,Digital.DMR.ID
-17813,8,N0WAR,Open,On-Air,,,,40.36059952,-105.51999664,Larimer,CO,"Estes Park, Prospect Mtn",147.84,147.24,,,,2,310853
+ID,StateID,Callsign,Use,Status,SquelchTone,DigitalTone,VOIP,Location.Latitude,Location.Longitude,Location.County,Location.State,Location.Local,Frequency.Input,Frequency.Output,Digital.P25,Digital.DStar,Digital.NXDN,Digital.YSF,Digital.DMR.ColorCode,Digital.DMR.ID
+17813,8,N0WAR,Open,On-Air,,,,40.36059952,-105.51999664,Larimer,CO,"Estes Park, Prospect Mtn",147.84,147.24,,,,,2,310853

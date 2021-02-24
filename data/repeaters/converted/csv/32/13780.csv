@@ -1,2 +1,2 @@
-ID,StateID,Callsign,Use,Status,DigitalTone,VOIP,Location.Latitude,Location.Longitude,Location.County,Location.State,Location.Local,Frequency.Input,Frequency.Output,SquelchTone.Input,SquelchTone.Output,Digital.DMR,Digital.P25,Digital.DStar,Digital.YSF.GroupID.Input,Digital.YSF.GroupID.Output
-13780,32,WA7SCA,Open,On-Air,,,35.95500183,-115.09400177,Clark,NV,"Henderson, Sun City Anthem, Independence Center",144.68,145.28,123,123,,,,Open ↑,Open ↓
+ID,StateID,Callsign,Use,Status,DigitalTone,VOIP,Location.Latitude,Location.Longitude,Location.County,Location.State,Location.Local,Frequency.Input,Frequency.Output,SquelchTone.Input,SquelchTone.Output,Digital.DMR,Digital.P25,Digital.DStar,Digital.NXDN,Digital.YSF.GroupID.Input,Digital.YSF.GroupID.Output
+13780,32,WA7SCA,Open,On-Air,,,35.95500183,-115.09400177,Clark,NV,"Henderson, Sun City Anthem, Independence Center",144.68,145.28,123,123,,,,,Open ↑,Open ↓

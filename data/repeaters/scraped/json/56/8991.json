@@ -7,7 +7,7 @@
   "ST/PR": "WY",
   "Use": "OPEN",
   "Mode": "DMR",
-  "Mi": 174.14,
+  "Mi": 191.45,
   "Dir": "NNE",
   "": "Cheyenne DMR Repeater. Please use ONLY TG 315615(Cheyenne Local), TG 31563 (Wy Svr Wx), and TG 31562 (Wyoming TAC 2) on Time Slot 2 (TS2). TG 3156 (Wyoming), TG 31560 (SE Wyoming ) and TG 31561 (Wyoming TAC 1) are on TS1. ALL OTHER TG connections will be directed to Time Slot 1 (TS1). Example of ALL OTHERS is any calls that are to a TG outside of Wyoming. Under special situations such as emergencies or special events TS2 may be used for TGs outside of Wyoming but those will be after repeater Admin approval.",
   "state_id": "56",

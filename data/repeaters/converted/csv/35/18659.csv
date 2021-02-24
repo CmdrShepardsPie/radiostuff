@@ -1,2 +1,2 @@
-ID,StateID,Callsign,Use,Status,SquelchTone,DigitalTone,VOIP,Location.Latitude,Location.Longitude,Location.County,Location.State,Location.Local,Frequency.Input,Frequency.Output,Digital.P25,Digital.DStar,Digital.YSF,Digital.DMR.ColorCode,Digital.DMR.ID
-18659,35,WR7HLN,Open,On-Air,,,,34.68879,-106.4094438,Torrance,NM,"Mountainair, Capilla Peak",448.25,443.25,,,,1,310012
+ID,StateID,Callsign,Use,Status,SquelchTone,DigitalTone,VOIP,Location.Latitude,Location.Longitude,Location.County,Location.State,Location.Local,Frequency.Input,Frequency.Output,Digital.P25,Digital.DStar,Digital.NXDN,Digital.YSF,Digital.DMR.ColorCode,Digital.DMR.ID
+18659,35,WR7HLN,Open,On-Air,,,,34.68879,-106.4094438,Torrance,NM,"Mountainair, Capilla Peak",448.25,443.25,,,,,1,310012

@@ -1,2 +1,2 @@
-ID,StateID,Callsign,Use,Status,SquelchTone,DigitalTone,Location.Latitude,Location.Longitude,Location.County,Location.State,Location.Local,Frequency.Input,Frequency.Output,Digital.DMR,Digital.P25,VOIP.AllStar,VOIP.IRLP,VOIP.Wires,Digital.DStar.Node,VOIP.EchoLink.NodeID,Digital.YSF.GroupID.Input,Digital.YSF.GroupID.Output
-13103,56,N7DMO,Open,On-Air,,,43.0387001,-108.43800354,Fremont,WY,"Riverton, Griffy Hill",446.67,441.67,,,,,,N7DMO (B),161145,Open ↑,Open ↓
+ID,StateID,Callsign,Use,Status,SquelchTone,DigitalTone,Location.Latitude,Location.Longitude,Location.County,Location.State,Location.Local,Frequency.Input,Frequency.Output,Digital.DMR,Digital.P25,Digital.NXDN,VOIP.AllStar,VOIP.IRLP,VOIP.Wires,Digital.DStar.Node,VOIP.EchoLink.NodeID,Digital.YSF.GroupID.Input,Digital.YSF.GroupID.Output
+13103,56,N7DMO,Open,On-Air,,,43.0387001,-108.43800354,Fremont,WY,"Riverton, Griffy Hill",446.67,441.67,,,,,,,N7DMO (B),161145,Open ↑,Open ↓

@@ -151,14 +151,20 @@ function convertNumber(input: string | number | undefined, numberFilter: RegExp 
 function convertRepeaterDigitalData(raw: RepeaterRaw): RepeaterDigitalModes | undefined {
   const converted: RepeaterDigitalModes = {
     // TODO: ATV?: boolean;
-    DMR: ((raw.DGTL && raw.DGTL.includes('D')) || raw['DMR Enabled']) ? {
+    DMR: ((raw.DGTL && raw.DGTL.includes('D')) || (raw.Mode && raw.Mode.includes('DMR')) || raw['DMR Enabled']) ? {
       ColorCode: convertNumber(raw['Color Code']),
       ID: convertNumber(raw['DMR ID']),
     } : undefined,
-    P25: ((raw.DGTL && raw.DGTL.includes('P')) || raw['P-25 Digital Enabled']) ? { NAC: convertNumber(raw.NAC) } : undefined,
+
+    P25: ((raw.DGTL && raw.DGTL.includes('P')) || (raw.Mode && raw.Mode.includes('P25')) || raw['P-25 Digital Enabled']) ? { NAC: convertNumber(raw.NAC) } : undefined,
+
     // TODO: Convert D-Star nodes to programmable format
-    DStar: ((raw.DGTL && raw.DGTL.includes('S')) || raw['D-STAR Enabled']) ? { Node: raw.Node } : undefined,
-    YSF: ((raw.DGTL && raw.DGTL.includes('Y')) || raw['YSF Digital Enabled']) ? {
+    DStar: ((raw.DGTL && raw.DGTL.includes('S')) || (raw.Mode && raw.Mode.includes('DSTAR')) || raw['D-STAR Enabled']) ? { Node: raw.Node } : undefined,
+
+    // NXDN WIP untested
+    NXDN: ((raw.DGTL && raw.DGTL.includes('N')) || (raw.Mode && raw.Mode.includes('NXDN')) || raw['NXDN Enabled']) ? { RAN: convertNumber(raw.RAN) } : undefined,
+
+    YSF: ((raw.DGTL && raw.DGTL.includes('Y')) || (raw.Mode && raw.Mode.includes('Fusion')) || raw['YSF Digital Enabled']) ? {
       GroupID: {
         // TODO: Convert "Open" to 0 (confirm this is correct?)
         Input: typeof raw['DG-ID'] === 'number' ? raw['DG-ID'] : typeof raw['DG-ID'] === 'string' ? raw['DG-ID'].split('/')[0].trim() : undefined,
@@ -166,19 +172,22 @@ function convertRepeaterDigitalData(raw: RepeaterRaw): RepeaterDigitalModes | un
       },
     } : undefined,
   };
-  if (converted.DMR || converted.P25 || converted.DStar || converted.YSF) {
+  if (converted.DMR || converted.P25 || converted.DStar || converted.NXDN || converted.YSF) {
     return converted;
   }
 }
 
 function convertRepeaterVOIP(raw: RepeaterRaw): RepeaterVOIPModes | undefined {
   const converted: RepeaterVOIPModes = {
-    AllStar: ((raw.VOIP && raw.VOIP.includes('A')) || raw.AllStar) ? { NodeID: convertNumber(raw.AllStar) } : undefined,
-    EchoLink: ((raw.VOIP && raw.VOIP.includes('E')) || raw.EchoLink) ? {
+    AllStar: ((raw.VOIP && raw.VOIP.includes('A')) || (raw.Mode && raw.Mode.includes('AllStar')) || raw.AllStar) ? { NodeID: convertNumber(raw.AllStar) } : undefined,
+
+    EchoLink: ((raw.VOIP && raw.VOIP.includes('E')) || (raw.Mode && raw.Mode.includes('EchoLink')) || raw.EchoLink) ? {
       NodeID: raw.EchoLink,
     } : undefined, // TODO: Status?: EchoLinkNodeStatus
-    IRLP: ((raw.VOIP && raw.VOIP.includes('I')) || raw.IRLP) ? { NodeID: convertNumber(raw.IRLP) } : undefined,
-    Wires: ((raw.VOIP && raw.VOIP.includes('W')) || raw['WIRES-X']) ? { ID: convertNumber(raw['WIRES-X']) } : undefined,
+
+    IRLP: ((raw.VOIP && raw.VOIP.includes('I')) || (raw.Mode && raw.Mode.includes('IRLP')) || raw.IRLP) ? { NodeID: convertNumber(raw.IRLP) } : undefined,
+
+    Wires: ((raw.VOIP && raw.VOIP.includes('W')) || (raw.Mode && raw.Mode.includes('WIRES-X')) || raw['WIRES-X']) ? { ID: convertNumber(raw['WIRES-X']) } : undefined,
   };
   if (converted.AllStar || converted.EchoLink || converted.IRLP || converted.Wires) {
     return converted;

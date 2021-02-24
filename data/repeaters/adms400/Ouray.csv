@@ -417,7 +417,7 @@ Channel Number,Receive Frequency,Transmit Frequency,Offset Frequency,Offset Dire
 416,147.39000,147.99000,600 kHz,Plus,Auto,SNO Carbondale Four Mile Ridge,Large,Tone,107.2 Hz,023,High,Off,Auto,Off,8 259 148.00 CO Garfield Carbondale Four Mile Ridge K0SNO,1500 Hz
 417,146.97000,146.37000,600 kHz,Minus,Auto,SRJ Colorado Springs Pikes Peak,Large,Tone,100.0 Hz,023,High,Off,Auto,Off,8 44 239.00 CO El Paso Colorado Springs Pikes Peak KB0SRJ,1500 Hz
 418,448.45000,443.45000,5.00 MHz,Minus,Auto,SRJ Colorado Springs Pikes Peak,Large,Tone,100.0 Hz,023,High,Off,Auto,Off,8 54 239.00 CO El Paso Colorado Springs Pikes Peak KB0SRJ,1500 Hz
-419,145.26500,144.66500,600 kHz,Minus,Auto,SRJ Colorado Springs ~2 mi ENE U,Large,Tone,100.0 Hz,023,High,Off,Auto,Off,8 39 246.00 CO El Paso Colorado Springs ~2 mi ENE USAFA North Gate KB0SRJ,1500 Hz
+419,145.26500,144.66500,600 kHz,Minus,Auto,SRJ Colorado Springs ~2 mi ENE U,Large,None,100.0 Hz,023,High,Off,Auto,Off,8 39 246.00 CO El Paso Colorado Springs ~2 mi ENE USAFA North Gate KB0SRJ,1500 Hz
 420,448.80000,443.80000,5.00 MHz,Minus,Auto,SRJ Colorado Springs ~2 mi ENE U,Large,Tone,100.0 Hz,023,High,Off,Auto,Off,8 57 266.00 CO El Paso Colorado Springs ~2 mi ENE USAFA North Gate KB0SRJ,1500 Hz
 421,147.10500,147.70500,600 kHz,Plus,Auto,SSI Grand Junction,Large,None,100.0 Hz,023,High,Off,Auto,Off,8 8175 136.00 CO Mesa Grand Junction K0SSI,1500 Hz
 422,447.95000,442.95000,5.00 MHz,Minus,Auto,SSP Dillon Dillon Res.,Large,None,100.0 Hz,023,High,Off,Auto,Off,8 19242 216.00 CO Summit Dillon Dillon Res. KD0SSP,1500 Hz

@@ -13,5 +13,9 @@
   },
   "SquelchTone": {
     "Input": 123
+  },
+  "VOIP": {
+    "EchoLink": {},
+    "IRLP": {}
   }
 }

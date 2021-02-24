@@ -1,2 +1,2 @@
-ID,StateID,Callsign,Use,Status,SquelchTone,DigitalTone,Location.Latitude,Location.Longitude,Location.County,Location.State,Location.Local,Frequency.Input,Frequency.Output,Digital.DMR,Digital.DStar,Digital.YSF,VOIP.EchoLink,VOIP.IRLP,VOIP.Wires,Digital.P25.NAC,VOIP.AllStar.NodeID
-17945,32,N4NJJ,Open,On-Air,,,36.00780106,-114.96499634,Clark,NV,"Henderson, CSN Henderson",425.85,420.85,,,,,,,293,42631
+ID,StateID,Callsign,Use,Status,SquelchTone,DigitalTone,Location.Latitude,Location.Longitude,Location.County,Location.State,Location.Local,Frequency.Input,Frequency.Output,Digital.DMR,Digital.DStar,Digital.NXDN,Digital.YSF,VOIP.EchoLink,VOIP.IRLP,VOIP.Wires,Digital.P25.NAC,VOIP.AllStar.NodeID
+17945,32,N4NJJ,Open,On-Air,,,36.00780106,-114.96499634,Clark,NV,"Henderson, CSN Henderson",425.85,420.85,,,,,,,,293,42631

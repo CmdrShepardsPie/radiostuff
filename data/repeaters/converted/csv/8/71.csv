@@ -1,2 +1,2 @@
-ID,StateID,Callsign,Use,Status,DigitalTone,VOIP,Location.Latitude,Location.Longitude,Location.County,Location.State,Location.Local,Frequency.Input,Frequency.Output,SquelchTone.Input,SquelchTone.Output,Digital.DMR,Digital.DStar,Digital.YSF,Digital.P25.NAC
-71,8,WT0C,Open,On-Air,,,39.77719879,-105.32800293,Jefferson,CO,"Golden, Guy Hill",144.62,145.22,103.5,103.5,,,,293
+ID,StateID,Callsign,Use,Status,DigitalTone,VOIP,Location.Latitude,Location.Longitude,Location.County,Location.State,Location.Local,Frequency.Input,Frequency.Output,SquelchTone.Input,SquelchTone.Output,Digital.DMR,Digital.DStar,Digital.NXDN,Digital.YSF,Digital.P25.NAC
+71,8,WT0C,Open,On-Air,,,39.77719879,-105.32800293,Jefferson,CO,"Golden, Guy Hill",144.62,145.22,103.5,103.5,,,,,293

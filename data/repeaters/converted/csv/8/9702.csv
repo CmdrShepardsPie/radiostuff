@@ -1,2 +1,2 @@
-ID,StateID,Callsign,Use,Status,VOIP,Location.Latitude,Location.Longitude,Location.County,Location.State,Location.Local,Frequency.Input,Frequency.Output,SquelchTone.Input,SquelchTone.Output,DigitalTone.Input,DigitalTone.Output,Digital.DMR,Digital.DStar,Digital.YSF,Digital.P25.NAC
-9702,8,KI0HC,Open,On-Air,,39.76580048,-105.36599731,Jefferson,CO,"Golden, Centennial Cone",902.025,927.8375,,100,205,,,,,293
+ID,StateID,Callsign,Use,Status,VOIP,Location.Latitude,Location.Longitude,Location.County,Location.State,Location.Local,Frequency.Input,Frequency.Output,SquelchTone.Input,SquelchTone.Output,DigitalTone.Input,DigitalTone.Output,Digital.DMR,Digital.DStar,Digital.NXDN,Digital.YSF,Digital.P25.NAC
+9702,8,KI0HC,Open,On-Air,,39.76580048,-105.36599731,Jefferson,CO,"Golden, Centennial Cone",902.025,927.8375,,100,205,,,,,,293

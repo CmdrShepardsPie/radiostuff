@@ -1,2 +1,2 @@
-ID,StateID,Callsign,Use,Status,SquelchTone,DigitalTone,VOIP,Location.Latitude,Location.Longitude,Location.County,Location.State,Location.Local,Frequency.Input,Frequency.Output,Digital.DMR,Digital.P25,Digital.DStar,Digital.YSF.GroupID.Input,Digital.YSF.GroupID.Output
-8215,8,W0TX,Open,On-Air,,,,39.68220139,-105.14299774,Jefferson,CO,"Lakewood, Green Mtn",444.775,449.775,,,,Open ↑,Open ↓
+ID,StateID,Callsign,Use,Status,SquelchTone,DigitalTone,VOIP,Location.Latitude,Location.Longitude,Location.County,Location.State,Location.Local,Frequency.Input,Frequency.Output,Digital.DMR,Digital.P25,Digital.DStar,Digital.NXDN,Digital.YSF.GroupID.Input,Digital.YSF.GroupID.Output
+8215,8,W0TX,Open,On-Air,,,,39.68220139,-105.14299774,Jefferson,CO,"Lakewood, Green Mtn",444.775,449.775,,,,,Open ↑,Open ↓

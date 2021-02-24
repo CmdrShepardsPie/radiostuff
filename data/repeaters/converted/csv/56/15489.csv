@@ -1,2 +1,2 @@
-ID,StateID,Callsign,Use,Status,SquelchTone,DigitalTone,VOIP,Location.Latitude,Location.Longitude,Location.County,Location.State,Location.Local,Frequency.Input,Frequency.Output,Digital.P25,Digital.DStar,Digital.YSF,Digital.DMR.ColorCode,Digital.DMR.ID
-15489,56,WY7EOC,Open,On-Air,,,,42.86660004,-106.31300354,Natrona,WY,"Casper, Casper Mountain",444.9875,449.9875,,,,11,315606
+ID,StateID,Callsign,Use,Status,SquelchTone,DigitalTone,VOIP,Location.Latitude,Location.Longitude,Location.County,Location.State,Location.Local,Frequency.Input,Frequency.Output,Digital.P25,Digital.DStar,Digital.NXDN,Digital.YSF,Digital.DMR.ColorCode,Digital.DMR.ID
+15489,56,WY7EOC,Open,On-Air,,,,42.86660004,-106.31300354,Natrona,WY,"Casper, Casper Mountain",444.9875,449.9875,,,,,11,315606

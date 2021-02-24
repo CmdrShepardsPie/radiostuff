@@ -1,2 +1,2 @@
-ID,StateID,Callsign,Use,Status,SquelchTone,DigitalTone,VOIP,Location.Latitude,Location.Longitude,Location.County,Location.State,Location.Local,Frequency.Input,Frequency.Output,Digital.DMR,Digital.P25,Digital.YSF,Digital.DStar.Node
-8088,8,KC0CVU,Open,Testing,,,,38.74449921,-104.86199951,El Paso,CO,"Colorado Springs, Cheyenne Mountain",144.785,145.385,,,,KC0CVU (C) Repeater
+ID,StateID,Callsign,Use,Status,SquelchTone,DigitalTone,VOIP,Location.Latitude,Location.Longitude,Location.County,Location.State,Location.Local,Frequency.Input,Frequency.Output,Digital.DMR,Digital.P25,Digital.NXDN,Digital.YSF,Digital.DStar.Node
+8088,8,KC0CVU,Open,Testing,,,,38.74449921,-104.86199951,El Paso,CO,"Colorado Springs, Cheyenne Mountain",144.785,145.385,,,,,KC0CVU (C) Repeater

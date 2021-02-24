@@ -13,5 +13,8 @@
   },
   "SquelchTone": {
     "Input": 203.5
+  },
+  "VOIP": {
+    "IRLP": {}
   }
 }

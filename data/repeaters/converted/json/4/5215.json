@@ -13,5 +13,9 @@
   },
   "SquelchTone": {
     "Input": 131.8
+  },
+  "VOIP": {
+    "AllStar": {},
+    "EchoLink": {}
   }
 }

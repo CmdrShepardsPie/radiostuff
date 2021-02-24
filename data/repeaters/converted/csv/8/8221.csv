@@ -1,2 +1,2 @@
-ID,StateID,Callsign,Use,Status,SquelchTone,DigitalTone,VOIP,Location.Latitude,Location.Longitude,Location.County,Location.State,Location.Local,Frequency.Input,Frequency.Output,Digital.DMR,Digital.P25,Digital.YSF,Digital.DStar.Node
-8221,8,W0DK,Open,On-Air,,,,40.01499939,-105.27100372,Boulder,CO,Boulder,1279.5,1299.5,,,,W0DK (A) DVAP 24/7
+ID,StateID,Callsign,Use,Status,SquelchTone,DigitalTone,VOIP,Location.Latitude,Location.Longitude,Location.County,Location.State,Location.Local,Frequency.Input,Frequency.Output,Digital.DMR,Digital.P25,Digital.NXDN,Digital.YSF,Digital.DStar.Node
+8221,8,W0DK,Open,On-Air,,,,40.01499939,-105.27100372,Boulder,CO,Boulder,1279.5,1299.5,,,,,W0DK (A) DVAP 24/7

@@ -1,2 +1,2 @@
-ID,StateID,Callsign,Use,Status,SquelchTone,DigitalTone,VOIP,Location.Latitude,Location.Longitude,Location.County,Location.State,Location.Local,Frequency.Input,Frequency.Output,Digital.P25,Digital.DStar,Digital.YSF,Digital.DMR.ColorCode,Digital.DMR.ID
-16118,35,N5GU,Open,On-Air,,,,35.07920074,-106.48899841,Bernalillo,NM,"Albuquerque, Southeast",449.6,444.6,,,,1,3135092
+ID,StateID,Callsign,Use,Status,SquelchTone,DigitalTone,VOIP,Location.Latitude,Location.Longitude,Location.County,Location.State,Location.Local,Frequency.Input,Frequency.Output,Digital.P25,Digital.DStar,Digital.NXDN,Digital.YSF,Digital.DMR.ColorCode,Digital.DMR.ID
+16118,35,N5GU,Open,On-Air,,,,35.07920074,-106.48899841,Bernalillo,NM,"Albuquerque, Southeast",449.6,444.6,,,,,1,3135092

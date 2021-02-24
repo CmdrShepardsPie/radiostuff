@@ -1,2 +1,2 @@
-ID,StateID,Callsign,Use,Status,SquelchTone,DigitalTone,VOIP,Location.Latitude,Location.Longitude,Location.County,Location.State,Location.Local,Frequency.Input,Frequency.Output,Digital.DMR,Digital.DStar,Digital.YSF,Digital.P25.NAC
-19152,35,WA6IFI,Open,Other,,,,36.9100484,-104.4420126,Colfax,NM,"Raton, Raton Pass",902.025,927.875,,,,
+ID,StateID,Callsign,Use,Status,SquelchTone,DigitalTone,VOIP,Location.Latitude,Location.Longitude,Location.County,Location.State,Location.Local,Frequency.Input,Frequency.Output,Digital.DMR,Digital.DStar,Digital.NXDN,Digital.YSF,Digital.P25.NAC
+19152,35,WA6IFI,Open,Other,,,,36.9100484,-104.4420126,Colfax,NM,"Raton, Raton Pass",902.025,927.875,,,,,

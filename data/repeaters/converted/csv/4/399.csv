@@ -1,2 +1,2 @@
-ID,StateID,Callsign,Use,Status,SquelchTone,DigitalTone,VOIP,Location.Latitude,Location.Longitude,Location.County,Location.State,Location.Local,Frequency.Input,Frequency.Output,Digital.P25,Digital.DStar,Digital.YSF,Digital.DMR.ColorCode,Digital.DMR.ID
-399,4,WB7BYV,Open,On-Air,,,,34.54000092,-112.46800232,Yavapai,AZ,Prescott,444.675,449.675,,,,1,312089
+ID,StateID,Callsign,Use,Status,SquelchTone,DigitalTone,VOIP,Location.Latitude,Location.Longitude,Location.County,Location.State,Location.Local,Frequency.Input,Frequency.Output,Digital.P25,Digital.DStar,Digital.NXDN,Digital.YSF,Digital.DMR.ColorCode,Digital.DMR.ID
+399,4,WB7BYV,Open,On-Air,,,,34.54000092,-112.46800232,Yavapai,AZ,Prescott,444.675,449.675,,,,,1,312089

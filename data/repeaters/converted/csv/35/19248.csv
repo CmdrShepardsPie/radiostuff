@@ -1,2 +1,2 @@
-ID,StateID,Callsign,Use,Status,SquelchTone,DigitalTone,VOIP,Location.Latitude,Location.Longitude,Location.County,Location.State,Location.Local,Frequency.Input,Frequency.Output,Digital.DMR,Digital.DStar,Digital.YSF,Digital.P25.NAC
-19248,35,N5UBJ,Open,On-Air,,,,36.4223,-107.8455,San Juan,NM,"Bloomfield, Huerfano Mesa",902.5375,927.5375,,,,
+ID,StateID,Callsign,Use,Status,SquelchTone,DigitalTone,VOIP,Location.Latitude,Location.Longitude,Location.County,Location.State,Location.Local,Frequency.Input,Frequency.Output,Digital.DMR,Digital.DStar,Digital.NXDN,Digital.YSF,Digital.P25.NAC
+19248,35,N5UBJ,Open,On-Air,,,,36.4223,-107.8455,San Juan,NM,"Bloomfield, Huerfano Mesa",902.5375,927.5375,,,,,

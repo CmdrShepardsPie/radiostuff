@@ -1,2 +1,2 @@
-ID,StateID,Callsign,Use,Status,DigitalTone,Location.Latitude,Location.Longitude,Location.County,Location.State,Location.Local,Frequency.Input,Frequency.Output,SquelchTone.Input,SquelchTone.Output,Digital.DMR,Digital.P25,Digital.DStar,VOIP.AllStar,VOIP.IRLP,VOIP.Wires,VOIP.EchoLink.NodeID,Digital.YSF.GroupID.Input,Digital.YSF.GroupID.Output
-205,49,W7NRC,Open,On-Air,,37.06060028,-112.51899719,Kane,UT,"Kanab, TV Site",146.28,146.88,123,,,,,,,,892361,Open ↑,Open ↓
+ID,StateID,Callsign,Use,Status,DigitalTone,Location.Latitude,Location.Longitude,Location.County,Location.State,Location.Local,Frequency.Input,Frequency.Output,SquelchTone.Input,SquelchTone.Output,Digital.DMR,Digital.P25,Digital.DStar,Digital.NXDN,VOIP.AllStar,VOIP.IRLP,VOIP.Wires,VOIP.EchoLink.NodeID,Digital.YSF.GroupID.Input,Digital.YSF.GroupID.Output
+205,49,W7NRC,Open,On-Air,,37.06060028,-112.51899719,Kane,UT,"Kanab, TV Site",146.28,146.88,123,,,,,,,,,892361,Open ↑,Open ↓

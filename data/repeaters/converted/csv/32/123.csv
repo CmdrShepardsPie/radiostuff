@@ -1,2 +1,2 @@
-ID,StateID,Callsign,Use,Status,SquelchTone,VOIP,Location.Latitude,Location.Longitude,Location.County,Location.State,Location.Local,Frequency.Input,Frequency.Output,DigitalTone.Input,DigitalTone.Output,Digital.P25,Digital.DStar,Digital.YSF,Digital.DMR.ColorCode,Digital.DMR.ID
-123,32,NX7R,Open,On-Air,,,36.00730133,-115.00700378,Clark,NV,"Henderson, Black Mtn",443.625,448.625,754,,,,,15,313204
+ID,StateID,Callsign,Use,Status,SquelchTone,VOIP,Location.Latitude,Location.Longitude,Location.County,Location.State,Location.Local,Frequency.Input,Frequency.Output,DigitalTone.Input,DigitalTone.Output,Digital.P25,Digital.DStar,Digital.NXDN,Digital.YSF,Digital.DMR.ColorCode,Digital.DMR.ID
+123,32,NX7R,Open,On-Air,,,36.00730133,-115.00700378,Clark,NV,"Henderson, Black Mtn",443.625,448.625,754,,,,,,15,313204

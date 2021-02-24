@@ -1,2 +1,2 @@
-ID,StateID,Callsign,Use,Status,DigitalTone,VOIP,Location.Latitude,Location.Longitude,Location.County,Location.State,Location.Local,Frequency.Input,Frequency.Output,SquelchTone.Input,SquelchTone.Output,Digital.DMR,Digital.DStar,Digital.YSF,Digital.P25.NAC
-14732,8,KI0HC,Open,On-Air,,,39.53910065,-104.56900024,Douglas,CO,Parker,902.025,927.7375,100,100,,,,293
+ID,StateID,Callsign,Use,Status,DigitalTone,VOIP,Location.Latitude,Location.Longitude,Location.County,Location.State,Location.Local,Frequency.Input,Frequency.Output,SquelchTone.Input,SquelchTone.Output,Digital.DMR,Digital.DStar,Digital.NXDN,Digital.YSF,Digital.P25.NAC
+14732,8,KI0HC,Open,On-Air,,,39.53910065,-104.56900024,Douglas,CO,Parker,902.025,927.7375,100,100,,,,,293

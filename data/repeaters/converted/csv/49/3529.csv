@@ -1,2 +1,2 @@
-ID,StateID,Callsign,Use,Status,SquelchTone,DigitalTone,VOIP,Location.Latitude,Location.Longitude,Location.County,Location.State,Location.Local,Frequency.Input,Frequency.Output,Digital.DMR,Digital.P25,Digital.YSF,Digital.DStar.Node
-3529,49,KF6RAL,Open,On-Air,,,,40.65919876,-112.20200348,Salt Lake,UT,"Salt Lake City, Farnsworth Peak",144.525,145.125,,,,KF6RAL (C) Gateway
+ID,StateID,Callsign,Use,Status,SquelchTone,DigitalTone,VOIP,Location.Latitude,Location.Longitude,Location.County,Location.State,Location.Local,Frequency.Input,Frequency.Output,Digital.DMR,Digital.P25,Digital.NXDN,Digital.YSF,Digital.DStar.Node
+3529,49,KF6RAL,Open,On-Air,,,,40.65919876,-112.20200348,Salt Lake,UT,"Salt Lake City, Farnsworth Peak",144.525,145.125,,,,,KF6RAL (C) Gateway

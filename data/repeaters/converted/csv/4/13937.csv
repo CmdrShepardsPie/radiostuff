@@ -1,2 +1,2 @@
-ID,StateID,Callsign,Use,Status,DigitalTone,VOIP,Location.Latitude,Location.Longitude,Location.County,Location.State,Location.Local,Frequency.Input,Frequency.Output,SquelchTone.Input,SquelchTone.Output,Digital.DMR,Digital.P25,Digital.DStar,Digital.YSF.GroupID.Input,Digital.YSF.GroupID.Output
-13937,4,K7LHC,Open,On-Air,,,34.55139923,-114.19499969,Mohave,AZ,"Lake Havasu City, Crossman Peak",146.02,146.62,131.8,,,,,Open ↑,Open ↓
+ID,StateID,Callsign,Use,Status,DigitalTone,VOIP,Location.Latitude,Location.Longitude,Location.County,Location.State,Location.Local,Frequency.Input,Frequency.Output,SquelchTone.Input,SquelchTone.Output,Digital.DMR,Digital.P25,Digital.DStar,Digital.NXDN,Digital.YSF.GroupID.Input,Digital.YSF.GroupID.Output
+13937,4,K7LHC,Open,On-Air,,,34.55139923,-114.19499969,Mohave,AZ,"Lake Havasu City, Crossman Peak",146.02,146.62,131.8,,,,,,Open ↑,Open ↓

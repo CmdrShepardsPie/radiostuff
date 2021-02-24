@@ -1,2 +1,2 @@
-ID,StateID,Callsign,Use,Status,SquelchTone,DigitalTone,VOIP,Location.Latitude,Location.Longitude,Location.County,Location.State,Location.Local,Frequency.Input,Frequency.Output,Digital.DMR,Digital.P25,Digital.YSF,Digital.DStar.Node
-5181,35,NM5WR,Open,On-Air,,,,35.88809967,-106.30699921,Los Alamos,NM,Los Alamos,447.425,442.425,,,,NM5WR (B)
+ID,StateID,Callsign,Use,Status,SquelchTone,DigitalTone,VOIP,Location.Latitude,Location.Longitude,Location.County,Location.State,Location.Local,Frequency.Input,Frequency.Output,Digital.DMR,Digital.P25,Digital.NXDN,Digital.YSF,Digital.DStar.Node
+5181,35,NM5WR,Open,On-Air,,,,35.88809967,-106.30699921,Los Alamos,NM,Los Alamos,447.425,442.425,,,,,NM5WR (B)

@@ -1,2 +1,2 @@
-ID,StateID,Callsign,Use,Status,SquelchTone,DigitalTone,VOIP,Location.Latitude,Location.Longitude,Location.County,Location.State,Location.Local,Frequency.Input,Frequency.Output,Digital.P25,Digital.DStar,Digital.YSF,Digital.DMR.ColorCode,Digital.DMR.ID
-16721,8,W0BX,Open,On-Air,,,,39.08890152,-108.22699738,Mesa,CO,"Grand Junction, Grand Mesa",441.9125,446.9125,,,,1,310868
+ID,StateID,Callsign,Use,Status,SquelchTone,DigitalTone,VOIP,Location.Latitude,Location.Longitude,Location.County,Location.State,Location.Local,Frequency.Input,Frequency.Output,Digital.P25,Digital.DStar,Digital.NXDN,Digital.YSF,Digital.DMR.ColorCode,Digital.DMR.ID
+16721,8,W0BX,Open,On-Air,,,,39.08890152,-108.22699738,Mesa,CO,"Grand Junction, Grand Mesa",441.9125,446.9125,,,,,1,310868

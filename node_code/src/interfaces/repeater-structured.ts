@@ -44,6 +44,7 @@ export interface RepeaterDigitalModes {
   DMR?: { ColorCode?: number; ID?: number };
   P25?: { NAC?: number; };
   DStar?: { Node?: string; };
+  NXDN?: { RAN?: number; }
   YSF?: { GroupID?: { Input?: string; Output?: string }; };
 }
 

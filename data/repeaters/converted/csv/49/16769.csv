@@ -1,2 +1,2 @@
-ID,StateID,Callsign,Use,Status,SquelchTone,DigitalTone,VOIP,Location.Latitude,Location.Longitude,Location.County,Location.State,Location.Local,Frequency.Input,Frequency.Output,Digital.P25,Digital.DStar,Digital.YSF,Digital.DMR.ColorCode,Digital.DMR.ID
-16769,49,NU7TS,Open,On-Air,,,,41.25730133,-112.44100189,Box Elder,UT,"Ogden, Promontory Point",442.35,447.35,,,,1,314908
+ID,StateID,Callsign,Use,Status,SquelchTone,DigitalTone,VOIP,Location.Latitude,Location.Longitude,Location.County,Location.State,Location.Local,Frequency.Input,Frequency.Output,Digital.P25,Digital.DStar,Digital.NXDN,Digital.YSF,Digital.DMR.ColorCode,Digital.DMR.ID
+16769,49,NU7TS,Open,On-Air,,,,41.25730133,-112.44100189,Box Elder,UT,"Ogden, Promontory Point",442.35,447.35,,,,,1,314908

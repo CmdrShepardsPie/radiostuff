@@ -1,2 +1,2 @@
-ID,StateID,Callsign,Use,Status,SquelchTone,DigitalTone,VOIP,Location.Latitude,Location.Longitude,Location.County,Location.State,Location.Local,Frequency.Input,Frequency.Output,Digital.DMR,Digital.P25,Digital.YSF,Digital.DStar.Node
-6805,35,KD0RDI,Open,On-Air,,,,36.99250031,-104.47399902,Colfax,NM,"Raton, Raton Pass",441.775,446.775,,,,KD0RDI (B) Repeater
+ID,StateID,Callsign,Use,Status,SquelchTone,DigitalTone,VOIP,Location.Latitude,Location.Longitude,Location.County,Location.State,Location.Local,Frequency.Input,Frequency.Output,Digital.DMR,Digital.P25,Digital.NXDN,Digital.YSF,Digital.DStar.Node
+6805,35,KD0RDI,Open,On-Air,,,,36.99250031,-104.47399902,Colfax,NM,"Raton, Raton Pass",441.775,446.775,,,,,KD0RDI (B) Repeater

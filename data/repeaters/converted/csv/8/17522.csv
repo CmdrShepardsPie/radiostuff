@@ -1,2 +1,2 @@
-ID,StateID,Callsign,Use,Status,SquelchTone,DigitalTone,VOIP,Location.Latitude,Location.Longitude,Location.County,Location.State,Location.Local,Frequency.Input,Frequency.Output,Digital.P25,Digital.DStar,Digital.YSF,Digital.DMR.ColorCode,Digital.DMR.ID
-17522,8,KZ0DEM,Open,On-Air,,,,37.37469864,-102.4469986,Baca,CO,Vilas,441.7625,446.7625,,,,7,310841
+ID,StateID,Callsign,Use,Status,SquelchTone,DigitalTone,VOIP,Location.Latitude,Location.Longitude,Location.County,Location.State,Location.Local,Frequency.Input,Frequency.Output,Digital.P25,Digital.DStar,Digital.NXDN,Digital.YSF,Digital.DMR.ColorCode,Digital.DMR.ID
+17522,8,KZ0DEM,Open,On-Air,,,,37.37469864,-102.4469986,Baca,CO,Vilas,441.7625,446.7625,,,,,7,310841

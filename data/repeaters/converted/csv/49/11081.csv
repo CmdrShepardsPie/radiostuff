@@ -1,2 +1,2 @@
-ID,StateID,Callsign,Use,Status,SquelchTone,DigitalTone,VOIP,Location.Latitude,Location.Longitude,Location.County,Location.State,Location.Local,Frequency.Input,Frequency.Output,Digital.DMR,Digital.P25,Digital.YSF,Digital.DStar.Node
-11081,49,KF7VJO,Open,On-Air,,,,41.57509995,-111.83799744,Cache,UT,"Paradise, AC7II QTH",442.95,447.95,,,,KF7VJO (B) Repeater
+ID,StateID,Callsign,Use,Status,SquelchTone,DigitalTone,VOIP,Location.Latitude,Location.Longitude,Location.County,Location.State,Location.Local,Frequency.Input,Frequency.Output,Digital.DMR,Digital.P25,Digital.NXDN,Digital.YSF,Digital.DStar.Node
+11081,49,KF7VJO,Open,On-Air,,,,41.57509995,-111.83799744,Cache,UT,"Paradise, AC7II QTH",442.95,447.95,,,,,KF7VJO (B) Repeater

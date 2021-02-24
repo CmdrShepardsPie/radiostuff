@@ -1,2 +1,2 @@
-ID,StateID,Callsign,Use,Status,SquelchTone,DigitalTone,VOIP,Location.Latitude,Location.Longitude,Location.County,Location.State,Location.Local,Frequency.Input,Frequency.Output,Digital.P25,Digital.DStar,Digital.YSF,Digital.DMR.ColorCode,Digital.DMR.ID
-19318,8,KB0YNA,Open,On-Air,,,,39.089,-108.225,Mesa,CO,"Grand Junction, Grand Mesa",440.05,445.05,,,,7,312125
+ID,StateID,Callsign,Use,Status,SquelchTone,DigitalTone,VOIP,Location.Latitude,Location.Longitude,Location.County,Location.State,Location.Local,Frequency.Input,Frequency.Output,Digital.P25,Digital.DStar,Digital.NXDN,Digital.YSF,Digital.DMR.ColorCode,Digital.DMR.ID
+19318,8,KB0YNA,Open,On-Air,,,,39.089,-108.225,Mesa,CO,"Grand Junction, Grand Mesa",440.05,445.05,,,,,7,312125

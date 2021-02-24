@@ -1,2 +1,2 @@
-ID,StateID,Callsign,Use,Status,DigitalTone,VOIP,Location.Latitude,Location.Longitude,Location.County,Location.State,Location.Local,Frequency.Input,Frequency.Output,SquelchTone.Input,SquelchTone.Output,Digital.DMR,Digital.DStar,Digital.YSF,Digital.P25.NAC
-19607,35,WD9CMS,Open,On-Air,,,35.2102777,-106.4497222,Bernalillo,NM,"Albuquerque, Sandia Crest",902.3375,927.3375,131.8,,,,,293
+ID,StateID,Callsign,Use,Status,DigitalTone,VOIP,Location.Latitude,Location.Longitude,Location.County,Location.State,Location.Local,Frequency.Input,Frequency.Output,SquelchTone.Input,SquelchTone.Output,Digital.DMR,Digital.DStar,Digital.NXDN,Digital.YSF,Digital.P25.NAC
+19607,35,WD9CMS,Open,On-Air,,,35.2102777,-106.4497222,Bernalillo,NM,"Albuquerque, Sandia Crest",902.3375,927.3375,131.8,,,,,,293

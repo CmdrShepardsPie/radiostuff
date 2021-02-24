@@ -1,2 +1,2 @@
-ID,StateID,Callsign,Use,Status,SquelchTone,VOIP,Location.Latitude,Location.Longitude,Location.County,Location.State,Location.Local,Frequency.Input,Frequency.Output,DigitalTone.Input,DigitalTone.Output,Digital.P25,Digital.DStar,Digital.YSF,Digital.DMR.ColorCode,Digital.DMR.ID
-19243,32,NX7R,Open,On-Air,,,36.014774,-115.260273,Clark,NV,"Las Vegas, Exploration Peak Park",425.625,420.625,754,,,,,15,310990
+ID,StateID,Callsign,Use,Status,SquelchTone,VOIP,Location.Latitude,Location.Longitude,Location.County,Location.State,Location.Local,Frequency.Input,Frequency.Output,DigitalTone.Input,DigitalTone.Output,Digital.P25,Digital.DStar,Digital.NXDN,Digital.YSF,Digital.DMR.ColorCode,Digital.DMR.ID
+19243,32,NX7R,Open,On-Air,,,36.014774,-115.260273,Clark,NV,"Las Vegas, Exploration Peak Park",425.625,420.625,754,,,,,,15,310990

@@ -1,2 +1,2 @@
-ID,StateID,Callsign,Use,Status,DigitalTone,VOIP,Location.Latitude,Location.Longitude,Location.County,Location.State,Location.Local,Frequency.Input,Frequency.Output,SquelchTone.Input,SquelchTone.Output,Digital.P25,Digital.DStar,Digital.YSF,Digital.DMR.ColorCode,Digital.DMR.ID
-159,32,KG7SS,Open,On-Air,,,36.21549988,-115.24900055,Clark,NV,"Las Vegas, Mountain View Hospital",442.3,447.3,100,100,,,,15,313207
+ID,StateID,Callsign,Use,Status,DigitalTone,VOIP,Location.Latitude,Location.Longitude,Location.County,Location.State,Location.Local,Frequency.Input,Frequency.Output,SquelchTone.Input,SquelchTone.Output,Digital.P25,Digital.DStar,Digital.NXDN,Digital.YSF,Digital.DMR.ColorCode,Digital.DMR.ID
+159,32,KG7SS,Open,On-Air,,,36.21549988,-115.24900055,Clark,NV,"Las Vegas, Mountain View Hospital",442.3,447.3,100,100,,,,,15,313207

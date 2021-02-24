@@ -1,2 +1,2 @@
-ID,StateID,Callsign,Use,Status,SquelchTone,DigitalTone,VOIP,Location.Latitude,Location.Longitude,Location.County,Location.State,Location.Local,Frequency.Input,Frequency.Output,Digital.P25,Digital.DStar,Digital.YSF,Digital.DMR.ColorCode,Digital.DMR.ID
-7889,49,N6DVZ,Open,On-Air,,,,40.60969925,-111.93900299,Salt Lake,UT,West Jordan,442.9375,447.9375,,,,1,314900
+ID,StateID,Callsign,Use,Status,SquelchTone,DigitalTone,VOIP,Location.Latitude,Location.Longitude,Location.County,Location.State,Location.Local,Frequency.Input,Frequency.Output,Digital.P25,Digital.DStar,Digital.NXDN,Digital.YSF,Digital.DMR.ColorCode,Digital.DMR.ID
+7889,49,N6DVZ,Open,On-Air,,,,40.60969925,-111.93900299,Salt Lake,UT,West Jordan,442.9375,447.9375,,,,,1,314900

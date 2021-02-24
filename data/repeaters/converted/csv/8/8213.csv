@@ -1,2 +1,2 @@
-ID,StateID,Callsign,Use,Status,DigitalTone,Location.Latitude,Location.Longitude,Location.County,Location.State,Location.Local,Frequency.Input,Frequency.Output,SquelchTone.Input,SquelchTone.Output,Digital.DMR,Digital.P25,Digital.YSF,VOIP.AllStar,VOIP.EchoLink,VOIP.Wires,Digital.DStar.Node,VOIP.IRLP.NodeID
-8213,8,WR0AEN,Open,On-Air,,39.73759842,-104.98500061,Denver,CO,Denver,444.675,449.675,136.5,,,,,,,,WR0AEN (B),7708
+ID,StateID,Callsign,Use,Status,DigitalTone,Location.Latitude,Location.Longitude,Location.County,Location.State,Location.Local,Frequency.Input,Frequency.Output,SquelchTone.Input,SquelchTone.Output,Digital.DMR,Digital.P25,Digital.NXDN,Digital.YSF,VOIP.AllStar,VOIP.EchoLink,VOIP.Wires,Digital.DStar.Node,VOIP.IRLP.NodeID
+8213,8,WR0AEN,Open,On-Air,,39.73759842,-104.98500061,Denver,CO,Denver,444.675,449.675,136.5,,,,,,,,,WR0AEN (B),7708

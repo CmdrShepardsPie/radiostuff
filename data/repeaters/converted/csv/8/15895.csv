@@ -1,2 +1,2 @@
-ID,StateID,Callsign,Use,Status,SquelchTone,DigitalTone,VOIP,Location.Latitude,Location.Longitude,Location.County,Location.State,Location.Local,Frequency.Input,Frequency.Output,Digital.P25,Digital.DStar,Digital.YSF,Digital.DMR.ColorCode,Digital.DMR.ID
-15895,8,N5UBJ,Open,On-Air,,,,37.34500122,-108.28900146,Montezuma,CO,"Mancos, Caviness Mountain",441.7375,446.7375,,,,6,310826
+ID,StateID,Callsign,Use,Status,SquelchTone,DigitalTone,VOIP,Location.Latitude,Location.Longitude,Location.County,Location.State,Location.Local,Frequency.Input,Frequency.Output,Digital.P25,Digital.DStar,Digital.NXDN,Digital.YSF,Digital.DMR.ColorCode,Digital.DMR.ID
+15895,8,N5UBJ,Open,On-Air,,,,37.34500122,-108.28900146,Montezuma,CO,"Mancos, Caviness Mountain",441.7375,446.7375,,,,,6,310826

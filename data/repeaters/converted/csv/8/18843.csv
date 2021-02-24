@@ -1,2 +1,2 @@
-ID,StateID,Callsign,Use,Status,DigitalTone,VOIP,Location.Latitude,Location.Longitude,Location.County,Location.State,Location.Local,Frequency.Input,Frequency.Output,SquelchTone.Input,SquelchTone.Output,Digital.P25,Digital.DStar,Digital.YSF,Digital.DMR.ColorCode,Digital.DMR.ID
-18843,8,W0CTS,Open,On-Air,,,38.036886,-102.599448,Prowers,CO,"Lamar, 1.7 Miles S.E.",147.75,147.15,123,123,,,,1,311665
+ID,StateID,Callsign,Use,Status,DigitalTone,VOIP,Location.Latitude,Location.Longitude,Location.County,Location.State,Location.Local,Frequency.Input,Frequency.Output,SquelchTone.Input,SquelchTone.Output,Digital.P25,Digital.DStar,Digital.NXDN,Digital.YSF,Digital.DMR.ColorCode,Digital.DMR.ID
+18843,8,W0CTS,Open,On-Air,,,38.036886,-102.599448,Prowers,CO,"Lamar, 1.7 Miles S.E.",147.75,147.15,123,123,,,,,1,311665

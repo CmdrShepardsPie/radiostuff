@@ -1,2 +1,2 @@
-ID,StateID,Callsign,Use,Status,SquelchTone,Location.Latitude,Location.Longitude,Location.County,Location.State,Location.Local,Frequency.Input,Frequency.Output,DigitalTone.Input,DigitalTone.Output,Digital.DMR,Digital.P25,Digital.DStar,VOIP.AllStar,VOIP.EchoLink,VOIP.IRLP,VOIP.Wires.ID,Digital.YSF.GroupID.Input,Digital.YSF.GroupID.Output
-204,49,K7DAV,Open,On-Air,,41.02560043,-111.83699799,Davis,UT,"Layton, Shepherd Peak",444.875,449.875,51,,,,,,,,30115,Open ↑,Open ↓
+ID,StateID,Callsign,Use,Status,SquelchTone,Location.Latitude,Location.Longitude,Location.County,Location.State,Location.Local,Frequency.Input,Frequency.Output,DigitalTone.Input,DigitalTone.Output,Digital.DMR,Digital.P25,Digital.DStar,Digital.NXDN,VOIP.AllStar,VOIP.EchoLink,VOIP.IRLP,VOIP.Wires.ID,Digital.YSF.GroupID.Input,Digital.YSF.GroupID.Output
+204,49,K7DAV,Open,On-Air,,41.02560043,-111.83699799,Davis,UT,"Layton, Shepherd Peak",444.875,449.875,51,,,,,,,,,30115,Open ↑,Open ↓

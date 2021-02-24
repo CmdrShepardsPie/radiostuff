@@ -1,2 +1,2 @@
-ID,StateID,Callsign,Use,Status,SquelchTone,DigitalTone,VOIP,Location.Latitude,Location.Longitude,Location.County,Location.State,Location.Local,Frequency.Input,Frequency.Output,Digital.P25,Digital.DStar,Digital.YSF,Digital.DMR.ColorCode,Digital.DMR.ID
-18712,35,N5UBJ,Open,On-Air,,,,36.7785,-108.1875,San Juan,NM,"Farmington, FAA Hill",445.3,440.3,,,,6,311624
+ID,StateID,Callsign,Use,Status,SquelchTone,DigitalTone,VOIP,Location.Latitude,Location.Longitude,Location.County,Location.State,Location.Local,Frequency.Input,Frequency.Output,Digital.P25,Digital.DStar,Digital.NXDN,Digital.YSF,Digital.DMR.ColorCode,Digital.DMR.ID
+18712,35,N5UBJ,Open,On-Air,,,,36.7785,-108.1875,San Juan,NM,"Farmington, FAA Hill",445.3,440.3,,,,,6,311624

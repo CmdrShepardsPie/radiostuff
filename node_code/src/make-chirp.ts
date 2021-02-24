@@ -44,7 +44,7 @@ log('Program Parse Args');
 program.parse(process.argv);
 
 async function doIt(location: gpsDistance.Point, outFileName: string): Promise<void> {
-  const simplex: RepeaterStructured[] = await loadSimplex(/FM|ISS|SAT/i);
+  const simplex: RepeaterStructured[] = await loadSimplex(/FM|SAT|ISS/i);
   const repeaters: RepeaterStructured[] = await loadRepeaters(location);
 
   const mapped: Chirp[] = [
@@ -71,7 +71,7 @@ async function doIt(location: gpsDistance.Point, outFileName: string): Promise<v
         FrequencyBand.$1_25_m,
         FrequencyBand.$70_cm,
       ))
-      .filter(filterMode(Mode.Any)),
+      .filter(filterMode(Mode.FM)),
   ]
     .map((map: RepeaterStructured): Chirp => convertToRadio(map));
 

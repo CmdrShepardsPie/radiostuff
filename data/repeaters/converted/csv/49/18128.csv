@@ -1,2 +1,2 @@
-ID,StateID,Callsign,Use,Status,DigitalTone,VOIP,Location.Latitude,Location.Longitude,Location.County,Location.State,Location.Local,Frequency.Input,Frequency.Output,SquelchTone.Input,SquelchTone.Output,Digital.DMR,Digital.P25,Digital.DStar,Digital.YSF.GroupID.Input,Digital.YSF.GroupID.Output
-18128,49,KG7FOT,Open,On-Air,,,37.09579849,-113.18699646,Washington,UT,"Hurricane, Little Creek Mesa",444.55,449.55,100,100,,,,Open ↑,Open ↓
+ID,StateID,Callsign,Use,Status,DigitalTone,VOIP,Location.Latitude,Location.Longitude,Location.County,Location.State,Location.Local,Frequency.Input,Frequency.Output,SquelchTone.Input,SquelchTone.Output,Digital.DMR,Digital.P25,Digital.DStar,Digital.NXDN,Digital.YSF.GroupID.Input,Digital.YSF.GroupID.Output
+18128,49,KG7FOT,Open,On-Air,,,37.09579849,-113.18699646,Washington,UT,"Hurricane, Little Creek Mesa",444.55,449.55,100,100,,,,,Open ↑,Open ↓

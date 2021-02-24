@@ -43,6 +43,8 @@ var __importDefault = (this && this.__importDefault) || function (mod) {
         Mode[Mode["DStar"] = 4] = "DStar";
         Mode[Mode["YSF"] = 5] = "YSF";
         Mode[Mode["Any"] = 6] = "Any";
+        Mode[Mode["AnyDigital"] = 7] = "AnyDigital";
+        Mode[Mode["NXDN"] = 8] = "NXDN";
     })(Mode = exports.Mode || (exports.Mode = {}));
     // SEMI-LIMITED BANDS - GENERAL CLASS
     function filterOutputFrequencies(...bands) {
@@ -142,12 +144,14 @@ var __importDefault = (this && this.__importDefault) || function (mod) {
         return (filter) => filter.Status !== repeater_structured_1.RepeaterStatus.OffAir &&
             filter.Use === repeater_structured_1.RepeaterUse.Open &&
             ((modes.includes(Mode.Any)) ||
+                (modes.includes(Mode.AnyDigital) && filter.Digital != null) ||
                 (modes.includes(Mode.FM) && !filter.Digital) ||
                 (modes.includes(Mode.ATV) && filter.Digital != null && filter.Digital.ATV != null) ||
                 (modes.includes(Mode.DMR) && filter.Digital != null && filter.Digital.DMR != null) ||
                 (modes.includes(Mode.P25) && filter.Digital != null && filter.Digital.P25 != null) ||
                 (modes.includes(Mode.DStar) && filter.Digital != null && filter.Digital.DStar != null) ||
-                (modes.includes(Mode.YSF) && filter.Digital != null && filter.Digital.YSF != null));
+                (modes.includes(Mode.YSF) && filter.Digital != null && filter.Digital.YSF != null) ||
+                (modes.includes(Mode.NXDN) && filter.Digital != null && filter.Digital.NXDN != null));
     }
     exports.filterMode = filterMode;
     function filterMinimumRepeaterCount(count, repeaters) {

@@ -1,2 +1,2 @@
-ID,StateID,Callsign,Use,Status,SquelchTone,DigitalTone,VOIP,Location.Latitude,Location.Longitude,Location.County,Location.State,Location.Local,Frequency.Input,Frequency.Output,Digital.P25,Digital.DStar,Digital.YSF,Digital.DMR.ColorCode,Digital.DMR.ID
-16782,8,N0SZ,Open,On-Air,,,,37.3669014,-107.78500366,La Plata,CO,"Durango, Missionary Ridge",440.1375,445.1375,,,,7,310854
+ID,StateID,Callsign,Use,Status,SquelchTone,DigitalTone,VOIP,Location.Latitude,Location.Longitude,Location.County,Location.State,Location.Local,Frequency.Input,Frequency.Output,Digital.P25,Digital.DStar,Digital.NXDN,Digital.YSF,Digital.DMR.ColorCode,Digital.DMR.ID
+16782,8,N0SZ,Open,On-Air,,,,37.3669014,-107.78500366,La Plata,CO,"Durango, Missionary Ridge",440.1375,445.1375,,,,,7,310854
