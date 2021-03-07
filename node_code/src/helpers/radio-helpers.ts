@@ -19,6 +19,8 @@ export enum FrequencyBand {
   $2_m,
   $1_25_m,
   $70_cm,
+  MURS,
+  GMRS,
 }
 
 export enum Mode {
@@ -82,7 +84,12 @@ export function filterOutputFrequencies(...bands: FrequencyBand[]): (filter: Rep
     (bands.includes(FrequencyBand.$2_m) && filter.Frequency.Output >= 144.1 && filter.Frequency.Output <= 148) ||
 
     (bands.includes(FrequencyBand.$1_25_m) && filter.Frequency.Output >= 222 && filter.Frequency.Output <= 225) ||
-    (bands.includes(FrequencyBand.$70_cm) && filter.Frequency.Output >= 420 && filter.Frequency.Output <= 450);
+
+    (bands.includes(FrequencyBand.$70_cm) && filter.Frequency.Output >= 420 && filter.Frequency.Output <= 450) ||
+
+    (bands.includes(FrequencyBand.MURS) && filter.Frequency.Output >= 151.82 && filter.Frequency.Output <= 154.6) ||
+
+    (bands.includes(FrequencyBand.GMRS) && filter.Frequency.Output >= 462.55 && filter.Frequency.Output <= 467.7125);
 }
 
 // SEMI-LIMITED BANDS - GENERAL CLASS
@@ -122,7 +129,12 @@ export function filterInputFrequencies(...bands: FrequencyBand[]): (filter: Repe
     (bands.includes(FrequencyBand.$2_m) && filter.Frequency.Input >= 144.1 && filter.Frequency.Input <= 148) ||
 
     (bands.includes(FrequencyBand.$1_25_m) && filter.Frequency.Input >= 222 && filter.Frequency.Input <= 225) ||
-    (bands.includes(FrequencyBand.$70_cm) && filter.Frequency.Input >= 420 && filter.Frequency.Input <= 450);
+
+    (bands.includes(FrequencyBand.$70_cm) && filter.Frequency.Input >= 420 && filter.Frequency.Input <= 450) ||
+
+    (bands.includes(FrequencyBand.MURS) && filter.Frequency.Input >= 151.82 && filter.Frequency.Input <= 154.6) ||
+
+    (bands.includes(FrequencyBand.GMRS) && filter.Frequency.Input >= 462.55 && filter.Frequency.Input <= 467.7125);
 }
 
 // FULL BANDS - EXTRA CLASS

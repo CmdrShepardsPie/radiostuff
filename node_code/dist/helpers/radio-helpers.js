@@ -33,6 +33,8 @@ var __importDefault = (this && this.__importDefault) || function (mod) {
         FrequencyBand[FrequencyBand["$2_m"] = 11] = "$2_m";
         FrequencyBand[FrequencyBand["$1_25_m"] = 12] = "$1_25_m";
         FrequencyBand[FrequencyBand["$70_cm"] = 13] = "$70_cm";
+        FrequencyBand[FrequencyBand["MURS"] = 14] = "MURS";
+        FrequencyBand[FrequencyBand["GMRS"] = 15] = "GMRS";
     })(FrequencyBand = exports.FrequencyBand || (exports.FrequencyBand = {}));
     var Mode;
     (function (Mode) {
@@ -70,7 +72,9 @@ var __importDefault = (this && this.__importDefault) || function (mod) {
             (bands.includes(FrequencyBand.$2_m) && filter.Frequency.Output >= 144 && filter.Frequency.Output <= 144.1 && filter.Callsign.includes('CW')) ||
             (bands.includes(FrequencyBand.$2_m) && filter.Frequency.Output >= 144.1 && filter.Frequency.Output <= 148) ||
             (bands.includes(FrequencyBand.$1_25_m) && filter.Frequency.Output >= 222 && filter.Frequency.Output <= 225) ||
-            (bands.includes(FrequencyBand.$70_cm) && filter.Frequency.Output >= 420 && filter.Frequency.Output <= 450);
+            (bands.includes(FrequencyBand.$70_cm) && filter.Frequency.Output >= 420 && filter.Frequency.Output <= 450) ||
+            (bands.includes(FrequencyBand.MURS) && filter.Frequency.Output >= 151.82 && filter.Frequency.Output <= 154.6) ||
+            (bands.includes(FrequencyBand.GMRS) && filter.Frequency.Output >= 462.55 && filter.Frequency.Output <= 467.7125);
     }
     exports.filterOutputFrequencies = filterOutputFrequencies;
     // SEMI-LIMITED BANDS - GENERAL CLASS
@@ -97,7 +101,9 @@ var __importDefault = (this && this.__importDefault) || function (mod) {
             (bands.includes(FrequencyBand.$2_m) && filter.Frequency.Input >= 144 && filter.Frequency.Input <= 144.1 && filter.Callsign.includes('CW')) ||
             (bands.includes(FrequencyBand.$2_m) && filter.Frequency.Input >= 144.1 && filter.Frequency.Input <= 148) ||
             (bands.includes(FrequencyBand.$1_25_m) && filter.Frequency.Input >= 222 && filter.Frequency.Input <= 225) ||
-            (bands.includes(FrequencyBand.$70_cm) && filter.Frequency.Input >= 420 && filter.Frequency.Input <= 450);
+            (bands.includes(FrequencyBand.$70_cm) && filter.Frequency.Input >= 420 && filter.Frequency.Input <= 450) ||
+            (bands.includes(FrequencyBand.MURS) && filter.Frequency.Input >= 151.82 && filter.Frequency.Input <= 154.6) ||
+            (bands.includes(FrequencyBand.GMRS) && filter.Frequency.Input >= 462.55 && filter.Frequency.Input <= 467.7125);
     }
     exports.filterInputFrequencies = filterInputFrequencies;
     // FULL BANDS - EXTRA CLASS

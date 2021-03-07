@@ -5,9 +5,7 @@
   "main": "index.js",
   "scripts": {
     "build": "tsc",
-    "watch": "tsc -w",
-    "all": "tsc && node dist/get-repeaters.js && node dist/convert-repeaters.js && node dist/make-chirp.js && node dist/make-adms400.js && node dist/make-adms7.js",
-    "no-scrape": "tsc && node dist/convert-repeaters.js && node dist/make-chirp.js && node dist/make-adms400.js && node dist/make-adms7.js"
+    "watch": "tsc -w"
   },
   "author": "Christopher Simpson <github@nilk.net>",
   "license": "ISC",

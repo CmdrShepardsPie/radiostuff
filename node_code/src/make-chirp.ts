@@ -6,11 +6,14 @@ import {RepeaterStructured} from '@interfaces/repeater-structured';
 import {Chirp, ChirpDuplex, ChirpToneMode,} from '@interfaces/chirp';
 import chalk from 'chalk';
 import {
-  buildDCS, filterInputFrequencies, filterMode,
+  buildDCS,
+  filterInputFrequencies,
+  filterMode,
   filterOutputFrequencies,
   FrequencyBand,
   loadRepeaters,
-  loadSimplex, Mode,
+  loadSimplex,
+  Mode,
   RadioCommon,
   radioCommon,
 } from '@helpers/radio-helpers';
@@ -44,7 +47,7 @@ log('Program Parse Args');
 program.parse(process.argv);
 
 async function doIt(location: gpsDistance.Point, outFileName: string): Promise<void> {
-  const simplex: RepeaterStructured[] = await loadSimplex(/FM|SAT|ISS/i);
+  const simplex: RepeaterStructured[] = await loadSimplex(/FM|SAT|ISS|MURS|GMRS|FRS/i);
   const repeaters: RepeaterStructured[] = await loadRepeaters(location);
 
   const mapped: Chirp[] = [
@@ -53,11 +56,15 @@ async function doIt(location: gpsDistance.Point, outFileName: string): Promise<v
         FrequencyBand.$2_m,
         FrequencyBand.$1_25_m,
         FrequencyBand.$70_cm,
+        FrequencyBand.MURS,
+        FrequencyBand.GMRS,
       ))
       .filter(filterInputFrequencies(
         FrequencyBand.$2_m,
         FrequencyBand.$1_25_m,
         FrequencyBand.$70_cm,
+        FrequencyBand.MURS,
+        FrequencyBand.GMRS,
       ))
       .filter((filter) => filter.Callsign !== 'FM Simplex'),
     ...repeaters
@@ -65,11 +72,15 @@ async function doIt(location: gpsDistance.Point, outFileName: string): Promise<v
         FrequencyBand.$2_m,
         FrequencyBand.$1_25_m,
         FrequencyBand.$70_cm,
+        FrequencyBand.MURS,
+        FrequencyBand.GMRS,
       ))
       .filter(filterInputFrequencies(
         FrequencyBand.$2_m,
         FrequencyBand.$1_25_m,
         FrequencyBand.$70_cm,
+        FrequencyBand.MURS,
+        FrequencyBand.GMRS,
       ))
       .filter(filterMode(Mode.FM)),
   ]
@@ -86,29 +97,41 @@ async function saveSubset(mapped: Chirp[], length: number, fileName: string): Pr
   // const fmOrDVFilter = (filter: Chirp): boolean => filter['Operating Mode'] === ChirpOperatingMode.FM || filter['Operating Mode'] === ChirpOperatingMode.DV;
   const issOrSatFilter = (filter: Chirp): boolean => /^[A-Z]* ISS/.test(filter.Name) || /^[A-Z]* SAT/.test(filter.Name);
   const sotaOrWarcFilter = (filter: Chirp): boolean => /^[A-Z]* SOTA/.test(filter.Name) || /^[A-Z]* WARC/.test(filter.Name);
+  const gmrsFilter = (filter: Chirp): boolean => /^GMRS/.test(filter.Name) || /^FRS/.test(filter.Name);
+  const mursFilter = (filter: Chirp): boolean => /^MURS/.test(filter.Name);
 
 
   const simplexChirp: Chirp[] = subset
-    .filter((filter: Chirp): boolean => !duplexFilter(filter) && !issOrSatFilter(filter) && !sotaOrWarcFilter(filter))
-    .sort((a: Chirp, b: Chirp): number => a.Frequency - b.Frequency)
-    .sort((a: Chirp, b: Chirp): number => a.Name > b.Name ? 1 : a.Name < b.Name ? - 1 : 0);
+    .filter((filter: Chirp): boolean => !duplexFilter(filter) && !issOrSatFilter(filter) && !sotaOrWarcFilter(filter) && !gmrsFilter(filter) && !mursFilter(filter))
+    .sort((a: Chirp, b: Chirp): number => a.Name > b.Name ? 1 : a.Name < b.Name ? - 1 : 0)
+    .sort((a: Chirp, b: Chirp): number => a.Frequency - b.Frequency);
 
   const sotaChirp: Chirp[] = subset
     .filter((filter: Chirp): boolean => sotaOrWarcFilter(filter))
-    .sort((a: Chirp, b: Chirp): number => a.Frequency - b.Frequency)
-    .sort((a: Chirp, b: Chirp): number => a.Name > b.Name ? 1 : a.Name < b.Name ? - 1 : 0);
+    .sort((a: Chirp, b: Chirp): number => a.Name > b.Name ? 1 : a.Name < b.Name ? - 1 : 0)
+    .sort((a: Chirp, b: Chirp): number => a.Frequency - b.Frequency);
 
   const issChirp: Chirp[] = subset
     .filter((filter: Chirp): boolean => issOrSatFilter(filter))
     .sort((a: Chirp, b: Chirp): number => a.Frequency - b.Frequency)
     .sort((a: Chirp, b: Chirp): number => a.Name > b.Name ? 1 : a.Name < b.Name ? - 1 : 0);
 
+  const mursChirp: Chirp[] = subset
+    .filter((filter: Chirp): boolean => mursFilter(filter))
+    .sort((a: Chirp, b: Chirp): number => a.Name > b.Name ? 1 : a.Name < b.Name ? - 1 : 0)
+    .sort((a: Chirp, b: Chirp): number => a.Frequency - b.Frequency);
+
+  const gmrsChirp: Chirp[] = subset
+    .filter((filter: Chirp): boolean => gmrsFilter(filter))
+    .sort((a: Chirp, b: Chirp): number => a.Frequency - b.Frequency)
+    .sort((a: Chirp, b: Chirp): number => parseFloat(a.Name.replace(/[^\d]*/, '')) - parseFloat(b.Name.replace(/[^\d]*/, '')));
+
   const duplexChirp: Chirp[] = subset
     .filter((filter: Chirp): boolean => duplexFilter(filter) && !issOrSatFilter(filter) && !sotaOrWarcFilter(filter))
     .sort((a: Chirp, b: Chirp): number => a.Frequency - b.Frequency)
     .sort((a: Chirp, b: Chirp): number => a.Name > b.Name ? 1 : a.Name < b.Name ? - 1 : 0);
 
-  const recombine: Chirp[] = [...simplexChirp, ...sotaChirp, ...issChirp, ...duplexChirp]
+  const recombine: Chirp[] = [...simplexChirp, ...mursChirp, ...gmrsChirp, ...sotaChirp, ...issChirp, ...duplexChirp]
     .map((map: Chirp, index: number): Chirp => ({ ...map, Name: map.Name.replace(/^FM /, '').trim().replace(/^SAT /, '').trim(), Location: index }));
 
   return writeToCsv(fileName, recombine);

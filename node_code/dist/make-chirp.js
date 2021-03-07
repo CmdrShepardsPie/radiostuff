@@ -40,16 +40,16 @@ var __importDefault = (this && this.__importDefault) || function (mod) {
     log('Program Parse Args');
     commander_1.program.parse(process.argv);
     async function doIt(location, outFileName) {
-        const simplex = await radio_helpers_1.loadSimplex(/FM|SAT|ISS/i);
+        const simplex = await radio_helpers_1.loadSimplex(/FM|SAT|ISS|MURS|GMRS|FRS/i);
         const repeaters = await radio_helpers_1.loadRepeaters(location);
         const mapped = [
             ...simplex
-                .filter(radio_helpers_1.filterOutputFrequencies(radio_helpers_1.FrequencyBand.$2_m, radio_helpers_1.FrequencyBand.$1_25_m, radio_helpers_1.FrequencyBand.$70_cm))
-                .filter(radio_helpers_1.filterInputFrequencies(radio_helpers_1.FrequencyBand.$2_m, radio_helpers_1.FrequencyBand.$1_25_m, radio_helpers_1.FrequencyBand.$70_cm))
+                .filter(radio_helpers_1.filterOutputFrequencies(radio_helpers_1.FrequencyBand.$2_m, radio_helpers_1.FrequencyBand.$1_25_m, radio_helpers_1.FrequencyBand.$70_cm, radio_helpers_1.FrequencyBand.MURS, radio_helpers_1.FrequencyBand.GMRS))
+                .filter(radio_helpers_1.filterInputFrequencies(radio_helpers_1.FrequencyBand.$2_m, radio_helpers_1.FrequencyBand.$1_25_m, radio_helpers_1.FrequencyBand.$70_cm, radio_helpers_1.FrequencyBand.MURS, radio_helpers_1.FrequencyBand.GMRS))
                 .filter((filter) => filter.Callsign !== 'FM Simplex'),
             ...repeaters
-                .filter(radio_helpers_1.filterOutputFrequencies(radio_helpers_1.FrequencyBand.$2_m, radio_helpers_1.FrequencyBand.$1_25_m, radio_helpers_1.FrequencyBand.$70_cm))
-                .filter(radio_helpers_1.filterInputFrequencies(radio_helpers_1.FrequencyBand.$2_m, radio_helpers_1.FrequencyBand.$1_25_m, radio_helpers_1.FrequencyBand.$70_cm))
+                .filter(radio_helpers_1.filterOutputFrequencies(radio_helpers_1.FrequencyBand.$2_m, radio_helpers_1.FrequencyBand.$1_25_m, radio_helpers_1.FrequencyBand.$70_cm, radio_helpers_1.FrequencyBand.MURS, radio_helpers_1.FrequencyBand.GMRS))
+                .filter(radio_helpers_1.filterInputFrequencies(radio_helpers_1.FrequencyBand.$2_m, radio_helpers_1.FrequencyBand.$1_25_m, radio_helpers_1.FrequencyBand.$70_cm, radio_helpers_1.FrequencyBand.MURS, radio_helpers_1.FrequencyBand.GMRS))
                 .filter(radio_helpers_1.filterMode(radio_helpers_1.Mode.FM)),
         ]
             .map((map) => convertToRadio(map));
@@ -62,23 +62,33 @@ var __importDefault = (this && this.__importDefault) || function (mod) {
         // const fmOrDVFilter = (filter: Chirp): boolean => filter['Operating Mode'] === ChirpOperatingMode.FM || filter['Operating Mode'] === ChirpOperatingMode.DV;
         const issOrSatFilter = (filter) => /^[A-Z]* ISS/.test(filter.Name) || /^[A-Z]* SAT/.test(filter.Name);
         const sotaOrWarcFilter = (filter) => /^[A-Z]* SOTA/.test(filter.Name) || /^[A-Z]* WARC/.test(filter.Name);
+        const gmrsFilter = (filter) => /^GMRS/.test(filter.Name) || /^FRS/.test(filter.Name);
+        const mursFilter = (filter) => /^MURS/.test(filter.Name);
         const simplexChirp = subset
-            .filter((filter) => !duplexFilter(filter) && !issOrSatFilter(filter) && !sotaOrWarcFilter(filter))
-            .sort((a, b) => a.Frequency - b.Frequency)
-            .sort((a, b) => a.Name > b.Name ? 1 : a.Name < b.Name ? -1 : 0);
+            .filter((filter) => !duplexFilter(filter) && !issOrSatFilter(filter) && !sotaOrWarcFilter(filter) && !gmrsFilter(filter) && !mursFilter(filter))
+            .sort((a, b) => a.Name > b.Name ? 1 : a.Name < b.Name ? -1 : 0)
+            .sort((a, b) => a.Frequency - b.Frequency);
         const sotaChirp = subset
             .filter((filter) => sotaOrWarcFilter(filter))
-            .sort((a, b) => a.Frequency - b.Frequency)
-            .sort((a, b) => a.Name > b.Name ? 1 : a.Name < b.Name ? -1 : 0);
+            .sort((a, b) => a.Name > b.Name ? 1 : a.Name < b.Name ? -1 : 0)
+            .sort((a, b) => a.Frequency - b.Frequency);
         const issChirp = subset
             .filter((filter) => issOrSatFilter(filter))
             .sort((a, b) => a.Frequency - b.Frequency)
             .sort((a, b) => a.Name > b.Name ? 1 : a.Name < b.Name ? -1 : 0);
+        const mursChirp = subset
+            .filter((filter) => mursFilter(filter))
+            .sort((a, b) => a.Name > b.Name ? 1 : a.Name < b.Name ? -1 : 0)
+            .sort((a, b) => a.Frequency - b.Frequency);
+        const gmrsChirp = subset
+            .filter((filter) => gmrsFilter(filter))
+            .sort((a, b) => a.Frequency - b.Frequency)
+            .sort((a, b) => parseFloat(a.Name.replace(/[^\d]*/, '')) - parseFloat(b.Name.replace(/[^\d]*/, '')));
         const duplexChirp = subset
             .filter((filter) => duplexFilter(filter) && !issOrSatFilter(filter) && !sotaOrWarcFilter(filter))
             .sort((a, b) => a.Frequency - b.Frequency)
             .sort((a, b) => a.Name > b.Name ? 1 : a.Name < b.Name ? -1 : 0);
-        const recombine = [...simplexChirp, ...sotaChirp, ...issChirp, ...duplexChirp]
+        const recombine = [...simplexChirp, ...mursChirp, ...gmrsChirp, ...sotaChirp, ...issChirp, ...duplexChirp]
             .map((map, index) => ({ ...map, Name: map.Name.replace(/^FM /, '').trim().replace(/^SAT /, '').trim(), Location: index }));
         return fs_helpers_1.writeToCsv(fileName, recombine);
     }

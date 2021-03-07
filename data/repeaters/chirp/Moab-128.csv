@@ -2,127 +2,127 @@ Location,Name,Frequency,Duplex,Offset,Tone,rToneFreq,cToneFreq,DtcsCode,DtcsRxCo
 0,Calling,146.52,,146.52,,100,100,23,23,NN,FM,5,FM Calling
 1,Calling,223.5,,223.5,,100,100,23,23,NN,FM,5,FM Calling
 2,Calling,446,,446,,100,100,23,23,NN,FM,5,FM Calling
-3,SOTA,144.585,,144.585,,100,100,23,23,NN,FM,5,FM SOTA
-4,SOTA,146.5,,146.5,,100,100,23,23,NN,FM,5,FM SOTA
-5,SOTA,146.52,,146.52,,100,100,23,23,NN,FM,5,FM SOTA
-6,SOTA,146.525,,146.525,,100,100,23,23,NN,FM,5,FM SOTA
-7,SOTA,439,,439,,100,100,23,23,NN,FM,5,FM SOTA
-8,ISS AX.25 1200 Bd AFSK Packet,145.825,,145.825,,100,100,23,23,NN,FM,5,FM ISS AX.25 1200 Bd AFSK Packet Radio (Worldwide)
-9,ISS U/v VOICE Repeater (World,145.8,split,437.8,,100,100,23,23,NN,FM,5,FM ISS U/v VOICE Repeater (Worldwide)
-10,ISS UHF Simplex (rarely used),437.55,,437.55,,100,100,23,23,NN,FM,5,FM ISS UHF Simplex (rarely used)
-11,ISS V/u with PL VOICE Repeate,437.8,split,145.99,Tone,67,67,23,23,NN,FM,5,FM ISS V/u with PL VOICE Repeater (Worldwide)
-12,ISS VOICE for ITU Region 2&3,145.8,split,144.49,,100,100,23,23,NN,FM,5,FM ISS VOICE for ITU Region 2&3
-13,AO-27,436.795,split,145.85,,100,100,23,23,NN,FM,5,FM SAT AO-27
-14,AO-91 (RadFxSat / Fox-1B),145.96,split,435.25,Tone,67,67,23,23,NN,FM,5,FM SAT AO-91 (RadFxSat / Fox-1B)
-15,AO-92 (Fox-1D),145.88,split,435.35,Tone,67,67,23,23,NN,FM,5,FM SAT AO-92 (Fox-1D)
-16,CAS-3H (LilacSat-2),437.2,split,144.35,,100,100,23,23,NN,FM,5,FM SAT CAS-3H (LilacSat-2)
-17,CAS-5A,435.6,split,145.925,,100,100,23,23,NN,FM,5,FM SAT CAS-5A
-18,CAS-7A,435.455,split,145.95,,100,100,23,23,NN,FM,5,FM SAT CAS-7A
-19,CAS-7C,435.69,split,145.9,,100,100,23,23,NN,FM,5,FM SAT CAS-7C
-20,Duchifat3,436.4,split,145.97,,100,100,23,23,NN,FM,5,FM SAT Duchifat3
-21,IO-86 (LAPAN-A2),435.88,split,145.88,Tone,88.5,88.5,23,23,NN,FM,5,FM SAT IO-86 (LAPAN-A2)
-22,PO-101 (Diwata-2),145.9,split,437.5,Tone,141.3,141.3,23,23,NN,FM,5,FM SAT PO-101 (Diwata-2)
-23,SO-50 (SaudiSat-1C),436.795,split,145.85,Tone,67,67,23,23,NN,FM,5,FM SAT SO-50 (SaudiSat-1C)
-24,Swiatowid,145.85,split,436,,100,100,23,23,NN,FM,5,FM SAT Swiatowid
-25,Tevel Mission,436.4,split,145.97,,100,100,23,23,NN,FM,5,FM SAT Tevel Mission
-26,0EP Durango Eagle Pass,146.67,split,146.07,TSQL,100,100,23,23,NN,FM,5,8 113 186.00 CO La Plata Durango Eagle Pass K0EP
-27,0EP Durango Missionary Ridge,146.7,split,146.1,TSQL,100,100,23,23,NN,FM,5,8 116 204.00 CO La Plata Durango Missionary Ridge K0EP
-28,0MR Paonia,147.33,split,147.93,Tone,107.2,107.2,23,23,NN,FM,5,8 8179 173.00 CO Delta Paonia KI0MR
-29,0SW Collbran,449.5,split,444.5,Tone,107.2,107.2,23,23,NN,FM,5,8 36 156.00 CO Mesa Collbran KB0SW
-30,0SW Loma Baxter Pass,447,split,442,Tone,107.2,107.2,23,23,NN,FM,5,8 174 123.00 CO Garfield Loma Baxter Pass KB0SW
-31,0TY Grand Junction,145.22,split,144.62,Tone,107.2,107.2,23,23,NN,FM,5,8 8167 102.00 CO Mesa Grand Junction KE0TY
-32,0TY Grand Junction,147.39,split,147.99,Tone,107.2,107.2,23,23,NN,FM,5,8 152 102.00 CO Mesa Grand Junction KE0TY
-33,7DB Page (az) Navajo Mountain,448.75,split,443.75,Tone,100,100,23,23,NN,FM,5,49 169 207.00 UT San Juan Page (az) Navajo Mountain NA7DB
-34,7GX Price Wood Hill,147.2,split,147.8,Tone,88.5,88.5,23,23,NN,FM,5,49 10058 168.00 UT Carbon Price Wood Hill K7GX
-35,7GX Price Wood Hill,448.3,split,443.3,,100,100,23,23,NN,FM,5,49 10061 159.00 UT Carbon Price Wood Hill K7GX
-36,7TA Logan Sedgwick Peak,449.375,split,444.375,,100,100,23,23,NN,FM,5,49 18470 157.00 UT Cache Logan Sedgwick Peak AE7TA
-37,7YE Manti Barton Peak,448.275,split,443.275,Tone,107.2,107.2,23,23,NN,FM,5,49 107 209.00 UT Sanpete Manti Barton Peak KD7YE
-38,7YI Castle Dale Horn Mountain,447.625,split,442.625,Tone,100,100,23,23,NN,FM,5,49 73 155.00 UT Emery Castle Dale Horn Mountain K7YI
-39,7ZW Altamont,147.28,split,147.88,TSQL,107.2,107.2,23,23,NN,FM,5,49 14977 208.00 UT Duchesne Altamont AD7ZW
-40,ALC Cedaredge,147.36,split,147.96,Tone,100,100,23,23,NN,FM,5,8 3749 145.00 CO Delta Cedaredge W0ALC
-41,ALC Cedaredge,449.825,split,444.825,Tone,100,100,23,23,NN,FM,5,8 3760 145.00 CO Delta Cedaredge W0ALC
-42,ARV Grand Junction,447.5,split,442.5,Tone,114.8,114.8,23,23,NN,FM,5,8 3757 102.00 CO Mesa Grand Junction KC0ARV
-43,BAR Vernal Blue Mountain,147.1,split,147.7,Tone,136.5,136.5,23,23,NN,FM,5,49 163 201.00 UT Uintah Vernal Blue Mountain W7BAR
-44,BAR Vernal Uintah County EOC,449.9,split,444.9,Tone,136.5,136.5,23,23,NN,FM,5,49 13408 171.00 UT Uintah Vernal Uintah County EOC W7BAR
-45,BSK Manti Barton Peak,146.72,split,146.12,Tone,100,100,23,23,NN,FM,5,49 255 209.00 UT Sanpete Manti Barton Peak K7BSK
-46,BYU Myton Flat Top,145.49,split,144.89,Tone,136.5,136.5,23,23,NN,FM,5,49 13041 189.00 UT Duchesne Myton Flat Top W7BYU
-47,BYU Roosevelt,146.92,split,146.32,Tone,136.5,136.5,23,23,NN,FM,5,49 281 201.00 UT Duchesne Roosevelt W7BYU
-48,BYU Vernal,449.7,split,444.7,Tone,136.5,136.5,23,23,NN,FM,5,49 182 201.00 UT Uintah Vernal W7BYU
-49,CBS Altamont,146.74,split,146.14,Tone,100,100,23,23,NN,FM,5,49 253 208.00 UT Duchesne Altamont WB7CBS
-50,CEU Price Wood Hill,145.43,split,144.83,Tone,88.5,88.5,23,23,NN,FM,5,49 78 159.00 UT Carbon Price Wood Hill W7CEU
-51,CEU Price Wood Hill,224.5,split,222.9,Tone,88.5,88.5,23,23,NN,FM,5,49 2764 159.00 UT Carbon Price Wood Hill W7CEU
-52,CEU Price Wood Hill,448.3,split,443.3,Tone,88.5,88.5,23,23,NN,FM,5,49 2765 159.00 UT Carbon Price Wood Hill W7CEU
-53,CWI Page (AZ) Navajo Mountain,449.925,split,444.925,Tone,100,100,23,23,NN,FM,5,49 183 207.00 UT San Juan Page (AZ) Navajo Mountain W7CWI
-54,Cedaredge Grand Mesa,447.35,split,442.35,Tone,107.2,107.2,23,23,NN,FM,5,8 3755 144.00 CO Delta Cedaredge Grand Mesa
-55,DHH Ephraim Horseshoe,146.66,split,146.06,Tone,100,100,23,23,NN,FM,5,49 190 185.00 UT Sanpete Ephraim Horseshoe W7DHH
-56,EGG Ogden Sheriff Office,145.125,split,144.525,,100,100,23,23,NN,FM,5,49 19772 157.00 UT Weber Ogden Sheriff Office KE7EGG
-57,EVE Durango,448.625,split,443.625,TSQL,131.8,131.8,23,23,NN,FM,5,8 115 206.00 CO La Plata Durango KC5EVE
-58,GJT Grand Junction,448.15,split,443.15,Tone,100,100,23,23,NN,FM,5,8 153 98.00 CO Mesa Grand Junction W0GJT
-59,GJT Grand Junction 9 Mile Hwy 14,146.82,split,146.22,Tone,107.2,107.2,23,23,NN,FM,5,8 261 102.00 CO Mesa Grand Junction 9 Mile Hwy 141 Unaweep W0GJT
-60,Glade Park,449.2,split,444.2,Tone,107.2,107.2,23,23,NN,FM,5,8 18392 84.00 CO Mesa Glade Park
-61,HLL Mexican Hat,449.9,split,444.9,Tone,123,123,23,23,NN,FM,5,49 100 149.00 UT San Juan Mexican Hat KD7HLL
-62,HND Grand Junction Black Ridge,449.575,split,444.575,TSQL,131.8,131.8,23,23,NN,FM,5,8 155 88.00 CO Mesa Grand Junction Black Ridge WA4HND
-63,HND Grand Junction Grand Mesa,449.3,split,444.3,TSQL,107.2,107.2,23,23,NN,FM,5,8 154 124.00 CO Mesa Grand Junction Grand Mesa WA4HND
-64,HND Montrose Waterdog Peak,447.2,split,442.2,TSQL,107.2,107.2,23,23,NN,FM,5,8 69 165.00 CO Montrose Montrose Waterdog Peak WA4HND
-65,HND Parachute Mount Callahan,449.8,split,444.8,Tone,107.2,107.2,23,23,NN,FM,5,8 253 162.00 CO Garfield Parachute Mount Callahan WA4HND
-66,HRC Herriman Herriman High Schoo,446.25,split,441.25,,100,100,23,23,NN,FM,5,49 19781 157.00 UT Salt Lake Herriman Herriman High School N7HRC
-67,IMF Ephraim Horseshoe,224.64,split,223.04,,100,100,23,23,NN,FM,5,49 143 185.00 UT Sanpete Ephraim Horseshoe N7IMF
-68,ITS Cortez Goodman,145.19,split,144.59,Tone,100,100,23,23,NN,FM,5,8 16606 153.00 CO Montezuma Cortez Goodman KB5ITS
-69,ITS Dolores Summit Ridge,447.275,split,442.275,Tone,100,100,23,23,NN,FM,5,8 16623 153.00 CO Montezuma Dolores Summit Ridge KB5ITS
-70,ITS Durango Smelter Mountain,147.135,split,147.735,TSQL,100,100,23,23,NN,FM,5,8 11545 205.00 CO La Plata Durango Smelter Mountain KB5ITS
-71,ITS Lake City Hill 71,147.135,split,147.735,Tone,123,123,23,23,NN,FM,5,8 16607 204.00 CO Hinsdale Lake City Hill 71 KB5ITS
-72,ITS Mancos Caviness,145.325,split,144.725,,100,100,23,23,NN,FM,5,8 18459 182.00 CO Montezuma Mancos Caviness KB5ITS
-73,ITS Mancos Caviness Mountain,145.325,split,144.725,Tone,100,100,23,23,NN,FM,5,8 8168 182.00 CO Montezuma Mancos Caviness Mountain KB5ITS
-74,ITS Mancos Caviness Mountain,442.375,split,447.375,Tone,100,100,23,23,NN,FM,5,8 15896 182.00 CO Montezuma Mancos Caviness Mountain KB5ITS
-75,ITS Monticello Abajo Peak,447.275,split,442.275,Tone,100,100,23,23,NN,FM,5,49 18460 82.00 UT San Juan Monticello Abajo Peak KB5ITS
-76,ITS Montrose Raspberry,448.825,split,443.825,Tone,100,100,23,23,NN,FM,5,8 18465 149.00 CO Montrose Montrose Raspberry KB5ITS
-77,ITS Ouray Engineer Mountain,147.27,split,147.87,Tone,127.3,127.3,23,23,NN,FM,5,8 16604 175.00 CO Ouray Ouray Engineer Mountain KB5ITS
-78,ITS Silverton,447.525,split,442.525,Tone,127.3,127.3,23,23,NN,FM,5,8 210 185.00 CO San Juan Silverton KB5ITS
-79,ITS Silverton Buffalo Boy,145.325,split,144.725,Tone,127.3,127.3,23,23,NN,FM,5,8 16605 185.00 CO San Juan Silverton Buffalo Boy KB5ITS
-80,ITS Silverton Hazelton,444,split,449,Tone,67,67,23,23,NN,FM,5,8 16624 185.00 CO San Juan Silverton Hazelton KB5ITS
-81,ITS Silverton Kendall Mountain,147.375,split,147.975,Tone,156.7,156.7,23,23,NN,FM,5,8 209 189.00 CO San Juan Silverton Kendall Mountain KB5ITS
-82,ITT Silverton Engineer Mountain,147.27,split,147.87,Tone,127.3,127.3,23,23,NN,FM,5,8 208 181.00 CO San Juan Silverton Engineer Mountain KB5ITT
-83,KGN Lehi QTH,224.74,split,223.14,Tone,186.2,186.2,23,23,NN,FM,5,49 19780 157.00 UT Utah Lehi QTH KF7KGN
-84,OPD Montrose,146.79,split,146.19,TSQL,107.2,107.2,23,23,NN,FM,5,8 7953 146.00 CO Montrose Montrose KD5OPD
-85,PQD Duchense,147.26,split,147.86,,100,100,23,23,NN,FM,5,49 152 190.00 UT Duchesne Duchense N7PQD
-86,QEQ Moab,146.9,split,146.3,Tone,88.5,88.5,23,23,NN,FM,5,49 48 0.00 UT Grand Moab K7QEQ
-87,QEQ Moab Bald Mesa,146.76,split,146.16,Tone,88.5,88.5,23,23,NN,FM,5,49 13042 20.00 UT Grand Moab Bald Mesa K7QEQ
-88,QEQ Moab Bald Mesa,449.1,split,444.1,TSQL,107.2,107.2,23,23,NN,FM,5,49 52 20.00 UT Grand Moab Bald Mesa K7QEQ
-89,QEQ Monticello Abajo Peak,447.1,split,442.1,TSQL,107.2,107.2,23,23,NN,FM,5,49 124 82.00 UT San Juan Monticello Abajo Peak K7QEQ
-90,QXX Cedaredge Cedar Mesa,147.195,split,147.795,Tone,118.8,118.8,23,23,NN,FM,5,8 3745 145.00 CO Delta Cedaredge Cedar Mesa KC0QXX
-91,REL Indianola Indianola Peak,146.72,split,146.12,Tone,100,100,23,23,NN,FM,5,49 10229 185.00 UT Sanpete Indianola Indianola Peak WB7REL
-92,REL Sterling,447.85,split,442.85,Tone,131.8,131.8,23,23,NN,FM,5,49 257 198.00 UT Sanpete Sterling WB7REL
-93,REL Sterling Salina Canyon,449.25,split,444.25,Tone,131.8,131.8,23,23,NN,FM,5,49 256 201.00 UT Sevier Sterling Salina Canyon WB7REL
-94,RRZ Grand Junction Black Ridge (,146.94,split,146.34,TSQL,107.2,107.2,23,23,NN,FM,5,8 151 88.00 CO Mesa Grand Junction Black Ridge (Above Colorado Ntl Monument) W0RRZ
-95,RRZ Grand Junction GJT,145.175,split,144.575,Tone,107.2,107.2,23,23,NN,FM,5,8 147 108.00 CO Mesa Grand Junction GJT W0RRZ
-96,RVS Gunnison N7RVS QTH,447.35,split,442.35,Tone,88.5,88.5,23,23,NN,FM,5,49 15286 207.00 UT Sanpete Gunnison N7RVS QTH N7RVS
-97,SDC Castle Dale Cedar Mountain,147.14,split,147.74,Tone,88.5,88.5,23,23,NN,FM,5,49 57 114.00 UT Emery Castle Dale Cedar Mountain K7SDC
-98,SDC Castle Dale Cedar Mountain,448.55,split,443.55,Tone,88.5,88.5,23,23,NN,FM,5,49 274 114.00 UT Emery Castle Dale Cedar Mountain K7SDC
-99,SDC Castle Dale Horn Mountain,147.06,split,147.66,Tone,88.5,88.5,23,23,NN,FM,5,49 54 155.00 UT Emery Castle Dale Horn Mountain K7SDC
-100,SDC Hanksville Ellen Peak,147.08,split,147.68,Tone,136.5,136.5,23,23,NN,FM,5,49 56 122.00 UT Wayne Hanksville Ellen Peak K7SDC
-101,SDC Monticello Abajo Peak,146.61,split,146.01,Tone,88.5,88.5,23,23,NN,FM,5,49 60 82.00 UT San Juan Monticello Abajo Peak K7SDC
-102,SDC Scofield Boardinghouse Ridge,147.08,split,147.68,Tone,88.5,88.5,23,23,NN,FM,5,49 53 186.00 UT Carbon Scofield Boardinghouse Ridge K7SDC
-103,SDC Scofield Ford Ridge,145.31,split,144.71,Tone,88.5,88.5,23,23,NN,FM,5,49 55 181.00 UT Carbon Scofield Ford Ridge K7SDC
-104,SDC Sunnyside Bruin Point,147.32,split,147.92,Tone,88.5,88.5,23,23,NN,FM,5,49 58 137.00 UT Carbon Sunnyside Bruin Point K7SDC
-105,SDC Sunnyside Bruin Point,449.05,split,444.05,Tone,88.5,88.5,23,23,NN,FM,5,49 59 137.00 UT Carbon Sunnyside Bruin Point K7SDC
-106,SMZ Grand Junction,449.775,split,444.775,Cross,173.8,88.5,23,23,NN,FM,5,8 11793 102.00 CO Mesa Grand Junction KD0SMZ
-107,SSI Grand Junction,147.105,split,147.705,,100,100,23,23,NN,FM,5,8 8175 102.00 CO Mesa Grand Junction K0SSI
-108,SWE Rifle,146.76,split,146.16,Tone,107.2,107.2,23,23,NN,FM,5,8 200 183.00 CO Garfield Rifle N0SWE
-109,TAG Price,447.025,split,442.025,Tone,88.5,88.5,23,23,NN,FM,5,49 19782 157.00 UT Carbon Price N7TAG
-110,TTK Salem,449.25,split,444.25,Tone,88.5,88.5,23,23,NN,FM,5,49 19783 157.00 UT Utah Salem W7TTK
-111,UUX Montrose,146.91,split,146.31,TSQL,107.2,107.2,23,23,NN,FM,5,8 12442 146.00 CO Montrose Montrose KC0UUX
-112,VHF Page Navajo Mountain,448.6,split,443.6,Tone,100,100,23,23,NN,FM,5,49 11827 207.00 UT San Juan Page Navajo Mountain WA7VHF
-113,VIU Hesperus,145.37,split,144.77,TSQL,100,100,23,23,NN,FM,5,8 8169 195.00 CO La Plata Hesperus KB0VIU
-114,VJJ Durango Missionary Ridge,147.345,split,147.945,Cross,88.5,123,23,23,NN,FM,5,8 114 207.00 CO La Plata Durango Missionary Ridge KB0VJJ
-115,VJJ Glenwood Springs Sunlight Pe,146.85,split,146.25,Cross,88.5,123,23,23,NN,FM,5,8 129 210.00 CO Garfield Glenwood Springs Sunlight Peak KB0VJJ
-116,VJJ Grand Junction Grand Mesa,145.355,split,144.755,Cross,88.5,123,23,23,NN,FM,5,8 149 150.00 CO Mesa Grand Junction Grand Mesa KB0VJJ
-117,VJJ Grand Junction Grand Mesa,147.355,split,146.755,Cross,88.5,123,23,23,NN,FM,5,8 15581 101.00 CO Mesa Grand Junction Grand Mesa KB0VJJ
-118,WAC Page (AZ) Navajo Mountain,146.96,split,146.36,Tone,100,100,23,23,NN,FM,5,49 218 207.00 UT San Juan Page (AZ) Navajo Mountain W7WAC
-119,X7Y Castle Dale Horn Mountain,447.7,split,442.7,Tone,123,123,23,23,NN,FM,5,49 272 155.00 UT Emery Castle Dale Horn Mountain WX7Y
-120,X7Y Huntington Skyline Dr,223.92,split,222.32,Tone,88.5,88.5,23,23,NN,FM,5,49 273 155.00 UT Emery Huntington Skyline Dr WX7Y
-121,X7Y Scofield Boardinghouse Rdge,224.98,split,223.38,Tone,88.5,88.5,23,23,NN,FM,5,49 271 186.00 UT Carbon Scofield Boardinghouse Rdge WX7Y
-122,X7Y Sunny Side Bruin Peak,145.175,split,144.575,,100,100,23,23,NN,FM,5,49 15319 138.00 UT Carbon Sunny Side Bruin Peak WX7Y
-123,YFZ Manti,449.75,split,444.75,Tone,131.8,131.8,23,23,NN,FM,5,49 166 196.00 UT Sanpete Manti N7YFZ
+3,MURS 1,151.82,,151.82,,100,100,23,23,NN,FM,5,MURS 1
+4,MURS 2,151.88,,151.88,,100,100,23,23,NN,FM,5,MURS 2
+5,MURS 3,151.94,,151.94,,100,100,23,23,NN,FM,5,MURS 3
+6,MURS 4,154.57,,154.57,,100,100,23,23,NN,FM,5,MURS 4
+7,MURS 5,154.6,,154.6,,100,100,23,23,NN,FM,5,MURS 5
+8,GMRS 1,462.5625,,462.5625,,100,100,23,23,NN,FM,5,GMRS 1
+9,GMRS 2,462.5875,,462.5875,,100,100,23,23,NN,FM,5,GMRS 2
+10,GMRS 3,462.6125,,462.6125,,100,100,23,23,NN,FM,5,GMRS 3
+11,GMRS 4,462.6375,,462.6375,,100,100,23,23,NN,FM,5,GMRS 4
+12,GMRS 5,462.6625,,462.6625,,100,100,23,23,NN,FM,5,GMRS 5
+13,GMRS 6,462.6875,,462.6875,,100,100,23,23,NN,FM,5,GMRS 6
+14,GMRS 7,462.7125,,462.7125,,100,100,23,23,NN,FM,5,GMRS 7
+15,GMRS 8,467.5625,,467.5625,,100,100,23,23,NN,FM,5,GMRS 8
+16,FRS 9,467.5875,,467.5875,,100,100,23,23,NN,FM,5,FRS 9
+17,FRS 10,467.6125,,467.6125,,100,100,23,23,NN,FM,5,FRS 10
+18,FRS 11,467.6375,,467.6375,,100,100,23,23,NN,FM,5,FRS 11
+19,FRS 12,467.6625,,467.6625,,100,100,23,23,NN,FM,5,FRS 12
+20,FRS 13,467.6875,,467.6875,,100,100,23,23,NN,FM,5,FRS 13
+21,FRS 14,467.7125,,467.7125,,100,100,23,23,NN,FM,5,FRS 14
+22,GMRS 15,462.55,,462.55,,100,100,23,23,NN,FM,5,GMRS 15
+23,GMRS 16,462.575,,462.575,,100,100,23,23,NN,FM,5,GMRS 16
+24,GMRS 17,462.6,,462.6,,100,100,23,23,NN,FM,5,GMRS 17
+25,GMRS 18,462.625,,462.625,,100,100,23,23,NN,FM,5,GMRS 18
+26,GMRS 19,462.65,,462.65,,100,100,23,23,NN,FM,5,GMRS 19
+27,GMRS 20,462.675,,462.675,,100,100,23,23,NN,FM,5,GMRS 20
+28,GMRS 21,462.7,,462.7,,100,100,23,23,NN,FM,5,GMRS 21
+29,GMRS 22,462.725,,462.725,,100,100,23,23,NN,FM,5,GMRS 22
+30,SOTA,144.585,,144.585,,100,100,23,23,NN,FM,5,FM SOTA
+31,SOTA,146.5,,146.5,,100,100,23,23,NN,FM,5,FM SOTA
+32,SOTA,146.52,,146.52,,100,100,23,23,NN,FM,5,FM SOTA
+33,SOTA,146.525,,146.525,,100,100,23,23,NN,FM,5,FM SOTA
+34,SOTA,439,,439,,100,100,23,23,NN,FM,5,FM SOTA
+35,ISS AX.25 1200 Bd AFSK Packet,145.825,,145.825,,100,100,23,23,NN,FM,5,FM ISS AX.25 1200 Bd AFSK Packet Radio (Worldwide)
+36,ISS U/v VOICE Repeater (World,145.8,split,437.8,,100,100,23,23,NN,FM,5,FM ISS U/v VOICE Repeater (Worldwide)
+37,ISS UHF Simplex (rarely used),437.55,,437.55,,100,100,23,23,NN,FM,5,FM ISS UHF Simplex (rarely used)
+38,ISS V/u with PL VOICE Repeate,437.8,split,145.99,Tone,67,67,23,23,NN,FM,5,FM ISS V/u with PL VOICE Repeater (Worldwide)
+39,ISS VOICE for ITU Region 2&3,145.8,split,144.49,,100,100,23,23,NN,FM,5,FM ISS VOICE for ITU Region 2&3
+40,AO-27,436.795,split,145.85,,100,100,23,23,NN,FM,5,FM SAT AO-27
+41,AO-91 (RadFxSat / Fox-1B),145.96,split,435.25,Tone,67,67,23,23,NN,FM,5,FM SAT AO-91 (RadFxSat / Fox-1B)
+42,AO-92 (Fox-1D),145.88,split,435.35,Tone,67,67,23,23,NN,FM,5,FM SAT AO-92 (Fox-1D)
+43,CAS-3H (LilacSat-2),437.2,split,144.35,,100,100,23,23,NN,FM,5,FM SAT CAS-3H (LilacSat-2)
+44,CAS-5A,435.6,split,145.925,,100,100,23,23,NN,FM,5,FM SAT CAS-5A
+45,CAS-7A,435.455,split,145.95,,100,100,23,23,NN,FM,5,FM SAT CAS-7A
+46,CAS-7C,435.69,split,145.9,,100,100,23,23,NN,FM,5,FM SAT CAS-7C
+47,Duchifat3,436.4,split,145.97,,100,100,23,23,NN,FM,5,FM SAT Duchifat3
+48,IO-86 (LAPAN-A2),435.88,split,145.88,Tone,88.5,88.5,23,23,NN,FM,5,FM SAT IO-86 (LAPAN-A2)
+49,PO-101 (Diwata-2),145.9,split,437.5,Tone,141.3,141.3,23,23,NN,FM,5,FM SAT PO-101 (Diwata-2)
+50,SO-50 (SaudiSat-1C),436.795,split,145.85,Tone,67,67,23,23,NN,FM,5,FM SAT SO-50 (SaudiSat-1C)
+51,Swiatowid,145.85,split,436,,100,100,23,23,NN,FM,5,FM SAT Swiatowid
+52,Tevel Mission,436.4,split,145.97,,100,100,23,23,NN,FM,5,FM SAT Tevel Mission
+53,0EP Durango Eagle Pass,146.67,split,146.07,TSQL,100,100,23,23,NN,FM,5,8 113 186.00 CO La Plata Durango Eagle Pass K0EP
+54,0MR Paonia,147.33,split,147.93,Tone,107.2,107.2,23,23,NN,FM,5,8 8179 173.00 CO Delta Paonia KI0MR
+55,0SW Collbran,449.5,split,444.5,Tone,107.2,107.2,23,23,NN,FM,5,8 36 156.00 CO Mesa Collbran KB0SW
+56,0SW Loma Baxter Pass,447,split,442,Tone,107.2,107.2,23,23,NN,FM,5,8 174 123.00 CO Garfield Loma Baxter Pass KB0SW
+57,0TY Grand Junction,145.22,split,144.62,Tone,107.2,107.2,23,23,NN,FM,5,8 8167 102.00 CO Mesa Grand Junction KE0TY
+58,0TY Grand Junction,147.39,split,147.99,Tone,107.2,107.2,23,23,NN,FM,5,8 152 102.00 CO Mesa Grand Junction KE0TY
+59,7GX Price Wood Hill,147.2,split,147.8,Tone,88.5,88.5,23,23,NN,FM,5,49 10058 168.00 UT Carbon Price Wood Hill K7GX
+60,7GX Price Wood Hill,448.3,split,443.3,,100,100,23,23,NN,FM,5,49 10061 159.00 UT Carbon Price Wood Hill K7GX
+61,7TA Logan Sedgwick Peak,449.375,split,444.375,,100,100,23,23,NN,FM,5,49 18470 157.00 UT Cache Logan Sedgwick Peak AE7TA
+62,7YI Castle Dale Horn Mountain,447.625,split,442.625,Tone,100,100,23,23,NN,FM,5,49 73 155.00 UT Emery Castle Dale Horn Mountain K7YI
+63,ALC Cedaredge,147.36,split,147.96,Tone,100,100,23,23,NN,FM,5,8 3749 145.00 CO Delta Cedaredge W0ALC
+64,ALC Cedaredge,449.825,split,444.825,Tone,100,100,23,23,NN,FM,5,8 3760 145.00 CO Delta Cedaredge W0ALC
+65,ARV Grand Junction,447.5,split,442.5,Tone,114.8,114.8,23,23,NN,FM,5,8 3757 102.00 CO Mesa Grand Junction KC0ARV
+66,BAR Vernal Uintah County EOC,449.9,split,444.9,Tone,136.5,136.5,23,23,NN,FM,5,49 13408 171.00 UT Uintah Vernal Uintah County EOC W7BAR
+67,CEU Price Wood Hill,145.43,split,144.83,Tone,88.5,88.5,23,23,NN,FM,5,49 78 159.00 UT Carbon Price Wood Hill W7CEU
+68,CEU Price Wood Hill,224.5,split,222.9,Tone,88.5,88.5,23,23,NN,FM,5,49 2764 159.00 UT Carbon Price Wood Hill W7CEU
+69,CEU Price Wood Hill,448.3,split,443.3,Tone,88.5,88.5,23,23,NN,FM,5,49 2765 159.00 UT Carbon Price Wood Hill W7CEU
+70,Cedaredge Grand Mesa,447.35,split,442.35,Tone,107.2,107.2,23,23,NN,FM,5,8 3755 144.00 CO Delta Cedaredge Grand Mesa
+71,DHH Ephraim Horseshoe,146.66,split,146.06,Tone,100,100,23,23,NN,FM,5,49 190 185.00 UT Sanpete Ephraim Horseshoe W7DHH
+72,EGG Ogden Sheriff Office,145.125,split,144.525,,100,100,23,23,NN,FM,5,49 19772 157.00 UT Weber Ogden Sheriff Office KE7EGG
+73,GJT Grand Junction,448.15,split,443.15,Tone,100,100,23,23,NN,FM,5,8 153 98.00 CO Mesa Grand Junction W0GJT
+74,GJT Grand Junction 9 Mile Hwy 14,146.82,split,146.22,Tone,107.2,107.2,23,23,NN,FM,5,8 261 102.00 CO Mesa Grand Junction 9 Mile Hwy 141 Unaweep W0GJT
+75,Glade Park,449.2,split,444.2,Tone,107.2,107.2,23,23,NN,FM,5,8 18392 84.00 CO Mesa Glade Park
+76,HLL Mexican Hat,449.9,split,444.9,Tone,123,123,23,23,NN,FM,5,49 100 149.00 UT San Juan Mexican Hat KD7HLL
+77,HND Grand Junction Black Ridge,449.575,split,444.575,TSQL,131.8,131.8,23,23,NN,FM,5,8 155 88.00 CO Mesa Grand Junction Black Ridge WA4HND
+78,HND Grand Junction Grand Mesa,449.3,split,444.3,TSQL,107.2,107.2,23,23,NN,FM,5,8 154 124.00 CO Mesa Grand Junction Grand Mesa WA4HND
+79,HND Montrose Waterdog Peak,447.2,split,442.2,TSQL,107.2,107.2,23,23,NN,FM,5,8 69 165.00 CO Montrose Montrose Waterdog Peak WA4HND
+80,HND Parachute Mount Callahan,449.8,split,444.8,Tone,107.2,107.2,23,23,NN,FM,5,8 253 162.00 CO Garfield Parachute Mount Callahan WA4HND
+81,HRC Herriman Herriman High Schoo,446.25,split,441.25,,100,100,23,23,NN,FM,5,49 19781 157.00 UT Salt Lake Herriman Herriman High School N7HRC
+82,IMF Ephraim Horseshoe,224.64,split,223.04,,100,100,23,23,NN,FM,5,49 143 185.00 UT Sanpete Ephraim Horseshoe N7IMF
+83,ITS Cortez Goodman,145.19,split,144.59,Tone,100,100,23,23,NN,FM,5,8 16606 153.00 CO Montezuma Cortez Goodman KB5ITS
+84,ITS Dolores Summit Ridge,447.275,split,442.275,Tone,100,100,23,23,NN,FM,5,8 16623 153.00 CO Montezuma Dolores Summit Ridge KB5ITS
+85,ITS Mancos Caviness,145.325,split,144.725,,100,100,23,23,NN,FM,5,8 18459 182.00 CO Montezuma Mancos Caviness KB5ITS
+86,ITS Mancos Caviness Mountain,145.325,split,144.725,Tone,100,100,23,23,NN,FM,5,8 8168 182.00 CO Montezuma Mancos Caviness Mountain KB5ITS
+87,ITS Mancos Caviness Mountain,442.375,split,447.375,Tone,100,100,23,23,NN,FM,5,8 15896 182.00 CO Montezuma Mancos Caviness Mountain KB5ITS
+88,ITS Monticello Abajo Peak,447.275,split,442.275,Tone,100,100,23,23,NN,FM,5,49 18460 82.00 UT San Juan Monticello Abajo Peak KB5ITS
+89,ITS Montrose Raspberry,448.825,split,443.825,Tone,100,100,23,23,NN,FM,5,8 18465 149.00 CO Montrose Montrose Raspberry KB5ITS
+90,ITS Ouray Engineer Mountain,147.27,split,147.87,Tone,127.3,127.3,23,23,NN,FM,5,8 16604 175.00 CO Ouray Ouray Engineer Mountain KB5ITS
+91,ITS Silverton,447.525,split,442.525,Tone,127.3,127.3,23,23,NN,FM,5,8 210 185.00 CO San Juan Silverton KB5ITS
+92,ITS Silverton Buffalo Boy,145.325,split,144.725,Tone,127.3,127.3,23,23,NN,FM,5,8 16605 185.00 CO San Juan Silverton Buffalo Boy KB5ITS
+93,ITS Silverton Hazelton,444,split,449,Tone,67,67,23,23,NN,FM,5,8 16624 185.00 CO San Juan Silverton Hazelton KB5ITS
+94,ITT Silverton Engineer Mountain,147.27,split,147.87,Tone,127.3,127.3,23,23,NN,FM,5,8 208 181.00 CO San Juan Silverton Engineer Mountain KB5ITT
+95,KGN Lehi QTH,224.74,split,223.14,Tone,186.2,186.2,23,23,NN,FM,5,49 19780 157.00 UT Utah Lehi QTH KF7KGN
+96,OPD Montrose,146.79,split,146.19,TSQL,107.2,107.2,23,23,NN,FM,5,8 7953 146.00 CO Montrose Montrose KD5OPD
+97,QEQ Moab,146.9,split,146.3,Tone,88.5,88.5,23,23,NN,FM,5,49 48 0.00 UT Grand Moab K7QEQ
+98,QEQ Moab Bald Mesa,146.76,split,146.16,Tone,88.5,88.5,23,23,NN,FM,5,49 13042 20.00 UT Grand Moab Bald Mesa K7QEQ
+99,QEQ Moab Bald Mesa,449.1,split,444.1,TSQL,107.2,107.2,23,23,NN,FM,5,49 52 20.00 UT Grand Moab Bald Mesa K7QEQ
+100,QEQ Monticello Abajo Peak,447.1,split,442.1,TSQL,107.2,107.2,23,23,NN,FM,5,49 124 82.00 UT San Juan Monticello Abajo Peak K7QEQ
+101,QXX Cedaredge Cedar Mesa,147.195,split,147.795,Tone,118.8,118.8,23,23,NN,FM,5,8 3745 145.00 CO Delta Cedaredge Cedar Mesa KC0QXX
+102,REL Indianola Indianola Peak,146.72,split,146.12,Tone,100,100,23,23,NN,FM,5,49 10229 185.00 UT Sanpete Indianola Indianola Peak WB7REL
+103,RRZ Grand Junction Black Ridge (,146.94,split,146.34,TSQL,107.2,107.2,23,23,NN,FM,5,8 151 88.00 CO Mesa Grand Junction Black Ridge (Above Colorado Ntl Monument) W0RRZ
+104,RRZ Grand Junction GJT,145.175,split,144.575,Tone,107.2,107.2,23,23,NN,FM,5,8 147 108.00 CO Mesa Grand Junction GJT W0RRZ
+105,SDC Castle Dale Cedar Mountain,147.14,split,147.74,Tone,88.5,88.5,23,23,NN,FM,5,49 57 114.00 UT Emery Castle Dale Cedar Mountain K7SDC
+106,SDC Castle Dale Cedar Mountain,448.55,split,443.55,Tone,88.5,88.5,23,23,NN,FM,5,49 274 114.00 UT Emery Castle Dale Cedar Mountain K7SDC
+107,SDC Castle Dale Horn Mountain,147.06,split,147.66,Tone,88.5,88.5,23,23,NN,FM,5,49 54 155.00 UT Emery Castle Dale Horn Mountain K7SDC
+108,SDC Hanksville Ellen Peak,147.08,split,147.68,Tone,136.5,136.5,23,23,NN,FM,5,49 56 122.00 UT Wayne Hanksville Ellen Peak K7SDC
+109,SDC Monticello Abajo Peak,146.61,split,146.01,Tone,88.5,88.5,23,23,NN,FM,5,49 60 82.00 UT San Juan Monticello Abajo Peak K7SDC
+110,SDC Scofield Ford Ridge,145.31,split,144.71,Tone,88.5,88.5,23,23,NN,FM,5,49 55 181.00 UT Carbon Scofield Ford Ridge K7SDC
+111,SDC Sunnyside Bruin Point,147.32,split,147.92,Tone,88.5,88.5,23,23,NN,FM,5,49 58 137.00 UT Carbon Sunnyside Bruin Point K7SDC
+112,SDC Sunnyside Bruin Point,449.05,split,444.05,Tone,88.5,88.5,23,23,NN,FM,5,49 59 137.00 UT Carbon Sunnyside Bruin Point K7SDC
+113,SMZ Grand Junction,449.775,split,444.775,Cross,173.8,88.5,23,23,NN,FM,5,8 11793 102.00 CO Mesa Grand Junction KD0SMZ
+114,SSI Grand Junction,147.105,split,147.705,,100,100,23,23,NN,FM,5,8 8175 102.00 CO Mesa Grand Junction K0SSI
+115,SWE Rifle,146.76,split,146.16,Tone,107.2,107.2,23,23,NN,FM,5,8 200 183.00 CO Garfield Rifle N0SWE
+116,TAG Price,447.025,split,442.025,Tone,88.5,88.5,23,23,NN,FM,5,49 19782 157.00 UT Carbon Price N7TAG
+117,TTK Salem,449.25,split,444.25,Tone,88.5,88.5,23,23,NN,FM,5,49 19783 157.00 UT Utah Salem W7TTK
+118,UUX Montrose,146.91,split,146.31,TSQL,107.2,107.2,23,23,NN,FM,5,8 12442 146.00 CO Montrose Montrose KC0UUX
+119,VJJ Grand Junction Grand Mesa,145.355,split,144.755,Cross,88.5,123,23,23,NN,FM,5,8 149 150.00 CO Mesa Grand Junction Grand Mesa KB0VJJ
+120,VJJ Grand Junction Grand Mesa,147.355,split,146.755,Cross,88.5,123,23,23,NN,FM,5,8 15581 101.00 CO Mesa Grand Junction Grand Mesa KB0VJJ
+121,X7Y Castle Dale Horn Mountain,447.7,split,442.7,Tone,123,123,23,23,NN,FM,5,49 272 155.00 UT Emery Castle Dale Horn Mountain WX7Y
+122,X7Y Huntington Skyline Dr,223.92,split,222.32,Tone,88.5,88.5,23,23,NN,FM,5,49 273 155.00 UT Emery Huntington Skyline Dr WX7Y
+123,X7Y Sunny Side Bruin Peak,145.175,split,144.575,,100,100,23,23,NN,FM,5,49 15319 138.00 UT Carbon Sunny Side Bruin Peak WX7Y
 124,YNA Delta Uncompahgre Butte,449.4,split,444.4,TSQL,131.8,131.8,23,23,NN,FM,5,8 127 78.00 CO Mesa Delta Uncompahgre Butte KB0YNA
 125,YNA Grand Junction Grand Mesa,449.65,split,444.65,TSQL,151.4,151.4,23,23,NN,FM,5,8 8763 150.00 CO Mesa Grand Junction Grand Mesa KB0YNA
 126,YNA Montrose Waterdog Peak,448.65,split,443.65,TSQL,151.4,151.4,23,23,NN,FM,5,8 15213 165.00 CO Montrose Montrose Waterdog Peak KB0YNA

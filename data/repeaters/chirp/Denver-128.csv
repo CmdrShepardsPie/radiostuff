@@ -2,128 +2,128 @@ Location,Name,Frequency,Duplex,Offset,Tone,rToneFreq,cToneFreq,DtcsCode,DtcsRxCo
 0,Calling,146.52,,146.52,,100,100,23,23,NN,FM,5,FM Calling
 1,Calling,223.5,,223.5,,100,100,23,23,NN,FM,5,FM Calling
 2,Calling,446,,446,,100,100,23,23,NN,FM,5,FM Calling
-3,SOTA,144.585,,144.585,,100,100,23,23,NN,FM,5,FM SOTA
-4,SOTA,146.5,,146.5,,100,100,23,23,NN,FM,5,FM SOTA
-5,SOTA,146.52,,146.52,,100,100,23,23,NN,FM,5,FM SOTA
-6,SOTA,146.525,,146.525,,100,100,23,23,NN,FM,5,FM SOTA
-7,SOTA,439,,439,,100,100,23,23,NN,FM,5,FM SOTA
-8,ISS AX.25 1200 Bd AFSK Packet,145.825,,145.825,,100,100,23,23,NN,FM,5,FM ISS AX.25 1200 Bd AFSK Packet Radio (Worldwide)
-9,ISS U/v VOICE Repeater (World,145.8,split,437.8,,100,100,23,23,NN,FM,5,FM ISS U/v VOICE Repeater (Worldwide)
-10,ISS UHF Simplex (rarely used),437.55,,437.55,,100,100,23,23,NN,FM,5,FM ISS UHF Simplex (rarely used)
-11,ISS V/u with PL VOICE Repeate,437.8,split,145.99,Tone,67,67,23,23,NN,FM,5,FM ISS V/u with PL VOICE Repeater (Worldwide)
-12,ISS VOICE for ITU Region 2&3,145.8,split,144.49,,100,100,23,23,NN,FM,5,FM ISS VOICE for ITU Region 2&3
-13,AO-27,436.795,split,145.85,,100,100,23,23,NN,FM,5,FM SAT AO-27
-14,AO-91 (RadFxSat / Fox-1B),145.96,split,435.25,Tone,67,67,23,23,NN,FM,5,FM SAT AO-91 (RadFxSat / Fox-1B)
-15,AO-92 (Fox-1D),145.88,split,435.35,Tone,67,67,23,23,NN,FM,5,FM SAT AO-92 (Fox-1D)
-16,CAS-3H (LilacSat-2),437.2,split,144.35,,100,100,23,23,NN,FM,5,FM SAT CAS-3H (LilacSat-2)
-17,CAS-5A,435.6,split,145.925,,100,100,23,23,NN,FM,5,FM SAT CAS-5A
-18,CAS-7A,435.455,split,145.95,,100,100,23,23,NN,FM,5,FM SAT CAS-7A
-19,CAS-7C,435.69,split,145.9,,100,100,23,23,NN,FM,5,FM SAT CAS-7C
-20,Duchifat3,436.4,split,145.97,,100,100,23,23,NN,FM,5,FM SAT Duchifat3
-21,IO-86 (LAPAN-A2),435.88,split,145.88,Tone,88.5,88.5,23,23,NN,FM,5,FM SAT IO-86 (LAPAN-A2)
-22,PO-101 (Diwata-2),145.9,split,437.5,Tone,141.3,141.3,23,23,NN,FM,5,FM SAT PO-101 (Diwata-2)
-23,SO-50 (SaudiSat-1C),436.795,split,145.85,Tone,67,67,23,23,NN,FM,5,FM SAT SO-50 (SaudiSat-1C)
-24,Swiatowid,145.85,split,436,,100,100,23,23,NN,FM,5,FM SAT Swiatowid
-25,Tevel Mission,436.4,split,145.97,,100,100,23,23,NN,FM,5,FM SAT Tevel Mission
-26,0BG Aurora,448.275,split,443.275,Tone,156.7,156.7,23,23,NN,FM,5,8 8199 11.00 CO Arapahoe Aurora W0BG
-27,0DK Boulder,146.61,split,146.01,Tone,100,100,23,23,NN,FM,5,8 13 38.00 CO Boulder Boulder W0DK
-28,0DK Boulder,146.73,split,146.13,TSQL,91.5,91.5,23,23,NN,FM,5,8 15 43.00 CO Boulder Boulder K0DK
-29,0DK Boulder,449.4,split,444.4,Tone,91.5,91.5,23,23,NN,FM,5,8 21 41.00 CO Boulder Boulder K0DK
-30,0DK Boulder Table Mesa,448.9,split,443.9,Tone,100,100,23,23,NN,FM,5,8 10 38.00 CO Boulder Boulder Table Mesa W0DK
-31,0DK Boulder Table Mountain,146.7,split,146.1,Tone,100,100,23,23,NN,FM,5,8 14 38.00 CO Boulder Boulder Table Mountain W0DK
-32,0EB Hudson,449.925,split,444.925,TSQL,114.8,114.8,23,23,NN,FM,5,8 8216 42.00 CO Weld Hudson K0EB
-33,0FH Estes Park,146.685,split,146.085,TSQL,123,123,23,23,NN,FM,5,8 119 81.00 CO Larimer Estes Park N0FH
-34,0GV Golden,448.975,split,443.975,Tone,123,123,23,23,NN,FM,5,8 137 22.00 CO Jefferson Golden W0GV
-35,0HG Allenspark AFPD Station #5,147.03,split,147.63,Tone,100,100,23,23,NN,FM,5,8 15670 65.00 CO Boulder Allenspark AFPD Station #5 KI0HG
-36,0IA Boulder,449.55,split,444.55,Tone,100,100,23,23,NN,FM,5,8 11 41.00 CO Boulder Boulder W0IA
-37,0IA Boulder Gunbarrel Hill,146.76,split,146.16,Tone,100,100,23,23,NN,FM,5,8 16 39.00 CO Boulder Boulder Gunbarrel Hill W0IA
-38,0IA Boulder Lee Hill,224.02,split,222.42,,100,100,23,23,NN,FM,5,8 18 50.00 CO Boulder Boulder Lee Hill W0IA
-39,0JZ Gold Hill,146.91,split,146.31,Cross,123,127.3,23,23,NN,FM,5,8 13368 53.00 CO Boulder Gold Hill W0JZ
-40,0KC Fort Lupton,224.96,split,223.36,,100,100,23,23,NN,FM,5,8 8183 41.00 CO Weld Fort Lupton AC0KC
-41,0KC Fort Lupton,447.3,split,442.3,Tone,107.2,107.2,23,23,NN,FM,5,8 8739 36.00 CO Weld Fort Lupton AC0KC
-42,0KQ Evergreen Saddleback Mountai,447.85,split,442.85,TSQL,141.3,141.3,23,23,NN,FM,5,8 9580 41.00 CO Clear Creek Evergreen Saddleback Mountain AC0KQ
-43,0ML Northglenn,147.045,split,147.645,Tone,123,123,23,23,NN,FM,5,8 185 17.00 CO Adams Northglenn K0ML
-44,0NR Monument Colorado Springs Mo,447.725,split,442.725,TSQL,100,100,23,23,NN,FM,5,8 183 72.00 CO El Paso Monument Colorado Springs Monument Hill K0NR
-45,0OJ Greeley UNC,449.725,split,444.725,Tone,127.3,127.3,23,23,NN,FM,5,8 159 78.00 CO Weld Greeley UNC K0OJ
-46,0PC Bailey Dick Mountain,146.895,split,146.295,TSQL,100,100,23,23,NN,FM,5,8 7 57.00 CO Park Bailey Dick Mountain AB0PC
-47,0RM Rollinsville,224.6,split,223,Tone,100,100,23,23,NN,FM,5,8 201 50.00 CO Gilpin Rollinsville W0RM
-48,0SJ Boulder Blue Mountain,145.475,split,144.875,Tone,100,100,23,23,NN,FM,5,8 75 2.00 CO Jefferson Boulder Blue Mountain KE0SJ
-49,0SJ Golden Centennial Cone,145.28,split,144.68,Tone,100,100,23,23,NN,FM,5,8 140 34.00 CO Jefferson Golden Centennial Cone KE0SJ
-50,0SJ Golden Centennial Cone,449.525,split,444.525,,100,100,23,23,NN,FM,5,8 138 34.00 CO Jefferson Golden Centennial Cone KE0SJ
-51,0SZ Boulder Lee Hill,447.75,split,442.75,TSQL,141.3,141.3,23,23,NN,FM,5,8 19 50.00 CO Boulder Boulder Lee Hill N0SZ
-52,0SZ Denver Thorodin Mountain,449.225,split,444.225,TSQL,141.3,141.3,23,23,NN,FM,5,8 97 43.00 CO Gilpin Denver Thorodin Mountain N0SZ
-53,0SZ Idaho Springs Squaw Mountain,448.225,split,443.225,TSQL,141.3,141.3,23,23,NN,FM,5,8 8197 46.00 CO Clear Creek Idaho Springs Squaw Mountain N0SZ
-54,0TX Golden Centennial Cone,448.625,split,443.625,TSQL,100,100,23,23,NN,FM,5,8 112 34.00 CO Jefferson Golden Centennial Cone W0TX
-55,0TX Idaho Springs Centennial Con,145.49,split,144.89,TSQL,100,100,23,23,NN,FM,5,8 76 45.00 CO Jefferson Idaho Springs Centennial Cone W0TX
-56,0TX Idaho Springs Squaw Mountain,449.35,split,444.35,TSQL,100,100,23,23,NN,FM,5,8 98 45.00 CO Clear Creek Idaho Springs Squaw Mountain W0TX
-57,0TX Lakewood Green Mountain,147.33,split,147.93,Tone,100,100,23,23,NN,FM,5,8 85 16.00 CO Jefferson Lakewood Green Mountain W0TX
-58,0TX Lakewood Green Mountain,224.38,split,222.78,TSQL,100,100,23,23,NN,FM,5,8 267 16.00 CO Jefferson Lakewood Green Mountain W0TX
-59,0TX Lakewood St Anthony Medical,447.825,split,442.825,DTCS,100,100,73,73,NN,FM,5,8 5805 14.00 CO Jefferson Lakewood St Anthony Medical Campus W0TX
-60,7RF Fort Collins,447.725,split,442.725,Tone,131.8,131.8,23,23,NN,FM,5,8 8194 85.00 CO Larimer Fort Collins W7RF
-61,9SL Aurora,449.95,split,444.95,TSQL,77,77,23,23,NN,FM,5,8 8743 11.00 CO Arapahoe Aurora W9SL
-62,AEN Idaho Springs Squaw Mountain,449,split,444,TSQL,136.5,136.5,23,23,NN,FM,5,8 8250 45.00 CO Clear Creek Idaho Springs Squaw Mountain WR0AEN
-63,ARA Critchell Critchell Mountain,147.12,split,147.72,TSQL,88.5,88.5,23,23,NN,FM,5,8 59 41.00 CO Jefferson Critchell Critchell Mountain N0ARA
-64,CBI Golden Guy Hill,147.15,split,147.75,TSQL,100,100,23,23,NN,FM,5,8 133 31.00 CO Jefferson Golden Guy Hill W0CBI
-65,CCC Winter Park,447.45,split,442.45,Tone,103.5,103.5,23,23,NN,FM,5,8 3756 75.00 CO Grand Winter Park WA4CCC
-66,CFI Idaho Springs Squaw Mountain,448.675,split,443.675,TSQL,100,100,23,23,NN,FM,5,8 94 45.00 CO Denver Idaho Springs Squaw Mountain W0CFI
-67,CRA Boulder Eldorado Mountain,145.46,split,144.86,TSQL,107.2,107.2,23,23,NN,FM,5,8 8 50.00 CO Boulder Boulder Eldorado Mountain W0CRA
-68,CRA Boulder Eldorado Mountain,447.975,split,442.975,TSQL,107.2,107.2,23,23,NN,FM,5,8 20 50.00 CO Boulder Boulder Eldorado Mountain W0CRA
-69,CRA Idaho Springs Squaw Mountain,145.145,split,144.545,TSQL,107.2,107.2,23,23,NN,FM,5,8 107 45.00 CO Clear Creek Idaho Springs Squaw Mountain W0CRA
-70,CRA Idaho Springs Squaw Mountain,447.575,split,442.575,TSQL,107.2,107.2,23,23,NN,FM,5,8 264 45.00 CO Clear Creek Idaho Springs Squaw Mountain W0CRA
-71,CRA Larkspur Westcreek,147.225,split,147.825,TSQL,107.2,107.2,23,23,NN,FM,5,8 83 62.00 CO Douglas Larkspur Westcreek W0CRA
-72,CRA Larkspur Westcreek,448.425,split,443.425,TSQL,107.2,107.2,23,23,NN,FM,5,8 16547 62.00 CO Douglas Larkspur Westcreek W0CRA
-73,DUN Idaho Springs Squaw Mountain,449.45,split,444.45,Cross,103.5,127.3,23,23,NN,FM,5,8 99 46.00 CO Clear Creek Idaho Springs Squaw Mountain K1DUN
-74,EHP Denver,448.075,split,443.075,Tone,123,123,23,23,NN,FM,5,8 91 2.00 CO Denver Denver N5EHP
-75,ELY Lakewood,448.75,split,443.75,TSQL,100,100,23,23,NN,FM,5,8 8204 14.00 CO Jefferson Lakewood N0ELY
-76,ENO Longmont,147.27,split,147.87,TSQL,100,100,23,23,NN,FM,5,8 175 49.00 CO Boulder Longmont W0ENO
-77,ENO Longmont,448.8,split,443.8,TSQL,88.5,88.5,23,23,NN,FM,5,8 177 49.00 CO Boulder Longmont W0ENO
-78,EPA Longmont,448.525,split,443.525,Tone,151.4,151.4,23,23,NN,FM,5,8 176 49.00 CO Boulder Longmont N0EPA
-79,EPS Woodland Park Paradise Pines,449.325,split,444.325,TSQL,103.5,103.5,23,23,NN,FM,5,8 9503 83.00 CO Teller Woodland Park Paradise Pines KA4EPS
-80,ESQ Castle Rock Devils Head (Pik,447.525,split,442.525,TSQL,146.2,146.2,23,23,NN,FM,5,8 8190 54.00 CO Douglas Castle Rock Devils Head (Pike National Forest) N0ESQ
-81,ESQ Parker Hess Reservoir,447.525,split,442.525,Cross,203.5,146.2,23,23,NN,FM,5,8 8189 29.00 CO Douglas Parker Hess Reservoir N0ESQ
-82,FEZ Denver,447.925,split,442.925,TSQL,100,100,23,23,NN,FM,5,8 8196 2.00 CO Denver Denver K0FEZ
-83,FEZ Golden Centennial Cone,146.985,split,146.385,TSQL,100,100,23,23,NN,FM,5,8 82 34.00 CO Denver Golden Centennial Cone K0FEZ
-84,FUN Denver Green Valley Ranch,448.15,split,443.15,TSQL,141.3,141.3,23,23,NN,FM,5,8 9765 20.00 CO Denver Denver Green Valley Ranch WE0FUN
-85,G0N Idaho Springs Squaw Mountain,449.05,split,444.05,TSQL,107.2,107.2,23,23,NN,FM,5,8 95 47.00 CO Denver Idaho Springs Squaw Mountain WG0N
-86,GUQ Evergreen,145.34,split,144.74,Cross,103.5,127.3,23,23,NN,FM,5,8 73 32.00 CO Jefferson Evergreen KE4GUQ
-87,IBM Golden Guy Hill,448.85,split,443.85,TSQL,88.5,88.5,23,23,NN,FM,5,8 136 31.00 CO Jefferson Golden Guy Hill K0IBM
-88,JRL Denver Broadway Plaza Lofts,447.175,split,442.175,TSQL,100,100,23,23,NN,FM,5,8 12216 3.00 CO Denver Denver Broadway Plaza Lofts W0JRL
-89,JSC Larkspur Westcreek,449.975,split,444.975,TSQL,100,100,23,23,NN,FM,5,8 15903 63.00 CO Douglas Larkspur Westcreek K0JSC
-90,JXN Denver,146.715,split,146.115,TSQL,123,123,23,23,NN,FM,5,8 79 2.00 CO Denver Denver N0JXN
-91,KIZ Denver,448.55,split,443.55,Tone,82.5,82.5,23,23,NN,FM,5,8 93 2.00 CO Denver Denver W0KIZ
-92,KWD Gilcrest,448.475,split,443.475,Tone,100,100,23,23,NN,FM,5,8 158 63.00 CO Weld Gilcrest KC0KWD
-93,LMA Broomfield,448.925,split,443.925,Tone,131.8,131.8,23,23,NN,FM,5,8 26 23.00 CO Boulder Broomfield W0LMA
-94,LRA Loveland Namaqua Hill,147.195,split,147.795,Tone,100,100,23,23,NN,FM,5,8 179 75.00 CO Larimer Loveland Namaqua Hill W0LRA
-95,LRA Loveland Namaqua Hill,449.575,split,444.575,Tone,100,100,23,23,NN,FM,5,8 181 74.00 CO Larimer Loveland Namaqua Hill W0LRA
-96,LXX Morrison Mt. Morrison,447.875,split,442.875,TSQL,107.2,107.2,23,23,NN,FM,5,8 10513 23.00 CO Jefferson Morrison Mt. Morrison N6LXX
-97,MDP Falcon Black Forest,447.625,split,442.625,TSQL,100,100,23,23,NN,FM,5,8 13294 83.00 CO El Paso Falcon Black Forest KD0MDP
-98,MHU Golden Guy Hill,224,split,222.4,TSQL,103.5,103.5,23,23,NN,FM,5,8 86 31.00 CO Jefferson Golden Guy Hill N0MHU
-99,OBA Aurora,145.19,split,144.59,Cross,131.8,69.3,23,23,NN,FM,5,8 8741 21.00 CO Arapahoe Aurora N0OBA
-100,OWY Conifer Critchell Mountain,447.5,split,442.5,TSQL,88.5,88.5,23,23,NN,FM,5,8 60 36.00 CO Jefferson Conifer Critchell Mountain N0OWY
-101,POH Golden Guy Hill,224.74,split,223.14,TSQL,88.5,88.5,23,23,NN,FM,5,8 134 31.00 CO Jefferson Golden Guy Hill N0POH
-102,PUF Centennial Warren Mountain,146.88,split,146.28,Tone,100,100,23,23,NN,FM,5,8 80 29.00 CO Jefferson Centennial Warren Mountain N0PUF
-103,PUF Golden Centennial Cone,146.64,split,146.04,Tone,100,100,23,23,NN,FM,5,8 77 34.00 CO Jefferson Golden Centennial Cone N0PUF
-104,PYY Evergreen Squaw Mountain,147.3,split,147.9,TSQL,103.5,103.5,23,23,NN,FM,5,8 84 45.00 CO Clear Creek Evergreen Squaw Mountain N0PYY
-105,PYY Golden,448.125,split,443.125,Tone,107.2,107.2,23,23,NN,FM,5,8 143 22.00 CO Jefferson Golden N0PYY
-106,Q8M Parker,448.7,split,443.7,Tone,146.2,146.2,23,23,NN,FM,5,8 274 25.00 CO Douglas Parker WQ8M
-107,SKY Loveland Milner Mtn.,448.4,split,443.4,TSQL,94.8,94.8,23,23,NN,FM,5,8 18892 86.00 CO Larimer Loveland Milner Mtn. N2SKY
-108,SRJ Colorado Springs ~2 mi ENE U,448.8,split,443.8,Tone,100,100,23,23,NN,FM,5,8 57 80.00 CO El Paso Colorado Springs ~2 mi ENE USAFA North Gate KB0SRJ
-109,SSP Lakewood Moffat Treatment Pl,147.21,split,147.81,TSQL,100,100,23,23,NN,FM,5,8 9775 14.00 CO Jefferson Lakewood Moffat Treatment Plant KD0SSP
-110,SVT Loveland Milner Mtn.,447.8,split,442.8,,100,100,23,23,NN,FM,5,8 19448 86.00 CO Larimer Loveland Milner Mtn. K0SVT
-111,TPT Denver,447.9,split,442.9,,100,100,23,23,NN,FM,5,8 8195 2.00 CO Denver Denver WB0TPT
-112,UDD Aurora Smokey Hill,448.5,split,443.5,Tone,100,100,23,23,NN,FM,5,8 92 12.00 CO Denver Aurora Smokey Hill KB0UDD
-113,UDD Aurora Smoky Hill,145.4,split,144.8,Tone,100,100,23,23,NN,FM,5,8 5 24.00 CO Arapahoe Aurora Smoky Hill KB0UDD
-114,UDD Idaho Springs Squaw Mountain,146.67,split,146.07,TSQL,100,100,23,23,NN,FM,5,8 78 45.00 CO Clear Creek Idaho Springs Squaw Mountain KB0UDD
-115,UPS Greeley UNC,146.85,split,146.25,TSQL,100,100,23,23,NN,FM,5,8 156 78.00 CO Weld Greeley UNC W0UPS
-116,UPS Westminster,449.3,split,444.3,Tone,100,100,23,23,NN,FM,5,8 8208 13.00 CO Adams Westminster N1UPS
-117,VJJ Boulder Thorodin Mountain,145.31,split,144.71,Cross,88.5,123,23,23,NN,FM,5,8 72 43.00 CO Gilpin Boulder Thorodin Mountain KB0VJJ
-118,VJJ Winter Park Winter Park,147.285,split,147.885,Cross,88.5,123,23,23,NN,FM,5,8 15582 70.00 CO Grand Winter Park Winter Park KB0VJJ
-119,WUC Woodland Park,145.415,split,144.815,Tone,179.9,179.9,23,23,NN,FM,5,8 249 83.00 CO Teller Woodland Park KA0WUC
-120,WUC Woodland Park,447.675,split,442.675,TSQL,179.9,179.9,23,23,NN,FM,5,8 8193 83.00 CO Teller Woodland Park KA0WUC
-121,WUC Woodland Park,449.025,split,444.025,Tone,141.3,141.3,23,23,NN,FM,5,8 252 83.00 CO Teller Woodland Park KA0WUC
-122,WYX Broomfield,449.825,split,444.825,Tone,103.5,103.5,23,23,NN,FM,5,8 266 23.00 CO Boulder Broomfield W0WYX
-123,WYX Idaho Springs Squaw Mountain,146.94,split,146.34,TSQL,103.5,103.5,23,23,NN,FM,5,8 81 46.00 CO Clear Creek Idaho Springs Squaw Mountain W0WYX
-124,X0G Woodland Park,146.82,split,146.22,Tone,107.2,107.2,23,23,NN,FM,5,8 250 83.00 CO Teller Woodland Park NX0G
-125,X0G Woodland Park,448.65,split,443.65,Tone,107.2,107.2,23,23,NN,FM,5,8 251 83.00 CO Teller Woodland Park NX0G
-126,XLF Palmer Lake Monument Hill,147.075,split,147.675,Cross,131.8,69.3,23,23,NN,FM,5,8 8740 67.00 CO Douglas Palmer Lake Monument Hill N0XLF
+3,MURS 1,151.82,,151.82,,100,100,23,23,NN,FM,5,MURS 1
+4,MURS 2,151.88,,151.88,,100,100,23,23,NN,FM,5,MURS 2
+5,MURS 3,151.94,,151.94,,100,100,23,23,NN,FM,5,MURS 3
+6,MURS 4,154.57,,154.57,,100,100,23,23,NN,FM,5,MURS 4
+7,MURS 5,154.6,,154.6,,100,100,23,23,NN,FM,5,MURS 5
+8,GMRS 1,462.5625,,462.5625,,100,100,23,23,NN,FM,5,GMRS 1
+9,GMRS 2,462.5875,,462.5875,,100,100,23,23,NN,FM,5,GMRS 2
+10,GMRS 3,462.6125,,462.6125,,100,100,23,23,NN,FM,5,GMRS 3
+11,GMRS 4,462.6375,,462.6375,,100,100,23,23,NN,FM,5,GMRS 4
+12,GMRS 5,462.6625,,462.6625,,100,100,23,23,NN,FM,5,GMRS 5
+13,GMRS 6,462.6875,,462.6875,,100,100,23,23,NN,FM,5,GMRS 6
+14,GMRS 7,462.7125,,462.7125,,100,100,23,23,NN,FM,5,GMRS 7
+15,GMRS 8,467.5625,,467.5625,,100,100,23,23,NN,FM,5,GMRS 8
+16,FRS 9,467.5875,,467.5875,,100,100,23,23,NN,FM,5,FRS 9
+17,FRS 10,467.6125,,467.6125,,100,100,23,23,NN,FM,5,FRS 10
+18,FRS 11,467.6375,,467.6375,,100,100,23,23,NN,FM,5,FRS 11
+19,FRS 12,467.6625,,467.6625,,100,100,23,23,NN,FM,5,FRS 12
+20,FRS 13,467.6875,,467.6875,,100,100,23,23,NN,FM,5,FRS 13
+21,FRS 14,467.7125,,467.7125,,100,100,23,23,NN,FM,5,FRS 14
+22,GMRS 15,462.55,,462.55,,100,100,23,23,NN,FM,5,GMRS 15
+23,GMRS 16,462.575,,462.575,,100,100,23,23,NN,FM,5,GMRS 16
+24,GMRS 17,462.6,,462.6,,100,100,23,23,NN,FM,5,GMRS 17
+25,GMRS 18,462.625,,462.625,,100,100,23,23,NN,FM,5,GMRS 18
+26,GMRS 19,462.65,,462.65,,100,100,23,23,NN,FM,5,GMRS 19
+27,GMRS 20,462.675,,462.675,,100,100,23,23,NN,FM,5,GMRS 20
+28,GMRS 21,462.7,,462.7,,100,100,23,23,NN,FM,5,GMRS 21
+29,GMRS 22,462.725,,462.725,,100,100,23,23,NN,FM,5,GMRS 22
+30,SOTA,144.585,,144.585,,100,100,23,23,NN,FM,5,FM SOTA
+31,SOTA,146.5,,146.5,,100,100,23,23,NN,FM,5,FM SOTA
+32,SOTA,146.52,,146.52,,100,100,23,23,NN,FM,5,FM SOTA
+33,SOTA,146.525,,146.525,,100,100,23,23,NN,FM,5,FM SOTA
+34,SOTA,439,,439,,100,100,23,23,NN,FM,5,FM SOTA
+35,ISS AX.25 1200 Bd AFSK Packet,145.825,,145.825,,100,100,23,23,NN,FM,5,FM ISS AX.25 1200 Bd AFSK Packet Radio (Worldwide)
+36,ISS U/v VOICE Repeater (World,145.8,split,437.8,,100,100,23,23,NN,FM,5,FM ISS U/v VOICE Repeater (Worldwide)
+37,ISS UHF Simplex (rarely used),437.55,,437.55,,100,100,23,23,NN,FM,5,FM ISS UHF Simplex (rarely used)
+38,ISS V/u with PL VOICE Repeate,437.8,split,145.99,Tone,67,67,23,23,NN,FM,5,FM ISS V/u with PL VOICE Repeater (Worldwide)
+39,ISS VOICE for ITU Region 2&3,145.8,split,144.49,,100,100,23,23,NN,FM,5,FM ISS VOICE for ITU Region 2&3
+40,AO-27,436.795,split,145.85,,100,100,23,23,NN,FM,5,FM SAT AO-27
+41,AO-91 (RadFxSat / Fox-1B),145.96,split,435.25,Tone,67,67,23,23,NN,FM,5,FM SAT AO-91 (RadFxSat / Fox-1B)
+42,AO-92 (Fox-1D),145.88,split,435.35,Tone,67,67,23,23,NN,FM,5,FM SAT AO-92 (Fox-1D)
+43,CAS-3H (LilacSat-2),437.2,split,144.35,,100,100,23,23,NN,FM,5,FM SAT CAS-3H (LilacSat-2)
+44,CAS-5A,435.6,split,145.925,,100,100,23,23,NN,FM,5,FM SAT CAS-5A
+45,CAS-7A,435.455,split,145.95,,100,100,23,23,NN,FM,5,FM SAT CAS-7A
+46,CAS-7C,435.69,split,145.9,,100,100,23,23,NN,FM,5,FM SAT CAS-7C
+47,Duchifat3,436.4,split,145.97,,100,100,23,23,NN,FM,5,FM SAT Duchifat3
+48,IO-86 (LAPAN-A2),435.88,split,145.88,Tone,88.5,88.5,23,23,NN,FM,5,FM SAT IO-86 (LAPAN-A2)
+49,PO-101 (Diwata-2),145.9,split,437.5,Tone,141.3,141.3,23,23,NN,FM,5,FM SAT PO-101 (Diwata-2)
+50,SO-50 (SaudiSat-1C),436.795,split,145.85,Tone,67,67,23,23,NN,FM,5,FM SAT SO-50 (SaudiSat-1C)
+51,Swiatowid,145.85,split,436,,100,100,23,23,NN,FM,5,FM SAT Swiatowid
+52,Tevel Mission,436.4,split,145.97,,100,100,23,23,NN,FM,5,FM SAT Tevel Mission
+53,0BG Aurora,448.275,split,443.275,Tone,156.7,156.7,23,23,NN,FM,5,8 8199 11.00 CO Arapahoe Aurora W0BG
+54,0DK Boulder,146.61,split,146.01,Tone,100,100,23,23,NN,FM,5,8 13 38.00 CO Boulder Boulder W0DK
+55,0DK Boulder,146.73,split,146.13,TSQL,91.5,91.5,23,23,NN,FM,5,8 15 43.00 CO Boulder Boulder K0DK
+56,0DK Boulder,449.4,split,444.4,Tone,91.5,91.5,23,23,NN,FM,5,8 21 41.00 CO Boulder Boulder K0DK
+57,0DK Boulder Table Mesa,448.9,split,443.9,Tone,100,100,23,23,NN,FM,5,8 10 38.00 CO Boulder Boulder Table Mesa W0DK
+58,0DK Boulder Table Mountain,146.7,split,146.1,Tone,100,100,23,23,NN,FM,5,8 14 38.00 CO Boulder Boulder Table Mountain W0DK
+59,0EB Hudson,449.925,split,444.925,TSQL,114.8,114.8,23,23,NN,FM,5,8 8216 42.00 CO Weld Hudson K0EB
+60,0GV Golden,448.975,split,443.975,Tone,123,123,23,23,NN,FM,5,8 137 22.00 CO Jefferson Golden W0GV
+61,0IA Boulder,449.55,split,444.55,Tone,100,100,23,23,NN,FM,5,8 11 41.00 CO Boulder Boulder W0IA
+62,0IA Boulder Gunbarrel Hill,146.76,split,146.16,Tone,100,100,23,23,NN,FM,5,8 16 39.00 CO Boulder Boulder Gunbarrel Hill W0IA
+63,0IA Boulder Lee Hill,224.02,split,222.42,,100,100,23,23,NN,FM,5,8 18 50.00 CO Boulder Boulder Lee Hill W0IA
+64,0JZ Gold Hill,146.91,split,146.31,Cross,123,127.3,23,23,NN,FM,5,8 13368 53.00 CO Boulder Gold Hill W0JZ
+65,0KC Fort Lupton,224.96,split,223.36,,100,100,23,23,NN,FM,5,8 8183 41.00 CO Weld Fort Lupton AC0KC
+66,0KC Fort Lupton,447.3,split,442.3,Tone,107.2,107.2,23,23,NN,FM,5,8 8739 36.00 CO Weld Fort Lupton AC0KC
+67,0KQ Evergreen Saddleback Mountai,447.85,split,442.85,TSQL,141.3,141.3,23,23,NN,FM,5,8 9580 41.00 CO Clear Creek Evergreen Saddleback Mountain AC0KQ
+68,0ML Northglenn,147.045,split,147.645,Tone,123,123,23,23,NN,FM,5,8 185 17.00 CO Adams Northglenn K0ML
+69,0RM Rollinsville,224.6,split,223,Tone,100,100,23,23,NN,FM,5,8 201 50.00 CO Gilpin Rollinsville W0RM
+70,0SJ Boulder Blue Mountain,145.475,split,144.875,Tone,100,100,23,23,NN,FM,5,8 75 2.00 CO Jefferson Boulder Blue Mountain KE0SJ
+71,0SJ Golden Centennial Cone,145.28,split,144.68,Tone,100,100,23,23,NN,FM,5,8 140 34.00 CO Jefferson Golden Centennial Cone KE0SJ
+72,0SJ Golden Centennial Cone,449.525,split,444.525,,100,100,23,23,NN,FM,5,8 138 34.00 CO Jefferson Golden Centennial Cone KE0SJ
+73,0SZ Boulder Lee Hill,447.75,split,442.75,TSQL,141.3,141.3,23,23,NN,FM,5,8 19 50.00 CO Boulder Boulder Lee Hill N0SZ
+74,0SZ Denver Thorodin Mountain,449.225,split,444.225,TSQL,141.3,141.3,23,23,NN,FM,5,8 97 43.00 CO Gilpin Denver Thorodin Mountain N0SZ
+75,0SZ Idaho Springs Squaw Mountain,448.225,split,443.225,TSQL,141.3,141.3,23,23,NN,FM,5,8 8197 46.00 CO Clear Creek Idaho Springs Squaw Mountain N0SZ
+76,0TX Golden Centennial Cone,448.625,split,443.625,TSQL,100,100,23,23,NN,FM,5,8 112 34.00 CO Jefferson Golden Centennial Cone W0TX
+77,0TX Idaho Springs Centennial Con,145.49,split,144.89,TSQL,100,100,23,23,NN,FM,5,8 76 45.00 CO Jefferson Idaho Springs Centennial Cone W0TX
+78,0TX Idaho Springs Squaw Mountain,449.35,split,444.35,TSQL,100,100,23,23,NN,FM,5,8 98 45.00 CO Clear Creek Idaho Springs Squaw Mountain W0TX
+79,0TX Lakewood Green Mountain,147.33,split,147.93,Tone,100,100,23,23,NN,FM,5,8 85 16.00 CO Jefferson Lakewood Green Mountain W0TX
+80,0TX Lakewood Green Mountain,224.38,split,222.78,TSQL,100,100,23,23,NN,FM,5,8 267 16.00 CO Jefferson Lakewood Green Mountain W0TX
+81,0TX Lakewood St Anthony Medical,447.825,split,442.825,DTCS,100,100,73,73,NN,FM,5,8 5805 14.00 CO Jefferson Lakewood St Anthony Medical Campus W0TX
+82,9SL Aurora,449.95,split,444.95,TSQL,77,77,23,23,NN,FM,5,8 8743 11.00 CO Arapahoe Aurora W9SL
+83,AEN Idaho Springs Squaw Mountain,449,split,444,TSQL,136.5,136.5,23,23,NN,FM,5,8 8250 45.00 CO Clear Creek Idaho Springs Squaw Mountain WR0AEN
+84,ARA Critchell Critchell Mountain,147.12,split,147.72,TSQL,88.5,88.5,23,23,NN,FM,5,8 59 41.00 CO Jefferson Critchell Critchell Mountain N0ARA
+85,CBI Golden Guy Hill,147.15,split,147.75,TSQL,100,100,23,23,NN,FM,5,8 133 31.00 CO Jefferson Golden Guy Hill W0CBI
+86,CFI Idaho Springs Squaw Mountain,448.675,split,443.675,TSQL,100,100,23,23,NN,FM,5,8 94 45.00 CO Denver Idaho Springs Squaw Mountain W0CFI
+87,CRA Boulder Eldorado Mountain,145.46,split,144.86,TSQL,107.2,107.2,23,23,NN,FM,5,8 8 50.00 CO Boulder Boulder Eldorado Mountain W0CRA
+88,CRA Boulder Eldorado Mountain,447.975,split,442.975,TSQL,107.2,107.2,23,23,NN,FM,5,8 20 50.00 CO Boulder Boulder Eldorado Mountain W0CRA
+89,CRA Idaho Springs Squaw Mountain,145.145,split,144.545,TSQL,107.2,107.2,23,23,NN,FM,5,8 107 45.00 CO Clear Creek Idaho Springs Squaw Mountain W0CRA
+90,CRA Idaho Springs Squaw Mountain,447.575,split,442.575,TSQL,107.2,107.2,23,23,NN,FM,5,8 264 45.00 CO Clear Creek Idaho Springs Squaw Mountain W0CRA
+91,DUN Idaho Springs Squaw Mountain,449.45,split,444.45,Cross,103.5,127.3,23,23,NN,FM,5,8 99 46.00 CO Clear Creek Idaho Springs Squaw Mountain K1DUN
+92,EHP Denver,448.075,split,443.075,Tone,123,123,23,23,NN,FM,5,8 91 2.00 CO Denver Denver N5EHP
+93,ELY Lakewood,448.75,split,443.75,TSQL,100,100,23,23,NN,FM,5,8 8204 14.00 CO Jefferson Lakewood N0ELY
+94,ENO Longmont,147.27,split,147.87,TSQL,100,100,23,23,NN,FM,5,8 175 49.00 CO Boulder Longmont W0ENO
+95,ENO Longmont,448.8,split,443.8,TSQL,88.5,88.5,23,23,NN,FM,5,8 177 49.00 CO Boulder Longmont W0ENO
+96,EPA Longmont,448.525,split,443.525,Tone,151.4,151.4,23,23,NN,FM,5,8 176 49.00 CO Boulder Longmont N0EPA
+97,ESQ Parker Hess Reservoir,447.525,split,442.525,Cross,203.5,146.2,23,23,NN,FM,5,8 8189 29.00 CO Douglas Parker Hess Reservoir N0ESQ
+98,FEZ Denver,447.925,split,442.925,TSQL,100,100,23,23,NN,FM,5,8 8196 2.00 CO Denver Denver K0FEZ
+99,FEZ Golden Centennial Cone,146.985,split,146.385,TSQL,100,100,23,23,NN,FM,5,8 82 34.00 CO Denver Golden Centennial Cone K0FEZ
+100,FUN Denver Green Valley Ranch,448.15,split,443.15,TSQL,141.3,141.3,23,23,NN,FM,5,8 9765 20.00 CO Denver Denver Green Valley Ranch WE0FUN
+101,G0N Idaho Springs Squaw Mountain,449.05,split,444.05,TSQL,107.2,107.2,23,23,NN,FM,5,8 95 47.00 CO Denver Idaho Springs Squaw Mountain WG0N
+102,GUQ Evergreen,145.34,split,144.74,Cross,103.5,127.3,23,23,NN,FM,5,8 73 32.00 CO Jefferson Evergreen KE4GUQ
+103,IBM Golden Guy Hill,448.85,split,443.85,TSQL,88.5,88.5,23,23,NN,FM,5,8 136 31.00 CO Jefferson Golden Guy Hill K0IBM
+104,JRL Denver Broadway Plaza Lofts,447.175,split,442.175,TSQL,100,100,23,23,NN,FM,5,8 12216 3.00 CO Denver Denver Broadway Plaza Lofts W0JRL
+105,JXN Denver,146.715,split,146.115,TSQL,123,123,23,23,NN,FM,5,8 79 2.00 CO Denver Denver N0JXN
+106,KIZ Denver,448.55,split,443.55,Tone,82.5,82.5,23,23,NN,FM,5,8 93 2.00 CO Denver Denver W0KIZ
+107,LMA Broomfield,448.925,split,443.925,Tone,131.8,131.8,23,23,NN,FM,5,8 26 23.00 CO Boulder Broomfield W0LMA
+108,LXX Morrison Mt. Morrison,447.875,split,442.875,TSQL,107.2,107.2,23,23,NN,FM,5,8 10513 23.00 CO Jefferson Morrison Mt. Morrison N6LXX
+109,MHU Golden Guy Hill,224,split,222.4,TSQL,103.5,103.5,23,23,NN,FM,5,8 86 31.00 CO Jefferson Golden Guy Hill N0MHU
+110,OBA Aurora,145.19,split,144.59,Cross,131.8,69.3,23,23,NN,FM,5,8 8741 21.00 CO Arapahoe Aurora N0OBA
+111,OWY Conifer Critchell Mountain,447.5,split,442.5,TSQL,88.5,88.5,23,23,NN,FM,5,8 60 36.00 CO Jefferson Conifer Critchell Mountain N0OWY
+112,POH Golden Guy Hill,224.74,split,223.14,TSQL,88.5,88.5,23,23,NN,FM,5,8 134 31.00 CO Jefferson Golden Guy Hill N0POH
+113,PUF Centennial Warren Mountain,146.88,split,146.28,Tone,100,100,23,23,NN,FM,5,8 80 29.00 CO Jefferson Centennial Warren Mountain N0PUF
+114,PUF Golden Centennial Cone,146.64,split,146.04,Tone,100,100,23,23,NN,FM,5,8 77 34.00 CO Jefferson Golden Centennial Cone N0PUF
+115,PYY Evergreen Squaw Mountain,147.3,split,147.9,TSQL,103.5,103.5,23,23,NN,FM,5,8 84 45.00 CO Clear Creek Evergreen Squaw Mountain N0PYY
+116,PYY Golden,448.125,split,443.125,Tone,107.2,107.2,23,23,NN,FM,5,8 143 22.00 CO Jefferson Golden N0PYY
+117,Q8M Parker,448.7,split,443.7,Tone,146.2,146.2,23,23,NN,FM,5,8 274 25.00 CO Douglas Parker WQ8M
+118,SSP Lakewood Moffat Treatment Pl,147.21,split,147.81,TSQL,100,100,23,23,NN,FM,5,8 9775 14.00 CO Jefferson Lakewood Moffat Treatment Plant KD0SSP
+119,TPT Denver,447.9,split,442.9,,100,100,23,23,NN,FM,5,8 8195 2.00 CO Denver Denver WB0TPT
+120,UDD Aurora Smokey Hill,448.5,split,443.5,Tone,100,100,23,23,NN,FM,5,8 92 12.00 CO Denver Aurora Smokey Hill KB0UDD
+121,UDD Aurora Smoky Hill,145.4,split,144.8,Tone,100,100,23,23,NN,FM,5,8 5 24.00 CO Arapahoe Aurora Smoky Hill KB0UDD
+122,UDD Idaho Springs Squaw Mountain,146.67,split,146.07,TSQL,100,100,23,23,NN,FM,5,8 78 45.00 CO Clear Creek Idaho Springs Squaw Mountain KB0UDD
+123,UPS Westminster,449.3,split,444.3,Tone,100,100,23,23,NN,FM,5,8 8208 13.00 CO Adams Westminster N1UPS
+124,VJJ Boulder Thorodin Mountain,145.31,split,144.71,Cross,88.5,123,23,23,NN,FM,5,8 72 43.00 CO Gilpin Boulder Thorodin Mountain KB0VJJ
+125,WYX Broomfield,449.825,split,444.825,Tone,103.5,103.5,23,23,NN,FM,5,8 266 23.00 CO Boulder Broomfield W0WYX
+126,WYX Idaho Springs Squaw Mountain,146.94,split,146.34,TSQL,103.5,103.5,23,23,NN,FM,5,8 81 46.00 CO Clear Creek Idaho Springs Squaw Mountain W0WYX
 127,ZUQ Aurora,448.4,split,443.4,Tone,94.8,94.8,23,23,NN,FM,5,8 8202 11.00 CO Arapahoe Aurora N0ZUQ

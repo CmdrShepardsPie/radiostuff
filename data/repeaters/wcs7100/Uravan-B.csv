@@ -72,7 +72,7 @@ Channel Number,Receive Frequency,Transmit Frequency,Offset Frequency,Offset Dire
 71,435.69000,145.90000,,-DUP,FM,FM SAT CAS-7C,None,100.0 Hz,100.0 Hz,023,Both N,Off,FM SAT CAS-7C,,,,,,Filter 1,,,None,88.5 Hz,88.5 Hz,023,Both N,Filter 1,FM
 72,435.88000,145.88000,,-DUP,FM,FM SAT IO-86 (LAPAN-A2),Tone,88.5 Hz,88.5 Hz,023,Both N,Off,FM SAT IO-86 (LAPAN-A2),,,,,,Filter 1,,,None,88.5 Hz,88.5 Hz,023,Both N,Filter 1,FM
 73,436.40000,145.97000,,-DUP,FM,FM SAT Duchifat3,None,100.0 Hz,100.0 Hz,023,Both N,Off,FM SAT Duchifat3,,,,,,Filter 1,,,None,88.5 Hz,88.5 Hz,023,Both N,Filter 1,FM
-74,436.79500,145.85000,,-DUP,FM,FM SAT AO-27,None,100.0 Hz,100.0 Hz,023,Both N,Off,FM SAT AO-27,,,,,,Filter 1,,,None,88.5 Hz,88.5 Hz,023,Both N,Filter 1,FM
+74,436.79500,145.85000,,-DUP,FM,FM SAT SO-50 (SaudiSat-1C),Tone,67.0 Hz,67.0 Hz,023,Both N,Off,FM SAT SO-50 (SaudiSat-1C),,,,,,Filter 1,,,None,88.5 Hz,88.5 Hz,023,Both N,Filter 1,FM
 75,437.20000,144.35000,,-DUP,FM,FM SAT CAS-3H (LilacSat-2),None,100.0 Hz,100.0 Hz,023,Both N,Off,FM SAT CAS-3H (LilacSat-2),,,,,,Filter 1,,,None,88.5 Hz,88.5 Hz,023,Both N,Filter 1,FM
 76,437.55000,437.55000,,Simplex,FM,FM ISS UHF Simplex (rarely used),None,100.0 Hz,100.0 Hz,023,Both N,Off,FM ISS UHF Simplex (rarely used),,,,,,Filter 1,,,None,88.5 Hz,88.5 Hz,023,Both N,Filter 1,FM
 77,437.80000,145.99000,,-DUP,FM,FM ISS V/u with PL VOICE Repeate,Tone,67.0 Hz,67.0 Hz,023,Both N,Off,FM ISS V/u with PL VOICE Repeater (Worldwide),,,,,,Filter 1,,,None,88.5 Hz,88.5 Hz,023,Both N,Filter 1,FM
