@@ -24,6 +24,15 @@ var __importDefault = (this && this.__importDefault) || function (mod) {
         'bgBlue',
         'bgMagenta',
         'bgCyan',
+        // "bgWhite",
+        // "bgBlackBright",
+        // "bgRedBright",
+        // "bgGreenBright",
+        // "bgYellowBright",
+        // "bgBlueBright",
+        // "bgMagentaBright",
+        // "bgCyanBright",
+        // "bgWhiteBright",
     ];
     let lastColor = 0;
     function createOut(context, color) {

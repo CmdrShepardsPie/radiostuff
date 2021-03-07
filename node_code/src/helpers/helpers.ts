@@ -4,11 +4,11 @@ import gpsDistance from 'gps-distance';
 
 const { log }: { log: (...msg: any[]) => void; write: (...msg: any[]) => void } = createOut('Helpers');
 
-export function wait<T = void>(ms: number, fn?: () => (T | Promise<T>)): Promise<T> {
-  return new Promise((resolve: (value?: (Promise<T> | T)) => void, reject: (reason?: any) => void): void => {
-    setTimeout(async (): Promise<void> => {
+export function wait(ms: number) {
+  return new Promise<void>((resolve, reject) => {
+    setTimeout(() => {
       try {
-        resolve(fn && (await fn()));
+        resolve();
       } catch (e) {
         reject(e);
       }

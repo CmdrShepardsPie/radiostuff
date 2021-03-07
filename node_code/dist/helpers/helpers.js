@@ -16,11 +16,11 @@ var __importDefault = (this && this.__importDefault) || function (mod) {
     const log_helpers_1 = require("@helpers/log-helpers");
     const chalk_1 = __importDefault(require("chalk"));
     const { log } = log_helpers_1.createOut('Helpers');
-    function wait(ms, fn) {
+    function wait(ms) {
         return new Promise((resolve, reject) => {
-            setTimeout(async () => {
+            setTimeout(() => {
                 try {
-                    resolve(fn && (await fn()));
+                    resolve();
                 }
                 catch (e) {
                     reject(e);
