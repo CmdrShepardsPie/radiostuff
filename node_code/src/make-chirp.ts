@@ -65,8 +65,8 @@ async function doIt(location: gpsDistance.Point, outFileName: string): Promise<v
         FrequencyBand.$70_cm,
         FrequencyBand.MURS,
         FrequencyBand.GMRS,
-      ))
-      .filter((filter) => filter.Callsign !== 'FM Simplex'),
+      )),
+      // .filter((filter) => filter.Callsign !== 'FM Simplex'),
     ...repeaters
       .filter(filterOutputFrequencies(
         FrequencyBand.$2_m,

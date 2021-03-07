@@ -45,8 +45,8 @@ var __importDefault = (this && this.__importDefault) || function (mod) {
         const mapped = [
             ...simplex
                 .filter(radio_helpers_1.filterOutputFrequencies(radio_helpers_1.FrequencyBand.$2_m, radio_helpers_1.FrequencyBand.$1_25_m, radio_helpers_1.FrequencyBand.$70_cm, radio_helpers_1.FrequencyBand.MURS, radio_helpers_1.FrequencyBand.GMRS))
-                .filter(radio_helpers_1.filterInputFrequencies(radio_helpers_1.FrequencyBand.$2_m, radio_helpers_1.FrequencyBand.$1_25_m, radio_helpers_1.FrequencyBand.$70_cm, radio_helpers_1.FrequencyBand.MURS, radio_helpers_1.FrequencyBand.GMRS))
-                .filter((filter) => filter.Callsign !== 'FM Simplex'),
+                .filter(radio_helpers_1.filterInputFrequencies(radio_helpers_1.FrequencyBand.$2_m, radio_helpers_1.FrequencyBand.$1_25_m, radio_helpers_1.FrequencyBand.$70_cm, radio_helpers_1.FrequencyBand.MURS, radio_helpers_1.FrequencyBand.GMRS)),
+            // .filter((filter) => filter.Callsign !== 'FM Simplex'),
             ...repeaters
                 .filter(radio_helpers_1.filterOutputFrequencies(radio_helpers_1.FrequencyBand.$2_m, radio_helpers_1.FrequencyBand.$1_25_m, radio_helpers_1.FrequencyBand.$70_cm, radio_helpers_1.FrequencyBand.MURS, radio_helpers_1.FrequencyBand.GMRS))
                 .filter(radio_helpers_1.filterInputFrequencies(radio_helpers_1.FrequencyBand.$2_m, radio_helpers_1.FrequencyBand.$1_25_m, radio_helpers_1.FrequencyBand.$70_cm, radio_helpers_1.FrequencyBand.MURS, radio_helpers_1.FrequencyBand.GMRS))
