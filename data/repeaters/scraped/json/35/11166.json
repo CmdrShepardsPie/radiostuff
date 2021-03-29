@@ -9,7 +9,7 @@
   "Mode": "FM EchoLink",
   "Mi": 184.86,
   "Dir": "SSW",
-  "": "Node Offline",
+  "": "ON - IDLE",
   "state_id": "35",
   "ID": "11166",
   "Latitude": 34.84149933,
@@ -29,5 +29,5 @@
   "EchoLink": 943044,
   "Commands": "# then node number to connect #then 73 disconnect",
   "Notes": "Usually Linked to 146.720 and Sandia Crest wait for courtesy beeps",
-  "Last update": "2015-07-26"
+  "Last update": "2021-03-09"
 }

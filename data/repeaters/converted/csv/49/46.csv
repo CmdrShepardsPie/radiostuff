@@ -1,2 +1,2 @@
-ID,StateID,Callsign,Use,Status,SquelchTone,DigitalTone,Digital,Location.Latitude,Location.Longitude,Location.County,Location.State,Location.Local,Frequency.Input,Frequency.Output,VOIP.AllStar,VOIP.EchoLink,VOIP.Wires,VOIP.IRLP.NodeID
-46,49,W7IHC,Open,On-Air,,,,40.65309906,-112.20200348,Salt Lake,UT,"Salt Lake City, Intermountain Ridge",443.4,448.4,,,,3407
+ID,StateID,Callsign,Use,Status,SquelchTone,DigitalTone,Digital,VOIP,Location.Latitude,Location.Longitude,Location.County,Location.State,Location.Local,Frequency.Input,Frequency.Output
+46,49,W7IHC,Open,On-Air,,,,,40.65309906,-112.20200348,Salt Lake,UT,"Salt Lake City, Intermountain Ridge",443.4,448.4

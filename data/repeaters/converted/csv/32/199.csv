@@ -1,2 +1,2 @@
 ID,StateID,Callsign,Use,Status,DigitalTone,Digital,VOIP,Location.Latitude,Location.Longitude,Location.County,Location.State,Location.Local,Frequency.Input,Frequency.Output,SquelchTone.Input,SquelchTone.Output
-199,32,WR7NV,Closed,On-Air,,,,36.31919861,-115.5739975,Clark,NV,"Las Vegas, Angel Peak",444.65,449.65,146.2,
+199,32,WR7NV,Closed,Off-Air,,,,36.31919861,-115.5739975,Clark,NV,"Las Vegas, Angel Peak",444.65,449.65,146.2,

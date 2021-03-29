@@ -6,7 +6,7 @@
   "Location": "Salt Lake City, Intermountain Ridge",
   "ST/PR": "UT",
   "Use": "OPEN",
-  "Mode": "FM IRLP",
+  "Mode": "FM",
   "Mi": 85.97,
   "Dir": "ESE",
   "": "",
@@ -25,7 +25,6 @@
   "FM": "Yes; analog capable.",
   "Analog Bandwidth": "",
   "Links": "",
-  "IRLP": 3407,
   "Coordination": "UVHFS",
-  "Last update": "2015-06-11"
+  "Last update": "2021-03-20"
 }

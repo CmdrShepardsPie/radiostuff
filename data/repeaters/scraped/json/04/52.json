@@ -18,12 +18,11 @@
   "Uplink": 146.08,
   "County": "Navajo",
   "Grid": "DM44wv",
-  "Op Status": "On-Air",
+  "On-air": "Unknown",
   "Coverage": 30,
   "Sponsor": "Kachina Amateur Radio Club",
   "FM": "Yes; analog capable.",
-  "Analog Bandwidth": "",
+  "Analog Bandwidth": 25,
   "Web links": "Kachina Amateur Radio Club",
-  "Coordination": "ARCA",
-  "Last update": "2018-08-06"
+  "Last update": "2021-02-20"
 }

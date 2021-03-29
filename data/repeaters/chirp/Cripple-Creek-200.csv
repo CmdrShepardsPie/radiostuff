@@ -164,7 +164,7 @@ Location,Name,Frequency,Duplex,Offset,Tone,rToneFreq,cToneFreq,DtcsCode,DtcsRxCo
 162,MOG Colorado Springs,448.6,split,443.6,Tone,114.8,114.8,23,23,NN,FM,5,8 55 32.00 CO El Paso Colorado Springs W0MOG
 163,MOG Colorado springs,224.72,split,223.12,TSQL,103.5,103.5,23,23,NN,FM,5,8 15989 37.00 CO El Paso Colorado springs W0MOG
 164,MRC Maysville,145.325,split,144.725,Tone,100,100,23,23,NN,FM,5,8 16739 105.00 CO Chaffee Maysville KD0MRC
-165,OBA Aurora,145.19,split,144.59,Cross,131.8,69.3,23,23,NN,FM,5,8 8741 104.00 CO Arapahoe Aurora N0OBA
+165,OBA Aurora,145.19,split,144.59,TSQL,71.9,71.9,23,23,NN,FM,5,8 8741 104.00 CO Arapahoe Aurora N0OBA
 166,OWY Conifer Critchell Mountain,447.5,split,442.5,TSQL,88.5,88.5,23,23,NN,FM,5,8 60 80.00 CO Jefferson Conifer Critchell Mountain N0OWY
 167,PHC Pueblo,145.115,split,144.515,Tone,88.5,88.5,23,23,NN,FM,5,8 191 71.00 CO Pueblo Pueblo W0PHC
 168,PHC Pueblo Baculite Mesa,146.79,split,146.19,Tone,88.5,88.5,23,23,NN,FM,5,8 193 69.00 CO Pueblo Pueblo Baculite Mesa W0PHC

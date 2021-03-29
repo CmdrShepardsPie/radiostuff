@@ -1,2 +1,2 @@
-Frequency,Offset,Tone,Call,Location,ST/PR,Use,Mode,Mi,Dir,,state_id,ID,Latitude,Longitude,Downlink,Uplink,Uplink Tone,County,Grid,Op Status,Sponsor,Features,FM,Analog Bandwidth,Links,Web links,Coordination,Last update
-145.29,-0.6,100,NM5ML,"Albuquerque, Sandia Crest",NM,OPEN,FM,190.9,SSW,,35,15,35.20890045,-106.4469986,145.29,144.69,100,Bernalillo,DM65SF,On-Air,New Mexico Mega Link Assoc,10,Yes; analog capable.,,Full-time to the Mega-Link System .,http://nm5ml.com/,NMFCC,2017-03-02
+Frequency,Offset,Tone,Call,Location,ST/PR,Use,Mode,Mi,Dir,,state_id,ID,Latitude,Longitude,Downlink,Uplink,Uplink Tone,County,Grid,Op Status,Sponsor,Features,FM,Analog Bandwidth,Web links,Coordination,Last update
+145.29,-0.6,100,NM5ML,"Albuquerque, Sandia Crest",NM,OPEN,FM,190.9,SSW,,35,15,35.20890045,-106.4469986,145.29,144.69,100,Bernalillo,DM65SF,On-Air,New Mexico Mega Link Assoc,10,Yes; analog capable.,,http://nm5ml.com/,NMFCC,2017-03-02

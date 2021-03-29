@@ -19,7 +19,7 @@
   "Uplink Tone": 118.8,
   "Downlink Tone": 118.8,
   "County": "Baca",
-  "Op Status": "On-Air",
+  "Op Status": "Off-Air",
   "Sponsor": "Baca County Amateur Emergency Management",
   "FM": "Yes; analog capable.",
   "Analog Bandwidth": "",
@@ -27,5 +27,5 @@
   "IRLP": 7142,
   "Web links": "KZ0DEM Repeaters",
   "Coordination": "CCARC",
-  "Last update": "2018-03-12"
+  "Last update": "2021-03-18"
 }

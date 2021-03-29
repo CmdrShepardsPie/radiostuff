@@ -3,11 +3,11 @@
   "StateID": 8,
   "Callsign": "W0JRL",
   "Location": {
-    "Latitude": 39.75519943,
-    "Longitude": -104.98699951,
+    "Latitude": 39.734947,
+    "Longitude": -105.009977,
     "County": "Denver",
     "State": "CO",
-    "Local": "Denver, Broadway Plaza Lofts"
+    "Local": "Denver, Denver Water Administration"
   },
   "Use": "Open",
   "Status": "On-Air",
@@ -22,9 +22,6 @@
   "VOIP": {
     "AllStar": {
       "NodeID": 29997
-    },
-    "EchoLink": {
-      "NodeID": 201712
     }
   }
 }

@@ -17,15 +17,13 @@
   },
   "Digital": {
     "DMR": {
-      "ColorCode": 1
+      "ColorCode": 1,
+      "ID": 311645
     }
   },
   "VOIP": {
     "AllStar": {
       "NodeID": 28463
-    },
-    "IRLP": {
-      "NodeID": 3515
     }
   }
 }

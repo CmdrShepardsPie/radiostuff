@@ -1,2 +1,2 @@
 ID,StateID,Callsign,Use,Status,SquelchTone,DigitalTone,Digital,VOIP,Location.Latitude,Location.Longitude,Location.County,Location.State,Location.Local,Frequency.Input,Frequency.Output
-52,4,KA7ARZ,Open,On-Air,,,,,34.90219879,-110.15799713,Navajo,AZ,Holbrook,146.08,146.68
+52,4,KA7ARZ,Open,Other,,,,,34.90219879,-110.15799713,Navajo,AZ,Holbrook,146.08,146.68

@@ -21,7 +21,11 @@
   "Color Code": 1,
   "DMR ID": 312057,
   "IPSC Network": "BM c Record retrieved from radioid.net",
-  "Wide Network": "",
+  "Local Network": "BrandMeister US",
+  "Wide Network": "BrandMeister",
+  "Talkgroups": "Open Talkgroup View Assignment TS TG Access Arizona 2 3104 Full-Time SoCal 2 31066 Full-Time function myFunction(id) { var x = document.getElementById(id); if (x.className.indexOf(\"w3-show\") == -1) { x.className += \" w3-show\"; } else { x.className = x.className.replace(\" w3-show\", \"\"); } }",
+  "Arizona": 2,
+  "SoCal": 2,
   "County": "Coconino",
   "Grid": "DM35VM",
   "Op Status": "On-Air",
@@ -31,5 +35,5 @@
   "Analog Bandwidth": 12.5,
   "Notes": "Grand Canyon Railway Quivero Southbound Stop TG3104 static",
   "Web links": "https://brandmeister.network/?page=repeater&amp;id=312058",
-  "Last update": "2020-12-26"
+  "Last update": "2021-03-07"
 }

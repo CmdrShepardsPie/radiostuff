@@ -1,2 +1,2 @@
-ID,StateID,Callsign,Use,Status,DigitalTone,Digital,Location.Latitude,Location.Longitude,Location.County,Location.State,Location.Local,Frequency.Input,Frequency.Output,SquelchTone.Input,SquelchTone.Output,VOIP.IRLP,VOIP.Wires,VOIP.AllStar.NodeID,VOIP.EchoLink.NodeID
-12216,8,W0JRL,Open,On-Air,,,39.75519943,-104.98699951,Denver,CO,"Denver, Broadway Plaza Lofts",442.175,447.175,100,100,,,29997,201712
+ID,StateID,Callsign,Use,Status,DigitalTone,Digital,Location.Latitude,Location.Longitude,Location.County,Location.State,Location.Local,Frequency.Input,Frequency.Output,SquelchTone.Input,SquelchTone.Output,VOIP.EchoLink,VOIP.IRLP,VOIP.Wires,VOIP.AllStar.NodeID
+12216,8,W0JRL,Open,On-Air,,,39.734947,-105.009977,Denver,CO,"Denver, Denver Water Administration",442.175,447.175,100,100,,,,29997

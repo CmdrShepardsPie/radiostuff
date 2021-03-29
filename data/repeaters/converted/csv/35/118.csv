@@ -1,2 +1,2 @@
-ID,StateID,Callsign,Use,Status,DigitalTone,Digital,VOIP,Location.Latitude,Location.Longitude,Location.County,Location.State,Location.Local,Frequency.Input,Frequency.Output,SquelchTone.Input,SquelchTone.Output
-118,35,W5SF,Open,On-Air,,,,35.88669968,-106.39499664,Los Alamos,NM,"Los Alamos, Pajarito Mountain",144.59,145.19,162.2,162.2
+ID,StateID,Callsign,Use,Status,DigitalTone,VOIP,Location.Latitude,Location.Longitude,Location.County,Location.State,Location.Local,Frequency.Input,Frequency.Output,SquelchTone.Input,SquelchTone.Output,Digital.DMR,Digital.P25,Digital.DStar,Digital.NXDN,Digital.YSF.GroupID.Input,Digital.YSF.GroupID.Output
+118,35,W5SF,Open,On-Air,,,35.88669968,-106.39499664,Los Alamos,NM,"Los Alamos, Pajarito Mountain",144.59,145.19,162.2,162.2,,,,,Open ↑,Open ↓

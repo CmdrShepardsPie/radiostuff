@@ -10,14 +10,14 @@
     "Local": "Boulder, Lee Hill"
   },
   "Use": "Open",
-  "Status": "On-Air",
+  "Status": "Testing",
   "Frequency": {
     "Input": 440.05,
     "Output": 445.05
   },
   "Digital": {
     "DMR": {
-      "ColorCode": 1,
+      "ColorCode": 8,
       "ID": 310852
     }
   }

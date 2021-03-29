@@ -127,221 +127,221 @@ Channel Number,Receive Frequency,Transmit Frequency,Offset Frequency,Offset Dire
 126,447.15000,442.15000,5.00 MHz,Minus,Auto,0VQ Carbondale Missouri Heights,Large,Tone,136.5 Hz,023,High,Off,Auto,Off,8 6009 155.00 CO Garfield Carbondale Missouri Heights K0VQ,1500 Hz
 127,147.30000,147.90000,600 kHz,Plus,Auto,0VQ Glenwood Springs Three Mile,Large,Tone,107.2 Hz,023,High,Off,Auto,Off,8 131 165.00 CO Garfield Glenwood Springs Three Mile Ridge K0VQ,1500 Hz
 128,447.02500,442.02500,5.00 MHz,Minus,Auto,0WF Colorado Springs,Large,Tone,123.0 Hz,023,High,Off,Auto,Off,8 49 257.00 CO El Paso Colorado Springs KF0WF,1500 Hz
-129,145.13000,144.53000,600 kHz,Minus,Auto,5BC Albuquerque BCFD Fire Statio,Large,T Sql,100.0 Hz,023,High,Off,Auto,Off,35 15613 339.00 NM Bernalillo Albuquerque BCFD Fire Station 35 NM5BC,1500 Hz
-130,442.05000,447.05000,5.00 MHz,Plus,Auto,5BC Albuquerque West Mesa,Large,T Sql,100.0 Hz,023,High,Off,Auto,Off,35 15759 346.00 NM Bernalillo Albuquerque West Mesa NM5BC,1500 Hz
-131,145.15000,144.55000,600 kHz,Minus,Auto,5BC Tijeras Cedro Peak,Large,T Sql,100.0 Hz,023,High,Off,Auto,Off,35 15614 356.00 NM Bernalillo Tijeras Cedro Peak NM5BC,1500 Hz
-132,145.17500,144.57500,600 kHz,Minus,Auto,5EM Cuba Eureka Mesa,Large,T Sql,156.7 Hz,023,High,Off,Auto,Off,35 15615 240.00 NM Sandoval Cuba Eureka Mesa NM5EM,1500 Hz
-133,147.04000,147.64000,600 kHz,Plus,Auto,5EM Eagle Nest Touch Me Not,Large,Tone,141.3 Hz,023,High,Off,Auto,Off,35 15635 271.00 NM Colfax Eagle Nest Touch Me Not NM5EM,1500 Hz
-134,146.98000,146.38000,600 kHz,Minus,Auto,5EM Grants Mt Taylor,Large,T Sql,141.3 Hz,023,High,Off,Auto,Off,35 5349 315.00 NM Cibola Grants Mt Taylor NM5EM,1500 Hz
-135,147.02000,147.62000,600 kHz,Plus,Auto,5EM Santa Fe Tesuque Peak,Large,Tone,141.3 Hz,023,High,Off,Auto,Off,35 15631 303.00 NM Santa Fe Santa Fe Tesuque Peak NM5EM,1500 Hz
-136,145.17500,144.57500,600 kHz,Minus,Auto,5EM Tres Piedras San Antonio Mtn,Large,Tone,141.3 Hz,023,High,Off,Auto,Off,35 15616 216.00 NM Taos Tres Piedras San Antonio Mtn. NM5EM,1500 Hz
-137,145.37000,144.77000,600 kHz,Minus,Auto,5EM Wagon Mound Turkey Mtn,Large,Tone,141.3 Hz,023,High,Off,Auto,Off,35 15621 335.00 NM Mora Wagon Mound Turkey Mtn NM5EM,1500 Hz
-138,449.95000,444.95000,5.00 MHz,Minus,Auto,5GF Gunnison,Large,None,100.0 Hz,023,High,Off,Auto,Off,8 161 79.00 CO Gunnison Gunnison K5GF,1500 Hz
-139,147.38000,147.98000,600 kHz,Plus,Auto,5GU Albuquerque,Large,None,100.0 Hz,023,High,Off,Auto,Off,35 24 349.00 NM Bernalillo Albuquerque N5GU,1500 Hz
-140,145.41000,144.81000,600 kHz,Minus,Auto,5HO La Cueva,Large,Tone,100.0 Hz,023,High,Off,Auto,Off,35 15622 262.00 NM Santa Fe La Cueva W5HO,1500 Hz
-141,447.37500,442.37500,5.00 MHz,Minus,Auto,5JL Trinidad Raton Pass,Large,Tone,100.0 Hz,023,High,Off,Auto,Off,8 13499 292.00 CO Las Animas Trinidad Raton Pass KG5JL,1500 Hz
-142,145.29000,144.69000,600 kHz,Minus,Auto,5ML Albuquerque Sandia Crest,Large,Tone,100.0 Hz,023,High,Off,Auto,Off,35 15 336.00 NM Bernalillo Albuquerque Sandia Crest NM5ML,1500 Hz
-143,444.32500,449.32500,5.00 MHz,Plus,Auto,5ML Albuquerque Sandia Crest,Large,Tone,100.0 Hz,023,High,Off,Auto,Off,35 37 336.00 NM Bernalillo Albuquerque Sandia Crest NM5ML,1500 Hz
-144,147.28000,147.88000,600 kHz,Plus,Auto,5ML Bloomfield Harris Mesa,Large,Tone,67.0 Hz,023,High,Off,Auto,Off,35 51 166.00 NM San Juan Bloomfield Harris Mesa NM5ML,1500 Hz
-145,147.24000,147.84000,600 kHz,Plus,Auto,5ML Cuba Eureka Mesa,Large,Tone,67.0 Hz,023,High,Off,Auto,Off,35 66 240.00 NM Sandoval Cuba Eureka Mesa NM5ML,1500 Hz
-146,444.35000,449.35000,5.00 MHz,Plus,Auto,5ML Eagle Nest Iron Mountain,Large,Tone,100.0 Hz,023,High,Off,Auto,Off,35 77 266.00 NM Colfax Eagle Nest Iron Mountain NM5ML,1500 Hz
-147,147.22000,147.82000,600 kHz,Plus,Auto,5ML Gallup Deza Bluffs,Large,Tone,67.0 Hz,023,High,Off,Auto,Off,35 89 264.00 NM McKinley Gallup Deza Bluffs NM5ML,1500 Hz
-148,444.80000,449.80000,5.00 MHz,Plus,Auto,5ML Grants La Mosca,Large,Tone,67.0 Hz,023,High,Off,Auto,Off,35 15885 315.00 NM Cibola Grants La Mosca NM5ML,1500 Hz
-149,146.66000,146.06000,600 kHz,Minus,Auto,5ML Grants Microwave Ridge,Large,Tone,100.0 Hz,023,High,Off,Auto,Off,35 94 322.00 NM Cibola Grants Microwave Ridge NM5ML,1500 Hz
-150,147.26000,147.86000,600 kHz,Plus,Auto,5ML Pecos Elk Mountain,Large,Tone,67.0 Hz,023,High,Off,Auto,Off,35 145 316.00 NM San Miguel Pecos Elk Mountain NM5ML,1500 Hz
-151,147.28000,147.88000,600 kHz,Plus,Auto,5ML Raton Sierra Grande,Large,Tone,100.0 Hz,023,High,Off,Auto,Off,35 136 309.00 NM Colfax Raton Sierra Grande NM5ML,1500 Hz
-152,147.14000,147.74000,600 kHz,Plus,Auto,5ML Taos Ski Valley,Large,Tone,67.0 Hz,023,High,Off,Auto,Off,35 11288 253.00 NM Taos Taos Ski Valley NM5ML,1500 Hz
-153,147.34000,147.94000,600 kHz,Plus,Auto,5ML Tijeras Cedro Peak,Large,Tone,67.0 Hz,023,High,Off,Auto,Off,35 173 356.00 NM Bernalillo Tijeras Cedro Peak NM5ML,1500 Hz
-154,147.22000,147.82000,600 kHz,Plus,Auto,5ML Tres Piedras San Antonio Mou,Large,Tone,100.0 Hz,023,High,Off,Auto,Off,35 175 196.00 NM Rio Arriba Tres Piedras San Antonio Mountain NM5ML,1500 Hz
-155,147.20000,147.80000,600 kHz,Plus,Auto,5ML Wagon Mound Turkey Mountain,Large,Tone,67.0 Hz,023,High,Off,Auto,Off,35 11289 335.00 NM Mora Wagon Mound Turkey Mountain NM5ML,1500 Hz
-156,147.18000,147.78000,600 kHz,Plus,Auto,5PX Dixon Cerro Abajo,Large,T Sql,100.0 Hz,023,High,Off,Auto,Off,35 15923 260.00 NM Rio Arriba Dixon Cerro Abajo KD5PX,1500 Hz
-157,147.10000,147.70000,600 kHz,Plus,Auto,5RR Rio Rancho Rainbow,Large,T Sql,100.0 Hz,023,High,Off,Auto,Off,35 139 322.00 NM Sandoval Rio Rancho Rainbow NM5RR,1500 Hz
-158,443.00000,448.00000,5.00 MHz,Plus,Auto,5RR Rio Rancho Rainbow,Large,Tone,100.0 Hz,023,High,Off,Auto,Off,35 141 322.00 NM Sandoval Rio Rancho Rainbow NM5RR,1500 Hz
-159,147.08000,147.68000,600 kHz,Plus,Auto,5SC Placitas La Madera,Large,Tone,100.0 Hz,023,High,Off,Auto,Off,35 9768 326.00 NM Sandoval Placitas La Madera NM5SC,1500 Hz
-160,443.10000,448.10000,5.00 MHz,Plus,Auto,5SC San Ysidro Pajarito Peak,Large,Tone,100.0 Hz,023,High,Off,Auto,Off,35 9767 274.00 NM Sandoval San Ysidro Pajarito Peak NM5SC,1500 Hz
-161,147.08000,147.68000,600 kHz,Plus,Auto,5SF Chama Overlook Mtn,Large,Tone,162.2 Hz,023,High,Off,Auto,Off,35 15079 159.00 NM Rio Arriba Chama Overlook Mtn W5SF,1500 Hz
-162,147.30000,147.90000,600 kHz,Plus,Auto,5SF Las Vegas Elk Mountain,Large,Tone,162.2 Hz,023,High,Off,Auto,Off,35 115 316.00 NM San Miguel Las Vegas Elk Mountain W5SF,1500 Hz
-163,145.19000,144.59000,600 kHz,Minus,Auto,5SF Los Alamos Pajarito Mountain,Large,T Sql,162.2 Hz,023,High,Off,Auto,Off,35 118 267.00 NM Los Alamos Los Alamos Pajarito Mountain W5SF,1500 Hz
-164,147.20000,147.80000,600 kHz,Plus,Auto,5SF Santa Fe St Vincent Hospital,Large,Tone,162.2 Hz,023,High,Off,Auto,Off,35 154 308.00 NM Santa Fe Santa Fe St Vincent Hospital W5SF,1500 Hz
-165,146.82000,146.22000,600 kHz,Minus,Auto,5SF Santa Fe Tesuque Peak,Large,Tone,162.2 Hz,023,High,Off,Auto,Off,35 153 303.00 NM Santa Fe Santa Fe Tesuque Peak W5SF,1500 Hz
-166,146.74000,146.14000,600 kHz,Minus,Auto,5SJ Aztec,Large,Tone,100.0 Hz,023,High,Off,Auto,Off,35 43 145.00 NM San Juan Aztec NM5SJ,1500 Hz
-167,145.43000,144.83000,600 kHz,Minus,Auto,5SJ Dulce,Large,Tone,136.5 Hz,023,High,Off,Auto,Off,35 15624 139.00 NM Rio Arriba Dulce NM5SJ,1500 Hz
-168,145.49000,144.89000,600 kHz,Minus,Auto,5SJ Lybrook,Large,Tone,100.0 Hz,023,High,Off,Auto,Off,35 128 206.00 NM Rio Arriba Lybrook NM5SJ,1500 Hz
-169,147.06000,147.66000,600 kHz,Plus,Auto,5SJ Nebo Cedar Hill,Large,Tone,100.0 Hz,023,High,Off,Auto,Off,35 16667 128.00 NM San Juan Nebo Cedar Hill NM5SJ,1500 Hz
-170,146.82000,146.22000,600 kHz,Minus,Auto,5SJ Red Rock Roof Butte,Large,Tone,100.0 Hz,023,High,Off,Auto,Off,4 72 224.00 AZ Apache Red Rock Roof Butte NM5SJ,1500 Hz
-171,443.40000,448.40000,5.00 MHz,Plus,Auto,5SV Placitas Sandia Peak,Large,Tone,100.0 Hz,023,High,Off,Auto,Off,35 14763 323.00 NM Sandoval Placitas Sandia Peak NM5SV,1500 Hz
-172,449.00000,444.00000,5.00 MHz,Minus,Auto,5WY Farmington,Large,Tone,100.0 Hz,023,High,Off,Auto,Off,35 87 160.00 NM San Juan Farmington K5WY,1500 Hz
-173,147.36000,147.96000,600 kHz,Plus,Auto,5XE Albuquerque,Large,Tone,100.0 Hz,023,High,Off,Auto,Off,35 23 346.00 NM Bernalillo Albuquerque KB5XE,1500 Hz
-174,443.50000,438.50000,5.00 MHz,Minus,Auto,5XE Albuquerque,Large,Tone,123.0 Hz,023,High,Off,Auto,Off,35 16953 345.00 NM Bernalillo Albuquerque KE5XE,1500 Hz
-175,448.75000,443.75000,5.00 MHz,Minus,Auto,7DB Page (az) Navajo Mountain,Large,Tone,100.0 Hz,023,High,Off,Auto,Off,49 169 310.00 UT San Juan Page (az) Navajo Mountain NA7DB,1500 Hz
-176,147.20000,147.80000,600 kHz,Plus,Auto,7GX Price Wood Hill,Large,Tone,88.5 Hz,023,High,Off,Auto,Off,49 10058 339.00 UT Carbon Price Wood Hill K7GX,1500 Hz
-177,448.30000,443.30000,5.00 MHz,Minus,Auto,7GX Price Wood Hill,Large,None,100.0 Hz,023,High,Off,Auto,Off,49 10061 325.00 UT Carbon Price Wood Hill K7GX,1500 Hz
-178,447.72500,442.72500,5.00 MHz,Minus,Auto,7RF Fort Collins,Large,Tone,131.8 Hz,023,High,Off,Auto,Off,8 8194 345.00 CO Larimer Fort Collins W7RF,1500 Hz
-179,449.37500,444.37500,5.00 MHz,Minus,Auto,7TA Logan Sedgwick Peak,Large,None,100.0 Hz,023,High,Off,Auto,Off,49 18470 332.00 UT Cache Logan Sedgwick Peak AE7TA,1500 Hz
-180,447.62500,442.62500,5.00 MHz,Minus,Auto,7YI Castle Dale Horn Mountain,Large,Tone,100.0 Hz,023,High,Off,Auto,Off,49 73 331.00 UT Emery Castle Dale Horn Mountain K7YI,1500 Hz
-181,147.28000,147.88000,600 kHz,Plus,Auto,7ZW Altamont,Large,T Sql,107.2 Hz,023,High,Off,Auto,Off,49 14977 342.00 UT Duchesne Altamont AD7ZW,1500 Hz
-182,449.95000,444.95000,5.00 MHz,Minus,Auto,9SL Aurora,Large,T Sql,77.0 Hz,023,High,Off,Auto,Off,8 8743 302.00 CO Arapahoe Aurora W9SL,1500 Hz
-183,147.13500,147.73500,600 kHz,Plus,Auto,A0L Colorado Springs,Large,Tone,100.0 Hz,023,High,Off,Auto,Off,8 8176 259.00 CO El Paso Colorado Springs AA0L,1500 Hz
-184,448.30000,443.30000,5.00 MHz,Minus,Auto,A0L Colorado Springs,Large,Tone,100.0 Hz,023,High,Off,Auto,Off,8 8200 257.00 CO El Paso Colorado Springs AA0L,1500 Hz
-185,449.00000,444.00000,5.00 MHz,Minus,Auto,AEN Idaho Springs Squaw Mountain,Large,T Sql,136.5 Hz,023,High,Off,Auto,Off,8 8250 255.00 CO Clear Creek Idaho Springs Squaw Mountain WR0AEN,1500 Hz
-186,449.90000,444.90000,5.00 MHz,Minus,Auto,AFO Vail,Large,T Sql,107.2 Hz,023,High,Off,Auto,Off,8 243 203.00 CO Eagle Vail N0AFO,1500 Hz
-187,147.36000,147.96000,600 kHz,Plus,Auto,ALC Cedaredge,Large,Tone,100.0 Hz,023,High,Off,Auto,Off,8 3749 95.00 CO Delta Cedaredge W0ALC,1500 Hz
-188,449.82500,444.82500,5.00 MHz,Minus,Auto,ALC Cedaredge,Large,Tone,100.0 Hz,023,High,Off,Auto,Off,8 3760 95.00 CO Delta Cedaredge W0ALC,1500 Hz
-189,448.82500,443.82500,5.00 MHz,Minus,Auto,ANT Aurora,Large,None,100.0 Hz,023,High,Off,Auto,Off,8 16032 302.00 CO Arapahoe Aurora WN7ANT,1500 Hz
-190,444.15000,449.15000,5.00 MHz,Plus,Auto,AOX Sandia park,Large,Tone,100.0 Hz,023,High,Off,Auto,Off,35 35 344.00 NM Bernalillo Sandia park W5AOX,1500 Hz
-191,147.12000,147.72000,600 kHz,Plus,Auto,ARA Critchell Critchell Mountain,Large,T Sql,88.5 Hz,023,High,Off,Auto,Off,8 59 252.00 CO Jefferson Critchell Critchell Mountain N0ARA,1500 Hz
-192,447.50000,442.50000,5.00 MHz,Minus,Auto,ARV Grand Junction,Large,Tone,114.8 Hz,023,High,Off,Auto,Off,8 3757 136.00 CO Mesa Grand Junction KC0ARV,1500 Hz
-193,147.10000,147.70000,600 kHz,Plus,Auto,BAR Vernal Blue Mountain,Large,Tone,136.5 Hz,023,High,Off,Auto,Off,49 163 285.00 UT Uintah Vernal Blue Mountain W7BAR,1500 Hz
-194,147.04000,147.64000,600 kHz,Plus,Auto,BAR Vernal Grizzly Ridge,Large,Tone,136.5 Hz,023,High,Off,Auto,Off,49 181 336.00 UT Uintah Vernal Grizzly Ridge W7BAR,1500 Hz
-195,449.90000,444.90000,5.00 MHz,Minus,Auto,BAR Vernal Uintah County EOC,Large,Tone,136.5 Hz,023,High,Off,Auto,Off,49 13408 271.00 UT Uintah Vernal Uintah County EOC W7BAR,1500 Hz
-196,442.00000,447.00000,5.00 MHz,Plus,Auto,BIW Los Alamos,Large,Tone,100.0 Hz,023,High,Off,Auto,Off,35 15608 271.00 NM Los Alamos Los Alamos KA5BIW,1500 Hz
-197,423.00000,1243.00000,,Plus,Auto,BTV Boulder,Large,None,100.0 Hz,023,High,Off,Auto,Off,8 18534 291.00 CO Boulder Boulder W0BTV,1500 Hz
-198,145.49000,144.89000,600 kHz,Minus,Auto,BYU Myton Flat Top,Large,Tone,136.5 Hz,023,High,Off,Auto,Off,49 13041 320.00 UT Duchesne Myton Flat Top W7BYU,1500 Hz
-199,146.92000,146.32000,600 kHz,Minus,Auto,BYU Roosevelt,Large,Tone,136.5 Hz,023,High,Off,Auto,Off,49 281 285.00 UT Duchesne Roosevelt W7BYU,1500 Hz
-200,449.70000,444.70000,5.00 MHz,Minus,Auto,BYU Vernal,Large,Tone,136.5 Hz,023,High,Off,Auto,Off,49 182 285.00 UT Uintah Vernal W7BYU,1500 Hz
-201,448.95000,443.95000,5.00 MHz,Minus,Auto,Black Forest,Large,None,100.0 Hz,023,High,Off,Auto,Off,8 17551 275.00 CO El Paso Black Forest,1500 Hz
-202,449.42500,444.42500,5.00 MHz,Minus,Auto,C3W Grand Lake,Large,T Sql,103.5 Hz,023,High,Off,Auto,Off,8 18131 283.00 CO Clear Creek Grand Lake WC3W,1500 Hz
-203,147.15000,147.75000,600 kHz,Plus,Auto,CBI Golden Guy Hill,Large,T Sql,100.0 Hz,023,High,Off,Auto,Off,8 133 272.00 CO Jefferson Golden Guy Hill W0CBI,1500 Hz
-204,146.74000,146.14000,600 kHz,Minus,Auto,CBS Altamont,Large,Tone,100.0 Hz,023,High,Off,Auto,Off,49 253 342.00 UT Duchesne Altamont WB7CBS,1500 Hz
-205,447.45000,442.45000,5.00 MHz,Minus,Auto,CCC Winter Park,Large,Tone,103.5 Hz,023,High,Off,Auto,Off,8 3756 259.00 CO Grand Winter Park WA4CCC,1500 Hz
-206,145.43000,144.83000,600 kHz,Minus,Auto,CEU Price Wood Hill,Large,Tone,88.5 Hz,023,High,Off,Auto,Off,49 78 325.00 UT Carbon Price Wood Hill W7CEU,1500 Hz
-207,448.30000,443.30000,5.00 MHz,Minus,Auto,CEU Price Wood Hill,Large,Tone,88.5 Hz,023,High,Off,Auto,Off,49 2765 325.00 UT Carbon Price Wood Hill W7CEU,1500 Hz
-208,448.67500,443.67500,5.00 MHz,Minus,Auto,CFI Idaho Springs Squaw Mountain,Large,T Sql,100.0 Hz,023,High,Off,Auto,Off,8 94 255.00 CO Denver Idaho Springs Squaw Mountain W0CFI,1500 Hz
-209,449.67500,444.67500,5.00 MHz,Minus,Auto,CGQ Querida,Large,Tone,88.5 Hz,023,High,Off,Auto,Off,8 18872 200.00 CO Custer Querida K0CGQ,1500 Hz
-210,444.70000,449.70000,5.00 MHz,Plus,Auto,CPU Rio Rancho Intel Corp,Large,Tone,100.0 Hz,023,High,Off,Auto,Off,35 142 329.00 NM Sandoval Rio Rancho Intel Corp K5CPU,1500 Hz
-211,145.46000,144.86000,600 kHz,Minus,Auto,CRA Boulder Eldorado Mountain,Large,T Sql,107.2 Hz,023,High,Off,Auto,Off,8 8 294.00 CO Boulder Boulder Eldorado Mountain W0CRA,1500 Hz
-212,447.97500,442.97500,5.00 MHz,Minus,Auto,CRA Boulder Eldorado Mountain,Large,T Sql,107.2 Hz,023,High,Off,Auto,Off,8 20 294.00 CO Boulder Boulder Eldorado Mountain W0CRA,1500 Hz
-213,145.16000,144.56000,600 kHz,Minus,Auto,CRA Colorado Springs Cheyenne Mo,Large,T Sql,107.2 Hz,023,High,Off,Auto,Off,8 38 249.00 CO El Paso Colorado Springs Cheyenne Mountain W0CRA,1500 Hz
-214,145.14500,144.54500,600 kHz,Minus,Auto,CRA Idaho Springs Squaw Mountain,Large,T Sql,107.2 Hz,023,High,Off,Auto,Off,8 107 255.00 CO Clear Creek Idaho Springs Squaw Mountain W0CRA,1500 Hz
-215,447.57500,442.57500,5.00 MHz,Minus,Auto,CRA Idaho Springs Squaw Mountain,Large,T Sql,107.2 Hz,023,High,Off,Auto,Off,8 264 255.00 CO Clear Creek Idaho Springs Squaw Mountain W0CRA,1500 Hz
-216,147.22500,147.82500,600 kHz,Plus,Auto,CRA Larkspur Westcreek,Large,T Sql,107.2 Hz,023,High,Off,Auto,Off,8 83 254.00 CO Douglas Larkspur Westcreek W0CRA,1500 Hz
-217,448.42500,443.42500,5.00 MHz,Minus,Auto,CRA Larkspur Westcreek,Large,T Sql,107.2 Hz,023,High,Off,Auto,Off,8 16547 254.00 CO Douglas Larkspur Westcreek W0CRA,1500 Hz
-218,145.33000,144.73000,600 kHz,Minus,Auto,CSY Albuquerque Sandia Crest,Large,Tone,100.0 Hz,023,High,Off,Auto,Off,35 16 336.00 NM Bernalillo Albuquerque Sandia Crest W5CSY,1500 Hz
-219,444.00000,449.00000,5.00 MHz,Plus,Auto,CSY Albuquerque Sandia Crest,Large,Tone,100.0 Hz,023,High,Off,Auto,Off,35 34 336.00 NM Bernalillo Albuquerque Sandia Crest W5CSY,1500 Hz
-220,146.76000,146.16000,600 kHz,Minus,Auto,CVU Colorado Springs Cheyenne Mo,Large,T Sql,107.2 Hz,023,High,Off,Auto,Off,8 41 248.00 CO El Paso Colorado Springs Cheyenne Mountain KC0CVU,1500 Hz
-221,147.34500,147.94500,600 kHz,Plus,Auto,CVU Colorado Springs Cheyenne Mo,Large,T Sql,107.2 Hz,023,High,Off,Auto,Off,8 47 249.00 CO El Paso Colorado Springs Cheyenne Mountain KC0CVU,1500 Hz
-222,448.00000,443.00000,5.00 MHz,Minus,Auto,CVU Colorado Springs Cheyenne Mo,Large,Tone,107.2 Hz,023,High,Off,Auto,Off,8 269 248.00 CO El Paso Colorado Springs Cheyenne Mountain KC0CVU,1500 Hz
-223,448.10000,443.10000,5.00 MHz,Minus,Auto,CVU Colorado Springs Cheyenne Mo,Large,T Sql,107.2 Hz,023,High,Off,Auto,Off,8 53 248.00 CO El Paso Colorado Springs Cheyenne Mountain KC0CVU,1500 Hz
-224,147.36000,147.96000,600 kHz,Plus,Auto,CVU Lake George Badger Mountain,Large,T Sql,107.2 Hz,023,High,Off,Auto,Off,8 170 211.00 CO Park Lake George Badger Mountain KC0CVU,1500 Hz
-225,145.29500,144.69500,600 kHz,Minus,Auto,CVU Salida Methodist Mountain,Large,Tone,107.2 Hz,023,High,Off,Auto,Off,8 203 146.00 CO Chaffee Salida Methodist Mountain KC0CVU,1500 Hz
-226,449.65000,444.65000,5.00 MHz,Minus,Auto,CVU Salida Methodist Mountain,Large,Tone,107.2 Hz,023,High,Off,Auto,Off,8 205 145.00 CO Chaffee Salida Methodist Mountain KC0CVU,1500 Hz
-227,449.60000,444.60000,5.00 MHz,Minus,Auto,CVU Trinidad Raton Pass,Large,Tone,107.2 Hz,023,High,Off,Auto,Off,8 240 292.00 CO Las Animas Trinidad Raton Pass KC0CVU,1500 Hz
-228,449.92500,444.92500,5.00 MHz,Minus,Auto,CWI Page (AZ) Navajo Mountain,Large,Tone,100.0 Hz,023,High,Off,Auto,Off,49 183 310.00 UT San Juan Page (AZ) Navajo Mountain W7CWI,1500 Hz
-229,447.35000,442.35000,5.00 MHz,Minus,Auto,Cedaredge Grand Mesa,Large,Tone,107.2 Hz,023,High,Off,Auto,Off,8 3755 106.00 CO Delta Cedaredge Grand Mesa,1500 Hz
-230,147.21000,147.81000,600 kHz,Plus,Auto,D0H Steamboat Springs,Large,T Sql,107.2 Hz,023,High,Off,Auto,Off,8 237 275.00 CO Routt Steamboat Springs KD0H,1500 Hz
-231,145.49000,144.89000,600 kHz,Minus,Auto,DRC Raton,Large,Tone,100.0 Hz,023,High,Off,Auto,Off,35 19044 319.00 NM Colfax Raton N0DRC,1500 Hz
-232,449.45000,444.45000,5.00 MHz,Minus,Auto,DUN Idaho Springs Squaw Mountain,Large,Tone,103.5 Hz,023,High,Off,Auto,Off,8 99 255.00 CO Clear Creek Idaho Springs Squaw Mountain K1DUN,1500 Hz
-233,145.12500,144.52500,600 kHz,Minus,Auto,EGG Ogden Sheriff Office,Large,None,100.0 Hz,023,High,Off,Auto,Off,49 19772 332.00 UT Weber Ogden Sheriff Office KE7EGG,1500 Hz
-234,448.07500,443.07500,5.00 MHz,Minus,Auto,EHP Denver,Large,Tone,123.0 Hz,023,High,Off,Auto,Off,8 91 292.00 CO Denver Denver N5EHP,1500 Hz
-235,145.49000,144.89000,600 kHz,Minus,Auto,EKR Canon City Fremont Peak,Large,T Sql,103.5 Hz,023,High,Off,Auto,Off,8 30 207.00 CO Fremont Canon City Fremont Peak WD0EKR,1500 Hz
-236,447.75000,442.75000,5.00 MHz,Minus,Auto,EKR Canon City Fremont Peak,Large,T Sql,103.5 Hz,023,High,Off,Auto,Off,8 32 207.00 CO Fremont Canon City Fremont Peak WD0EKR,1500 Hz
-237,449.72500,444.72500,5.00 MHz,Minus,Auto,ELK Carbondale Four Mile Ridge,Large,Tone,179.9 Hz,023,High,Off,Auto,Off,8 35 148.00 CO Garfield Carbondale Four Mile Ridge K0ELK,1500 Hz
-238,448.75000,443.75000,5.00 MHz,Minus,Auto,ELY Lakewood,Large,T Sql,100.0 Hz,023,High,Off,Auto,Off,8 8204 280.00 CO Jefferson Lakewood N0ELY,1500 Hz
-239,444.97500,449.97500,5.00 MHz,Plus,Auto,EMO Grants 515 West High Street,Large,T Sql,67.0 Hz,023,High,Off,Auto,Off,35 17042 327.00 NM Cibola Grants 515 West High Street K5EMO,1500 Hz
-240,147.27000,147.87000,600 kHz,Plus,Auto,ENO Longmont,Large,T Sql,100.0 Hz,023,High,Off,Auto,Off,8 175 317.00 CO Boulder Longmont W0ENO,1500 Hz
-241,448.80000,443.80000,5.00 MHz,Minus,Auto,ENO Longmont,Large,T Sql,88.5 Hz,023,High,Off,Auto,Off,8 177 317.00 CO Boulder Longmont W0ENO,1500 Hz
-242,448.52500,443.52500,5.00 MHz,Minus,Auto,EPA Longmont,Large,Tone,151.4 Hz,023,High,Off,Auto,Off,8 176 317.00 CO Boulder Longmont N0EPA,1500 Hz
-243,449.32500,444.32500,5.00 MHz,Minus,Auto,EPS Woodland Park Paradise Pines,Large,T Sql,103.5 Hz,023,High,Off,Auto,Off,8 9503 245.00 CO Teller Woodland Park Paradise Pines KA4EPS,1500 Hz
-244,447.52500,442.52500,5.00 MHz,Minus,Auto,ESQ Castle Rock Devils Head (Pik,Large,T Sql,146.2 Hz,023,High,Off,Auto,Off,8 8190 253.00 CO Douglas Castle Rock Devils Head (Pike National Forest) N0ESQ,1500 Hz
-245,447.52500,442.52500,5.00 MHz,Minus,Auto,ESQ Parker Hess Reservoir,Large,Tone,203.5 Hz,023,High,Off,Auto,Off,8 8189 287.00 CO Douglas Parker Hess Reservoir N0ESQ,1500 Hz
-246,448.62500,443.62500,5.00 MHz,Minus,Auto,EVE Durango,Large,T Sql,131.8 Hz,023,High,Off,Auto,Off,8 115 93.00 CO La Plata Durango KC5EVE,1500 Hz
-247,447.92500,442.92500,5.00 MHz,Minus,Auto,FEZ Denver,Large,T Sql,100.0 Hz,023,High,Off,Auto,Off,8 8196 292.00 CO Denver Denver K0FEZ,1500 Hz
-248,146.98500,146.38500,600 kHz,Minus,Auto,FEZ Golden Centennial Cone,Large,T Sql,100.0 Hz,023,High,Off,Auto,Off,8 82 269.00 CO Denver Golden Centennial Cone K0FEZ,1500 Hz
-249,442.45000,447.45000,5.00 MHz,Plus,Auto,FIQ Albuquerque Northern Sandia,Large,T Sql,67.0 Hz,023,High,Off,Auto,Off,35 17186 345.00 NM Bernalillo Albuquerque Northern Sandia Mountain Top K5FIQ,1500 Hz
-250,146.90000,146.30000,600 kHz,Minus,Auto,FIQ Albuquerque Op Ctr,Large,Tone,67.0 Hz,023,High,Off,Auto,Off,35 38 349.00 NM Bernalillo Albuquerque Op Ctr K5FIQ,1500 Hz
-251,449.55000,444.55000,5.00 MHz,Minus,Auto,FIQ Albuquerque Op Ctr,Large,Tone,71.9 Hz,023,High,Off,Auto,Off,35 39 349.00 NM Bernalillo Albuquerque Op Ctr K5FIQ,1500 Hz
-252,449.80000,444.80000,5.00 MHz,Minus,Auto,FIQ Albuquerque Op Ctr,Large,Tone,67.0 Hz,023,High,Off,Auto,Off,35 40 349.00 NM Bernalillo Albuquerque Op Ctr K5FIQ,1500 Hz
-253,145.80000,1269.65000,,Plus,Auto,FM ISS L/v VOICE Repeater (World,Large,None,100.0 Hz,023,High,Off,Auto,Off,FM ISS L/v VOICE Repeater (Worldwide),1500 Hz
-254,145.80000,437.80000,,Plus,Auto,FM ISS U/v VOICE Repeater (World,Large,None,100.0 Hz,023,High,Off,Auto,Off,FM ISS U/v VOICE Repeater (Worldwide),1500 Hz
-255,437.80000,145.99000,,Minus,Auto,FM ISS V/u with PL VOICE Repeate,Large,Tone,67.0 Hz,023,High,Off,Auto,Off,FM ISS V/u with PL VOICE Repeater (Worldwide),1500 Hz
-256,145.80000,144.49000,,Minus,Auto,FM ISS VOICE for ITU Region 2&3,Large,None,100.0 Hz,023,High,Off,Auto,Off,FM ISS VOICE for ITU Region 2&3,1500 Hz
-257,436.79500,145.85000,,Minus,Auto,FM SAT AO-27,Large,None,100.0 Hz,023,High,Off,Auto,Off,FM SAT AO-27,1500 Hz
-258,145.96000,435.25000,,Plus,Auto,FM SAT AO-91 (RadFxSat / Fox-1B),Large,Tone,67.0 Hz,023,High,Off,Auto,Off,FM SAT AO-91 (RadFxSat / Fox-1B),1500 Hz
-259,145.88000,435.35000,,Plus,Auto,FM SAT AO-92 (Fox-1D),Large,Tone,67.0 Hz,023,High,Off,Auto,Off,FM SAT AO-92 (Fox-1D),1500 Hz
-260,145.88000,1267.35900,,Plus,Auto,FM SAT AO-92 (Fox-1D),Large,Tone,67.0 Hz,023,High,Off,Auto,Off,FM SAT AO-92 (Fox-1D),1500 Hz
-261,437.20000,144.35000,,Minus,Auto,FM SAT CAS-3H (LilacSat-2),Large,None,100.0 Hz,023,High,Off,Auto,Off,FM SAT CAS-3H (LilacSat-2),1500 Hz
-262,435.60000,145.92500,,Minus,Auto,FM SAT CAS-5A,Large,None,100.0 Hz,023,High,Off,Auto,Off,FM SAT CAS-5A,1500 Hz
-263,435.45500,145.95000,,Minus,Auto,FM SAT CAS-7A,Large,None,100.0 Hz,023,High,Off,Auto,Off,FM SAT CAS-7A,1500 Hz
-264,435.69000,145.90000,,Minus,Auto,FM SAT CAS-7C,Large,None,100.0 Hz,023,High,Off,Auto,Off,FM SAT CAS-7C,1500 Hz
-265,436.40000,145.97000,,Minus,Auto,FM SAT Duchifat3,Large,None,100.0 Hz,023,High,Off,Auto,Off,FM SAT Duchifat3,1500 Hz
-266,145.89500,1263.50000,,Plus,Auto,FM SAT FUNcube on ESEO,Large,None,100.0 Hz,023,High,Off,Auto,Off,FM SAT FUNcube on ESEO,1500 Hz
-267,435.88000,145.88000,,Minus,Auto,FM SAT IO-86 (LAPAN-A2),Large,Tone,88.5 Hz,023,High,Off,Auto,Off,FM SAT IO-86 (LAPAN-A2),1500 Hz
-268,145.90000,437.50000,,Plus,Auto,FM SAT PO-101 (Diwata-2),Large,Tone,141.3 Hz,023,High,Off,Auto,Off,FM SAT PO-101 (Diwata-2),1500 Hz
-269,436.79500,145.85000,,Minus,Auto,FM SAT SO-50 (SaudiSat-1C),Large,Tone,67.0 Hz,023,High,Off,Auto,Off,FM SAT SO-50 (SaudiSat-1C),1500 Hz
-270,145.85000,436.00000,,Plus,Auto,FM SAT Swiatowid,Large,None,100.0 Hz,023,High,Off,Auto,Off,FM SAT Swiatowid,1500 Hz
-271,436.40000,145.97000,,Minus,Auto,FM SAT Tevel Mission,Large,None,100.0 Hz,023,High,Off,Auto,Off,FM SAT Tevel Mission,1500 Hz
-272,442.60000,447.60000,5.00 MHz,Plus,Auto,FSB Albuquerque Sandia Peak,Large,Tone,100.0 Hz,023,High,Off,Auto,Off,35 31 336.00 NM Bernalillo Albuquerque Sandia Peak K5FSB,1500 Hz
-273,449.90000,444.90000,5.00 MHz,Minus,Auto,FSX Punkin Center,Large,Tone,107.2 Hz,023,High,Off,Auto,Off,8 7395 351.00 CO Lincoln Punkin Center N1FSX,1500 Hz
-274,448.15000,443.15000,5.00 MHz,Minus,Auto,FUN Denver Green Valley Ranch,Large,T Sql,141.3 Hz,023,High,Off,Auto,Off,8 9765 312.00 CO Denver Denver Green Valley Ranch WE0FUN,1500 Hz
-275,444.95000,449.95000,5.00 MHz,Plus,Auto,FYL Grants La Mosca Peak,Large,Tone,100.0 Hz,023,High,Off,Auto,Off,35 96 315.00 NM Cibola Grants La Mosca Peak KE5FYL,1500 Hz
-276,147.18000,147.78000,600 kHz,Plus,Auto,FYL Grants Rogers rock,Large,None,100.0 Hz,023,High,Off,Auto,Off,35 10215 331.00 NM Cibola Grants Rogers rock KE5FYL,1500 Hz
-277,449.05000,444.05000,5.00 MHz,Minus,Auto,G0N Idaho Springs Squaw Mountain,Large,T Sql,107.2 Hz,023,High,Off,Auto,Off,8 95 258.00 CO Denver Idaho Springs Squaw Mountain WG0N,1500 Hz
-278,449.27500,444.27500,5.00 MHz,Minus,Auto,GAJ Santa Fe,Large,Tone,146.2 Hz,023,High,Off,Auto,Off,35 10216 307.00 NM Santa Fe Santa Fe K9GAJ,1500 Hz
-279,442.10000,447.10000,5.00 MHz,Plus,Auto,GAS Albuquerque Sandia Crest,Large,Tone,162.2 Hz,023,High,Off,Auto,Off,35 28 336.00 NM Bernalillo Albuquerque Sandia Crest KB5GAS,1500 Hz
-280,145.21000,144.61000,600 kHz,Minus,Auto,GDR Maxwell Eagle Tail Mountain,Large,T Sql,110.9 Hz,023,High,Off,Auto,Off,35 16113 323.00 NM Colfax Maxwell Eagle Tail Mountain N5GDR,1500 Hz
-281,448.15000,443.15000,5.00 MHz,Minus,Auto,GJT Grand Junction,Large,Tone,100.0 Hz,023,High,Off,Auto,Off,8 153 119.00 CO Mesa Grand Junction W0GJT,1500 Hz
-282,146.82000,146.22000,600 kHz,Minus,Auto,GJT Grand Junction 9 Mile Hwy 14,Large,Tone,107.2 Hz,023,High,Off,Auto,Off,8 261 136.00 CO Mesa Grand Junction 9 Mile Hwy 141 Unaweep W0GJT,1500 Hz
-283,145.34000,144.74000,600 kHz,Minus,Auto,GUQ Evergreen,Large,Tone,103.5 Hz,023,High,Off,Auto,Off,8 73 263.00 CO Jefferson Evergreen KE4GUQ,1500 Hz
-284,449.20000,444.20000,5.00 MHz,Minus,Auto,Glade Park,Large,Tone,107.2 Hz,023,High,Off,Auto,Off,8 18392 140.00 CO Mesa Glade Park,1500 Hz
-285,145.26500,144.66500,600 kHz,Minus,Auto,HAM Craig,Large,Tone,107.2 Hz,023,High,Off,Auto,Off,8 3740 270.00 CO Moffat Craig WD0HAM,1500 Hz
-286,145.49000,144.89000,600 kHz,Minus,Auto,HEN Vernal Grizzly Ridge,Large,Tone,136.5 Hz,023,High,Off,Auto,Off,49 24 337.00 UT Uintah Vernal Grizzly Ridge K7HEN,1500 Hz
-287,449.90000,444.90000,5.00 MHz,Minus,Auto,HLL Mexican Hat,Large,Tone,123.0 Hz,023,High,Off,Auto,Off,49 100 226.00 UT San Juan Mexican Hat KD7HLL,1500 Hz
-288,449.85000,444.85000,5.00 MHz,Minus,Auto,HND Glenwood Springs Lookout Mou,Large,T Sql,131.8 Hz,023,High,Off,Auto,Off,8 13637 165.00 CO Garfield Glenwood Springs Lookout Mountain WA4HND,1500 Hz
-289,449.57500,444.57500,5.00 MHz,Minus,Auto,HND Grand Junction Black Ridge,Large,T Sql,131.8 Hz,023,High,Off,Auto,Off,8 155 147.00 CO Mesa Grand Junction Black Ridge WA4HND,1500 Hz
-290,449.30000,444.30000,5.00 MHz,Minus,Auto,HND Grand Junction Grand Mesa,Large,T Sql,107.2 Hz,023,High,Off,Auto,Off,8 154 121.00 CO Mesa Grand Junction Grand Mesa WA4HND,1500 Hz
-291,447.20000,442.20000,5.00 MHz,Minus,Auto,HND Montrose Waterdog Peak,Large,T Sql,107.2 Hz,023,High,Off,Auto,Off,8 69 34.00 CO Montrose Montrose Waterdog Peak WA4HND,1500 Hz
-292,449.80000,444.80000,5.00 MHz,Minus,Auto,HND Parachute Mount Callahan,Large,Tone,107.2 Hz,023,High,Off,Auto,Off,8 253 156.00 CO Garfield Parachute Mount Callahan WA4HND,1500 Hz
-293,447.90000,442.90000,5.00 MHz,Minus,Auto,HQD South Fork,Large,Tone,100.0 Hz,023,High,Off,Auto,Off,8 19196 97.00 CO Rio Grande South Fork N0HQD,1500 Hz
-294,446.25000,441.25000,5.00 MHz,Minus,Auto,HRC Herriman Herriman High Schoo,Large,None,100.0 Hz,023,High,Off,Auto,Off,49 19781 332.00 UT Salt Lake Herriman Herriman High School N7HRC,1500 Hz
-295,146.88000,146.28000,600 kHz,Minus,Auto,I0G Glenwood Springs Sunlight Pe,Large,Tone,107.2 Hz,023,High,Off,Auto,Off,8 130 150.00 CO Garfield Glenwood Springs Sunlight Peak KI0G,1500 Hz
-296,447.10000,442.10000,5.00 MHz,Minus,Auto,I0G Glenwood Springs Sunlight Pe,Large,Tone,107.2 Hz,023,High,Off,Auto,Off,8 132 150.00 CO Garfield Glenwood Springs Sunlight Peak KI0G,1500 Hz
-297,448.85000,443.85000,5.00 MHz,Minus,Auto,IBM Golden Guy Hill,Large,T Sql,88.5 Hz,023,High,Off,Auto,Off,8 136 272.00 CO Jefferson Golden Guy Hill K0IBM,1500 Hz
-298,447.55000,442.55000,5.00 MHz,Minus,Auto,IFI Colorado Springs,Large,Tone,123.0 Hz,023,High,Off,Auto,Off,8 8191 257.00 CO El Paso Colorado Springs WA6IFI,1500 Hz
-299,145.43000,144.83000,600 kHz,Minus,Auto,IFI Trinidad Raton Pass,Large,Tone,107.2 Hz,023,High,Off,Auto,Off,8 239 302.00 CO Las Animas Trinidad Raton Pass WA6IFI,1500 Hz
-300,145.29000,144.69000,600 kHz,Minus,Auto,IHL Albuquerque Sandia Mnts,Large,Tone,100.0 Hz,023,High,Off,Auto,Off,35 17322 345.00 NM Bernalillo Albuquerque Sandia Mnts WA5IHL,1500 Hz
-301,442.75000,447.75000,5.00 MHz,Plus,Auto,IPK Albuquerque Sandia Crest,Large,Tone,162.2 Hz,023,High,Off,Auto,Off,35 203 336.00 NM Bernalillo Albuquerque Sandia Crest KC5IPK,1500 Hz
-302,442.75000,447.75000,5.00 MHz,Plus,Auto,IPK Rio Rancho,Large,Tone,162.2 Hz,023,High,Off,Auto,Off,35 3112 322.00 NM Sandoval Rio Rancho KC5IPK,1500 Hz
-303,146.91000,146.31000,600 kHz,Minus,Auto,IRP Colorado Springs,Large,T Sql,151.4 Hz,023,High,Off,Auto,Off,8 43 257.00 CO El Paso Colorado Springs K0IRP,1500 Hz
-304,447.35000,442.35000,5.00 MHz,Minus,Auto,IRP Colorado Springs,Large,Tone,151.4 Hz,023,High,Off,Auto,Off,8 50 257.00 CO El Paso Colorado Springs K0IRP,1500 Hz
-305,447.45000,442.45000,5.00 MHz,Minus,Auto,ITS Aztec,Large,Tone,107.2 Hz,023,High,Off,Auto,Off,35 44 145.00 NM San Juan Aztec KB5ITS,1500 Hz
-306,146.61000,146.01000,600 kHz,Minus,Auto,ITS Aztec Hottel Hill,Large,Tone,100.0 Hz,023,High,Off,Auto,Off,35 18461 147.00 NM San Juan Aztec Hottel Hill KB5ITS,1500 Hz
-307,146.88000,146.28000,600 kHz,Minus,Auto,ITS Aztec Tank Mtn,Large,Tone,100.0 Hz,023,High,Off,Auto,Off,35 15629 145.00 NM San Juan Aztec Tank Mtn KB5ITS,1500 Hz
-308,448.65000,443.65000,5.00 MHz,Minus,Auto,ITS Bloomfield,Large,Tone,127.3 Hz,023,High,Off,Auto,Off,35 16636 157.00 NM San Juan Bloomfield KB5ITS,1500 Hz
-309,147.10000,147.70000,600 kHz,Plus,Auto,ITS Bloomfield Harris mesa,Large,Tone,100.0 Hz,023,High,Off,Auto,Off,35 49 165.00 NM San Juan Bloomfield Harris mesa KB5ITS,1500 Hz
-310,145.19000,144.59000,600 kHz,Minus,Auto,ITS Cortez Goodman,Large,Tone,100.0 Hz,023,High,Off,Auto,Off,8 16606 104.00 CO Montezuma Cortez Goodman KB5ITS,1500 Hz
-311,447.27500,442.27500,5.00 MHz,Minus,Auto,ITS Dolores Summit Ridge,Large,Tone,100.0 Hz,023,High,Off,Auto,Off,8 16623 104.00 CO Montezuma Dolores Summit Ridge KB5ITS,1500 Hz
-312,147.13500,147.73500,600 kHz,Plus,Auto,ITS Durango Smelter Mountain,Large,T Sql,100.0 Hz,023,High,Off,Auto,Off,8 11545 95.00 CO La Plata Durango Smelter Mountain KB5ITS,1500 Hz
-313,146.76000,146.16000,600 kHz,Minus,Auto,ITS Farmington,Large,T Sql,100.0 Hz,023,High,Off,Auto,Off,35 84 160.00 NM San Juan Farmington KB5ITS,1500 Hz
-314,147.00000,147.60000,600 kHz,Plus,Auto,ITS Farmington College Hill,Large,Tone,100.0 Hz,023,High,Off,Auto,Off,35 86 156.00 NM San Juan Farmington College Hill KB5ITS,1500 Hz
-315,147.15000,147.75000,600 kHz,Plus,Auto,ITS Ignacio Spring Creek,Large,Tone,100.0 Hz,023,High,Off,Auto,Off,8 8177 108.00 CO La Plata Ignacio Spring Creek KB5ITS,1500 Hz
-316,147.13500,147.73500,600 kHz,Plus,Auto,ITS Lake City Hill 71,Large,Tone,123.0 Hz,023,High,Off,Auto,Off,8 16607 27.00 CO Hinsdale Lake City Hill 71 KB5ITS,1500 Hz
-317,145.25000,144.65000,600 kHz,Minus,Auto,ITS Lukachukai Roof Butte,Large,Tone,100.0 Hz,023,High,Off,Auto,Off,4 163 224.00 AZ Apache Lukachukai Roof Butte KB5ITS,1500 Hz
-318,145.32500,144.72500,600 kHz,Minus,Auto,ITS Mancos Caviness,Large,None,100.0 Hz,023,High,Off,Auto,Off,8 18459 93.00 CO Montezuma Mancos Caviness KB5ITS,1500 Hz
-319,145.32500,144.72500,600 kHz,Minus,Auto,ITS Mancos Caviness Mountain,Large,Tone,100.0 Hz,023,High,Off,Auto,Off,8 8168 93.00 CO Montezuma Mancos Caviness Mountain KB5ITS,1500 Hz
-320,442.37500,447.37500,5.00 MHz,Plus,Auto,ITS Mancos Caviness Mountain,Large,Tone,100.0 Hz,023,High,Off,Auto,Off,8 15896 94.00 CO Montezuma Mancos Caviness Mountain KB5ITS,1500 Hz
-321,447.27500,442.27500,5.00 MHz,Minus,Auto,ITS Monticello Abajo Peak,Large,Tone,100.0 Hz,023,High,Off,Auto,Off,49 18460 165.00 UT San Juan Monticello Abajo Peak KB5ITS,1500 Hz
-322,448.82500,443.82500,5.00 MHz,Minus,Auto,ITS Montrose Raspberry,Large,Tone,100.0 Hz,023,High,Off,Auto,Off,8 18465 42.00 CO Montrose Montrose Raspberry KB5ITS,1500 Hz
-323,147.36000,147.96000,600 kHz,Plus,Auto,ITS Navajo Dam Navajo Lake,Large,Tone,100.0 Hz,023,High,Off,Auto,Off,35 15644 143.00 NM San Juan Navajo Dam Navajo Lake KB5ITS,1500 Hz
-324,147.27000,147.87000,600 kHz,Plus,Auto,ITS Ouray Engineer Mountain,Large,Tone,127.3 Hz,023,High,Off,Auto,Off,8 16604 9.00 CO Ouray Ouray Engineer Mountain KB5ITS,1500 Hz
-325,447.52500,442.52500,5.00 MHz,Minus,Auto,ITS Silverton,Large,Tone,127.3 Hz,023,High,Off,Auto,Off,8 210 31.00 CO San Juan Silverton KB5ITS,1500 Hz
-326,145.32500,144.72500,600 kHz,Minus,Auto,ITS Silverton Buffalo Boy,Large,Tone,127.3 Hz,023,High,Off,Auto,Off,8 16605 31.00 CO San Juan Silverton Buffalo Boy KB5ITS,1500 Hz
-327,444.00000,449.00000,5.00 MHz,Plus,Auto,ITS Silverton Hazelton,Large,Tone,67.0 Hz,023,High,Off,Auto,Off,8 16624 31.00 CO San Juan Silverton Hazelton KB5ITS,1500 Hz
-328,147.37500,147.97500,600 kHz,Plus,Auto,ITS Silverton Kendall Mountain,Large,Tone,156.7 Hz,023,High,Off,Auto,Off,8 209 33.00 CO San Juan Silverton Kendall Mountain KB5ITS,1500 Hz
-329,147.27000,147.87000,600 kHz,Plus,Auto,ITT Silverton Engineer Mountain,Large,Tone,127.3 Hz,023,High,Off,Auto,Off,8 208 47.00 CO San Juan Silverton Engineer Mountain KB5ITT,1500 Hz
-330,147.24000,147.84000,600 kHz,Plus,Auto,J0T Pueblo,Large,Tone,103.5 Hz,023,High,Off,Auto,Off,8 3747 263.00 CO Pueblo Pueblo KJ0T,1500 Hz
-331,444.40000,449.40000,5.00 MHz,Plus,Auto,JNI Wagon Mound,Large,Tone,100.0 Hz,023,High,Off,Auto,Off,35 181 346.00 NM Mora Wagon Mound N7JNI,1500 Hz
-332,145.35500,144.75500,600 kHz,Minus,Auto,JPX La Veta,Large,Tone,100.0 Hz,023,High,Off,Auto,Off,8 168 238.00 CO Huerfano La Veta N0JPX,1500 Hz
-333,447.17500,442.17500,5.00 MHz,Minus,Auto,JRL Denver Broadway Plaza Lofts,Large,T Sql,100.0 Hz,023,High,Off,Auto,Off,8 12216 293.00 CO Denver Denver Broadway Plaza Lofts W0JRL,1500 Hz
-334,447.97500,442.97500,5.00 MHz,Minus,Auto,JSC Canon City Colorado,Large,T Sql,100.0 Hz,023,High,Off,Auto,Off,8 7185 211.00 CO Fremont Canon City Colorado K0JSC,1500 Hz
-335,447.25000,442.25000,5.00 MHz,Minus,Auto,JSC Canon City Fremont Peak,Large,T Sql,100.0 Hz,023,High,Off,Auto,Off,8 8879 207.00 CO Fremont Canon City Fremont Peak K0JSC,1500 Hz
-336,449.97500,444.97500,5.00 MHz,Minus,Auto,JSC Larkspur Westcreek,Large,T Sql,100.0 Hz,023,High,Off,Auto,Off,8 15903 254.00 CO Douglas Larkspur Westcreek K0JSC,1500 Hz
-337,449.97500,444.97500,5.00 MHz,Minus,Auto,JSC Pueblo Cedarwood,Large,T Sql,100.0 Hz,023,High,Off,Auto,Off,8 5369 273.00 CO Pueblo Pueblo Cedarwood K0JSC,1500 Hz
-338,447.27500,442.27500,5.00 MHz,Minus,Auto,JSC Pueblo Metro,Large,T Sql,100.0 Hz,023,High,Off,Auto,Off,8 9527 263.00 CO Pueblo Pueblo Metro K0JSC,1500 Hz
-339,448.97500,443.97500,5.00 MHz,Minus,Auto,JSC Pueblo West,Large,T Sql,100.0 Hz,023,High,Off,Auto,Off,8 7994 252.00 CO Pueblo Pueblo West K0JSC,1500 Hz
-340,448.32500,443.32500,5.00 MHz,Minus,Auto,JSC Westcliffe,Large,T Sql,100.0 Hz,023,High,Off,Auto,Off,8 15584 188.00 CO Custer Westcliffe K0JSC,1500 Hz
-341,146.61000,146.01000,600 kHz,Minus,Auto,JSP Pagosa Springs Oakbrush Hill,Large,Tone,123.0 Hz,023,High,Off,Auto,Off,8 188 109.00 CO Archuleta Pagosa Springs Oakbrush Hill N0JSP,1500 Hz
-342,146.71500,146.11500,600 kHz,Minus,Auto,JXN Denver,Large,T Sql,123.0 Hz,023,High,Off,Auto,Off,8 79 292.00 CO Denver Denver N0JXN,1500 Hz
-343,448.55000,443.55000,5.00 MHz,Minus,Auto,KIZ Denver,Large,Tone,82.5 Hz,023,High,Off,Auto,Off,8 93 292.00 CO Denver Denver W0KIZ,1500 Hz
+129,444.35000,449.35000,5.00 MHz,Plus,Auto,0ZW Edgewood,Large,Tone,123.0 Hz,023,High,Off,Auto,Off,35 19561 360.00 NM Santa Fe Edgewood W0ZW,1500 Hz
+130,145.13000,144.53000,600 kHz,Minus,Auto,5BC Albuquerque BCFD Fire Statio,Large,T Sql,100.0 Hz,023,High,Off,Auto,Off,35 15613 339.00 NM Bernalillo Albuquerque BCFD Fire Station 35 NM5BC,1500 Hz
+131,442.05000,447.05000,5.00 MHz,Plus,Auto,5BC Albuquerque West Mesa,Large,T Sql,100.0 Hz,023,High,Off,Auto,Off,35 15759 346.00 NM Bernalillo Albuquerque West Mesa NM5BC,1500 Hz
+132,145.15000,144.55000,600 kHz,Minus,Auto,5BC Tijeras Cedro Peak,Large,T Sql,100.0 Hz,023,High,Off,Auto,Off,35 15614 356.00 NM Bernalillo Tijeras Cedro Peak NM5BC,1500 Hz
+133,145.17500,144.57500,600 kHz,Minus,Auto,5EM Cuba Eureka Mesa,Large,T Sql,156.7 Hz,023,High,Off,Auto,Off,35 15615 240.00 NM Sandoval Cuba Eureka Mesa NM5EM,1500 Hz
+134,147.04000,147.64000,600 kHz,Plus,Auto,5EM Eagle Nest Touch Me Not,Large,Tone,141.3 Hz,023,High,Off,Auto,Off,35 15635 271.00 NM Colfax Eagle Nest Touch Me Not NM5EM,1500 Hz
+135,146.98000,146.38000,600 kHz,Minus,Auto,5EM Grants Mt Taylor,Large,T Sql,141.3 Hz,023,High,Off,Auto,Off,35 5349 315.00 NM Cibola Grants Mt Taylor NM5EM,1500 Hz
+136,147.02000,147.62000,600 kHz,Plus,Auto,5EM Santa Fe Tesuque Peak,Large,Tone,141.3 Hz,023,High,Off,Auto,Off,35 15631 303.00 NM Santa Fe Santa Fe Tesuque Peak NM5EM,1500 Hz
+137,145.17500,144.57500,600 kHz,Minus,Auto,5EM Tres Piedras San Antonio Mtn,Large,Tone,141.3 Hz,023,High,Off,Auto,Off,35 15616 216.00 NM Taos Tres Piedras San Antonio Mtn. NM5EM,1500 Hz
+138,145.37000,144.77000,600 kHz,Minus,Auto,5EM Wagon Mound Turkey Mtn,Large,Tone,141.3 Hz,023,High,Off,Auto,Off,35 15621 335.00 NM Mora Wagon Mound Turkey Mtn NM5EM,1500 Hz
+139,449.95000,444.95000,5.00 MHz,Minus,Auto,5GF Gunnison,Large,None,100.0 Hz,023,High,Off,Auto,Off,8 161 79.00 CO Gunnison Gunnison K5GF,1500 Hz
+140,147.38000,147.98000,600 kHz,Plus,Auto,5GU Albuquerque,Large,None,100.0 Hz,023,High,Off,Auto,Off,35 24 349.00 NM Bernalillo Albuquerque N5GU,1500 Hz
+141,145.41000,144.81000,600 kHz,Minus,Auto,5HO La Cueva,Large,Tone,100.0 Hz,023,High,Off,Auto,Off,35 15622 262.00 NM Santa Fe La Cueva W5HO,1500 Hz
+142,447.37500,442.37500,5.00 MHz,Minus,Auto,5JL Trinidad Raton Pass,Large,Tone,100.0 Hz,023,High,Off,Auto,Off,8 13499 292.00 CO Las Animas Trinidad Raton Pass KG5JL,1500 Hz
+143,145.29000,144.69000,600 kHz,Minus,Auto,5ML Albuquerque Sandia Crest,Large,Tone,100.0 Hz,023,High,Off,Auto,Off,35 15 336.00 NM Bernalillo Albuquerque Sandia Crest NM5ML,1500 Hz
+144,444.32500,449.32500,5.00 MHz,Plus,Auto,5ML Albuquerque Sandia Crest,Large,Tone,100.0 Hz,023,High,Off,Auto,Off,35 37 336.00 NM Bernalillo Albuquerque Sandia Crest NM5ML,1500 Hz
+145,147.28000,147.88000,600 kHz,Plus,Auto,5ML Bloomfield Harris Mesa,Large,Tone,67.0 Hz,023,High,Off,Auto,Off,35 51 166.00 NM San Juan Bloomfield Harris Mesa NM5ML,1500 Hz
+146,147.24000,147.84000,600 kHz,Plus,Auto,5ML Cuba Eureka Mesa,Large,Tone,67.0 Hz,023,High,Off,Auto,Off,35 66 240.00 NM Sandoval Cuba Eureka Mesa NM5ML,1500 Hz
+147,444.35000,449.35000,5.00 MHz,Plus,Auto,5ML Eagle Nest Iron Mountain,Large,Tone,100.0 Hz,023,High,Off,Auto,Off,35 77 266.00 NM Colfax Eagle Nest Iron Mountain NM5ML,1500 Hz
+148,147.22000,147.82000,600 kHz,Plus,Auto,5ML Gallup Deza Bluffs,Large,Tone,67.0 Hz,023,High,Off,Auto,Off,35 89 264.00 NM McKinley Gallup Deza Bluffs NM5ML,1500 Hz
+149,444.80000,449.80000,5.00 MHz,Plus,Auto,5ML Grants La Mosca,Large,Tone,67.0 Hz,023,High,Off,Auto,Off,35 15885 315.00 NM Cibola Grants La Mosca NM5ML,1500 Hz
+150,146.66000,146.06000,600 kHz,Minus,Auto,5ML Grants Microwave Ridge,Large,Tone,100.0 Hz,023,High,Off,Auto,Off,35 94 322.00 NM Cibola Grants Microwave Ridge NM5ML,1500 Hz
+151,147.26000,147.86000,600 kHz,Plus,Auto,5ML Pecos Elk Mountain,Large,Tone,67.0 Hz,023,High,Off,Auto,Off,35 145 316.00 NM San Miguel Pecos Elk Mountain NM5ML,1500 Hz
+152,147.28000,147.88000,600 kHz,Plus,Auto,5ML Raton Sierra Grande,Large,Tone,100.0 Hz,023,High,Off,Auto,Off,35 136 309.00 NM Colfax Raton Sierra Grande NM5ML,1500 Hz
+153,147.14000,147.74000,600 kHz,Plus,Auto,5ML Taos Ski Valley,Large,Tone,67.0 Hz,023,High,Off,Auto,Off,35 11288 253.00 NM Taos Taos Ski Valley NM5ML,1500 Hz
+154,147.34000,147.94000,600 kHz,Plus,Auto,5ML Tijeras Cedro Peak,Large,Tone,67.0 Hz,023,High,Off,Auto,Off,35 173 356.00 NM Bernalillo Tijeras Cedro Peak NM5ML,1500 Hz
+155,147.22000,147.82000,600 kHz,Plus,Auto,5ML Tres Piedras San Antonio Mou,Large,Tone,100.0 Hz,023,High,Off,Auto,Off,35 175 196.00 NM Rio Arriba Tres Piedras San Antonio Mountain NM5ML,1500 Hz
+156,147.20000,147.80000,600 kHz,Plus,Auto,5ML Wagon Mound Turkey Mountain,Large,Tone,67.0 Hz,023,High,Off,Auto,Off,35 11289 335.00 NM Mora Wagon Mound Turkey Mountain NM5ML,1500 Hz
+157,147.18000,147.78000,600 kHz,Plus,Auto,5PX Dixon Cerro Abajo,Large,T Sql,100.0 Hz,023,High,Off,Auto,Off,35 15923 260.00 NM Rio Arriba Dixon Cerro Abajo KD5PX,1500 Hz
+158,147.10000,147.70000,600 kHz,Plus,Auto,5RR Rio Rancho Rainbow,Large,T Sql,100.0 Hz,023,High,Off,Auto,Off,35 139 322.00 NM Sandoval Rio Rancho Rainbow NM5RR,1500 Hz
+159,443.00000,448.00000,5.00 MHz,Plus,Auto,5RR Rio Rancho Rainbow,Large,Tone,100.0 Hz,023,High,Off,Auto,Off,35 141 322.00 NM Sandoval Rio Rancho Rainbow NM5RR,1500 Hz
+160,147.08000,147.68000,600 kHz,Plus,Auto,5SC Placitas La Madera,Large,Tone,100.0 Hz,023,High,Off,Auto,Off,35 9768 326.00 NM Sandoval Placitas La Madera NM5SC,1500 Hz
+161,443.10000,448.10000,5.00 MHz,Plus,Auto,5SC San Ysidro Pajarito Peak,Large,Tone,100.0 Hz,023,High,Off,Auto,Off,35 9767 274.00 NM Sandoval San Ysidro Pajarito Peak NM5SC,1500 Hz
+162,147.08000,147.68000,600 kHz,Plus,Auto,5SF Chama Overlook Mtn,Large,Tone,162.2 Hz,023,High,Off,Auto,Off,35 15079 159.00 NM Rio Arriba Chama Overlook Mtn W5SF,1500 Hz
+163,147.30000,147.90000,600 kHz,Plus,Auto,5SF Las Vegas Elk Mountain,Large,Tone,162.2 Hz,023,High,Off,Auto,Off,35 115 316.00 NM San Miguel Las Vegas Elk Mountain W5SF,1500 Hz
+164,145.19000,144.59000,600 kHz,Minus,Auto,5SF Los Alamos Pajarito Mountain,Large,T Sql,162.2 Hz,023,High,Off,Auto,Off,35 118 267.00 NM Los Alamos Los Alamos Pajarito Mountain W5SF,1500 Hz
+165,147.20000,147.80000,600 kHz,Plus,Auto,5SF Santa Fe St Vincent Hospital,Large,Tone,162.2 Hz,023,High,Off,Auto,Off,35 154 308.00 NM Santa Fe Santa Fe St Vincent Hospital W5SF,1500 Hz
+166,146.82000,146.22000,600 kHz,Minus,Auto,5SF Santa Fe Tesuque Peak,Large,Tone,162.2 Hz,023,High,Off,Auto,Off,35 153 303.00 NM Santa Fe Santa Fe Tesuque Peak W5SF,1500 Hz
+167,146.74000,146.14000,600 kHz,Minus,Auto,5SJ Aztec,Large,Tone,100.0 Hz,023,High,Off,Auto,Off,35 43 145.00 NM San Juan Aztec NM5SJ,1500 Hz
+168,145.43000,144.83000,600 kHz,Minus,Auto,5SJ Dulce,Large,Tone,136.5 Hz,023,High,Off,Auto,Off,35 15624 139.00 NM Rio Arriba Dulce NM5SJ,1500 Hz
+169,145.49000,144.89000,600 kHz,Minus,Auto,5SJ Lybrook,Large,Tone,100.0 Hz,023,High,Off,Auto,Off,35 128 206.00 NM Rio Arriba Lybrook NM5SJ,1500 Hz
+170,147.06000,147.66000,600 kHz,Plus,Auto,5SJ Nebo Cedar Hill,Large,Tone,100.0 Hz,023,High,Off,Auto,Off,35 16667 128.00 NM San Juan Nebo Cedar Hill NM5SJ,1500 Hz
+171,146.82000,146.22000,600 kHz,Minus,Auto,5SJ Red Rock Roof Butte,Large,Tone,100.0 Hz,023,High,Off,Auto,Off,4 72 224.00 AZ Apache Red Rock Roof Butte NM5SJ,1500 Hz
+172,443.40000,448.40000,5.00 MHz,Plus,Auto,5SV Placitas Sandia Peak,Large,Tone,100.0 Hz,023,High,Off,Auto,Off,35 14763 323.00 NM Sandoval Placitas Sandia Peak NM5SV,1500 Hz
+173,449.00000,444.00000,5.00 MHz,Minus,Auto,5WY Farmington,Large,Tone,100.0 Hz,023,High,Off,Auto,Off,35 87 160.00 NM San Juan Farmington K5WY,1500 Hz
+174,147.36000,147.96000,600 kHz,Plus,Auto,5XE Albuquerque,Large,Tone,100.0 Hz,023,High,Off,Auto,Off,35 23 346.00 NM Bernalillo Albuquerque KB5XE,1500 Hz
+175,443.50000,438.50000,5.00 MHz,Minus,Auto,5XE Albuquerque,Large,Tone,123.0 Hz,023,High,Off,Auto,Off,35 16953 345.00 NM Bernalillo Albuquerque KE5XE,1500 Hz
+176,448.75000,443.75000,5.00 MHz,Minus,Auto,7DB Page (az) Navajo Mountain,Large,Tone,100.0 Hz,023,High,Off,Auto,Off,49 169 310.00 UT San Juan Page (az) Navajo Mountain NA7DB,1500 Hz
+177,147.20000,147.80000,600 kHz,Plus,Auto,7GX Price Wood Hill,Large,Tone,88.5 Hz,023,High,Off,Auto,Off,49 10058 339.00 UT Carbon Price Wood Hill K7GX,1500 Hz
+178,448.30000,443.30000,5.00 MHz,Minus,Auto,7GX Price Wood Hill,Large,None,100.0 Hz,023,High,Off,Auto,Off,49 10061 325.00 UT Carbon Price Wood Hill K7GX,1500 Hz
+179,447.72500,442.72500,5.00 MHz,Minus,Auto,7RF Fort Collins,Large,Tone,131.8 Hz,023,High,Off,Auto,Off,8 8194 345.00 CO Larimer Fort Collins W7RF,1500 Hz
+180,449.37500,444.37500,5.00 MHz,Minus,Auto,7TA Logan Sedgwick Peak,Large,None,100.0 Hz,023,High,Off,Auto,Off,49 18470 332.00 UT Cache Logan Sedgwick Peak AE7TA,1500 Hz
+181,447.62500,442.62500,5.00 MHz,Minus,Auto,7YI Castle Dale Horn Mountain,Large,Tone,100.0 Hz,023,High,Off,Auto,Off,49 73 331.00 UT Emery Castle Dale Horn Mountain K7YI,1500 Hz
+182,147.28000,147.88000,600 kHz,Plus,Auto,7ZW Altamont,Large,T Sql,107.2 Hz,023,High,Off,Auto,Off,49 14977 342.00 UT Duchesne Altamont AD7ZW,1500 Hz
+183,449.95000,444.95000,5.00 MHz,Minus,Auto,9SL Aurora,Large,T Sql,77.0 Hz,023,High,Off,Auto,Off,8 8743 302.00 CO Arapahoe Aurora W9SL,1500 Hz
+184,147.13500,147.73500,600 kHz,Plus,Auto,A0L Colorado Springs,Large,Tone,100.0 Hz,023,High,Off,Auto,Off,8 8176 259.00 CO El Paso Colorado Springs AA0L,1500 Hz
+185,448.30000,443.30000,5.00 MHz,Minus,Auto,A0L Colorado Springs,Large,Tone,100.0 Hz,023,High,Off,Auto,Off,8 8200 257.00 CO El Paso Colorado Springs AA0L,1500 Hz
+186,449.00000,444.00000,5.00 MHz,Minus,Auto,AEN Idaho Springs Squaw Mountain,Large,T Sql,136.5 Hz,023,High,Off,Auto,Off,8 8250 255.00 CO Clear Creek Idaho Springs Squaw Mountain WR0AEN,1500 Hz
+187,449.90000,444.90000,5.00 MHz,Minus,Auto,AFO Vail,Large,T Sql,107.2 Hz,023,High,Off,Auto,Off,8 243 203.00 CO Eagle Vail N0AFO,1500 Hz
+188,147.36000,147.96000,600 kHz,Plus,Auto,ALC Cedaredge,Large,Tone,100.0 Hz,023,High,Off,Auto,Off,8 3749 95.00 CO Delta Cedaredge W0ALC,1500 Hz
+189,449.82500,444.82500,5.00 MHz,Minus,Auto,ALC Cedaredge,Large,Tone,100.0 Hz,023,High,Off,Auto,Off,8 3760 95.00 CO Delta Cedaredge W0ALC,1500 Hz
+190,448.82500,443.82500,5.00 MHz,Minus,Auto,ANT Aurora,Large,None,100.0 Hz,023,High,Off,Auto,Off,8 16032 302.00 CO Arapahoe Aurora WN7ANT,1500 Hz
+191,444.15000,449.15000,5.00 MHz,Plus,Auto,AOX Sandia park,Large,Tone,100.0 Hz,023,High,Off,Auto,Off,35 35 344.00 NM Bernalillo Sandia park W5AOX,1500 Hz
+192,147.12000,147.72000,600 kHz,Plus,Auto,ARA Critchell Critchell Mountain,Large,T Sql,88.5 Hz,023,High,Off,Auto,Off,8 59 252.00 CO Jefferson Critchell Critchell Mountain N0ARA,1500 Hz
+193,447.50000,442.50000,5.00 MHz,Minus,Auto,ARV Grand Junction,Large,Tone,114.8 Hz,023,High,Off,Auto,Off,8 3757 136.00 CO Mesa Grand Junction KC0ARV,1500 Hz
+194,147.10000,147.70000,600 kHz,Plus,Auto,BAR Vernal Blue Mountain,Large,Tone,136.5 Hz,023,High,Off,Auto,Off,49 163 285.00 UT Uintah Vernal Blue Mountain W7BAR,1500 Hz
+195,147.04000,147.64000,600 kHz,Plus,Auto,BAR Vernal Grizzly Ridge,Large,Tone,136.5 Hz,023,High,Off,Auto,Off,49 181 336.00 UT Uintah Vernal Grizzly Ridge W7BAR,1500 Hz
+196,449.90000,444.90000,5.00 MHz,Minus,Auto,BAR Vernal Uintah County EOC,Large,Tone,136.5 Hz,023,High,Off,Auto,Off,49 13408 271.00 UT Uintah Vernal Uintah County EOC W7BAR,1500 Hz
+197,442.00000,447.00000,5.00 MHz,Plus,Auto,BIW Los Alamos,Large,Tone,100.0 Hz,023,High,Off,Auto,Off,35 15608 271.00 NM Los Alamos Los Alamos KA5BIW,1500 Hz
+198,423.00000,1243.00000,,Plus,Auto,BTV Boulder,Large,None,100.0 Hz,023,High,Off,Auto,Off,8 18534 291.00 CO Boulder Boulder W0BTV,1500 Hz
+199,145.49000,144.89000,600 kHz,Minus,Auto,BYU Myton Flat Top,Large,Tone,136.5 Hz,023,High,Off,Auto,Off,49 13041 320.00 UT Duchesne Myton Flat Top W7BYU,1500 Hz
+200,146.92000,146.32000,600 kHz,Minus,Auto,BYU Roosevelt,Large,Tone,136.5 Hz,023,High,Off,Auto,Off,49 281 285.00 UT Duchesne Roosevelt W7BYU,1500 Hz
+201,449.70000,444.70000,5.00 MHz,Minus,Auto,BYU Vernal,Large,Tone,136.5 Hz,023,High,Off,Auto,Off,49 182 285.00 UT Uintah Vernal W7BYU,1500 Hz
+202,448.95000,443.95000,5.00 MHz,Minus,Auto,Black Forest,Large,None,100.0 Hz,023,High,Off,Auto,Off,8 17551 275.00 CO El Paso Black Forest,1500 Hz
+203,449.42500,444.42500,5.00 MHz,Minus,Auto,C3W Grand Lake,Large,T Sql,103.5 Hz,023,High,Off,Auto,Off,8 18131 283.00 CO Clear Creek Grand Lake WC3W,1500 Hz
+204,147.15000,147.75000,600 kHz,Plus,Auto,CBI Golden Guy Hill,Large,T Sql,100.0 Hz,023,High,Off,Auto,Off,8 133 272.00 CO Jefferson Golden Guy Hill W0CBI,1500 Hz
+205,146.74000,146.14000,600 kHz,Minus,Auto,CBS Altamont,Large,Tone,100.0 Hz,023,High,Off,Auto,Off,49 253 342.00 UT Duchesne Altamont WB7CBS,1500 Hz
+206,447.45000,442.45000,5.00 MHz,Minus,Auto,CCC Winter Park,Large,Tone,103.5 Hz,023,High,Off,Auto,Off,8 3756 259.00 CO Grand Winter Park WA4CCC,1500 Hz
+207,145.43000,144.83000,600 kHz,Minus,Auto,CEU Price Wood Hill,Large,Tone,88.5 Hz,023,High,Off,Auto,Off,49 78 325.00 UT Carbon Price Wood Hill W7CEU,1500 Hz
+208,448.30000,443.30000,5.00 MHz,Minus,Auto,CEU Price Wood Hill,Large,Tone,88.5 Hz,023,High,Off,Auto,Off,49 2765 325.00 UT Carbon Price Wood Hill W7CEU,1500 Hz
+209,448.67500,443.67500,5.00 MHz,Minus,Auto,CFI Idaho Springs Squaw Mountain,Large,T Sql,100.0 Hz,023,High,Off,Auto,Off,8 94 255.00 CO Denver Idaho Springs Squaw Mountain W0CFI,1500 Hz
+210,449.67500,444.67500,5.00 MHz,Minus,Auto,CGQ Querida,Large,Tone,88.5 Hz,023,High,Off,Auto,Off,8 18872 200.00 CO Custer Querida K0CGQ,1500 Hz
+211,444.70000,449.70000,5.00 MHz,Plus,Auto,CPU Rio Rancho Intel Corp,Large,Tone,100.0 Hz,023,High,Off,Auto,Off,35 142 329.00 NM Sandoval Rio Rancho Intel Corp K5CPU,1500 Hz
+212,145.46000,144.86000,600 kHz,Minus,Auto,CRA Boulder Eldorado Mountain,Large,T Sql,107.2 Hz,023,High,Off,Auto,Off,8 8 294.00 CO Boulder Boulder Eldorado Mountain W0CRA,1500 Hz
+213,447.97500,442.97500,5.00 MHz,Minus,Auto,CRA Boulder Eldorado Mountain,Large,T Sql,107.2 Hz,023,High,Off,Auto,Off,8 20 294.00 CO Boulder Boulder Eldorado Mountain W0CRA,1500 Hz
+214,145.16000,144.56000,600 kHz,Minus,Auto,CRA Colorado Springs Cheyenne Mo,Large,T Sql,107.2 Hz,023,High,Off,Auto,Off,8 38 249.00 CO El Paso Colorado Springs Cheyenne Mountain W0CRA,1500 Hz
+215,145.14500,144.54500,600 kHz,Minus,Auto,CRA Idaho Springs Squaw Mountain,Large,T Sql,107.2 Hz,023,High,Off,Auto,Off,8 107 255.00 CO Clear Creek Idaho Springs Squaw Mountain W0CRA,1500 Hz
+216,447.57500,442.57500,5.00 MHz,Minus,Auto,CRA Idaho Springs Squaw Mountain,Large,T Sql,107.2 Hz,023,High,Off,Auto,Off,8 264 255.00 CO Clear Creek Idaho Springs Squaw Mountain W0CRA,1500 Hz
+217,147.22500,147.82500,600 kHz,Plus,Auto,CRA Larkspur Westcreek,Large,T Sql,107.2 Hz,023,High,Off,Auto,Off,8 83 254.00 CO Douglas Larkspur Westcreek W0CRA,1500 Hz
+218,448.42500,443.42500,5.00 MHz,Minus,Auto,CRA Larkspur Westcreek,Large,T Sql,107.2 Hz,023,High,Off,Auto,Off,8 16547 254.00 CO Douglas Larkspur Westcreek W0CRA,1500 Hz
+219,145.33000,144.73000,600 kHz,Minus,Auto,CSY Albuquerque Sandia Crest,Large,Tone,100.0 Hz,023,High,Off,Auto,Off,35 16 336.00 NM Bernalillo Albuquerque Sandia Crest W5CSY,1500 Hz
+220,444.00000,449.00000,5.00 MHz,Plus,Auto,CSY Albuquerque Sandia Crest,Large,Tone,100.0 Hz,023,High,Off,Auto,Off,35 34 336.00 NM Bernalillo Albuquerque Sandia Crest W5CSY,1500 Hz
+221,146.76000,146.16000,600 kHz,Minus,Auto,CVU Colorado Springs Cheyenne Mo,Large,T Sql,107.2 Hz,023,High,Off,Auto,Off,8 41 248.00 CO El Paso Colorado Springs Cheyenne Mountain KC0CVU,1500 Hz
+222,147.34500,147.94500,600 kHz,Plus,Auto,CVU Colorado Springs Cheyenne Mo,Large,T Sql,107.2 Hz,023,High,Off,Auto,Off,8 47 249.00 CO El Paso Colorado Springs Cheyenne Mountain KC0CVU,1500 Hz
+223,448.00000,443.00000,5.00 MHz,Minus,Auto,CVU Colorado Springs Cheyenne Mo,Large,Tone,107.2 Hz,023,High,Off,Auto,Off,8 269 248.00 CO El Paso Colorado Springs Cheyenne Mountain KC0CVU,1500 Hz
+224,448.10000,443.10000,5.00 MHz,Minus,Auto,CVU Colorado Springs Cheyenne Mo,Large,T Sql,107.2 Hz,023,High,Off,Auto,Off,8 53 248.00 CO El Paso Colorado Springs Cheyenne Mountain KC0CVU,1500 Hz
+225,147.36000,147.96000,600 kHz,Plus,Auto,CVU Lake George Badger Mountain,Large,T Sql,107.2 Hz,023,High,Off,Auto,Off,8 170 211.00 CO Park Lake George Badger Mountain KC0CVU,1500 Hz
+226,145.29500,144.69500,600 kHz,Minus,Auto,CVU Salida Methodist Mountain,Large,Tone,107.2 Hz,023,High,Off,Auto,Off,8 203 146.00 CO Chaffee Salida Methodist Mountain KC0CVU,1500 Hz
+227,449.65000,444.65000,5.00 MHz,Minus,Auto,CVU Salida Methodist Mountain,Large,Tone,107.2 Hz,023,High,Off,Auto,Off,8 205 145.00 CO Chaffee Salida Methodist Mountain KC0CVU,1500 Hz
+228,449.60000,444.60000,5.00 MHz,Minus,Auto,CVU Trinidad Raton Pass,Large,Tone,107.2 Hz,023,High,Off,Auto,Off,8 240 292.00 CO Las Animas Trinidad Raton Pass KC0CVU,1500 Hz
+229,449.92500,444.92500,5.00 MHz,Minus,Auto,CWI Page (AZ) Navajo Mountain,Large,Tone,100.0 Hz,023,High,Off,Auto,Off,49 183 310.00 UT San Juan Page (AZ) Navajo Mountain W7CWI,1500 Hz
+230,447.35000,442.35000,5.00 MHz,Minus,Auto,Cedaredge Grand Mesa,Large,Tone,107.2 Hz,023,High,Off,Auto,Off,8 3755 106.00 CO Delta Cedaredge Grand Mesa,1500 Hz
+231,147.21000,147.81000,600 kHz,Plus,Auto,D0H Steamboat Springs,Large,T Sql,107.2 Hz,023,High,Off,Auto,Off,8 237 275.00 CO Routt Steamboat Springs KD0H,1500 Hz
+232,145.49000,144.89000,600 kHz,Minus,Auto,DRC Raton,Large,Tone,100.0 Hz,023,High,Off,Auto,Off,35 19044 319.00 NM Colfax Raton N0DRC,1500 Hz
+233,449.45000,444.45000,5.00 MHz,Minus,Auto,DUN Idaho Springs Squaw Mountain,Large,Tone,103.5 Hz,023,High,Off,Auto,Off,8 99 255.00 CO Clear Creek Idaho Springs Squaw Mountain K1DUN,1500 Hz
+234,145.12500,144.52500,600 kHz,Minus,Auto,EGG Ogden Sheriff Office,Large,None,100.0 Hz,023,High,Off,Auto,Off,49 19772 332.00 UT Weber Ogden Sheriff Office KE7EGG,1500 Hz
+235,448.07500,443.07500,5.00 MHz,Minus,Auto,EHP Denver,Large,Tone,123.0 Hz,023,High,Off,Auto,Off,8 91 292.00 CO Denver Denver N5EHP,1500 Hz
+236,145.49000,144.89000,600 kHz,Minus,Auto,EKR Canon City Fremont Peak,Large,T Sql,103.5 Hz,023,High,Off,Auto,Off,8 30 207.00 CO Fremont Canon City Fremont Peak WD0EKR,1500 Hz
+237,447.75000,442.75000,5.00 MHz,Minus,Auto,EKR Canon City Fremont Peak,Large,T Sql,103.5 Hz,023,High,Off,Auto,Off,8 32 207.00 CO Fremont Canon City Fremont Peak WD0EKR,1500 Hz
+238,449.72500,444.72500,5.00 MHz,Minus,Auto,ELK Carbondale Four Mile Ridge,Large,Tone,179.9 Hz,023,High,Off,Auto,Off,8 35 148.00 CO Garfield Carbondale Four Mile Ridge K0ELK,1500 Hz
+239,448.75000,443.75000,5.00 MHz,Minus,Auto,ELY Lakewood,Large,T Sql,100.0 Hz,023,High,Off,Auto,Off,8 8204 280.00 CO Jefferson Lakewood N0ELY,1500 Hz
+240,444.97500,449.97500,5.00 MHz,Plus,Auto,EMO Grants 515 West High Street,Large,T Sql,67.0 Hz,023,High,Off,Auto,Off,35 17042 327.00 NM Cibola Grants 515 West High Street K5EMO,1500 Hz
+241,147.27000,147.87000,600 kHz,Plus,Auto,ENO Longmont,Large,T Sql,100.0 Hz,023,High,Off,Auto,Off,8 175 316.00 CO Boulder Longmont W0ENO,1500 Hz
+242,448.80000,443.80000,5.00 MHz,Minus,Auto,ENO Longmont,Large,T Sql,88.5 Hz,023,High,Off,Auto,Off,8 177 317.00 CO Boulder Longmont W0ENO,1500 Hz
+243,448.52500,443.52500,5.00 MHz,Minus,Auto,EPA Longmont,Large,Tone,151.4 Hz,023,High,Off,Auto,Off,8 176 317.00 CO Boulder Longmont N0EPA,1500 Hz
+244,449.32500,444.32500,5.00 MHz,Minus,Auto,EPS Woodland Park Paradise Pines,Large,T Sql,103.5 Hz,023,High,Off,Auto,Off,8 9503 245.00 CO Teller Woodland Park Paradise Pines KA4EPS,1500 Hz
+245,447.52500,442.52500,5.00 MHz,Minus,Auto,ESQ Castle Rock Devils Head (Pik,Large,T Sql,146.2 Hz,023,High,Off,Auto,Off,8 8190 253.00 CO Douglas Castle Rock Devils Head (Pike National Forest) N0ESQ,1500 Hz
+246,447.52500,442.52500,5.00 MHz,Minus,Auto,ESQ Parker Hess Reservoir,Large,Tone,203.5 Hz,023,High,Off,Auto,Off,8 8189 287.00 CO Douglas Parker Hess Reservoir N0ESQ,1500 Hz
+247,448.62500,443.62500,5.00 MHz,Minus,Auto,EVE Durango,Large,T Sql,131.8 Hz,023,High,Off,Auto,Off,8 115 93.00 CO La Plata Durango KC5EVE,1500 Hz
+248,447.92500,442.92500,5.00 MHz,Minus,Auto,FEZ Denver,Large,T Sql,100.0 Hz,023,High,Off,Auto,Off,8 8196 292.00 CO Denver Denver K0FEZ,1500 Hz
+249,146.98500,146.38500,600 kHz,Minus,Auto,FEZ Golden Centennial Cone,Large,T Sql,100.0 Hz,023,High,Off,Auto,Off,8 82 269.00 CO Denver Golden Centennial Cone K0FEZ,1500 Hz
+250,442.45000,447.45000,5.00 MHz,Plus,Auto,FIQ Albuquerque Northern Sandia,Large,T Sql,67.0 Hz,023,High,Off,Auto,Off,35 17186 345.00 NM Bernalillo Albuquerque Northern Sandia Mountain Top K5FIQ,1500 Hz
+251,146.90000,146.30000,600 kHz,Minus,Auto,FIQ Albuquerque Op Ctr,Large,Tone,67.0 Hz,023,High,Off,Auto,Off,35 38 349.00 NM Bernalillo Albuquerque Op Ctr K5FIQ,1500 Hz
+252,449.55000,444.55000,5.00 MHz,Minus,Auto,FIQ Albuquerque Op Ctr,Large,Tone,71.9 Hz,023,High,Off,Auto,Off,35 39 349.00 NM Bernalillo Albuquerque Op Ctr K5FIQ,1500 Hz
+253,449.80000,444.80000,5.00 MHz,Minus,Auto,FIQ Albuquerque Op Ctr,Large,Tone,67.0 Hz,023,High,Off,Auto,Off,35 40 349.00 NM Bernalillo Albuquerque Op Ctr K5FIQ,1500 Hz
+254,145.80000,1269.65000,,Plus,Auto,FM ISS L/v VOICE Repeater (World,Large,None,100.0 Hz,023,High,Off,Auto,Off,FM ISS L/v VOICE Repeater (Worldwide),1500 Hz
+255,145.80000,437.80000,,Plus,Auto,FM ISS U/v VOICE Repeater (World,Large,None,100.0 Hz,023,High,Off,Auto,Off,FM ISS U/v VOICE Repeater (Worldwide),1500 Hz
+256,437.80000,145.99000,,Minus,Auto,FM ISS V/u with PL VOICE Repeate,Large,Tone,67.0 Hz,023,High,Off,Auto,Off,FM ISS V/u with PL VOICE Repeater (Worldwide),1500 Hz
+257,145.80000,144.49000,,Minus,Auto,FM ISS VOICE for ITU Region 2&3,Large,None,100.0 Hz,023,High,Off,Auto,Off,FM ISS VOICE for ITU Region 2&3,1500 Hz
+258,436.79500,145.85000,,Minus,Auto,FM SAT AO-27,Large,None,100.0 Hz,023,High,Off,Auto,Off,FM SAT AO-27,1500 Hz
+259,145.96000,435.25000,,Plus,Auto,FM SAT AO-91 (RadFxSat / Fox-1B),Large,Tone,67.0 Hz,023,High,Off,Auto,Off,FM SAT AO-91 (RadFxSat / Fox-1B),1500 Hz
+260,145.88000,435.35000,,Plus,Auto,FM SAT AO-92 (Fox-1D),Large,Tone,67.0 Hz,023,High,Off,Auto,Off,FM SAT AO-92 (Fox-1D),1500 Hz
+261,145.88000,1267.35900,,Plus,Auto,FM SAT AO-92 (Fox-1D),Large,Tone,67.0 Hz,023,High,Off,Auto,Off,FM SAT AO-92 (Fox-1D),1500 Hz
+262,437.20000,144.35000,,Minus,Auto,FM SAT CAS-3H (LilacSat-2),Large,None,100.0 Hz,023,High,Off,Auto,Off,FM SAT CAS-3H (LilacSat-2),1500 Hz
+263,435.60000,145.92500,,Minus,Auto,FM SAT CAS-5A,Large,None,100.0 Hz,023,High,Off,Auto,Off,FM SAT CAS-5A,1500 Hz
+264,435.45500,145.95000,,Minus,Auto,FM SAT CAS-7A,Large,None,100.0 Hz,023,High,Off,Auto,Off,FM SAT CAS-7A,1500 Hz
+265,435.69000,145.90000,,Minus,Auto,FM SAT CAS-7C,Large,None,100.0 Hz,023,High,Off,Auto,Off,FM SAT CAS-7C,1500 Hz
+266,436.40000,145.97000,,Minus,Auto,FM SAT Duchifat3,Large,None,100.0 Hz,023,High,Off,Auto,Off,FM SAT Duchifat3,1500 Hz
+267,145.89500,1263.50000,,Plus,Auto,FM SAT FUNcube on ESEO,Large,None,100.0 Hz,023,High,Off,Auto,Off,FM SAT FUNcube on ESEO,1500 Hz
+268,435.88000,145.88000,,Minus,Auto,FM SAT IO-86 (LAPAN-A2),Large,Tone,88.5 Hz,023,High,Off,Auto,Off,FM SAT IO-86 (LAPAN-A2),1500 Hz
+269,145.90000,437.50000,,Plus,Auto,FM SAT PO-101 (Diwata-2),Large,Tone,141.3 Hz,023,High,Off,Auto,Off,FM SAT PO-101 (Diwata-2),1500 Hz
+270,436.79500,145.85000,,Minus,Auto,FM SAT SO-50 (SaudiSat-1C),Large,Tone,67.0 Hz,023,High,Off,Auto,Off,FM SAT SO-50 (SaudiSat-1C),1500 Hz
+271,145.85000,436.00000,,Plus,Auto,FM SAT Swiatowid,Large,None,100.0 Hz,023,High,Off,Auto,Off,FM SAT Swiatowid,1500 Hz
+272,436.40000,145.97000,,Minus,Auto,FM SAT Tevel Mission,Large,None,100.0 Hz,023,High,Off,Auto,Off,FM SAT Tevel Mission,1500 Hz
+273,442.60000,447.60000,5.00 MHz,Plus,Auto,FSB Albuquerque Sandia Peak,Large,Tone,100.0 Hz,023,High,Off,Auto,Off,35 31 336.00 NM Bernalillo Albuquerque Sandia Peak K5FSB,1500 Hz
+274,449.90000,444.90000,5.00 MHz,Minus,Auto,FSX Punkin Center,Large,Tone,107.2 Hz,023,High,Off,Auto,Off,8 7395 351.00 CO Lincoln Punkin Center N1FSX,1500 Hz
+275,448.15000,443.15000,5.00 MHz,Minus,Auto,FUN Denver Green Valley Ranch,Large,T Sql,141.3 Hz,023,High,Off,Auto,Off,8 9765 312.00 CO Denver Denver Green Valley Ranch WE0FUN,1500 Hz
+276,444.95000,449.95000,5.00 MHz,Plus,Auto,FYL Grants La Mosca Peak,Large,Tone,100.0 Hz,023,High,Off,Auto,Off,35 96 315.00 NM Cibola Grants La Mosca Peak KE5FYL,1500 Hz
+277,147.18000,147.78000,600 kHz,Plus,Auto,FYL Grants Rogers rock,Large,None,100.0 Hz,023,High,Off,Auto,Off,35 10215 331.00 NM Cibola Grants Rogers rock KE5FYL,1500 Hz
+278,449.05000,444.05000,5.00 MHz,Minus,Auto,G0N Idaho Springs Squaw Mountain,Large,T Sql,107.2 Hz,023,High,Off,Auto,Off,8 95 258.00 CO Denver Idaho Springs Squaw Mountain WG0N,1500 Hz
+279,449.27500,444.27500,5.00 MHz,Minus,Auto,GAJ Santa Fe,Large,Tone,146.2 Hz,023,High,Off,Auto,Off,35 10216 307.00 NM Santa Fe Santa Fe K9GAJ,1500 Hz
+280,442.10000,447.10000,5.00 MHz,Plus,Auto,GAS Albuquerque Sandia Crest,Large,Tone,162.2 Hz,023,High,Off,Auto,Off,35 28 336.00 NM Bernalillo Albuquerque Sandia Crest KB5GAS,1500 Hz
+281,145.21000,144.61000,600 kHz,Minus,Auto,GDR Maxwell Eagle Tail Mountain,Large,T Sql,110.9 Hz,023,High,Off,Auto,Off,35 16113 323.00 NM Colfax Maxwell Eagle Tail Mountain N5GDR,1500 Hz
+282,448.15000,443.15000,5.00 MHz,Minus,Auto,GJT Grand Junction,Large,Tone,100.0 Hz,023,High,Off,Auto,Off,8 153 119.00 CO Mesa Grand Junction W0GJT,1500 Hz
+283,146.82000,146.22000,600 kHz,Minus,Auto,GJT Grand Junction 9 Mile Hwy 14,Large,Tone,107.2 Hz,023,High,Off,Auto,Off,8 261 136.00 CO Mesa Grand Junction 9 Mile Hwy 141 Unaweep W0GJT,1500 Hz
+284,145.34000,144.74000,600 kHz,Minus,Auto,GUQ Evergreen,Large,Tone,103.5 Hz,023,High,Off,Auto,Off,8 73 263.00 CO Jefferson Evergreen KE4GUQ,1500 Hz
+285,449.20000,444.20000,5.00 MHz,Minus,Auto,Glade Park,Large,Tone,107.2 Hz,023,High,Off,Auto,Off,8 18392 140.00 CO Mesa Glade Park,1500 Hz
+286,145.26500,144.66500,600 kHz,Minus,Auto,HAM Craig,Large,Tone,107.2 Hz,023,High,Off,Auto,Off,8 3740 270.00 CO Moffat Craig WD0HAM,1500 Hz
+287,145.49000,144.89000,600 kHz,Minus,Auto,HEN Vernal Grizzly Ridge,Large,Tone,136.5 Hz,023,High,Off,Auto,Off,49 24 337.00 UT Uintah Vernal Grizzly Ridge K7HEN,1500 Hz
+288,449.90000,444.90000,5.00 MHz,Minus,Auto,HLL Mexican Hat,Large,Tone,123.0 Hz,023,High,Off,Auto,Off,49 100 226.00 UT San Juan Mexican Hat KD7HLL,1500 Hz
+289,449.85000,444.85000,5.00 MHz,Minus,Auto,HND Glenwood Springs Lookout Mou,Large,T Sql,131.8 Hz,023,High,Off,Auto,Off,8 13637 165.00 CO Garfield Glenwood Springs Lookout Mountain WA4HND,1500 Hz
+290,449.57500,444.57500,5.00 MHz,Minus,Auto,HND Grand Junction Black Ridge,Large,T Sql,131.8 Hz,023,High,Off,Auto,Off,8 155 147.00 CO Mesa Grand Junction Black Ridge WA4HND,1500 Hz
+291,449.30000,444.30000,5.00 MHz,Minus,Auto,HND Grand Junction Grand Mesa,Large,T Sql,107.2 Hz,023,High,Off,Auto,Off,8 154 121.00 CO Mesa Grand Junction Grand Mesa WA4HND,1500 Hz
+292,447.20000,442.20000,5.00 MHz,Minus,Auto,HND Montrose Waterdog Peak,Large,T Sql,107.2 Hz,023,High,Off,Auto,Off,8 69 34.00 CO Montrose Montrose Waterdog Peak WA4HND,1500 Hz
+293,449.80000,444.80000,5.00 MHz,Minus,Auto,HND Parachute Mount Callahan,Large,Tone,107.2 Hz,023,High,Off,Auto,Off,8 253 156.00 CO Garfield Parachute Mount Callahan WA4HND,1500 Hz
+294,447.90000,442.90000,5.00 MHz,Minus,Auto,HQD South Fork,Large,Tone,100.0 Hz,023,High,Off,Auto,Off,8 19196 97.00 CO Rio Grande South Fork N0HQD,1500 Hz
+295,446.25000,441.25000,5.00 MHz,Minus,Auto,HRC Herriman Herriman High Schoo,Large,None,100.0 Hz,023,High,Off,Auto,Off,49 19781 332.00 UT Salt Lake Herriman Herriman High School N7HRC,1500 Hz
+296,146.88000,146.28000,600 kHz,Minus,Auto,I0G Glenwood Springs Sunlight Pe,Large,Tone,107.2 Hz,023,High,Off,Auto,Off,8 130 150.00 CO Garfield Glenwood Springs Sunlight Peak KI0G,1500 Hz
+297,447.10000,442.10000,5.00 MHz,Minus,Auto,I0G Glenwood Springs Sunlight Pe,Large,Tone,107.2 Hz,023,High,Off,Auto,Off,8 132 150.00 CO Garfield Glenwood Springs Sunlight Peak KI0G,1500 Hz
+298,448.85000,443.85000,5.00 MHz,Minus,Auto,IBM Golden Guy Hill,Large,T Sql,88.5 Hz,023,High,Off,Auto,Off,8 136 272.00 CO Jefferson Golden Guy Hill K0IBM,1500 Hz
+299,447.55000,442.55000,5.00 MHz,Minus,Auto,IFI Colorado Springs,Large,Tone,123.0 Hz,023,High,Off,Auto,Off,8 8191 257.00 CO El Paso Colorado Springs WA6IFI,1500 Hz
+300,145.43000,144.83000,600 kHz,Minus,Auto,IFI Trinidad Raton Pass,Large,Tone,107.2 Hz,023,High,Off,Auto,Off,8 239 302.00 CO Las Animas Trinidad Raton Pass WA6IFI,1500 Hz
+301,145.29000,144.69000,600 kHz,Minus,Auto,IHL Albuquerque Sandia Mnts,Large,Tone,100.0 Hz,023,High,Off,Auto,Off,35 17322 345.00 NM Bernalillo Albuquerque Sandia Mnts WA5IHL,1500 Hz
+302,442.75000,447.75000,5.00 MHz,Plus,Auto,IPK Albuquerque Sandia Crest,Large,Tone,162.2 Hz,023,High,Off,Auto,Off,35 203 336.00 NM Bernalillo Albuquerque Sandia Crest KC5IPK,1500 Hz
+303,442.75000,447.75000,5.00 MHz,Plus,Auto,IPK Rio Rancho,Large,Tone,162.2 Hz,023,High,Off,Auto,Off,35 3112 322.00 NM Sandoval Rio Rancho KC5IPK,1500 Hz
+304,146.91000,146.31000,600 kHz,Minus,Auto,IRP Colorado Springs,Large,T Sql,151.4 Hz,023,High,Off,Auto,Off,8 43 257.00 CO El Paso Colorado Springs K0IRP,1500 Hz
+305,447.35000,442.35000,5.00 MHz,Minus,Auto,IRP Colorado Springs,Large,Tone,151.4 Hz,023,High,Off,Auto,Off,8 50 257.00 CO El Paso Colorado Springs K0IRP,1500 Hz
+306,447.45000,442.45000,5.00 MHz,Minus,Auto,ITS Aztec,Large,Tone,107.2 Hz,023,High,Off,Auto,Off,35 44 145.00 NM San Juan Aztec KB5ITS,1500 Hz
+307,146.61000,146.01000,600 kHz,Minus,Auto,ITS Aztec Hottel Hill,Large,Tone,100.0 Hz,023,High,Off,Auto,Off,35 18461 147.00 NM San Juan Aztec Hottel Hill KB5ITS,1500 Hz
+308,146.88000,146.28000,600 kHz,Minus,Auto,ITS Aztec Tank Mtn,Large,Tone,100.0 Hz,023,High,Off,Auto,Off,35 15629 145.00 NM San Juan Aztec Tank Mtn KB5ITS,1500 Hz
+309,448.65000,443.65000,5.00 MHz,Minus,Auto,ITS Bloomfield,Large,Tone,127.3 Hz,023,High,Off,Auto,Off,35 16636 157.00 NM San Juan Bloomfield KB5ITS,1500 Hz
+310,147.10000,147.70000,600 kHz,Plus,Auto,ITS Bloomfield Harris mesa,Large,Tone,100.0 Hz,023,High,Off,Auto,Off,35 49 165.00 NM San Juan Bloomfield Harris mesa KB5ITS,1500 Hz
+311,145.19000,144.59000,600 kHz,Minus,Auto,ITS Cortez Goodman,Large,Tone,100.0 Hz,023,High,Off,Auto,Off,8 16606 104.00 CO Montezuma Cortez Goodman KB5ITS,1500 Hz
+312,447.27500,442.27500,5.00 MHz,Minus,Auto,ITS Dolores Summit Ridge,Large,Tone,100.0 Hz,023,High,Off,Auto,Off,8 16623 104.00 CO Montezuma Dolores Summit Ridge KB5ITS,1500 Hz
+313,147.13500,147.73500,600 kHz,Plus,Auto,ITS Durango Smelter Mountain,Large,T Sql,100.0 Hz,023,High,Off,Auto,Off,8 11545 95.00 CO La Plata Durango Smelter Mountain KB5ITS,1500 Hz
+314,146.76000,146.16000,600 kHz,Minus,Auto,ITS Farmington,Large,T Sql,100.0 Hz,023,High,Off,Auto,Off,35 84 160.00 NM San Juan Farmington KB5ITS,1500 Hz
+315,147.00000,147.60000,600 kHz,Plus,Auto,ITS Farmington College Hill,Large,Tone,100.0 Hz,023,High,Off,Auto,Off,35 86 156.00 NM San Juan Farmington College Hill KB5ITS,1500 Hz
+316,147.15000,147.75000,600 kHz,Plus,Auto,ITS Ignacio Spring Creek,Large,Tone,100.0 Hz,023,High,Off,Auto,Off,8 8177 108.00 CO La Plata Ignacio Spring Creek KB5ITS,1500 Hz
+317,147.13500,147.73500,600 kHz,Plus,Auto,ITS Lake City Hill 71,Large,Tone,123.0 Hz,023,High,Off,Auto,Off,8 16607 27.00 CO Hinsdale Lake City Hill 71 KB5ITS,1500 Hz
+318,145.25000,144.65000,600 kHz,Minus,Auto,ITS Lukachukai Roof Butte,Large,Tone,100.0 Hz,023,High,Off,Auto,Off,4 163 224.00 AZ Apache Lukachukai Roof Butte KB5ITS,1500 Hz
+319,145.32500,144.72500,600 kHz,Minus,Auto,ITS Mancos Caviness,Large,None,100.0 Hz,023,High,Off,Auto,Off,8 18459 93.00 CO Montezuma Mancos Caviness KB5ITS,1500 Hz
+320,145.32500,144.72500,600 kHz,Minus,Auto,ITS Mancos Caviness Mountain,Large,Tone,100.0 Hz,023,High,Off,Auto,Off,8 8168 93.00 CO Montezuma Mancos Caviness Mountain KB5ITS,1500 Hz
+321,442.37500,447.37500,5.00 MHz,Plus,Auto,ITS Mancos Caviness Mountain,Large,Tone,100.0 Hz,023,High,Off,Auto,Off,8 15896 94.00 CO Montezuma Mancos Caviness Mountain KB5ITS,1500 Hz
+322,447.27500,442.27500,5.00 MHz,Minus,Auto,ITS Monticello Abajo Peak,Large,Tone,100.0 Hz,023,High,Off,Auto,Off,49 18460 165.00 UT San Juan Monticello Abajo Peak KB5ITS,1500 Hz
+323,448.82500,443.82500,5.00 MHz,Minus,Auto,ITS Montrose Raspberry Ridge,Large,Tone,100.0 Hz,023,High,Off,Auto,Off,8 18465 57.00 CO Montrose Montrose Raspberry Ridge KB5ITS,1500 Hz
+324,147.36000,147.96000,600 kHz,Plus,Auto,ITS Navajo Dam Navajo Lake,Large,Tone,100.0 Hz,023,High,Off,Auto,Off,35 15644 143.00 NM San Juan Navajo Dam Navajo Lake KB5ITS,1500 Hz
+325,147.27000,147.87000,600 kHz,Plus,Auto,ITS Ouray Engineer Mountain,Large,Tone,127.3 Hz,023,High,Off,Auto,Off,8 16604 9.00 CO Ouray Ouray Engineer Mountain KB5ITS,1500 Hz
+326,447.52500,442.52500,5.00 MHz,Minus,Auto,ITS Silverton,Large,Tone,127.3 Hz,023,High,Off,Auto,Off,8 210 31.00 CO San Juan Silverton KB5ITS,1500 Hz
+327,145.32500,144.72500,600 kHz,Minus,Auto,ITS Silverton Buffalo Boy,Large,Tone,127.3 Hz,023,High,Off,Auto,Off,8 16605 31.00 CO San Juan Silverton Buffalo Boy KB5ITS,1500 Hz
+328,444.00000,449.00000,5.00 MHz,Plus,Auto,ITS Silverton Hazelton,Large,Tone,67.0 Hz,023,High,Off,Auto,Off,8 16624 31.00 CO San Juan Silverton Hazelton KB5ITS,1500 Hz
+329,147.37500,147.97500,600 kHz,Plus,Auto,ITS Silverton Kendall Mountain,Large,Tone,156.7 Hz,023,High,Off,Auto,Off,8 209 33.00 CO San Juan Silverton Kendall Mountain KB5ITS,1500 Hz
+330,147.27000,147.87000,600 kHz,Plus,Auto,ITT Silverton Engineer Mountain,Large,Tone,127.3 Hz,023,High,Off,Auto,Off,8 208 47.00 CO San Juan Silverton Engineer Mountain KB5ITT,1500 Hz
+331,147.24000,147.84000,600 kHz,Plus,Auto,J0T Pueblo,Large,Tone,103.5 Hz,023,High,Off,Auto,Off,8 3747 263.00 CO Pueblo Pueblo KJ0T,1500 Hz
+332,444.40000,449.40000,5.00 MHz,Plus,Auto,JNI Wagon Mound,Large,Tone,100.0 Hz,023,High,Off,Auto,Off,35 181 346.00 NM Mora Wagon Mound N7JNI,1500 Hz
+333,145.35500,144.75500,600 kHz,Minus,Auto,JPX La Veta,Large,Tone,100.0 Hz,023,High,Off,Auto,Off,8 168 238.00 CO Huerfano La Veta N0JPX,1500 Hz
+334,447.17500,442.17500,5.00 MHz,Minus,Auto,JRL Denver Denver Water Administ,Large,T Sql,100.0 Hz,023,High,Off,Auto,Off,8 12216 290.00 CO Denver Denver Denver Water Administration W0JRL,1500 Hz
+335,447.97500,442.97500,5.00 MHz,Minus,Auto,JSC Canon City Colorado,Large,T Sql,100.0 Hz,023,High,Off,Auto,Off,8 7185 211.00 CO Fremont Canon City Colorado K0JSC,1500 Hz
+336,447.25000,442.25000,5.00 MHz,Minus,Auto,JSC Canon City Fremont Peak,Large,T Sql,100.0 Hz,023,High,Off,Auto,Off,8 8879 207.00 CO Fremont Canon City Fremont Peak K0JSC,1500 Hz
+337,449.97500,444.97500,5.00 MHz,Minus,Auto,JSC Larkspur Westcreek,Large,T Sql,100.0 Hz,023,High,Off,Auto,Off,8 15903 254.00 CO Douglas Larkspur Westcreek K0JSC,1500 Hz
+338,449.97500,444.97500,5.00 MHz,Minus,Auto,JSC Pueblo Cedarwood,Large,T Sql,100.0 Hz,023,High,Off,Auto,Off,8 5369 273.00 CO Pueblo Pueblo Cedarwood K0JSC,1500 Hz
+339,447.27500,442.27500,5.00 MHz,Minus,Auto,JSC Pueblo Metro,Large,T Sql,100.0 Hz,023,High,Off,Auto,Off,8 9527 263.00 CO Pueblo Pueblo Metro K0JSC,1500 Hz
+340,448.97500,443.97500,5.00 MHz,Minus,Auto,JSC Pueblo West,Large,T Sql,100.0 Hz,023,High,Off,Auto,Off,8 7994 252.00 CO Pueblo Pueblo West K0JSC,1500 Hz
+341,448.32500,443.32500,5.00 MHz,Minus,Auto,JSC Westcliffe,Large,T Sql,100.0 Hz,023,High,Off,Auto,Off,8 15584 188.00 CO Custer Westcliffe K0JSC,1500 Hz
+342,146.61000,146.01000,600 kHz,Minus,Auto,JSP Pagosa Springs Oakbrush Hill,Large,Tone,123.0 Hz,023,High,Off,Auto,Off,8 188 109.00 CO Archuleta Pagosa Springs Oakbrush Hill N0JSP,1500 Hz
+343,146.71500,146.11500,600 kHz,Minus,Auto,JXN Denver,Large,T Sql,123.0 Hz,023,High,Off,Auto,Off,8 79 292.00 CO Denver Denver N0JXN,1500 Hz
 344,147.00000,147.60000,600 kHz,Plus,Auto,KWD Gilcrest,Large,T Sql,100.0 Hz,023,High,Off,Auto,Off,8 157 348.00 CO Weld Gilcrest KC0KWD,1500 Hz
 345,448.47500,443.47500,5.00 MHz,Minus,Auto,KWD Gilcrest,Large,Tone,100.0 Hz,023,High,Off,Auto,Off,8 158 348.00 CO Weld Gilcrest KC0KWD,1500 Hz
 346,147.34000,147.94000,600 kHz,Plus,Auto,LEM Angel Fire Agua Fria Peak,Large,Tone,100.0 Hz,023,High,Off,Auto,Off,35 41 286.00 NM Colfax Angel Fire Agua Fria Peak N5LEM,1500 Hz
@@ -359,7 +359,7 @@ Channel Number,Receive Frequency,Transmit Frequency,Offset Frequency,Offset Dire
 358,147.39000,147.99000,600 kHz,Plus,Auto,MOG Colorado Springs,Large,Tone,103.5 Hz,023,High,Off,Auto,Off,8 48 257.00 CO El Paso Colorado Springs W0MOG,1500 Hz
 359,448.60000,443.60000,5.00 MHz,Minus,Auto,MOG Colorado Springs,Large,Tone,114.8 Hz,023,High,Off,Auto,Off,8 55 257.00 CO El Paso Colorado Springs W0MOG,1500 Hz
 360,145.32500,144.72500,600 kHz,Minus,Auto,MRC Maysville,Large,Tone,100.0 Hz,023,High,Off,Auto,Off,8 16739 120.00 CO Chaffee Maysville KD0MRC,1500 Hz
-361,145.19000,144.59000,600 kHz,Minus,Auto,OBA Aurora,Large,Tone,131.8 Hz,023,High,Off,Auto,Off,8 8741 300.00 CO Arapahoe Aurora N0OBA,1500 Hz
+361,145.19000,144.59000,600 kHz,Minus,Auto,OBA Aurora,Large,T Sql,71.9 Hz,023,High,Off,Auto,Off,8 8741 300.00 CO Arapahoe Aurora N0OBA,1500 Hz
 362,442.35000,447.35000,5.00 MHz,Plus,Auto,OLD Rio Rancho,Large,Tone,100.0 Hz,023,High,Off,Auto,Off,35 140 325.00 NM Sandoval Rio Rancho WA5OLD,1500 Hz
 363,146.79000,146.19000,600 kHz,Minus,Auto,OPD Montrose,Large,T Sql,107.2 Hz,023,High,Off,Auto,Off,8 7953 49.00 CO Montrose Montrose KD5OPD,1500 Hz
 364,447.50000,442.50000,5.00 MHz,Minus,Auto,OWY Conifer Critchell Mountain,Large,T Sql,88.5 Hz,023,High,Off,Auto,Off,8 60 259.00 CO Jefferson Conifer Critchell Mountain N0OWY,1500 Hz
@@ -397,7 +397,7 @@ Channel Number,Receive Frequency,Transmit Frequency,Offset Frequency,Offset Dire
 396,146.94000,146.34000,600 kHz,Minus,Auto,RRZ Grand Junction Black Ridge (,Large,T Sql,107.2 Hz,023,High,Off,Auto,Off,8 151 147.00 CO Mesa Grand Junction Black Ridge (Above Colorado Ntl Monument) W0RRZ,1500 Hz
 397,145.17500,144.57500,600 kHz,Minus,Auto,RRZ Grand Junction GJT,Large,Tone,107.2 Hz,023,High,Off,Auto,Off,8 147 139.00 CO Mesa Grand Junction GJT W0RRZ,1500 Hz
 398,145.43000,144.83000,600 kHz,Minus,Auto,SAR Zuni Black rock,Large,Tone,162.2 Hz,023,High,Off,Auto,Off,35 185 346.00 NM McKinley Zuni Black rock KD5SAR,1500 Hz
-399,447.70000,442.70000,5.00 MHz,Minus,Auto,SBN Pueblo West,Large,None,100.0 Hz,023,High,Off,Auto,Off,8 19462 254.00 CO Pueblo Pueblo West KD0SBN,1500 Hz
+399,447.90000,442.90000,5.00 MHz,Minus,Auto,SBN Pueblo West,Large,None,100.0 Hz,023,High,Off,Auto,Off,8 19462 254.00 CO Pueblo Pueblo West KD0SBN,1500 Hz
 400,147.14000,147.74000,600 kHz,Plus,Auto,SDC Castle Dale Cedar Mountain,Large,Tone,88.5 Hz,023,High,Off,Auto,Off,49 57 288.00 UT Emery Castle Dale Cedar Mountain K7SDC,1500 Hz
 401,448.55000,443.55000,5.00 MHz,Minus,Auto,SDC Castle Dale Cedar Mountain,Large,Tone,88.5 Hz,023,High,Off,Auto,Off,49 274 288.00 UT Emery Castle Dale Cedar Mountain K7SDC,1500 Hz
 402,147.06000,147.66000,600 kHz,Plus,Auto,SDC Castle Dale Horn Mountain,Large,Tone,88.5 Hz,023,High,Off,Auto,Off,49 54 331.00 UT Emery Castle Dale Horn Mountain K7SDC,1500 Hz

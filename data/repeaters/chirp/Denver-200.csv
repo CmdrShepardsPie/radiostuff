@@ -166,36 +166,36 @@ Location,Name,Frequency,Duplex,Offset,Tone,rToneFreq,cToneFreq,DtcsCode,DtcsRxCo
 164,G0N Idaho Springs Squaw Mountain,449.05,split,444.05,TSQL,107.2,107.2,23,23,NN,FM,5,8 95 47.00 CO Denver Idaho Springs Squaw Mountain WG0N
 165,GUQ Evergreen,145.34,split,144.74,Cross,103.5,127.3,23,23,NN,FM,5,8 73 32.00 CO Jefferson Evergreen KE4GUQ
 166,IBM Golden Guy Hill,448.85,split,443.85,TSQL,88.5,88.5,23,23,NN,FM,5,8 136 31.00 CO Jefferson Golden Guy Hill K0IBM
-167,JRL Denver Broadway Plaza Lofts,447.175,split,442.175,TSQL,100,100,23,23,NN,FM,5,8 12216 3.00 CO Denver Denver Broadway Plaza Lofts W0JRL
+167,JRL Denver Denver Water Administ,447.175,split,442.175,TSQL,100,100,23,23,NN,FM,5,8 12216 4.00 CO Denver Denver Denver Water Administration W0JRL
 168,JSC Larkspur Westcreek,449.975,split,444.975,TSQL,100,100,23,23,NN,FM,5,8 15903 63.00 CO Douglas Larkspur Westcreek K0JSC
 169,JXN Denver,146.715,split,146.115,TSQL,123,123,23,23,NN,FM,5,8 79 2.00 CO Denver Denver N0JXN
-170,KIZ Denver,448.55,split,443.55,Tone,82.5,82.5,23,23,NN,FM,5,8 93 2.00 CO Denver Denver W0KIZ
-171,KWD Gilcrest,448.475,split,443.475,Tone,100,100,23,23,NN,FM,5,8 158 63.00 CO Weld Gilcrest KC0KWD
-172,LMA Broomfield,448.925,split,443.925,Tone,131.8,131.8,23,23,NN,FM,5,8 26 23.00 CO Boulder Broomfield W0LMA
-173,LRA Loveland Namaqua Hill,147.195,split,147.795,Tone,100,100,23,23,NN,FM,5,8 179 75.00 CO Larimer Loveland Namaqua Hill W0LRA
-174,LRA Loveland Namaqua Hill,449.575,split,444.575,Tone,100,100,23,23,NN,FM,5,8 181 74.00 CO Larimer Loveland Namaqua Hill W0LRA
-175,LXX Morrison Mt. Morrison,447.875,split,442.875,TSQL,107.2,107.2,23,23,NN,FM,5,8 10513 23.00 CO Jefferson Morrison Mt. Morrison N6LXX
-176,MHU Golden Guy Hill,224,split,222.4,TSQL,103.5,103.5,23,23,NN,FM,5,8 86 31.00 CO Jefferson Golden Guy Hill N0MHU
-177,OBA Aurora,145.19,split,144.59,Cross,131.8,69.3,23,23,NN,FM,5,8 8741 21.00 CO Arapahoe Aurora N0OBA
-178,OWY Conifer Critchell Mountain,447.5,split,442.5,TSQL,88.5,88.5,23,23,NN,FM,5,8 60 36.00 CO Jefferson Conifer Critchell Mountain N0OWY
-179,POH Golden Guy Hill,224.74,split,223.14,TSQL,88.5,88.5,23,23,NN,FM,5,8 134 31.00 CO Jefferson Golden Guy Hill N0POH
-180,PUF Centennial Warren Mountain,146.88,split,146.28,Tone,100,100,23,23,NN,FM,5,8 80 29.00 CO Jefferson Centennial Warren Mountain N0PUF
-181,PUF Golden Centennial Cone,146.64,split,146.04,Tone,100,100,23,23,NN,FM,5,8 77 34.00 CO Jefferson Golden Centennial Cone N0PUF
-182,PYY Evergreen Squaw Mountain,147.3,split,147.9,TSQL,103.5,103.5,23,23,NN,FM,5,8 84 45.00 CO Clear Creek Evergreen Squaw Mountain N0PYY
-183,PYY Golden,448.125,split,443.125,Tone,107.2,107.2,23,23,NN,FM,5,8 143 22.00 CO Jefferson Golden N0PYY
-184,Q8M Parker,448.7,split,443.7,Tone,146.2,146.2,23,23,NN,FM,5,8 274 25.00 CO Douglas Parker WQ8M
-185,SRJ Colorado Springs ~2 mi ENE U,448.8,split,443.8,Tone,100,100,23,23,NN,FM,5,8 57 80.00 CO El Paso Colorado Springs ~2 mi ENE USAFA North Gate KB0SRJ
-186,SSP Lakewood Moffat Treatment Pl,147.21,split,147.81,TSQL,100,100,23,23,NN,FM,5,8 9775 14.00 CO Jefferson Lakewood Moffat Treatment Plant KD0SSP
-187,TPT Denver,447.9,split,442.9,,100,100,23,23,NN,FM,5,8 8195 2.00 CO Denver Denver WB0TPT
-188,UDD Aurora Smokey Hill,448.5,split,443.5,Tone,100,100,23,23,NN,FM,5,8 92 12.00 CO Denver Aurora Smokey Hill KB0UDD
-189,UDD Aurora Smoky Hill,145.4,split,144.8,Tone,100,100,23,23,NN,FM,5,8 5 24.00 CO Arapahoe Aurora Smoky Hill KB0UDD
-190,UDD Idaho Springs Squaw Mountain,146.67,split,146.07,TSQL,100,100,23,23,NN,FM,5,8 78 45.00 CO Clear Creek Idaho Springs Squaw Mountain KB0UDD
-191,UPS Greeley UNC,146.85,split,146.25,TSQL,100,100,23,23,NN,FM,5,8 156 78.00 CO Weld Greeley UNC W0UPS
-192,UPS Westminster,449.3,split,444.3,Tone,100,100,23,23,NN,FM,5,8 8208 13.00 CO Adams Westminster N1UPS
-193,VJJ Boulder Thorodin Mountain,145.31,split,144.71,Cross,88.5,123,23,23,NN,FM,5,8 72 43.00 CO Gilpin Boulder Thorodin Mountain KB0VJJ
-194,VJJ Winter Park Winter Park,147.285,split,147.885,Cross,88.5,123,23,23,NN,FM,5,8 15582 70.00 CO Grand Winter Park Winter Park KB0VJJ
-195,WUC Woodland Park,145.415,split,144.815,Tone,179.9,179.9,23,23,NN,FM,5,8 249 83.00 CO Teller Woodland Park KA0WUC
-196,WYX Broomfield,449.825,split,444.825,Tone,103.5,103.5,23,23,NN,FM,5,8 266 23.00 CO Boulder Broomfield W0WYX
-197,WYX Idaho Springs Squaw Mountain,146.94,split,146.34,TSQL,103.5,103.5,23,23,NN,FM,5,8 81 46.00 CO Clear Creek Idaho Springs Squaw Mountain W0WYX
+170,KWD Gilcrest,448.475,split,443.475,Tone,100,100,23,23,NN,FM,5,8 158 63.00 CO Weld Gilcrest KC0KWD
+171,LMA Broomfield,448.925,split,443.925,Tone,131.8,131.8,23,23,NN,FM,5,8 26 23.00 CO Boulder Broomfield W0LMA
+172,LRA Loveland Namaqua Hill,147.195,split,147.795,Tone,100,100,23,23,NN,FM,5,8 179 75.00 CO Larimer Loveland Namaqua Hill W0LRA
+173,LRA Loveland Namaqua Hill,449.575,split,444.575,Tone,100,100,23,23,NN,FM,5,8 181 74.00 CO Larimer Loveland Namaqua Hill W0LRA
+174,LXX Morrison Mt. Morrison,447.875,split,442.875,TSQL,107.2,107.2,23,23,NN,FM,5,8 10513 23.00 CO Jefferson Morrison Mt. Morrison N6LXX
+175,MHU Golden Guy Hill,224,split,222.4,TSQL,103.5,103.5,23,23,NN,FM,5,8 86 31.00 CO Jefferson Golden Guy Hill N0MHU
+176,OBA Aurora,145.19,split,144.59,TSQL,71.9,71.9,23,23,NN,FM,5,8 8741 21.00 CO Arapahoe Aurora N0OBA
+177,OWY Conifer Critchell Mountain,447.5,split,442.5,TSQL,88.5,88.5,23,23,NN,FM,5,8 60 36.00 CO Jefferson Conifer Critchell Mountain N0OWY
+178,POH Golden Guy Hill,224.74,split,223.14,TSQL,88.5,88.5,23,23,NN,FM,5,8 134 31.00 CO Jefferson Golden Guy Hill N0POH
+179,PUF Centennial Warren Mountain,146.88,split,146.28,Tone,100,100,23,23,NN,FM,5,8 80 29.00 CO Jefferson Centennial Warren Mountain N0PUF
+180,PUF Golden Centennial Cone,146.64,split,146.04,Tone,100,100,23,23,NN,FM,5,8 77 34.00 CO Jefferson Golden Centennial Cone N0PUF
+181,PYY Evergreen Squaw Mountain,147.3,split,147.9,TSQL,103.5,103.5,23,23,NN,FM,5,8 84 45.00 CO Clear Creek Evergreen Squaw Mountain N0PYY
+182,PYY Golden,448.125,split,443.125,Tone,107.2,107.2,23,23,NN,FM,5,8 143 22.00 CO Jefferson Golden N0PYY
+183,Q8M Parker,448.7,split,443.7,Tone,146.2,146.2,23,23,NN,FM,5,8 274 25.00 CO Douglas Parker WQ8M
+184,SRJ Colorado Springs ~2 mi ENE U,448.8,split,443.8,Tone,100,100,23,23,NN,FM,5,8 57 80.00 CO El Paso Colorado Springs ~2 mi ENE USAFA North Gate KB0SRJ
+185,SSP Lakewood Moffat Treatment Pl,147.21,split,147.81,TSQL,100,100,23,23,NN,FM,5,8 9775 14.00 CO Jefferson Lakewood Moffat Treatment Plant KD0SSP
+186,TPT Denver,447.9,split,442.9,,100,100,23,23,NN,FM,5,8 8195 2.00 CO Denver Denver WB0TPT
+187,UDD Aurora Smokey Hill,448.5,split,443.5,Tone,100,100,23,23,NN,FM,5,8 92 12.00 CO Denver Aurora Smokey Hill KB0UDD
+188,UDD Aurora Smoky Hill,145.4,split,144.8,Tone,100,100,23,23,NN,FM,5,8 5 24.00 CO Arapahoe Aurora Smoky Hill KB0UDD
+189,UDD Idaho Springs Squaw Mountain,146.67,split,146.07,TSQL,100,100,23,23,NN,FM,5,8 78 45.00 CO Clear Creek Idaho Springs Squaw Mountain KB0UDD
+190,UPS Greeley UNC,146.85,split,146.25,TSQL,100,100,23,23,NN,FM,5,8 156 78.00 CO Weld Greeley UNC W0UPS
+191,UPS Westminster,449.3,split,444.3,Tone,100,100,23,23,NN,FM,5,8 8208 13.00 CO Adams Westminster N1UPS
+192,VJJ Boulder Thorodin Mountain,145.31,split,144.71,Cross,88.5,123,23,23,NN,FM,5,8 72 43.00 CO Gilpin Boulder Thorodin Mountain KB0VJJ
+193,VJJ Winter Park Winter Park,147.285,split,147.885,Cross,88.5,123,23,23,NN,FM,5,8 15582 70.00 CO Grand Winter Park Winter Park KB0VJJ
+194,WUC Woodland Park,145.415,split,144.815,Tone,179.9,179.9,23,23,NN,FM,5,8 249 83.00 CO Teller Woodland Park KA0WUC
+195,WYX Broomfield,449.825,split,444.825,Tone,103.5,103.5,23,23,NN,FM,5,8 266 23.00 CO Boulder Broomfield W0WYX
+196,WYX Idaho Springs Squaw Mountain,146.94,split,146.34,TSQL,103.5,103.5,23,23,NN,FM,5,8 81 46.00 CO Clear Creek Idaho Springs Squaw Mountain W0WYX
+197,X0G Woodland Park,146.82,split,146.22,Tone,107.2,107.2,23,23,NN,FM,5,8 250 83.00 CO Teller Woodland Park NX0G
 198,XLF Palmer Lake Monument Hill,147.075,split,147.675,Cross,131.8,69.3,23,23,NN,FM,5,8 8740 67.00 CO Douglas Palmer Lake Monument Hill N0XLF
 199,ZUQ Aurora,448.4,split,443.4,Tone,94.8,94.8,23,23,NN,FM,5,8 8202 11.00 CO Arapahoe Aurora N0ZUQ

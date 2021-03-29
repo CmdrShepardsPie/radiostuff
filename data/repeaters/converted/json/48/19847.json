@@ -1,0 +1,21 @@
+{
+  "ID": 19847,
+  "StateID": 48,
+  "Callsign": "KB8SEM",
+  "Location": {
+    "Latitude": 36.007145,
+    "Longitude": -102.602535,
+    "County": "Hartley",
+    "State": "TX",
+    "Local": "Dalhart"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 449.6,
+    "Output": 444.6
+  },
+  "SquelchTone": {
+    "Input": 88.5
+  }
+}

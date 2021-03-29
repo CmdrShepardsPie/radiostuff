@@ -114,7 +114,7 @@ Location,Name,Frequency,Duplex,Offset,Tone,rToneFreq,cToneFreq,DtcsCode,DtcsRxCo
 112,HND Montrose Waterdog Peak,447.2,split,442.2,TSQL,107.2,107.2,23,23,NN,FM,5,8 69 34.00 CO Montrose Montrose Waterdog Peak WA4HND
 113,ITS Lake City Hill 71,147.135,split,147.735,Tone,123,123,23,23,NN,FM,5,8 16607 27.00 CO Hinsdale Lake City Hill 71 KB5ITS
 114,ITS Mancos Caviness,145.325,split,144.725,,100,100,23,23,NN,FM,5,8 18459 93.00 CO Montezuma Mancos Caviness KB5ITS
-115,ITS Montrose Raspberry,448.825,split,443.825,Tone,100,100,23,23,NN,FM,5,8 18465 42.00 CO Montrose Montrose Raspberry KB5ITS
+115,ITS Montrose Raspberry Ridge,448.825,split,443.825,Tone,100,100,23,23,NN,FM,5,8 18465 57.00 CO Montrose Montrose Raspberry Ridge KB5ITS
 116,ITS Ouray Engineer Mountain,147.27,split,147.87,Tone,127.3,127.3,23,23,NN,FM,5,8 16604 9.00 CO Ouray Ouray Engineer Mountain KB5ITS
 117,ITS Silverton,447.525,split,442.525,Tone,127.3,127.3,23,23,NN,FM,5,8 210 31.00 CO San Juan Silverton KB5ITS
 118,ITS Silverton Buffalo Boy,145.325,split,144.725,Tone,127.3,127.3,23,23,NN,FM,5,8 16605 31.00 CO San Juan Silverton Buffalo Boy KB5ITS

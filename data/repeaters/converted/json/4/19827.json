@@ -1,0 +1,24 @@
+{
+  "ID": 19827,
+  "StateID": 4,
+  "Callsign": "KF7LRD",
+  "Location": {
+    "Latitude": 35.200282,
+    "Longitude": -112.205108,
+    "County": "Coconino",
+    "State": "AZ",
+    "Local": "Williams"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 443.3,
+    "Output": 448.3
+  },
+  "Digital": {
+    "DMR": {
+      "ColorCode": 1,
+      "ID": 312078
+    }
+  }
+}

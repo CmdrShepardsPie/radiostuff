@@ -20,7 +20,8 @@
   },
   "Digital": {
     "DMR": {
-      "ColorCode": 0
+      "ColorCode": 0,
+      "ID": 0
     }
   },
   "VOIP": {

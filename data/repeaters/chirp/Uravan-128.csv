@@ -113,7 +113,7 @@ Location,Name,Frequency,Duplex,Offset,Tone,rToneFreq,cToneFreq,DtcsCode,DtcsRxCo
 111,GJT Grand Junction 9 Mile Hwy 14,146.82,split,146.22,Tone,107.2,107.2,23,23,NN,FM,5,8 261 79.00 CO Mesa Grand Junction 9 Mile Hwy 141 Unaweep W0GJT
 112,Glade Park,449.2,split,444.2,Tone,107.2,107.2,23,23,NN,FM,5,8 18392 68.00 CO Mesa Glade Park
 113,HND Grand Junction Black Ridge,449.575,split,444.575,TSQL,131.8,131.8,23,23,NN,FM,5,8 155 78.00 CO Mesa Grand Junction Black Ridge WA4HND
-114,ITS Montrose Raspberry,448.825,split,443.825,Tone,100,100,23,23,NN,FM,5,8 18465 78.00 CO Montrose Montrose Raspberry KB5ITS
+114,ITS Montrose Raspberry Ridge,448.825,split,443.825,Tone,100,100,23,23,NN,FM,5,8 18465 47.00 CO Montrose Montrose Raspberry Ridge KB5ITS
 115,OPD Montrose,146.79,split,146.19,TSQL,107.2,107.2,23,23,NN,FM,5,8 7953 76.00 CO Montrose Montrose KD5OPD
 116,QEQ Moab,146.9,split,146.3,Tone,88.5,88.5,23,23,NN,FM,5,49 48 74.00 UT Grand Moab K7QEQ
 117,QEQ Moab Bald Mesa,146.76,split,146.16,Tone,88.5,88.5,23,23,NN,FM,5,49 13042 54.00 UT Grand Moab Bald Mesa K7QEQ

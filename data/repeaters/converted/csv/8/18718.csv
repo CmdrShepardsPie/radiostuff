@@ -1,2 +1,2 @@
-ID,StateID,Callsign,Use,Status,DigitalTone,Digital,Location.Latitude,Location.Longitude,Location.County,Location.State,Location.Local,Frequency.Input,Frequency.Output,SquelchTone.Input,SquelchTone.Output,VOIP.AllStar,VOIP.EchoLink,VOIP.IRLP,VOIP.Wires.ID
-18718,8,KD0OXW,Open,On-Air,,,39.374653,-103.8021,Lincoln,CO,"Limon, Cedar Point",442.65,447.65,103.5,,,,,36702
+ID,StateID,Callsign,Use,Status,DigitalTone,Location.Latitude,Location.Longitude,Location.County,Location.State,Location.Local,Frequency.Input,Frequency.Output,SquelchTone.Input,SquelchTone.Output,Digital.DMR,Digital.P25,Digital.DStar,Digital.NXDN,VOIP.AllStar,VOIP.EchoLink,VOIP.IRLP,VOIP.Wires.ID,Digital.YSF.GroupID.Input,Digital.YSF.GroupID.Output
+18718,8,KD0OXW,Open,On-Air,,39.374653,-103.8021,Lincoln,CO,"Limon, Cedar Point",442.65,447.65,103.5,,,,,,,,,68520,Open ↑,Open ↓

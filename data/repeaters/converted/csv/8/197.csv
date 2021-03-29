@@ -1,2 +1,2 @@
 ID,StateID,Callsign,Use,Status,DigitalTone,VOIP,Location.Latitude,Location.Longitude,Location.County,Location.State,Location.Local,Frequency.Input,Frequency.Output,SquelchTone.Input,SquelchTone.Output,Digital.P25,Digital.DStar,Digital.NXDN,Digital.YSF,Digital.DMR.ColorCode,Digital.DMR.ID
-197,8,W0PHC,Open,On-Air,,,38.20700073,-104.7070007,Pueblo,CO,"Pueblo, 12 Mile Hill",442.175,447.175,88.5,,,,,,0,
+197,8,W0PHC,Open,On-Air,,,38.20700073,-104.7070007,Pueblo,CO,"Pueblo, 12 Mile Hill",442.175,447.175,88.5,,,,,,0,0

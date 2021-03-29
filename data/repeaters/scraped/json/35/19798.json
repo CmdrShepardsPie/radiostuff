@@ -1,13 +1,13 @@
 {
   "Frequency": 146.78,
   "Offset": -0.6,
-  "Tone": "CC2",
+  "Tone": "CC5",
   "Call": "KF5PFO",
   "Location": "Tres Piedras, San Antonio Mountain",
   "ST/PR": "NM",
   "Use": "OPEN",
   "Mode": "DMR",
-  "Mi": 198.01,
+  "Mi": 93.21,
   "Dir": "SSW",
   "": "",
   "state_id": "35",
@@ -17,9 +17,11 @@
   "Downlink": 146.78,
   "Uplink": 146.18,
   "DMR Enabled": true,
-  "Color Code": 2,
+  "Color Code": 5,
+  "DMR ID": 312251,
   "IPSC Network": "c Record retrieved from radioid.net",
-  "Wide Network": "",
+  "Local Network": "BrandMeister US",
+  "Wide Network": "BrandMeister",
   "Talkgroups": "Open Talkgroup View Assignment TS TG Access New Mexico 2 3135 Full-Time NM Chat / TAC 2 31350 Full-Time function myFunction(id) { var x = document.getElementById(id); if (x.className.indexOf(\"w3-show\") == -1) { x.className += \" w3-show\"; } else { x.className = x.className.replace(\" w3-show\", \"\"); } }",
   "New Mexico": 2,
   "NM Chat / TAC": 2,
@@ -28,6 +30,7 @@
   "Coverage": "Wide",
   "Sponsor": "Taos ARC",
   "Features": "KF5PFO-SAM Brandmeister VHF",
+  "Notes": "TS1: National, Regional TG's. TS2: TG-9 Local TG-3135 New Mexico Statewide TG-31350 NM Tac",
   "Web links": "http://www.taosarc.org",
-  "Last update": "2021-02-18"
+  "Last update": "2021-02-24"
 }

@@ -18,5 +18,13 @@
   "SquelchTone": {
     "Input": 162.2,
     "Output": 162.2
+  },
+  "Digital": {
+    "YSF": {
+      "GroupID": {
+        "Input": "Open ↑",
+        "Output": "Open ↓"
+      }
+    }
   }
 }

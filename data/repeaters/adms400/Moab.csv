@@ -314,7 +314,7 @@ Channel Number,Receive Frequency,Transmit Frequency,Offset Frequency,Offset Dire
 313,145.32500,144.72500,600 kHz,Minus,Auto,ITS Mancos Caviness Mountain,Large,Tone,100.0 Hz,023,High,Off,Auto,Off,8 8168 182.00 CO Montezuma Mancos Caviness Mountain KB5ITS,1500 Hz
 314,442.37500,447.37500,5.00 MHz,Plus,Auto,ITS Mancos Caviness Mountain,Large,Tone,100.0 Hz,023,High,Off,Auto,Off,8 15896 182.00 CO Montezuma Mancos Caviness Mountain KB5ITS,1500 Hz
 315,447.27500,442.27500,5.00 MHz,Minus,Auto,ITS Monticello Abajo Peak,Large,Tone,100.0 Hz,023,High,Off,Auto,Off,49 18460 82.00 UT San Juan Monticello Abajo Peak KB5ITS,1500 Hz
-316,448.82500,443.82500,5.00 MHz,Minus,Auto,ITS Montrose Raspberry,Large,Tone,100.0 Hz,023,High,Off,Auto,Off,8 18465 149.00 CO Montrose Montrose Raspberry KB5ITS,1500 Hz
+316,448.82500,443.82500,5.00 MHz,Minus,Auto,ITS Montrose Raspberry Ridge,Large,Tone,100.0 Hz,023,High,Off,Auto,Off,8 18465 121.00 CO Montrose Montrose Raspberry Ridge KB5ITS,1500 Hz
 317,147.36000,147.96000,600 kHz,Plus,Auto,ITS Navajo Dam Navajo Lake,Large,Tone,100.0 Hz,023,High,Off,Auto,Off,35 15644 260.00 NM San Juan Navajo Dam Navajo Lake KB5ITS,1500 Hz
 318,147.27000,147.87000,600 kHz,Plus,Auto,ITS Ouray Engineer Mountain,Large,Tone,127.3 Hz,023,High,Off,Auto,Off,8 16604 175.00 CO Ouray Ouray Engineer Mountain KB5ITS,1500 Hz
 319,447.52500,442.52500,5.00 MHz,Minus,Auto,ITS Silverton,Large,Tone,127.3 Hz,023,High,Off,Auto,Off,8 210 185.00 CO San Juan Silverton KB5ITS,1500 Hz
@@ -430,7 +430,7 @@ Channel Number,Receive Frequency,Transmit Frequency,Offset Frequency,Offset Dire
 429,146.67000,146.07000,600 kHz,Minus,Auto,UDD Idaho Springs Squaw Mountain,Large,T Sql,100.0 Hz,023,High,Off,Auto,Off,8 78 371.00 CO Clear Creek Idaho Springs Squaw Mountain KB0UDD,1500 Hz
 430,449.32500,444.32500,5.00 MHz,Minus,Auto,UEO Provo UVMC,Large,Tone,100.0 Hz,023,High,Off,Auto,Off,49 162 260.00 UT Utah Provo UVMC N7UEO,1500 Hz
 431,448.92500,443.92500,5.00 MHz,Minus,Auto,USB Lehi City Offices,Large,Tone,100.0 Hz,023,High,Off,Auto,Off,49 17980 282.00 UT Utah Lehi City Offices KI7USB,1500 Hz
-432,146.65500,146.05500,600 kHz,Minus,Auto,UUJ Rock Springs Aspen Mountain,Large,T Sql,107.2 Hz,023,High,Off,Auto,Off,56 13123 336.00 WY Sweetwater Rock Springs Aspen Mountain KE7UUJ,1500 Hz
+432,146.65500,146.05500,600 kHz,Minus,Auto,UUJ Rock Springs Aspen Mountain,Large,None,100.0 Hz,023,High,Off,Auto,Off,56 13123 336.00 WY Sweetwater Rock Springs Aspen Mountain KE7UUJ,1500 Hz
 433,146.94000,146.34000,600 kHz,Minus,Auto,UUJ Rock Springs Aspen Mountain,Large,Tone,100.0 Hz,023,High,Off,Auto,Off,56 10 320.00 WY Sweetwater Rock Springs Aspen Mountain KE7UUJ,1500 Hz
 434,146.91000,146.31000,600 kHz,Minus,Auto,UUX Montrose,Large,T Sql,107.2 Hz,023,High,Off,Auto,Off,8 12442 146.00 CO Montrose Montrose KC0UUX,1500 Hz
 435,448.22500,443.22500,5.00 MHz,Minus,Auto,UVA Alpine Silver Lake Flat,Large,Tone,100.0 Hz,023,High,Off,Auto,Off,49 17113 282.00 UT Utah Alpine Silver Lake Flat K7UVA,1500 Hz
@@ -488,7 +488,7 @@ Channel Number,Receive Frequency,Transmit Frequency,Offset Frequency,Offset Dire
 487,449.70000,444.70000,5.00 MHz,Minus,Auto,YNA Telluride Gray Head,Large,T Sql,107.2 Hz,023,High,Off,Auto,Off,8 254 152.00 CO San Miguel Telluride Gray Head KB0YNA,1500 Hz
 488,449.82500,444.82500,5.00 MHz,Minus,Auto,YOT Provo,Large,Tone,167.9 Hz,023,High,Off,Auto,Off,49 89 257.00 UT Utah Provo KB7YOT,1500 Hz
 489,147.30000,147.90000,600 kHz,Plus,Auto,YSE Jacob Lake Jacob Lake Inn,Large,Tone,100.0 Hz,023,High,Off,Auto,Off,4 2 311.00 AZ Coconino Jacob Lake Jacob Lake Inn N7YSE,1500 Hz
-490,449.10000,444.10000,5.00 MHz,Minus,Auto,YSE Kanab TV Site,Large,Tone,100.0 Hz,023,High,Off,Auto,Off,4 11550 312.00 AZ Coconino Kanab TV Site N7YSE,1500 Hz
+490,449.10000,444.10000,5.00 MHz,Minus,Auto,YSE Kanab TV Hill,Large,Tone,100.0 Hz,023,High,Off,Auto,Off,4 11550 312.00 AZ Coconino Kanab TV Hill N7YSE,1500 Hz
 491,447.70000,442.70000,5.00 MHz,Minus,Auto,YXL South Salt Lake City Fire St,Large,Tone,100.0 Hz,023,High,Off,Auto,Off,49 11159 309.00 UT Salt Lake South Salt Lake City Fire Station 43 KF7YXL,1500 Hz
 492,147.22000,147.82000,600 kHz,Plus,Auto,YZR Provo Edgemont SC,Large,None,100.0 Hz,023,High,Off,Auto,Off,49 249 263.00 UT Utah Provo Edgemont SC WA7YZR,1500 Hz
 493,448.57500,443.57500,5.00 MHz,Minus,Auto,Z0N Hartsel,Large,T Sql,103.5 Hz,023,High,Off,Auto,Off,8 9840 316.00 CO Park Hartsel WZ0N,1500 Hz

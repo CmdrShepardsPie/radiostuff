@@ -18,13 +18,20 @@
   "Uplink": 440.1375,
   "DMR Enabled": true,
   "Color Code": 2,
+  "DMR ID": 0,
   "IPSC Network": "c Record retrieved from radioid.net",
   "Wide Network": "",
+  "Talkgroups": "Open Talkgroup View Assignment TS TG Access Dynamic Groups use TS 1 1 0 CO Severe WX 1 31083 NOCO Mountain FR 1 31084 Local/Cluster 2 2 Full-Time Colorado 2 3108 Full-Time N. Colorado 2 3171 Full-Time function myFunction(id) { var x = document.getElementById(id); if (x.className.indexOf(\"w3-show\") == -1) { x.className += \" w3-show\"; } else { x.className = x.className.replace(\" w3-show\", \"\"); } }",
+  "Dynamic Groups use TS 1": 1,
+  "CO Severe WX": 1,
+  "NOCO Mountain FR": 1,
+  "Local/Cluster": 2,
+  "Colorado": 2,
+  "N. Colorado": 2,
   "County": "Weld",
   "Grid": "DN70PJ",
   "Op Status": "On-Air",
   "Sponsor": "WD0HDR",
-  "Notes": "Only TG 310210 KB0VGD, TG 3171 NoCo, TG 3108 Colorado, and TG 2 N7VDR Cluster (Local 2) on Time Slot 2 (TS2). All other connections will be directed to Time Slot 1 (TS1) including TG 31083 Co Severe WX, 31084 NoCo Mtn FR, 310869 W1VAN (Fusion DG-ID 69 cro",
   "Web links": "https://brandmeister.network/?page=repeater&amp;id=310210",
-  "Last update": "2020-09-21"
+  "Last update": "2021-03-24"
 }

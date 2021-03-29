@@ -1,5 +1,5 @@
 {
-  "Frequency": 447.7,
+  "Frequency": 447.9,
   "Offset": -5,
   "Tone": "",
   "Call": "KD0SBN",
@@ -14,13 +14,13 @@
   "ID": "19462",
   "Latitude": 38.3500016,
   "Longitude": -104.7227546,
-  "Downlink": 447.7,
-  "Uplink": 442.7,
+  "Downlink": 447.9,
+  "Uplink": 442.9,
   "YSF Digital Enabled": true,
   "DG-ID": "Open ↑ / Open ↓",
   "WIRES-X": 55045,
   "County": "Pueblo",
   "Op Status": "On-Air",
   "Sponsor": "Steve Combs",
-  "Last update": "2020-12-19"
+  "Last update": "2021-02-27"
 }

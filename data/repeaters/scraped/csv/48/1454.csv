@@ -1,2 +1,2 @@
-Frequency,Offset,Tone,Call,Location,ST/PR,Use,Mode,Mi,Dir,,state_id,ID,Latitude,Longitude,Downlink,Uplink,Uplink Tone,Downlink Tone,County,Op Status,Affiliate,FM,Analog Bandwidth,Links,Notes,Coordination,Last update
-444.2,5,88.5,N5LTZ,Amarillo,TX,OPEN,FM,199.2,SE,,48,1454,35.23910141,-101.84700012,444.2,449.2,88.5,88.5,Potter,On-Air,"Randall County ARES-RACES, Caprock Intertie",Yes; analog capable.,,Full-time to the Caprock Intertie System .,350,TVHFS,2014-04-18
+Frequency,Offset,Tone,Call,Location,ST/PR,Use,Mode,Mi,Dir,,state_id,ID,Latitude,Longitude,Downlink,Uplink,Uplink Tone,Downlink Tone,County,Op Status,Affiliate,FM,Analog Bandwidth,Notes,Coordination,Last update
+444.2,5,88.5,N5LTZ,Amarillo,TX,OPEN,FM,199.2,SE,,48,1454,35.23910141,-101.84700012,444.2,449.2,88.5,88.5,Potter,On-Air,"Randall County ARES-RACES, Caprock Intertie",Yes; analog capable.,,350,TVHFS,2014-04-18

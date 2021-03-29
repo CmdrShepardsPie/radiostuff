@@ -17,10 +17,10 @@
   "dependencies": {
     "axios": "0.21.1",
     "chalk": "4.1.0",
-    "commander": "7.1.0",
-    "csv": "5.3.2",
+    "commander": "7.2.0",
+    "csv": "5.4.0",
     "gps-distance": "0.0.4",
-    "jsdom": "16.4.0",
+    "jsdom": "16.5.2",
     "module-alias": "2.2.2",
     "node-csv": "0.1.2",
     "tslib": "2.1.0",
@@ -30,7 +30,7 @@
     "typescript": "4.2.3"
   },
   "devDependencies": {
-    "@types/jsdom": "16.2.6",
+    "@types/jsdom": "16.2.9",
     "@types/module-alias": "2.0.0"
   }
 }

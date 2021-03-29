@@ -16,6 +16,9 @@
     "Output": 444.25
   },
   "Digital": {
-    "DMR": {}
+    "DMR": {
+      "ColorCode": 1,
+      "ID": 311640
+    }
   }
 }

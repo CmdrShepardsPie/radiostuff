@@ -117,12 +117,12 @@ Location,Name,Frequency,Duplex,Offset,Tone,rToneFreq,cToneFreq,DtcsCode,DtcsRxCo
 115,ESQ Parker Hess Reservoir,447.525,split,442.525,Cross,203.5,146.2,23,23,NN,FM,5,8 8189 10.00 CO Douglas Parker Hess Reservoir N0ESQ
 116,FEZ Denver,447.925,split,442.925,TSQL,100,100,23,23,NN,FM,5,8 8196 20.00 CO Denver Denver K0FEZ
 117,FUN Denver Green Valley Ranch,448.15,split,443.15,TSQL,141.3,141.3,23,23,NN,FM,5,8 9765 26.00 CO Denver Denver Green Valley Ranch WE0FUN
-118,JRL Denver Broadway Plaza Lofts,447.175,split,442.175,TSQL,100,100,23,23,NN,FM,5,8 12216 22.00 CO Denver Denver Broadway Plaza Lofts W0JRL
+118,JRL Denver Denver Water Administ,447.175,split,442.175,TSQL,100,100,23,23,NN,FM,5,8 12216 21.00 CO Denver Denver Denver Water Administration W0JRL
 119,JXN Denver,146.715,split,146.115,TSQL,123,123,23,23,NN,FM,5,8 79 20.00 CO Denver Denver N0JXN
-120,KIZ Denver,448.55,split,443.55,Tone,82.5,82.5,23,23,NN,FM,5,8 93 20.00 CO Denver Denver W0KIZ
-121,OBA Aurora,145.19,split,144.59,Cross,131.8,69.3,23,23,NN,FM,5,8 8741 11.00 CO Arapahoe Aurora N0OBA
-122,PUF Centennial Warren Mountain,146.88,split,146.28,Tone,100,100,23,23,NN,FM,5,8 80 23.00 CO Jefferson Centennial Warren Mountain N0PUF
-123,Q8M Parker,448.7,split,443.7,Tone,146.2,146.2,23,23,NN,FM,5,8 274 8.00 CO Douglas Parker WQ8M
+120,OBA Aurora,145.19,split,144.59,TSQL,71.9,71.9,23,23,NN,FM,5,8 8741 11.00 CO Arapahoe Aurora N0OBA
+121,PUF Centennial Warren Mountain,146.88,split,146.28,Tone,100,100,23,23,NN,FM,5,8 80 23.00 CO Jefferson Centennial Warren Mountain N0PUF
+122,Q8M Parker,448.7,split,443.7,Tone,146.2,146.2,23,23,NN,FM,5,8 274 8.00 CO Douglas Parker WQ8M
+123,SSP Lakewood Moffat Treatment Pl,147.21,split,147.81,TSQL,100,100,23,23,NN,FM,5,8 9775 28.00 CO Jefferson Lakewood Moffat Treatment Plant KD0SSP
 124,TPT Denver,447.9,split,442.9,,100,100,23,23,NN,FM,5,8 8195 20.00 CO Denver Denver WB0TPT
 125,UDD Aurora Smokey Hill,448.5,split,443.5,Tone,100,100,23,23,NN,FM,5,8 92 17.00 CO Denver Aurora Smokey Hill KB0UDD
 126,UDD Aurora Smoky Hill,145.4,split,144.8,Tone,100,100,23,23,NN,FM,5,8 5 12.00 CO Arapahoe Aurora Smoky Hill KB0UDD

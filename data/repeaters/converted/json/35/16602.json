@@ -17,7 +17,8 @@
   },
   "Digital": {
     "DMR": {
-      "ColorCode": 1
+      "ColorCode": 1,
+      "ID": 0
     }
   }
 }

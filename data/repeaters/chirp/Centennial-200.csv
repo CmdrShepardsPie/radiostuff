@@ -164,17 +164,17 @@ Location,Name,Frequency,Duplex,Offset,Tone,rToneFreq,cToneFreq,DtcsCode,DtcsRxCo
 162,G0N Idaho Springs Squaw Mountain,449.05,split,444.05,TSQL,107.2,107.2,23,23,NN,FM,5,8 95 57.00 CO Denver Idaho Springs Squaw Mountain WG0N
 163,GUQ Evergreen,145.34,split,144.74,Cross,103.5,127.3,23,23,NN,FM,5,8 73 38.00 CO Jefferson Evergreen KE4GUQ
 164,IBM Golden Guy Hill,448.85,split,443.85,TSQL,88.5,88.5,23,23,NN,FM,5,8 136 44.00 CO Jefferson Golden Guy Hill K0IBM
-165,JRL Denver Broadway Plaza Lofts,447.175,split,442.175,TSQL,100,100,23,23,NN,FM,5,8 12216 22.00 CO Denver Denver Broadway Plaza Lofts W0JRL
+165,JRL Denver Denver Water Administ,447.175,split,442.175,TSQL,100,100,23,23,NN,FM,5,8 12216 21.00 CO Denver Denver Denver Water Administration W0JRL
 166,JSC Larkspur Westcreek,449.975,split,444.975,TSQL,100,100,23,23,NN,FM,5,8 15903 47.00 CO Douglas Larkspur Westcreek K0JSC
 167,JXN Denver,146.715,split,146.115,TSQL,123,123,23,23,NN,FM,5,8 79 20.00 CO Denver Denver N0JXN
-168,KIZ Denver,448.55,split,443.55,Tone,82.5,82.5,23,23,NN,FM,5,8 93 20.00 CO Denver Denver W0KIZ
-169,KWD Gilcrest,448.475,split,443.475,Tone,100,100,23,23,NN,FM,5,8 158 77.00 CO Weld Gilcrest KC0KWD
-170,LMA Broomfield,448.925,split,443.925,Tone,131.8,131.8,23,23,NN,FM,5,8 26 42.00 CO Boulder Broomfield W0LMA
-171,LXX Morrison Mt. Morrison,447.875,split,442.875,TSQL,107.2,107.2,23,23,NN,FM,5,8 10513 31.00 CO Jefferson Morrison Mt. Morrison N6LXX
+168,KWD Gilcrest,448.475,split,443.475,Tone,100,100,23,23,NN,FM,5,8 158 77.00 CO Weld Gilcrest KC0KWD
+169,LMA Broomfield,448.925,split,443.925,Tone,131.8,131.8,23,23,NN,FM,5,8 26 42.00 CO Boulder Broomfield W0LMA
+170,LXX Morrison Mt. Morrison,447.875,split,442.875,TSQL,107.2,107.2,23,23,NN,FM,5,8 10513 31.00 CO Jefferson Morrison Mt. Morrison N6LXX
+171,Lake George,449.7,split,444.7,Tone,107.2,107.2,23,23,NN,FM,5,8 8214 79.00 CO Park Lake George
 172,MDP Falcon Black Forest,447.625,split,442.625,TSQL,100,100,23,23,NN,FM,5,8 13294 64.00 CO El Paso Falcon Black Forest KD0MDP
 173,MHU Golden Guy Hill,224,split,222.4,TSQL,103.5,103.5,23,23,NN,FM,5,8 86 44.00 CO Jefferson Golden Guy Hill N0MHU
 174,MOG Colorado springs,224.72,split,223.12,TSQL,103.5,103.5,23,23,NN,FM,5,8 15989 76.00 CO El Paso Colorado springs W0MOG
-175,OBA Aurora,145.19,split,144.59,Cross,131.8,69.3,23,23,NN,FM,5,8 8741 11.00 CO Arapahoe Aurora N0OBA
+175,OBA Aurora,145.19,split,144.59,TSQL,71.9,71.9,23,23,NN,FM,5,8 8741 11.00 CO Arapahoe Aurora N0OBA
 176,OWY Conifer Critchell Mountain,447.5,split,442.5,TSQL,88.5,88.5,23,23,NN,FM,5,8 60 30.00 CO Jefferson Conifer Critchell Mountain N0OWY
 177,POH Golden Guy Hill,224.74,split,223.14,TSQL,88.5,88.5,23,23,NN,FM,5,8 134 44.00 CO Jefferson Golden Guy Hill N0POH
 178,PUF Centennial Warren Mountain,146.88,split,146.28,Tone,100,100,23,23,NN,FM,5,8 80 23.00 CO Jefferson Centennial Warren Mountain N0PUF

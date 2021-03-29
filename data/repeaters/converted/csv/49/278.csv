@@ -1,2 +1,2 @@
 ID,StateID,Callsign,Use,Status,DigitalTone,Digital,VOIP,Location.Latitude,Location.Longitude,Location.County,Location.State,Location.Local,Frequency.Input,Frequency.Output,SquelchTone.Input,SquelchTone.Output
-278,49,K7DAV,Open,On-Air,,,,41.02560043,-111.83799744,Davis,UT,"Farmington, Shepard Peak",52.01,53.01,141.3,141.3
+278,49,K7DAV,Open,Off-Air,,,,41.02560043,-111.83799744,Davis,UT,"Farmington, Shepard Peak",52.01,53.01,141.3,141.3

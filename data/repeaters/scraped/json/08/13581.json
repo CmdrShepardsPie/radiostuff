@@ -20,6 +20,7 @@
   "Color Code": 8,
   "DMR ID": 310829,
   "IPSC Network": "RMHAM c Record retrieved from radioid.net",
+  "Local Network": "RMHAM",
   "Wide Network": "",
   "Talkgroups": "Open Talkgroup View Assignment TS TG Access Rocky Mountain Wide 1 700 Central Regional 2 720 function myFunction(id) { var x = document.getElementById(id); if (x.className.indexOf(\"w3-show\") == -1) { x.className += \" w3-show\"; } else { x.className = x.className.replace(\" w3-show\", \"\"); } }",
   "Rocky Mountain Wide": 1,

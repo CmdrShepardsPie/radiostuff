@@ -107,20 +107,20 @@ Location,Name,Frequency,Duplex,Offset,Tone,rToneFreq,cToneFreq,DtcsCode,DtcsRxCo
 105,Swiatowid,145.85,split,436,,100,100,23,23,NN,FM,5,FM SAT Swiatowid
 106,Tevel Mission,436.4,split,145.97,,100,100,23,23,NN,FM,5,FM SAT Tevel Mission
 107,0BG Aurora,448.275,split,443.275,Tone,156.7,156.7,23,23,NN,FM,5,8 8199 11.00 CO Arapahoe Aurora W0BG
-108,0ML Northglenn,147.045,split,147.645,Tone,123,123,23,23,NN,FM,5,8 185 17.00 CO Adams Northglenn K0ML
-109,0SJ Boulder Blue Mountain,145.475,split,144.875,Tone,100,100,23,23,NN,FM,5,8 75 2.00 CO Jefferson Boulder Blue Mountain KE0SJ
-110,0TX Lakewood Green Mountain,147.33,split,147.93,Tone,100,100,23,23,NN,FM,5,8 85 16.00 CO Jefferson Lakewood Green Mountain W0TX
-111,0TX Lakewood Green Mountain,224.38,split,222.78,TSQL,100,100,23,23,NN,FM,5,8 267 16.00 CO Jefferson Lakewood Green Mountain W0TX
-112,0TX Lakewood St Anthony Medical,447.825,split,442.825,DTCS,100,100,73,73,NN,FM,5,8 5805 14.00 CO Jefferson Lakewood St Anthony Medical Campus W0TX
-113,9SL Aurora,449.95,split,444.95,TSQL,77,77,23,23,NN,FM,5,8 8743 11.00 CO Arapahoe Aurora W9SL
-114,EHP Denver,448.075,split,443.075,Tone,123,123,23,23,NN,FM,5,8 91 2.00 CO Denver Denver N5EHP
-115,ELY Lakewood,448.75,split,443.75,TSQL,100,100,23,23,NN,FM,5,8 8204 14.00 CO Jefferson Lakewood N0ELY
-116,FEZ Denver,447.925,split,442.925,TSQL,100,100,23,23,NN,FM,5,8 8196 2.00 CO Denver Denver K0FEZ
-117,FUN Denver Green Valley Ranch,448.15,split,443.15,TSQL,141.3,141.3,23,23,NN,FM,5,8 9765 20.00 CO Denver Denver Green Valley Ranch WE0FUN
-118,JRL Denver Broadway Plaza Lofts,447.175,split,442.175,TSQL,100,100,23,23,NN,FM,5,8 12216 3.00 CO Denver Denver Broadway Plaza Lofts W0JRL
-119,JXN Denver,146.715,split,146.115,TSQL,123,123,23,23,NN,FM,5,8 79 2.00 CO Denver Denver N0JXN
-120,KIZ Denver,448.55,split,443.55,Tone,82.5,82.5,23,23,NN,FM,5,8 93 2.00 CO Denver Denver W0KIZ
-121,OBA Aurora,145.19,split,144.59,Cross,131.8,69.3,23,23,NN,FM,5,8 8741 21.00 CO Arapahoe Aurora N0OBA
+108,0GV Golden,448.975,split,443.975,Tone,123,123,23,23,NN,FM,5,8 137 22.00 CO Jefferson Golden W0GV
+109,0ML Northglenn,147.045,split,147.645,Tone,123,123,23,23,NN,FM,5,8 185 17.00 CO Adams Northglenn K0ML
+110,0SJ Boulder Blue Mountain,145.475,split,144.875,Tone,100,100,23,23,NN,FM,5,8 75 2.00 CO Jefferson Boulder Blue Mountain KE0SJ
+111,0TX Lakewood Green Mountain,147.33,split,147.93,Tone,100,100,23,23,NN,FM,5,8 85 16.00 CO Jefferson Lakewood Green Mountain W0TX
+112,0TX Lakewood Green Mountain,224.38,split,222.78,TSQL,100,100,23,23,NN,FM,5,8 267 16.00 CO Jefferson Lakewood Green Mountain W0TX
+113,0TX Lakewood St Anthony Medical,447.825,split,442.825,DTCS,100,100,73,73,NN,FM,5,8 5805 14.00 CO Jefferson Lakewood St Anthony Medical Campus W0TX
+114,9SL Aurora,449.95,split,444.95,TSQL,77,77,23,23,NN,FM,5,8 8743 11.00 CO Arapahoe Aurora W9SL
+115,EHP Denver,448.075,split,443.075,Tone,123,123,23,23,NN,FM,5,8 91 2.00 CO Denver Denver N5EHP
+116,ELY Lakewood,448.75,split,443.75,TSQL,100,100,23,23,NN,FM,5,8 8204 14.00 CO Jefferson Lakewood N0ELY
+117,FEZ Denver,447.925,split,442.925,TSQL,100,100,23,23,NN,FM,5,8 8196 2.00 CO Denver Denver K0FEZ
+118,FUN Denver Green Valley Ranch,448.15,split,443.15,TSQL,141.3,141.3,23,23,NN,FM,5,8 9765 20.00 CO Denver Denver Green Valley Ranch WE0FUN
+119,JRL Denver Denver Water Administ,447.175,split,442.175,TSQL,100,100,23,23,NN,FM,5,8 12216 4.00 CO Denver Denver Denver Water Administration W0JRL
+120,JXN Denver,146.715,split,146.115,TSQL,123,123,23,23,NN,FM,5,8 79 2.00 CO Denver Denver N0JXN
+121,OBA Aurora,145.19,split,144.59,TSQL,71.9,71.9,23,23,NN,FM,5,8 8741 21.00 CO Arapahoe Aurora N0OBA
 122,PYY Golden,448.125,split,443.125,Tone,107.2,107.2,23,23,NN,FM,5,8 143 22.00 CO Jefferson Golden N0PYY
 123,SSP Lakewood Moffat Treatment Pl,147.21,split,147.81,TSQL,100,100,23,23,NN,FM,5,8 9775 14.00 CO Jefferson Lakewood Moffat Treatment Plant KD0SSP
 124,TPT Denver,447.9,split,442.9,,100,100,23,23,NN,FM,5,8 8195 2.00 CO Denver Denver WB0TPT

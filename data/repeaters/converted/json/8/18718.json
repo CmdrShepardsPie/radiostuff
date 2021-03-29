@@ -18,9 +18,17 @@
   "SquelchTone": {
     "Input": 103.5
   },
+  "Digital": {
+    "YSF": {
+      "GroupID": {
+        "Input": "Open ↑",
+        "Output": "Open ↓"
+      }
+    }
+  },
   "VOIP": {
     "Wires": {
-      "ID": 36702
+      "ID": 68520
     }
   }
 }

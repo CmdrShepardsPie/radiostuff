@@ -1,0 +1,18 @@
+{
+  "ID": 206,
+  "StateID": 4,
+  "Callsign": "WC6MRA",
+  "Location": {
+    "Latitude": 34.48389816,
+    "Longitude": -114.3219986,
+    "County": "Mohave",
+    "State": "AZ",
+    "Local": "Lake Havasu City"
+  },
+  "Use": "Closed",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 223.26,
+    "Output": 224.86
+  }
+}

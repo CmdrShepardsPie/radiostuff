@@ -20,9 +20,11 @@
   "Color Code": 2,
   "DMR ID": 310831,
   "IPSC Network": "DMR-Plus c Record retrieved from radioid.net",
-  "Wide Network": "",
+  "Local Network": "BrandMeister US",
+  "Wide Network": "BrandMeister",
   "Talkgroup Network": "BrandMeister US",
-  "Talkgroups": "Open Talkgroup View Assignment TS TG Access Worldwide English FT 1 91 Full-Time North America 1 93 Full-Time DCI Bridge 1 3100 Full-Time Local/Cluster 2 2 Colorado 2 3108 Full-Time N. Colorado 2 3171 Full-Time function myFunction(id) { var x = document.getElementById(id); if (x.className.indexOf(\"w3-show\") == -1) { x.className += \" w3-show\"; } else { x.className = x.className.replace(\" w3-show\", \"\"); } }",
+  "Talkgroups": "Open Talkgroup View Assignment TS TG Access Dynamic Groups use TS 1 1 0 Worldwide English FT 1 91 Full-Time North America 1 93 Full-Time DCI Bridge 1 3100 Full-Time Local/Cluster 2 2 Colorado 2 3108 Full-Time N. Colorado 2 3171 Full-Time function myFunction(id) { var x = document.getElementById(id); if (x.className.indexOf(\"w3-show\") == -1) { x.className += \" w3-show\"; } else { x.className = x.className.replace(\" w3-show\", \"\"); } }",
+  "Dynamic Groups use TS 1": 1,
   "Worldwide English FT": 1,
   "North America": 1,
   "DCI Bridge": 1,
@@ -34,9 +36,7 @@
   "Coverage": "Northern Colorado Front Range Wide Area coverage.",
   "Sponsor": "W0DMR - NoCo C-bridge Network",
   "Affiliate": "Brandmeister Network",
-  "Commands": "Repeater ID: 310831, TS 1: TG 91 - World Wide, TG 93 - North America, TG 3100 USA. TS 2: TG 2 - Local, TG 3171 - No. Colorado, TG 3108 Colorado Statewide.",
-  "Notes": "Any additional Brandmeister talk group is available on time slot 1, too many to list here, see website. https://dmrx.net/files/US_BM_User_Guide.pdf",
   "Web links": "http://www.w0dmr.org/",
   "Coordination": "CCARC",
-  "Last update": "2019-11-27"
+  "Last update": "2021-03-24"
 }

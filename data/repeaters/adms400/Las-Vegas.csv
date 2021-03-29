@@ -373,7 +373,7 @@ Channel Number,Receive Frequency,Transmit Frequency,Offset Frequency,Offset Dire
 372,449.70000,444.70000,5.00 MHz,Minus,Auto,O7R Cedar Fort Internet Mountain,Large,Tone,127.3 Hz,023,High,Off,Auto,Off,49 10180 540.00 UT Utah Cedar Fort Internet Mountain KO7R,1500 Hz
 373,449.35000,444.35000,5.00 MHz,Minus,Auto,OET St George Utah Hill,Large,T Sql,100.0 Hz,023,High,Off,Auto,Off,49 11333 163.00 UT Washington St George Utah Hill K7OET,1500 Hz
 374,147.64500,147.04500,600 kHz,Minus,Auto,OKB Big Bear Lake,Large,Tone,103.5 Hz,023,High,Off,Auto,Off,6 444 261.00 CA San Bernardino Big Bear Lake KC6OKB,1500 Hz
-375,446.50000,441.50000,5.00 MHz,Minus,Auto,OKD Mesquite,Large,Tone,136.5 Hz,023,High,Off,Auto,Off,32 19652 124.00 NV Clark Mesquite N7OKD,1500 Hz
+375,446.50000,441.50000,5.00 MHz,Minus,Auto,OKD Bunkerville,Large,Tone,136.5 Hz,023,High,Off,Auto,Off,32 19652 119.00 NV Clark Bunkerville N7OKD,1500 Hz
 376,147.30000,147.90000,600 kHz,Plus,Auto,OLD Hesperia,Large,Tone,91.5 Hz,023,High,Off,Auto,Off,6 451 269.00 CA San Bernardino Hesperia KA6OLD,1500 Hz
 377,447.20000,442.20000,5.00 MHz,Minus,Auto,ONT Rancho Cucamonga,Large,Tone,114.8 Hz,023,High,Off,Auto,Off,6 995 313.00 CA San Bernardino Rancho Cucamonga K6ONT,1500 Hz
 378,447.65000,442.65000,5.00 MHz,Minus,Auto,OPJ Henderson,Large,Tone,123.0 Hz,023,High,Off,Auto,Off,32 3554 19.00 NV Clark Henderson KE7OPJ,1500 Hz
@@ -495,7 +495,7 @@ Channel Number,Receive Frequency,Transmit Frequency,Offset Frequency,Offset Dire
 494,444.10000,449.10000,5.00 MHz,Plus,Auto,YNS Elko,Large,Tone,100.0 Hz,023,High,Off,Auto,Off,32 184 527.00 NV Elko Elko KC7YNS,1500 Hz
 495,146.88000,146.28000,600 kHz,Minus,Auto,YRC Prescott,Large,Tone,100.0 Hz,023,High,Off,Auto,Off,4 83 301.00 AZ Yavapai Prescott W7YRC,1500 Hz
 496,147.30000,147.90000,600 kHz,Plus,Auto,YSE Jacob Lake Jacob Lake Inn,Large,Tone,100.0 Hz,023,High,Off,Auto,Off,4 2 274.00 AZ Coconino Jacob Lake Jacob Lake Inn N7YSE,1500 Hz
-497,449.10000,444.10000,5.00 MHz,Minus,Auto,YSE Kanab TV Site,Large,Tone,100.0 Hz,023,High,Off,Auto,Off,4 11550 258.00 AZ Coconino Kanab TV Site N7YSE,1500 Hz
+497,449.10000,444.10000,5.00 MHz,Minus,Auto,YSE Kanab TV Hill,Large,Tone,100.0 Hz,023,High,Off,Auto,Off,4 11550 258.00 AZ Coconino Kanab TV Hill N7YSE,1500 Hz
 498,145.46000,144.86000,600 kHz,Minus,Auto,ZHN North Las Vegas,Large,Tone,100.0 Hz,023,High,Off,Auto,Off,32 205 11.00 NV Clark North Las Vegas KE7ZHN,1500 Hz
 499,147.00000,147.60000,600 kHz,Plus,Auto,ZRC Blythe McCoy Mountains,Large,T Sql,203.5 Hz,023,High,Off,Auto,Off,6 364 271.00 CA Riverside Blythe McCoy Mountains WA6ZRC,1500 Hz
 500,147.30000,147.90000,600 kHz,Plus,Auto,ZTB Laughlin,Large,Tone,156.7 Hz,023,High,Off,Auto,Off,32 16899 115.00 NV Clark Laughlin KC6ZTB,1500 Hz

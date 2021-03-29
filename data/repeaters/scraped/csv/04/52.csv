@@ -1,2 +1,2 @@
-Frequency,Offset,Tone,Call,Location,ST/PR,Use,Mode,Mi,Dir,,state_id,ID,Latitude,Longitude,Downlink,Uplink,County,Grid,Op Status,Coverage,Sponsor,FM,Analog Bandwidth,Web links,Coordination,Last update
-146.68,-0.6,,KA7ARZ,Holbrook,AZ,OPEN,FM,190.46,SSW,,04,52,34.90219879,-110.15799713,146.68,146.08,Navajo,DM44wv,On-Air,30,Kachina Amateur Radio Club,Yes; analog capable.,,Kachina Amateur Radio Club,ARCA,2018-08-06
+Frequency,Offset,Tone,Call,Location,ST/PR,Use,Mode,Mi,Dir,,state_id,ID,Latitude,Longitude,Downlink,Uplink,County,Grid,On-air,Coverage,Sponsor,FM,Analog Bandwidth,Web links,Last update
+146.68,-0.6,,KA7ARZ,Holbrook,AZ,OPEN,FM,190.46,SSW,,04,52,34.90219879,-110.15799713,146.68,146.08,Navajo,DM44wv,Unknown,30,Kachina Amateur Radio Club,Yes; analog capable.,25,Kachina Amateur Radio Club,2021-02-20

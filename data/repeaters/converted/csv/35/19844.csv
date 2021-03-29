@@ -1,0 +1,2 @@
+ID,StateID,Callsign,Use,Status,DigitalTone,VOIP,Location.Latitude,Location.Longitude,Location.County,Location.State,Location.Local,Frequency.Input,Frequency.Output,SquelchTone.Input,SquelchTone.Output,Digital.DMR,Digital.P25,Digital.DStar,Digital.NXDN,Digital.YSF.GroupID.Input,Digital.YSF.GroupID.Output
+19844,35,KC5OUR,Open,Other,,,34.66279984,-106.77600098,Valencia,NM,Belen,146.1,146.7,100,,,,,,Open ↑,Open ↓

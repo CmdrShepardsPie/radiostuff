@@ -19,7 +19,8 @@
   "DMR Enabled": true,
   "Color Code": 7,
   "DMR ID": 310824,
-  "IPSC Network": "c Record retrieved from radioid.net",
+  "IPSC Network": "RMHAM c Record retrieved from radioid.net",
+  "Local Network": "RMHAM",
   "Wide Network": "",
   "Talkgroups": "Open Talkgroup View Assignment TS TG Access Rocky Mountain Wide 1 700 Eastern Colorado 2 705 function myFunction(id) { var x = document.getElementById(id); if (x.className.indexOf(\"w3-show\") == -1) { x.className += \" w3-show\"; } else { x.className = x.className.replace(\" w3-show\", \"\"); } }",
   "Rocky Mountain Wide": 1,
@@ -32,5 +33,5 @@
   "Notes": "Voice ID is required for data/GPS/text on TG 705",
   "Web links": "Rocky Mountain Ham Radio",
   "Coordination": "CCARC",
-  "Last update": "2019-11-27"
+  "Last update": "2021-03-24"
 }

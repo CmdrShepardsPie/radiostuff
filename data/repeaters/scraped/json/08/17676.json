@@ -20,13 +20,14 @@
   "Color Code": 1,
   "DMR ID": 310759,
   "IPSC Network": "Brandmeister c Record retrieved from radioid.net",
-  "Wide Network": "",
+  "Local Network": "BrandMeister US",
+  "Wide Network": "BrandMeister",
   "County": "Arapahoe",
   "On-air": "Unknown",
   "Coverage": "Southeast metro Denver area. Parker, Centennial, SE Aurora, Elizabeth, Franktown, Castle Rock.",
   "Sponsor": "N0KEG",
   "Affiliate": "Parker Radio Association",
-  "Nets": "Monday 8pm. Colorado Link Digital Net. Repeater is used in DSTAR mode for this net.",
+  "Nets": "Colorado Link Digital Net. Repeater is used in DSTAR mode for this net. Mon at 20:00.",
   "Web links": "https://www.parkerradio.org",
-  "Last update": "2020-06-13"
+  "Last update": "2021-03-24"
 }

@@ -17,7 +17,8 @@
   },
   "Digital": {
     "DMR": {
-      "ColorCode": 2
+      "ColorCode": 5,
+      "ID": 312251
     }
   }
 }

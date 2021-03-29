@@ -1,2 +1,2 @@
-Frequency,Offset,Tone,Call,Location,ST/PR,Use,Mode,Mi,Dir,,state_id,ID,Latitude,Longitude,Downlink,Uplink,Uplink Tone,County,Op Status,Coverage,Sponsor,FM,Analog Bandwidth,Web links,Last update
-448.825,-5,100,KB5ITS,"Montrose, Raspberry",CO,OPEN,FM,130.57,W,,08,18465,38.41740036,-107.84600067,448.825,443.825,100,Montrose,On-Air,"Nucla, Uncompahgre Plateau, coverage into Montrose and ?West End?",San Juan Connection,Yes; analog capable.,,http://www.sjcham.com,2020-08-01
+Frequency,Offset,Tone,Call,Location,ST/PR,Use,Mode,Mi,Dir,,state_id,ID,Latitude,Longitude,Downlink,Uplink,Uplink Tone,County,Grid,Op Status,Coverage,Sponsor,FM,Analog Bandwidth,Web links,Last update
+448.825,-5,100,KB5ITS,"Montrose, Raspberry Ridge",CO,OPEN,FM,148.75,W,,08,18465,38.31444,-108.19675,448.825,443.825,100,Montrose,DM58VH,On-Air,"Nucla, Uncompahgre Plateau, coverage into Montrose and ?West End?",San Juan Connection,Yes; analog capable.,,http://www.sjcham.com,2021-02-25

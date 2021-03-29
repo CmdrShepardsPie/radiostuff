@@ -1,2 +1,2 @@
-Frequency,Offset,Tone,Call,Location,ST/PR,Use,Mode,Mi,Dir,,state_id,ID,Latitude,Longitude,Downlink,Uplink,Uplink Tone,County,Op Status,Coverage,Sponsor,Features,FM,Analog Bandwidth,Links,Coordination,Last update
-147.14,0.6,100,KB5ZFA,Fort Sumner,NM,OPEN,FM,186.96,S,,35,88,34.47169876,-104.24500275,147.14,147.74,100,Debaca,On-Air,Wide area.,,4,Yes; analog capable.,,Full-time to the Mega-Link System .,NMFCC,2018-01-07
+Frequency,Offset,Tone,Call,Location,ST/PR,Use,Mode,Mi,Dir,,state_id,ID,Latitude,Longitude,Downlink,Uplink,Uplink Tone,County,Op Status,Coverage,Sponsor,Features,FM,Analog Bandwidth,Coordination,Last update
+147.14,0.6,100,KB5ZFA,Fort Sumner,NM,OPEN,FM,186.96,S,,35,88,34.47169876,-104.24500275,147.14,147.74,100,Debaca,On-Air,Wide area.,,4,Yes; analog capable.,,NMFCC,2018-01-07

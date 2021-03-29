@@ -20,6 +20,9 @@
     "Output": 123
   },
   "VOIP": {
+    "AllStar": {
+      "NodeID": 51188
+    },
     "EchoLink": {
       "NodeID": 37784
     },

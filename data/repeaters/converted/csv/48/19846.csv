@@ -1,0 +1,2 @@
+ID,StateID,Callsign,Use,Status,DigitalTone,Digital,VOIP,Location.Latitude,Location.Longitude,Location.County,Location.State,Location.Local,Frequency.Input,Frequency.Output,SquelchTone.Input,SquelchTone.Output
+19846,48,KB8SEM,Open,On-Air,,,,36.007145,-102.602535,Hartley,TX,Dalhart,147.74,147.14,88.5,

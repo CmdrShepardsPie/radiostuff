@@ -15,21 +15,15 @@
     "Input": 146.055,
     "Output": 146.655
   },
-  "SquelchTone": {
-    "Input": 107.2,
-    "Output": 107.2
-  },
   "Digital": {
+    "DStar": {
+      "Node": "KE7UUJ (C) Repeater"
+    },
     "YSF": {
       "GroupID": {
         "Input": "Open ↑",
         "Output": "Open ↓"
       }
-    }
-  },
-  "VOIP": {
-    "EchoLink": {
-      "NodeID": 865361
     }
   }
 }

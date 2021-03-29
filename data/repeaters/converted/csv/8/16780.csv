@@ -1,2 +1,2 @@
 ID,StateID,Callsign,Use,Status,SquelchTone,DigitalTone,VOIP,Location.Latitude,Location.Longitude,Location.County,Location.State,Location.Local,Frequency.Input,Frequency.Output,Digital.P25,Digital.DStar,Digital.NXDN,Digital.YSF,Digital.DMR.ColorCode,Digital.DMR.ID
-16780,8,N0SZ,Open,On-Air,,,,39.45899963,-105.97899628,Fremont,CO,"Breckenridge, Baldy",440.0875,445.0875,,,,,7,310830
+16780,8,N0SZ,Open,On-Air,,,,39.45899963,-105.97899628,Summit,CO,"Breckenridge, Baldy",440.0875,445.0875,,,,,7,310830

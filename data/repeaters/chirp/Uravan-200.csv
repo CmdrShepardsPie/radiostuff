@@ -156,7 +156,7 @@ Location,Name,Frequency,Duplex,Offset,Tone,rToneFreq,cToneFreq,DtcsCode,DtcsRxCo
 154,ITS Mancos Caviness Mountain,145.325,split,144.725,Tone,100,100,23,23,NN,FM,5,8 8168 123.00 CO Montezuma Mancos Caviness Mountain KB5ITS
 155,ITS Mancos Caviness Mountain,442.375,split,447.375,Tone,100,100,23,23,NN,FM,5,8 15896 123.00 CO Montezuma Mancos Caviness Mountain KB5ITS
 156,ITS Monticello Abajo Peak,447.275,split,442.275,Tone,100,100,23,23,NN,FM,5,49 18460 87.00 UT San Juan Monticello Abajo Peak KB5ITS
-157,ITS Montrose Raspberry,448.825,split,443.825,Tone,100,100,23,23,NN,FM,5,8 18465 78.00 CO Montrose Montrose Raspberry KB5ITS
+157,ITS Montrose Raspberry Ridge,448.825,split,443.825,Tone,100,100,23,23,NN,FM,5,8 18465 47.00 CO Montrose Montrose Raspberry Ridge KB5ITS
 158,ITS Navajo Dam Navajo Lake,147.36,split,147.96,Tone,100,100,23,23,NN,FM,5,35 15644 200.00 NM San Juan Navajo Dam Navajo Lake KB5ITS
 159,ITS Ouray Engineer Mountain,147.27,split,147.87,Tone,127.3,127.3,23,23,NN,FM,5,8 16604 101.00 CO Ouray Ouray Engineer Mountain KB5ITS
 160,ITS Silverton,447.525,split,442.525,Tone,127.3,127.3,23,23,NN,FM,5,8 210 112.00 CO San Juan Silverton KB5ITS

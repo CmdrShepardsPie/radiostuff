@@ -1,0 +1,29 @@
+{
+  "ID": 19845,
+  "StateID": 35,
+  "Callsign": "KC5OUR",
+  "Location": {
+    "Latitude": 34.66279984,
+    "Longitude": -106.77600098,
+    "County": "Valencia",
+    "State": "NM",
+    "Local": "Belen"
+  },
+  "Use": "Open",
+  "Status": "Other",
+  "Frequency": {
+    "Input": 437.7,
+    "Output": 442.7
+  },
+  "SquelchTone": {
+    "Input": 100
+  },
+  "Digital": {
+    "YSF": {
+      "GroupID": {
+        "Input": "Open ↑",
+        "Output": "Open ↓"
+      }
+    }
+  }
+}

@@ -1,2 +1,2 @@
-Frequency,Offset,Tone,Call,Location,ST/PR,Use,Mode,Mi,Dir,,state_id,ID,Latitude,Longitude,Downlink,Uplink,Uplink Tone,Downlink Tone,DMR Enabled,Color Code,IPSC Network,Wide Network,County,Op Status,Notes,Last update
-447.05,-5,CC15,AA4Z,"Moapa Valley, Overton",NV,OPEN,DMR,46.84,NE,,32,17112,36.58050156,-114.47000122,447.05,442.05,114.8,114.8,1,15,c Record retrieved from radioid.net,,Lincoln,On-Air,Colorcode 15,2018-08-07
+Frequency,Offset,Tone,Call,Location,ST/PR,Use,Mode,Mi,Dir,,state_id,ID,Latitude,Longitude,Downlink,Uplink,Uplink Tone,Downlink Tone,DMR Enabled,Color Code,DMR ID,IPSC Network,Wide Network,County,Op Status,Notes,Last update
+447.05,-5,CC15,AA4Z,"Moapa Valley, Overton",NV,OPEN,DMR,46.84,NE,,32,17112,36.58050156,-114.47000122,447.05,442.05,114.8,114.8,1,15,0,c Record retrieved from radioid.net,,Lincoln,On-Air,Colorcode 15,2018-08-07

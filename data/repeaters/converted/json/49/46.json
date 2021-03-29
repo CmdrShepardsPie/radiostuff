@@ -14,10 +14,5 @@
   "Frequency": {
     "Input": 443.4,
     "Output": 448.4
-  },
-  "VOIP": {
-    "IRLP": {
-      "NodeID": 3407
-    }
   }
 }

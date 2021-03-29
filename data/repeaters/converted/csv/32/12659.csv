@@ -1,2 +1,2 @@
 ID,StateID,Callsign,Use,Status,SquelchTone,DigitalTone,VOIP,Location.Latitude,Location.Longitude,Location.County,Location.State,Location.Local,Frequency.Input,Frequency.Output,Digital.P25,Digital.DStar,Digital.NXDN,Digital.YSF,Digital.DMR.ColorCode,Digital.DMR.ID
-12659,32,WB9STH,Open,On-Air,,,,35.8932991,-115.49500275,Clark,NV,"Las Vegas, Lo Potosi Mountain",444.425,449.425,,,,,0,
+12659,32,WB9STH,Open,On-Air,,,,35.8932991,-115.49500275,Clark,NV,"Las Vegas, Lo Potosi Mountain",444.425,449.425,,,,,0,0

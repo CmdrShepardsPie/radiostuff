@@ -1,2 +1,2 @@
 ID,StateID,Callsign,Use,Status,DigitalTone,Digital,VOIP,Location.Latitude,Location.Longitude,Location.County,Location.State,Location.Local,Frequency.Input,Frequency.Output,SquelchTone.Input,SquelchTone.Output
-3790,40,,Open,On-Air,,,,36.72940063,-102.51300049,Cimarron,OK,Boise City,147.95,147.35,88.5,88.5
+3790,40,,Open,Off-Air,,,,36.72940063,-102.51300049,Cimarron,OK,Boise City,147.95,147.35,88.5,88.5

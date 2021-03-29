@@ -6,7 +6,7 @@
   "Location": "Limon, Cedar Point",
   "ST/PR": "CO",
   "Use": "OPEN",
-  "Mode": "FM WIRES-X",
+  "Mode": "FM Fusion WIRES-X",
   "Mi": 96.9,
   "Dir": "WSW",
   "": "",
@@ -17,7 +17,9 @@
   "Downlink": 447.65,
   "Uplink": 442.65,
   "Uplink Tone": 103.5,
-  "WIRES-X": 36702,
+  "YSF Digital Enabled": true,
+  "DG-ID": "Open ↑ / Open ↓",
+  "WIRES-X": 68520,
   "County": "Lincoln",
   "Grid": "DM89ci",
   "Op Status": "On-Air",
@@ -26,5 +28,5 @@
   "FM": "Yes; analog capable.",
   "Analog Bandwidth": "",
   "Coordination": "CCARC",
-  "Last update": "2020-09-12"
+  "Last update": "2021-03-17"
 }

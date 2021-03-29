@@ -3,11 +3,11 @@
   "StateID": 35,
   "Callsign": "KC5OUR",
   "Location": {
-    "Latitude": 34.66279984,
-    "Longitude": -106.77600098,
+    "Latitude": 34.8054,
+    "Longitude": -106.5456,
     "County": "Valencia",
     "State": "NM",
-    "Local": "Los Lunas"
+    "Local": "Los Lunas, Meadow Lake"
   },
   "Use": "Open",
   "Status": "On-Air",
@@ -17,5 +17,13 @@
   },
   "SquelchTone": {
     "Input": 100
+  },
+  "Digital": {
+    "YSF": {
+      "GroupID": {
+        "Input": "Open ↑",
+        "Output": "Open ↓"
+      }
+    }
   }
 }

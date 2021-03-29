@@ -60,7 +60,7 @@ Channel Number,Receive Frequency,Transmit Frequency,Offset Frequency,Offset Dire
 59,147.39000,147.99000,600 kHz,+DUP,FM,MOG Colorado Springs,Tone,103.5 Hz,103.5 Hz,023,Both N,Off,8 48 33.00 CO El Paso Colorado Springs W0MOG,,,,,,Filter 1,,,None,88.5 Hz,88.5 Hz,023,Both N,Filter 1,FM
 60,448.60000,443.60000,5.00 MHz,-DUP,FM,MOG Colorado Springs,Tone,114.8 Hz,114.8 Hz,023,Both N,Off,8 55 32.00 CO El Paso Colorado Springs W0MOG,,,,,,Filter 1,,,None,88.5 Hz,88.5 Hz,023,Both N,Filter 1,FM
 61,145.32500,144.72500,600 kHz,-DUP,FM,MRC Maysville,Tone,100.0 Hz,100.0 Hz,023,Both N,Off,8 16739 105.00 CO Chaffee Maysville KD0MRC,,,,,,Filter 1,,,None,88.5 Hz,88.5 Hz,023,Both N,Filter 1,FM
-62,145.19000,144.59000,600 kHz,-DUP,FM,OBA Aurora,Tone,131.8 Hz,69.3 Hz,023,Both N,Off,8 8741 104.00 CO Arapahoe Aurora N0OBA,,,,,,Filter 1,,,None,88.5 Hz,88.5 Hz,023,Both N,Filter 1,FM
+62,145.19000,144.59000,600 kHz,-DUP,FM,OBA Aurora,T Sql,71.9 Hz,71.9 Hz,023,Both N,Off,8 8741 104.00 CO Arapahoe Aurora N0OBA,,,,,,Filter 1,,,None,88.5 Hz,88.5 Hz,023,Both N,Filter 1,FM
 63,447.50000,442.50000,5.00 MHz,-DUP,FM,OWY Conifer Critchell Mountain,T Sql,88.5 Hz,88.5 Hz,023,Both N,Off,8 60 80.00 CO Jefferson Conifer Critchell Mountain N0OWY,,,,,,Filter 1,,,None,88.5 Hz,88.5 Hz,023,Both N,Filter 1,FM
 64,145.11500,144.51500,600 kHz,-DUP,FM,PHC Pueblo,Tone,88.5 Hz,88.5 Hz,023,Both N,Off,8 191 71.00 CO Pueblo Pueblo W0PHC,,,,,,Filter 1,,,None,88.5 Hz,88.5 Hz,023,Both N,Filter 1,FM
 65,146.79000,146.19000,600 kHz,-DUP,FM,PHC Pueblo Baculite Mesa,Tone,88.5 Hz,88.5 Hz,023,Both N,Off,8 193 69.00 CO Pueblo Pueblo Baculite Mesa W0PHC,,,,,,Filter 1,,,None,88.5 Hz,88.5 Hz,023,Both N,Filter 1,FM

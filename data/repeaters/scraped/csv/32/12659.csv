@@ -1,2 +1,2 @@
-Frequency,Offset,Tone,Call,Location,ST/PR,Use,Mode,Mi,Dir,,state_id,ID,Latitude,Longitude,Downlink,Uplink,DMR Enabled,Color Code,IPSC Network,Wide Network,County,Grid,Op Status,Affiliate,Notes,Coordination,Last update
-449.425,-5,CC0,WB9STH,"Las Vegas, Lo Potosi Mountain",NV,OPEN,DMR,27.55,SW,,32,12659,35.8932991,-115.49500275,449.425,444.425,1,0,c Record retrieved from radioid.net,,Clark,DM25GV,On-Air,DMR marc,Moto trbo,SNRC,2015-06-15
+Frequency,Offset,Tone,Call,Location,ST/PR,Use,Mode,Mi,Dir,,state_id,ID,Latitude,Longitude,Downlink,Uplink,DMR Enabled,Color Code,DMR ID,IPSC Network,Wide Network,County,Grid,Op Status,Affiliate,Notes,Coordination,Last update
+449.425,-5,CC0,WB9STH,"Las Vegas, Lo Potosi Mountain",NV,OPEN,DMR,27.55,SW,,32,12659,35.8932991,-115.49500275,449.425,444.425,1,0,0,c Record retrieved from radioid.net,,Clark,DM25GV,On-Air,DMR marc,Moto trbo,SNRC,2015-06-15

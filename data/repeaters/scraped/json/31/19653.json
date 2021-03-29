@@ -1,7 +1,7 @@
 {
   "Frequency": 444.25,
   "Offset": 5,
-  "Tone": "CC",
+  "Tone": "CC1",
   "Call": "W0SSB",
   "Location": "Scottsbluff",
   "ST/PR": "NE",
@@ -17,10 +17,12 @@
   "Downlink": 444.25,
   "Uplink": 449.25,
   "DMR Enabled": true,
-  "Color Code": "",
-  "IPSC Network": "c Record retrieved from radioid.net",
-  "Wide Network": "",
+  "Color Code": 1,
+  "DMR ID": 311640,
+  "IPSC Network": "Brandmeister c Record retrieved from radioid.net",
+  "Local Network": "BrandMeister US",
+  "Wide Network": "BrandMeister",
   "County": "Scotts Bluff",
   "Op Status": "On-Air",
-  "Last update": "2021-01-22"
+  "Last update": "2021-02-17"
 }

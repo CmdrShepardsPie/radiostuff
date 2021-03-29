@@ -21,6 +21,8 @@
   "Color Code": 1,
   "DMR ID": 315602,
   "IPSC Network": "DMR-plus c Record retrieved from radioid.net",
+  "Local Network": "DMR-plus",
+  "c-Bridge": "DMR Plus",
   "Wide Network": "",
   "Talkgroups": "Open Talkgroup View Assignment TS TG Access Worldwide 1 1 North America 1 3 WW English FT 1 13 Local/Cluster 2 2 Mountain Reg USA 2 3177 function myFunction(id) { var x = document.getElementById(id); if (x.className.indexOf(\"w3-show\") == -1) { x.className += \" w3-show\"; } else { x.className = x.className.replace(\" w3-show\", \"\"); } }",
   "Worldwide": 1,

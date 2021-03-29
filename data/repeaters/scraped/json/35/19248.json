@@ -1,7 +1,7 @@
 {
   "Frequency": 927.5375,
   "Offset": -25,
-  "Tone": "NAC",
+  "Tone": "NAC 293",
   "Call": "N5UBJ",
   "Location": "Bloomfield, Huerfano Mesa",
   "ST/PR": "NM",
@@ -17,10 +17,10 @@
   "Downlink": 927.5375,
   "Uplink": 902.5375,
   "P-25 Digital Enabled": true,
-  "NAC": "",
+  "NAC": 293,
   "Default Reflector": true,
   "County": "San Juan",
   "Op Status": "On-Air",
   "Features": "Mixed mode narrowband analog and P25 voice NAC 293",
-  "Last update": "2020-12-29"
+  "Last update": "2021-02-10"
 }

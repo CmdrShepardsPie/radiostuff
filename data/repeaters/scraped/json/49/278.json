@@ -20,7 +20,7 @@
   "Downlink Tone": 141.3,
   "County": "Davis",
   "Grid": "DN41BA",
-  "Op Status": "On-Air",
+  "Op Status": "Off-Air",
   "Coverage": "Davis, Morgan, Weber Counties and North Salt Lake",
   "Sponsor": "K7DAV",
   "Affiliate": "Davis County Amateur Radio Club",
@@ -30,5 +30,5 @@
   "Notes": "New antenna installed 11/14/2018. Replaced broken antenna, replaced duplexer 9/2/2017",
   "Web links": "http://www.dcarc.net",
   "Coordination": "UVHFS",
-  "Last update": "2018-11-17"
+  "Last update": "2021-03-06"
 }
