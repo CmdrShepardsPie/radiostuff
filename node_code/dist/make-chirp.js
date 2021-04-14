@@ -41,7 +41,7 @@ var __importDefault = (this && this.__importDefault) || function (mod) {
     commander_1.program.parse(process.argv);
     async function doIt(location, outFileName) {
         // const simplex: RepeaterStructured[] = await loadSimplex(/FM|SAT|ISS|MURS|GMRS|FRS/i);
-        const simplex = await radio_helpers_1.loadSimplex(/FM|SAT|ISS/i);
+        const simplex = await radio_helpers_1.loadSimplex(/Simplex/i);
         const repeaters = await radio_helpers_1.loadRepeaters(location);
         const mapped = [
             ...simplex

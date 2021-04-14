@@ -1,126 +1,126 @@
 Location,Name,Frequency,Duplex,Offset,Tone,rToneFreq,cToneFreq,DtcsCode,DtcsRxCode,DtcsPolarity,Mode,TStep,Comment
-0,Simplex,146.4,,146.4,,100,100,23,23,NN,FM,5,FM Simplex
-1,Simplex,146.415,,146.415,,100,100,23,23,NN,FM,5,FM Simplex
-2,Simplex,146.43,,146.43,,100,100,23,23,NN,FM,5,FM Simplex
-3,Simplex,146.445,,146.445,,100,100,23,23,NN,FM,5,FM Simplex
-4,Simplex,146.46,,146.46,,100,100,23,23,NN,FM,5,FM Simplex
-5,Simplex,146.475,,146.475,,100,100,23,23,NN,FM,5,FM Simplex
-6,Simplex,146.49,,146.49,,100,100,23,23,NN,FM,5,FM Simplex
-7,Simplex,146.505,,146.505,,100,100,23,23,NN,FM,5,FM Simplex
-8,Calling,146.52,,146.52,,100,100,23,23,NN,FM,5,FM Calling
-9,Simplex,146.535,,146.535,,100,100,23,23,NN,FM,5,FM Simplex
-10,Simplex,146.55,,146.55,,100,100,23,23,NN,FM,5,FM Simplex
-11,Simplex,146.565,,146.565,,100,100,23,23,NN,FM,5,FM Simplex
-12,Simplex,146.58,,146.58,,100,100,23,23,NN,FM,5,FM Simplex
-13,Simplex,146.595,,146.595,,100,100,23,23,NN,FM,5,FM Simplex
-14,Simplex,147.42,,147.42,,100,100,23,23,NN,FM,5,FM Simplex
-15,Simplex,147.435,,147.435,,100,100,23,23,NN,FM,5,FM Simplex
-16,Simplex,147.45,,147.45,,100,100,23,23,NN,FM,5,FM Simplex
-17,Simplex,147.465,,147.465,,100,100,23,23,NN,FM,5,FM Simplex
-18,Simplex,147.48,,147.48,,100,100,23,23,NN,FM,5,FM Simplex
-19,Simplex,147.495,,147.495,,100,100,23,23,NN,FM,5,FM Simplex
-20,Simplex,147.51,,147.51,,100,100,23,23,NN,FM,5,FM Simplex
-21,Simplex,147.525,,147.525,,100,100,23,23,NN,FM,5,FM Simplex
-22,Simplex,147.54,,147.54,,100,100,23,23,NN,FM,5,FM Simplex
-23,Simplex,147.555,,147.555,,100,100,23,23,NN,FM,5,FM Simplex
-24,Simplex,147.57,,147.57,,100,100,23,23,NN,FM,5,FM Simplex
-25,Simplex,147.585,,147.585,,100,100,23,23,NN,FM,5,FM Simplex
-26,Simplex,223.4,,223.4,,100,100,23,23,NN,FM,5,FM Simplex
-27,Simplex,223.42,,223.42,,100,100,23,23,NN,FM,5,FM Simplex
-28,Simplex,223.44,,223.44,,100,100,23,23,NN,FM,5,FM Simplex
-29,Simplex,223.46,,223.46,,100,100,23,23,NN,FM,5,FM Simplex
-30,Simplex,223.48,,223.48,,100,100,23,23,NN,FM,5,FM Simplex
-31,Calling,223.5,,223.5,,100,100,23,23,NN,FM,5,FM Calling
-32,Simplex,223.52,,223.52,,100,100,23,23,NN,FM,5,FM Simplex
-33,Simplex,445.7,,445.7,,100,100,23,23,NN,FM,5,FM Simplex
-34,Simplex,445.725,,445.725,,100,100,23,23,NN,FM,5,FM Simplex
-35,Simplex,445.75,,445.75,,100,100,23,23,NN,FM,5,FM Simplex
-36,Simplex,445.775,,445.775,,100,100,23,23,NN,FM,5,FM Simplex
-37,Simplex,445.8,,445.8,,100,100,23,23,NN,FM,5,FM Simplex
-38,Simplex,445.825,,445.825,,100,100,23,23,NN,FM,5,FM Simplex
-39,Simplex,445.85,,445.85,,100,100,23,23,NN,FM,5,FM Simplex
-40,Simplex,445.875,,445.875,,100,100,23,23,NN,FM,5,FM Simplex
-41,Simplex,445.9,,445.9,,100,100,23,23,NN,FM,5,FM Simplex
-42,Simplex,445.925,,445.925,,100,100,23,23,NN,FM,5,FM Simplex
-43,Simplex,445.95,,445.95,,100,100,23,23,NN,FM,5,FM Simplex
-44,Simplex,445.975,,445.975,,100,100,23,23,NN,FM,5,FM Simplex
-45,Calling,446,,446,,100,100,23,23,NN,FM,5,FM Calling
-46,Simplex,446.025,,446.025,,100,100,23,23,NN,FM,5,FM Simplex
-47,Simplex,446.05,,446.05,,100,100,23,23,NN,FM,5,FM Simplex
-48,Simplex,446.075,,446.075,,100,100,23,23,NN,FM,5,FM Simplex
-49,Simplex,446.1,,446.1,,100,100,23,23,NN,FM,5,FM Simplex
-50,Simplex,446.125,,446.125,,100,100,23,23,NN,FM,5,FM Simplex
-51,Simplex,446.15,,446.15,,100,100,23,23,NN,FM,5,FM Simplex
-52,Simplex,446.175,,446.175,,100,100,23,23,NN,FM,5,FM Simplex
-53,Simplex,446.2,,446.2,,100,100,23,23,NN,FM,5,FM Simplex
-54,Simplex,446.225,,446.225,,100,100,23,23,NN,FM,5,FM Simplex
-55,Simplex,446.25,,446.25,,100,100,23,23,NN,FM,5,FM Simplex
-56,Simplex,446.275,,446.275,,100,100,23,23,NN,FM,5,FM Simplex
-57,SOTA,144.585,,144.585,,100,100,23,23,NN,FM,5,FM SOTA
-58,SOTA,146.5,,146.5,,100,100,23,23,NN,FM,5,FM SOTA
-59,SOTA,146.52,,146.52,,100,100,23,23,NN,FM,5,FM SOTA
-60,SOTA,146.525,,146.525,,100,100,23,23,NN,FM,5,FM SOTA
-61,SOTA,439,,439,,100,100,23,23,NN,FM,5,FM SOTA
-62,ISS AX.25 1200 Bd AFSK Packet,145.825,,145.825,,100,100,23,23,NN,FM,5,FM ISS AX.25 1200 Bd AFSK Packet Radio (Worldwide)
-63,ISS U/v VOICE Repeater (World,145.8,split,437.8,,100,100,23,23,NN,FM,5,FM ISS U/v VOICE Repeater (Worldwide)
-64,ISS UHF Simplex (rarely used),437.55,,437.55,,100,100,23,23,NN,FM,5,FM ISS UHF Simplex (rarely used)
-65,ISS V/u with PL VOICE Repeate,437.8,split,145.99,Tone,67,67,23,23,NN,FM,5,FM ISS V/u with PL VOICE Repeater (Worldwide)
-66,ISS VOICE for ITU Region 2&3,145.8,split,144.49,,100,100,23,23,NN,FM,5,FM ISS VOICE for ITU Region 2&3
-67,AO-27,436.795,split,145.85,,100,100,23,23,NN,FM,5,FM SAT AO-27
-68,AO-91 (RadFxSat / Fox-1B),145.96,split,435.25,Tone,67,67,23,23,NN,FM,5,FM SAT AO-91 (RadFxSat / Fox-1B)
-69,AO-92 (Fox-1D),145.88,split,435.35,Tone,67,67,23,23,NN,FM,5,FM SAT AO-92 (Fox-1D)
-70,CAS-3H (LilacSat-2),437.2,split,144.35,,100,100,23,23,NN,FM,5,FM SAT CAS-3H (LilacSat-2)
-71,CAS-5A,435.6,split,145.925,,100,100,23,23,NN,FM,5,FM SAT CAS-5A
-72,CAS-7A,435.455,split,145.95,,100,100,23,23,NN,FM,5,FM SAT CAS-7A
-73,CAS-7C,435.69,split,145.9,,100,100,23,23,NN,FM,5,FM SAT CAS-7C
-74,Duchifat3,436.4,split,145.97,,100,100,23,23,NN,FM,5,FM SAT Duchifat3
-75,IO-86 (LAPAN-A2),435.88,split,145.88,Tone,88.5,88.5,23,23,NN,FM,5,FM SAT IO-86 (LAPAN-A2)
-76,PO-101 (Diwata-2),145.9,split,437.5,Tone,141.3,141.3,23,23,NN,FM,5,FM SAT PO-101 (Diwata-2)
-77,SO-50 (SaudiSat-1C),436.795,split,145.85,Tone,67,67,23,23,NN,FM,5,FM SAT SO-50 (SaudiSat-1C)
-78,Swiatowid,145.85,split,436,,100,100,23,23,NN,FM,5,FM SAT Swiatowid
-79,Tevel Mission,436.4,split,145.97,,100,100,23,23,NN,FM,5,FM SAT Tevel Mission
-80,4UZ North Las Vegas  Nellis AFB,447.775,split,442.775,Cross,114.8,118.8,23,23,NN,FM,5,32 197 18.00 NV Clark North Las Vegas Nellis AFB KP4UZ
-81,6XN Las Vegas,146.97,split,146.37,Tone,100,100,23,23,NN,FM,5,32 8288 19.00 NV Clark Las Vegas KB6XN
-82,7AV Las Vegas,449.475,split,444.475,Tone,114.8,114.8,23,23,NN,FM,5,32 2820 7.00 NV Clark Las Vegas KK7AV
-83,7BS Las Vegas,448.475,split,443.475,Tone,100,100,23,23,NN,FM,5,32 356 11.00 NV Clark Las Vegas NO7BS
-84,7DB Las Vegas Sunrise Hospital,147.27,split,147.87,Tone,100,100,23,23,NN,FM,5,32 40 14.00 NV Clark Las Vegas Sunrise Hospital KC7DB
-85,7KD Las Vegas QTH,448.3,split,443.3,Tone,118.8,118.8,23,23,NN,FM,5,32 334 10.00 NV Clark Las Vegas QTH KE7KD
-86,7OK Henderson Black Mountain,147.09,split,147.69,Tone,100,100,23,23,NN,FM,5,32 37 19.00 NV Clark Henderson Black Mountain N7OK
-87,ANF Las Vegas Fitzgeralds Hotel,448.075,split,443.075,Tone,127.3,127.3,23,23,NN,FM,5,32 161 7.00 NV Clark Las Vegas Fitzgeralds Hotel WN9ANF
-88,AOR Las Vegas Sunrise Mountain,449.725,split,444.725,Tone,97.4,97.4,23,23,NN,FM,5,32 344 21.00 NV Clark Las Vegas Sunrise Mountain W7AOR
-89,ARR Henderson Black Mountain,449.75,split,444.75,Tone,123,123,23,23,NN,FM,5,32 124 19.00 NV Clark Henderson Black Mountain N7ARR
-90,ARR Las Vegas Blue Diamond Mount,447,split,442,Tone,123,123,23,23,NN,FM,5,32 157 19.00 NV Clark Las Vegas Blue Diamond Mountain N7ARR
-91,ARR Las Vegas QTH,147,split,146.4,Tone,123,123,23,23,NN,FM,5,32 311 15.00 NV Clark Las Vegas QTH N7ARR
-92,ARR Las Vegas strip,446.7,split,441.7,Tone,118.8,118.8,23,23,NN,FM,5,32 331 7.00 NV Clark Las Vegas strip N7ARR
-93,BCP Las Vegas Tropicana,145.19,split,144.59,,100,100,23,23,NN,FM,5,32 33 2.00 NV Clark Las Vegas Tropicana KA7BCP
-94,CCH Las Vegas,449.6,split,444.6,TSQL,107.2,107.2,23,23,NN,FM,5,32 11354 11.00 NV Clark Las Vegas KE7CCH
-95,CYC Las Vegas Sunrise Mountain,449.675,split,444.675,Tone,192.8,192.8,23,23,NN,FM,5,32 166 21.00 NV Clark Las Vegas Sunrise Mountain WA7CYC
-96,CYC North Las Vegas,146.67,split,146.07,Tone,136.5,136.5,23,23,NN,FM,5,32 35 13.00 NV Clark North Las Vegas WA7CYC
-97,D8S Henderson Black Mountain,146.73,split,146.13,Tone,131.8,131.8,23,23,NN,FM,5,32 15 19.00 NV Clark Henderson Black Mountain KD8S
-98,D8S Henderson Black Mountain,448,split,443,,100,100,23,23,NN,FM,5,32 122 19.00 NV Clark Henderson Black Mountain KD8S
-99,DBM Las Vegas QTH,448.675,split,443.675,Tone,77,77,23,23,NN,FM,5,32 164 11.00 NV Clark Las Vegas QTH N8DBM
-100,EGR Las Vegas The Ogden,445.0125,split,440.0125,DTCS,100,100,411,411,NN,FM,5,32 3707 10.00 NV Clark Las Vegas The Ogden WB6EGR
-101,GVA Henderson,146.61,split,146.01,,100,100,23,23,NN,FM,5,32 206 20.00 NV Clark Henderson W7GVA
-102,HEN Henderson Seven Hills,447.925,split,442.925,TSQL,156.7,156.7,23,23,NN,FM,5,32 15223 17.00 NV Clark Henderson Seven Hills W7HEN
-103,HEN Las Vegas,446.475,split,441.475,Tone,156.7,156.7,23,23,NN,FM,5,32 18220 19.00 NV Clark Las Vegas W7HEN
-104,HEN North Las Vegas Apex Mountai,449.925,split,444.925,Cross,131.8,203.5,23,23,NN,FM,5,32 16757 30.00 NV Clark North Las Vegas Apex Mountain W7HEN
-105,HTL Las Vegas Blue Diamond Hill,446.2,split,441.2,Tone,77,77,23,23,NN,FM,5,32 145 20.00 NV Clark Las Vegas Blue Diamond Hill W7HTL
-106,HTL Las Vegas Blue Diamond Hill,446.225,split,441.225,Tone,85.4,85.4,23,23,NN,FM,5,32 8278 20.00 NV Clark Las Vegas Blue Diamond Hill W7HTL
-107,HTL Las Vegas Blue Diamond Hill,447.975,split,442.975,TSQL,82.5,82.5,23,23,NN,FM,5,32 9514 20.00 NV Clark Las Vegas Blue Diamond Hill W7HTL
-108,HXO Las Vegas Red Mountain,147.945,split,147.345,Tone,100,100,23,23,NN,FM,5,32 31 31.00 NV Clark Las Vegas Red Mountain WA7HXO
-109,IZA Las Vegas Sunrise Mountain,448.9,split,443.9,Tone,100,100,23,23,NN,FM,5,32 338 21.00 NV Clark Las Vegas Sunrise Mountain K7IZA
-110,JCY Henderson QTH,447.2,split,442.2,,100,100,23,23,NN,FM,5,32 128 17.00 NV Clark Henderson QTH W6JCY
-111,JSI Las Vegas Blue Diamond Hill,447.95,split,442.95,Tone,100,100,23,23,NN,FM,5,32 8281 20.00 NV Clark Las Vegas Blue Diamond Hill K6JSI
-112,MSS Las Vegas Apex Mountain,447.85,split,442.85,Tone,127.3,127.3,23,23,NN,FM,5,32 141 32.00 NV Clark Las Vegas Apex Mountain KD5MSS
-113,NDI Las Vegas QTH,448.25,split,443.25,,100,100,23,23,NN,FM,5,32 162 11.00 NV Clark Las Vegas QTH N8NDI
-114,NJJ Las Vegas CSN Henderson,445.375,split,440.375,TSQL,107.2,107.2,23,23,NN,FM,5,32 13959 22.00 NV Clark Las Vegas CSN Henderson N4NJJ
-115,O3B Las Vegas,449.45,split,444.45,Tone,100,100,23,23,NN,FM,5,32 10820 0.00 NV Clark Las Vegas WO3B
-116,OPJ Henderson,447.65,split,442.65,Tone,123,123,23,23,NN,FM,5,32 3554 19.00 NV Clark Henderson KE7OPJ
-117,QYX Las Vegas,448.05,split,443.05,Tone,123,123,23,23,NN,FM,5,32 8423 11.00 NV Clark Las Vegas KF6QYX
-118,RAA Las Vegas,449.35,split,444.35,,100,100,23,23,NN,FM,5,32 165 7.00 NV Clark Las Vegas WB7RAA
-119,RSW Henderson Downtown,448.875,split,443.875,TSQL,114.8,114.8,23,23,NN,FM,5,32 130 20.00 NV Clark Henderson Downtown K7RSW
-120,STH Las Vegas Southern Hills Hos,448.45,split,443.45,,100,100,23,23,NN,FM,5,32 11494 17.00 NV Clark Las Vegas Southern Hills Hospital WB9STH
-121,STH Spring Valley,447.425,split,442.425,TSQL,173.8,173.8,23,23,NN,FM,5,32 5518 7.00 NV Clark Spring Valley WB9STH
+0,AM Simplex,144.28,,144.28,,100,100,23,23,NN,FM,5,AM Simplex
+1,AM Simplex,144.4,,144.4,,100,100,23,23,NN,FM,5,AM Simplex
+2,AM Simplex,144.425,,144.425,,100,100,23,23,NN,FM,5,AM Simplex
+3,AM Simplex,144.45,,144.45,,100,100,23,23,NN,FM,5,AM Simplex
+4,DMR Simplex,145.51,,145.51,,100,100,23,23,NN,FM,5,DMR Simplex
+5,Fusion Simplex,145.5625,,145.5625,,100,100,23,23,NN,FM,5,Fusion Simplex
+6,D-Star Simplex,145.67,,145.67,,100,100,23,23,NN,FM,5,D-Star Simplex
+7,DMR Simplex,145.79,,145.79,,100,100,23,23,NN,FM,5,DMR Simplex
+8,Simplex,146.4,,146.4,,100,100,23,23,NN,FM,5,FM Simplex
+9,Simplex,146.415,,146.415,,100,100,23,23,NN,FM,5,FM Simplex
+10,Simplex,146.43,,146.43,,100,100,23,23,NN,FM,5,FM Simplex
+11,Simplex,146.445,,146.445,,100,100,23,23,NN,FM,5,FM Simplex
+12,Simplex,146.46,,146.46,,100,100,23,23,NN,FM,5,FM Simplex
+13,Simplex,146.475,,146.475,,100,100,23,23,NN,FM,5,FM Simplex
+14,Simplex,146.49,,146.49,,100,100,23,23,NN,FM,5,FM Simplex
+15,Simplex,146.505,,146.505,,100,100,23,23,NN,FM,5,FM Simplex
+16,Simplex,146.535,,146.535,,100,100,23,23,NN,FM,5,FM Simplex
+17,Simplex,146.55,,146.55,,100,100,23,23,NN,FM,5,FM Simplex
+18,Simplex,146.565,,146.565,,100,100,23,23,NN,FM,5,FM Simplex
+19,Simplex,146.58,,146.58,,100,100,23,23,NN,FM,5,FM Simplex
+20,Simplex,146.595,,146.595,,100,100,23,23,NN,FM,5,FM Simplex
+21,Simplex,147.42,,147.42,,100,100,23,23,NN,FM,5,FM Simplex
+22,Simplex,147.435,,147.435,,100,100,23,23,NN,FM,5,FM Simplex
+23,Simplex,147.45,,147.45,,100,100,23,23,NN,FM,5,FM Simplex
+24,Simplex,147.465,,147.465,,100,100,23,23,NN,FM,5,FM Simplex
+25,Simplex,147.48,,147.48,,100,100,23,23,NN,FM,5,FM Simplex
+26,Simplex,147.495,,147.495,,100,100,23,23,NN,FM,5,FM Simplex
+27,Simplex,147.51,,147.51,,100,100,23,23,NN,FM,5,FM Simplex
+28,Simplex,147.525,,147.525,,100,100,23,23,NN,FM,5,FM Simplex
+29,Fusion Simplex,147.525,,147.525,,100,100,23,23,NN,FM,5,Fusion Simplex
+30,Simplex,147.54,,147.54,,100,100,23,23,NN,FM,5,FM Simplex
+31,Simplex,147.555,,147.555,,100,100,23,23,NN,FM,5,FM Simplex
+32,Simplex,147.57,,147.57,,100,100,23,23,NN,FM,5,FM Simplex
+33,Simplex,147.585,,147.585,,100,100,23,23,NN,FM,5,FM Simplex
+34,Simplex,223.4,,223.4,,100,100,23,23,NN,FM,5,FM Simplex
+35,Simplex,223.42,,223.42,,100,100,23,23,NN,FM,5,FM Simplex
+36,Simplex,223.44,,223.44,,100,100,23,23,NN,FM,5,FM Simplex
+37,Simplex,223.46,,223.46,,100,100,23,23,NN,FM,5,FM Simplex
+38,Simplex,223.48,,223.48,,100,100,23,23,NN,FM,5,FM Simplex
+39,Simplex,223.52,,223.52,,100,100,23,23,NN,FM,5,FM Simplex
+40,DMR Simplex,433.45,,433.45,,100,100,23,23,NN,FM,5,DMR Simplex
+41,DMR Simplex,441,,441,,100,100,23,23,NN,FM,5,DMR Simplex
+42,Simplex,445.7,,445.7,,100,100,23,23,NN,FM,5,FM Simplex
+43,Simplex,445.725,,445.725,,100,100,23,23,NN,FM,5,FM Simplex
+44,Simplex,445.75,,445.75,,100,100,23,23,NN,FM,5,FM Simplex
+45,Simplex,445.775,,445.775,,100,100,23,23,NN,FM,5,FM Simplex
+46,Simplex,445.8,,445.8,,100,100,23,23,NN,FM,5,FM Simplex
+47,Simplex,445.825,,445.825,,100,100,23,23,NN,FM,5,FM Simplex
+48,Simplex,445.85,,445.85,,100,100,23,23,NN,FM,5,FM Simplex
+49,Simplex,445.875,,445.875,,100,100,23,23,NN,FM,5,FM Simplex
+50,Simplex,445.9,,445.9,,100,100,23,23,NN,FM,5,FM Simplex
+51,Simplex,445.925,,445.925,,100,100,23,23,NN,FM,5,FM Simplex
+52,Simplex,445.95,,445.95,,100,100,23,23,NN,FM,5,FM Simplex
+53,Simplex,445.975,,445.975,,100,100,23,23,NN,FM,5,FM Simplex
+54,Simplex,446.025,,446.025,,100,100,23,23,NN,FM,5,FM Simplex
+55,Simplex,446.05,,446.05,,100,100,23,23,NN,FM,5,FM Simplex
+56,DMR Simplex,446.075,,446.075,,100,100,23,23,NN,FM,5,DMR Simplex
+57,Simplex,446.075,,446.075,,100,100,23,23,NN,FM,5,FM Simplex
+58,Simplex,446.1,,446.1,,100,100,23,23,NN,FM,5,FM Simplex
+59,Simplex,446.125,,446.125,,100,100,23,23,NN,FM,5,FM Simplex
+60,Simplex,446.15,,446.15,,100,100,23,23,NN,FM,5,FM Simplex
+61,Simplex,446.175,,446.175,,100,100,23,23,NN,FM,5,FM Simplex
+62,Digital Simplex,446.2,,446.2,,100,100,23,23,NN,FM,5,Digital Simplex
+63,Simplex,446.2,,446.2,,100,100,23,23,NN,FM,5,FM Simplex
+64,Digital Simplex,446.2125,,446.2125,,100,100,23,23,NN,FM,5,Digital Simplex
+65,D-Star Simplex,446.225,,446.225,,100,100,23,23,NN,FM,5,D-Star Simplex
+66,Digital Simplex,446.225,,446.225,,100,100,23,23,NN,FM,5,Digital Simplex
+67,Simplex,446.225,,446.225,,100,100,23,23,NN,FM,5,FM Simplex
+68,Digital Simplex,446.2375,,446.2375,,100,100,23,23,NN,FM,5,Digital Simplex
+69,Digital Simplex,446.25,,446.25,,100,100,23,23,NN,FM,5,Digital Simplex
+70,Simplex,446.25,,446.25,,100,100,23,23,NN,FM,5,FM Simplex
+71,Digital Simplex,446.2625,,446.2625,,100,100,23,23,NN,FM,5,Digital Simplex
+72,Digital Simplex,446.275,,446.275,,100,100,23,23,NN,FM,5,Digital Simplex
+73,Simplex,446.275,,446.275,,100,100,23,23,NN,FM,5,FM Simplex
+74,Digital Simplex,446.2875,,446.2875,,100,100,23,23,NN,FM,5,Digital Simplex
+75,Digital Simplex,446.3,,446.3,,100,100,23,23,NN,FM,5,Digital Simplex
+76,DMR Simplex,446.5,,446.5,,100,100,23,23,NN,FM,5,DMR Simplex
+77,ISS UHF Simplex (rarely used),437.55,,437.55,,100,100,23,23,NN,FM,5,FM ISS UHF Simplex (rarely used)
+78,4UZ North Las Vegas  Nellis AFB,447.775,split,442.775,Cross,114.8,118.8,23,23,NN,FM,5,32 197 18.00 NV Clark North Las Vegas Nellis AFB KP4UZ
+79,6XN Las Vegas,146.97,split,146.37,Tone,100,100,23,23,NN,FM,5,32 8288 19.00 NV Clark Las Vegas KB6XN
+80,7AV Las Vegas,449.475,split,444.475,Tone,114.8,114.8,23,23,NN,FM,5,32 2820 7.00 NV Clark Las Vegas KK7AV
+81,7BS Las Vegas,448.475,split,443.475,Tone,100,100,23,23,NN,FM,5,32 356 11.00 NV Clark Las Vegas NO7BS
+82,7DB Las Vegas Sunrise Hospital,147.27,split,147.87,Tone,100,100,23,23,NN,FM,5,32 40 14.00 NV Clark Las Vegas Sunrise Hospital KC7DB
+83,7KD Las Vegas QTH,448.3,split,443.3,Tone,118.8,118.8,23,23,NN,FM,5,32 334 10.00 NV Clark Las Vegas QTH KE7KD
+84,7OK Henderson Black Mountain,147.09,split,147.69,Tone,100,100,23,23,NN,FM,5,32 37 19.00 NV Clark Henderson Black Mountain N7OK
+85,ANF Las Vegas Fitzgeralds Hotel,448.075,split,443.075,Tone,127.3,127.3,23,23,NN,FM,5,32 161 7.00 NV Clark Las Vegas Fitzgeralds Hotel WN9ANF
+86,AOR Las Vegas Sunrise Mountain,449.725,split,444.725,Tone,97.4,97.4,23,23,NN,FM,5,32 344 21.00 NV Clark Las Vegas Sunrise Mountain W7AOR
+87,ARR Henderson Black Mountain,449.75,split,444.75,Tone,123,123,23,23,NN,FM,5,32 124 19.00 NV Clark Henderson Black Mountain N7ARR
+88,ARR Las Vegas Blue Diamond Mount,447,split,442,Tone,123,123,23,23,NN,FM,5,32 157 19.00 NV Clark Las Vegas Blue Diamond Mountain N7ARR
+89,ARR Las Vegas QTH,147,split,146.4,Tone,123,123,23,23,NN,FM,5,32 311 15.00 NV Clark Las Vegas QTH N7ARR
+90,ARR Las Vegas strip,446.7,split,441.7,Tone,118.8,118.8,23,23,NN,FM,5,32 331 7.00 NV Clark Las Vegas strip N7ARR
+91,BCP Las Vegas Tropicana,145.19,split,144.59,,100,100,23,23,NN,FM,5,32 33 2.00 NV Clark Las Vegas Tropicana KA7BCP
+92,CCH Las Vegas,449.6,split,444.6,TSQL,107.2,107.2,23,23,NN,FM,5,32 11354 11.00 NV Clark Las Vegas KE7CCH
+93,CYC Las Vegas Sunrise Mountain,449.675,split,444.675,Tone,192.8,192.8,23,23,NN,FM,5,32 166 21.00 NV Clark Las Vegas Sunrise Mountain WA7CYC
+94,CYC North Las Vegas,146.67,split,146.07,Tone,136.5,136.5,23,23,NN,FM,5,32 35 13.00 NV Clark North Las Vegas WA7CYC
+95,D8S Henderson Black Mountain,146.73,split,146.13,Tone,131.8,131.8,23,23,NN,FM,5,32 15 19.00 NV Clark Henderson Black Mountain KD8S
+96,D8S Henderson Black Mountain,448,split,443,,100,100,23,23,NN,FM,5,32 122 19.00 NV Clark Henderson Black Mountain KD8S
+97,DBM Las Vegas QTH,448.675,split,443.675,Tone,77,77,23,23,NN,FM,5,32 164 11.00 NV Clark Las Vegas QTH N8DBM
+98,EGR Las Vegas The Ogden,445.0125,split,440.0125,DTCS,100,100,411,411,NN,FM,5,32 3707 10.00 NV Clark Las Vegas The Ogden WB6EGR
+99,GVA Henderson,146.61,split,146.01,,100,100,23,23,NN,FM,5,32 206 20.00 NV Clark Henderson W7GVA
+100,HEN Henderson Seven Hills,447.925,split,442.925,TSQL,156.7,156.7,23,23,NN,FM,5,32 15223 17.00 NV Clark Henderson Seven Hills W7HEN
+101,HEN Las Vegas,446.475,split,441.475,Tone,156.7,156.7,23,23,NN,FM,5,32 18220 19.00 NV Clark Las Vegas W7HEN
+102,HEN North Las Vegas Apex Mountai,449.925,split,444.925,Cross,131.8,203.5,23,23,NN,FM,5,32 16757 30.00 NV Clark North Las Vegas Apex Mountain W7HEN
+103,HTL Las Vegas Blue Diamond Hill,446.2,split,441.2,Tone,77,77,23,23,NN,FM,5,32 145 20.00 NV Clark Las Vegas Blue Diamond Hill W7HTL
+104,HTL Las Vegas Blue Diamond Hill,446.225,split,441.225,Tone,85.4,85.4,23,23,NN,FM,5,32 8278 20.00 NV Clark Las Vegas Blue Diamond Hill W7HTL
+105,HTL Las Vegas Blue Diamond Hill,447.975,split,442.975,TSQL,82.5,82.5,23,23,NN,FM,5,32 9514 20.00 NV Clark Las Vegas Blue Diamond Hill W7HTL
+106,HXO Las Vegas Hi Potosi Mountain,146.88,split,146.28,Tone,100,100,23,23,NN,FM,5,32 24 34.00 NV Clark Las Vegas Hi Potosi Mountain WA7HXO
+107,HXO Las Vegas Red Mountain,147.945,split,147.345,Tone,100,100,23,23,NN,FM,5,32 31 31.00 NV Clark Las Vegas Red Mountain WA7HXO
+108,IZA Las Vegas Sunrise Mountain,448.9,split,443.9,Tone,100,100,23,23,NN,FM,5,32 338 21.00 NV Clark Las Vegas Sunrise Mountain K7IZA
+109,JCY Henderson QTH,447.2,split,442.2,,100,100,23,23,NN,FM,5,32 128 17.00 NV Clark Henderson QTH W6JCY
+110,JSI Las Vegas Blue Diamond Hill,447.95,split,442.95,Tone,100,100,23,23,NN,FM,5,32 8281 20.00 NV Clark Las Vegas Blue Diamond Hill K6JSI
+111,MSS Las Vegas Apex Mountain,447.85,split,442.85,Tone,127.3,127.3,23,23,NN,FM,5,32 141 32.00 NV Clark Las Vegas Apex Mountain KD5MSS
+112,NDI Las Vegas QTH,448.25,split,443.25,,100,100,23,23,NN,FM,5,32 162 11.00 NV Clark Las Vegas QTH N8NDI
+113,NJJ Las Vegas CSN Henderson,445.375,split,440.375,TSQL,107.2,107.2,23,23,NN,FM,5,32 13959 22.00 NV Clark Las Vegas CSN Henderson N4NJJ
+114,O3B Las Vegas,449.45,split,444.45,Tone,100,100,23,23,NN,FM,5,32 10820 0.00 NV Clark Las Vegas WO3B
+115,OPJ Henderson,447.65,split,442.65,Tone,123,123,23,23,NN,FM,5,32 3554 19.00 NV Clark Henderson KE7OPJ
+116,QYX Las Vegas,448.05,split,443.05,Tone,123,123,23,23,NN,FM,5,32 8423 11.00 NV Clark Las Vegas KF6QYX
+117,RAA Las Vegas,449.35,split,444.35,,100,100,23,23,NN,FM,5,32 165 7.00 NV Clark Las Vegas WB7RAA
+118,RSW Henderson Downtown,448.875,split,443.875,TSQL,114.8,114.8,23,23,NN,FM,5,32 130 20.00 NV Clark Henderson Downtown K7RSW
+119,STH Las Vegas Southern Hills Hos,448.45,split,443.45,,100,100,23,23,NN,FM,5,32 11494 17.00 NV Clark Las Vegas Southern Hills Hospital WB9STH
+120,STH Spring Valley,447.425,split,442.425,TSQL,173.8,173.8,23,23,NN,FM,5,32 5518 7.00 NV Clark Spring Valley WB9STH
+121,TLW Las Vegas Hi Potosi Mountain,447.175,split,442.175,,100,100,23,23,NN,FM,5,32 330 34.00 NV Clark Las Vegas Hi Potosi Mountain WA6TLW
 122,TMC Las Vegas Apex Mountain,449.875,split,444.875,TSQL,127.3,127.3,23,23,NN,FM,5,32 121 32.00 NV Clark Las Vegas Apex Mountain KC7TMC
 123,UGE Las Vegas Southern Hills Hos,448.5,split,443.5,Tone,100,100,23,23,NN,FM,5,32 163 12.00 NV Clark Las Vegas Southern Hills Hospital K7UGE
 124,UGE Las Vegas Westgate Hotel and,146.94,split,146.34,Tone,100,100,23,23,NN,FM,5,32 26 3.00 NV Clark Las Vegas Westgate Hotel and Casino K7UGE

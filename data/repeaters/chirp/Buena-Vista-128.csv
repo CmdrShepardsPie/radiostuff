@@ -1,127 +1,127 @@
 Location,Name,Frequency,Duplex,Offset,Tone,rToneFreq,cToneFreq,DtcsCode,DtcsRxCode,DtcsPolarity,Mode,TStep,Comment
-0,Simplex,146.4,,146.4,,100,100,23,23,NN,FM,5,FM Simplex
-1,Simplex,146.415,,146.415,,100,100,23,23,NN,FM,5,FM Simplex
-2,Simplex,146.43,,146.43,,100,100,23,23,NN,FM,5,FM Simplex
-3,Simplex,146.445,,146.445,,100,100,23,23,NN,FM,5,FM Simplex
-4,Simplex,146.46,,146.46,,100,100,23,23,NN,FM,5,FM Simplex
-5,Simplex,146.475,,146.475,,100,100,23,23,NN,FM,5,FM Simplex
-6,Simplex,146.49,,146.49,,100,100,23,23,NN,FM,5,FM Simplex
-7,Simplex,146.505,,146.505,,100,100,23,23,NN,FM,5,FM Simplex
-8,Calling,146.52,,146.52,,100,100,23,23,NN,FM,5,FM Calling
-9,Simplex,146.535,,146.535,,100,100,23,23,NN,FM,5,FM Simplex
-10,Simplex,146.55,,146.55,,100,100,23,23,NN,FM,5,FM Simplex
-11,Simplex,146.565,,146.565,,100,100,23,23,NN,FM,5,FM Simplex
-12,Simplex,146.58,,146.58,,100,100,23,23,NN,FM,5,FM Simplex
-13,Simplex,146.595,,146.595,,100,100,23,23,NN,FM,5,FM Simplex
-14,Simplex,147.42,,147.42,,100,100,23,23,NN,FM,5,FM Simplex
-15,Simplex,147.435,,147.435,,100,100,23,23,NN,FM,5,FM Simplex
-16,Simplex,147.45,,147.45,,100,100,23,23,NN,FM,5,FM Simplex
-17,Simplex,147.465,,147.465,,100,100,23,23,NN,FM,5,FM Simplex
-18,Simplex,147.48,,147.48,,100,100,23,23,NN,FM,5,FM Simplex
-19,Simplex,147.495,,147.495,,100,100,23,23,NN,FM,5,FM Simplex
-20,Simplex,147.51,,147.51,,100,100,23,23,NN,FM,5,FM Simplex
-21,Simplex,147.525,,147.525,,100,100,23,23,NN,FM,5,FM Simplex
-22,Simplex,147.54,,147.54,,100,100,23,23,NN,FM,5,FM Simplex
-23,Simplex,147.555,,147.555,,100,100,23,23,NN,FM,5,FM Simplex
-24,Simplex,147.57,,147.57,,100,100,23,23,NN,FM,5,FM Simplex
-25,Simplex,147.585,,147.585,,100,100,23,23,NN,FM,5,FM Simplex
-26,Simplex,223.4,,223.4,,100,100,23,23,NN,FM,5,FM Simplex
-27,Simplex,223.42,,223.42,,100,100,23,23,NN,FM,5,FM Simplex
-28,Simplex,223.44,,223.44,,100,100,23,23,NN,FM,5,FM Simplex
-29,Simplex,223.46,,223.46,,100,100,23,23,NN,FM,5,FM Simplex
-30,Simplex,223.48,,223.48,,100,100,23,23,NN,FM,5,FM Simplex
-31,Calling,223.5,,223.5,,100,100,23,23,NN,FM,5,FM Calling
-32,Simplex,223.52,,223.52,,100,100,23,23,NN,FM,5,FM Simplex
-33,Simplex,445.7,,445.7,,100,100,23,23,NN,FM,5,FM Simplex
-34,Simplex,445.725,,445.725,,100,100,23,23,NN,FM,5,FM Simplex
-35,Simplex,445.75,,445.75,,100,100,23,23,NN,FM,5,FM Simplex
-36,Simplex,445.775,,445.775,,100,100,23,23,NN,FM,5,FM Simplex
-37,Simplex,445.8,,445.8,,100,100,23,23,NN,FM,5,FM Simplex
-38,Simplex,445.825,,445.825,,100,100,23,23,NN,FM,5,FM Simplex
-39,Simplex,445.85,,445.85,,100,100,23,23,NN,FM,5,FM Simplex
-40,Simplex,445.875,,445.875,,100,100,23,23,NN,FM,5,FM Simplex
-41,Simplex,445.9,,445.9,,100,100,23,23,NN,FM,5,FM Simplex
-42,Simplex,445.925,,445.925,,100,100,23,23,NN,FM,5,FM Simplex
-43,Simplex,445.95,,445.95,,100,100,23,23,NN,FM,5,FM Simplex
-44,Simplex,445.975,,445.975,,100,100,23,23,NN,FM,5,FM Simplex
-45,Calling,446,,446,,100,100,23,23,NN,FM,5,FM Calling
-46,Simplex,446.025,,446.025,,100,100,23,23,NN,FM,5,FM Simplex
-47,Simplex,446.05,,446.05,,100,100,23,23,NN,FM,5,FM Simplex
-48,Simplex,446.075,,446.075,,100,100,23,23,NN,FM,5,FM Simplex
-49,Simplex,446.1,,446.1,,100,100,23,23,NN,FM,5,FM Simplex
-50,Simplex,446.125,,446.125,,100,100,23,23,NN,FM,5,FM Simplex
-51,Simplex,446.15,,446.15,,100,100,23,23,NN,FM,5,FM Simplex
-52,Simplex,446.175,,446.175,,100,100,23,23,NN,FM,5,FM Simplex
-53,Simplex,446.2,,446.2,,100,100,23,23,NN,FM,5,FM Simplex
-54,Simplex,446.225,,446.225,,100,100,23,23,NN,FM,5,FM Simplex
-55,Simplex,446.25,,446.25,,100,100,23,23,NN,FM,5,FM Simplex
-56,Simplex,446.275,,446.275,,100,100,23,23,NN,FM,5,FM Simplex
-57,SOTA,144.585,,144.585,,100,100,23,23,NN,FM,5,FM SOTA
-58,SOTA,146.5,,146.5,,100,100,23,23,NN,FM,5,FM SOTA
-59,SOTA,146.52,,146.52,,100,100,23,23,NN,FM,5,FM SOTA
-60,SOTA,146.525,,146.525,,100,100,23,23,NN,FM,5,FM SOTA
-61,SOTA,439,,439,,100,100,23,23,NN,FM,5,FM SOTA
-62,ISS AX.25 1200 Bd AFSK Packet,145.825,,145.825,,100,100,23,23,NN,FM,5,FM ISS AX.25 1200 Bd AFSK Packet Radio (Worldwide)
-63,ISS U/v VOICE Repeater (World,145.8,split,437.8,,100,100,23,23,NN,FM,5,FM ISS U/v VOICE Repeater (Worldwide)
-64,ISS UHF Simplex (rarely used),437.55,,437.55,,100,100,23,23,NN,FM,5,FM ISS UHF Simplex (rarely used)
-65,ISS V/u with PL VOICE Repeate,437.8,split,145.99,Tone,67,67,23,23,NN,FM,5,FM ISS V/u with PL VOICE Repeater (Worldwide)
-66,ISS VOICE for ITU Region 2&3,145.8,split,144.49,,100,100,23,23,NN,FM,5,FM ISS VOICE for ITU Region 2&3
-67,AO-27,436.795,split,145.85,,100,100,23,23,NN,FM,5,FM SAT AO-27
-68,AO-91 (RadFxSat / Fox-1B),145.96,split,435.25,Tone,67,67,23,23,NN,FM,5,FM SAT AO-91 (RadFxSat / Fox-1B)
-69,AO-92 (Fox-1D),145.88,split,435.35,Tone,67,67,23,23,NN,FM,5,FM SAT AO-92 (Fox-1D)
-70,CAS-3H (LilacSat-2),437.2,split,144.35,,100,100,23,23,NN,FM,5,FM SAT CAS-3H (LilacSat-2)
-71,CAS-5A,435.6,split,145.925,,100,100,23,23,NN,FM,5,FM SAT CAS-5A
-72,CAS-7A,435.455,split,145.95,,100,100,23,23,NN,FM,5,FM SAT CAS-7A
-73,CAS-7C,435.69,split,145.9,,100,100,23,23,NN,FM,5,FM SAT CAS-7C
-74,Duchifat3,436.4,split,145.97,,100,100,23,23,NN,FM,5,FM SAT Duchifat3
-75,IO-86 (LAPAN-A2),435.88,split,145.88,Tone,88.5,88.5,23,23,NN,FM,5,FM SAT IO-86 (LAPAN-A2)
-76,PO-101 (Diwata-2),145.9,split,437.5,Tone,141.3,141.3,23,23,NN,FM,5,FM SAT PO-101 (Diwata-2)
-77,SO-50 (SaudiSat-1C),436.795,split,145.85,Tone,67,67,23,23,NN,FM,5,FM SAT SO-50 (SaudiSat-1C)
-78,Swiatowid,145.85,split,436,,100,100,23,23,NN,FM,5,FM SAT Swiatowid
-79,Tevel Mission,436.4,split,145.97,,100,100,23,23,NN,FM,5,FM SAT Tevel Mission
-80,0BF Fairplay Sacramento Mountain,447.125,split,442.125,TSQL,103.5,103.5,23,23,NN,FM,5,8 5336 44.00 CO Park Fairplay Sacramento Mountain AA0BF
-81,0CL Snowmass Village,146.67,split,146.07,Tone,107.2,107.2,23,23,NN,FM,5,8 211 60.00 CO Pitkin Snowmass Village K0CL
-82,0MR Paonia,147.33,split,147.93,Tone,107.2,107.2,23,23,NN,FM,5,8 8179 105.00 CO Delta Paonia KI0MR
-83,0NU Aspen Aspen Mountain,447.05,split,442.05,TSQL,179.9,179.9,23,23,NN,FM,5,8 260 50.00 CO Pitkin Aspen Aspen Mountain KD0NU
-84,0PC Bailey Dick Mountain,146.895,split,146.295,TSQL,100,100,23,23,NN,FM,5,8 7 97.00 CO Park Bailey Dick Mountain AB0PC
-85,0RV Vail Bald Mountain,146.61,split,146.01,Tone,107.2,107.2,23,23,NN,FM,5,8 256 80.00 CO Eagle Vail Bald Mountain K0RV
-86,0VQ Carbondale Missouri Heights,447.15,split,442.15,Tone,136.5,136.5,23,23,NN,FM,5,8 6009 86.00 CO Garfield Carbondale Missouri Heights K0VQ
-87,0VQ Glenwood Springs Three Mile,147.3,split,147.9,Tone,107.2,107.2,23,23,NN,FM,5,8 131 110.00 CO Garfield Glenwood Springs Three Mile Ridge K0VQ
-88,5GF Gunnison,449.95,split,444.95,,100,100,23,23,NN,FM,5,8 161 60.00 CO Gunnison Gunnison K5GF
-89,AFO Vail,224.8,split,223.2,,100,100,23,23,NN,FM,5,8 242 84.00 CO Eagle Vail N0AFO
-90,AFO Vail,449.9,split,444.9,TSQL,107.2,107.2,23,23,NN,FM,5,8 243 84.00 CO Eagle Vail N0AFO
-91,ARA Critchell Critchell Mountain,147.12,split,147.72,TSQL,88.5,88.5,23,23,NN,FM,5,8 59 113.00 CO Jefferson Critchell Critchell Mountain N0ARA
-92,CVU Lake George Badger Mountain,147.36,split,147.96,TSQL,107.2,107.2,23,23,NN,FM,5,8 170 77.00 CO Park Lake George Badger Mountain KC0CVU
-93,CVU Salida Methodist Mountain,145.295,split,144.695,Tone,107.2,107.2,23,23,NN,FM,5,8 203 57.00 CO Chaffee Salida Methodist Mountain KC0CVU
-94,CVU Salida Methodist Mountain,449.65,split,444.65,Tone,107.2,107.2,23,23,NN,FM,5,8 205 57.00 CO Chaffee Salida Methodist Mountain KC0CVU
-95,EKR Canon City Fremont Peak,145.49,split,144.89,TSQL,103.5,103.5,23,23,NN,FM,5,8 30 106.00 CO Fremont Canon City Fremont Peak WD0EKR
-96,EKR Canon City Fremont Peak,223.96,split,222.36,TSQL,103.5,103.5,23,23,NN,FM,5,8 31 106.00 CO Fremont Canon City Fremont Peak WD0EKR
-97,EKR Canon City Fremont Peak,447.75,split,442.75,TSQL,103.5,103.5,23,23,NN,FM,5,8 32 106.00 CO Fremont Canon City Fremont Peak WD0EKR
-98,ELK Carbondale Four Mile Ridge,449.725,split,444.725,Tone,179.9,179.9,23,23,NN,FM,5,8 35 99.00 CO Garfield Carbondale Four Mile Ridge K0ELK
-99,HND Glenwood Springs Lookout Mou,449.85,split,444.85,TSQL,131.8,131.8,23,23,NN,FM,5,8 13637 110.00 CO Garfield Glenwood Springs Lookout Mountain WA4HND
-100,I0G Glenwood Springs Sunlight Pe,146.88,split,146.28,Tone,107.2,107.2,23,23,NN,FM,5,8 130 105.00 CO Garfield Glenwood Springs Sunlight Peak KI0G
-101,I0G Glenwood Springs Sunlight Pe,447.1,split,442.1,Tone,107.2,107.2,23,23,NN,FM,5,8 132 105.00 CO Garfield Glenwood Springs Sunlight Peak KI0G
-102,JSC Canon City Colorado,447.975,split,442.975,TSQL,100,100,23,23,NN,FM,5,8 7185 112.00 CO Fremont Canon City Colorado K0JSC
-103,JSC Canon City Fremont Peak,447.25,split,442.25,TSQL,100,100,23,23,NN,FM,5,8 8879 106.00 CO Fremont Canon City Fremont Peak K0JSC
-104,JSC Westcliffe,448.325,split,443.325,TSQL,100,100,23,23,NN,FM,5,8 15584 115.00 CO Custer Westcliffe K0JSC
-105,LSD Nathrop,146.745,split,146.145,Tone,100,100,23,23,NN,FM,5,8 184 25.00 CO Chaffee Nathrop W0LSD
-106,Lake George,449.7,split,444.7,Tone,107.2,107.2,23,23,NN,FM,5,8 8214 89.00 CO Park Lake George
-107,MRC Maysville,145.325,split,144.725,Tone,100,100,23,23,NN,FM,5,8 16739 42.00 CO Chaffee Maysville KD0MRC
-108,QMR Breckenridge,146.7,split,146.1,Tone,107.2,107.2,23,23,NN,FM,5,8 23 73.00 CO Summit Breckenridge WB0QMR
-109,SNO Carbondale Four Mile Ridge,147.39,split,147.99,Tone,107.2,107.2,23,23,NN,FM,5,8 259 99.00 CO Garfield Carbondale Four Mile Ridge K0SNO
-110,TUC Westcliffe,147.06,split,147.66,TSQL,77,77,23,23,NN,FM,5,8 7189 115.00 CO Custer Westcliffe KB0TUC
-111,TUC Westcliffe,448.15,split,443.15,TSQL,103.5,103.5,23,23,NN,FM,5,8 248 115.00 CO Custer Westcliffe KB0TUC
-112,VJJ Breckenridge Bald Mountain,147.39,split,147.99,Cross,88.5,123,23,23,NN,FM,5,8 24 72.00 CO Summit Breckenridge Bald Mountain KB0VJJ
-113,VJJ Glenwood Springs Sunlight Pe,146.85,split,146.25,Cross,88.5,123,23,23,NN,FM,5,8 129 105.00 CO Garfield Glenwood Springs Sunlight Peak KB0VJJ
-114,VJJ Leadville Mosquito Pass,145.445,split,144.845,Tone,88.5,88.5,23,23,NN,FM,5,8 172 47.00 CO Lake Leadville Mosquito Pass KB0VJJ
-115,VJJ Vail,147.345,split,147.945,Cross,88.5,123,23,23,NN,FM,5,8 241 86.00 CO Eagle Vail KB0VJJ
-116,VTL Gunnison,147.12,split,147.72,,100,100,23,23,NN,FM,5,8 160 60.00 CO Gunnison Gunnison W0VTL
-117,WDF Canon City eightmile Mountai,449,split,444,TSQL,67,67,23,23,NN,FM,5,8 33 97.00 CO Fremont Canon City eightmile Mountain WB0WDF
-118,WUC Woodland Park,145.415,split,144.815,Tone,179.9,179.9,23,23,NN,FM,5,8 249 115.00 CO Teller Woodland Park KA0WUC
-119,WUC Woodland Park,447.675,split,442.675,TSQL,179.9,179.9,23,23,NN,FM,5,8 8193 115.00 CO Teller Woodland Park KA0WUC
-120,X0G Cripple Creek,147.015,split,147.615,Tone,107.2,107.2,23,23,NN,FM,5,8 65 105.00 CO Teller Cripple Creek NX0G
-121,X0G Lake George Badger Mountain,146.685,split,146.085,TSQL,107.2,107.2,23,23,NN,FM,5,8 169 77.00 CO Park Lake George Badger Mountain NX0G
-122,X0G Woodland Park,146.82,split,146.22,Tone,107.2,107.2,23,23,NN,FM,5,8 250 115.00 CO Teller Woodland Park NX0G
+0,AM Simplex,144.28,,144.28,,100,100,23,23,NN,FM,5,AM Simplex
+1,AM Simplex,144.4,,144.4,,100,100,23,23,NN,FM,5,AM Simplex
+2,AM Simplex,144.425,,144.425,,100,100,23,23,NN,FM,5,AM Simplex
+3,AM Simplex,144.45,,144.45,,100,100,23,23,NN,FM,5,AM Simplex
+4,DMR Simplex,145.51,,145.51,,100,100,23,23,NN,FM,5,DMR Simplex
+5,Fusion Simplex,145.5625,,145.5625,,100,100,23,23,NN,FM,5,Fusion Simplex
+6,D-Star Simplex,145.67,,145.67,,100,100,23,23,NN,FM,5,D-Star Simplex
+7,DMR Simplex,145.79,,145.79,,100,100,23,23,NN,FM,5,DMR Simplex
+8,Simplex,146.4,,146.4,,100,100,23,23,NN,FM,5,FM Simplex
+9,Simplex,146.415,,146.415,,100,100,23,23,NN,FM,5,FM Simplex
+10,Simplex,146.43,,146.43,,100,100,23,23,NN,FM,5,FM Simplex
+11,Simplex,146.445,,146.445,,100,100,23,23,NN,FM,5,FM Simplex
+12,Simplex,146.46,,146.46,,100,100,23,23,NN,FM,5,FM Simplex
+13,Simplex,146.475,,146.475,,100,100,23,23,NN,FM,5,FM Simplex
+14,Simplex,146.49,,146.49,,100,100,23,23,NN,FM,5,FM Simplex
+15,Simplex,146.505,,146.505,,100,100,23,23,NN,FM,5,FM Simplex
+16,Simplex,146.535,,146.535,,100,100,23,23,NN,FM,5,FM Simplex
+17,Simplex,146.55,,146.55,,100,100,23,23,NN,FM,5,FM Simplex
+18,Simplex,146.565,,146.565,,100,100,23,23,NN,FM,5,FM Simplex
+19,Simplex,146.58,,146.58,,100,100,23,23,NN,FM,5,FM Simplex
+20,Simplex,146.595,,146.595,,100,100,23,23,NN,FM,5,FM Simplex
+21,Simplex,147.42,,147.42,,100,100,23,23,NN,FM,5,FM Simplex
+22,Simplex,147.435,,147.435,,100,100,23,23,NN,FM,5,FM Simplex
+23,Simplex,147.45,,147.45,,100,100,23,23,NN,FM,5,FM Simplex
+24,Simplex,147.465,,147.465,,100,100,23,23,NN,FM,5,FM Simplex
+25,Simplex,147.48,,147.48,,100,100,23,23,NN,FM,5,FM Simplex
+26,Simplex,147.495,,147.495,,100,100,23,23,NN,FM,5,FM Simplex
+27,Simplex,147.51,,147.51,,100,100,23,23,NN,FM,5,FM Simplex
+28,Simplex,147.525,,147.525,,100,100,23,23,NN,FM,5,FM Simplex
+29,Fusion Simplex,147.525,,147.525,,100,100,23,23,NN,FM,5,Fusion Simplex
+30,Simplex,147.54,,147.54,,100,100,23,23,NN,FM,5,FM Simplex
+31,Simplex,147.555,,147.555,,100,100,23,23,NN,FM,5,FM Simplex
+32,Simplex,147.57,,147.57,,100,100,23,23,NN,FM,5,FM Simplex
+33,Simplex,147.585,,147.585,,100,100,23,23,NN,FM,5,FM Simplex
+34,Simplex,223.4,,223.4,,100,100,23,23,NN,FM,5,FM Simplex
+35,Simplex,223.42,,223.42,,100,100,23,23,NN,FM,5,FM Simplex
+36,Simplex,223.44,,223.44,,100,100,23,23,NN,FM,5,FM Simplex
+37,Simplex,223.46,,223.46,,100,100,23,23,NN,FM,5,FM Simplex
+38,Simplex,223.48,,223.48,,100,100,23,23,NN,FM,5,FM Simplex
+39,Simplex,223.52,,223.52,,100,100,23,23,NN,FM,5,FM Simplex
+40,DMR Simplex,433.45,,433.45,,100,100,23,23,NN,FM,5,DMR Simplex
+41,DMR Simplex,441,,441,,100,100,23,23,NN,FM,5,DMR Simplex
+42,Simplex,445.7,,445.7,,100,100,23,23,NN,FM,5,FM Simplex
+43,Simplex,445.725,,445.725,,100,100,23,23,NN,FM,5,FM Simplex
+44,Simplex,445.75,,445.75,,100,100,23,23,NN,FM,5,FM Simplex
+45,Simplex,445.775,,445.775,,100,100,23,23,NN,FM,5,FM Simplex
+46,Simplex,445.8,,445.8,,100,100,23,23,NN,FM,5,FM Simplex
+47,Simplex,445.825,,445.825,,100,100,23,23,NN,FM,5,FM Simplex
+48,Simplex,445.85,,445.85,,100,100,23,23,NN,FM,5,FM Simplex
+49,Simplex,445.875,,445.875,,100,100,23,23,NN,FM,5,FM Simplex
+50,Simplex,445.9,,445.9,,100,100,23,23,NN,FM,5,FM Simplex
+51,Simplex,445.925,,445.925,,100,100,23,23,NN,FM,5,FM Simplex
+52,Simplex,445.95,,445.95,,100,100,23,23,NN,FM,5,FM Simplex
+53,Simplex,445.975,,445.975,,100,100,23,23,NN,FM,5,FM Simplex
+54,Simplex,446.025,,446.025,,100,100,23,23,NN,FM,5,FM Simplex
+55,Simplex,446.05,,446.05,,100,100,23,23,NN,FM,5,FM Simplex
+56,DMR Simplex,446.075,,446.075,,100,100,23,23,NN,FM,5,DMR Simplex
+57,Simplex,446.075,,446.075,,100,100,23,23,NN,FM,5,FM Simplex
+58,Simplex,446.1,,446.1,,100,100,23,23,NN,FM,5,FM Simplex
+59,Simplex,446.125,,446.125,,100,100,23,23,NN,FM,5,FM Simplex
+60,Simplex,446.15,,446.15,,100,100,23,23,NN,FM,5,FM Simplex
+61,Simplex,446.175,,446.175,,100,100,23,23,NN,FM,5,FM Simplex
+62,Digital Simplex,446.2,,446.2,,100,100,23,23,NN,FM,5,Digital Simplex
+63,Simplex,446.2,,446.2,,100,100,23,23,NN,FM,5,FM Simplex
+64,Digital Simplex,446.2125,,446.2125,,100,100,23,23,NN,FM,5,Digital Simplex
+65,D-Star Simplex,446.225,,446.225,,100,100,23,23,NN,FM,5,D-Star Simplex
+66,Digital Simplex,446.225,,446.225,,100,100,23,23,NN,FM,5,Digital Simplex
+67,Simplex,446.225,,446.225,,100,100,23,23,NN,FM,5,FM Simplex
+68,Digital Simplex,446.2375,,446.2375,,100,100,23,23,NN,FM,5,Digital Simplex
+69,Digital Simplex,446.25,,446.25,,100,100,23,23,NN,FM,5,Digital Simplex
+70,Simplex,446.25,,446.25,,100,100,23,23,NN,FM,5,FM Simplex
+71,Digital Simplex,446.2625,,446.2625,,100,100,23,23,NN,FM,5,Digital Simplex
+72,Digital Simplex,446.275,,446.275,,100,100,23,23,NN,FM,5,Digital Simplex
+73,Simplex,446.275,,446.275,,100,100,23,23,NN,FM,5,FM Simplex
+74,Digital Simplex,446.2875,,446.2875,,100,100,23,23,NN,FM,5,Digital Simplex
+75,Digital Simplex,446.3,,446.3,,100,100,23,23,NN,FM,5,Digital Simplex
+76,DMR Simplex,446.5,,446.5,,100,100,23,23,NN,FM,5,DMR Simplex
+77,ISS UHF Simplex (rarely used),437.55,,437.55,,100,100,23,23,NN,FM,5,FM ISS UHF Simplex (rarely used)
+78,0BF Fairplay Sacramento Mountain,447.125,split,442.125,TSQL,103.5,103.5,23,23,NN,FM,5,8 5336 44.00 CO Park Fairplay Sacramento Mountain AA0BF
+79,0CL Snowmass Village,146.67,split,146.07,Tone,107.2,107.2,23,23,NN,FM,5,8 211 60.00 CO Pitkin Snowmass Village K0CL
+80,0MR Paonia,147.33,split,147.93,Tone,107.2,107.2,23,23,NN,FM,5,8 8179 105.00 CO Delta Paonia KI0MR
+81,0NU Aspen Aspen Mountain,447.05,split,442.05,TSQL,179.9,179.9,23,23,NN,FM,5,8 260 50.00 CO Pitkin Aspen Aspen Mountain KD0NU
+82,0PC Bailey Dick Mountain,146.895,split,146.295,TSQL,100,100,23,23,NN,FM,5,8 7 97.00 CO Park Bailey Dick Mountain AB0PC
+83,0RV Vail Bald Mountain,146.61,split,146.01,Tone,107.2,107.2,23,23,NN,FM,5,8 256 80.00 CO Eagle Vail Bald Mountain K0RV
+84,0VQ Carbondale Missouri Heights,447.15,split,442.15,Tone,136.5,136.5,23,23,NN,FM,5,8 6009 86.00 CO Garfield Carbondale Missouri Heights K0VQ
+85,0VQ Glenwood Springs Three Mile,147.3,split,147.9,Tone,107.2,107.2,23,23,NN,FM,5,8 131 110.00 CO Garfield Glenwood Springs Three Mile Ridge K0VQ
+86,5GF Gunnison,449.95,split,444.95,,100,100,23,23,NN,FM,5,8 161 60.00 CO Gunnison Gunnison K5GF
+87,AFO Vail,224.8,split,223.2,,100,100,23,23,NN,FM,5,8 242 84.00 CO Eagle Vail N0AFO
+88,AFO Vail,449.9,split,444.9,TSQL,107.2,107.2,23,23,NN,FM,5,8 243 84.00 CO Eagle Vail N0AFO
+89,ARA Critchell Critchell Mountain,147.12,split,147.72,TSQL,88.5,88.5,23,23,NN,FM,5,8 59 113.00 CO Jefferson Critchell Critchell Mountain N0ARA
+90,CVU Lake George Badger Mountain,147.36,split,147.96,TSQL,107.2,107.2,23,23,NN,FM,5,8 170 77.00 CO Park Lake George Badger Mountain KC0CVU
+91,CVU Salida Methodist Mountain,145.295,split,144.695,Tone,107.2,107.2,23,23,NN,FM,5,8 203 57.00 CO Chaffee Salida Methodist Mountain KC0CVU
+92,CVU Salida Methodist Mountain,449.65,split,444.65,Tone,107.2,107.2,23,23,NN,FM,5,8 205 57.00 CO Chaffee Salida Methodist Mountain KC0CVU
+93,EKR Canon City Fremont Peak,145.49,split,144.89,TSQL,103.5,103.5,23,23,NN,FM,5,8 30 106.00 CO Fremont Canon City Fremont Peak WD0EKR
+94,EKR Canon City Fremont Peak,223.96,split,222.36,TSQL,103.5,103.5,23,23,NN,FM,5,8 31 106.00 CO Fremont Canon City Fremont Peak WD0EKR
+95,EKR Canon City Fremont Peak,447.75,split,442.75,TSQL,103.5,103.5,23,23,NN,FM,5,8 32 106.00 CO Fremont Canon City Fremont Peak WD0EKR
+96,ELK Carbondale Four Mile Ridge,449.725,split,444.725,Tone,179.9,179.9,23,23,NN,FM,5,8 35 99.00 CO Garfield Carbondale Four Mile Ridge K0ELK
+97,HND Glenwood Springs Lookout Mou,449.85,split,444.85,TSQL,131.8,131.8,23,23,NN,FM,5,8 13637 110.00 CO Garfield Glenwood Springs Lookout Mountain WA4HND
+98,I0G Glenwood Springs Sunlight Pe,146.88,split,146.28,Tone,107.2,107.2,23,23,NN,FM,5,8 130 105.00 CO Garfield Glenwood Springs Sunlight Peak KI0G
+99,I0G Glenwood Springs Sunlight Pe,447.1,split,442.1,Tone,107.2,107.2,23,23,NN,FM,5,8 132 105.00 CO Garfield Glenwood Springs Sunlight Peak KI0G
+100,JSC Canon City Colorado,447.975,split,442.975,TSQL,100,100,23,23,NN,FM,5,8 7185 112.00 CO Fremont Canon City Colorado K0JSC
+101,JSC Canon City Fremont Peak,447.25,split,442.25,TSQL,100,100,23,23,NN,FM,5,8 8879 106.00 CO Fremont Canon City Fremont Peak K0JSC
+102,JSC Westcliffe,448.325,split,443.325,TSQL,100,100,23,23,NN,FM,5,8 15584 115.00 CO Custer Westcliffe K0JSC
+103,LSD Nathrop,146.745,split,146.145,Tone,100,100,23,23,NN,FM,5,8 184 25.00 CO Chaffee Nathrop W0LSD
+104,Lake George,449.7,split,444.7,Tone,107.2,107.2,23,23,NN,FM,5,8 8214 89.00 CO Park Lake George
+105,MRC Maysville,145.325,split,144.725,Tone,100,100,23,23,NN,FM,5,8 16739 42.00 CO Chaffee Maysville KD0MRC
+106,QMR Breckenridge,146.7,split,146.1,Tone,107.2,107.2,23,23,NN,FM,5,8 23 73.00 CO Summit Breckenridge WB0QMR
+107,SNO Carbondale Four Mile Ridge,147.39,split,147.99,Tone,107.2,107.2,23,23,NN,FM,5,8 259 99.00 CO Garfield Carbondale Four Mile Ridge K0SNO
+108,TUC Westcliffe,147.06,split,147.66,TSQL,77,77,23,23,NN,FM,5,8 7189 115.00 CO Custer Westcliffe KB0TUC
+109,TUC Westcliffe,448.15,split,443.15,TSQL,103.5,103.5,23,23,NN,FM,5,8 248 115.00 CO Custer Westcliffe KB0TUC
+110,VJJ Breckenridge Bald Mountain,147.39,split,147.99,Cross,88.5,123,23,23,NN,FM,5,8 24 72.00 CO Summit Breckenridge Bald Mountain KB0VJJ
+111,VJJ Glenwood Springs Sunlight Pe,146.85,split,146.25,Cross,88.5,123,23,23,NN,FM,5,8 129 105.00 CO Garfield Glenwood Springs Sunlight Peak KB0VJJ
+112,VJJ Leadville Mosquito Pass,145.445,split,144.845,Tone,88.5,88.5,23,23,NN,FM,5,8 172 47.00 CO Lake Leadville Mosquito Pass KB0VJJ
+113,VJJ Vail,147.345,split,147.945,Cross,88.5,123,23,23,NN,FM,5,8 241 86.00 CO Eagle Vail KB0VJJ
+114,VTL Gunnison,147.12,split,147.72,,100,100,23,23,NN,FM,5,8 160 60.00 CO Gunnison Gunnison W0VTL
+115,WDF Canon City eightmile Mountai,449,split,444,TSQL,67,67,23,23,NN,FM,5,8 33 97.00 CO Fremont Canon City eightmile Mountain WB0WDF
+116,WUC Woodland Park,145.415,split,144.815,Tone,179.9,179.9,23,23,NN,FM,5,8 249 115.00 CO Teller Woodland Park KA0WUC
+117,WUC Woodland Park,447.675,split,442.675,TSQL,179.9,179.9,23,23,NN,FM,5,8 8193 115.00 CO Teller Woodland Park KA0WUC
+118,WUC Woodland Park,449.025,split,444.025,Tone,141.3,141.3,23,23,NN,FM,5,8 252 115.00 CO Teller Woodland Park KA0WUC
+119,X0G Cripple Creek,147.015,split,147.615,Tone,107.2,107.2,23,23,NN,FM,5,8 65 105.00 CO Teller Cripple Creek NX0G
+120,X0G Lake George Badger Mountain,146.685,split,146.085,TSQL,107.2,107.2,23,23,NN,FM,5,8 169 77.00 CO Park Lake George Badger Mountain NX0G
+121,X0G Woodland Park,146.82,split,146.22,Tone,107.2,107.2,23,23,NN,FM,5,8 250 115.00 CO Teller Woodland Park NX0G
+122,X0G Woodland Park,448.65,split,443.65,Tone,107.2,107.2,23,23,NN,FM,5,8 251 115.00 CO Teller Woodland Park NX0G
 123,XLI Glenwood Springs Sunlight Pe,449.6,split,444.6,Tone,107.2,107.2,23,23,NN,FM,5,8 255 105.00 CO Garfield Glenwood Springs Sunlight Peak N0XLI
 124,YNA Gunnison W Mountain or Tende,447.65,split,442.65,TSQL,151.4,151.4,23,23,NN,FM,5,8 15212 33.00 CO Gunnison Gunnison W Mountain or Tenderfoot Mountain KB0YNA
 125,Z0N Hartsel,448.575,split,443.575,TSQL,103.5,103.5,23,23,NN,FM,5,8 9840 39.00 CO Park Hartsel WZ0N
