@@ -56,74 +56,74 @@ Location,Name,Frequency,Duplex,Offset,Tone,rToneFreq,cToneFreq,DtcsCode,DtcsRxCo
 54,Simplex,446.225,,446.225,,100,100,23,23,NN,FM,5,FM Simplex
 55,Simplex,446.25,,446.25,,100,100,23,23,NN,FM,5,FM Simplex
 56,Simplex,446.275,,446.275,,100,100,23,23,NN,FM,5,FM Simplex
-57,MURS 1,151.82,,151.82,,100,100,23,23,NN,FM,5,MURS 1
-58,MURS 2,151.88,,151.88,,100,100,23,23,NN,FM,5,MURS 2
-59,MURS 3,151.94,,151.94,,100,100,23,23,NN,FM,5,MURS 3
-60,MURS 4,154.57,,154.57,,100,100,23,23,NN,FM,5,MURS 4
-61,MURS 5,154.6,,154.6,,100,100,23,23,NN,FM,5,MURS 5
-62,GMRS 1,462.5625,,462.5625,,100,100,23,23,NN,FM,5,GMRS 1
-63,GMRS 2,462.5875,,462.5875,,100,100,23,23,NN,FM,5,GMRS 2
-64,GMRS 3,462.6125,,462.6125,,100,100,23,23,NN,FM,5,GMRS 3
-65,GMRS 4,462.6375,,462.6375,,100,100,23,23,NN,FM,5,GMRS 4
-66,GMRS 5,462.6625,,462.6625,,100,100,23,23,NN,FM,5,GMRS 5
-67,GMRS 6,462.6875,,462.6875,,100,100,23,23,NN,FM,5,GMRS 6
-68,GMRS 7,462.7125,,462.7125,,100,100,23,23,NN,FM,5,GMRS 7
-69,GMRS 8,467.5625,,467.5625,,100,100,23,23,NN,FM,5,GMRS 8
-70,FRS 9,467.5875,,467.5875,,100,100,23,23,NN,FM,5,FRS 9
-71,FRS 10,467.6125,,467.6125,,100,100,23,23,NN,FM,5,FRS 10
-72,FRS 11,467.6375,,467.6375,,100,100,23,23,NN,FM,5,FRS 11
-73,FRS 12,467.6625,,467.6625,,100,100,23,23,NN,FM,5,FRS 12
-74,FRS 13,467.6875,,467.6875,,100,100,23,23,NN,FM,5,FRS 13
-75,FRS 14,467.7125,,467.7125,,100,100,23,23,NN,FM,5,FRS 14
-76,GMRS 15,462.55,,462.55,,100,100,23,23,NN,FM,5,GMRS 15
-77,GMRS 16,462.575,,462.575,,100,100,23,23,NN,FM,5,GMRS 16
-78,GMRS 17,462.6,,462.6,,100,100,23,23,NN,FM,5,GMRS 17
-79,GMRS 18,462.625,,462.625,,100,100,23,23,NN,FM,5,GMRS 18
-80,GMRS 19,462.65,,462.65,,100,100,23,23,NN,FM,5,GMRS 19
-81,GMRS 20,462.675,,462.675,,100,100,23,23,NN,FM,5,GMRS 20
-82,GMRS 21,462.7,,462.7,,100,100,23,23,NN,FM,5,GMRS 21
-83,GMRS 22,462.725,,462.725,,100,100,23,23,NN,FM,5,GMRS 22
-84,SOTA,144.585,,144.585,,100,100,23,23,NN,FM,5,FM SOTA
-85,SOTA,146.5,,146.5,,100,100,23,23,NN,FM,5,FM SOTA
-86,SOTA,146.52,,146.52,,100,100,23,23,NN,FM,5,FM SOTA
-87,SOTA,146.525,,146.525,,100,100,23,23,NN,FM,5,FM SOTA
-88,SOTA,439,,439,,100,100,23,23,NN,FM,5,FM SOTA
-89,ISS AX.25 1200 Bd AFSK Packet,145.825,,145.825,,100,100,23,23,NN,FM,5,FM ISS AX.25 1200 Bd AFSK Packet Radio (Worldwide)
-90,ISS U/v VOICE Repeater (World,145.8,split,437.8,,100,100,23,23,NN,FM,5,FM ISS U/v VOICE Repeater (Worldwide)
-91,ISS UHF Simplex (rarely used),437.55,,437.55,,100,100,23,23,NN,FM,5,FM ISS UHF Simplex (rarely used)
-92,ISS V/u with PL VOICE Repeate,437.8,split,145.99,Tone,67,67,23,23,NN,FM,5,FM ISS V/u with PL VOICE Repeater (Worldwide)
-93,ISS VOICE for ITU Region 2&3,145.8,split,144.49,,100,100,23,23,NN,FM,5,FM ISS VOICE for ITU Region 2&3
-94,AO-27,436.795,split,145.85,,100,100,23,23,NN,FM,5,FM SAT AO-27
-95,AO-91 (RadFxSat / Fox-1B),145.96,split,435.25,Tone,67,67,23,23,NN,FM,5,FM SAT AO-91 (RadFxSat / Fox-1B)
-96,AO-92 (Fox-1D),145.88,split,435.35,Tone,67,67,23,23,NN,FM,5,FM SAT AO-92 (Fox-1D)
-97,CAS-3H (LilacSat-2),437.2,split,144.35,,100,100,23,23,NN,FM,5,FM SAT CAS-3H (LilacSat-2)
-98,CAS-5A,435.6,split,145.925,,100,100,23,23,NN,FM,5,FM SAT CAS-5A
-99,CAS-7A,435.455,split,145.95,,100,100,23,23,NN,FM,5,FM SAT CAS-7A
-100,CAS-7C,435.69,split,145.9,,100,100,23,23,NN,FM,5,FM SAT CAS-7C
-101,Duchifat3,436.4,split,145.97,,100,100,23,23,NN,FM,5,FM SAT Duchifat3
-102,IO-86 (LAPAN-A2),435.88,split,145.88,Tone,88.5,88.5,23,23,NN,FM,5,FM SAT IO-86 (LAPAN-A2)
-103,PO-101 (Diwata-2),145.9,split,437.5,Tone,141.3,141.3,23,23,NN,FM,5,FM SAT PO-101 (Diwata-2)
-104,SO-50 (SaudiSat-1C),436.795,split,145.85,Tone,67,67,23,23,NN,FM,5,FM SAT SO-50 (SaudiSat-1C)
-105,Swiatowid,145.85,split,436,,100,100,23,23,NN,FM,5,FM SAT Swiatowid
-106,Tevel Mission,436.4,split,145.97,,100,100,23,23,NN,FM,5,FM SAT Tevel Mission
-107,0EP Durango Eagle Pass,146.67,split,146.07,TSQL,100,100,23,23,NN,FM,5,8 113 83.00 CO La Plata Durango Eagle Pass K0EP
-108,0EP Durango Missionary Ridge,146.7,split,146.1,TSQL,100,100,23,23,NN,FM,5,8 116 80.00 CO La Plata Durango Missionary Ridge K0EP
-109,0JS Creede,146.925,split,146.325,,100,100,23,23,NN,FM,5,8 63 66.00 CO Mineral Creede WA0JS
-110,0MR Paonia,147.33,split,147.93,Tone,107.2,107.2,23,23,NN,FM,5,8 8179 87.00 CO Delta Paonia KI0MR
-111,5GF Gunnison,449.95,split,444.95,,100,100,23,23,NN,FM,5,8 161 79.00 CO Gunnison Gunnison K5GF
-112,HND Montrose Waterdog Peak,447.2,split,442.2,TSQL,107.2,107.2,23,23,NN,FM,5,8 69 34.00 CO Montrose Montrose Waterdog Peak WA4HND
-113,ITS Lake City Hill 71,147.135,split,147.735,Tone,123,123,23,23,NN,FM,5,8 16607 27.00 CO Hinsdale Lake City Hill 71 KB5ITS
-114,ITS Mancos Caviness,145.325,split,144.725,,100,100,23,23,NN,FM,5,8 18459 93.00 CO Montezuma Mancos Caviness KB5ITS
-115,ITS Montrose Raspberry Ridge,448.825,split,443.825,Tone,100,100,23,23,NN,FM,5,8 18465 57.00 CO Montrose Montrose Raspberry Ridge KB5ITS
-116,ITS Ouray Engineer Mountain,147.27,split,147.87,Tone,127.3,127.3,23,23,NN,FM,5,8 16604 9.00 CO Ouray Ouray Engineer Mountain KB5ITS
-117,ITS Silverton,447.525,split,442.525,Tone,127.3,127.3,23,23,NN,FM,5,8 210 31.00 CO San Juan Silverton KB5ITS
-118,ITS Silverton Buffalo Boy,145.325,split,144.725,Tone,127.3,127.3,23,23,NN,FM,5,8 16605 31.00 CO San Juan Silverton Buffalo Boy KB5ITS
-119,ITS Silverton Hazelton,444,split,449,Tone,67,67,23,23,NN,FM,5,8 16624 31.00 CO San Juan Silverton Hazelton KB5ITS
-120,ITS Silverton Kendall Mountain,147.375,split,147.975,Tone,156.7,156.7,23,23,NN,FM,5,8 209 33.00 CO San Juan Silverton Kendall Mountain KB5ITS
-121,ITT Silverton Engineer Mountain,147.27,split,147.87,Tone,127.3,127.3,23,23,NN,FM,5,8 208 47.00 CO San Juan Silverton Engineer Mountain KB5ITT
-122,OPD Montrose,146.79,split,146.19,TSQL,107.2,107.2,23,23,NN,FM,5,8 7953 49.00 CO Montrose Montrose KD5OPD
-123,UUX Montrose,146.91,split,146.31,TSQL,107.2,107.2,23,23,NN,FM,5,8 12442 49.00 CO Montrose Montrose KC0UUX
-124,VJJ Durango Missionary Ridge,147.345,split,147.945,Cross,88.5,123,23,23,NN,FM,5,8 114 83.00 CO La Plata Durango Missionary Ridge KB0VJJ
-125,VTL Gunnison,147.12,split,147.72,,100,100,23,23,NN,FM,5,8 160 79.00 CO Gunnison Gunnison W0VTL
+57,SOTA,144.585,,144.585,,100,100,23,23,NN,FM,5,FM SOTA
+58,SOTA,146.5,,146.5,,100,100,23,23,NN,FM,5,FM SOTA
+59,SOTA,146.52,,146.52,,100,100,23,23,NN,FM,5,FM SOTA
+60,SOTA,146.525,,146.525,,100,100,23,23,NN,FM,5,FM SOTA
+61,SOTA,439,,439,,100,100,23,23,NN,FM,5,FM SOTA
+62,ISS AX.25 1200 Bd AFSK Packet,145.825,,145.825,,100,100,23,23,NN,FM,5,FM ISS AX.25 1200 Bd AFSK Packet Radio (Worldwide)
+63,ISS U/v VOICE Repeater (World,145.8,split,437.8,,100,100,23,23,NN,FM,5,FM ISS U/v VOICE Repeater (Worldwide)
+64,ISS UHF Simplex (rarely used),437.55,,437.55,,100,100,23,23,NN,FM,5,FM ISS UHF Simplex (rarely used)
+65,ISS V/u with PL VOICE Repeate,437.8,split,145.99,Tone,67,67,23,23,NN,FM,5,FM ISS V/u with PL VOICE Repeater (Worldwide)
+66,ISS VOICE for ITU Region 2&3,145.8,split,144.49,,100,100,23,23,NN,FM,5,FM ISS VOICE for ITU Region 2&3
+67,AO-27,436.795,split,145.85,,100,100,23,23,NN,FM,5,FM SAT AO-27
+68,AO-91 (RadFxSat / Fox-1B),145.96,split,435.25,Tone,67,67,23,23,NN,FM,5,FM SAT AO-91 (RadFxSat / Fox-1B)
+69,AO-92 (Fox-1D),145.88,split,435.35,Tone,67,67,23,23,NN,FM,5,FM SAT AO-92 (Fox-1D)
+70,CAS-3H (LilacSat-2),437.2,split,144.35,,100,100,23,23,NN,FM,5,FM SAT CAS-3H (LilacSat-2)
+71,CAS-5A,435.6,split,145.925,,100,100,23,23,NN,FM,5,FM SAT CAS-5A
+72,CAS-7A,435.455,split,145.95,,100,100,23,23,NN,FM,5,FM SAT CAS-7A
+73,CAS-7C,435.69,split,145.9,,100,100,23,23,NN,FM,5,FM SAT CAS-7C
+74,Duchifat3,436.4,split,145.97,,100,100,23,23,NN,FM,5,FM SAT Duchifat3
+75,IO-86 (LAPAN-A2),435.88,split,145.88,Tone,88.5,88.5,23,23,NN,FM,5,FM SAT IO-86 (LAPAN-A2)
+76,PO-101 (Diwata-2),145.9,split,437.5,Tone,141.3,141.3,23,23,NN,FM,5,FM SAT PO-101 (Diwata-2)
+77,SO-50 (SaudiSat-1C),436.795,split,145.85,Tone,67,67,23,23,NN,FM,5,FM SAT SO-50 (SaudiSat-1C)
+78,Swiatowid,145.85,split,436,,100,100,23,23,NN,FM,5,FM SAT Swiatowid
+79,Tevel Mission,436.4,split,145.97,,100,100,23,23,NN,FM,5,FM SAT Tevel Mission
+80,0EP Durango Eagle Pass,146.67,split,146.07,TSQL,100,100,23,23,NN,FM,5,8 113 83.00 CO La Plata Durango Eagle Pass K0EP
+81,0EP Durango Missionary Ridge,146.7,split,146.1,TSQL,100,100,23,23,NN,FM,5,8 116 80.00 CO La Plata Durango Missionary Ridge K0EP
+82,0JS Creede,146.925,split,146.325,,100,100,23,23,NN,FM,5,8 63 66.00 CO Mineral Creede WA0JS
+83,0MR Paonia,147.33,split,147.93,Tone,107.2,107.2,23,23,NN,FM,5,8 8179 87.00 CO Delta Paonia KI0MR
+84,0SW Collbran,449.5,split,444.5,Tone,107.2,107.2,23,23,NN,FM,5,8 36 132.00 CO Mesa Collbran KB0SW
+85,0TY Grand Junction,145.22,split,144.62,Tone,107.2,107.2,23,23,NN,FM,5,8 8167 136.00 CO Mesa Grand Junction KE0TY
+86,5GF Gunnison,449.95,split,444.95,,100,100,23,23,NN,FM,5,8 161 79.00 CO Gunnison Gunnison K5GF
+87,5SJ Nebo Cedar Hill,147.06,split,147.66,Tone,100,100,23,23,NN,FM,5,35 16667 128.00 NM San Juan Nebo Cedar Hill NM5SJ
+88,ALC Cedaredge,147.36,split,147.96,Tone,100,100,23,23,NN,FM,5,8 3749 95.00 CO Delta Cedaredge W0ALC
+89,ALC Cedaredge,449.825,split,444.825,Tone,100,100,23,23,NN,FM,5,8 3760 95.00 CO Delta Cedaredge W0ALC
+90,Cedaredge Grand Mesa,447.35,split,442.35,Tone,107.2,107.2,23,23,NN,FM,5,8 3755 106.00 CO Delta Cedaredge Grand Mesa
+91,EVE Durango,448.625,split,443.625,TSQL,131.8,131.8,23,23,NN,FM,5,8 115 93.00 CO La Plata Durango KC5EVE
+92,GJT Grand Junction,448.15,split,443.15,Tone,100,100,23,23,NN,FM,5,8 153 119.00 CO Mesa Grand Junction W0GJT
+93,GJT Grand Junction 9 Mile Hwy 14,146.82,split,146.22,Tone,107.2,107.2,23,23,NN,FM,5,8 261 136.00 CO Mesa Grand Junction 9 Mile Hwy 141 Unaweep W0GJT
+94,HND Grand Junction Grand Mesa,449.3,split,444.3,TSQL,107.2,107.2,23,23,NN,FM,5,8 154 121.00 CO Mesa Grand Junction Grand Mesa WA4HND
+95,HND Montrose Waterdog Peak,447.2,split,442.2,TSQL,107.2,107.2,23,23,NN,FM,5,8 69 34.00 CO Montrose Montrose Waterdog Peak WA4HND
+96,HQD South Fork,447.9,split,442.9,Tone,100,100,23,23,NN,FM,5,8 19196 97.00 CO Rio Grande South Fork N0HQD
+97,ITS Cortez Goodman,145.19,split,144.59,Tone,100,100,23,23,NN,FM,5,8 16606 104.00 CO Montezuma Cortez Goodman KB5ITS
+98,ITS Dolores Summit Ridge,447.275,split,442.275,Tone,100,100,23,23,NN,FM,5,8 16623 104.00 CO Montezuma Dolores Summit Ridge KB5ITS
+99,ITS Durango Smelter Mountain,147.135,split,147.735,TSQL,100,100,23,23,NN,FM,5,8 11545 95.00 CO La Plata Durango Smelter Mountain KB5ITS
+100,ITS Ignacio Spring Creek,147.15,split,147.75,Tone,100,100,23,23,NN,FM,5,8 8177 108.00 CO La Plata Ignacio Spring Creek KB5ITS
+101,ITS Lake City Hill 71,147.135,split,147.735,Tone,123,123,23,23,NN,FM,5,8 16607 27.00 CO Hinsdale Lake City Hill 71 KB5ITS
+102,ITS Mancos Caviness,145.325,split,144.725,,100,100,23,23,NN,FM,5,8 18459 93.00 CO Montezuma Mancos Caviness KB5ITS
+103,ITS Mancos Caviness Mountain,145.325,split,144.725,Tone,100,100,23,23,NN,FM,5,8 8168 93.00 CO Montezuma Mancos Caviness Mountain KB5ITS
+104,ITS Mancos Caviness Mountain,442.375,split,447.375,Tone,100,100,23,23,NN,FM,5,8 15896 94.00 CO Montezuma Mancos Caviness Mountain KB5ITS
+105,ITS Montrose Raspberry Ridge,448.825,split,443.825,Tone,100,100,23,23,NN,FM,5,8 18465 57.00 CO Montrose Montrose Raspberry Ridge KB5ITS
+106,ITS Ouray Engineer Mountain,147.27,split,147.87,Tone,127.3,127.3,23,23,NN,FM,5,8 16604 9.00 CO Ouray Ouray Engineer Mountain KB5ITS
+107,ITS Silverton,447.525,split,442.525,Tone,127.3,127.3,23,23,NN,FM,5,8 210 31.00 CO San Juan Silverton KB5ITS
+108,ITS Silverton Buffalo Boy,145.325,split,144.725,Tone,127.3,127.3,23,23,NN,FM,5,8 16605 31.00 CO San Juan Silverton Buffalo Boy KB5ITS
+109,ITS Silverton Hazelton,444,split,449,Tone,67,67,23,23,NN,FM,5,8 16624 31.00 CO San Juan Silverton Hazelton KB5ITS
+110,ITS Silverton Kendall Mountain,147.375,split,147.975,Tone,156.7,156.7,23,23,NN,FM,5,8 209 33.00 CO San Juan Silverton Kendall Mountain KB5ITS
+111,ITT Silverton Engineer Mountain,147.27,split,147.87,Tone,127.3,127.3,23,23,NN,FM,5,8 208 47.00 CO San Juan Silverton Engineer Mountain KB5ITT
+112,JSP Pagosa Springs Oakbrush Hill,146.61,split,146.01,Tone,123,123,23,23,NN,FM,5,8 188 109.00 CO Archuleta Pagosa Springs Oakbrush Hill N0JSP
+113,MRC Maysville,145.325,split,144.725,Tone,100,100,23,23,NN,FM,5,8 16739 120.00 CO Chaffee Maysville KD0MRC
+114,OPD Montrose,146.79,split,146.19,TSQL,107.2,107.2,23,23,NN,FM,5,8 7953 49.00 CO Montrose Montrose KD5OPD
+115,QXX Cedaredge Cedar Mesa,147.195,split,147.795,Tone,118.8,118.8,23,23,NN,FM,5,8 3745 95.00 CO Delta Cedaredge Cedar Mesa KC0QXX
+116,SSI Grand Junction,147.105,split,147.705,,100,100,23,23,NN,FM,5,8 8175 136.00 CO Mesa Grand Junction K0SSI
+117,UUX Montrose,146.91,split,146.31,TSQL,107.2,107.2,23,23,NN,FM,5,8 12442 49.00 CO Montrose Montrose KC0UUX
+118,VIU Hesperus,145.37,split,144.77,TSQL,100,100,23,23,NN,FM,5,8 8169 95.00 CO La Plata Hesperus KB0VIU
+119,VJJ Durango Missionary Ridge,147.345,split,147.945,Cross,88.5,123,23,23,NN,FM,5,8 114 83.00 CO La Plata Durango Missionary Ridge KB0VJJ
+120,VJJ Grand Junction Grand Mesa,145.355,split,144.755,Cross,88.5,123,23,23,NN,FM,5,8 149 112.00 CO Mesa Grand Junction Grand Mesa KB0VJJ
+121,VJJ Grand Junction Grand Mesa,147.355,split,146.755,Cross,88.5,123,23,23,NN,FM,5,8 15581 136.00 CO Mesa Grand Junction Grand Mesa KB0VJJ
+122,VTL Gunnison,147.12,split,147.72,,100,100,23,23,NN,FM,5,8 160 79.00 CO Gunnison Gunnison W0VTL
+123,YNA Delta Uncompahgre Butte,449.4,split,444.4,TSQL,131.8,131.8,23,23,NN,FM,5,8 127 106.00 CO Mesa Delta Uncompahgre Butte KB0YNA
+124,YNA Grand Junction Grand Mesa,449.65,split,444.65,TSQL,151.4,151.4,23,23,NN,FM,5,8 8763 113.00 CO Mesa Grand Junction Grand Mesa KB0YNA
+125,YNA Gunnison W Mountain or Tende,447.65,split,442.65,TSQL,151.4,151.4,23,23,NN,FM,5,8 15212 110.00 CO Gunnison Gunnison W Mountain or Tenderfoot Mountain KB0YNA
 126,YNA Montrose Waterdog Peak,448.65,split,443.65,TSQL,151.4,151.4,23,23,NN,FM,5,8 15213 34.00 CO Montrose Montrose Waterdog Peak KB0YNA
 127,YNA Telluride Gray Head,449.7,split,444.7,TSQL,107.2,107.2,23,23,NN,FM,5,8 254 33.00 CO San Miguel Telluride Gray Head KB0YNA
