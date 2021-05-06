@@ -1,2 +1,2 @@
 ID,StateID,Callsign,Use,Status,DigitalTone,Digital,VOIP,Location.Latitude,Location.Longitude,Location.County,Location.State,Location.Local,Frequency.Input,Frequency.Output,SquelchTone.Input,SquelchTone.Output
-31,16,N7ORY,Open,On-Air,,,,42.31470108,-113.65799713,Cassia,ID,"Burley, Mt Harrison",223.32,224.92,100,
+31,16,N7ORY,Open,Off-Air,,,,42.31470108,-113.65799713,Cassia,ID,"Burley, Mt Harrison",223.32,224.92,100,

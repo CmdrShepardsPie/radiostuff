@@ -1,0 +1,26 @@
+{
+  "ID": 19983,
+  "StateID": 32,
+  "Callsign": "N4NJJ",
+  "Location": {
+    "Latitude": 35.893569,
+    "Longitude": -115.495719,
+    "County": "Clark",
+    "State": "NV",
+    "Local": "Las Vegas, Low Potosi"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 444.7,
+    "Output": 449.7
+  },
+  "Digital": {
+    "P25": {}
+  },
+  "VOIP": {
+    "AllStar": {
+      "NodeID": 42631
+    }
+  }
+}

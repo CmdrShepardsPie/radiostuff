@@ -21,6 +21,7 @@
   "DMR ID": 310811,
   "IPSC Network": "NoCo c Record retrieved from radioid.net",
   "Local Network": "BrandMeister US",
+  "c-Bridge": "BM",
   "Wide Network": "BrandMeister",
   "Talkgroups": "Open Talkgroup View Assignment TS TG Access Dynamic Groups use TS 1 1 0 TAC 310 1 310 USA 1776 1 1776 DCI Bridge 1 3100 Local/Cluster 2 2 Colorado 2 3108 N. Colorado 2 3171 function myFunction(id) { var x = document.getElementById(id); if (x.className.indexOf(\"w3-show\") == -1) { x.className += \" w3-show\"; } else { x.className = x.className.replace(\" w3-show\", \"\"); } }",
   "Dynamic Groups use TS 1": 1,

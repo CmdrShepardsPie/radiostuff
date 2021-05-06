@@ -1,0 +1,31 @@
+{
+  "ID": 19985,
+  "StateID": 56,
+  "Callsign": "KE0DNL",
+  "Location": {
+    "Latitude": 41.1006,
+    "Longitude": -105.0253,
+    "County": "Laramie",
+    "State": "WY",
+    "Local": "Cheyenne, Borie Tower 1400 Otto Rd"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 444.775,
+    "Output": 449.775
+  },
+  "Digital": {
+    "YSF": {
+      "GroupID": {
+        "Input": "Open ↑",
+        "Output": "Open ↓"
+      }
+    }
+  },
+  "VOIP": {
+    "Wires": {
+      "ID": 46361
+    }
+  }
+}

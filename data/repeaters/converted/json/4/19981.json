@@ -1,0 +1,38 @@
+{
+  "ID": 19981,
+  "StateID": 4,
+  "Callsign": "N7YMM",
+  "Location": {
+    "Latitude": 34.5421811,
+    "Longitude": -112.451928,
+    "County": "Yavapai",
+    "State": "AZ",
+    "Local": "Prescott"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 444.65,
+    "Output": 449.65
+  },
+  "SquelchTone": {
+    "Input": 100,
+    "Output": 100
+  },
+  "Digital": {
+    "YSF": {
+      "GroupID": {
+        "Input": "Open ↑",
+        "Output": "Open ↓"
+      }
+    }
+  },
+  "VOIP": {
+    "AllStar": {
+      "NodeID": 40149
+    },
+    "EchoLink": {
+      "NodeID": 123069
+    }
+  }
+}

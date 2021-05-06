@@ -21,6 +21,7 @@
   "DMR ID": 310831,
   "IPSC Network": "DMR-Plus c Record retrieved from radioid.net",
   "Local Network": "BrandMeister US",
+  "c-Bridge": "BM",
   "Wide Network": "BrandMeister",
   "Talkgroup Network": "BrandMeister US",
   "Talkgroups": "Open Talkgroup View Assignment TS TG Access Dynamic Groups use TS 1 1 0 Worldwide English FT 1 91 Full-Time North America 1 93 Full-Time DCI Bridge 1 3100 Full-Time Local/Cluster 2 2 Colorado 2 3108 Full-Time N. Colorado 2 3171 Full-Time function myFunction(id) { var x = document.getElementById(id); if (x.className.indexOf(\"w3-show\") == -1) { x.className += \" w3-show\"; } else { x.className = x.className.replace(\" w3-show\", \"\"); } }",

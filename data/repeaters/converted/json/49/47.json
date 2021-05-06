@@ -16,11 +16,14 @@
     "Output": 449.275
   },
   "SquelchTone": {
-    "Input": 88.5
+    "Input": 100
   },
-  "VOIP": {
-    "IRLP": {
-      "NodeID": 3407
+  "Digital": {
+    "YSF": {
+      "GroupID": {
+        "Input": "Open ↑",
+        "Output": "Open ↓"
+      }
     }
   }
 }

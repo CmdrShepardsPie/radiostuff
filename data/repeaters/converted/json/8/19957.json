@@ -1,0 +1,22 @@
+{
+  "ID": 19957,
+  "StateID": 8,
+  "Callsign": "AD0TP",
+  "Location": {
+    "Latitude": 38.91,
+    "Longitude": -104.609,
+    "County": "El Paso",
+    "State": "CO",
+    "Local": "Falcon"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 442.775,
+    "Output": 447.775
+  },
+  "SquelchTone": {
+    "Input": 156.7,
+    "Output": 156.7
+  }
+}

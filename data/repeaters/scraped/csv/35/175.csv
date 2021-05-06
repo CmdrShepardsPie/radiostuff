@@ -1,2 +1,2 @@
-Frequency,Offset,Tone,Call,Location,ST/PR,Use,Mode,Mi,Dir,,state_id,ID,Latitude,Longitude,Downlink,Uplink,Uplink Tone,County,Grid,Op Status,Coverage,Sponsor,Features,FM,Analog Bandwidth,Coordination,Last update
-147.22,0.6,100,NM5ML,"Tres Piedras, San Antonio Mountain",NM,OPEN,FM,93.15,SSW,,35,175,36.85969925,-106.01799774,147.22,147.82,100,Rio Arriba,DM66XU,On-Air,Wide area.,New Mexico Mega Link Assoc,10,Yes; analog capable.,,NMFCC,2017-01-23
+Frequency,Offset,Tone,Call,Location,ST/PR,Use,Mode,Mi,Dir,,state_id,ID,Latitude,Longitude,Downlink,Uplink,Uplink Tone,County,Grid,Op Status,Coverage,Sponsor,Features,FM,Analog Bandwidth,Links,Coordination,Last update
+147.22,0.6,100,NM5ML,"Tres Piedras, San Antonio Mountain",NM,OPEN,FM,93.15,SSW,,35,175,36.85969925,-106.01799774,147.22,147.82,100,Rio Arriba,DM66XU,On-Air,Wide area.,New Mexico Mega Link Assoc,10,Yes; analog capable.,,Full-time to the Mega-Link System .,NMFCC,2017-01-23

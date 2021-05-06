@@ -1,0 +1,2 @@
+ID,StateID,Callsign,Use,Status,DigitalTone,Digital,VOIP,Location.Latitude,Location.Longitude,Location.County,Location.State,Location.Local,Frequency.Input,Frequency.Output,SquelchTone.Input,SquelchTone.Output
+19986,56,W0KGB,Open,On-Air,,,,42.833014,-108.7306725,Washakie,WY,Lander,449.375,444.375,203.5,203.5

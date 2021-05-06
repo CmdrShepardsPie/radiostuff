@@ -1,0 +1,2 @@
+ID,StateID,Callsign,Use,Status,DigitalTone,Digital,VOIP,Location.Latitude,Location.Longitude,Location.County,Location.State,Location.Local,Frequency.Input,Frequency.Output,SquelchTone.Input,SquelchTone.Output
+19987,56,W0KGB,Open,On-Air,,,,42.7374579,-107.9370276,Washakie,WY,"Riverton, Beaver Rim",447,442.1,131.8,131.8

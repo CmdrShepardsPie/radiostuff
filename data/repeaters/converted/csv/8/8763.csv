@@ -1,2 +1,2 @@
-ID,StateID,Callsign,Use,Status,DigitalTone,Digital,Location.Latitude,Location.Longitude,Location.County,Location.State,Location.Local,Frequency.Input,Frequency.Output,SquelchTone.Input,SquelchTone.Output,VOIP.AllStar,VOIP.EchoLink,VOIP.Wires,VOIP.IRLP.NodeID
-8763,8,KB0YNA,Open,On-Air,,,39.0666008,-107.93699646,Mesa,CO,"Grand Junction, Grand Mesa",444.65,449.65,151.4,151.4,,,,8162
+ID,StateID,Callsign,Use,Status,DigitalTone,Digital,Location.Latitude,Location.Longitude,Location.County,Location.State,Location.Local,Frequency.Input,Frequency.Output,SquelchTone.Input,SquelchTone.Output,VOIP.EchoLink,VOIP.IRLP,VOIP.Wires,VOIP.AllStar.NodeID
+8763,8,KB0YNA,Open,On-Air,,,39.0666008,-107.93699646,Mesa,CO,"Grand Junction, Grand Mesa",444.65,449.65,151.4,151.4,,,,41304

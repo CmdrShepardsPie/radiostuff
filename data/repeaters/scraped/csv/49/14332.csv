@@ -1,2 +1,2 @@
-Frequency,Offset,Tone,Call,Location,ST/PR,Use,Mode,Mi,Dir,,state_id,ID,Latitude,Longitude,Downlink,Uplink,DMR Enabled,Color Code,DMR ID,IPSC Network,Local Network,Wide Network,County,Op Status,Last update
-447.05,-5,CC1,KC7WSU,Lehi,UT,OPEN,DMR,175.61,NW,,49,14332,40.39160156,-111.85099792,447.05,442.05,1,1,314903,BrandMeister c Record retrieved from radioid.net,BrandMeister US,BrandMeister,Utah,On-Air,2019-12-15
+Frequency,Offset,Tone,Call,Location,ST/PR,Use,Mode,Mi,Dir,,state_id,ID,Latitude,Longitude,Downlink,Uplink,DMR Enabled,Color Code,DMR ID,IPSC Network,Local Network,c-Bridge,Wide Network,County,Op Status,Last update
+447.05,-5,CC1,KC7WSU,Lehi,UT,OPEN,DMR,175.61,NW,,49,14332,40.39160156,-111.85099792,447.05,442.05,1,1,314903,BrandMeister c Record retrieved from radioid.net,BrandMeister US,BM,BrandMeister,Utah,On-Air,2019-12-15

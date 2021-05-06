@@ -1,2 +1,2 @@
 ID,StateID,Callsign,Use,Status,DigitalTone,Digital,VOIP,Location.Latitude,Location.Longitude,Location.County,Location.State,Location.Local,Frequency.Input,Frequency.Output,SquelchTone.Input,SquelchTone.Output
-18268,6,AE6TV,Open,Off-Air,,,,34.18700027,-117.70300293,Los Angeles,CA,"Claremont, Sunset Ridge",444.16,449.16,77,77
+18268,6,AE6TV,Open,On-Air,,,,34.18700027,-117.70300293,Los Angeles,CA,"Claremont, Sunset Ridge",444.16,449.16,77,77

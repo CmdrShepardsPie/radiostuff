@@ -1,0 +1,22 @@
+{
+  "ID": 19987,
+  "StateID": 56,
+  "Callsign": "W0KGB",
+  "Location": {
+    "Latitude": 42.7374579,
+    "Longitude": -107.9370276,
+    "County": "Washakie",
+    "State": "WY",
+    "Local": "Riverton, Beaver Rim"
+  },
+  "Use": "Open",
+  "Status": "On-Air",
+  "Frequency": {
+    "Input": 447,
+    "Output": 442.1
+  },
+  "SquelchTone": {
+    "Input": 131.8,
+    "Output": 131.8
+  }
+}

@@ -1,2 +1,2 @@
-Frequency,Offset,Tone,Call,Location,ST/PR,Use,Mode,Mi,Dir,,state_id,ID,Latitude,Longitude,Downlink,Uplink,DMR Enabled,Color Code,DMR ID,IPSC Network,Local Network,Wide Network,County,On-air,Last update
-448.05,-5,CC1,N0KEG,Parker,CO,OPEN,DMR,140.13,WSW,,08,17696,39.51860046,-104.76100159,448.05,443.05,1,1,310374,Brandmeister c Record retrieved from radioid.net,Brandmeister,BrandMeister,Douglas,Unknown,2019-11-27
+Frequency,Offset,Tone,Call,Location,ST/PR,Use,Mode,Mi,Dir,,state_id,ID,Latitude,Longitude,Downlink,Uplink,DMR Enabled,Color Code,DMR ID,IPSC Network,Local Network,c-Bridge,Wide Network,County,On-air,Last update
+448.05,-5,CC1,N0KEG,Parker,CO,OPEN,DMR,140.13,WSW,,08,17696,39.51860046,-104.76100159,448.05,443.05,1,1,310374,Brandmeister c Record retrieved from radioid.net,Brandmeister,BM,BrandMeister,Douglas,Unknown,2019-11-27

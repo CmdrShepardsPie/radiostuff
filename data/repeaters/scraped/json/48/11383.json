@@ -21,6 +21,7 @@
   "DMR ID": 314812,
   "IPSC Network": "NorCal c Record retrieved from radioid.net",
   "Local Network": "NorCal",
+  "c-Bridge": "BM",
   "Wide Network": "BrandMeister",
   "Talkgroup Network": "NorCal",
   "Talkgroups": "Open Talkgroup View Assignment TS TG Access Local/Cluster 1 2 Full-Time North America 1 3 Full-Time NORCAL 1 1 621 PTT NORCAL 5150 1 5150 Full-Time COMM 1 1 3777215 2 PTT Worldwide 2 1 PTT North America 2 3 PTT Local or Reflector 2 9 Full-Time WW English FT 2 13 PTT WW English 2 113 PTT UserActivated 2 2 123 PTT TAC 310 2 310 PTT CAL 1 2 2251 PTT Texas 2 3148 Southwest USA 2 3176 Full-Time Hytera USA 2 4639 PTT Parrott 2 9998 PTT Audio Test 2 9999 PTT COMM 1 2 3777215 PTT function myFunction(id) { var x = document.getElementById(id); if (x.className.indexOf(\"w3-show\") == -1) { x.className += \" w3-show\"; } else { x.className = x.className.replace(\" w3-show\", \"\"); } }",

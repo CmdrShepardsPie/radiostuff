@@ -10,17 +10,12 @@
     "Local": "Pomona, Sunset Ridge"
   },
   "Use": "Open",
-  "Status": "On-Air",
+  "Status": "Testing",
   "Frequency": {
     "Input": 222.56,
     "Output": 224.16
   },
   "SquelchTone": {
     "Input": 71.9
-  },
-  "VOIP": {
-    "IRLP": {
-      "NodeID": 3500
-    }
   }
 }

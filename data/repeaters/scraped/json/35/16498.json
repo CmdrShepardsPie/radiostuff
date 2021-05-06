@@ -21,6 +21,7 @@
   "DMR ID": 313513,
   "IPSC Network": "Brandmeister c Record retrieved from radioid.net",
   "Local Network": "BrandMeister US",
+  "c-Bridge": "BM",
   "Wide Network": "BrandMeister",
   "Talkgroups": "Open Talkgroup View Assignment TS TG Access New Mexico 1 3135 Full-Time NM Chat / TAC 1 31350 Full-Time function myFunction(id) { var x = document.getElementById(id); if (x.className.indexOf(\"w3-show\") == -1) { x.className += \" w3-show\"; } else { x.className = x.className.replace(\" w3-show\", \"\"); } }",
   "New Mexico": 1,

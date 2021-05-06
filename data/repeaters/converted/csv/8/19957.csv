@@ -1,0 +1,2 @@
+ID,StateID,Callsign,Use,Status,DigitalTone,Digital,VOIP,Location.Latitude,Location.Longitude,Location.County,Location.State,Location.Local,Frequency.Input,Frequency.Output,SquelchTone.Input,SquelchTone.Output
+19957,8,AD0TP,Open,On-Air,,,,38.91,-104.609,El Paso,CO,Falcon,442.775,447.775,156.7,156.7

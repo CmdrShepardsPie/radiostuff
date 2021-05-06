@@ -1,2 +1,2 @@
 ID,StateID,Callsign,Use,Status,DigitalTone,Digital,VOIP,Location.Latitude,Location.Longitude,Location.County,Location.State,Location.Local,Frequency.Input,Frequency.Output,SquelchTone.Input,SquelchTone.Output
-7395,8,N1FSX,Open,On-Air,,,,38.85200119,-103.69999695,Lincoln,CO,Punkin Center,444.9,449.9,107.2,
+7395,8,N1FSX,Open,Off-Air,,,,38.85200119,-103.69999695,Lincoln,CO,Punkin Center,444.9,449.9,107.2,

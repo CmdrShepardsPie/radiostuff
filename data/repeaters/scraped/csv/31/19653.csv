@@ -1,2 +1,2 @@
-Frequency,Offset,Tone,Call,Location,ST/PR,Use,Mode,Mi,Dir,,state_id,ID,Latitude,Longitude,Downlink,Uplink,DMR Enabled,Color Code,DMR ID,IPSC Network,Local Network,Wide Network,County,Op Status,Last update
-444.25,5,CC1,W0SSB,Scottsbluff,NE,OPEN,DMR,144.87,NNW,,31,19653,41.8666341,-103.6671662,444.25,449.25,1,1,311640,Brandmeister c Record retrieved from radioid.net,BrandMeister US,BrandMeister,Scotts Bluff,On-Air,2021-02-17
+Frequency,Offset,Tone,Call,Location,ST/PR,Use,Mode,Mi,Dir,,state_id,ID,Latitude,Longitude,Downlink,Uplink,DMR Enabled,Color Code,DMR ID,IPSC Network,Local Network,c-Bridge,Wide Network,County,Op Status,Last update
+444.25,5,CC1,W0SSB,Scottsbluff,NE,OPEN,DMR,144.87,NNW,,31,19653,41.8666341,-103.6671662,444.25,449.25,1,1,311640,Brandmeister c Record retrieved from radioid.net,BrandMeister US,BM,BrandMeister,Scotts Bluff,On-Air,2021-02-17

@@ -1,0 +1,2 @@
+ID,StateID,Callsign,Use,Status,SquelchTone,DigitalTone,Location.Latitude,Location.Longitude,Location.County,Location.State,Location.Local,Frequency.Input,Frequency.Output,Digital.DMR,Digital.P25,Digital.DStar,Digital.NXDN,VOIP.AllStar,VOIP.EchoLink,VOIP.IRLP,VOIP.Wires.ID,Digital.YSF.GroupID.Input,Digital.YSF.GroupID.Output
+19985,56,KE0DNL,Open,On-Air,,,41.1006,-105.0253,Laramie,WY,"Cheyenne, Borie Tower 1400 Otto Rd",444.775,449.775,,,,,,,,46361,Open ↑,Open ↓

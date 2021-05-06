@@ -18,8 +18,8 @@
   "Uplink": 146.16,
   "Uplink Tone": 107.2,
   "County": "Garfield",
-  "Grid": "DM69cl",
-  "Op Status": "On-Air",
+  "Grid": "DM69CL",
+  "Op Status": "Off-Air",
   "Coverage": "New Castle, Silt, Rifle and Rulison and areas around Parachute.",
   "Sponsor": "N0SWE, Roaring Fork Amateur Repeater Cooperative",
   "Features": "E-power.",
@@ -27,5 +27,5 @@
   "Analog Bandwidth": "",
   "EchoLink": 243117,
   "Coordination": "CCARC",
-  "Last update": "2015-06-03"
+  "Last update": "2021-04-29"
 }

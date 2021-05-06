@@ -23,6 +23,7 @@
   "DMR ID": 310793,
   "IPSC Network": "BrandMeister c Record retrieved from radioid.net",
   "Local Network": "BrandMeister US",
+  "c-Bridge": "BM",
   "Wide Network": "BrandMeister",
   "Talkgroups": "Open Talkgroup View Assignment TS TG Access Montana 1 3130 Sched New Mexico 1 3135 Full-Time MPRG 2 1 31302 Full-Time MPRG 2 31301 Full-Time function myFunction(id) { var x = document.getElementById(id); if (x.className.indexOf(\"w3-show\") == -1) { x.className += \" w3-show\"; } else { x.className = x.className.replace(\" w3-show\", \"\"); } }",
   "Montana": 1,

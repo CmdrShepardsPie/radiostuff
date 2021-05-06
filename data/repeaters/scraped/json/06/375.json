@@ -6,7 +6,7 @@
   "Location": "Moreno Valley, Moreno Valley",
   "ST/PR": "CA",
   "Use": "OPEN",
-  "Mode": "FM Fusion",
+  "Mode": "FM Fusion WIRES-X",
   "Mi": 192.8,
   "Dir": "SW",
   "": "",
@@ -19,13 +19,16 @@
   "Uplink Tone": 103.5,
   "YSF Digital Enabled": true,
   "DG-ID": "Open ↑ / Open ↓",
+  "WIRES-X": 65111,
   "County": "Riverside",
-  "Grid": "DM13jw",
+  "Grid": "DM13JW",
   "Op Status": "On-Air",
   "Sponsor": "Moreno Valley ARA",
-  "Features": "Fusion Repeater",
+  "Affiliate": "West Riverside County A.R.E.S. group",
+  "Features": "Fusion Repeater - WiresX",
   "FM": "Yes; analog capable.",
   "Analog Bandwidth": "",
+  "Notes": "No hang time.",
   "Coordination": "Southern Cal FM Society (SCFMS)",
-  "Last update": "2019-10-16"
+  "Last update": "2021-04-05"
 }

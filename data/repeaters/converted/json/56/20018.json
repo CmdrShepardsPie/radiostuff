@@ -1,0 +1,19 @@
+{
+  "ID": 20018,
+  "StateID": 56,
+  "Callsign": "W0MUD",
+  "Location": {
+    "State": "WY",
+    "Local": "Riverton"
+  },
+  "Use": "Open",
+  "Status": "Other",
+  "Frequency": {
+    "Input": null
+  },
+  "Digital": {
+    "YSF": {
+      "GroupID": {}
+    }
+  }
+}

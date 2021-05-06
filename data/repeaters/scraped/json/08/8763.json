@@ -6,7 +6,7 @@
   "Location": "Grand Junction, Grand Mesa",
   "ST/PR": "CO",
   "Use": "OPEN",
-  "Mode": "FM IRLP",
+  "Mode": "FM AllStar",
   "Mi": 148.15,
   "Dir": "WNW",
   "": "",
@@ -24,10 +24,10 @@
   "Sponsor": "Keri Washburn",
   "Features": "NWS weather alert system.",
   "FM": "Yes; analog capable.",
-  "Analog Bandwidth": "",
+  "Analog Bandwidth": 25,
   "Links": "Full-time to 447.65000 (KB0YNA) at Gunnison, W Mountain or Tenderfoot Mountain, CO .",
-  "IRLP": 8162,
-  "Commands": 11,
+  "AllStar": 41304,
+  "Commands": "Standard allstar commands.",
   "Coordination": "CCARC",
-  "Last update": "2016-10-28"
+  "Last update": "2021-04-05"
 }

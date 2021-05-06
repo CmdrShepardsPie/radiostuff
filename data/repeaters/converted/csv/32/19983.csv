@@ -1,0 +1,2 @@
+ID,StateID,Callsign,Use,Status,SquelchTone,DigitalTone,Location.Latitude,Location.Longitude,Location.County,Location.State,Location.Local,Frequency.Input,Frequency.Output,Digital.DMR,Digital.DStar,Digital.NXDN,Digital.YSF,VOIP.EchoLink,VOIP.IRLP,VOIP.Wires,Digital.P25.NAC,VOIP.AllStar.NodeID
+19983,32,N4NJJ,Open,On-Air,,,35.893569,-115.495719,Clark,NV,"Las Vegas, Low Potosi",444.7,449.7,,,,,,,,,42631

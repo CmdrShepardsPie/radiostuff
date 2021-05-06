@@ -1,2 +1,2 @@
 ID,StateID,Callsign,Use,Status,SquelchTone,DigitalTone,VOIP,Location.Latitude,Location.Longitude,Location.County,Location.State,Location.Local,Frequency.Input,Frequency.Output,Digital.P25,Digital.DStar,Digital.NXDN,Digital.YSF,Digital.DMR.ColorCode,Digital.DMR.ID
-12830,6,KC7NP,Open,Other,,,,33.94250107,-117.23000336,Riverside,CA,Moreno Valley,444.4625,449.4625,,,,,1,310682
+12830,6,KC7NP,Open,Off-Air,,,,33.94250107,-117.23000336,Riverside,CA,Moreno Valley,444.4625,449.4625,,,,,1,310682

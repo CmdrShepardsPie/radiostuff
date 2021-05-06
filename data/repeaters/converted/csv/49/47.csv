@@ -1,2 +1,2 @@
-ID,StateID,Callsign,Use,Status,DigitalTone,Digital,Location.Latitude,Location.Longitude,Location.County,Location.State,Location.Local,Frequency.Input,Frequency.Output,SquelchTone.Input,SquelchTone.Output,VOIP.AllStar,VOIP.EchoLink,VOIP.Wires,VOIP.IRLP.NodeID
-47,49,WA7VHF,Open,On-Air,,,40.80810165,-111.88999939,Salt Lake,UT,"Salt Lake City, Ensign Peak",444.275,449.275,88.5,,,,,3407
+ID,StateID,Callsign,Use,Status,DigitalTone,VOIP,Location.Latitude,Location.Longitude,Location.County,Location.State,Location.Local,Frequency.Input,Frequency.Output,SquelchTone.Input,SquelchTone.Output,Digital.DMR,Digital.P25,Digital.DStar,Digital.NXDN,Digital.YSF.GroupID.Input,Digital.YSF.GroupID.Output
+47,49,WA7VHF,Open,On-Air,,,40.80810165,-111.88999939,Salt Lake,UT,"Salt Lake City, Ensign Peak",444.275,449.275,100,,,,,,Open ↑,Open ↓

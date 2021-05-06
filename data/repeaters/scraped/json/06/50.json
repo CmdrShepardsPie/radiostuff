@@ -6,7 +6,7 @@
   "Location": "Pomona, Sunset Ridge",
   "ST/PR": "CA",
   "Use": "OPEN",
-  "Mode": "FM IRLP",
+  "Mode": "FM",
   "Mi": 199.15,
   "Dir": "SW",
   "": "",
@@ -19,16 +19,15 @@
   "Uplink Tone": 71.9,
   "County": "Los Angeles",
   "Grid": "DM14DE",
-  "Op Status": "On-Air",
+  "Op Status": "Testing",
   "Coverage": "Los Angeles, Orange, western San Bernardino &amp; Riverside counties.",
   "Sponsor": "Western Intertie Network",
   "Features": 5,
   "FM": "Yes; analog capable.",
   "Analog Bandwidth": "",
-  "IRLP": 3500,
   "Notes": "Usually connected to IRLP #9453. The WIN SYSTEM is not a Closed or a Private system, but rather a member supported system. Membership is open to any licensed amateur radio operator who wants to get involved with a growing, vibrant group, on the leading edge of technology.",
   "Web links": "http://www.winsystem.org/",
   "Feed": "Listen Live",
   "Coordination": 220,
-  "Last update": "2019-10-08"
+  "Last update": "2021-04-08"
 }
