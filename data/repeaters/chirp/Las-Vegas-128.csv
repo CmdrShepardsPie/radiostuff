@@ -25,105 +25,105 @@ Location,Name,Frequency,Duplex,Offset,Tone,rToneFreq,cToneFreq,DtcsCode,DtcsRxCo
 23,SO-50 (SaudiSat-1C),436.795,split,145.85,Tone,67,67,23,23,NN,FM,5,FM SAT SO-50 (SaudiSat-1C)
 24,Swiatowid,145.85,split,436,,100,100,23,23,NN,FM,5,FM SAT Swiatowid
 25,Tevel Mission,436.4,split,145.97,,100,100,23,23,NN,FM,5,FM SAT Tevel Mission
-26,3MK Bullhead City,146.64,split,146.04,Tone,123,123,23,23,NN,FM,5,4 44 121.00 AZ Mohave Bullhead City K3MK
-27,4UZ North Las Vegas  Nellis AFB,447.775,split,442.775,Cross,114.8,118.8,23,23,NN,FM,5,32 197 18.00 NV Clark North Las Vegas Nellis AFB KP4UZ
-28,6DK Baker Shamrock Peak,147.15,split,147.75,TSQL,131.8,131.8,23,23,NN,FM,5,6 6971 144.00 CA San Bernardino Baker Shamrock Peak K6DK
-29,6XN Las Vegas,146.97,split,146.37,Tone,100,100,23,23,NN,FM,5,32 8288 19.00 NV Clark Las Vegas KB6XN
-30,7AV Amargosa Valley,146.76,split,146.16,Tone,123,123,23,23,NN,FM,5,32 7975 124.00 NV Nye Amargosa Valley NV7AV
-31,7AV Las Vegas,449.475,split,444.475,Tone,114.8,114.8,23,23,NN,FM,5,32 2820 7.00 NV Clark Las Vegas KK7AV
-32,7BS Las Vegas,448.475,split,443.475,Tone,100,100,23,23,NN,FM,5,32 356 11.00 NV Clark Las Vegas NO7BS
-33,7DB Las Vegas Sunrise Hospital,147.27,split,147.87,Tone,100,100,23,23,NN,FM,5,32 40 14.00 NV Clark Las Vegas Sunrise Hospital KC7DB
-34,7DP Pahrump,147.12,split,147.72,Tone,94.8,94.8,23,23,NN,FM,5,32 28 74.00 NV Nye Pahrump AD7DP
-35,7EB Las Vegas Lo Potosi Mountain,224.48,split,222.88,Tone,110.9,110.9,23,23,NN,FM,5,32 298 38.00 NV Clark Las Vegas Lo Potosi Mountain W7EB
-36,7KD Las Vegas QTH,448.3,split,443.3,Tone,118.8,118.8,23,23,NN,FM,5,32 334 10.00 NV Clark Las Vegas QTH KE7KD
-37,7NV Bullhead City Spirit Mountai,224.98,split,223.38,Tone,100,100,23,23,NN,FM,5,32 8283 103.00 NV Clark Bullhead City Spirit Mountain WR7NV
-38,7OK Henderson Black Mountain,147.09,split,147.69,Tone,100,100,23,23,NN,FM,5,32 37 19.00 NV Clark Henderson Black Mountain N7OK
-39,7OK Las Vegas Angel Peak,447.475,split,442.475,Tone,110.9,110.9,23,23,NN,FM,5,32 113 43.00 NV Clark Las Vegas Angel Peak N7OK
-40,AMT Pahrump,449.85,split,444.85,TSQL,156.7,156.7,23,23,NN,FM,5,32 17518 74.00 NV Nye Pahrump WB6AMT
-41,ANF Las Vegas Fitzgeralds Hotel,448.075,split,443.075,Tone,127.3,127.3,23,23,NN,FM,5,32 161 7.00 NV Clark Las Vegas Fitzgeralds Hotel WN9ANF
-42,AOR Las Vegas Sunrise Mountain,449.725,split,444.725,Tone,97.4,97.4,23,23,NN,FM,5,32 344 21.00 NV Clark Las Vegas Sunrise Mountain W7AOR
-43,ARR Henderson Black Mountain,449.75,split,444.75,Tone,123,123,23,23,NN,FM,5,32 124 19.00 NV Clark Henderson Black Mountain N7ARR
-44,ARR Las Vegas Angel Peak,145.37,split,144.77,Tone,123,123,23,23,NN,FM,5,32 200 43.00 NV Clark Las Vegas Angel Peak N7ARR
-45,ARR Las Vegas Blue Diamond Mount,447,split,442,Tone,123,123,23,23,NN,FM,5,32 157 19.00 NV Clark Las Vegas Blue Diamond Mountain N7ARR
-46,ARR Las Vegas QTH,147,split,146.4,Tone,123,123,23,23,NN,FM,5,32 311 15.00 NV Clark Las Vegas QTH N7ARR
-47,ARR Las Vegas strip,446.7,split,441.7,Tone,118.8,118.8,23,23,NN,FM,5,32 331 7.00 NV Clark Las Vegas strip N7ARR
-48,ARR Pahrump,449.75,split,444.75,Tone,123,123,23,23,NN,FM,5,32 3544 75.00 NV Nye Pahrump N7ARR
-49,BCP Las Vegas Tropicana,145.19,split,144.59,,100,100,23,23,NN,FM,5,32 33 2.00 NV Clark Las Vegas Tropicana KA7BCP
-50,Baker Turquoise Mountain,447.68,split,442.68,,100,100,23,23,NN,FM,5,6 6020 101.00 CA San Bernardino Baker Turquoise Mountain
-51,CCH Las Vegas,449.6,split,444.6,TSQL,107.2,107.2,23,23,NN,FM,5,32 11354 11.00 NV Clark Las Vegas KE7CCH
-52,CYC Las Vegas Sunrise Mountain,449.675,split,444.675,Tone,192.8,192.8,23,23,NN,FM,5,32 166 21.00 NV Clark Las Vegas Sunrise Mountain WA7CYC
-53,CYC North Las Vegas,146.67,split,146.07,Tone,136.5,136.5,23,23,NN,FM,5,32 35 13.00 NV Clark North Las Vegas WA7CYC
-54,D7M Pahrump,147.36,split,147.96,,100,100,23,23,NN,FM,5,32 16275 74.00 NV Nye Pahrump ND7M
-55,D8S Henderson Black Mountain,146.73,split,146.13,Tone,131.8,131.8,23,23,NN,FM,5,32 15 19.00 NV Clark Henderson Black Mountain KD8S
-56,D8S Henderson Black Mountain,448,split,443,,100,100,23,23,NN,FM,5,32 122 19.00 NV Clark Henderson Black Mountain KD8S
-57,DBM Las Vegas QTH,448.675,split,443.675,Tone,77,77,23,23,NN,FM,5,32 164 11.00 NV Clark Las Vegas QTH N8DBM
-58,DEM North Las Vegas Angel pk.,449.55,split,444.55,,100,100,23,23,NN,FM,5,32 18818 43.00 NV Clark North Las Vegas Angel pk. W7DEM
-59,DGL Desert Springs,446.525,split,441.525,Tone,177.3,177.3,23,23,NN,FM,5,4 18499 147.00 AZ Mohave Desert Springs N7DGL
-60,DRC St George Utah Hill,145.49,split,144.89,Tone,100,100,23,23,NN,FM,5,49 191 161.00 UT Washington St George Utah Hill W7DRC
-61,DXU Pahrump,446.325,split,441.325,TSQL,141.3,141.3,23,23,NN,FM,5,32 12658 74.00 NV Nye Pahrump KF7DXU
-62,EGR Las Vegas The Ogden,445.0125,split,440.0125,DTCS,100,100,411,411,NN,FM,5,32 3707 10.00 NV Clark Las Vegas The Ogden WB6EGR
-63,GAA Bullhead City,145.17,split,144.57,TSQL,131.8,131.8,23,23,NN,FM,5,4 154 121.00 AZ Mohave Bullhead City W7GAA
-64,GVA Henderson,146.61,split,146.01,,100,100,23,23,NN,FM,5,32 206 20.00 NV Clark Henderson W7GVA
-65,HEN Henderson Seven Hills,447.925,split,442.925,TSQL,156.7,156.7,23,23,NN,FM,5,32 15223 17.00 NV Clark Henderson Seven Hills W7HEN
-66,HEN Las Vegas,446.475,split,441.475,Tone,156.7,156.7,23,23,NN,FM,5,32 18220 19.00 NV Clark Las Vegas W7HEN
-67,HEN North Las Vegas Apex Mountai,449.925,split,444.925,Cross,131.8,203.5,23,23,NN,FM,5,32 16757 30.00 NV Clark North Las Vegas Apex Mountain W7HEN
-68,HTL Las Vegas Blue Diamond Hill,446.2,split,441.2,Tone,77,77,23,23,NN,FM,5,32 145 20.00 NV Clark Las Vegas Blue Diamond Hill W7HTL
-69,HTL Las Vegas Blue Diamond Hill,446.225,split,441.225,Tone,85.4,85.4,23,23,NN,FM,5,32 8278 20.00 NV Clark Las Vegas Blue Diamond Hill W7HTL
-70,HTL Las Vegas Blue Diamond Hill,447.975,split,442.975,TSQL,82.5,82.5,23,23,NN,FM,5,32 9514 20.00 NV Clark Las Vegas Blue Diamond Hill W7HTL
-71,HVE Kingman,145.21,split,144.61,Tone,123,123,23,23,NN,FM,5,4 12306 131.00 AZ Mohave Kingman KD7HVE
-72,HVE Kingman,147.12,split,147.72,Tone,123,123,23,23,NN,FM,5,4 5607 131.00 AZ Mohave Kingman KD7HVE
-73,HVE Kingman,449.95,split,444.95,,100,100,23,23,NN,FM,5,4 14677 144.00 AZ Mohave Kingman KD7HVE
-74,HXO Las Vegas Hi Potosi Mountain,146.88,split,146.28,Tone,100,100,23,23,NN,FM,5,32 24 34.00 NV Clark Las Vegas Hi Potosi Mountain WA7HXO
-75,HXO Las Vegas Red Mountain,147.945,split,147.345,Tone,100,100,23,23,NN,FM,5,32 31 31.00 NV Clark Las Vegas Red Mountain WA7HXO
-76,HYV Pahrump,223.84,split,222.24,,100,100,23,23,NN,FM,5,32 312 78.00 NV Nye Pahrump N7HYV
-77,HYV Pahrump,448.85,split,443.85,Tone,127.3,127.3,23,23,NN,FM,5,32 143 81.00 NV Nye Pahrump N7HYV
-78,I7D Bullhead City Spirit Mountai,449.325,split,444.325,,100,100,23,23,NN,FM,5,32 127 102.00 NV Clark Bullhead City Spirit Mountain KI7D
-79,I7D Las Vegas Angel Peak,449.2,split,444.2,Tone,114.8,114.8,23,23,NN,FM,5,32 116 43.00 NV Clark Las Vegas Angel Peak KI7D
-80,I7D Las Vegas Angel Peak,449.85,split,444.85,,100,100,23,23,NN,FM,5,32 119 43.00 NV Clark Las Vegas Angel Peak KI7D
-81,IMS Las Vegas Lo Potosi Mountain,447.75,split,442.75,,100,100,23,23,NN,FM,5,32 332 34.00 NV Clark Las Vegas Lo Potosi Mountain N6IMS
-82,IZA Las Vegas Sunrise Mountain,448.9,split,443.9,Tone,100,100,23,23,NN,FM,5,32 338 21.00 NV Clark Las Vegas Sunrise Mountain K7IZA
-83,JCY Henderson QTH,447.2,split,442.2,,100,100,23,23,NN,FM,5,32 128 17.00 NV Clark Henderson QTH W6JCY
-84,JFO Bullhead City Spirit Mountai,449.3,split,444.3,Tone,131.8,131.8,23,23,NN,FM,5,32 341 103.00 NV Clark Bullhead City Spirit Mountain N6JFO
-85,JFO Las Vegas Angel Peak,449.8,split,444.8,Tone,131.8,131.8,23,23,NN,FM,5,32 118 42.00 NV Clark Las Vegas Angel Peak N6JFO
-86,JSI Las Vegas Blue Diamond Hill,447.95,split,442.95,Tone,100,100,23,23,NN,FM,5,32 8281 20.00 NV Clark Las Vegas Blue Diamond Hill K6JSI
-87,JSI Pahrump,447.4,split,442.4,Tone,100,100,23,23,NN,FM,5,32 3624 74.00 NV Nye Pahrump K6JSI
-88,MIA Kingman,147.36,split,147.96,Tone,123,123,23,23,NN,FM,5,4 14244 146.00 AZ Mohave Kingman KD7MIA
-89,MIA Kingman,224.96,split,223.36,Tone,123,123,23,23,NN,FM,5,4 14341 146.00 AZ Mohave Kingman KD7MIA
-90,MPR Laughlin Spirit Mountain,146.82,split,146.22,TSQL,123,123,23,23,NN,FM,5,32 11054 103.00 NV Clark Laughlin Spirit Mountain K7MPR
-91,MSS Las Vegas Apex Mountain,447.85,split,442.85,Tone,127.3,127.3,23,23,NN,FM,5,32 141 32.00 NV Clark Las Vegas Apex Mountain KD5MSS
-92,MVR Logandale Beacon Hill,147.39,split,147.99,TSQL,100,100,23,23,NN,FM,5,32 3610 86.00 NV Clark Logandale Beacon Hill W7MVR
-93,NDI Las Vegas QTH,448.25,split,443.25,,100,100,23,23,NN,FM,5,32 162 11.00 NV Clark Las Vegas QTH N8NDI
-94,NJJ Las Vegas CSN Henderson,445.375,split,440.375,TSQL,107.2,107.2,23,23,NN,FM,5,32 13959 22.00 NV Clark Las Vegas CSN Henderson N4NJJ
-95,NLS Kingman Hualapai Peak,447.1,split,442.1,Tone,100,100,23,23,NN,FM,5,4 12918 162.00 AZ Mohave Kingman Hualapai Peak KA6NLS
-96,NYE Pahrump,145.13,split,144.53,Tone,100,100,23,23,NN,FM,5,32 8286 86.00 NV Nye Pahrump W7NYE
-97,NYE Pahrump,145.49,split,144.89,Tone,123,123,23,23,NN,FM,5,32 17899 87.00 NV Nye Pahrump W7NYE
-98,NYE Pahrump Desert View Reg Med,447.7,split,442.7,Tone,123,123,23,23,NN,FM,5,32 148 77.00 NV Nye Pahrump Desert View Reg Med Ctr W7NYE
-99,NYK Pahrump,147.03,split,147.63,Tone,100,100,23,23,NN,FM,5,32 30 74.00 NV Nye Pahrump W6NYK
-100,O3B Las Vegas,449.45,split,444.45,Tone,100,100,23,23,NN,FM,5,32 10820 0.00 NV Clark Las Vegas WO3B
-101,OKD Bunkerville,446.5,split,441.5,Tone,136.5,136.5,23,23,NN,FM,5,32 19652 119.00 NV Clark Bunkerville N7OKD
-102,OPJ Henderson,447.65,split,442.65,Tone,123,123,23,23,NN,FM,5,32 3554 19.00 NV Clark Henderson KE7OPJ
-103,PFK Bullhead City,448.95,split,443.95,Tone,123,123,23,23,NN,FM,5,4 13002 121.00 AZ Mohave Bullhead City K7PFK
-104,QYX Las Vegas,448.05,split,443.05,Tone,123,123,23,23,NN,FM,5,32 8423 11.00 NV Clark Las Vegas KF6QYX
-105,R7K St George,449.325,split,444.325,,100,100,23,23,NN,FM,5,49 172 163.00 UT Washington St George NR7K
-106,R7K St George Utah Hill,146.82,split,146.22,Tone,100,100,23,23,NN,FM,5,49 173 163.00 UT Washington St George Utah Hill NR7K
-107,RAA Las Vegas,449.35,split,444.35,,100,100,23,23,NN,FM,5,32 165 7.00 NV Clark Las Vegas WB7RAA
-108,RER Kingman Hualapai Mtn,145.19,split,147.76,Tone,131.8,131.8,23,23,NN,FM,5,4 116 163.00 AZ Mohave Kingman Hualapai Mtn WB6RER
-109,RSW Henderson Downtown,448.875,split,443.875,TSQL,114.8,114.8,23,23,NN,FM,5,32 130 20.00 NV Clark Henderson Downtown K7RSW
-110,SGV Glendale Beacon Hill,145.3,split,144.7,DTCS,100,100,244,244,NN,FM,5,32 3810 82.00 NV Clark Glendale Beacon Hill N7SGV
-111,SGV Las Vegas Angel Peak,147.3,split,147.9,Tone,127.3,127.3,23,23,NN,FM,5,32 11 43.00 NV Clark Las Vegas Angel Peak N7SGV
-112,SGV Las Vegas Angel Pk,147.18,split,147.78,DTCS,100,100,244,244,NN,FM,5,32 11559 43.00 NV Clark Las Vegas Angel Pk N7SGV
-113,SKO Bullhead City Spirit Mountai,145.27,split,144.67,Tone,131.8,131.8,23,23,NN,FM,5,32 17 102.00 NV Clark Bullhead City Spirit Mountain N7SKO
-114,SKO Kingman Hayden Peak,146.76,split,146.16,Tone,131.8,131.8,23,23,NN,FM,5,4 61 162.00 AZ Mohave Kingman Hayden Peak N7SKO
-115,SKO Kingman Hualapai Mtn,448.25,split,443.25,Tone,131.8,131.8,23,23,NN,FM,5,4 314 163.00 AZ Mohave Kingman Hualapai Mtn N7SKO
-116,STH Las Vegas Southern Hills Hos,448.45,split,443.45,,100,100,23,23,NN,FM,5,32 11494 17.00 NV Clark Las Vegas Southern Hills Hospital WB9STH
-117,STH Spring Valley,447.425,split,442.425,TSQL,173.8,173.8,23,23,NN,FM,5,32 5518 7.00 NV Clark Spring Valley WB9STH
-118,TLW Las Vegas Hi Potosi Mountain,447.175,split,442.175,,100,100,23,23,NN,FM,5,32 330 34.00 NV Clark Las Vegas Hi Potosi Mountain WA6TLW
-119,TMC Las Vegas Apex Mountain,449.875,split,444.875,TSQL,127.3,127.3,23,23,NN,FM,5,32 121 32.00 NV Clark Las Vegas Apex Mountain KC7TMC
-120,TNP Las Vegas Angel Peak,224.5,split,222.9,Tone,131.8,131.8,23,23,NN,FM,5,32 301 43.00 NV Clark Las Vegas Angel Peak WB6TNP
-121,UGE Las Vegas Southern Hills Hos,448.5,split,443.5,Tone,100,100,23,23,NN,FM,5,32 163 12.00 NV Clark Las Vegas Southern Hills Hospital K7UGE
-122,UGE Las Vegas Westgate Hotel and,146.94,split,146.34,Tone,100,100,23,23,NN,FM,5,32 26 3.00 NV Clark Las Vegas Westgate Hotel and Casino K7UGE
-123,WTS Las Vegas Hi Potosi Mountain,449.125,split,444.125,,100,100,23,23,NN,FM,5,32 340 34.00 NV Clark Las Vegas Hi Potosi Mountain WB7WTS
-124,X7R Henderson,422.625,split,427.625,DTCS,100,100,754,754,NN,FM,5,32 19312 24.00 NV Clark Henderson NX7R
-125,X7R Las Vegas Mission Hills Hend,447.625,split,442.625,DTCS,100,100,754,754,NN,FM,5,32 120 25.00 NV Clark Las Vegas Mission Hills Henderson NX7R
-126,ZHN North Las Vegas,145.46,split,144.86,Tone,100,100,23,23,NN,FM,5,32 205 11.00 NV Clark North Las Vegas KE7ZHN
-127,ZTB Laughlin,147.3,split,147.9,Tone,156.7,156.7,23,23,NN,FM,5,32 16899 115.00 NV Clark Laughlin KC6ZTB
+26,3MK Bullhead City,146.64,split,146.04,Tone,123,123,23,23,NN,FM,5,4 44 120.65 AZ Mohave Bullhead City K3MK
+27,4UZ North Las Vegas  Nellis AFB,447.775,split,442.775,Cross,114.8,118.8,23,23,NN,FM,5,32 197 17.84 NV Clark North Las Vegas Nellis AFB KP4UZ
+28,6DK Baker Shamrock Peak,147.15,split,147.75,TSQL,131.8,131.8,23,23,NN,FM,5,6 6971 144.42 CA San Bernardino Baker Shamrock Peak K6DK
+29,6XN Las Vegas,146.97,split,146.37,Tone,100,100,23,23,NN,FM,5,32 8288 19.08 NV Clark Las Vegas KB6XN
+30,7AV Amargosa Valley,146.76,split,146.16,Tone,123,123,23,23,NN,FM,5,32 7975 124.37 NV Nye Amargosa Valley NV7AV
+31,7AV Las Vegas,449.475,split,444.475,Tone,114.8,114.8,23,23,NN,FM,5,32 2820 7.48 NV Clark Las Vegas KK7AV
+32,7BS Las Vegas,448.475,split,443.475,Tone,100,100,23,23,NN,FM,5,32 356 11.08 NV Clark Las Vegas NO7BS
+33,7DB Las Vegas Sunrise Hospital,147.27,split,147.87,Tone,100,100,23,23,NN,FM,5,32 40 14.14 NV Clark Las Vegas Sunrise Hospital KC7DB
+34,7DP Pahrump,147.12,split,147.72,Tone,94.8,94.8,23,23,NN,FM,5,32 28 74.27 NV Nye Pahrump AD7DP
+35,7EB Las Vegas Lo Potosi Mountain,224.48,split,222.88,Tone,110.9,110.9,23,23,NN,FM,5,32 298 38.02 NV Clark Las Vegas Lo Potosi Mountain W7EB
+36,7KD Las Vegas QTH,448.3,split,443.3,Tone,118.8,118.8,23,23,NN,FM,5,32 334 10.27 NV Clark Las Vegas QTH KE7KD
+37,7NV Bullhead City Spirit Mountai,224.98,split,223.38,Tone,100,100,23,23,NN,FM,5,32 8283 103.36 NV Clark Bullhead City Spirit Mountain WR7NV
+38,7OK Henderson Black Mountain,147.09,split,147.69,Tone,100,100,23,23,NN,FM,5,32 37 19.09 NV Clark Henderson Black Mountain N7OK
+39,7OK Las Vegas Angel Peak,447.475,split,442.475,Tone,110.9,110.9,23,23,NN,FM,5,32 113 42.58 NV Clark Las Vegas Angel Peak N7OK
+40,AMT Pahrump,449.85,split,444.85,TSQL,156.7,156.7,23,23,NN,FM,5,32 17518 73.56 NV Nye Pahrump WB6AMT
+41,ANF Las Vegas Fitzgeralds Hotel,448.075,split,443.075,Tone,127.3,127.3,23,23,NN,FM,5,32 161 6.73 NV Clark Las Vegas Fitzgeralds Hotel WN9ANF
+42,AOR Las Vegas Sunrise Mountain,449.725,split,444.725,Tone,97.4,97.4,23,23,NN,FM,5,32 344 21.49 NV Clark Las Vegas Sunrise Mountain W7AOR
+43,ARR Henderson Black Mountain,449.75,split,444.75,Tone,123,123,23,23,NN,FM,5,32 124 19.09 NV Clark Henderson Black Mountain N7ARR
+44,ARR Las Vegas Angel Peak,145.37,split,144.77,Tone,123,123,23,23,NN,FM,5,32 200 42.58 NV Clark Las Vegas Angel Peak N7ARR
+45,ARR Las Vegas Blue Diamond Mount,447,split,442,Tone,123,123,23,23,NN,FM,5,32 157 19.44 NV Clark Las Vegas Blue Diamond Mountain N7ARR
+46,ARR Las Vegas QTH,147,split,146.4,Tone,123,123,23,23,NN,FM,5,32 311 15.04 NV Clark Las Vegas QTH N7ARR
+47,ARR Las Vegas strip,446.7,split,441.7,Tone,118.8,118.8,23,23,NN,FM,5,32 331 7.48 NV Clark Las Vegas strip N7ARR
+48,ARR Pahrump,449.75,split,444.75,Tone,123,123,23,23,NN,FM,5,32 3544 74.69 NV Nye Pahrump N7ARR
+49,BCP Las Vegas Tropicana,145.19,split,144.59,,100,100,23,23,NN,FM,5,32 33 1.64 NV Clark Las Vegas Tropicana KA7BCP
+50,Baker Turquoise Mountain,447.68,split,442.68,,100,100,23,23,NN,FM,5,6 6020 101.41 CA San Bernardino Baker Turquoise Mountain
+51,CCH Las Vegas,449.6,split,444.6,TSQL,107.2,107.2,23,23,NN,FM,5,32 11354 10.85 NV Clark Las Vegas KE7CCH
+52,CYC Las Vegas Sunrise Mountain,449.675,split,444.675,Tone,192.8,192.8,23,23,NN,FM,5,32 166 21.49 NV Clark Las Vegas Sunrise Mountain WA7CYC
+53,CYC North Las Vegas,146.67,split,146.07,Tone,136.5,136.5,23,23,NN,FM,5,32 35 12.87 NV Clark North Las Vegas WA7CYC
+54,D7M Pahrump,147.36,split,147.96,,100,100,23,23,NN,FM,5,32 16275 73.56 NV Nye Pahrump ND7M
+55,D8S Henderson Black Mountain,146.73,split,146.13,Tone,131.8,131.8,23,23,NN,FM,5,32 15 19.09 NV Clark Henderson Black Mountain KD8S
+56,D8S Henderson Black Mountain,448,split,443,,100,100,23,23,NN,FM,5,32 122 19.09 NV Clark Henderson Black Mountain KD8S
+57,DBM Las Vegas QTH,448.675,split,443.675,Tone,77,77,23,23,NN,FM,5,32 164 10.99 NV Clark Las Vegas QTH N8DBM
+58,DEM North Las Vegas Angel pk.,449.55,split,444.55,,100,100,23,23,NN,FM,5,32 18818 42.59 NV Clark North Las Vegas Angel pk. W7DEM
+59,DGL Desert Springs,446.525,split,441.525,Tone,177.3,177.3,23,23,NN,FM,5,4 18499 146.52 AZ Mohave Desert Springs N7DGL
+60,DRC St George Utah Hill,145.49,split,144.89,Tone,100,100,23,23,NN,FM,5,49 191 161.36 UT Washington St George Utah Hill W7DRC
+61,DXU Pahrump,446.325,split,441.325,TSQL,141.3,141.3,23,23,NN,FM,5,32 12658 73.56 NV Nye Pahrump KF7DXU
+62,EGR Las Vegas The Ogden,445.0125,split,440.0125,DTCS,100,100,411,411,NN,FM,5,32 3707 9.63 NV Clark Las Vegas The Ogden WB6EGR
+63,GAA Bullhead City,145.17,split,144.57,TSQL,131.8,131.8,23,23,NN,FM,5,4 154 120.65 AZ Mohave Bullhead City W7GAA
+64,GVA Henderson,146.61,split,146.01,,100,100,23,23,NN,FM,5,32 206 19.59 NV Clark Henderson W7GVA
+65,HEN Henderson Seven Hills,447.925,split,442.925,TSQL,156.7,156.7,23,23,NN,FM,5,32 15223 16.67 NV Clark Henderson Seven Hills W7HEN
+66,HEN Las Vegas,446.475,split,441.475,Tone,156.7,156.7,23,23,NN,FM,5,32 18220 19.44 NV Clark Las Vegas W7HEN
+67,HEN North Las Vegas Apex Mountai,449.925,split,444.925,Cross,131.8,203.5,23,23,NN,FM,5,32 16757 30.13 NV Clark North Las Vegas Apex Mountain W7HEN
+68,HTL Las Vegas Blue Diamond Hill,446.2,split,441.2,Tone,77,77,23,23,NN,FM,5,32 145 19.92 NV Clark Las Vegas Blue Diamond Hill W7HTL
+69,HTL Las Vegas Blue Diamond Hill,446.225,split,441.225,Tone,85.4,85.4,23,23,NN,FM,5,32 8278 19.92 NV Clark Las Vegas Blue Diamond Hill W7HTL
+70,HTL Las Vegas Blue Diamond Hill,447.975,split,442.975,TSQL,82.5,82.5,23,23,NN,FM,5,32 9514 19.92 NV Clark Las Vegas Blue Diamond Hill W7HTL
+71,HVE Kingman,145.21,split,144.61,Tone,123,123,23,23,NN,FM,5,4 12306 131.09 AZ Mohave Kingman KD7HVE
+72,HVE Kingman,147.12,split,147.72,Tone,123,123,23,23,NN,FM,5,4 5607 131.09 AZ Mohave Kingman KD7HVE
+73,HVE Kingman,449.95,split,444.95,,100,100,23,23,NN,FM,5,4 14677 144.30 AZ Mohave Kingman KD7HVE
+74,HXO Las Vegas Hi Potosi Mountain,146.88,split,146.28,Tone,100,100,23,23,NN,FM,5,32 24 33.99 NV Clark Las Vegas Hi Potosi Mountain WA7HXO
+75,HXO Las Vegas Red Mountain,147.945,split,147.345,Tone,100,100,23,23,NN,FM,5,32 31 30.75 NV Clark Las Vegas Red Mountain WA7HXO
+76,HYV Pahrump,223.84,split,222.24,,100,100,23,23,NN,FM,5,32 312 78.42 NV Nye Pahrump N7HYV
+77,HYV Pahrump,448.85,split,443.85,Tone,127.3,127.3,23,23,NN,FM,5,32 143 81.31 NV Nye Pahrump N7HYV
+78,I7D Bullhead City Spirit Mountai,449.325,split,444.325,,100,100,23,23,NN,FM,5,32 127 101.82 NV Clark Bullhead City Spirit Mountain KI7D
+79,I7D Las Vegas Angel Peak,449.2,split,444.2,Tone,114.8,114.8,23,23,NN,FM,5,32 116 42.58 NV Clark Las Vegas Angel Peak KI7D
+80,I7D Las Vegas Angel Peak,449.85,split,444.85,,100,100,23,23,NN,FM,5,32 119 42.58 NV Clark Las Vegas Angel Peak KI7D
+81,IMS Las Vegas Lo Potosi Mountain,447.75,split,442.75,,100,100,23,23,NN,FM,5,32 332 33.84 NV Clark Las Vegas Lo Potosi Mountain N6IMS
+82,IZA Las Vegas Sunrise Mountain,448.9,split,443.9,Tone,100,100,23,23,NN,FM,5,32 338 21.49 NV Clark Las Vegas Sunrise Mountain K7IZA
+83,JCY Henderson QTH,447.2,split,442.2,,100,100,23,23,NN,FM,5,32 128 17.30 NV Clark Henderson QTH W6JCY
+84,JFO Bullhead City Spirit Mountai,449.3,split,444.3,Tone,131.8,131.8,23,23,NN,FM,5,32 341 103.36 NV Clark Bullhead City Spirit Mountain N6JFO
+85,JFO Las Vegas Angel Peak,449.8,split,444.8,Tone,131.8,131.8,23,23,NN,FM,5,32 118 42.50 NV Clark Las Vegas Angel Peak N6JFO
+86,JSI Las Vegas Blue Diamond Hill,447.95,split,442.95,Tone,100,100,23,23,NN,FM,5,32 8281 20.01 NV Clark Las Vegas Blue Diamond Hill K6JSI
+87,JSI Pahrump,447.4,split,442.4,Tone,100,100,23,23,NN,FM,5,32 3624 73.56 NV Nye Pahrump K6JSI
+88,MIA Kingman,147.36,split,147.96,Tone,123,123,23,23,NN,FM,5,4 14244 146.50 AZ Mohave Kingman KD7MIA
+89,MIA Kingman,224.96,split,223.36,Tone,123,123,23,23,NN,FM,5,4 14341 146.50 AZ Mohave Kingman KD7MIA
+90,MPR Laughlin Spirit Mountain,146.82,split,146.22,TSQL,123,123,23,23,NN,FM,5,32 11054 103.39 NV Clark Laughlin Spirit Mountain K7MPR
+91,MSS Las Vegas Apex Mountain,447.85,split,442.85,Tone,127.3,127.3,23,23,NN,FM,5,32 141 31.65 NV Clark Las Vegas Apex Mountain KD5MSS
+92,MVR Logandale Beacon Hill,147.39,split,147.99,TSQL,100,100,23,23,NN,FM,5,32 3610 86.30 NV Clark Logandale Beacon Hill W7MVR
+93,NDI Las Vegas QTH,448.25,split,443.25,,100,100,23,23,NN,FM,5,32 162 10.99 NV Clark Las Vegas QTH N8NDI
+94,NJJ Las Vegas CSN Henderson,445.375,split,440.375,TSQL,107.2,107.2,23,23,NN,FM,5,32 13959 22.06 NV Clark Las Vegas CSN Henderson N4NJJ
+95,NLS Kingman Hualapai Peak,447.1,split,442.1,Tone,100,100,23,23,NN,FM,5,4 12918 162.05 AZ Mohave Kingman Hualapai Peak KA6NLS
+96,NYE Pahrump,145.13,split,144.53,Tone,100,100,23,23,NN,FM,5,32 8286 86.33 NV Nye Pahrump W7NYE
+97,NYE Pahrump,145.49,split,144.89,Tone,123,123,23,23,NN,FM,5,32 17899 86.51 NV Nye Pahrump W7NYE
+98,NYE Pahrump Desert View Reg Med,447.7,split,442.7,Tone,123,123,23,23,NN,FM,5,32 148 77.30 NV Nye Pahrump Desert View Reg Med Ctr W7NYE
+99,NYK Pahrump,147.03,split,147.63,Tone,100,100,23,23,NN,FM,5,32 30 74.27 NV Nye Pahrump W6NYK
+100,O3B Las Vegas,449.45,split,444.45,Tone,100,100,23,23,NN,FM,5,32 10820 0.02 NV Clark Las Vegas WO3B
+101,OKD Bunkerville,446.5,split,441.5,Tone,136.5,136.5,23,23,NN,FM,5,32 19652 118.63 NV Clark Bunkerville N7OKD
+102,OPJ Henderson,447.65,split,442.65,Tone,123,123,23,23,NN,FM,5,32 3554 19.17 NV Clark Henderson KE7OPJ
+103,PFK Bullhead City,448.95,split,443.95,Tone,123,123,23,23,NN,FM,5,4 13002 120.65 AZ Mohave Bullhead City K7PFK
+104,QYX Las Vegas,448.05,split,443.05,Tone,123,123,23,23,NN,FM,5,32 8423 11.13 NV Clark Las Vegas KF6QYX
+105,R7K St George,449.325,split,444.325,,100,100,23,23,NN,FM,5,49 172 163.12 UT Washington St George NR7K
+106,R7K St George Utah Hill,146.82,split,146.22,Tone,100,100,23,23,NN,FM,5,49 173 163.17 UT Washington St George Utah Hill NR7K
+107,RAA Las Vegas,449.35,split,444.35,,100,100,23,23,NN,FM,5,32 165 7.48 NV Clark Las Vegas WB7RAA
+108,RER Kingman Hualapai Mtn,145.19,split,147.76,Tone,131.8,131.8,23,23,NN,FM,5,4 116 163.12 AZ Mohave Kingman Hualapai Mtn WB6RER
+109,RSW Henderson Downtown,448.875,split,443.875,TSQL,114.8,114.8,23,23,NN,FM,5,32 130 20.37 NV Clark Henderson Downtown K7RSW
+110,SGV Glendale Beacon Hill,145.3,split,144.7,DTCS,100,100,244,244,NN,FM,5,32 3810 81.71 NV Clark Glendale Beacon Hill N7SGV
+111,SGV Las Vegas Angel Peak,147.3,split,147.9,Tone,127.3,127.3,23,23,NN,FM,5,32 11 42.58 NV Clark Las Vegas Angel Peak N7SGV
+112,SGV Las Vegas Angel Pk,147.18,split,147.78,DTCS,100,100,244,244,NN,FM,5,32 11559 42.58 NV Clark Las Vegas Angel Pk N7SGV
+113,SKO Bullhead City Spirit Mountai,145.27,split,144.67,Tone,131.8,131.8,23,23,NN,FM,5,32 17 101.82 NV Clark Bullhead City Spirit Mountain N7SKO
+114,SKO Kingman Hayden Peak,146.76,split,146.16,Tone,131.8,131.8,23,23,NN,FM,5,4 61 162.38 AZ Mohave Kingman Hayden Peak N7SKO
+115,SKO Kingman Hualapai Mtn,448.25,split,443.25,Tone,131.8,131.8,23,23,NN,FM,5,4 314 163.12 AZ Mohave Kingman Hualapai Mtn N7SKO
+116,STH Las Vegas Southern Hills Hos,448.45,split,443.45,,100,100,23,23,NN,FM,5,32 11494 16.68 NV Clark Las Vegas Southern Hills Hospital WB9STH
+117,STH Spring Valley,447.425,split,442.425,TSQL,173.8,173.8,23,23,NN,FM,5,32 5518 6.53 NV Clark Spring Valley WB9STH
+118,TLW Las Vegas Hi Potosi Mountain,447.175,split,442.175,,100,100,23,23,NN,FM,5,32 330 33.79 NV Clark Las Vegas Hi Potosi Mountain WA6TLW
+119,TMC Las Vegas Apex Mountain,449.875,split,444.875,TSQL,127.3,127.3,23,23,NN,FM,5,32 121 31.65 NV Clark Las Vegas Apex Mountain KC7TMC
+120,TNP Las Vegas Angel Peak,224.5,split,222.9,Tone,131.8,131.8,23,23,NN,FM,5,32 301 42.58 NV Clark Las Vegas Angel Peak WB6TNP
+121,UGE Las Vegas Southern Hills Hos,448.5,split,443.5,Tone,100,100,23,23,NN,FM,5,32 163 11.93 NV Clark Las Vegas Southern Hills Hospital K7UGE
+122,UGE Las Vegas Westgate Hotel and,146.94,split,146.34,Tone,100,100,23,23,NN,FM,5,32 26 2.53 NV Clark Las Vegas Westgate Hotel and Casino K7UGE
+123,WTS Las Vegas Hi Potosi Mountain,449.125,split,444.125,,100,100,23,23,NN,FM,5,32 340 33.79 NV Clark Las Vegas Hi Potosi Mountain WB7WTS
+124,X7R Henderson,422.625,split,427.625,DTCS,100,100,754,754,NN,FM,5,32 19312 24.35 NV Clark Henderson NX7R
+125,X7R Las Vegas Mission Hills Hend,447.625,split,442.625,DTCS,100,100,754,754,NN,FM,5,32 120 24.66 NV Clark Las Vegas Mission Hills Henderson NX7R
+126,ZHN North Las Vegas,145.46,split,144.86,Tone,100,100,23,23,NN,FM,5,32 205 10.55 NV Clark North Las Vegas KE7ZHN
+127,ZTB Laughlin,147.3,split,147.9,Tone,156.7,156.7,23,23,NN,FM,5,32 16899 115.46 NV Clark Laughlin KC6ZTB

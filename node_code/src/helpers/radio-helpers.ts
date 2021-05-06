@@ -310,7 +310,7 @@ export async function loadRepeaters(location: gpsDistance.Point): Promise<Repeat
         const fileBuffer: Buffer = await readFileAsync(file);
         const fileString: string = fileBuffer.toString();
         const fileData: RepeaterStructured = JSON.parse(fileString);
-        fileData.Location.Distance = Math.round(gpsDistance([location, [fileData.Location.Latitude, fileData.Location.Longitude]]));
+        fileData.Location.Distance = gpsDistance([location, [fileData.Location.Latitude, fileData.Location.Longitude]]);
         return fileData;
       })
     )

@@ -271,7 +271,7 @@ var __importDefault = (this && this.__importDefault) || function (mod) {
             const fileBuffer = await fs_helpers_1.readFileAsync(file);
             const fileString = fileBuffer.toString();
             const fileData = JSON.parse(fileString);
-            fileData.Location.Distance = Math.round(gps_distance_1.default([location, [fileData.Location.Latitude, fileData.Location.Longitude]]));
+            fileData.Location.Distance = gps_distance_1.default([location, [fileData.Location.Latitude, fileData.Location.Longitude]]);
             return fileData;
         })));
     }

@@ -83,7 +83,8 @@ async function doIt(location: gpsDistance.Point, outFileName: string): Promise<v
         // FrequencyBand.MURS,
         // FrequencyBand.GMRS,
       ))
-      .filter(filterMode(Mode.FM)),
+      .filter(filterMode(Mode.FM))
+      .sort((a, b) => a.Location.Distance! - b.Location.Distance!),
   ]
     .map((map: RepeaterStructured): Chirp => convertToRadio(map));
 

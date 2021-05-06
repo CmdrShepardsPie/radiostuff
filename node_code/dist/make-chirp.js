@@ -51,7 +51,8 @@ var __importDefault = (this && this.__importDefault) || function (mod) {
             ...repeaters
                 .filter(radio_helpers_1.filterOutputFrequencies(radio_helpers_1.FrequencyBand.$2_m, radio_helpers_1.FrequencyBand.$1_25_m, radio_helpers_1.FrequencyBand.$70_cm))
                 .filter(radio_helpers_1.filterInputFrequencies(radio_helpers_1.FrequencyBand.$2_m, radio_helpers_1.FrequencyBand.$1_25_m, radio_helpers_1.FrequencyBand.$70_cm))
-                .filter(radio_helpers_1.filterMode(radio_helpers_1.Mode.FM)),
+                .filter(radio_helpers_1.filterMode(radio_helpers_1.Mode.FM))
+                .sort((a, b) => a.Location.Distance - b.Location.Distance),
         ]
             .map((map) => convertToRadio(map));
         await saveSubset(mapped, 128, `${outFileName}-128`);
