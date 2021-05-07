@@ -9,7 +9,8 @@
   "Use": "Open",
   "Status": "Other",
   "Frequency": {
-    "Input": null
+    "Input": 145.62,
+    "Output": 145.62
   },
   "SquelchTone": {
     "Input": 100

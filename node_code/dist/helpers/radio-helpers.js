@@ -7,7 +7,7 @@ var __importDefault = (this && this.__importDefault) || function (mod) {
         if (v !== undefined) module.exports = v;
     }
     else if (typeof define === "function" && define.amd) {
-        define(["require", "exports", "@interfaces/repeater-structured", "@helpers/fs-helpers", "gps-distance", "@interfaces/rt-systems"], factory);
+        define(["require", "exports", "@interfaces/repeater-structured", "@helpers/fs-helpers", "gps-distance", "@interfaces/rt-systems", "@helpers/log-helpers"], factory);
     }
 })(function (require, exports) {
     "use strict";
@@ -17,6 +17,8 @@ var __importDefault = (this && this.__importDefault) || function (mod) {
     const fs_helpers_1 = require("@helpers/fs-helpers");
     const gps_distance_1 = __importDefault(require("gps-distance"));
     const rt_systems_1 = require("@interfaces/rt-systems");
+    const log_helpers_1 = require("@helpers/log-helpers");
+    const log = log_helpers_1.createLog('Radio Helpers');
     var FrequencyBand;
     (function (FrequencyBand) {
         FrequencyBand[FrequencyBand["$160_m"] = 0] = "$160_m";
@@ -267,13 +269,14 @@ var __importDefault = (this && this.__importDefault) || function (mod) {
     exports.loadSimplex = loadSimplex;
     async function loadRepeaters(location) {
         const files = await fs_helpers_1.getAllFilesInDirectory('../data/repeaters/converted/json', 'json', 1);
-        return sortStructuredRepeaters(await Promise.all(files.map(async (file) => {
+        const all = await Promise.all(files.map(async (file) => {
             const fileBuffer = await fs_helpers_1.readFileAsync(file);
             const fileString = fileBuffer.toString();
             const fileData = JSON.parse(fileString);
             fileData.Location.Distance = gps_distance_1.default([location, [fileData.Location.Latitude, fileData.Location.Longitude]]);
             return fileData;
-        })));
+        }));
+        return sortStructuredRepeaters(all.filter((repeater) => !isNaN(repeater.Location.Distance) && !isNaN(repeater.Frequency.Input)));
     }
     exports.loadRepeaters = loadRepeaters;
     function radioCommon(repeater) {

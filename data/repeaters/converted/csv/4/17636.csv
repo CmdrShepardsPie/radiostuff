@@ -1,2 +1,2 @@
 ID,StateID,Callsign,Use,Status,SquelchTone,DigitalTone,Digital,Location.Latitude,Location.Longitude,Location.County,Location.State,Location.Local,Frequency.Input,Frequency.Output,VOIP.AllStar,VOIP.Wires,VOIP.EchoLink.NodeID,VOIP.IRLP.NodeID
-17636,4,KE7ZIW,Open,Other,,,,,,,AZ,Lake Havasu City,NaN,,,,,
+17636,4,KE7ZIW,Open,Other,,,,,,,AZ,Lake Havasu City,147.5,147.5,,,,

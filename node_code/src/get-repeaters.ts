@@ -26,7 +26,7 @@ log('Program Parse Args');
 program.parse(process.argv);
 
 async function getRepeaters(place: string | number, distance: number): Promise<void> {
-  log(chalk.green('getRepeaters'), place, distance);
+  log(chalk.green('Get Repeaters'), place, distance);
 
   const promises: Promise<void>[] = [];
 

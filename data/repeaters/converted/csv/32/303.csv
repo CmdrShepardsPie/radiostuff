@@ -1,2 +1,2 @@
 ID,StateID,Callsign,Use,Status,SquelchTone,DigitalTone,Digital,VOIP,Location.Latitude,Location.Longitude,Location.County,Location.State,Location.Local,Frequency.Input,Frequency.Output
-303,32,W7EB,Open,Other,,,,,,,,NV,Las Vegas,NaN,
+303,32,W7EB,Open,Other,,,,,,,,NV,Las Vegas,223.58,223.58

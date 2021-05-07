@@ -1,2 +1,2 @@
 ID,StateID,Callsign,Use,Status,DigitalTone,Digital,Location.Latitude,Location.Longitude,Location.County,Location.State,Location.Local,Frequency.Input,Frequency.Output,SquelchTone.Input,SquelchTone.Output,VOIP.AllStar,VOIP.Wires,VOIP.EchoLink.NodeID,VOIP.IRLP.NodeID
-16315,16,KF7FY,Open,Other,,,,,,ID,Pocatello,NaN,,123,,,,,
+16315,16,KF7FY,Open,Other,,,,,,ID,Pocatello,147.52,147.52,123,,,,,

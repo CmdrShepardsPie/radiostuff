@@ -1,2 +1,2 @@
 ID,StateID,Callsign,Use,Status,DigitalTone,Digital,VOIP,Location.Latitude,Location.Longitude,Location.County,Location.State,Location.Local,Frequency.Input,Frequency.Output,SquelchTone.Input,SquelchTone.Output
-15606,35,KF5PFO,Open,Other,,,,,,,NM,"Taos, Picuris Peak",NaN,,100,
+15606,35,KF5PFO,Open,Other,,,,,,,NM,"Taos, Picuris Peak",51.5,51.5,100,

@@ -64,8 +64,11 @@ var __importDefault = (this && this.__importDefault) || function (mod) {
         async scrape() {
             log(chalk_1.default.green('Process'));
             const parts = this.location.toString().split(`,`);
-            const baseKey = `${(parts[1] || '.').trim()}/${parts[0].trim()}.html`;
-            const page = await this.getUrl(this.url, baseKey);
+            const key = `${(parts[1] || '.').trim()}/${parts[0].trim()}.html`;
+            const page = await this.getUrl(this.url, key);
+            if (!page) {
+                return [];
+            }
             const dom = new jsdom_1.JSDOM(page);
             await this.getRepeaterList(dom.window.document);
             return this.data;
@@ -91,7 +94,9 @@ var __importDefault = (this && this.__importDefault) || function (mod) {
                             Object.assign(data, await this.getRepeaterDetails(link.href));
                             // write("_");
                         }
-                        this.data.push(data);
+                        if (data.Latitude && data.Longitude) {
+                            this.data.push(data);
+                        }
                     }
                 }
             }
@@ -101,6 +106,9 @@ var __importDefault = (this && this.__importDefault) || function (mod) {
             const keyParts = urlParams.match(/state_id=(\d+)&ID=(\d+)/) || [];
             const key = `${keyParts[1]}/${keyParts[2]}.html`;
             const page = await this.getUrl(`https://www.repeaterbook.com/repeaters/${href}`, key);
+            if (!page) {
+                return;
+            }
             const dom = new jsdom_1.JSDOM(page);
             const data = {};
             data.state_id = keyParts[1];
@@ -142,28 +150,59 @@ var __importDefault = (this && this.__importDefault) || function (mod) {
             }
             return data;
         }
-        async getUrl(url, cacheKey) {
-            write(` ${(cacheKey || url).replace('.html', '')}:`);
-            log(chalk_1.default.green('Get URL'), url, cacheKey);
-            const cache = await cache_helper_1.getCache(cacheKey || url);
-            if (cache) {
-                log(chalk_1.default.yellow('Cached'), url, cacheKey);
-                write(chalk_1.default.green('G'));
-                return cache;
+        async getUrl(url, key) {
+            log(chalk_1.default.green('Get URL'), key || url);
+            let data;
+            try {
+                data = await this.getUrlFromCache(url, key, false);
+                if (!data) {
+                    data = await this.getUrlFromServer(url, key);
+                }
+                if (!data) {
+                    data = await this.getUrlFromCache(url, key, true);
+                }
             }
-            else {
-                // Slow down the requests so we're not hammering the server or triggering any anti-bot or DDoS protections
-                // const waitTime: number = (5000 + (Math.random() * 10000));
-                // write(`W=${chalk.yellow(Math.round(waitTime / 1000))}`);
-                // await wait(waitTime);
-                log(chalk_1.default.yellow('Get'), url);
-                const request = await axios_1.default.get(url);
-                log(chalk_1.default.green('Got'), url);
-                write(chalk_1.default.cyan('S'));
-                const data = request.data;
-                await cache_helper_1.setCache(cacheKey || url, data);
+            catch (error) {
+                const refreshUrl = error.message;
+                const refreshKey = key.replace('.html', '-refresh.html');
+                data = await this.getUrlFromCache(refreshUrl, refreshKey, false);
+                if (!data) {
+                    data = await this.getUrlFromServer(refreshUrl, refreshKey);
+                }
+                if (!data) {
+                    data = await this.getUrlFromCache(refreshUrl, refreshKey, true);
+                }
+            }
+            return data;
+        }
+        async getUrlFromCache(url, key, ignoreAge = false) {
+            log(chalk_1.default.green('Get URL From Cache'), key || url);
+            let data = await cache_helper_1.getCache(key || url, ignoreAge);
+            if (data) {
+                log(chalk_1.default.yellow('Cache Got'), key || url);
+                const refreshRegex = /meta http-equiv='refresh' content='0;URL=([^']*)'>/i;
+                const refreshMatch = data.match(refreshRegex);
+                if (refreshMatch && refreshMatch[1]) {
+                    log(chalk_1.default.red('Refresh'), key || url, chalk_1.default.red('=>'), refreshMatch[1]);
+                    throw new Error(refreshMatch[1]);
+                }
                 return data;
             }
+        }
+        async getUrlFromServer(url, key) {
+            log(chalk_1.default.green('Get URL From Server'), key || url);
+            const request = await axios_1.default.get(url);
+            log(chalk_1.default.yellow('URL Got'), key || url);
+            const data = request.data;
+            const refreshRegex = /meta http-equiv='refresh' content='0;URL=([^']*)'>/i;
+            const refreshMatch = data.match(refreshRegex);
+            if (refreshMatch && refreshMatch[1]) {
+                log(chalk_1.default.red('Refresh'), key || url, chalk_1.default.red('=>'), refreshMatch[1]);
+                throw new Error(refreshMatch[1]);
+            }
+            await cache_helper_1.setCache(key || url, data);
+            log(chalk_1.default.cyan('Cache Set'), key || url);
+            return data;
         }
     }
     exports.default = Scraper;

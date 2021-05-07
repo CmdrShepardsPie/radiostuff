@@ -50,6 +50,32 @@
         await Promise.all(promises);
     })();
     function convertRepeater(raw) {
+        let uplink = convertNumber(raw.Uplink);
+        let downlink = convertNumber(raw.Downlink);
+        let offset = convertNumber(raw.Offset);
+        let frequency = convertNumber(raw.Frequency);
+        if (!uplink) {
+            if (downlink) {
+                uplink = downlink;
+                if (uplink && offset) {
+                    uplink += offset;
+                }
+            }
+            else if (frequency) {
+                uplink = frequency;
+            }
+        }
+        if (!downlink) {
+            if (uplink) {
+                downlink = uplink;
+                if (downlink && offset) {
+                    downlink -= offset;
+                }
+            }
+            else if (frequency) {
+                downlink = frequency;
+            }
+        }
         return {
             ID: convertNumber(raw.ID),
             StateID: convertNumber(raw.state_id),
@@ -63,7 +89,7 @@
             },
             Use: convertRepeaterUse(raw.Use),
             Status: convertRepeaterStatus(raw['Op Status']),
-            Frequency: { Input: convertNumber(raw.Uplink) || (raw.Downlink + raw.Offset), Output: raw.Downlink },
+            Frequency: { Input: uplink, Output: downlink },
             SquelchTone: convertRepeaterSquelchTone(raw['Uplink Tone'] || raw.Tone, raw['Downlink Tone']),
             DigitalTone: convertRepeaterDigitalTone(raw['Uplink Tone'] || raw.Tone, raw['Downlink Tone']),
             Digital: convertRepeaterDigitalData(raw),

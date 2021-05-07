@@ -9,7 +9,8 @@
   "Use": "Open",
   "Status": "Other",
   "Frequency": {
-    "Input": null
+    "Input": 1299.9,
+    "Output": 1299.9
   },
   "Digital": {
     "DStar": {}

@@ -2,18 +2,19 @@ import { fillArrayObjects, parseAsync, stringifyAsync } from '@helpers/csv-helpe
 import { flattenObject } from '@helpers/helpers';
 import { createLog } from '@helpers/log-helpers';
 import chalk from 'chalk';
-import fs, { Stats } from 'fs';
+import fs, {NoParamCallback, PathLike, Stats} from 'fs';
 import path from 'path';
 import { promisify } from 'util';
 
 const log: (...msg: any[]) => void = createLog('FS Helpers');
 
-export const existsAsync: (path: string) => Promise<boolean> = promisify(fs.exists);
-export const mkdirAsync: (path: string) => Promise<void> = promisify(fs.mkdir);
-export const readFileAsync: (path: string | number) => Promise<Buffer> = promisify(fs.readFile);
-export const readdirAsync: (path: string) => Promise<string[]> = promisify(fs.readdir);
-export const writeFileAsync: (path: string | number, data: any) => Promise<void> = promisify(fs.writeFile);
-export const statAsync: (arg1: string) => Promise<Stats> = promisify(fs.stat);
+export const existsAsync: (path: PathLike) => Promise<boolean> = promisify(fs.exists);
+export const mkdirAsync: (path: PathLike) => Promise<void> = promisify(fs.mkdir);
+export const readFileAsync: (path: PathLike | number) => Promise<Buffer> = promisify(fs.readFile);
+export const readdirAsync: (path: PathLike) => Promise<string[]> = promisify(fs.readdir);
+export const writeFileAsync: (path: PathLike, data: any) => Promise<void> = promisify(fs.writeFile);
+export const statAsync: (path: PathLike) => Promise<Stats> = promisify(fs.stat);
+export const rmAsync: (path: PathLike) => Promise<void> = promisify(fs.rm);
 
 export async function makeDirs(filePath: string): Promise<void> {
   // log(chalk.green("Make Dirs"), filePath);

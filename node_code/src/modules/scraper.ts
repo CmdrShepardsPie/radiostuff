@@ -5,7 +5,7 @@ import Axios, { AxiosResponse } from 'axios';
 import chalk from 'chalk';
 import { JSDOM } from 'jsdom';
 import { getNumber, getText, getTextOrNumber } from './helper';
-import { getCache, setCache } from '@helpers/cache-helper';
+import {deleteCache, getCache, setCache} from '@helpers/cache-helper';
 
 const { log, write }: { log: (...msg: any[]) => void; write: (...msg: any[]) => void } = createOut('Scraper');
 // const write = createWrite("Scraper");
@@ -59,8 +59,11 @@ export default class Scraper {
     log(chalk.green('Process'));
 
     const parts: string[] = this.location.toString().split(`,`);
-    const baseKey: string = `${(parts[1] || '.').trim()}/${parts[0].trim()}.html`;
-    const page: string = await this.getUrl(this.url, baseKey);
+    const key: string = `${(parts[1] || '.').trim()}/${parts[0].trim()}.html`;
+    const page: string | undefined = await this.getUrl(this.url, key);
+    if (!page) {
+      return [];
+    }
     const dom: JSDOM = new JSDOM(page);
     await this.getRepeaterList(dom.window.document);
     return this.data;
@@ -88,17 +91,22 @@ export default class Scraper {
             Object.assign(data, await this.getRepeaterDetails(link.href));
             // write("_");
           }
-          this.data.push(data as any as RepeaterRaw);
+          if (data.Latitude && data.Longitude) {
+            this.data.push(data as any as RepeaterRaw);
+          }
         }
       }
     }
   }
 
-  private async getRepeaterDetails(href: string): Promise<RepeaterRaw> {
+  private async getRepeaterDetails(href: string): Promise<RepeaterRaw | undefined> {
     const urlParams: string = href.split('?')[1];
     const keyParts: RegExpMatchArray = urlParams.match(/state_id=(\d+)&ID=(\d+)/) || [];
     const key: string = `${keyParts[1]}/${keyParts[2]}.html`;
-    const page: string = await this.getUrl(`https://www.repeaterbook.com/repeaters/${href}`, key);
+    const page: string | undefined = await this.getUrl(`https://www.repeaterbook.com/repeaters/${href}`, key);
+    if (!page) {
+      return;
+    }
     const dom: JSDOM = new JSDOM(page);
     const data: { [key: string]: string | number | undefined } = {};
     data.state_id = keyParts[1];
@@ -141,30 +149,70 @@ export default class Scraper {
     return data as any as RepeaterRaw;
   }
 
-  private async getUrl(url: string, cacheKey?: string): Promise<string> {
-    write(` ${(cacheKey || url).replace('.html', '')}:`);
-    log(chalk.green('Get URL'), url, cacheKey);
+  private async getUrl(url: string, key: string): Promise<string | undefined> {
+    log(chalk.green('Get URL'), key || url);
+    let data;
 
-    const cache: string | undefined = await getCache(cacheKey || url);
-    if (cache) {
-      log(chalk.yellow('Cached'), url, cacheKey);
-      write(chalk.green('G'));
-      return cache;
-    } else {
-      // Slow down the requests so we're not hammering the server or triggering any anti-bot or DDoS protections
-      // const waitTime: number = (5000 + (Math.random() * 10000));
 
-      // write(`W=${chalk.yellow(Math.round(waitTime / 1000))}`);
-      // await wait(waitTime);
-      log(chalk.yellow('Get'), url);
-      const request: AxiosResponse<string> = await Axios.get(url);
-      log(chalk.green('Got'), url);
-      write(chalk.cyan('S'));
+    try {
+      data = await this.getUrlFromCache(url, key, false);
+      if (!data) {
+        data = await this.getUrlFromServer(url, key);
+      }
+      if (!data) {
+        data = await this.getUrlFromCache(url, key, true);
+      }
+    } catch (error) {
+      const refreshUrl = error.message;
+      const refreshKey = key.replace('.html', '-refresh.html');
+      data = await this.getUrlFromCache(refreshUrl, refreshKey, false);
+      if (!data) {
+        data = await this.getUrlFromServer(refreshUrl, refreshKey);
+      }
+      if (!data) {
+        data = await this.getUrlFromCache(refreshUrl, refreshKey, true);
+      }
+    }
+    return data;
+  }
 
-      const data: string = request.data;
-      await setCache(cacheKey || url, data);
+  private async getUrlFromCache(url: string, key: string, ignoreAge: boolean = false): Promise<string | undefined> {
+    log(chalk.green('Get URL From Cache'), key || url);
+
+    let data: string | undefined = await getCache(key || url, ignoreAge);
+
+    if (data) {
+      log(chalk.yellow('Cache Got'), key || url);
+
+      const refreshRegex = /meta http-equiv='refresh' content='0;URL=([^']*)'>/i;
+      const refreshMatch = data.match(refreshRegex);
+      if (refreshMatch && refreshMatch[1]) {
+        log(chalk.red('Refresh'), key || url, chalk.red('=>'), refreshMatch[1]);
+        throw new Error(refreshMatch[1]);
+      }
+
       return data;
     }
   }
 
+  private async getUrlFromServer(url: string, key: string): Promise<string | undefined> {
+    log(chalk.green('Get URL From Server'), key || url);
+
+    const request: AxiosResponse<string> = await Axios.get(url);
+    log(chalk.yellow('URL Got'), key || url);
+
+    const data: string = request.data;
+
+    const refreshRegex = /meta http-equiv='refresh' content='0;URL=([^']*)'>/i;
+    const refreshMatch = data.match(refreshRegex);
+    if (refreshMatch && refreshMatch[1]) {
+      log(chalk.red('Refresh'), key || url, chalk.red('=>'), refreshMatch[1]);
+      throw new Error(refreshMatch[1]);
+    }
+
+    await setCache(key || url, data);
+    log(chalk.cyan('Cache Set'), key || url);
+    return data;
+
+  }
 }

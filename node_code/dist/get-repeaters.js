@@ -32,7 +32,7 @@ var __importDefault = (this && this.__importDefault) || function (mod) {
     log('Program Parse Args');
     commander_1.program.parse(process.argv);
     async function getRepeaters(place, distance) {
-        log(chalk_1.default.green('getRepeaters'), place, distance);
+        log(chalk_1.default.green('Get Repeaters'), place, distance);
         const promises = [];
         const scraper = new scraper_1.default(place, distance);
         const repeaters = await scraper.scrape();

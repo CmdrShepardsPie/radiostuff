@@ -3,6 +3,9 @@ import { getAllFilesInDirectory, readFileAsync, readFromCsv } from '@helpers/fs-
 import { SimplexFrequency } from '@interfaces/simplex-frequency';
 import gpsDistance from 'gps-distance';
 import { RtSystemsOffsetFrequency } from '@interfaces/rt-systems';
+import {createLog} from "@helpers/log-helpers";
+
+const log: (...msg: any[]) => void = createLog('Radio Helpers');
 
 export enum FrequencyBand {
   $160_m,
@@ -304,17 +307,17 @@ export async function loadSimplex(filterSimplex: RegExp): Promise<RepeaterStruct
 export async function loadRepeaters(location: gpsDistance.Point): Promise<RepeaterStructured[]> {
   const files: string[] = await getAllFilesInDirectory('../data/repeaters/converted/json', 'json', 1);
 
-  return sortStructuredRepeaters(
-    await Promise.all(
-      files.map(async (file: string): Promise<RepeaterStructured> => {
-        const fileBuffer: Buffer = await readFileAsync(file);
-        const fileString: string = fileBuffer.toString();
-        const fileData: RepeaterStructured = JSON.parse(fileString);
-        fileData.Location.Distance = gpsDistance([location, [fileData.Location.Latitude, fileData.Location.Longitude]]);
-        return fileData;
-      })
-    )
+  const all = await Promise.all(
+    files.map(async (file: string): Promise<RepeaterStructured> => {
+      const fileBuffer: Buffer = await readFileAsync(file);
+      const fileString: string = fileBuffer.toString();
+      const fileData: RepeaterStructured = JSON.parse(fileString);
+      fileData.Location.Distance = gpsDistance([location, [fileData.Location.Latitude, fileData.Location.Longitude]]);
+      return fileData;
+    })
   );
+
+  return sortStructuredRepeaters(all.filter((repeater) => !isNaN(repeater.Location.Distance!) && !isNaN(repeater.Frequency.Input)));
 }
 
 export function radioCommon(repeater: RepeaterStructured): RadioCommon {

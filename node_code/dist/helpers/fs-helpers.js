@@ -12,7 +12,7 @@ var __importDefault = (this && this.__importDefault) || function (mod) {
 })(function (require, exports) {
     "use strict";
     Object.defineProperty(exports, "__esModule", { value: true });
-    exports.getAllFilesInDirectory = exports.splitExtension = exports.readFromCsv = exports.readFromJson = exports.writeToCsv = exports.writeToJson = exports.dirExists = exports.makeDirs = exports.statAsync = exports.writeFileAsync = exports.readdirAsync = exports.readFileAsync = exports.mkdirAsync = exports.existsAsync = void 0;
+    exports.getAllFilesInDirectory = exports.splitExtension = exports.readFromCsv = exports.readFromJson = exports.writeToCsv = exports.writeToJson = exports.dirExists = exports.makeDirs = exports.rmAsync = exports.statAsync = exports.writeFileAsync = exports.readdirAsync = exports.readFileAsync = exports.mkdirAsync = exports.existsAsync = void 0;
     const csv_helpers_1 = require("@helpers/csv-helpers");
     const helpers_1 = require("@helpers/helpers");
     const log_helpers_1 = require("@helpers/log-helpers");
@@ -27,6 +27,7 @@ var __importDefault = (this && this.__importDefault) || function (mod) {
     exports.readdirAsync = util_1.promisify(fs_1.default.readdir);
     exports.writeFileAsync = util_1.promisify(fs_1.default.writeFile);
     exports.statAsync = util_1.promisify(fs_1.default.stat);
+    exports.rmAsync = util_1.promisify(fs_1.default.rm);
     async function makeDirs(filePath) {
         // log(chalk.green("Make Dirs"), filePath);
         let tempPath = `.`;
