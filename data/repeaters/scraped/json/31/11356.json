@@ -11,5 +11,15 @@
   "Dir": "NNW",
   "": "",
   "state_id": "31",
-  "ID": "11356"
+  "ID": "11356",
+  "Latitude": 41.95100021,
+  "Longitude": -103.80000305,
+  "County": "Scotts Bluff",
+  "Grid": "DN81CW",
+  "Op Status": "On-Air",
+  "Mixed-Mode": "Yes; analog capable.",
+  "Analog Bandwidth": "",
+  "IRLP": 3942,
+  "Notes": "This is a simplex IRLP node.",
+  "Last update": "2014-04-17"
 }

@@ -3,11 +3,14 @@
   "StateID": 56,
   "Callsign": "W0MUD",
   "Location": {
+    "Latitude": 43.02496,
+    "Longitude": -108.380104,
+    "County": "Fremont",
     "State": "WY",
     "Local": "Riverton"
   },
   "Use": "Open",
-  "Status": "Other",
+  "Status": "On-Air",
   "Frequency": {
     "Input": 446.1,
     "Output": 446.1
@@ -16,7 +19,11 @@
     "Input": 77
   },
   "VOIP": {
-    "AllStar": {},
-    "EchoLink": {}
+    "AllStar": {
+      "NodeID": 46381
+    },
+    "EchoLink": {
+      "NodeID": 639351
+    }
   }
 }

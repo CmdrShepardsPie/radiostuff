@@ -3,11 +3,14 @@
   "StateID": 31,
   "Callsign": "",
   "Location": {
+    "Latitude": 42.82939911,
+    "Longitude": -103,
+    "County": "Dawes",
     "State": "NE",
     "Local": "Chadron"
   },
   "Use": "Open",
-  "Status": "Other",
+  "Status": "On-Air",
   "Frequency": {
     "Input": 446.3,
     "Output": 446.3

@@ -3,18 +3,24 @@
   "StateID": 56,
   "Callsign": "W0MUD",
   "Location": {
+    "Latitude": 43.032335,
+    "Longitude": -108.38063,
+    "County": "Fremont",
     "State": "WY",
     "Local": "Riverton"
   },
   "Use": "Open",
-  "Status": "Other",
+  "Status": "On-Air",
   "Frequency": {
     "Input": 147.53,
     "Output": 147.53
   },
   "Digital": {
     "YSF": {
-      "GroupID": {}
+      "GroupID": {
+        "Input": "Open ↑",
+        "Output": "Open ↓"
+      }
     }
   }
 }

@@ -1,2 +1,2 @@
-Frequency,Offset,Tone,Call,Location,ST/PR,Use,Mode,Mi,Dir,,state_id,ID
-147.53,0,,W0MUD,Riverton,WY,OPEN,Fusion,192.1,NNW,,56,20018
+Frequency,Offset,Tone,Call,Location,ST/PR,Use,Mode,Mi,Dir,,state_id,ID,Latitude,Longitude,YSF Digital Enabled,DG-ID,County,Grid,Op Status,Coverage,Features,Commands,Notes,Last update
+147.53,0,,W0MUD,Riverton,WY,OPEN,Fusion,192.1,NNW,,56,20018,43.032335,-108.38063,1,Open ↑ / Open ↓,Fremont,DN53TA,On-Air,Riverton area. 25 mi radius.,WIRES-X (C4FM),This is Wires X only simplex node. NOT a YSF node.,This is an OPEN Wires X simplex node. 40 watts. Feel free to use all you wish. Non locals use room #46720 Wyoming-Overland to link in.,2021-05-05

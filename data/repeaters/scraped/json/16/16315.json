@@ -9,7 +9,18 @@
   "Mode": "FM EchoLink IRLP",
   "Mi": 161.31,
   "Dir": "NNE",
-  "": "",
+  "": "ON - IDLE",
   "state_id": "16",
-  "ID": "16315"
+  "ID": "16315",
+  "Latitude": 42.87129974,
+  "Longitude": -112.44599915,
+  "County": "Bannock",
+  "Op Status": "On-Air",
+  "Coverage": "Pocatello",
+  "Mixed-Mode": "Yes; analog capable.",
+  "Analog Bandwidth": "",
+  "EchoLink": 520814,
+  "IRLP": 3568,
+  "Commands": 11,
+  "Last update": "2017-08-06"
 }

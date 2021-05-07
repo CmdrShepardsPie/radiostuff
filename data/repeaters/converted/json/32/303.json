@@ -3,11 +3,14 @@
   "StateID": 32,
   "Callsign": "W7EB",
   "Location": {
+    "Latitude": 35.8932991,
+    "Longitude": -115.49500275,
+    "County": "Clark",
     "State": "NV",
     "Local": "Las Vegas"
   },
   "Use": "Open",
-  "Status": "Other",
+  "Status": "On-Air",
   "Frequency": {
     "Input": 223.58,
     "Output": 223.58

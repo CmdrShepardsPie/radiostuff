@@ -3,17 +3,24 @@
   "StateID": 4,
   "Callsign": "KE7ZIW",
   "Location": {
+    "Latitude": 34.52130127,
+    "Longitude": -114.33999634,
+    "County": "Mohave",
     "State": "AZ",
     "Local": "Lake Havasu City"
   },
   "Use": "Open",
-  "Status": "Other",
+  "Status": "On-Air",
   "Frequency": {
     "Input": 147.5,
     "Output": 147.5
   },
   "VOIP": {
-    "EchoLink": {},
-    "IRLP": {}
+    "EchoLink": {
+      "NodeID": 100260
+    },
+    "IRLP": {
+      "NodeID": 3970
+    }
   }
 }

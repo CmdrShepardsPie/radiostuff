@@ -3,11 +3,14 @@
   "StateID": 31,
   "Callsign": "AG0N",
   "Location": {
+    "Latitude": 41.90399933,
+    "Longitude": -103.55799866,
+    "County": "Scotts Bluff",
     "State": "NE",
     "Local": "Scottsbluff"
   },
   "Use": "Open",
-  "Status": "Other",
+  "Status": "On-Air",
   "Frequency": {
     "Input": 146.445,
     "Output": 146.445
@@ -16,6 +19,8 @@
     "Input": 88.5
   },
   "VOIP": {
-    "IRLP": {}
+    "IRLP": {
+      "NodeID": 3055
+    }
   }
 }

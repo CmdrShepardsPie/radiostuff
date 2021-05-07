@@ -11,5 +11,16 @@
   "Dir": "SSW",
   "": "",
   "state_id": "35",
-  "ID": "19608"
+  "ID": "19608",
+  "Latitude": 35.2102777,
+  "Longitude": -106.4497222,
+  "D-STAR Enabled": true,
+  "Node": "W5MPZ (A) Gateway Repeater",
+  "Sources": "jfindu lookup / dstar-users lookup",
+  "County": "Bernalillo",
+  "Grid": "DM65SF",
+  "Op Status": "On-Air",
+  "Sponsor": "KA8JMW",
+  "Notes": "Data",
+  "Last update": "2021-02-10"
 }

@@ -1,2 +1,2 @@
-Frequency,Offset,Tone,Call,Location,ST/PR,Use,Mode,Mi,Dir,,state_id,ID
-145.62,0,100,W0FLO,Chadron,NE,OPEN,FM IRLP,194.17,NNW,,31,11357
+Frequency,Offset,Tone,Call,Location,ST/PR,Use,Mode,Mi,Dir,,state_id,ID,Latitude,Longitude,County,Grid,Op Status,Coverage,Sponsor,Features,Mixed-Mode,Analog Bandwidth,IRLP,Notes,Last update
+145.62,0,100,W0FLO,Chadron,NE,OPEN,FM IRLP,194.17,NNW,,31,11357,42.82649994,-102.98999786,Dawes,DN82MT,On-Air,"Chadron, Gordon, Alliance, Crawford, Pine Ridge.",Pine Ridge Amateur Radio Club - Ron Cashon -- 308 432-3322,Voice ID,Yes; analog capable.,,3936,IRLP status down,2020-01-19

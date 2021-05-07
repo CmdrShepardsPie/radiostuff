@@ -1,2 +1,2 @@
-Frequency,Offset,Tone,Call,Location,ST/PR,Use,Mode,Mi,Dir,,state_id,ID
-147.465,0,88.5,W5MHG,Albuquerque,NM,OPEN,FM AllStar EchoLink,183.41,SW,,35,15944
+Frequency,Offset,Tone,Call,Location,ST/PR,Use,Mode,Mi,Dir,,state_id,ID,Latitude,Longitude,County,Grid,Op Status,Mixed-Mode,Analog Bandwidth,EchoLink,AllStar,Web links,Last update
+147.465,0,88.5,W5MHG,Albuquerque,NM,OPEN,FM AllStar EchoLink,183.41,SW,Node Offline,35,15944,35.09460068,-106.5510025,Bernalillo,DM65RC,On-Air,Yes; analog capable.,,465010,28239,http://www.w5mhg.com,2017-07-21

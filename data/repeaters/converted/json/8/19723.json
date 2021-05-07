@@ -3,11 +3,14 @@
   "StateID": 8,
   "Callsign": "W5ALC",
   "Location": {
+    "Latitude": 38.2859715,
+    "Longitude": -104.5753063,
+    "County": "Pueblo",
     "State": "CO",
     "Local": "Pueblo"
   },
   "Use": "Open",
-  "Status": "Other",
+  "Status": "On-Air",
   "Frequency": {
     "Input": 147.42,
     "Output": 147.42
@@ -16,6 +19,8 @@
     "Input": 100
   },
   "VOIP": {
-    "AllStar": {}
+    "AllStar": {
+      "NodeID": 49947
+    }
   }
 }

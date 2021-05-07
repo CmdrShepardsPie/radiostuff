@@ -3,11 +3,14 @@
   "StateID": 35,
   "Callsign": "W5MHG",
   "Location": {
+    "Latitude": 35.09460068,
+    "Longitude": -106.5510025,
+    "County": "Bernalillo",
     "State": "NM",
     "Local": "Albuquerque"
   },
   "Use": "Open",
-  "Status": "Other",
+  "Status": "On-Air",
   "Frequency": {
     "Input": 147.465,
     "Output": 147.465
@@ -16,7 +19,11 @@
     "Input": 88.5
   },
   "VOIP": {
-    "AllStar": {},
-    "EchoLink": {}
+    "AllStar": {
+      "NodeID": 28239
+    },
+    "EchoLink": {
+      "NodeID": 465010
+    }
   }
 }

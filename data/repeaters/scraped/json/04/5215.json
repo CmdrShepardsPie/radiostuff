@@ -9,7 +9,18 @@
   "Mode": "AllStar EchoLink",
   "Mi": 185.43,
   "Dir": "SE",
-  "": "",
+  "": "Node Offline",
   "state_id": "04",
-  "ID": "5215"
+  "ID": "5215",
+  "Latitude": 34.64889908,
+  "Longitude": -112.42700195,
+  "County": "Yavapai",
+  "Grid": "DM34SP",
+  "Op Status": "On-Air",
+  "Coverage": "Prescott, Chino Valley, Prescott Valley",
+  "Sponsor": "WB7BYV",
+  "EchoLink": 204752,
+  "AllStar": 29976,
+  "Notes": "Simplex Node",
+  "Last update": "2021-02-19"
 }

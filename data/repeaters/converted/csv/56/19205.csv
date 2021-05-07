@@ -1,2 +1,2 @@
 ID,StateID,Callsign,Use,Status,DigitalTone,Digital,Location.Latitude,Location.Longitude,Location.County,Location.State,Location.Local,Frequency.Input,Frequency.Output,SquelchTone.Input,SquelchTone.Output,VOIP.EchoLink,VOIP.IRLP,VOIP.Wires,VOIP.AllStar.NodeID
-19205,56,KB3EQN,Open,Other,,,,,,WY,"Cheyenne, Ranchettes",224.7,224.7,85.4,,,,,
+19205,56,KB3EQN,Open,Testing,,,41.21004,-104.81722,Laramie,WY,"Cheyenne, Ranchettes",224.7,224.7,85.4,,,,,455131

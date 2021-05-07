@@ -1,2 +1,2 @@
-Frequency,Offset,Tone,Call,Location,ST/PR,Use,Mode,Mi,Dir,,state_id,ID
-446.1,0,77,W0MUD,Riverton,WY,OPEN,AllStar EchoLink,191.66,NNW,,56,19352
+Frequency,Offset,Tone,Call,Location,ST/PR,Use,Mode,Mi,Dir,,state_id,ID,Latitude,Longitude,County,Grid,Op Status,Coverage,Features,EchoLink,AllStar,Commands,Notes,Nets,Last update
+446.1,0,77,W0MUD,Riverton,WY,OPEN,AllStar EchoLink,191.66,NNW,ON - IDLE,56,19352,43.02496,-108.380104,Fremont,DN53TA,On-Air,0.5,Allstar and Echolink,639351,46381,Allstar *3 then node number to connect. *1 then node number to disconnect. EchoLink *33 then echolink node number to connect. 73 for disconnect.,All hams are welcome to use and change connections. Enjoy!,Usually connected to Hub 47178.,2021-04-29

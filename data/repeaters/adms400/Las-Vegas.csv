@@ -71,324 +71,324 @@ Channel Number,Receive Frequency,Transmit Frequency,Offset Frequency,Offset Dire
 70,446.27500,446.27500,,Simplex,Auto,FM Simplex,Large,None,100.0 Hz,023,High,Off,Auto,Off,FM Simplex,1500 Hz
 71,446.28750,446.28750,,Simplex,Auto,Digital Simplex,Large,None,100.0 Hz,023,High,Off,Auto,Off,Digital Simplex,1500 Hz
 72,446.30000,446.30000,,Simplex,Auto,Digital Simplex,Large,None,100.0 Hz,023,High,Off,Auto,Off,Digital Simplex,1500 Hz
-73,146.64000,146.04000,600 kHz,Minus,Auto,3MK Bullhead City,Large,Tone,123.0 Hz,023,High,Off,Auto,Off,4 44 120.65 AZ Mohave Bullhead City K3MK,1500 Hz
-74,447.77500,442.77500,5.00 MHz,Minus,Auto,4UZ North Las Vegas  Nellis AFB,Large,Tone,114.8 Hz,023,High,Off,Auto,Off,32 197 17.84 NV Clark North Las Vegas Nellis AFB KP4UZ,1500 Hz
-75,449.08000,444.08000,5.00 MHz,Minus,Auto,5MT Redlands,Large,T Sql,141.3 Hz,023,High,Off,Auto,Off,6 17700 293.17 CA San Bernardino Redlands AD5MT,1500 Hz
-76,146.17500,146.77500,600 kHz,Plus,Auto,6AV Hesperia,Large,Tone,97.4 Hz,023,High,Off,Auto,Off,6 11403 269.37 CA San Bernardino Hesperia WA6AV,1500 Hz
-77,147.06000,147.66000,600 kHz,Plus,Auto,6BA Twentynine Palms,Large,T Sql,136.5 Hz,023,High,Off,Auto,Off,6 464 234.16 CA San Bernardino Twentynine Palms W6BA,1500 Hz
-78,146.79000,146.19000,600 kHz,Minus,Auto,6BA Yucca Valley,Large,T Sql,136.5 Hz,023,High,Off,Auto,Off,6 474 250.15 CA San Bernardino Yucca Valley W6BA,1500 Hz
-79,446.20000,441.20000,5.00 MHz,Minus,Auto,6BB Big Bear E. of Snow Summit,Large,T Sql,103.5 Hz,023,High,Off,Auto,Off,6 9635 261.63 CA San Bernardino Big Bear E. of Snow Summit K6BB,1500 Hz
-80,147.33000,147.93000,600 kHz,Plus,Auto,6BB Big Bear Lake,Large,Tone,131.8 Hz,023,High,Off,Auto,Off,6 443 261.63 CA San Bernardino Big Bear Lake K6BB,1500 Hz
-81,145.26000,144.66000,600 kHz,Minus,Auto,6BX Redlands,Large,T Sql,123.0 Hz,023,High,Off,Auto,Off,6 13257 293.03 CA San Bernardino Redlands AI6BX,1500 Hz
-82,147.18000,147.78000,600 kHz,Plus,Auto,6BX Redlands,Large,Tone,88.5 Hz,023,High,Off,Auto,Off,6 382 292.97 CA San Bernardino Redlands AI6BX,1500 Hz
-83,447.00000,442.00000,5.00 MHz,Minus,Auto,6BX Redlands,Large,T Sql,123.0 Hz,023,High,Off,Auto,Off,6 13505 293.03 CA San Bernardino Redlands AI6BX,1500 Hz
-84,147.15000,147.75000,600 kHz,Plus,Auto,6DK Baker Shamrock Peak,Large,T Sql,131.8 Hz,023,High,Off,Auto,Off,6 6971 144.42 CA San Bernardino Baker Shamrock Peak K6DK,1500 Hz
-85,146.76000,146.16000,600 kHz,Minus,Auto,6DK Barstow,Large,Tone,136.5 Hz,023,High,Off,Auto,Off,6 6968 215.02 CA San Bernardino Barstow K6DK,1500 Hz
-86,146.08500,146.68500,600 kHz,Plus,Auto,6FM Indian Wells Bird Spring Pas,Large,Tone,141.3 Hz,023,High,Off,Auto,Off,6 185 275.12 CA Kern Indian Wells Bird Spring Pass KF6FM,1500 Hz
-87,146.91000,146.31000,600 kHz,Minus,Auto,6IY Bishop Silver Peak,Large,Tone,103.5 Hz,023,High,Off,Auto,Off,6 183 227.53 CA Inyo Bishop Silver Peak W6IY,1500 Hz
-88,447.32000,442.32000,5.00 MHz,Minus,Auto,6JR Palm Springs Edom Hill,Large,Tone,131.8 Hz,023,High,Off,Auto,Off,6 6598 274.67 CA Riverside Palm Springs Edom Hill K6JR,1500 Hz
-89,145.41000,144.81000,600 kHz,Minus,Auto,6LI Bakersfield Shirley Peak,Large,Tone,103.5 Hz,023,High,Off,Auto,Off,6 531 308.38 CA Kern Bakersfield Shirley Peak W6LI,1500 Hz
-90,146.65500,146.05500,600 kHz,Minus,Auto,6MV Moreno Valley Moreno Valley,Large,Tone,103.5 Hz,023,High,Off,Auto,Off,6 375 303.62 CA Riverside Moreno Valley Moreno Valley AB6MV,1500 Hz
-91,146.89500,146.29500,600 kHz,Minus,Auto,6OI Idyllwild,Large,T Sql,118.8 Hz,023,High,Off,Auto,Off,6 373 299.26 CA Riverside Idyllwild KD6OI,1500 Hz
-92,146.94000,146.34000,600 kHz,Minus,Auto,6OV Bishop Silver Peak,Large,Tone,103.5 Hz,023,High,Off,Auto,Off,6 2706 303.09 CA Inyo Bishop Silver Peak N6OV,1500 Hz
-93,449.14000,444.14000,5.00 MHz,Minus,Auto,6OY Claremont Sunset Ridge,Large,T Sql,100.0 Hz,023,High,Off,Auto,Off,6 18277 314.45 CA Los Angeles Claremont Sunset Ridge W6OY,1500 Hz
-94,147.21000,147.81000,600 kHz,Plus,Auto,6PH Lone Pine Alabama Hills,Large,Tone,103.5 Hz,023,High,Off,Auto,Off,6 181 259.46 CA Inyo Lone Pine Alabama Hills W6PH,1500 Hz
-95,147.97500,147.37500,600 kHz,Minus,Auto,6RE Ridgecrest El Paso Peak,Large,Tone,100.0 Hz,023,High,Off,Auto,Off,6 8367 243.48 CA Kern Ridgecrest El Paso Peak WI6RE,1500 Hz
-96,448.80000,443.80000,5.00 MHz,Minus,Auto,6RE Ridgecrest El Paso Peak,Large,Tone,100.0 Hz,023,High,Off,Auto,Off,6 2634 238.66 CA Kern Ridgecrest El Paso Peak WI6RE,1500 Hz
-97,145.45000,144.85000,600 kHz,Minus,Auto,6SR Lake Isabella Sawmill Road,Large,Tone,156.7 Hz,023,High,Off,Auto,Off,6 298 302.55 CA Kern Lake Isabella Sawmill Road N6SR,1500 Hz
-98,146.76000,146.16000,600 kHz,Minus,Auto,6TD Independence Mazourka Peak,Large,Tone,103.5 Hz,023,High,Off,Auto,Off,6 182 280.27 CA Inyo Independence Mazourka Peak W6TD,1500 Hz
-99,449.16000,444.16000,5.00 MHz,Minus,Auto,6TV Claremont Sunset Ridge,Large,T Sql,77.0 Hz,023,High,Off,Auto,Off,6 18268 314.40 CA Los Angeles Claremont Sunset Ridge AE6TV,1500 Hz
-100,147.24000,147.84000,600 kHz,Plus,Auto,6WW Wrightwood,Large,T Sql,91.5 Hz,023,High,Off,Auto,Off,6 3628 296.02 CA San Bernardino Wrightwood KW6WW,1500 Hz
-101,445.24000,440.24000,5.00 MHz,Minus,Auto,6WW Wrightwood,Large,T Sql,127.3 Hz,023,High,Off,Auto,Off,6 3625 296.55 CA San Bernardino Wrightwood KW6WW,1500 Hz
-102,146.97000,146.37000,600 kHz,Minus,Auto,6XN Las Vegas,Large,Tone,100.0 Hz,023,High,Off,Auto,Off,32 8288 19.08 NV Clark Las Vegas KB6XN,1500 Hz
-103,146.76000,146.16000,600 kHz,Minus,Auto,7AV Amargosa Valley,Large,Tone,123.0 Hz,023,High,Off,Auto,Off,32 7975 124.37 NV Nye Amargosa Valley NV7AV,1500 Hz
-104,449.47500,444.47500,5.00 MHz,Minus,Auto,7AV Las Vegas,Large,Tone,114.8 Hz,023,High,Off,Auto,Off,32 2820 7.48 NV Clark Las Vegas KK7AV,1500 Hz
-105,147.06000,147.66000,600 kHz,Plus,Auto,7AZ Blythe Cunningham Mtn,Large,Tone,203.5 Hz,023,High,Off,Auto,Off,4 107 292.77 AZ La Paz Blythe Cunningham Mtn KR7AZ,1500 Hz
-106,448.47500,443.47500,5.00 MHz,Minus,Auto,7BS Las Vegas,Large,Tone,100.0 Hz,023,High,Off,Auto,Off,32 356 11.08 NV Clark Las Vegas NO7BS,1500 Hz
-107,147.27000,147.87000,600 kHz,Plus,Auto,7DB Las Vegas Sunrise Hospital,Large,Tone,100.0 Hz,023,High,Off,Auto,Off,32 40 14.14 NV Clark Las Vegas Sunrise Hospital KC7DB,1500 Hz
-108,448.75000,443.75000,5.00 MHz,Minus,Auto,7DB Page (az) Navajo Mountain,Large,Tone,100.0 Hz,023,High,Off,Auto,Off,49 169 397.65 UT San Juan Page (az) Navajo Mountain NA7DB,1500 Hz
-109,147.12000,147.72000,600 kHz,Plus,Auto,7DP Pahrump,Large,Tone,94.8 Hz,023,High,Off,Auto,Off,32 28 74.27 NV Nye Pahrump AD7DP,1500 Hz
-110,147.22000,147.82000,600 kHz,Plus,Auto,7EI Cottonwood Mingus Mountain,Large,Tone,162.2 Hz,023,High,Off,Auto,Off,4 121 318.04 AZ Yavapai Cottonwood Mingus Mountain W7EI,1500 Hz
-111,449.42500,444.42500,5.00 MHz,Minus,Auto,7EI Cottonwood Mingus Mountain,Large,Tone,141.3 Hz,023,High,Off,Auto,Off,4 384 318.04 AZ Yavapai Cottonwood Mingus Mountain W7EI,1500 Hz
-112,147.30000,147.90000,600 kHz,Plus,Auto,7EO Tooele South Mountain,Large,Tone,100.0 Hz,023,High,Off,Auto,Off,49 197 539.97 UT Tooele Tooele South Mountain W7EO,1500 Hz
-113,449.35000,444.35000,5.00 MHz,Minus,Auto,7EO Tooele South Mountain,Large,Tone,100.0 Hz,023,High,Off,Auto,Off,49 198 539.97 UT Tooele Tooele South Mountain W7EO,1500 Hz
-114,145.39000,144.79000,600 kHz,Minus,Auto,7EO Vernon Black Crook Peak,Large,Tone,100.0 Hz,023,High,Off,Auto,Off,49 196 488.10 UT Tooele Vernon Black Crook Peak W7EO,1500 Hz
-115,449.95000,444.95000,5.00 MHz,Minus,Auto,7EO Vernon Vernon Hills,Large,Tone,100.0 Hz,023,High,Off,Auto,Off,49 199 508.92 UT Tooele Vernon Vernon Hills W7EO,1500 Hz
-116,147.20000,147.80000,600 kHz,Plus,Auto,7EO Wendover Wendover Peak,Large,Tone,100.0 Hz,023,High,Off,Auto,Off,49 194 525.52 UT Tooele Wendover Wendover Peak W7EO,1500 Hz
-117,447.07500,442.07500,5.00 MHz,Minus,Auto,7FQ Salem,Large,Tone,131.8 Hz,023,High,Off,Auto,Off,49 136 534.26 UT Utah Salem N7FQ,1500 Hz
-118,147.20000,147.80000,600 kHz,Plus,Auto,7GX Price Wood Hill,Large,Tone,88.5 Hz,023,High,Off,Auto,Off,49 10058 524.53 UT Carbon Price Wood Hill K7GX,1500 Hz
-119,146.76000,146.16000,600 kHz,Minus,Auto,7JH Cedar City Iron Mountain,Large,Tone,123.0 Hz,023,High,Off,Auto,Off,49 26 233.54 UT Iron Cedar City Iron Mountain K7JH,1500 Hz
-120,448.80000,443.80000,5.00 MHz,Minus,Auto,7JH Cedar City Iron Mountain,Large,Tone,100.0 Hz,023,High,Off,Auto,Off,49 10062 233.54 UT Iron Cedar City Iron Mountain K7JH,1500 Hz
-121,145.27000,144.67000,600 kHz,Minus,Auto,7JL Levan Levan Peak,Large,Tone,103.5 Hz,023,High,Off,Auto,Off,49 32 476.71 UT Juab Levan Levan Peak K7JL,1500 Hz
-122,448.30000,443.30000,5.00 MHz,Minus,Auto,7KD Las Vegas QTH,Large,Tone,118.8 Hz,023,High,Off,Auto,Off,32 334 10.27 NV Clark Las Vegas QTH KE7KD,1500 Hz
-123,146.98000,146.38000,600 kHz,Minus,Auto,7KM Cedar City Iron Mountain,Large,Tone,100.0 Hz,023,High,Off,Auto,Off,49 146 233.62 UT Iron Cedar City Iron Mountain N7KM,1500 Hz
-124,145.42000,144.82000,600 kHz,Minus,Auto,7OD Hemet Hemet Valley Med Ctr,Large,Tone,88.5 Hz,023,High,Off,Auto,Off,6 371 309.13 CA Riverside Hemet Hemet Valley Med Ctr N7OD,1500 Hz
-125,147.09000,147.69000,600 kHz,Plus,Auto,7OK Henderson Black Mountain,Large,Tone,100.0 Hz,023,High,Off,Auto,Off,32 37 19.09 NV Clark Henderson Black Mountain N7OK,1500 Hz
-126,447.47500,442.47500,5.00 MHz,Minus,Auto,7OK Las Vegas Angel Peak,Large,Tone,110.9 Hz,023,High,Off,Auto,Off,32 113 42.58 NV Clark Las Vegas Angel Peak N7OK,1500 Hz
-127,147.26000,147.86000,600 kHz,Plus,Auto,7SG St George,Large,None,100.0 Hz,023,High,Off,Auto,Off,49 61 178.72 UT Washington St George K7SG,1500 Hz
-128,146.76000,146.16000,600 kHz,Minus,Auto,7SP Provo Lake Mountain,Large,None,100.0 Hz,023,High,Off,Auto,Off,49 213 542.81 UT Utah Provo Lake Mountain W7SP,1500 Hz
-129,147.99000,147.39000,600 kHz,Minus,Auto,7SQ El Mirage,Large,None,100.0 Hz,023,High,Off,Auto,Off,6 13342 279.23 CA San Bernardino El Mirage AA7SQ,1500 Hz
-130,147.39000,147.99000,600 kHz,Plus,Auto,7SQ Victorville,Large,Tone,100.0 Hz,023,High,Off,Auto,Off,6 12695 271.32 CA San Bernardino Victorville AA7SQ,1500 Hz
-131,449.37500,444.37500,5.00 MHz,Minus,Auto,7TA Logan Sedgwick Peak,Large,None,100.0 Hz,023,High,Off,Auto,Off,49 18470 505.68 UT Cache Logan Sedgwick Peak AE7TA,1500 Hz
-132,443.27500,448.27500,5.00 MHz,Plus,Auto,7TR Walker,Large,None,100.0 Hz,023,High,Off,Auto,Off,32 275 519.88 NV Elko Walker N7TR,1500 Hz
-133,448.50000,443.50000,5.00 MHz,Minus,Auto,7WS Hurricane Kolob Peak,Large,None,100.0 Hz,023,High,Off,Auto,Off,49 72 237.22 UT Washington Hurricane Kolob Peak K7WS,1500 Hz
-134,448.27500,443.27500,5.00 MHz,Minus,Auto,7YE Manti Barton Peak,Large,Tone,107.2 Hz,023,High,Off,Auto,Off,49 107 465.50 UT Sanpete Manti Barton Peak KD7YE,1500 Hz
-135,447.62500,442.62500,5.00 MHz,Minus,Auto,7YI Castle Dale Horn Mountain,Large,Tone,100.0 Hz,023,High,Off,Auto,Off,49 73 494.19 UT Emery Castle Dale Horn Mountain K7YI,1500 Hz
-136,449.72500,444.72500,5.00 MHz,Minus,Auto,7YK Enterprise Black Hills,Large,None,100.0 Hz,023,High,Off,Auto,Off,49 108 199.75 UT Washington Enterprise Black Hills KD7YK,1500 Hz
-137,147.39000,147.99000,600 kHz,Plus,Auto,9VX Elko,Large,None,100.0 Hz,023,High,Off,Auto,Off,32 57 528.00 NV Elko Elko K9VX,1500 Hz
-138,146.94000,146.34000,600 kHz,Minus,Auto,AAA Milford Frisco Peak,Large,Tone,100.0 Hz,023,High,Off,Auto,Off,49 267 315.20 UT Beaver Milford Frisco Peak WR7AAA,1500 Hz
-139,445.92000,440.92000,5.00 MHz,Minus,Auto,AFA Claremont Sunset Ridge,Large,Tone,186.2 Hz,023,High,Off,Auto,Off,6 976 314.45 CA Los Angeles Claremont Sunset Ridge KD6AFA,1500 Hz
-140,147.06000,147.66000,600 kHz,Plus,Auto,AKK Cedar City Hospital,Large,None,100.0 Hz,023,High,Off,Auto,Off,49 133 258.66 UT Iron Cedar City Hospital N7AKK,1500 Hz
-141,445.70000,440.70000,5.00 MHz,Minus,Auto,AMS Running Springs,Large,T Sql,151.4 Hz,023,High,Off,Auto,Off,6 5587 275.55 CA San Bernardino Running Springs K6AMS,1500 Hz
-142,449.85000,444.85000,5.00 MHz,Minus,Auto,AMT Pahrump,Large,T Sql,156.7 Hz,023,High,Off,Auto,Off,32 17518 73.56 NV Nye Pahrump WB6AMT,1500 Hz
-143,448.07500,443.07500,5.00 MHz,Minus,Auto,ANF Las Vegas Fitzgeralds Hotel,Large,Tone,127.3 Hz,023,High,Off,Auto,Off,32 161 6.73 NV Clark Las Vegas Fitzgeralds Hotel WN9ANF,1500 Hz
-144,449.72500,444.72500,5.00 MHz,Minus,Auto,AOR Las Vegas Sunrise Mountain,Large,Tone,97.4 Hz,023,High,Off,Auto,Off,32 344 21.49 NV Clark Las Vegas Sunrise Mountain W7AOR,1500 Hz
-145,449.75000,444.75000,5.00 MHz,Minus,Auto,AOR St George Utah Hill,Large,Tone,123.0 Hz,023,High,Off,Auto,Off,49 180 163.19 UT Washington St George Utah Hill W7AOR,1500 Hz
-146,443.77500,448.77500,5.00 MHz,Plus,Auto,ARA Aguila Smith Peak,Large,Tone,100.0 Hz,023,High,Off,Auto,Off,4 252 281.59 AZ La Paz Aguila Smith Peak W7ARA,1500 Hz
-147,146.82000,146.22000,600 kHz,Minus,Auto,ARA Cottonwood Mingus Mountain,Large,Tone,162.2 Hz,023,High,Off,Auto,Off,4 12998 318.04 AZ Yavapai Cottonwood Mingus Mountain W7ARA,1500 Hz
-148,448.50000,443.50000,5.00 MHz,Minus,Auto,ARA Cottonwood Mingus Mountain,Large,Tone,100.0 Hz,023,High,Off,Auto,Off,4 12933 318.04 AZ Yavapai Cottonwood Mingus Mountain W7ARA,1500 Hz
-149,449.75000,444.75000,5.00 MHz,Minus,Auto,ARR Henderson Black Mountain,Large,Tone,123.0 Hz,023,High,Off,Auto,Off,32 124 19.09 NV Clark Henderson Black Mountain N7ARR,1500 Hz
-150,145.37000,144.77000,600 kHz,Minus,Auto,ARR Las Vegas Angel Peak,Large,Tone,123.0 Hz,023,High,Off,Auto,Off,32 200 42.58 NV Clark Las Vegas Angel Peak N7ARR,1500 Hz
-151,447.00000,442.00000,5.00 MHz,Minus,Auto,ARR Las Vegas Blue Diamond Mount,Large,Tone,123.0 Hz,023,High,Off,Auto,Off,32 157 19.44 NV Clark Las Vegas Blue Diamond Mountain N7ARR,1500 Hz
-152,147.00000,146.40000,600 kHz,Minus,Auto,ARR Las Vegas QTH,Large,Tone,123.0 Hz,023,High,Off,Auto,Off,32 311 15.04 NV Clark Las Vegas QTH N7ARR,1500 Hz
-153,446.70000,441.70000,5.00 MHz,Minus,Auto,ARR Las Vegas strip,Large,Tone,118.8 Hz,023,High,Off,Auto,Off,32 331 7.48 NV Clark Las Vegas strip N7ARR,1500 Hz
-154,449.75000,444.75000,5.00 MHz,Minus,Auto,ARR Pahrump,Large,Tone,123.0 Hz,023,High,Off,Auto,Off,32 3544 74.69 NV Nye Pahrump N7ARR,1500 Hz
-155,146.64000,146.04000,600 kHz,Minus,Auto,ARR Tonopah,Large,Tone,123.0 Hz,023,High,Off,Auto,Off,32 351 283.53 NV Nye Tonopah N7ARR,1500 Hz
-156,146.68000,146.08000,600 kHz,Minus,Auto,ARZ Holbrook,Large,None,100.0 Hz,023,High,Off,Auto,Off,4 52 473.45 AZ Navajo Holbrook KA7ARZ,1500 Hz
-157,145.28000,144.68000,600 kHz,Minus,Auto,AZN Wrightwood Table Mountain,Large,Tone,131.8 Hz,023,High,Off,Auto,Off,6 262 293.98 CA Los Angeles Wrightwood Table Mountain WR6AZN,1500 Hz
-158,447.20000,442.20000,5.00 MHz,Minus,Auto,AZN Wrightwood Table Mountain,Large,Tone,94.8 Hz,023,High,Off,Auto,Off,6 1036 293.98 CA Los Angeles Wrightwood Table Mountain WR6AZN,1500 Hz
-159,447.00000,442.00000,5.00 MHz,Minus,Auto,AZQ Quartzsite West Park,Large,T Sql,123.0 Hz,023,High,Off,Auto,Off,4 15373 285.10 AZ La Paz Quartzsite West Park W7AZQ,1500 Hz
-160,447.70000,442.70000,5.00 MHz,Minus,Auto,AZY Lone Pine Alabama Hills,Large,Tone,100.0 Hz,023,High,Off,Auto,Off,6 17992 266.09 CA Inyo Lone Pine Alabama Hills N6AZY,1500 Hz
-161,145.19000,144.59000,600 kHz,Minus,Auto,BCP Las Vegas Tropicana,Large,None,100.0 Hz,023,High,Off,Auto,Off,32 33 1.64 NV Clark Las Vegas Tropicana KA7BCP,1500 Hz
-162,147.03000,147.63000,600 kHz,Plus,Auto,BNG Barstow,Large,None,100.0 Hz,023,High,Off,Auto,Off,6 439 215.17 CA San Bernardino Barstow WD6BNG,1500 Hz
-163,446.55000,441.55000,5.00 MHz,Minus,Auto,BNW Paulden Paulden,Large,Tone,100.0 Hz,023,High,Off,Auto,Off,4 17372 283.40 AZ Yavapai Paulden Paulden W7BNW,1500 Hz
-164,146.72000,146.12000,600 kHz,Minus,Auto,BSK Glendale Spencer Bench,Large,Tone,100.0 Hz,023,High,Off,Auto,Off,49 206 273.48 UT Kane Glendale Spencer Bench K7BSK,1500 Hz
-165,146.72000,146.12000,600 kHz,Minus,Auto,BSK Manti Barton Peak,Large,Tone,100.0 Hz,023,High,Off,Auto,Off,49 255 465.50 UT Sanpete Manti Barton Peak K7BSK,1500 Hz
-166,449.35000,444.35000,5.00 MHz,Minus,Auto,BTS Carlin Swales Mountain,Large,Tone,186.2 Hz,023,High,Off,Auto,Off,32 180 541.59 NV Elko Carlin Swales Mountain WB7BTS,1500 Hz
-167,146.94000,146.34000,600 kHz,Minus,Auto,BTS Elko,Large,Tone,100.0 Hz,023,High,Off,Auto,Off,32 55 528.00 NV Elko Elko WB7BTS,1500 Hz
-168,146.77500,146.17500,600 kHz,Minus,Auto,BYH Bakersfield,Large,Tone,141.3 Hz,023,High,Off,Auto,Off,6 546 316.69 CA Kern Bakersfield N6BYH,1500 Hz
-169,445.68000,440.68000,5.00 MHz,Minus,Auto,BZZ Apple Valley,Large,Tone,141.3 Hz,023,High,Off,Auto,Off,6 12821 256.06 CA San Bernardino Apple Valley KB6BZZ,1500 Hz
-170,447.68000,442.68000,5.00 MHz,Minus,Auto,Baker Turquoise Mountain,Large,None,100.0 Hz,023,High,Off,Auto,Off,6 6020 101.41 CA San Bernardino Baker Turquoise Mountain,1500 Hz
-171,448.90000,443.90000,5.00 MHz,Minus,Auto,Battle Mountain,Large,Tone,100.0 Hz,023,High,Off,Auto,Off,32 62 526.21 NV Lander Battle Mountain,1500 Hz
-172,145.43000,144.83000,600 kHz,Minus,Auto,Beatty,Large,None,100.0 Hz,023,High,Off,Auto,Off,32 15731 175.51 NV Nye Beatty,1500 Hz
-173,444.57500,449.57500,5.00 MHz,Plus,Auto,CAM Rosamond Taco Bell,Large,T Sql,173.8 Hz,023,High,Off,Auto,Off,6 14726 304.33 CA Kern Rosamond Taco Bell WA6CAM,1500 Hz
-174,145.19000,144.59000,600 kHz,Minus,Auto,CAT Quartzsite Rice Ranch,Large,Tone,103.5 Hz,023,High,Off,Auto,Off,4 17524 286.58 AZ La Paz Quartzsite Rice Ranch KC0CAT,1500 Hz
-175,449.60000,444.60000,5.00 MHz,Minus,Auto,CCH Las Vegas,Large,T Sql,107.2 Hz,023,High,Off,Auto,Off,32 11354 10.85 NV Clark Las Vegas KE7CCH,1500 Hz
-176,147.91500,147.31500,600 kHz,Minus,Auto,CDF Banning Mt Edna,Large,Tone,123.0 Hz,023,High,Off,Auto,Off,6 363 293.27 CA Riverside Banning Mt Edna W6CDF,1500 Hz
-177,147.09000,147.69000,600 kHz,Plus,Auto,CDF Blythe Black Rock,Large,Tone,123.0 Hz,023,High,Off,Auto,Off,6 365 281.01 CA Riverside Blythe Black Rock W6CDF,1500 Hz
-178,445.02000,440.02000,5.00 MHz,Minus,Auto,CDF Cactus City,Large,Tone,186.2 Hz,023,High,Off,Auto,Off,6 17927 280.35 CA Riverside Cactus City W6CDF,1500 Hz
-179,445.02000,440.02000,5.00 MHz,Minus,Auto,CDF Cedarpines Park Jobs Peak,Large,Tone,107.2 Hz,023,High,Off,Auto,Off,6 17809 284.78 CA San Bernardino Cedarpines Park Jobs Peak W6CDF,1500 Hz
-180,447.58000,442.58000,5.00 MHz,Minus,Auto,CDF Landers Goat Mountain,Large,Tone,173.8 Hz,023,High,Off,Auto,Off,6 1004 235.44 CA San Bernardino Landers Goat Mountain WB6CDF,1500 Hz
-181,447.00000,442.00000,5.00 MHz,Minus,Auto,CDF Yucca Valley Paxton Hill,Large,T DCS,100.0 Hz,565,High,Off,Auto,Off,6 969 247.28 CA San Bernardino Yucca Valley Paxton Hill WB6CDF,1500 Hz
-182,147.70500,147.10500,600 kHz,Minus,Auto,CDF Yucca Valley Yucca Mesa Area,Large,Tone,123.0 Hz,023,High,Off,Auto,Off,6 11844 240.70 CA San Bernardino Yucca Valley Yucca Mesa Area WB6CDF,1500 Hz
-183,144.50500,145.10500,600 kHz,Plus,Auto,COH Hemet Simpson Park,Large,Tone,100.0 Hz,023,High,Off,Auto,Off,6 707 311.38 CA Riverside Hemet Simpson Park W6COH,1500 Hz
-184,445.16000,440.16000,5.00 MHz,Minus,Auto,CTR Banning Snow Peak,Large,Tone,67.0 Hz,023,High,Off,Auto,Off,6 5550 275.01 CA San Bernardino Banning Snow Peak W6CTR,1500 Hz
-185,146.91000,146.31000,600 kHz,Minus,Auto,CTR Crestline Jobs Peak,Large,Tone,151.4 Hz,023,High,Off,Auto,Off,6 461 286.06 CA San Bernardino Crestline Jobs Peak W6CTR,1500 Hz
-186,445.16000,440.16000,5.00 MHz,Minus,Auto,CTR Sylmar Contractor's Point,Large,Tone,100.0 Hz,023,High,Off,Auto,Off,6 18064 226.63 CA Los Angeles Sylmar Contractor's Point W6CTR,1500 Hz
+73,147.50000,147.50000,,Simplex,Auto,ZIW Lake Havasu City,Large,None,100.0 Hz,023,High,Off,Auto,Off,4 17636 192.61 AZ Mohave Lake Havasu City KE7ZIW,1500 Hz
+74,146.64000,146.04000,600 kHz,Minus,Auto,3MK Bullhead City,Large,Tone,123.0 Hz,023,High,Off,Auto,Off,4 44 120.65 AZ Mohave Bullhead City K3MK,1500 Hz
+75,447.77500,442.77500,5.00 MHz,Minus,Auto,4UZ North Las Vegas  Nellis AFB,Large,Tone,114.8 Hz,023,High,Off,Auto,Off,32 197 17.84 NV Clark North Las Vegas Nellis AFB KP4UZ,1500 Hz
+76,449.08000,444.08000,5.00 MHz,Minus,Auto,5MT Redlands,Large,T Sql,141.3 Hz,023,High,Off,Auto,Off,6 17700 293.17 CA San Bernardino Redlands AD5MT,1500 Hz
+77,146.17500,146.77500,600 kHz,Plus,Auto,6AV Hesperia,Large,Tone,97.4 Hz,023,High,Off,Auto,Off,6 11403 269.37 CA San Bernardino Hesperia WA6AV,1500 Hz
+78,147.06000,147.66000,600 kHz,Plus,Auto,6BA Twentynine Palms,Large,T Sql,136.5 Hz,023,High,Off,Auto,Off,6 464 234.16 CA San Bernardino Twentynine Palms W6BA,1500 Hz
+79,146.79000,146.19000,600 kHz,Minus,Auto,6BA Yucca Valley,Large,T Sql,136.5 Hz,023,High,Off,Auto,Off,6 474 250.15 CA San Bernardino Yucca Valley W6BA,1500 Hz
+80,446.20000,441.20000,5.00 MHz,Minus,Auto,6BB Big Bear E. of Snow Summit,Large,T Sql,103.5 Hz,023,High,Off,Auto,Off,6 9635 261.63 CA San Bernardino Big Bear E. of Snow Summit K6BB,1500 Hz
+81,147.33000,147.93000,600 kHz,Plus,Auto,6BB Big Bear Lake,Large,Tone,131.8 Hz,023,High,Off,Auto,Off,6 443 261.63 CA San Bernardino Big Bear Lake K6BB,1500 Hz
+82,145.26000,144.66000,600 kHz,Minus,Auto,6BX Redlands,Large,T Sql,123.0 Hz,023,High,Off,Auto,Off,6 13257 293.03 CA San Bernardino Redlands AI6BX,1500 Hz
+83,147.18000,147.78000,600 kHz,Plus,Auto,6BX Redlands,Large,Tone,88.5 Hz,023,High,Off,Auto,Off,6 382 292.97 CA San Bernardino Redlands AI6BX,1500 Hz
+84,447.00000,442.00000,5.00 MHz,Minus,Auto,6BX Redlands,Large,T Sql,123.0 Hz,023,High,Off,Auto,Off,6 13505 293.03 CA San Bernardino Redlands AI6BX,1500 Hz
+85,147.15000,147.75000,600 kHz,Plus,Auto,6DK Baker Shamrock Peak,Large,T Sql,131.8 Hz,023,High,Off,Auto,Off,6 6971 144.42 CA San Bernardino Baker Shamrock Peak K6DK,1500 Hz
+86,146.76000,146.16000,600 kHz,Minus,Auto,6DK Barstow,Large,Tone,136.5 Hz,023,High,Off,Auto,Off,6 6968 215.02 CA San Bernardino Barstow K6DK,1500 Hz
+87,146.08500,146.68500,600 kHz,Plus,Auto,6FM Indian Wells Bird Spring Pas,Large,Tone,141.3 Hz,023,High,Off,Auto,Off,6 185 275.12 CA Kern Indian Wells Bird Spring Pass KF6FM,1500 Hz
+88,146.91000,146.31000,600 kHz,Minus,Auto,6IY Bishop Silver Peak,Large,Tone,103.5 Hz,023,High,Off,Auto,Off,6 183 227.53 CA Inyo Bishop Silver Peak W6IY,1500 Hz
+89,447.32000,442.32000,5.00 MHz,Minus,Auto,6JR Palm Springs Edom Hill,Large,Tone,131.8 Hz,023,High,Off,Auto,Off,6 6598 274.67 CA Riverside Palm Springs Edom Hill K6JR,1500 Hz
+90,145.41000,144.81000,600 kHz,Minus,Auto,6LI Bakersfield Shirley Peak,Large,Tone,103.5 Hz,023,High,Off,Auto,Off,6 531 308.38 CA Kern Bakersfield Shirley Peak W6LI,1500 Hz
+91,146.65500,146.05500,600 kHz,Minus,Auto,6MV Moreno Valley Moreno Valley,Large,Tone,103.5 Hz,023,High,Off,Auto,Off,6 375 303.62 CA Riverside Moreno Valley Moreno Valley AB6MV,1500 Hz
+92,146.89500,146.29500,600 kHz,Minus,Auto,6OI Idyllwild,Large,T Sql,118.8 Hz,023,High,Off,Auto,Off,6 373 299.26 CA Riverside Idyllwild KD6OI,1500 Hz
+93,146.94000,146.34000,600 kHz,Minus,Auto,6OV Bishop Silver Peak,Large,Tone,103.5 Hz,023,High,Off,Auto,Off,6 2706 303.09 CA Inyo Bishop Silver Peak N6OV,1500 Hz
+94,449.14000,444.14000,5.00 MHz,Minus,Auto,6OY Claremont Sunset Ridge,Large,T Sql,100.0 Hz,023,High,Off,Auto,Off,6 18277 314.45 CA Los Angeles Claremont Sunset Ridge W6OY,1500 Hz
+95,147.21000,147.81000,600 kHz,Plus,Auto,6PH Lone Pine Alabama Hills,Large,Tone,103.5 Hz,023,High,Off,Auto,Off,6 181 259.46 CA Inyo Lone Pine Alabama Hills W6PH,1500 Hz
+96,147.97500,147.37500,600 kHz,Minus,Auto,6RE Ridgecrest El Paso Peak,Large,Tone,100.0 Hz,023,High,Off,Auto,Off,6 8367 243.48 CA Kern Ridgecrest El Paso Peak WI6RE,1500 Hz
+97,448.80000,443.80000,5.00 MHz,Minus,Auto,6RE Ridgecrest El Paso Peak,Large,Tone,100.0 Hz,023,High,Off,Auto,Off,6 2634 238.66 CA Kern Ridgecrest El Paso Peak WI6RE,1500 Hz
+98,145.45000,144.85000,600 kHz,Minus,Auto,6SR Lake Isabella Sawmill Road,Large,Tone,156.7 Hz,023,High,Off,Auto,Off,6 298 302.55 CA Kern Lake Isabella Sawmill Road N6SR,1500 Hz
+99,146.76000,146.16000,600 kHz,Minus,Auto,6TD Independence Mazourka Peak,Large,Tone,103.5 Hz,023,High,Off,Auto,Off,6 182 280.27 CA Inyo Independence Mazourka Peak W6TD,1500 Hz
+100,449.16000,444.16000,5.00 MHz,Minus,Auto,6TV Claremont Sunset Ridge,Large,T Sql,77.0 Hz,023,High,Off,Auto,Off,6 18268 314.40 CA Los Angeles Claremont Sunset Ridge AE6TV,1500 Hz
+101,147.24000,147.84000,600 kHz,Plus,Auto,6WW Wrightwood,Large,T Sql,91.5 Hz,023,High,Off,Auto,Off,6 3628 296.02 CA San Bernardino Wrightwood KW6WW,1500 Hz
+102,445.24000,440.24000,5.00 MHz,Minus,Auto,6WW Wrightwood,Large,T Sql,127.3 Hz,023,High,Off,Auto,Off,6 3625 296.55 CA San Bernardino Wrightwood KW6WW,1500 Hz
+103,146.97000,146.37000,600 kHz,Minus,Auto,6XN Las Vegas,Large,Tone,100.0 Hz,023,High,Off,Auto,Off,32 8288 19.08 NV Clark Las Vegas KB6XN,1500 Hz
+104,146.76000,146.16000,600 kHz,Minus,Auto,7AV Amargosa Valley,Large,Tone,123.0 Hz,023,High,Off,Auto,Off,32 7975 124.37 NV Nye Amargosa Valley NV7AV,1500 Hz
+105,449.47500,444.47500,5.00 MHz,Minus,Auto,7AV Las Vegas,Large,Tone,114.8 Hz,023,High,Off,Auto,Off,32 2820 7.48 NV Clark Las Vegas KK7AV,1500 Hz
+106,147.06000,147.66000,600 kHz,Plus,Auto,7AZ Blythe Cunningham Mtn,Large,Tone,203.5 Hz,023,High,Off,Auto,Off,4 107 292.77 AZ La Paz Blythe Cunningham Mtn KR7AZ,1500 Hz
+107,448.47500,443.47500,5.00 MHz,Minus,Auto,7BS Las Vegas,Large,Tone,100.0 Hz,023,High,Off,Auto,Off,32 356 11.08 NV Clark Las Vegas NO7BS,1500 Hz
+108,147.27000,147.87000,600 kHz,Plus,Auto,7DB Las Vegas Sunrise Hospital,Large,Tone,100.0 Hz,023,High,Off,Auto,Off,32 40 14.14 NV Clark Las Vegas Sunrise Hospital KC7DB,1500 Hz
+109,448.75000,443.75000,5.00 MHz,Minus,Auto,7DB Page (az) Navajo Mountain,Large,Tone,100.0 Hz,023,High,Off,Auto,Off,49 169 397.65 UT San Juan Page (az) Navajo Mountain NA7DB,1500 Hz
+110,147.12000,147.72000,600 kHz,Plus,Auto,7DP Pahrump,Large,Tone,94.8 Hz,023,High,Off,Auto,Off,32 28 74.27 NV Nye Pahrump AD7DP,1500 Hz
+111,147.22000,147.82000,600 kHz,Plus,Auto,7EI Cottonwood Mingus Mountain,Large,Tone,162.2 Hz,023,High,Off,Auto,Off,4 121 318.04 AZ Yavapai Cottonwood Mingus Mountain W7EI,1500 Hz
+112,449.42500,444.42500,5.00 MHz,Minus,Auto,7EI Cottonwood Mingus Mountain,Large,Tone,141.3 Hz,023,High,Off,Auto,Off,4 384 318.04 AZ Yavapai Cottonwood Mingus Mountain W7EI,1500 Hz
+113,147.30000,147.90000,600 kHz,Plus,Auto,7EO Tooele South Mountain,Large,Tone,100.0 Hz,023,High,Off,Auto,Off,49 197 539.97 UT Tooele Tooele South Mountain W7EO,1500 Hz
+114,449.35000,444.35000,5.00 MHz,Minus,Auto,7EO Tooele South Mountain,Large,Tone,100.0 Hz,023,High,Off,Auto,Off,49 198 539.97 UT Tooele Tooele South Mountain W7EO,1500 Hz
+115,145.39000,144.79000,600 kHz,Minus,Auto,7EO Vernon Black Crook Peak,Large,Tone,100.0 Hz,023,High,Off,Auto,Off,49 196 488.10 UT Tooele Vernon Black Crook Peak W7EO,1500 Hz
+116,449.95000,444.95000,5.00 MHz,Minus,Auto,7EO Vernon Vernon Hills,Large,Tone,100.0 Hz,023,High,Off,Auto,Off,49 199 508.92 UT Tooele Vernon Vernon Hills W7EO,1500 Hz
+117,147.20000,147.80000,600 kHz,Plus,Auto,7EO Wendover Wendover Peak,Large,Tone,100.0 Hz,023,High,Off,Auto,Off,49 194 525.52 UT Tooele Wendover Wendover Peak W7EO,1500 Hz
+118,447.07500,442.07500,5.00 MHz,Minus,Auto,7FQ Salem,Large,Tone,131.8 Hz,023,High,Off,Auto,Off,49 136 534.26 UT Utah Salem N7FQ,1500 Hz
+119,147.20000,147.80000,600 kHz,Plus,Auto,7GX Price Wood Hill,Large,Tone,88.5 Hz,023,High,Off,Auto,Off,49 10058 524.53 UT Carbon Price Wood Hill K7GX,1500 Hz
+120,146.76000,146.16000,600 kHz,Minus,Auto,7JH Cedar City Iron Mountain,Large,Tone,123.0 Hz,023,High,Off,Auto,Off,49 26 233.54 UT Iron Cedar City Iron Mountain K7JH,1500 Hz
+121,448.80000,443.80000,5.00 MHz,Minus,Auto,7JH Cedar City Iron Mountain,Large,Tone,100.0 Hz,023,High,Off,Auto,Off,49 10062 233.54 UT Iron Cedar City Iron Mountain K7JH,1500 Hz
+122,145.27000,144.67000,600 kHz,Minus,Auto,7JL Levan Levan Peak,Large,Tone,103.5 Hz,023,High,Off,Auto,Off,49 32 476.71 UT Juab Levan Levan Peak K7JL,1500 Hz
+123,448.30000,443.30000,5.00 MHz,Minus,Auto,7KD Las Vegas QTH,Large,Tone,118.8 Hz,023,High,Off,Auto,Off,32 334 10.27 NV Clark Las Vegas QTH KE7KD,1500 Hz
+124,146.98000,146.38000,600 kHz,Minus,Auto,7KM Cedar City Iron Mountain,Large,Tone,100.0 Hz,023,High,Off,Auto,Off,49 146 233.62 UT Iron Cedar City Iron Mountain N7KM,1500 Hz
+125,145.42000,144.82000,600 kHz,Minus,Auto,7OD Hemet Hemet Valley Med Ctr,Large,Tone,88.5 Hz,023,High,Off,Auto,Off,6 371 309.13 CA Riverside Hemet Hemet Valley Med Ctr N7OD,1500 Hz
+126,147.09000,147.69000,600 kHz,Plus,Auto,7OK Henderson Black Mountain,Large,Tone,100.0 Hz,023,High,Off,Auto,Off,32 37 19.09 NV Clark Henderson Black Mountain N7OK,1500 Hz
+127,447.47500,442.47500,5.00 MHz,Minus,Auto,7OK Las Vegas Angel Peak,Large,Tone,110.9 Hz,023,High,Off,Auto,Off,32 113 42.58 NV Clark Las Vegas Angel Peak N7OK,1500 Hz
+128,147.26000,147.86000,600 kHz,Plus,Auto,7SG St George,Large,None,100.0 Hz,023,High,Off,Auto,Off,49 61 178.72 UT Washington St George K7SG,1500 Hz
+129,146.76000,146.16000,600 kHz,Minus,Auto,7SP Provo Lake Mountain,Large,None,100.0 Hz,023,High,Off,Auto,Off,49 213 542.81 UT Utah Provo Lake Mountain W7SP,1500 Hz
+130,147.99000,147.39000,600 kHz,Minus,Auto,7SQ El Mirage,Large,None,100.0 Hz,023,High,Off,Auto,Off,6 13342 279.23 CA San Bernardino El Mirage AA7SQ,1500 Hz
+131,147.39000,147.99000,600 kHz,Plus,Auto,7SQ Victorville,Large,Tone,100.0 Hz,023,High,Off,Auto,Off,6 12695 271.32 CA San Bernardino Victorville AA7SQ,1500 Hz
+132,449.37500,444.37500,5.00 MHz,Minus,Auto,7TA Logan Sedgwick Peak,Large,None,100.0 Hz,023,High,Off,Auto,Off,49 18470 505.68 UT Cache Logan Sedgwick Peak AE7TA,1500 Hz
+133,443.27500,448.27500,5.00 MHz,Plus,Auto,7TR Walker,Large,None,100.0 Hz,023,High,Off,Auto,Off,32 275 519.88 NV Elko Walker N7TR,1500 Hz
+134,448.50000,443.50000,5.00 MHz,Minus,Auto,7WS Hurricane Kolob Peak,Large,None,100.0 Hz,023,High,Off,Auto,Off,49 72 237.22 UT Washington Hurricane Kolob Peak K7WS,1500 Hz
+135,448.27500,443.27500,5.00 MHz,Minus,Auto,7YE Manti Barton Peak,Large,Tone,107.2 Hz,023,High,Off,Auto,Off,49 107 465.50 UT Sanpete Manti Barton Peak KD7YE,1500 Hz
+136,447.62500,442.62500,5.00 MHz,Minus,Auto,7YI Castle Dale Horn Mountain,Large,Tone,100.0 Hz,023,High,Off,Auto,Off,49 73 494.19 UT Emery Castle Dale Horn Mountain K7YI,1500 Hz
+137,449.72500,444.72500,5.00 MHz,Minus,Auto,7YK Enterprise Black Hills,Large,None,100.0 Hz,023,High,Off,Auto,Off,49 108 199.75 UT Washington Enterprise Black Hills KD7YK,1500 Hz
+138,147.39000,147.99000,600 kHz,Plus,Auto,9VX Elko,Large,None,100.0 Hz,023,High,Off,Auto,Off,32 57 528.00 NV Elko Elko K9VX,1500 Hz
+139,146.94000,146.34000,600 kHz,Minus,Auto,AAA Milford Frisco Peak,Large,Tone,100.0 Hz,023,High,Off,Auto,Off,49 267 315.20 UT Beaver Milford Frisco Peak WR7AAA,1500 Hz
+140,445.92000,440.92000,5.00 MHz,Minus,Auto,AFA Claremont Sunset Ridge,Large,Tone,186.2 Hz,023,High,Off,Auto,Off,6 976 314.45 CA Los Angeles Claremont Sunset Ridge KD6AFA,1500 Hz
+141,147.06000,147.66000,600 kHz,Plus,Auto,AKK Cedar City Hospital,Large,None,100.0 Hz,023,High,Off,Auto,Off,49 133 258.66 UT Iron Cedar City Hospital N7AKK,1500 Hz
+142,445.70000,440.70000,5.00 MHz,Minus,Auto,AMS Running Springs,Large,T Sql,151.4 Hz,023,High,Off,Auto,Off,6 5587 275.55 CA San Bernardino Running Springs K6AMS,1500 Hz
+143,449.85000,444.85000,5.00 MHz,Minus,Auto,AMT Pahrump,Large,T Sql,156.7 Hz,023,High,Off,Auto,Off,32 17518 73.56 NV Nye Pahrump WB6AMT,1500 Hz
+144,448.07500,443.07500,5.00 MHz,Minus,Auto,ANF Las Vegas Fitzgeralds Hotel,Large,Tone,127.3 Hz,023,High,Off,Auto,Off,32 161 6.73 NV Clark Las Vegas Fitzgeralds Hotel WN9ANF,1500 Hz
+145,449.72500,444.72500,5.00 MHz,Minus,Auto,AOR Las Vegas Sunrise Mountain,Large,Tone,97.4 Hz,023,High,Off,Auto,Off,32 344 21.49 NV Clark Las Vegas Sunrise Mountain W7AOR,1500 Hz
+146,449.75000,444.75000,5.00 MHz,Minus,Auto,AOR St George Utah Hill,Large,Tone,123.0 Hz,023,High,Off,Auto,Off,49 180 163.19 UT Washington St George Utah Hill W7AOR,1500 Hz
+147,443.77500,448.77500,5.00 MHz,Plus,Auto,ARA Aguila Smith Peak,Large,Tone,100.0 Hz,023,High,Off,Auto,Off,4 252 281.59 AZ La Paz Aguila Smith Peak W7ARA,1500 Hz
+148,146.82000,146.22000,600 kHz,Minus,Auto,ARA Cottonwood Mingus Mountain,Large,Tone,162.2 Hz,023,High,Off,Auto,Off,4 12998 318.04 AZ Yavapai Cottonwood Mingus Mountain W7ARA,1500 Hz
+149,448.50000,443.50000,5.00 MHz,Minus,Auto,ARA Cottonwood Mingus Mountain,Large,Tone,100.0 Hz,023,High,Off,Auto,Off,4 12933 318.04 AZ Yavapai Cottonwood Mingus Mountain W7ARA,1500 Hz
+150,449.75000,444.75000,5.00 MHz,Minus,Auto,ARR Henderson Black Mountain,Large,Tone,123.0 Hz,023,High,Off,Auto,Off,32 124 19.09 NV Clark Henderson Black Mountain N7ARR,1500 Hz
+151,145.37000,144.77000,600 kHz,Minus,Auto,ARR Las Vegas Angel Peak,Large,Tone,123.0 Hz,023,High,Off,Auto,Off,32 200 42.58 NV Clark Las Vegas Angel Peak N7ARR,1500 Hz
+152,447.00000,442.00000,5.00 MHz,Minus,Auto,ARR Las Vegas Blue Diamond Mount,Large,Tone,123.0 Hz,023,High,Off,Auto,Off,32 157 19.44 NV Clark Las Vegas Blue Diamond Mountain N7ARR,1500 Hz
+153,147.00000,146.40000,600 kHz,Minus,Auto,ARR Las Vegas QTH,Large,Tone,123.0 Hz,023,High,Off,Auto,Off,32 311 15.04 NV Clark Las Vegas QTH N7ARR,1500 Hz
+154,446.70000,441.70000,5.00 MHz,Minus,Auto,ARR Las Vegas strip,Large,Tone,118.8 Hz,023,High,Off,Auto,Off,32 331 7.48 NV Clark Las Vegas strip N7ARR,1500 Hz
+155,449.75000,444.75000,5.00 MHz,Minus,Auto,ARR Pahrump,Large,Tone,123.0 Hz,023,High,Off,Auto,Off,32 3544 74.69 NV Nye Pahrump N7ARR,1500 Hz
+156,146.64000,146.04000,600 kHz,Minus,Auto,ARR Tonopah,Large,Tone,123.0 Hz,023,High,Off,Auto,Off,32 351 283.53 NV Nye Tonopah N7ARR,1500 Hz
+157,146.68000,146.08000,600 kHz,Minus,Auto,ARZ Holbrook,Large,None,100.0 Hz,023,High,Off,Auto,Off,4 52 473.45 AZ Navajo Holbrook KA7ARZ,1500 Hz
+158,145.28000,144.68000,600 kHz,Minus,Auto,AZN Wrightwood Table Mountain,Large,Tone,131.8 Hz,023,High,Off,Auto,Off,6 262 293.98 CA Los Angeles Wrightwood Table Mountain WR6AZN,1500 Hz
+159,447.20000,442.20000,5.00 MHz,Minus,Auto,AZN Wrightwood Table Mountain,Large,Tone,94.8 Hz,023,High,Off,Auto,Off,6 1036 293.98 CA Los Angeles Wrightwood Table Mountain WR6AZN,1500 Hz
+160,447.00000,442.00000,5.00 MHz,Minus,Auto,AZQ Quartzsite West Park,Large,T Sql,123.0 Hz,023,High,Off,Auto,Off,4 15373 285.10 AZ La Paz Quartzsite West Park W7AZQ,1500 Hz
+161,447.70000,442.70000,5.00 MHz,Minus,Auto,AZY Lone Pine Alabama Hills,Large,Tone,100.0 Hz,023,High,Off,Auto,Off,6 17992 266.09 CA Inyo Lone Pine Alabama Hills N6AZY,1500 Hz
+162,145.19000,144.59000,600 kHz,Minus,Auto,BCP Las Vegas Tropicana,Large,None,100.0 Hz,023,High,Off,Auto,Off,32 33 1.64 NV Clark Las Vegas Tropicana KA7BCP,1500 Hz
+163,147.03000,147.63000,600 kHz,Plus,Auto,BNG Barstow,Large,None,100.0 Hz,023,High,Off,Auto,Off,6 439 215.17 CA San Bernardino Barstow WD6BNG,1500 Hz
+164,446.55000,441.55000,5.00 MHz,Minus,Auto,BNW Paulden Paulden,Large,Tone,100.0 Hz,023,High,Off,Auto,Off,4 17372 283.40 AZ Yavapai Paulden Paulden W7BNW,1500 Hz
+165,146.72000,146.12000,600 kHz,Minus,Auto,BSK Glendale Spencer Bench,Large,Tone,100.0 Hz,023,High,Off,Auto,Off,49 206 273.48 UT Kane Glendale Spencer Bench K7BSK,1500 Hz
+166,146.72000,146.12000,600 kHz,Minus,Auto,BSK Manti Barton Peak,Large,Tone,100.0 Hz,023,High,Off,Auto,Off,49 255 465.50 UT Sanpete Manti Barton Peak K7BSK,1500 Hz
+167,449.35000,444.35000,5.00 MHz,Minus,Auto,BTS Carlin Swales Mountain,Large,Tone,186.2 Hz,023,High,Off,Auto,Off,32 180 541.59 NV Elko Carlin Swales Mountain WB7BTS,1500 Hz
+168,146.94000,146.34000,600 kHz,Minus,Auto,BTS Elko,Large,Tone,100.0 Hz,023,High,Off,Auto,Off,32 55 528.00 NV Elko Elko WB7BTS,1500 Hz
+169,146.77500,146.17500,600 kHz,Minus,Auto,BYH Bakersfield,Large,Tone,141.3 Hz,023,High,Off,Auto,Off,6 546 316.69 CA Kern Bakersfield N6BYH,1500 Hz
+170,445.68000,440.68000,5.00 MHz,Minus,Auto,BZZ Apple Valley,Large,Tone,141.3 Hz,023,High,Off,Auto,Off,6 12821 256.06 CA San Bernardino Apple Valley KB6BZZ,1500 Hz
+171,447.68000,442.68000,5.00 MHz,Minus,Auto,Baker Turquoise Mountain,Large,None,100.0 Hz,023,High,Off,Auto,Off,6 6020 101.41 CA San Bernardino Baker Turquoise Mountain,1500 Hz
+172,448.90000,443.90000,5.00 MHz,Minus,Auto,Battle Mountain,Large,Tone,100.0 Hz,023,High,Off,Auto,Off,32 62 526.21 NV Lander Battle Mountain,1500 Hz
+173,145.43000,144.83000,600 kHz,Minus,Auto,Beatty,Large,None,100.0 Hz,023,High,Off,Auto,Off,32 15731 175.51 NV Nye Beatty,1500 Hz
+174,444.57500,449.57500,5.00 MHz,Plus,Auto,CAM Rosamond Taco Bell,Large,T Sql,173.8 Hz,023,High,Off,Auto,Off,6 14726 304.33 CA Kern Rosamond Taco Bell WA6CAM,1500 Hz
+175,145.19000,144.59000,600 kHz,Minus,Auto,CAT Quartzsite Rice Ranch,Large,Tone,103.5 Hz,023,High,Off,Auto,Off,4 17524 286.58 AZ La Paz Quartzsite Rice Ranch KC0CAT,1500 Hz
+176,449.60000,444.60000,5.00 MHz,Minus,Auto,CCH Las Vegas,Large,T Sql,107.2 Hz,023,High,Off,Auto,Off,32 11354 10.85 NV Clark Las Vegas KE7CCH,1500 Hz
+177,147.91500,147.31500,600 kHz,Minus,Auto,CDF Banning Mt Edna,Large,Tone,123.0 Hz,023,High,Off,Auto,Off,6 363 293.27 CA Riverside Banning Mt Edna W6CDF,1500 Hz
+178,147.09000,147.69000,600 kHz,Plus,Auto,CDF Blythe Black Rock,Large,Tone,123.0 Hz,023,High,Off,Auto,Off,6 365 281.01 CA Riverside Blythe Black Rock W6CDF,1500 Hz
+179,445.02000,440.02000,5.00 MHz,Minus,Auto,CDF Cactus City,Large,Tone,186.2 Hz,023,High,Off,Auto,Off,6 17927 280.35 CA Riverside Cactus City W6CDF,1500 Hz
+180,445.02000,440.02000,5.00 MHz,Minus,Auto,CDF Cedarpines Park Jobs Peak,Large,Tone,107.2 Hz,023,High,Off,Auto,Off,6 17809 284.78 CA San Bernardino Cedarpines Park Jobs Peak W6CDF,1500 Hz
+181,447.58000,442.58000,5.00 MHz,Minus,Auto,CDF Landers Goat Mountain,Large,Tone,173.8 Hz,023,High,Off,Auto,Off,6 1004 235.44 CA San Bernardino Landers Goat Mountain WB6CDF,1500 Hz
+182,447.00000,442.00000,5.00 MHz,Minus,Auto,CDF Yucca Valley Paxton Hill,Large,T DCS,100.0 Hz,565,High,Off,Auto,Off,6 969 247.28 CA San Bernardino Yucca Valley Paxton Hill WB6CDF,1500 Hz
+183,147.70500,147.10500,600 kHz,Minus,Auto,CDF Yucca Valley Yucca Mesa Area,Large,Tone,123.0 Hz,023,High,Off,Auto,Off,6 11844 240.70 CA San Bernardino Yucca Valley Yucca Mesa Area WB6CDF,1500 Hz
+184,144.50500,145.10500,600 kHz,Plus,Auto,COH Hemet Simpson Park,Large,Tone,100.0 Hz,023,High,Off,Auto,Off,6 707 311.38 CA Riverside Hemet Simpson Park W6COH,1500 Hz
+185,445.16000,440.16000,5.00 MHz,Minus,Auto,CTR Banning Snow Peak,Large,Tone,67.0 Hz,023,High,Off,Auto,Off,6 5550 275.01 CA San Bernardino Banning Snow Peak W6CTR,1500 Hz
+186,146.91000,146.31000,600 kHz,Minus,Auto,CTR Crestline Jobs Peak,Large,Tone,151.4 Hz,023,High,Off,Auto,Off,6 461 286.06 CA San Bernardino Crestline Jobs Peak W6CTR,1500 Hz
 187,445.16000,440.16000,5.00 MHz,Minus,Auto,CTR Sylmar Contractor's Point,Large,Tone,100.0 Hz,023,High,Off,Auto,Off,6 18065 226.63 CA Los Angeles Sylmar Contractor's Point W6CTR,1500 Hz
-188,449.92500,444.92500,5.00 MHz,Minus,Auto,CWI Page (AZ) Navajo Mountain,Large,Tone,100.0 Hz,023,High,Off,Auto,Off,49 183 397.65 UT San Juan Page (AZ) Navajo Mountain W7CWI,1500 Hz
-189,449.67500,444.67500,5.00 MHz,Minus,Auto,CYC Las Vegas Sunrise Mountain,Large,Tone,192.8 Hz,023,High,Off,Auto,Off,32 166 21.49 NV Clark Las Vegas Sunrise Mountain WA7CYC,1500 Hz
-190,146.67000,146.07000,600 kHz,Minus,Auto,CYC North Las Vegas,Large,Tone,136.5 Hz,023,High,Off,Auto,Off,32 35 12.87 NV Clark North Las Vegas WA7CYC,1500 Hz
-191,147.36000,147.96000,600 kHz,Plus,Auto,D7M Pahrump,Large,None,100.0 Hz,023,High,Off,Auto,Off,32 16275 73.56 NV Nye Pahrump ND7M,1500 Hz
-192,449.25000,444.25000,5.00 MHz,Minus,Auto,D7N Eagle Mountain,Large,Tone,110.9 Hz,023,High,Off,Auto,Off,49 10179 542.63 UT Utah Eagle Mountain WD7N,1500 Hz
-193,146.73000,146.13000,600 kHz,Minus,Auto,D8S Henderson Black Mountain,Large,Tone,131.8 Hz,023,High,Off,Auto,Off,32 15 19.09 NV Clark Henderson Black Mountain KD8S,1500 Hz
-194,448.00000,443.00000,5.00 MHz,Minus,Auto,D8S Henderson Black Mountain,Large,None,100.0 Hz,023,High,Off,Auto,Off,32 122 19.09 NV Clark Henderson Black Mountain KD8S,1500 Hz
-195,448.67500,443.67500,5.00 MHz,Minus,Auto,DBM Las Vegas QTH,Large,Tone,77.0 Hz,023,High,Off,Auto,Off,32 164 10.99 NV Clark Las Vegas QTH N8DBM,1500 Hz
-196,449.55000,444.55000,5.00 MHz,Minus,Auto,DEM North Las Vegas Angel pk.,Large,None,100.0 Hz,023,High,Off,Auto,Off,32 18818 42.59 NV Clark North Las Vegas Angel pk. W7DEM,1500 Hz
-197,446.52500,441.52500,5.00 MHz,Minus,Auto,DGL Desert Springs,Large,Tone,177.3 Hz,023,High,Off,Auto,Off,4 18499 146.52 AZ Mohave Desert Springs N7DGL,1500 Hz
-198,146.66000,146.06000,600 kHz,Minus,Auto,DHH Ephraim Horseshoe,Large,Tone,100.0 Hz,023,High,Off,Auto,Off,49 190 485.20 UT Sanpete Ephraim Horseshoe W7DHH,1500 Hz
-199,447.45000,442.45000,5.00 MHz,Minus,Auto,DHH Salina Monroe Peak,Large,Tone,114.8 Hz,023,High,Off,Auto,Off,49 189 384.18 UT Sevier Salina Monroe Peak W7DHH,1500 Hz
-200,146.11500,146.71500,600 kHz,Plus,Auto,DMZ Riverside,Large,T Sql,88.5 Hz,023,High,Off,Auto,Off,6 19947 313.85 CA Riverside Riverside KB6DMZ,1500 Hz
-201,447.32000,442.32000,5.00 MHz,Minus,Auto,DRA Palm Desert,Large,Tone,107.2 Hz,023,High,Off,Auto,Off,6 12824 287.68 CA Riverside Palm Desert W6DRA,1500 Hz
-202,449.70000,444.70000,5.00 MHz,Minus,Auto,DRA Palm Springs Tram,Large,Tone,107.2 Hz,023,High,Off,Auto,Off,6 1008 288.68 CA Riverside Palm Springs Tram W6DRA,1500 Hz
-203,145.48000,144.88000,600 kHz,Minus,Auto,DRA Palm Springs Tram 1,Large,Tone,107.2 Hz,023,High,Off,Auto,Off,6 378 288.68 CA Riverside Palm Springs Tram 1 W6DRA,1500 Hz
-204,145.20000,144.60000,600 kHz,Minus,Auto,DRA Palm Springs Tram 2,Large,Tone,131.8 Hz,023,High,Off,Auto,Off,6 377 288.68 CA Riverside Palm Springs Tram 2 W6DRA,1500 Hz
-205,145.49000,144.89000,600 kHz,Minus,Auto,DRC St George Utah Hill,Large,Tone,100.0 Hz,023,High,Off,Auto,Off,49 191 161.36 UT Washington St George Utah Hill W7DRC,1500 Hz
-206,146.64000,146.04000,600 kHz,Minus,Auto,DRC St George Webb Hill,Large,Tone,100.0 Hz,023,High,Off,Auto,Off,49 193 178.72 UT Washington St George Webb Hill W7DRC,1500 Hz
-207,145.45000,144.85000,600 kHz,Minus,Auto,DRC Toquerville Toquerville Hill,Large,Tone,100.0 Hz,023,High,Off,Auto,Off,49 192 213.62 UT Washington Toquerville Toquerville Hill W7DRC,1500 Hz
-208,146.96000,146.36000,600 kHz,Minus,Auto,DXJ Lake Havasu City,Large,Tone,162.2 Hz,023,High,Off,Auto,Off,4 97 197.08 AZ Mohave Lake Havasu City W7DXJ,1500 Hz
-209,449.95000,444.95000,5.00 MHz,Minus,Auto,DXJ Lake Havasu City,Large,Tone,141.3 Hz,023,High,Off,Auto,Off,4 418 197.23 AZ Mohave Lake Havasu City W7DXJ,1500 Hz
-210,446.32500,441.32500,5.00 MHz,Minus,Auto,DXU Pahrump,Large,T Sql,141.3 Hz,023,High,Off,Auto,Off,32 12658 73.56 NV Nye Pahrump KF7DXU,1500 Hz
-211,145.35000,144.75000,600 kHz,Minus,Auto,DZL Bryce Canyon,Large,Tone,123.0 Hz,023,High,Off,Auto,Off,49 6495 293.14 UT Garfield Bryce Canyon W6DZL,1500 Hz
-212,448.10000,443.10000,5.00 MHz,Minus,Auto,DZP Cedar City,Large,None,100.0 Hz,023,High,Off,Auto,Off,49 132 259.10 UT Iron Cedar City N7DZP,1500 Hz
-213,146.02500,146.62500,600 kHz,Plus,Auto,ECS Hesperia,Large,T DCS,100.0 Hz,205,High,Off,Auto,Off,6 13335 269.37 CA San Bernardino Hesperia W6ECS,1500 Hz
-214,147.70500,147.10500,600 kHz,Minus,Auto,ECS Running Springs Heaps Peak,Large,T Sql,167.9 Hz,023,High,Off,Auto,Off,6 3085 275.12 CA San Bernardino Running Springs Heaps Peak K6ECS,1500 Hz
-215,147.70500,147.10500,600 kHz,Minus,Auto,ECS Victorville Table Mtn,Large,Tone,131.8 Hz,023,High,Off,Auto,Off,6 471 298.57 CA San Bernardino Victorville Table Mtn K6ECS,1500 Hz
-216,146.94000,146.34000,600 kHz,Minus,Auto,EFW Victorville,Large,Tone,91.5 Hz,023,High,Off,Auto,Off,6 469 260.18 CA San Bernardino Victorville WA6EFW,1500 Hz
-217,447.87500,442.87500,5.00 MHz,Minus,Auto,EGC Provo Lake Mountain,Large,Tone,100.0 Hz,023,High,Off,Auto,Off,49 6812 541.25 UT Utah Provo Lake Mountain KA7EGC,1500 Hz
-218,145.12500,144.52500,600 kHz,Minus,Auto,EGG Ogden Sheriff Office,Large,None,100.0 Hz,023,High,Off,Auto,Off,49 19772 505.70 UT Weber Ogden Sheriff Office KE7EGG,1500 Hz
-219,445.01250,440.01250,5.00 MHz,Minus,Auto,EGR Las Vegas The Ogden,Large,T DCS,100.0 Hz,411,High,Off,Auto,Off,32 3707 9.63 NV Clark Las Vegas The Ogden WB6EGR,1500 Hz
-220,147.18000,147.78000,600 kHz,Plus,Auto,ELY Ely Kimberly Mountain,Large,Tone,114.8 Hz,023,High,Off,Auto,Off,32 46 355.20 NV White Pine Ely Kimberly Mountain N7ELY,1500 Hz
-221,146.88000,146.28000,600 kHz,Minus,Auto,ELY Ely Squaw Peak,Large,Tone,114.8 Hz,023,High,Off,Auto,Off,32 45 351.27 NV White Pine Ely Squaw Peak N7ELY,1500 Hz
-222,442.10000,447.10000,5.00 MHz,Plus,Auto,ELY Ely Squaw Peak,Large,None,100.0 Hz,023,High,Off,Auto,Off,32 16092 349.24 NV White Pine Ely Squaw Peak N7ELY,1500 Hz
-223,448.95000,443.95000,5.00 MHz,Minus,Auto,FFM Goshen West Mountain,Large,None,100.0 Hz,023,High,Off,Auto,Off,49 220 530.26 UT Utah Goshen West Mountain WA7FFM,1500 Hz
-224,145.31000,144.71000,600 kHz,Minus,Auto,FIK Quartzsite Guadalupe Peak,Large,Tone,107.2 Hz,023,High,Off,Auto,Off,4 17 290.37 AZ La Paz Quartzsite Guadalupe Peak WB7FIK,1500 Hz
-225,145.80000,1269.65000,,Plus,Auto,FM ISS L/v VOICE Repeater (World,Large,None,100.0 Hz,023,High,Off,Auto,Off,FM ISS L/v VOICE Repeater (Worldwide),1500 Hz
-226,145.80000,437.80000,,Plus,Auto,FM ISS U/v VOICE Repeater (World,Large,None,100.0 Hz,023,High,Off,Auto,Off,FM ISS U/v VOICE Repeater (Worldwide),1500 Hz
-227,437.80000,145.99000,,Minus,Auto,FM ISS V/u with PL VOICE Repeate,Large,Tone,67.0 Hz,023,High,Off,Auto,Off,FM ISS V/u with PL VOICE Repeater (Worldwide),1500 Hz
-228,145.80000,144.49000,,Minus,Auto,FM ISS VOICE for ITU Region 2&3,Large,None,100.0 Hz,023,High,Off,Auto,Off,FM ISS VOICE for ITU Region 2&3,1500 Hz
-229,436.79500,145.85000,,Minus,Auto,FM SAT AO-27,Large,None,100.0 Hz,023,High,Off,Auto,Off,FM SAT AO-27,1500 Hz
-230,145.96000,435.25000,,Plus,Auto,FM SAT AO-91 (RadFxSat / Fox-1B),Large,Tone,67.0 Hz,023,High,Off,Auto,Off,FM SAT AO-91 (RadFxSat / Fox-1B),1500 Hz
-231,145.88000,435.35000,,Plus,Auto,FM SAT AO-92 (Fox-1D),Large,Tone,67.0 Hz,023,High,Off,Auto,Off,FM SAT AO-92 (Fox-1D),1500 Hz
-232,145.88000,1267.35900,,Plus,Auto,FM SAT AO-92 (Fox-1D),Large,Tone,67.0 Hz,023,High,Off,Auto,Off,FM SAT AO-92 (Fox-1D),1500 Hz
-233,437.20000,144.35000,,Minus,Auto,FM SAT CAS-3H (LilacSat-2),Large,None,100.0 Hz,023,High,Off,Auto,Off,FM SAT CAS-3H (LilacSat-2),1500 Hz
-234,435.60000,145.92500,,Minus,Auto,FM SAT CAS-5A,Large,None,100.0 Hz,023,High,Off,Auto,Off,FM SAT CAS-5A,1500 Hz
-235,435.45500,145.95000,,Minus,Auto,FM SAT CAS-7A,Large,None,100.0 Hz,023,High,Off,Auto,Off,FM SAT CAS-7A,1500 Hz
-236,435.69000,145.90000,,Minus,Auto,FM SAT CAS-7C,Large,None,100.0 Hz,023,High,Off,Auto,Off,FM SAT CAS-7C,1500 Hz
-237,436.40000,145.97000,,Minus,Auto,FM SAT Duchifat3,Large,None,100.0 Hz,023,High,Off,Auto,Off,FM SAT Duchifat3,1500 Hz
-238,145.89500,1263.50000,,Plus,Auto,FM SAT FUNcube on ESEO,Large,None,100.0 Hz,023,High,Off,Auto,Off,FM SAT FUNcube on ESEO,1500 Hz
-239,435.88000,145.88000,,Minus,Auto,FM SAT IO-86 (LAPAN-A2),Large,Tone,88.5 Hz,023,High,Off,Auto,Off,FM SAT IO-86 (LAPAN-A2),1500 Hz
-240,145.90000,437.50000,,Plus,Auto,FM SAT PO-101 (Diwata-2),Large,Tone,141.3 Hz,023,High,Off,Auto,Off,FM SAT PO-101 (Diwata-2),1500 Hz
-241,436.79500,145.85000,,Minus,Auto,FM SAT SO-50 (SaudiSat-1C),Large,Tone,67.0 Hz,023,High,Off,Auto,Off,FM SAT SO-50 (SaudiSat-1C),1500 Hz
-242,145.85000,436.00000,,Plus,Auto,FM SAT Swiatowid,Large,None,100.0 Hz,023,High,Off,Auto,Off,FM SAT Swiatowid,1500 Hz
-243,436.40000,145.97000,,Minus,Auto,FM SAT Tevel Mission,Large,None,100.0 Hz,023,High,Off,Auto,Off,FM SAT Tevel Mission,1500 Hz
-244,146.82000,146.22000,600 kHz,Minus,Auto,FNO Onyx Onyx Peak,Large,None,100.0 Hz,023,High,Off,Auto,Off,6 458 255.35 CA San Bernardino Onyx Onyx Peak W6FNO,1500 Hz
-245,449.55000,444.55000,5.00 MHz,Minus,Auto,FOT Hurricane Little Creek Mesa,Large,T Sql,100.0 Hz,023,High,Off,Auto,Off,49 18128 208.14 UT Washington Hurricane Little Creek Mesa KG7FOT,1500 Hz
-246,441.77500,446.77500,5.00 MHz,Plus,Auto,FUN Clarkdale,Large,Tone,156.7 Hz,023,High,Off,Auto,Off,4 224 319.33 AZ Yavapai Clarkdale K9FUN,1500 Hz
-247,145.17000,144.57000,600 kHz,Minus,Auto,GAA Bullhead City,Large,T Sql,131.8 Hz,023,High,Off,Auto,Off,4 154 120.65 AZ Mohave Bullhead City W7GAA,1500 Hz
-248,147.03000,147.63000,600 kHz,Plus,Auto,GBJ Desert Center,Large,Tone,107.2 Hz,023,High,Off,Auto,Off,6 370 267.92 CA Riverside Desert Center KA6GBJ,1500 Hz
-249,447.20000,442.20000,5.00 MHz,Minus,Auto,GBJ Thousand Palms,Large,Tone,107.2 Hz,023,High,Off,Auto,Off,6 1009 277.69 CA Riverside Thousand Palms KA6GBJ,1500 Hz
-250,449.50000,444.50000,5.00 MHz,Minus,Auto,GDF Juniper Hills,Large,Tone,192.8 Hz,023,High,Off,Auto,Off,6 1011 311.94 CA Los Angeles Juniper Hills WA6GDF,1500 Hz
-251,147.12000,147.72000,600 kHz,Plus,Auto,GDF Seligman SV Ranch,Large,Tone,192.8 Hz,023,High,Off,Auto,Off,4 13719 225.06 AZ Yavapai Seligman SV Ranch WA6GDF,1500 Hz
-252,147.10000,147.70000,600 kHz,Plus,Auto,GGN Holden Beesting Peak,Large,Tone,100.0 Hz,023,High,Off,Auto,Off,49 137 420.98 UT Sevier Holden Beesting Peak N7GGN,1500 Hz
-253,449.47500,444.47500,5.00 MHz,Minus,Auto,GIE Provo Lake Mountain,Large,Tone,100.0 Hz,023,High,Off,Auto,Off,49 231 541.25 UT Utah Provo Lake Mountain WA7GIE,1500 Hz
-254,449.55000,444.55000,5.00 MHz,Minus,Auto,GIE Wendover Wendover Peak,Large,Tone,123.0 Hz,023,High,Off,Auto,Off,49 223 525.52 UT Tooele Wendover Wendover Peak WA7GIE,1500 Hz
-255,146.11500,146.71500,600 kHz,Plus,Auto,GIL Victorville Fairgrounds,Large,Tone,91.5 Hz,023,High,Off,Auto,Off,6 468 262.89 CA San Bernardino Victorville Fairgrounds K7GIL,1500 Hz
-256,147.12000,147.72000,600 kHz,Plus,Auto,GIL Victorville Quartzite Mtn.,Large,Tone,91.5 Hz,023,High,Off,Auto,Off,6 470 254.54 CA San Bernardino Victorville Quartzite Mtn. K7GIL,1500 Hz
-257,447.32000,442.32000,5.00 MHz,Minus,Auto,GRF Fontana,Large,Tone,136.5 Hz,023,High,Off,Auto,Off,6 1015 307.76 CA San Bernardino Fontana KA6GRF,1500 Hz
-258,447.57500,452.57500,5.00 MHz,Plus,Auto,GTU Cedar City,Large,None,100.0 Hz,023,High,Off,Auto,Off,49 277 233.54 UT Iron Cedar City WA7GTU,1500 Hz
-259,448.40000,443.40000,5.00 MHz,Minus,Auto,GTU Cedar City,Large,Tone,100.0 Hz,023,High,Off,Auto,Off,49 126 259.02 UT Iron Cedar City WA7GTU,1500 Hz
-260,449.90000,444.90000,5.00 MHz,Minus,Auto,GTU Cedar City,Large,Tone,100.0 Hz,023,High,Off,Auto,Off,49 237 259.02 UT Iron Cedar City WA7GTU,1500 Hz
-261,449.50000,444.50000,5.00 MHz,Minus,Auto,GTU Cedar City Iron Mountain,Large,Tone,100.0 Hz,023,High,Off,Auto,Off,49 236 233.54 UT Iron Cedar City Iron Mountain WA7GTU,1500 Hz
-262,146.61000,146.01000,600 kHz,Minus,Auto,GVA Henderson,Large,None,100.0 Hz,023,High,Off,Auto,Off,32 206 19.59 NV Clark Henderson W7GVA,1500 Hz
-263,447.92500,442.92500,5.00 MHz,Minus,Auto,HEN Henderson Seven Hills,Large,T Sql,156.7 Hz,023,High,Off,Auto,Off,32 15223 16.67 NV Clark Henderson Seven Hills W7HEN,1500 Hz
-264,446.47500,441.47500,5.00 MHz,Minus,Auto,HEN Las Vegas,Large,Tone,156.7 Hz,023,High,Off,Auto,Off,32 18220 19.44 NV Clark Las Vegas W7HEN,1500 Hz
-265,449.92500,444.92500,5.00 MHz,Minus,Auto,HEN North Las Vegas Apex Mountai,Large,Tone,131.8 Hz,023,High,Off,Auto,Off,32 16757 30.13 NV Clark North Las Vegas Apex Mountain W7HEN,1500 Hz
-266,442.92500,447.92500,5.00 MHz,Plus,Auto,HHU Tehachapi,Large,Tone,141.3 Hz,023,High,Off,Auto,Off,6 9525 315.61 CA Kern Tehachapi KI6HHU,1500 Hz
-267,447.92000,442.92000,5.00 MHz,Minus,Auto,HHU Tehachapi Double Mtn.,Large,T Sql,141.3 Hz,023,High,Off,Auto,Off,6 12742 315.61 CA Kern Tehachapi Double Mtn. KI6HHU,1500 Hz
-268,449.90000,444.90000,5.00 MHz,Minus,Auto,HLL Mexican Hat,Large,Tone,123.0 Hz,023,High,Off,Auto,Off,49 100 482.38 UT San Juan Mexican Hat KD7HLL,1500 Hz
-269,446.25000,441.25000,5.00 MHz,Minus,Auto,HRC Herriman Herriman High Schoo,Large,None,100.0 Hz,023,High,Off,Auto,Off,49 19781 505.70 UT Salt Lake Herriman Herriman High School N7HRC,1500 Hz
-270,146.64000,146.04000,600 kHz,Minus,Auto,HSW Monroe Monroe Peak,Large,Tone,100.0 Hz,023,High,Off,Auto,Off,49 239 384.22 UT Sevier Monroe Monroe Peak WA7HSW,1500 Hz
-271,446.20000,441.20000,5.00 MHz,Minus,Auto,HTL Las Vegas Blue Diamond Hill,Large,Tone,77.0 Hz,023,High,Off,Auto,Off,32 145 19.92 NV Clark Las Vegas Blue Diamond Hill W7HTL,1500 Hz
-272,446.22500,441.22500,5.00 MHz,Minus,Auto,HTL Las Vegas Blue Diamond Hill,Large,Tone,85.4 Hz,023,High,Off,Auto,Off,32 8278 19.92 NV Clark Las Vegas Blue Diamond Hill W7HTL,1500 Hz
-273,447.97500,442.97500,5.00 MHz,Minus,Auto,HTL Las Vegas Blue Diamond Hill,Large,T Sql,82.5 Hz,023,High,Off,Auto,Off,32 9514 19.92 NV Clark Las Vegas Blue Diamond Hill W7HTL,1500 Hz
-274,145.21000,144.61000,600 kHz,Minus,Auto,HVE Kingman,Large,Tone,123.0 Hz,023,High,Off,Auto,Off,4 12306 131.09 AZ Mohave Kingman KD7HVE,1500 Hz
-275,147.12000,147.72000,600 kHz,Plus,Auto,HVE Kingman,Large,Tone,123.0 Hz,023,High,Off,Auto,Off,4 5607 131.09 AZ Mohave Kingman KD7HVE,1500 Hz
-276,449.95000,444.95000,5.00 MHz,Minus,Auto,HVE Kingman,Large,None,100.0 Hz,023,High,Off,Auto,Off,4 14677 144.30 AZ Mohave Kingman KD7HVE,1500 Hz
-277,146.88000,146.28000,600 kHz,Minus,Auto,HXO Las Vegas Hi Potosi Mountain,Large,Tone,100.0 Hz,023,High,Off,Auto,Off,32 24 33.99 NV Clark Las Vegas Hi Potosi Mountain WA7HXO,1500 Hz
-278,147.94500,147.34500,600 kHz,Minus,Auto,HXO Las Vegas Red Mountain,Large,Tone,100.0 Hz,023,High,Off,Auto,Off,32 31 30.75 NV Clark Las Vegas Red Mountain WA7HXO,1500 Hz
-279,145.22000,144.62000,600 kHz,Minus,Auto,HXO Lincoln Highland Peak,Large,Tone,100.0 Hz,023,High,Off,Auto,Off,32 25 204.74 NV Lincoln Lincoln Highland Peak WA7HXO,1500 Hz
-280,146.67000,146.07000,600 kHz,Minus,Auto,HYQ Moreno Valley Civic Center,Large,Tone,123.0 Hz,023,High,Off,Auto,Off,6 380 309.86 CA Riverside Moreno Valley Civic Center WA6HYQ,1500 Hz
-281,448.85000,443.85000,5.00 MHz,Minus,Auto,HYV Pahrump,Large,Tone,127.3 Hz,023,High,Off,Auto,Off,32 143 81.31 NV Nye Pahrump N7HYV,1500 Hz
-282,440.32500,445.32500,5.00 MHz,Plus,Auto,I6V Elko,Large,None,100.0 Hz,023,High,Off,Auto,Off,32 320 527.53 NV Elko Elko KI6V,1500 Hz
-283,443.37500,448.37500,5.00 MHz,Plus,Auto,I6V Elko SnoBowl,Large,Tone,100.0 Hz,023,High,Off,Auto,Off,32 183 536.13 NV Elko Elko SnoBowl KI6V,1500 Hz
-284,449.32500,444.32500,5.00 MHz,Minus,Auto,I7D Bullhead City Spirit Mountai,Large,None,100.0 Hz,023,High,Off,Auto,Off,32 127 101.82 NV Clark Bullhead City Spirit Mountain KI7D,1500 Hz
-285,449.20000,444.20000,5.00 MHz,Minus,Auto,I7D Las Vegas Angel Peak,Large,Tone,114.8 Hz,023,High,Off,Auto,Off,32 116 42.58 NV Clark Las Vegas Angel Peak KI7D,1500 Hz
-286,449.85000,444.85000,5.00 MHz,Minus,Auto,I7D Las Vegas Angel Peak,Large,None,100.0 Hz,023,High,Off,Auto,Off,32 119 42.58 NV Clark Las Vegas Angel Peak KI7D,1500 Hz
-287,445.64000,440.64000,5.00 MHz,Minus,Auto,IFR Palm Springs Indio Hills,Large,Tone,131.8 Hz,023,High,Off,Auto,Off,6 1006 273.77 CA Riverside Palm Springs Indio Hills K6IFR,1500 Hz
-288,448.70000,443.70000,5.00 MHz,Minus,Auto,IMF Lehi Lake Mountain,Large,Tone,114.8 Hz,023,High,Off,Auto,Off,49 142 542.52 UT Salt Lake Lehi Lake Mountain N7IMF,1500 Hz
-289,447.75000,442.75000,5.00 MHz,Minus,Auto,IMS Las Vegas Lo Potosi Mountain,Large,None,100.0 Hz,023,High,Off,Auto,Off,32 332 33.84 NV Clark Las Vegas Lo Potosi Mountain N6IMS,1500 Hz
-290,448.57500,443.57500,5.00 MHz,Minus,Auto,IOD Marysvale Mt. Edna,Large,Tone,131.8 Hz,023,High,Off,Auto,Off,49 18859 356.23 UT Piute Marysvale Mt. Edna N7IOD,1500 Hz
-291,145.12000,144.52000,600 kHz,Minus,Auto,ISG Running Springs,Large,Tone,131.8 Hz,023,High,Off,Auto,Off,6 460 275.49 CA San Bernardino Running Springs WA6ISG,1500 Hz
-292,446.40000,441.40000,5.00 MHz,Minus,Auto,ITC Big Bear City,Large,Tone,162.2 Hz,023,High,Off,Auto,Off,6 970 255.43 CA San Bernardino Big Bear City WA6ITC,1500 Hz
-293,147.22500,147.82500,600 kHz,Plus,Auto,ITC Big Bear Lake,Large,Tone,162.2 Hz,023,High,Off,Auto,Off,6 7949 255.43 CA San Bernardino Big Bear Lake WA6ITC,1500 Hz
-294,447.27500,442.27500,5.00 MHz,Minus,Auto,ITS Monticello Abajo Peak,Large,Tone,100.0 Hz,023,High,Off,Auto,Off,49 18460 542.14 UT San Juan Monticello Abajo Peak KB5ITS,1500 Hz
-295,444.20000,449.20000,5.00 MHz,Plus,Auto,IWQ Spring Creek,Large,None,100.0 Hz,023,High,Off,Auto,Off,32 14856 514.09 NV Elko Spring Creek KB7IWQ,1500 Hz
-296,448.90000,443.90000,5.00 MHz,Minus,Auto,IZA Las Vegas Sunrise Mountain,Large,Tone,100.0 Hz,023,High,Off,Auto,Off,32 338 21.49 NV Clark Las Vegas Sunrise Mountain K7IZA,1500 Hz
-297,446.88000,441.88000,5.00 MHz,Minus,Auto,JAG Hemet,Large,Tone,88.5 Hz,023,High,Off,Auto,Off,6 2405 310.07 CA Riverside Hemet KB6JAG,1500 Hz
-298,146.85000,146.25000,600 kHz,Minus,Auto,JBT Crestline Skyland Peak,Large,Tone,146.2 Hz,023,High,Off,Auto,Off,6 446 283.21 CA San Bernardino Crestline Skyland Peak W6JBT,1500 Hz
-299,449.27500,444.27500,5.00 MHz,Minus,Auto,JCA Hurricane Hurricane Mesa,Large,None,100.0 Hz,023,High,Off,Auto,Off,49 10063 205.24 UT Washington Hurricane Hurricane Mesa K5JCA,1500 Hz
-300,445.87500,440.87500,5.00 MHz,Minus,Auto,JCA Las Vegas,Large,T Sql,100.0 Hz,023,High,Off,Auto,Off,32 15671 15.91 NV Clark Las Vegas W7JCA,1500 Hz
-301,447.20000,442.20000,5.00 MHz,Minus,Auto,JCY Henderson QTH,Large,None,100.0 Hz,023,High,Off,Auto,Off,32 128 17.30 NV Clark Henderson QTH W6JCY,1500 Hz
-302,449.30000,444.30000,5.00 MHz,Minus,Auto,JFO Bullhead City Spirit Mountai,Large,Tone,131.8 Hz,023,High,Off,Auto,Off,32 341 103.36 NV Clark Bullhead City Spirit Mountain N6JFO,1500 Hz
-303,449.80000,444.80000,5.00 MHz,Minus,Auto,JFO Las Vegas Angel Peak,Large,Tone,131.8 Hz,023,High,Off,Auto,Off,32 118 42.50 NV Clark Las Vegas Angel Peak N6JFO,1500 Hz
-304,446.86000,441.86000,5.00 MHz,Minus,Auto,JRM Blythe,Large,Tone,100.0 Hz,023,High,Off,Auto,Off,6 8395 285.34 CA Riverside Blythe K6JRM,1500 Hz
-305,446.86000,441.86000,5.00 MHz,Minus,Auto,JRM Hemet,Large,T Sql,100.0 Hz,023,High,Off,Auto,Off,6 5218 310.12 CA Riverside Hemet K6JRM,1500 Hz
-306,447.95000,442.95000,5.00 MHz,Minus,Auto,JSI Las Vegas Blue Diamond Hill,Large,Tone,100.0 Hz,023,High,Off,Auto,Off,32 8281 20.01 NV Clark Las Vegas Blue Diamond Hill K6JSI,1500 Hz
-307,447.40000,442.40000,5.00 MHz,Minus,Auto,JSI Pahrump,Large,Tone,100.0 Hz,023,High,Off,Auto,Off,32 3624 73.56 NV Nye Pahrump K6JSI,1500 Hz
-308,147.21000,147.81000,600 kHz,Plus,Auto,JSI Pomona Sunset Ridge,Large,Tone,100.0 Hz,023,High,Off,Auto,Off,6 2633 314.15 CA Los Angeles Pomona Sunset Ridge K6JSI,1500 Hz
-309,449.75000,444.75000,5.00 MHz,Minus,Auto,JSI Williams Bill Williams Mount,Large,Tone,123.0 Hz,023,High,Off,Auto,Off,4 8393 286.78 AZ Coconino Williams Bill Williams Mountain K6JSI,1500 Hz
-310,145.18000,144.58000,600 kHz,Minus,Auto,JTN Lucerne Valley,Large,Tone,123.0 Hz,023,High,Off,Auto,Off,6 442 247.12 CA San Bernardino Lucerne Valley KC6JTN,1500 Hz
-311,147.61500,147.01500,600 kHz,Minus,Auto,JVF Running Springs,Large,Tone,186.2 Hz,023,High,Off,Auto,Off,6 462 275.49 CA San Bernardino Running Springs KI6JVF,1500 Hz
-312,447.58000,442.58000,5.00 MHz,Minus,Auto,JZS Barstow,Large,Tone,107.2 Hz,023,High,Off,Auto,Off,6 3633 215.24 CA San Bernardino Barstow KE6JZS,1500 Hz
-313,449.50000,444.50000,5.00 MHz,Minus,Auto,KAO Pomona Sunset Ridge,Large,T Sql,100.0 Hz,023,High,Off,Auto,Off,6 984 314.15 CA Los Angeles Pomona Sunset Ridge K9KAO,1500 Hz
-314,145.36000,144.76000,600 kHz,Minus,Auto,KAO Riverside Box Springs Mounta,Large,T Sql,91.5 Hz,023,High,Off,Auto,Off,6 383 306.89 CA Riverside Riverside Box Springs Mountain K9KAO,1500 Hz
-315,447.87500,442.87500,5.00 MHz,Minus,Auto,KRY Eureka Eureka Peak,Large,None,100.0 Hz,023,High,Off,Auto,Off,49 91 502.54 UT Juab Eureka Eureka Peak KC7KRY,1500 Hz
-316,447.58000,442.58000,5.00 MHz,Minus,Auto,KSN Indio Chiriaco Smt,Large,Tone,100.0 Hz,023,High,Off,Auto,Off,6 1007 277.40 CA Riverside Indio Chiriaco Smt W6KSN,1500 Hz
-317,145.20000,144.60000,600 kHz,Minus,Auto,KTQ Juniper Hills,Large,Tone,114.8 Hz,023,High,Off,Auto,Off,6 217 311.94 CA Los Angeles Juniper Hills KD6KTQ,1500 Hz
-318,446.88000,441.88000,5.00 MHz,Minus,Auto,KTV Alta Loma,Large,Tone,103.5 Hz,023,High,Off,Auto,Off,6 7048 311.43 CA San Bernardino Alta Loma KJ6KTV,1500 Hz
-319,146.64000,146.04000,600 kHz,Minus,Auto,LHC Lake Havasu City,Large,Tone,156.7 Hz,023,High,Off,Auto,Off,4 45 197.08 AZ Mohave Lake Havasu City K7LHC,1500 Hz
-320,146.62000,146.02000,600 kHz,Minus,Auto,LHC Lake Havasu City Crossman Pe,Large,Tone,131.8 Hz,023,High,Off,Auto,Off,4 13937 195.15 AZ Mohave Lake Havasu City Crossman Peak K7LHC,1500 Hz
-321,146.70000,146.10000,600 kHz,Minus,Auto,LHC Lake Havasu City Fire Statio,Large,Tone,131.8 Hz,023,High,Off,Auto,Off,4 12624 195.64 AZ Mohave Lake Havasu City Fire Station 4 K7LHC,1500 Hz
-322,145.15000,144.55000,600 kHz,Minus,Auto,LIE Bakersfield Breckenridge Mou,Large,Tone,100.0 Hz,023,High,Off,Auto,Off,6 135 316.32 CA Kern Bakersfield Breckenridge Mountain W6LIE,1500 Hz
-323,446.88000,441.88000,5.00 MHz,Minus,Auto,LKA Redlands,Large,T DCS,100.0 Hz,131,High,Off,Auto,Off,6 19095 294.75 CA San Bernardino Redlands N6LKA,1500 Hz
-324,146.68000,146.08000,600 kHz,Minus,Auto,LKL Aguila Smith Peak,Large,Tone,162.2 Hz,023,High,Off,Auto,Off,4 50 281.59 AZ La Paz Aguila Smith Peak K7LKL,1500 Hz
-325,443.90000,448.90000,5.00 MHz,Plus,Auto,LKO Battle Mountain Mount Lewis,Large,None,100.0 Hz,023,High,Off,Auto,Off,32 171 499.11 NV Lander Battle Mountain Mount Lewis W7LKO,1500 Hz
-326,146.91000,146.31000,600 kHz,Minus,Auto,LKO Battle Mountain Mt Lewis,Large,Tone,100.0 Hz,023,High,Off,Auto,Off,32 50 499.21 NV Lander Battle Mountain Mt Lewis W7LKO,1500 Hz
-327,146.85000,146.25000,600 kHz,Minus,Auto,LKO Carlin,Large,Tone,100.0 Hz,023,High,Off,Auto,Off,32 51 542.15 NV Elko Carlin W7LKO,1500 Hz
-328,444.20000,449.20000,5.00 MHz,Plus,Auto,LKO Carlin,Large,Tone,100.0 Hz,023,High,Off,Auto,Off,32 178 517.79 NV Elko Carlin W7LKO,1500 Hz
-329,147.33000,147.93000,600 kHz,Plus,Auto,LKO Elko,Large,Tone,100.0 Hz,023,High,Off,Auto,Off,32 56 527.10 NV Elko Elko KE7LKO,1500 Hz
-330,442.05000,447.05000,5.00 MHz,Plus,Auto,LKO Elko,Large,Tone,100.0 Hz,023,High,Off,Auto,Off,32 182 527.10 NV Elko Elko W7LKO,1500 Hz
-331,444.80000,449.80000,5.00 MHz,Plus,Auto,LKO Elko,Large,None,100.0 Hz,023,High,Off,Auto,Off,32 9524 527.10 NV Elko Elko W7LKO,1500 Hz
-332,444.95000,449.95000,5.00 MHz,Plus,Auto,LKO Elko,Large,Tone,100.0 Hz,023,High,Off,Auto,Off,32 179 526.42 NV Elko Elko W7LKO,1500 Hz
-333,449.75000,444.75000,5.00 MHz,Minus,Auto,LKO Elko,Large,None,100.0 Hz,023,High,Off,Auto,Off,32 186 527.10 NV Elko Elko W7LKO,1500 Hz
-334,444.70000,449.70000,5.00 MHz,Plus,Auto,LKO Elko Adobe Summit,Large,None,100.0 Hz,023,High,Off,Auto,Off,32 185 534.39 NV Elko Elko Adobe Summit W7LKO,1500 Hz
-335,147.21000,147.81000,600 kHz,Plus,Auto,LKO Elko Lamoille Summit,Large,Tone,100.0 Hz,023,High,Off,Auto,Off,32 52 526.42 NV Elko Elko Lamoille Summit W7LKO,1500 Hz
-336,147.73500,147.13500,600 kHz,Minus,Auto,LLU Loma Linda LLUMC,Large,Tone,118.8 Hz,023,High,Off,Auto,Off,6 454 298.21 CA San Bernardino Loma Linda LLUMC K6LLU,1500 Hz
-337,445.60000,440.60000,5.00 MHz,Minus,Auto,LLU Loma Linda LLUMC,Large,Tone,118.8 Hz,023,High,Off,Auto,Off,6 1016 297.34 CA San Bernardino Loma Linda LLUMC K6LLU,1500 Hz
-338,146.62000,146.02000,600 kHz,Minus,Auto,LOQ Yarnell Yarnell Hill,Large,T Sql,162.2 Hz,023,High,Off,Auto,Off,4 11622 306.68 AZ Yavapai Yarnell Yarnell Hill N7LOQ,1500 Hz
-339,447.22500,442.22500,5.00 MHz,Minus,Auto,LXX Las Vegas Low Potosi,Large,T Sql,110.9 Hz,023,High,Off,Auto,Off,32 15222 318.47 NV Clark Las Vegas Low Potosi N6LXX,1500 Hz
-340,446.88000,441.88000,5.00 MHz,Minus,Auto,LXX Onyx Onyx Peak,Large,T Sql,110.9 Hz,023,High,Off,Auto,Off,6 15173 255.35 CA San Bernardino Onyx Onyx Peak N6LXX,1500 Hz
-341,446.86000,441.86000,5.00 MHz,Minus,Auto,LXX Wrightwood Blue Ridge,Large,Tone,110.9 Hz,023,High,Off,Auto,Off,6 2741 300.18 CA Los Angeles Wrightwood Blue Ridge N6LXX,1500 Hz
-342,446.80000,441.80000,5.00 MHz,Minus,Auto,LXX Yermo,Large,T Sql,110.9 Hz,023,High,Off,Auto,Off,6 15215 201.87 CA San Bernardino Yermo N6LXX,1500 Hz
-343,147.36000,147.96000,600 kHz,Plus,Auto,MIA Kingman,Large,Tone,123.0 Hz,023,High,Off,Auto,Off,4 14244 146.50 AZ Mohave Kingman KD7MIA,1500 Hz
-344,147.24000,147.84000,600 kHz,Plus,Auto,MPR Kingman Hualapai Mtn,Large,Tone,123.0 Hz,023,High,Off,Auto,Off,4 12319 164.05 AZ Mohave Kingman Hualapai Mtn K7MPR,1500 Hz
-345,448.55000,443.55000,5.00 MHz,Minus,Auto,MPR Kingman Hualapai Mtn,Large,Tone,123.0 Hz,023,High,Off,Auto,Off,4 6882 164.05 AZ Mohave Kingman Hualapai Mtn K7MPR,1500 Hz
-346,448.60000,443.60000,5.00 MHz,Minus,Auto,MPR Lake Havasu City Lake Havasu,Large,Tone,123.0 Hz,023,High,Off,Auto,Off,4 12301 197.08 AZ Mohave Lake Havasu City Lake Havasu K7MPR,1500 Hz
-347,146.82000,146.22000,600 kHz,Minus,Auto,MPR Laughlin Spirit Mountain,Large,T Sql,123.0 Hz,023,High,Off,Auto,Off,32 11054 103.39 NV Clark Laughlin Spirit Mountain K7MPR,1500 Hz
-348,147.00000,147.60000,600 kHz,Plus,Auto,MRG Cottonwood Mingus Mountain,Large,T Sql,162.2 Hz,023,High,Off,Auto,Off,4 101 318.04 AZ Yavapai Cottonwood Mingus Mountain K7MRG,1500 Hz
-349,145.34000,144.74000,600 kHz,Minus,Auto,MRN Palm Desert Santa Rosa Peak,Large,Tone,107.2 Hz,023,High,Off,Auto,Off,6 361 309.19 CA Riverside Palm Desert Santa Rosa Peak N6MRN,1500 Hz
-350,447.48000,442.48000,5.00 MHz,Minus,Auto,MRN Pine Cove,Large,T Sql,156.7 Hz,023,High,Off,Auto,Off,6 3107 298.07 CA Riverside Pine Cove N6MRN,1500 Hz
-351,447.85000,442.85000,5.00 MHz,Minus,Auto,MSS Las Vegas Apex Mountain,Large,Tone,127.3 Hz,023,High,Off,Auto,Off,32 141 31.65 NV Clark Las Vegas Apex Mountain KD5MSS,1500 Hz
-352,146.70000,146.10000,600 kHz,Minus,Auto,MTZ Newberry Springs,Large,None,100.0 Hz,023,High,Off,Auto,Off,6 456 198.29 CA San Bernardino Newberry Springs WA6MTZ,1500 Hz
-353,448.22500,443.22500,5.00 MHz,Minus,Auto,MVI Eureka Eureka Peak,Large,Tone,146.2 Hz,023,High,Off,Auto,Off,49 92 502.54 UT Juab Eureka Eureka Peak KC7MVI,1500 Hz
-354,147.39000,147.99000,600 kHz,Plus,Auto,MVR Logandale Beacon Hill,Large,T Sql,100.0 Hz,023,High,Off,Auto,Off,32 3610 86.30 NV Clark Logandale Beacon Hill W7MVR,1500 Hz
-355,146.78000,146.18000,600 kHz,Minus,Auto,NAZ Williams Bill Williams Mount,Large,Tone,91.5 Hz,023,High,Off,Auto,Off,4 65 286.87 AZ Coconino Williams Bill Williams Mountain K7NAZ,1500 Hz
-356,448.25000,443.25000,5.00 MHz,Minus,Auto,NDI Las Vegas QTH,Large,None,100.0 Hz,023,High,Off,Auto,Off,32 162 10.99 NV Clark Las Vegas QTH N8NDI,1500 Hz
-357,445.37500,440.37500,5.00 MHz,Minus,Auto,NJJ Las Vegas CSN Henderson,Large,T Sql,107.2 Hz,023,High,Off,Auto,Off,32 13959 22.06 NV Clark Las Vegas CSN Henderson N4NJJ,1500 Hz
-358,147.16000,147.76000,600 kHz,Plus,Auto,NKK Panguitch Mount Dutton,Large,Tone,100.0 Hz,023,High,Off,Auto,Off,49 148 337.12 UT Garfield Panguitch Mount Dutton N7NKK,1500 Hz
-359,147.76500,147.16500,600 kHz,Minus,Auto,NLG Victorville,Large,Tone,97.4 Hz,023,High,Off,Auto,Off,6 8773 260.25 CA San Bernardino Victorville KJ6NLG,1500 Hz
-360,447.10000,442.10000,5.00 MHz,Minus,Auto,NLS Kingman Hualapai Peak,Large,Tone,100.0 Hz,023,High,Off,Auto,Off,4 12918 162.05 AZ Mohave Kingman Hualapai Peak KA6NLS,1500 Hz
-361,449.85000,444.85000,5.00 MHz,Minus,Auto,NRC Kanab,Large,None,100.0 Hz,023,High,Off,Auto,Off,49 207 258.03 UT Kane Kanab W7NRC,1500 Hz
-362,146.88000,146.28000,600 kHz,Minus,Auto,NRC Kanab TV Site,Large,Tone,123.0 Hz,023,High,Off,Auto,Off,49 205 259.23 UT Kane Kanab TV Site W7NRC,1500 Hz
-363,147.19500,147.79500,600 kHz,Plus,Auto,NVY Victorville Quartzite Mounta,Large,Tone,141.3 Hz,023,High,Off,Auto,Off,6 2732 254.40 CA San Bernardino Victorville Quartzite Mountain W6NVY,1500 Hz
-364,147.85500,147.25500,600 kHz,Minus,Auto,NVY Victorville Quartzite Mounta,Large,Tone,186.2 Hz,023,High,Off,Auto,Off,6 452 254.47 CA San Bernardino Victorville Quartzite Mountain W6NVY,1500 Hz
-365,449.70000,444.70000,5.00 MHz,Minus,Auto,NVY Victorville Quartzite Mounta,Large,Tone,141.3 Hz,023,High,Off,Auto,Off,6 2731 254.47 CA San Bernardino Victorville Quartzite Mountain W6NVY,1500 Hz
-366,145.13000,144.53000,600 kHz,Minus,Auto,NYE Pahrump,Large,Tone,100.0 Hz,023,High,Off,Auto,Off,32 8286 86.33 NV Nye Pahrump W7NYE,1500 Hz
-367,145.49000,144.89000,600 kHz,Minus,Auto,NYE Pahrump,Large,Tone,123.0 Hz,023,High,Off,Auto,Off,32 17899 86.51 NV Nye Pahrump W7NYE,1500 Hz
-368,447.70000,442.70000,5.00 MHz,Minus,Auto,NYE Pahrump Desert View Reg Med,Large,Tone,123.0 Hz,023,High,Off,Auto,Off,32 148 77.30 NV Nye Pahrump Desert View Reg Med Ctr W7NYE,1500 Hz
-369,147.03000,147.63000,600 kHz,Plus,Auto,NYK Pahrump,Large,Tone,100.0 Hz,023,High,Off,Auto,Off,32 30 74.27 NV Nye Pahrump W6NYK,1500 Hz
-370,449.45000,444.45000,5.00 MHz,Minus,Auto,O3B Las Vegas,Large,Tone,100.0 Hz,023,High,Off,Auto,Off,32 10820 0.02 NV Clark Las Vegas WO3B,1500 Hz
-371,443.85000,448.85000,5.00 MHz,Plus,Auto,O7G Carlin Mary's Mountain,Large,None,100.0 Hz,023,High,Off,Auto,Off,32 14857 517.79 NV Elko Carlin Mary's Mountain KO7G,1500 Hz
-372,449.70000,444.70000,5.00 MHz,Minus,Auto,O7R Cedar Fort Internet Mountain,Large,Tone,127.3 Hz,023,High,Off,Auto,Off,49 10180 539.61 UT Utah Cedar Fort Internet Mountain KO7R,1500 Hz
-373,449.35000,444.35000,5.00 MHz,Minus,Auto,OET St George Utah Hill,Large,T Sql,100.0 Hz,023,High,Off,Auto,Off,49 11333 163.25 UT Washington St George Utah Hill K7OET,1500 Hz
-374,147.64500,147.04500,600 kHz,Minus,Auto,OKB Big Bear Lake,Large,Tone,103.5 Hz,023,High,Off,Auto,Off,6 444 261.19 CA San Bernardino Big Bear Lake KC6OKB,1500 Hz
-375,446.50000,441.50000,5.00 MHz,Minus,Auto,OKD Bunkerville,Large,Tone,136.5 Hz,023,High,Off,Auto,Off,32 19652 118.63 NV Clark Bunkerville N7OKD,1500 Hz
-376,147.30000,147.90000,600 kHz,Plus,Auto,OLD Hesperia,Large,Tone,91.5 Hz,023,High,Off,Auto,Off,6 451 269.31 CA San Bernardino Hesperia KA6OLD,1500 Hz
-377,447.20000,442.20000,5.00 MHz,Minus,Auto,ONT Rancho Cucamonga,Large,Tone,114.8 Hz,023,High,Off,Auto,Off,6 995 313.49 CA San Bernardino Rancho Cucamonga K6ONT,1500 Hz
-378,447.65000,442.65000,5.00 MHz,Minus,Auto,OPJ Henderson,Large,Tone,123.0 Hz,023,High,Off,Auto,Off,32 3554 19.17 NV Clark Henderson KE7OPJ,1500 Hz
-379,447.00000,442.00000,5.00 MHz,Minus,Auto,OPU Hesperia,Large,Tone,136.5 Hz,023,High,Off,Auto,Off,6 1035 272.16 CA San Bernardino Hesperia KC6OPU,1500 Hz
-380,442.52500,447.52500,5.00 MHz,Plus,Auto,PAT Prescott,Large,Tone,114.8 Hz,023,High,Off,Auto,Off,4 238 296.87 AZ Yavapai Prescott W6PAT,1500 Hz
-381,448.95000,443.95000,5.00 MHz,Minus,Auto,PFK Bullhead City,Large,Tone,123.0 Hz,023,High,Off,Auto,Off,4 13002 120.65 AZ Mohave Bullhead City K7PFK,1500 Hz
-382,449.25000,444.25000,5.00 MHz,Minus,Auto,POF Chino Valley,Large,Tone,192.8 Hz,023,High,Off,Auto,Off,4 9796 288.33 AZ Yavapai Chino Valley K7POF,1500 Hz
-383,147.06000,147.66000,600 kHz,Plus,Auto,PVG Tehachapi,Large,None,100.0 Hz,023,High,Off,Auto,Off,6 190 315.52 CA Kern Tehachapi W6PVG,1500 Hz
-384,447.10000,442.10000,5.00 MHz,Minus,Auto,QEQ Monticello Abajo Peak,Large,T Sql,107.2 Hz,023,High,Off,Auto,Off,49 124 542.21 UT San Juan Monticello Abajo Peak K7QEQ,1500 Hz
-385,146.76000,146.16000,600 kHz,Minus,Auto,QLT Cathedral City Palm Springs,Large,Tone,107.2 Hz,023,High,Off,Auto,Off,6 13336 283.10 CA Riverside Cathedral City Palm Springs KD6QLT,1500 Hz
-386,144.93000,147.58500,,Plus,Auto,QLT Palm Springs,Large,Tone,107.2 Hz,023,High,Off,Auto,Off,6 379 283.06 CA Riverside Palm Springs KD6QLT,1500 Hz
-387,448.25000,443.25000,5.00 MHz,Minus,Auto,QWU Payson West Mountain,Large,Tone,100.0 Hz,023,High,Off,Auto,Off,49 125 530.44 UT Utah Payson West Mountain N6QWU,1500 Hz
-388,448.05000,443.05000,5.00 MHz,Minus,Auto,QYX Las Vegas,Large,Tone,123.0 Hz,023,High,Off,Auto,Off,32 8423 11.13 NV Clark Las Vegas KF6QYX,1500 Hz
-389,146.02500,146.62500,600 kHz,Plus,Auto,R6P Cactus City,Large,Tone,107.2 Hz,023,High,Off,Auto,Off,6 366 280.33 CA Riverside Cactus City NR6P,1500 Hz
-390,449.62500,444.62500,5.00 MHz,Minus,Auto,R7G St Johns Red Sky Ranch,Large,Tone,136.5 Hz,023,High,Off,Auto,Off,4 18204 545.27 AZ Apache St Johns Red Sky Ranch NR7G,1500 Hz
+188,445.16000,440.16000,5.00 MHz,Minus,Auto,CTR Sylmar Contractor's Point,Large,Tone,100.0 Hz,023,High,Off,Auto,Off,6 18064 226.63 CA Los Angeles Sylmar Contractor's Point W6CTR,1500 Hz
+189,449.92500,444.92500,5.00 MHz,Minus,Auto,CWI Page (AZ) Navajo Mountain,Large,Tone,100.0 Hz,023,High,Off,Auto,Off,49 183 397.65 UT San Juan Page (AZ) Navajo Mountain W7CWI,1500 Hz
+190,449.67500,444.67500,5.00 MHz,Minus,Auto,CYC Las Vegas Sunrise Mountain,Large,Tone,192.8 Hz,023,High,Off,Auto,Off,32 166 21.49 NV Clark Las Vegas Sunrise Mountain WA7CYC,1500 Hz
+191,146.67000,146.07000,600 kHz,Minus,Auto,CYC North Las Vegas,Large,Tone,136.5 Hz,023,High,Off,Auto,Off,32 35 12.87 NV Clark North Las Vegas WA7CYC,1500 Hz
+192,147.36000,147.96000,600 kHz,Plus,Auto,D7M Pahrump,Large,None,100.0 Hz,023,High,Off,Auto,Off,32 16275 73.56 NV Nye Pahrump ND7M,1500 Hz
+193,449.25000,444.25000,5.00 MHz,Minus,Auto,D7N Eagle Mountain,Large,Tone,110.9 Hz,023,High,Off,Auto,Off,49 10179 542.63 UT Utah Eagle Mountain WD7N,1500 Hz
+194,146.73000,146.13000,600 kHz,Minus,Auto,D8S Henderson Black Mountain,Large,Tone,131.8 Hz,023,High,Off,Auto,Off,32 15 19.09 NV Clark Henderson Black Mountain KD8S,1500 Hz
+195,448.00000,443.00000,5.00 MHz,Minus,Auto,D8S Henderson Black Mountain,Large,None,100.0 Hz,023,High,Off,Auto,Off,32 122 19.09 NV Clark Henderson Black Mountain KD8S,1500 Hz
+196,448.67500,443.67500,5.00 MHz,Minus,Auto,DBM Las Vegas QTH,Large,Tone,77.0 Hz,023,High,Off,Auto,Off,32 164 10.99 NV Clark Las Vegas QTH N8DBM,1500 Hz
+197,449.55000,444.55000,5.00 MHz,Minus,Auto,DEM North Las Vegas Angel pk.,Large,None,100.0 Hz,023,High,Off,Auto,Off,32 18818 42.59 NV Clark North Las Vegas Angel pk. W7DEM,1500 Hz
+198,446.52500,441.52500,5.00 MHz,Minus,Auto,DGL Desert Springs,Large,Tone,177.3 Hz,023,High,Off,Auto,Off,4 18499 146.52 AZ Mohave Desert Springs N7DGL,1500 Hz
+199,146.66000,146.06000,600 kHz,Minus,Auto,DHH Ephraim Horseshoe,Large,Tone,100.0 Hz,023,High,Off,Auto,Off,49 190 485.20 UT Sanpete Ephraim Horseshoe W7DHH,1500 Hz
+200,447.45000,442.45000,5.00 MHz,Minus,Auto,DHH Salina Monroe Peak,Large,Tone,114.8 Hz,023,High,Off,Auto,Off,49 189 384.18 UT Sevier Salina Monroe Peak W7DHH,1500 Hz
+201,146.11500,146.71500,600 kHz,Plus,Auto,DMZ Riverside,Large,T Sql,88.5 Hz,023,High,Off,Auto,Off,6 19947 313.85 CA Riverside Riverside KB6DMZ,1500 Hz
+202,447.32000,442.32000,5.00 MHz,Minus,Auto,DRA Palm Desert,Large,Tone,107.2 Hz,023,High,Off,Auto,Off,6 12824 287.68 CA Riverside Palm Desert W6DRA,1500 Hz
+203,449.70000,444.70000,5.00 MHz,Minus,Auto,DRA Palm Springs Tram,Large,Tone,107.2 Hz,023,High,Off,Auto,Off,6 1008 288.68 CA Riverside Palm Springs Tram W6DRA,1500 Hz
+204,145.48000,144.88000,600 kHz,Minus,Auto,DRA Palm Springs Tram 1,Large,Tone,107.2 Hz,023,High,Off,Auto,Off,6 378 288.68 CA Riverside Palm Springs Tram 1 W6DRA,1500 Hz
+205,145.20000,144.60000,600 kHz,Minus,Auto,DRA Palm Springs Tram 2,Large,Tone,131.8 Hz,023,High,Off,Auto,Off,6 377 288.68 CA Riverside Palm Springs Tram 2 W6DRA,1500 Hz
+206,145.49000,144.89000,600 kHz,Minus,Auto,DRC St George Utah Hill,Large,Tone,100.0 Hz,023,High,Off,Auto,Off,49 191 161.36 UT Washington St George Utah Hill W7DRC,1500 Hz
+207,146.64000,146.04000,600 kHz,Minus,Auto,DRC St George Webb Hill,Large,Tone,100.0 Hz,023,High,Off,Auto,Off,49 193 178.72 UT Washington St George Webb Hill W7DRC,1500 Hz
+208,145.45000,144.85000,600 kHz,Minus,Auto,DRC Toquerville Toquerville Hill,Large,Tone,100.0 Hz,023,High,Off,Auto,Off,49 192 213.62 UT Washington Toquerville Toquerville Hill W7DRC,1500 Hz
+209,146.96000,146.36000,600 kHz,Minus,Auto,DXJ Lake Havasu City,Large,Tone,162.2 Hz,023,High,Off,Auto,Off,4 97 197.08 AZ Mohave Lake Havasu City W7DXJ,1500 Hz
+210,449.95000,444.95000,5.00 MHz,Minus,Auto,DXJ Lake Havasu City,Large,Tone,141.3 Hz,023,High,Off,Auto,Off,4 418 197.23 AZ Mohave Lake Havasu City W7DXJ,1500 Hz
+211,446.32500,441.32500,5.00 MHz,Minus,Auto,DXU Pahrump,Large,T Sql,141.3 Hz,023,High,Off,Auto,Off,32 12658 73.56 NV Nye Pahrump KF7DXU,1500 Hz
+212,145.35000,144.75000,600 kHz,Minus,Auto,DZL Bryce Canyon,Large,Tone,123.0 Hz,023,High,Off,Auto,Off,49 6495 293.14 UT Garfield Bryce Canyon W6DZL,1500 Hz
+213,448.10000,443.10000,5.00 MHz,Minus,Auto,DZP Cedar City,Large,None,100.0 Hz,023,High,Off,Auto,Off,49 132 259.10 UT Iron Cedar City N7DZP,1500 Hz
+214,146.02500,146.62500,600 kHz,Plus,Auto,ECS Hesperia,Large,T DCS,100.0 Hz,205,High,Off,Auto,Off,6 13335 269.37 CA San Bernardino Hesperia W6ECS,1500 Hz
+215,147.70500,147.10500,600 kHz,Minus,Auto,ECS Running Springs Heaps Peak,Large,T Sql,167.9 Hz,023,High,Off,Auto,Off,6 3085 275.12 CA San Bernardino Running Springs Heaps Peak K6ECS,1500 Hz
+216,147.70500,147.10500,600 kHz,Minus,Auto,ECS Victorville Table Mtn,Large,Tone,131.8 Hz,023,High,Off,Auto,Off,6 471 298.57 CA San Bernardino Victorville Table Mtn K6ECS,1500 Hz
+217,146.94000,146.34000,600 kHz,Minus,Auto,EFW Victorville,Large,Tone,91.5 Hz,023,High,Off,Auto,Off,6 469 260.18 CA San Bernardino Victorville WA6EFW,1500 Hz
+218,447.87500,442.87500,5.00 MHz,Minus,Auto,EGC Provo Lake Mountain,Large,Tone,100.0 Hz,023,High,Off,Auto,Off,49 6812 541.25 UT Utah Provo Lake Mountain KA7EGC,1500 Hz
+219,145.12500,144.52500,600 kHz,Minus,Auto,EGG Ogden Sheriff Office,Large,None,100.0 Hz,023,High,Off,Auto,Off,49 19772 505.70 UT Weber Ogden Sheriff Office KE7EGG,1500 Hz
+220,445.01250,440.01250,5.00 MHz,Minus,Auto,EGR Las Vegas The Ogden,Large,T DCS,100.0 Hz,411,High,Off,Auto,Off,32 3707 9.63 NV Clark Las Vegas The Ogden WB6EGR,1500 Hz
+221,147.18000,147.78000,600 kHz,Plus,Auto,ELY Ely Kimberly Mountain,Large,Tone,114.8 Hz,023,High,Off,Auto,Off,32 46 355.20 NV White Pine Ely Kimberly Mountain N7ELY,1500 Hz
+222,146.88000,146.28000,600 kHz,Minus,Auto,ELY Ely Squaw Peak,Large,Tone,114.8 Hz,023,High,Off,Auto,Off,32 45 351.27 NV White Pine Ely Squaw Peak N7ELY,1500 Hz
+223,442.10000,447.10000,5.00 MHz,Plus,Auto,ELY Ely Squaw Peak,Large,None,100.0 Hz,023,High,Off,Auto,Off,32 16092 349.24 NV White Pine Ely Squaw Peak N7ELY,1500 Hz
+224,448.95000,443.95000,5.00 MHz,Minus,Auto,FFM Goshen West Mountain,Large,None,100.0 Hz,023,High,Off,Auto,Off,49 220 530.26 UT Utah Goshen West Mountain WA7FFM,1500 Hz
+225,145.31000,144.71000,600 kHz,Minus,Auto,FIK Quartzsite Guadalupe Peak,Large,Tone,107.2 Hz,023,High,Off,Auto,Off,4 17 290.37 AZ La Paz Quartzsite Guadalupe Peak WB7FIK,1500 Hz
+226,145.80000,1269.65000,,Plus,Auto,FM ISS L/v VOICE Repeater (World,Large,None,100.0 Hz,023,High,Off,Auto,Off,FM ISS L/v VOICE Repeater (Worldwide),1500 Hz
+227,145.80000,437.80000,,Plus,Auto,FM ISS U/v VOICE Repeater (World,Large,None,100.0 Hz,023,High,Off,Auto,Off,FM ISS U/v VOICE Repeater (Worldwide),1500 Hz
+228,437.80000,145.99000,,Minus,Auto,FM ISS V/u with PL VOICE Repeate,Large,Tone,67.0 Hz,023,High,Off,Auto,Off,FM ISS V/u with PL VOICE Repeater (Worldwide),1500 Hz
+229,145.80000,144.49000,,Minus,Auto,FM ISS VOICE for ITU Region 2&3,Large,None,100.0 Hz,023,High,Off,Auto,Off,FM ISS VOICE for ITU Region 2&3,1500 Hz
+230,436.79500,145.85000,,Minus,Auto,FM SAT AO-27,Large,None,100.0 Hz,023,High,Off,Auto,Off,FM SAT AO-27,1500 Hz
+231,145.96000,435.25000,,Plus,Auto,FM SAT AO-91 (RadFxSat / Fox-1B),Large,Tone,67.0 Hz,023,High,Off,Auto,Off,FM SAT AO-91 (RadFxSat / Fox-1B),1500 Hz
+232,145.88000,435.35000,,Plus,Auto,FM SAT AO-92 (Fox-1D),Large,Tone,67.0 Hz,023,High,Off,Auto,Off,FM SAT AO-92 (Fox-1D),1500 Hz
+233,145.88000,1267.35900,,Plus,Auto,FM SAT AO-92 (Fox-1D),Large,Tone,67.0 Hz,023,High,Off,Auto,Off,FM SAT AO-92 (Fox-1D),1500 Hz
+234,437.20000,144.35000,,Minus,Auto,FM SAT CAS-3H (LilacSat-2),Large,None,100.0 Hz,023,High,Off,Auto,Off,FM SAT CAS-3H (LilacSat-2),1500 Hz
+235,435.60000,145.92500,,Minus,Auto,FM SAT CAS-5A,Large,None,100.0 Hz,023,High,Off,Auto,Off,FM SAT CAS-5A,1500 Hz
+236,435.45500,145.95000,,Minus,Auto,FM SAT CAS-7A,Large,None,100.0 Hz,023,High,Off,Auto,Off,FM SAT CAS-7A,1500 Hz
+237,435.69000,145.90000,,Minus,Auto,FM SAT CAS-7C,Large,None,100.0 Hz,023,High,Off,Auto,Off,FM SAT CAS-7C,1500 Hz
+238,436.40000,145.97000,,Minus,Auto,FM SAT Duchifat3,Large,None,100.0 Hz,023,High,Off,Auto,Off,FM SAT Duchifat3,1500 Hz
+239,145.89500,1263.50000,,Plus,Auto,FM SAT FUNcube on ESEO,Large,None,100.0 Hz,023,High,Off,Auto,Off,FM SAT FUNcube on ESEO,1500 Hz
+240,435.88000,145.88000,,Minus,Auto,FM SAT IO-86 (LAPAN-A2),Large,Tone,88.5 Hz,023,High,Off,Auto,Off,FM SAT IO-86 (LAPAN-A2),1500 Hz
+241,145.90000,437.50000,,Plus,Auto,FM SAT PO-101 (Diwata-2),Large,Tone,141.3 Hz,023,High,Off,Auto,Off,FM SAT PO-101 (Diwata-2),1500 Hz
+242,436.79500,145.85000,,Minus,Auto,FM SAT SO-50 (SaudiSat-1C),Large,Tone,67.0 Hz,023,High,Off,Auto,Off,FM SAT SO-50 (SaudiSat-1C),1500 Hz
+243,145.85000,436.00000,,Plus,Auto,FM SAT Swiatowid,Large,None,100.0 Hz,023,High,Off,Auto,Off,FM SAT Swiatowid,1500 Hz
+244,436.40000,145.97000,,Minus,Auto,FM SAT Tevel Mission,Large,None,100.0 Hz,023,High,Off,Auto,Off,FM SAT Tevel Mission,1500 Hz
+245,146.82000,146.22000,600 kHz,Minus,Auto,FNO Onyx Onyx Peak,Large,None,100.0 Hz,023,High,Off,Auto,Off,6 458 255.35 CA San Bernardino Onyx Onyx Peak W6FNO,1500 Hz
+246,449.55000,444.55000,5.00 MHz,Minus,Auto,FOT Hurricane Little Creek Mesa,Large,T Sql,100.0 Hz,023,High,Off,Auto,Off,49 18128 208.14 UT Washington Hurricane Little Creek Mesa KG7FOT,1500 Hz
+247,441.77500,446.77500,5.00 MHz,Plus,Auto,FUN Clarkdale,Large,Tone,156.7 Hz,023,High,Off,Auto,Off,4 224 319.33 AZ Yavapai Clarkdale K9FUN,1500 Hz
+248,145.17000,144.57000,600 kHz,Minus,Auto,GAA Bullhead City,Large,T Sql,131.8 Hz,023,High,Off,Auto,Off,4 154 120.65 AZ Mohave Bullhead City W7GAA,1500 Hz
+249,147.03000,147.63000,600 kHz,Plus,Auto,GBJ Desert Center,Large,Tone,107.2 Hz,023,High,Off,Auto,Off,6 370 267.92 CA Riverside Desert Center KA6GBJ,1500 Hz
+250,447.20000,442.20000,5.00 MHz,Minus,Auto,GBJ Thousand Palms,Large,Tone,107.2 Hz,023,High,Off,Auto,Off,6 1009 277.69 CA Riverside Thousand Palms KA6GBJ,1500 Hz
+251,449.50000,444.50000,5.00 MHz,Minus,Auto,GDF Juniper Hills,Large,Tone,192.8 Hz,023,High,Off,Auto,Off,6 1011 311.94 CA Los Angeles Juniper Hills WA6GDF,1500 Hz
+252,147.12000,147.72000,600 kHz,Plus,Auto,GDF Seligman SV Ranch,Large,Tone,192.8 Hz,023,High,Off,Auto,Off,4 13719 225.06 AZ Yavapai Seligman SV Ranch WA6GDF,1500 Hz
+253,147.10000,147.70000,600 kHz,Plus,Auto,GGN Holden Beesting Peak,Large,Tone,100.0 Hz,023,High,Off,Auto,Off,49 137 420.98 UT Sevier Holden Beesting Peak N7GGN,1500 Hz
+254,449.47500,444.47500,5.00 MHz,Minus,Auto,GIE Provo Lake Mountain,Large,Tone,100.0 Hz,023,High,Off,Auto,Off,49 231 541.25 UT Utah Provo Lake Mountain WA7GIE,1500 Hz
+255,449.55000,444.55000,5.00 MHz,Minus,Auto,GIE Wendover Wendover Peak,Large,Tone,123.0 Hz,023,High,Off,Auto,Off,49 223 525.52 UT Tooele Wendover Wendover Peak WA7GIE,1500 Hz
+256,146.11500,146.71500,600 kHz,Plus,Auto,GIL Victorville Fairgrounds,Large,Tone,91.5 Hz,023,High,Off,Auto,Off,6 468 262.89 CA San Bernardino Victorville Fairgrounds K7GIL,1500 Hz
+257,147.12000,147.72000,600 kHz,Plus,Auto,GIL Victorville Quartzite Mtn.,Large,Tone,91.5 Hz,023,High,Off,Auto,Off,6 470 254.54 CA San Bernardino Victorville Quartzite Mtn. K7GIL,1500 Hz
+258,447.32000,442.32000,5.00 MHz,Minus,Auto,GRF Fontana,Large,Tone,136.5 Hz,023,High,Off,Auto,Off,6 1015 307.76 CA San Bernardino Fontana KA6GRF,1500 Hz
+259,447.57500,452.57500,5.00 MHz,Plus,Auto,GTU Cedar City,Large,None,100.0 Hz,023,High,Off,Auto,Off,49 277 233.54 UT Iron Cedar City WA7GTU,1500 Hz
+260,448.40000,443.40000,5.00 MHz,Minus,Auto,GTU Cedar City,Large,Tone,100.0 Hz,023,High,Off,Auto,Off,49 126 259.02 UT Iron Cedar City WA7GTU,1500 Hz
+261,449.90000,444.90000,5.00 MHz,Minus,Auto,GTU Cedar City,Large,Tone,100.0 Hz,023,High,Off,Auto,Off,49 237 259.02 UT Iron Cedar City WA7GTU,1500 Hz
+262,449.50000,444.50000,5.00 MHz,Minus,Auto,GTU Cedar City Iron Mountain,Large,Tone,100.0 Hz,023,High,Off,Auto,Off,49 236 233.54 UT Iron Cedar City Iron Mountain WA7GTU,1500 Hz
+263,146.61000,146.01000,600 kHz,Minus,Auto,GVA Henderson,Large,None,100.0 Hz,023,High,Off,Auto,Off,32 206 19.59 NV Clark Henderson W7GVA,1500 Hz
+264,447.92500,442.92500,5.00 MHz,Minus,Auto,HEN Henderson Seven Hills,Large,T Sql,156.7 Hz,023,High,Off,Auto,Off,32 15223 16.67 NV Clark Henderson Seven Hills W7HEN,1500 Hz
+265,446.47500,441.47500,5.00 MHz,Minus,Auto,HEN Las Vegas,Large,Tone,156.7 Hz,023,High,Off,Auto,Off,32 18220 19.44 NV Clark Las Vegas W7HEN,1500 Hz
+266,449.92500,444.92500,5.00 MHz,Minus,Auto,HEN North Las Vegas Apex Mountai,Large,Tone,131.8 Hz,023,High,Off,Auto,Off,32 16757 30.13 NV Clark North Las Vegas Apex Mountain W7HEN,1500 Hz
+267,442.92500,447.92500,5.00 MHz,Plus,Auto,HHU Tehachapi,Large,Tone,141.3 Hz,023,High,Off,Auto,Off,6 9525 315.61 CA Kern Tehachapi KI6HHU,1500 Hz
+268,447.92000,442.92000,5.00 MHz,Minus,Auto,HHU Tehachapi Double Mtn.,Large,T Sql,141.3 Hz,023,High,Off,Auto,Off,6 12742 315.61 CA Kern Tehachapi Double Mtn. KI6HHU,1500 Hz
+269,449.90000,444.90000,5.00 MHz,Minus,Auto,HLL Mexican Hat,Large,Tone,123.0 Hz,023,High,Off,Auto,Off,49 100 482.38 UT San Juan Mexican Hat KD7HLL,1500 Hz
+270,446.25000,441.25000,5.00 MHz,Minus,Auto,HRC Herriman Herriman High Schoo,Large,None,100.0 Hz,023,High,Off,Auto,Off,49 19781 505.70 UT Salt Lake Herriman Herriman High School N7HRC,1500 Hz
+271,146.64000,146.04000,600 kHz,Minus,Auto,HSW Monroe Monroe Peak,Large,Tone,100.0 Hz,023,High,Off,Auto,Off,49 239 384.22 UT Sevier Monroe Monroe Peak WA7HSW,1500 Hz
+272,446.20000,441.20000,5.00 MHz,Minus,Auto,HTL Las Vegas Blue Diamond Hill,Large,Tone,77.0 Hz,023,High,Off,Auto,Off,32 145 19.92 NV Clark Las Vegas Blue Diamond Hill W7HTL,1500 Hz
+273,446.22500,441.22500,5.00 MHz,Minus,Auto,HTL Las Vegas Blue Diamond Hill,Large,Tone,85.4 Hz,023,High,Off,Auto,Off,32 8278 19.92 NV Clark Las Vegas Blue Diamond Hill W7HTL,1500 Hz
+274,447.97500,442.97500,5.00 MHz,Minus,Auto,HTL Las Vegas Blue Diamond Hill,Large,T Sql,82.5 Hz,023,High,Off,Auto,Off,32 9514 19.92 NV Clark Las Vegas Blue Diamond Hill W7HTL,1500 Hz
+275,145.21000,144.61000,600 kHz,Minus,Auto,HVE Kingman,Large,Tone,123.0 Hz,023,High,Off,Auto,Off,4 12306 131.09 AZ Mohave Kingman KD7HVE,1500 Hz
+276,147.12000,147.72000,600 kHz,Plus,Auto,HVE Kingman,Large,Tone,123.0 Hz,023,High,Off,Auto,Off,4 5607 131.09 AZ Mohave Kingman KD7HVE,1500 Hz
+277,449.95000,444.95000,5.00 MHz,Minus,Auto,HVE Kingman,Large,None,100.0 Hz,023,High,Off,Auto,Off,4 14677 144.30 AZ Mohave Kingman KD7HVE,1500 Hz
+278,146.88000,146.28000,600 kHz,Minus,Auto,HXO Las Vegas Hi Potosi Mountain,Large,Tone,100.0 Hz,023,High,Off,Auto,Off,32 24 33.99 NV Clark Las Vegas Hi Potosi Mountain WA7HXO,1500 Hz
+279,147.94500,147.34500,600 kHz,Minus,Auto,HXO Las Vegas Red Mountain,Large,Tone,100.0 Hz,023,High,Off,Auto,Off,32 31 30.75 NV Clark Las Vegas Red Mountain WA7HXO,1500 Hz
+280,145.22000,144.62000,600 kHz,Minus,Auto,HXO Lincoln Highland Peak,Large,Tone,100.0 Hz,023,High,Off,Auto,Off,32 25 204.74 NV Lincoln Lincoln Highland Peak WA7HXO,1500 Hz
+281,146.67000,146.07000,600 kHz,Minus,Auto,HYQ Moreno Valley Civic Center,Large,Tone,123.0 Hz,023,High,Off,Auto,Off,6 380 309.86 CA Riverside Moreno Valley Civic Center WA6HYQ,1500 Hz
+282,448.85000,443.85000,5.00 MHz,Minus,Auto,HYV Pahrump,Large,Tone,127.3 Hz,023,High,Off,Auto,Off,32 143 81.31 NV Nye Pahrump N7HYV,1500 Hz
+283,440.32500,445.32500,5.00 MHz,Plus,Auto,I6V Elko,Large,None,100.0 Hz,023,High,Off,Auto,Off,32 320 527.53 NV Elko Elko KI6V,1500 Hz
+284,443.37500,448.37500,5.00 MHz,Plus,Auto,I6V Elko SnoBowl,Large,Tone,100.0 Hz,023,High,Off,Auto,Off,32 183 536.13 NV Elko Elko SnoBowl KI6V,1500 Hz
+285,449.32500,444.32500,5.00 MHz,Minus,Auto,I7D Bullhead City Spirit Mountai,Large,None,100.0 Hz,023,High,Off,Auto,Off,32 127 101.82 NV Clark Bullhead City Spirit Mountain KI7D,1500 Hz
+286,449.20000,444.20000,5.00 MHz,Minus,Auto,I7D Las Vegas Angel Peak,Large,Tone,114.8 Hz,023,High,Off,Auto,Off,32 116 42.58 NV Clark Las Vegas Angel Peak KI7D,1500 Hz
+287,449.85000,444.85000,5.00 MHz,Minus,Auto,I7D Las Vegas Angel Peak,Large,None,100.0 Hz,023,High,Off,Auto,Off,32 119 42.58 NV Clark Las Vegas Angel Peak KI7D,1500 Hz
+288,445.64000,440.64000,5.00 MHz,Minus,Auto,IFR Palm Springs Indio Hills,Large,Tone,131.8 Hz,023,High,Off,Auto,Off,6 1006 273.77 CA Riverside Palm Springs Indio Hills K6IFR,1500 Hz
+289,448.70000,443.70000,5.00 MHz,Minus,Auto,IMF Lehi Lake Mountain,Large,Tone,114.8 Hz,023,High,Off,Auto,Off,49 142 542.52 UT Salt Lake Lehi Lake Mountain N7IMF,1500 Hz
+290,447.75000,442.75000,5.00 MHz,Minus,Auto,IMS Las Vegas Lo Potosi Mountain,Large,None,100.0 Hz,023,High,Off,Auto,Off,32 332 33.84 NV Clark Las Vegas Lo Potosi Mountain N6IMS,1500 Hz
+291,448.57500,443.57500,5.00 MHz,Minus,Auto,IOD Marysvale Mt. Edna,Large,Tone,131.8 Hz,023,High,Off,Auto,Off,49 18859 356.23 UT Piute Marysvale Mt. Edna N7IOD,1500 Hz
+292,145.12000,144.52000,600 kHz,Minus,Auto,ISG Running Springs,Large,Tone,131.8 Hz,023,High,Off,Auto,Off,6 460 275.49 CA San Bernardino Running Springs WA6ISG,1500 Hz
+293,446.40000,441.40000,5.00 MHz,Minus,Auto,ITC Big Bear City,Large,Tone,162.2 Hz,023,High,Off,Auto,Off,6 970 255.43 CA San Bernardino Big Bear City WA6ITC,1500 Hz
+294,147.22500,147.82500,600 kHz,Plus,Auto,ITC Big Bear Lake,Large,Tone,162.2 Hz,023,High,Off,Auto,Off,6 7949 255.43 CA San Bernardino Big Bear Lake WA6ITC,1500 Hz
+295,447.27500,442.27500,5.00 MHz,Minus,Auto,ITS Monticello Abajo Peak,Large,Tone,100.0 Hz,023,High,Off,Auto,Off,49 18460 542.14 UT San Juan Monticello Abajo Peak KB5ITS,1500 Hz
+296,444.20000,449.20000,5.00 MHz,Plus,Auto,IWQ Spring Creek,Large,None,100.0 Hz,023,High,Off,Auto,Off,32 14856 514.09 NV Elko Spring Creek KB7IWQ,1500 Hz
+297,448.90000,443.90000,5.00 MHz,Minus,Auto,IZA Las Vegas Sunrise Mountain,Large,Tone,100.0 Hz,023,High,Off,Auto,Off,32 338 21.49 NV Clark Las Vegas Sunrise Mountain K7IZA,1500 Hz
+298,446.88000,441.88000,5.00 MHz,Minus,Auto,JAG Hemet,Large,Tone,88.5 Hz,023,High,Off,Auto,Off,6 2405 310.07 CA Riverside Hemet KB6JAG,1500 Hz
+299,146.85000,146.25000,600 kHz,Minus,Auto,JBT Crestline Skyland Peak,Large,Tone,146.2 Hz,023,High,Off,Auto,Off,6 446 283.21 CA San Bernardino Crestline Skyland Peak W6JBT,1500 Hz
+300,449.27500,444.27500,5.00 MHz,Minus,Auto,JCA Hurricane Hurricane Mesa,Large,None,100.0 Hz,023,High,Off,Auto,Off,49 10063 205.24 UT Washington Hurricane Hurricane Mesa K5JCA,1500 Hz
+301,445.87500,440.87500,5.00 MHz,Minus,Auto,JCA Las Vegas,Large,T Sql,100.0 Hz,023,High,Off,Auto,Off,32 15671 15.91 NV Clark Las Vegas W7JCA,1500 Hz
+302,447.20000,442.20000,5.00 MHz,Minus,Auto,JCY Henderson QTH,Large,None,100.0 Hz,023,High,Off,Auto,Off,32 128 17.30 NV Clark Henderson QTH W6JCY,1500 Hz
+303,449.30000,444.30000,5.00 MHz,Minus,Auto,JFO Bullhead City Spirit Mountai,Large,Tone,131.8 Hz,023,High,Off,Auto,Off,32 341 103.36 NV Clark Bullhead City Spirit Mountain N6JFO,1500 Hz
+304,449.80000,444.80000,5.00 MHz,Minus,Auto,JFO Las Vegas Angel Peak,Large,Tone,131.8 Hz,023,High,Off,Auto,Off,32 118 42.50 NV Clark Las Vegas Angel Peak N6JFO,1500 Hz
+305,446.86000,441.86000,5.00 MHz,Minus,Auto,JRM Blythe,Large,Tone,100.0 Hz,023,High,Off,Auto,Off,6 8395 285.34 CA Riverside Blythe K6JRM,1500 Hz
+306,446.86000,441.86000,5.00 MHz,Minus,Auto,JRM Hemet,Large,T Sql,100.0 Hz,023,High,Off,Auto,Off,6 5218 310.12 CA Riverside Hemet K6JRM,1500 Hz
+307,447.95000,442.95000,5.00 MHz,Minus,Auto,JSI Las Vegas Blue Diamond Hill,Large,Tone,100.0 Hz,023,High,Off,Auto,Off,32 8281 20.01 NV Clark Las Vegas Blue Diamond Hill K6JSI,1500 Hz
+308,447.40000,442.40000,5.00 MHz,Minus,Auto,JSI Pahrump,Large,Tone,100.0 Hz,023,High,Off,Auto,Off,32 3624 73.56 NV Nye Pahrump K6JSI,1500 Hz
+309,147.21000,147.81000,600 kHz,Plus,Auto,JSI Pomona Sunset Ridge,Large,Tone,100.0 Hz,023,High,Off,Auto,Off,6 2633 314.15 CA Los Angeles Pomona Sunset Ridge K6JSI,1500 Hz
+310,449.75000,444.75000,5.00 MHz,Minus,Auto,JSI Williams Bill Williams Mount,Large,Tone,123.0 Hz,023,High,Off,Auto,Off,4 8393 286.78 AZ Coconino Williams Bill Williams Mountain K6JSI,1500 Hz
+311,145.18000,144.58000,600 kHz,Minus,Auto,JTN Lucerne Valley,Large,Tone,123.0 Hz,023,High,Off,Auto,Off,6 442 247.12 CA San Bernardino Lucerne Valley KC6JTN,1500 Hz
+312,147.61500,147.01500,600 kHz,Minus,Auto,JVF Running Springs,Large,Tone,186.2 Hz,023,High,Off,Auto,Off,6 462 275.49 CA San Bernardino Running Springs KI6JVF,1500 Hz
+313,447.58000,442.58000,5.00 MHz,Minus,Auto,JZS Barstow,Large,Tone,107.2 Hz,023,High,Off,Auto,Off,6 3633 215.24 CA San Bernardino Barstow KE6JZS,1500 Hz
+314,449.50000,444.50000,5.00 MHz,Minus,Auto,KAO Pomona Sunset Ridge,Large,T Sql,100.0 Hz,023,High,Off,Auto,Off,6 984 314.15 CA Los Angeles Pomona Sunset Ridge K9KAO,1500 Hz
+315,145.36000,144.76000,600 kHz,Minus,Auto,KAO Riverside Box Springs Mounta,Large,T Sql,91.5 Hz,023,High,Off,Auto,Off,6 383 306.89 CA Riverside Riverside Box Springs Mountain K9KAO,1500 Hz
+316,447.87500,442.87500,5.00 MHz,Minus,Auto,KRY Eureka Eureka Peak,Large,None,100.0 Hz,023,High,Off,Auto,Off,49 91 502.54 UT Juab Eureka Eureka Peak KC7KRY,1500 Hz
+317,447.58000,442.58000,5.00 MHz,Minus,Auto,KSN Indio Chiriaco Smt,Large,Tone,100.0 Hz,023,High,Off,Auto,Off,6 1007 277.40 CA Riverside Indio Chiriaco Smt W6KSN,1500 Hz
+318,145.20000,144.60000,600 kHz,Minus,Auto,KTQ Juniper Hills,Large,Tone,114.8 Hz,023,High,Off,Auto,Off,6 217 311.94 CA Los Angeles Juniper Hills KD6KTQ,1500 Hz
+319,446.88000,441.88000,5.00 MHz,Minus,Auto,KTV Alta Loma,Large,Tone,103.5 Hz,023,High,Off,Auto,Off,6 7048 311.43 CA San Bernardino Alta Loma KJ6KTV,1500 Hz
+320,146.64000,146.04000,600 kHz,Minus,Auto,LHC Lake Havasu City,Large,Tone,156.7 Hz,023,High,Off,Auto,Off,4 45 197.08 AZ Mohave Lake Havasu City K7LHC,1500 Hz
+321,146.62000,146.02000,600 kHz,Minus,Auto,LHC Lake Havasu City Crossman Pe,Large,Tone,131.8 Hz,023,High,Off,Auto,Off,4 13937 195.15 AZ Mohave Lake Havasu City Crossman Peak K7LHC,1500 Hz
+322,146.70000,146.10000,600 kHz,Minus,Auto,LHC Lake Havasu City Fire Statio,Large,Tone,131.8 Hz,023,High,Off,Auto,Off,4 12624 195.64 AZ Mohave Lake Havasu City Fire Station 4 K7LHC,1500 Hz
+323,145.15000,144.55000,600 kHz,Minus,Auto,LIE Bakersfield Breckenridge Mou,Large,Tone,100.0 Hz,023,High,Off,Auto,Off,6 135 316.32 CA Kern Bakersfield Breckenridge Mountain W6LIE,1500 Hz
+324,446.88000,441.88000,5.00 MHz,Minus,Auto,LKA Redlands,Large,T DCS,100.0 Hz,131,High,Off,Auto,Off,6 19095 294.75 CA San Bernardino Redlands N6LKA,1500 Hz
+325,146.68000,146.08000,600 kHz,Minus,Auto,LKL Aguila Smith Peak,Large,Tone,162.2 Hz,023,High,Off,Auto,Off,4 50 281.59 AZ La Paz Aguila Smith Peak K7LKL,1500 Hz
+326,443.90000,448.90000,5.00 MHz,Plus,Auto,LKO Battle Mountain Mount Lewis,Large,None,100.0 Hz,023,High,Off,Auto,Off,32 171 499.11 NV Lander Battle Mountain Mount Lewis W7LKO,1500 Hz
+327,146.91000,146.31000,600 kHz,Minus,Auto,LKO Battle Mountain Mt Lewis,Large,Tone,100.0 Hz,023,High,Off,Auto,Off,32 50 499.21 NV Lander Battle Mountain Mt Lewis W7LKO,1500 Hz
+328,146.85000,146.25000,600 kHz,Minus,Auto,LKO Carlin,Large,Tone,100.0 Hz,023,High,Off,Auto,Off,32 51 542.15 NV Elko Carlin W7LKO,1500 Hz
+329,444.20000,449.20000,5.00 MHz,Plus,Auto,LKO Carlin,Large,Tone,100.0 Hz,023,High,Off,Auto,Off,32 178 517.79 NV Elko Carlin W7LKO,1500 Hz
+330,147.33000,147.93000,600 kHz,Plus,Auto,LKO Elko,Large,Tone,100.0 Hz,023,High,Off,Auto,Off,32 56 527.10 NV Elko Elko KE7LKO,1500 Hz
+331,442.05000,447.05000,5.00 MHz,Plus,Auto,LKO Elko,Large,Tone,100.0 Hz,023,High,Off,Auto,Off,32 182 527.10 NV Elko Elko W7LKO,1500 Hz
+332,444.80000,449.80000,5.00 MHz,Plus,Auto,LKO Elko,Large,None,100.0 Hz,023,High,Off,Auto,Off,32 9524 527.10 NV Elko Elko W7LKO,1500 Hz
+333,444.95000,449.95000,5.00 MHz,Plus,Auto,LKO Elko,Large,Tone,100.0 Hz,023,High,Off,Auto,Off,32 179 526.42 NV Elko Elko W7LKO,1500 Hz
+334,449.75000,444.75000,5.00 MHz,Minus,Auto,LKO Elko,Large,None,100.0 Hz,023,High,Off,Auto,Off,32 186 527.10 NV Elko Elko W7LKO,1500 Hz
+335,444.70000,449.70000,5.00 MHz,Plus,Auto,LKO Elko Adobe Summit,Large,None,100.0 Hz,023,High,Off,Auto,Off,32 185 534.39 NV Elko Elko Adobe Summit W7LKO,1500 Hz
+336,147.21000,147.81000,600 kHz,Plus,Auto,LKO Elko Lamoille Summit,Large,Tone,100.0 Hz,023,High,Off,Auto,Off,32 52 526.42 NV Elko Elko Lamoille Summit W7LKO,1500 Hz
+337,147.73500,147.13500,600 kHz,Minus,Auto,LLU Loma Linda LLUMC,Large,Tone,118.8 Hz,023,High,Off,Auto,Off,6 454 298.21 CA San Bernardino Loma Linda LLUMC K6LLU,1500 Hz
+338,445.60000,440.60000,5.00 MHz,Minus,Auto,LLU Loma Linda LLUMC,Large,Tone,118.8 Hz,023,High,Off,Auto,Off,6 1016 297.34 CA San Bernardino Loma Linda LLUMC K6LLU,1500 Hz
+339,146.62000,146.02000,600 kHz,Minus,Auto,LOQ Yarnell Yarnell Hill,Large,T Sql,162.2 Hz,023,High,Off,Auto,Off,4 11622 306.68 AZ Yavapai Yarnell Yarnell Hill N7LOQ,1500 Hz
+340,447.22500,442.22500,5.00 MHz,Minus,Auto,LXX Las Vegas Low Potosi,Large,T Sql,110.9 Hz,023,High,Off,Auto,Off,32 15222 318.47 NV Clark Las Vegas Low Potosi N6LXX,1500 Hz
+341,446.88000,441.88000,5.00 MHz,Minus,Auto,LXX Onyx Onyx Peak,Large,T Sql,110.9 Hz,023,High,Off,Auto,Off,6 15173 255.35 CA San Bernardino Onyx Onyx Peak N6LXX,1500 Hz
+342,446.86000,441.86000,5.00 MHz,Minus,Auto,LXX Wrightwood Blue Ridge,Large,Tone,110.9 Hz,023,High,Off,Auto,Off,6 2741 300.18 CA Los Angeles Wrightwood Blue Ridge N6LXX,1500 Hz
+343,446.80000,441.80000,5.00 MHz,Minus,Auto,LXX Yermo,Large,T Sql,110.9 Hz,023,High,Off,Auto,Off,6 15215 201.87 CA San Bernardino Yermo N6LXX,1500 Hz
+344,147.36000,147.96000,600 kHz,Plus,Auto,MIA Kingman,Large,Tone,123.0 Hz,023,High,Off,Auto,Off,4 14244 146.50 AZ Mohave Kingman KD7MIA,1500 Hz
+345,147.24000,147.84000,600 kHz,Plus,Auto,MPR Kingman Hualapai Mtn,Large,Tone,123.0 Hz,023,High,Off,Auto,Off,4 12319 164.05 AZ Mohave Kingman Hualapai Mtn K7MPR,1500 Hz
+346,448.55000,443.55000,5.00 MHz,Minus,Auto,MPR Kingman Hualapai Mtn,Large,Tone,123.0 Hz,023,High,Off,Auto,Off,4 6882 164.05 AZ Mohave Kingman Hualapai Mtn K7MPR,1500 Hz
+347,448.60000,443.60000,5.00 MHz,Minus,Auto,MPR Lake Havasu City Lake Havasu,Large,Tone,123.0 Hz,023,High,Off,Auto,Off,4 12301 197.08 AZ Mohave Lake Havasu City Lake Havasu K7MPR,1500 Hz
+348,146.82000,146.22000,600 kHz,Minus,Auto,MPR Laughlin Spirit Mountain,Large,T Sql,123.0 Hz,023,High,Off,Auto,Off,32 11054 103.39 NV Clark Laughlin Spirit Mountain K7MPR,1500 Hz
+349,147.00000,147.60000,600 kHz,Plus,Auto,MRG Cottonwood Mingus Mountain,Large,T Sql,162.2 Hz,023,High,Off,Auto,Off,4 101 318.04 AZ Yavapai Cottonwood Mingus Mountain K7MRG,1500 Hz
+350,145.34000,144.74000,600 kHz,Minus,Auto,MRN Palm Desert Santa Rosa Peak,Large,Tone,107.2 Hz,023,High,Off,Auto,Off,6 361 309.19 CA Riverside Palm Desert Santa Rosa Peak N6MRN,1500 Hz
+351,447.48000,442.48000,5.00 MHz,Minus,Auto,MRN Pine Cove,Large,T Sql,156.7 Hz,023,High,Off,Auto,Off,6 3107 298.07 CA Riverside Pine Cove N6MRN,1500 Hz
+352,447.85000,442.85000,5.00 MHz,Minus,Auto,MSS Las Vegas Apex Mountain,Large,Tone,127.3 Hz,023,High,Off,Auto,Off,32 141 31.65 NV Clark Las Vegas Apex Mountain KD5MSS,1500 Hz
+353,146.70000,146.10000,600 kHz,Minus,Auto,MTZ Newberry Springs,Large,None,100.0 Hz,023,High,Off,Auto,Off,6 456 198.29 CA San Bernardino Newberry Springs WA6MTZ,1500 Hz
+354,448.22500,443.22500,5.00 MHz,Minus,Auto,MVI Eureka Eureka Peak,Large,Tone,146.2 Hz,023,High,Off,Auto,Off,49 92 502.54 UT Juab Eureka Eureka Peak KC7MVI,1500 Hz
+355,147.39000,147.99000,600 kHz,Plus,Auto,MVR Logandale Beacon Hill,Large,T Sql,100.0 Hz,023,High,Off,Auto,Off,32 3610 86.30 NV Clark Logandale Beacon Hill W7MVR,1500 Hz
+356,146.78000,146.18000,600 kHz,Minus,Auto,NAZ Williams Bill Williams Mount,Large,Tone,91.5 Hz,023,High,Off,Auto,Off,4 65 286.87 AZ Coconino Williams Bill Williams Mountain K7NAZ,1500 Hz
+357,448.25000,443.25000,5.00 MHz,Minus,Auto,NDI Las Vegas QTH,Large,None,100.0 Hz,023,High,Off,Auto,Off,32 162 10.99 NV Clark Las Vegas QTH N8NDI,1500 Hz
+358,445.37500,440.37500,5.00 MHz,Minus,Auto,NJJ Las Vegas CSN Henderson,Large,T Sql,107.2 Hz,023,High,Off,Auto,Off,32 13959 22.06 NV Clark Las Vegas CSN Henderson N4NJJ,1500 Hz
+359,147.16000,147.76000,600 kHz,Plus,Auto,NKK Panguitch Mount Dutton,Large,Tone,100.0 Hz,023,High,Off,Auto,Off,49 148 337.12 UT Garfield Panguitch Mount Dutton N7NKK,1500 Hz
+360,147.76500,147.16500,600 kHz,Minus,Auto,NLG Victorville,Large,Tone,97.4 Hz,023,High,Off,Auto,Off,6 8773 260.25 CA San Bernardino Victorville KJ6NLG,1500 Hz
+361,447.10000,442.10000,5.00 MHz,Minus,Auto,NLS Kingman Hualapai Peak,Large,Tone,100.0 Hz,023,High,Off,Auto,Off,4 12918 162.05 AZ Mohave Kingman Hualapai Peak KA6NLS,1500 Hz
+362,449.85000,444.85000,5.00 MHz,Minus,Auto,NRC Kanab,Large,None,100.0 Hz,023,High,Off,Auto,Off,49 207 258.03 UT Kane Kanab W7NRC,1500 Hz
+363,146.88000,146.28000,600 kHz,Minus,Auto,NRC Kanab TV Site,Large,Tone,123.0 Hz,023,High,Off,Auto,Off,49 205 259.23 UT Kane Kanab TV Site W7NRC,1500 Hz
+364,147.19500,147.79500,600 kHz,Plus,Auto,NVY Victorville Quartzite Mounta,Large,Tone,141.3 Hz,023,High,Off,Auto,Off,6 2732 254.40 CA San Bernardino Victorville Quartzite Mountain W6NVY,1500 Hz
+365,147.85500,147.25500,600 kHz,Minus,Auto,NVY Victorville Quartzite Mounta,Large,Tone,186.2 Hz,023,High,Off,Auto,Off,6 452 254.47 CA San Bernardino Victorville Quartzite Mountain W6NVY,1500 Hz
+366,449.70000,444.70000,5.00 MHz,Minus,Auto,NVY Victorville Quartzite Mounta,Large,Tone,141.3 Hz,023,High,Off,Auto,Off,6 2731 254.47 CA San Bernardino Victorville Quartzite Mountain W6NVY,1500 Hz
+367,145.13000,144.53000,600 kHz,Minus,Auto,NYE Pahrump,Large,Tone,100.0 Hz,023,High,Off,Auto,Off,32 8286 86.33 NV Nye Pahrump W7NYE,1500 Hz
+368,145.49000,144.89000,600 kHz,Minus,Auto,NYE Pahrump,Large,Tone,123.0 Hz,023,High,Off,Auto,Off,32 17899 86.51 NV Nye Pahrump W7NYE,1500 Hz
+369,447.70000,442.70000,5.00 MHz,Minus,Auto,NYE Pahrump Desert View Reg Med,Large,Tone,123.0 Hz,023,High,Off,Auto,Off,32 148 77.30 NV Nye Pahrump Desert View Reg Med Ctr W7NYE,1500 Hz
+370,147.03000,147.63000,600 kHz,Plus,Auto,NYK Pahrump,Large,Tone,100.0 Hz,023,High,Off,Auto,Off,32 30 74.27 NV Nye Pahrump W6NYK,1500 Hz
+371,449.45000,444.45000,5.00 MHz,Minus,Auto,O3B Las Vegas,Large,Tone,100.0 Hz,023,High,Off,Auto,Off,32 10820 0.02 NV Clark Las Vegas WO3B,1500 Hz
+372,443.85000,448.85000,5.00 MHz,Plus,Auto,O7G Carlin Mary's Mountain,Large,None,100.0 Hz,023,High,Off,Auto,Off,32 14857 517.79 NV Elko Carlin Mary's Mountain KO7G,1500 Hz
+373,449.70000,444.70000,5.00 MHz,Minus,Auto,O7R Cedar Fort Internet Mountain,Large,Tone,127.3 Hz,023,High,Off,Auto,Off,49 10180 539.61 UT Utah Cedar Fort Internet Mountain KO7R,1500 Hz
+374,449.35000,444.35000,5.00 MHz,Minus,Auto,OET St George Utah Hill,Large,T Sql,100.0 Hz,023,High,Off,Auto,Off,49 11333 163.25 UT Washington St George Utah Hill K7OET,1500 Hz
+375,147.64500,147.04500,600 kHz,Minus,Auto,OKB Big Bear Lake,Large,Tone,103.5 Hz,023,High,Off,Auto,Off,6 444 261.19 CA San Bernardino Big Bear Lake KC6OKB,1500 Hz
+376,446.50000,441.50000,5.00 MHz,Minus,Auto,OKD Bunkerville,Large,Tone,136.5 Hz,023,High,Off,Auto,Off,32 19652 118.63 NV Clark Bunkerville N7OKD,1500 Hz
+377,147.30000,147.90000,600 kHz,Plus,Auto,OLD Hesperia,Large,Tone,91.5 Hz,023,High,Off,Auto,Off,6 451 269.31 CA San Bernardino Hesperia KA6OLD,1500 Hz
+378,447.20000,442.20000,5.00 MHz,Minus,Auto,ONT Rancho Cucamonga,Large,Tone,114.8 Hz,023,High,Off,Auto,Off,6 995 313.49 CA San Bernardino Rancho Cucamonga K6ONT,1500 Hz
+379,447.65000,442.65000,5.00 MHz,Minus,Auto,OPJ Henderson,Large,Tone,123.0 Hz,023,High,Off,Auto,Off,32 3554 19.17 NV Clark Henderson KE7OPJ,1500 Hz
+380,447.00000,442.00000,5.00 MHz,Minus,Auto,OPU Hesperia,Large,Tone,136.5 Hz,023,High,Off,Auto,Off,6 1035 272.16 CA San Bernardino Hesperia KC6OPU,1500 Hz
+381,442.52500,447.52500,5.00 MHz,Plus,Auto,PAT Prescott,Large,Tone,114.8 Hz,023,High,Off,Auto,Off,4 238 296.87 AZ Yavapai Prescott W6PAT,1500 Hz
+382,448.95000,443.95000,5.00 MHz,Minus,Auto,PFK Bullhead City,Large,Tone,123.0 Hz,023,High,Off,Auto,Off,4 13002 120.65 AZ Mohave Bullhead City K7PFK,1500 Hz
+383,449.25000,444.25000,5.00 MHz,Minus,Auto,POF Chino Valley,Large,Tone,192.8 Hz,023,High,Off,Auto,Off,4 9796 288.33 AZ Yavapai Chino Valley K7POF,1500 Hz
+384,147.06000,147.66000,600 kHz,Plus,Auto,PVG Tehachapi,Large,None,100.0 Hz,023,High,Off,Auto,Off,6 190 315.52 CA Kern Tehachapi W6PVG,1500 Hz
+385,447.10000,442.10000,5.00 MHz,Minus,Auto,QEQ Monticello Abajo Peak,Large,T Sql,107.2 Hz,023,High,Off,Auto,Off,49 124 542.21 UT San Juan Monticello Abajo Peak K7QEQ,1500 Hz
+386,146.76000,146.16000,600 kHz,Minus,Auto,QLT Cathedral City Palm Springs,Large,Tone,107.2 Hz,023,High,Off,Auto,Off,6 13336 283.10 CA Riverside Cathedral City Palm Springs KD6QLT,1500 Hz
+387,144.93000,147.58500,,Plus,Auto,QLT Palm Springs,Large,Tone,107.2 Hz,023,High,Off,Auto,Off,6 379 283.06 CA Riverside Palm Springs KD6QLT,1500 Hz
+388,448.25000,443.25000,5.00 MHz,Minus,Auto,QWU Payson West Mountain,Large,Tone,100.0 Hz,023,High,Off,Auto,Off,49 125 530.44 UT Utah Payson West Mountain N6QWU,1500 Hz
+389,448.05000,443.05000,5.00 MHz,Minus,Auto,QYX Las Vegas,Large,Tone,123.0 Hz,023,High,Off,Auto,Off,32 8423 11.13 NV Clark Las Vegas KF6QYX,1500 Hz
+390,146.02500,146.62500,600 kHz,Plus,Auto,R6P Cactus City,Large,Tone,107.2 Hz,023,High,Off,Auto,Off,6 366 280.33 CA Riverside Cactus City NR6P,1500 Hz
 391,449.32500,444.32500,5.00 MHz,Minus,Auto,R7K St George,Large,None,100.0 Hz,023,High,Off,Auto,Off,49 172 163.12 UT Washington St George NR7K,1500 Hz
 392,146.91000,146.31000,600 kHz,Minus,Auto,R7K St George Seegmiller Peak,Large,Tone,100.0 Hz,023,High,Off,Auto,Off,49 175 170.90 UT Washington St George Seegmiller Peak NR7K,1500 Hz
 393,146.82000,146.22000,600 kHz,Minus,Auto,R7K St George Utah Hill,Large,Tone,100.0 Hz,023,High,Off,Auto,Off,49 173 163.17 UT Washington St George Utah Hill NR7K,1500 Hz

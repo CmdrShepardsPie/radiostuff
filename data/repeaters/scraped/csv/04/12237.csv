@@ -1,2 +1,2 @@
-Frequency,Offset,Tone,Call,Location,ST/PR,Use,Mode,Mi,Dir,,state_id,ID
-1299,0,,W7KDS,Kingman,AZ,OPEN,DSTAR,91.17,SE,,04,12237
+Frequency,Offset,Tone,Call,Location,ST/PR,Use,Mode,Mi,Dir,,state_id,ID,Latitude,Longitude,D-STAR Enabled,Node,Sources,County,Grid,Op Status,Sponsor,Features,Web links,Last update
+1299,0,,W7KDS,Kingman,AZ,OPEN,DSTAR,91.17,SE,,04,12237,35.18939972,-114.0530014,1,W7KDS (A) Gateway Repeater,jfindu lookup / dstar-users lookup,Mohave,DM25XE,On-Air,Northern Arizona Digital Repeater System,Emergency Power,W7KDS,2021-02-19

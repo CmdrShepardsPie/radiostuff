@@ -9,7 +9,20 @@
   "Mode": "AllStar EchoLink",
   "Mi": 191.66,
   "Dir": "NNW",
-  "": "",
+  "": "ON - IDLE",
   "state_id": "56",
-  "ID": "19352"
+  "ID": "19352",
+  "Latitude": 43.02496,
+  "Longitude": -108.380104,
+  "County": "Fremont",
+  "Grid": "DN53TA",
+  "Op Status": "On-Air",
+  "Coverage": 0.5,
+  "Features": "Allstar and Echolink",
+  "EchoLink": 639351,
+  "AllStar": 46381,
+  "Commands": "Allstar *3 then node number to connect. *1 then node number to disconnect. EchoLink *33 then echolink node number to connect. 73 for disconnect.",
+  "Notes": "All hams are welcome to use and change connections. Enjoy!",
+  "Nets": "Usually connected to Hub 47178.",
+  "Last update": "2021-04-29"
 }

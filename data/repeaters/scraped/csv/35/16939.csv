@@ -1,2 +1,2 @@
-Frequency,Offset,Tone,Call,Location,ST/PR,Use,Mode,Mi,Dir,,state_id,ID
-145.01,0,,W5SCA,"Albuquerque, Sandia Crest",NM,OPEN,FM,187.45,SW,,35,16939
+Frequency,Offset,Tone,Call,Location,ST/PR,Use,Mode,Mi,Dir,,state_id,ID,Latitude,Longitude,County,On-air,Coverage,Sponsor,Features,Mixed-Mode,Analog Bandwidth,Last update
+145.01,0,,W5SCA,"Albuquerque, Sandia Crest",NM,OPEN,FM,187.45,SW,,35,16939,35.08440018,-106.65000153,Bernalillo,Unknown,wide-area,Sandoval County Amateur Radio Emergency Service,Packet node W5SCA-11,Yes; analog capable.,,2018-04-04

@@ -11,5 +11,15 @@
   "Dir": "SW",
   "": "",
   "state_id": "32",
-  "ID": "303"
+  "ID": "303",
+  "Latitude": 35.8932991,
+  "Longitude": -115.49500275,
+  "County": "Clark",
+  "Grid": "DM25GV",
+  "Op Status": "On-Air",
+  "Mixed-Mode": "Yes; analog capable.",
+  "Analog Bandwidth": "",
+  "Notes": "Simplex packet digi-peater.",
+  "Web links": "http://www.w7pho.com/w7eb.htm",
+  "Last update": "2015-02-24"
 }

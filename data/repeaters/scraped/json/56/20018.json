@@ -11,5 +11,17 @@
   "Dir": "NNW",
   "": "",
   "state_id": "56",
-  "ID": "20018"
+  "ID": "20018",
+  "Latitude": 43.032335,
+  "Longitude": -108.38063,
+  "YSF Digital Enabled": true,
+  "DG-ID": "Open ↑ / Open ↓",
+  "County": "Fremont",
+  "Grid": "DN53TA",
+  "Op Status": "On-Air",
+  "Coverage": "Riverton area. 25 mi radius.",
+  "Features": "WIRES-X (C4FM)",
+  "Commands": "This is Wires X only simplex node. NOT a YSF node.",
+  "Notes": "This is an OPEN Wires X simplex node. 40 watts. Feel free to use all you wish. Non locals use room #46720 Wyoming-Overland to link in.",
+  "Last update": "2021-05-05"
 }

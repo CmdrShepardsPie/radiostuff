@@ -11,5 +11,15 @@
   "Dir": "SW",
   "": "",
   "state_id": "35",
-  "ID": "16939"
+  "ID": "16939",
+  "Latitude": 35.08440018,
+  "Longitude": -106.65000153,
+  "County": "Bernalillo",
+  "On-air": "Unknown",
+  "Coverage": "wide-area",
+  "Sponsor": "Sandoval County Amateur Radio Emergency Service",
+  "Features": "Packet node W5SCA-11",
+  "Mixed-Mode": "Yes; analog capable.",
+  "Analog Bandwidth": "",
+  "Last update": "2018-04-04"
 }

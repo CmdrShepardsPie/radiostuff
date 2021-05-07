@@ -1,2 +1,2 @@
-Frequency,Offset,Tone,Call,Location,ST/PR,Use,Mode,Mi,Dir,,state_id,ID
-223.58,0,,W7EB,Las Vegas,NV,OPEN,FM,27.55,SW,,32,303
+Frequency,Offset,Tone,Call,Location,ST/PR,Use,Mode,Mi,Dir,,state_id,ID,Latitude,Longitude,County,Grid,Op Status,Mixed-Mode,Analog Bandwidth,Notes,Web links,Last update
+223.58,0,,W7EB,Las Vegas,NV,OPEN,FM,27.55,SW,,32,303,35.8932991,-115.49500275,Clark,DM25GV,On-Air,Yes; analog capable.,,Simplex packet digi-peater.,http://www.w7pho.com/w7eb.htm,2015-02-24

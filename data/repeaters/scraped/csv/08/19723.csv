@@ -1,2 +1,2 @@
-Frequency,Offset,Tone,Call,Location,ST/PR,Use,Mode,Mi,Dir,,state_id,ID
-147.42,0,100,W5ALC,Pueblo,CO,OPEN,FM AllStar,176.53,SW,,08,19723
+Frequency,Offset,Tone,Call,Location,ST/PR,Use,Mode,Mi,Dir,,state_id,ID,Latitude,Longitude,Bandwidth,County,Grid,Op Status,Coverage,Mixed-Mode,Analog Bandwidth,AllStar,Commands,Notes,Last update
+147.42,0,100,W5ALC,Pueblo,CO,OPEN,FM AllStar,176.53,SW,,08,19723,38.2859715,-104.5753063,25,Pueblo,DM78RG,On-Air,5,Yes; analog capable.,25,49947,*3 + any allstar node number to connect *1 + allstar node number to disconnect,Node 499470,2021-02-05

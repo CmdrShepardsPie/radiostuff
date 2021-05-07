@@ -3,11 +3,14 @@
   "StateID": 16,
   "Callsign": "KF7FY",
   "Location": {
+    "Latitude": 42.87129974,
+    "Longitude": -112.44599915,
+    "County": "Bannock",
     "State": "ID",
     "Local": "Pocatello"
   },
   "Use": "Open",
-  "Status": "Other",
+  "Status": "On-Air",
   "Frequency": {
     "Input": 147.52,
     "Output": 147.52
@@ -16,7 +19,11 @@
     "Input": 123
   },
   "VOIP": {
-    "EchoLink": {},
-    "IRLP": {}
+    "EchoLink": {
+      "NodeID": 520814
+    },
+    "IRLP": {
+      "NodeID": 3568
+    }
   }
 }

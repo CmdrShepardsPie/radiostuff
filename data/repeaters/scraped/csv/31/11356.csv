@@ -1,2 +1,2 @@
-Frequency,Offset,Tone,Call,Location,ST/PR,Use,Mode,Mi,Dir,,state_id,ID
-445.1,0,100,WD0BQM,Mitchell,NE,OPEN,FM IRLP,153.45,NNW,,31,11356
+Frequency,Offset,Tone,Call,Location,ST/PR,Use,Mode,Mi,Dir,,state_id,ID,Latitude,Longitude,County,Grid,Op Status,Mixed-Mode,Analog Bandwidth,IRLP,Notes,Last update
+445.1,0,100,WD0BQM,Mitchell,NE,OPEN,FM IRLP,153.45,NNW,,31,11356,41.95100021,-103.80000305,Scotts Bluff,DN81CW,On-Air,Yes; analog capable.,,3942,This is a simplex IRLP node.,2014-04-17

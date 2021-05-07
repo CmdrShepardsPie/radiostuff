@@ -1,2 +1,2 @@
-Frequency,Offset,Tone,Call,Location,ST/PR,Use,Mode,Mi,Dir,,state_id,ID
-51.5,0,100,KF5PFO,"Taos, Picuris Peak",NM,OPEN,FM,130.85,S,,35,15606
+Frequency,Offset,Tone,Call,Location,ST/PR,Use,Mode,Mi,Dir,,state_id,ID,Latitude,Longitude,County,Op Status,Sponsor,Mixed-Mode,Analog Bandwidth,Web links,Last update
+51.5,0,100,KF5PFO,"Taos, Picuris Peak",NM,OPEN,FM,130.85,S,,35,15606,36.24700165,-105.65499878,Taos,On-Air,Taos ARC,Yes; analog capable.,,Taos Amateur Radio Club,2017-08-27

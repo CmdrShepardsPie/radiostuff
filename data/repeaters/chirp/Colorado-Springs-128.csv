@@ -37,15 +37,15 @@ Location,Name,Frequency,Duplex,Offset,Tone,rToneFreq,cToneFreq,DtcsCode,DtcsRxCo
 35,0TP Colorado Springs,146.85,split,146.25,Cross,156.7,103.5,23,23,NN,FM,5,8 42 4.97 CO El Paso Colorado Springs AD0TP
 36,0TP Falcon,447.775,split,442.775,TSQL,156.7,156.7,23,23,NN,FM,5,8 19957 18.05 CO El Paso Falcon AD0TP
 37,0TX Idaho Springs Centennial Con,145.49,split,144.89,TSQL,100,100,23,23,NN,FM,5,8 76 110.13 CO Jefferson Idaho Springs Centennial Cone W0TX
-38,0TX Idaho Springs Squaw Mountain,449.35,split,444.35,TSQL,100,100,23,23,NN,FM,5,8 98 110.13 CO Clear Creek Idaho Springs Squaw Mountain W0TX
-39,0TX Lakewood Green Mountain,147.33,split,147.93,Tone,100,100,23,23,NN,FM,5,8 85 97.53 CO Jefferson Lakewood Green Mountain W0TX
-40,0TX Lakewood Green Mountain,224.38,split,222.78,TSQL,100,100,23,23,NN,FM,5,8 267 97.53 CO Jefferson Lakewood Green Mountain W0TX
-41,0TX Lakewood St Anthony Medical,447.825,split,442.825,DTCS,100,100,73,73,NN,FM,5,8 5805 100.82 CO Jefferson Lakewood St Anthony Medical Campus W0TX
-42,0WF Colorado Springs,447.025,split,442.025,Tone,123,123,23,23,NN,FM,5,8 49 2.23 CO El Paso Colorado Springs KF0WF
-43,9SL Aurora,449.95,split,444.95,TSQL,77,77,23,23,NN,FM,5,8 8743 98.25 CO Arapahoe Aurora W9SL
-44,A0L Colorado Springs,147.135,split,147.735,Tone,100,100,23,23,NN,FM,5,8 8176 0.72 CO El Paso Colorado Springs AA0L
-45,A0L Colorado Springs,448.3,split,443.3,Tone,100,100,23,23,NN,FM,5,8 8200 2.23 CO El Paso Colorado Springs AA0L
-46,AEN Idaho Springs Squaw Mountain,449,split,444,TSQL,136.5,136.5,23,23,NN,FM,5,8 8250 108.99 CO Clear Creek Idaho Springs Squaw Mountain WR0AEN
+38,0TX Lakewood Green Mountain,147.33,split,147.93,Tone,100,100,23,23,NN,FM,5,8 85 97.53 CO Jefferson Lakewood Green Mountain W0TX
+39,0TX Lakewood Green Mountain,224.38,split,222.78,TSQL,100,100,23,23,NN,FM,5,8 267 97.53 CO Jefferson Lakewood Green Mountain W0TX
+40,0TX Lakewood St Anthony Medical,447.825,split,442.825,DTCS,100,100,73,73,NN,FM,5,8 5805 100.82 CO Jefferson Lakewood St Anthony Medical Campus W0TX
+41,0WF Colorado Springs,447.025,split,442.025,Tone,123,123,23,23,NN,FM,5,8 49 2.23 CO El Paso Colorado Springs KF0WF
+42,9SL Aurora,449.95,split,444.95,TSQL,77,77,23,23,NN,FM,5,8 8743 98.25 CO Arapahoe Aurora W9SL
+43,A0L Colorado Springs,147.135,split,147.735,Tone,100,100,23,23,NN,FM,5,8 8176 0.72 CO El Paso Colorado Springs AA0L
+44,A0L Colorado Springs,448.3,split,443.3,Tone,100,100,23,23,NN,FM,5,8 8200 2.23 CO El Paso Colorado Springs AA0L
+45,AEN Idaho Springs Squaw Mountain,449,split,444,TSQL,136.5,136.5,23,23,NN,FM,5,8 8250 108.99 CO Clear Creek Idaho Springs Squaw Mountain WR0AEN
+46,ALC Pueblo,147.42,,147.42,Tone,100,100,23,23,NN,FM,5,8 19723 65.29 CO Pueblo Pueblo W5ALC
 47,ARA Critchell Critchell Mountain,147.12,split,147.72,TSQL,88.5,88.5,23,23,NN,FM,5,8 59 88.29 CO Jefferson Critchell Critchell Mountain N0ARA
 48,CFI Idaho Springs Squaw Mountain,448.675,split,443.675,TSQL,100,100,23,23,NN,FM,5,8 94 109.75 CO Denver Idaho Springs Squaw Mountain W0CFI
 49,CGQ Querida,449.675,split,444.675,Tone,88.5,88.5,23,23,NN,FM,5,8 18872 92.59 CO Custer Querida K0CGQ

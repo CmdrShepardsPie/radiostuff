@@ -1,7 +1,7 @@
 {
   "Frequency": 446.3,
   "Offset": 0,
-  "Tone": "CSQ / CSQ",
+  "Tone": "CSQ",
   "Call": "",
   "Location": "Chadron",
   "ST/PR": "NE",
@@ -11,5 +11,13 @@
   "Dir": "NNW",
   "": "",
   "state_id": "31",
-  "ID": "17082"
+  "ID": "17082",
+  "Latitude": 42.82939911,
+  "Longitude": -103,
+  "County": "Dawes",
+  "Op Status": "On-Air",
+  "Mixed-Mode": "Yes; analog capable.",
+  "Analog Bandwidth": "",
+  "Notes": "Simplex link for the 147.360 in Chadron",
+  "Last update": "2018-07-06"
 }

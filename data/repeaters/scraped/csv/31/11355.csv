@@ -1,2 +1,2 @@
-Frequency,Offset,Tone,Call,Location,ST/PR,Use,Mode,Mi,Dir,,state_id,ID
-146.445,0,88.5,AG0N,Scottsbluff,NE,OPEN,FM IRLP,144.24,NNW,,31,11355
+Frequency,Offset,Tone,Call,Location,ST/PR,Use,Mode,Mi,Dir,,state_id,ID,Latitude,Longitude,County,Op Status,Coverage,Mixed-Mode,Analog Bandwidth,IRLP,Commands,Notes,Web links,Last update
+146.445,0,88.5,AG0N,Scottsbluff,NE,OPEN,FM IRLP,144.24,NNW,,31,11355,41.90399933,-103.55799866,Scotts Bluff,On-Air,,Yes; analog capable.,,3055,Access pre-fix = 5,This is a simplex IRLP node. 147.285 rptr is down. 3055 is directly accessed on 146.445 w/88.5 tone. Controlled access. Contact AG0N for access. 147.435/123PL Scottsbluff node 8930 available 24/7 no access code.,http://garymcduffie.com,2015-03-16

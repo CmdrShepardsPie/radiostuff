@@ -13,13 +13,13 @@ Channel Number,Receive Frequency,Transmit Frequency,Offset Frequency,Offset Dire
 12,146.65500,146.05500,600 kHz,-DUP,FM,0ST Pueblo Pueblo,Tone,123.0 Hz,123.0 Hz,023,Both N,Off,8 192 154.39 CO Pueblo Pueblo Pueblo K0ST,,,,,,Filter 1,,,None,88.5 Hz,88.5 Hz,023,Both N,Filter 1,FM
 13,146.85000,146.25000,600 kHz,-DUP,FM,0TP Colorado Springs,Tone,156.7 Hz,103.5 Hz,023,Both N,Off,8 42 88.27 CO El Paso Colorado Springs AD0TP,,,,,,Filter 1,,,None,88.5 Hz,88.5 Hz,023,Both N,Filter 1,FM
 14,447.77500,442.77500,5.00 MHz,-DUP,FM,0TP Falcon,T Sql,156.7 Hz,156.7 Hz,023,Both N,Off,8 19957 83.96 CO El Paso Falcon AD0TP,,,,,,Filter 1,,,None,88.5 Hz,88.5 Hz,023,Both N,Filter 1,FM
-15,447.15000,442.15000,5.00 MHz,-DUP,FM,0VQ Carbondale Missouri Heights,Tone,136.5 Hz,136.5 Hz,023,Both N,Off,8 6009 185.32 CO Garfield Carbondale Missouri Heights K0VQ,,,,,,Filter 1,,,None,88.5 Hz,88.5 Hz,023,Both N,Filter 1,FM
-16,447.02500,442.02500,5.00 MHz,-DUP,FM,0WF Colorado Springs,Tone,123.0 Hz,123.0 Hz,023,Both N,Off,8 49 87.81 CO El Paso Colorado Springs KF0WF,,,,,,Filter 1,,,None,88.5 Hz,88.5 Hz,023,Both N,Filter 1,FM
-17,447.72500,442.72500,5.00 MHz,-DUP,FM,7RF Fort Collins,Tone,131.8 Hz,131.8 Hz,023,Both N,Off,8 8194 98.32 CO Larimer Fort Collins W7RF,,,,,,Filter 1,,,None,88.5 Hz,88.5 Hz,023,Both N,Filter 1,FM
-18,147.13500,147.73500,600 kHz,+DUP,FM,A0L Colorado Springs,Tone,100.0 Hz,100.0 Hz,023,Both N,Off,8 8176 87.43 CO El Paso Colorado Springs AA0L,,,,,,Filter 1,,,None,88.5 Hz,88.5 Hz,023,Both N,Filter 1,FM
-19,448.30000,443.30000,5.00 MHz,-DUP,FM,A0L Colorado Springs,Tone,100.0 Hz,100.0 Hz,023,Both N,Off,8 8200 87.81 CO El Paso Colorado Springs AA0L,,,,,,Filter 1,,,None,88.5 Hz,88.5 Hz,023,Both N,Filter 1,FM
-20,449.32500,444.32500,5.00 MHz,-DUP,DV,AEN Greeley,Tone,136.5 Hz,136.5 Hz,023,Both N,Off,8 8210 91.97 CO Weld Greeley WR0AEN,,,CQCQCQ,WR0AEN B,WR0AEN G,Filter 1,,,None,88.5 Hz,88.5 Hz,023,Both N,Filter 1,FM
-21,449.90000,444.90000,5.00 MHz,-DUP,FM,AFO Vail,T Sql,107.2 Hz,107.2 Hz,023,Both N,Off,8 243 121.91 CO Eagle Vail N0AFO,,,,,,Filter 1,,,None,88.5 Hz,88.5 Hz,023,Both N,Filter 1,FM
+15,447.02500,442.02500,5.00 MHz,-DUP,FM,0WF Colorado Springs,Tone,123.0 Hz,123.0 Hz,023,Both N,Off,8 49 87.81 CO El Paso Colorado Springs KF0WF,,,,,,Filter 1,,,None,88.5 Hz,88.5 Hz,023,Both N,Filter 1,FM
+16,447.72500,442.72500,5.00 MHz,-DUP,FM,7RF Fort Collins,Tone,131.8 Hz,131.8 Hz,023,Both N,Off,8 8194 98.32 CO Larimer Fort Collins W7RF,,,,,,Filter 1,,,None,88.5 Hz,88.5 Hz,023,Both N,Filter 1,FM
+17,147.13500,147.73500,600 kHz,+DUP,FM,A0L Colorado Springs,Tone,100.0 Hz,100.0 Hz,023,Both N,Off,8 8176 87.43 CO El Paso Colorado Springs AA0L,,,,,,Filter 1,,,None,88.5 Hz,88.5 Hz,023,Both N,Filter 1,FM
+18,448.30000,443.30000,5.00 MHz,-DUP,FM,A0L Colorado Springs,Tone,100.0 Hz,100.0 Hz,023,Both N,Off,8 8200 87.81 CO El Paso Colorado Springs AA0L,,,,,,Filter 1,,,None,88.5 Hz,88.5 Hz,023,Both N,Filter 1,FM
+19,449.32500,444.32500,5.00 MHz,-DUP,DV,AEN Greeley,Tone,136.5 Hz,136.5 Hz,023,Both N,Off,8 8210 91.97 CO Weld Greeley WR0AEN,,,CQCQCQ,WR0AEN B,WR0AEN G,Filter 1,,,None,88.5 Hz,88.5 Hz,023,Both N,Filter 1,FM
+20,449.90000,444.90000,5.00 MHz,-DUP,FM,AFO Vail,T Sql,107.2 Hz,107.2 Hz,023,Both N,Off,8 243 121.91 CO Eagle Vail N0AFO,,,,,,Filter 1,,,None,88.5 Hz,88.5 Hz,023,Both N,Filter 1,FM
+21,147.42000,147.42000,,Simplex,FM,ALC Pueblo,Tone,100.0 Hz,100.0 Hz,023,Both N,Off,8 19723 151.55 CO Pueblo Pueblo W5ALC,,,,,,Filter 1,,,None,88.5 Hz,88.5 Hz,023,Both N,Filter 1,FM
 22,449.42500,444.42500,5.00 MHz,-DUP,FM,C3W Grand Lake,T Sql,103.5 Hz,103.5 Hz,023,Both N,Off,8 18131 103.07 CO Clear Creek Grand Lake WC3W,,,,,,Filter 1,,,None,88.5 Hz,88.5 Hz,023,Both N,Filter 1,FM
 23,447.45000,442.45000,5.00 MHz,-DUP,FM,CCC Winter Park,Tone,103.5 Hz,103.5 Hz,023,Both N,Off,8 3756 80.94 CO Grand Winter Park WA4CCC,,,,,,Filter 1,,,None,88.5 Hz,88.5 Hz,023,Both N,Filter 1,FM
 24,449.67500,444.67500,5.00 MHz,-DUP,FM,CGQ Querida,Tone,88.5 Hz,88.5 Hz,023,Both N,Off,8 18872 169.33 CO Custer Querida K0CGQ,,,,,,Filter 1,,,None,88.5 Hz,88.5 Hz,023,Both N,Filter 1,FM

@@ -9,7 +9,18 @@
   "Mode": "FM EchoLink IRLP",
   "Mi": 122.51,
   "Dir": "SSE",
-  "": "",
+  "": "Node Offline",
   "state_id": "04",
-  "ID": "17636"
+  "ID": "17636",
+  "Latitude": 34.52130127,
+  "Longitude": -114.33999634,
+  "County": "Mohave",
+  "Grid": "DM24tm",
+  "Op Status": "On-Air",
+  "Coverage": "Approx 40 miles around LHC 40 mi radius.",
+  "Mixed-Mode": "Yes; analog capable.",
+  "Analog Bandwidth": "",
+  "EchoLink": 100260,
+  "IRLP": 3970,
+  "Last update": "2020-11-02"
 }

@@ -3,11 +3,14 @@
   "StateID": 31,
   "Callsign": "W0FLO",
   "Location": {
+    "Latitude": 42.82649994,
+    "Longitude": -102.98999786,
+    "County": "Dawes",
     "State": "NE",
     "Local": "Chadron"
   },
   "Use": "Open",
-  "Status": "Other",
+  "Status": "On-Air",
   "Frequency": {
     "Input": 145.62,
     "Output": 145.62
@@ -16,6 +19,8 @@
     "Input": 100
   },
   "VOIP": {
-    "IRLP": {}
+    "IRLP": {
+      "NodeID": 3936
+    }
   }
 }

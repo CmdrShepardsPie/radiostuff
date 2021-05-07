@@ -1,2 +1,2 @@
 ID,StateID,Callsign,Use,Status,DigitalTone,Digital,Location.Latitude,Location.Longitude,Location.County,Location.State,Location.Local,Frequency.Input,Frequency.Output,SquelchTone.Input,SquelchTone.Output,VOIP.AllStar,VOIP.EchoLink,VOIP.Wires,VOIP.IRLP.NodeID
-11356,31,WD0BQM,Open,Other,,,,,,NE,Mitchell,445.1,445.1,100,,,,,
+11356,31,WD0BQM,Open,On-Air,,,41.95100021,-103.80000305,Scotts Bluff,NE,Mitchell,445.1,445.1,100,,,,,3942

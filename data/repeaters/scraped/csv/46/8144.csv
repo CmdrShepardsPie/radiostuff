@@ -1,2 +1,2 @@
-Frequency,Offset,Tone,Call,Location,ST/PR,Use,Mode,Mi,Dir,,state_id,ID
-146.475,0,146.2,W0FUI,Hot Springs,SD,OPEN,FM IRLP,193.96,N,,46,8144
+Frequency,Offset,Tone,Call,Location,ST/PR,Use,Mode,Mi,Dir,,state_id,ID,Latitude,Longitude,County,Grid,Op Status,Coverage,Sponsor,Features,Mixed-Mode,Analog Bandwidth,IRLP,Commands,Notes,Last update
+146.475,0,146.2,W0FUI,Hot Springs,SD,OPEN,FM IRLP,193.96,N,,46,8144,43.42509842,-103.48400116,Fall River,DN83GK,On-Air,More info on the coverage area would be helpful.,W0FUI,IRLP,Yes; analog capable.,,7976,IRLP: Connect- [node nbr] / Disconnect- 73.,Turns itself off every night. More control info on the website.,2015-07-11

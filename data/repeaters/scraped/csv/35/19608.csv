@@ -1,2 +1,2 @@
-Frequency,Offset,Tone,Call,Location,ST/PR,Use,Mode,Mi,Dir,,state_id,ID
-1299.9,0,,W5MPZ,"Albuquerque, Sandia Crest",NM,OPEN,DSTAR,190.89,SSW,,35,19608
+Frequency,Offset,Tone,Call,Location,ST/PR,Use,Mode,Mi,Dir,,state_id,ID,Latitude,Longitude,D-STAR Enabled,Node,Sources,County,Grid,Op Status,Sponsor,Notes,Last update
+1299.9,0,,W5MPZ,"Albuquerque, Sandia Crest",NM,OPEN,DSTAR,190.89,SSW,,35,19608,35.2102777,-106.4497222,1,W5MPZ (A) Gateway Repeater,jfindu lookup / dstar-users lookup,Bernalillo,DM65SF,On-Air,KA8JMW,Data,2021-02-10

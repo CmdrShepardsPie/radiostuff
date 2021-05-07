@@ -1,2 +1,2 @@
 ID,StateID,Callsign,Use,Status,DigitalTone,Digital,Location.Latitude,Location.Longitude,Location.County,Location.State,Location.Local,Frequency.Input,Frequency.Output,SquelchTone.Input,SquelchTone.Output,VOIP.AllStar,VOIP.EchoLink,VOIP.Wires,VOIP.IRLP.NodeID
-11357,31,W0FLO,Open,Other,,,,,,NE,Chadron,145.62,145.62,100,,,,,
+11357,31,W0FLO,Open,On-Air,,,42.82649994,-102.98999786,Dawes,NE,Chadron,145.62,145.62,100,,,,,3936

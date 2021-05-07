@@ -34,15 +34,15 @@ Channel Number,Receive Frequency,Transmit Frequency,Offset Frequency,Offset Dire
 33,449.67500,444.67500,5.00 MHz,-DUP,DV,AEN Denver,Tone,136.5 Hz,136.5 Hz,023,Both N,Off,8 8213 153.02 CO Denver Denver WR0AEN,,,CQCQCQ,WR0AEN B,WR0AEN G,Filter 1,,,None,88.5 Hz,88.5 Hz,023,Both N,Filter 1,FM
 34,147.36000,147.96000,600 kHz,+DUP,FM,ALC Cedaredge,Tone,100.0 Hz,100.0 Hz,023,Both N,Off,8 3749 133.70 CO Delta Cedaredge W0ALC,,,,,,Filter 1,,,None,88.5 Hz,88.5 Hz,023,Both N,Filter 1,FM
 35,449.82500,444.82500,5.00 MHz,-DUP,FM,ALC Cedaredge,Tone,100.0 Hz,100.0 Hz,023,Both N,Off,8 3760 133.70 CO Delta Cedaredge W0ALC,,,,,,Filter 1,,,None,88.5 Hz,88.5 Hz,023,Both N,Filter 1,FM
-36,448.95000,443.95000,5.00 MHz,-DUP,DV,Black Forest,None,100.0 Hz,100.0 Hz,023,Both N,Off,8 17551 146.40 CO El Paso Black Forest,,,CQCQCQ,,,Filter 1,,,None,88.5 Hz,88.5 Hz,023,Both N,Filter 1,FM
-37,449.42500,444.42500,5.00 MHz,-DUP,FM,C3W Grand Lake,T Sql,103.5 Hz,103.5 Hz,023,Both N,Off,8 18131 157.39 CO Clear Creek Grand Lake WC3W,,,,,,Filter 1,,,None,88.5 Hz,88.5 Hz,023,Both N,Filter 1,FM
-38,147.15000,147.75000,600 kHz,+DUP,FM,CBI Golden Guy Hill,T Sql,100.0 Hz,100.0 Hz,023,Both N,Off,8 133 134.28 CO Jefferson Golden Guy Hill W0CBI,,,,,,Filter 1,,,None,88.5 Hz,88.5 Hz,023,Both N,Filter 1,FM
-39,145.46000,144.86000,600 kHz,-DUP,FM,CRA Boulder Eldorado Mountain,T Sql,107.2 Hz,107.2 Hz,023,Both N,Off,8 8 158.74 CO Boulder Boulder Eldorado Mountain W0CRA,,,,,,Filter 1,,,None,88.5 Hz,88.5 Hz,023,Both N,Filter 1,FM
-40,447.97500,442.97500,5.00 MHz,-DUP,FM,CRA Boulder Eldorado Mountain,T Sql,107.2 Hz,107.2 Hz,023,Both N,Off,8 20 158.74 CO Boulder Boulder Eldorado Mountain W0CRA,,,,,,Filter 1,,,None,88.5 Hz,88.5 Hz,023,Both N,Filter 1,FM
-41,447.35000,442.35000,5.00 MHz,-DUP,FM,Cedaredge Grand Mesa,Tone,107.2 Hz,107.2 Hz,023,Both N,Off,8 3755 138.20 CO Delta Cedaredge Grand Mesa,,,,,,Filter 1,,,None,88.5 Hz,88.5 Hz,023,Both N,Filter 1,FM
-42,448.07500,443.07500,5.00 MHz,-DUP,FM,EHP Denver,Tone,123.0 Hz,123.0 Hz,023,Both N,Off,8 91 153.20 CO Denver Denver N5EHP,,,,,,Filter 1,,,None,88.5 Hz,88.5 Hz,023,Both N,Filter 1,FM
-43,448.75000,443.75000,5.00 MHz,-DUP,FM,ELY Lakewood,T Sql,100.0 Hz,100.0 Hz,023,Both N,Off,8 8204 141.52 CO Jefferson Lakewood N0ELY,,,,,,Filter 1,,,None,88.5 Hz,88.5 Hz,023,Both N,Filter 1,FM
-44,147.27000,147.87000,600 kHz,+DUP,FM,ENO Longmont,T Sql,100.0 Hz,100.0 Hz,023,Both N,Off,8 175 179.58 CO Boulder Longmont W0ENO,,,,,,Filter 1,,,None,88.5 Hz,88.5 Hz,023,Both N,Filter 1,FM
+36,147.42000,147.42000,,Simplex,FM,ALC Pueblo,Tone,100.0 Hz,100.0 Hz,023,Both N,Off,8 19723 170.52 CO Pueblo Pueblo W5ALC,,,,,,Filter 1,,,None,88.5 Hz,88.5 Hz,023,Both N,Filter 1,FM
+37,448.95000,443.95000,5.00 MHz,-DUP,DV,Black Forest,None,100.0 Hz,100.0 Hz,023,Both N,Off,8 17551 146.40 CO El Paso Black Forest,,,CQCQCQ,,,Filter 1,,,None,88.5 Hz,88.5 Hz,023,Both N,Filter 1,FM
+38,449.42500,444.42500,5.00 MHz,-DUP,FM,C3W Grand Lake,T Sql,103.5 Hz,103.5 Hz,023,Both N,Off,8 18131 157.39 CO Clear Creek Grand Lake WC3W,,,,,,Filter 1,,,None,88.5 Hz,88.5 Hz,023,Both N,Filter 1,FM
+39,147.15000,147.75000,600 kHz,+DUP,FM,CBI Golden Guy Hill,T Sql,100.0 Hz,100.0 Hz,023,Both N,Off,8 133 134.28 CO Jefferson Golden Guy Hill W0CBI,,,,,,Filter 1,,,None,88.5 Hz,88.5 Hz,023,Both N,Filter 1,FM
+40,145.46000,144.86000,600 kHz,-DUP,FM,CRA Boulder Eldorado Mountain,T Sql,107.2 Hz,107.2 Hz,023,Both N,Off,8 8 158.74 CO Boulder Boulder Eldorado Mountain W0CRA,,,,,,Filter 1,,,None,88.5 Hz,88.5 Hz,023,Both N,Filter 1,FM
+41,447.97500,442.97500,5.00 MHz,-DUP,FM,CRA Boulder Eldorado Mountain,T Sql,107.2 Hz,107.2 Hz,023,Both N,Off,8 20 158.74 CO Boulder Boulder Eldorado Mountain W0CRA,,,,,,Filter 1,,,None,88.5 Hz,88.5 Hz,023,Both N,Filter 1,FM
+42,447.35000,442.35000,5.00 MHz,-DUP,FM,Cedaredge Grand Mesa,Tone,107.2 Hz,107.2 Hz,023,Both N,Off,8 3755 138.20 CO Delta Cedaredge Grand Mesa,,,,,,Filter 1,,,None,88.5 Hz,88.5 Hz,023,Both N,Filter 1,FM
+43,448.07500,443.07500,5.00 MHz,-DUP,FM,EHP Denver,Tone,123.0 Hz,123.0 Hz,023,Both N,Off,8 91 153.20 CO Denver Denver N5EHP,,,,,,Filter 1,,,None,88.5 Hz,88.5 Hz,023,Both N,Filter 1,FM
+44,448.75000,443.75000,5.00 MHz,-DUP,FM,ELY Lakewood,T Sql,100.0 Hz,100.0 Hz,023,Both N,Off,8 8204 141.52 CO Jefferson Lakewood N0ELY,,,,,,Filter 1,,,None,88.5 Hz,88.5 Hz,023,Both N,Filter 1,FM
 45,447.52500,442.52500,5.00 MHz,-DUP,FM,ESQ Parker Hess Reservoir,Tone,203.5 Hz,146.2 Hz,023,Both N,Off,8 8189 149.41 CO Douglas Parker Hess Reservoir N0ESQ,,,,,,Filter 1,,,None,88.5 Hz,88.5 Hz,023,Both N,Filter 1,FM
 46,447.92500,442.92500,5.00 MHz,-DUP,FM,FEZ Denver,T Sql,100.0 Hz,100.0 Hz,023,Both N,Off,8 8196 153.02 CO Denver Denver K0FEZ,,,,,,Filter 1,,,None,88.5 Hz,88.5 Hz,023,Both N,Filter 1,FM
 47,448.15000,443.15000,5.00 MHz,-DUP,FM,FUN Denver Green Valley Ranch,T Sql,141.3 Hz,141.3 Hz,023,Both N,Off,8 9765 173.21 CO Denver Denver Green Valley Ranch WE0FUN,,,,,,Filter 1,,,None,88.5 Hz,88.5 Hz,023,Both N,Filter 1,FM

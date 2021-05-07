@@ -113,22 +113,33 @@ var __importDefault = (this && this.__importDefault) || function (mod) {
             const data = {};
             data.state_id = keyParts[1];
             data.ID = keyParts[2];
-            const menus = [...dom.window.document.querySelectorAll('#cssmenu a')];
-            const locationRegex = /(-?\d*\.?\d*)\+(-?\d*\.?\d*)/i;
-            for (const menu of menus) {
-                const locationMatch = menu.href.match(locationRegex);
-                if (locationMatch) {
-                    const lat = helper_1.getNumber(locationMatch[1]);
-                    const long = helper_1.getNumber(locationMatch[2]);
-                    if (!isNaN(lat)) {
-                        data.Latitude = lat;
-                    }
-                    if (!isNaN(long)) {
-                        data.Longitude = long;
-                    }
-                    break;
+            // const menus: HTMLAnchorElement[] = [...dom.window.document.querySelectorAll<HTMLAnchorElement>('#cssmenu a')];
+            const locationRegex = /marker\(\[(-?\d+\.?\d*), (-?\d+\.?\d*)\]/i;
+            const locationMatch = page.match(locationRegex);
+            if (locationMatch) {
+                const lat = helper_1.getNumber(locationMatch[1]);
+                const long = helper_1.getNumber(locationMatch[2]);
+                if (!isNaN(lat)) {
+                    data.Latitude = lat;
+                }
+                if (!isNaN(long)) {
+                    data.Longitude = long;
                 }
             }
+            // for (const menu of menus) {
+            //   const locationMatch: RegExpMatchArray | null = menu.href.match(locationRegex);
+            //   if (locationMatch) {
+            //     const lat: number = getNumber(locationMatch[1]);
+            //     const long: number = getNumber(locationMatch[2]);
+            //     if (!isNaN(lat)) {
+            //       data.Latitude = lat;
+            //     }
+            //     if (!isNaN(long)) {
+            //       data.Longitude = long;
+            //     }
+            //     break;
+            //   }
+            // }
             const table = dom.window.document.querySelector('table.w3-table.w3-responsive');
             if (table) {
                 const rows = [...table.querySelectorAll('tbody > tr')];

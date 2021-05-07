@@ -1,2 +1,2 @@
-Frequency,Offset,Tone,Call,Location,ST/PR,Use,Mode,Mi,Dir,,state_id,ID
-147.5,0,,KE7ZIW,Lake Havasu City,AZ,OPEN,FM EchoLink IRLP,122.51,SSE,,04,17636
+Frequency,Offset,Tone,Call,Location,ST/PR,Use,Mode,Mi,Dir,,state_id,ID,Latitude,Longitude,County,Grid,Op Status,Coverage,Mixed-Mode,Analog Bandwidth,EchoLink,IRLP,Last update
+147.5,0,,KE7ZIW,Lake Havasu City,AZ,OPEN,FM EchoLink IRLP,122.51,SSE,Node Offline,04,17636,34.52130127,-114.33999634,Mohave,DM24tm,On-Air,Approx 40 miles around LHC 40 mi radius.,Yes; analog capable.,,100260,3970,2020-11-02

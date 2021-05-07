@@ -11,5 +11,19 @@
   "Dir": "N",
   "": "",
   "state_id": "46",
-  "ID": "8144"
+  "ID": "8144",
+  "Latitude": 43.42509842,
+  "Longitude": -103.48400116,
+  "County": "Fall River",
+  "Grid": "DN83GK",
+  "Op Status": "On-Air",
+  "Coverage": "More info on the coverage area would be helpful.",
+  "Sponsor": "W0FUI",
+  "Features": "IRLP",
+  "Mixed-Mode": "Yes; analog capable.",
+  "Analog Bandwidth": "",
+  "IRLP": 7976,
+  "Commands": "IRLP: Connect- [node nbr] / Disconnect- 73.",
+  "Notes": "Turns itself off every night. More control info on the website.",
+  "Last update": "2015-07-11"
 }

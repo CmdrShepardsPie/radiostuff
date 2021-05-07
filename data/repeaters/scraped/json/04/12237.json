@@ -11,5 +11,17 @@
   "Dir": "SE",
   "": "",
   "state_id": "04",
-  "ID": "12237"
+  "ID": "12237",
+  "Latitude": 35.18939972,
+  "Longitude": -114.0530014,
+  "D-STAR Enabled": true,
+  "Node": "W7KDS (A) Gateway Repeater",
+  "Sources": "jfindu lookup / dstar-users lookup",
+  "County": "Mohave",
+  "Grid": "DM25XE",
+  "Op Status": "On-Air",
+  "Sponsor": "Northern Arizona Digital Repeater System",
+  "Features": "Emergency Power",
+  "Web links": "W7KDS",
+  "Last update": "2021-02-19"
 }

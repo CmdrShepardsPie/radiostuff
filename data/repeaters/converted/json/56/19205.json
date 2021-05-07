@@ -3,11 +3,14 @@
   "StateID": 56,
   "Callsign": "KB3EQN",
   "Location": {
+    "Latitude": 41.21004,
+    "Longitude": -104.81722,
+    "County": "Laramie",
     "State": "WY",
     "Local": "Cheyenne, Ranchettes"
   },
   "Use": "Open",
-  "Status": "Other",
+  "Status": "Testing",
   "Frequency": {
     "Input": 224.7,
     "Output": 224.7
@@ -16,6 +19,8 @@
     "Input": 85.4
   },
   "VOIP": {
-    "AllStar": {}
+    "AllStar": {
+      "NodeID": 455131
+    }
   }
 }

@@ -11,5 +11,13 @@
   "Dir": "SSW",
   "": "",
   "state_id": "35",
-  "ID": "16629"
+  "ID": "16629",
+  "Latitude": 35.88000107,
+  "Longitude": -106.3030014,
+  "County": "Los Alamos",
+  "Op Status": "On-Air",
+  "Mixed-Mode": "Yes; analog capable.",
+  "Analog Bandwidth": "",
+  "IRLP": 8039,
+  "Last update": "2017-12-08"
 }

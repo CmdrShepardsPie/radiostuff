@@ -3,11 +3,14 @@
   "StateID": 4,
   "Callsign": "WB7BYV",
   "Location": {
+    "Latitude": 34.64889908,
+    "Longitude": -112.42700195,
+    "County": "Yavapai",
     "State": "AZ",
     "Local": "Prescott, Airport"
   },
   "Use": "Open",
-  "Status": "Other",
+  "Status": "On-Air",
   "Frequency": {
     "Input": 927.5875,
     "Output": 927.5875
@@ -16,7 +19,11 @@
     "Input": 131.8
   },
   "VOIP": {
-    "AllStar": {},
-    "EchoLink": {}
+    "AllStar": {
+      "NodeID": 29976
+    },
+    "EchoLink": {
+      "NodeID": 204752
+    }
   }
 }

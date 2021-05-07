@@ -3,6 +3,9 @@
   "StateID": 35,
   "Callsign": "W5SCA",
   "Location": {
+    "Latitude": 35.08440018,
+    "Longitude": -106.65000153,
+    "County": "Bernalillo",
     "State": "NM",
     "Local": "Albuquerque, Sandia Crest"
   },

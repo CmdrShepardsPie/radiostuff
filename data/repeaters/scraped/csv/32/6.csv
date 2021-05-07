@@ -1,2 +1,2 @@
-Frequency,Offset,Tone,Call,Location,ST/PR,Use,Mode,Mi,Dir,,state_id,ID
-53.25,0,100,W7LKO,"Elko, Grindstone Mountain",NV,OPEN,FM,108.4,W,,32,6
+Frequency,Offset,Tone,Call,Location,ST/PR,Use,Mode,Mi,Dir,,state_id,ID,Latitude,Longitude,County,Grid,On-air,Coverage,Sponsor,Affiliate,Mixed-Mode,Analog Bandwidth,Links,Notes,Last update
+53.25,0,100,W7LKO,"Elko, Grindstone Mountain",NV,OPEN,FM,108.4,W,,32,6,40.69779968,-115.90299988,Elko,DN20BQ,Unknown,Elko.,EARC,Elko ARC,Yes; analog capable.,,,7,2017-12-26

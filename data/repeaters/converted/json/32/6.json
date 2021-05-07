@@ -3,6 +3,9 @@
   "StateID": 32,
   "Callsign": "W7LKO",
   "Location": {
+    "Latitude": 40.69779968,
+    "Longitude": -115.90299988,
+    "County": "Elko",
     "State": "NV",
     "Local": "Elko, Grindstone Mountain"
   },

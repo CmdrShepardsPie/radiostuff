@@ -1,2 +1,2 @@
-Frequency,Offset,Tone,Call,Location,ST/PR,Use,Mode,Mi,Dir,,state_id,ID
-144.265,0,203.5,KC2HSO,Los Alamos,NM,OPEN,FM IRLP,162.49,SSW,,35,16629
+Frequency,Offset,Tone,Call,Location,ST/PR,Use,Mode,Mi,Dir,,state_id,ID,Latitude,Longitude,County,Op Status,Mixed-Mode,Analog Bandwidth,IRLP,Last update
+144.265,0,203.5,KC2HSO,Los Alamos,NM,OPEN,FM IRLP,162.49,SSW,,35,16629,35.88000107,-106.3030014,Los Alamos,On-Air,Yes; analog capable.,,8039,2017-12-08

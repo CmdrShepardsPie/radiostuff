@@ -9,7 +9,18 @@
   "Mode": "FM AllStar EchoLink",
   "Mi": 183.41,
   "Dir": "SW",
-  "": "",
+  "": "Node Offline",
   "state_id": "35",
-  "ID": "15944"
+  "ID": "15944",
+  "Latitude": 35.09460068,
+  "Longitude": -106.5510025,
+  "County": "Bernalillo",
+  "Grid": "DM65RC",
+  "Op Status": "On-Air",
+  "Mixed-Mode": "Yes; analog capable.",
+  "Analog Bandwidth": "",
+  "EchoLink": 465010,
+  "AllStar": 28239,
+  "Web links": "http://www.w5mhg.com",
+  "Last update": "2017-07-21"
 }

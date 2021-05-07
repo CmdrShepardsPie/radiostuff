@@ -77,46 +77,46 @@ Location,Name,Frequency,Duplex,Offset,Tone,rToneFreq,cToneFreq,DtcsCode,DtcsRxCo
 75,AEN Idaho Springs Squaw Mountain,449,split,444,TSQL,136.5,136.5,23,23,NN,FM,5,8 8250 45.74 CO Clear Creek Idaho Springs Squaw Mountain WR0AEN
 76,AFO Vail,224.8,split,223.2,,100,100,23,23,NN,FM,5,8 242 121.91 CO Eagle Vail N0AFO
 77,AFO Vail,449.9,split,444.9,TSQL,107.2,107.2,23,23,NN,FM,5,8 243 121.91 CO Eagle Vail N0AFO
-78,ARA Critchell Critchell Mountain,147.12,split,147.72,TSQL,88.5,88.5,23,23,NN,FM,5,8 59 36.31 CO Jefferson Critchell Critchell Mountain N0ARA
-79,C3W Grand Lake,449.425,split,444.425,TSQL,103.5,103.5,23,23,NN,FM,5,8 18131 103.07 CO Clear Creek Grand Lake WC3W
-80,CBI Golden Guy Hill,147.15,split,147.75,TSQL,100,100,23,23,NN,FM,5,8 133 36.92 CO Jefferson Golden Guy Hill W0CBI
-81,CCC Winter Park,447.45,split,442.45,Tone,103.5,103.5,23,23,NN,FM,5,8 3756 80.94 CO Grand Winter Park WA4CCC
-82,CFI Idaho Springs Squaw Mountain,448.675,split,443.675,TSQL,100,100,23,23,NN,FM,5,8 94 46.48 CO Denver Idaho Springs Squaw Mountain W0CFI
-83,CRA Boulder Eldorado Mountain,145.46,split,144.86,TSQL,107.2,107.2,23,23,NN,FM,5,8 8 61.19 CO Boulder Boulder Eldorado Mountain W0CRA
-84,CRA Boulder Eldorado Mountain,447.975,split,442.975,TSQL,107.2,107.2,23,23,NN,FM,5,8 20 61.19 CO Boulder Boulder Eldorado Mountain W0CRA
-85,CRA Colorado Springs Cheyenne Mo,145.16,split,144.56,TSQL,107.2,107.2,23,23,NN,FM,5,8 38 98.04 CO El Paso Colorado Springs Cheyenne Mountain W0CRA
-86,CRA Idaho Springs Squaw Mountain,145.145,split,144.545,TSQL,107.2,107.2,23,23,NN,FM,5,8 107 46.85 CO Clear Creek Idaho Springs Squaw Mountain W0CRA
-87,CRA Idaho Springs Squaw Mountain,447.575,split,442.575,TSQL,107.2,107.2,23,23,NN,FM,5,8 264 46.85 CO Clear Creek Idaho Springs Squaw Mountain W0CRA
-88,CRA Larkspur Westcreek,147.225,split,147.825,TSQL,107.2,107.2,23,23,NN,FM,5,8 83 49.63 CO Douglas Larkspur Westcreek W0CRA
-89,CRA Larkspur Westcreek,448.425,split,443.425,TSQL,107.2,107.2,23,23,NN,FM,5,8 16547 49.63 CO Douglas Larkspur Westcreek W0CRA
-90,CVU Colorado Springs Cheyenne Mo,146.76,split,146.16,TSQL,107.2,107.2,23,23,NN,FM,5,8 41 98.04 CO El Paso Colorado Springs Cheyenne Mountain KC0CVU
-91,CVU Colorado Springs Cheyenne Mo,147.345,split,147.945,TSQL,107.2,107.2,23,23,NN,FM,5,8 47 98.04 CO El Paso Colorado Springs Cheyenne Mountain KC0CVU
-92,CVU Colorado Springs Cheyenne Mo,448,split,443,Tone,107.2,107.2,23,23,NN,FM,5,8 269 98.04 CO El Paso Colorado Springs Cheyenne Mountain KC0CVU
-93,CVU Colorado Springs Cheyenne Mo,448.1,split,443.1,TSQL,107.2,107.2,23,23,NN,FM,5,8 53 98.04 CO El Paso Colorado Springs Cheyenne Mountain KC0CVU
-94,CVU Lake George Badger Mountain,147.36,split,147.96,TSQL,107.2,107.2,23,23,NN,FM,5,8 170 79.52 CO Park Lake George Badger Mountain KC0CVU
-95,DUN Idaho Springs Squaw Mountain,449.45,split,444.45,Cross,103.5,127.3,23,23,NN,FM,5,8 99 46.93 CO Clear Creek Idaho Springs Squaw Mountain K1DUN
-96,EHP Denver,448.075,split,443.075,Tone,123,123,23,23,NN,FM,5,8 91 13.86 CO Denver Denver N5EHP
-97,EKR Canon City Fremont Peak,145.49,split,144.89,TSQL,103.5,103.5,23,23,NN,FM,5,8 30 132.60 CO Fremont Canon City Fremont Peak WD0EKR
-98,EKR Canon City Fremont Peak,223.96,split,222.36,TSQL,103.5,103.5,23,23,NN,FM,5,8 31 132.60 CO Fremont Canon City Fremont Peak WD0EKR
-99,EKR Canon City Fremont Peak,447.75,split,442.75,TSQL,103.5,103.5,23,23,NN,FM,5,8 32 132.60 CO Fremont Canon City Fremont Peak WD0EKR
-100,ELY Lakewood,448.75,split,443.75,TSQL,100,100,23,23,NN,FM,5,8 8204 17.65 CO Jefferson Lakewood N0ELY
-101,ENO Longmont,147.27,split,147.87,TSQL,100,100,23,23,NN,FM,5,8 175 62.06 CO Boulder Longmont W0ENO
-102,ENO Longmont,448.8,split,443.8,TSQL,88.5,88.5,23,23,NN,FM,5,8 177 62.48 CO Boulder Longmont W0ENO
-103,EPA Longmont,448.525,split,443.525,Tone,151.4,151.4,23,23,NN,FM,5,8 176 62.48 CO Boulder Longmont N0EPA
-104,EPS Woodland Park Paradise Pines,449.325,split,444.325,TSQL,103.5,103.5,23,23,NN,FM,5,8 9503 70.44 CO Teller Woodland Park Paradise Pines KA4EPS
-105,ESQ Castle Rock Devils Head (Pik,447.525,split,442.525,TSQL,146.2,146.2,23,23,NN,FM,5,8 8190 41.62 CO Douglas Castle Rock Devils Head (Pike National Forest) N0ESQ
-106,ESQ Parker Hess Reservoir,447.525,split,442.525,Cross,203.5,146.2,23,23,NN,FM,5,8 8189 16.85 CO Douglas Parker Hess Reservoir N0ESQ
-107,FEZ Denver,447.925,split,442.925,TSQL,100,100,23,23,NN,FM,5,8 8196 13.70 CO Denver Denver K0FEZ
-108,FEZ Golden Centennial Cone,146.985,split,146.385,TSQL,100,100,23,23,NN,FM,5,8 82 38.03 CO Denver Golden Centennial Cone K0FEZ
-109,FUN Denver Green Valley Ranch,448.15,split,443.15,TSQL,141.3,141.3,23,23,NN,FM,5,8 9765 26.45 CO Denver Denver Green Valley Ranch WE0FUN
-110,G0N Idaho Springs Squaw Mountain,449.05,split,444.05,TSQL,107.2,107.2,23,23,NN,FM,5,8 95 50.17 CO Denver Idaho Springs Squaw Mountain WG0N
-111,GUQ Evergreen,145.34,split,144.74,Cross,103.5,127.3,23,23,NN,FM,5,8 73 31.41 CO Jefferson Evergreen KE4GUQ
-112,IBM Golden Guy Hill,448.85,split,443.85,TSQL,88.5,88.5,23,23,NN,FM,5,8 136 36.92 CO Jefferson Golden Guy Hill K0IBM
-113,IFI Colorado Springs,447.55,split,442.55,Tone,123,123,23,23,NN,FM,5,8 8191 87.81 CO El Paso Colorado Springs WA6IFI
-114,IRP Colorado Springs,146.91,split,146.31,TSQL,151.4,151.4,23,23,NN,FM,5,8 43 87.35 CO El Paso Colorado Springs K0IRP
-115,IRP Colorado Springs,447.35,split,442.35,Tone,151.4,151.4,23,23,NN,FM,5,8 50 87.81 CO El Paso Colorado Springs K0IRP
-116,J0T Pueblo,147.24,split,147.84,Tone,103.5,103.5,23,23,NN,FM,5,8 3747 156.96 CO Pueblo Pueblo KJ0T
-117,JJY Cheyenne Chalk Bluffs,449.3,split,444.3,TSQL,131.8,131.8,23,23,NN,FM,5,56 34 157.44 WY Laramie Cheyenne Chalk Bluffs N7JJY
+78,ALC Pueblo,147.42,,147.42,Tone,100,100,23,23,NN,FM,5,8 19723 151.55 CO Pueblo Pueblo W5ALC
+79,ARA Critchell Critchell Mountain,147.12,split,147.72,TSQL,88.5,88.5,23,23,NN,FM,5,8 59 36.31 CO Jefferson Critchell Critchell Mountain N0ARA
+80,C3W Grand Lake,449.425,split,444.425,TSQL,103.5,103.5,23,23,NN,FM,5,8 18131 103.07 CO Clear Creek Grand Lake WC3W
+81,CBI Golden Guy Hill,147.15,split,147.75,TSQL,100,100,23,23,NN,FM,5,8 133 36.92 CO Jefferson Golden Guy Hill W0CBI
+82,CCC Winter Park,447.45,split,442.45,Tone,103.5,103.5,23,23,NN,FM,5,8 3756 80.94 CO Grand Winter Park WA4CCC
+83,CFI Idaho Springs Squaw Mountain,448.675,split,443.675,TSQL,100,100,23,23,NN,FM,5,8 94 46.48 CO Denver Idaho Springs Squaw Mountain W0CFI
+84,CRA Boulder Eldorado Mountain,145.46,split,144.86,TSQL,107.2,107.2,23,23,NN,FM,5,8 8 61.19 CO Boulder Boulder Eldorado Mountain W0CRA
+85,CRA Boulder Eldorado Mountain,447.975,split,442.975,TSQL,107.2,107.2,23,23,NN,FM,5,8 20 61.19 CO Boulder Boulder Eldorado Mountain W0CRA
+86,CRA Colorado Springs Cheyenne Mo,145.16,split,144.56,TSQL,107.2,107.2,23,23,NN,FM,5,8 38 98.04 CO El Paso Colorado Springs Cheyenne Mountain W0CRA
+87,CRA Idaho Springs Squaw Mountain,145.145,split,144.545,TSQL,107.2,107.2,23,23,NN,FM,5,8 107 46.85 CO Clear Creek Idaho Springs Squaw Mountain W0CRA
+88,CRA Idaho Springs Squaw Mountain,447.575,split,442.575,TSQL,107.2,107.2,23,23,NN,FM,5,8 264 46.85 CO Clear Creek Idaho Springs Squaw Mountain W0CRA
+89,CRA Larkspur Westcreek,147.225,split,147.825,TSQL,107.2,107.2,23,23,NN,FM,5,8 83 49.63 CO Douglas Larkspur Westcreek W0CRA
+90,CRA Larkspur Westcreek,448.425,split,443.425,TSQL,107.2,107.2,23,23,NN,FM,5,8 16547 49.63 CO Douglas Larkspur Westcreek W0CRA
+91,CVU Colorado Springs Cheyenne Mo,146.76,split,146.16,TSQL,107.2,107.2,23,23,NN,FM,5,8 41 98.04 CO El Paso Colorado Springs Cheyenne Mountain KC0CVU
+92,CVU Colorado Springs Cheyenne Mo,147.345,split,147.945,TSQL,107.2,107.2,23,23,NN,FM,5,8 47 98.04 CO El Paso Colorado Springs Cheyenne Mountain KC0CVU
+93,CVU Colorado Springs Cheyenne Mo,448,split,443,Tone,107.2,107.2,23,23,NN,FM,5,8 269 98.04 CO El Paso Colorado Springs Cheyenne Mountain KC0CVU
+94,CVU Colorado Springs Cheyenne Mo,448.1,split,443.1,TSQL,107.2,107.2,23,23,NN,FM,5,8 53 98.04 CO El Paso Colorado Springs Cheyenne Mountain KC0CVU
+95,CVU Lake George Badger Mountain,147.36,split,147.96,TSQL,107.2,107.2,23,23,NN,FM,5,8 170 79.52 CO Park Lake George Badger Mountain KC0CVU
+96,DUN Idaho Springs Squaw Mountain,449.45,split,444.45,Cross,103.5,127.3,23,23,NN,FM,5,8 99 46.93 CO Clear Creek Idaho Springs Squaw Mountain K1DUN
+97,EHP Denver,448.075,split,443.075,Tone,123,123,23,23,NN,FM,5,8 91 13.86 CO Denver Denver N5EHP
+98,EKR Canon City Fremont Peak,145.49,split,144.89,TSQL,103.5,103.5,23,23,NN,FM,5,8 30 132.60 CO Fremont Canon City Fremont Peak WD0EKR
+99,EKR Canon City Fremont Peak,223.96,split,222.36,TSQL,103.5,103.5,23,23,NN,FM,5,8 31 132.60 CO Fremont Canon City Fremont Peak WD0EKR
+100,EKR Canon City Fremont Peak,447.75,split,442.75,TSQL,103.5,103.5,23,23,NN,FM,5,8 32 132.60 CO Fremont Canon City Fremont Peak WD0EKR
+101,ELY Lakewood,448.75,split,443.75,TSQL,100,100,23,23,NN,FM,5,8 8204 17.65 CO Jefferson Lakewood N0ELY
+102,ENO Longmont,147.27,split,147.87,TSQL,100,100,23,23,NN,FM,5,8 175 62.06 CO Boulder Longmont W0ENO
+103,ENO Longmont,448.8,split,443.8,TSQL,88.5,88.5,23,23,NN,FM,5,8 177 62.48 CO Boulder Longmont W0ENO
+104,EPA Longmont,448.525,split,443.525,Tone,151.4,151.4,23,23,NN,FM,5,8 176 62.48 CO Boulder Longmont N0EPA
+105,EPS Woodland Park Paradise Pines,449.325,split,444.325,TSQL,103.5,103.5,23,23,NN,FM,5,8 9503 70.44 CO Teller Woodland Park Paradise Pines KA4EPS
+106,ESQ Castle Rock Devils Head (Pik,447.525,split,442.525,TSQL,146.2,146.2,23,23,NN,FM,5,8 8190 41.62 CO Douglas Castle Rock Devils Head (Pike National Forest) N0ESQ
+107,ESQ Parker Hess Reservoir,447.525,split,442.525,Cross,203.5,146.2,23,23,NN,FM,5,8 8189 16.85 CO Douglas Parker Hess Reservoir N0ESQ
+108,FEZ Denver,447.925,split,442.925,TSQL,100,100,23,23,NN,FM,5,8 8196 13.70 CO Denver Denver K0FEZ
+109,FEZ Golden Centennial Cone,146.985,split,146.385,TSQL,100,100,23,23,NN,FM,5,8 82 38.03 CO Denver Golden Centennial Cone K0FEZ
+110,FUN Denver Green Valley Ranch,448.15,split,443.15,TSQL,141.3,141.3,23,23,NN,FM,5,8 9765 26.45 CO Denver Denver Green Valley Ranch WE0FUN
+111,G0N Idaho Springs Squaw Mountain,449.05,split,444.05,TSQL,107.2,107.2,23,23,NN,FM,5,8 95 50.17 CO Denver Idaho Springs Squaw Mountain WG0N
+112,GUQ Evergreen,145.34,split,144.74,Cross,103.5,127.3,23,23,NN,FM,5,8 73 31.41 CO Jefferson Evergreen KE4GUQ
+113,IBM Golden Guy Hill,448.85,split,443.85,TSQL,88.5,88.5,23,23,NN,FM,5,8 136 36.92 CO Jefferson Golden Guy Hill K0IBM
+114,IFI Colorado Springs,447.55,split,442.55,Tone,123,123,23,23,NN,FM,5,8 8191 87.81 CO El Paso Colorado Springs WA6IFI
+115,IRP Colorado Springs,146.91,split,146.31,TSQL,151.4,151.4,23,23,NN,FM,5,8 43 87.35 CO El Paso Colorado Springs K0IRP
+116,IRP Colorado Springs,447.35,split,442.35,Tone,151.4,151.4,23,23,NN,FM,5,8 50 87.81 CO El Paso Colorado Springs K0IRP
+117,J0T Pueblo,147.24,split,147.84,Tone,103.5,103.5,23,23,NN,FM,5,8 3747 156.96 CO Pueblo Pueblo KJ0T
 118,JRL Denver Denver Water Administ,447.175,split,442.175,TSQL,100,100,23,23,NN,FM,5,8 12216 14.04 CO Denver Denver Denver Water Administration W0JRL
 119,JSC Canon City Colorado,447.975,split,442.975,TSQL,100,100,23,23,NN,FM,5,8 7185 134.22 CO Fremont Canon City Colorado K0JSC
 120,JSC Canon City Fremont Peak,447.25,split,442.25,TSQL,100,100,23,23,NN,FM,5,8 8879 132.60 CO Fremont Canon City Fremont Peak K0JSC

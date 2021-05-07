@@ -11,5 +11,18 @@
   "Dir": "SW",
   "": "",
   "state_id": "08",
-  "ID": "19723"
+  "ID": "19723",
+  "Latitude": 38.2859715,
+  "Longitude": -104.5753063,
+  "Bandwidth": 25,
+  "County": "Pueblo",
+  "Grid": "DM78RG",
+  "Op Status": "On-Air",
+  "Coverage": 5,
+  "Mixed-Mode": "Yes; analog capable.",
+  "Analog Bandwidth": 25,
+  "AllStar": 49947,
+  "Commands": "*3 + any allstar node number to connect *1 + allstar node number to disconnect",
+  "Notes": "Node 499470",
+  "Last update": "2021-02-05"
 }

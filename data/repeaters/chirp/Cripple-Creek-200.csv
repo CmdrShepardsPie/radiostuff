@@ -78,8 +78,8 @@ Location,Name,Frequency,Duplex,Offset,Tone,rToneFreq,cToneFreq,DtcsCode,DtcsRxCo
 76,AEN Idaho Springs Squaw Mountain,449,split,444,TSQL,136.5,136.5,23,23,NN,FM,5,8 8250 106.25 CO Clear Creek Idaho Springs Squaw Mountain WR0AEN
 77,AFO Vail,224.8,split,223.2,,100,100,23,23,NN,FM,5,8 242 143.15 CO Eagle Vail N0AFO
 78,AFO Vail,449.9,split,444.9,TSQL,107.2,107.2,23,23,NN,FM,5,8 243 143.15 CO Eagle Vail N0AFO
-79,ARA Critchell Critchell Mountain,147.12,split,147.72,TSQL,88.5,88.5,23,23,NN,FM,5,8 59 86.73 CO Jefferson Critchell Critchell Mountain N0ARA
-80,C3W Grand Lake,449.425,split,444.425,TSQL,103.5,103.5,23,23,NN,FM,5,8 18131 175.60 CO Clear Creek Grand Lake WC3W
+79,ALC Pueblo,147.42,,147.42,Tone,100,100,23,23,NN,FM,5,8 19723 73.32 CO Pueblo Pueblo W5ALC
+80,ARA Critchell Critchell Mountain,147.12,split,147.72,TSQL,88.5,88.5,23,23,NN,FM,5,8 59 86.73 CO Jefferson Critchell Critchell Mountain N0ARA
 81,CBI Golden Guy Hill,147.15,split,147.75,TSQL,100,100,23,23,NN,FM,5,8 133 115.32 CO Jefferson Golden Guy Hill W0CBI
 82,CCC Winter Park,447.45,split,442.45,Tone,103.5,103.5,23,23,NN,FM,5,8 3756 143.65 CO Grand Winter Park WA4CCC
 83,CFI Idaho Springs Squaw Mountain,448.675,split,443.675,TSQL,100,100,23,23,NN,FM,5,8 94 106.88 CO Denver Idaho Springs Squaw Mountain W0CFI
