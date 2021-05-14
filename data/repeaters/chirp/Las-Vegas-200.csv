@@ -71,8 +71,8 @@ Location,Name,Frequency,Duplex,Offset,Tone,rToneFreq,cToneFreq,DtcsCode,DtcsRxCo
 69,CCH Las Vegas,449.6,split,444.6,TSQL,107.2,107.2,23,23,NN,FM,5,32 11354 10.85 NV Clark Las Vegas KE7CCH
 70,CDF Landers Goat Mountain,447.58,split,442.58,Tone,173.8,173.8,23,23,NN,FM,5,6 1004 235.44 CA San Bernardino Landers Goat Mountain WB6CDF
 71,CDF Yucca Valley Yucca Mesa Area,147.705,split,147.105,Tone,123,123,23,23,NN,FM,5,6 11844 240.70 CA San Bernardino Yucca Valley Yucca Mesa Area WB6CDF
-72,CTR Sylmar Contractor's Point,445.16,split,440.16,Tone,100,100,23,23,NN,FM,5,6 18064 226.63 CA Los Angeles Sylmar Contractor's Point W6CTR
-73,CTR Sylmar Contractor's Point,445.16,split,440.16,Tone,100,100,23,23,NN,FM,5,6 18065 226.63 CA Los Angeles Sylmar Contractor's Point W6CTR
+72,CTR Sylmar Contractor's Point,445.16,split,440.16,Tone,100,100,23,23,NN,FM,5,6 18065 226.63 CA Los Angeles Sylmar Contractor's Point W6CTR
+73,CTR Sylmar Contractor's Point,445.16,split,440.16,Tone,100,100,23,23,NN,FM,5,6 18064 226.63 CA Los Angeles Sylmar Contractor's Point W6CTR
 74,CYC Las Vegas Sunrise Mountain,449.675,split,444.675,Tone,192.8,192.8,23,23,NN,FM,5,32 166 21.49 NV Clark Las Vegas Sunrise Mountain WA7CYC
 75,CYC North Las Vegas,146.67,split,146.07,Tone,136.5,136.5,23,23,NN,FM,5,32 35 12.87 NV Clark North Las Vegas WA7CYC
 76,D7M Pahrump,147.36,split,147.96,,100,100,23,23,NN,FM,5,32 16275 73.56 NV Nye Pahrump ND7M
