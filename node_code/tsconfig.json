@@ -11,12 +11,12 @@
     "preserveConstEnums": true,
     "pretty": true,
     "strict": true,
-    "declaration": false,
-    "declarationMap": false,
+    "declaration": true,
+    "declarationMap": true,
+    "sourceMap": true,
     "inlineSourceMap": false,
     "inlineSources": false,
-    "baseUrl": "./src",
-    "outDir": "./dist",
+    "baseUrl": "code",
     "lib": [
       "esnext",
       "dom",
@@ -27,8 +27,5 @@
       "@scripts/*": ["scripts/*"],
       "@interfaces/*": ["interfaces/*"]
     }
-  },
-  "exclude": [
-    "./dist"
-  ]
+  }
 }
