@@ -10,9 +10,9 @@
   "author": "Christopher Simpson <github@nilk.net>",
   "license": "ISC",
   "_moduleAliases": {
-    "@helpers": "dist/helpers",
-    "@scripts": "dist/scripts",
-    "@interfaces": "dist/interfaces"
+    "@helpers": "code/helpers",
+    "@scripts": "code/scripts",
+    "@interfaces": "code/interfaces"
   },
   "dependencies": {
     "axios": "0.21.1",
